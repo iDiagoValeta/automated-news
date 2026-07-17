@@ -38,14 +38,6 @@ export default function (eleventyConfig) {
     return `${capitalizar(MESES[m - 1])} de ${y}`;
   });
 
-  // Etiqueta legible del proveedor para la dateline.
-  eleventyConfig.addFilter("proveedorLabel", (p) => {
-    if (p === "deepseek") return "DeepSeek";
-    if (p === "claude-code") return "Claude Code";
-    if (p === "seed") return "edición de ejemplo";
-    return p;
-  });
-
   // Agrupa ediciones (ya ordenadas desc) por año-mes para el archivo.
   eleventyConfig.addFilter("agrupaPorMes", (editions) => {
     const groups = new Map();

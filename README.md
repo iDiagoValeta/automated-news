@@ -1,106 +1,87 @@
-# Diario IA
+# La Terminal
 
-Web estática que cada mañana amanece con una edición nueva: **8-10 noticias de IA de las últimas 24 horas**, curadas y resumidas **en español**, con enlace a la fuente original y un archivo histórico navegable por fechas. Todo vive en este repositorio y se ejecuta con **GitHub Actions** (cron diario) + **GitHub Pages**. Sin servidores ni base de datos.
+Diario estático de noticias de tecnología en español. Cada mañana publica una edición con las 8 a 10 noticias más relevantes del día, resumidas y con enlace a la fuente original, más un archivo histórico navegable por fechas. Se genera con un workflow de GitHub Actions y se sirve en GitHub Pages. No hay servidores ni base de datos.
 
-- **Sitio en vivo:** https://idiagovaleta.github.io/automated-news/
-- **Especificación completa:** [SPEC.md](SPEC.md)
+- Sitio: https://idiagovaleta.github.io/automated-news/
+- Especificación original del proyecto: [SPEC.md](SPEC.md)
 
 ## Cómo funciona
 
-Pipeline determinista de 5 pasos (un único script orquestador, [`pipeline/index.ts`](pipeline/index.ts)):
+Un único script orquestador ([`pipeline/index.ts`](pipeline/index.ts)) ejecuta cinco pasos:
 
-1. **Recogida** — lee las fuentes de [`config/sources.json`](config/sources.json) (RSS de blogs oficiales, RSS de medios y la API de Hacker News) y se queda con lo publicado en las últimas 24 h. Tolerante a fallos: si una fuente cae, se registra y se continúa; solo aborta si fallan **todas**.
-2. **Normalización** — formato común `{ title, snippet, url, source, published_at }` + deduplicación por URL canónica.
-3. **Curación (LLM)** — una llamada al proveedor configurado devuelve el digest del día (JSON). El LLM **elige y redacta en español**, nunca inventa URLs.
-4. **Validación** — Ajv contra [`schema/digest.schema.json`](schema/digest.schema.json) + comprobación de que cada URL existe en la entrada. Hasta 2 reintentos inyectando el error; si sigue fallando, no se publica nada.
-5. **Renderizado + deploy** — el digest se guarda en `data/YYYY-MM-DD.json`, Eleventy construye el sitio y GitHub Pages lo publica.
+1. **Recogida.** Lee las fuentes de [`config/sources.json`](config/sources.json) (RSS de blogs de laboratorios, medios tecnológicos y la API de Hacker News) y toma lo publicado en las últimas 24 horas. Si una fuente falla se registra y se continúa; solo aborta si fallan todas.
+2. **Normalización.** Formato común `{ title, snippet, url, source, published_at }` y deduplicación por URL canónica.
+3. **Curación.** Una llamada al proveedor de lenguaje configurado devuelve el digest del día en JSON, eligiendo y redactando en español. Nunca inventa URLs: elige entre las de entrada.
+4. **Validación.** Ajv contra [`schema/digest.schema.json`](schema/digest.schema.json), más la comprobación de que cada URL existe en la entrada. Hasta dos reintentos inyectando el error; si sigue sin validar, no se publica.
+5. **Renderizado y publicación.** El digest se guarda en `data/YYYY-MM-DD.json`, Eleventy construye el sitio y GitHub Pages lo sirve.
 
-El LLM se usa en **modo no agentico**: un paso más del script, con prompt fijo ([`prompts/curacion.md`](prompts/curacion.md)) y salida validada.
+El modelo se usa como un paso más del script, con prompt fijo ([`prompts/curacion.md`](prompts/curacion.md)) y salida validada.
 
-## Puesta en marcha (< 15 min)
+## Uso en local
 
-### 1. Requisitos
-
-- **Node.js ≥ 24** (el pipeline es TypeScript ejecutado con el *type stripping* nativo de Node; no hay paso de compilación).
-
-### 2. Instalar y probar en local
+Requiere Node.js 24 o superior (el pipeline es TypeScript ejecutado con el *type stripping* nativo de Node, sin paso de compilación).
 
 ```bash
 git clone https://github.com/iDiagoValeta/automated-news.git
 cd automated-news
 npm install
 
-# Fase de recogida: imprime por consola los ítems normalizados (no llama al LLM)
-npm run pipeline -- --collect-only
-
-# Tests (normalización de feeds con fixtures reales, validación, URLs del digest)
-npm test
-
-# Construir y previsualizar el sitio con los datos existentes
-npm run build
-npm run dev   # http://localhost:8080/automated-news/
+npm run pipeline -- --collect-only   # imprime los ítems normalizados, sin llamar al modelo
+npm test                             # normalización, validación y comprobación de URLs
+npm run build                        # genera _site/
+npm run dev                          # http://localhost:8080/automated-news/
 ```
 
-### 3. Generar una edición real en local (opcional)
-
-Necesitas una API key de DeepSeek:
+Para generar una edición real en local hace falta una API key de DeepSeek:
 
 ```bash
-export DEEPSEEK_API_KEY=sk-...        # PowerShell: $env:DEEPSEEK_API_KEY="sk-..."
-npm run pipeline                      # escribe data/<hoy>.json
+export DEEPSEEK_API_KEY=sk-...   # PowerShell: $env:DEEPSEEK_API_KEY="sk-..."
+npm run pipeline                 # escribe data/<hoy>.json
 ```
 
-> Sin credencial de proveedor el pipeline **no falla**: registra que no genera edición nueva y termina con éxito, conservando la última publicada.
-
-### 4. Configurar el despliegue automático
-
-1. **Pages:** en `Settings → Pages`, *Build and deployment → Source = GitHub Actions*.
-2. **Secret:** en `Settings → Secrets and variables → Actions`, añade `DEEPSEEK_API_KEY`.
-3. (Opcional) **Variables:** `LLM_PROVIDER` (`deepseek` por defecto) y `DEEPSEEK_MODEL`.
-4. Lanza el workflow **Edición diaria** a mano (`Actions → Edición diaria → Run workflow`) para el primer deploy, o espera al cron (04:17 UTC ≈ 06:17 CEST).
+Sin credencial de proveedor el pipeline no falla: registra que no genera edición y termina con éxito, conservando la última publicada.
 
 ## Configuración
 
-### Fuentes — [`config/sources.json`](config/sources.json)
+### Fuentes: [`config/sources.json`](config/sources.json)
 
-Activa/desactiva fuentes con `enabled` sin tocar código. Campos globales: `window_hours` (ventana temporal, 24 por defecto), `timeout_ms`, `user_agent`. La fuente de Anthropic es un **mirror no oficial** marcado como `fragile: true`: si falla, se ignora sin abortar. Hugging Face *trending* viene desactivada.
+Cada fuente se activa o desactiva con `enabled`. Campos globales: `window_hours` (ventana temporal en horas), `timeout_ms` y `user_agent`. La fuente de Anthropic es un mirror no oficial marcado como `fragile`: si falla, se ignora sin abortar.
 
 ### Variables de entorno
 
 | Variable | Uso |
 |---|---|
 | `DEEPSEEK_API_KEY` | Credencial del proveedor principal (secret). |
-| `DEEPSEEK_MODEL` | Modelo DeepSeek; por defecto `deepseek-chat`. |
-| `LLM_PROVIDER` | `deepseek` (defecto) o `claude-code`. |
-| `CLAUDE_CODE_OAUTH_TOKEN` | Solo si usas el fallback `claude-code`. |
+| `DEEPSEEK_MODEL` | Modelo de DeepSeek. Por defecto `deepseek-chat`. |
+| `LLM_PROVIDER` | `deepseek` (por defecto) o `claude-code`. |
+| `CLAUDE_CODE_OAUTH_TOKEN` | Solo para el proveedor `claude-code`. |
 
-### Fallback `claude-code`
+### Despliegue
 
-Proveedor de coste cero vía suscripción Pro/Max. Genera el token con `claude setup-token` y guárdalo como secret `CLAUDE_CODE_OAUTH_TOKEN`; pon `LLM_PROVIDER=claude-code`. **No probado end-to-end** (se implementó según el SPEC §5b sin token disponible); si los flags del CLI cambian, ajusta [`pipeline/curate/claude-code.ts`](pipeline/curate/claude-code.ts).
+En `Settings, Pages` el origen es *GitHub Actions*. El secret `DEEPSEEK_API_KEY` se configura en `Settings, Secrets and variables, Actions`. El workflow [`daily.yml`](.github/workflows/daily.yml) corre por cron (04:17 UTC) y admite ejecución manual desde la pestaña Actions.
 
-## Dependencias (mínimas, justificadas)
+## Proveedor de fallback: `claude-code`
 
-| Paquete | Por qué |
+Alternativa a DeepSeek vía suscripción Pro o Max. El token se genera con `claude setup-token` y se guarda como secret `CLAUDE_CODE_OAUTH_TOKEN`; se activa con `LLM_PROVIDER=claude-code`. La implementación ([`pipeline/curate/claude-code.ts`](pipeline/curate/claude-code.ts)) sigue la invocación descrita en el SPEC y no está probada end to end.
+
+## Dependencias
+
+| Paquete | Para qué |
 |---|---|
-| `rss-parser` | Parser RSS/Atom maduro. El XML se descarga con `fetch` propio (User-Agent + timeout) y solo se parsea con la librería. |
-| `ajv` + `ajv-formats` | Validación del digest contra JSON Schema (`format: date`, `uri`). |
-| `@11ty/eleventy` (dev) | Generador estático; páginas desde datos JSON, build rápido, plantillas Nunjucks. |
-| `typescript` + `@types/node` (dev) | Solo para `npm run typecheck`; el runtime no compila TS. |
+| `rss-parser` | Parser RSS y Atom. El XML se descarga con `fetch` propio (User-Agent y timeout) y solo se parsea con la librería. |
+| `ajv` y `ajv-formats` | Validación del digest contra JSON Schema. |
+| `@11ty/eleventy` (dev) | Generador estático con plantillas Nunjucks. |
+| `typescript` y `@types/node` (dev) | Solo para `npm run typecheck`. |
 
-HTTP y ejecución de TypeScript usan capacidades nativas de Node (fetch global, *type stripping*), sin dependencias añadidas.
+HTTP y la ejecución de TypeScript usan capacidades nativas de Node, sin dependencias añadidas.
 
 ## Datos de ejemplo
 
-Las ediciones de `data/2026-07-14`…`16` son **de siembra** (`provider: "seed"`): curadas a mano a partir de ítems reales para que la web tenga contenido desde el primer deploy. En la web se muestran como «vía edición de ejemplo». Se sustituirán solas por ediciones reales en cuanto el cron corra con la API key configurada.
+Las ediciones del 14 al 16 de julio de 2026 están curadas a mano a partir de ítems reales y llevan `provider: "seed"` en su JSON. Sirven para que el sitio tenga contenido de partida.
 
-## Operación y troubleshooting
+## Notas de operación
 
-- **El cron dejó de dispararse.** GitHub deshabilita los crons tras **60 días sin actividad**. Como el pipeline commitea a diario no debería pasar, pero si el diario deja de actualizarse sin explicación, lo primero es comprobar en `Actions` si el workflow fue deshabilitado y reactivarlo.
-- **Ediciones muy finas o el workflow "no publica".** Si en la ventana de 24 h hay menos de 6 ítems, no se publica (se conserva la última edición). Sube `window_hours` en `config/sources.json` si ocurre a menudo. Los feeds de *tag* de TechCrunch, en concreto, suelen ir muy retrasados.
-- **Se abrió un issue "Fallo en la edición diaria".** El workflow falló en algún paso (recogida total, curación, validación o deploy). El issue enlaza al run con los logs.
-- **El token de `claude-code` dejó de valer.** Se invalida al cerrar sesión en Claude Code local; regenéralo con `claude setup-token` y actualiza el secret.
-- Los triggers `schedule` son *best-effort*: pueden retrasarse minutos u horas. El diseño no depende de la hora exacta.
-
-## Fuera de alcance (fase 2)
-
-Resúmenes semanales/mensuales, redes sociales, newsletter, buscador, comentarios, analytics. El archivo de JSONs en `data/` es la base pensada para esa fase.
+- GitHub deshabilita los crons tras 60 días sin actividad en el repo. Si el sitio deja de actualizarse sin motivo aparente, lo primero es comprobar en Actions si el workflow sigue habilitado.
+- Si en la ventana de 24 horas hay menos de seis ítems, no se publica edición y se conserva la última. `window_hours` en `config/sources.json` amplía la ventana. Los feeds de *tag* de TechCrunch suelen ir retrasados.
+- Cuando el workflow falla en algún paso, abre un issue con enlace al run.
+- Los triggers `schedule` de GitHub son best effort y pueden retrasarse; el diseño no depende de la hora exacta.
