@@ -13,7 +13,8 @@ interface ChatResponse {
 export function deepseekProvider(): Provider {
   const apiKey = process.env.DEEPSEEK_API_KEY;
   if (!apiKey) throw new Error("Falta la variable de entorno DEEPSEEK_API_KEY");
-  const model = process.env.DEEPSEEK_MODEL ?? "deepseek-chat";
+  // `||` y no `??`: en el workflow la variable puede llegar como cadena vacía.
+  const model = process.env.DEEPSEEK_MODEL || "deepseek-v4-flash";
 
   return {
     name: "deepseek",

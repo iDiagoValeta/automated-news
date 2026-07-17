@@ -52,7 +52,7 @@ Cada fuente se activa o desactiva con `enabled`. Campos globales: `window_hours`
 | Variable | Uso |
 |---|---|
 | `DEEPSEEK_API_KEY` | Credencial del proveedor principal (secret). |
-| `DEEPSEEK_MODEL` | Modelo de DeepSeek. Por defecto `deepseek-chat`. |
+| `DEEPSEEK_MODEL` | Modelo de DeepSeek. Por defecto `deepseek-v4-flash` (barato, adecuado para resumen). Alternativa: `deepseek-v4-pro`. |
 | `LLM_PROVIDER` | `deepseek` (por defecto) o `claude-code`. |
 | `CLAUDE_CODE_OAUTH_TOKEN` | Solo para el proveedor `claude-code`. |
 
