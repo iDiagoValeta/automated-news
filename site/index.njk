@@ -1,0 +1,10 @@
+---
+layout: base.njk
+permalink: "/index.html"
+---
+{% if editions.length %}
+  {% set edition = editions[0] %}
+  {% include "edicion.njk" %}
+{% else %}
+  <p class="empty">Aún no hay ediciones publicadas. Vuelve mañana por la mañana.</p>
+{% endif %}

@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T05:11:00Z",
+  "provider": "seed",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Thinking Machines presenta Inkling, su modelo de pesos abiertos",
+      "summary": "Thinking Machines lanza Inkling, un modelo con los pesos publicados abiertamente para que la comunidad lo ejecute y adapte. El anuncio se convirtió en el más votado del día en Hacker News.",
+      "why_it_matters": "Un laboratorio de primer nivel apostando por pesos abiertos presiona la estrategia de los modelos cerrados.",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling",
+      "source": "Hacker News"
+    },
+    {
+      "rank": 2,
+      "category": "investigacion",
+      "title": "OpenAI presenta GPT-Red: autosuperación para la robustez",
+      "summary": "OpenAI describe GPT-Red, un enfoque para que los modelos mejoren su propia robustez frente a ataques y fallos. La investigación se centra en el red-teaming automatizado.",
+      "why_it_matters": "Automatizar la búsqueda de vulnerabilidades del propio modelo es clave para desplegar sistemas más seguros.",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "source": "OpenAI News"
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "Real World VoiceEQ: medir la calidad humana de la voz por IA",
+      "summary": "Hugging Face presenta Real World VoiceEQ, un marco para evaluar cuán natural y humana suena la voz generada por IA en condiciones reales. Incluye métricas orientadas a la percepción del usuario.",
+      "why_it_matters": "Estandarizar la evaluación de voz ayuda a comparar los rápidos avances en modelos de habla.",
+      "url": "https://huggingface.co/blog/real-world-voiceeq",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "rank": 4,
+      "category": "industria",
+      "title": "OpenAI: EE.UU. avanza en seguridad de la IA con acción estatal y federal",
+      "summary": "OpenAI repasa los avances regulatorios en seguridad de la IA en Estados Unidos, combinando iniciativas de los estados y del gobierno federal. Defiende un marco coordinado entre ambos niveles.",
+      "why_it_matters": "El diseño de la regulación estadounidense marcará el ritmo global de las reglas de seguridad.",
+      "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "source": "OpenAI News"
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Migrar un agente en producción a GPT-5.6: 2,2x más rápido y 27% más barato",
+      "summary": "Un equipo relata su migración de un agente de IA en producción al modelo GPT-5.6, con mejoras de 2,2 veces en velocidad y un 27% menos de coste. El artículo detalla los ajustes necesarios.",
+      "why_it_matters": "Aporta cifras concretas de rendimiento y coste al saltar de generación de modelo en un sistema real.",
+      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "source": "Hacker News"
+    },
+    {
+      "rank": 6,
+      "category": "investigacion",
+      "title": "El enrutado de modelos es simple… hasta que deja de serlo",
+      "summary": "Investigadores de IBM analizan la dificultad real de enrutar peticiones entre varios modelos según coste y calidad. Muestran cómo una idea aparentemente sencilla se complica en la práctica.",
+      "why_it_matters": "El model routing es una palanca central para controlar el gasto en despliegues con múltiples modelos.",
+      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "rank": 7,
+      "category": "industria",
+      "title": "Cursor 0day: cuando la divulgación total es la única protección",
+      "summary": "Un informe de seguridad describe una vulnerabilidad de día cero en Cursor y por qué sus autores optaron por la divulgación completa. El caso reabre el debate sobre cómo reportar fallos en herramientas de IA.",
+      "why_it_matters": "La seguridad de los editores con IA integrada se vuelve crítica a medida que ejecutan más código automáticamente.",
+      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "source": "Hacker News"
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Lo que construir Shippy nos enseñó sobre construir agentes",
+      "summary": "El equipo de AllenAI comparte las lecciones aprendidas al desarrollar Shippy, un agente real. El texto recoge decisiones de diseño y errores frecuentes al construir sistemas agénticos.",
+      "why_it_matters": "La experiencia práctica en agentes de producción es escasa y especialmente valiosa ahora mismo.",
+      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "source": "Hugging Face Blog"
+    }
+  ]
+}

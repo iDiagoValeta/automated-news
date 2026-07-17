@@ -1,0 +1,79 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T05:14:00Z",
+  "provider": "seed",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Anthropic presenta Claude para Profesores",
+      "summary": "Anthropic lanza una versión de Claude pensada para el profesorado, con herramientas orientadas a preparar clases, materiales y evaluación. Es su primer producto dirigido específicamente al ámbito educativo.",
+      "why_it_matters": "Marca la entrada directa de los grandes laboratorios en el aula, un mercado hasta ahora dominado por integraciones de terceros.",
+      "url": "https://www.anthropic.com/news/claude-for-teachers",
+      "source": "Anthropic News"
+    },
+    {
+      "rank": 2,
+      "category": "industria",
+      "title": "Anthropic destina 10 millones de dólares a la investigación de IA en Canadá",
+      "summary": "La compañía anuncia una inversión de 10 millones de dólares para apoyar la investigación en inteligencia artificial en Canadá. El programa busca reforzar el ecosistema académico local.",
+      "why_it_matters": "Refuerza la competencia geográfica por el talento investigador fuera de los polos habituales de EE.UU.",
+      "url": "https://www.anthropic.com/news/canadian-ai-research",
+      "source": "Anthropic News"
+    },
+    {
+      "rank": 3,
+      "category": "investigacion",
+      "title": "¿Estamos delegando demasiado pensamiento en la IA?",
+      "summary": "Un ensayo muy comentado analiza cómo el uso constante de asistentes de IA puede erosionar nuestra capacidad de razonar por cuenta propia. Plantea el equilibrio entre delegar tareas y conservar el criterio.",
+      "why_it_matters": "Pone sobre la mesa el coste cognitivo del uso cotidiano de LLMs, más allá de la productividad.",
+      "url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
+      "source": "Hacker News"
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "Claude Code envía 33k tokens antes de leer tu prompt; OpenCode solo 7k",
+      "summary": "Un análisis compara la sobrecarga de contexto de dos agentes de código: Claude Code arrastra unos 33.000 tokens de instrucciones de sistema frente a los 7.000 de OpenCode. El artículo desglosa de dónde sale ese consumo.",
+      "why_it_matters": "El coste oculto del contexto de sistema afecta directamente al gasto y la latencia de los agentes de código.",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "source": "Hacker News"
+    },
+    {
+      "rank": 5,
+      "category": "industria",
+      "title": "Samsung Health amenaza con borrar datos si el usuario rechaza el entrenamiento con IA",
+      "summary": "Usuarios reportan que la app Samsung Health advierte de la eliminación de datos a quienes se niegan a que su información alimente el entrenamiento de modelos. La política ha generado un fuerte rechazo.",
+      "why_it_matters": "Es un caso claro de la tensión entre datos de salud, consentimiento y entrenamiento de IA.",
+      "url": "https://neow.in/cWsyMTV3",
+      "source": "Hacker News"
+    },
+    {
+      "rank": 6,
+      "category": "industria",
+      "title": "DeepMind impulsa a la próxima generación de innovadores en India con ATL Saathi",
+      "summary": "Google DeepMind presenta ATL Saathi, una iniciativa para acercar la IA a estudiantes indios a través de los laboratorios Atal Tinkering. El foco está en la formación temprana en tecnología.",
+      "why_it_matters": "Señala la apuesta de los laboratorios por cultivar talento en mercados emergentes de gran escala.",
+      "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi",
+      "source": "Google DeepMind"
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Juggler: un agente de código con interfaz gráfica y open source",
+      "summary": "El creador de JUCE publica Juggler, un agente de programación de código abierto con interfaz gráfica en lugar de terminal. Busca hacer más accesible el trabajo con agentes de código.",
+      "why_it_matters": "Explora una vía distinta a la CLI dominante para llevar los agentes de código a más desarrolladores.",
+      "url": "https://github.com/juggler-ai/juggler",
+      "source": "Hacker News"
+    },
+    {
+      "rank": 8,
+      "category": "investigacion",
+      "title": "«Me encantan los LLM, odio el hype»",
+      "summary": "George Hotz publica una reflexión sobre el valor real de los grandes modelos frente a las expectativas infladas del sector. Defiende su utilidad práctica separándola del ruido comercial.",
+      "why_it_matters": "Una voz técnica influyente aporta matiz al debate polarizado sobre las capacidades de los LLM.",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+      "source": "Hacker News"
+    }
+  ]
+}

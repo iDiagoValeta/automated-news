@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% if title %}{{ title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ site.descripcion }}" />
+    <link rel="stylesheet" href="{{ '/css/diario.css' | url }}" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23111'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='20' fill='%23fbfbf9' text-anchor='middle'%3EIA%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <a class="skip" href="#contenido">Saltar al contenido</a>
+
+    <header class="masthead">
+      <div class="masthead__rule" aria-hidden="true"></div>
+      <a class="masthead__name" href="{{ '/' | url }}">{{ site.title }}</a>
+      <p class="masthead__lema">{{ site.lema }}</p>
+      <nav class="masthead__nav" aria-label="Secciones">
+        <a href="{{ '/' | url }}">Portada</a>
+        <span aria-hidden="true">·</span>
+        <a href="{{ '/archivo/' | url }}">Archivo</a>
+      </nav>
+    </header>
+
+    <main id="contenido" class="content">{{ content | safe }}</main>
+
+    <footer class="pie">
+      <div class="pie__rule" aria-hidden="true"></div>
+      <p>{{ site.descripcion }}</p>
+      <p class="pie__meta">
+        Generado automáticamente cada día · Ediciones publicadas:
+        {{ editions.length }} ·
+        <a href="{{ site.repo }}" rel="noopener">Código fuente</a>
+      </p>
+    </footer>
+  </body>
+</html>

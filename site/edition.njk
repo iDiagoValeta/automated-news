@@ -1,0 +1,11 @@
+---
+pagination:
+  data: editions
+  size: 1
+  alias: edition
+layout: base.njk
+permalink: "{{ edition.path }}"
+eleventyComputed:
+  title: "Edición {{ edition.date | fechaCorta }} {{ edition.year }}"
+---
+{% include "edicion.njk" %}

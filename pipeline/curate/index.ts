@@ -26,6 +26,12 @@ export function resolveProviderName(): ProviderName {
   return "deepseek";
 }
 
+/** ¿Está presente la credencial del proveedor? Permite saltar sin fallar. */
+export function providerCredentialPresent(name: ProviderName): boolean {
+  if (name === "claude-code") return Boolean(process.env.CLAUDE_CODE_OAUTH_TOKEN);
+  return Boolean(process.env.DEEPSEEK_API_KEY);
+}
+
 function getProvider(name: ProviderName): Provider {
   return name === "claude-code" ? claudeCodeProvider() : deepseekProvider();
 }

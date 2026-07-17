@@ -1,0 +1,54 @@
+{% set lead = edition.items[0] %}
+<article class="edicion">
+  <div class="dateline">
+    <span class="dateline__fecha">{{ edition.date | fechaLarga }}</span>
+    <span class="dateline__sep" aria-hidden="true">—</span>
+    <span class="dateline__num">Edición Nº {{ edition.numero }}</span>
+    <span class="dateline__sep" aria-hidden="true">—</span>
+    <span class="dateline__via">vía {{ edition.provider | proveedorLabel }}</span>
+  </div>
+
+  {% if lead %}
+    <article class="lead">
+      <span class="tag tag--lead">{{ lead.category }}</span>
+      <h2 class="lead__title">
+        <a href="{{ lead.url }}" target="_blank" rel="noopener">{{ lead.title }}</a>
+      </h2>
+      <p class="lead__summary">{{ lead.summary }}</p>
+      <p class="lead__why"><span class="why__label">Por qué importa</span>{{ lead.why_it_matters }}</p>
+      <p class="story__source">
+        <a href="{{ lead.url }}" target="_blank" rel="noopener">{{ lead.source }} ↗</a>
+      </p>
+    </article>
+  {% endif %}
+
+  {% if edition.items.length > 1 %}
+    <div class="stories">
+      {% for item in edition.items %}
+        {% if loop.index0 > 0 %}
+        <article class="story">
+          <span class="tag">{{ item.category }}</span>
+          <h3 class="story__title">
+            <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+          </h3>
+          <p class="story__summary">{{ item.summary }}</p>
+          <p class="story__why"><span class="why__label">Por qué importa</span>{{ item.why_it_matters }}</p>
+          <p class="story__source">
+            <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.source }} ↗</a>
+          </p>
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <nav class="edicion-nav" aria-label="Navegación entre ediciones">
+    {% if edition.olderPath %}
+      <a class="edicion-nav__prev" href="{{ edition.olderPath | url }}">← Edición anterior</a>
+    {% else %}<span></span>{% endif %}
+    <a class="edicion-nav__archivo" href="{{ '/archivo/' | url }}">Todas las ediciones</a>
+    {% if edition.newerPath %}
+      <a class="edicion-nav__next" href="{{ edition.newerPath | url }}">Edición siguiente →</a>
+    {% else %}<span></span>{% endif %}
+  </nav>
+</article>

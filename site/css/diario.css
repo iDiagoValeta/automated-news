@@ -1,0 +1,414 @@
+/* Diario IA — hoja de estilo única. Estética de diario: tinta sobre papel,
+   con una capa de utilidad en monoespaciada (teletipo de agencia) y una sola
+   tinta de imprenta usada con contención. */
+
+:root {
+  --paper: #fbfbf9;
+  --paper-sunk: #f2f0ea;
+  --ink: #16130f;
+  --ink-soft: #57534c;
+  --hair: #d8d4c8;
+  --hair-strong: #16130f;
+  --accent: #9e2b1e; /* tinta de imprenta, oxblood */
+
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", "Segoe UI Mono", Menlo, Consolas, monospace;
+
+  --wrap: 1120px;
+  --gap: 2rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #14120f;
+    --paper-sunk: #1c1a16;
+    --ink: #ece7dc;
+    --ink-soft: #a49e91;
+    --hair: #34302a;
+    --hair-strong: #ece7dc;
+    --accent: #e0725f;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+.skip {
+  position: absolute;
+  left: -9999px;
+}
+.skip:focus {
+  left: 1rem;
+  top: 1rem;
+  z-index: 10;
+  background: var(--ink);
+  color: var(--paper);
+  padding: 0.5rem 0.9rem;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* ---------- Cabecera / nameplate ---------- */
+
+.masthead {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 1.4rem 1.5rem 0;
+  text-align: center;
+}
+
+.masthead__rule {
+  height: 3px;
+  background: var(--accent);
+  margin-bottom: 1.5rem;
+}
+
+.masthead__name {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.6rem, 7vw, 4.6rem);
+  letter-spacing: 0.02em;
+  line-height: 1;
+  text-decoration: none;
+  margin: 0;
+}
+
+.masthead__lema {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0.85rem 0 1.1rem;
+}
+
+.masthead__nav {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.7rem 0;
+  border-top: 1px solid var(--hair-strong);
+  border-bottom: 4px double var(--hair-strong);
+}
+.masthead__nav a {
+  text-decoration: none;
+  color: var(--ink-soft);
+  margin: 0 0.5rem;
+}
+.masthead__nav a:hover {
+  color: var(--accent);
+}
+
+/* ---------- Contenido ---------- */
+
+.content {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+}
+
+.dateline {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  text-align: center;
+  padding: 1.1rem 0 1.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  justify-content: center;
+}
+.dateline__num {
+  color: var(--accent);
+}
+.dateline__sep {
+  opacity: 0.5;
+}
+
+/* Etiquetas de sección */
+.tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  border: 1px solid var(--hair);
+  padding: 0.18rem 0.5rem;
+  margin-bottom: 0.7rem;
+}
+.tag--lead {
+  color: var(--paper);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+/* "Por qué importa" */
+.why__label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.15rem;
+}
+
+.story__source {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--ink-soft);
+  margin: 0.6rem 0 0;
+}
+.story__source a {
+  text-decoration: none;
+}
+.story__source a:hover {
+  color: var(--accent);
+}
+
+/* ---------- Noticia de portada (lead) ---------- */
+
+.lead {
+  border-top: 3px solid var(--hair-strong);
+  padding-top: 1.4rem;
+  padding-bottom: 2rem;
+  margin-bottom: 0.5rem;
+}
+.lead__title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2rem, 5.2vw, 3.6rem);
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.9rem;
+  max-width: 20ch;
+}
+.lead__title a {
+  text-decoration: none;
+}
+.lead__title a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 4px;
+}
+.lead__summary {
+  font-size: 1.32rem;
+  line-height: 1.5;
+  max-width: 62ch;
+  margin: 0 0 1.1rem;
+}
+.lead__why {
+  max-width: 60ch;
+  margin: 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent);
+  color: var(--ink);
+}
+
+/* ---------- Columnas de noticias ---------- */
+
+.stories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+  gap: 0;
+  border-top: 3px double var(--hair-strong);
+}
+.story {
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--hair);
+  border-right: 1px solid var(--hair);
+}
+.story__title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.15;
+  margin: 0 0 0.6rem;
+}
+.story__title a {
+  text-decoration: none;
+}
+.story__title a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 3px;
+}
+.story__summary {
+  margin: 0 0 0.9rem;
+  color: var(--ink);
+}
+.story__why {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+}
+
+/* ---------- Navegación entre ediciones ---------- */
+
+.edicion-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid var(--hair-strong);
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.edicion-nav a {
+  text-decoration: none;
+  color: var(--ink-soft);
+}
+.edicion-nav a:hover {
+  color: var(--accent);
+}
+.edicion-nav__archivo {
+  text-align: center;
+}
+
+/* ---------- Archivo ---------- */
+
+.archivo__title {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  border-bottom: 3px solid var(--hair-strong);
+  padding: 1.4rem 0 0.9rem;
+  margin: 0 0 1.5rem;
+}
+.archivo__mes {
+  margin-bottom: 2.2rem;
+}
+.archivo__mes-title {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.4rem;
+}
+.archivo__lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.archivo__item a {
+  display: grid;
+  grid-template-columns: 5.5rem 1fr auto;
+  gap: 1rem;
+  align-items: baseline;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--hair);
+  text-decoration: none;
+}
+.archivo__item a:hover .archivo__lead {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 3px;
+}
+.archivo__fecha {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+}
+.archivo__lead {
+  font-family: var(--font-display);
+  font-size: 1.12rem;
+  line-height: 1.25;
+}
+.archivo__count {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+/* ---------- Pie ---------- */
+
+.pie {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+.pie__rule {
+  height: 1px;
+  background: var(--hair-strong);
+  margin-bottom: 1.2rem;
+}
+.pie__meta {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+}
+.pie a:hover {
+  color: var(--accent);
+}
+
+.empty {
+  padding: 3rem 0;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--ink-soft);
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 600px) {
+  .stories {
+    grid-template-columns: 1fr;
+  }
+  .story {
+    border-right: none;
+  }
+  .archivo__item a {
+    grid-template-columns: 4.5rem 1fr;
+  }
+  .archivo__count {
+    display: none;
+  }
+  .edicion-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto;
+  }
+}

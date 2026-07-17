@@ -13,7 +13,9 @@ export interface NewsItem {
   points?: number;
 }
 
-export type ProviderName = "deepseek" | "claude-code";
+// "seed" solo se usa para las ediciones iniciales de ejemplo curadas a mano;
+// el pipeline en producción nunca lo selecciona.
+export type ProviderName = "deepseek" | "claude-code" | "seed";
 
 export type Category =
   | "lanzamientos"

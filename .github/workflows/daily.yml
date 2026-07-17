@@ -1,0 +1,92 @@
+name: Edición diaria
+
+on:
+  schedule:
+    # 04:17 UTC (~06:17 CEST). Hora no redonda para reducir el retraso de la cola.
+    - cron: "17 4 * * *"
+  workflow_dispatch: {}
+
+# Un solo despliegue de Pages a la vez.
+concurrency:
+  group: diario-ia
+  cancel-in-progress: false
+
+permissions:
+  contents: write # commit/push de data/
+  pages: write # deploy a GitHub Pages
+  id-token: write # OIDC para deploy-pages
+  issues: write # abrir issue si algo falla
+
+jobs:
+  edicion:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Ejecutar pipeline (recogida + curación + validación)
+        env:
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'deepseek' }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: npm run pipeline
+
+      - name: Construir sitio (Eleventy)
+        run: npm run build
+
+      - name: Commit de la edición del día
+        run: |
+          git config user.name "Diario IA Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Sin cambios en data/: no se crea commit."
+          else
+            git commit -m "edición $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Subir artefacto de Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Desplegar en GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: Abrir issue si el workflow falla
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const run = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Fallo en la edición diaria (${new Date().toISOString().slice(0,10)})`,
+              body: [
+                "El workflow **Edición diaria** ha fallado y no se ha publicado una edición nueva.",
+                "",
+                `- Run: ${run}`,
+                "- Revisa los logs del job para el error concreto (recogida, curación, validación o deploy).",
+                "- Recuerda: si el cron dejó de dispararse sin motivo, comprueba si GitHub deshabilitó el workflow por inactividad (60 días).",
+              ].join("\n"),
+              labels: ["fallo-automatico"],
+            });

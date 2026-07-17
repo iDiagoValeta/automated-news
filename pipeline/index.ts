@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { ROOT, loadConfig } from "./config.ts";
 import { collectAll } from "./sources/index.ts";
 import { normalize } from "./normalize.ts";
-import { curate, resolveProviderName } from "./curate/index.ts";
+import { curate, providerCredentialPresent, resolveProviderName } from "./curate/index.ts";
 import { error, log } from "./log.ts";
 
 /** Fecha de la edición en zona Europe/Madrid, formato YYYY-MM-DD. */
@@ -25,10 +25,22 @@ async function main(): Promise<void> {
 
   const dataDir = join(ROOT, "data");
   const outPath = join(dataDir, `${date}.json`);
+  const provider = resolveProviderName();
 
   // Idempotencia: no re-llamar al LLM si ya existe la edición de hoy.
   if (!collectOnly && existsSync(outPath)) {
     log(`Ya existe ${outPath}. Idempotencia: nada que hacer.`);
+    return;
+  }
+
+  // Sin credencial de proveedor no es un error: se mantiene la última edición
+  // publicada y el sitio se reconstruye igualmente. Solo los fallos reales
+  // (API caída, validación) abortan con exit != 0.
+  if (!collectOnly && !providerCredentialPresent(provider)) {
+    log(
+      `Proveedor "${provider}" sin credencial. No se genera edición nueva; ` +
+        `se mantiene la última publicada.`,
+    );
     return;
   }
 
@@ -54,7 +66,6 @@ async function main(): Promise<void> {
     throw new Error(`Solo ${items.length} ítems normalizados; se necesitan al menos 6. No se publica.`);
   }
 
-  const provider = resolveProviderName();
   const digest = await curate(items, { date, generated_at: generatedAt, provider });
 
   mkdirSync(dataDir, { recursive: true });
