@@ -55,7 +55,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "Sin cambios en data/: no se crea commit."
           else
-            git commit -m "edición $(date -u +%Y-%m-%d)"
+            git commit -m "edición $(TZ='Europe/Madrid' date +%Y-%m-%d)"
             git push
           fi
 
