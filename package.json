@@ -1,0 +1,27 @@
+{
+  "name": "automated-news",
+  "version": "1.0.0",
+  "description": "Diario IA: agregador estatico de noticias de IA curadas en espanol, publicado a diario en GitHub Pages.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "pipeline": "node pipeline/index.ts",
+    "build": "eleventy",
+    "dev": "eleventy --serve",
+    "test": "node --test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@types/node": "^22.13.0",
+    "typescript": "^5.8.2"
+  }
+}

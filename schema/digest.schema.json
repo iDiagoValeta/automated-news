@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/iDiagoValeta/automated-news/schema/digest.schema.json",
+  "title": "Digest diario del Diario IA",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["date", "generated_at", "provider", "items"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Fecha de la edicion en formato YYYY-MM-DD (zona Europe/Madrid)."
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Instante de generacion en ISO 8601 UTC."
+    },
+    "provider": {
+      "type": "string",
+      "enum": ["deepseek", "claude-code"]
+    },
+    "items": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["rank", "category", "title", "summary", "why_it_matters", "url", "source"],
+        "properties": {
+          "rank": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10
+          },
+          "category": {
+            "type": "string",
+            "enum": ["lanzamientos", "investigacion", "industria", "herramientas"]
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 800
+          },
+          "why_it_matters": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 400
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "source": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

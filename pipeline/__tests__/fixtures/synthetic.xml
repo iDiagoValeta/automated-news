@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Synthetic Test Feed</title>
+    <link>https://example.com</link>
+    <item>
+      <title>Con link normal</title>
+      <link>https://example.com/con-link</link>
+      <pubDate>Fri, 17 Jul 2026 10:00:00 GMT</pubDate>
+      <description>Item reciente con link explicito.</description>
+    </item>
+    <item>
+      <title>Sin link, usa guid</title>
+      <guid>https://example.com/desde-guid</guid>
+      <pubDate>Fri, 17 Jul 2026 09:00:00 GMT</pubDate>
+      <description>Item sin link; debe caer al guid.</description>
+    </item>
+    <item>
+      <title>Demasiado antiguo</title>
+      <link>https://example.com/antiguo</link>
+      <pubDate>Mon, 01 Jul 2026 09:00:00 GMT</pubDate>
+      <description>Fuera de la ventana de 24h.</description>
+    </item>
+    <item>
+      <title>Sin fecha se incluye</title>
+      <link>https://example.com/sin-fecha</link>
+      <description>Sin pubDate: se incluye igualmente.</description>
+    </item>
+    <item>
+      <title>Guid no-URL se descarta</title>
+      <guid isPermaLink="false">tag:example.com,2026:abc</guid>
+      <pubDate>Fri, 17 Jul 2026 08:00:00 GMT</pubDate>
+      <description>guid que no es URL y sin link: se descarta.</description>
+    </item>
+  </channel>
+</rss>

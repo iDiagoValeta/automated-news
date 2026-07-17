@@ -1,0 +1,62 @@
+{
+  "user_agent": "DiarioIA/1.0 (+https://github.com/iDiagoValeta/automated-news)",
+  "timeout_ms": 10000,
+  "window_hours": 24,
+  "rss": [
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "enabled": true,
+      "fragile": false
+    },
+    {
+      "id": "deepmind",
+      "name": "Google DeepMind",
+      "url": "https://deepmind.com/blog/feed/basic",
+      "enabled": true,
+      "fragile": false
+    },
+    {
+      "id": "huggingface-blog",
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "enabled": true,
+      "fragile": false
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic News",
+      "url": "https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/anthropic.xml",
+      "enabled": true,
+      "fragile": true
+    },
+    {
+      "id": "techcrunch-ai",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/tag/ai/feed/",
+      "enabled": true,
+      "fragile": false
+    },
+    {
+      "id": "techcrunch-artificial-intelligence",
+      "name": "TechCrunch Artificial Intelligence",
+      "url": "https://techcrunch.com/tag/artificial-intelligence/feed/",
+      "enabled": true,
+      "fragile": false
+    }
+  ],
+  "hackernews": {
+    "id": "hackernews",
+    "name": "Hacker News",
+    "enabled": true,
+    "min_points": 50,
+    "queries": ["AI", "LLM", "machine learning"]
+  },
+  "huggingface_trending": {
+    "id": "huggingface-trending",
+    "name": "Hugging Face (trending)",
+    "enabled": false,
+    "limit": 20
+  }
+}
