@@ -11,7 +11,8 @@ permalink: "/repositorios/index.html"
 
   {% set olderPath = ed.reposOlderPath %}
   {% set newerPath = ed.reposNewerPath %}
-  {% set archivePath = "/archivo/repositorios/" %}
+  {% set fechas = reposEditions %}
+  {% set fechaAttr = "reposPath" %}
   {% include "nav-temporal.njk" %}
 {% else %}
   <p class="empty">Aún no hay repositorios hot publicados. Vuelve mañana por la mañana.</p>

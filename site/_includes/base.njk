@@ -17,10 +17,14 @@
     <header class="masthead">
       <a class="masthead__name" href="{{ '/' | url }}">{{ site.title }}</a>
       <p class="masthead__tagline">{{ site.tagline }}</p>
+      {% set u = page.url %}
+      {% set esArchivo = "/archivo/" in u %}
+      {% set esRepos = ("/repositorios/" in u) and not esArchivo %}
+      {% set esNoticias = not esArchivo and not esRepos %}
       <nav class="masthead__nav" aria-label="Secciones">
-        <a href="{{ '/' | url }}">Noticias</a>
-        <a href="{{ '/repositorios/' | url }}">Repositorios</a>
-        <a href="{{ '/archivo/' | url }}">Archivo</a>
+        <a href="{{ '/' | url }}"{% if esNoticias %} class="is-active" aria-current="page"{% endif %}>Noticias</a>
+        <a href="{{ '/repositorios/' | url }}"{% if esRepos %} class="is-active" aria-current="page"{% endif %}>Repositorios</a>
+        <a href="{{ '/archivo/' | url }}"{% if esArchivo %} class="is-active" aria-current="page"{% endif %}>Archivo</a>
       </nav>
     </header>
 

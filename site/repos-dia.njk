@@ -14,5 +14,6 @@ eleventyComputed:
 
 {% set olderPath = ed.reposOlderPath %}
 {% set newerPath = ed.reposNewerPath %}
-{% set archivePath = "/archivo/repositorios/" %}
+{% set fechas = reposEditions %}
+{% set fechaAttr = "reposPath" %}
 {% include "nav-temporal.njk" %}

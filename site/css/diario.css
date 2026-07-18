@@ -115,6 +115,10 @@ a {
   color: var(--ink);
   border-bottom: 1px solid var(--accent);
 }
+.masthead__nav a.is-active {
+  color: var(--ink);
+  border-bottom: 1px solid var(--accent);
+}
 
 /* ---------- Contenido ---------- */
 
@@ -233,24 +237,6 @@ a {
 
 /* ---------- Repositorios hot ---------- */
 
-.repos {
-  margin-top: 1rem;
-}
-.repos__title {
-  font-family: var(--serif);
-  font-weight: 700;
-  font-size: clamp(1.8rem, 4vw, 2.6rem);
-  letter-spacing: -0.01em;
-  margin: 0 0 1.8rem;
-}
-.repos__fecha {
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--muted);
-  white-space: nowrap;
-}
 .repos__grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -313,6 +299,26 @@ a {
 }
 .edicion-nav a:hover {
   color: var(--ink);
+}
+.edicion-nav__flecha {
+  flex: 0 0 auto;
+}
+.fecha-select {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid var(--faint);
+  border-radius: 6px;
+  padding: 0.4rem 0.7rem;
+  max-width: 60vw;
+  cursor: pointer;
+}
+.fecha-select:hover {
+  color: var(--ink);
+  border-color: var(--accent);
 }
 
 /* ---------- Archivo ---------- */

@@ -27,7 +27,7 @@ La cabecera tiene tres pestañas:
 - **Repositorios**: los repos hot del día (`/repositorios/`, `/repositorios/AAAA/MM/DD/`).
 - **Archivo**: un índice que enlaza al archivo de noticias (`/archivo/noticias/`) y al de repositorios (`/archivo/repositorios/`).
 
-Noticias y repositorios comparten **exactamente la misma estructura y navegación**: portada con lo más reciente, páginas por fecha y una barra común (Anterior, Archivo, Siguiente). Entre secciones solo cambia el contenido, no la forma de moverse.
+Noticias y repositorios comparten **exactamente la misma estructura y navegación**: la pestaña activa se resalta en la cabecera, la fecha va en un `dateline` sobre el contenido, y una barra común permite ir al día anterior o siguiente y saltar a cualquier fecha disponible con un selector. Entre secciones solo cambia el contenido, no la forma de moverse.
 
 ## Uso en local
 
