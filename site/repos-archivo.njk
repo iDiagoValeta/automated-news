@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: Archivo de repositorios
+permalink: "/repositorios/archivo/index.html"
+---
+<div class="archivo">
+  <h1 class="archivo__title">Archivo de repositorios</h1>
+
+  {% if reposEditions.length %}
+    {% for grupo in reposEditions | agrupaPorMes %}
+      <section class="archivo__mes">
+        <h2 class="archivo__mes-title">{{ grupo.key | nombreMes }}</h2>
+        <ul class="archivo__lista">
+          {% for e in grupo.items %}
+            <li class="archivo__item">
+              <a href="{{ e.reposPath | url }}">
+                <span class="archivo__fecha">{{ e.date | fechaCorta }}</span>
+                <span class="archivo__lead">{{ e.repos[0].name }}</span>
+                <span class="archivo__count">{{ e.repos.length }} repos</span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endfor %}
+  {% else %}
+    <p class="empty">Todavía no hay repositorios archivados.</p>
+  {% endif %}
+</div>

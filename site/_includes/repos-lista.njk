@@ -1,0 +1,20 @@
+{# Lista de repositorios hot. Espera `repos` (array) y `fecha` (YYYY-MM-DD). #}
+<section class="repos" aria-labelledby="repos-titulo">
+  <h1 class="repos__title" id="repos-titulo">
+    Repositorios hot{% if fecha %} <span class="repos__fecha">· {{ fecha | fechaLarga }}</span>{% endif %}
+  </h1>
+  <div class="repos__grid">
+    {% for repo in repos %}
+    <article class="repo">
+      <h3 class="repo__name">
+        <a href="{{ repo.url }}" target="_blank" rel="noopener">{{ repo.name }}</a>
+      </h3>
+      <p class="repo__desc">{{ repo.description }}</p>
+      <p class="repo__meta">
+        {% if repo.language %}<span class="repo__lang">{{ repo.language }}</span>{% endif %}
+        {% if repo.stars %}<span class="repo__stars">{{ repo.stars | miles }} ★</span>{% endif %}
+      </p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
