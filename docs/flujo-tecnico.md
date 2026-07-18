@@ -131,8 +131,9 @@ Ficheros: `pipeline/index.ts`, `eleventy.config.mjs`, `site/_data/editions.js`, 
 
 - El orquestador escribe `data/YYYY-MM-DD.json` con `writeFileSync`.
 - **Eleventy** (`npm run build`) lee todas las ediciones vía `site/_data/editions.js`, que ordena los ítems de cada edición por `rank`, ordena las ediciones de más reciente a más antigua y calcula número, rutas y vecinos.
-- Las plantillas Nunjucks (`site/_includes/edicion.njk` para la edición, `archivo.njk` para el histórico) renderizan el destacado (`items[0]`), la rejilla de noticias y la sección de repos. `eleventy.config.mjs` aporta los filtros de fecha en español.
-- **Publicación.** El workflow hace `git add data/`, crea el commit de la edición solo si hay cambios, y despliega `_site` en GitHub Pages.
+- Las plantillas Nunjucks renderizan el sitio. `site/_includes/edicion.njk` compone la edición de noticias (el destacado `items[0]` más la rejilla de noticias) y `archivo.njk` el histórico de ediciones. `eleventy.config.mjs` aporta los filtros de fecha en español y el separador de miles.
+- **Sección de repositorios.** Los repos se muestran en su propia pestaña, no dentro de la edición. `site/_data/reposEditions.js` expone las ediciones que tienen repos (con ruta bajo `/repositorios/` y sus vecinos), y las plantillas `repositorios.njk` (portada), `repos-dia.njk` (una página por fecha) y `repos-archivo.njk` (histórico por mes) renderizan la lista reutilizando el include `repos-lista.njk`.
+- **Publicación.** El workflow hace `git add data/`, crea el commit de la edición solo si hay cambios, reintegra los cambios remotos con `git pull --rebase` para no perder la edición ante un push concurrente, y despliega `_site` en GitHub Pages.
 
 ## 11. Proveedores de modelo
 
@@ -176,3 +177,17 @@ npm run dev                          # servidor local
 export DEEPSEEK_API_KEY=sk-...       # PowerShell: $env:DEEPSEEK_API_KEY="sk-..."
 npm run pipeline                     # escribe data/<hoy>.json
 ```
+
+## 15. Previsto: resúmenes agrupados
+
+Está previsto complementar la edición diaria con resúmenes de mayor alcance que den contexto sobre la evolución del año, agrupando las ediciones ya publicadas: **semanales**, **mensuales** y **anuales**.
+
+Enfoque previsto (todavía sin implementar):
+
+- **Entrada.** Las ediciones diarias que ya existen en `data/YYYY-MM-DD.json` para el periodo correspondiente.
+- **Agrupación.** Seleccionar las ediciones de la semana, el mes o el año y reunir sus noticias como material de contexto.
+- **Síntesis.** Una pasada del modelo, con su propio prompt en `prompts/`, que destile los hitos y las tendencias del periodo en lugar de repetir noticia a noticia.
+- **Almacenamiento y validación.** Un JSON por resumen (por ejemplo `data/semanal/YYYY-Www.json`), validado contra un schema propio.
+- **Render.** Página y archivo propios, con su pestaña en la cabecera, siguiendo la misma estructura que las secciones de noticias y repositorios.
+
+Este documento se ampliará con el detalle real cuando la funcionalidad se implemente.
