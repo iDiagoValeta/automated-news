@@ -113,4 +113,17 @@
 
   var cals = document.querySelectorAll(".calendario");
   for (var i = 0; i < cals.length; i++) initCalendario(cals[i]);
+
+  // Cerrar el desplegable al hacer clic fuera o pulsar Escape.
+  document.addEventListener("click", function (e) {
+    var abiertos = document.querySelectorAll("details.cal-menu[open]");
+    for (var j = 0; j < abiertos.length; j++) {
+      if (!abiertos[j].contains(e.target)) abiertos[j].removeAttribute("open");
+    }
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "Escape") return;
+    var abiertos = document.querySelectorAll("details.cal-menu[open]");
+    for (var j = 0; j < abiertos.length; j++) abiertos[j].removeAttribute("open");
+  });
 })();

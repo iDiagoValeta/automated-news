@@ -306,9 +306,60 @@ a {
 
 /* ---------- Calendario ---------- */
 
+.cal-menu-wrap {
+  text-align: center;
+  margin: 1.6rem 0 2.4rem;
+}
+.cal-menu {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+}
+.cal-menu__boton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  cursor: pointer;
+  list-style: none;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px solid var(--faint);
+  border-radius: 6px;
+  padding: 0.5rem 0.9rem;
+  user-select: none;
+}
+.cal-menu__boton::-webkit-details-marker {
+  display: none;
+}
+.cal-menu__boton:hover,
+.cal-menu[open] .cal-menu__boton {
+  color: var(--ink);
+  border-color: var(--accent);
+}
+.cal-menu__chevron {
+  transition: transform 0.15s;
+}
+.cal-menu[open] .cal-menu__chevron {
+  transform: rotate(180deg);
+}
+.cal-menu__panel {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(100% + 0.5rem);
+  z-index: 20;
+  background: var(--paper);
+  border: 1px solid var(--faint);
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.12);
+}
 .calendario {
-  max-width: 300px;
-  margin: 2.4rem auto 3rem;
+  width: 260px;
+  max-width: 78vw;
 }
 .calendario__cabecera {
   display: flex;
