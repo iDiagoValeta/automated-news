@@ -18,7 +18,7 @@
     },
     "provider": {
       "type": "string",
-      "enum": ["deepseek", "claude-code", "seed"]
+      "enum": ["deepseek", "claude-code"]
     },
     "items": {
       "type": "array",

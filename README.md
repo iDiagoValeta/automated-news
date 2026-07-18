@@ -82,10 +82,6 @@ Alternativa a DeepSeek vía suscripción Pro o Max. El token se genera con `clau
 
 HTTP y la ejecución de TypeScript usan capacidades nativas de Node, sin dependencias añadidas.
 
-## Datos de ejemplo
-
-Las ediciones del 14 al 16 de julio de 2026 están curadas a mano a partir de ítems reales y llevan `provider: "seed"` en su JSON. Sirven para que el sitio tenga contenido de partida.
-
 ## Notas de operación
 
 - GitHub deshabilita los crons tras 60 días sin actividad en el repo. Si el sitio deja de actualizarse sin motivo aparente, lo primero es comprobar en Actions si el workflow sigue habilitado.
