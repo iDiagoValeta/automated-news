@@ -11,6 +11,14 @@ export interface NewsItem {
   published_at: string;
   /** Solo Hacker News: votos de la comunidad. */
   points?: number;
+  /** Texto extraído del artículo real (paso de enriquecimiento). */
+  content?: string;
+}
+
+/** Texto listo para pegar en cada red social. */
+export interface SocialPosts {
+  x: string;
+  linkedin: string;
 }
 
 // "seed" solo se usa para las ediciones iniciales de ejemplo curadas a mano;
@@ -31,6 +39,8 @@ export interface DigestItem {
   why_it_matters: string;
   url: string;
   source: string;
+  /** Posts listos para publicar; se rellenan en la segunda llamada al LLM. */
+  social?: SocialPosts;
 }
 
 export interface Digest {
@@ -69,6 +79,11 @@ export interface SourcesConfig {
   user_agent: string;
   timeout_ms: number;
   window_hours: number;
+  /** Máximo de candidatos que pasan a curación. */
+  candidate_cap: number;
+  /** Cuántos de los candidatos con más señal se enriquecen leyendo el artículo. */
+  enrich_top: number;
+  enrich_timeout_ms: number;
   rss: RssSource[];
   hackernews: HackerNewsConfig;
   huggingface_trending: HfTrendingConfig;

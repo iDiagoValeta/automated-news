@@ -3,6 +3,7 @@ import { join } from "node:path";
 import { ROOT, loadConfig } from "./config.ts";
 import { collectAll } from "./sources/index.ts";
 import { normalize } from "./normalize.ts";
+import { enrich } from "./enrich.ts";
 import { curate, providerCredentialPresent, resolveProviderName } from "./curate/index.ts";
 import { error, log } from "./log.ts";
 
@@ -50,7 +51,7 @@ async function main(): Promise<void> {
     throw new Error(`Todas las fuentes fallaron (${collected.failures.join(", ")}). Se aborta sin publicar.`);
   }
 
-  const items = normalize(collected.items);
+  const items = normalize(collected.items, cfg.candidate_cap);
   log(
     `Normalizados ${items.length} ítems únicos de ${collected.items.length} recogidos ` +
       `(${collected.succeeded}/${collected.attempted} fuentes OK).`,
@@ -65,6 +66,9 @@ async function main(): Promise<void> {
   if (items.length < 6) {
     throw new Error(`Solo ${items.length} ítems normalizados; se necesitan al menos 6. No se publica.`);
   }
+
+  // Enriquecimiento: leer el artículo real de los candidatos con más señal.
+  await enrich(items, cfg);
 
   const digest = await curate(items, { date, generated_at: generatedAt, provider });
 

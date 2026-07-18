@@ -2,20 +2,24 @@ name: Edición diaria
 
 on:
   schedule:
-    # 04:17 UTC (~06:17 CEST). Hora no redonda para reducir el retraso de la cola.
-    - cron: "17 4 * * *"
+    # Objetivo: 09:00 Europe/Madrid todo el año. Como el cron es UTC y España
+    # cambia de hora, se disparan dos veces (07:09 UTC = 09:09 en verano CEST,
+    # 08:09 UTC = 09:09 en invierno CET) y el guardián de más abajo solo deja
+    # publicar cuando en Madrid ya son las 09:00 o más. La idempotencia evita
+    # publicar dos veces el mismo día.
+    - cron: "9 7 * * *"
+    - cron: "9 8 * * *"
   workflow_dispatch: {}
 
-# Un solo despliegue de Pages a la vez.
 concurrency:
   group: diario-ia
   cancel-in-progress: false
 
 permissions:
-  contents: write # commit/push de data/
-  pages: write # deploy a GitHub Pages
-  id-token: write # OIDC para deploy-pages
-  issues: write # abrir issue si algo falla
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
 
 jobs:
   edicion:
@@ -27,16 +31,36 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Ventana horaria (publicar a partir de las 09:00 Europe/Madrid)
+        id: guard
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "Disparo manual: se ejecuta sin comprobar la hora."
+            exit 0
+          fi
+          hora=$((10#$(TZ='Europe/Madrid' date +%H)))
+          if [ "$hora" -ge 9 ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "En Madrid son >= las 09:00 (hora $hora): se ejecuta."
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "En Madrid aún no son las 09:00 (hora $hora): se omite hasta el siguiente cron."
+          fi
+
       - name: Configurar Node
+        if: steps.guard.outputs.run == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: "24"
           cache: "npm"
 
       - name: Instalar dependencias
+        if: steps.guard.outputs.run == 'true'
         run: npm ci
 
-      - name: Ejecutar pipeline (recogida + curación + validación)
+      - name: Ejecutar pipeline (recogida, enriquecimiento, curación, posts)
+        if: steps.guard.outputs.run == 'true'
         env:
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'deepseek' }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
@@ -45,9 +69,11 @@ jobs:
         run: npm run pipeline
 
       - name: Construir sitio (Eleventy)
+        if: steps.guard.outputs.run == 'true'
         run: npm run build
 
       - name: Commit de la edición del día
+        if: steps.guard.outputs.run == 'true'
         run: |
           git config user.name "Diario IA Bot"
           git config user.email "actions@users.noreply.github.com"
@@ -60,15 +86,18 @@ jobs:
           fi
 
       - name: Configurar Pages
+        if: steps.guard.outputs.run == 'true'
         uses: actions/configure-pages@v5
 
       - name: Subir artefacto de Pages
+        if: steps.guard.outputs.run == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
       - name: Desplegar en GitHub Pages
         id: deploy
+        if: steps.guard.outputs.run == 'true'
         uses: actions/deploy-pages@v4
 
       - name: Abrir issue si el workflow falla
@@ -85,8 +114,8 @@ jobs:
                 "El workflow **Edición diaria** ha fallado y no se ha publicado una edición nueva.",
                 "",
                 `- Run: ${run}`,
-                "- Revisa los logs del job para el error concreto (recogida, curación, validación o deploy).",
-                "- Recuerda: si el cron dejó de dispararse sin motivo, comprueba si GitHub deshabilitó el workflow por inactividad (60 días).",
+                "- Revisa los logs del job para el error concreto (recogida, enriquecimiento, curación, posts o deploy).",
+                "- Si el cron dejó de dispararse sin motivo, comprueba si GitHub deshabilitó el workflow por inactividad (60 días).",
               ].join("\n"),
               labels: ["fallo-automatico"],
             });

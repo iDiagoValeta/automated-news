@@ -2,56 +2,31 @@
   "user_agent": "DiarioIA/1.0 (+https://github.com/iDiagoValeta/automated-news)",
   "timeout_ms": 10000,
   "window_hours": 24,
+  "candidate_cap": 200,
+  "enrich_top": 30,
+  "enrich_timeout_ms": 9000,
   "rss": [
-    {
-      "id": "openai",
-      "name": "OpenAI News",
-      "url": "https://openai.com/news/rss.xml",
-      "enabled": true,
-      "fragile": false
-    },
-    {
-      "id": "deepmind",
-      "name": "Google DeepMind",
-      "url": "https://deepmind.com/blog/feed/basic",
-      "enabled": true,
-      "fragile": false
-    },
-    {
-      "id": "huggingface-blog",
-      "name": "Hugging Face Blog",
-      "url": "https://huggingface.co/blog/feed.xml",
-      "enabled": true,
-      "fragile": false
-    },
-    {
-      "id": "anthropic",
-      "name": "Anthropic News",
-      "url": "https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/anthropic.xml",
-      "enabled": true,
-      "fragile": true
-    },
-    {
-      "id": "techcrunch-ai",
-      "name": "TechCrunch AI",
-      "url": "https://techcrunch.com/tag/ai/feed/",
-      "enabled": true,
-      "fragile": false
-    },
-    {
-      "id": "techcrunch-artificial-intelligence",
-      "name": "TechCrunch Artificial Intelligence",
-      "url": "https://techcrunch.com/tag/artificial-intelligence/feed/",
-      "enabled": true,
-      "fragile": false
-    }
+    { "id": "openai", "name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "enabled": true, "fragile": false },
+    { "id": "deepmind", "name": "Google DeepMind", "url": "https://deepmind.com/blog/feed/basic", "enabled": true, "fragile": false },
+    { "id": "huggingface-blog", "name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "enabled": true, "fragile": false },
+    { "id": "anthropic", "name": "Anthropic News", "url": "https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/anthropic.xml", "enabled": true, "fragile": true },
+    { "id": "techcrunch", "name": "TechCrunch", "url": "https://techcrunch.com/feed/", "enabled": true, "fragile": false },
+    { "id": "theverge", "name": "The Verge", "url": "https://www.theverge.com/rss/index.xml", "enabled": true, "fragile": false },
+    { "id": "arstechnica", "name": "Ars Technica", "url": "https://feeds.arstechnica.com/arstechnica/index", "enabled": true, "fragile": false },
+    { "id": "theregister", "name": "The Register", "url": "https://www.theregister.com/headlines.atom", "enabled": true, "fragile": false },
+    { "id": "wired", "name": "Wired", "url": "https://www.wired.com/feed/rss", "enabled": true, "fragile": false },
+    { "id": "engadget", "name": "Engadget", "url": "https://www.engadget.com/rss.xml", "enabled": true, "fragile": false },
+    { "id": "mit-tech-review", "name": "MIT Technology Review", "url": "https://www.technologyreview.com/feed/", "enabled": true, "fragile": false },
+    { "id": "lobsters", "name": "Lobsters", "url": "https://lobste.rs/rss", "enabled": true, "fragile": false },
+    { "id": "techcrunch-ai", "name": "TechCrunch AI", "url": "https://techcrunch.com/tag/ai/feed/", "enabled": false, "fragile": false },
+    { "id": "techcrunch-artificial-intelligence", "name": "TechCrunch Artificial Intelligence", "url": "https://techcrunch.com/tag/artificial-intelligence/feed/", "enabled": false, "fragile": false }
   ],
   "hackernews": {
     "id": "hackernews",
     "name": "Hacker News",
     "enabled": true,
     "min_points": 50,
-    "queries": ["AI", "LLM", "machine learning"]
+    "queries": ["AI", "LLM", "machine learning", "programming", "open source"]
   },
   "huggingface_trending": {
     "id": "huggingface-trending",

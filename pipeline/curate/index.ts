@@ -5,6 +5,7 @@ import { validateDigest } from "../validate.ts";
 import type { Digest, NewsItem, ProviderName } from "../types.ts";
 import { deepseekProvider } from "./deepseek.ts";
 import { claudeCodeProvider } from "./claude-code.ts";
+import { attachSocial } from "./social.ts";
 
 const PROMPT_PATH = fileURLToPath(new URL("../../prompts/curacion.md", import.meta.url));
 const MAX_ATTEMPTS = 3; // 1 intento + hasta 2 reintentos (SPEC §7)
@@ -67,8 +68,10 @@ export async function curate(items: NewsItem[], meta: CurateMeta): Promise<Diges
     const digest = coerceMeta(parsed, meta);
     const result = validateDigest(digest, inputUrls);
     if (result.ok) {
-      log(`Curación válida al intento ${attempt}: ${(digest as Digest).items.length} noticias`);
-      return digest as Digest;
+      const valid = digest as Digest;
+      log(`Curación válida al intento ${attempt}: ${valid.items.length} noticias`);
+      await attachSocial(provider, valid);
+      return valid;
     }
 
     lastErrors = result.errors;
@@ -102,7 +105,8 @@ function buildUserPrompt(items: NewsItem[], meta: CurateMeta): string {
   const body = items
     .map((it, i) => {
       const pts = it.points !== undefined ? ` (${it.points} pts)` : "";
-      const snip = it.snippet ? `\n   ${it.snippet.replace(/\s+/g, " ").slice(0, 300)}` : "";
+      const text = (it.content || it.snippet).replace(/\s+/g, " ").slice(0, 600);
+      const snip = text ? `\n   ${text}` : "";
       return `${i + 1}. [${it.source}]${pts} ${it.title}${snip}\n   URL: ${it.url}`;
     })
     .join("\n\n");

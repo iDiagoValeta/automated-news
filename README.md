@@ -1,21 +1,22 @@
 # La Terminal
 
-Diario estático de noticias de tecnología en español. Cada mañana publica una edición con las 8 a 10 noticias más relevantes del día, resumidas y con enlace a la fuente original, más un archivo histórico navegable por fechas. Se genera con un workflow de GitHub Actions y se sirve en GitHub Pages. No hay servidores ni base de datos.
+Diario estático de noticias de tecnología en español. Cada mañana (09:00 hora de Madrid) publica una edición con hasta 20 noticias del día, resumidas y con enlace a la fuente original, más un botón por noticia para copiarla lista para publicar en X y LinkedIn, y un archivo histórico navegable por fechas. Se genera con un workflow de GitHub Actions y se sirve en GitHub Pages. No hay servidores ni base de datos.
 
 - Sitio: https://idiagovaleta.github.io/automated-news/
 - Especificación original del proyecto: [SPEC.md](SPEC.md)
 
 ## Cómo funciona
 
-Un único script orquestador ([`pipeline/index.ts`](pipeline/index.ts)) ejecuta cinco pasos:
+Un único script orquestador ([`pipeline/index.ts`](pipeline/index.ts)) ejecuta estos pasos:
 
-1. **Recogida.** Lee las fuentes de [`config/sources.json`](config/sources.json) (RSS de blogs de laboratorios, medios tecnológicos y la API de Hacker News) y toma lo publicado en las últimas 24 horas. Si una fuente falla se registra y se continúa; solo aborta si fallan todas.
+1. **Recogida.** Lee las fuentes de [`config/sources.json`](config/sources.json) (RSS de blogs de laboratorios, medios tecnológicos generalistas y la API de Hacker News) y toma lo publicado en las últimas 24 horas. Si una fuente falla se registra y se continúa; solo aborta si fallan todas.
 2. **Normalización.** Formato común `{ title, snippet, url, source, published_at }` y deduplicación por URL canónica.
-3. **Curación.** Una llamada al proveedor de lenguaje configurado devuelve el digest del día en JSON, eligiendo y redactando en español. Nunca inventa URLs: elige entre las de entrada.
-4. **Validación.** Ajv contra [`schema/digest.schema.json`](schema/digest.schema.json), más la comprobación de que cada URL existe en la entrada. Hasta dos reintentos inyectando el error; si sigue sin validar, no se publica.
-5. **Renderizado y publicación.** El digest se guarda en `data/YYYY-MM-DD.json`, Eleventy construye el sitio y GitHub Pages lo sirve.
+3. **Enriquecimiento.** Para los candidatos con más señal, descarga la página y extrae texto real del artículo ([`pipeline/enrich.ts`](pipeline/enrich.ts)), para que los resúmenes no dependan solo del titular. Tolerante a fallos y paywalls.
+4. **Curación y validación.** Una llamada al modelo devuelve el digest del día en JSON (hasta 20 noticias), eligiendo y redactando en español; nunca inventa URLs. Se valida con Ajv contra [`schema/digest.schema.json`](schema/digest.schema.json) más la comprobación de que cada URL existe en la entrada. Hasta dos reintentos; si sigue sin validar, no se publica.
+5. **Posts sociales.** Una segunda llamada al modelo redacta, por noticia, el texto para X y para LinkedIn ([`pipeline/curate/social.ts`](pipeline/curate/social.ts)). Es best effort: si falla, la edición se publica igual sin posts.
+6. **Renderizado y publicación.** El digest se guarda en `data/YYYY-MM-DD.json`, Eleventy construye el sitio y GitHub Pages lo sirve.
 
-El modelo se usa como un paso más del script, con prompt fijo ([`prompts/curacion.md`](prompts/curacion.md)) y salida validada.
+El modelo se usa como un paso más del script, con prompts fijos ([`prompts/`](prompts/)) y salida validada.
 
 ## Uso en local
 
@@ -45,7 +46,9 @@ Sin credencial de proveedor el pipeline no falla: registra que no genera edició
 
 ### Fuentes: [`config/sources.json`](config/sources.json)
 
-Cada fuente se activa o desactiva con `enabled`. Campos globales: `window_hours` (ventana temporal en horas), `timeout_ms` y `user_agent`. La fuente de Anthropic es un mirror no oficial marcado como `fragile`: si falla, se ignora sin abortar.
+Incluye blogs de laboratorios (OpenAI, DeepMind, Anthropic, Hugging Face), medios tecnológicos (TechCrunch, The Verge, Ars Technica, The Register, Wired, Engadget, MIT Technology Review), la comunidad (Hacker News, Lobsters) y más. Cada fuente se activa o desactiva con `enabled`. Campos globales: `window_hours` (ventana temporal), `candidate_cap` (máximo de candidatos que pasan a curación), `enrich_top` (cuántos se enriquecen leyendo el artículo), `timeout_ms` y `user_agent`. La fuente de Anthropic es un mirror no oficial marcado como `fragile`: si falla, se ignora sin abortar.
+
+Reddit no está incluido: su JSON público devuelve 403 sin OAuth y bloquea las IP de datacenter donde corre GitHub Actions. La señal de comunidad se cubre con Hacker News y Lobsters.
 
 ### Variables de entorno
 
@@ -58,7 +61,11 @@ Cada fuente se activa o desactiva con `enabled`. Campos globales: `window_hours`
 
 ### Despliegue
 
-En `Settings, Pages` el origen es *GitHub Actions*. El secret `DEEPSEEK_API_KEY` se configura en `Settings, Secrets and variables, Actions`. El workflow [`daily.yml`](.github/workflows/daily.yml) corre por cron (04:17 UTC) y admite ejecución manual desde la pestaña Actions.
+En `Settings, Pages` el origen es *GitHub Actions*. El secret `DEEPSEEK_API_KEY` se configura en `Settings, Secrets and variables, Actions`. El workflow [`daily.yml`](.github/workflows/daily.yml) publica a las 09:00 hora de Madrid y admite ejecución manual desde la pestaña Actions. Como el cron de GitHub solo entiende UTC y España cambia de hora, se disparan dos cron (07:09 y 08:09 UTC) y un guardián solo deja publicar cuando en Madrid ya son las 09:00; la idempotencia evita publicar dos veces.
+
+## Compartir en redes
+
+Cada noticia tiene dos botones (X y LinkedIn) que copian al portapapeles un texto listo para pegar. Los redacta el modelo y el pipeline los monta ([`pipeline/curate/social.ts`](pipeline/curate/social.ts)): el de LinkedIn lleva el titular en **negrita** (caracteres Unicode) porque no tiene límite; el de X va en texto plano y recortado para caber en 280 caracteres, ya que en X las letras en negrita cuentan el doble. Es lo único que aporta JavaScript de cliente ([`site/js/compartir.js`](site/js/compartir.js)).
 
 ## Proveedor de fallback: `claude-code`
 

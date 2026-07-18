@@ -338,6 +338,62 @@ a {
   color: var(--muted);
 }
 
+/* ---------- Botones de compartir ---------- */
+
+.item-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+.item-head .kicker {
+  margin-bottom: 0;
+  padding-top: 0.35rem;
+}
+.share {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-shrink: 0;
+}
+.share__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid var(--faint);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+.share__btn:hover {
+  color: var(--ink);
+  border-color: var(--accent);
+}
+.share__btn.is-copied {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.share__ok {
+  align-self: center;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+.share:has(.is-copied) .share__ok {
+  opacity: 1;
+}
+
 /* ---------- Responsive ---------- */
 
 @media (max-width: 600px) {

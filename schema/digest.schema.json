@@ -23,7 +23,7 @@
     "items": {
       "type": "array",
       "minItems": 6,
-      "maxItems": 10,
+      "maxItems": 20,
       "items": {
         "type": "object",
         "additionalProperties": false,
@@ -61,6 +61,15 @@
           "source": {
             "type": "string",
             "minLength": 1
+          },
+          "social": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["x", "linkedin"],
+            "properties": {
+              "x": { "type": "string", "minLength": 1 },
+              "linkedin": { "type": "string", "minLength": 1 }
+            }
           }
         }
       }

@@ -17,6 +17,7 @@ function capitalizar(s) {
 
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "site/css": "css" });
+  eleventyConfig.addPassthroughCopy({ "site/js": "js" });
 
   // "2026-07-18" -> "sábado, 18 de julio de 2026"
   eleventyConfig.addFilter("fechaLarga", (s) => {
