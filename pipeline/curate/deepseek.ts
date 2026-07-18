@@ -19,8 +19,10 @@ export function deepseekProvider(): Provider {
   return {
     name: "deepseek",
     async generate(systemPrompt: string, userPrompt: string): Promise<string> {
+      // Timeout amplio: v4-pro razona y puede tardar. No recorta la respuesta,
+      // solo evita cuelgues indefinidos.
       const controller = new AbortController();
-      const timer = setTimeout(() => controller.abort(), 120_000);
+      const timer = setTimeout(() => controller.abort(), 300_000);
       try {
         const res = await fetch(ENDPOINT, {
           method: "POST",
