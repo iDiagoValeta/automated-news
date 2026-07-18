@@ -39,6 +39,11 @@ export default function (eleventyConfig) {
     return `${capitalizar(MESES[m - 1])} de ${y}`;
   });
 
+  // 19993 -> "19.993", 9312 -> "9.312" (separador de miles, agrupando siempre).
+  eleventyConfig.addFilter("miles", (n) =>
+    new Intl.NumberFormat("es-ES", { useGrouping: "always" }).format(Number(n)),
+  );
+
   // Agrupa ediciones (ya ordenadas desc) por año-mes para el archivo.
   eleventyConfig.addFilter("agrupaPorMes", (editions) => {
     const groups = new Map();

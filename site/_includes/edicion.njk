@@ -71,7 +71,7 @@
           <p class="repo__desc">{{ repo.description }}</p>
           <p class="repo__meta">
             {% if repo.language %}<span class="repo__lang">{{ repo.language }}</span>{% endif %}
-            {% if repo.stars %}<span class="repo__stars">{{ repo.stars }} ★</span>{% endif %}
+            {% if repo.stars %}<span class="repo__stars">{{ repo.stars | miles }} ★</span>{% endif %}
           </p>
         </article>
         {% endfor %}
