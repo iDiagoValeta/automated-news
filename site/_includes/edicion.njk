@@ -18,11 +18,6 @@
 {% set fechaActual = edition.date %}
 {% include "calendario.njk" %}
 <article class="edicion">
-  <div class="dateline">
-    <span class="dateline__fecha">{{ edition.date | fechaLarga }}</span>
-    <span class="dateline__num">Edición número {{ edition.numero }}</span>
-  </div>
-
   {% if lead %}
     <article class="lead">
       <div class="item-head">

@@ -128,20 +128,6 @@ a {
   padding: 0 1.5rem 4rem;
 }
 
-.dateline {
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--muted);
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 2rem;
-  justify-content: center;
-  margin: 2.6rem 0 3.4rem;
-}
-
 .why {
   margin: 0 0 0.4rem;
   max-width: 60ch;
