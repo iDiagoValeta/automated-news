@@ -80,7 +80,7 @@ jobs:
       - name: Commit de la edición del día
         if: steps.guard.outputs.run == 'true'
         run: |
-          git config user.name "Diario IA Bot"
+          git config user.name "deepseek-v4"
           git config user.email "actions@users.noreply.github.com"
           git add data/
           if git diff --cached --quiet; then
