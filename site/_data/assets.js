@@ -14,10 +14,10 @@ function hash(relPath) {
   }
 }
 
-export default function assets() {
-  return {
-    css: hash("css/diario.css"),
-    calendario: hash("js/calendario.js"),
-    compartir: hash("js/compartir.js"),
-  };
-}
+// Objeto plano (no función): en watch, el export-función a veces llega vacío
+// al template y deja ?v= sin hash, con CSS/JS cacheados viejos.
+export default {
+  css: hash("css/diario.css"),
+  calendario: hash("js/calendario.js"),
+  compartir: hash("js/compartir.js"),
+};
