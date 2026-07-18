@@ -1,0 +1,7 @@
+{# Calendario de fechas disponibles, arriba de la página. Espera `fechas`
+   (lista con `.date`), `fechaAttr` (atributo de ruta) y `fechaActual`. #}
+{% if fechas and fechas.length %}
+<div class="calendario" data-actual="{{ fechaActual }}" aria-label="Calendario de ediciones disponibles">
+  <script type="application/json" class="calendario__datos">[{% for e in fechas %}{"d":"{{ e.date }}","u":"{{ e[fechaAttr] | url }}"}{{ "," if not loop.last }}{% endfor %}]</script>
+</div>
+{% endif %}

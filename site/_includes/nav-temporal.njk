@@ -1,19 +1,10 @@
-{# Barra de navegación estándar de una sección. Igual en noticias y repos: solo
-   cambian los destinos. Espera olderPath, newerPath, y (para el selector de
-   fecha) `fechas` con `fechaAttr` (nombre del atributo de ruta de cada fecha). #}
-<nav class="edicion-nav" aria-label="Navegación">
+{# Barra de navegación secuencial de una sección (día anterior / siguiente).
+   El salto a una fecha concreta se hace con el calendario de arriba.
+   Igual en noticias y repos: solo cambian los destinos. Espera olderPath, newerPath. #}
+<nav class="edicion-nav" aria-label="Navegación entre días">
   {% if olderPath %}
     <a class="edicion-nav__flecha" href="{{ olderPath | url }}">← Anterior</a>
   {% else %}<span class="edicion-nav__flecha"></span>{% endif %}
-
-  {% if fechas and fechas.length %}
-    <select class="fecha-select" aria-label="Ir a una fecha disponible" onchange="if(this.value){location.href=this.value}">
-      {% for e in fechas %}
-        <option value="{{ e[fechaAttr] | url }}"{% if e[fechaAttr] == page.url %} selected{% endif %}>{{ e.date | fechaLarga }}</option>
-      {% endfor %}
-    </select>
-  {% else %}<span></span>{% endif %}
-
   {% if newerPath %}
     <a class="edicion-nav__flecha" href="{{ newerPath | url }}">Siguiente →</a>
   {% else %}<span class="edicion-nav__flecha"></span>{% endif %}

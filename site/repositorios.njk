@@ -7,12 +7,14 @@ permalink: "/repositorios/index.html"
   {% set ed = reposEditions[0] %}
   {% set repos = ed.repos %}
   {% set fecha = ed.date %}
+  {% set fechas = reposEditions %}
+  {% set fechaAttr = "reposPath" %}
+  {% set fechaActual = ed.date %}
+  {% include "calendario.njk" %}
   {% include "repos-lista.njk" %}
 
   {% set olderPath = ed.reposOlderPath %}
   {% set newerPath = ed.reposNewerPath %}
-  {% set fechas = reposEditions %}
-  {% set fechaAttr = "reposPath" %}
   {% include "nav-temporal.njk" %}
 {% else %}
   <p class="empty">Aún no hay repositorios hot publicados. Vuelve mañana por la mañana.</p>

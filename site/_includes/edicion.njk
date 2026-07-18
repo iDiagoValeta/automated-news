@@ -13,6 +13,10 @@
 {% endmacro %}
 
 {% set lead = edition.items[0] %}
+{% set fechas = editions %}
+{% set fechaAttr = "path" %}
+{% set fechaActual = edition.date %}
+{% include "calendario.njk" %}
 <article class="edicion">
   <div class="dateline">
     <span class="dateline__fecha">{{ edition.date | fechaLarga }}</span>
@@ -61,7 +65,5 @@
 
   {% set olderPath = edition.olderPath %}
   {% set newerPath = edition.newerPath %}
-  {% set fechas = editions %}
-  {% set fechaAttr = "path" %}
   {% include "nav-temporal.njk" %}
 </article>
