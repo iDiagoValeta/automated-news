@@ -35,6 +35,15 @@ Noticia: *Meta libera un modelo de visión de código abierto que iguala a model
 - ❌ `hook_x`: `Meta ha publicado un nuevo modelo de visión de código abierto.` (plano, es el titular)
 - ✅ `hook_linkedin`: `Durante años la brecha entre modelos abiertos y cerrados fue el argumento para no apostar por lo abierto. Esta semana esa brecha se estrecha: Meta libera un modelo de visión que **iguala a los cerrados en las pruebas estándar** y se puede desplegar en tu propia infraestructura. Para cualquier equipo que descartó lo abierto por rendimiento, toca revisar la decisión.`
 
+## Castellano de España (obligatorio)
+
+Escribe en español de España, natural, como un profesional del sector. Estas normas **no se pueden saltar**:
+
+- **Prohibida la raya y el guion largo (—, –) para incisos o para unir frases.** Usa comas, paréntesis, dos puntos o divide en dos frases.
+- **No traduzcas los tecnicismos que el sector usa en inglés.** Antes que inventar una traducción forzada, deja el término en inglés: *forge* (no «forja»), *self-hosted* (no «autoalojado»), *deploy*, *framework*, *commit*, *pull request*, *prompt*, *plugin*, *open source*.
+- **Nada de calcos del inglés ni traducción palabra por palabra.** «tu forge no necesita ser pesada» (calco de *doesn't need to be heavy*) suena mal; di «tu forge no tiene por qué pesar tanto» o reformula.
+- **Léxico peninsular**, sin americanismos. Acentos siempre y signos de apertura `¿` `¡` cuando toquen.
+
 ## Salida
 
 Responde **ÚNICAMENTE** con este JSON, sin texto adicional ni bloques de código:
