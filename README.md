@@ -55,7 +55,7 @@ Reddit no está incluido: su JSON público devuelve 403 sin OAuth y bloquea las 
 | Variable | Uso |
 |---|---|
 | `DEEPSEEK_API_KEY` | Credencial del proveedor principal (secret). |
-| `DEEPSEEK_MODEL` | Modelo de DeepSeek. Por defecto `deepseek-v4-flash` (barato, adecuado para resumen). Alternativa: `deepseek-v4-pro`. |
+| `DEEPSEEK_MODEL` | Modelo de DeepSeek. Por defecto `deepseek-v4-pro`. Alternativa más barata: `deepseek-v4-flash`. |
 | `LLM_PROVIDER` | `deepseek` (por defecto) o `claude-code`. |
 | `CLAUDE_CODE_OAUTH_TOKEN` | Solo para el proveedor `claude-code`. |
 

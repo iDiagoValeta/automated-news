@@ -14,7 +14,7 @@ export function deepseekProvider(): Provider {
   const apiKey = process.env.DEEPSEEK_API_KEY;
   if (!apiKey) throw new Error("Falta la variable de entorno DEEPSEEK_API_KEY");
   // `||` y no `??`: en el workflow la variable puede llegar como cadena vacía.
-  const model = process.env.DEEPSEEK_MODEL || "deepseek-v4-flash";
+  const model = process.env.DEEPSEEK_MODEL || "deepseek-v4-pro";
 
   return {
     name: "deepseek",
@@ -37,7 +37,6 @@ export function deepseekProvider(): Provider {
             ],
             response_format: { type: "json_object" },
             temperature: 0.3,
-            max_tokens: 8192,
           }),
         });
         if (!res.ok) {

@@ -22,7 +22,7 @@ Una lista numerada de ítems. Cada uno trae:
    Si el día es flojo, selecciona un mínimo de 8; nunca rellenes con ruido.
 4. **Redactar** cada noticia en **español**:
    - `title`: titular propio, claro y en español (no traducción literal).
-   - `summary`: 2 o 3 frases que expliquen la noticia, apoyándote en el texto del artículo cuando esté disponible.
+   - `summary`: 2 o 3 frases claras y concisas que expliquen la noticia, apoyándote en el texto del artículo cuando esté disponible. No te extiendas: es un resumen, no el artículo.
    - `why_it_matters`: **una** frase sobre por qué es relevante.
    - `category`: exactamente una de `lanzamientos`, `investigacion`, `industria`, `herramientas`.
    - `url`: la URL original **copiada literalmente** del ítem de entrada. **Nunca** la inventes ni la modifiques; debe coincidir carácter a carácter con una de la entrada.
