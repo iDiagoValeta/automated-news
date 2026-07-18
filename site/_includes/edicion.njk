@@ -59,6 +59,26 @@
     </div>
   {% endif %}
 
+  {% if edition.repos and edition.repos.length %}
+    <section class="repos" aria-labelledby="repos-titulo">
+      <h2 class="repos__title" id="repos-titulo">Repositorios hot del día</h2>
+      <div class="repos__grid">
+        {% for repo in edition.repos %}
+        <article class="repo">
+          <h3 class="repo__name">
+            <a href="{{ repo.url }}" target="_blank" rel="noopener">{{ repo.name }}</a>
+          </h3>
+          <p class="repo__desc">{{ repo.description }}</p>
+          <p class="repo__meta">
+            {% if repo.language %}<span class="repo__lang">{{ repo.language }}</span>{% endif %}
+            {% if repo.stars %}<span class="repo__stars">{{ repo.stars }} ★</span>{% endif %}
+          </p>
+        </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
   <nav class="edicion-nav" aria-label="Navegación entre ediciones">
     {% if edition.olderPath %}
       <a href="{{ edition.olderPath | url }}">Edición anterior</a>

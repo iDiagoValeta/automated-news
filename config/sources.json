@@ -33,5 +33,13 @@
     "name": "Hugging Face (trending)",
     "enabled": false,
     "limit": 20
+  },
+  "github_trending": {
+    "id": "github-trending",
+    "name": "GitHub (trending)",
+    "enabled": true,
+    "since": "daily",
+    "limit": 25,
+    "pick": 5
   }
 }

@@ -73,6 +73,23 @@
           }
         }
       }
+    },
+    "repos": {
+      "type": "array",
+      "maxItems": 8,
+      "description": "Seccion 'Repositorios hot'; opcional, se rellena tras la validacion.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "url", "description"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
+          "description": { "type": "string", "minLength": 1, "maxLength": 400 },
+          "language": { "type": "string" },
+          "stars": { "type": "integer", "minimum": 0 }
+        }
+      }
     }
   }
 }

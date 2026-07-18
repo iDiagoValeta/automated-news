@@ -21,6 +21,29 @@ export interface SocialPosts {
   linkedin: string;
 }
 
+/** Repositorio en tendencia recogido de GitHub, antes de pasar por el modelo. */
+export interface RepoRaw {
+  /** owner/repo. */
+  name: string;
+  url: string;
+  /** Descripción original de GitHub (suele estar en inglés; puede faltar). */
+  description: string;
+  language: string;
+  /** Estrellas totales. */
+  stars: number;
+  /** Estrellas ganadas en el periodo (0 si no se conoce, p. ej. vía Search API). */
+  stars_today: number;
+}
+
+/** Repositorio ya curado para la sección "Repositorios hot", con descripción en español. */
+export interface Repo {
+  name: string;
+  url: string;
+  description: string;
+  language?: string;
+  stars?: number;
+}
+
 export type ProviderName = "deepseek" | "claude-code";
 
 export type Category =
@@ -46,6 +69,8 @@ export interface Digest {
   generated_at: string;
   provider: ProviderName;
   items: DigestItem[];
+  /** Sección "Repositorios hot"; se rellena en una tercera llamada al LLM (best effort). */
+  repos?: Repo[];
 }
 
 // ---- Configuración (config/sources.json) ----
@@ -73,6 +98,18 @@ export interface HfTrendingConfig {
   limit: number;
 }
 
+export interface GithubTrendingConfig {
+  id: string;
+  name: string;
+  enabled: boolean;
+  /** Ventana de tendencia de GitHub. */
+  since: "daily" | "weekly" | "monthly";
+  /** Cuántos repos en tendencia se recogen para pasar al modelo. */
+  limit: number;
+  /** Cuántos elige el modelo para la sección. */
+  pick: number;
+}
+
 export interface SourcesConfig {
   user_agent: string;
   timeout_ms: number;
@@ -85,4 +122,5 @@ export interface SourcesConfig {
   rss: RssSource[];
   hackernews: HackerNewsConfig;
   huggingface_trending: HfTrendingConfig;
+  github_trending: GithubTrendingConfig;
 }

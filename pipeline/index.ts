@@ -2,9 +2,11 @@ import { existsSync, mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { ROOT, loadConfig } from "./config.ts";
 import { collectAll } from "./sources/index.ts";
+import { collectGithubTrending } from "./sources/github.ts";
 import { normalize } from "./normalize.ts";
 import { enrich } from "./enrich.ts";
 import { curate, providerCredentialPresent, resolveProviderName } from "./curate/index.ts";
+import type { ReposInput } from "./curate/index.ts";
 import { error, log } from "./log.ts";
 
 /** Fecha de la edición en zona Europe/Madrid, formato YYYY-MM-DD. */
@@ -70,7 +72,15 @@ async function main(): Promise<void> {
   // Enriquecimiento: leer el artículo real de los candidatos con más señal.
   await enrich(items, cfg);
 
-  const digest = await curate(items, { date, generated_at: generatedAt, provider });
+  // Repos en tendencia de GitHub para la sección "Repositorios hot" (best effort).
+  let repos: ReposInput | undefined;
+  if (cfg.github_trending.enabled) {
+    const trending = await collectGithubTrending(cfg, cfg.github_trending);
+    log(`GitHub trending: ${trending.length} repos recogidos.`);
+    repos = { trending, pick: cfg.github_trending.pick };
+  }
+
+  const digest = await curate(items, { date, generated_at: generatedAt, provider }, repos);
 
   mkdirSync(dataDir, { recursive: true });
   writeFileSync(outPath, JSON.stringify(digest, null, 2) + "\n", "utf8");

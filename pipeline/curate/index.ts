@@ -2,10 +2,17 @@ import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { log, warn } from "../log.ts";
 import { validateDigest } from "../validate.ts";
-import type { Digest, NewsItem, ProviderName } from "../types.ts";
+import type { Digest, NewsItem, ProviderName, RepoRaw } from "../types.ts";
 import { deepseekProvider } from "./deepseek.ts";
 import { claudeCodeProvider } from "./claude-code.ts";
 import { attachSocial } from "./social.ts";
+import { attachRepos } from "./repos.ts";
+
+/** Repos en tendencia y cuántos elegir; se resuelven fuera (best effort). */
+export interface ReposInput {
+  trending: RepoRaw[];
+  pick: number;
+}
 
 const PROMPT_PATH = fileURLToPath(new URL("../../prompts/curacion.md", import.meta.url));
 const MAX_ATTEMPTS = 3; // 1 intento + hasta 2 reintentos
@@ -42,7 +49,7 @@ function getProvider(name: ProviderName): Provider {
  * schema + comprobación de URLs, y reintenta hasta 2 veces inyectando el error
  * concreto en el prompt. Lanza si tras los reintentos sigue sin validar.
  */
-export async function curate(items: NewsItem[], meta: CurateMeta): Promise<Digest> {
+export async function curate(items: NewsItem[], meta: CurateMeta, repos?: ReposInput): Promise<Digest> {
   const provider = getProvider(meta.provider);
   const systemPrompt = readFileSync(PROMPT_PATH, "utf8");
   const inputUrls = new Set(items.map((i) => i.url));
@@ -71,6 +78,9 @@ export async function curate(items: NewsItem[], meta: CurateMeta): Promise<Diges
       const valid = digest as Digest;
       log(`Curación válida al intento ${attempt}: ${valid.items.length} noticias`);
       await attachSocial(provider, valid);
+      if (repos && repos.trending.length > 0) {
+        await attachRepos(provider, valid, repos.trending, repos.pick);
+      }
       return valid;
     }
 
