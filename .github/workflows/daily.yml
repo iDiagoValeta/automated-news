@@ -87,6 +87,9 @@ jobs:
             echo "Sin cambios en data/: no se crea commit."
           else
             git commit -m "edición $(TZ='Europe/Madrid' date +%Y-%m-%d)"
+            # Integra cambios remotos aparecidos durante la ejecución antes de
+            # publicar, para que un push concurrente no tumbe la edición.
+            git pull --rebase origin main
             git push
           fi
 
