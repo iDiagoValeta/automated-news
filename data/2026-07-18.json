@@ -1,0 +1,304 @@
+{
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T14:20:16.971Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "herramientas",
+      "title": "Guía práctica para ajustar modelos de vídeo e imagen a escala con las nuevas herramientas de NVIDIA y 🤗 Diffusers",
+      "summary": "NVIDIA y Hugging Face han publicado una guía detallada para ajustar modelos de difusión de imágenes y vídeo a escala utilizando NeMo Automodel. El tutorial muestra cómo aprovechar la infraestructura de NVIDIA para entrenar modelos de manera eficiente. Los desarrolladores pueden seguir los pasos para aplicar estas técnicas a sus propios proyectos.",
+      "why_it_matters": "Facilita el acceso al ajuste de modelos generativos de última generación, una tarea que normalmente requiere grandes recursos.",
+      "url": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "El ajuste de modelos de vídeo a escala ya tiene manual de instrucciones. NVIDIA y Hugging Face detallan el proceso con NeMo Automodel.\n\n#NVIDIA #HuggingFace #Diffusers #NeMo\nhttps://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+        "linkedin": "El ajuste de modelos de vídeo e imagen a escala suele exigir una inversión que pocos equipos pueden permitirse. Una nueva guía práctica de NVIDIA y Hugging Face demuestra que 𝘆𝗮 𝗻𝗼 𝗵𝗮𝗰𝗲 𝗳𝗮𝗹𝘁𝗮 𝘂𝗻 𝗰𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀 𝗽𝗮𝗿𝗮 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝘇𝗮𝗿 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗱𝗲 𝗱𝗶𝗳𝘂𝘀𝗶ó𝗻 𝗱𝗲 ú𝗹𝘁𝗶𝗺𝗮 𝗴𝗲𝗻𝗲𝗿𝗮𝗰𝗶ó𝗻. Con NeMo Automodel y Diffusers, cualquier desarrollador puede aplicar estas técnicas a sus proyectos aprovechando la infraestructura de NVIDIA de forma eficiente. Si trabajas con modelos generativos, esta guía te ahorrará semanas de prueba y error.\n\n#NVIDIA #HuggingFace #Diffusers #NeMo\n\nhttps://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "investigacion",
+      "title": "Un auditor de IA descubre un fallo crítico en la máquina virtual de conocimiento cero OpenVM",
+      "summary": "La herramienta de auditoría basada en IA, zkao, encontró un error de solidez en OpenVM que permitía a un atacante falsificar cualquier igualdad de emparejamiento. El fallo, corregido en la versión 1.6.0, se debía a una comprobación insuficiente de subcampos. Se le ha asignado el CVE-2026-46669.",
+      "why_it_matters": "Demuestra el potencial de la IA para mejorar la seguridad del software criptográfico encontrando vulnerabilidades que podrían pasar desapercibidas.",
+      "url": "https://blog.zksecurity.xyz/posts/openvm-bugs",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un fallo en OpenVM permitía a un atacante falsificar pruebas de conocimiento cero. Lo detectó zkao, un auditor basado en IA.\n\n#OpenVM #zkao #CVE-2026-46669 #criptografía\nhttps://blog.zksecurity.xyz/posts/openvm-bugs",
+        "linkedin": "La seguridad del software criptográfico acaba de recibir un impulso inesperado: una IA ha encontrado un fallo crítico en OpenVM que los humanos no habían detectado.\n\nEl error, descubierto por la herramienta zkao, permitía falsificar cualquier igualdad de emparejamiento y comprometer las pruebas de conocimiento cero. La versión 1.6.0 ya lo corrige y se le ha asignado el CVE-2026-46669. 𝗟𝗮 𝗜𝗔 𝗽𝘂𝗲𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗮𝗹𝗶𝗮𝗱𝗼 𝗱𝗲𝗰𝗶𝘀𝗶𝘃𝗼 𝗲𝗻 𝗹𝗮 𝗮𝘂𝗱𝗶𝘁𝗼𝗿í𝗮 𝗱𝗲 𝗰ó𝗱𝗶𝗴𝗼 𝗰𝗿𝗶𝗽𝘁𝗼𝗴𝗿á𝗳𝗶𝗰𝗼, encontrando vulnerabilidades que pasan desapercibidas en revisiones manuales.\n\n#OpenVM #zkao #CVE-2026-46669 #criptografía\n\nhttps://blog.zksecurity.xyz/posts/openvm-bugs"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "TikTok prueba una herramienta para detectar suplantaciones de identidad generadas por IA",
+      "summary": "TikTok ha comenzado a probar una función opcional que permite a los creadores escanear y reportar contenidos que usen su imagen generada por IA sin permiso. La herramienta requiere verificación de identidad a través de una empresa externa y está disponible inicialmente para algunos creadores en Estados Unidos.",
+      "why_it_matters": "Es un paso hacia la protección de la identidad digital frente a los deepfakes en plataformas masivas.",
+      "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+      "source": "The Verge",
+      "social": {
+        "x": "La suplantación con deepfakes en TikTok tiene un nuevo enemigo: una herramienta que los propios creadores pueden usar para escanear y reportar.\n\n#TikTok #Deepfakes #IdentidadDigital\nhttps://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+        "linkedin": "La lucha contra los deepfakes en TikTok acaba de sumar un arma inesperada.\n\nTikTok ha empezado a probar una función opcional que permite a los creadores escanear y reportar contenido que use su imagen generada por IA sin permiso. Requiere verificación de identidad a través de una empresa externa y, de momento, está disponible para algunos creadores en Estados Unidos. 𝗟𝗮 𝗽𝗿𝗼𝘁𝗲𝗰𝗰𝗶ó𝗻 𝗱𝗲 𝗹𝗮 𝗶𝗱𝗲𝗻𝘁𝗶𝗱𝗮𝗱 𝗱𝗶𝗴𝗶𝘁𝗮𝗹 𝗱𝗮 𝘂𝗻 𝗽𝗮𝘀𝗼 𝗺á𝘀 𝗮𝗹𝗹á 𝗱𝗲𝗹 𝘄𝗮𝘁𝗲𝗿𝗺𝗮𝗿𝗸𝗶𝗻𝗴 𝘆 𝗲𝗻𝘁𝗿𝗮 𝗲𝗻 𝗲𝗹 𝘁𝗲𝗿𝗿𝗲𝗻𝗼 𝗱𝗲 𝗹𝗮 𝗺𝗼𝗻𝗶𝘁𝗼𝗿𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗮𝗰𝘁𝗶𝘃𝗮 𝗽𝗼𝗿 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲 𝗹𝗼𝘀 𝗽𝗿𝗼𝗽𝗶𝗼𝘀 𝘂𝘀𝘂𝗮𝗿𝗶𝗼𝘀.\n\n#TikTok #Deepfakes #IdentidadDigital\n\nhttps://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "Así funcionan las nuevas tarifas de Gemini y cómo controlar tu consumo",
+      "summary": "Google ha modificado la forma en que contabiliza las cuotas de uso de su asistente Gemini, lo que puede reducir el número de respuestas de IA que reciben los usuarios. Este artículo explica el nuevo sistema de tarifas y ofrece consejos para monitorizar el gasto y evitar sorpresas.",
+      "why_it_matters": "Afecta directamente a la experiencia de millones de usuarios de los servicios de IA de Google y ayuda a planificar su uso.",
+      "url": "https://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage",
+      "source": "Wired",
+      "social": {
+        "x": "📉 ¿Notas menos respuestas de Gemini? No es un fallo. Google ha cambiado cómo cuenta tu consumo y eso reduce las interacciones. Te contamos cómo controlarlo.\n\n#Gemini #Google #AICost\nhttps://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage",
+        "linkedin": "Tu asistente de IA favorito podría estar respondiéndote menos. Y no es un fallo técnico.\n\nGoogle ha modificado la forma de contabilizar el uso de Gemini, lo que afecta directamente al número de interacciones que recibes. 𝗘𝘀𝘁𝗲 𝗰𝗮𝗺𝗯𝗶𝗼 𝗿𝗲𝗱𝘂𝗰𝗲 𝘀𝗶𝗹𝗲𝗻𝗰𝗶𝗼𝘀𝗮𝗺𝗲𝗻𝘁𝗲 𝗹𝗮𝘀 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮𝘀 𝗾𝘂𝗲 𝗼𝗯𝘁𝗶𝗲𝗻𝗲𝘀, por lo que monitorizar el consumo se vuelve imprescindible para no quedarte corto. Un reflejo de cómo los servicios de IA pasan de la barra libre a la gestión consciente del gasto.\n\n#Gemini #Google #AICost\n\nhttps://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "investigacion",
+      "title": "La inyección de prompts frustra a los agentes hackers de IA con 'bombardeo de contexto'",
+      "summary": "Investigadores han demostrado que la técnica de 'bombardeo de contexto' puede neutralizar agentes maliciosos de IA antes de que causen daño. Al saturar el prompt con instrucciones confusas, se consigue que el atacante detenga su actividad. Este hallazgo es un avance en la defensa contra ciberataques automatizados.",
+      "why_it_matters": "Proporciona un método sencillo y efectivo para defenderse de las amenazas emergentes de agentes de IA ofensivos.",
+      "url": "https://www.wired.com/story/prompt-injection-attacks-are-thwarting-ai-hacking-agents",
+      "source": "Wired",
+      "social": {
+        "x": "Saturar de contexto a un agente de IA malicioso lo frena en seco. Se llama 'bombardeo de contexto' y es la nueva defensa contra ciberataques automatizados.\n\n#PromptInjection #ContextBombing #Ciberseguridad #AgentesIA\nhttps://www.wired.com/story/prompt-injection-attacks-are-thwarting-ai-hacking-agents",
+        "linkedin": "Detener un ciberataque automatizado con IA podría ser tan fácil como saturar de texto al atacante.\n\nEl 'bombardeo de contexto' es una técnica que consiste en enviar un aluvión de instrucciones contradictorias a los agentes maliciosos. 𝗟𝗼𝘀 𝗶𝗻𝘃𝗲𝘀𝘁𝗶𝗴𝗮𝗱𝗼𝗿𝗲𝘀 𝗵𝗮𝗻 𝗱𝗲𝗺𝗼𝘀𝘁𝗿𝗮𝗱𝗼 𝗾𝘂𝗲 𝗲𝘀𝘁𝗲 𝗺é𝘁𝗼𝗱𝗼 𝗹𝗼𝘀 𝗯𝗹𝗼𝗾𝘂𝗲𝗮 𝗽𝗼𝗿 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 y es una defensa sencilla que cualquier organización puede implementar hoy. Una victoria inesperada en la carrera entre atacantes y defensores de IA.\n\n#PromptInjection #ContextBombing #Ciberseguridad #AgentesIA\n\nhttps://www.wired.com/story/prompt-injection-attacks-are-thwarting-ai-hacking-agents"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "investigacion",
+      "title": "Los filtros de spam con IA siguen siendo vulnerables a viejos trucos de ofuscación",
+      "summary": "Un estudio revela que las técnicas clásicas de 'salado' de texto, como añadir palabras aleatorias o caracteres invisibles, siguen funcionando para engañar a los filtros de correo basados en modelos de lenguaje. Los atacantes pueden colar correos maliciosos eludiendo los sistemas más modernos.",
+      "why_it_matters": "Expone las limitaciones actuales de la IA en ciberseguridad y la necesidad de combinar enfoques tradicionales y modernos.",
+      "url": "https://www.theregister.com/security/2026/07/17/ai-spam-filters-are-getting-suckered-by-old-school-text-salting/5274434",
+      "source": "The Register",
+      "social": {
+        "x": "¿Crees que tu filtro de spam con IA es infalible? Añadir palabras aleatorias o caracteres invisibles sigue burlándolo como hace 20 años.\n\n#Ciberseguridad #Spam #LLM\nhttps://www.theregister.com/security/2026/07/17/ai-spam-filters-are-getting-suckered-by-old-school-text-salting/5274434",
+        "linkedin": "⚠️ Los filtros de spam basados en IA siguen cayendo en los mismos trucos de ofuscación de hace décadas.\nUn nuevo estudio confirma que técnicas como el 'salado' de texto (añadir palabras aleatorias o caracteres invisibles) burlan los modelos de lenguaje actuales con facilidad. 𝗟𝗼𝘀 𝗮𝘁𝗮𝗰𝗮𝗻𝘁𝗲𝘀 𝗽𝘂𝗲𝗱𝗲𝗻 𝗰𝗼𝗹𝗮𝗿 𝗰𝗼𝗿𝗿𝗲𝗼𝘀 𝗺𝗮𝗹𝗶𝗰𝗶𝗼𝘀𝗼𝘀 𝘀𝗶𝗻 𝗻𝗲𝗰𝗲𝘀𝗶𝗱𝗮𝗱 𝗱𝗲 𝗲𝘅𝗽𝗹𝗼𝗶𝘁𝘀 𝘀𝗼𝗳𝗶𝘀𝘁𝗶𝗰𝗮𝗱𝗼𝘀. Para quienes diseñamos sistemas de seguridad, esto subraya que la defensa en profundidad sigue siendo esencial: combinar IA con reglas tradicionales y análisis heurístico.\n\n#Ciberseguridad #Spam #LLM\n\nhttps://www.theregister.com/security/2026/07/17/ai-spam-filters-are-getting-suckered-by-old-school-text-salting/5274434"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Vertu presenta un agente de IA de 6.880 dólares para ejecutivos: así es la experiencia real",
+      "summary": "La marca de lujo Vertu ha integrado un agente de IA en su teléfono plegable de alta gama. TechCrunch ha probado el dispositivo y analiza su rendimiento, la duración de la batería y la seguridad. El asistente promete gestionar flujos de trabajo complejos, pero su elevado precio lo aleja del gran público.",
+      "why_it_matters": "Muestra cómo la IA se está integrando en dispositivos premium, aunque su propuesta de valor aún es limitada para la mayoría.",
+      "url": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs",
+      "source": "TechCrunch",
+      "social": {
+        "x": "¿Qué puede hacer un agente de IA en un móvil de lujo de 6.880 dólares? TechCrunch lo ha probado y esto es lo que realmente hace.\n\n#Vertu #TechCrunch\nhttps://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs",
+        "linkedin": "Vertu acaba de lanzar un teléfono plegable con un agente de IA integrado. Cuesta 6.880 dólares y promete gestionar flujos de trabajo complejos. ¿Realmente lo cumple?\n\nTechCrunch ha probado el dispositivo y la experiencia real muestra que 𝗲𝗹 𝘃𝗮𝗹𝗼𝗿 𝗱𝗲𝗹 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝗮ú𝗻 𝗲𝘀𝘁á 𝗽𝗼𝗿 𝗱𝗲𝗺𝗼𝘀𝘁𝗿𝗮𝗿, especialmente a ese precio. Aunque es un movimiento interesante para el segmento premium, para la mayoría de los profesionales no justifica la inversión. Es un recordatorio de que la integración de IA en hardware de consumo aún está en sus primeras etapas.\n\n#Vertu #TechCrunch\n\nhttps://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "industria",
+      "title": "El estado del open source en la IA: un informe revela su impacto más allá de los grandes modelos",
+      "summary": "El sitio stateofopensource.ai recopila casos reales de uso de IA abierta: desde modelos de voz para el maorí hasta sistemas médicos en Tanzania. El informe destaca cómo el open source permite a comunidades y empresas implementar soluciones de IA sin depender de grandes proveedores y manteniendo el control de los datos.",
+      "why_it_matters": "Ofrece una visión global del verdadero alcance de la IA abierta, más allá de los titulares sobre grandes corporaciones.",
+      "url": "https://stateofopensource.ai",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Qué tienen en común el maorí y los hospitales de Tanzania? Ambos se benefician del open source en IA, según un nuevo informe.\n\n#OpenSource #AI #SoberaníaDeDatos\nhttps://stateofopensource.ai",
+        "linkedin": "¿Qué tienen en común el maorí y los hospitales de Tanzania? Ambos se benefician del open source en IA, según un nuevo informe.\n\nEl informe 'State of Open Source AI' recopila casos reales que muestran cómo la IA abierta permite 𝗱𝗲𝘀𝗽𝗹𝗲𝗴𝗮𝗿 𝘀𝗼𝗹𝘂𝗰𝗶𝗼𝗻𝗲𝘀 𝘀𝗶𝗻 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝗴𝗿𝗮𝗻𝗱𝗲𝘀 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿𝗲𝘀, 𝗺𝗮𝗻𝘁𝗲𝗻𝗶𝗲𝗻𝗱𝗼 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲 𝗹𝗼𝘀 𝗱𝗮𝘁𝗼𝘀. Esto cambia la narrativa: el open source no es solo una alternativa técnica, sino una vía para democratizar el acceso en sectores críticos.\n\n#OpenSource #AI #SoberaníaDeDatos\n\nhttps://stateofopensource.ai"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "industria",
+      "title": "Patreon deja de pedir permiso a los bots de IA y pasa a bloquearlos activamente",
+      "summary": "La plataforma de creadores ha empezado a utilizar Cloudflare para impedir que los bots entrenen modelos de IA con el contenido de sus usuarios sin autorización. Hasta ahora se limitaba a usar robots.txt, pero el bloqueo activo supone un endurecimiento de su postura contra el scraping.",
+      "why_it_matters": "Refleja la creciente tensión entre los creadores de contenido y las empresas de IA, y un posible cambio en las estrategias de defensa.",
+      "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Patreon ha sustituido el 'por favor, no entrenes' por un bloqueo directo. Los bots de IA ya no pueden aspirar contenido de sus creadores.\n\n#Patreon #Cloudflare #scraping #creadores\nhttps://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them",
+        "linkedin": "Patreon ha decidido que ya basta de scraping para IA sin permiso. Y ha puesto a Cloudflare de portero.\n\nLa plataforma de creadores ha pasado de usar robots.txt (una petición que los bots pueden ignorar) a un bloqueo técnico activo. 𝗬𝗮 𝗻𝗼 𝗯𝗮𝘀𝘁𝗮 𝗰𝗼𝗻 𝗽𝗲𝗱𝗶𝗿 𝗮𝗺𝗮𝗯𝗹𝗲𝗺𝗲𝗻𝘁𝗲 𝗾𝘂𝗲 𝗻𝗼 𝘁𝗲 𝗰𝗼𝗽𝗶𝗲𝗻; 𝗮𝗵𝗼𝗿𝗮 𝘀𝗲 𝗶𝗺𝗽𝗶𝗱𝗲 𝗲𝗹 𝗮𝗰𝗰𝗲𝘀𝗼. Este movimiento refleja la frustración de los creadores y anticipa una tendencia: las plataformas que alojan contenido original están tomando medidas más agresivas. Las empresas de IA tendrán que negociar o buscar otras fuentes.\n\n#Patreon #Cloudflare #scraping #creadores\n\nhttps://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "OpenAI avisará a los padres si expulsan a sus hijos de ChatGPT por amenazas violentas",
+      "summary": "OpenAI ha anunciado que notificará a los tutores vinculados a cuentas de adolescentes si estos son expulsados por violar las políticas sobre violencia. La medida refuerza los controles parentales lanzados el año pasado y busca involucrar a las familias en la seguridad de los menores.",
+      "why_it_matters": "Añade una capa de responsabilidad y transparencia en el uso de IA por parte de adolescentes, un colectivo especialmente vulnerable.",
+      "url": "https://www.engadget.com/2218076/openai-notify-parents-teen-banned-chatgpt-violence",
+      "source": "Engadget",
+      "social": {
+        "x": "Si tu hijo amenaza con violencia en ChatGPT, te vas a enterar. OpenAI se lo notificará a los padres.\n\n#OpenAI #ChatGPT #ControlParental #SeguridadOnline\nhttps://www.engadget.com/2218076/openai-notify-parents-teen-banned-chatgpt-violence",
+        "linkedin": "OpenAI ha decidido que si un adolescente amenaza con violencia en ChatGPT, sus padres lo sabrán. \n\nEsta medida extiende los controles parentales del año pasado y 𝗰𝗼𝗹𝗼𝗰𝗮 𝗮 𝗹𝗮𝘀 𝗳𝗮𝗺𝗶𝗹𝗶𝗮𝘀 𝗲𝗻 𝗲𝗹 𝗰𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝗹𝗮 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 de estas herramientas. Para una tecnología que los menores adoptan a gran velocidad, es una capa de transparencia que puede marcar la diferencia.\n\n#OpenAI #ChatGPT #ControlParental #SeguridadOnline\n\nhttps://www.engadget.com/2218076/openai-notify-parents-teen-banned-chatgpt-violence"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "La demanda de Apple amenaza los planes de salida a bolsa de OpenAI",
+      "summary": "Apple ha presentado una demanda por secretos comerciales contra OpenAI alegando que la empresa ha contratado a más de 400 extrabajadores de Apple, incluido su jefe de hardware. La disputa legal se produce en un momento en que OpenAI estaría considerando una oferta pública inicial, lo que podría generar incertidumbre entre los inversores.",
+      "why_it_matters": "Un conflicto legal de este calibre entre gigantes tecnológicos puede tener efectos en cadena sobre la valoración y el futuro financiero de la IA.",
+      "url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Apple demanda a OpenAI por contratar a más de 400 de sus extrabajadores, justo cuando planea salir a bolsa. La disputa puede enfriar a los inversores.\n\n#Apple #OpenAI #OPI #Demanda\nhttps://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans",
+        "linkedin": "El timing no podía ser peor: justo cuando OpenAI sopesaba una OPI, Apple le pone una demanda por secretos comerciales.\nApple alega que OpenAI contrató a más de 400 de sus antiguos empleados, incluido el jefe de hardware. Una batalla legal así 𝗴𝗲𝗻𝗲𝗿𝗮 𝗶𝗻𝗰𝗲𝗿𝘁𝗶𝗱𝘂𝗺𝗯𝗿𝗲 𝘀𝗼𝗯𝗿𝗲 𝗹𝗮 𝘃𝗮𝗹𝗼𝗿𝗮𝗰𝗶ó𝗻 y el apetito inversor en un momento crítico para la startup de IA.\n\n#Apple #OpenAI #OPI #Demanda\n\nhttps://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "industria",
+      "title": "Meta planea un acuerdo millonario de centros de datos con Anthropic",
+      "summary": "Meta estaría negociando un contrato multimillonario para alojar la infraestructura de Anthropic en sus centros de datos. Sería un nuevo negocio para la matriz de Facebook, que busca diversificar sus ingresos más allá de la publicidad en plena carrera por la IA.",
+      "why_it_matters": "Ilustra la colosal escala de inversión necesaria para la IA y cómo las grandes tecnológicas están reconfigurando sus modelos de negocio.",
+      "url": "https://www.engadget.com/2217904/meta-is-reportedly-considering-a-multibillion-dollar-data-center-deal-with-anthropic",
+      "source": "Engadget",
+      "social": {
+        "x": "¿El próximo cloud de Anthropic? Meta. La matriz de Facebook negocia un acuerdo de infraestructura multimillonario.\n\n#Meta #Anthropic #Cloud #DataCenters\nhttps://www.engadget.com/2217904/meta-is-reportedly-considering-a-multibillion-dollar-data-center-deal-with-anthropic",
+        "linkedin": "La IA no solo exige inversiones colosales, está redefiniendo los modelos de negocio de las tecnológicas.\nMeta, que ha vivido casi exclusivamente de la publicidad, estaría cerrando un contrato multimillonario para alojar la infraestructura de Anthropic. 𝗟𝗮 𝗰𝗼𝗺𝗽𝗮ñí𝗮 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿 𝗰𝗹𝗼𝘂𝗱 𝗽𝗮𝗿𝗮 𝘂𝗻 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝗱𝗼𝗿 𝗲𝗻 𝗜𝗔, una jugada que muestra hasta qué punto la carrera por la IA está forzando a las grandes a buscar nuevas fuentes de ingresos y a repensar su posición en el mercado.\n\n#Meta #Anthropic #Cloud #DataCenters\n\nhttps://www.engadget.com/2217904/meta-is-reportedly-considering-a-multibillion-dollar-data-center-deal-with-anthropic"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Databricks alcanza una valoración récord de 188.000 millones en su nueva ronda",
+      "summary": "La compañía, que ha reposicionado su imagen en torno a la IA y los modelos de código abierto, ha cerrado una ronda de financiación que la valora en 188.000 millones de dólares. Databricks ha publicado investigaciones que muestran ahorros de costes usando modelos abiertos para codificación.",
+      "why_it_matters": "Confirma la enorme burbuja inversora en torno a las plataformas de datos e IA, con cifras que pocos esperaban hace un año.",
+      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act",
+      "source": "TechCrunch",
+      "social": {
+        "x": "188.000 millones de dólares. Databricks alcanza una valoración récord y la explicación no es el hype: son los modelos de código abierto para codificación.\n\n#Databricks #OpenSource #Financiación #TechCrunch\nhttps://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act",
+        "linkedin": "Nadie en Silicon Valley esperaba una ronda de 10.000 millones de dólares en este momento, y mucho menos con una valoración de 188.000 millones.\nDatabricks ha cerrado una financiación histórica que la coloca entre las startups más valiosas del mundo. Su apuesta por los modelos de código abierto no solo le ha permitido diferenciarse, sino que ha demostrado 𝗮𝗵𝗼𝗿𝗿𝗼𝘀 𝗿𝗲𝗮𝗹𝗲𝘀 𝗲𝗻 𝘁𝗮𝗿𝗲𝗮𝘀 𝗱𝗲 𝗰𝗼𝗱𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻, según sus investigaciones. Esta ronda confirma que el mercado ve el código abierto como una ventaja competitiva, no como una debilidad.\n\n#Databricks #OpenSource #Financiación #TechCrunch\n\nhttps://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "¿Puede la IA arreglar el infierno de las autorizaciones previas en salud?",
+      "summary": "El gobierno de Estados Unidos está probando un programa piloto que usa IA para decidir sobre la cobertura de seguros médicos. Los defensores creen que agilizará los procesos, pero los críticos temen que los algoritmos perpetúen sesgos y aumenten las denegaciones automáticas.",
+      "why_it_matters": "Afecta directamente a la atención sanitaria de millones de personas y abre el debate sobre la ética de la IA en decisiones críticas.",
+      "url": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse",
+      "source": "Ars Technica",
+      "social": {
+        "x": "EEUU pone a prueba que una IA decida qué tratamientos cubre tu seguro. ¿El fin del papeleo o más denegaciones automáticas?\n\n#SaludDigital #AutorizaciónPrevia #ÉticaAlgorítmica #Seguros\nhttps://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse",
+        "linkedin": "¿Puede una IA decidir si tu tratamiento médico está cubierto? El gobierno de EEUU está a punto de averiguarlo con un piloto que automatiza las autorizaciones previas.\n\nLos defensores ven el fin del papeleo; los críticos, el riesgo de 𝗱𝗲𝗻𝗲𝗴𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗺𝗮𝘀𝗶𝘃𝗮𝘀 𝘆 𝘀𝗲𝘀𝗴𝗼𝘀 𝗼𝗰𝘂𝗹𝘁𝗼𝘀. Este piloto no es un test técnico: es un ensayo sobre cuánto poder delegamos en algoritmos sobre decisiones que afectan vidas. Para el sector salud, marca el inicio de un debate que no puede ganar solo la ingeniería.\n\n#SaludDigital #AutorizaciónPrevia #ÉticaAlgorítmica #Seguros\n\nhttps://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Células solares chinas alcanzan una eficiencia récord del 35,5%",
+      "summary": "La empresa LONGi ha desarrollado células tándem de perovskita y silicio cristalino que han logrado una eficiencia de conversión del 35,5%, verificada por un laboratorio europeo. Esta cifra supera con creces el 25% típico de las células comerciales y acerca la energía solar a nuevos límites.",
+      "why_it_matters": "Un avance significativo en energías renovables que podría acelerar la transición hacia una generación eléctrica más limpia y barata.",
+      "url": "https://www.engadget.com/2218081/chinese-solar-cell-efficiency-35-5-percent",
+      "source": "Engadget",
+      "social": {
+        "x": "El nuevo récord solar viene de China: un 35,5% de eficiencia que parecía imposible. Y ya está verificado en Europa.\n\n#LONGi #Perovskita #EnergíaSolar\nhttps://www.engadget.com/2218081/chinese-solar-cell-efficiency-35-5-percent",
+        "linkedin": "La eficiencia de las células solares comerciales lleva años estancada en torno al 25%. Esta semana una empresa china ha pulverizado ese límite con una tecnología que parecía de laboratorio.\n\nLONGi ha verificado en Europa un 35,5% de eficiencia con células tándem de perovskita y silicio cristalino. Esto 𝗮𝗰𝗲𝗿𝗰𝗮 𝗹𝗮 𝗲𝗻𝗲𝗿𝗴í𝗮 𝘀𝗼𝗹𝗮𝗿 𝗮 𝘂𝗻 𝘀𝗮𝗹𝘁𝗼 𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝘃𝗶𝗱𝗮𝗱 𝗾𝘂𝗲 𝗻𝗼 𝘃𝗲í𝗮𝗺𝗼𝘀 𝗱𝗲𝘀𝗱𝗲 𝗵𝗮𝗰𝗲 𝗱é𝗰𝗮𝗱𝗮𝘀. Para la industria, significa que la curva de aprendizaje de las renovables aún tiene margen, y que lo que parecía un techo físico era solo un espejismo tecnológico. La transición energética acaba de recibir un empujón inesperado.\n\n#LONGi #Perovskita #EnergíaSolar\n\nhttps://www.engadget.com/2218081/chinese-solar-cell-efficiency-35-5-percent"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "lanzamientos",
+      "title": "Open Book Touch: un lector de libros electrónicos de código abierto y muy portátil",
+      "summary": "El nuevo dispositivo de Oddly Specific Objects es un e-reader de 4,26 pulgadas con pantalla táctil de tinta electrónica retroiluminada. Totalmente abierto, permite leer libros en cualquier idioma y cabe en un bolsillo. La campaña de financiación estará activa hasta agosto.",
+      "why_it_matters": "Representa una alternativa libre y compacta a los lectores comerciales, ideal para quienes buscan privacidad y personalización.",
+      "url": "https://www.crowdsupply.com/oddly-specific-objects/open-book-touch",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un Kindle que cabe en el bolsillo... y no es de Amazon. Open Book Touch llega con pantalla E Ink y código 100% abierto.\n\n#OpenSource #EInk #eReader #HardwareLibre\nhttps://www.crowdsupply.com/oddly-specific-objects/open-book-touch",
+        "linkedin": "El lector de libros electrónicos más pequeño y abierto del mercado está en campaña de financiación.\n\nOddly Specific Objects presenta el Open Book Touch: pantalla táctil E Ink de 4,26 pulgadas, retroiluminada y con soporte multilingüe. 𝗡𝗼 𝗱𝗲𝗽𝗲𝗻𝗱𝗲 𝗱𝗲 𝗻𝗶𝗻𝗴𝘂𝗻𝗮 𝗰𝘂𝗲𝗻𝘁𝗮 𝗻𝗶 𝘁𝗶𝗲𝗻𝗱𝗮 𝗽𝗿𝗼𝗽𝗶𝗲𝘁𝗮𝗿𝗶𝗮: 𝗲𝘀 𝘁𝘂𝘆𝗼, 𝗱𝗲 𝘃𝗲𝗿𝗱𝗮𝗱. Una alternativa compacta para quienes valoran la privacidad y la posibilidad de modificar el software. Ideal para leer en cualquier parte sin sacrificar libertad.\n\n#OpenSource #EInk #eReader #HardwareLibre\n\nhttps://www.crowdsupply.com/oddly-specific-objects/open-book-touch"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "lanzamientos",
+      "title": "NextBSD resucita: las herramientas de espacio de usuario de Apple llegan al kernel de FreeBSD",
+      "summary": "El proyecto NextBSD ha sido revivido con el objetivo de integrar componentes de Darwin, como launchd y XPC, sobre el kernel de FreeBSD. Esto permite usar partes del ecosistema de Apple en un sistema operativo de código abierto, combinando la estabilidad de FreeBSD con la potencia de Mach.",
+      "why_it_matters": "Podría abrir nuevas posibilidades para desarrolladores que quieran ejecutar software de Apple en entornos abiertos y experimentar con kernels híbridos.",
+      "url": "https://nextbsd.org",
+      "source": "Lobsters",
+      "social": {
+        "x": "NextBSD ha vuelto de entre los muertos. Y con él, launchd y XPC de Apple funcionando sobre el kernel de FreeBSD.\n\n#NextBSD #FreeBSD #Darwin #OpenSource\nhttps://nextbsd.org",
+        "linkedin": "Creías que NextBSD estaba muerto. No lo está.\nEl proyecto que busca integrar componentes de Darwin, como launchd y XPC, en el kernel de FreeBSD ha resucitado. 𝗘𝘀𝘁𝗮 𝗵𝗶𝗯𝗿𝗶𝗱𝗮𝗰𝗶ó𝗻 𝗽𝗼𝗱𝗿í𝗮 𝗮𝗯𝗿𝗶𝗿 𝗻𝘂𝗲𝘃𝗮𝘀 𝗽𝗼𝘀𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀 𝗽𝗮𝗿𝗮 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗱𝗲 𝗔𝗽𝗽𝗹𝗲 𝗲𝗻 𝗲𝗻𝘁𝗼𝗿𝗻𝗼𝘀 𝗮𝗯𝗶𝗲𝗿𝘁𝗼𝘀 y experimentar con kernels que combinen la estabilidad de FreeBSD con la arquitectura Mach.\n\n#NextBSD #FreeBSD #Darwin #OpenSource\n\nhttps://nextbsd.org"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "lanzamientos",
+      "title": "Lanzados los satélites de Google para detectar incendios forestales en tiempo real",
+      "summary": "El programa FireSat, respaldado por Google, ha puesto en órbita satélites capaces de detectar incendios que otros sistemas no ven. La constelación proporcionará imágenes de alta frecuencia para ayudar a los bomberos a responder más rápido, justo cuando el humo de los incendios canadienses cubre Norteamérica.",
+      "why_it_matters": "Una aplicación directa de la tecnología espacial y la IA para mitigar los efectos del cambio climático y salvar vidas.",
+      "url": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Satélites que ven incendios que otros sistemas no detectan ya están en órbita. Los bomberos empiezan a recibir alertas más rápidas.\n\n#Google #FireSat #Teledetección #IncendiosForestales\nhttps://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada",
+        "linkedin": "La tecnología espacial acaba de ponerse del lado de los bomberos.\n\nGoogle ha lanzado los primeros satélites de su constelación FireSat, diseñados para detectar incendios forestales que otros sistemas no ven. 𝗜𝗺á𝗴𝗲𝗻𝗲𝘀 𝗱𝗲 𝗮𝗹𝘁𝗮 𝗳𝗿𝗲𝗰𝘂𝗲𝗻𝗰𝗶𝗮 𝗽𝗲𝗿𝗺𝗶𝘁𝗲𝗻 𝗮𝗹𝗲𝗿𝘁𝗮𝘀 𝗲𝗻 𝘁𝗶𝗲𝗺𝗽𝗼 𝗿𝗲𝗮𝗹, justo cuando el humo de los incendios canadienses cubre Norteamérica. Una aplicación directa de la IA y el espacio para mitigar los efectos del cambio climático y salvar vidas.\n\n#Google #FireSat #Teledetección #IncendiosForestales\n\nhttps://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "investigacion",
+      "title": "Aurora DSQL: la nueva base de datos distribuida de Amazon promete OLTP multirregión a escala",
+      "summary": "Un artículo técnico describe el diseño de Aurora DSQL, un sistema de bases de datos transaccional compatible con PostgreSQL que escala horizontalmente en múltiples regiones. Está pensado para cargas de trabajo exigentes que requieren baja latencia y alta disponibilidad.",
+      "why_it_matters": "Amplía las opciones para arquitecturas cloud-native que necesitan consistencia global sin sacrificar rendimiento.",
+      "url": "https://arxiv.org/abs/2607.13276",
+      "source": "Lobsters",
+      "social": {
+        "x": "Si creías que OLTP multirregión y consistencia fuerte eran polos opuestos, Amazon te presenta Aurora DSQL.\n\n#AuroraDSQL #AWS #PostgreSQL #CloudNative\nhttps://arxiv.org/abs/2607.13276",
+        "linkedin": "Si creías que OLTP multirregión y consistencia fuerte eran polos opuestos, Amazon te presenta Aurora DSQL.\n\nUn artículo técnico desmenuza el diseño de esta base de datos transaccional compatible con PostgreSQL, que escala horizontalmente en varias regiones sin sacrificar baja latencia ni alta disponibilidad. Para arquitecturas cloud-native que necesitan consistencia global sin penalizar el rendimiento, esto amplía las opciones. 𝗟𝗮 𝗰𝗼𝗺𝗯𝗶𝗻𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗢𝗟𝗧𝗣 𝗺𝘂𝗹𝘁𝗶𝗿𝗿𝗲𝗴𝗶ó𝗻 𝘆 𝗰𝗼𝗻𝘀𝗶𝘀𝘁𝗲𝗻𝗰𝗶𝗮 𝗳𝘂𝗲𝗿𝘁𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝘂𝘁𝗼𝗽í𝗮.\n\n#AuroraDSQL #AWS #PostgreSQL #CloudNative\n\nhttps://arxiv.org/abs/2607.13276"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Zoox retira su software de conducción autónoma porque el humo confunde a sus robotaxis",
+      "summary": "La empresa de vehículos autónomos ha emitido un recall de software después de que sus coches sin conductor mostraran problemas al encontrar humo en la carretera. La NHTSA ha instado a las compañías a mejorar la respuesta ante situaciones de emergencia, y este incidente pone de relieve los desafíos de la percepción artificial.",
+      "why_it_matters": "Subraya la brecha que aún existe entre la conducción autónoma y la capacidad humana para manejar imprevistos del mundo real.",
+      "url": "https://www.engadget.com/2217803/zoox-issues-software-recall-because-its-robotaxis-may-be-confused-by-smoke",
+      "source": "Engadget",
+      "social": {
+        "x": "El humo, un obstáculo que cualquier conductor humano sortea, ha desconcertado a los robotaxis de Zoox. La empresa retira el software.\n\n#Zoox #Robotaxis #NHTSA\nhttps://www.engadget.com/2217803/zoox-issues-software-recall-because-its-robotaxis-may-be-confused-by-smoke",
+        "linkedin": "La conducción autónoma aún se tropieza con lo imprevisible: el humo ha sido el detonante del último recall de Zoox.\\n\\nEl incidente, reportado por la NHTSA, muestra que los sensores de los vehículos autónomos todavía no interpretan correctamente condiciones que un humano maneja sin esfuerzo. 𝗟𝗮 𝗯𝗿𝗲𝗰𝗵𝗮 𝗲𝗻𝘁𝗿𝗲 𝗹𝗮 𝗮𝘂𝘁𝗼𝗻𝗼𝗺í𝗮 𝗿𝗲𝗮𝗹 𝘆 𝗹𝗮 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗵𝘂𝗺𝗮𝗻𝗮 𝘀𝗶𝗴𝘂𝗲 𝘀𝗶𝗲𝗻𝗱𝗼 𝗮𝗺𝗽𝗹𝗶𝗮 cuando el entorno se sale del guion. Para los equipos que desarrollan percepción artificial, esto es un recordatorio de que el edge case no es solo un peatón distraído, sino algo tan cotidiano como el humo.\n\n#Zoox #Robotaxis #NHTSA\n\nhttps://www.engadget.com/2217803/zoox-issues-software-recall-because-its-robotaxis-may-be-confused-by-smoke"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "Grafo de inteligencia de código local-first que crea un mapa persistente de tu codebase para que las herramientas de IA lean solo lo relevante, reduciendo drásticamente el contexto en revisiones y proyectos grandes.",
+      "language": "Python",
+      "stars": 19993
+    },
+    {
+      "name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "Plataforma integral para construir productos autónomos, con herramientas como AI observability, analíticas, session replay y flags que capturan todo el contexto necesario para que tus agentes automaticen diagnósticos y despliegues.",
+      "language": "Python",
+      "stars": 36412
+    },
+    {
+      "name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "Permite la inferencia de modelos de lenguaje de 70B en una sola GPU de 4 GB, ideal para ejecutar LLMs en hardware limitado sin depender de la nube.",
+      "language": "Jupyter Notebook",
+      "stars": 23180
+    },
+    {
+      "name": "KnockOutEZ/wigolo",
+      "url": "https://github.com/KnockOutEZ/wigolo",
+      "description": "Plataforma de búsqueda e investigación web para agentes de IA, completamente local, sin necesidad de claves API y sin costes por consulta.",
+      "language": "TypeScript",
+      "stars": 999
+    },
+    {
+      "name": "MoonshotAI/kimi-cli",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "description": "Agente de línea de comandos que convierte tu terminal en un asistente inteligente, capaz de automatizar tareas y generar código de manera eficiente.",
+      "language": "Python",
+      "stars": 9312
+    }
+  ]
+}
