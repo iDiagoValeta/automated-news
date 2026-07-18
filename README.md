@@ -3,6 +3,7 @@
 Diario estático de noticias de tecnología en español. Cada mañana (09:00 hora de Madrid) publica una edición con hasta 20 noticias del día, resumidas y con enlace a la fuente original, más un botón por noticia para copiarla lista para publicar en X y LinkedIn, y un archivo histórico navegable por fechas. Se genera con un workflow de GitHub Actions y se sirve en GitHub Pages. No hay servidores ni base de datos.
 
 - Sitio: https://idiagovaleta.github.io/automated-news/
+- Flujo técnico detallado: [docs/flujo-tecnico.md](docs/flujo-tecnico.md)
 
 ## Cómo funciona
 
