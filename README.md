@@ -21,13 +21,13 @@ El modelo se usa como un paso más del script, con prompts fijos ([`prompts/`](p
 
 ## El sitio
 
-La cabecera tiene tres secciones:
+La cabecera tiene tres pestañas:
 
-- **Portada**: la edición de noticias del día.
-- **Repositorios**: los repos hot del día, con su propio archivo por fecha (`/repositorios/`, `/repositorios/AAAA/MM/DD/` y `/repositorios/archivo/`).
-- **Archivo**: histórico de ediciones de noticias por mes.
+- **Noticias**: la edición del día (`/`, `/AAAA/MM/DD/`).
+- **Repositorios**: los repos hot del día (`/repositorios/`, `/repositorios/AAAA/MM/DD/`).
+- **Archivo**: un índice que enlaza al archivo de noticias (`/archivo/noticias/`) y al de repositorios (`/archivo/repositorios/`).
 
-Noticias y repositorios comparten estructura: portada con lo más reciente, páginas por fecha y archivo navegable.
+Noticias y repositorios comparten **exactamente la misma estructura y navegación**: portada con lo más reciente, páginas por fecha y una barra común (Anterior, Archivo, Siguiente). Entre secciones solo cambia el contenido, no la forma de moverse.
 
 ## Uso en local
 

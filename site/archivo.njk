@@ -4,26 +4,21 @@ title: Archivo
 permalink: "/archivo/index.html"
 ---
 <div class="archivo">
-  <h1 class="archivo__title">Archivo de ediciones</h1>
+  <h1 class="archivo__title">Archivo</h1>
+  <p class="archivo__intro">El histórico completo, por secciones.</p>
 
-  {% if editions.length %}
-    {% for grupo in editions | agrupaPorMes %}
-      <section class="archivo__mes">
-        <h2 class="archivo__mes-title">{{ grupo.key | nombreMes }}</h2>
-        <ul class="archivo__lista">
-          {% for e in grupo.items %}
-            <li class="archivo__item">
-              <a href="{{ e.path | url }}">
-                <span class="archivo__fecha">{{ e.date | fechaCorta }}</span>
-                <span class="archivo__lead">{{ e.items[0].title }}</span>
-                <span class="archivo__count">{{ e.items.length }} noticias</span>
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </section>
-    {% endfor %}
-  {% else %}
-    <p class="empty">Todavía no hay ediciones archivadas.</p>
-  {% endif %}
+  <ul class="archivo-indice">
+    <li class="archivo-indice__item">
+      <a href="{{ '/archivo/noticias/' | url }}">
+        <span class="archivo-indice__nombre">Archivo de noticias</span>
+        <span class="archivo-indice__desc">Todas las ediciones diarias, agrupadas por mes.</span>
+      </a>
+    </li>
+    <li class="archivo-indice__item">
+      <a href="{{ '/archivo/repositorios/' | url }}">
+        <span class="archivo-indice__nombre">Archivo de repositorios</span>
+        <span class="archivo-indice__desc">Los repositorios hot de cada día, agrupados por mes.</span>
+      </a>
+    </li>
+  </ul>
 </div>

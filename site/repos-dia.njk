@@ -12,12 +12,7 @@ eleventyComputed:
 {% set fecha = ed.date %}
 {% include "repos-lista.njk" %}
 
-<nav class="edicion-nav" aria-label="Navegación entre días de repositorios">
-  {% if ed.reposOlderPath %}
-    <a href="{{ ed.reposOlderPath | url }}">Día anterior</a>
-  {% else %}<span></span>{% endif %}
-  <a href="{{ '/repositorios/archivo/' | url }}">Todo el archivo</a>
-  {% if ed.reposNewerPath %}
-    <a href="{{ ed.reposNewerPath | url }}">Día siguiente</a>
-  {% else %}<span></span>{% endif %}
-</nav>
+{% set olderPath = ed.reposOlderPath %}
+{% set newerPath = ed.reposNewerPath %}
+{% set archivePath = "/archivo/repositorios/" %}
+{% include "nav-temporal.njk" %}

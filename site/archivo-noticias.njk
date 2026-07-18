@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: Archivo de noticias
+permalink: "/archivo/noticias/index.html"
+---
+<div class="archivo">
+  <h1 class="archivo__title">Archivo de noticias</h1>
+
+  {% if editions.length %}
+    {% for grupo in editions | agrupaPorMes %}
+      <section class="archivo__mes">
+        <h2 class="archivo__mes-title">{{ grupo.key | nombreMes }}</h2>
+        <ul class="archivo__lista">
+          {% for e in grupo.items %}
+            <li class="archivo__item">
+              <a href="{{ e.path | url }}">
+                <span class="archivo__fecha">{{ e.date | fechaCorta }}</span>
+                <span class="archivo__lead">{{ e.items[0].title }}</span>
+                <span class="archivo__count">{{ e.items.length }} noticias</span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endfor %}
+  {% else %}
+    <p class="empty">Todavía no hay ediciones archivadas.</p>
+  {% endif %}
+</div>

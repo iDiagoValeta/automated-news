@@ -1,0 +1,11 @@
+{# Barra de navegación estándar de una sección. Igual en noticias y repos:
+   solo cambian los destinos. Espera olderPath, newerPath y archivePath. #}
+<nav class="edicion-nav" aria-label="Navegación">
+  {% if olderPath %}
+    <a href="{{ olderPath | url }}">← Anterior</a>
+  {% else %}<span></span>{% endif %}
+  <a href="{{ archivePath | url }}">Archivo</a>
+  {% if newerPath %}
+    <a href="{{ newerPath | url }}">Siguiente →</a>
+  {% else %}<span></span>{% endif %}
+</nav>

@@ -59,13 +59,8 @@
     </div>
   {% endif %}
 
-  <nav class="edicion-nav" aria-label="Navegación entre ediciones">
-    {% if edition.olderPath %}
-      <a href="{{ edition.olderPath | url }}">Edición anterior</a>
-    {% else %}<span></span>{% endif %}
-    <a href="{{ '/archivo/' | url }}">Todas las ediciones</a>
-    {% if edition.newerPath %}
-      <a href="{{ edition.newerPath | url }}">Edición siguiente</a>
-    {% else %}<span></span>{% endif %}
-  </nav>
+  {% set olderPath = edition.olderPath %}
+  {% set newerPath = edition.newerPath %}
+  {% set archivePath = "/archivo/noticias/" %}
+  {% include "nav-temporal.njk" %}
 </article>
