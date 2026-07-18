@@ -1,3 +1,7 @@
+// Al recargar (o volver), empezar arriba en vez de restaurar la posición previa.
+if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+window.addEventListener("pageshow", () => window.scrollTo(0, 0));
+
 // Copia al portapapeles el texto listo para publicar en X o LinkedIn.
 document.addEventListener("click", async (e) => {
   const btn = e.target.closest(".share__btn");
