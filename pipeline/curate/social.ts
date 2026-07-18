@@ -7,6 +7,7 @@ import type { Provider } from "./index.ts";
 const SOCIAL_PROMPT_PATH = fileURLToPath(new URL("../../prompts/social.md", import.meta.url));
 const X_LIMIT = 280;
 const URL_WEIGHT = 23; // X cuenta cualquier enlace como 23 caracteres (t.co).
+const POOL = 5; // Llamadas al modelo en paralelo (una por noticia).
 
 /** Convierte ASCII (letras y dígitos) a su variante Unicode "sans-serif bold". */
 export function boldSans(input: string): string {
@@ -23,41 +24,41 @@ export function boldSans(input: string): string {
 
 const cpLen = (s: string): number => [...s].length;
 
+/** Convierte los marcadores `**texto**` en negrita Unicode (LinkedIn no renderiza markdown). */
+export function applyBold(input: string): string {
+  return input.replace(/\*\*(.+?)\*\*/g, (_, t) => boldSans(t));
+}
+
 /**
- * Post para X. Texto plano (sin negrita) para no gastar el doble de caracteres:
- * las letras Unicode en negrita cuentan como 2 en X. Recorta el gancho y luego
- * los hashtags para caber en 280, contando la URL como 23.
+ * Post para X. El gancho es el post entero (texto plano, sin negrita: las letras
+ * Unicode en negrita cuentan doble en X). Intenta con hashtags; si no cabe en 280
+ * (contando la URL como 23) prioriza el gancho: primero suelta los hashtags, luego
+ * recorta el gancho.
  */
-export function assembleX(title: string, hook: string, hashtags: string[], url: string): string {
+export function assembleX(hook: string, hashtags: string[], url: string): string {
   const tags = hashtags.join(" ");
   const overhead = 1 + URL_WEIGHT; // salto de línea + URL
 
-  const build = (h: string, withTags: boolean): string =>
-    withTags && tags ? `${title}\n\n${h}\n\n${tags}` : `${title}\n\n${h}`;
-
-  let body = build(hook, true);
-  if (cpLen(body) + overhead > X_LIMIT) body = build(hook, false);
+  let body = tags ? `${hook}\n\n${tags}` : hook;
+  if (cpLen(body) + overhead > X_LIMIT) body = hook;
 
   if (cpLen(body) + overhead > X_LIMIT) {
-    const fixed = cpLen(`${title}\n\n`) + overhead + 1; // +1 por el "…"
-    const allowed = Math.max(0, X_LIMIT - fixed);
-    const trimmed = [...hook].slice(0, allowed).join("").trimEnd() + "…";
-    body = `${title}\n\n${trimmed}`;
+    const allowed = Math.max(0, X_LIMIT - overhead - 1); // -1 por el "…"
+    body = [...hook].slice(0, allowed).join("").trimEnd() + "…";
   }
   return `${body}\n${url}`;
 }
 
-/** Post para LinkedIn: sin límite práctico, con el titular en negrita. */
-export function assembleLinkedIn(title: string, hook: string, hashtags: string[], url: string): string {
+/** Post para LinkedIn: sin límite práctico. El gancho abre; la idea clave marcada con `**` va en negrita. */
+export function assembleLinkedIn(hook: string, hashtags: string[], url: string): string {
   const tags = hashtags.join(" ");
-  const parts = [boldSans(title), hook];
+  const parts = [applyBold(hook)];
   if (tags) parts.push(tags);
   parts.push(url);
   return parts.join("\n\n");
 }
 
 interface SocialPost {
-  rank?: number;
   hook_x?: string;
   hook_linkedin?: string;
   hashtags?: unknown;
@@ -69,15 +70,22 @@ function stripFences(raw: string): string {
   return m ? m[1] : t;
 }
 
-function buildSocialPrompt(digest: Digest): string {
-  const header = `Noticias de la edición ${digest.date}. Genera los posts para cada una:\n\n`;
-  const body = digest.items
-    .map(
-      (it) =>
-        `${it.rank}. [${it.category}] ${it.title}\n   ${it.summary}\n   Por qué importa: ${it.why_it_matters}\n   Fuente: ${it.source}`,
-    )
-    .join("\n\n");
-  return header + body;
+function buildSocialPrompt(item: Digest["items"][number]): string {
+  return (
+    `Noticia:\n` +
+    `Titular: ${item.title}\n` +
+    `Resumen: ${item.summary}\n` +
+    `Por qué importa: ${item.why_it_matters}\n` +
+    `Fuente: ${item.source}\n\n` +
+    `Redacta los posts para X y LinkedIn siguiendo las instrucciones.`
+  );
+}
+
+/** Aplica `fn` a cada elemento en lotes de tamaño `limit` (concurrencia acotada). */
+async function mapPool<T>(items: T[], limit: number, fn: (item: T) => Promise<void>): Promise<void> {
+  for (let i = 0; i < items.length; i += limit) {
+    await Promise.all(items.slice(i, i + limit).map(fn));
+  }
 }
 
 function cleanHashtags(raw: unknown): string[] {
@@ -90,33 +98,30 @@ function cleanHashtags(raw: unknown): string[] {
 }
 
 /**
- * Segunda llamada al modelo (best effort). Rellena `item.social` en cada
- * noticia. Si falla, la edición se publica igual sin posts sociales.
+ * Segunda tanda de llamadas al modelo (best effort), una por noticia y en
+ * paralelo acotado. Rellena `item.social`; si una noticia falla se omite sin
+ * afectar a las demás. Si fallan todas, la edición se publica igual sin posts.
  */
 export async function attachSocial(provider: Provider, digest: Digest): Promise<void> {
-  try {
-    const system = readFileSync(SOCIAL_PROMPT_PATH, "utf8");
-    const raw = await provider.generate(system, buildSocialPrompt(digest));
-    const parsed = JSON.parse(stripFences(raw)) as { posts?: SocialPost[] };
-    const posts = parsed.posts ?? [];
-    const byRank = new Map<number, SocialPost>();
-    for (const p of posts) if (typeof p.rank === "number") byRank.set(p.rank, p);
+  const system = readFileSync(SOCIAL_PROMPT_PATH, "utf8");
+  let count = 0;
 
-    let count = 0;
-    for (const item of digest.items) {
-      const p = byRank.get(item.rank);
-      if (!p) continue;
+  await mapPool(digest.items, POOL, async (item) => {
+    try {
+      const raw = await provider.generate(system, buildSocialPrompt(item));
+      const p = JSON.parse(stripFences(raw)) as SocialPost;
       const hashtags = cleanHashtags(p.hashtags);
-      const hookX = (p.hook_x ?? item.why_it_matters).trim();
-      const hookLi = (p.hook_linkedin ?? item.summary).trim();
+      const hookX = (typeof p.hook_x === "string" ? p.hook_x : item.why_it_matters).trim();
+      const hookLi = (typeof p.hook_linkedin === "string" ? p.hook_linkedin : item.summary).trim();
       item.social = {
-        x: assembleX(item.title, hookX, hashtags, item.url),
-        linkedin: assembleLinkedIn(item.title, hookLi, hashtags, item.url),
+        x: assembleX(hookX, hashtags, item.url),
+        linkedin: assembleLinkedIn(hookLi, hashtags, item.url),
       };
       count++;
+    } catch (e) {
+      warn(`Posts sociales: falló la noticia rank ${item.rank}; se omite.`, String(e));
     }
-    log(`Posts sociales: generados para ${count}/${digest.items.length} noticias.`);
-  } catch (e) {
-    warn("No se pudieron generar los posts sociales; la edición se publica sin ellos.", String(e));
-  }
+  });
+
+  log(`Posts sociales: generados para ${count}/${digest.items.length} noticias.`);
 }

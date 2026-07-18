@@ -10,8 +10,7 @@ const SCHEMA_PATH = fileURLToPath(new URL("../../schema/digest.schema.json", imp
  * cero vía suscripción Pro/Max). Requiere el secret CLAUDE_CODE_OAUTH_TOKEN.
  *
  * NOTA: no probado end-to-end en el desarrollo inicial (no había token local).
- * Se implementa según la invocación descrita en el SPEC §5b. Si los flags del
- * CLI cambian, ajustar aquí. La ruta principal es DeepSeek.
+ * Si los flags del CLI cambian, ajustar aquí. La ruta principal es DeepSeek.
  */
 export function claudeCodeProvider(): Provider {
   if (!process.env.CLAUDE_CODE_OAUTH_TOKEN) {

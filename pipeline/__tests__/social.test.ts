@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { assembleLinkedIn, assembleX, boldSans } from "../curate/social.ts";
+import { applyBold, assembleLinkedIn, assembleX, boldSans } from "../curate/social.ts";
 
 const cp = (s: string) => [...s].length;
 const URL = "https://ejemplo.com/articulo-de-prueba";
@@ -14,24 +14,41 @@ test("boldSans convierte ASCII y respeta acentos y espacios", () => {
   assert.equal(boldSans("ñá"), "ñá", "los acentos se dejan igual");
 });
 
+test("applyBold convierte solo lo marcado con ** y descarta los asteriscos", () => {
+  const out = applyBold("Texto con una **idea clave** dentro.");
+  assert.ok(out.includes(boldSans("idea clave")));
+  assert.ok(!out.includes("**"), "no deja asteriscos");
+  assert.ok(out.includes("Texto con una "), "el resto queda en texto plano");
+});
+
 test("assembleX cabe en 280 con gancho corto y contiene todo", () => {
-  const post = assembleX("Titular de prueba", "Un gancho breve y directo.", ["#OpenSource"], URL);
-  assert.ok(post.includes("Titular de prueba"));
+  const post = assembleX("Un gancho breve y directo que frena el scroll.", ["#OpenSource"], URL);
+  assert.ok(post.includes("Un gancho breve y directo"));
   assert.ok(post.includes("#OpenSource"));
   assert.ok(post.endsWith(URL));
   assert.ok(xWeight(post) <= 280, `peso ${xWeight(post)} debe ser <= 280`);
 });
 
+test("assembleX suelta los hashtags antes de recortar el gancho", () => {
+  // Gancho que solo cabe si se sueltan los hashtags.
+  const hook = "x".repeat(250);
+  const post = assembleX(hook, ["#UnHashtagLargoDeVerdad"], URL);
+  assert.ok(xWeight(post) <= 280, `peso ${xWeight(post)}`);
+  assert.ok(!post.includes("#UnHashtagLargoDeVerdad"), "sacrifica el hashtag, no el gancho");
+});
+
 test("assembleX recorta el gancho largo para no pasar de 280", () => {
-  const post = assembleX("T", "palabra ".repeat(80), [], URL);
+  const post = assembleX("palabra ".repeat(80), [], URL);
   assert.ok(xWeight(post) <= 280, `peso ${xWeight(post)}`);
   assert.ok(post.includes("…"), "marca el recorte");
   assert.ok(post.endsWith(URL));
 });
 
-test("assembleLinkedIn lleva titular en negrita, hashtags y URL", () => {
-  const post = assembleLinkedIn("Titular", "Texto para LinkedIn con contexto.", ["#Tech"], URL);
-  assert.ok(post.includes(boldSans("Titular")));
+test("assembleLinkedIn abre con el gancho, pone en negrita lo marcado y añade hashtags y URL", () => {
+  const post = assembleLinkedIn("Gancho de apertura. Con una **idea clave**.", ["#Tech"], URL);
+  assert.ok(post.startsWith("Gancho de apertura"), "el gancho va primero");
+  assert.ok(post.includes(boldSans("idea clave")));
+  assert.ok(!post.includes("**"), "no deja asteriscos");
   assert.ok(post.includes("#Tech"));
-  assert.ok(post.includes(URL));
+  assert.ok(post.endsWith(URL));
 });

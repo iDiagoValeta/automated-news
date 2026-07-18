@@ -3,7 +3,7 @@ import type { NewsItem } from "./types.ts";
 /**
  * Canonicaliza una URL para deduplicar: quita el fragmento (#...), los
  * parámetros de tracking (utm_*, ref, fbclid) y la barra final. Es una
- * deduplicación "básica" por URL, como pide el SPEC.
+ * deduplicación "básica" por URL.
  */
 export function canonicalUrl(raw: string): string {
   try {

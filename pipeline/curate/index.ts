@@ -8,7 +8,7 @@ import { claudeCodeProvider } from "./claude-code.ts";
 import { attachSocial } from "./social.ts";
 
 const PROMPT_PATH = fileURLToPath(new URL("../../prompts/curacion.md", import.meta.url));
-const MAX_ATTEMPTS = 3; // 1 intento + hasta 2 reintentos (SPEC §7)
+const MAX_ATTEMPTS = 3; // 1 intento + hasta 2 reintentos
 
 export interface Provider {
   name: ProviderName;
