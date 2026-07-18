@@ -9,7 +9,12 @@ on:
     # publicar dos veces el mismo día.
     - cron: "9 7 * * *"
     - cron: "9 8 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      skip_pipeline:
+        description: "Solo reconstruir y desplegar el sitio, sin regenerar la edición"
+        type: boolean
+        default: false
 
 concurrency:
   group: diario-ia
@@ -60,7 +65,7 @@ jobs:
         run: npm ci
 
       - name: Ejecutar pipeline (recogida, enriquecimiento, curación, posts)
-        if: steps.guard.outputs.run == 'true'
+        if: steps.guard.outputs.run == 'true' && ! inputs.skip_pipeline
         env:
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'deepseek' }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
