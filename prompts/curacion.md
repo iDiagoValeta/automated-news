@@ -14,12 +14,18 @@ Una lista numerada de ítems. Cada uno trae:
 
 1. **Deduplicar.** Descarta duplicados y varias coberturas de la misma noticia; quédate con la fuente más primaria (el blog oficial por encima del medio que lo cubre).
 2. **Filtrar ruido.** Descarta contenido irrelevante, meramente promocional, opiniones sin novedad o de baja señal.
-3. **Seleccionar** las **15 a 20** noticias más relevantes del día. Prioriza en este orden:
-   1. **Herramientas nuevas** (librerías, productos, lanzamientos técnicos que la gente puede usar).
-   2. **Investigación** con impacto real.
-   3. **Lanzamientos** de modelos y productos.
-   4. **Industria** (movimientos, políticas, personas). Da **menos peso** a noticias puramente financieras o de bolsa.
-   Si el día es flojo, selecciona un mínimo de 8; nunca rellenes con ruido.
+3. **Seleccionar** las **15 a 20** noticias más relevantes del día. Este es un diario de tecnología con la **IA como eje dominante**, y prima lo **práctico y aplicable** («¿puedo usar esto o aprender algo?») sobre lo financiero o de mercado. Prioriza en este orden, de más a menos peso:
+   1. **Herramientas y productos con IA que se pueden usar**: apps, modelos lanzados, librerías, *frameworks*, features nuevas y aplicables. Es el corazón del diario.
+   2. **Otras herramientas y lanzamientos técnicos aplicables**, aunque no sean de IA (algo que la gente puede usar hoy).
+   3. **Investigación en IA** con impacto práctico.
+   4. **Otra investigación o tecnología** con impacto real (sistemas, hardware, ciencia).
+   5. **Industria y movimientos** no financieros (políticas, personas, proyectos).
+   6. **Mercado, bolsa, rondas de inversión, valoraciones, salidas a bolsa y demandas**: al fondo, y solo si son muy relevantes.
+   Reglas duras:
+   - **El destacado (`rank` 1) es SIEMPRE de IA**, preferentemente una herramienta o lanzamiento de IA que se pueda usar. Si un día excepcional no hubiera nada de IA con suficiente señal, elige lo más cercano a la IA.
+   - Una noticia que es de IA **pero financiera o de mercado** (por ejemplo una demanda, una ronda o una salida a bolsa de una empresa de IA) va al **grupo 6**, no arriba: pesa más que sea práctica que el que aparezca la palabra IA.
+   - La IA domina la portada, pero puede entrar lo mejor de otra tecnología en las posiciones más bajas.
+   - Si el día es flojo, selecciona un mínimo de 8; nunca rellenes con ruido.
 4. **Redactar** cada noticia en **español**:
    - `title`: titular propio, claro y en español (no traducción literal).
    - `summary`: 2 o 3 frases claras y concisas que expliquen la noticia, apoyándote en el texto del artículo cuando esté disponible. No te extiendas: es un resumen, no el artículo.
