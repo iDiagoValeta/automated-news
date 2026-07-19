@@ -1,0 +1,278 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T09:11:40.784Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Moonshot AI libera Kimi K3, un modelo de IA open source de nivel frontera",
+      "summary": "La empresa china Moonshot AI ha publicado Kimi K3, un nuevo modelo de lenguaje con licencia abierta que compite con los sistemas propietarios más avanzados. Aunque todavía no iguala a Claude Fable 5 o GPT-5.6 Sol, ofrece un rendimiento de vanguardia y supera a otras alternativas abiertas. El lanzamiento reaviva el debate geopolítico sobre la IA abierta y el riesgo de la 'IA comunista'.",
+      "why_it_matters": "Pone un modelo potente y abierto al alcance de desarrolladores y empresas, reduciendo la dependencia de los grandes proveedores.",
+      "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace",
+      "source": "TechCrunch",
+      "social": {
+        "x": "¿Es la IA open source un arma geopolítica? Moonshot AI (China) libera Kimi K3, un modelo de rendimiento frontera que supera a todos los abiertos.\n\n#OpenSource #MoonshotAI #KimiK3\nhttps://techcrunch.com/2026/07/18/kimi-threat-or-menace",
+        "linkedin": "China acaba de publicar un modelo de IA open source que planta cara a los gigantes propietarios. Kimi K3, de Moonshot AI, no es solo otro lanzamiento: es un aviso geopolítico.\n\nPara los equipos que buscan independencia tecnológica, Kimi K3 ofrece un rendimiento de vanguardia sin ataduras. Pero su origen 𝗿𝗲𝗮𝗯𝗿𝗲 𝗲𝗹 𝗱𝗲𝗯𝗮𝘁𝗲 𝘀𝗼𝗯𝗿𝗲 𝗹𝗼𝘀 𝗿𝗶𝗲𝘀𝗴𝗼𝘀 𝗱𝗲 𝗹𝗮 𝗜𝗔 𝗮𝗯𝗶𝗲𝗿𝘁𝗮: ¿y si la próxima revolución en open source llega sin las garantías de seguridad que exige Occidente?\n\n#OpenSource #MoonshotAI #KimiK3\n\nhttps://techcrunch.com/2026/07/18/kimi-threat-or-menace"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "Google cambia las cuotas de Gemini: cómo funcionan y cómo monitorizar tu uso",
+      "summary": "Google ha modificado el sistema de cómputo de las cuotas de uso de Gemini, lo que puede reducir el número de respuestas que obtienes con el mismo plan. Wired explica los nuevos límites por tipo de petición y cómo seguir el consumo para evitar sorpresas. La actualización afecta tanto a usuarios gratuitos como a suscriptores de pago.",
+      "why_it_matters": "Entender los nuevos límites ayuda a planificar el uso diario de Gemini sin quedarse sin respuestas en momentos clave.",
+      "url": "https://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage",
+      "source": "Wired",
+      "social": {
+        "x": "Google ha cambiado cómo calcula las cuotas de Gemini. Con el mismo plan, obtienes menos respuestas. Te contamos los nuevos límites y cómo monitorizar tu consumo para no quedarte sin IA en el momento clave.\n\n#Google #Gemini\nhttps://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage",
+        "linkedin": "Google ha cambiado la forma de medir tu uso de Gemini, y puede que tu plan ahora te dé menos de lo que esperas.\n\nEl ajuste afecta tanto a usuarios gratuitos como de pago, y Wired ha detallado los nuevos límites por tipo de petición. La clave está en que 𝗲𝗹 𝗺𝗶𝘀𝗺𝗼 𝗽𝗹𝗮𝗻 𝗮𝗵𝗼𝗿𝗮 𝗿𝗶𝗻𝗱𝗲 𝗺𝗲𝗻𝗼𝘀 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮𝘀, y sin una monitorización activa, muchos se quedarán sin acceso justo cuando lo necesitan. Para equipos que dependen de la IA a diario, esto refuerza la necesidad de seguir de cerca los cambios en los servicios en la nube.\n\n#Google #Gemini\n\nhttps://www.wired.com/story/how-googles-new-gemini-rates-work-and-how-to-track-your-usage"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "industria",
+      "title": "El Gobierno de EE UU prueba la IA para resolver autorizaciones médicas previas",
+      "summary": "Un programa piloto del gobierno estadounidense está utilizando inteligencia artificial para tomar decisiones sobre autorizaciones previas de seguros médicos, con el objetivo de agilizar un proceso que a menudo retrasa tratamientos. Los críticos advierten de que la IA podría reproducir o amplificar los sesgos existentes y empeorar las denegaciones automáticas. La iniciativa busca equilibrar eficiencia y justicia en un sistema sanitario tenso.",
+      "why_it_matters": "La automatización de decisiones médicas con IA afecta directamente a millones de pacientes y sienta un precedente regulatorio.",
+      "url": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Imagina que una IA decide si recibes el tratamiento médico que necesitas. El Gobierno de EE UU lo está probando. Prometen agilidad, pero los críticos temen un alud de denegaciones automáticas.\n\n#AutorizaciónPrevia #SaludDigital #SesgoAlgorítmico\nhttps://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse",
+        "linkedin": "Tu próxima autorización médica podría no decidirla un humano.\n\nEl Gobierno de EE UU está probando un sistema de IA para resolver autorizaciones previas, el trámite que a menudo retrasa tratamientos. La promesa es acelerar un proceso que desespera a pacientes y médicos. Pero 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗱𝗲 𝗜𝗔 𝗽𝘂𝗲𝗱𝗲𝗻 𝗵𝗲𝗿𝗲𝗱𝗮𝗿 𝘀𝗲𝘀𝗴𝗼𝘀 𝗱𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝘀𝗮𝗻𝗶𝘁𝗮𝗿𝗶𝗼 y convertir las denegaciones en un acto reflejo automático. La carrera por la eficiencia en salud no puede olvidarse de la equidad.\n\n#AutorizaciónPrevia #SaludDigital #SesgoAlgorítmico\n\nhttps://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "industria",
+      "title": "OpenAI notificará a los padres si su hijo adolescente es expulsado de ChatGPT",
+      "summary": "OpenAI empezará a avisar a los padres con cuentas vinculadas cuando un menor infrinja sus políticas sobre violencia y sea expulsado de ChatGPT. La medida forma parte del refuerzo de los controles parentales en la plataforma. El cambio llega tras críticas por la falta de transparencia en la moderación de contenido para adolescentes.",
+      "why_it_matters": "Mejora la supervisión parental y la transparencia en el uso de IA por parte de menores, un tema cada vez más sensible.",
+      "url": "https://www.engadget.com/2218076/openai-notify-parents-teen-banned-chatgpt-violence",
+      "source": "Engadget",
+      "social": {
+        "x": "Expulsado de ChatGPT con 15 años: ahora tus padres lo sabrán.\n\n#OpenAI #ChatGPT #ParentalControl\nhttps://www.engadget.com/2218076/openai-notify-parents-teen-banned-chatgpt-violence",
+        "linkedin": "¿Qué pasa cuando un adolescente es expulsado de ChatGPT? Hasta ahora, los padres no lo sabían. OpenAI acaba de cambiarlo.\n\nLa compañía notificará a los padres con cuentas vinculadas si un menor infringe las políticas sobre violencia y es expulsado. 𝗟𝗮 𝘁𝗿𝗮𝗻𝘀𝗽𝗮𝗿𝗲𝗻𝗰𝗶𝗮 𝗲𝗻 𝗹𝗮 𝗺𝗼𝗱𝗲𝗿𝗮𝗰𝗶ó𝗻 𝗽𝗮𝗿𝗮 𝗺𝗲𝗻𝗼𝗿𝗲𝘀 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗼𝗽𝗮𝗰𝗮, un paso necesario ante el escrutinio creciente sobre el uso de IA por adolescentes. Refuerza la supervisión parental y podría sentar precedente para otras plataformas.\n\n#OpenAI #ChatGPT #ParentalControl\n\nhttps://www.engadget.com/2218076/openai-notify-parents-teen-banned-chatgpt-violence"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "investigacion",
+      "title": "Usar la IA nos hace más reacios a admitir que no sabemos algo",
+      "summary": "Un estudio de universidades francesas e italianas muestra que el acceso a consejos de IA reduce el pensamiento crítico y aumenta la confianza, incluso cuando la precisión cae. Los participantes eran más propensos a repetir información incorrecta proporcionada por el bot sin reconocer sus propias lagunas de conocimiento. Los investigadores subrayan la importancia de saber decir 'no lo sé'.",
+      "why_it_matters": "Alertar sobre este sesgo es clave para diseñar herramientas que fomenten el escepticismo y no la dependencia ciega.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567",
+      "source": "The Register",
+      "social": {
+        "x": "Decir ‘no lo sé’ es cada vez más difícil cuando tienes una IA a mano. Y un estudio acaba de confirmar que eso nos vuelve más crédulos.\n\n#AI #SesgoDeAutomatización #PensamientoCrítico #Investigación\nhttps://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567",
+        "linkedin": "La comodidad de delegar en la IA tiene un precio: perdemos la costumbre de cuestionar y de reconocer lo que no sabemos.\n\nUn nuevo estudio de varias universidades europeas muestra que las personas que reciben consejos de IA son más propensas a repetir información incorrecta y a sobreestimar su propio conocimiento. 𝗘𝗹 𝘀𝗲𝘀𝗴𝗼 𝗱𝗲 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗰𝗶ó𝗻 𝘀𝗲 𝗰𝘂𝗲𝗹𝗮 𝘀𝗶𝗻 𝗾𝘂𝗲 𝗻𝗼𝘀 𝗱𝗲𝗺𝗼𝘀 𝗰𝘂𝗲𝗻𝘁𝗮, incluso cuando la precisión del sistema es baja. Para quienes diseñamos herramientas, el mensaje es claro: hay que fomentar el escepticismo activo desde la interfaz.\n\n#AI #SesgoDeAutomatización #PensamientoCrítico #Investigación\n\nhttps://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Una célula solar china alcanza una eficiencia récord del 35,5 %",
+      "summary": "La empresa china LONGi ha desarrollado células solares en tándem de silicio cristalino y perovskita con una eficiencia de conversión del 35,5 %, superando los límites actuales. El avance combina dos materiales para aprovechar mejor el espectro solar y se acerca al objetivo comercial de superar el 30 %. La tecnología aún debe escalar su fabricación, pero marca un hito en energía fotovoltaica.",
+      "why_it_matters": "Acelera el camino hacia paneles solares mucho más productivos y abaratará el coste de la energía limpia.",
+      "url": "https://www.engadget.com/2218081/chinese-solar-cell-efficiency-35-5-percent",
+      "source": "Engadget",
+      "social": {
+        "x": "Un 35,5 % de eficiencia en una célula solar. LONGi acaba de pulverizar el récord con una combinación de silicio y perovskita. ¿El siguiente paso? Fabricarlo en masa.\n\n#EnergíaSolar #LONGi #Perovskita #Fotovoltaica\nhttps://www.engadget.com/2218081/chinese-solar-cell-efficiency-35-5-percent",
+        "linkedin": "El récord de eficiencia solar se ha disparado hasta el 35,5 %. Y la clave está en mezclar dos materiales que llevábamos años intentando domar.\n\n𝗟𝗢𝗡𝗚𝗶 𝗵𝗮 𝗰𝗼𝗻𝘀𝗲𝗴𝘂𝗶𝗱𝗼 𝗰é𝗹𝘂𝗹𝗮𝘀 𝗲𝗻 𝘁á𝗻𝗱𝗲𝗺 𝗱𝗲 𝘀𝗶𝗹𝗶𝗰𝗶𝗼 𝘆 𝗽𝗲𝗿𝗼𝘃𝘀𝗸𝗶𝘁𝗮 𝗾𝘂𝗲 𝘀𝘂𝗽𝗲𝗿𝗮𝗻 𝗹𝗼𝘀 𝗹í𝗺𝗶𝘁𝗲𝘀 𝗮𝗰𝘁𝘂𝗮𝗹𝗲𝘀. La tecnología aún necesita escalar su fabricación, pero marca un hito: paneles mucho más productivos que abaratarán la energía limpia. Para cualquier proyecto fotovoltaico, este avance reduce el tiempo necesario para amortizar la inversión.\n\n#EnergíaSolar #LONGi #Perovskita #Fotovoltaica\n\nhttps://www.engadget.com/2218081/chinese-solar-cell-efficiency-35-5-percent"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Descubierta una vulnerabilidad de ejecución remota de código en WordPress sin autenticación",
+      "summary": "El equipo de investigación de Searchlight Cyber ha revelado una vulnerabilidad crítica (RCE) en el núcleo de WordPress que permite a un atacante anónimo tomar el control de cualquier sitio sin necesidad de plugins ni condiciones previas. Se estima que más de 500 millones de sitios usan WordPress. Los detalles técnicos no se publicarán para dar tiempo a aplicar el parche; hay un comprobador gratuito disponible en wp2shell.com.",
+      "why_it_matters": "Una de las mayores amenazas a la seguridad web de los últimos años; urge actualizar todos los sitios WordPress inmediatamente.",
+      "url": "https://wp2shell.com",
+      "source": "Lobsters",
+      "social": {
+        "x": "Sin plugins, sin usuario, sin contraseña: un atacante puede ejecutar código en tu WordPress. El fallo está en el núcleo.\n\n#WordPress #RCE #SeguridadWeb #SearchlightCyber\nhttps://wp2shell.com",
+        "linkedin": "La vulnerabilidad del año en WordPress ya está aquí. Y no exagero: permite ejecución remota de código sin autenticación, afecta al núcleo y no requiere ningún plugin.\n\nMás de 500 millones de sitios están expuestos. 𝗟𝗼𝘀 𝗱𝗲𝘁𝗮𝗹𝗹𝗲𝘀 𝘁é𝗰𝗻𝗶𝗰𝗼𝘀 𝗻𝗼 𝘀𝗲 𝗵𝗮𝗻 𝗽𝘂𝗯𝗹𝗶𝗰𝗮𝗱𝗼, 𝗽𝗲𝗿𝗼 𝘂𝗿𝗴𝗲 𝗮𝗽𝗹𝗶𝗰𝗮𝗿 𝗲𝗹 𝗽𝗮𝗿𝗰𝗵𝗲 𝘆 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗿 𝗰𝘂𝗮𝗻𝘁𝗼 𝗮𝗻𝘁𝗲𝘀. El equipo de Searchlight Cyber ha liberado un comprobador gratuito en wp2shell.com para saber si tu sitio es vulnerable.\n\n#WordPress #RCE #SeguridadWeb #SearchlightCyber\n\nhttps://wp2shell.com"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "OpenSSL HollowByte: un ataque de denegación de servicio oculto en 11 bytes",
+      "summary": "El equipo rojo de Okta ha descubierto una vulnerabilidad de denegación de servicio en OpenSSL que se puede explotar con solo 11 bytes cuidadosamente diseñados. Bautizada como HollowByte, la falla puede tumbar servidores que usen la biblioteca criptográfica sin necesidad de autenticación. Ya se ha publicado el parche y se recomienda actualizar inmediatamente.",
+      "why_it_matters": "OpenSSL es una pieza básica de la infraestructura de internet; un ataque tan simple podría afectar a innumerables servicios.",
+      "url": "https://sec.okta.com/articles/2026/06/openssl-hollowbtye-a-dos-hiding-in-11-bytes",
+      "source": "Lobsters",
+      "social": {
+        "x": "Once bytes bien diseñados bastan para colapsar un servidor con OpenSSL. Sin autenticación. Okta acaba de demostrarlo.\n\n#OpenSSL #ciberseguridad #vulnerabilidad #DoS\nhttps://sec.okta.com/articles/2026/06/openssl-hollowbtye-a-dos-hiding-in-11-bytes",
+        "linkedin": "Once bytes. Eso es lo que necesita un atacante para colapsar un servidor con OpenSSL.\nEl equipo rojo de Okta ha descubierto HollowByte, una vulnerabilidad DoS que no requiere autenticación. 𝗢𝗽𝗲𝗻𝗦𝗦𝗟 𝘀𝗶𝗴𝘂𝗲 𝘀𝗶𝗲𝗻𝗱𝗼 𝘂𝗻𝗮 𝗽𝗶𝗲𝘇𝗮 𝗰𝗿í𝘁𝗶𝗰𝗮 𝗱𝗲 𝗶𝗻𝘁𝗲𝗿𝗻𝗲𝘁, y un fallo tan simple nos recuerda lo frágil que puede ser la infraestructura. El parche ya está disponible: actualizar es urgente.\n\n#OpenSSL #ciberseguridad #vulnerabilidad #DoS\n\nhttps://sec.okta.com/articles/2026/06/openssl-hollowbtye-a-dos-hiding-in-11-bytes"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Un emulador de Intel Itanium (IA-64) consigue arrancar Windows por primera vez",
+      "summary": "Yufeng Gao, con ayuda de gdwnldsKSC, ha publicado la versión 0.1 de un emulador de la arquitectía Intel Itanium (IA-64) que logra iniciar Windows Server 2003 y Windows XP 64-bit. Es un hito en la emulación de CPUs no x86, tras el reciente arranque de Windows en DEC Alpha. El proyecto abre la puerta a la preservación de software empresarial y a la experimentación con arquitecturas olvidadas.",
+      "why_it_matters": "Permite ejecutar y estudiar sistemas operativos históricos sobre hardware moderno, un avance para la retroinformática y la arqueología digital.",
+      "url": "https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "Tras el DEC Alpha, el Itanium: un emulador de IA-64 arranca Windows XP y Server 2003 por primera vez. La arqueología digital suma otro hito.\n\n#Itanium #IA64 #WindowsXP #Emulacion\nhttps://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
+        "linkedin": "¿Creías que el Itanium estaba muerto para siempre? Pues acaba de arrancar Windows XP en un emulador.\n\nY no es el único: hace apenas unas semanas otro proyecto logró arrancar Windows en un DEC Alpha. El nuevo emulador de IA-64, desarrollado por Yufeng Gao con ayuda de gdwnldsKSC, ha conseguido iniciar Windows Server 2003 y Windows XP 64-bit, dos sistemas operativos diseñados para la arquitectura Itanium. 𝗘𝘀𝘁𝗲 𝗵𝗶𝘁𝗼 𝗱𝗲𝗺𝘂𝗲𝘀𝘁𝗿𝗮 𝗾𝘂𝗲 𝗹𝗮 𝗽𝗿𝗲𝘀𝗲𝗿𝘃𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗲𝗺𝗽𝗿𝗲𝘀𝗮𝗿𝗶𝗮𝗹 𝗻𝗼 𝘀𝗼𝗹𝗼 𝗲𝘀 𝗽𝗼𝘀𝗶𝗯𝗹𝗲, 𝘀𝗶𝗻𝗼 𝗾𝘂𝗲 𝗮𝘃𝗮𝗻𝘇𝗮 𝗿á𝗽𝗶𝗱𝗼. Un logro que interesa tanto a retroinformáticos como a profesionales de TI que mantienen sistemas legacy.\n\n#Itanium #IA64 #WindowsXP #Emulacion\n\nhttps://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Revivido el proyecto NextBSD: las herramientas de usuario de Apple sobre el kernel de FreeBSD",
+      "summary": "El proyecto NextBSD, que integra las utilidades de espacio de usuario open source de Apple (como launchd y XPC) con el kernel de FreeBSD, ha sido retomado por la comunidad. El objetivo es fusionar lo mejor de ambos mundos: la estabilidad de FreeBSD con las tecnologías modernas de Apple. Se espera que esta resurrección facilite entornos de desarrollo y servidores híbridos.",
+      "why_it_matters": "Demuestra el interés por combinar componentes de sistemas operativos y recuperar tecnologías que Apple liberó como código abierto.",
+      "url": "https://nextbsd.org",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Qué pasaría si mezclases el kernel de FreeBSD con las herramientas de usuario de Apple? NextBSD acaba de revivir para demostrarlo.\n\n#FreeBSD #NextBSD #Apple #OpenSource\nhttps://nextbsd.org",
+        "linkedin": "¿Qué pasaría si mezclases el kernel de FreeBSD con las herramientas de usuario de Apple? NextBSD está de vuelta.\n\nEl proyecto, que integra utilidades open source de Apple como launchd y XPC con el kernel de FreeBSD, ha sido retomado por la comunidad. 𝗘𝘀𝘁𝗮 𝗰𝗼𝗺𝗯𝗶𝗻𝗮𝗰𝗶ó𝗻 𝗮𝗯𝗿𝗲 𝗻𝘂𝗲𝘃𝗮𝘀 𝗽𝗼𝘀𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀 𝗽𝗮𝗿𝗮 𝗲𝗻𝘁𝗼𝗿𝗻𝗼𝘀 𝗱𝗲 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗼 𝘆 𝘀𝗲𝗿𝘃𝗶𝗱𝗼𝗿𝗲𝘀 𝗵í𝗯𝗿𝗶𝗱𝗼𝘀, combinando la estabilidad de FreeBSD con tecnologías modernas. Una muestra de cómo el código abierto permite rescatar y evolucionar ideas que parecían olvidadas.\n\n#FreeBSD #NextBSD #Apple #OpenSource\n\nhttps://nextbsd.org"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "El lenguaje Gleam migra su código a tangled, una forge basada en el protocolo AT",
+      "summary": "El equipo de Gleam ha replicado sus repositorios en tangled.org, una plataforma de forja que utiliza el protocolo AT (Authenticated Transfer) en lugar de Git o ActivityPub. Buscan descentralizar aún más el desarrollo y explorar alternativas a GitHub. La migración no abandona el repositorio original, pero añade una capa de federación.",
+      "why_it_matters": "Muestra el creciente interés por forjas descentralizadas y el protocolo AT como base para la colaboración abierta.",
+      "url": "https://tangled.org/gleam.run/gleam",
+      "source": "Lobsters",
+      "social": {
+        "x": "Gleam añade una forja espejo que no usa Git. Se llama tangled y se basa en el protocolo AT. ¿El primer paso hacia un GitHub descentralizado?\n\n#Gleam #ATProtocol #OpenSource #Descentralización\nhttps://tangled.org/gleam.run/gleam",
+        "linkedin": "Gleam ha replicado sus repositorios en una forja que no usa Git y se basa en el protocolo AT.\n\nEl equipo de Gleam acaba de anunciar que han replicado todos sus repositorios en tangled.org, una plataforma de forja que emplea el 𝗽𝗿𝗼𝘁𝗼𝗰𝗼𝗹𝗼 𝗔𝗧 (𝗔𝘂𝘁𝗵𝗲𝗻𝘁𝗶𝗰𝗮𝘁𝗲𝗱 𝗧𝗿𝗮𝗻𝘀𝗳𝗲𝗿) en lugar de Git o ActivityPub. No abandonan el repositorio original en GitHub, pero este movimiento añade una capa de federación que podría ser el embrión de una alternativa descentralizada real. Para los que seguimos la evolución del open source, es una señal de que el protocolo AT tiene potencial mucho más allá de las redes sociales.\n\n#Gleam #ATProtocol #OpenSource #Descentralización\n\nhttps://tangled.org/gleam.run/gleam"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "herramientas",
+      "title": "Guía para montar tu web independiente con solo 0,01 dólares al día",
+      "summary": "El movimiento IndieWeb publica una guía práctica para alojar un sitio web personal de forma totalmente autónoma, con dominio propio y costes mínimos. Explica cómo usar servicios como Netlify, Vercel o NearlyFreeSpeech, además de configurar HTTPS y DNS. La idea es recuperar el control de la presencia en internet frente a las plataformas corporativas.",
+      "why_it_matters": "Facilita a cualquiera la independencia digital con instrucciones claras y un coste casi simbólico.",
+      "url": "https://www.neatnik.net/hardcore-indieweb",
+      "source": "Lobsters",
+      "social": {
+        "x": "Tu web personal, con dominio y sin depender de plataformas, puede costarte menos de 4 € al año. La guía que lo explica acaba de publicarse.\n\n#IndieWeb #Decentralization #SelfHosting\nhttps://www.neatnik.net/hardcore-indieweb",
+        "linkedin": "El coste de la independencia digital nunca había sido tan bajo: menos de 4 euros al año para tener tu propia web con dominio.\n\nEl movimiento IndieWeb ha publicado una guía práctica que detalla cómo usar servicios como Netlify, Vercel o NearlyFreeSpeech para alojar un sitio estático con HTTPS y DNS propio. La idea es 𝗿𝗲𝗰𝘂𝗽𝗲𝗿𝗮𝗿 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗳𝗿𝗲𝗻𝘁𝗲 𝗮 𝗹𝗮𝘀 𝗽𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮𝘀 𝗰𝗼𝗿𝗽𝗼𝗿𝗮𝘁𝗶𝘃𝗮𝘀 que convierten nuestra presencia online en un producto. En un momento donde la descentralización vuelve a estar en el centro del debate, esta guía es un excelente punto de partida para cualquiera que quiera apostar por la autonomía digital.\n\n#IndieWeb #Decentralization #SelfHosting\n\nhttps://www.neatnik.net/hardcore-indieweb"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "Las cerraduras inteligentes con reconocimiento facial ya son útiles de verdad",
+      "summary": "The Verge analiza las cerraduras con reconocimiento facial más recientes, que permiten abrir la puerta sin manos, claves ni móvil, solo mostrando la cara. Modelos de Lockly, Philips y Eufy destacan por su fiabilidad y rapidez, aunque aún requieren baterías y una instalación cuidadosa. La tecnología ha madurado hasta convertirse en una opción cómoda para el hogar conectado.",
+      "why_it_matters": "La autenticación biométrica llega por fin al hogar de forma fiable, eliminando fricciones en el día a día.",
+      "url": "https://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review",
+      "source": "The Verge",
+      "social": {
+        "x": "Abrir la puerta sin manos, sin llaves, sin móvil: solo mostrando la cara. El reconocimiento facial para cerraduras inteligentes ya es útil de verdad.\n\n#SmartHome #ReconocimientoFacial #Biometría\nhttps://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review",
+        "linkedin": "La comodidad de abrir la puerta con la cara era hasta ahora más promesa que realidad. Eso acaba de cambiar.\n\nLas últimas cerraduras inteligentes de Lockly, Philips y Eufy logran una autenticación facial fiable y rápida, eliminando la necesidad de llaves, móviles o códigos. Para cualquiera que gestione espacios de acceso frecuente (hogar, oficina o alquileres), 𝗹𝗮 𝗯𝗶𝗼𝗺𝗲𝘁𝗿í𝗮 𝗲𝗻 𝗹𝗮 𝗽𝘂𝗲𝗿𝘁𝗮 𝗽𝗼𝗿 𝗳𝗶𝗻 𝗺𝗮𝗱𝘂𝗿𝗮 como opción cotidiana. Aún necesitan baterías e instalación, pero el salto en usabilidad es grande.\n\n#SmartHome #ReconocimientoFacial #Biometría\n\nhttps://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "Google libera sus emojis 3D como código abierto para celebrar el Día Mundial del Emoji",
+      "summary": "Google ha publicado bajo licencia abierta su colección de emojis tridimensionales, usados internamente en productos como Android y Gboard. Los archivos incluyen modelos 3D y texturas para que diseñadores y desarrolladores los integren en juegos, aplicaciones o realidad aumentada. Es la primera vez que la compañía comparte estos activos de forma tan amplia.",
+      "why_it_matters": "Aporta recursos de diseño de alta calidad a la comunidad creativa y a proyectos de código abierto.",
+      "url": "https://www.theverge.com/design/967606/google-open-source-3d-emoji",
+      "source": "The Verge",
+      "social": {
+        "x": "Google libera sus emojis 3D: modelos y texturas con licencia abierta. Por primera vez puedes usarlos en juegos, apps o realidad aumentada. 🥳\n\n#OpenSource #Google #Emoji #3D\nhttps://www.theverge.com/design/967606/google-open-source-3d-emoji",
+        "linkedin": "Hoy es el Día Mundial del Emoji y Google lo celebra con un regalo para la comunidad creativa: libera sus emojis 3D como código abierto.\n\nLos mismos modelos que llevan años integrados en Android y Gboard ahora están disponibles para cualquier proyecto. Para diseñadores y desarrolladores, supone 𝗹𝗮 𝗽𝗼𝘀𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗿 𝗮𝘀𝘀𝗲𝘁𝘀 𝗱𝗲 𝗮𝗹𝘁𝗮 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝘀𝗶𝗻 𝗰𝗼𝘀𝘁𝗲 𝗲𝗻 𝗷𝘂𝗲𝗴𝗼𝘀, 𝗮𝗽𝗽𝘀 𝗼 𝗿𝗲𝗮𝗹𝗶𝗱𝗮𝗱 𝗮𝘂𝗺𝗲𝗻𝘁𝗮𝗱𝗮. Una decisión que democratiza el acceso a recursos visuales que hasta ahora estaban reservados para grandes equipos.\n\n#OpenSource #Google #Emoji #3D\n\nhttps://www.theverge.com/design/967606/google-open-source-3d-emoji"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Estudian los planificadores de Linux y el impacto de las métricas en el rendimiento",
+      "summary": "Una investigación de la Universidad de Illinois analiza cuánto influyen las decisiones de planificación del kernel Linux en sistemas con múltiples sockets. Usando métricas detalladas y simulación, demuestran que ignorar la topología de caché al asignar hilos penaliza aplicaciones en más de un 20 % de rendimiento. El trabajo propone nuevas métricas para guiar al planificador EEVDF en servidores modernos.",
+      "why_it_matters": "Optimizar la planificación puede mejorar el rendimiento de centros de datos y aplicaciones exigentes sin modificar el código de las aplicaciones.",
+      "url": "https://pradyun.net/blog/metrics_matter.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "El planificador de Linux puede estar frenando tus aplicaciones más de un 20% sin que lo sepas. La culpa es de la topología de caché.\n\n#Linux #EEVDF #scheduler #cache\nhttps://pradyun.net/blog/metrics_matter.html",
+        "linkedin": "Asignar hilos sin tener en cuenta la caché le puede estar costando a Linux más de un 20% de rendimiento.\n\nUna investigación de la Universidad de Illinois ha analizado el impacto de la planificación en sistemas multisocket y propone nuevas métricas para el planificador EEVDF. El hallazgo: 𝗶𝗴𝗻𝗼𝗿𝗮𝗿 𝗹𝗮 𝘁𝗼𝗽𝗼𝗹𝗼𝗴í𝗮 𝗱𝗲 𝗰𝗮𝗰𝗵é 𝗲𝗻 𝗹𝗮 𝗽𝗹𝗮𝗻𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗵𝗶𝗹𝗼𝘀 𝗽𝗲𝗻𝗮𝗹𝗶𝘇𝗮 𝗺á𝘀 𝗱𝗲𝗹 𝟮𝟬%. Esto es relevante para cualquiera que gestione servidores o centros de datos, porque una mejor planificación puede mejorar el rendimiento sin cambiar el código de las aplicaciones.\n\n#Linux #EEVDF #scheduler #cache\n\nhttps://pradyun.net/blog/metrics_matter.html"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "investigacion",
+      "title": "Seguimos sin conocer el algoritmo más rápido para multiplicar números",
+      "summary": "Una estudiante de 23 años ha refutado una antigua conjetura sobre la complejidad de la multiplicación, demostrando que un algoritmo de 1971 no es la cota inferior que se creía. El hallazgo reabre la búsqueda del método más eficiente para multiplicar, con profundas implicaciones en criptografía, procesamiento de señales y computación científica. La investigación aparece en Scientific American.",
+      "why_it_matters": "Un resultado teórico que puede influir en el diseño de hardware y software de cálculo intensivo en el futuro.",
+      "url": "https://www.scientificamerican.com/article/mathematicians-still-dont-know-the-fastest-way-to-multiply-numbers",
+      "source": "Lobsters",
+      "social": {
+        "x": "50 años creyendo que un algoritmo de 1971 marcaba el límite de la multiplicación. Una estudiante de 23 años acaba de demostrar que no.\n\n#ComplejidadComputacional #Algoritmos #Criptografía\nhttps://www.scientificamerican.com/article/mathematicians-still-dont-know-the-fastest-way-to-multiply-numbers",
+        "linkedin": "Una estudiante de 23 años ha hecho tambalearse uno de los pilares de la teoría de la computación. \nDurante décadas se asumió que un algoritmo de 1971 marcaba el límite inferior de la multiplicación rápida. Su refutación demuestra que 𝗽𝗼𝗱𝗿í𝗮 𝗲𝘅𝗶𝘀𝘁𝗶𝗿 𝘂𝗻 𝗺é𝘁𝗼𝗱𝗼 𝗮ú𝗻 𝗺á𝘀 𝗲𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲, con implicaciones directas en criptografía, procesamiento de señales y computación científica. Un recordatorio de que las conjeturas, por muy asentadas que estén, esperan a que alguien las cuestione.\n\n#ComplejidadComputacional #Algoritmos #Criptografía\n\nhttps://www.scientificamerican.com/article/mathematicians-still-dont-know-the-fastest-way-to-multiply-numbers"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "investigacion",
+      "title": "Propuesta de un mejor sistema de bitset para flags en C++",
+      "summary": "Un desarrollador plantea una alternativa más segura y expresiva que el tradicional `enum` con atributos de bits para banderas en C++. Analiza los defectos del enfoque actual, como la falta de verificación de tipos y la propensión a errores, y propone un nuevo tipo de bitset que mantiene la sintaxis concisa pero añade seguridad. El artículo ha generado debate en la comunidad de sistemas.",
+      "why_it_matters": "Mejorar la manipulación de flags es un pequeño cambio con gran impacto en la calidad y mantenibilidad del código de bajo nivel.",
+      "url": "https://www.elbeno.com/blog/?p=1836",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Flags en C++ sin errores de tipo? La propuesta de un nuevo bitset lo resuelve y el debate está servido en sistemas.\n\n#Cpp #Bitset #TypeSafety #CodeQuality\nhttps://www.elbeno.com/blog/?p=1836",
+        "linkedin": "El sistema tradicional de flags en C++ es una fuente crónica de bugs silenciosos.\nUn desarrollador propone un nuevo tipo de bitset que añade seguridad de tipos sin perder la concisión. La propuesta ha encendido el debate en comunidades como Lobsters porque 𝘂𝗻 𝗰𝗮𝗺𝗯𝗶𝗼 𝗽𝗲𝗾𝘂𝗲ñ𝗼 𝗲𝗻 𝗰ó𝗺𝗼 𝗺𝗮𝗻𝗲𝗷𝗮𝗺𝗼𝘀 𝗹𝗮𝘀 𝗯𝗮𝗻𝗱𝗲𝗿𝗮𝘀 𝗽𝘂𝗲𝗱𝗲 𝗲𝗹𝗲𝘃𝗮𝗿 𝗱𝗿á𝘀𝘁𝗶𝗰𝗮𝗺𝗲𝗻𝘁𝗲 𝗹𝗮 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝘆 𝗺𝗮𝗻𝘁𝗲𝗻𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗱𝗲 𝘀𝗶𝘀𝘁𝗲𝗺𝗮𝘀. Para quienes programan C++ a bajo nivel, es una discusión que merece atención.\n\n#Cpp #Bitset #TypeSafety #CodeQuality\n\nhttps://www.elbeno.com/blog/?p=1836"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "investigacion",
+      "title": "Comparativa de niveles de aislamiento: Repeatable Read frente a Snapshot Isolation",
+      "summary": "Un análisis técnico detalla las diferencias entre los niveles de aislamiento Repeatable Read y Snapshot Isolation, ilustrando con casos de uso en MySQL y PostgreSQL. Aclara por qué Repeatable Read en MySQL se comporta realmente como Snapshot Isolation y los peligros de las anomalías de escritura fantasma. La discusión es esencial para arquitectos de bases de datos que buscan consistencia sin penalizar el rendimiento.",
+      "why_it_matters": "Entender estas sutilezas evita decisiones erróneas que pueden provocar inconsistencias de datos difíciles de depurar.",
+      "url": "https://jaymcor.github.io/notes/isolation_rr_si.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "Repeatable Read en MySQL es un engaño: en realidad es Snapshot Isolation. Las anomalías de write skew acechan, y entenderlo es de las mejores inversiones de tiempo para un arquitecto de bases de datos.\n\n#MySQL #PostgreSQL #BasesDeDatos #SnapshotIsolation\nhttps://jaymcor.github.io/notes/isolation_rr_si.html",
+        "linkedin": "Las etiquetas de los niveles de aislamiento en bases de datos esconden más de lo que revelan.\n\nEl Repeatable Read de MySQL, por ejemplo, no evita las lecturas no repetibles como uno esperaría: en la práctica funciona como Snapshot Isolation. Un análisis detallado expone las diferencias y advierte sobre las anomalías de write skew, esas inconsistencias esquivas que pueden colarse si no entiendes lo que hay bajo el capó. Para arquitectos que buscan consistencia sin renunciar al rendimiento, 𝗰𝗼𝗺𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝗲𝘀𝘁𝗮𝘀 𝘀𝘂𝘁𝗶𝗹𝗲𝘇𝗮𝘀 𝗻𝗼 𝗲𝘀 𝗼𝗽𝗰𝗶𝗼𝗻𝗮𝗹.\n\n#MySQL #PostgreSQL #BasesDeDatos #SnapshotIsolation\n\nhttps://jaymcor.github.io/notes/isolation_rr_si.html"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "Plataforma open source con herramientas de analítica, feature flags y AI observability que permite a los agentes diagnosticar problemas y optimizar productos de forma autónoma.",
+      "language": "Python",
+      "stars": 36733
+    },
+    {
+      "name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "Permite ejecutar modelos de lenguaje de hasta 70B en una GPU de solo 4 GB, ideal para experimentar con LLMs sin necesidad de hardware costoso.",
+      "language": "Jupyter Notebook",
+      "stars": 23463
+    },
+    {
+      "name": "MoonshotAI/kimi-cli",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "description": "Un agente CLI basado en Kimi Code que asiste en el desarrollo directamente desde la terminal, facilitando la generación y análisis de código.",
+      "language": "Python",
+      "stars": 9631
+    },
+    {
+      "name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "Construye un grafo de inteligencia de código local para que las herramientas de IA accedan solo a la información relevante, reduciendo el contexto en revisiones y flujos de trabajo con repositorios grandes.",
+      "language": "Python",
+      "stars": 20373
+    },
+    {
+      "name": "KnockOutEZ/wigolo",
+      "url": "https://github.com/KnockOutEZ/wigolo",
+      "description": "Herramienta web first para agentes de IA que permite buscar, rastrear e investigar en local a través de MCP, sin necesidad de APIs externas ni costes por consulta.",
+      "language": "TypeScript",
+      "stars": 1440
+    }
+  ]
+}
