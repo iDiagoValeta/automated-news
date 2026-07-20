@@ -2,13 +2,19 @@ name: Edición diaria
 
 on:
   schedule:
-    # Objetivo: 09:00 Europe/Madrid todo el año. Como el cron es UTC y España
-    # cambia de hora, se disparan dos veces (07:09 UTC = 09:09 en verano CEST,
-    # 08:09 UTC = 09:09 en invierno CET) y el guardián de más abajo solo deja
-    # publicar cuando en Madrid ya son las 09:00 o más. La idempotencia evita
-    # publicar dos veces el mismo día.
+    # Objetivo: publicar a partir de las 09:00 Europe/Madrid todo el año. GitHub
+    # Actions retrasa u OMITE ejecuciones programadas cuando la plataforma está
+    # cargada (sin error ni aviso), así que no basta con uno o dos disparos: se
+    # lanzan varios reintentos horarios. El guardián de más abajo solo deja
+    # publicar cuando en Madrid ya son las 09:00, y la idempotencia por fichero
+    # (data/AAAA-MM-DD.json) hace que solo el primer intento válido genere la
+    # edición; los demás salen en segundos sin gastar LLM ni crear commits.
+    # 07:09 UTC = 09:09 en verano (CEST); 08:09 UTC = 09:09 en invierno (CET).
     - cron: "9 7 * * *"
     - cron: "9 8 * * *"
+    - cron: "9 9 * * *"
+    - cron: "9 10 * * *"
+    - cron: "9 11 * * *"
   workflow_dispatch:
     inputs:
       skip_pipeline:
