@@ -1,0 +1,304 @@
+{
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T09:47:26.367Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Moonshot AI suspende nuevas suscripciones por la altísima demanda de Kimi K3",
+      "summary": "La compañía china Moonshot AI ha paralizado temporalmente las nuevas altas a su servicio tras el lanzamiento de Kimi K3. En un comunicado, la empresa reconoce que la demanda ha desbordado la capacidad de sus GPUs y que priorizará a los suscriptores existentes para mantener la calidad del servicio.",
+      "why_it_matters": "Kimi K3 se perfila como uno de los modelos de IA más prometedores del momento, con una tracción que recuerda a los grandes lanzamientos del sector.",
+      "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
+      "source": "Hacker News",
+      "social": {
+        "x": "A veces el mayor problema de un lanzamiento es que funcione demasiado bien. Moonshot AI acaba de suspender las suscripciones de Kimi K3 porque la demanda ha desbordado sus GPUs.\n\n#MoonshotAI #KimiK3\nhttps://twitter.com/kimi_moonshot/status/2078855608565207130",
+        "linkedin": "Lanzar un producto y tener que cerrar el grifo a nuevos clientes es el sueño de cualquier startup… hasta que pasa.\n\nMoonshot AI ha suspendido temporalmente las nuevas suscripciones a Kimi K3 porque la demanda ha desbordado sus GPUs. 𝗟𝗮 𝘁𝗿𝗮𝗰𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗿𝗲𝗰𝘂𝗲𝗿𝗱𝗮 𝗮 𝗹𝗼𝘀 𝗹𝗮𝗻𝘇𝗮𝗺𝗶𝗲𝗻𝘁𝗼𝘀 𝗺á𝘀 𝗲𝘅𝗽𝗹𝗼𝘀𝗶𝘃𝗼𝘀 𝗱𝗲𝗹 𝘀𝗲𝗰𝘁𝗼𝗿 y confirma que la startup china tiene entre manos algo grande. La pregunta ahora es si podrán escalar a tiempo para capitalizar el momento.\n\n#MoonshotAI #KimiK3\n\nhttps://twitter.com/kimi_moonshot/status/2078855608565207130"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "Guía para usar el panel Reflect de Claude y saber cuándo desconectar",
+      "summary": "Engadget publica una guía práctica sobre Reflect, el nuevo panel de control de Claude que monitoriza el tiempo de uso y sugiere descansos. La herramienta ofrece métricas de productividad y recordatorios para evitar la fatiga digital.",
+      "why_it_matters": "Aporta una visión concreta de cómo las funcionalidades de bienestar pueden integrarse en asistentes de IA para mejorar la experiencia del usuario.",
+      "url": "https://www.engadget.com/2217921/how-to-use-claude-reflect-dashboard-guide",
+      "source": "Engadget",
+      "social": {
+        "x": "🧠 Claude ahora te dice cuándo desconectar. Así funciona Reflect, su nuevo panel que monitoriza el uso y combate la fatiga digital.\n\n#Claude #Anthropic #Reflect\nhttps://www.engadget.com/2217921/how-to-use-claude-reflect-dashboard-guide",
+        "linkedin": "Los asistentes de IA nos hacen más productivos, pero también más adictos.\n\nClaude integra ahora Reflect, un panel que 𝗺𝗼𝗻𝗶𝘁𝗼𝗿𝗶𝘇𝗮 𝗲𝗹 𝘁𝗶𝗲𝗺𝗽𝗼 𝗱𝗲 𝘂𝘀𝗼 𝘆 𝘀𝘂𝗴𝗶𝗲𝗿𝗲 𝗱𝗲𝘀𝗰𝗮𝗻𝘀𝗼𝘀 𝗮𝗰𝘁𝗶𝘃𝗼𝘀. Engadget publica una guía práctica para sacarle partido. Es el primer paso serio hacia herramientas que miden su propio impacto en nuestra atención. Una lectura útil si pasas el día conversando con modelos.\n\n#Claude #Anthropic #Reflect\n\nhttps://www.engadget.com/2217921/how-to-use-claude-reflect-dashboard-guide"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "investigacion",
+      "title": "Claude encuentra un contraejemplo de la conjetura jacobiana, un hito matemático",
+      "summary": "El modelo de IA Claude, de Anthropic, ha logrado hallar un contraejemplo que refuta la conjetura jacobiana, un célebre problema abierto en el campo de las matemáticas. La noticia ha generado un intenso debate en la comunidad científica y en Hacker News.",
+      "why_it_matters": "Demuestra la capacidad inesperada de los grandes modelos de lenguaje para contribuir a la investigación matemática más avanzada.",
+      "url": "https://news.ycombinator.com/item?id=48973869",
+      "source": "Lobsters",
+      "social": {
+        "x": "Claude ha encontrado un contraejemplo a la conjetura jacobiana, un problema abierto desde los años 30.\n\n#Claude #Anthropic #Matemáticas #LLM\nhttps://news.ycombinator.com/item?id=48973869",
+        "linkedin": "El modelo Claude de Anthropic acaba de tumbar una conjetura matemática de casi un siglo.\n\nLo que parecía terreno exclusivo de matemáticos y sistemas de álgebra computacional ha sido resuelto por un modelo de lenguaje. 𝗨𝗻 𝗟𝗟𝗠 𝗵𝗮 𝘀𝗶𝗱𝗼 𝗰𝗮𝗽𝗮𝘇 𝗱𝗲 𝗲𝗻𝗰𝗼𝗻𝘁𝗿𝗮𝗿 𝘂𝗻 𝗰𝗼𝗻𝘁𝗿𝗮𝗲𝗷𝗲𝗺𝗽𝗹𝗼 𝗮 𝗹𝗮 𝗰𝗼𝗻𝗷𝗲𝘁𝘂𝗿𝗮 𝗷𝗮𝗰𝗼𝗯𝗶𝗮𝗻𝗮, 𝘂𝗻 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗮𝗯𝗶𝗲𝗿𝘁𝗼 𝗱𝗲𝘀𝗱𝗲 𝗹𝗼𝘀 𝗮ñ𝗼𝘀 𝟯𝟬 𝗾𝘂𝗲 𝗹𝗼𝘀 𝗲𝘅𝗽𝗲𝗿𝘁𝗼𝘀 𝗻𝗼 𝗵𝗮𝗯í𝗮𝗻 𝗽𝗼𝗱𝗶𝗱𝗼 𝗿𝗲𝘀𝗼𝗹𝘃𝗲𝗿. El hallazgo ha desatado un debate en la comunidad científica, pero es una prueba más de que la IA está entrando en dominios que considerábamos exclusivamente humanos.\n\n#Claude #Anthropic #Matemáticas #LLM\n\nhttps://news.ycombinator.com/item?id=48973869"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "Current AI acelera la construcción de una 'World Wide Web de la IA' libre y gratuita",
+      "summary": "La organización sin ánimo de lucro Current AI está desarrollando una plataforma abierta de inteligencia artificial que aspira a ser un recurso público global. El proyecto ya muestra avances en múltiples dispositivos y en un chat de IA propio, con el objetivo de evitar que unas pocas empresas controlen el acceso a la tecnología.",
+      "why_it_matters": "Podría sentar las bases de un ecosistema de IA soberano y comunitario, alejado de los grandes intereses comerciales.",
+      "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Lo de Current AI no es un experimento: ya tienen chat propio y funciona en media docena de dispositivos. La 'World Wide Web de la IA' libre y gratuita avanza.\n\n#CurrentAI #OpenSource #SoberaníaDigital\nhttps://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all",
+        "linkedin": "Mientras los focos apuntan a la carrera armamentística entre OpenAI y Google, una organización sin ánimo de lucro está plantando la semilla de una IA pública que no dependa de ningún gigante.\n\nCurrent AI avanza rápido: chat funcional, presencia en múltiples dispositivos y la ambición de crear una 'World Wide Web de la IA' abierta y comunitaria. 𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗲𝘀 𝗹𝗮 𝘀𝗼𝗯𝗲𝗿𝗮𝗻í𝗮 𝘁𝗲𝗰𝗻𝗼𝗹ó𝗴𝗶𝗰𝗮: que cualquier persona o institución pueda acceder a modelos potentes sin ataduras comerciales. En un contexto donde el acceso a la IA define ventajas competitivas, este proyecto merece atención.\n\n#CurrentAI #OpenSource #SoberaníaDigital\n\nhttps://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "investigacion",
+      "title": "La IA es más propensa que los humanos a generar sesgos en procesos de contratación",
+      "summary": "Una investigación del MIT Technology Review revela que los modelos de IA no solo heredan estereotipos de los datos, sino que pueden crear nuevos sesgos durante la selección de personal. El estudio advierte de que los sistemas automáticos de filtrado de currículums podrían estar introduciendo discriminaciones no previstas.",
+      "why_it_matters": "Cuestiona la confianza ciega en la IA para decisiones de recursos humanos y subraya la necesidad de auditorías continuas de equidad.",
+      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans",
+      "source": "MIT Technology Review",
+      "social": {
+        "x": "Creemos que la IA elimina el sesgo humano en la contratación. Un estudio del MIT revela lo contrario: los modelos no solo copian estereotipos, sino que generan discriminaciones nuevas.\n\n#MIT #RRHH #SesgoAlgorítmico\nhttps://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans",
+        "linkedin": "Creemos que automatizar la selección de personal con IA elimina el sesgo humano. Pero un nuevo estudio del MIT Technology Review muestra que 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗽𝘂𝗲𝗱𝗲𝗻 𝗶𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝗶𝗿 𝗱𝗶𝘀𝗰𝗿𝗶𝗺𝗶𝗻𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗶𝗻é𝗱𝗶𝘁𝗮𝘀, no solo replicar las existentes. Esto cuestiona la confianza ciega en los filtros automáticos de currículums y subraya la urgencia de realizar auditorías de equidad continuas. Para los departamentos de RRHH, es una llamada a no delegar sin supervisión.\n\n#MIT #RRHH #SesgoAlgorítmico\n\nhttps://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "investigacion",
+      "title": "Usar consejos de IA reduce la precisión pero dispara la confianza, según un estudio",
+      "summary": "Un estudio citado por TNW muestra que el acceso a recomendaciones de IA colapsó la disposición a reconocer ignorancia (del 44% al 3%) y redujo la precisión del 27% al 9%. Los participantes se volvieron menos precisos pero mucho más seguros de sus respuestas erróneas.",
+      "why_it_matters": "Señala un efecto secundario preocupante: la IA puede erosionar el pensamiento crítico mientras infla artificialmente la autoconfianza.",
+      "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Confías más en tus respuestas cuando usas IA? Un estudio revela que deberías hacer justo lo contrario: la precisión se desploma y la seguridad se dispara.\n\n#AI #SesgoCognitivo #PensamientoCrítico\nhttps://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
+        "linkedin": "Cuando un 44% de los participantes admitía no saber la respuesta, basta con darles acceso a una IA para que esa cifra caiga al 3%. La precisión también se desploma del 27% al 9%, pero la confianza en las respuestas erróneas se dispara. 𝗟𝗮 𝗜𝗔 𝗶𝗻𝗳𝗹𝗮 𝗮𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹𝗺𝗲𝗻𝘁𝗲 𝗹𝗮 𝗮𝘂𝘁𝗼𝗰𝗼𝗻𝗳𝗶𝗮𝗻𝘇𝗮 𝗺𝗶𝗲𝗻𝘁𝗿𝗮𝘀 𝗲𝗿𝗼𝘀𝗶𝗼𝗻𝗮 𝗲𝗹 𝗽𝗲𝗻𝘀𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗰𝗿í𝘁𝗶𝗰𝗼, un efecto secundario que merece atención en cualquier flujo de trabajo que delegue decisiones en algoritmos.\n\n#AI #SesgoCognitivo #PensamientoCrítico\n\nhttps://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "industria",
+      "title": "Netflix paga 587 millones de dólares por la startup de cine con IA de Ben Affleck",
+      "summary": "Netflix ha revelado en una presentación regulatoria que desembolsó 587 millones de dólares en efectivo por InterPositive, la empresa cofundada por Ben Affleck que desarrolla herramientas de IA para posproducción cinematográfica. La adquisición, anunciada en marzo, busca mejorar los efectos visuales y corregir problemas de rodaje mediante inteligencia artificial.",
+      "why_it_matters": "Muestra el enorme apetito de las grandes plataformas por integrar IA en la producción de contenidos audiovisuales.",
+      "url": "https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Netflix se gasta 587 millones de dólares en la startup de IA de Ben Affleck. La IA generativa entra en la posproducción de Hollywood.\n\n#Netflix #InterPositive #VFX #BenAffleck\nhttps://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup",
+        "linkedin": "Netflix acaba de invertir 587 millones de dólares en una startup de IA para cine.\n\nLa empresa es InterPositive, cofundada por Ben Affleck, y se dedica a mejorar efectos visuales y corregir fallos de rodaje con inteligencia artificial. Esta compra muestra que 𝗹𝗮 𝗜𝗔 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘀𝗼𝗹𝗼 𝘂𝗻𝗮 𝗽𝗿𝗼𝗺𝗲𝘀𝗮, 𝘀𝗶𝗻𝗼 𝘂𝗻𝗮 𝗶𝗻𝘃𝗲𝗿𝘀𝗶ó𝗻 𝗺𝗮𝘀𝗶𝘃𝗮 𝗾𝘂𝗲 𝗿𝗲𝗱𝗲𝗳𝗶𝗻𝗲 𝗹𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻 𝗮𝘂𝗱𝗶𝗼𝘃𝗶𝘀𝘂𝗮𝗹.\n\n#Netflix #InterPositive #VFX #BenAffleck\n\nhttps://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "industria",
+      "title": "Conectar agentes de IA a servicios externos dispara el perímetro de riesgo",
+      "summary": "The Register analiza cómo la integración de agentes autónomos de IA con APIs y servicios de terceros amplifica las vulnerabilidades de seguridad. Expertos advierten de que cada conexión añade un posible vector de ataque y dificulta la supervisión humana.",
+      "why_it_matters": "Subraya un desafío inmediato para las empresas que ya despliegan agentes de IA en producción sin controles adecuados.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/19/connecting-ai-agents-to-outside-services-explodes-the-risk-radius/5274640",
+      "source": "The Register",
+      "social": {
+        "x": "Cada API que conectas a un agente de IA es un nuevo vector de ataque. Y lo peor es que casi nadie está auditando esas conexiones.\n\n#AgentesIA #APIs #Ciberseguridad\nhttps://www.theregister.com/ai-and-ml/2026/07/19/connecting-ai-agents-to-outside-services-explodes-the-risk-radius/5274640",
+        "linkedin": "La conexión de agentes de IA a servicios externos está multiplicando los vectores de ataque y diluyendo la supervisión humana. Según The Register, cada API añade una posible brecha y hace más difícil el control. Para los equipos que ya despliegan agentes en producción, 𝗮𝘂𝗱𝗶𝘁𝗮𝗿 𝗰𝗮𝗱𝗮 𝗰𝗼𝗻𝗲𝘅𝗶ó𝗻 es el primer paso para no perder el control.\n\n#AgentesIA #APIs #Ciberseguridad\n\nhttps://www.theregister.com/ai-and-ml/2026/07/19/connecting-ai-agents-to-outside-services-explodes-the-risk-radius/5274640"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "industria",
+      "title": "Gartner predice que las herramientas de IA en operaciones crearán caos en las consolas",
+      "summary": "Según el último Hype Cycle de Gartner, la proliferación de herramientas de IA para operaciones de TI provocará una dispersión de consolas y más interrupciones. A pesar de ello, la consultora estima que en 2030 una cuarta parte del trabajo de infraestructura estará gestionada por IA no supervisada.",
+      "why_it_matters": "Anticipa una fase de desorden antes de que la automatización inteligente madure y ofrezca los beneficios prometidos.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/20/ai-ops-tools-will-create-console-sprawl-and-break-it-more-often-gartner/5274712",
+      "source": "The Register",
+      "social": {
+        "x": "¿IA para simplificar IT? Gartner predice caos y más consolas antes de la automatización real.\n\n#Gartner #AIOps #HypeCycle\nhttps://www.theregister.com/ai-and-ml/2026/07/20/ai-ops-tools-will-create-console-sprawl-and-break-it-more-often-gartner/5274712",
+        "linkedin": "La IA promete simplificar la gestión de infraestructura, pero Gartner advierte de un efecto secundario inmediato: más caos y una proliferación de consolas.\n\nSegún el último Hype Cycle de Gartner, la llegada de herramientas de IA para operaciones IT provocará una dispersión de consolas y más interrupciones. Sin embargo, 𝗹𝗮 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗼𝗿𝗮 𝗲𝘀𝘁𝗶𝗺𝗮 𝗾𝘂𝗲 𝗲𝗻 𝟮𝟬𝟯𝟬 𝘂𝗻𝗮 𝗰𝘂𝗮𝗿𝘁𝗮 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗱𝗲 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗲𝘀𝘁𝗮𝗿á 𝗴𝗲𝘀𝘁𝗶𝗼𝗻𝗮𝗱𝗼 𝗽𝗼𝗿 𝗜𝗔 𝗻𝗼 𝘀𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗮𝗱𝗮. Para los equipos de TI, la lección es clara: la IA no será un atajo, sino un camino que primero desordena antes de ordenar.\n\n#Gartner #AIOps #HypeCycle\n\nhttps://www.theregister.com/ai-and-ml/2026/07/20/ai-ops-tools-will-create-console-sprawl-and-break-it-more-often-gartner/5274712"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "Jensen Huang cierra acuerdos en Japón que abarcan toda la cadena de chips de IA",
+      "summary": "Tras su visita a Tokio, el CEO de Nvidia ha firmado alianzas con los principales fabricantes de robótica y proveedores de materiales para semiconductores. Los pactos incluyen una factoría nacional de IA y colaboraciones que refuerzan la posición de Japón en el suministro de la próxima generación de chips.",
+      "why_it_matters": "Consolida a Nvidia como el socio indispensable de la estrategia tecnológica japonesa y asegura la cadena de suministro de hardware para IA.",
+      "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Nvidia ya no es solo un socio de IA para Japón: ahora controla desde los materiales hasta las fábricas.\n\n#Nvidia #Japón #Semiconductores #Robótica\nhttps://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit",
+        "linkedin": "Japón acaba de atar toda su cadena de chips de IA con un solo movimiento.\n\nJensen Huang ha visitado Tokio y ha vuelto con acuerdos con fabricantes de robótica y proveedores de materiales para semiconductores. Esto incluye una factoría nacional de IA y colaboraciones que 𝗿𝗲𝗳𝘂𝗲𝗿𝘇𝗮𝗻 𝗹𝗮 𝗽𝗼𝘀𝗶𝗰𝗶ó𝗻 𝗱𝗲 𝗝𝗮𝗽ó𝗻 𝗲𝗻 𝗲𝗹 𝘀𝘂𝗺𝗶𝗻𝗶𝘀𝘁𝗿𝗼 𝗱𝗲 𝗹𝗮 𝗽𝗿ó𝘅𝗶𝗺𝗮 𝗴𝗲𝗻𝗲𝗿𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗰𝗵𝗶𝗽𝘀. Para Nvidia, consolida su rol como socio indispensable de la estrategia tecnológica japonesa y asegura la cadena de suministro de hardware para IA.\n\n#Nvidia #Japón #Semiconductores #Robótica\n\nhttps://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "China diseña sistemas de respuesta de emergencia para mantener la IA bajo control",
+      "summary": "El presidente Xi Jinping ha pronunciado un discurso en el que pide adherencia al principio de apertura y, al mismo tiempo, la creación de mecanismos de emergencia que eviten los riesgos de la inteligencia artificial. La intervención se produce mientras Pekín acelera la regulación del sector.",
+      "why_it_matters": "Señala la voluntad del gobierno chino de compaginar el desarrollo acelerado de la IA con un férreo control estatal sobre sus aplicaciones.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/20/chinese-president-xi-jinping-wants-emergency-response-systems-to-keep-ai-in-check/5274687",
+      "source": "The Register",
+      "social": {
+        "x": "Xi Jinping pide abrir la IA al mundo, pero activa planes de emergencia para que no se le escape de las manos.\n\n#China #XiJinping #InteligenciaArtificial #Regulación\nhttps://www.theregister.com/ai-and-ml/2026/07/20/chinese-president-xi-jinping-wants-emergency-response-systems-to-keep-ai-in-check/5274687",
+        "linkedin": "La consigna en Pekín es clara: apertura en IA, sí, pero con un botón rojo de emergencia.\n\nXi Jinping ha pedido adherirse al principio de apertura mientras se diseñan mecanismos para evitar los riesgos de la inteligencia artificial. Mientras el gigante asiático acelera en regulación, este mensaje revela 𝗹𝗮 𝗮𝗽𝘂𝗲𝘀𝘁𝗮 𝗰𝗵𝗶𝗻𝗮 𝗽𝗼𝗿 𝗰𝗼𝗺𝗽𝗮𝗴𝗶𝗻𝗮𝗿 𝗲𝗹 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗼 𝗮𝗰𝗲𝗹𝗲𝗿𝗮𝗱𝗼 𝗰𝗼𝗻 𝘂𝗻 𝗳é𝗿𝗿𝗲𝗼 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗲𝘀𝘁𝗮𝘁𝗮𝗹. Un equilibrio que definirá el futuro de la IA global y sus aplicaciones.\n\n#China #XiJinping #InteligenciaArtificial #Regulación\n\nhttps://www.theregister.com/ai-and-ml/2026/07/20/chinese-president-xi-jinping-wants-emergency-response-systems-to-keep-ai-in-check/5274687"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "industria",
+      "title": "Apple demanda a OpenAI por secretos comerciales y amenaza sus planes de hardware",
+      "summary": "Apple ha presentado una demanda contra OpenAI en la que acusa a la compañía de orquestar la captación de empleados actuales y antiguos para obtener información confidencial. El litigio podría enturbiar los planes de OpenAI para lanzar dispositivos propios y su posible salida a bolsa.",
+      "why_it_matters": "La batalla legal entre dos gigantes tecnológicos refleja la creciente tensión por el talento y la propiedad intelectual en la industria de la IA.",
+      "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Si OpenAI quería lanzar sus propios dispositivos, Apple acaba de ponerle una demanda en el camino.\n\n#Apple #OpenAI #PropiedadIntelectual #Hardware\nhttps://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans",
+        "linkedin": "La guerra por el talento en IA acaba de llegar a los tribunales, y la demanda de Apple contra OpenAI podría tener consecuencias más allá del robo de secretos.\n\nLa compañía de Cupertino acusa a OpenAI de orquestar la captación de empleados actuales y antiguos para acceder a información confidencial. 𝗘𝗹 𝗹𝗶𝘁𝗶𝗴𝗶𝗼 𝗮𝗺𝗲𝗻𝗮𝘇𝗮 𝗹𝗼𝘀 𝗽𝗹𝗮𝗻𝗲𝘀 𝗱𝗲 𝗢𝗽𝗲𝗻𝗔𝗜 𝗽𝗮𝗿𝗮 𝗹𝗮𝗻𝘇𝗮𝗿 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗽𝗿𝗼𝗽𝗶𝗼 𝘆 𝘀𝘂 𝗽𝗼𝘀𝗶𝗯𝗹𝗲 𝘀𝗮𝗹𝗶𝗱𝗮 𝗮 𝗯𝗼𝗹𝘀𝗮, lo que demuestra que la propiedad intelectual es el nuevo campo de batalla en la industria.\n\n#Apple #OpenAI #PropiedadIntelectual #Hardware\n\nhttps://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Los auditores británicos piden al Gobierno que calcule bien antes de confiar en 45.000 millones de ahorro con IA",
+      "summary": "La National Audit Office del Reino Unido ha instado a los responsables públicos a incluir el impacto de la IA en la planificación de plantilla a largo plazo. El informe señala que los departamentos aún no han determinado cómo la tecnología afectará al tamaño, los roles y las competencias del personal.",
+      "why_it_matters": "Pone en duda las cifras oficiales de ahorro con IA y exige una planificación realista para evitar recortes de personal mal gestionados.",
+      "url": "https://www.theregister.com/public-sector/2026/07/20/auditors-tell-uk-government-to-do-the-math-before-banking-on-45b-ai-savings/5274194",
+      "source": "The Register",
+      "social": {
+        "x": "Antes de recortar 45.000 millones con IA, el Reino Unido debería calcular el impacto real sobre el empleo. La National Audit Office avisa: los departamentos aún no saben cómo cambiará la plantilla.\nhttps://www.theregister.com/public-sector/2026/07/20/auditors-tell-uk-government-to-do-the-math-before-banking-on-45b-ai-savings/5274194",
+        "linkedin": "Las promesas de ahorro con IA en el sector público chocan con una realidad incómoda: sin una planificación de plantilla rigurosa, los números son solo especulación.\n\nLa National Audit Office del Reino Unido ha pedido al Gobierno que incluya el impacto de la IA en su estrategia de personal a largo plazo. Los departamentos aún no han evaluado cómo cambiarán el tamaño, los roles y las competencias de los funcionarios. 𝗘𝘅𝗶𝗴𝗶𝗿 𝗽𝗹𝗮𝗻𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗿𝗲𝗰𝗼𝗿𝘁𝗮𝗿 𝟰𝟱.𝟬𝟬𝟬 𝗺𝗶𝗹𝗹𝗼𝗻𝗲𝘀 no es solo prudencia: es evitar servicios rotos y una gestión traumática del empleo.\n\n#ReinoUnido #NationalAuditOffice #Automatización #GobiernoDigital\n\nhttps://www.theregister.com/public-sector/2026/07/20/auditors-tell-uk-government-to-do-the-math-before-banking-on-45b-ai-savings/5274194"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "El primer cohete privado de la India alcanza la órbita en un debut espectacular",
+      "summary": "La startup india ha logrado poner en órbita su vehículo en el primer intento, un éxito calificado de histórico por los observadores. El lanzamiento demuestra la madurez de la incipiente industria aeroespacial privada del país.",
+      "why_it_matters": "Abre una nueva era para el programa espacial indio y posiciona al sector privado como un actor competitivo a nivel mundial.",
+      "url": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch",
+      "source": "Ars Technica",
+      "social": {
+        "x": "🚀 A la primera. El primer cohete privado de la India acaba de alcanzar la órbita. Y no es una agencia estatal: es una startup. La industria aeroespacial india entra en una nueva era.\n\n#NewSpace #Aeroespacial #India #Startups\nhttps://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch",
+        "linkedin": "Pocas cosas en la industria aeroespacial salen bien a la primera.\n\nLa startup india ha logrado poner en órbita su cohete en el vuelo inaugural, un éxito que muchos califican de histórico. Demuestra la madurez del sector privado espacial indio y lo posiciona como 𝘂𝗻 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝗱𝗼𝗿 𝗴𝗹𝗼𝗯𝗮𝗹 𝘀𝗲𝗿𝗶𝗼. Para las empresas del sector, es una señal de que la carrera espacial ya no es solo cosa de agencias gubernamentales.\n\n#NewSpace #Aeroespacial #India #Startups\n\nhttps://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Aplicaciones para soldados de EE UU incluyen código de China y Rusia",
+      "summary": "Un análisis de Wired revela que más del 12 % de las aplicaciones dirigidas a miembros de las fuerzas armadas estadounidenses contienen código desarrollado por empresas de países considerados adversarios por el Pentágono. El hallazgo plantea graves riesgos de seguridad y espionaje en dispositivos utilizados por tropas.",
+      "why_it_matters": "Evidencia una brecha de ciberseguridad en el ecosistema móvil militar que podría comprometer datos sensibles y operaciones.",
+      "url": "https://www.wired.com/story/apps-marketed-to-us-troops-are-shipping-chinese-and-russian-code",
+      "source": "Wired",
+      "social": {
+        "x": "Más del 12% de las aplicaciones para soldados de EE UU contienen código desarrollado por empresas de China y Rusia. Un riesgo de espionaje que el Pentágono no ha resuelto.\n\n#Ciberseguridad #AppsMilitares #China #Rusia\nhttps://www.wired.com/story/apps-marketed-to-us-troops-are-shipping-chinese-and-russian-code",
+        "linkedin": "Un análisis de Wired destapa que más del 12 % de las aplicaciones dirigidas a las fuerzas armadas de EE UU contienen código desarrollado por empresas de China y Rusia.\nEste dato evidencia una brecha de ciberseguridad crítica: 𝗮𝗽𝗹𝗶𝗰𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗾𝘂𝗲 𝗺𝗮𝗻𝗲𝗷𝗮𝗻 𝗱𝗮𝘁𝗼𝘀 𝘀𝗲𝗻𝘀𝗶𝗯𝗹𝗲𝘀 𝘆 𝗮𝗽𝗼𝘆𝗮𝗻 𝗼𝗽𝗲𝗿𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗺𝗶𝗹𝗶𝘁𝗮𝗿𝗲𝘀 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗻 𝗰ó𝗱𝗶𝗴𝗼 𝗱𝗲 𝗮𝗱𝘃𝗲𝗿𝘀𝗮𝗿𝗶𝗼𝘀, lo que abre la puerta a espionaje y sabotaje. El ecosistema móvil militar, a menudo fuera del radar de los equipos de seguridad tradicionales, necesita una revisión urgente de su cadena de suministro de software.\n\n#Ciberseguridad #AppsMilitares #China #Rusia\n\nhttps://www.wired.com/story/apps-marketed-to-us-troops-are-shipping-chinese-and-russian-code"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Airbus emprende el vuelo desde AWS hacia la nube europea de Scaleway",
+      "summary": "El gigante aeroespacial europeo ha seleccionado al proveedor francés Scaleway para migrar unas 900 aplicaciones, empezando por 70 prioritarias, en un movimiento estratégico para mantener los datos críticos bajo jurisdicción europea. La decisión responde a la preocupación por el acceso de las autoridades estadounidenses a la información alojada en plataformas norteamericanas.",
+      "why_it_matters": "Ilustra una tendencia creciente hacia la soberanía digital europea en sectores estratégicos, impulsada por desconfianza hacia las leyes de vigilancia de EE UU.",
+      "url": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
+      "source": "The Register",
+      "social": {
+        "x": "¿Por qué Airbus saca sus apps críticas de AWS? No es el precio. Es quién puede acceder a tus datos.\n\n#Airbus #Scaleway #AWS #SoberaníaDigital\nhttps://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109",
+        "linkedin": "Airbus está sacando sus aplicaciones críticas de AWS. El motivo no es económico ni técnico: es la soberanía de los datos.\n\nEl gigante aeroespacial ha seleccionado al proveedor francés Scaleway para migrar unas 900 aplicaciones. 𝟳𝟬 𝗱𝗲 𝗲𝗹𝗹𝗮𝘀 𝘀𝗼𝗻 𝗽𝗿𝗶𝗼𝗿𝗶𝘁𝗮𝗿𝗶𝗮𝘀 𝘆 𝗺𝗮𝗻𝗲𝗷𝗮𝗻 𝗱𝗮𝘁𝗼𝘀 𝘀𝗲𝗻𝘀𝗶𝗯𝗹𝗲𝘀 𝗾𝘂𝗲 𝗻𝗼 𝗽𝘂𝗲𝗱𝗲𝗻 𝗲𝘀𝘁𝗮𝗿 𝗲𝘅𝗽𝘂𝗲𝘀𝘁𝗼𝘀 𝗮 𝗹𝗲𝘆𝗲𝘀 𝗱𝗲 𝘃𝗶𝗴𝗶𝗹𝗮𝗻𝗰𝗶𝗮 𝗲𝘅𝘁𝗿𝗮𝗻𝗷𝗲𝗿𝗮𝘀. Esto no es un caso aislado: la tendencia hacia la nube soberana en Europa crece, y cada vez más sectores estratégicos están revisando dónde alojan su información.\n\n#Airbus #Scaleway #AWS #SoberaníaDigital\n\nhttps://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "lanzamientos",
+      "title": "Red Hat lanza configuración de dos servidores para reducir costes en el edge",
+      "summary": "Red Hat ha presentado una arquitectura de alta disponibilidad para OpenShift que funciona con solo dos nodos, eliminando la necesidad de un tercer servidor. La propuesta responde a las quejas de los clientes sobre el coste prohibitivo de mantener y alimentar hardware en entornos periféricos.",
+      "why_it_matters": "Facilita el despliegue de Kubernetes en ubicaciones remotas y con presupuestos ajustados, democratizando la computación en el borde.",
+      "url": "https://www.theregister.com/systems/2026/07/20/high-hardware-costs-see-red-hat-offer-a-two-server-edge-rig-no-mini-pc-required/5274762",
+      "source": "The Register",
+      "social": {
+        "x": "Red Hat acaba de bajar la factura del edge: el nuevo OpenShift funciona con solo dos nodos.\n\n#RedHat #OpenShift #EdgeComputing #Kubernetes\nhttps://www.theregister.com/systems/2026/07/20/high-hardware-costs-see-red-hat-offer-a-two-server-edge-rig-no-mini-pc-required/5274762",
+        "linkedin": "Muchas empresas renunciaban a Kubernetes en el edge por el coste del hardware. Red Hat acaba de tumbar esa barrera.\n\nLa nueva configuración de alta disponibilidad para OpenShift funciona con solo dos servidores, eliminando la necesidad del tercero. Esto reduce el coste, el consumo y la complejidad en ubicaciones remotas. 𝗟𝗮 𝗮𝗹𝘁𝗮 𝗱𝗶𝘀𝗽𝗼𝗻𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝘆𝗮 𝗻𝗼 𝗲𝘅𝗶𝗴𝗲 𝘁𝗿𝗲𝘀 𝗻𝗼𝗱𝗼𝘀, lo que democratiza el despliegue en el edge y abre la puerta a sectores con presupuestos ajustados.\n\n#RedHat #OpenShift #EdgeComputing #Kubernetes\n\nhttps://www.theregister.com/systems/2026/07/20/high-hardware-costs-see-red-hat-offer-a-two-server-edge-rig-no-mini-pc-required/5274762"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "herramientas",
+      "title": "JSON5E: un parser de JSON5 para humanos en C",
+      "summary": "Se publica libpdjson5, una biblioteca ligera en C que implementa JSON5E, una extensión del formato JSON5 diseñada para ser más legible y editable por personas. La herramienta funciona como un parser de flujo (pull parser) e incluye soporte para comentarios y comodidades sintácticas.",
+      "why_it_matters": "Ofrece a los desarrolladores de sistemas una alternativa más amigable al JSON tradicional sin perder las ventajas del manejo manual de configuración.",
+      "url": "https://github.com/boris-kolpackov/libpdjson5/blob/master/JSON5E.md",
+      "source": "Lobsters",
+      "social": {
+        "x": "Si editar JSON a mano te resulta un fastidio, JSON5E te permite añadir comentarios y usar comas finales. Ahora un parser ligero en C lo hace accesible para tus herramientas de sistemas.\n\n#JSON #C #OpenSource #devtools\nhttps://github.com/boris-kolpackov/libpdjson5/blob/master/JSON5E.md",
+        "linkedin": "¿JSON sin comentarios ni comas finales? En entornos donde la configuración la tocan personas, ese formato se queda corto.\n\nJSON5E resuelve ese desfase: permite añadir comentarios, comas finales y otras facilidades. Y ahora la librería libpdjson5, un parser de flujo en C, 𝗹𝗼 𝗽𝗼𝗻𝗲 𝗮𝗹 𝗮𝗹𝗰𝗮𝗻𝗰𝗲 𝗱𝗲 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗱𝗲 𝘀𝗶𝘀𝘁𝗲𝗺𝗮𝘀. Menos fricción al editar configs, mismo control que con JSON estándar.\n\n#JSON #C #OpenSource #devtools\n\nhttps://github.com/boris-kolpackov/libpdjson5/blob/master/JSON5E.md"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "herramientas",
+      "title": "CI minimalista con Git usando hooks",
+      "summary": "Un desarrollador comparte un sistema de integración continua ultraligero que se apoya únicamente en los hooks de Git. La solución, pensada para servidores personales, evita la complejidad de las plataformas CI modernas y permite ejecutar tests y despliegues con un par de scripts.",
+      "why_it_matters": "Demuestra que para proyectos pequeños se puede prescindir de herramientas pesadas y recuperar el control sobre el pipeline de desarrollo.",
+      "url": "https://mccd.space/posts/26-06-29/simple-git-ci",
+      "source": "Lobsters",
+      "social": {
+        "x": "Tests, despliegues y nada más: este pipeline usa solo los hooks de Git y funciona en un servidor personal.\n\n#Git #CI #SelfHosted\nhttps://mccd.space/posts/26-06-29/simple-git-ci",
+        "linkedin": "¿Cansado de la complejidad de las plataformas de CI?\n\nUn desarrollador ha compartido un sistema de integración continua ultraligero que se apoya únicamente en los hooks de Git. Pensado para servidores personales, evita la sobrecarga de herramientas como Jenkins o GitHub Actions y permite ejecutar tests y despliegues con un par de scripts. La lección: para proyectos pequeños, 𝗿𝗲𝗰𝘂𝗽𝗲𝗿𝗮𝗿 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲𝗹 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝗻𝗼 𝗱𝗲𝗯𝗲𝗿í𝗮 𝗿𝗲𝗾𝘂𝗲𝗿𝗶𝗿 𝘂𝗻𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗽𝗲𝘀𝗮𝗱𝗮.\n\n#Git #CI #SelfHosted\n\nhttps://mccd.space/posts/26-06-29/simple-git-ci"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "herramientas",
+      "title": "Cagire, un secuenciador de live coding basado en Forth",
+      "summary": "Cagire es un secuenciador por pasos donde cada paso ejecuta un script en Forth, permitiendo generación de sonido, samples y efectos en tiempo real. La herramienta, que funciona en la terminal, incluye su propio motor de audio (Doux) y soporte para MIDI y OSC.",
+      "why_it_matters": "Fusiona la programación creativa y la síntesis musical en un entorno compacto y auto-contenido, ideal para actuaciones y experimentación sonora.",
+      "url": "https://cagire.raphaelforment.fr",
+      "source": "Lobsters",
+      "social": {
+        "x": "Ejecutar Forth en cada paso de un secuenciador y que suene: Cagire es un nuevo entorno de live coding en la terminal con síntesis, samples, MIDI y OSC.\n\n#Forth #LiveCoding #MIDI #OSC\nhttps://cagire.raphaelforment.fr",
+        "linkedin": "Cagire demuestra que la terminal todavía es terreno fértil para la creación musical: un secuenciador por pasos donde cada paso es un script Forth capaz de generar sonido, samples y efectos en tiempo real.\n\nIncluye su propio motor de audio (Doux) y habla MIDI y OSC, lo que lo convierte en una herramienta autocontenida para directos y experimentación. 𝗟𝗮 𝗳𝘂𝘀𝗶ó𝗻 𝗱𝗲 𝗹𝗶𝘃𝗲 𝗰𝗼𝗱𝗶𝗻𝗴 𝘆 𝘀í𝗻𝘁𝗲𝘀𝗶𝘀 𝗲𝗻 𝘂𝗻 𝗲𝗻𝘁𝗼𝗿𝗻𝗼 𝘁𝗮𝗻 𝗹𝗶𝗴𝗲𝗿𝗼 replantea lo que puede ser un instrumento digital para actuaciones en vivo.\n\n#Forth #LiveCoding #MIDI #OSC\n\nhttps://cagire.raphaelforment.fr"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "Estudio de voz con IA de código abierto que permite clonar, dictar y crear voces, ideal para desarrolladores que quieran integrar síntesis de voz en sus proyectos.",
+      "language": "TypeScript",
+      "stars": 43747
+    },
+    {
+      "name": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "description": "Herramientas open source para escalar el uso de agentes de IA que manejan ordenadores, con flotas multiplataforma y benchmarks para entrenamiento y evaluación.",
+      "language": "HTML",
+      "stars": 20328
+    },
+    {
+      "name": "MoonshotAI/kimi-cli",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "description": "CLI agente de IA que permite ejecutar tareas de código directamente desde la terminal, desarrollado por Moonshot AI.",
+      "language": "Python",
+      "stars": 10043
+    },
+    {
+      "name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "Inferencia de modelos de lenguaje de 70B con una sola GPU de 4GB, optimización práctica para desplegar LLMs en hardware limitado.",
+      "language": "Jupyter Notebook",
+      "stars": 23775
+    },
+    {
+      "name": "KnockOutEZ/wigolo",
+      "url": "https://github.com/KnockOutEZ/wigolo",
+      "description": "Herramienta web local-first para agentes de codificación con IA que busca, rastrea e investiga sin APIs externas ni coste por consulta.",
+      "language": "TypeScript",
+      "stars": 2170
+    }
+  ]
+}
