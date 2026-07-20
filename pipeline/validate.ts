@@ -18,6 +18,26 @@ export interface ValidationResult {
 }
 
 /**
+ * Descarta los ítems cuya `url` no provenga de la entrada. El LLM a veces
+ * incluye un enlace que no copió literalmente (p. ej. la URL de destino de un
+ * agregador en vez del permalink recogido); preferimos perder ese ítem a
+ * abortar la edición entera. Muta `digest.items` y devuelve cuántos quitó.
+ * Los ítems sin `url` de tipo string se conservan para que el schema los juzgue.
+ */
+export function dropInventedUrlItems(digest: unknown, inputUrls: Set<string>): number {
+  if (!digest || typeof digest !== "object") return 0;
+  const d = digest as { items?: unknown };
+  const items = d.items;
+  if (!Array.isArray(items)) return 0;
+  const kept = items.filter((it) => {
+    const url = (it as { url?: unknown } | null)?.url;
+    return !(typeof url === "string" && !inputUrls.has(url));
+  });
+  d.items = kept;
+  return items.length - kept.length;
+}
+
+/**
  * Valida un digest contra el JSON Schema (Ajv) y aplica la comprobación extra
  * fuera del schema: cada `url` del digest debe existir en las URLs de entrada
  * (el LLM elige, nunca inventa).

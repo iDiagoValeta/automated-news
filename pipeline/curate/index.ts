@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { log, warn } from "../log.ts";
-import { validateDigest } from "../validate.ts";
+import { dropInventedUrlItems, validateDigest } from "../validate.ts";
 import type { Digest, NewsItem, ProviderName, RepoRaw } from "../types.ts";
 import { deepseekProvider } from "./deepseek.ts";
 import { claudeCodeProvider } from "./claude-code.ts";
@@ -73,6 +73,13 @@ export async function curate(items: NewsItem[], meta: CurateMeta, repos?: ReposI
     }
 
     const digest = coerceMeta(parsed, meta);
+    // Un ítem con URL que el LLM no copió de la entrada no debe tumbar toda la
+    // edición: se descarta y se sigue con el resto (si tras ello faltan ítems,
+    // el schema lo detecta y se reintenta como antes).
+    const dropped = dropInventedUrlItems(digest, inputUrls);
+    if (dropped > 0) {
+      warn(`Intento ${attempt}: descartados ${dropped} ítem(s) con URL fuera de la entrada.`);
+    }
     const result = validateDigest(digest, inputUrls);
     if (result.ok) {
       const valid = digest as Digest;

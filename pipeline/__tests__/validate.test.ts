@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { validateDigest } from "../validate.ts";
+import { dropInventedUrlItems, validateDigest } from "../validate.ts";
 import type { Digest, DigestItem } from "../types.ts";
 
 const INPUT_URLS = new Set(
@@ -54,6 +54,26 @@ test("URL inventada (no en la entrada) falla", () => {
   const r = validateDigest(digest(items), INPUT_URLS);
   assert.equal(r.ok, false);
   assert.ok(r.errors.some((e) => e.includes("inventada.com")));
+});
+
+test("dropInventedUrlItems descarta las URL inventadas y conserva el resto", () => {
+  const items = [1, 2, 3, 4, 5, 6, 7].map((i) => digestItem(i));
+  items[2] = digestItem(3, { url: "https://inventada.com/x" });
+  const d = digest(items);
+  const dropped = dropInventedUrlItems(d, INPUT_URLS);
+  assert.equal(dropped, 1);
+  assert.equal(d.items.length, 6);
+  const r = validateDigest(d, INPUT_URLS);
+  assert.ok(r.ok, r.errors.join("; "));
+});
+
+test("dropInventedUrlItems conserva ítems sin url string (los juzga el schema)", () => {
+  const items = [1, 2, 3, 4, 5, 6].map((i) => digestItem(i));
+  delete (items[0] as Partial<DigestItem>).url;
+  const d = digest(items);
+  const dropped = dropInventedUrlItems(d, INPUT_URLS);
+  assert.equal(dropped, 0);
+  assert.equal(d.items.length, 6);
 });
 
 test("ranks repetidos falla", () => {
