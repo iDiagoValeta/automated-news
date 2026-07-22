@@ -5,7 +5,7 @@ import { dropInventedUrlItems, validateDigest } from "../validate.ts";
 import type { Digest, NewsItem, ProviderName, RepoRaw } from "../types.ts";
 import { deepseekProvider } from "./deepseek.ts";
 import { claudeCodeProvider } from "./claude-code.ts";
-import { attachSocial } from "./social.ts";
+import { attachRepoSocial, attachSocial } from "./social.ts";
 import { attachRepos } from "./repos.ts";
 
 /** Repos en tendencia y cuántos elegir; se resuelven fuera (best effort). */
@@ -87,6 +87,7 @@ export async function curate(items: NewsItem[], meta: CurateMeta, repos?: ReposI
       await attachSocial(provider, valid);
       if (repos && repos.trending.length > 0) {
         await attachRepos(provider, valid, repos.trending, repos.pick);
+        await attachRepoSocial(provider, valid);
       }
       return valid;
     }

@@ -87,7 +87,16 @@
           "url": { "type": "string", "format": "uri", "pattern": "^https?://" },
           "description": { "type": "string", "minLength": 1, "maxLength": 400 },
           "language": { "type": "string" },
-          "stars": { "type": "integer", "minimum": 0 }
+          "stars": { "type": "integer", "minimum": 0 },
+          "social": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["x", "linkedin"],
+            "properties": {
+              "x": { "type": "string", "minLength": 1 },
+              "linkedin": { "type": "string", "minLength": 1 }
+            }
+          }
         }
       }
     }

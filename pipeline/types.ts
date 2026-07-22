@@ -42,6 +42,8 @@ export interface Repo {
   description: string;
   language?: string;
   stars?: number;
+  /** Posts listos para publicar; se rellenan tras la curación de repos. */
+  social?: SocialPosts;
 }
 
 export type ProviderName = "deepseek" | "claude-code";

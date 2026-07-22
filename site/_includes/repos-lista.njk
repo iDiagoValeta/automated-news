@@ -1,11 +1,15 @@
 {# Lista de repositorios hot. Espera `repos` (array) y `fecha` (YYYY-MM-DD). #}
+{% from "share.njk" import share %}
 <section class="repos" aria-label="Repositorios hot">
   <div class="repos__grid">
     {% for repo in repos %}
     <article class="repo">
-      <h3 class="repo__name">
-        <a href="{{ repo.url }}" target="_blank" rel="noopener">{{ repo.name }}</a>
-      </h3>
+      <div class="repo__head">
+        <h3 class="repo__name">
+          <a href="{{ repo.url }}" target="_blank" rel="noopener">{{ repo.name }}</a>
+        </h3>
+        {{ share(repo.social) }}
+      </div>
       <p class="repo__desc">{{ repo.description }}</p>
       <p class="repo__meta">
         {% if repo.language %}<span class="repo__lang">{{ repo.language }}</span>{% endif %}

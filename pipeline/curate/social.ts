@@ -1,13 +1,14 @@
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { log, warn } from "../log.ts";
-import type { Digest } from "../types.ts";
+import type { Digest, Repo } from "../types.ts";
 import type { Provider } from "./index.ts";
 
 const SOCIAL_PROMPT_PATH = fileURLToPath(new URL("../../prompts/social.md", import.meta.url));
+const REPOS_SOCIAL_PROMPT_PATH = fileURLToPath(new URL("../../prompts/repos-social.md", import.meta.url));
 const X_LIMIT = 280;
 const URL_WEIGHT = 23; // X cuenta cualquier enlace como 23 caracteres (t.co).
-const POOL = 5; // Llamadas al modelo en paralelo (una por noticia).
+const POOL = 5; // Llamadas al modelo en paralelo (una por noticia / repo).
 
 /** Convierte ASCII (letras y dígitos) a su variante Unicode "sans-serif bold". */
 export function boldSans(input: string): string {
@@ -81,6 +82,23 @@ function buildSocialPrompt(item: Digest["items"][number]): string {
   );
 }
 
+function buildRepoSocialPrompt(repo: Repo): string {
+  const meta = [
+    repo.language ? `Lenguaje: ${repo.language}` : "",
+    repo.stars !== undefined ? `Estrellas: ${repo.stars}` : "",
+  ]
+    .filter(Boolean)
+    .join("\n");
+  return (
+    `Repositorio:\n` +
+    `Nombre: ${repo.name}\n` +
+    `Descripción: ${repo.description}\n` +
+    (meta ? `${meta}\n` : "") +
+    `URL: ${repo.url}\n\n` +
+    `Redacta los posts para X y LinkedIn siguiendo las instrucciones.`
+  );
+}
+
 /** Aplica `fn` a cada elemento en lotes de tamaño `limit` (concurrencia acotada). */
 async function mapPool<T>(items: T[], limit: number, fn: (item: T) => Promise<void>): Promise<void> {
   for (let i = 0; i < items.length; i += limit) {
@@ -124,4 +142,35 @@ export async function attachSocial(provider: Provider, digest: Digest): Promise<
   });
 
   log(`Posts sociales: generados para ${count}/${digest.items.length} noticias.`);
+}
+
+/**
+ * Llamadas al modelo (best effort), una por repo y en paralelo acotado.
+ * Rellena `repo.social`; si un repo falla se omite sin afectar a los demás.
+ */
+export async function attachRepoSocial(provider: Provider, digest: Digest): Promise<void> {
+  const repos = digest.repos;
+  if (!repos || repos.length === 0) return;
+
+  const system = readFileSync(REPOS_SOCIAL_PROMPT_PATH, "utf8");
+  let count = 0;
+
+  await mapPool(repos, POOL, async (repo) => {
+    try {
+      const raw = await provider.generate(system, buildRepoSocialPrompt(repo));
+      const p = JSON.parse(stripFences(raw)) as SocialPost;
+      const hashtags = cleanHashtags(p.hashtags);
+      const hookX = (typeof p.hook_x === "string" ? p.hook_x : repo.description).trim();
+      const hookLi = (typeof p.hook_linkedin === "string" ? p.hook_linkedin : repo.description).trim();
+      repo.social = {
+        x: assembleX(hookX, hashtags, repo.url),
+        linkedin: assembleLinkedIn(hookLi, hashtags, repo.url),
+      };
+      count++;
+    } catch (e) {
+      warn(`Posts sociales (repo): falló ${repo.name}; se omite.`, String(e));
+    }
+  });
+
+  log(`Posts sociales (repos): generados para ${count}/${repos.length} repositorios.`);
 }

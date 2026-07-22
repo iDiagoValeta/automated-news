@@ -52,3 +52,15 @@ test("assembleLinkedIn abre con el gancho, pone en negrita lo marcado y añade h
   assert.ok(post.includes("#Tech"));
   assert.ok(post.endsWith(URL));
 });
+
+test("assembleX con URL de GitHub respeta el peso t.co de 23", () => {
+  const gh = "https://github.com/opencut-app/OpenCut";
+  const xWeightGh = (post: string) => cp(post) - cp(gh) + 23;
+  const post = assembleX(
+    "Crearon un CapCut gratis y sin marcas de agua. Ya suma decenas de miles de estrellas.",
+    ["#OpenCut", "#OpenSource"],
+    gh,
+  );
+  assert.ok(post.endsWith(gh));
+  assert.ok(xWeightGh(post) <= 280, `peso ${xWeightGh(post)} debe ser <= 280`);
+});
