@@ -7,6 +7,7 @@ import { normalize } from "./normalize.ts";
 import { enrich } from "./enrich.ts";
 import { curate, providerCredentialPresent, resolveProviderName } from "./curate/index.ts";
 import type { ReposInput } from "./curate/index.ts";
+import { excludeRecentRepos, loadRecentRepoNames } from "./curate/repos.ts";
 import { error, log } from "./log.ts";
 
 /** Fecha de la edición en zona Europe/Madrid, formato YYYY-MM-DD. */
@@ -73,11 +74,17 @@ async function main(): Promise<void> {
   await enrich(items, cfg);
 
   // Repos en tendencia de GitHub para la sección "Repositorios hot" (best effort).
+  // Se excluyen los publicados en los 7 días previos para no repetir entre ediciones.
   let repos: ReposInput | undefined;
   if (cfg.github_trending.enabled) {
     const trending = await collectGithubTrending(cfg, cfg.github_trending);
-    log(`GitHub trending: ${trending.length} repos recogidos.`);
-    repos = { trending, pick: cfg.github_trending.pick };
+    const recent = loadRecentRepoNames(dataDir, date);
+    const fresh = excludeRecentRepos(trending, recent);
+    log(
+      `GitHub trending: ${trending.length} recogidos, ${fresh.length} tras excluir ` +
+        `${trending.length - fresh.length} ya publicados en los últimos 7 días.`,
+    );
+    repos = { trending: fresh, pick: cfg.github_trending.pick };
   }
 
   const digest = await curate(items, { date, generated_at: generatedAt, provider }, repos);
