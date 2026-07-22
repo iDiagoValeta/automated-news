@@ -1,5 +1,5 @@
 {
-  "user_agent": "DiarioIA/1.0 (+https://github.com/iDiagoValeta/automated-news)",
+  "user_agent": "LaTerminal/1.0 (+https://github.com/iDiagoValeta/automated-news)",
   "timeout_ms": 10000,
   "window_hours": 24,
   "candidate_cap": 200,

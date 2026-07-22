@@ -18,8 +18,9 @@ flowchart TD
     F --> G{Validación Ajv + URLs}
     G -- falla --> F
     G -- ok --> H[5. Posts sociales LLM, 1 por noticia]
-    H --> I[6. Repos hot: trending + LLM]
-    I --> J[Escribir data/YYYY-MM-DD.json]
+    H --> I[6. Repos hot: filtro 7 días + LLM]
+    I --> S[7. Posts sociales de repos]
+    S --> J[Escribir data/YYYY-MM-DD.json]
     J --> K[Eleventy build]
     K --> L[Commit de data/ + deploy en Pages]
     C -. paralelo .-> R[GitHub trending]
@@ -30,9 +31,9 @@ flowchart TD
 
 Fichero: `.github/workflows/daily.yml`.
 
-- **Crons.** GitHub solo entiende UTC, y España cambia de hora, así que se disparan dos veces: `9 7 * * *` (09:09 CEST en verano) y `9 8 * * *` (09:09 CET en invierno).
+- **Crons.** GitHub solo entiende UTC y puede retrasar u omitir ejecuciones cuando tiene carga. El workflow programa cinco intentos horarios, de `07:09` a `11:09` UTC; el guardián y la idempotencia hacen que solo el primero válido publique.
 - **Guardián de hora.** El paso `guard` calcula la hora en `Europe/Madrid` y solo deja continuar (`run=true`) si son las 09:00 o más. Un disparo manual (`workflow_dispatch`) se ejecuta sin comprobar la hora.
-- **Idempotencia.** El orquestador aborta pronto si ya existe `data/<hoy>.json` (ver paso 7). El commit de la edición solo se crea si hay cambios en `data/`, así que dos crons el mismo día no publican dos veces.
+- **Idempotencia.** El orquestador aborta pronto si ya existe `data/<hoy>.json` (ver la sección de curación). El commit de la edición solo se crea si hay cambios en `data/`, así que dos crons el mismo día no publican dos veces.
 - **Entrada manual `skip_pipeline`.** Reconstruye y despliega el sitio sin regenerar la edición (salta el paso del pipeline y va directo al build).
 - **Permisos y concurrencia.** El job pide `contents: write`, `pages: write`, `id-token: write` e `issues: write`, y usa un grupo de `concurrency` para no solaparse consigo mismo. Si algún paso falla, un paso final abre un issue con enlace al run.
 
@@ -50,7 +51,7 @@ Ficheros: `config/sources.json` y `pipeline/config.ts`.
 | `timeout_ms`, `enrich_timeout_ms` | Timeouts de red. |
 | `user_agent` | User-Agent identificable en todas las peticiones. |
 
-Cada fuente RSS tiene `enabled` y `fragile` (una fuente frágil que falla se ignora sin contar como incidencia). Los bloques `hackernews`, `huggingface_trending` (desactivado) y `github_trending` configuran las fuentes que no son RSS.
+Cada fuente RSS tiene `enabled` y `fragile`. Una fuente frágil que falla se registra con un aviso más suave y se omite, sin bloquear por sí sola la edición. Los bloques `hackernews`, `huggingface_trending` (desactivado) y `github_trending` configuran las fuentes que no son RSS.
 
 ## 4. Paso 1: Recogida
 
@@ -59,7 +60,7 @@ Ficheros: `pipeline/sources/index.ts` (orquestador), `pipeline/sources/rss.ts`, 
 `collectAll()` construye la lista de tareas a partir de las fuentes habilitadas y las ejecuta en paralelo con `Promise.allSettled`. Tolerancia a fallos:
 
 - Una fuente que falla se registra y se omite.
-- Solo se considera fatal si fallan **todas** (el orquestador aborta en ese caso, ver paso 7).
+- Solo se considera fatal si fallan **todas** (el orquestador aborta antes de curar).
 - Las fuentes marcadas `fragile` (por ejemplo el mirror no oficial de Anthropic) se registran con un aviso más suave.
 
 Cada fuente devuelve `NewsItem[]` normalizados al formato común `{ title, snippet, url, source, published_at, points?, content? }`. El XML se descarga con `fetchText` (User-Agent y timeout propios) y solo se parsea con `rss-parser`. Hacker News usa su API pública filtrando por `min_points` y por una lista de queries.
@@ -107,22 +108,23 @@ Si hay menos de 6 ítems normalizados, se aborta sin publicar.
 
 ## 8. Paso 5: Posts sociales
 
-Ficheros: `pipeline/curate/social.ts`, `prompts/social.md`.
+Ficheros: `pipeline/curate/social.ts`, `prompts/social.md`, `prompts/repos-social.md`.
 
-Tras una curación válida, `attachSocial()` genera el texto para X y LinkedIn. Es **best effort**: si falla, la edición se publica sin posts.
+Tras una curación válida, `attachSocial()` genera el texto para X y LinkedIn de cada noticia. Después de seleccionar los repositorios, `attachRepoSocial()` hace lo mismo para cada repo con un prompt de tono más práctico y viral. Ambos procesos son **best effort**: si una llamada falla, la edición se publica sin ese post.
 
-- **Una llamada por noticia**, en paralelo acotado (lotes de 5, `mapPool`). El fallo es granular: si una noticia falla, las demás igual obtienen sus posts.
+- **Una llamada por noticia o repositorio**, en paralelo acotado (lotes de 5, `mapPool`). El fallo es granular: si un elemento falla, los demás igual obtienen sus posts.
 - El modelo devuelve, por noticia, `hook_x`, `hook_linkedin` y `hashtags`. El gancho va como primera línea (lo que frena el scroll).
 - **Ensamblado para X** (`assembleX`): texto plano (las letras Unicode en negrita cuentan doble en X). El gancho es el post; si no cabe en 280 contando la URL como 23, primero se sueltan los hashtags y luego se recorta el gancho.
 - **Ensamblado para LinkedIn** (`assembleLinkedIn`): sin límite práctico. El gancho abre y la idea clave marcada por el modelo con `**...**` se convierte a negrita Unicode (`applyBold`, `boldSans`), porque LinkedIn no renderiza markdown.
 
 ## 9. Paso 6: Repositorios hot
 
-Ficheros: `pipeline/sources/github.ts`, `prompts/repos.md`, `pipeline/curate/repos.ts`.
+Ficheros: `pipeline/sources/github.ts`, `prompts/repos.md`, `pipeline/curate/repos.ts`, `pipeline/index.ts`.
 
 Sección independiente de las noticias, también **best effort**.
 
 - **Recogida** (`collectGithubTrending`): intenta el scraping de `github.com/trending` (`parseTrending` extrae owner/repo, descripción, lenguaje y estrellas de cada `article.Box-row`). Si falla, cae a la Search API oficial (`created:>hace 7 días`, ordenado por estrellas), usando `GITHUB_TOKEN` si está disponible. Si todo falla, devuelve lista vacía y la sección no aparece.
+- **Ventana sin repeticiones**: antes de la curación, `loadRecentRepoNames()` lee los repos publicados en las siete ediciones naturales anteriores y `excludeRecentRepos()` los elimina de los candidatos. Un repositorio puede volver a aparecer a partir del octavo día.
 - **Selección y descripción** (`attachRepos`): una tercera llamada al modelo (prompt `prompts/repos.md`) que elige los repos más interesantes para el diario (IA y herramientas prácticas primero) y los describe en castellano. Los datos duros (nombre, URL, lenguaje, estrellas) se toman **siempre** del repo recogido, no de la respuesta del modelo; del modelo solo se usa la descripción. El resultado se guarda en `digest.repos`.
 
 ## 10. Paso 7: Render y publicación
@@ -142,7 +144,7 @@ Ficheros: `pipeline/index.ts`, `eleventy.config.mjs`, `site/_data/editions.js`, 
 Ficheros: `pipeline/curate/index.ts`, `pipeline/curate/deepseek.ts`, `pipeline/curate/claude-code.ts`.
 
 - **DeepSeek** (por defecto): endpoint compatible con el formato de OpenAI, JSON mode, `temperature` 0.3 y timeout amplio (v4-pro razona y puede tardar). Modelo configurable con `DEEPSEEK_MODEL`.
-- **claude-code** (fallback): invoca el CLI de Claude Code en modo headless vía suscripción. No probado end to end.
+- **claude-code** (alternativo): invoca el CLI de Claude Code en modo headless vía suscripción. No probado end to end.
 - La interfaz común es `Provider.generate(systemPrompt, userPrompt): Promise<string>`. `resolveProviderName()` elige según `LLM_PROVIDER`, y `providerCredentialPresent()` permite saltar sin fallar si no hay credencial.
 
 ## 12. Esquema de datos y tipos
@@ -168,9 +170,9 @@ El digest tiene `date`, `generated_at`, `provider`, un array `items` (de 6 a 20 
 ## 14. Ejecución local
 
 ```bash
-npm install
+npm ci
 npm run pipeline -- --collect-only   # imprime los ítems normalizados, sin llamar al modelo
-npm test                             # normalización, validación, parser de trending, ensamblado social
+npm test                             # normalización, validación, trending, deduplicación de repos y posts
 npm run typecheck                    # tsc --noEmit
 npm run build                        # genera _site/
 npm run dev                          # servidor local
@@ -179,17 +181,3 @@ npm run dev                          # servidor local
 export DEEPSEEK_API_KEY=sk-...       # PowerShell: $env:DEEPSEEK_API_KEY="sk-..."
 npm run pipeline                     # escribe data/<hoy>.json
 ```
-
-## 15. Previsto: resúmenes agrupados
-
-Está previsto complementar la edición diaria con resúmenes de mayor alcance que den contexto sobre la evolución del año, agrupando las ediciones ya publicadas: **semanales**, **mensuales** y **anuales**.
-
-Enfoque previsto (todavía sin implementar):
-
-- **Entrada.** Las ediciones diarias que ya existen en `data/YYYY-MM-DD.json` para el periodo correspondiente.
-- **Agrupación.** Seleccionar las ediciones de la semana, el mes o el año y reunir sus noticias como material de contexto.
-- **Síntesis.** Una pasada del modelo, con su propio prompt en `prompts/`, que destile los hitos y las tendencias del periodo en lugar de repetir noticia a noticia.
-- **Almacenamiento y validación.** Un JSON por resumen (por ejemplo `data/semanal/YYYY-Www.json`), validado contra un schema propio.
-- **Render.** Página y archivo propios, con su pestaña en la cabecera, siguiendo la misma estructura que las secciones de noticias y repositorios.
-
-Este documento se ampliará con el detalle real cuando la funcionalidad se implemente.

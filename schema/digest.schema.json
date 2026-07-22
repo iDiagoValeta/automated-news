@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://github.com/iDiagoValeta/automated-news/schema/digest.schema.json",
-  "title": "Digest diario del Diario IA",
+  "title": "Digest diario de La Terminal",
   "type": "object",
   "additionalProperties": false,
   "required": ["date", "generated_at", "provider", "items"],

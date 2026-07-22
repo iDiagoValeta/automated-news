@@ -1,7 +1,7 @@
 {
   "name": "automated-news",
   "version": "1.0.0",
-  "description": "Diario IA: agregador estatico de noticias de IA curadas en espanol, publicado a diario en GitHub Pages.",
+  "description": "La Terminal: actualidad tecnológica y repositorios open source, curados a diario en español.",
   "type": "module",
   "private": true,
   "engines": {
