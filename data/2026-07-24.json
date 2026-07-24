@@ -1,0 +1,324 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T09:28:19.787Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Flux 3: el nuevo modelo multimodal de Black Forest Labs ya está disponible en acceso anticipado",
+      "summary": "Flux 3 es un modelo fundacional que aprende conjuntamente de imágenes, vídeo y audio en una arquitectura unificada. Ahora disponible en acceso anticipado, busca convertirse en la columna vertebral de la inteligencia visual. Representa un salto hacia modelos del mundo real con capacidades multimodales.",
+      "why_it_matters": "Su enfoque unificado podría impulsar la próxima generación de aplicaciones de IA visual.",
+      "url": "https://bfl.ai/blog/flux-3",
+      "source": "Hacker News",
+      "social": {
+        "x": "El siguiente salto en IA visual no viene de donde esperabas. Flux 3 de Black Forest Labs ya está en acceso anticipado: un modelo fundacional que aprende de imagen, vídeo y audio de forma conjunta.\n\n#Flux3 #BlackForestLabs #Multimodal #ComputerVision\nhttps://bfl.ai/blog/flux-3",
+        "linkedin": "¿Qué pasa cuando un modelo aprende a la vez de imagen, vídeo y audio? Black Forest Labs tiene una respuesta: Flux 3, y ya está en acceso anticipado.\n\nEste modelo fundacional no es solo multimodal: aspira a ser la columna vertebral de la inteligencia visual. Su arquitectura unificada entrena conjuntamente sobre múltiples fuentes de datos, eliminando las costuras entre modalidades. 𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗵𝗮𝗰𝗲𝗿 𝗺á𝘀 𝗰𝗼𝘀𝗮𝘀, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗲𝗻𝘁𝗲𝗻𝗱𝗲𝗿𝗹𝗮𝘀 𝗱𝗲 𝗳𝗼𝗿𝗺𝗮 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗱𝗮 𝗱𝗲𝘀𝗱𝗲 𝗲𝗹 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗶𝗼.\n\n#Flux3 #BlackForestLabs #Multimodal #ComputerVision\n\nhttps://bfl.ai/blog/flux-3"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "OpenAI lanza ChatGPT Health para todos los usuarios en Estados Unidos",
+      "summary": "ChatGPT Health permite a los usuarios conectar sus historiales médicos y datos de seguimiento de salud con el chatbot. OpenAI afirma que sus modelos ahora razonan mejor que los médicos en ciertas tareas. La función se integra con servicios como Apple Health, Function y MyFitnessPal.",
+      "why_it_matters": "Abre la puerta a un uso generalizado de la IA como asistente de salud personal, aunque sus afirmaciones requerirán escrutinio.",
+      "url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Tu historial médico, tus pasos y tus comidas: ahora ChatGPT lo sabe todo y te responde como un médico. Pero, ¿deberías confiar?\n\n#OpenAI #ChatGPT #SaludDigital #AppleHealth\nhttps://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users",
+        "linkedin": "OpenAI lanza ChatGPT Health para todos en Estados Unidos: conecta tu historial médico, Apple Health o MyFitnessPal y obtén respuestas que, según la compañía, superan el razonamiento de un médico.\n\n𝗟𝗮 𝗜𝗔 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗲𝗹 𝗰𝗼𝗽𝗶𝗹𝗼𝘁𝗼 𝗱𝗲 𝘁𝘂 𝘀𝗮𝗹𝘂𝗱, pero estas afirmaciones necesitarán validación clínica. El acceso abierto a este tipo de asistente marca un antes y un después para el sector.\n\n#OpenAI #ChatGPT #SaludDigital #AppleHealth\n\nhttps://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Google amplía el acceso a Gemini Spark, su asistente de IA agente",
+      "summary": "Gemini Spark, el asistente agente presentado en el último I/O, ahora está disponible para más usuarios de Google AI Pro y Ultra en EE. UU. y globalmente. Aún no llega a los usuarios gratuitos, pero la expansión indica un despliegue más amplio de capacidades autónomas.",
+      "why_it_matters": "La IA agéntica comienza a estar disponible para el público general, acercando la automatización de tareas complejas.",
+      "url": "https://www.engadget.com/2222303/google-expanding-access-gemini-spark",
+      "source": "Engadget",
+      "social": {
+        "x": "Primero fue una demo en el I/O. Ahora, Gemini Spark, el asistente autónomo de Google, llega a más usuarios de pago.\n\n#Google #GeminiSpark #Agentic\nhttps://www.engadget.com/2222303/google-expanding-access-gemini-spark",
+        "linkedin": "La IA agéntica empieza a salir de los laboratorios y se acerca al usuario de a pie. \nGoogle está ampliando el acceso a Gemini Spark, su asistente que ejecuta tareas de forma autónoma, a más suscriptores de pago en EE.UU. y a escala global. 𝗟𝗮 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝘁𝗮𝗿𝗲𝗮𝘀 𝗰𝗼𝗺𝗽𝗹𝗲𝗷𝗮𝘀 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘂𝗻𝗮 𝗽𝗿𝗼𝗺𝗲𝘀𝗮 𝗮 𝗳𝘂𝘁𝘂𝗿𝗼, 𝘀𝗶𝗻𝗼 𝘂𝗻𝗮 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱 𝗾𝘂𝗲 𝗲𝗺𝗽𝗶𝗲𝘇𝗮 𝗮 𝗲𝘀𝘁𝗮𝗿 𝗱𝗶𝘀𝗽𝗼𝗻𝗶𝗯𝗹𝗲 𝗽𝗮𝗿𝗮 𝘂𝗻𝗮 𝗯𝗮𝘀𝗲 𝗮𝗺𝗽𝗹𝗶𝗮 𝗱𝗲 𝘂𝘀𝘂𝗮𝗿𝗶𝗼𝘀. Para equipos y profesionales, significa que la experimentación con agentes puede acelerarse y que la integración de estos sistemas en flujos de trabajo reales está más cerca.\n\n#Google #GeminiSpark #Agentic\n\nhttps://www.engadget.com/2222303/google-expanding-access-gemini-spark"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Anthropic actualiza el modo de voz de Claude con modelos más potentes",
+      "summary": "El modo de voz de Claude ahora funciona con los modelos Opus y Sonnet, además de Haiku. Se integra con aplicaciones como Gmail, Slack y Canva, permitiendo programar reuniones o redactar correos con la voz. La actualización responde al uso del modo de voz para tareas más complejas de lo previsto.",
+      "why_it_matters": "Mejora la utilidad de la interacción por voz con IA, llevándola más allá de las consultas rápidas.",
+      "url": "https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Anthropic le ha dado una voltereta al modo de voz de Claude: ya no solo responde preguntas, ahora programa reuniones y redacta correos usando Opus y Sonnet.\n\n#Anthropic #Claude #VoiceAI\nhttps://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models",
+        "linkedin": "El modo de voz de Claude pasa de asistente de consultas a herramienta de productividad.\n\nAnthropic actualiza la función para que funcione con los modelos más potentes, Opus y Sonnet, y no solo con Haiku. Ahora se integra con aplicaciones como Gmail, Slack y Canva, permitiendo programar reuniones o redactar correos con la voz. 𝗟𝗼 𝗿𝗲𝗹𝗲𝘃𝗮𝗻𝘁𝗲 𝗲𝘀 𝗾𝘂𝗲 𝗲𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼 𝘆𝗮 𝘂𝘀𝗮𝗯𝗮 𝗲𝗹 𝗺𝗼𝗱𝗼 𝗱𝗲 𝘃𝗼𝘇 𝗽𝗮𝗿𝗮 𝘁𝗮𝗿𝗲𝗮𝘀 𝗰𝗼𝗺𝗽𝗹𝗲𝗷𝗮𝘀, 𝘆 𝗲𝘀𝘁𝗮 𝗮𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗿𝗲𝘀𝗽𝗼𝗻𝗱𝗲 𝗮 𝗲𝘀𝗲 𝗰𝗼𝗺𝗽𝗼𝗿𝘁𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗿𝗲𝗮𝗹. La voz se convierte en un canal serio para trabajar.\n\n#Anthropic #Claude #VoiceAI\n\nhttps://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Runway lanza un enrutador de modelos de IA para simplificar la generación de medios",
+      "summary": "Media Router selecciona automáticamente el mejor modelo de generación de imagen, vídeo o audio según la prioridad del desarrollador: calidad, velocidad o coste. Con el creciente número de modelos de IA generativa, esta herramienta busca abstraer la complejidad.",
+      "why_it_matters": "Facilita la integración de IA generativa en flujos de trabajo, optimizando recursos sin elegir manualmente el modelo.",
+      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded",
+      "source": "TechCrunch",
+      "social": {
+        "x": "¿Elegir el modelo correcto para cada tarea de generación de medios te come el tiempo? Runway acaba de lanzar un enrutador que decide por ti según calidad, velocidad o coste.\n\n#Runway #MediaRouter #GenerativeAI\nhttps://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded",
+        "linkedin": "¿Elegir el modelo correcto para cada tarea de generación de medios te come el tiempo? Runway acaba de lanzar un enrutador que decide por ti.\n\nMedia Router abstrae la complejidad de la creciente oferta de modelos de IA generativa. Tú defines la prioridad (calidad, velocidad o coste) y la herramienta selecciona el mejor modelo de imagen, vídeo o audio. 𝗣𝗮𝗿𝗮 𝗲𝗾𝘂𝗶𝗽𝗼𝘀 𝗾𝘂𝗲 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗻 𝗜𝗔 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗮, 𝗿𝗲𝗱𝘂𝗰𝗲 𝗳𝗿𝗶𝗰𝗰𝗶ó𝗻 𝘆 𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗮 𝗿𝗲𝗰𝘂𝗿𝘀𝗼𝘀 𝗮𝘂𝘁𝗼𝗺á𝘁𝗶𝗰𝗮𝗺𝗲𝗻𝘁𝗲.\n\n#Runway #MediaRouter #GenerativeAI\n\nhttps://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "AegisAI recauda 36 millones de dólares para combatir el phishing con IA",
+      "summary": "Fundada por exejecutivos de seguridad de Google, AegisAI utiliza agentes de IA que analizan cada mensaje como lo haría un humano, detectando anomalías sutiles que los sistemas tradicionales no ven. La ronda de financiación impulsará su plataforma contra el spear phishing impulsado por IA.",
+      "why_it_matters": "El propio phishing se está volviendo más sofisticado con IA, y AegisAI ofrece una defensa adaptativa en la misma línea.",
+      "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing",
+      "source": "TechCrunch",
+      "social": {
+        "x": "🛡️ El phishing con IA ya escribe mejor que muchos humanos. AegisAI, creada por ex de Google, levanta 36M$ para detectarlo con agentes que analizan cada correo como lo harías tú.\n\n#Phishing #Ciberseguridad #AegisAI\nhttps://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing",
+        "linkedin": "El 91% de los ciberataques empiezan con un phishing, y los modelos de lenguaje ya generan anzuelos indistinguibles de un correo legítimo.\n\nAegisAI, fundada por exdirectivos de seguridad de Google, acaba de recaudar 36 millones de dólares para contrarrestar esta amenaza con 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗜𝗔 𝗾𝘂𝗲 𝗮𝗻𝗮𝗹𝗶𝘇𝗮𝗻 𝗰𝗮𝗱𝗮 𝗺𝗲𝗻𝘀𝗮𝗷𝗲 𝗰𝗼𝗺𝗼 𝘂𝗻 𝗮𝗻𝗮𝗹𝗶𝘀𝘁𝗮 𝗵𝘂𝗺𝗮𝗻𝗼. Su plataforma detecta anomalías sutiles (desde el tono hasta metadatos) que los filtros convencionales pasan por alto.\n\nLa clave: si el atacante usa IA para personalizar el engaño, la defensa necesita IA que razone, no solo compare patrones. Una lectura obligada para cualquiera que gestione riesgos de seguridad.\n\n#Phishing #Ciberseguridad #AegisAI\n\nhttps://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Palmier Pro: un editor de vídeo de código abierto para macOS diseñado para la IA",
+      "summary": "Palmier Pro es un editor de vídeo nativo de macOS construido pensando en la integración con herramientas de inteligencia artificial. Al ser de código abierto, permite a los desarrolladores extenderlo y conectar modelos de IA para tareas de edición avanzadas.",
+      "why_it_matters": "Ofrece una base abierta para que la comunidad construya flujos de edición de vídeo potenciados por IA.",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "source": "Hacker News",
+      "social": {
+        "x": "La edición de vídeo con IA acaba de abrirse. Llega un editor para Mac que cualquier desarrollador puede personalizar con modelos propios.\n\n#OpenSource #macOS #PalmierPro #VideoEditing\nhttps://github.com/palmier-io/palmier-pro",
+        "linkedin": "La edición de vídeo asistida por IA ya no es un coto cerrado. Palmier Pro es un editor nativo de macOS, de código abierto, que permite a cualquier desarrollador conectar sus propios modelos de IA.\n\nEsto abre la puerta a flujos de trabajo personalizados: desde el etalonaje automático hasta la generación de subtítulos o efectos especiales. 𝗟𝗮 𝗰𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝘁𝗶𝗲𝗻𝗲 𝗮𝗵𝗼𝗿𝗮 𝘂𝗻𝗮 𝗯𝗮𝘀𝗲 𝘀ó𝗹𝗶𝗱𝗮 𝗽𝗮𝗿𝗮 𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁𝗮𝗿 𝘀𝗶𝗻 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝘀𝗼𝗹𝘂𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝗿𝗼𝗽𝗶𝗲𝘁𝗮𝗿𝗶𝗮𝘀. Para estudios y creadores que buscan control total sobre su pipeline, es una señal de hacia dónde va la industria.\n\n#OpenSource #macOS #PalmierPro #VideoEditing\n\nhttps://github.com/palmier-io/palmier-pro"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "OneCLI: un gateway de credenciales de código abierto para agentes de IA",
+      "summary": "OneCLI actúa como un almacén seguro de credenciales que permite a los agentes de IA acceder a servicios sin exponer claves. Incluye una caja fuerte integrada y está diseñado para simplificar la gestión de secretos en entornos de desarrollo con IA.",
+      "why_it_matters": "Resuelve un problema crítico de seguridad al dar a los agentes autónomos acceso a servicios externos sin compartir secretos sensibles.",
+      "url": "https://github.com/onecli/onecli",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Das credenciales a tus agentes de IA sin querer? OneCLI es la caja fuerte open source que las protege sin exponerlas.\n\n#OpenSource #Ciberseguridad #AIAgents #OneCLI\nhttps://github.com/onecli/onecli",
+        "linkedin": "Cada agente autónomo que despliegas necesita acceder a servicios, pero compartir credenciales abre la puerta a fugas.\nOneCLI resuelve esto con una caja fuerte open source que 𝗵𝗮𝗰𝗲 𝗱𝗲 𝗶𝗻𝘁𝗲𝗿𝗺𝗲𝗱𝗶𝗮𝗿𝗶𝗼 𝘀𝗶𝗻 𝗿𝗲𝘃𝗲𝗹𝗮𝗿 𝗹𝗮𝘀 𝗰𝗹𝗮𝘃𝗲𝘀. Para equipos que están llevando agentes a producción, controlar este vector sin casarse con un SaaS propietario marca la diferencia.\n\n#OpenSource #Ciberseguridad #AIAgents #OneCLI\n\nhttps://github.com/onecli/onecli"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "AMD presenta Helios, su sistema de IA a escala de rack para competir con Nvidia",
+      "summary": "Helios es el nuevo sistema de rack de AMD diseñado para cargas de trabajo de IA, integrando hardware optimizado para competir directamente con las soluciones de Nvidia. Comenzará a enviarse a clientes a finales de año, marcando una apuesta fuerte por el centro de datos de IA.",
+      "why_it_matters": "Ofrece una alternativa a Nvidia en infraestructura de IA, lo que podría diversificar el mercado de aceleradores.",
+      "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El sistema de IA en rack que podría romper el dominio de Nvidia ya tiene fecha de llegada: finales de año. AMD lo llama Helios.\n\n#AMD #Nvidia #Helios\nhttps://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system",
+        "linkedin": "A finales de año, los centros de datos de IA podrían dejar de depender de un único proveedor.\nAMD acaba de presentar Helios, un sistema de IA a escala de rack diseñado para competir directamente con las soluciones de Nvidia. Comenzará a enviarse a clientes a finales de año, lo que representa una apuesta firme por diversificar el hardware de aceleración. 𝗟𝗮 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗱𝗲 𝗔𝗠𝗗 𝗲𝗻 𝗲𝘀𝘁𝗲 𝘀𝗲𝗴𝗺𝗲𝗻𝘁𝗼 𝗲𝘀 𝗹𝗮 𝘀𝗲ñ𝗮𝗹 𝗺á𝘀 𝗰𝗹𝗮𝗿𝗮 𝗱𝗲 𝗾𝘂𝗲 𝗹𝗮 𝗱𝗲𝗺𝗮𝗻𝗱𝗮 𝗱𝗲 𝗜𝗔 𝗻𝗼 𝗮𝗱𝗺𝗶𝘁𝗲 𝗺𝗼𝗻𝗼𝗽𝗼𝗹𝗶𝗼𝘀.\n\n#AMD #Nvidia #Helios\n\nhttps://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Alexa Plus se actualiza con IA para gestionar instrucciones más complejas en el hogar inteligente",
+      "summary": "La actualización en vista previa de Alexa Plus permite conectar y controlar dispositivos de Bosch, Delta, Ecovacs, iRobot y otros, enrutando automáticamente las peticiones al dispositivo adecuado. Por ejemplo, puede interpretar instrucciones como limpiar profundamente una camiseta de fútbol según la etiqueta.",
+      "why_it_matters": "Hace que los asistentes de voz sean más proactivos y capaces en entornos domésticos conectados.",
+      "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+      "source": "The Verge",
+      "social": {
+        "x": "Pedirle a Alexa que lave una camiseta de fútbol según la etiqueta ya no es ciencia ficción: ahora deriva la orden al robot adecuado sin que le digas cuál.\n\n#AlexaPlus #Amazon #SmartHome #Domótica\nhttps://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+        "linkedin": "La casa inteligente siempre prometió que hablarías con ella sin pensar en qué dispositivo hace qué. Esta semana, Alexa Plus lo cumple.\nLa actualización en vista previa conecta dispositivos de Bosch, iRobot, Ecovacs y otros, y entiende peticiones como limpiar una camiseta de fútbol según las instrucciones de la etiqueta. 𝗔𝗹𝗲𝘅𝗮 𝗲𝗻𝗿𝘂𝘁𝗮 𝗹𝗮 𝗼𝗿𝗱𝗲𝗻 𝗮𝗹 𝗲𝗹𝗲𝗰𝘁𝗿𝗼𝗱𝗼𝗺é𝘀𝘁𝗶𝗰𝗼 𝗮𝗱𝗲𝗰𝘂𝗮𝗱𝗼 𝘀𝗶𝗻 𝗾𝘂𝗲 𝗶𝗻𝘁𝗲𝗿𝘃𝗲𝗻𝗴𝗮𝘀. Para cualquiera que diseñe experiencias de voz o domótica, esto cambia el paradigma: ya no basta con comandos fijos, ahora el asistente debe inferir contexto y delegar.\n\n#AlexaPlus #Amazon #SmartHome #Domótica\n\nhttps://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "Framework lanza un nuevo sobremesa con AMD Ryzen AI Max+ PRO 495 y 192 GB de memoria",
+      "summary": "El nuevo Framework Desktop combina un procesador AMD con capacidades de IA integradas y 192 GB de memoria LPDDR5X en un formato mini PC de 4,5 litros. Está diseñado para cargas de trabajo de IA exigentes y gaming, todo con piezas estándar y reparables.",
+      "why_it_matters": "Pone la computación de IA de alto rendimiento en un formato pequeño y modular, accesible para desarrolladores y entusiastas.",
+      "url": "https://frame.work/desktop?tab=192gb-coming-soon",
+      "source": "Hacker News",
+      "social": {
+        "x": "192 GB de RAM y un chip AMD con IA. El nuevo sobremesa de Framework es un mini PC que no renuncia a nada, y sigue siendo reparable.\n\n#Framework #AMD #RyzenAI\nhttps://frame.work/desktop?tab=192gb-coming-soon",
+        "linkedin": "Framework acaba de demostrar que la potencia para IA no está reñida con la filosofía del hardware abierto y reparable.\nSu nuevo sobremesa monta un AMD Ryzen AI Max+ PRO 495 con 𝟭𝟵𝟮 𝗚𝗕 𝗱𝗲 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗟𝗣𝗗𝗗𝗥𝟱𝗫 𝗲𝗻 𝘂𝗻 𝗰𝗵𝗮𝘀𝗶𝘀 𝗱𝗲 𝟰,𝟱 𝗹𝗶𝘁𝗿𝗼𝘀. Pensado para cargas de IA y gaming, pero sobre todo para quienes no quieren renunciar a la modularidad. Un movimiento que refuerza la apuesta por un ecosistema donde el usuario tiene el control, justo cuando las grandes tecnológicas intentan cerrar cada vez más sus sistemas.\n\n#Framework #AMD #RyzenAI\n\nhttps://frame.work/desktop?tab=192gb-coming-soon"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "Google introduce el acceso con selfie en vídeo como alternativa a la contraseña",
+      "summary": "Los usuarios pueden grabar un vídeo corto con movimientos guiados de cabeza para verificar su identidad y acceder a su cuenta de Google si se quedan bloqueados. El vídeo permanece cifrado y bajo control del usuario, y también puede usarse para verificación de edad.",
+      "why_it_matters": "Añade una capa de seguridad biométrica cómoda sin depender de dispositivos adicionales, mejorando la recuperación de cuentas.",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/selfie-video-sign-in",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Te quedaste fuera de Google? Graba un selfie en vídeo con movimientos de cabeza y vuelve a entrar. El vídeo se queda cifrado y bajo tu control.\n\n#Google #passwordless #biometría #ciberseguridad\nhttps://blog.google/innovation-and-ai/technology/safety-security/selfie-video-sign-in",
+        "linkedin": "Grabar un vídeo moviendo la cabeza para desbloquear la cuenta de Google ya es una realidad.\n\nLa compañía acaba de lanzar la verificación por selfie en vídeo como alternativa a los métodos tradicionales de recuperación. El proceso guía al usuario con movimientos de cabeza y 𝗲𝗹 𝘃í𝗱𝗲𝗼 𝗽𝗲𝗿𝗺𝗮𝗻𝗲𝗰𝗲 𝗰𝗶𝗳𝗿𝗮𝗱𝗼 𝘆 𝗯𝗮𝗷𝗼 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼, sin enviar datos biométricos a los servidores. Una vuelta de tuerca que añade seguridad sin depender de hardware externo y que también se usará para verificar la edad.\n\n#Google #passwordless #biometría #ciberseguridad\n\nhttps://blog.google/innovation-and-ai/technology/safety-security/selfie-video-sign-in"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "lanzamientos",
+      "title": "Remux: un cliente tmux de código abierto para iPhone con interfaz nativa de iOS",
+      "summary": "Remux es una aplicación nativa de iOS que permite conectarse a sesiones persistentes de tmux con una interfaz adaptada a pantallas táctiles. Al ser de código abierto, facilita el trabajo con terminales remotas desde el móvil.",
+      "why_it_matters": "Lleva la potencia de tmux a dispositivos móviles con una experiencia de usuario cuidada, ideal para administradores en movilidad.",
+      "url": "https://github.com/h3nock/remux",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Crees que tmux es solo para teclado? Remux lo lleva al iPhone con una interfaz táctil que sorprende.\n\n#tmux #iOS #OpenSource #Remux\nhttps://github.com/h3nock/remux",
+        "linkedin": "Administrar sesiones tmux desde el iPhone acaba de volverse nativo, táctil y open source.\n\nRemux es una app para iOS que conecta con tmux usando gestos, sin atajos de teclado imposibles. 𝗟𝗮 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹 𝗲𝗻 𝗲𝗹 𝗺ó𝘃𝗶𝗹 𝗻𝗼 𝘁𝗶𝗲𝗻𝗲 𝗽𝗼𝗿 𝗾𝘂é 𝘀𝗲𝗿 𝘂𝗻 𝘀𝘂𝗽𝗹𝗶𝗰𝗶𝗼 y esta herramienta lo demuestra. Para cualquiera que gestione servidores en movilidad, marca un antes y un después frente a los clientes SSH genéricos.\n\n#tmux #iOS #OpenSource #Remux\n\nhttps://github.com/h3nock/remux"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "Geekbench 7 ya está aquí: pruebas más exigentes para ordenadores y móviles",
+      "summary": "Primate Labs lanza Geekbench 7 con nuevas pruebas de codificación y decodificación de vídeo y audio, un test multinúcleo rediseñado y conjuntos de datos más grandes para CPUs y GPUs. La licencia Pro permite hacer benchmarks sin conexión y no subirlos al navegador de resultados.",
+      "why_it_matters": "Proporciona una herramienta actualizada para medir el rendimiento real de los dispositivos actuales, con cargas de trabajo modernas.",
+      "url": "https://www.theverge.com/gadgets/970012/primate-labs-geekbench-7-benchmark-test-software-update",
+      "source": "The Verge",
+      "social": {
+        "x": "Tu puntuación en Geekbench va a cambiar. La versión 7 añade pruebas de vídeo, audio y un test multinúcleo más realista. ¿Aguantará el tirón tu equipo?\n\n#Geekbench7 #PrimateLabs #Benchmark\nhttps://www.theverge.com/gadgets/970012/primate-labs-geekbench-7-benchmark-test-software-update",
+        "linkedin": "Geekbench 7 redefine lo que significa un benchmark: ya no se trata solo de números, sino de flujos de trabajo reales como codificación de vídeo y audio.\n\nPrimate Labs ha actualizado su suite con pruebas que reflejan mejor el uso diario de ordenadores y móviles. 𝗟𝗮𝘀 𝗰𝗮𝗿𝗴𝗮𝘀 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝘀𝗼𝗻 𝗺á𝘀 𝗴𝗿𝗮𝗻𝗱𝗲𝘀 𝘆 𝗿𝗲𝗮𝗹𝗶𝘀𝘁𝗮𝘀, lo que puede hacer que equipos que parecían potentes bajen su puntuación. Para profesionales que miden el rendimiento antes de comprar, esta versión es un salto necesario.\n\n#Geekbench7 #PrimateLabs #Benchmark\n\nhttps://www.theverge.com/gadgets/970012/primate-labs-geekbench-7-benchmark-test-software-update"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "lanzamientos",
+      "title": "Xbox prueba el juego en la nube gratuito con anuncios",
+      "summary": "Microsoft ha iniciado una prueba de juego en la nube con anuncios en Xbox, siguiendo la estrategia de GeForce Now. El servicio permitiría jugar títulos en streaming sin coste, financiado mediante publicidad.",
+      "why_it_matters": "Podría democratizar el acceso al gaming en la nube, eliminando la barrera de la suscripción para jugadores ocasionales.",
+      "url": "https://www.engadget.com/2221790/xbox-is-testing-free-ad-supported-cloud-gaming",
+      "source": "Engadget",
+      "social": {
+        "x": "¿Jugar en la nube sin pagar? Xbox ya lo está probando, con anuncios como moneda de cambio. La barrera de la suscripción se tambalea.\n\n#XboxCloudGaming #GeForceNow #CloudGaming\nhttps://www.engadget.com/2221790/xbox-is-testing-free-ad-supported-cloud-gaming",
+        "linkedin": "Jugar en la nube sin pagar suscripción ha sido una utopía que solo NVIDIA se atrevió a explorar. Microsoft entra ahora en escena con una prueba que puede cambiarlo todo.\n\nXbox ha iniciado pruebas de juego en la nube gratuito con anuncios, replicando el modelo que GeForce Now popularizó. La idea es simple: permitir que cualquiera juegue títulos en streaming sin pasar por caja, a cambio de ver publicidad. 𝗘𝘀𝘁𝗼 𝗿𝗼𝗺𝗽𝗲 𝗹𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗽𝗮𝗿𝗮 𝗺𝗶𝗹𝗹𝗼𝗻𝗲𝘀 𝗱𝗲 𝗷𝘂𝗴𝗮𝗱𝗼𝗿𝗲𝘀 𝗼𝗰𝗮𝘀𝗶𝗼𝗻𝗮𝗹𝗲𝘀 que no quieren comprometerse con una suscripción mensual. Para Microsoft, es una jugada lógica: monetizar su infraestructura con anuncios puede abrir una nueva vía de ingresos más allá de Game Pass.\n\n#XboxCloudGaming #GeForceNow #CloudGaming\n\nhttps://www.engadget.com/2221790/xbox-is-testing-free-ad-supported-cloud-gaming"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "investigacion",
+      "title": "DARPA y la Fuerza Aérea de EE. UU. vuelan un F-16 controlado por IA",
+      "summary": "Un F-16 modificado como banco de pruebas autónomo completó vuelos controlados por inteligencia artificial en la base de Eglin. El hito forma parte del programa VENOM para desarrollar capacidades de IA escalables para la flota operativa.",
+      "why_it_matters": "Demuestra avances en la autonomía de cazas de combate, abriendo la puerta a misiones más seguras y efectivas sin intervención humana.",
+      "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un F-16 acaba de volar sin piloto humano. La IA tomó el control en la base de Eglin.\n\n#DARPA #F16 #VENOM #CombateAutónomo\nhttps://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+        "linkedin": "Imagina un F-16 despegando, maniobrando y aterrizando sin piloto. Eso es lo que DARPA y la Fuerza Aérea de EE. UU. acaban de probar en la base de Eglin. Forma parte del programa VENOM, que busca llevar la IA a la flota operativa de forma escalable. La implicación es clara: 𝗹𝗮 𝗮𝘂𝘁𝗼𝗻𝗼𝗺í𝗮 𝗲𝗻 𝗰𝗮𝘇𝗮𝘀 𝗱𝗲 𝗰𝗼𝗺𝗯𝗮𝘁𝗲 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘁𝗲𝗼𝗿í𝗮, 𝗲𝘀 𝘂𝗻 𝗽𝗿𝗼𝘁𝗼𝘁𝗶𝗽𝗼 𝘃𝗼𝗹𝗮𝗻𝗱𝗼. Esto obliga a repensar estrategias, doctrinas y, sobre todo, los plazos de adopción en el ámbito militar.\n\n#DARPA #F16 #VENOM #CombateAutónomo\n\nhttps://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Los bloqueos de la IA dificultan el trabajo de los investigadores de ciberseguridad ofensiva",
+      "summary": "Investigadores de seguridad que buscan vulnerabilidades denuncian que las restricciones de OpenAI y Anthropic limitan el uso legítimo de modelos de IA para defensa y pruebas de penetración. Aunque los programas de vetted buscan permitirlo, las salvaguardas genéricas a menudo bloquean casos de uso éticos.",
+      "why_it_matters": "Plantea el dilema de equilibrar la seguridad de la IA con la necesidad de herramientas ofensivas para proteger sistemas reales.",
+      "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Más seguridad en la IA, menos seguridad en el mundo real. Los investigadores de ciberseguridad denuncian que los bloqueos de OpenAI y Anthropic entorpecen su trabajo.\n\n#Ciberseguridad #OpenAI #Anthropic\nhttps://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers",
+        "linkedin": "El dilema de la IA segura es más complejo de lo que parece: los mismos mecanismos que impiden usos maliciosos están bloqueando a los equipos que protegen sistemas reales.\n\nInvestigadores de ciberseguridad ofensiva denuncian que las restricciones de OpenAI y Anthropic limitan las pruebas de penetración legítimas. Aunque existen programas para usuarios verificados, 𝗹𝗮𝘀 𝘀𝗮𝗹𝘃𝗮𝗴𝘂𝗮𝗿𝗱𝗮𝘀 𝗴𝗲𝗻é𝗿𝗶𝗰𝗮𝘀 𝗮 𝗺𝗲𝗻𝘂𝗱𝗼 𝗯𝗹𝗼𝗾𝘂𝗲𝗮𝗻 𝗰𝗮𝘀𝗼𝘀 𝗱𝗲 𝘂𝘀𝗼 é𝘁𝗶𝗰𝗼𝘀, creando una paradoja: cuanta más seguridad se impone a la IA, más difícil resulta defender los sistemas del mundo real.\n\n#Ciberseguridad #OpenAI #Anthropic\n\nhttps://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "investigacion",
+      "title": "Descubierto un método para reemplazar silenciosamente ejecutables de apps en macOS",
+      "summary": "Un investigador detalla cómo se pueden sobrescribir binarios de aplicaciones de confianza en macOS sin alertar al sistema, lo que podría ser aprovechado por malware para persistir. La técnica aprovecha mecanismos legítimos del sistema operativo.",
+      "why_it_matters": "Expone una debilidad en la seguridad de macOS que requiere atención, especialmente en entornos donde la integridad de las aplicaciones es crítica.",
+      "url": "https://mysk.blog/2026/07/23/macos-overwrite-app-executables",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Confías ciegamente en tus apps de Mac? Un investigador muestra cómo se pueden reemplazar sus ejecutables sin que macOS se entere. El método usa mecanismos legítimos del sistema.\n\n#macOS #ciberseguridad #malware\nhttps://mysk.blog/2026/07/23/macos-overwrite-app-executables",
+        "linkedin": "¿Confías ciegamente en las aplicaciones de tu Mac? Esta semana, un investigador ha detallado un método para reemplazar los ejecutables de apps de confianza sin que macOS muestre ninguna alerta.\n\nLa técnica se aprovecha de mecanismos legítimos del sistema operativo, lo que la hace especialmente sigilosa. 𝗘𝗹 𝘃𝗲𝗿𝗱𝗮𝗱𝗲𝗿𝗼 𝗽𝗲𝗹𝗶𝗴𝗿𝗼 𝗲𝘀 𝗾𝘂𝗲 𝘂𝗻 𝗺𝗮𝗹𝘄𝗮𝗿𝗲 𝗽𝗼𝗱𝗿í𝗮 𝗶𝗻𝗰𝗿𝘂𝘀𝘁𝗮𝗿𝘀𝗲 𝗲𝗻 𝘂𝗻𝗮 𝗮𝗽𝗽 𝗾𝘂𝗲 𝗲𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼 𝗰𝗼𝗻𝘀𝗶𝗱𝗲𝗿𝗮 𝘀𝗲𝗴𝘂𝗿𝗮 𝘆 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿 𝗰ó𝗱𝗶𝗴𝗼 𝗺𝗮𝗹𝗶𝗰𝗶𝗼𝘀𝗼 𝗱𝗲 𝗳𝗼𝗿𝗺𝗮 𝗽𝗲𝗿𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲. Este hallazgo obliga a replantear la monitorización de la integridad de las aplicaciones, sobre todo en entornos donde la seguridad es crítica. No es un fallo de código tradicional, sino un abuso de funcionalidades diseñadas para ser útiles, y eso lo hace difícil de parchear.\n\n#macOS #ciberseguridad #malware\n\nhttps://mysk.blog/2026/07/23/macos-overwrite-app-executables"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Fundadores de startups piden a EE. UU. que no prohíba los modelos de IA de código abierto de China",
+      "summary": "Un grupo de fundadores ha enviado una carta a la administración Trump instando a no cortar el acceso a los modelos de IA de pesos abiertos procedentes de China. Argumentan que la prohibición dañaría la innovación y competencia en el ecosistema de IA.",
+      "why_it_matters": "Refleja la tensión entre seguridad nacional y la colaboración abierta en el desarrollo de la IA.",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "source": "Hacker News",
+      "social": {
+        "x": "Prohibir los modelos open source chinos no nos hará más seguros, pero sí menos competitivos. Un grupo de fundadores pide a la administración Trump que no lo haga.\n\n#OpenSource #Startups #Trump #China\nhttps://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+        "linkedin": "¿Debe EE. UU. prohibir los modelos de IA open source procedentes de China? Fundadores de startups creen que no y se lo han dicho directamente a la administración Trump.\n\nEn una carta, argumentan que 𝗰𝗼𝗿𝘁𝗮𝗿 𝗲𝗹 𝗮𝗰𝗰𝗲𝘀𝗼 𝗱𝗮ñ𝗮𝗿í𝗮 𝗹𝗮 𝗶𝗻𝗻𝗼𝘃𝗮𝗰𝗶ó𝗻 𝘆 𝗹𝗮 𝗰𝗼𝗺𝗽𝗲𝘁𝗲𝗻𝗰𝗶𝗮 en el ecosistema de IA. La tensión entre seguridad nacional y colaboración abierta está servida.\n\n#OpenSource #Startups #Trump #China\n\nhttps://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "OpenAI y Anthropic se unen para advertir de los riesgos de los modelos de IA de pesos abiertos",
+      "summary": "Las dos compañías líderes en IA expresan su preocupación por los modelos de pesos abiertos, señalando amenazas a su modelo de negocio y posibles riesgos de seguridad. La postura conjunta ha generado debate sobre el futuro del código abierto en la IA.",
+      "why_it_matters": "Muestra la fractura en la industria entre quienes apuestan por la apertura y quienes buscan restringir el acceso por motivos comerciales o de seguridad.",
+      "url": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
+      "source": "Hacker News",
+      "social": {
+        "x": "Las dos mayores empresas de IA han unido sus voces. Pero no para lanzar un nuevo producto. Advierten de los riesgos de los modelos abiertos. ¿Protección o miedo a la competencia?\n\n#OpenAI #Anthropic #OpenSource\nhttps://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
+        "linkedin": "OpenAI y Anthropic, habitualmente rivales, comparten ahora un comunicado. Pero no es una colaboración técnica: es una advertencia conjunta sobre los riesgos de los modelos de pesos abiertos.\n\nLa postura ha encendido el debate: ¿es una llamada legítima a la seguridad o una defensa de su modelo de negocio? Señalan amenazas a la seguridad y a su ventaja competitiva, lo que 𝗿𝗲𝗳𝗹𝗲𝗷𝗮 𝗹𝗮 𝗰𝗿𝗲𝗰𝗶𝗲𝗻𝘁𝗲 𝘁𝗲𝗻𝘀𝗶ó𝗻 𝗲𝗻𝘁𝗿𝗲 𝗮𝗽𝗲𝗿𝘁𝘂𝗿𝗮 𝘆 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗲𝗻 𝗹𝗮 𝗜𝗔. Para cualquier empresa que esté evaluando adoptar modelos abiertos, este movimiento deja claro que los grandes actores no ven la apertura como neutral.\n\n#OpenAI #Anthropic #OpenSource\n\nhttps://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "description": "Un navegador diseñado para que trabajen en paralelo tanto usuarios humanos como agentes de IA, optimizando la colaboración y automatización de tareas web.",
+      "language": "JavaScript",
+      "stars": 2031,
+      "social": {
+        "x": "Chrome no está diseñado para agentes de IA. Este navegador open source sí. 2k estrellas y listo para automatizar cualquier web.\n\n#EgoLite #JavaScript #OpenSource #GitHub\nhttps://github.com/citrolabs/ego-lite",
+        "linkedin": "UN NAVEGADOR OPEN SOURCE QUE PERMITE A HUMANOS Y AGENTES DE IA TRABAJAR EN PARALELO.\n\nLos navegadores actuales están pensados para personas. Pero los agentes de IA cada vez necesitan más interactuar con la web de forma autónoma: hacer clics, rellenar formularios, extraer datos... El problema es que las sesiones compartidas son un caos y las soluciones comerciales te atan a suscripciones.\n\n→ Facilita la colaboración simultánea: tú supervisas mientras el agente ejecuta.\n→ Entorno aislado para ejecutar JavaScript sin riesgos.\n→ Open source, listo para self-hosted y sin depender de terceros.\n\nLa 𝗰𝗼𝗹𝗮𝗯𝗼𝗿𝗮𝗰𝗶ó𝗻 𝗵𝘂𝗺𝗮𝗻𝗼-𝗜𝗔 en el navegador ya no es un privilegio de unos pocos. Te dejo el repo abajo para que lo pruebes. Guarda el post si te interesa la automatización web.\n\n#EgoLite #JavaScript #OpenSource #GitHub\n\nhttps://github.com/citrolabs/ego-lite"
+      }
+    },
+    {
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Herramienta híbrida de revisión de código que combina pipelines deterministas con un agente LLM, ofreciendo comentarios precisos a nivel de línea y reglas preentrenadas para detectar errores como NPE o inyecciones SQL. Compatible con OpenAI y Anthropic.",
+      "language": "Go",
+      "stars": 12013,
+      "social": {
+        "x": "Alibaba acaba de regalar su code reviewer híbrido. Reglas + LLM para cazar hasta el último null pointer. 12k estrellas en GitHub.\n\n#OpenCodeReview #Go #OpenSource #GitHub\nhttps://github.com/alibaba/open-code-review",
+        "linkedin": "UN REVISOR DE CÓDIGO QUE MEZCLA REGLAS DETERMINISTAS E IA. Y ES OPEN SOURCE.\n\nAlibaba ha liberado open-code-review, la herramienta que combina pipelines deterministas con un agente LLM para ofrecer 𝗰𝗼𝗺𝗲𝗻𝘁𝗮𝗿𝗶𝗼𝘀 𝗽𝗿𝗲𝗰𝗶𝘀𝗼𝘀 𝗮 𝗻𝗶𝘃𝗲𝗹 𝗱𝗲 𝗹í𝗻𝗲𝗮. Incluye reglas preentrenadas para detectar errores como NPE o inyecciones SQL, y soporta modelos de OpenAI y Anthropic.\n\n→ Reglas deterministas para fallos comunes.\n→ Agente LLM para sugerencias contextuales.\n→ Escrito en Go, listo para self-hosting.\n→ Más de 12.000 estrellas en GitHub.\n\nGuarda este post para tenerlo a mano. Te dejo el repo abajo.\n\n#OpenCodeReview #Go #OpenSource #GitHub\n\nhttps://github.com/alibaba/open-code-review"
+      }
+    },
+    {
+      "name": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "Colección de habilidades para agentes de IA orientadas al diseño CAD, robótica y hardware, facilitando la generación de modelos a partir de texto.",
+      "language": "JavaScript",
+      "stars": 10247,
+      "social": {
+        "x": "Alguien ha liberado las skills para que un agente de IA diseñe en CAD por ti. El repo ya supera las 10k estrellas.\n\n#text2cad #CAD #OpenSource #GitHub\nhttps://github.com/earthtojake/text-to-cad",
+        "linkedin": "GENERAR MODELOS CAD CON TEXTO YA NO ES CIENCIA FICCIÓN.\n\nImagina poder describir un engranaje, una pieza de robótica o un prototipo de hardware y que un agente de IA lo convierta en un modelo 3D editable. Eso es justo lo que permite este repositorio open source, que acaba de superar las 10.000 estrellas en GitHub.\n\n→ 𝗗𝗲 𝘁𝗲𝘅𝘁𝗼 𝗮 𝗺𝗼𝗱𝗲𝗹𝗼 𝟯𝗗 𝗲𝗻 𝘀𝗲𝗴𝘂𝗻𝗱𝗼𝘀. Las skills traducen descripciones en lenguaje natural a diseños CAD listos para usar.\n→ Modular y extensible: integra las habilidades en tus agentes de IA con JavaScript.\n→ Sin dependencia de software comercial: todo es open source, self-hosted y gratuito.\n→ Comunidad explosiva: más de 10k estrellas y creciendo, con aplicaciones en robótica, hardware y más.\n\nTe dejo el repo abajo. Guárdalo si trabajas con diseño, ingeniería o IA.\n\n#text2cad #CAD #OpenSource #GitHub\n\nhttps://github.com/earthtojake/text-to-cad"
+      }
+    },
+    {
+      "name": "agegr/pi-web",
+      "url": "https://github.com/agegr/pi-web",
+      "description": "Interfaz web para el agente de codificación pi, que permite interactuar con sus capacidades de generación de código desde el navegador.",
+      "language": "TypeScript",
+      "stars": 2526,
+      "social": {
+        "x": "2.526 ⭐ y subiendo. La interfaz web de pi es lo último que ha petado en GitHub. Imprescindible si quieres generar código sin tocar la terminal.\n\n#pi #TypeScript #OpenSource #GitHub\nhttps://github.com/agegr/pi-web",
+        "linkedin": "2.526 ⭐ EN GITHUB. LA INTERFAZ WEB DE PI TE PERMITE GENERAR CÓDIGO DESDE EL NAVEGADOR SIN TOCAR LA TERMINAL.\n\npi es un agente de codificación open source con capacidades potentes, pero hasta ahora su uso estaba limitado a la línea de comandos. agegr ha creado pi-web, 𝗹𝗮 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝘇 𝘄𝗲𝗯 𝗾𝘂𝗲 𝗹𝗲 𝗳𝗮𝗹𝘁𝗮𝗯𝗮 𝗮 𝗽𝗶, para que cualquier dev pueda interactuar con el agente desde un navegador.\n\n→ Interfaz web limpia y funcional para chatear con pi.\n→ Genera código directamente desde la UI, sin necesidad de terminal.\n→ Self-hosted, despliega en tu propio servidor y mantén el control.\n→ Construido con TypeScript, fácil de extender.\n\nGuarda este post para tenerlo a mano y prueba el repo. Te dejo el enlace abajo.\n\n#pi #TypeScript #OpenSource #GitHub\n\nhttps://github.com/agegr/pi-web"
+      }
+    },
+    {
+      "name": "Automattic/harper",
+      "url": "https://github.com/Automattic/harper",
+      "description": "Corrector gramatical offline que prioriza la privacidad, rápido y de código abierto, ideal para integrar en flujos de escritura sin depender de servicios en la nube.",
+      "language": "Rust",
+      "stars": 12617,
+      "social": {
+        "x": "Automattic acaba de liberar un corrector gramatical offline en Rust que no envía tus textos a ninguna parte. 12k ⭐ y privacidad total.\n\n#Harper #Rust #OpenSource #GitHub\nhttps://github.com/Automattic/harper",
+        "linkedin": "ADIÓS A GRAMMARLY: UN CORRECTOR OFFLINE QUE PRIORIZA LA PRIVACIDAD\n\nAutomattic, la empresa detrás de WordPress, ha liberado Harper: un corrector gramatical open source que funciona sin conexión y respeta tus textos. Escrito en Rust, es rápido, ligero y se integra en cualquier flujo de escritura.\n\n¿Lo mejor? 𝗖𝗼𝗿𝗿𝗲𝗰𝗰𝗶ó𝗻 𝗹𝗼𝗰𝗮𝗹, 𝘀𝗶𝗻 𝘁𝗲𝗹𝗲𝗺𝗲𝘁𝗿í𝗮 𝗻𝗶 𝗻𝘂𝗯𝗲.\n\n→ 100 % offline: tus textos nunca salen de tu máquina.\n→ Motor en Rust: corrige en milisegundos, incluso en documentos largos.\n→ Listo para integrar: plugins, IDEs o flujos personalizados.\n→ Código abierto y con más de 12k estrellas en GitHub.\n\nGuarda este post si escribes a diario. Te dejo el repo abajo.\n\n#Harper #Rust #OpenSource #GitHub\n\nhttps://github.com/Automattic/harper"
+      }
+    }
+  ]
+}
