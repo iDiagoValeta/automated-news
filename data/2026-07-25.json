@@ -1,0 +1,298 @@
+{
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T09:07:38.090Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Flux 3 se convierte en el modelo que controla robots: la nueva base multimodal de Black Forest Labs",
+      "summary": "Black Forest Labs ha presentado Flux 3, una versión temprana de su nuevo modelo fundacional multimodal. Combinado con la plataforma mimic, ya se está utilizando para controlar robots en las fábricas de Audi, demostrando que la generación de contenido y la IA física comparten un mismo entendimiento del mundo.",
+      "why_it_matters": "Es la primera vez que un modelo de generación de video se aplica directamente a la robótica industrial con resultados tangibles.",
+      "url": "https://bfl.ai/blog/flux-3-mimic",
+      "source": "Black Forest Labs",
+      "social": {
+        "x": "Flux 3 nació para generar vídeos. Ahora controla los robots de Audi. La barrera entre IA generativa y robótica física acaba de caer.\n\n#BlackForestLabs #Flux3 #Audi #Robótica\nhttps://bfl.ai/blog/flux-3-mimic",
+        "linkedin": "Flux 3 se diseñó para generar vídeos. Hoy está moviendo robots en las fábricas de Audi.\n\nBlack Forest Labs ha mostrado una versión temprana de su modelo multimodal Flux 3 combinado con mimic, y ya se prueba en líneas de producción reales. 𝗘𝘀 𝗹𝗮 𝗽𝗿𝗶𝗺𝗲𝗿𝗮 𝘃𝗲𝘇 𝗾𝘂𝗲 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗴𝗲𝗻𝗲𝗿𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝘃𝗶𝗱𝗲𝗼 𝘀𝗲 𝗮𝗽𝗹𝗶𝗰𝗮 𝗱𝗶𝗿𝗲𝗰𝘁𝗮𝗺𝗲𝗻𝘁𝗲 𝗮 𝗹𝗮 𝗿𝗼𝗯ó𝘁𝗶𝗰𝗮 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮𝗹 con resultados tangibles. Esto sugiere que el conocimiento del mundo físico que adquieren estos sistemas al entrenarse con vídeo puede transferirse a entornos reales, acortando el camino hacia fábricas más autónomas.\n\n#BlackForestLabs #Flux3 #Audi #Robótica\n\nhttps://bfl.ai/blog/flux-3-mimic"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "El nuevo modo de voz de ChatGPT llega a la app de escritorio con control de agentes",
+      "summary": "OpenAI ha integrado su modo de voz avanzado en la aplicación de escritorio de ChatGPT. La IA puede ahora colaborar con ChatGPT Work y Codex para completar tareas y manejar agentes directamente desde el ordenador, ampliando la interacción más allá del teclado.",
+      "why_it_matters": "Hace que la interacción por voz con la IA sea una herramienta de productividad real, no solo una curiosidad.",
+      "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Hablar con la IA ya no es una curiosidad. ChatGPT integra su modo de voz en el escritorio y controla agentes para completar tareas reales.\n\n#ChatGPT #OpenAI #Codex\nhttps://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app",
+        "linkedin": "La productividad por voz deja de ser una curiosidad.\n\nOpenAI ha lanzado el modo de voz avanzado de ChatGPT en su app de escritorio, integrado con ChatGPT Work y Codex para controlar agentes. Ya no escribes comandos: 𝗵𝗮𝗯𝗹𝗮𝘀 𝘆 𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗲𝗷𝗲𝗰𝘂𝘁𝗮 𝘁𝗮𝗿𝗲𝗮𝘀 𝗰𝗼𝗺𝗽𝗹𝗲𝗷𝗮𝘀 𝗲𝗻 𝘀𝗲𝗴𝘂𝗻𝗱𝗼 𝗽𝗹𝗮𝗻𝗼. Esto redefine cómo interactuamos con la IA en entornos profesionales, acercando los asistentes de voz al flujo de trabajo real.\n\n#ChatGPT #OpenAI #Codex\n\nhttps://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Anthropic lanza Opus 5: alto rendimiento por la mitad de precio",
+      "summary": "El nuevo modelo Opus 5 de Anthropic iguala casi a su mejor versión anterior, pero con un coste reducido a la mitad. Además, es menos restrictivo que Fable, su modelo anterior, lo que lo hace más práctico para desarrolladores y empresas.",
+      "why_it_matters": "Democratiza el acceso a la IA de frontera sin sacrificar calidad.",
+      "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5",
+      "source": "TechCrunch",
+      "social": {
+        "x": "A mitad de precio y casi igual de potente. Anthropic lanza Opus 5, un modelo de frontera más accesible y menos restrictivo para los desarrolladores.\n\n#Anthropic #Opus5\nhttps://techcrunch.com/2026/07/24/anthropic-launches-opus-5",
+        "linkedin": "Anthropic acaba de lanzar Opus 5, un modelo que 𝗿𝗲𝗱𝘂𝗰𝗲 𝗮 𝗹𝗮 𝗺𝗶𝘁𝗮𝗱 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗺𝗮𝗻𝘁𝗲𝗻𝗶𝗲𝗻𝗱𝗼 𝗰𝗮𝘀𝗶 𝘁𝗼𝗱𝗼 𝗲𝗹 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 y es menos restrictivo que su predecesor Fable.\nPara quienes construyen producto, esta es una señal clara: la IA de alto nivel se vuelve más asequible sin los bloqueos que a veces impiden desplegarla en producción. Con este movimiento, Anthropic no solo compite en capacidad, sino que abre el acceso a más equipos y presiona a otras compañías a seguir el mismo camino.\n\n#Anthropic #Opus5\n\nhttps://techcrunch.com/2026/07/24/anthropic-launches-opus-5"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Probamos el teclado IA de OpenAI: un artilugio para incondicionales de ChatGPT",
+      "summary": "OpenAI ha lanzado su primer hardware, un pequeño teclado táctil llamado Micro, diseñado en colaboración con Work Louder. Pensado para programadores y entusiastas, permite atajos rápidos y acceso directo a ChatGPT, aunque su utilidad para el público general es dudosa.",
+      "why_it_matters": "Es el primer paso de OpenAI hacia el hardware, un experimento que define cómo podríamos interactuar físicamente con la IA.",
+      "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else",
+      "source": "TechCrunch",
+      "social": {
+        "x": "OpenAI se estrena en hardware con un teclado que solo entienden los incondicionales de ChatGPT. ¿El futuro o un capricho?\n\n#OpenAI #ChatGPT #WorkLouder\nhttps://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else",
+        "linkedin": "OpenAI se estrena en hardware con un teclado que solo entienden los incondicionales de ChatGPT.\n\nEl Micro, creado junto a Work Louder, es un tecladito táctil con atajos y acceso directo al chatbot. Aunque su utilidad para el gran público es dudosa, 𝗲𝗹 𝗺𝗼𝘃𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗶𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁𝗲 𝗲𝘀 𝗼𝘁𝗿𝗼: 𝗲𝘀 𝘂𝗻 𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁𝗼 𝘀𝗼𝗯𝗿𝗲 𝗰ó𝗺𝗼 𝗶𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝘂𝗮𝗿𝗲𝗺𝗼𝘀 𝗳í𝘀𝗶𝗰𝗮𝗺𝗲𝗻𝘁𝗲 𝗰𝗼𝗻 𝗹𝗮 𝗜𝗔.\n\n#OpenAI #ChatGPT #WorkLouder\n\nhttps://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Attie, el asistente IA de Bluesky, se convierte en una herramienta de investigación social abierta",
+      "summary": "El asistente Attie, integrado en el protocolo AT, ahora permite a los usuarios hacer preguntas sobre noticias, tendencias y conversaciones en Bluesky y otras aplicaciones del ecosistema descentralizado. La expansión convierte a Attie en una especie de analista de datos sociales accesible.",
+      "why_it_matters": "Abre la puerta a un periodismo de datos y análisis de redes sociales potenciado por IA y sin depender de grandes corporaciones.",
+      "url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El análisis de tendencias en redes sociales acaba de democratizarse. Attie, el asistente IA de Bluesky, se convierte en una herramienta de investigación abierta.\n\n#Bluesky #ATprotocol #Attie #OpenSource\nhttps://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool",
+        "linkedin": "El análisis de redes sociales deja de estar en manos de unos pocos.\n\nAttie, el asistente integrado en el protocolo AT, ahora permite a cualquiera hacer preguntas sobre tendencias, noticias y conversaciones en Bluesky y otras aplicaciones descentralizadas. 𝗦𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝘂𝗻 𝗮𝗻𝗮𝗹𝗶𝘀𝘁𝗮 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀 𝘀𝗼𝗰𝗶𝗮𝗹𝗲𝘀 𝗮𝗰𝗰𝗲𝘀𝗶𝗯𝗹𝗲 𝘀𝗶𝗻 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝗴𝗿𝗮𝗻𝗱𝗲𝘀 𝗰𝗼𝗿𝗽𝗼𝗿𝗮𝗰𝗶𝗼𝗻𝗲𝘀. Esto abre la puerta a un periodismo de datos potenciado por IA y construido sobre infraestructura abierta.\n\n#Bluesky #ATprotocol #Attie #OpenSource\n\nhttps://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "Hetzner se adentra en la inferencia de LLMs con una API experimental",
+      "summary": "El proveedor de cloud Hetzner ha lanzado una API de inferencia para modelos de lenguaje. El análisis de un usuario ha probado el modelo Qwen y especula con que la compañía podría ofrecer una alternativa económica y de alto rendimiento para desarrolladores.",
+      "why_it_matters": "Si madura, podría ser una opción competitiva para desplegar modelos de manera asequible en Europa.",
+      "url": "https://sliplane.io/blog/hetzner-inference",
+      "source": "sliplane.io",
+      "social": {
+        "x": "Hetzner se mete en la inferencia de LLMs y un usuario ya ha probado Qwen: los números apuntan a una opción muy competitiva en precio/rendimiento.\n\n#Hetzner #Qwen #LLMs #CloudComputing\nhttps://sliplane.io/blog/hetzner-inference",
+        "linkedin": "¿Puede Hetzner convertirse en la opción económica para desplegar LLMs en Europa?\nAcaban de lanzar una API experimental de inferencia y las primeras pruebas con Qwen muestran un rendimiento sorprendente. 𝗣𝗮𝗿𝗮 𝗲𝗾𝘂𝗶𝗽𝗼𝘀 𝗾𝘂𝗲 𝗯𝘂𝘀𝗰𝗮𝗻 𝗶𝗻𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮 𝗱𝗲 𝗹𝗼𝘀 𝗴𝗿𝗮𝗻𝗱𝗲𝘀 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿𝗲𝘀 𝘆 𝗰𝘂𝗺𝗽𝗹𝗶𝗿 𝗰𝗼𝗻 𝗹𝗮 𝗿𝗲𝗴𝘂𝗹𝗮𝗰𝗶ó𝗻 𝗲𝘂𝗿𝗼𝗽𝗲𝗮, 𝗲𝘀𝘁𝗮 𝗽𝘂𝗲𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗮𝗹𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝘃𝗮 𝗺𝘂𝘆 𝗮 𝘁𝗲𝗻𝗲𝗿 𝗲𝗻 𝗰𝘂𝗲𝗻𝘁𝗮. Si la propuesta madura, podría forzar una bajada de precios en el sector.\n\n#Hetzner #Qwen #LLMs #CloudComputing\n\nhttps://sliplane.io/blog/hetzner-inference"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "investigacion",
+      "title": "AlphaFold ayuda a rediseñar proteínas de edición genética para hacerlas más seguras",
+      "summary": "Investigadores han usado el sistema de IA AlphaFold para identificar y modificar partes de una proteína CRISPR que causan ediciones no deseadas. El rediseño reduce los errores, acercando la terapia génica a un uso clínico más seguro.",
+      "why_it_matters": "Muestra cómo la IA estructural puede acelerar mejoras concretas en biotecnología con repercusión médica directa.",
+      "url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Una IA acaba de hacer las tijeras genéticas más precisas. AlphaFold rediseñó una proteína CRISPR y redujo los errores. La terapia génica segura está más cerca.\n\n#AlphaFold #CRISPR #GeneEditing #Biotech\nhttps://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer",
+        "linkedin": "La edición genética con CRISPR tiene un problema: a veces corta donde no debe.\nUn equipo ha usado AlphaFold para encontrar esos puntos conflictivos en la proteína y rediseñarla. Los errores caen en picado. Esto no es solo un paper: es la prueba de que 𝗹𝗮 𝗜𝗔 𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮𝗹 𝗽𝘂𝗲𝗱𝗲 𝗮𝗰𝗲𝗹𝗲𝗿𝗮𝗿 𝗹𝗮 𝗹𝗹𝗲𝗴𝗮𝗱𝗮 𝗱𝗲 𝘁𝗲𝗿𝗮𝗽𝗶𝗮𝘀 𝗿𝗲𝗮𝗹𝗺𝗲𝗻𝘁𝗲 𝘀𝗲𝗴𝘂𝗿𝗮𝘀. Para cualquiera que trabaje en biotecnología, el mensaje es claro: el diseño de proteínas asistido por IA ya no es futuro, es presente clínico.\n\n#AlphaFold #CRISPR #GeneEditing #Biotech\n\nhttps://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "investigacion",
+      "title": "El Reino Unido y EE.UU. evalúan las capacidades cibernéticas del modelo chino Kimi K3",
+      "summary": "El Instituto de Seguridad de IA del Reino Unido y el Centro para Estándares de IA de EE.UU. han publicado una evaluación preliminar de las habilidades de ciberseguridad del modelo Kimi K3. El informe examina su potencial para labores ofensivas, como escritura de exploits y análisis de vulnerabilidades.",
+      "why_it_matters": "Es el primer análisis gubernamental serio que cuantifica el riesgo cibernético de un modelo de IA concreto.",
+      "url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
+      "source": "NIST",
+      "social": {
+        "x": "Kimi K3 es el primer modelo de IA que dos gobiernos examinan por su riesgo cibernético real. Escritura de exploits y análisis de vulnerabilidades, bajo la lupa.\n\n#KimiK3 #Ciberseguridad #NIST\nhttps://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
+        "linkedin": "La ciberseguridad de los modelos de IA ya no es teoría: el Reino Unido y EE.UU. han publicado la primera evaluación en profundidad de un modelo concreto, el chino Kimi K3.\n\nEl informe examina sus capacidades para tareas ofensivas como escritura de exploits o análisis de vulnerabilidades, y 𝗹𝗼𝘀 𝗿𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼𝘀 𝗽𝗿𝗲𝗹𝗶𝗺𝗶𝗻𝗮𝗿𝗲𝘀 𝗰𝗼𝗻𝗳𝗶𝗿𝗺𝗮𝗻 𝗾𝘂𝗲 𝗹𝗮 𝗜𝗔 𝘆𝗮 𝗽𝘂𝗲𝗱𝗲 𝗮𝗰𝗲𝗹𝗲𝗿𝗮𝗿 𝗮𝘁𝗮𝗾𝘂𝗲𝘀 𝗰𝗶𝗯𝗲𝗿𝗻é𝘁𝗶𝗰𝗼𝘀 𝘀𝗼𝗳𝗶𝘀𝘁𝗶𝗰𝗮𝗱𝗼𝘀. Esto obliga a gobiernos y empresas a actualizar sus estrategias de defensa: el riesgo es cuantificable y creciente.\n\n#KimiK3 #Ciberseguridad #NIST\n\nhttps://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Foldkit, el framework frontend para los que añoran la corrección de Elm",
+      "summary": "Foldkit es un nuevo framework de TypeScript que sigue la Arquitectura Elm y se apoya en Effect-TS. Con un único árbol de estado, funciones puras y efectos explícitos, promete aplicaciones web robustas y predecibles, alejándose de la flexibilidad de React.",
+      "why_it_matters": "Ofrece un camino para equipos que priorizan la fiabilidad y la mantenibilidad sobre la inmediatez.",
+      "url": "https://foldkit.dev",
+      "source": "foldkit.dev",
+      "social": {
+        "x": "🔒 La arquitectura que convirtió a Elm en sinónimo de fiabilidad ahora existe en TypeScript. Foldkit apuesta por la predictibilidad sin renunciar al ecosistema actual.\n\n#TypeScript #Elm #Foldkit #EffectTS\nhttps://foldkit.dev",
+        "linkedin": "¿Cuánto tiempo pierde tu equipo persiguiendo estados inconsistentes?\n\nFoldkit recupera la Arquitectura Elm para TypeScript: un solo árbol de estado, funciones puras y efectos explícitos con Effect-TS. 𝗟𝗮 𝗳𝗶𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲 𝗘𝗹𝗺 𝘀𝗲 𝗶𝗻𝘁𝗲𝗴𝗿𝗮 𝗲𝗻 𝗲𝗹 𝗲𝗰𝗼𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗾𝘂𝗲 𝘆𝗮 𝘂𝘀𝗮𝘀, eliminando clases enteras de errores antes de llegar a producción. Para equipos que priorizan la mantenibilidad sobre la inmediatez, esta propuesta merece una mirada seria.\n\n#TypeScript #Elm #Foldkit #EffectTS\n\nhttps://foldkit.dev"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "Kagi recupera la búsqueda a la antigua, web por web",
+      "summary": "El motor de búsqueda de pago Kagi se posiciona como alternativa a los resultados patrocinados y los resúmenes de IA. Propone un índice curado por humanos, sin publicidad ni rastreo, y da prioridad a sitios web de calidad hechos por personas.",
+      "why_it_matters": "En plena era de la 'generación automática', Kagi demuestra que hay demanda de una búsqueda artesanal y transparente.",
+      "url": "https://www.wired.com/story/kagi-brings-back-old-school-search-one-human-made-website-at-a-time",
+      "source": "Wired",
+      "social": {
+        "x": "Pagar por buscar suena a herejía. Pero Kagi lo hace posible: búsquedas sin anuncios, sin IA y con índice humano.\n\n#Kagi #Búsqueda #Tecnología\nhttps://www.wired.com/story/kagi-brings-back-old-school-search-one-human-made-website-at-a-time",
+        "linkedin": "Mientras la industria se obsesiona con meter IA en cada búsqueda, un motor de pago llamado Kagi está recuperando la esencia: resultados curados por humanos, cero anuncios y cero rastreo.\n\nKagi demuestra que 𝗵𝗮𝘆 𝗲𝘀𝗽𝗮𝗰𝗶𝗼 𝗽𝗮𝗿𝗮 𝘂𝗻𝗮 𝗯ú𝘀𝗾𝘂𝗲𝗱𝗮 𝗮𝗿𝘁𝗲𝘀𝗮𝗻𝗮𝗹 𝘆 𝘁𝗿𝗮𝗻𝘀𝗽𝗮𝗿𝗲𝗻𝘁𝗲 en la era de la generación automática. Para editores y creadores de contenido, priorizar sitios web de calidad hechos por personas es un soplo de aire fresco. La pregunta es si el modelo de suscripción escalará más allá del nicho de los early adopters.\n\n#Kagi #Búsqueda #Tecnología\n\nhttps://www.wired.com/story/kagi-brings-back-old-school-search-one-human-made-website-at-a-time"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "Nvidia, Microsoft y Meta se unen para pedir que no se sobreregule la IA de código abierto",
+      "summary": "Más de 20 compañías, encabezadas por Nvidia, Microsoft y Meta, han enviado una carta a los legisladores estadounidenses advirtiendo contra las restricciones prematuras a los modelos de pesos abiertos. Señalan que los modelos chinos ganan terreno y que limitar el open weight frenaría la competencia.",
+      "why_it_matters": "Define la postura de la industria ante el debate geopolítico que decidirá cómo se desarrolla la IA en los próximos años.",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "source": "CNBC",
+      "social": {
+        "x": "Nvidia, Microsoft y Meta se han unido para frenar una sobrerregulación que, según ellos, daría ventaja a los modelos chinos. La carta ya está sobre la mesa.\n\n#Nvidia #Microsoft #Meta #OpenSource\nhttps://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+        "linkedin": "Cuando Nvidia, Microsoft y Meta se ponen de acuerdo en algo, conviene prestar atención.\n\nLas tres compañías, junto a otras 20, han enviado una carta a los legisladores estadounidenses para advertir que 𝘀𝗼𝗯𝗿𝗲𝗿𝗿𝗲𝗴𝘂𝗹𝗮𝗿 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗱𝗲 𝗽𝗲𝘀𝗼𝘀 𝗮𝗯𝗶𝗲𝗿𝘁𝗼𝘀 𝗳𝗿𝗲𝗻𝗮 𝗹𝗮 𝗰𝗼𝗺𝗽𝗲𝘁𝗲𝗻𝗰𝗶𝗮 𝘆 𝗯𝗲𝗻𝗲𝗳𝗶𝗰𝗶𝗮 𝗮 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗰𝗵𝗶𝗻𝗼𝘀. El debate sobre la regulación de la IA abierta ya no es solo técnico: es geopolítico. Y esta carta deja clara la posición de la industria: si se limitan los pesos abiertos, el liderazgo en IA podría cambiar de manos.\n\n#Nvidia #Microsoft #Meta #OpenSource\n\nhttps://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "SpaceX lanza los primeros satélites Starlink de tercera generación, pero el propulsor vuelve a fallar",
+      "summary": "El decimotercer vuelo de prueba de Starship desplegó con éxito 20 satélites Starlink V3, capaces de ofrecer hasta 1 Tbps. Sin embargo, el aterrizaje simulado del propulsor Super Heavy en el Golfo de México resultó en otro fallo de reencendido de motores.",
+      "why_it_matters": "Los satélites V3 suponen un salto de capacidad para la constelación, aunque el fallo del booster retrasa la reutilización total del sistema.",
+      "url": "https://techcrunch.com/2026/07/24/spacex-launches-new-v3-starlink-satellites-but-suffers-another-booster-failure",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El booster que debía demostrar la reutilización se quedó corto. Otra vez. Mientras, los primeros Starlink V3 ya están en órbita.\n\n#SpaceX #Starlink #Starship #SuperHeavy\nhttps://techcrunch.com/2026/07/24/spacex-launches-new-v3-starlink-satellites-but-suffers-another-booster-failure",
+        "linkedin": "Los nuevos Starlink V3 ya están en órbita prometiendo hasta 1 Tbps por satélite, pero el fallo reiterado del booster Super Heavy alarma sobre los plazos de Starship.\n\nEl despliegue fue exitoso, lo que confirma la capacidad de Starship como lanzador. Sin embargo, 𝗹𝗮 𝗿𝗲𝘂𝘁𝗶𝗹𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝗽𝗿𝗼𝗽𝘂𝗹𝘀𝗼𝗿 𝘀𝗶𝗴𝘂𝗲 𝘀𝗶𝗻 𝗱𝗲𝗺𝗼𝘀𝘁𝗿𝗮𝗿𝘀𝗲, con dos fallos de reencendido en los últimos vuelos. Para los proveedores de conectividad que miran hacia esta constelación de alta capacidad, la incertidumbre sobre la cadencia de lanzamientos retrasa sus planes.\n\n#SpaceX #Starlink #Starship #SuperHeavy\n\nhttps://techcrunch.com/2026/07/24/spacex-launches-new-v3-starlink-satellites-but-suffers-another-booster-failure"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Meta recula y pausa el plan de limitar sus gafas inteligentes tras las críticas",
+      "summary": "Después de un fuerte rechazo público, Meta ha detenido temporalmente su plan de introducir un límite de uso en sus gafas inteligentes Ray-Ban. La medida, que habría restringido funciones si no se pagaba, se percibió como un intento de monetización agresiva.",
+      "why_it_matters": "La reacción muestra la sensibilidad del público ante la posible transformación de dispositivos de consumo en servicios de suscripción.",
+      "url": "https://www.theverge.com/tech/970970/after-backlash-meta-pauses-plan-to-rate-limit-its-smart-glasses",
+      "source": "The Verge",
+      "social": {
+        "x": "Querían que pagaras por funciones que ya tienes en las gafas. La gente ha protestado y Meta ha reculado.\n\n#Meta #RayBan #SmartGlasses\nhttps://www.theverge.com/tech/970970/after-backlash-meta-pauses-plan-to-rate-limit-its-smart-glasses",
+        "linkedin": "El intento de Meta de meter un muro de pago en sus gafas Ray-Ban ha durado menos de lo esperado. La reacción pública le ha obligado a pausar el plan.\n\nLa compañía pretendía restringir funciones si no se pasaba por caja, una estrategia que los usuarios percibieron como un paso más hacia la monetización agresiva del hardware. 𝗟𝗮 𝘀𝗲𝗻𝘀𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗺𝗲𝗿𝗰𝗮𝗱𝗼 𝗮𝗻𝘁𝗲 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗱𝗲 𝘀𝘂𝘀𝗰𝗿𝗶𝗽𝗰𝗶ó𝗻 𝗲𝗻 𝗱𝗶𝘀𝗽𝗼𝘀𝗶𝘁𝗶𝘃𝗼𝘀 𝗳í𝘀𝗶𝗰𝗼𝘀 𝗲𝘀 𝗰𝗮𝗱𝗮 𝘃𝗲𝘇 𝗺𝗮𝘆𝗼𝗿. Para cualquier empresa del sector, la lección es clara: añadir barreras de pago a funcionalidades que el cliente considera suyas puede desencadenar una crisis de reputación en cuestión de horas.\n\n#Meta #RayBan #SmartGlasses\n\nhttps://www.theverge.com/tech/970970/after-backlash-meta-pauses-plan-to-rate-limit-its-smart-glasses"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "Chrome secuestra Ctrl+G en Mac para lanzar Gemini sin permiso",
+      "summary": "La última versión de Chrome ha asignado el atajo de teclado Ctrl+G para abrir una ventana emergente de Gemini, incluso si no se está usando el navegador. El cambio se hace sin preguntar y sobreescribe atajos de otras aplicaciones, generando críticas por comportamiento intrusivo.",
+      "why_it_matters": "Ejemplifica cómo los gigantes tecnológicos imponen sus servicios de IA a los usuarios, a menudo pisando la configuración personal.",
+      "url": "https://unsung.aresluna.org/chromes-breaking-and-entering",
+      "source": "Lobsters",
+      "social": {
+        "x": "Chrome ha secuestrado Ctrl+G en tu Mac. Ahora abre Gemini sin preguntar, aunque estés en otra aplicación.\n\n#Chrome #Gemini #Google #macOS\nhttps://unsung.aresluna.org/chromes-breaking-and-entering",
+        "linkedin": "Chrome ha decidido que Ctrl+G en tu Mac es suyo. Sin preguntar, la última versión abre Gemini, incluso si estás trabajando en otra aplicación.\n\nEste movimiento sobreescribe atajos de otras apps y llega sin opción de desactivarlo fácilmente. Refleja cómo 𝗹𝗼𝘀 𝗴𝗶𝗴𝗮𝗻𝘁𝗲𝘀 𝘁𝗲𝗰𝗻𝗼𝗹ó𝗴𝗶𝗰𝗼𝘀 𝗶𝗺𝗽𝗼𝗻𝗲𝗻 𝘀𝘂𝘀 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼𝘀 𝗱𝗲 𝗜𝗔 pisando la configuración y la confianza del usuario. Para equipos que dependen de atajos de teclado, esto no es una anécdota: es una señal de alerta sobre quién controla tu experiencia de escritorio.\n\n#Chrome #Gemini #Google #macOS\n\nhttps://unsung.aresluna.org/chromes-breaking-and-entering"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "La EPA de Trump podría silenciar a los vecinos que se oponen a nuevos centros de datos para IA",
+      "summary": "Una propuesta de la Agencia de Protección Ambiental de EE.UU. permitiría a los estados decidir cuánta participación pública se permite en la aprobación de centros de datos. La industria de IA, ávida de más capacidad, presiona para acelerar permisos.",
+      "why_it_matters": "La medida podría eliminar el derecho a audiencia pública, allanando el camino a una expansión masiva pero con menos control ambiental y ciudadano.",
+      "url": "https://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Tu derecho a opinar sobre un centro de datos al lado de casa está en juego. La EPA de Trump quiere eliminarlo.\n\n#EPA #CentrosDeDatos #ParticipaciónCiudadana #MedioAmbiente\nhttps://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say",
+        "linkedin": "La administración Trump plantea que los estados puedan decidir si los ciudadanos tienen derecho a audiencia pública cuando se proyecta un centro de datos.\n\nLa EPA propone una reforma que permitiría a los estados limitar o eliminar la participación ciudadana en los procesos de aprobación. La industria de la IA, necesitada de más capacidad, presiona para acelerar los permisos, pero esta medida supone 𝘂𝗻 𝗿𝗲𝘁𝗿𝗼𝗰𝗲𝘀𝗼 𝗲𝗻 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗮𝗺𝗯𝗶𝗲𝗻𝘁𝗮𝗹 𝘆 𝗱𝗲𝗺𝗼𝗰𝗿á𝘁𝗶𝗰𝗼. Para el sector tecnológico, esto plantea un dilema entre velocidad de despliegue y responsabilidad social; el coste reputacional podría ser alto si se silencia a las comunidades afectadas.\n\n#EPA #CentrosDeDatos #ParticipaciónCiudadana #MedioAmbiente\n\nhttps://arstechnica.com/tech-policy/2026/07/ai-firms-want-more-data-centers-trumps-epa-may-give-neighbors-less-say"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Prentis, el laboratorio de IA de Reid Hoffman y Mark Pincus, negocia una ronda de 100 millones",
+      "summary": "El nuevo laboratorio Prentis, centrado en modelos de 'computer use' que aprenden a manejar tareas de oficina, está en conversaciones para levantar 100 millones de dólares con una valoración de mil millones. Sus fundadores creen que automatizar tareas rutinarias superará al coding como principal caso de uso de la IA.",
+      "why_it_matters": "Señala hacia dónde apuesta una parte del capital: una IA que use el ordenador como una persona, no solo que escriba código.",
+      "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El próximo unicornio de IA no escribe código: maneja tu ordenador como una persona. Prentis, de Reid Hoffman y Mark Pincus, negocia una ronda de 100 millones.\n\n#Prentis #ComputerUse #ReidHoffman #MarkPincus\nhttps://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m",
+        "linkedin": "🤖 El coding como gran caso de uso de la IA tiene los meses contados. \n\nAl menos eso creen Reid Hoffman y Mark Pincus, que acaban de poner mil millones de valoración sobre la mesa con Prentis, su nuevo laboratorio. Su tesis: 𝗹𝗮 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝘁𝗮𝗿𝗲𝗮𝘀 𝗿𝘂𝘁𝗶𝗻𝗮𝗿𝗶𝗮𝘀 𝗱𝗲 𝗼𝗳𝗶𝗰𝗶𝗻𝗮 𝘀𝘂𝗽𝗲𝗿𝗮𝗿á 𝗮𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗰𝗼𝗺𝗼 𝗻𝗲𝗴𝗼𝗰𝗶𝗼 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹 𝗱𝗲 𝗹𝗮 𝗜𝗔. La ronda de 100 millones que negocian confirma que el capital ya está virando hacia modelos que usan el ordenador como una persona, no solo que generan texto o código.\n\n#Prentis #ComputerUse #ReidHoffman #MarkPincus\n\nhttps://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Oracle despide a 21.000 empleados para financiar su apuesta por la IA",
+      "summary": "Oracle ha despedido al 13% de su plantilla, unos 21.000 trabajadores, para destinar recursos al acuerdo de computación de 300.000 millones con OpenAI. La operación, ya bajo presión por una rebaja de crédito y exigencias de la red eléctrica, ilustra el enorme coste humano de la carrera de la IA.",
+      "why_it_matters": "Muestra que la transición hacia la IA no es indolora: incluso las grandes tecnológicas recortan empleo masivamente para invertir en infraestructura.",
+      "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-903442",
+      "source": "The Jerusalem Post",
+      "social": {
+        "x": "21.000 despidos en Oracle: el coste humano de financiar la alianza con OpenAI. La factura que nadie quería ver.\n\n#Oracle #OpenAI #Cloud\nhttps://www.jpost.com/business-and-innovation/tech-and-start-ups/article-903442",
+        "linkedin": "Oracle pone cifras al coste humano de la IA: 21.000 despidos.\n\nOracle ha confirmado que la transición hacia la IA no será indolora. Despedir al 13% de la plantilla, unos 21.000 trabajadores, para redirigir fondos al acuerdo de computación de 300.000 millones con OpenAI deja claro que 𝗹𝗮 𝗰𝗮𝗿𝗿𝗲𝗿𝗮 𝗽𝗼𝗿 𝗹𝗮 𝗜𝗔 𝘀𝗲 𝗲𝘀𝘁á 𝗽𝗮𝗴𝗮𝗻𝗱𝗼 𝗰𝗼𝗻 𝗽𝘂𝗲𝘀𝘁𝗼𝘀 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼. Este movimiento, que ya ha provocado una rebaja de crédito y tensiones con la red eléctrica, muestra el lado menos glamuroso del auge tecnológico: incluso las grandes están recortando empleo masivamente para no quedarse atrás.\n\n#Oracle #OpenAI #Cloud\n\nhttps://www.jpost.com/business-and-innovation/tech-and-start-ups/article-903442"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Anduril podría alcanzar una valoración de 100.000 millones, el triple que el año pasado",
+      "summary": "La empresa de tecnología de defensa Anduril, fundada por Palmer Luckey, estaría en conversaciones para una nueva ronda que la valoraría en unos 100.000 millones de dólares. El apetito inversor por la IA aplicada a defensa sigue disparado, a pesar de las controversias éticas.",
+      "why_it_matters": "Convierte a Anduril en el estandarte del complejo militar-industrial de la IA, con una valoración que rivaliza con la de las grandes plataformas de consumo.",
+      "url": "https://techcrunch.com/2026/07/24/anduril-reportedly-in-talks-to-raise-funding-at-100b-valuation-more-than-3x-last-years-mark",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Anduril está a punto de valer 100.000 millones de dólares. El triple que hace un año. La IA aplicada a defensa no frena.\n\n#Anduril #DefenseTech\nhttps://techcrunch.com/2026/07/24/anduril-reportedly-in-talks-to-raise-funding-at-100b-valuation-more-than-3x-last-years-mark",
+        "linkedin": "En un año, Anduril ha pasado de valer 30.000 millones a aspirar a 100.000.\n\nLa empresa de defensa de Palmer Luckey está a punto de cerrar una ronda que la convertiría en el estandarte del complejo militar-industrial de la IA. 𝗜𝗻𝘃𝗲𝗿𝘀𝗼𝗿𝗲𝘀 𝘆 𝗲𝘀𝘁𝗮𝗱𝗼𝘀 𝗰𝗼𝗺𝗽𝗶𝘁𝗲𝗻 𝗽𝗼𝗿 𝘁𝗲𝗰𝗻𝗼𝗹𝗼𝗴í𝗮 𝗾𝘂𝗲 𝗿𝗲𝗱𝗲𝗳𝗶𝗻𝗲 𝗹𝗮 𝗱𝗲𝗳𝗲𝗻𝘀𝗮, ignorando controversias éticas. Su valoración ya rivaliza con las grandes plataformas de consumo.\n\n#Anduril #DefenseTech\n\nhttps://techcrunch.com/2026/07/24/anduril-reportedly-in-talks-to-raise-funding-at-100b-valuation-more-than-3x-last-years-mark"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "OtterMind/Chat2DB",
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "description": "Cliente SQL y herramienta de bases de datos impulsada por IA, compatible con los principales motores (MySQL, PostgreSQL, Oracle, etc.). Ofrece una interfaz gráfica moderna que agiliza consultas y gestión gracias a sugerencias inteligentes.",
+      "language": "Java",
+      "stars": 26460,
+      "social": {
+        "x": "Cambia 'SQL manual' por 'SQL con IA' con este repo open source. 26K estrellas y sin suscripción.\n\n#Chat2DB #Java #OpenSource #GitHub\nhttps://github.com/OtterMind/Chat2DB",
+        "linkedin": "UN CLIENTE SQL QUE GENERA CONSULTAS CON IA. GRATIS Y OPEN SOURCE.\n\nTrabajar con bases de datos suele implicar escribir SQL a mano o pagar licencias de herramientas como DataGrip. Chat2DB es una alternativa open source que integra inteligencia artificial para acelerar tus consultas.\n\n→ Compatible con MySQL, PostgreSQL, Oracle y otros motores.\n→ Interfaz moderna e intuitiva.\n→ Sugerencias inteligentes que completan tu código SQL.\n→ 𝗣𝘂𝗲𝗱𝗲𝘀 𝗱𝗲𝘀𝗰𝗿𝗶𝗯𝗶𝗿 𝗹𝗮 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮 𝗲𝗻 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲 𝗻𝗮𝘁𝘂𝗿𝗮𝗹 𝘆 𝘁𝗲 𝗴𝗲𝗻𝗲𝗿𝗮 𝗲𝗹 𝗦𝗤𝗟, ideal para equipos que trabajan con datos.\n\nEl repo está abajo. Guárdatelo si trabajas con bases de datos, te ahorrará horas.\n\n#Chat2DB #Java #OpenSource #GitHub\n\nhttps://github.com/OtterMind/Chat2DB"
+      }
+    },
+    {
+      "name": "CoreBunch/Instatic",
+      "url": "https://github.com/CoreBunch/Instatic",
+      "description": "CMS visual autoalojado con capacidades agentic que genera páginas estáticas limpias, alternativa open source a Webflow o WordPress. Incluye gestión de usuarios, roles, plugins y base de datos.",
+      "language": "TypeScript",
+      "stars": 4419,
+      "social": {
+        "x": "Alguien acaba de liberar un CMS visual autoalojado que compite con Webflow y WordPress. Y ya tiene más de 4.400 estrellas.\n\n#Instatic #TypeScript #OpenSource #GitHub\nhttps://github.com/CoreBunch/Instatic",
+        "linkedin": "INSTATIC: EL CMS OPEN SOURCE QUE DESAFÍA A WEBFLOW.\n\nWebflow y WordPress te atan con suscripciones. Instatic es justo lo contrario: un CMS 𝗮𝘂𝘁𝗼𝗮𝗹𝗼𝗷𝗮𝗱𝗼 𝘆 𝘀𝗶𝗻 𝘀𝘂𝘀𝗰𝗿𝗶𝗽𝗰𝗶ó𝗻 que genera HTML estático limpio, con todas las funciones que necesitas y sin pedirte la tarjeta.\n\n→ Editor visual con capacidades agentic.\n→ Generación de páginas estáticas ultrarrápidas.\n→ Gestión de usuarios, roles y plugins.\n→ Base de datos incluida.\n→ Escrito en TypeScript y con licencia MIT.\n\nTe dejo el repo abajo para que le eches un vistazo. 🔖 Guárdalo si estás harto del lock-in.\n\n#Instatic #TypeScript #OpenSource #GitHub\n\nhttps://github.com/CoreBunch/Instatic"
+      }
+    },
+    {
+      "name": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Gestor de archivos para terminal con una interfaz moderna y elegante. Ideal para desarrolladores que quieren navegar por sus proyectos con estilo sin salir de la consola.",
+      "language": "Go",
+      "stars": 19771,
+      "social": {
+        "x": "Alguien ha construido el explorador de archivos más estiloso para la terminal. Interfaz moderna, rápido y open source. 19.7k ⭐\n\n#superfile #GoLang #OpenSource #Terminal\nhttps://github.com/yorukot/superfile",
+        "linkedin": "TU TERMINAL YA NO TIENE EXCUSA PARA SER ABURRIDA.\n\nSi pasas el día en la consola, sabes que la mayoría de gestores de archivos parecen sacados de los 80. superfile llega para cambiar eso: 𝘂𝗻𝗮 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝘇 𝗺𝗼𝗱𝗲𝗿𝗻𝗮 𝘆 𝗲𝗹𝗲𝗴𝗮𝗻𝘁𝗲 que convierte la navegación de archivos en una experiencia visualmente atractiva y rápida.\n\n→ Navegación fluida con atajos de teclado.\n→ Vista previa de archivos y directorios.\n→ Diseño minimalista adaptado a tu flujo de trabajo.\n→ Código abierto, escrito en Go, con 19.7k estrellas en GitHub.\n\nIdeal para desarrolladores que quieren estilo sin salir de la terminal. Te dejo el repo abajo. Guárdalo si tu terminal merece un cambio de look.\n\n#superfile #GoLang #OpenSource #Terminal\n\nhttps://github.com/yorukot/superfile"
+      }
+    },
+    {
+      "name": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Servidor de Minecraft en Rust enfocado en rendimiento y facilidad de despliegue, pensado para que cualquiera pueda alojar partidas rápidas y eficientes.",
+      "language": "Rust",
+      "stars": 9459,
+      "social": {
+        "x": "Alguien acaba de soltar un servidor de Minecraft en Rust con 9.5k estrellas. Rendimiento brutal y se despliega en segundos.\n\n#Minecraft #Rust #OpenSource #GitHub\nhttps://github.com/Pumpkin-MC/Pumpkin",
+        "linkedin": "UN SERVIDOR DE MINECRAFT EN RUST QUE PONE EN VERGÜENZA AL OFICIAL.\n\nSi alguna vez has montado un servidor de Minecraft, sabes que el oficial come recursos y es un lío de configurar. Pumpkin-MC/Pumpkin es la alternativa open source que lo cambia todo: escrito en Rust, obsesionado con el rendimiento y fácil de desplegar. Ya tiene 9.459 estrellas en GitHub.\n\n→ 𝗥𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗲𝘅𝘁𝗿𝗲𝗺𝗼: Rust exprime cada ciclo de CPU, sin cuellos de botella.\n→ Despliegue instantáneo: lo levantas con un comando y listo.\n→ Código abierto y comunidad creciente: mejoras constantes sin depender de una empresa.\n\nGuarda este post si te interesa Minecraft, Rust o el open source. El repo está en el primer comentario.\n\n#Minecraft #Rust #OpenSource #GitHub\n\nhttps://github.com/Pumpkin-MC/Pumpkin"
+      }
+    },
+    {
+      "name": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "description": "Plataforma de comunicación estilo mente colmena que permite a grupos colaborar en tiempo real. Podría ser interesante para equipos que buscan nuevas dinámicas de trabajo colectivo.",
+      "language": "Rust",
+      "stars": 10650,
+      "social": {
+        "x": "Una mente colmena open source en Rust para colaborar en tiempo real: ya supera las 10.000 estrellas y funciona sin depender de terceros.\n\n#Buzz #Rust #OpenSource #GitHub\nhttps://github.com/block/buzz",
+        "linkedin": "UNA MENTE COLMENA OPEN SOURCE EN RUST CON MÁS DE 10.000 ESTRELLAS.\n\nBuzz es una plataforma de comunicación que permite a los equipos colaborar en tiempo real, como si compartieran una mente colectiva. Mientras que herramientas como Slack o Teams imponen límites y cuotas, Buzz se instala en tus servidores y te da el control total. Está escrito en Rust, con lo que obtienes velocidad y seguridad de serie.\n\n→ Colaboración en tiempo real al estilo mente colmena.\n→ Autoalojable: sin dependencias externas ni costes recurrentes.\n→ Código abierto, con una comunidad que ya suma 10.000 estrellas.\n\nLa clave es que la comunicación se convierte en un flujo continuo, no en una bandeja de entrada: 𝗰𝗼𝗹𝗮𝗯𝗼𝗿𝗮𝗰𝗶ó𝗻 𝗰𝗼𝗺𝗼 𝘂𝗻𝗮 𝗺𝗲𝗻𝘁𝗲 𝗰𝗼𝗹𝗺𝗲𝗻𝗮. Guarda este post si trabajas en remoto o buscas alternativas más orgánicas. Te dejo el repositorio abajo.\n\n#Buzz #Rust #OpenSource #GitHub\n\nhttps://github.com/block/buzz"
+      }
+    }
+  ]
+}
