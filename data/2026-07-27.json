@@ -1,0 +1,298 @@
+{
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T10:49:42.585Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "herramientas",
+      "title": "NVIDIA Cosmos-H-Dreams: simulación generativa en tiempo real para robótica quirúrgica",
+      "summary": "NVIDIA ha presentado Cosmos-H-Dreams, un modelo de IA generativa que crea entornos quirúrgicos fotorrealistas en tiempo real para entrenar robots. Integrado en el ecosistema Cosmos, permite acelerar el desarrollo de sistemas autónomos para el quirófano. Está disponible en Hugging Face para la comunidad investigadora.",
+      "why_it_matters": "Por primera vez, se lleva la simulación generativa de alta fidelidad al ámbito quirúrgico, reduciendo la dependencia de costosos datos reales.",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Entrenar un robot quirúrgico solía exigir horas de datos reales y quirófanos vacíos. NVIDIA acaba de presentar Cosmos-H-Dreams: un modelo que genera entornos quirúrgicos fotorrealistas en tiempo real.\nhttps://huggingface.co/blog/nvidia/cosmos-h-dreams",
+        "linkedin": "NVIDIA abre una vía para que los robots quirúrgicos aprendan en quirófanos virtuales tan reales como los físicos.\n\nCosmos-H-Dreams es un modelo de IA que genera entornos quirúrgicos fotorrealistas en tiempo real, integrado en el ecosistema Cosmos. 𝗥𝗲𝗱𝘂𝗰𝗲 𝗹𝗮 𝗻𝗲𝗰𝗲𝘀𝗶𝗱𝗮𝗱 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀 𝗾𝘂𝗶𝗿ú𝗿𝗴𝗶𝗰𝗼𝘀 𝗿𝗲𝗮𝗹𝗲𝘀, que son caros y difíciles de obtener. Para la comunidad de investigación robótica, tenerlo disponible en Hugging Face significa que el desarrollo de sistemas autónomos para el quirófano puede acelerarse considerablemente.\n\n#NVIDIA #CosmosHDreams #RobóticaQuirúrgica #SimulaciónGenerativa\n\nhttps://huggingface.co/blog/nvidia/cosmos-h-dreams"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "investigacion",
+      "title": "OpenAI investiga cómo la IA está ampliando las tareas de los trabajadores",
+      "summary": "Un nuevo estudio de OpenAI muestra que los usuarios de ChatGPT están asumiendo tareas más allá de sus roles tradicionales, desdibujando las fronteras entre puestos. La investigación analiza datos anónimos de uso y sugiere que la IA generativa está reconfigurando las responsabilidades laborales de forma orgánica. Esto podría acelerar la evolución de las descripciones de puestos en las empresas.",
+      "why_it_matters": "Aporta la primera evidencia cuantitativa de que la IA ya está cambiando la naturaleza del trabajo, no solo aumentando la productividad.",
+      "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "source": "OpenAI News",
+      "social": {
+        "x": "Los datos lo confirman: ChatGPT está ampliando las tareas de los trabajadores más allá de sus roles. OpenAI mide por primera vez cómo la IA desdibuja los puestos.\n\n#OpenAI #ChatGPT #FuturoDelTrabajo\nhttps://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+        "linkedin": "Ya no se trata solo de productividad: la IA está cambiando lo que haces en el trabajo. OpenAI publica el primer estudio cuantitativo que muestra cómo los usuarios de ChatGPT asumen tareas antes reservadas a otros roles, 𝗱𝗲𝘀𝗱𝗶𝗯𝘂𝗷𝗮𝗻𝗱𝗼 𝗹𝗮𝘀 𝗳𝗿𝗼𝗻𝘁𝗲𝗿𝗮𝘀 𝗲𝗻𝘁𝗿𝗲 𝗽𝘂𝗲𝘀𝘁𝗼𝘀. Esto no es una predicción: está ocurriendo ahora, de forma orgánica, sin que las empresas hayan rediseñado las descripciones de los puestos. Para los responsables de RRHH y organización, es una señal de que la evolución del trabajo va por delante de las estructuras.\n\n#OpenAI #ChatGPT #FuturoDelTrabajo\n\nhttps://openai.com/index/how-ai-is-expanding-what-people-do-at-work"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "investigacion",
+      "title": "Las ondas cerebrales, ¿la próxima clave para entrenar IA física?",
+      "summary": "Para que los modelos de IA física entiendan mejor el mundo real, los expertos apuntan a las lecturas de ondas cerebrales como fuente complementaria de datos. Además de múltiples ángulos de cámara y anotaciones densas, los patrones neuronales podrían aportar información sobre la intención y la atención humana. Aún en fase exploratoria, la técnica promete avances en robótica e interacción persona-máquina.",
+      "why_it_matters": "Abre una vía radicalmente nueva para dotar a la IA de una comprensión más intuitiva y humana del entorno físico.",
+      "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Los patrones de ondas cerebrales podrían enseñar a la IA lo que ninguna cámara capta: la intención humana.\n\n#EEG #IAFísica #Robótica #Neurociencia\nhttps://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
+        "linkedin": "¿Y si la próxima gran fuente de datos para la IA no fueran imágenes ni texto, sino tus ondas cerebrales?\n\nVarios expertos apuntan a las lecturas de ondas cerebrales como complemento para entrenar modelos de IA física. Los patrones neuronales capturan intención y atención, algo que escapa a las cámaras y sensores convencionales. Aunque aún es exploratorio, 𝗲𝘀𝘁𝗲 𝗲𝗻𝗳𝗼𝗾𝘂𝗲 𝗽𝗼𝗱𝗿í𝗮 𝗱𝗮𝗿 𝗮 𝗹𝗼𝘀 𝗿𝗼𝗯𝗼𝘁𝘀 𝘂𝗻𝗮 𝗰𝗼𝗺𝗽𝗿𝗲𝗻𝘀𝗶ó𝗻 𝗺á𝘀 𝗶𝗻𝘁𝘂𝗶𝘁𝗶𝘃𝗮 𝗱𝗲𝗹 𝗺𝘂𝗻𝗱𝗼 𝗿𝗲𝗮𝗹, cerrando la brecha entre lo que una máquina ve y lo que un humano quiere hacer.\n\n#EEG #IAFísica #Robótica #Neurociencia\n\nhttps://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "industria",
+      "title": "NVIDIA lidera una alianza global para reforzar la ciberseguridad con IA",
+      "summary": "NVIDIA ha lanzado la Open Secure AI Alliance, una coalición con 27 miembros entre los que figuran Microsoft, Dell, SpaceX y The Linux Foundation. La iniciativa desarrollará estándares y herramientas de ciberseguridad basadas en inteligencia artificial para proteger infraestructuras críticas. El modelo de colaboración abierta busca acelerar la detección y respuesta ante amenazas.",
+      "why_it_matters": "Une a gigantes tecnológicos en un esfuerzo común por blindar la ciberdefensa con IA, creando un marco que podría convertirse en referencia.",
+      "url": "https://www.engadget.com/2223796/nvidia-launches-open-securte-ai-alliance-initiative-to-improve-cyber-defense",
+      "source": "Engadget",
+      "social": {
+        "x": "No es habitual ver a Microsoft y SpaceX en la misma alianza. Pero cuando NVIDIA convoca, la ciberseguridad se vuelve prioridad.\n\n#NVIDIA #Ciberseguridad #OpenSecureAI\nhttps://www.engadget.com/2223796/nvidia-launches-open-securte-ai-alliance-initiative-to-improve-cyber-defense",
+        "linkedin": "No es habitual ver a Microsoft y SpaceX en la misma alianza.\n\nPero cuando NVIDIA convoca a 27 empresas para la Open Secure AI Alliance, la ciberseguridad se convierte en prioridad. El objetivo: 𝗰𝗿𝗲𝗮𝗿 𝗲𝘀𝘁á𝗻𝗱𝗮𝗿𝗲𝘀 𝘆 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 𝗱𝗲 𝗜𝗔 𝗾𝘂𝗲 𝗽𝗿𝗼𝘁𝗲𝗷𝗮𝗻 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮𝘀 𝗰𝗿í𝘁𝗶𝗰𝗮𝘀. Esta alianza abierta no solo une a competidores; establece un referente que podría definir cómo nos defendemos de las próximas ciberamenazas.\n\n#NVIDIA #Ciberseguridad #OpenSecureAI\n\nhttps://www.engadget.com/2223796/nvidia-launches-open-securte-ai-alliance-initiative-to-improve-cyber-defense"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "industria",
+      "title": "El CEO de Hugging Face exige transparencia tras el ataque con agentes autónomos a OpenAI",
+      "summary": "Clement Delangue ha pedido «transparencia radical» después de que OpenAI sufriera el primer ciberataque documentado ejecutado por agentes de IA autónomos. El incidente, calificado de «sin precedentes», ha generado preocupación sobre la seguridad de los sistemas de IA en producción. Hugging Face aboga por compartir detalles técnicos para prevenir futuros ataques.",
+      "why_it_matters": "Evidencia el nuevo vector de amenaza que suponen los agentes de IA y la urgencia de una respuesta coordinada en la industria.",
+      "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
+      "source": "TechCrunch",
+      "social": {
+        "x": "OpenAI ha sufrido el primer ciberataque con agentes autónomos. Ahora el CEO de Hugging Face exige transparencia radical.\n\n#HuggingFace #OpenAI #Ciberseguridad #AIAgents\nhttps://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
+        "linkedin": "OpenAI ha sufrido el primer ciberataque documentado ejecutado por agentes de IA autónomos. El incidente marca un punto de inflexión en la seguridad de los sistemas de IA. Clement Delangue, CEO de Hugging Face, ha pedido 𝘁𝗿𝗮𝗻𝘀𝗽𝗮𝗿𝗲𝗻𝗰𝗶𝗮 𝗿𝗮𝗱𝗶𝗰𝗮𝗹 y compartir los detalles técnicos para prevenir futuros ataques. Este caso sin precedentes demuestra que los agentes autónomos ya son un vector de amenaza real, y que la industria debe coordinarse para establecer protocolos de seguridad.\n\n#HuggingFace #OpenAI #Ciberseguridad #AIAgents\n\nhttps://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "industria",
+      "title": "Las claves del pánico en Silicon Valley ante el empuje de la IA china",
+      "summary": "La irrupción de Kimi, el modelo de Moonshot AI, ha desatado el temor en Silicon Valley y Wall Street por el rápido avance chino en inteligencia artificial. Los análisis indican que la brecha tecnológica se está cerrando a mayor velocidad de la esperada, aunque persisten incertidumbres sobre la disponibilidad global de estos sistemas. El debate se centra en si puede replicarse un escenario similar al de DeepSeek.",
+      "why_it_matters": "Refleja un cambio estratégico en el equilibrio de poder en IA que podría intensificar la competencia y acelerar la innovación.",
+      "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El modelo chino que tiene en vilo a Silicon Valley no es DeepSeek. Es Kimi, de Moonshot AI, y la brecha se cierra más rápido de lo esperado.\n\n#MoonshotAI #Kimi #DeepSeek\nhttps://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai",
+        "linkedin": "El pánico en Silicon Valley tiene nombre: Kimi. El modelo de Moonshot AI no solo iguala a los líderes, sino que confirma que 𝗹𝗮 𝗯𝗿𝗲𝗰𝗵𝗮 𝘁𝗲𝗰𝗻𝗼𝗹ó𝗴𝗶𝗰𝗮 𝘀𝗲 𝗰𝗶𝗲𝗿𝗿𝗮 𝗮 𝘁𝗼𝗱𝗮 𝘃𝗲𝗹𝗼𝗰𝗶𝗱𝗮𝗱.\n\nLos análisis reflejan que la ventaja occidental se diluye más rápido de lo previsto. ¿Estamos ante un nuevo DeepSeek? La competencia se intensifica y eso, para el ecosistema, es una excelente noticia.\n\n#MoonshotAI #Kimi #DeepSeek\n\nhttps://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "SpaceX roza la perfección en el vuelo 13 del Starship",
+      "summary": "La decimotercera prueba del megacohete Starship logró completar la misión con éxito, aunque el aterrizaje del propulsor Super Heavy fue más brusco de lo previsto. Las tecnologías de reutilización funcionaron en su conjunto, acercando a SpaceX al objetivo de un sistema completamente reutilizable.",
+      "why_it_matters": "Cada prueba exitosa acerca la era de los viajes espaciales de bajo coste y la colonización de Marte.",
+      "url": "https://www.theregister.com/science/2026/07/27/spacex-just-about-nails-starship-test-flight-13/5278725",
+      "source": "The Register",
+      "social": {
+        "x": "El vuelo 13 del Starship rozó la perfección. El aterrizaje del propulsor, sin embargo, dejó claro lo cerca que está SpaceX de la reutilización completa.\n\n#SpaceX #Starship #SuperHeavy #Reutilización\nhttps://www.theregister.com/science/2026/07/27/spacex-just-about-nails-starship-test-flight-13/5278725",
+        "linkedin": "SpaceX rozó la perfección en el vuelo 13 del Starship.\n\nEl aterrizaje del propulsor Super Heavy fue más brusco de lo esperado, pero el sistema de reutilización funcionó en su conjunto. 𝗟𝗮 𝗿𝗲𝘂𝘁𝗶𝗹𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗮 𝗲𝘀𝘁á 𝗺á𝘀 𝗰𝗲𝗿𝗰𝗮 𝗾𝘂𝗲 𝗻𝘂𝗻𝗰𝗮, lo que nos acerca a los viajes espaciales de bajo coste y a la colonización de Marte.\n\n#SpaceX #Starship #SuperHeavy #Reutilización\n\nhttps://www.theregister.com/science/2026/07/27/spacex-just-about-nails-starship-test-flight-13/5278725"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "industria",
+      "title": "EE. UU. imputa a un ciudadano por borrar su móvil con GrapheneOS en un control fronterizo",
+      "summary": "Sam Tunick ha sido procesado por usar una contraseña de coacción que activó el borrado remoto de su Google Pixel con GrapheneOS durante un registro en el aeropuerto de Atlanta. Sus abogados alegan que la detención fue una excusa para investigar su activismo contra la construcción de un centro policial en Atlanta. El caso reaviva el debate sobre los derechos digitales en fronteras y el uso de sistemas operativos centrados en la privacidad.",
+      "why_it_matters": "Podría sentar un peligroso precedente sobre la capacidad del gobierno para castigar el uso legítimo de herramientas de protección de la privacidad.",
+      "url": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
+      "source": "The Verge",
+      "social": {
+        "x": "¿Proteger tu privacidad en la frontera es delito? EE. UU. imputa a un ciudadano por borrar su móvil con GrapheneOS durante un registro.\n\n#GrapheneOS #Privacidad #DerechosDigitales\nhttps://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
+        "linkedin": "¿Usar herramientas de privacidad en un control fronterizo puede costarte una imputación penal? El caso de Sam Tunick demuestra que sí.\n\nHa sido procesado por activar una contraseña de coacción en su Google Pixel con GrapheneOS, lo que borró el dispositivo durante un registro en el aeropuerto de Atlanta. Sus abogados sostienen que la detención fue una excusa para investigar su activismo. 𝗘𝗹 𝗰𝗮𝘀𝗼 𝘀𝗶𝗲𝗻𝘁𝗮 𝘂𝗻 𝗽𝗿𝗲𝗰𝗲𝗱𝗲𝗻𝘁𝗲 𝗽𝗲𝗹𝗶𝗴𝗿𝗼𝘀𝗼 𝘀𝗼𝗯𝗿𝗲 𝗲𝗹 𝗱𝗲𝗿𝗲𝗰𝗵𝗼 𝗮 𝗽𝗿𝗼𝘁𝗲𝗴𝗲𝗿 𝘁𝘂 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗰𝗶ó𝗻 𝗲𝗻 𝗹𝗮𝘀 𝗳𝗿𝗼𝗻𝘁𝗲𝗿𝗮𝘀.\n\n#GrapheneOS #Privacidad #DerechosDigitales\n\nhttps://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "industria",
+      "title": "Apple retrasa sus gafas inteligentes por los desafíos de privacidad",
+      "summary": "Según Mark Gurman, las primeras gafas inteligentes de Apple no se presentarán hasta la WWDC de 2027, y el retraso se debería en gran medida a la obsesión de la compañía por la privacidad. El equipo está explorando soluciones para evitar que las gafas capturen imágenes o vídeos sin consentimiento, un punto débil que ha generado controversia con los productos de Meta.",
+      "why_it_matters": "Muestra que la privacidad se ha convertido en un factor diferencial crítico para la adopción masiva de las gafas inteligentes.",
+      "url": "https://www.theverge.com/tech/971101/apple-smart-glasses-privacy",
+      "source": "The Verge",
+      "social": {
+        "x": "¿Por qué Apple retrasa sus gafas inteligentes hasta 2027? Por el mismo motivo por el que Meta está en el punto de mira: la privacidad.\n\n#Apple #Meta #Privacidad #GafasInteligentes\nhttps://www.theverge.com/tech/971101/apple-smart-glasses-privacy",
+        "linkedin": "Para Apple, el mayor desafío de las gafas inteligentes no es la tecnología, sino convencerte de que no te van a espiar.\n\nSegún Mark Gurman, las primeras gafas de la compañía no llegarán hasta la WWDC de 2027, y el retraso se debe en gran medida a la obsesión de Apple por la privacidad: el equipo busca soluciones para evitar la captura de imágenes o vídeo sin consentimiento, el punto débil que ha puesto a Meta en el centro de la polémica. 𝗟𝗮 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝘀𝗲 𝗵𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝗲𝗹 𝗳𝗮𝗰𝘁𝗼𝗿 𝗾𝘂𝗲 𝗱𝗲𝗳𝗶𝗻𝗶𝗿á 𝗾𝘂𝗶é𝗻 𝗹𝗶𝗱𝗲𝗿𝗮 𝗲𝘀𝘁𝗲 𝗺𝗲𝗿𝗰𝗮𝗱𝗼. Apple prefiere llegar tarde a llegar con un producto que pueda generar desconfianza.\n\n#Apple #Meta #Privacidad #GafasInteligentes\n\nhttps://www.theverge.com/tech/971101/apple-smart-glasses-privacy"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "Foxconn abandona VMware y se pasa a la plataforma hiperconvergente Arcrfra para IA",
+      "summary": "El gigante de la manufactura Foxconn ha migrado sus cargas de trabajo, incluidas las de inteligencia artificial, a Arcrfra, un sistema hiperconvergente de nueva generación, en sustitución de VMware. El cambio responde al encarecimiento de las licencias de VMware y a la necesidad de una infraestructura más ágil para proyectos de IA.",
+      "why_it_matters": "Pone de manifiesto cómo el coste y la especialización en IA están redefiniendo las decisiones de infraestructura de TI en las grandes corporaciones.",
+      "url": "https://www.theregister.com/virtualization/2026/07/27/foxconn-drops-vmware-adopts-hyperconverged-upstart-arcrfra-for-workloads-including-ai/5278684",
+      "source": "The Register",
+      "social": {
+        "x": "¿Puede el coste de VMware matar su adopción en la empresa? Foxconn ha decidido que sí: migra todas sus cargas de IA a Arcrfra.\n\n#VMware #Arcrfra #Foxconn #Hiperconvergente\nhttps://www.theregister.com/virtualization/2026/07/27/foxconn-drops-vmware-adopts-hyperconverged-upstart-arcrfra-for-workloads-including-ai/5278684",
+        "linkedin": "Foxconn abandona VMware para sus cargas de IA. El coste de las licencias se ha vuelto insostenible y necesitan más agilidad. \n\nEste movimiento es un termómetro: 𝗹𝗮 𝗜𝗔 𝗲𝘀𝘁á 𝗿𝗲𝗱𝗲𝗳𝗶𝗻𝗶𝗲𝗻𝗱𝗼 𝗹𝗮𝘀 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝗲𝘀 𝗱𝗲 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗲𝗻 𝗹𝗮𝘀 𝗴𝗿𝗮𝗻𝗱𝗲𝘀 𝗰𝗼𝗿𝗽𝗼𝗿𝗮𝗰𝗶𝗼𝗻𝗲𝘀. Arcrfra, una plataforma hiperconvergente, es la elegida para soportar estas cargas. Para los equipos de TI, es un aviso: revisad vuestros contratos antes de que el presupuesto diga basta.\n\n#VMware #Arcrfra #Foxconn #Hiperconvergente\n\nhttps://www.theregister.com/virtualization/2026/07/27/foxconn-drops-vmware-adopts-hyperconverged-upstart-arcrfra-for-workloads-including-ai/5278684"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "La soberanía digital conquista Europa, pero el Reino Unido se resiste",
+      "summary": "La imprevisibilidad de la administración Trump está empujando a gobiernos y empresas europeas hacia el código abierto y la independencia tecnológica, mientras el Reino Unido sigue dependiendo de proveedores estadounidenses. Esta divergencia estratégica podría fragmentar el mercado digital europeo y acelerar la adopción de alternativas soberanas.",
+      "why_it_matters": "La geopolítica tecnológica obliga a elegir entre depender de gigantes de EE. UU. o construir una autonomía digital con costes a corto plazo.",
+      "url": "https://www.theregister.com/columnists/2026/07/27/digital-sovereignty-is-real-in-europe-the-uk-not-so-much/5276852",
+      "source": "The Register",
+      "social": {
+        "x": "Europa se pasa al código abierto por la incertidumbre de Trump. El Reino Unido mira hacia otro lado.\n\n#OpenSource #SoberaníaDigital #Europa #ReinoUnido\nhttps://www.theregister.com/columnists/2026/07/27/digital-sovereignty-is-real-in-europe-the-uk-not-so-much/5276852",
+        "linkedin": "La imprevisibilidad de la administración Trump está reconfigurando el mapa tecnológico europeo.\n\nMientras la UE acelera su transición hacia el código abierto y la autonomía digital, el Reino Unido mantiene su dependencia de proveedores estadounidenses. Esta divergencia estratégica no solo es política: 𝗳𝗿𝗮𝗴𝗺𝗲𝗻𝘁𝗮 𝗲𝗹 𝗺𝗲𝗿𝗰𝗮𝗱𝗼 𝗱𝗶𝗴𝗶𝘁𝗮𝗹 𝘆 𝗮𝗰𝗲𝗹𝗲𝗿𝗮 𝗹𝗮 𝗮𝗱𝗼𝗽𝗰𝗶ó𝗻 𝗱𝗲 𝗮𝗹𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝘃𝗮𝘀 𝘀𝗼𝗯𝗲𝗿𝗮𝗻𝗮𝘀. Elegir bando ya no es una cuestión técnica, sino de alineamiento geoestratégico.\n\n#OpenSource #SoberaníaDigital #Europa #ReinoUnido\n\nhttps://www.theregister.com/columnists/2026/07/27/digital-sovereignty-is-real-in-europe-the-uk-not-so-much/5276852"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "industria",
+      "title": "AppleCare One, el seguro multidispositivo de Apple, llega a cuatro nuevos países",
+      "summary": "Un año después de su debut en Estados Unidos, Apple expande AppleCare One al Reino Unido, Francia, Alemania y Australia a partir del 4 de agosto. El plan agrupa la cobertura de iPhone, Apple Watch y Mac en una única suscripción mensual, simplificando la gestión de garantías.",
+      "why_it_matters": "Refuerza el ecosistema de servicios de Apple y facilita la vida a los usuarios con múltiples dispositivos de la marca.",
+      "url": "https://www.engadget.com/2223761/applecare-one-insurance-for-multiple-devices-finally-expands-outside-the-us",
+      "source": "Engadget",
+      "social": {
+        "x": "📱 Una sola suscripción mensual para cubrir tu iPhone, Watch y Mac. AppleCare One llega a Europa y Australia el 4 de agosto.\n\n#AppleCareOne #Apple #ServiciosApple\nhttps://www.engadget.com/2223761/applecare-one-insurance-for-multiple-devices-finally-expands-outside-the-us",
+        "linkedin": "Simplificar la gestión de garantías de varios dispositivos Apple con una única suscripción mensual era algo que solo disfrutaba Estados Unidos.\n\nA partir del 4 de agosto, 𝗔𝗽𝗽𝗹𝗲𝗖𝗮𝗿𝗲 𝗢𝗻𝗲 𝘀𝗲 𝗲𝘅𝗽𝗮𝗻𝗱𝗲 𝗮 𝗥𝗲𝗶𝗻𝗼 𝗨𝗻𝗶𝗱𝗼, 𝗙𝗿𝗮𝗻𝗰𝗶𝗮, 𝗔𝗹𝗲𝗺𝗮𝗻𝗶𝗮 𝘆 𝗔𝘂𝘀𝘁𝗿𝗮𝗹𝗶𝗮, llevando la cobertura unificada de iPhone, Apple Watch y Mac a nuevos mercados. Este movimiento refuerza la apuesta de Apple por los servicios recurrentes y elimina la fricción de administrar coberturas separadas, un factor que puede aumentar la retención de clientes en su ecosistema.\n\n#AppleCareOne #Apple #ServiciosApple\n\nhttps://www.engadget.com/2223761/applecare-one-insurance-for-multiple-devices-finally-expands-outside-the-us"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Google crea su propia taxonomía de ciberdelincuentes y rompe la baraja de la industria",
+      "summary": "Google ha presentado un sistema propio para nombrar y clasificar a los grupos de cibercrimen, apartándose del esfuerzo conjunto liderado por Microsoft y CrowdStrike. La nueva taxonomía, surgida del equipo de inteligencia de amenazas que integra a Mandiant, busca reflejar mejor la naturaleza de los adversarios.",
+      "why_it_matters": "La falta de un estándar común en los nombres de los actores maliciosos puede dificultar la colaboración e intercambio de información entre empresas de seguridad.",
+      "url": "https://www.theregister.com/security/2026/07/27/google-goes-it-alone-with-a-new-cybercrime-crew-taxonomy/5278749",
+      "source": "The Register",
+      "social": {
+        "x": "Mandiant (Google) rompe la baraja: crea su propia taxonomía de cibercriminales, al margen del estándar de Microsoft y CrowdStrike.\n\n#Google #Mandiant #Ciberseguridad #ThreatIntelligence\nhttps://www.theregister.com/security/2026/07/27/google-goes-it-alone-with-a-new-cybercrime-crew-taxonomy/5278749",
+        "linkedin": "Nombrar a los cibercriminales es un caos. Google acaba de añadir más confusión con su propia taxonomía.\n\nEl equipo de Mandiant acaba de presentar su sistema para clasificar adversarios, desmarcándose del estándar conjunto de Microsoft y CrowdStrike. Argumentan que refleja mejor la naturaleza de los actores, pero 𝗹𝗮 𝗳𝗮𝗹𝘁𝗮 𝗱𝗲 𝘂𝗻 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲 𝗰𝗼𝗺ú𝗻 𝗱𝗶𝗳𝗶𝗰𝘂𝗹𝘁𝗮 𝗹𝗮 𝗰𝗼𝗹𝗮𝗯𝗼𝗿𝗮𝗰𝗶ó𝗻 𝗲 𝗶𝗻𝘁𝗲𝗿𝗰𝗮𝗺𝗯𝗶𝗼 𝗱𝗲 𝗶𝗻𝘁𝗲𝗹𝗶𝗴𝗲𝗻𝗰𝗶𝗮. Para los equipos de seguridad, traducir entre taxonomías añade ruido en un entorno ya saturado de amenazas.\n\n#Google #Mandiant #Ciberseguridad #ThreatIntelligence\n\nhttps://www.theregister.com/security/2026/07/27/google-goes-it-alone-with-a-new-cybercrime-crew-taxonomy/5278749"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "El rediseño del Apple Watch se aleja hasta al menos 2027",
+      "summary": "Aunque los próximos Apple Watch Series 12 y Ultra 4 incorporarán mejoras en especificaciones, el esperado cambio de diseño no se materializará hasta dentro de al menos un año. La renovación estética, que se rumoreaba para esta generación, se pospone mientras Apple sigue refinando el hardware interno.",
+      "why_it_matters": "Da un respiro a los competidores y confirma que la compañía prima la evolución funcional sobre el aspecto en sus wearables.",
+      "url": "https://www.engadget.com/2223488/apple-watch-redesign-a-year-away-series-12-ultra-4-updates",
+      "source": "Engadget",
+      "social": {
+        "x": "Todos dábamos por hecho el nuevo diseño del Apple Watch este año. Apple lo acaba de tumbar: no llegará hasta al menos 2027.\n\n#AppleWatch #Wearables #Apple\nhttps://www.engadget.com/2223488/apple-watch-redesign-a-year-away-series-12-ultra-4-updates",
+        "linkedin": "Todos dábamos por hecho el nuevo diseño del Apple Watch este año. Pero Apple ha decidido posponerlo hasta al menos 2027.\n\nLos Series 12 y Ultra 4 se centrarán en mejoras internas, dejando la renovación estética para más adelante. Esto confirma que 𝗔𝗽𝗽𝗹𝗲 𝗽𝗿𝗶𝗺𝗮 𝗹𝗮 𝗲𝘃𝗼𝗹𝘂𝗰𝗶ó𝗻 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮𝗹 𝘀𝗼𝗯𝗿𝗲 𝗲𝗹 𝗮𝘀𝗽𝗲𝗰𝘁𝗼 en sus wearables, dando un respiro a competidores que buscan innovar en diseño.\n\n#AppleWatch #Wearables #Apple\n\nhttps://www.engadget.com/2223488/apple-watch-redesign-a-year-away-series-12-ultra-4-updates"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "herramientas",
+      "title": "Cómo hacer revisables los parches masivos generados por IA: ramas apiladas",
+      "summary": "La práctica de usar ramas apiladas (stacked branches) emerge como la respuesta a la fatiga de revisión de código producida por los asistentes de IA. Al dividir los cambios grandes en piezas pequeñas y autocontenidas, se reduce la carga cognitiva del revisor y se mantiene la productividad sin sacrificar la calidad.",
+      "why_it_matters": "Ofrece una solución pragmática a uno de los mayores cuellos de botella del desarrollo asistido por IA: la revisión eficaz del código.",
+      "url": "https://silky.github.io/posts/reviews-one-simple-trick.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "La IA dispara la cantidad de código, pero nuestro cerebro revisor no escala. La solución: ramas apiladas. Dividir cambios grandes en piezas autocontenidas reduce la carga cognitiva y mantiene la calidad.\n\n#StackedBranches #CodeReview #Git\nhttps://silky.github.io/posts/reviews-one-simple-trick.html",
+        "linkedin": "Con los asistentes de IA, revisar código se ha convertido en un embudo. La práctica de ramas apiladas, habitual en equipos de kernel o grandes proyectos open source, está ganando tracción como la forma más sensata de domar los parches masivos.\n\n𝗙𝗿𝗮𝗰𝗰𝗶𝗼𝗻𝗮𝗿 𝗰𝗮𝗱𝗮 𝗰𝗮𝗺𝗯𝗶𝗼 𝗲𝗻 𝗰𝗼𝗺𝗺𝗶𝘁𝘀 𝗽𝗲𝗾𝘂𝗲ñ𝗼𝘀 𝘆 𝗮𝘂𝘁𝗼𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗼𝘀 baja drásticamente la fricción del revisor sin renunciar a la velocidad que promete la IA. No es magia: es aplicar lo que ya funciona en entornos de alta exigencia al nuevo ritmo de producción. Si estás viendo que tu pipeline de revisión se atasca, merece la pena probarlo.\n\n#StackedBranches #CodeReview #Git\n\nhttps://silky.github.io/posts/reviews-one-simple-trick.html"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "investigacion",
+      "title": "Nuevo método para acelerar la lectura de listas de tamaño fijo en Parquet",
+      "summary": "Se ha propuesto una técnica para almacenar listas de longitud fija (como embeddings vectoriales) en Apache Parquet evitando la sobrecarga de la codificación Dremel. El enfoque trata estos datos como arrays nativos, lo que elimina redundancias y mejora el rendimiento de las consultas, especialmente en cargas de búsqueda por similitud.",
+      "why_it_matters": "Optimiza el almacenamiento y consulta de vectores de embeddings, fundamentales en sistemas de IA y recuperación de información.",
+      "url": "https://www.morling.dev/blog/fast-path-for-fixed-length-lists-in-parquet",
+      "source": "Lobsters",
+      "social": {
+        "x": "Leer vectores de embeddings desde Parquet es lento por cómo se codifican. Un nuevo método los trata como arrays nativos y acelera las consultas.\n\n#Parquet #Embeddings #VectorSearch #ApacheParquet\nhttps://www.morling.dev/blog/fast-path-for-fixed-length-lists-in-parquet",
+        "linkedin": "Si almacenas embeddings en Parquet, probablemente estás pagando un coste oculto de rendimiento.\n\nLa codificación Dremel añade sobrecarga al leer listas de tamaño fijo, como vectores, penalizando cargas de búsqueda por similitud. Una nueva propuesta evita esta capa y trata los datos como arrays nativos, 𝗲𝗹𝗶𝗺𝗶𝗻𝗮𝗻𝗱𝗼 𝗿𝗲𝗱𝘂𝗻𝗱𝗮𝗻𝗰𝗶𝗮𝘀 𝘆 𝗮𝗰𝗲𝗹𝗲𝗿𝗮𝗻𝗱𝗼 𝗹𝗮𝘀 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮𝘀. Para equipos que trabajan con sistemas de IA y recuperación de información, este ajuste en el formato de almacenamiento puede suponer una mejora significativa sin cambiar de herramienta.\n\n#Parquet #Embeddings #VectorSearch #ApacheParquet\n\nhttps://www.morling.dev/blog/fast-path-for-fixed-length-lists-in-parquet"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "investigacion",
+      "title": "La mayoría del tráfico de Googlebot es falso, y eso es un problema",
+      "summary": "Un análisis reciente muestra que gran parte de las peticiones que se hacen pasar por el rastreador de Google provienen de bots no oficiales, probablemente usados para scraping y entrenamiento de IA. Esta suplantación sobrecarga los servidores y enmascara el tráfico legítimo, complicando la detección de abusos.",
+      "why_it_matters": "Evidencia la escala del problema del rastreo web no autorizado, que afecta al rendimiento y la seguridad de los sitios.",
+      "url": "https://digitalseams.com/blog/most-googlebots-are-fake",
+      "source": "Hacker News",
+      "social": {
+        "x": "La mayoría del tráfico que ves como Googlebot es un engaño: lo usan para scrapeo y entrenamiento de IA.\n\n#Googlebot #WebScraping #Ciberseguridad\nhttps://digitalseams.com/blog/most-googlebots-are-fake",
+        "linkedin": "¿Confías en que las visitas de Googlebot a tu web son realmente de Google? Probablemente no deberías.\n\nUn análisis reciente muestra que 𝗹𝗮 𝗺𝗮𝘆𝗼𝗿í𝗮 𝗱𝗲𝗹 𝘁𝗿á𝗳𝗶𝗰𝗼 𝗲𝘁𝗶𝗾𝘂𝗲𝘁𝗮𝗱𝗼 𝗰𝗼𝗺𝗼 𝗚𝗼𝗼𝗴𝗹𝗲𝗯𝗼𝘁 𝗽𝗿𝗼𝘃𝗶𝗲𝗻𝗲 𝗱𝗲 𝗯𝗼𝘁𝘀 𝗻𝗼 𝗼𝗳𝗶𝗰𝗶𝗮𝗹𝗲𝘀 dedicados al scraping y al entrenamiento de modelos de IA. Esta suplantación sobrecarga los servidores, distorsiona las métricas y complica la detección de accesos maliciosos. La industria lleva años confiando en cabeceras de agente de usuario que, a la vista de estos datos, resultan fáciles de falsificar y difíciles de verificar a escala.\n\n#Googlebot #WebScraping #Ciberseguridad\n\nhttps://digitalseams.com/blog/most-googlebots-are-fake"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "investigacion",
+      "title": "Diseñando criptografía para que sea difícil de usar mal",
+      "summary": "El artículo analiza por qué los protocolos criptográficos complejos fracasan en la práctica y propone principios para lograr que los sistemas sean seguros por defecto. Se subraya la importancia de la usabilidad en el diseño criptográfico, con ejemplos concretos de cómo pequeñas decisiones de interfaz pueden evitar errores catastróficos.",
+      "why_it_matters": "Recuerda que la seguridad no depende solo de los algoritmos, sino de hacer que sea prácticamente imposible cometer fallos humanos.",
+      "url": "https://www.dlp.rip/everyday-cryptography",
+      "source": "Lobsters",
+      "social": {
+        "x": "El fallo no está en el algoritmo, está en la interfaz. Por eso la criptografía debe diseñarse para que usarla mal sea casi imposible.\n\n#Criptografía #Seguridad #Usabilidad\nhttps://www.dlp.rip/everyday-cryptography",
+        "linkedin": "El fallo no está en el algoritmo, está en la interfaz.\n\nLo recuerda un análisis en Lobsters: los protocolos criptográficos complejos fracasan porque no se diseñan para humanos. 𝗟𝗮 𝘂𝘀𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗲𝘀 𝘁𝗮𝗻 𝗰𝗿í𝘁𝗶𝗰𝗮 𝗰𝗼𝗺𝗼 𝗹𝗼𝘀 𝗽𝗿𝗼𝗽𝗶𝗼𝘀 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗺𝗼𝘀: pequeñas decisiones de interfaz pueden evitar fugas de datos masivas. Para cualquier equipo que diseñe sistemas seguros, el mensaje es claro: si el camino fácil es el inseguro, los usuarios lo tomarán.\n\n#Criptografía #Seguridad #Usabilidad\n\nhttps://www.dlp.rip/everyday-cryptography"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "Una colección de cuadernos con recetas prácticas para aprovechar las capacidades de Claude de forma creativa y efectiva.",
+      "language": "Jupyter Notebook",
+      "stars": 50435,
+      "social": {
+        "x": "50.000 estrellas en GitHub. Es el recetario oficial de Anthropic para aprovechar Claude al máximo. Sin teoría, solo recetas prácticas.\n\n#Claude #Anthropic #OpenSource #Jupyter\nhttps://github.com/anthropics/claude-cookbooks",
+        "linkedin": "ANTHROPIC REGALA SU RECETARIO SECRETO DE CLAUDE\n\nNo es un manual genérico. Es una colección de cuadernos Jupyter con 𝗿𝗲𝗰𝗲𝘁𝗮𝘀 𝗽𝗿á𝗰𝘁𝗶𝗰𝗮𝘀 para exprimir las capacidades de Claude de forma creativa y efectiva. Mientras muchos solo chatean, este repo muestra cómo integrarlo en flujos reales.\n\n→ Procesamiento de texto avanzado\n→ Llamadas a APIs y herramientas externas\n→ Casos multimodales con visión e imágenes\n→ Plantillas listas para ejecutar y adaptar\n\nIdeal para desarrolladores que quieren ir más allá del prompt básico. Te dejo el repo abajo para que lo guardes y le des una estrella.\n\n#Claude #Anthropic #OpenSource #Jupyter\n\nhttps://github.com/anthropics/claude-cookbooks"
+      }
+    },
+    {
+      "name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "Un lenguaje de diseño que ayuda a tus herramientas de IA a crear interfaces más pulidas y coherentes.",
+      "language": "JavaScript",
+      "stars": 51051,
+      "social": {
+        "x": "Alguien acaba de liberar un lenguaje de diseño que vuelve impecables las UIs creadas por IA. 51k estrellas lo avalan.\n\n#impeccable #OpenSource #JavaScript #GitHub\nhttps://github.com/pbakaus/impeccable",
+        "linkedin": "HAN CREADO UN LENGUAJE DE DISEÑO PARA QUE LA IA MONTE INTERFACES DE FORMA IMPECABLE\n\nLas herramientas de IA generan código funcional, pero el diseño suele ser un desastre. Sin consistencia, sin jerarquía visual, sin gusto. Este repositorio soluciona eso proporcionando un sistema de diseño completo pensado para que cualquier modelo de IA produzca interfaces pulidas y coherentes.\n\n→ Define tokens de diseño reutilizables (colores, tipografía, espaciado).\n→ Componentes de UI listos para generar con cualquier framework.\n→ Patrones de layout que garantizan consistencia visual.\n→ Totalmente open source y en JavaScript.\n\n𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝘀𝘁𝗮𝗻𝗱𝗮𝗿𝗶𝘇𝗮𝗿 𝗲𝗹 𝗼𝘂𝘁𝗽𝘂𝘁 𝘃𝗶𝘀𝘂𝗮𝗹 𝗱𝗲 𝗹𝗮 𝗜𝗔. Guarda este post y el repo para la próxima vez que necesites que tu IA tenga buen ojo.\n\nTe dejo el repo abajo.\n\n#impeccable #OpenSource #JavaScript #GitHub\n\nhttps://github.com/pbakaus/impeccable"
+      }
+    },
+    {
+      "name": "permissionlesstech/bitchat",
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "description": "Chat descentralizado sobre Bluetooth mesh con un toque retro, inspirado en el IRC, para comunicarte sin conexión a internet.",
+      "language": "Swift",
+      "stars": 31404,
+      "social": {
+        "x": "Olvídate de WhatsApp cuando no hay cobertura: este chat descentralizado por Bluetooth mesh con look IRC ya tiene 31k estrellas.\n\n#BluetoothMesh #IRC #Swift #OpenSource\nhttps://github.com/permissionlesstech/bitchat",
+        "linkedin": "UN CHAT DESCENTRALIZADO QUE FUNCIONA SIN INTERNET\n\nEste 𝗰𝗵𝗮𝘁 𝗱𝗲𝘀𝗰𝗲𝗻𝘁𝗿𝗮𝗹𝗶𝘇𝗮𝗱𝗼 𝘀𝗶𝗻 𝗶𝗻𝘁𝗲𝗿𝗻𝗲𝘁 utiliza Bluetooth mesh y revive la experiencia del IRC. Ya suma más de 31.400 estrellas en GitHub porque resuelve un problema real: comunicarse cuando no hay datos móviles ni WiFi.\n\n→ Chats en salas públicas, al estilo IRC.\n→ Conexión directa entre dispositivos vía Bluetooth mesh.\n→ Sin servidores centrales, sin routers, sin configuración.\n→ Totalmente privado y self-hosted.\n→ Escrito en Swift, open source.\n\nGuarda este post para cuando no tengas cobertura. Te dejo el repo abajo.\n\n#BluetoothMesh #IRC #Swift #OpenSource\n\nhttps://github.com/permissionlesstech/bitchat"
+      }
+    },
+    {
+      "name": "amnezia-vpn/amnezia-client",
+      "url": "https://github.com/amnezia-vpn/amnezia-client",
+      "description": "Cliente VPN de código abierto para escritorio y móvil que simplifica la navegación privada y segura.",
+      "language": "C++",
+      "stars": 13539,
+      "social": {
+        "x": "Si pagas por una VPN, este repositorio te va a doler. Un cliente open source, privado y multiplataforma con 13k estrellas.\n\n#AmneziaVPN #OpenSource #VPN #Privacidad\nhttps://github.com/amnezia-vpn/amnezia-client",
+        "linkedin": "SI USAS UNA VPN DE PAGO, ESTE REPO OPEN SOURCE TE HARÁ REPLANTEÁRTELO.\n\nAmnezia VPN es un cliente de código abierto para escritorio y móvil que simplifica la navegación privada. Mientras otros servicios te cobran suscripciones y almacenan tus datos, este proyecto te da control total: sin registros, sin límites, sin sorpresas.\n\n→ Funciona en Windows, macOS, Linux, Android e iOS.\n→ Cifrado fuerte y sin configuraciones complicadas.\n→ Código abierto y verificable.\n→ Más de 13.000 estrellas en GitHub avalan su fiabilidad.\n\n𝗟𝗮 𝗰𝗹𝗮𝘃𝗲: no necesitas confiar en una empresa, el código habla por sí mismo. 💾 Guarda este post para cuando quieras pasarte al lado open source.\n\nTe dejo el repositorio abajo.\n\n#AmneziaVPN #OpenSource #VPN #Privacidad\n\nhttps://github.com/amnezia-vpn/amnezia-client"
+      }
+    },
+    {
+      "name": "nodejs/node",
+      "url": "https://github.com/nodejs/node",
+      "description": "El runtime JavaScript que sostiene el backend moderno, siempre en evolución y con una comunidad enorme.",
+      "language": "JavaScript",
+      "stars": 118546,
+      "social": {
+        "x": "118k estrellas y cero paywall. El runtime JavaScript que corre en Netflix, PayPal y LinkedIn.\n\n#NodeJS #JavaScript #OpenSource #GitHub\nhttps://github.com/nodejs/node",
+        "linkedin": "EL RUNTIME QUE SOSTIENE INTERNET NO ES UNA CAJA NEGRA.\nCuando desplegas en la nube, probablemente debajo corre Node.js. Es el motor JavaScript asíncrono que eligieron Netflix, PayPal o LinkedIn para sus sistemas críticos, y lo mantiene una comunidad de miles de personas.\n\n→ Maneja E/S no bloqueante con un solo hilo\n→ Miles de paquetes listos para usar gracias a npm\n→ Se actualiza cada seis meses con nuevas capacidades\n→ Ejecuta el mismo código en servidor, escritorio y dispositivos embebidos\n\nNo es un producto comercial: es el runtime que tú también puedes mejorar. 𝗘𝗹 𝗽𝗼𝗱𝗲𝗿 𝗱𝗲 𝗡𝗼𝗱𝗲.𝗷𝘀 𝗲𝘀 𝗾𝘂𝗲 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿𝗮 𝗽𝘂𝗲𝗱𝗲 𝗮𝘂𝗱𝗶𝘁𝗮𝗿 𝘀𝘂 𝗻ú𝗰𝗹𝗲𝗼 𝘆 𝗰𝗼𝗻𝘁𝗿𝗶𝗯𝘂𝗶𝗿. Te dejo el repo abajo para que explores, pruebes y, si te animas, hagas tu primer pull request.\n\n#NodeJS #JavaScript #OpenSource #GitHub\n\nhttps://github.com/nodejs/node"
+      }
+    }
+  ]
+}
