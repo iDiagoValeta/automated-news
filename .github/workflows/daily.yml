@@ -59,16 +59,20 @@ jobs:
             echo "En Madrid aún no son las 09:00 (hora $hora): se omite hasta el siguiente cron."
           fi
 
+      - name: Instalar pnpm
+        if: steps.guard.outputs.run == 'true'
+        uses: pnpm/action-setup@v4
+
       - name: Configurar Node
         if: steps.guard.outputs.run == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: "24"
-          cache: "npm"
+          cache: "pnpm"
 
       - name: Instalar dependencias
         if: steps.guard.outputs.run == 'true'
-        run: npm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Ejecutar pipeline (recogida, enriquecimiento, curación, posts)
         if: steps.guard.outputs.run == 'true' && ! inputs.skip_pipeline
@@ -77,11 +81,11 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-        run: npm run pipeline
+        run: pnpm run pipeline
 
       - name: Construir sitio (Eleventy)
         if: steps.guard.outputs.run == 'true'
-        run: npm run build
+        run: pnpm run build
 
       - name: Commit de la edición del día
         if: steps.guard.outputs.run == 'true'

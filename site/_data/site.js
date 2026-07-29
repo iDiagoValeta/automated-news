@@ -1,7 +1,20 @@
 export default {
   title: "La Terminal",
   tagline: "La actualidad tecnológica, cada mañana",
-  descripcion: "Las noticias de tecnología más relevantes del día, resumidas en español.",
+  descripcion:
+    "Diario estático de noticias de tecnología en español, publicado cada día en GitHub Pages.",
+  keywords: [
+    "noticias tecnología",
+    "tech news",
+    "diario estático",
+    "GitHub Pages",
+    "open source",
+    "repositorios",
+    "inteligencia artificial",
+    "español",
+    "Eleventy",
+    "automatización",
+  ],
   repo: "https://github.com/iDiagoValeta/automated-news",
   autor: {
     nombre: "Ignacio Diago Valeta",

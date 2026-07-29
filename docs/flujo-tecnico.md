@@ -132,7 +132,7 @@ Sección independiente de las noticias, también **best effort**.
 Ficheros: `pipeline/index.ts`, `eleventy.config.mjs`, `site/_data/editions.js`, `site/_includes/`, `site/*.njk`.
 
 - El orquestador escribe `data/YYYY-MM-DD.json` con `writeFileSync`.
-- **Eleventy** (`npm run build`) lee todas las ediciones vía `site/_data/editions.js`, que ordena los ítems de cada edición por `rank`, ordena las ediciones de más reciente a más antigua y calcula número, rutas y vecinos.
+- **Eleventy** (`pnpm run build`) lee todas las ediciones vía `site/_data/editions.js`, que ordena los ítems de cada edición por `rank`, ordena las ediciones de más reciente a más antigua y calcula número, rutas y vecinos.
 - Las plantillas Nunjucks renderizan el sitio. `site/_includes/edicion.njk` compone la edición de noticias (el destacado `items[0]` más la rejilla de noticias) y `archivo.njk` el histórico de ediciones. `eleventy.config.mjs` aporta los filtros de fecha en español y el separador de miles.
 - **Navegación unificada.** Cada sección lleva arriba un botón que despliega un **calendario** en un popover (`site/_includes/calendario.njk` + `site/js/calendario.js`; `<details>` que se cierra al clic fuera o con Escape): abre en el día actual, resalta ese día y solo deja seleccionar los días con edición (el resto quedan deshabilitados); las fechas disponibles se inyectan como JSON y el JS renderiza el mes y navega entre meses dentro del rango publicado. Debajo, una barra secuencial (`nav-temporal.njk`) lleva al día anterior o siguiente. La cabecera (`base.njk`) resalta la pestaña activa entre Noticias, Repositorios y Archivo.
 - **Sección de repositorios.** Los repos se muestran en su propia pestaña, no dentro de la edición. `site/_data/reposEditions.js` expone las ediciones que tienen repos (con ruta bajo `/repositorios/` y sus vecinos), y las plantillas `repositorios.njk` (portada) y `repos-dia.njk` (una página por fecha) renderizan la lista reutilizando el include `repos-lista.njk`.
@@ -170,14 +170,15 @@ El digest tiene `date`, `generated_at`, `provider`, un array `items` (de 6 a 20 
 ## 14. Ejecución local
 
 ```bash
-npm ci
-npm run pipeline -- --collect-only   # imprime los ítems normalizados, sin llamar al modelo
-npm test                             # normalización, validación, trending, deduplicación de repos y posts
-npm run typecheck                    # tsc --noEmit
-npm run build                        # genera _site/
-npm run dev                          # servidor local
+corepack enable
+pnpm install --frozen-lockfile
+pnpm run pipeline -- --collect-only   # imprime los ítems normalizados, sin llamar al modelo
+pnpm test                             # normalización, validación, trending, deduplicación de repos y posts
+pnpm run typecheck                    # tsc --noEmit
+pnpm run build                        # genera _site/
+pnpm run dev                          # servidor local
 
 # Edición real (requiere credencial):
 export DEEPSEEK_API_KEY=sk-...       # PowerShell: $env:DEEPSEEK_API_KEY="sk-..."
-npm run pipeline                     # escribe data/<hoy>.json
+pnpm run pipeline                     # escribe data/<hoy>.json
 ```

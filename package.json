@@ -1,12 +1,26 @@
 {
   "name": "automated-news",
   "version": "1.0.0",
-  "description": "La Terminal: actualidad tecnológica y repositorios open source, curados a diario en español.",
+  "description": "Diario estático de noticias de tecnología en español, publicado cada día en GitHub Pages.",
   "type": "module",
   "private": true,
+  "license": "MIT",
+  "packageManager": "pnpm@10.12.1",
   "engines": {
     "node": ">=22.6"
   },
+  "keywords": [
+    "tech-news",
+    "noticias-tecnologia",
+    "static-site",
+    "github-pages",
+    "eleventy",
+    "spanish",
+    "open-source",
+    "news-aggregator",
+    "automation",
+    "llm"
+  ],
   "scripts": {
     "pipeline": "node pipeline/index.ts",
     "build": "eleventy",

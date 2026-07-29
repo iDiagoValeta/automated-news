@@ -1,8 +1,8 @@
 # La Terminal
 
-La actualidad tecnológica, cada mañana.
+Diario estático de noticias de tecnología en español, publicado cada día en GitHub Pages.
 
-[La Terminal](https://idiagovaleta.github.io/automated-news/) es un diario estático en español que reúne las noticias tecnológicas más relevantes y los repositorios open source que están ganando tracción. El pipeline recoge las fuentes, elimina duplicados, amplía el contexto, selecciona lo importante con un LLM y publica una edición navegable en GitHub Pages.
+[La Terminal](https://idiagovaleta.github.io/automated-news/) reúne las noticias tecnológicas más relevantes y los repositorios open source que están ganando tracción. El pipeline recoge las fuentes, elimina duplicados, amplía el contexto, selecciona lo importante con un LLM y publica una edición navegable en GitHub Pages.
 
 No necesita servidor ni base de datos: cada edición queda guardada como JSON dentro del propio repositorio.
 
@@ -60,32 +60,33 @@ El flujo técnico completo está documentado en [docs/flujo-tecnico.md](docs/flu
 ### Requisitos
 
 - Node.js 22.6 o superior. Node.js 24 es la versión usada en CI.
-- npm.
+- pnpm (se instala con `corepack enable`).
 
 ```bash
 git clone https://github.com/iDiagoValeta/automated-news.git
 cd automated-news
-npm ci
+corepack enable
+pnpm install --frozen-lockfile
 ```
 
 Comprobar la recogida sin utilizar un LLM:
 
 ```bash
-npm run pipeline -- --collect-only
+pnpm run pipeline -- --collect-only
 ```
 
 Ejecutar las comprobaciones:
 
 ```bash
-npm test
-npm run typecheck
-npm run build
+pnpm test
+pnpm run typecheck
+pnpm run build
 ```
 
 Abrir el sitio en desarrollo:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 Eleventy lo servirá bajo `http://localhost:8080/automated-news/`.
@@ -96,14 +97,14 @@ Por defecto se usa DeepSeek:
 
 ```bash
 export DEEPSEEK_API_KEY=sk-...
-npm run pipeline
+pnpm run pipeline
 ```
 
 En PowerShell:
 
 ```powershell
 $env:DEEPSEEK_API_KEY="sk-..."
-npm run pipeline
+pnpm run pipeline
 ```
 
 El resultado se escribe en `data/YYYY-MM-DD.json`. El pipeline es idempotente: si la edición de hoy ya existe, no vuelve a consumir el proveedor.
@@ -173,4 +174,4 @@ Los JSON históricos forman parte del producto: alimentan el archivo público, l
 
 ## Licencia
 
-Este repositorio no incluye todavía una licencia de uso. El código se publica para consulta, pero no se concede automáticamente permiso para reutilizarlo o redistribuirlo.
+MIT. Ver [LICENSE](LICENSE).
