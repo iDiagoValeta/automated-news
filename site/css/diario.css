@@ -1,6 +1,6 @@
 /* La Terminal. Estética de diario, tinta sobre papel. La separación la hace el
-   espacio, no las líneas; el color se reserva a lo interactivo. Solo modo claro.
-   Textura: grano de papel + lavados tonales para dar profundidad sin ruido. */
+   espacio, no las líneas; el color se reserva a lo interactivo. Modo claro y
+   oscuro vía prefers-color-scheme. Textura: grano de papel + lavados tonales. */
 
 :root {
   --paper: #f7f4ec;
@@ -13,6 +13,19 @@
   --link: #1a2430;
   --shadow: rgba(40, 32, 18, 0.1);
   --shadow-deep: rgba(40, 32, 18, 0.18);
+  --shadow-card: rgba(40, 32, 18, 0.05);
+  --highlight: rgba(255, 252, 245, 0.7);
+  --highlight-strong: rgba(255, 252, 245, 0.85);
+  --highlight-mid: rgba(255, 252, 245, 0.55);
+  --highlight-soft: rgba(255, 252, 245, 0.65);
+  --surface-glow: rgba(255, 252, 245, 0.55);
+  --surface-glow-strong: rgba(255, 252, 245, 0.75);
+  --text-shadow-light: rgba(40, 32, 18, 0.12);
+  --vignette: rgba(40, 32, 18, 0.055);
+  --wash-cool: rgba(51, 82, 110, 0.045);
+  --wash-warm: rgba(120, 88, 48, 0.05);
+  --grain-opacity: 0.35;
+  --on-accent: #f7f4ec;
 
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -21,12 +34,41 @@
   --wrap: 1180px;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #1a1814;
+    --paper-bright: #221f1a;
+    --paper-deep: #141210;
+    --ink: #e8e4dc;
+    --muted: #9a9488;
+    --faint: #3a3530;
+    --accent: #6b9bc4;
+    --link: #c8d8e8;
+    --shadow: rgba(0, 0, 0, 0.28);
+    --shadow-deep: rgba(0, 0, 0, 0.45);
+    --shadow-card: rgba(0, 0, 0, 0.2);
+    --highlight: rgba(255, 255, 255, 0.06);
+    --highlight-strong: rgba(255, 255, 255, 0.1);
+    --highlight-mid: rgba(255, 255, 255, 0.04);
+    --highlight-soft: rgba(255, 255, 255, 0.05);
+    --surface-glow: rgba(255, 255, 255, 0.04);
+    --surface-glow-strong: rgba(255, 255, 255, 0.07);
+    --text-shadow-light: rgba(0, 0, 0, 0.35);
+    --vignette: rgba(0, 0, 0, 0.32);
+    --wash-cool: rgba(51, 82, 110, 0.14);
+    --wash-warm: rgba(120, 88, 48, 0.1);
+    --grain-opacity: 0.14;
+    --on-accent: #141210;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
 
 html {
   -webkit-text-size-adjust: 100%;
+  color-scheme: light dark;
 }
 
 body {
@@ -42,8 +84,8 @@ body {
   background-color: var(--paper);
   background-image:
     radial-gradient(ellipse 90% 55% at 50% -8%, var(--paper-bright) 0%, transparent 58%),
-    radial-gradient(ellipse 45% 35% at 0% 70%, rgba(51, 82, 110, 0.045) 0%, transparent 70%),
-    radial-gradient(ellipse 40% 30% at 100% 40%, rgba(120, 88, 48, 0.05) 0%, transparent 65%),
+    radial-gradient(ellipse 45% 35% at 0% 70%, var(--wash-cool) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 30% at 100% 40%, var(--wash-warm) 0%, transparent 65%),
     linear-gradient(180deg, var(--paper-deep) 0%, var(--paper) 18%, var(--paper-bright) 72%, var(--paper-deep) 100%);
 }
 
@@ -58,7 +100,7 @@ body::before {
   height: 100dvh;
   z-index: -1;
   pointer-events: none;
-  opacity: 0.35;
+  opacity: var(--grain-opacity);
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.12 0 0 0 0 0.1 0 0 0 0 0.07 0 0 0 0.55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-repeat: repeat;
   background-size: 180px 180px;
@@ -75,7 +117,7 @@ body::after {
   height: 100dvh;
   z-index: -1;
   pointer-events: none;
-  background: radial-gradient(ellipse 75% 65% at 50% 40%, transparent 50%, rgba(40, 32, 18, 0.055) 100%);
+  background: radial-gradient(ellipse 75% 65% at 50% 40%, transparent 50%, var(--vignette) 100%);
 }
 
 a {
@@ -96,7 +138,7 @@ a {
   border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--faint));
   border-radius: 4px;
   background: color-mix(in srgb, var(--accent) 8%, var(--paper-bright));
-  box-shadow: inset 0 1px 0 rgba(255, 252, 245, 0.7);
+  box-shadow: inset 0 1px 0 var(--highlight);
 }
 
 .skip {
@@ -137,8 +179,8 @@ a {
   letter-spacing: 0.005em;
   text-decoration: none;
   text-shadow:
-    0 1px 0 rgba(255, 252, 245, 0.7),
-    0 1px 2px rgba(40, 32, 18, 0.12);
+    0 1px 0 var(--highlight),
+    0 1px 2px var(--text-shadow-light);
 }
 
 .masthead__tagline {
@@ -154,7 +196,7 @@ a {
   margin-top: 1.9rem;
   padding-top: 1rem;
   border-top: 1px solid var(--faint);
-  box-shadow: 0 -1px 0 rgba(255, 252, 245, 0.65);
+  box-shadow: 0 -1px 0 var(--highlight-soft);
   font-family: var(--mono);
   font-size: 0.74rem;
   letter-spacing: 0.14em;
@@ -234,7 +276,7 @@ a {
   padding-bottom: 3rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid var(--faint);
-  box-shadow: 0 1px 0 rgba(255, 252, 245, 0.55);
+  box-shadow: 0 1px 0 var(--highlight-mid);
 }
 .lead__title {
   font-family: var(--serif);
@@ -244,7 +286,7 @@ a {
   letter-spacing: -0.012em;
   margin: 0 0 1rem;
   max-width: 22ch;
-  text-shadow: 0 1px 0 rgba(255, 252, 245, 0.55);
+  text-shadow: 0 1px 0 var(--highlight-mid);
 }
 .lead__title a {
   color: var(--link);
@@ -311,12 +353,12 @@ a {
   border: 1px solid var(--faint);
   border-radius: 8px;
   background:
-    linear-gradient(165deg, rgba(255, 252, 245, 0.55) 0%, transparent 42%),
+    linear-gradient(165deg, var(--surface-glow) 0%, transparent 42%),
     color-mix(in srgb, var(--paper-bright) 70%, transparent);
   box-shadow:
-    inset 0 1px 0 rgba(255, 252, 245, 0.75),
+    inset 0 1px 0 var(--surface-glow-strong),
     0 1px 2px var(--shadow),
-    0 6px 18px rgba(40, 32, 18, 0.05);
+    0 6px 18px var(--shadow-card);
 }
 .repo__head {
   display: flex;
@@ -414,7 +456,7 @@ a {
   padding: 0.5rem 0.9rem;
   user-select: none;
   background: color-mix(in srgb, var(--paper-bright) 80%, transparent);
-  box-shadow: inset 0 1px 0 rgba(255, 252, 245, 0.8), 0 1px 2px var(--shadow);
+  box-shadow: inset 0 1px 0 var(--highlight-strong), 0 1px 2px var(--shadow);
 }
 .cal-menu__boton::-webkit-details-marker {
   display: none;
@@ -442,7 +484,7 @@ a {
   border-radius: 10px;
   padding: 1rem;
   box-shadow:
-    inset 0 1px 0 rgba(255, 252, 245, 0.85),
+    inset 0 1px 0 var(--highlight-strong),
     0 4px 12px var(--shadow),
     0 18px 40px var(--shadow-deep);
 }
@@ -518,7 +560,7 @@ a {
 }
 .calendario__celda--disp.is-actual {
   background: var(--accent);
-  color: var(--paper);
+  color: var(--on-accent);
   border-color: var(--accent);
 }
 
@@ -586,7 +628,7 @@ a {
   margin: 0 auto;
   padding: 2.5rem 1.5rem 3.5rem;
   border-top: 1px solid var(--faint);
-  box-shadow: 0 -1px 0 rgba(255, 252, 245, 0.55);
+  box-shadow: 0 -1px 0 var(--highlight-mid);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -674,13 +716,13 @@ a {
   background: color-mix(in srgb, var(--paper-bright) 65%, transparent);
   color: var(--muted);
   cursor: pointer;
-  box-shadow: inset 0 1px 0 rgba(255, 252, 245, 0.7);
+  box-shadow: inset 0 1px 0 var(--highlight);
   transition: color 0.15s, border-color 0.15s, box-shadow 0.15s;
 }
 .share__btn:hover {
   color: var(--ink);
   border-color: var(--accent);
-  box-shadow: inset 0 1px 0 rgba(255, 252, 245, 0.85), 0 1px 3px var(--shadow);
+  box-shadow: inset 0 1px 0 var(--highlight-strong), 0 1px 3px var(--shadow);
 }
 .share__btn.is-copied {
   color: var(--accent);
@@ -723,17 +765,17 @@ a {
   text-decoration: none;
   color: inherit;
   background:
-    linear-gradient(165deg, rgba(255, 252, 245, 0.5) 0%, transparent 45%),
+    linear-gradient(165deg, var(--surface-glow) 0%, transparent 45%),
     color-mix(in srgb, var(--paper-bright) 65%, transparent);
   box-shadow:
-    inset 0 1px 0 rgba(255, 252, 245, 0.7),
+    inset 0 1px 0 var(--highlight),
     0 1px 2px var(--shadow);
   transition: border-color 0.15s, box-shadow 0.15s;
 }
 .archivo-indice__item a:hover {
   border-color: var(--accent);
   box-shadow:
-    inset 0 1px 0 rgba(255, 252, 245, 0.85),
+    inset 0 1px 0 var(--highlight-strong),
     0 4px 14px var(--shadow);
 }
 .archivo-indice__nombre {
