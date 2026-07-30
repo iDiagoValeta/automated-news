@@ -1,0 +1,324 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T09:36:28.851Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "herramientas",
+      "title": "Motor open source ejecuta Gemma 4 26B con solo 2 GB de RAM en Macs M-series",
+      "summary": "El proyecto turbo-fieldfare permite inferencia del modelo Gemma 4 26B-A4B en MacBooks con chip M-series usando apenas 2 GB de RAM. Está disponible en GitHub y representa un avance notable en eficiencia para modelos de lenguaje de gran tamaño en hardware de consumo.",
+      "why_it_matters": "Facilita el acceso a modelos de IA avanzados sin necesidad de hardware especializado.",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un modelo de 26B parámetros, funcionando en un MacBook con solo 2 GB de RAM. El proyecto turbo-fieldfare lo hace posible y es open source.\n\n#Gemma4 #OpenSource #AppleSilicon #turboFieldfare\nhttps://github.com/drumih/turbo-fieldfare",
+        "linkedin": "Ejecutar un modelo de 26.000 millones de parámetros en un portátil y con solo 2 GB de RAM ya es posible.\nEl proyecto open source turbo-fieldfare permite la inferencia de Gemma 4 26B-A4B en Macs con chip M-series con un consumo de memoria mínimo. Esto cambia las reglas para desarrolladores y entusiastas que quieren experimentar con modelos avanzados sin depender de la nube. 𝗟𝗮 𝗲𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝗶𝗮 𝗲𝗻 𝗲𝗹 𝗰𝗼𝗻𝘀𝘂𝗺𝗼 𝗱𝗲 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗮𝗰𝗲𝗿𝗰𝗮 𝗹𝗮 𝗜𝗔 𝗮 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗱𝗶𝘀𝗽𝗼𝘀𝗶𝘁𝗶𝘃𝗼.\n\n#Gemma4 #OpenSource #AppleSilicon #turboFieldfare\n\nhttps://github.com/drumih/turbo-fieldfare"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "DeepMind lanza Lyria 3.5, su modelo de generación musical más avanzado",
+      "summary": "Google Flow Music incorpora la nueva versión del modelo Lyria, con mejoras en musicalidad, letras, voces y control creativo. Es la apuesta más ambiciosa de DeepMind por la música generada por IA.",
+      "why_it_matters": "Eleva el listón de la creatividad asistida y podría popularizar la producción musical con IA.",
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "🎵 Lyria 3.5 eleva la música generada por IA a un nivel que no esperábamos tan pronto. DeepMind acaba de lanzarlo dentro de Google Flow Music.\n\n#DeepMind #Lyria3 #GoogleFlowMusic #MúsicaGenerativa\nhttps://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control",
+        "linkedin": "DeepMind acaba de lanzar Lyria 3.5 y la música generada por IA ya suena a algo que podrías lanzar mañana.\nIntegrado en Google Flow Music, el modelo mejora musicalidad, voces y control creativo. 𝗟𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻 𝗺𝘂𝘀𝗶𝗰𝗮𝗹 𝗮𝘀𝗶𝘀𝘁𝗶𝗱𝗮 𝗽𝗼𝗿 𝗜𝗔 𝘀𝗮𝗹𝗲 𝗱𝗲𝗹 𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗼𝗿𝗶𝗼 y se convierte en una opción real para creadores que no quieren esperar meses a un productor.\n\n#DeepMind #Lyria3 #GoogleFlowMusic #MúsicaGenerativa\n\nhttps://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "Tokenless: el router que reduce a la mitad el coste de las llamadas a modelos de IA",
+      "summary": "Tokenless ofrece un servicio de enrutamiento automático entre modelos de OpenAI y Anthropic, seleccionando en tiempo real el modelo más eficiente para cada prompt. Promete la misma calidad a menos de la mitad de coste, cancelando las llamadas a modelos costosos si uno más pequeño ya resuelve la tarea.",
+      "why_it_matters": "Ahorro directo para desarrolladores que usan APIs de IA sin sacrificar calidad.",
+      "url": "https://usetokenless.com",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Pagas cada prompt a la API de IA como si fuera el más complejo? Tokenless lo redirige al modelo más barato que lo resuelva y ahorras >50% sin perder calidad.\n\n#Tokenless #OpenAI #Anthropic\nhttps://usetokenless.com",
+        "linkedin": "Cuando cada prompt llama al modelo más caro por defecto, el coste se dispara sin necesidad. Tokenless redirige las peticiones al modelo más eficiente y ahorra más del 50% sin sacrificar calidad.\n\nLa clave no es un descuento en las APIs, sino 𝗰𝗮𝗻𝗰𝗲𝗹𝗮𝗿 𝗹𝗮 𝗹𝗹𝗮𝗺𝗮𝗱𝗮 𝗮𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗰𝗮𝗿𝗼 𝗲𝗻 𝘁𝗶𝗲𝗺𝗽𝗼 𝗿𝗲𝗮𝗹 𝘀𝗶 𝘂𝗻𝗼 𝗽𝗲𝗾𝘂𝗲ñ𝗼 𝘆𝗮 𝗿𝗲𝘀𝘂𝗲𝗹𝘃𝗲 𝗹𝗮 𝘁𝗮𝗿𝗲𝗮. Esta capa de enrutamiento entre OpenAI y Anthropic cambia las reglas para startups y equipos que buscan escalar sin disparar la factura.\n\n#Tokenless #OpenAI #Anthropic\n\nhttps://usetokenless.com"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Microsoft confirma la 'super app' de Copilot para finales de año",
+      "summary": "Satya Nadella anunció en la presentación de resultados que unificará todas las experiencias de Copilot (chat, código, agentes autónomos) en una sola aplicación. Estará disponible tanto para consumidores como para empresas.",
+      "why_it_matters": "Simplifica el acceso a las herramientas de IA de Microsoft desde un único punto.",
+      "url": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
+      "source": "The Verge",
+      "social": {
+        "x": "Una sola app para todos los Copilot: chat, código y agentes. Microsoft lo confirma para finales de año.\n\n#Microsoft #Copilot\nhttps://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
+        "linkedin": "Adiós a abrir herramientas separadas para cada Copilot: Microsoft los reunirá todos en una sola aplicación antes de fin de año.\n\n𝗨𝗻𝗶𝗳𝗶𝗰𝗮𝗿 𝗰𝗵𝗮𝘁, 𝗰ó𝗱𝗶𝗴𝗼 𝘆 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗮𝘂𝘁ó𝗻𝗼𝗺𝗼𝘀 𝗲𝗻 𝘂𝗻𝗮 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝘇 simplifica el acceso tanto para consumidores como para empresas. Más que comodidad, es una jugada estratégica: cuanto más integrado esté todo, más difícil será prescindir del ecosistema de Copilot.\n\n#Microsoft #Copilot\n\nhttps://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "OpenAI ofrece acceso gratuito a ChatGPT a 100.000 investigadores",
+      "summary": "El programa 'ChatGPT for Academic Researchers' proporcionará modelos avanzados sin coste a académicos seleccionados. El objetivo es acelerar la investigación científica facilitando el uso de IA de última generación.",
+      "why_it_matters": "Democratiza el uso de la IA en ciencia y podría acelerar descubrimientos.",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "source": "OpenAI News",
+      "social": {
+        "x": "100.000 científicos, un chat con IA y una única misión: acelerar la ciencia. OpenAI acaba de abrir la puerta.\n\n#OpenAI #ChatGPT #Investigación #Ciencia\nhttps://openai.com/index/chatgpt-for-academic-researchers",
+        "linkedin": "La ciencia está a punto de recibir un impulso histórico: OpenAI acaba de lanzar un programa que ofrece acceso gratuito a sus modelos más avanzados a 100.000 investigadores.\n\nEl programa 'ChatGPT for Academic Researchers' elimina barreras económicas y permite experimentar con IA de última generación. 𝗣𝗮𝗿𝗮 𝗺𝗶𝗹𝗲𝘀 𝗱𝗲 𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗼𝗿𝗶𝗼𝘀, 𝗲𝘀𝘁𝗼 𝘀𝘂𝗽𝗼𝗻𝗲 𝗽𝗮𝘀𝗮𝗿 𝗱𝗲 𝗹𝗮 𝘁𝗲𝗼𝗿í𝗮 𝗮 𝗹𝗮 𝗽𝗿á𝗰𝘁𝗶𝗰𝗮 𝗰𝗼𝗻 𝗹𝗮 𝗜𝗔 𝗺á𝘀 𝗮𝘃𝗮𝗻𝘇𝗮𝗱𝗮. Este movimiento no solo acelera la investigación, también presiona a otros gigantes tecnológicos a seguir el camino de la democratización.\n\n#OpenAI #ChatGPT #Investigación #Ciencia\n\nhttps://openai.com/index/chatgpt-for-academic-researchers"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "OpenAI prepara una 'familia de dispositivos' para sus asistentes de IA",
+      "summary": "Greg Brockman confirmó que la compañía trabaja en varios dispositivos físicos para interactuar con sus modelos, aunque no dio fechas. No son solo wearables o altavoces inteligentes: se trata de una gama completa.",
+      "why_it_matters": "La IA conversacional salta a hardware dedicado de la mano de uno de los laboratorios líderes.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview",
+      "source": "The Verge",
+      "social": {
+        "x": "OpenAI da el salto al hardware: preparan una familia de dispositivos para sus asistentes. Greg Brockman lo confirma. No son solo wearables, es una gama completa.\n\n#OpenAI #GregBrockman #AIHardware\nhttps://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview",
+        "linkedin": "OpenAI está construyendo algo más que modelos de lenguaje.\n\nGreg Brockman confirmó que trabajan en una familia de dispositivos físicos para sus asistentes. No son simples wearables o altavoces: es una gama completa. 𝗟𝗮 𝗜𝗔 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝗰𝗶𝗼𝗻𝗮𝗹 𝘀𝗲 𝗽𝗿𝗲𝗽𝗮𝗿𝗮 𝗽𝗮𝗿𝗮 𝘀𝗮𝗹𝘁𝗮𝗿 𝗮𝗹 𝗺𝘂𝗻𝗱𝗼 𝗳í𝘀𝗶𝗰𝗼 de la mano de uno de los laboratorios líderes. Esto podría acelerar la adopción de asistentes más allá de la pantalla, creando una nueva categoría de dispositivos inteligentes.\n\n#OpenAI #GregBrockman #AIHardware\n\nhttps://www.theverge.com/ai-artificial-intelligence/972709/openai-hardware-greg-brockman-interview"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Martha Stewart cofunda Hint, un asistente de IA para gestionar el hogar",
+      "summary": "La aplicación centraliza datos de la vivienda (registros, mantenimiento, documentos) y ofrece un asistente conversacional. Quiere ser la IA que entiende tu casa.",
+      "why_it_matters": "Lleva la IA a una tarea cotidiana con un enfoque práctico y una cofundadora de renombre.",
+      "url": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners",
+      "source": "TechCrunch",
+      "social": {
+        "x": "🏠 La reina del estilo de vida se pasa a la IA: Martha Stewart cofunda una app que sabe más de tu casa que tú.\n\n#MarthaStewart #Hint #Proptech #HogarInteligente\nhttps://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners",
+        "linkedin": "Cuando Martha Stewart se mete en tecnología, algo sabe. Esta vez no son recetas ni decoración: es una IA que gestiona tu hogar.\n\nHint centraliza datos de la vivienda (mantenimiento, documentos, registros) y añade un asistente conversacional. 𝗘𝗹 𝗼𝗯𝗷𝗲𝘁𝗶𝘃𝗼 𝗲𝘀 𝗾𝘂𝗲 𝗹𝗮 𝗜𝗔 𝗲𝗻𝘁𝗶𝗲𝗻𝗱𝗮 𝘁𝘂 𝗰𝗮𝘀𝗮 𝗰𝗼𝗺𝗼 𝘂𝗻 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝗵𝘂𝗺𝗮𝗻𝗼, pero con acceso a cada detalle que olvidamos. Para el sector proptech, la entrada de un nombre tan reconocido podría acelerar la adopción de este tipo de soluciones.\n\n#MarthaStewart #Hint #Proptech #HogarInteligente\n\nhttps://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Un exingeniero de Perplexity lanza Polar, un navegador web con IA para trabajadores del conocimiento",
+      "summary": "Polar es un navegador construido desde cero para integrar asistencia de IA en flujos de trabajo de investigación y productividad. Ha recibido una ronda semilla de 5,7 millones de dólares.",
+      "why_it_matters": "Propone una nueva categoría de navegador que entiende el contexto de trabajo y acelera tareas complejas.",
+      "url": "https://techcrunch.com/2026/07/29/perplexity-employee-who-worked-on-comet-launches-an-ai-browser-aimed-at-knowledge-work",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El navegador que entiende lo que investigas y te ayuda a avanzar más rápido no es de Google ni de Microsoft. Lo ha creado un ex de Perplexity y ya tiene 5,7 millones para convencerte.\n\n#Polar #Perplexity #navegadorIA #productividad\nhttps://techcrunch.com/2026/07/29/perplexity-employee-who-worked-on-comet-launches-an-ai-browser-aimed-at-knowledge-work",
+        "linkedin": "Polar no es un navegador más: integra IA contextual desde su núcleo y ya ha levantado 5,7 millones de euros.\n\nDetrás está un exingeniero de Perplexity que cree que los trabajadores del conocimiento necesitan herramientas que entiendan el flujo de trabajo completo. 𝗘𝗹 𝗻𝗮𝘃𝗲𝗴𝗮𝗱𝗼𝗿 𝗰𝗼𝗺𝗼 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝘃𝗼 𝗱𝗲𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗲𝘀 𝘂𝗻𝗮 𝗮𝗽𝘂𝗲𝘀𝘁𝗮 𝗹ó𝗴𝗶𝗰𝗮: si pasamos el día en él, la IA debería ser nativa, no un añadido. Para equipos de investigación y productividad, esta categoría promete acelerar tareas complejas sin fricción.\n\n#Polar #Perplexity #navegadorIA #productividad\n\nhttps://techcrunch.com/2026/07/29/perplexity-employee-who-worked-on-comet-launches-an-ai-browser-aimed-at-knowledge-work"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Dos simples ajustes de la API triplican la puntuación de GPT-5.6 en el benchmark ARC-AGI-3",
+      "summary": "OpenAI explica cómo activar la retención de razonamiento y la compactación mejoró el rendimiento de GPT-5.6 en el exigente test de inteligencia general. Los resultados se multiplicaron por tres manteniendo la eficiencia.",
+      "why_it_matters": "Demuestra que pequeños cambios en la configuración pueden desbloquear capacidades ocultas en modelos ya disponibles.",
+      "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "source": "OpenAI News",
+      "social": {
+        "x": "GPT-5.6 escondía un rendimiento 3 veces mayor. OpenAI acaba de mostrar cómo liberarlo.\n\n#OpenAI #GPT5 #ARCAGI #API\nhttps://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+        "linkedin": "GPT-5.6 no ha cambiado, pero su rendimiento acaba de triplicarse con un par de ajustes en la API.\n\nOpenAI ha mostrado que activar la retención de razonamiento y la compactación mejora las puntuaciones en el exigente benchmark ARC-AGI-3. 𝗣𝗲𝗾𝘂𝗲ñ𝗮𝘀 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝘂𝗲𝗱𝗲𝗻 𝗱𝗲𝘀𝗮𝘁𝗮𝗿 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱𝗲𝘀 𝗾𝘂𝗲 𝘆𝗮 𝗲𝘀𝘁𝗮𝗯𝗮𝗻 𝗮𝗵í, y eso cambia la forma en que evaluamos los modelos. No siempre hace falta más entrenamiento; a veces basta con usar mejor lo que ya tenemos.\n\n#OpenAI #GPT5 #ARCAGI #API\n\nhttps://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "Habla con Gemini en Mac con solo pulsar la tecla 'fn'",
+      "summary": "Google ha integrado un acceso rápido a Gemini en macOS: una pulsación larga de la tecla 'fn' activa el micrófono para hablar con el asistente. La función facilita el uso manos libres en el escritorio.",
+      "why_it_matters": "Reduce la fricción para interactuar con la IA en el entorno de trabajo habitual.",
+      "url": "https://www.engadget.com/2224915/google-lets-mad-users-talk-to-gemini-by-pressing-fn",
+      "source": "Engadget",
+      "social": {
+        "x": "Hablar con Gemini en Mac ahora es cuestión de una tecla: mantén pulsada 'fn' y el asistente escucha. Sin apps, sin ratón.\n\n#Gemini #Google #macOS\nhttps://www.engadget.com/2224915/google-lets-mad-users-talk-to-gemini-by-pressing-fn",
+        "linkedin": "Google ha integrado Gemini en macOS de una forma tan sigilosa que casi pasa desapercibida: una pulsación larga de la tecla 'fn' activa el micrófono.\n\nLa función elimina la fricción de tener que abrir el navegador o una app independiente, y acerca la IA al flujo de trabajo de escritorio de manera casi invisible. Para quienes pasan el día con las manos en el teclado, 𝘂𝗻 𝗮𝗰𝗰𝗲𝘀𝗼 𝘁𝗮𝗻 𝗶𝗻𝗺𝗲𝗱𝗶𝗮𝘁𝗼 𝗮𝗹 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝘀𝗶𝗻 𝗰𝗮𝗺𝗯𝗶𝗮𝗿 𝗱𝗲 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 supone una ventaja real frente a otras soluciones de IA.\n\n#Gemini #Google #macOS\n\nhttps://www.engadget.com/2224915/google-lets-mad-users-talk-to-gemini-by-pressing-fn"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Autohospedar Kimi K3 cuesta un 20% más en hardware pero resuelve mejor las tareas",
+      "summary": "El análisis de imec en AIStack muestra que ejecutar el modelo Kimi K3 con 1,4 TB de pesos en GPUs propias es viable, aunque requiere nodos con mucha memoria. A cambio, ofrece un 20% mejor resolución de tareas de codificación que las APIs comerciales.",
+      "why_it_matters": "Orienta a empresas que dudan entre depender de la nube y montar infraestructura propia de IA.",
+      "url": "https://aistack.imec-int.com/blog/gpu-self-hosting",
+      "source": "Hacker News",
+      "social": {
+        "x": "El modelo Kimi K3 pesa 1,4 TB y ya se puede autohospedar. Cuesta un 20% más que las APIs, pero resuelve tareas de código un 20% mejor.\n\n#KimiK3 #AutoHospedaje #GPUs #Rendimiento\nhttps://aistack.imec-int.com/blog/gpu-self-hosting",
+        "linkedin": "¿Merece la pena pagar más en hardware por una IA que programa mejor?\n\nEl modelo Kimi K3, con 1,4 TB de pesos, dice que sí. Un estudio de imec muestra que autohospedarlo es viable y ofrece 𝘂𝗻 𝟮𝟬% 𝗺𝗲𝗷𝗼𝗿 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗲𝗻 𝗰𝗼𝗱𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 que las APIs comerciales. A cambio, el coste en hardware sube un 20%, pero para equipos que priorizan la calidad del código, la ecuación empieza a cuadrar.\n\n#KimiK3 #AutoHospedaje #GPUs #Rendimiento\n\nhttps://aistack.imec-int.com/blog/gpu-self-hosting"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "GPT-5.6 frente a Claude Fable 5 en IA física: ¿cuál rinde mejor?",
+      "summary": "La evaluación con el agente Dyad en problemas de modelado y simulación muestra diferencias en precisión, coste y estilo de trabajo entre los últimos modelos frontera. Los resultados ayudan a elegir modelo para aplicaciones científicas e ingenieriles.",
+      "why_it_matters": "Aporta datos concretos para ingenieros y científicos que usan IA en simulaciones.",
+      "url": "https://juliahub.com/blog/frontier-models-physical-ai-evaluation",
+      "source": "Hacker News",
+      "social": {
+        "x": "Para simular física, ¿importa más la precisión o el coste? Los últimos modelos de OpenAI y Anthropic muestran diferencias inesperadas en la prueba Dyad.\n\n#OpenAI #Anthropic #Simulación\nhttps://juliahub.com/blog/frontier-models-physical-ai-evaluation",
+        "linkedin": "Elegir el LLM adecuado para simulación física puede ahorrar miles de euros y horas de cómputo.\n\nUna comparativa con el agente Dyad enfrenta GPT-5.6 y Claude Fable 5 en tareas de modelado y simulación, midiendo precisión, coste y estilo de trabajo. 𝗟𝗼𝘀 𝗿𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼𝘀 𝗺𝘂𝗲𝘀𝘁𝗿𝗮𝗻 𝗾𝘂𝗲 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗺á𝘀 𝗰𝗮𝗿𝗼 𝗻𝗼 𝘀𝗶𝗲𝗺𝗽𝗿𝗲 𝗲𝘀 𝗲𝗹 𝗺𝗲𝗷𝗼𝗿 𝗽𝗮𝗿𝗮 𝗮𝗽𝗹𝗶𝗰𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗱𝗲 𝗶𝗻𝗴𝗲𝗻𝗶𝗲𝗿í𝗮. Para equipos que empiezan a usar IA en simulación, estos datos concretos ayudan a decidir con criterio en lugar de seguir la tendencia del momento.\n\n#OpenAI #Anthropic #Simulación\n\nhttps://juliahub.com/blog/frontier-models-physical-ai-evaluation"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "lanzamientos",
+      "title": "Keychron anuncia el primer firmware de código abierto para ratones gaming",
+      "summary": "Inspirado en proyectos como QMK y ZMK para teclados, el nuevo firmware ZGM dará control total a los usuarios sobre sus ratones. Llegará en 2027 y debutará en el modelo G6 HE de la marca.",
+      "why_it_matters": "Extiende la personalización y la filosofía open source al periférico más importante para jugadores.",
+      "url": "https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Te imaginas un ratón tan customizable como tu teclado mecánico? Keychron lo hará realidad con ZGM, el primer firmware open source para gaming. 2027.\n\n#OpenSource #Keychron #ZGM #Gaming\nhttps://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice",
+        "linkedin": "Los teclados mecánicos llevan años disfrutando del firmware abierto. Ahora, ese ecosistema se expande al periférico más importante para los jugadores: el ratón.\n\nKeychron ha anunciado ZGM, el primer firmware open source para ratones gaming, que llegará en 2027 y debutará en el modelo G6 HE. 𝗜𝗻𝘀𝗽𝗶𝗿𝗮𝗱𝗼 𝗲𝗻 𝗤𝗠𝗞 𝘆 𝗭𝗠𝗞, promete el mismo nivel de personalización y control que ha hecho del DIY un estándar. Para los fabricantes, esto supone un desafío: ¿seguirán cerrando sus firmwares o abrazarán la filosofía que ha impulsado la innovación en teclados?\n\n#OpenSource #Keychron #ZGM #Gaming\n\nhttps://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "Valve financia el trabajo para llevar el driver gráfico RADV a Windows",
+      "summary": "Colabora con ingenieros de Collabora para portar el driver Vulkan de código abierto de AMD a Microsoft Windows. La iniciativa busca mejorar el soporte de juegos de Linux en esa plataforma.",
+      "why_it_matters": "Refuerza el ecosistema de código abierto y la compatibilidad cruzada entre sistemas operativos.",
+      "url": "https://www.phoronix.com/news/Valve-Sponsors-RADV-Windows",
+      "source": "Hacker News",
+      "social": {
+        "x": "Valve está financiando algo que suena a contradicción: portar el driver gráfico de Linux RADV a Windows. Pero tiene lógica: mejorar la compatibilidad de los juegos de Linux incluso cuando se prueban desde el otro sistema.\n\n#Valve #RADV #OpenSource #Vulkan\nhttps://www.phoronix.com/news/Valve-Sponsors-RADV-Windows",
+        "linkedin": "Valve financia el porte de RADV, el driver Vulkan de código abierto que alimenta la Steam Deck, a Windows. Parece contradictorio, pero la lógica es impecable: 𝗮𝗹 𝗹𝗹𝗲𝘃𝗮𝗿 𝗹𝗮𝘀 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 𝗱𝗲 𝗟𝗶𝗻𝘂𝘅 𝗮𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝘃𝗼 𝗱𝗼𝗺𝗶𝗻𝗮𝗻𝘁𝗲, 𝗳𝗮𝗰𝗶𝗹𝗶𝘁𝗮 𝗾𝘂𝗲 𝗹𝗼𝘀 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀 𝗽𝗿𝘂𝗲𝗯𝗲𝗻 𝘆 𝗼𝗽𝘁𝗶𝗺𝗶𝗰𝗲𝗻 𝗷𝘂𝗲𝗴𝗼𝘀 𝗽𝗮𝗿𝗮 𝗟𝗶𝗻𝘂𝘅 𝘀𝗶𝗻 𝘀𝗮𝗹𝗶𝗿 𝗱𝗲 𝗪𝗶𝗻𝗱𝗼𝘄𝘀. Es un movimiento que refuerza la compatibilidad cruzada y demuestra que el compromiso de Valve con el código abierto va más allá de su propio ecosistema. Para los estudios, eliminar fricciones en el desarrollo multi plataforma es un argumento de peso para tomarse en serio Linux.\n\n#Valve #RADV #OpenSource #Vulkan\n\nhttps://www.phoronix.com/news/Valve-Sponsors-RADV-Windows"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "El ataque Mythos deja fuera de juego a un candidato a cifrado poscuántico",
+      "summary": "Tras años de escrutinio, el algoritmo HAWK sucumbió a una vulnerabilidad descubierta mediante la herramienta Mythos. El hallazgo subraya la importancia de la verificación formal en criptografía.",
+      "why_it_matters": "Acelera la carrera por algoritmos resistentes a ordenadores cuánticos fiables.",
+      "url": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years",
+      "source": "Ars Technica",
+      "social": {
+        "x": "No fue un ordenador cuántico, sino una herramienta de verificación formal. El candidato a cifrado poscuántico HAWK ha caído, subrayando la importancia de las pruebas rigurosas en criptografía.\n\n#CriptografíaPoscuántica #HAWK #VerificaciónFormal\nhttps://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years",
+        "linkedin": "El cifrado poscuántico acaba de sufrir una baja inesperada, y no ha sido por el avance de los ordenadores cuánticos.\n\nEl algoritmo HAWK, uno de los candidatos a estándar poscuántico, ha sido vulnerado por Mythos, una herramienta diseñada para la verificación formal. Este hallazgo no solo acelera la carrera por algoritmos resistentes, sino que demuestra que 𝗹𝗮 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗳𝗼𝗿𝗺𝗮𝗹 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗼𝗽𝗰𝗶𝗼𝗻𝗮𝗹. La criptografía del futuro necesita pruebas matemáticas sólidas, no solo confianza.\n\n#CriptografíaPoscuántica #HAWK #VerificaciónFormal\n\nhttps://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "investigacion",
+      "title": "Primer silicio funcional con la arquitectura de seguridad CHERIoT",
+      "summary": "El proyecto CHERIoT ha fabricado los primeros chips que implementan su modelo de protección de memoria a nivel hardware. Esta tecnología promete eliminar clases enteras de vulnerabilidades de software.",
+      "why_it_matters": "Un avance tangible en seguridad que podría llegar a dispositivos IoT y embebidos.",
+      "url": "https://cheriot.org/silicon/2026/03/04/cheriot-first-silicon.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Se pueden eliminar las vulnerabilidades de memoria con un cambio en el silicio? El proyecto CHERIoT acaba de demostrar que sí: primer chip funcional.\n\n#CHERIoT #Ciberseguridad #IoT #Hardware\nhttps://cheriot.org/silicon/2026/03/04/cheriot-first-silicon.html",
+        "linkedin": "Del papel al silicio: el primer chip con CHERIoT es funcional y promete eliminar clases enteras de vulnerabilidades de software.\n\nCHERIoT es una arquitectura de seguridad que traslada la protección de memoria al hardware, impidiendo que los errores de software se conviertan en exploits. 𝗟𝗮 𝗳𝗮𝗯𝗿𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗲𝘀𝘁𝗲 𝗽𝗿𝗶𝗺𝗲𝗿 𝗰𝗵𝗶𝗽 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝘂𝗻𝗮 𝗶𝗱𝗲𝗮 𝗽𝗿𝗼𝗺𝗲𝘁𝗲𝗱𝗼𝗿𝗮 𝗲𝗻 𝘂𝗻 𝗮𝘃𝗮𝗻𝗰𝗲 𝘁𝗮𝗻𝗴𝗶𝗯𝗹𝗲 para dispositivos IoT y sistemas embebidos, donde los parches no siempre llegan a tiempo.\n\n#CHERIoT #Ciberseguridad #IoT #Hardware\n\nhttps://cheriot.org/silicon/2026/03/04/cheriot-first-silicon.html"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Estados Unidos prohíbe la importación de robots humanoides, perros robóticos y aspiradoras extranjeras",
+      "summary": "La normativa, que afecta principalmente a China, veta nuevos dispositivos robóticos avanzados por riesgos de seguridad nacional. Incluye tanto a humanoides como a aspiradoras Roomba o perros robóticos.",
+      "why_it_matters": "Podría remodelar el mercado de la robótica de consumo y profesional en Occidente.",
+      "url": "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security",
+      "source": "TechCrunch",
+      "social": {
+        "x": "¿Qué tienen en común un robot humanoide, un perro robótico y una aspiradora? Que EE. UU. acaba de prohibir su importación.\n\n#Roomba #Robótica #China #USA\nhttps://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security",
+        "linkedin": "Esta semana, la seguridad nacional de EE. UU. ha puesto el foco en los robots domésticos.\n\nLa nueva normativa prohíbe la importación de humanoides, perros robóticos y aspiradoras avanzadas, apuntando principalmente a China. 𝗟𝗮 𝗺𝗲𝗱𝗶𝗱𝗮 𝗽𝗼𝗱𝗿í𝗮 𝗿𝗲𝗱𝗶𝗯𝘂𝗷𝗮𝗿 𝗲𝗹 𝗺𝗮𝗽𝗮 𝗱𝗲 𝗹𝗮 𝗿𝗼𝗯ó𝘁𝗶𝗰𝗮 𝗱𝗲 𝗰𝗼𝗻𝘀𝘂𝗺𝗼, impulsando la producción local y forzando a empresas como iRobot a repensar sus cadenas de suministro. Es un movimiento que mezcla geopolítica y tecnología de manera inédita en el sector.\n\n#Roomba #Robótica #China #USA\n\nhttps://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Los robotaxis de Waymo vuelven a circular por autopistas",
+      "summary": "Tras una pausa por incidentes en zonas de construcción, la compañía ha reanudado las operaciones en vías rápidas con medidas de seguridad adicionales. Es un paso necesario para ampliar el servicio más allá de entornos urbanos.",
+      "why_it_matters": "Demuestra la maduración de la conducción autónoma y su integración en infraestructuras complejas.",
+      "url": "https://techcrunch.com/2026/07/29/waymo-robotaxis-are-starting-to-return-to-freeways",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Los robotaxis de Waymo vuelven a las autopistas y esta vez no se la juegan. Medidas extra para sortear obras sin sustos.\n\n#Waymo #Robotaxis #ConducciónAutónoma\nhttps://techcrunch.com/2026/07/29/waymo-robotaxis-are-starting-to-return-to-freeways",
+        "linkedin": "Las autopistas eran la asignatura pendiente de los robotaxis. Waymo acaba de retomarlas y no es solo un hito técnico: 𝗲𝘀 𝗹𝗮 𝗹𝗹𝗮𝘃𝗲 𝗽𝗮𝗿𝗮 𝗲𝘀𝗰𝗮𝗹𝗮𝗿 𝗺á𝘀 𝗮𝗹𝗹á 𝗱𝗲 𝗹𝗮 𝗰𝗶𝘂𝗱𝗮𝗱.\n\nTras meses de parón por incidentes en zonas de construcción, la compañía ha añadido capas de seguridad para que sus vehículos sepan navegar obras y carriles cambiantes. Es un paso necesario si quieren conectar puntos urbanos con trayectos de verdadera utilidad. La autonomía de nivel 4 necesita esta validación en vías rápidas para dejar de ser un servicio de nicho.\n\n#Waymo #Robotaxis #ConducciónAutónoma\n\nhttps://techcrunch.com/2026/07/29/waymo-robotaxis-are-starting-to-return-to-freeways"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "DoorDash lanza su propio servicio de reparto con drones tras aprobación de la FAA",
+      "summary": "La empresa ha recibido luz verde para operar comercialmente drones de entrega en EE. UU., desarrollados internamente. El servicio promete reducir tiempos y costes en la última milla.",
+      "why_it_matters": "La entrada de un gigante del reparto acelera la viabilidad comercial de los drones.",
+      "url": "https://techcrunch.com/2026/07/29/doordash-is-building-its-own-drone-delivery-business",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El reparto con drones despega de verdad: DoorDash ya tiene luz verde de la FAA para operar sus propios drones. Adiós a los atascos en la última milla.\n\n#DoorDash #drones #FAA\nhttps://techcrunch.com/2026/07/29/doordash-is-building-its-own-drone-delivery-business",
+        "linkedin": "Los drones de reparto ya no son un experimento: DoorDash entra en juego con aprobación total de la FAA.\n\nLa compañía ha desarrollado sus propios drones y promete reducir tiempos y costes en la última milla. 𝗟𝗮 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗱𝗲 𝘂𝗻 𝗴𝗶𝗴𝗮𝗻𝘁𝗲 𝗰𝗼𝗺𝗼 𝗗𝗼𝗼𝗿𝗗𝗮𝘀𝗵 𝗮𝗰𝗲𝗹𝗲𝗿𝗮 𝗹𝗮 𝘃𝗶𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗮𝗹 𝗱𝗲 𝗹𝗼𝘀 𝗱𝗿𝗼𝗻𝗲𝘀, forzando a competidores como Uber Eats o Amazon a mover ficha. Para el sector logístico, esto marca un antes y un después en la automatización del reparto urbano.\n\n#DoorDash #drones #FAA\n\nhttps://techcrunch.com/2026/07/29/doordash-is-building-its-own-drone-delivery-business"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "investigacion",
+      "title": "Nuevos enfoques en cúbits: puntos cuánticos mejorados y vacantes en diamante",
+      "summary": "Dos líneas de investigación independientes prometen cúbits más estables y escalables, uno basado en silicio y otro en defectos del diamante. Los avances acercan el sueño de ordenadores cuánticos prácticos.",
+      "why_it_matters": "Aumenta las probabilidades de que la computación cuántica supere los actuales cuellos de botella.",
+      "url": "https://arstechnica.com/science/2026/07/quantum-computing-roundup-still-more-technologies-making-waves",
+      "source": "Ars Technica",
+      "social": {
+        "x": "⚛️ Dos avances independientes en cúbits acaban de poner la computación cuántica práctica al alcance de la mano. Uno usa puntos cuánticos de silicio, el otro vacantes en diamante.\n\n#ComputaciónCuántica #Cúbits #Silicio #Diamante\nhttps://arstechnica.com/science/2026/07/quantum-computing-roundup-still-more-technologies-making-waves",
+        "linkedin": "El talón de Aquiles de la computación cuántica siempre han sido los cúbits: frágiles y difíciles de escalar.\n\nEsta semana dos equipos han publicado avances independientes que atacan ese problema desde dos frentes distintos: puntos cuánticos de silicio más estables y defectos en diamante que permiten corrección de errores. 𝗟𝗮 𝗰𝗼𝗺𝗯𝗶𝗻𝗮𝗰𝗶ó𝗻 𝗮𝗰𝗲𝗿𝗰𝗮 𝗲𝗹 𝗺𝗼𝗺𝗲𝗻𝘁𝗼 𝗲𝗻 𝗾𝘂𝗲 𝗹𝗼𝘀 𝗼𝗿𝗱𝗲𝗻𝗮𝗱𝗼𝗿𝗲𝘀 𝗰𝘂á𝗻𝘁𝗶𝗰𝗼𝘀 𝘀𝗮𝗹𝗴𝗮𝗻 𝗱𝗲𝗹 𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗼𝗿𝗶𝗼. Para industrias como la farmacéutica, la logística o la ciberseguridad, estos resultados reducen la incertidumbre.\n\n#ComputaciónCuántica #Cúbits #Silicio #Diamante\n\nhttps://arstechnica.com/science/2026/07/quantum-computing-roundup-still-more-technologies-making-waves"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Modelo de voz con IA de última generación, open source y listo para self-hosting. Ideal para síntesis y reconocimiento de voz de alta calidad.",
+      "language": "Python",
+      "stars": 51543,
+      "social": {
+        "x": "Alguien en Microsoft acaba de liberar VibeVoice, su modelo de voz IA más avanzado. 51k estrellas, open source y listo para self-hosting. Dile adiós a las suscripciones de voz.\n\n#VibeVoice #OpenSource #Python #GitHub\nhttps://github.com/microsoft/VibeVoice",
+        "linkedin": "MICROSOFT LIBERA SU MODELO DE VOZ IA MÁS AVANZADO (Y ES OPEN SOURCE)\n\nVibeVoice, el modelo que Microsoft usa internamente para síntesis y reconocimiento de voz, está ahora en GitHub con 51.000 estrellas. Cubre tanto texto a voz como voz a texto con calidad de última generación, y lo mejor es que puedes hacer self-hosting sin pagar suscripciones.\n\n→ Síntesis de voz natural y expresiva en múltiples idiomas.\n→ Reconocimiento de voz robusto, incluso con ruido de fondo.\n→ Código abierto en Python, optimizado para producción.\n→ Despliegue self-hosted con una sola línea de comandos.\n\n𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 𝗿𝗼𝗺𝗽𝗲 𝗲𝗹 𝗺𝗲𝗿𝗰𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮𝘀 𝗔𝗣𝗜𝘀 𝗱𝗲 𝘃𝗼𝘇 con este lanzamiento, eliminando la barrera de entrada para startups y desarrolladores.\n\nTe dejo el repo abajo. Guárdalo para cuando lo necesites.\n\n#VibeVoice #OpenSource #Python #GitHub\n\nhttps://github.com/microsoft/VibeVoice"
+      }
+    },
+    {
+      "name": "different-ai/openwork",
+      "url": "https://github.com/different-ai/openwork",
+      "description": "Alternativa open source a Claude Cowork para asistentes de código. Potencia el desarrollo integrando IA con opencode de forma nativa y extensible.",
+      "language": "TypeScript",
+      "stars": 18245,
+      "social": {
+        "x": "🤖 openwork: el rival open source de Claude Cowork con 18k ⭐. Integración nativa con opencode y gratis.\n\n#openwork #TypeScript #OpenSource #GitHub\nhttps://github.com/different-ai/openwork",
+        "linkedin": "OPENWORK: EL RIVAL OPEN SOURCE DE CLAUDE COWORK YA TIENE 18K ESTRELLAS. Si pagas por asistentes de código con IA, este proyecto te interesa. 𝗼𝗽𝗲𝗻𝘄𝗼𝗿𝗸 𝗶𝗻𝘁𝗲𝗴𝗿𝗮 𝗜𝗔 𝗰𝗼𝗻 𝗼𝗽𝗲𝗻𝗰𝗼𝗱𝗲 𝗱𝗲 𝗳𝗼𝗿𝗺𝗮 𝗻𝗮𝘁𝗶𝘃𝗮 𝘆 𝘀𝗶𝗻 𝗰𝗼𝘀𝘁𝗲, ofreciendo una experiencia similar a Claude Cowork pero sin pagar un duro.\n→ Integración nativa con opencode: la IA se convierte en tu copiloto sin cambiar de herramienta.\n→ Extensible: añade tus propias herramientas y personaliza el comportamiento a tu gusto.\n→ Self-hosted y open source: despliega en tu máquina sin depender de servicios externos ni cuotas.\nGuarda este post para tenerlo a mano. Te dejo el repo abajo.\n\n#openwork #TypeScript #OpenSource #GitHub\n\nhttps://github.com/different-ai/openwork"
+      }
+    },
+    {
+      "name": "deepfakes/faceswap",
+      "url": "https://github.com/deepfakes/faceswap",
+      "description": "Software de deepfakes accesible para todos. Intercambia caras en vídeos con aprendizaje profundo y una interfaz gráfica fácil de usar.",
+      "language": "Python",
+      "stars": 56612,
+      "social": {
+        "x": "¿Crear deepfakes sin programar? Este repo tiene 56k estrellas y una GUI que lo hace posible.\n\n#Faceswap #Deepfakes #OpenSource #Python\nhttps://github.com/deepfakes/faceswap",
+        "linkedin": "DEEPFAKES PARA TODOS, SIN COMANDOS NI SUSCRIPCIONES.\n\nEl repositorio deepfakes/faceswap ha superado las 56.000 estrellas en GitHub y demuestra que la tecnología de intercambio de caras ya no es cosa de expertos ni de grandes presupuestos. Con una interfaz gráfica amigable y desarrollado en Python, este proyecto open source pone el poder del deep learning al alcance de cualquiera, sin escribir una línea de código.\n\n→ Intercambia caras en vídeos usando modelos de aprendizaje profundo.\n→ Interfaz gráfica intuitiva: arrastra, suelta y procesa.\n→ Totalmente gratuito y open source.\n→ Comunidad enorme que lo respalda (más de 56k ⭐ en GitHub).\n\nLo que hace especial a este proyecto es 𝘀𝘂 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝘇 𝗴𝗿á𝗳𝗶𝗰𝗮 𝗳á𝗰𝗶𝗹 𝗱𝗲 𝘂𝘀𝗮𝗿 que elimina la barrera de entrada para quienes no dominan la terminal.\n\nGuarda el post y pruébalo tú mismo.\n\n#Faceswap #Deepfakes #OpenSource #Python\n\nhttps://github.com/deepfakes/faceswap"
+      }
+    },
+    {
+      "name": "maderix/ANE",
+      "url": "https://github.com/maderix/ANE",
+      "description": "Entrena redes neuronales directamente en el Neural Engine de Apple aprovechando APIs privadas mediante ingeniería inversa. Acelera el entrenamiento en dispositivos Apple.",
+      "language": "Objective-C",
+      "stars": 7203,
+      "social": {
+        "x": "Apple te deja usar el Neural Engine para inferencia, pero no para entrenar. Este repo te deja entrenar directamente. 7.2k estrellas, Objective-C y cero permisos.\n\n#Apple #NeuralEngine #MachineLearning #OpenSource\nhttps://github.com/maderix/ANE",
+        "linkedin": "APPLE NO TE DEJA ENTRENAR MODELOS EN EL NEURAL ENGINE. ESTE REPO SÍ.\n\nSiempre hemos tenido el Neural Engine en nuestros Macs e iPhones, pero Apple lo limita a inferencia con Core ML. Para entrenar, toca usar la CPU o GPU, o tirar de la nube. Hasta ahora.\n\n→ 𝗨𝘁𝗶𝗹𝗶𝘇𝗮 𝗔𝗣𝗜𝘀 𝗽𝗿𝗶𝘃𝗮𝗱𝗮𝘀 mediante ingeniería inversa para acceder al Neural Engine y entrenar redes neuronales directamente.\n→ Acelera el entrenamiento en local, aprovechando el chip especializado sin depender de Core ML.\n→ Escrito en Objective-C, ligero y listo para integrar en tus proyectos.\n→ Más de 7.200 estrellas en GitHub: la comunidad ya lo está probando.\n\nSi trabajas con machine learning en dispositivos Apple, guarda este post. Te dejo el repo abajo.\n\n#Apple #NeuralEngine #MachineLearning #OpenSource\n\nhttps://github.com/maderix/ANE"
+      }
+    },
+    {
+      "name": "MoonshotAI/FlashKDA",
+      "url": "https://github.com/MoonshotAI/FlashKDA",
+      "description": "Kernels de alto rendimiento para la atención Kimi Delta. Optimiza modelos de lenguaje reduciendo el uso de memoria y aumentando la velocidad de inferencia.",
+      "language": "Cuda",
+      "stars": 1073,
+      "social": {
+        "x": "⚡ Moonshot AI libera los kernels de atención de Kimi: menos VRAM y más tokens por segundo. 1k estrellas en GitHub.\n\n#FlashKDA #CUDA #OpenSource #GitHub\nhttps://github.com/MoonshotAI/FlashKDA",
+        "linkedin": "LOS KERNELS DE KIMI DELTA YA ESTÁN EN GITHUB. Y ACELERAN CUALQUIER MODELO DE LENGUAJE.\n\nMoonshot AI, el laboratorio tras Kimi, ha abierto FlashKDA: implementaciones CUDA de alto rendimiento que reducen la memoria y disparan la velocidad de inferencia. Si trabajas con LLMs, este repo te interesa.\n\n→ Optimizan la atención Kimi Delta para 𝗿𝗲𝗱𝘂𝗰𝗶𝗿 𝗱𝗿á𝘀𝘁𝗶𝗰𝗮𝗺𝗲𝗻𝘁𝗲 𝗲𝗹 𝘂𝘀𝗼 𝗱𝗲 𝗩𝗥𝗔𝗠.\n→ Aumentan los tokens por segundo sin tocar el modelo.\n→ Código CUDA limpio y listo para integrar en tus pipelines.\n\nYa supera las 1.000 estrellas por algo. Guarda este post para tenerlo a mano.\n\n#FlashKDA #CUDA #OpenSource #GitHub\n\nhttps://github.com/MoonshotAI/FlashKDA"
+      }
+    }
+  ]
+}
