@@ -1,0 +1,298 @@
+{
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T10:05:22.452Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Ejecutar Kimi K3 en AMD MI355X ofrece mejor rendimiento por dólar que las B300",
+      "summary": "El modelo de lenguaje abierto Kimi K3 se ha desplegado con éxito en las GPU AMD Instinct MI355X, logrando un rendimiento por dólar superior al de las NVIDIA B300. Wafer.ai detalla la configuración y los resultados de las pruebas, mostrando cómo esta combinación puede abaratar la inferencia de modelos grandes. Este avance facilita que empresas y desarrolladores ejecuten LLMs de última generación sin depender de hardware propietario o costoso.",
+      "why_it_matters": "Demuestra que es posible ejecutar modelos avanzados de forma eficiente y económica en hardware alternativo, ampliando las opciones para la comunidad.",
+      "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
+      "source": "Hacker News",
+      "social": {
+        "x": "No hace falta gastar una fortuna en GPUs para ejecutar LLMs de última generación. Kimi K3 en AMD MI355X ya ofrece mejor rendimiento por dólar que las B300.\n\n#KimiK3 #AMDMI355X #NVIDIA #OpenSource\nhttps://www.wafer.ai/blog/kimi-k3-mi355x",
+        "linkedin": "El coste de la inferencia sigue siendo una barrera para muchos equipos. Pero una combinación inesperada está demostrando que la alternativa existe y es más económica.\n\nEl modelo abierto Kimi K3 se ha desplegado en GPU AMD Instinct MI355X y las pruebas de Wafer.ai muestran que 𝗼𝗳𝗿𝗲𝗰𝗲 𝗺𝗲𝗷𝗼𝗿 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗽𝗼𝗿 𝗱ó𝗹𝗮𝗿 𝗾𝘂𝗲 𝗹𝗮𝘀 𝗡𝗩𝗜𝗗𝗜𝗔 𝗕𝟯𝟬𝟬. Esto significa que empresas y desarrolladores pueden ejecutar LLMs de última generación sin depender de un único fabricante de hardware, abaratando significativamente los costes de inferencia. Para equipos que buscan soberanía tecnológica y eficiencia, es una vía que merece la pena explorar.\n\n#KimiK3 #AMDMI355X #NVIDIA #OpenSource\n\nhttps://www.wafer.ai/blog/kimi-k3-mi355x"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "investigacion",
+      "title": "OpenAI anuncia avances en diez problemas abiertos de matemáticas y ciencias de la computación",
+      "summary": "OpenAI ha revelado que un nuevo modelo, aún no publicado, ha conseguido resolver diez problemas abiertos en matemáticas y ciencias de la computación teórica. Entre ellos se incluyen cuestiones relevantes en teoría de codificación y otros campos. La comunidad matemática reconoce la importancia de estos resultados, que podrían acelerar el progreso en diversas áreas.",
+      "why_it_matters": "Es la primera vez que una IA resuelve problemas abiertos de este calibre, lo que abre un debate sobre el futuro de la investigación matemática.",
+      "url": "https://openai.com/index/ten-advances-in-mathematics",
+      "source": "Lobsters",
+      "social": {
+        "x": "Diez problemas abiertos de matemáticas y ciencias de la computación acaban de ser resueltos. Y los ha resuelto un modelo de OpenAI que aún no se ha lanzado.\n\n#OpenAI #Matemáticas #ProblemasAbiertos\nhttps://openai.com/index/ten-advances-in-mathematics",
+        "linkedin": "La investigación matemática tal vez nunca vuelva a ser igual: un modelo de OpenAI que aún no se ha lanzado ha resuelto diez problemas abiertos en matemáticas y ciencias de la computación.\n\nEntre las cuestiones, algunas de teoría de codificación. La comunidad matemática ya reconoce la relevancia de estos resultados, y no es para menos: 𝗲𝘀 𝗹𝗮 𝗽𝗿𝗶𝗺𝗲𝗿𝗮 𝘃𝗲𝘇 𝗾𝘂𝗲 𝘂𝗻𝗮 𝗜𝗔 𝗹𝗼𝗴𝗿𝗮 𝗮𝘃𝗮𝗻𝗰𝗲𝘀 𝗱𝗲 𝗲𝘀𝘁𝗲 𝗰𝗮𝗹𝗶𝗯𝗿𝗲 𝗲𝗻 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮𝘀 𝗮𝗯𝗶𝗲𝗿𝘁𝗼𝘀. Esto nos obliga a preguntarnos cómo se integrará la IA en el proceso de investigación, y qué rol le quedará al matemático.\n\n#OpenAI #Matemáticas #ProblemasAbiertos\n\nhttps://openai.com/index/ten-advances-in-mathematics"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "investigacion",
+      "title": "Un estudio del MIT revela que los LLM ofrecen buenos consejos financieros si se les pregunta correctamente",
+      "summary": "Investigadores del MIT Sloan han analizado cómo los modelos de lenguaje grandes pueden ayudar en la planificación financiera personal. Los resultados muestran que estos sistemas suelen fomentar comportamientos financieros saludables, pero fallan en aspectos más sutiles del ahorro y la inversión. La clave está en formular las preguntas adecuadas para obtener recomendaciones útiles.",
+      "why_it_matters": "Aporta evidencia sobre la utilidad práctica de la IA en las finanzas domésticas, aunque advierte de sus limitaciones.",
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Confiarías tus ahorros a una IA? Un estudio del MIT dice que sí, pero solo si sabes qué preguntar.\n\n#LLM #PromptEngineering #Fintech #MIT\nhttps://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+        "linkedin": "¿Puede un modelo de lenguaje aconsejarte mejor que tu banco? Un nuevo estudio del MIT dice que sí… con matices.\n\nInvestigadores del MIT Sloan han probado LLMs en planificación financiera personal. Los resultados: fomentan comportamientos saludables como presupuestar y ahorrar, pero fallan en aspectos más sutiles como la optimización fiscal o la selección de inversiones. 𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗹𝗮 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝗱𝗲 𝗹𝗮𝘀 𝗽𝗿𝗲𝗴𝘂𝗻𝘁𝗮𝘀. Para cualquier equipo de fintech, este estudio aporta evidencia de que el valor diferencial está en el prompt engineering, no solo en el LLM.\n\n#LLM #PromptEngineering #Fintech #MIT\n\nhttps://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "industria",
+      "title": "Google retira el generador de imágenes por IA de Earth tras solo un día",
+      "summary": "Google ha eliminado la función de generación de imágenes por inteligencia artificial de Google Earth apenas 24 horas después de su lanzamiento. La compañía reconoció que los usuarios estaban compartiendo capturas de pantalla que comprometían la fiabilidad del servicio. La herramienta permitía crear vistas sintéticas del planeta, pero la rápida propagación de usos no previstos forzó su retirada.",
+      "why_it_matters": "Muestra los desafíos de integrar IA generativa en productos con una imagen de precisión y confianza.",
+      "url": "https://twitter.com/newsfromgoogle/status/2083249962150760610",
+      "source": "Hacker News",
+      "social": {
+        "x": "Lanzaron un generador de imágenes para Earth. 24 horas después, los usuarios lo usaron para cosas que minaban la confianza del servicio.\n\n#Google #Earth #IAGenerativa\nhttps://twitter.com/newsfromgoogle/status/2083249962150760610",
+        "linkedin": "Un día. Eso es lo que ha tardado Google en retirar el generador de imágenes por IA de Earth.\n\nLa velocidad de la retirada deja claro que 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗿 𝗜𝗔 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗮 𝗲𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼𝘀 𝗯𝗮𝘀𝗮𝗱𝗼𝘀 𝗲𝗻 𝗹𝗮 𝗰𝗼𝗻𝗳𝗶𝗮𝗻𝘇𝗮 𝗿𝗲𝗾𝘂𝗶𝗲𝗿𝗲 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗲𝘀 𝗾𝘂𝗲 𝗮ú𝗻 𝗻𝗼 𝗲𝘅𝗶𝘀𝘁𝗲𝗻. Cuando permites a los usuarios crear realidades sintéticas sobre lo que se supone que es un mapa fidedigno, cualquier uso inesperado se convierte en una crisis de reputación. Google ha preferido cortar por lo sano antes que arriesgar la imagen de fiabilidad de Earth.\n\n#Google #Earth #IAGenerativa\n\nhttps://twitter.com/newsfromgoogle/status/2083249962150760610"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "investigacion",
+      "title": "Por qué los modelos de lenguaje no romperán la criptografía simétrica, según un experto",
+      "summary": "Un análisis detallado explica que los modelos de lenguaje grandes, incluidos los avances de Anthropic en criptoanálisis, no suponen una amenaza real para la criptografía simétrica actual. Aunque estos sistemas pueden encontrar patrones, la seguridad de algoritmos como AES sigue estando fuera de su alcance. El autor desmonta los temores infundados y aclara el verdadero riesgo.",
+      "why_it_matters": "Tranquiliza sobre la solidez de la criptografía frente a la IA, un debate recurrente en la comunidad de seguridad.",
+      "url": "https://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
+      "source": "Lobsters",
+      "social": {
+        "x": "Los modelos más potentes de Anthropic no pueden con AES. Y este criptoanálisis lo deja claro: la criptografía simétrica sigue siendo inquebrantable.\n\n#Anthropic #AES #Criptografía #Ciberseguridad\nhttps://www.bfswa.blog/p/llms-wont-break-symmetric-crypto",
+        "linkedin": "El temor a que la IA rompa el cifrado simétrico aparece cíclicamente.\nUn análisis detallado demuestra que incluso los avances de Anthropic en criptoanálisis no pueden con AES. 𝗟𝗮 𝗰𝗿𝗶𝗽𝘁𝗼𝗴𝗿𝗮𝗳í𝗮 𝘀𝗶𝗺é𝘁𝗿𝗶𝗰𝗮 𝘀𝗶𝗴𝘂𝗲 𝘀𝗶𝗲𝗻𝗱𝗼 𝘀ó𝗹𝗶𝗱𝗮 𝗳𝗿𝗲𝗻𝘁𝗲 𝗮 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗱𝗲 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲, y entender los límites reales de estos sistemas es clave para no caer en alarmismos. Para profesionales de la seguridad, esta claridad evita distracciones y centra los esfuerzos donde sí hay riesgos: la implementación y la gestión de claves.\n\n#Anthropic #AES #Criptografía #Ciberseguridad\n\nhttps://www.bfswa.blog/p/llms-wont-break-symmetric-crypto"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "industria",
+      "title": "Los europeos descubrirán hasta qué punto la IA está integrada en su día a día gracias a las nuevas normas",
+      "summary": "La Unión Europea exigirá que se informe a los ciudadanos cuando interactúen con una IA o vean contenido generado por ella. Esta medida, que entra en vigor próximamente, podría provocar una 'fatiga de divulgación' al hacer evidente la omnipresencia de estos sistemas en aplicaciones, redes sociales y servicios públicos. Las empresas deberán adaptar sus interfaces para cumplir con la normativa.",
+      "why_it_matters": "Cambia la transparencia y la percepción pública de la IA en Europa, con implicaciones para el diseño de productos.",
+      "url": "https://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives",
+      "source": "Wired",
+      "social": {
+        "x": "El nuevo etiquetado de IA en Europa hará visible lo invisible: desde el scroll en redes hasta el trámite público. ¿Estamos preparados para la 'fatiga de divulgación'?\n\n#UE #AIRegulation #Transparencia\nhttps://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives",
+        "linkedin": "La próxima vez que hagas scroll en redes o gestiones un trámite, puede que veas un aviso: 'Esto es contenido generado por IA'.\n\nLa Unión Europea obligará a etiquetar cualquier interacción con inteligencia artificial. El objetivo es la transparencia, pero el riesgo es 𝗹𝗮 '𝗳𝗮𝘁𝗶𝗴𝗮 𝗱𝗲 𝗱𝗶𝘃𝘂𝗹𝗴𝗮𝗰𝗶ó𝗻': 𝘁𝗮𝗻𝘁𝗮𝘀 𝗻𝗼𝘁𝗶𝗳𝗶𝗰𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗾𝘂𝗲 𝗮𝗰𝗮𝗯𝗲𝗻 𝘀𝗶𝗲𝗻𝗱𝗼 𝗶𝗴𝗻𝗼𝗿𝗮𝗱𝗮𝘀. Para empresas y administraciones, implica rediseñar sus interfaces para no saturar al usuario. Una norma que cambiará nuestra percepción de cuánto dependemos ya de estos sistemas.\n\n#UE #AIRegulation #Transparencia\n\nhttps://www.wired.com/story/europeans-are-about-to-find-out-how-entrenched-ai-is-in-their-daily-lives"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "industria",
+      "title": "Un juez rechaza la petición de xAI para bloquear la ley de Minnesota contra las aplicaciones que generan desnudos falsos",
+      "summary": "Un juez federal ha denegado la solicitud de xAI para detener una ley de Minnesota que prohíbe las aplicaciones capaces de crear imágenes de desnudos a partir de fotos reales. La legislación, que ya ha entrado en vigor, busca frenar el acoso digital. El tribunal consideró que la compañía presentó la demanda demasiado tarde y no apreció un daño irreparable.",
+      "why_it_matters": "Supone un precedente legal sobre la regulación de herramientas de IA generativa con potencial de abuso.",
+      "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps",
+      "source": "TechCrunch",
+      "social": {
+        "x": "⚖️ El intento de xAI de frenar una ley contra los desnudos generados por IA se topa con un juez. La legislación de Minnesota sigue en pie y ya sienta precedente.\n\n#xAI #Deepfakes #IAgenerativa #RegulaciónTech\nhttps://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps",
+        "linkedin": "Un juez federal acaba de denegar la petición de xAI de bloquear una ley de Minnesota que prohíbe las apps de desnudos generados por IA.\nEsta legislación, ya en vigor, busca cortar el acoso digital de raíz. 𝗘𝗹 𝘁𝗿𝗶𝗯𝘂𝗻𝗮𝗹 𝗱𝗲𝘀𝗲𝘀𝘁𝗶𝗺ó 𝗹𝗮 𝗱𝗲𝗺𝗮𝗻𝗱𝗮 𝗽𝗼𝗿 𝘁𝗮𝗿𝗱í𝗮 𝘆 𝗽𝗼𝗿 𝗻𝗼 𝘃𝗲𝗿 𝘂𝗻 𝗱𝗮ñ𝗼 𝗶𝗿𝗿𝗲𝗽𝗮𝗿𝗮𝗯𝗹𝗲, sentando un precedente claro: la regulación de la IA generativa avanza con o sin el visto bueno de las tecnológicas. Para las empresas que desarrollan estas herramientas, el mensaje es inequívoco: prevenir el abuso ya es parte del negocio.\n\n#xAI #Deepfakes #IAgenerativa #RegulaciónTech\n\nhttps://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "industria",
+      "title": "El CEO de Reddit pone en duda el valor de los AI Overviews de Google mientras las acciones caen",
+      "summary": "Steve Huffman, consejero delegado de Reddit, ha cuestionado el beneficio que los resúmenes generados por IA de Google aportan a la plataforma. Las declaraciones llegan en un momento en que las acciones de Reddit han bajado y la empresa reconsidera su acuerdo de licencia con el buscador. Aunque Google usa contenido de Reddit para entrenar sus modelos, Huffman afirma que aún buscan una relación 'beneficiosa para ambas partes'.",
+      "why_it_matters": "Refleja la tensión entre plataformas de contenido y buscadores sobre el uso de la IA y el valor de los datos.",
+      "url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win",
+      "source": "Ars Technica",
+      "social": {
+        "x": "El CEO de Reddit acaba de decir que los AI Overviews de Google no benefician a su plataforma. Mientras, las acciones caen y el acuerdo con el buscador se tambalea.\n\n#Reddit #Google #AISearch\nhttps://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win",
+        "linkedin": "La tensión entre quienes generan contenido y quienes lo resumen con IA sube un escalón.\n\nSteve Huffman, CEO de Reddit, puso en duda que los AI Overviews de Google aporten valor a su comunidad. 𝗟𝗮 𝗲𝗺𝗽𝗿𝗲𝘀𝗮 𝗿𝗲𝗽𝗹𝗮𝗻𝘁𝗲𝗮 𝘀𝘂 𝗮𝗰𝘂𝗲𝗿𝗱𝗼 𝗱𝗲 𝗹𝗶𝗰𝗲𝗻𝗰𝗶𝗮 𝗰𝗼𝗻 𝗲𝗹 𝗯𝘂𝘀𝗰𝗮𝗱𝗼𝗿 mientras sus acciones registran caídas. Para Reddit, la monetización de sus datos es crucial; para Google, acceder a conversaciones humanas de calidad es clave en su estrategia de IA. Este desencuentro refleja una batalla más amplia: ¿quién captura el valor cuando el contenido se convierte en una respuesta automática?\n\n#Reddit #Google #AISearch\n\nhttps://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "industria",
+      "title": "La polémica llega al Billboard Hot 100: ¿es esta canción obra de la IA?",
+      "summary": "El tema 'Rubberz' del rapero Fenix Flexin ha escalado hasta el puesto 58 del Billboard Hot 100, pero numerosos oyentes sospechan que fue generada casi por completo con inteligencia artificial. Tanto la música como la portada presentan características típicas de la creación sintética. Aunque el artista lo niega, la controversia aviva el debate sobre la autenticidad en la industria musical.",
+      "why_it_matters": "Es uno de los primeros casos de un posible éxito comercial creado con IA, lo que podría sentar un precedente en la música.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+      "source": "The Verge",
+      "social": {
+        "x": "El Billboard Hot 100 tiene un nuevo éxito... que quizá no sea humano. 'Rubberz' de Fenix Flexin suena a IA, y el debate sobre autenticidad en la música acaba de subir de nivel.\n\n#BillboardHot100 #FenixFlexin #Rubberz\nhttps://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+        "linkedin": "Por primera vez, una canción sospechosa de ser generada por IA ha escalado hasta el Billboard Hot 100. \nEl tema 'Rubberz' de Fenix Flexin, que muchos oyentes creen sintético, reabre el debate sobre la autenticidad en la industria musical. 𝗟𝗮 𝗽𝗼𝘀𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲 𝗾𝘂𝗲 𝘂𝗻 é𝘅𝗶𝘁𝗼 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗮𝗹 𝘀𝗲𝗮 𝗼𝗯𝗿𝗮 𝗱𝗲 𝘂𝗻𝗮 𝗺á𝗾𝘂𝗶𝗻𝗮 no solo cuestiona los criterios de las listas, sino que presiona a discográficas y plataformas para definir qué es creación humana.\n\n#BillboardHot100 #FenixFlexin #Rubberz\n\nhttps://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "Sam Altman vuelve a recomendar usar ChatGPT para la crianza de los hijos",
+      "summary": "El CEO de OpenAI, Sam Altman, ha compartido su entusiasmo por un 'caso de uso genial': utilizar ChatGPT para ayudar en las tareas de paternidad. Altman ya había mencionado anteriormente cómo el modelo le sirve para responder dudas y organizar aspectos de la vida familiar. Aunque la ocurrencia ha generado simpatía, también reabre el debate sobre los límites de la IA en la esfera personal.",
+      "why_it_matters": "Ilustra cómo incluso los líderes del sector exploran usos domésticos de la IA, normalizando su presencia en la vida cotidiana.",
+      "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt",
+      "source": "TechCrunch",
+      "social": {
+        "x": "¿Dejarías que una IA te ayudara a criar a tus hijos? Sam Altman ya lo hace.\n\n#ChatGPT #OpenAI #AIParenting\nhttps://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt",
+        "linkedin": "¿Es la IA la nueva niñera? Sam Altman cree que sí.\n\nEl CEO de OpenAI ha vuelto a recomendar ChatGPT para las tareas de paternidad: responder dudas, organizar la vida familiar. Un gesto que normaliza la IA en la esfera más íntima y reabre el debate sobre sus límites. 𝗟𝗮 𝗹í𝗻𝗲𝗮 𝗲𝗻𝘁𝗿𝗲 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝘆 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮 𝘀𝗲 𝗱𝗶𝗳𝘂𝗺𝗶𝗻𝗮 cuando los referentes del sector predican con el ejemplo.\n\n#ChatGPT #OpenAI #AIParenting\n\nhttps://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Descubren una vulnerabilidad crítica en la compartición de pantalla de Apple que permite ejecución remota de código",
+      "summary": "Se ha publicado un análisis de una vulnerabilidad de ejecución remota de código en el servicio de compartición de pantalla de Apple. El fallo, que no requería autenticación previa, podría haber permitido a un atacante tomar el control de un Mac. Aunque ya está corregida, el investigador detalla el proceso de descubrimiento y explotación.",
+      "why_it_matters": "Pone de relieve la importancia de mantener los sistemas actualizados y la creciente superficie de ataque en funciones de conectividad.",
+      "url": "https://warez.sl0p.foo/apple-screensharing-rce",
+      "source": "Lobsters",
+      "social": {
+        "x": "Un atacante podía controlar tu Mac sin contraseña. El fallo estaba en la compartición de pantalla de Apple y no requería autenticación. Ya está corregido, pero el análisis es brutal.\n\n#Apple #ciberseguridad #vulnerabilidad #RCE\nhttps://warez.sl0p.foo/apple-screensharing-rce",
+        "linkedin": "Un fallo en la compartición de pantalla de Apple permitía ejecutar código de forma remota sin necesidad de autenticación.\n\nEl investigador detalla cómo descubrió y explotó la vulnerabilidad, que ya ha sido corregida. 𝗖𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗳𝘂𝗻𝗰𝗶ó𝗻 𝗱𝗲 𝗰𝗼𝗻𝗲𝗰𝘁𝗶𝘃𝗶𝗱𝗮𝗱 𝗮ñ𝗮𝗱𝗲 𝘀𝘂𝗽𝗲𝗿𝗳𝗶𝗰𝗶𝗲 𝗱𝗲 𝗮𝘁𝗮𝗾𝘂𝗲 y mantener los sistemas actualizados no es opcional. Un análisis técnico que merece la pena leer.\n\n#Apple #ciberseguridad #vulnerabilidad #RCE\n\nhttps://warez.sl0p.foo/apple-screensharing-rce"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "NetBSD 11.0 llega con mejoras en compatibilidad y seguridad",
+      "summary": "El equipo de NetBSD ha anunciado la versión 11.0 de este sistema operativo de código abierto, conocido por su portabilidad y limpieza de código. Entre las novedades se incluyen soporte actualizado para nuevas arquitecturas, mejoras en el rendimiento de red y correcciones de seguridad. Esta versión incorpora controladores más modernos y una base de paquetes renovada.",
+      "why_it_matters": "Mantener vivo un proyecto histórico como NetBSD demuestra la fortaleza del software libre y su utilidad en entornos especializados.",
+      "url": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released",
+      "source": "Lobsters",
+      "social": {
+        "x": "Mientras todos miran a Linux, un sistema operativo con 30 años de historia sigue recibiendo actualizaciones críticas. NetBSD 11.0 ya está aquí.\n\n#NetBSD #OpenSource #BSD #Unix\nhttps://blog.netbsd.org/tnf/entry/netbsd_11_0_released",
+        "linkedin": "NetBSD 11.0 nos recuerda por qué el software libre bien hecho no tiene fecha de caducidad.\n\nTreinta años después de su primer lanzamiento, NetBSD sigue siendo el sistema operativo de referencia para quienes necesitan portabilidad extrema. Esta nueva versión incorpora 𝗱𝗿𝗶𝘃𝗲𝗿𝘀 𝗺𝗼𝗱𝗲𝗿𝗻𝗼𝘀 𝘆 𝗺𝗲𝗷𝗼𝗿𝗮𝘀 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗾𝘂𝗲 𝗹𝗼 𝗺𝗮𝗻𝘁𝗶𝗲𝗻𝗲𝗻 𝗿𝗲𝗹𝗲𝘃𝗮𝗻𝘁𝗲 en entornos donde Linux no siempre es la respuesta. Una lección de longevidad para todo el ecosistema open source.\n\n#NetBSD #OpenSource #BSD #Unix\n\nhttps://blog.netbsd.org/tnf/entry/netbsd_11_0_released"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "Una llave NFC de 9 dólares bloquea las aplicaciones más adictivas hasta que la uses físicamente",
+      "summary": "Un nuevo dispositivo con forma de llavero permite bloquear el acceso a aplicaciones del móvil hasta que se escanea con el teléfono. Pensado para combatir la adicción a las redes sociales, el sistema obliga a un gesto físico deliberado, añadiendo fricción al impulso de abrir apps como TikTok o Instagram. Cuesta solo 9 dólares y se configura fácilmente.",
+      "why_it_matters": "Ofrece una solución tangible y económica a un problema creciente de salud digital, especialmente entre los más jóvenes.",
+      "url": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps",
+      "source": "TechCrunch",
+      "social": {
+        "x": "🔑 Adiós a los límites de tiempo que ignoras: una llave NFC de 9$ bloquea tus apps adictivas hasta que la usas físicamente.\n\n#NFC #SaludDigital #AdicciónDigital\nhttps://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps",
+        "linkedin": "La lucha contra la adicción a las redes sociales acaba de incorporar un aliado inesperado: una simple llave NFC de 9 dólares.\n\nEl sistema obliga a un gesto físico deliberado para desbloquear aplicaciones como TikTok o Instagram, añadiendo una fricción que los límites de tiempo por software nunca consiguen. Para equipos de bienestar digital, educadores y padres, esta solución de bajo coste y alta efectividad cambia las reglas: 𝗹𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗳í𝘀𝗶𝗰𝗮 𝘀𝘂𝗽𝗲𝗿𝗮 𝗮 𝗹𝗮 𝘃𝗶𝗿𝘁𝘂𝗮𝗹 𝗰𝘂𝗮𝗻𝗱𝗼 𝘀𝗲 𝘁𝗿𝗮𝘁𝗮 𝗱𝗲 𝗿𝗼𝗺𝗽𝗲𝗿 𝗵á𝗯𝗶𝘁𝗼𝘀 𝗮𝘂𝘁𝗼𝗺á𝘁𝗶𝗰𝗼𝘀.\n\n#NFC #SaludDigital #AdicciónDigital\n\nhttps://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "Filtrados los precios y especificaciones del Pixel 11: subidas de precio y recortes en RAM",
+      "summary": "Una filtración detalla las características del próximo Google Pixel 11, confirmando un aumento de precio y una reducción en la memoria RAM de algunos modelos. El documento recoge todas las variantes y sus precios de lanzamiento. Apenas hay sorpresas respecto a la generación anterior, más allá de los ajustes en coste y configuración.",
+      "why_it_matters": "Adelanta la estrategia de Google para su buque insignia, que parece priorizar márgenes sobre especificaciones punteras.",
+      "url": "https://www.theverge.com/tech/974238/pixel-11-specs-and-price-leak",
+      "source": "The Verge",
+      "social": {
+        "x": "El Pixel 11 sube de precio, pero recorta RAM. ¿Es la nueva estrategia de Google para priorizar márgenes?\n\n#GooglePixel #Pixel11 #Google\nhttps://www.theverge.com/tech/974238/pixel-11-specs-and-price-leak",
+        "linkedin": "La filtración del Pixel 11 confirma lo que nadie quería: subida de precio y recortes de RAM.\n\nLos documentos detallan todas las variantes y precios de lanzamiento. Apenas hay cambios frente al Pixel 10, más allá de este ajuste que deja claro que 𝗚𝗼𝗼𝗴𝗹𝗲 𝗽𝗿𝗶𝗼𝗿𝗶𝘇𝗮 𝘀𝘂𝘀 𝗺á𝗿𝗴𝗲𝗻𝗲𝘀 𝘀𝗼𝗯𝗿𝗲 𝗹𝗮𝘀 𝗲𝘀𝗽𝗲𝗰𝗶𝗳𝗶𝗰𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝘂𝗻𝘁𝗲𝗿𝗮𝘀. Es una jugada conservadora que arriesga alienar a los usuarios que buscan lo último en hardware.\n\n#GooglePixel #Pixel11 #Google\n\nhttps://www.theverge.com/tech/974238/pixel-11-specs-and-price-leak"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Ciberataques afectan a plantas de agua en siete estados de EE.UU.",
+      "summary": "Varias instalaciones de tratamiento de agua en siete estados han sufrido ataques informáticos, según ha confirmado el FBI. Los incidentes, que probablemente están vinculados a Irán, han puesto en alerta a las agencias federales. Aunque no se ha informado de daños en el suministro, la coordinación de los ataques evidencia una amenaza creciente contra infraestructuras críticas.",
+      "why_it_matters": "Subraya la vulnerabilidad de los servicios esenciales frente a ciberataques patrocinados por estados.",
+      "url": "https://www.engadget.com/2228441/cyberattacks-water-facilities-seven-states-across-the-us",
+      "source": "Engadget",
+      "social": {
+        "x": "Siete estados de EE.UU. han sufrido ciberataques coordinados contra sus plantas de agua. El FBI confirma el origen iraní. Sin daños en el suministro, pero la amenaza a infraestructuras críticas escala.\n\n#Ciberseguridad #InfraestructurasCriticas #FBI #Iran\nhttps://www.engadget.com/2228441/cyberattacks-water-facilities-seven-states-across-the-us",
+        "linkedin": "Infraestructuras críticas bajo ataque: la nueva normalidad.\n\nSiete estados de EE.UU. han reportado ciberataques en plantas de tratamiento de agua, con el FBI señalando a Irán como probable responsable. Aunque no ha habido cortes en el suministro, la coordinación de los incidentes 𝗲𝘃𝗶𝗱𝗲𝗻𝗰𝗶𝗮 𝗹𝗮 𝗰𝗿𝗲𝗰𝗶𝗲𝗻𝘁𝗲 𝘃𝘂𝗹𝗻𝗲𝗿𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲 𝗹𝗼𝘀 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼𝘀 𝗲𝘀𝗲𝗻𝗰𝗶𝗮𝗹𝗲𝘀 𝗳𝗿𝗲𝗻𝘁𝗲 𝗮 𝗮𝗺𝗲𝗻𝗮𝘇𝗮𝘀 𝗲𝘀𝘁𝗮𝘁𝗮𝗹𝗲𝘀. Para los equipos de seguridad, es un recordatorio de que proteger el entorno OT ya no es opcional.\n\n#Ciberseguridad #InfraestructurasCriticas #FBI #Iran\n\nhttps://www.engadget.com/2228441/cyberattacks-water-facilities-seven-states-across-the-us"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "lanzamientos",
+      "title": "Nace un índice web europeo para reducir la dependencia de los buscadores estadounidenses",
+      "summary": "El proyecto European Search Perspective está construyendo un índice de contenidos web alojados en Europa. La iniciativa quiere ofrecer una alternativa a Google y Bing para pequeños buscadores y startups europeas. Con un enfoque en la sostenibilidad, el índice cubrirá sitios en múltiples idiomas y respetará la normativa de protección de datos.",
+      "why_it_matters": "Fomenta la soberanía digital europea y la competencia en un mercado dominado por dos empresas.",
+      "url": "https://www.eu-searchperspective.com",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Y si hubiera un buscador que no fuera ni Google ni Bing? Europa está montando un índice web abierto para que cualquiera pueda construir uno.\n\n#EuropeanSearchPerspective #OpenWeb #DigitalSovereignty\nhttps://www.eu-searchperspective.com",
+        "linkedin": "¿Y si hubiera un buscador que no fuera ni Google ni Bing?\n\nEuropa acaba de lanzar European Search Perspective, un índice web abierto que indexa contenidos alojados en servidores europeos. 𝗘𝘀𝘁á 𝗱𝗶𝘀𝗲ñ𝗮𝗱𝗼 𝗽𝗮𝗿𝗮 𝗾𝘂𝗲 𝘀𝘁𝗮𝗿𝘁𝘂𝗽𝘀 𝘆 𝗽𝗲𝗾𝘂𝗲ñ𝗼𝘀 𝗯𝘂𝘀𝗰𝗮𝗱𝗼𝗿𝗲𝘀 𝗽𝘂𝗲𝗱𝗮𝗻 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗶𝗿 𝘀𝘂𝘀 𝗽𝗿𝗼𝗽𝗶𝗮𝘀 𝗮𝗹𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝘃𝗮𝘀 sin depender de los gigantes estadounidenses. Con foco en sostenibilidad, multilingüismo y cumplimiento del RGPD, es un paso firme hacia la soberanía digital.\n\n#EuropeanSearchPerspective #OpenWeb #DigitalSovereignty\n\nhttps://www.eu-searchperspective.com"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "herramientas",
+      "title": "The Fixi Project: librerías web ultraligeras para un desarrollo más ágil",
+      "summary": "The Fixi Project agrupa varias librerías para desarrollo web que, juntas, no superan los 4,7 KB comprimidos. Está diseñado para funcionar como un ecosistema completo sin depender de frameworks pesados. La propuesta incluye herramientas para enrutado, estado y renderizado, pensadas para simplificar la creación de aplicaciones modernas con una huella mínima.",
+      "why_it_matters": "Demuestra que se pueden construir aplicaciones web complejas con muy poco código, mejorando el rendimiento y la sostenibilidad.",
+      "url": "https://fixiproject.org/docs.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "Menos de 5 KB comprimidos para todo un stack de desarrollo web: enrutado, estado, renderizado. The Fixi Project llega para desafiar a los frameworks pesados.\n\n#TheFixiProject #JavaScript #WebDev #OpenSource\nhttps://fixiproject.org/docs.html",
+        "linkedin": "¿Cuánto peso necesita de verdad una aplicación web moderna?\nThe Fixi Project demuestra que 𝘂𝗻 𝗲𝗰𝗼𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗱𝗲 𝗲𝗻𝗿𝘂𝘁𝗮𝗱𝗼, 𝗲𝘀𝘁𝗮𝗱𝗼 𝘆 𝗿𝗲𝗻𝗱𝗲𝗿𝗶𝘇𝗮𝗱𝗼 𝗰𝗮𝗯𝗲 𝗲𝗻 𝗺𝗲𝗻𝗼𝘀 𝗱𝗲 𝟱 𝗞𝗕 𝗰𝗼𝗺𝗽𝗿𝗶𝗺𝗶𝗱𝗼𝘀, sin depender de frameworks pesados. Una propuesta que invita a replantear la huella de nuestras aplicaciones, con impacto directo en rendimiento y sostenibilidad. Para cualquier equipo que busque agilidad sin sacrificar control, es una señal de hacia dónde puede ir el desarrollo web.\n\n#TheFixiProject #JavaScript #WebDev #OpenSource\n\nhttps://fixiproject.org/docs.html"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Uber teje una red de alianzas con 30 empresas para construir su imperio de vehículos autónomos",
+      "summary": "Uber ha cerrado acuerdos con cerca de 30 compañías de vehículos autónomos en los últimos dos años, según un rastreador publicado por TechCrunch. La estrategia incluye colaboraciones e inversiones directas para integrar flotas de robotaxis en su plataforma. La compañía busca posicionarse como el gran intermediario de la movilidad autónoma, sin desarrollar su propia tecnología.",
+      "why_it_matters": "Define el papel de Uber en el futuro del transporte, pasando de operador a agregador de múltiples proveedores autónomos.",
+      "url": "https://techcrunch.com/2026/08/01/ubers-autonomous-vehicle-deal-tracker",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Uber ha cerrado acuerdos con 30 empresas de vehículos autónomos en dos años. Su estrategia: ser el intermediario que todas necesitan.\n\n#Uber #Robotaxis #MovilidadAutónoma\nhttps://techcrunch.com/2026/08/01/ubers-autonomous-vehicle-deal-tracker",
+        "linkedin": "Mientras el sector se obsesiona con quién tiene la mejor tecnología autónoma, Uber ha hecho algo más sigiloso: cerrar acuerdos con 30 empresas del ramo.\n\nEn los últimos dos años, la compañía ha tejido una red de colaboraciones e inversiones directas que le permitirán integrar flotas de robotaxis en su app cuando llegue el momento. La jugada es clara: 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗿𝘀𝗲 𝗲𝗻 𝗲𝗹 𝗴𝗿𝗮𝗻 𝗮𝗴𝗿𝗲𝗴𝗮𝗱𝗼𝗿 𝗱𝗲 𝗹𝗮 𝗺𝗼𝘃𝗶𝗹𝗶𝗱𝗮𝗱 𝗮𝘂𝘁ó𝗻𝗼𝗺𝗮 sin desarrollar tecnología propia.\n\n#Uber #Robotaxis #MovilidadAutónoma\n\nhttps://techcrunch.com/2026/08/01/ubers-autonomous-vehicle-deal-tracker"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "abus-aikorea/voice-pro",
+      "url": "https://github.com/abus-aikorea/voice-pro",
+      "description": "Interfaz web con Gradio que integra modelos punteros de síntesis de voz, clonación de voz zero-shot, transcripción y traducción multilingüe, ideal para creadores que quieran experimentar con audio sin complicaciones.",
+      "language": "Python",
+      "stars": 11920,
+      "social": {
+        "x": "Alguien ha creado una herramienta de audio que lo hace todo: síntesis, clonación zero-shot, transcripción y traducción. Open source y 12k ⭐. Sin suscripción.\n\n#VoicePro #Python #OpenSource #GitHub\nhttps://github.com/abus-aikorea/voice-pro",
+        "linkedin": "¿CÓMO SERÍA TENER UNA HERRAMIENTA QUE UNIFICA SÍNTESIS DE VOZ, CLONACIÓN ZERO-SHOT, TRANSCRIPCIÓN Y TRADUCCIÓN EN UNA SOLA INTERFAZ?\n\nPues existe. Se llama Voice-Pro y es un proyecto open source que integra varios modelos punteros de IA para audio en una web con Gradio. Ideal para creadores que quieran experimentar sin las complicaciones ni los costes de los servicios comerciales.\n\n→ Síntesis de voz de alta calidad.\n→ Clonación de voz zero-shot: imita cualquier voz sin entrenar un modelo.\n→ Transcripción precisa en múltiples idiomas.\n→ Traducción automática.\n\nLa 𝗶𝗱𝗲𝗮 es ofrecer un laboratorio de audio accesible para todos, sin coste. Y la comunidad ya lo ha validado: supera las 11.9k estrellas en GitHub.\n\nTe dejo el repo abajo. Guárdalo para tu próximo proyecto.\n\n#VoicePro #Python #OpenSource #GitHub\n\nhttps://github.com/abus-aikorea/voice-pro"
+      }
+    },
+    {
+      "name": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "description": "Framework open source para agentes autónomos de larga duración que investigan, programan y crean contenido usando sandboxes, memorias y subagentes, capaz de abordar tareas complejas de minutos a horas.",
+      "language": "Python",
+      "stars": 78876,
+      "social": {
+        "x": "ByteDance acaba de liberar su framework de agentes autónomos y ya vuela con 76k ⭐️.\n\n#deerflow #Python #OpenSource #GitHub\nhttps://github.com/bytedance/deer-flow",
+        "linkedin": "BYTEDANCE REGALA SU FRAMEWORK DE AGENTES AUTÓNOMOS QUE YA SUPERAN EN TAREAS COMPLEJAS A MUCHOS PRODUCTOS COMERCIALES.\n\nSe trata de deer-flow, un proyecto open source en Python que permite que agentes trabajen de forma autónoma durante horas investigando, programando y creando contenido, con sandbox, memoria y subagentes. Mientras plataformas como AutoGPT o las APIs de los grandes te cobran por cada tarea, esto es 𝘀𝗲𝗹𝗳-𝗵𝗼𝘀𝘁𝗲𝗱 𝘆 𝗴𝗿𝗮𝘁𝘂𝗶𝘁𝗼.\n\n→ Investigación autónoma que combina búsqueda web y scraping.\n→ Ejecución de código en sandbox con aislamiento.\n→ Memoria persistente que recuerda el contexto de toda la tarea.\n→ Descomposición en subagentes para tareas complejas.\n\nTe dejo el repo para que lo pruebes. Guarda el post porque este proyecto no para de crecer.\n\n#deerflow #Python #OpenSource #GitHub\n\nhttps://github.com/bytedance/deer-flow"
+      }
+    },
+    {
+      "name": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "description": "Hub de memoria para equipos que convierte conversaciones, documentos y código en activos reutilizables (memoria de chat, habilidades, wiki LLM y grafo de código) que los agentes pueden compartir y gobernar.",
+      "language": "TypeScript",
+      "stars": 10530,
+      "social": {
+        "x": "Alguien acaba de liberar un hub de memoria para agentes que convierte conversaciones y código en activos compartidos. 10.5k estrellas y sin suscripción.\n\n#AgentMemory #OpenSource #TypeScript #GitHub\nhttps://github.com/TencentCloud/TencentDB-Agent-Memory",
+        "linkedin": "TEN TU PROPIO HUB DE MEMORIA PARA AGENTES SIN PAGAR SUSCRIPCIONES.\n\nEste repositorio de Tencent es 𝗲𝗹 𝗵𝘂𝗯 𝗱𝗲 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 que convierte conversaciones, documentos y código en activos compartidos. Sus agentes no pierden el hilo: recuerdan, aprenden y entienden tu código.\n\n→ Memoria de chat: conserva el contexto entre sesiones.\n→ Habilidades: extrae acciones recurrentes de las conversaciones.\n→ Wiki LLM: un índice semántico de todo el conocimiento.\n→ Grafo de código: entiende cómo se relaciona tu codebase.\n\nSi trabajas con agentes, guarda este post para tenerlo a mano. Te dejo el enlace al repo abajo.\n\n#AgentMemory #OpenSource #TypeScript #GitHub\n\nhttps://github.com/TencentCloud/TencentDB-Agent-Memory"
+      }
+    },
+    {
+      "name": "microsoft/TRELLIS.2",
+      "url": "https://github.com/microsoft/TRELLIS.2",
+      "description": "Modelo nativo de última generación para generación 3D que usa latentes estructuradas compactas, permitiendo crear objetos tridimensionales con gran calidad y eficiencia.",
+      "language": "Python",
+      "stars": 10050,
+      "social": {
+        "x": "Genera modelos 3D en segundos desde texto y sin pagar. Microsoft acaba de liberar su modelo TRELLIS.2 y ya supera las 10k estrellas.\n\n#TRELLIS2 #3D #OpenSource #GitHub\nhttps://github.com/microsoft/TRELLIS.2",
+        "linkedin": "GENERAR MODELOS 3D CON CALIDAD DE ESTUDIO YA ES POSIBLE SIN PAGAR UN CÉNTIMO.\n\nMicrosoft ha liberado TRELLIS.2, un modelo nativo de última generación que usa latentes estructuradas compactas para crear objetos tridimensionales con una eficiencia y calidad sorprendentes.\n\nFrente a las herramientas comerciales que exigen hardware potente y conocimientos avanzados, este modelo te permite obtener modelos 3D listos para usar desde un simple texto.\n\n→ Generación a partir de texto o imagen.\n→ Ejecución local y self-hosted.\n→ Arquitectura con latentes compactas, rápida y ligera.\n→ Código abierto disponible en GitHub.\n\nEl repo ya supera las 10.000 estrellas en tiempo récord. 𝗟𝗮 𝗴𝗲𝗻𝗲𝗿𝗮𝗰𝗶ó𝗻 𝟯𝗗 𝗱𝗲𝘀𝗱𝗲 𝘁𝗲𝘅𝘁𝗼 𝗮𝗵𝗼𝗿𝗮 𝗲𝘀 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝘆 𝗹𝗼𝗰𝗮𝗹 es una realidad que no puedes dejar pasar.\n\nGuarda este post para probarlo en tu próximo proyecto. Te dejo el repo abajo.\n\n#TRELLIS2 #3D #OpenSource #GitHub\n\nhttps://github.com/microsoft/TRELLIS.2"
+      }
+    },
+    {
+      "name": "github/gh-stack",
+      "url": "https://github.com/github/gh-stack",
+      "description": "Extensión de la CLI de GitHub que simplifica la gestión de pull requests apiladas, facilitando mantener ramas dependientes sincronizadas y revisar cambios incrementales.",
+      "language": "Go",
+      "stars": 886,
+      "social": {
+        "x": "Manejar PRs apiladas era un caos hasta que GitHub publicó esta extensión. Sincroniza ramas y revisa cambios incrementales sola. 886 estrellas ya.\n\n#GitHub #OpenSource #Go #DevTools\nhttps://github.com/github/gh-stack",
+        "linkedin": "ADIÓS AL REBASE INFINITO EN TUS PULL REQUESTS APILADAS.\n\nGitHub ha publicado `gh-stack`, una extensión oficial para su CLI que automatiza la sincronización de ramas dependientes y la revisión incremental. Si trabajas con stacks de PRs, sabes lo tedioso que es mantener todo actualizado. Esta herramienta lo resuelve de raíz.\n\n→ Sincroniza automáticamente las ramas de tu stack.\n→ Muestra los cambios por commit para revisar de forma aislada.\n→ Se integra con `gh`, la CLI de GitHub.\n\n𝗠𝗮𝗻𝗲𝗷𝗮𝗿 𝗣𝗥𝘀 𝗮𝗽𝗶𝗹𝗮𝗱𝗮𝘀 𝗻𝘂𝗻𝗰𝗮 𝗳𝘂𝗲 𝘁𝗮𝗻 𝘀𝗲𝗻𝗰𝗶𝗹𝗹𝗼. Te dejo el repo abajo. Guarda el post si trabajas con stacks a diario.\n\n#GitHub #OpenSource #Go #DevTools\n\nhttps://github.com/github/gh-stack"
+      }
+    }
+  ]
+}
