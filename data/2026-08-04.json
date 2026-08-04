@@ -1,0 +1,324 @@
+{
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T09:45:37.684Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "herramientas",
+      "title": "AirLLM permite ejecutar modelos de 70B en una GPU con solo 4 GB de memoria",
+      "summary": "El proyecto open source AirLLM optimiza la inferencia de grandes modelos de lenguaje para funcionar en hardware de consumo. Emplea técnicas de cuantización y descarga a disco para que modelos como Llama 3 70B corran sin necesidad de costosas GPUs con decenas de gigabytes de VRAM.",
+      "why_it_matters": "Democratiza el acceso a modelos grandes, permitiendo a desarrolladores experimentar localmente sin depender de la nube.",
+      "url": "https://github.com/lyogavin/airllm",
+      "source": "Hacker News",
+      "social": {
+        "x": "Ejecutar un modelo de 70B con solo 4GB de VRAM suena a trampa. Pero AirLLM lo hace posible con cuantización y descarga a disco. Y es open source.\n\n#AirLLM #OpenSource #Llama3 #LocalAI\nhttps://github.com/lyogavin/airllm",
+        "linkedin": "Que un modelo de 70B funcione en una GPU con 4GB de VRAM parecía imposible hasta hace poco.\n\nAirLLM, un proyecto open source, lo ha conseguido combinando cuantización y descarga a disco. 𝗗𝗲𝗺𝗼𝗰𝗿𝗮𝘁𝗶𝘇𝗮 𝗲𝗹 𝗮𝗰𝗰𝗲𝘀𝗼 𝗮 𝗹𝗼𝘀 𝗴𝗿𝗮𝗻𝗱𝗲𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗱𝗲 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲 al eliminar la barrera del hardware especializado. Para desarrolladores que quieren experimentar localmente sin depender de la nube, es un punto de inflexión.\n\n#AirLLM #OpenSource #Llama3 #LocalAI\n\nhttps://github.com/lyogavin/airllm"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "Nightcrawler, un agente de pentesting con IA que se ejecuta en el móvil",
+      "summary": "Un agente open source diseñado para funcionar localmente en un smartphone y realizar pruebas de penetración automatizadas. Utiliza modelos de lenguaje ligeros para identificar vulnerabilidades y generar informes sin enviar datos a servidores externos.",
+      "why_it_matters": "Lleva las auditorías de seguridad a un dispositivo de bolsillo, útil para profesionales y entusiastas.",
+      "url": "https://github.com/garagehq/nightcrawler",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un agente de pentesting con IA que se ejecuta en tu móvil sin enviar datos a la nube. Así es Nightcrawler.\n\n#OpenSource #Ciberseguridad #Pentesting #LocalAI\nhttps://github.com/garagehq/nightcrawler",
+        "linkedin": "Imagina llevar un pentester en el bolsillo que funciona sin conexión.\n\nNightcrawler es un agente open source que utiliza modelos de lenguaje ligeros para realizar pruebas de penetración automatizadas desde un smartphone. 𝗣𝗿𝗼𝗰𝗲𝘀𝗮 𝘁𝗼𝗱𝗼 𝗹𝗼𝗰𝗮𝗹𝗺𝗲𝗻𝘁𝗲, eliminando la necesidad de enviar datos sensibles a servidores externos. Una herramienta que democratiza las auditorías de seguridad sobre el terreno, ideal para profesionales y entusiastas del pentesting.\n\n#OpenSource #Ciberseguridad #Pentesting #LocalAI\n\nhttps://github.com/garagehq/nightcrawler"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Gemini Spark ya puede navegar por Chrome usando tus cuentas y contraseñas",
+      "summary": "La nueva capacidad del asistente de Google permite que Gemini Spark interactúe con la web: puede iniciar sesión con las credenciales guardadas, realizar compras o completar formularios. Una evolución que convierte al asistente en un agente que actúa en nombre del usuario en tareas cotidianas.",
+      "why_it_matters": "Hace más práctico el uso de asistentes de IA para gestiones reales, ahorrando tiempo en trámites en línea.",
+      "url": "https://www.engadget.com/2229209/gemini-spark-now-has-chrome-web-browsing-capabliities",
+      "source": "Engadget",
+      "social": {
+        "x": "Gemini Spark ya es un agente autónomo: navega por Chrome con tus cuentas y contraseñas para hacer la compra o rellenar formularios por ti.\n\n#Google #GeminiSpark #Chrome #Automatización\nhttps://www.engadget.com/2229209/gemini-spark-now-has-chrome-web-browsing-capabliities",
+        "linkedin": "La línea entre asistente y agente autónomo se difumina: Gemini Spark ahora puede navegar por Chrome utilizando tus propias cuentas y contraseñas guardadas.\n\nEsto cambia las reglas del juego: ya no hablamos de comandos de voz o generación de texto, sino de 𝗱𝗲𝗹𝗲𝗴𝗮𝗿 𝘁𝗮𝗿𝗲𝗮𝘀 𝗿𝗲𝗮𝗹𝗲𝘀 𝗰𝗼𝗺𝗼 𝗰𝗼𝗺𝗽𝗿𝗮𝘀 𝗼𝗻𝗹𝗶𝗻𝗲 𝗼 𝘁𝗿á𝗺𝗶𝘁𝗲𝘀 𝗯𝘂𝗿𝗼𝗰𝗿á𝘁𝗶𝗰𝗼𝘀. Para los equipos de producto, supone una nueva capa de automatización que ahorra tiempo y simplifica procesos. Eso sí, la gestión de permisos y la seguridad serán críticas para la adopción masiva.\n\n#Google #GeminiSpark #Chrome #Automatización\n\nhttps://www.engadget.com/2229209/gemini-spark-now-has-chrome-web-browsing-capabliities"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Hoplite despliega agentes de codificación en la nube con un solo comando",
+      "summary": "La startup respaldada por Y Combinator presenta una herramienta que abstrae la complejidad de desplegar agentes de IA para programación. Se integra con entornos de desarrollo cloud y permite a los equipos lanzar agentes en los principales proveedores sin configuraciones manuales.",
+      "why_it_matters": "Acelera la adopción de codificación con IA al eliminar las barreras de infraestructura.",
+      "url": "https://hoplite.sh",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un comando. Eso basta para desplegar agentes de codificación en la nube con Hoplite.\n\n#Hoplite #YCombinator #AICoding #CloudNative\nhttps://hoplite.sh",
+        "linkedin": "El despliegue en la nube era el último obstáculo para los agentes de codificación. Hoplite lo ha eliminado con un comando.\n\nLa startup respaldada por Y Combinator abstrae toda la complejidad de infraestructura, permitiendo a los equipos lanzar agentes en AWS, Google Cloud o Azure sin configuraciones manuales. 𝗟𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗽𝗮𝗿𝗮 𝗹𝗮 𝗰𝗼𝗱𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗮𝘀𝗶𝘀𝘁𝗶𝗱𝗮 𝗽𝗼𝗿 𝗜𝗔 𝗮𝗰𝗮𝗯𝗮 𝗱𝗲 𝗯𝗮𝗷𝗮𝗿 𝗱𝗿á𝘀𝘁𝗶𝗰𝗮𝗺𝗲𝗻𝘁𝗲.\n\n#Hoplite #YCombinator #AICoding #CloudNative\n\nhttps://hoplite.sh"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "AWS se alía con Superblocks para integrar el 'vibe-coding' en nubes privadas",
+      "summary": "La colaboración permite que la herramienta de programación asistida Superblocks se despliegue en entornos privados de AWS. Los clientes ahora pueden mantener el control de los datos mientras utilizan los agentes de código generado por IA.",
+      "why_it_matters": "Resuelve objeciones de seguridad y soberanía de datos, allanando el camino para el 'vibe-coding' empresarial.",
+      "url": "https://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El argumento de seguridad que bloqueaba el 'vibe-coding' en empresas acaba de caer. AWS y Superblocks lo traen a nubes privadas.\n\n#AWS #Superblocks #VibeCoding #SoberaníaDatos\nhttps://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big",
+        "linkedin": "🔒 El 'vibe-coding' chocaba con un muro en la empresa: el control de los datos. AWS y Superblocks acaban de derribarlo.\n\nLa nueva integración permite desplegar los agentes de Superblocks en entornos privados de AWS, manteniendo los datos dentro de la infraestructura del cliente. 𝗘𝗹 '𝘃𝗶𝗯𝗲-𝗰𝗼𝗱𝗶𝗻𝗴' 𝗲𝗺𝗽𝗿𝗲𝘀𝗮𝗿𝗶𝗮𝗹 𝘆𝗮 𝗲𝘀 𝘃𝗶𝗮𝗯𝗹𝗲 𝘀𝗶𝗻 𝘀𝗮𝗰𝗿𝗶𝗳𝗶𝗰𝗮𝗿 𝗹𝗮 𝘀𝗼𝗯𝗲𝗿𝗮𝗻í𝗮 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀. Para cualquier equipo que descartó estas herramientas por razones de compliance, es momento de reconsiderar.\n\n#AWS #Superblocks #VibeCoding #SoberaníaDatos\n\nhttps://techcrunch.com/2026/08/03/aws-is-helping-vibe-coding-startup-superblocks-and-the-implications-are-big"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Wispr Flow prepara un bloc de notas automático para reuniones con IA",
+      "summary": "La aplicación de productividad añadirá una función que genera resúmenes, actas y listas de tareas a partir de conversaciones. Según sus nuevos términos de servicio, estará disponible próximamente como parte de su suscripción.",
+      "why_it_matters": "Suma otra opción al creciente abanico de asistentes de reuniones con IA, con potencial de alta precisión.",
+      "url": "https://techcrunch.com/2026/08/03/wispr-flow-is-preparing-to-launch-a-meeting-notetaker-updated-terms-suggest",
+      "source": "TechCrunch",
+      "social": {
+        "x": "¿Y si al salir de una reunión ya tuvieras resumen, acta y tareas listas? Wispr Flow está a punto de hacerlo realidad.\n\n#WisprFlow #productividad #asistentes\nhttps://techcrunch.com/2026/08/03/wispr-flow-is-preparing-to-launch-a-meeting-notetaker-updated-terms-suggest",
+        "linkedin": "Cada semana aparece un nuevo asistente de reuniones con IA, pero Wispr Flow tiene un as bajo la manga: precisión.\n\nLa app de productividad, conocida por su motor de dictado, prepara una función que 𝗴𝗲𝗻𝗲𝗿𝗮 𝗿𝗲𝘀ú𝗺𝗲𝗻𝗲𝘀, 𝗮𝗰𝘁𝗮𝘀 𝘆 𝗹𝗶𝘀𝘁𝗮𝘀 𝗱𝗲 𝘁𝗮𝗿𝗲𝗮𝘀 𝗮𝘂𝘁𝗼𝗺á𝘁𝗶𝗰𝗮𝘀 a partir de conversaciones. En un mercado saturado de opciones, la clave está en la fidelidad de la transcripción, y Wispr Flow podría marcar la diferencia gracias a su tecnología de reconocimiento de voz. Para equipos que buscan optimizar el seguimiento de reuniones sin perder matices, toca seguir de cerca esta actualización.\n\n#WisprFlow #productividad #asistentes\n\nhttps://techcrunch.com/2026/08/03/wispr-flow-is-preparing-to-launch-a-meeting-notetaker-updated-terms-suggest"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "investigacion",
+      "title": "Cloudflare explica cómo sirve modelos frontera como Kimi y GLM de forma eficiente",
+      "summary": "Un artículo técnico detalla las técnicas usadas en la infraestructura de Cloudflare para servir modelos de IA a gran escala: cuantización de cachés KV, compresión de pesos y verificaciones de integridad. Esto permite que modelos avanzados se ejecuten más rápido y con menor coste energético.",
+      "why_it_matters": "Muestra optimizaciones prácticas que cualquier proveedor de IA puede adoptar para reducir costes y mejorar el rendimiento.",
+      "url": "https://blog.cloudflare.com/smaller-faster-safer-models",
+      "source": "Hacker News",
+      "social": {
+        "x": "Los grandes modelos de IA no tienen por qué devorar recursos. Cloudflare muestra cómo servir modelos como Kimi o GLM con mucha menos memoria y coste energético.\n\n#Cloudflare #Kimi #GLM #Inferencia\nhttps://blog.cloudflare.com/smaller-faster-safer-models",
+        "linkedin": "¿Qué hace falta para que los modelos de IA de vanguardia no disparen la factura energética? Cloudflare acaba de publicar una guía técnica con las respuestas.\n\nEn ella detallan técnicas como la cuantización de cachés KV, la compresión de pesos y verificaciones de integridad en caliente. 𝗘𝘀𝘁𝗼 𝗻𝗼 𝗲𝘀 𝘀𝗼𝗹𝗼 𝘁𝗲𝗼𝗿í𝗮: 𝘀𝗼𝗻 𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗾𝘂𝗲 𝘆𝗮 𝗲𝘀𝘁á𝗻 𝗮𝗽𝗹𝗶𝗰𝗮𝗻𝗱𝗼 𝗽𝗮𝗿𝗮 𝘀𝗲𝗿𝘃𝗶𝗿 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗰𝗼𝗺𝗼 𝗞𝗶𝗺𝗶 𝘆 𝗚𝗟𝗠. Para cualquier equipo que despliegue modelos a escala, esta transparencia marca el camino hacia una inferencia más eficiente.\n\n#Cloudflare #Kimi #GLM #Inferencia\n\nhttps://blog.cloudflare.com/smaller-faster-safer-models"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "investigacion",
+      "title": "MirrorCode mide qué proyectos de software puede completar una IA por sí sola",
+      "summary": "El nuevo benchmark de Epoch AI evalúa la capacidad de los modelos para finalizar proyectos de programación completos, más allá de fragmentos de código. Los resultados actuales muestran que los sistemas más avanzados aún están lejos de desarrollar aplicaciones complejas de manera autónoma.",
+      "why_it_matters": "Proporciona una métrica realista del estado del arte en codificación autónoma, útil para seguir el progreso de la IA.",
+      "url": "https://epoch.ai/MirrorCode",
+      "source": "Hacker News",
+      "social": {
+        "x": "MirrorCode pone a prueba lo que ningún benchmark medía: ¿puede una IA terminar un proyecto de software entero? Spoiler: los modelos avanzados aún no.\n\n#MirrorCode #EpochAI #Benchmark\nhttps://epoch.ai/MirrorCode",
+        "linkedin": "¿Puede una IA completar un proyecto de software sin intervención humana? MirrorCode lo pone a prueba.\nEl nuevo benchmark de Epoch AI evalúa la capacidad de los modelos para finalizar proyectos completos, no solo fragmentos. Los resultados: 𝗹𝗼𝘀 𝘀𝗶𝘀𝘁𝗲𝗺𝗮𝘀 𝗺á𝘀 𝗮𝘃𝗮𝗻𝘇𝗮𝗱𝗼𝘀 𝗮ú𝗻 𝗲𝘀𝘁á𝗻 𝗹𝗲𝗷𝗼𝘀 𝗱𝗲 𝗹𝗮 𝗮𝘂𝘁𝗼𝗻𝗼𝗺í𝗮 𝗿𝗲𝗮𝗹. Para cualquier persona técnica, esto es un baño de realidad: la codificación autónoma sigue siendo un objetivo, no un presente.\n\n#MirrorCode #EpochAI #Benchmark\n\nhttps://epoch.ai/MirrorCode"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "Investigación revela cómo los LLMs generan CVEs falsos y alarman a la industria",
+      "summary": "Un análisis de JFrog describe cómo un repositorio falso en GitHub publicó supuestas vulnerabilidades críticas de SQLite que no existían, generadas por modelos de lenguaje. El incidente pone de relieve el problema del 'slop' de IA en el ámbito de la ciberseguridad y la confianza en fuentes automatizadas.",
+      "why_it_matters": "Alerta sobre la contaminación informativa que los LLMs pueden introducir en bases de datos de seguridad, con consecuencias costosas.",
+      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops",
+      "source": "Lobsters",
+      "social": {
+        "x": "⚠️ Un repositorio falso en GitHub publicó supuestas vulnerabilidades críticas de SQLite. El autor: un LLM. La industria de ciberseguridad se está alarmando.\n\n#JFrog #SQLite #LLM #GitHub\nhttps://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops",
+        "linkedin": "¿Confías en los CVE que lees en GitHub? Un repositorio falso acaba de demostrar que los LLM pueden inventarse vulnerabilidades críticas con total verosimilitud.\nJFrog descubrió un repo que publicó supuestos fallos de seguridad en SQLite generados por IA. No existían. 𝗘𝘀𝘁𝗲 𝗶𝗻𝗰𝗶𝗱𝗲𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝘂𝗻𝗮 𝗰𝘂𝗿𝗶𝗼𝘀𝗶𝗱𝗮𝗱 𝘁é𝗰𝗻𝗶𝗰𝗮: 𝗲𝘀 𝘂𝗻𝗮 𝘀𝗲ñ𝗮𝗹 𝗱𝗲 𝗮𝗹𝗮𝗿𝗺𝗮 𝘀𝗼𝗯𝗿𝗲 𝗹𝗮 𝗰𝗼𝗻𝘁𝗮𝗺𝗶𝗻𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗹𝗮𝘀 𝗯𝗮𝘀𝗲𝘀 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗰𝗼𝗻 '𝘀𝗹𝗼𝗽' 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗱𝗼. Para los equipos que priorizan parches, el coste de verificar la procedencia de cada CVE se multiplica.\n\n#JFrog #SQLite #LLM #GitHub\n\nhttps://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Drones kamikaze de Ucrania reciben IA de origen estadounidense para rastrear objetivos autónomamente",
+      "summary": "Un acuerdo de 100 millones de dólares equipa 50.000 drones con capacidades de seguimiento autónomo de blancos, desarrolladas por una empresa estadounidense. La tecnología reduce la dependencia de la comunicación continua con el operador y allana el camino para ataques en enjambre.",
+      "why_it_matters": "Demuestra el impacto inmediato de la IA en conflictos reales y acelera la carrera armamentística autónoma.",
+      "url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks",
+      "source": "Ars Technica",
+      "social": {
+        "x": "El nuevo acuerdo de Ucrania pone IA de rastreo autónomo en 50.000 drones kamikaze. Ataques en enjambre, más cerca.\n\n#AutonomousWeapons #DefenceTech #SwarmAI #Ucrania\nhttps://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks",
+        "linkedin": "Ucrania acaba de encargar 50.000 drones kamikaze con IA autónoma: rastrearán blancos sin operador.\n\nEl acuerdo, valorado en 100 millones de dólares, equipa estos drones con capacidades de seguimiento desarrolladas por una empresa estadounidense. Reduce la dependencia de la comunicación continua y 𝘀𝗶𝗲𝗻𝘁𝗮 𝗹𝗮𝘀 𝗯𝗮𝘀𝗲𝘀 𝗽𝗮𝗿𝗮 𝗮𝘁𝗮𝗾𝘂𝗲𝘀 𝗲𝗻 𝗲𝗻𝗷𝗮𝗺𝗯𝗿𝗲. La integración de IA en el campo de batalla ya no es teórica y acelera una carrera armamentística que pocos quieren ver.\n\n#AutonomousWeapons #DefenceTech #SwarmAI #Ucrania\n\nhttps://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "Mistral se consolida como referente europeo de modelos abiertos en la era post-OpenAI",
+      "summary": "La empresa francesa de modelos de IA open-weight se beneficia de la crisis de confianza en los laboratorios estadounidenses y del auge de alternativas soberanas. Su apuesta por la transparencia y el rendimiento le ha valido nuevas alianzas comerciales.",
+      "why_it_matters": "Refuerza la posición europea en la carrera de la IA generativa y subraya la demanda de modelos abiertos.",
+      "url": "https://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time",
+      "source": "Wired",
+      "social": {
+        "x": "La desconfianza en los laboratorios estadounidenses de IA está impulsando a un competidor europeo. Mistral, con sus modelos open-weight, acaba de cerrar nuevas alianzas comerciales.\n\n#Mistral #OpenSource #OpenWeight #SoberaníaDigital\nhttps://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time",
+        "linkedin": "La crisis de confianza en los laboratorios de IA estadounidenses tiene un beneficiario claro: Mistral.\n\nLa empresa francesa de modelos open-weight está aprovechando el auge de las alternativas soberanas y la demanda de transparencia. Sus nuevas alianzas comerciales demuestran que 𝗘𝘂𝗿𝗼𝗽𝗮 𝗽𝘂𝗲𝗱𝗲 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝗿 𝗲𝗻 𝗹𝗮 𝗰𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲 𝗹𝗮 𝗜𝗔 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗮 con una apuesta por lo abierto.\n\n#Mistral #OpenSource #OpenWeight #SoberaníaDigital\n\nhttps://www.wired.com/story/mistral-is-in-the-right-place-at-the-right-time"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "industria",
+      "title": "Entran en vigor en la UE las normas para etiquetar contenido generado por IA",
+      "summary": "Desde el 2 de agosto, las empresas deben informar cuando los usuarios interactúan con un chatbot o cuando un contenido ha sido generado o alterado por inteligencia artificial. La Comisión Europea ha publicado incluso unas etiquetas normalizadas para facilitar el cumplimiento.",
+      "why_it_matters": "Establece un estándar global de transparencia que afecta a cualquier servicio online que opere en Europa.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+      "source": "The Verge",
+      "social": {
+        "x": "El 2 de agosto la UE encendió un interruptor: ahora todo contenido con IA debe ser señalado. ¿Sabes cómo te afecta?\n\n#UE #AIAct #DSA\nhttps://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+        "linkedin": "Desde ayer, etiquetar cualquier contenido con IA es obligatorio en la Unión Europea. No importa si es un chatbot, una imagen o un vídeo: si tiene IA detrás, debe indicarse.\n\nLa Comisión Europea ha publicado etiquetas normalizadas para ayudar a las empresas a cumplir. Es un paso más en la regulación del entorno digital, y un aviso para quienes operan en Europa: 𝗹𝗮 𝘁𝗿𝗮𝗻𝘀𝗽𝗮𝗿𝗲𝗻𝗰𝗶𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗯𝘂𝗲𝗻𝗮 𝗽𝗿á𝗰𝘁𝗶𝗰𝗮 𝗽𝗮𝗿𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗿𝘀𝗲 𝗲𝗻 𝘂𝗻 𝗿𝗲𝗾𝘂𝗶𝘀𝗶𝘁𝗼 𝗹𝗲𝗴𝗮𝗹. Adaptarse puede ser costoso, pero ignorarlo lo es aún más. Este estándar europeo probablemente marcará la pauta global.\n\n#UE #AIAct #DSA\n\nhttps://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "OpenAI acusa a Apple de tergiversar los hechos en su demanda judicial",
+      "summary": "La empresa publica una contundente réplica a la demanda de Apple, que alega prácticas desleales. OpenAI niega las acusaciones sobre sus empleados y muestra mensajes que, según ellos, demuestran su versión.",
+      "why_it_matters": "La guerra legal entre gigantes tecnológicos podría redefinir las reglas de contratación y propiedad intelectual en IA.",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong",
+      "source": "OpenAI News",
+      "social": {
+        "x": "¿Está Apple manipulando el relato de su demanda contra OpenAI? La empresa de IA publica pruebas que lo sugieren.\n\n#OpenAI #Apple #LegalTech\nhttps://openai.com/index/apple-is-getting-this-wrong",
+        "linkedin": "OpenAI acaba de contraatacar a Apple con munición inesperada: los mensajes internos que, según ellos, desmontan la demanda.\nLa demanda de Apple alega prácticas desleales en la contratación de empleados, pero OpenAI presenta conversaciones que contradicen esa versión. 𝗘𝘀𝘁𝗮 𝗴𝘂𝗲𝗿𝗿𝗮 𝗹𝗲𝗴𝗮𝗹 𝗻𝗼 𝗲𝘀 𝘀𝗼𝗹𝗼 𝘂𝗻 𝗰𝗵𝗼𝗾𝘂𝗲 𝗱𝗲 𝗲𝗴𝗼𝘀: 𝗽𝗼𝗱𝗿í𝗮 𝗿𝗲𝗱𝗲𝗳𝗶𝗻𝗶𝗿 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 𝗱𝗲 𝗰𝗼𝗻𝘁𝗿𝗮𝘁𝗮𝗰𝗶ó𝗻 𝘆 𝗽𝗿𝗼𝗽𝗶𝗲𝗱𝗮𝗱 𝗶𝗻𝘁𝗲𝗹𝗲𝗰𝘁𝘂𝗮𝗹 𝗲𝗻 𝘁𝗼𝗱𝗮 𝗹𝗮 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮 𝗱𝗲 𝗹𝗮 𝗜𝗔. Empresas y equipos legales deberían seguir el caso de cerca.\n\n#OpenAI #Apple #LegalTech\n\nhttps://openai.com/index/apple-is-getting-this-wrong"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "herramientas",
+      "title": "Design Arena, la plataforma de evaluación de modelos de IA, levanta 7,9 millones",
+      "summary": "La herramienta, usada por 5,3 millones de personas para entrenar con preferencias humanas a modelos de los principales laboratorios, cierra una ronda de financiación. La inversión permitirá expandir su base de evaluadores y refinar los sistemas de puntuación.",
+      "why_it_matters": "La calidad de los modelos depende de buenas evaluaciones humanas; Design Arena se convierte en un pilar invisible de la industria.",
+      "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models",
+      "source": "TechCrunch",
+      "social": {
+        "x": "5,3 millones de personas afinan los modelos que usas cada día. La plataforma que lo hace posible acaba de levantar 7,9 millones.\n\n#DesignArena #RLHF #HumanFeedback #AI\nhttps://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models",
+        "linkedin": "Detrás de cada modelo de IA hay una verdad incómoda: sin evaluaciones humanas de calidad, no funcionan.\n\nDesign Arena, la plataforma que conecta a 5,3 millones de evaluadores con los principales laboratorios, ha cerrado una ronda de 7,9 millones. Se convierte así en 𝘂𝗻 𝗽𝗶𝗹𝗮𝗿 𝗶𝗻𝘃𝗶𝘀𝗶𝗯𝗹𝗲 𝗱𝗲 𝗹𝗮 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮, refinando cómo se entrena con preferencias humanas. Para cualquiera que construya sobre estos modelos, esta capa de infraestructura es tan crítica como el hardware.\n\n#DesignArena #RLHF #HumanFeedback #AI\n\nhttps://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Horizon3 se valora en 2.000 millones tras recaudar 250 millones para ciberseguridad con IA",
+      "summary": "La startup de validación continua de seguridad, que utiliza agentes de IA para simular ataques, cierra una ronda Serie E. Su tecnología permite a las empresas reemplazar los pentests anuales por pruebas automatizadas constantes.",
+      "why_it_matters": "Ejemplifica la creciente demanda de ciberseguridad potenciada por IA en un entorno de amenazas cada vez más sofisticado.",
+      "url": "https://techcrunch.com/2026/08/03/horizon3-hits-2-billion-valuation-with-250m-series-e-as-ai-threats-escalate",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Los pentests anuales están condenados. Horizon3 levanta 250M para que los agentes de IA ataquen tu empresa sin parar.\n\n#Horizon3 #ValidaciónContinua #SerieE\nhttps://techcrunch.com/2026/08/03/horizon3-hits-2-billion-valuation-with-250m-series-e-as-ai-threats-escalate",
+        "linkedin": "Los pentests tradicionales son una foto fija: costosos, puntuales y caducados en cuanto se entrega el informe.\n\nHorizon3 acaba de cerrar una Serie E de 250 millones con una valoración de 2.000 millones, señal de que el mercado pide 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻 𝗰𝗼𝗻𝘁𝗶𝗻𝘂𝗮 𝘆 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗱𝗮 𝗱𝗲 𝗹𝗮 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱. Sus agentes de IA simulan ataques las 24 horas, convirtiendo lo que antes era un evento anual en un proceso constante. Para equipos de seguridad, esto cambia la conversación: ya no se trata de pasar un checklist, sino de exponer la infraestructura real a adversarios simulados sin intervención manual.\n\n#Horizon3 #ValidaciónContinua #SerieE\n\nhttps://techcrunch.com/2026/08/03/horizon3-hits-2-billion-valuation-with-250m-series-e-as-ai-threats-escalate"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "lanzamientos",
+      "title": "June sale del sigilo con 20 millones y la misión de simplificar la adopción de la IA",
+      "summary": "La startup respaldada por Marc Benioff presenta una plataforma que facilita la integración de modelos de IA en los flujos de trabajo empresariales. Pretende eliminar la fricción entre los equipos de datos y los usuarios finales.",
+      "why_it_matters": "Apunta a uno de los grandes cuellos de botella de la IA: el 'último kilómetro' del despliegue.",
+      "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Todos hablan de modelos de IA, pero pocos de cómo implementarlos. June, con 20M y Marc Benioff, quiere cambiar eso.\n\n#June #MarcBenioff #startup #IAempresarial\nhttps://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem",
+        "linkedin": "El verdadero cuello de botella de la IA no está en los modelos, sino en cómo se integran en los procesos reales de las empresas.\n\nJune, respaldada por Marc Benioff con 20 millones de dólares, sale hoy del sigilo para atacar ese problema. Su plataforma elimina la fricción entre los equipos de datos y los usuarios finales, algo que 𝗽𝗿𝗼𝗺𝗲𝘁𝗲 𝗮𝗰𝗼𝗿𝘁𝗮𝗿 𝗲𝗹 ‘ú𝗹𝘁𝗶𝗺𝗼 𝗸𝗶𝗹ó𝗺𝗲𝘁𝗿𝗼’ 𝗱𝗲𝗹 𝗱𝗲𝘀𝗽𝗹𝗶𝗲𝗴𝘂𝗲 𝗱𝗲 𝗜𝗔. Para empresas que llevan meses atascadas en pilotos, esto puede significar el salto a producción.\n\n#June #MarcBenioff #startup #IAempresarial\n\nhttps://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "ChatGPT se cuela en el Capitolio: el Congreso de EE. UU. ya paga por usarlo",
+      "summary": "Según registros de gasto, las oficinas del Congreso utilizan ChatGPT de forma habitual para redactar memorandos, resumir legislación y asistir en las comunicaciones con los ciudadanos.",
+      "why_it_matters": "Muestra la penetración de la IA generativa en la maquinaria legislativa, con implicaciones para la calidad y la confidencialidad.",
+      "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt",
+      "source": "TechCrunch",
+      "social": {
+        "x": "🏛️ El Capitolio tiene un nuevo asistente y cobra en suscripción: ChatGPT ya está en nómina. Los registros de gasto revelan para qué lo usan.\n\n#ChatGPT #OpenAI #GovTech\nhttps://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt",
+        "linkedin": "🏛️ El Congreso de Estados Unidos ya paga por usar ChatGPT: no es un piloto, ni una prueba aislada. Es uso habitual y está documentado.\n\nSegún los registros de gasto, las oficinas del Capitolio lo emplean para redactar memorandos, resumir legislación y atender a los ciudadanos. Esto demuestra que la IA generativa ya forma parte del engranaje institucional, y eso abre un debate urgente sobre 𝗹𝗮 𝗰𝗼𝗻𝗳𝗶𝗱𝗲𝗻𝗰𝗶𝗮𝗹𝗶𝗱𝗮𝗱 𝘆 𝗹𝗮 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗹𝗲𝗴𝗶𝘀𝗹𝗮𝘁𝗶𝘃𝗼. Cuando un asistente resume una ley de cientos de páginas, ¿quién audita el sesgo?\n\n#ChatGPT #OpenAI #GovTech\n\nhttps://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Tras la programación, la IA se prepara para tomar las comandas del 'fast food'",
+      "summary": "Cadenas de comida rápida están probando sistemas de voz con IA para sustituir a los empleados en los pedidos. Los primeros pilotos indican que los clientes apenas perciben la diferencia, y la precisión es aceptable.",
+      "why_it_matters": "Ilustra cómo la automatización con IA se extiende al sector de servicios, con potencial para transformar millones de puestos de trabajo.",
+      "url": "https://www.wired.com/story/ai-conquered-coding-fast-food-is-next",
+      "source": "Wired",
+      "social": {
+        "x": "La persona que te toma el pedido en el fast food pronto podría ser una IA. Los pilotos muestran que los clientes apenas notan la diferencia.\n\n#Automatización #FastFood #IAVoz #Wired\nhttps://www.wired.com/story/ai-conquered-coding-fast-food-is-next",
+        "linkedin": "La próxima vez que pidas una hamburguesa, quizá te atienda una IA. Y no te darás cuenta.\n\nLas cadenas de comida rápida están probando sistemas de voz con inteligencia artificial para sustituir a los empleados en los pedidos. Los primeros pilotos muestran que la precisión es aceptable y que la experiencia del cliente no se resiente. 𝗟𝗮 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗰𝗼𝗻 𝗜𝗔 𝘀𝗲 𝗲𝘅𝘁𝗶𝗲𝗻𝗱𝗲 𝗮𝗹 𝘀𝗲𝗰𝘁𝗼𝗿 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼𝘀, 𝗰𝗼𝗻 𝗲𝗹 𝗽𝗼𝘁𝗲𝗻𝗰𝗶𝗮𝗹 𝗱𝗲 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗿 𝗺𝗶𝗹𝗹𝗼𝗻𝗲𝘀 𝗱𝗲 𝗽𝘂𝗲𝘀𝘁𝗼𝘀 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼. Esto va más allá de la programación o el diseño: la IA empieza a ocupar roles de cara al público. Y el cliente, de momento, no lo percibe.\n\n#Automatización #FastFood #IAVoz #Wired\n\nhttps://www.wired.com/story/ai-conquered-coding-fast-food-is-next"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Samsung prohibirá en sus smart TVs las apps que convierten el televisor en un proxy residencial",
+      "summary": "Tras una investigación que desveló cómo ciertas aplicaciones compartían la conexión de los usuarios sin su conocimiento, Samsung actualizará sus políticas para vetarlas. Estas apps alimentaban redes de proxies residenciales usadas para fines dudosos.",
+      "why_it_matters": "Refuerza la seguridad del ecosistema de TV inteligente y pone el foco en los riesgos de las apps poco transparentes.",
+      "url": "https://techcrunch.com/2026/08/03/samsung-bans-smart-tv-apps-that-share-users-internet-connections-with-strangers",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Tu tele Samsung ya no será un proxy para desconocidos: la compañía veta las apps que compartían tu conexión sin avisar.\n\n#Samsung #SmartTV #ProxyResidencial #Ciberseguridad\nhttps://techcrunch.com/2026/08/03/samsung-bans-smart-tv-apps-that-share-users-internet-connections-with-strangers",
+        "linkedin": "Samsung ha detectado que ciertas apps para sus smart TVs estaban convirtiendo los televisores en proxies residenciales sin que los usuarios lo supieran. La respuesta es contundente.\n\nUna investigación desveló que estas aplicaciones compartían la conexión de los televisores para alimentar redes de proxies usadas con fines dudosos, como evasión geográfica o fraude. La compañía actualizará sus políticas para vetarlas por completo. 𝗟𝗮 𝗼𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲 𝗮𝗹𝗴𝘂𝗻𝗮𝘀 𝗮𝗽𝗽𝘀 𝗽𝗮𝗿𝗮 𝘀𝗺𝗮𝗿𝘁 𝗧𝗩 𝗽𝘂𝗲𝗱𝗲 𝘁𝗲𝗻𝗲𝗿 𝗰𝗼𝗻𝘀𝗲𝗰𝘂𝗲𝗻𝗰𝗶𝗮𝘀 𝗴𝗿𝗮𝘃𝗲𝘀 𝗽𝗮𝗿𝗮 𝗹𝗮 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱, y este caso subraya la importancia de auditar incluso las aplicaciones más inofensivas en el ecosistema del hogar conectado.\n\n#Samsung #SmartTV #ProxyResidencial #Ciberseguridad\n\nhttps://techcrunch.com/2026/08/03/samsung-bans-smart-tv-apps-that-share-users-internet-connections-with-strangers"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Un examen supervisado por IA termina con 58.000 alumnos obligados a repetir",
+      "summary": "Una prueba remota monitorizada mediante inteligencia artificial arrojó una multiplicación por cinco de las notas más altas, lo que levantó sospechas de trampas generalizadas y fallos en la detección. La entidad educativa ha anulado los resultados y convocará una nueva convocatoria.",
+      "why_it_matters": "Evidencia los límites de la supervisión con IA y los riesgos de escalar exámenes sin controles robustos.",
+      "url": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it",
+      "source": "Ars Technica",
+      "social": {
+        "x": "El examen que la IA vigilaba acabó anulado: multiplicó por 5 las notas más altas. 58.000 alumnos, a repetir.\n\n#EdTech #AIProctoring #EducaciónDigital\nhttps://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it",
+        "linkedin": "La supervisión con IA prometía escalar los exámenes sin esfuerzo. La realidad: un aumento del 500 % en las notas más altas y 58.000 alumnos que tendrán que repetir la prueba.\n\nLa entidad educativa ha anulado los resultados al detectar 𝗳𝗮𝗹𝗹𝗼𝘀 𝗺𝗮𝘀𝗶𝘃𝗼𝘀 𝗲𝗻 𝗹𝗮 𝗱𝗲𝘁𝗲𝗰𝗰𝗶ó𝗻 𝗱𝗲 𝘁𝗿𝗮𝗺𝗽𝗮𝘀. Este caso deja claro que escalar la vigilancia automatizada sin mecanismos de verificación robustos amplifica el error. Para cualquier organización que esté implementando IA en procesos críticos, es una lección: la supervisión humana sigue siendo irremplazable.\n\n#EdTech #AIProctoring #EducaciónDigital\n\nhttps://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "livekit/agents",
+      "url": "https://github.com/livekit/agents",
+      "description": "Framework para crear agentes de voz con IA en tiempo real, perfecto para integrar en aplicaciones conversacionales.",
+      "language": "Python",
+      "stars": 12199,
+      "social": {
+        "x": "🎙️ Alguien acaba de liberar un framework open source para agentes de voz con IA en tiempo real. Sin cuotas, self‑hosted. 12k estrellas.\n\n#LiveKit #agents #Python #GitHub\nhttps://github.com/livekit/agents",
+        "linkedin": "CONSTRUYE AGENTES DE VOZ CON IA EN TIEMPO REAL, SIN PAGAR LICENCIAS.\n\nLiveKit acaba de lanzar su framework 'agents' para Python. Es la pieza que te faltaba si quieres integrar asistentes conversacionales en tus apps sin depender de plataformas propietarias. Alternativas comerciales como Vapi o Retell AI te cobran por minuto; con esto lo despliegas en tu infraestructura y escalas sin sorpresas en la factura.\n\n→ WebRTC nativo y latencia mínima\n→ Plugins para modelos de voz (Deepgram, ElevenLabs, etc.)\n→ Integración sencilla con LiveKit o standalone\n→ Lógica de conversación programable en Python\n\n𝗟𝗶𝗯𝗲𝗿𝘁𝗮𝗱 𝘁𝗼𝘁𝗮𝗹 para construir y controlar tus agentes de voz. Guarda este post y revisa el repo, que va directo a favoritos.\n\n#LiveKit #agents #Python #GitHub\n\nhttps://github.com/livekit/agents"
+      }
+    },
+    {
+      "name": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "Estudio de voz open source que permite clonar, dictar y generar audio con IA, una alternativa libre a herramientas propietarias.",
+      "language": "TypeScript",
+      "stars": 48982,
+      "social": {
+        "x": "Alguien acaba de regalar un estudio de voz open source para clonar, dictar y generar audio. Casi 50k estrellas y sin pagar un céntimo.\n\n#Voicebox #TypeScript #OpenSource #GitHub\nhttps://github.com/jamiepine/voicebox",
+        "linkedin": "VOICEBOX: EL ESTUDIO DE VOZ OPEN SOURCE QUE DESAFÍA A LAS HERRAMIENTAS DE PAGO\n\nMientras las soluciones propietarias te cobran suscripciones por clonar voces o generar audio, este repositorio de TypeScript te lo ofrece todo gratis y self-hosted.\n\n→ Clonación de voz con pocos segundos de audio\n→ Dictado preciso\n→ Generación de audio de alta calidad\n\nLa idea es 𝗱𝗲𝗺𝗼𝗰𝗿𝗮𝘁𝗶𝘇𝗮𝗿 𝗹𝗮 𝗰𝗹𝗼𝗻𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝘃𝗼𝘇 𝘀𝗶𝗻 𝗮𝘁𝗮𝗱𝘂𝗿𝗮𝘀. Y ya suma casi 50k estrellas en GitHub.\n\nTe dejo el repo abajo. Guárdalo para cuando lo necesites.\n\n#Voicebox #TypeScript #OpenSource #GitHub\n\nhttps://github.com/jamiepine/voicebox"
+      }
+    },
+    {
+      "name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Modelo fundacional para el lenguaje de los mercados financieros, orientado a análisis y predicción en finanzas.",
+      "language": "Python",
+      "stars": 35931,
+      "social": {
+        "x": "Alguien acaba de publicar el modelo fundacional para el lenguaje de los mercados financieros. 35k estrellas y Python puro.\n\n#Kronos #OpenSource #Finanzas #MachineLearning\nhttps://github.com/shiyu-coder/Kronos",
+        "linkedin": "ALGUIEN ACABA DE REGALAR UN MODELO FUNDACIONAL QUE ENTIENDE EL LENGUAJE DE LAS FINANZAS.\n\nSi trabajas con datos financieros sabes lo costoso que es acceder a modelos así. Kronos es open source, corre en local y ya tiene 35.931 estrellas en GitHub.\n\n→ Modelo entrenado específicamente para texto financiero.\n→ Análisis y predicción: procesa noticias, informes, datos de mercado.\n→ Implementado en Python, fácil de integrar en tu pipeline.\n→ 𝗦𝗶𝗻 𝗹𝗶𝗰𝗲𝗻𝗰𝗶𝗮𝘀 𝗽𝗿𝗼𝗵𝗶𝗯𝗶𝘁𝗶𝘃𝗮𝘀: lo usas, lo adaptas, lo mejoras.\n\nGuarda este post si te dedicas a finanzas cuantitativas o machine learning aplicado.\n\n#Kronos #OpenSource #Finanzas #MachineLearning\n\nhttps://github.com/shiyu-coder/Kronos"
+      }
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Herramienta para usar Claude Code, Codex y Pi gratis desde terminal, app o móvil, con soporte de voz.",
+      "language": "Python",
+      "stars": 44212,
+      "social": {
+        "x": "44k estrellas para la herramienta que te permite usar Claude Code, Codex y Pi gratis desde terminal o móvil, con soporte de voz.\n\n#ClaudeCode #OpenSource #Python #GitHub\nhttps://github.com/Alishahryar1/free-claude-code",
+        "linkedin": "ALGUIEN HA PUESTO CLAUDE CODE, CODEX Y PI GRATIS EN TU TERMINAL.\n\nNo es una demo limitada ni un trial. Este repositorio en Python te da acceso completo a Claude Code, Codex y Pi desde terminal, aplicación web o móvil, con soporte de voz incluido. Casi 45.000 estrellas en GitHub avalan su utilidad.\n\n→ Acceso gratuito a Claude Code, Codex y Pi.\n→ Funciona desde terminal, app o móvil.\n→ Soporte de voz integrado.\n→ 𝗦𝗶𝗻 𝗿𝗲𝘀𝘁𝗿𝗶𝗰𝗰𝗶𝗼𝗻𝗲𝘀, 𝘀𝗶𝗻 𝗽𝗮𝘆𝘄𝗮𝗹𝗹.\n\nSi trabajas con IA, échale un vistazo. Te dejo el repo abajo. Guarda el post, que esto vuela.\n\n#ClaudeCode #OpenSource #Python #GitHub\n\nhttps://github.com/Alishahryar1/free-claude-code"
+      }
+    },
+    {
+      "name": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "description": "Librería en Rust rápida y precisa para extraer texto y clasificar PDFs, detectando si son escaneados o digitales.",
+      "language": "Rust",
+      "stars": 9069,
+      "social": {
+        "x": "⚡️ Una librería Rust que extrae texto de PDFs en milisegundos y te dice si es digital o escaneado. 9k ⭐ en GitHub.\n\n#Rust #PDF #OpenSource #GitHub\nhttps://github.com/firecrawl/pdf-inspector",
+        "linkedin": "EXTRAER TEXTO DE PDFS NUNCA FUE TAN RÁPIDO NI PRECISO.\n\nFirecrawl ha creado pdf-inspector, una librería en Rust que resuelve el problema de extraer información de documentos PDF, y además distingue si un PDF es escaneado (imagen) o digital (texto). Esto es oro para sistemas de indexación, RAG o automatización de documentos.\n\n→ Extracción de texto ultrarrápida y fiable.\n→ 𝗖𝗹𝗮𝘀𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗽𝗿𝗲𝗰𝗶𝘀𝗮: 𝗱𝗲𝘁𝗲𝗰𝘁𝗮 𝗮𝗹 𝗶𝗻𝘀𝘁𝗮𝗻𝘁𝗲 𝘀𝗶 𝗲𝘀 𝗲𝘀𝗰𝗮𝗻𝗲𝗮𝗱𝗼 𝗼 𝗱𝗶𝗴𝗶𝘁𝗮𝗹.\n→ Integración sencilla en cualquier proyecto Rust.\n→ Open source, sin dependencias pesadas.\n\nGuarda este post si trabajas con PDFs; te dejo el enlace al repo abajo.\n\n#Rust #PDF #OpenSource #GitHub\n\nhttps://github.com/firecrawl/pdf-inspector"
+      }
+    }
+  ]
+}
