@@ -1,0 +1,283 @@
+{
+  "date": "2026-08-09",
+  "generated_at": "2026-08-09T07:57:37.365Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "DeepMind lanza WeatherNext, un modelo de IA que mejora la predicción de ciclones",
+      "summary": "DeepMind ha presentado WeatherNext, un modelo de IA de código abierto que logra un avance significativo en la predicción de ciclones. Utiliza datos meteorológicos de menor resolución para realizar pronósticos precisos, sorprendiendo a los científicos del clima. El modelo está disponible para su uso y se espera que mejore la anticipación ante fenómenos extremos.",
+      "why_it_matters": "Permite a los meteorólogos anticiparse con mayor exactitud a los ciclones, lo que puede salvar vidas y reducir daños.",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un modelo de IA de código abierto predice ciclones mejor que nunca... y lo hace con datos de baja resolución.\n\n#DeepMind #WeatherNext #OpenSource\nhttps://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
+        "linkedin": "Los científicos del clima están sorprendidos: un modelo de IA predice ciclones con datos de baja resolución y acierta más que los métodos tradicionales.\n\nDeepMind ha lanzado WeatherNext, un modelo de código abierto que 𝗱𝗲𝗺𝘂𝗲𝘀𝘁𝗿𝗮 𝗾𝘂𝗲 𝗹𝗮 𝗽𝗿𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗻𝗼 𝘀𝗶𝗲𝗺𝗽𝗿𝗲 𝗿𝗲𝗾𝘂𝗶𝗲𝗿𝗲 𝗱𝗮𝘁𝗼𝘀 𝗱𝗲 𝗮𝗹𝘁𝗮 𝗿𝗲𝘀𝗼𝗹𝘂𝗰𝗶ó𝗻. Esto permitirá a los meteorólogos anticipar ciclones con más exactitud y tiempo, lo que puede reducir daños y salvar vidas. El modelo ya está disponible para quien quiera usarlo.\n\n#DeepMind #WeatherNext #OpenSource\n\nhttps://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "Crean un asistente de IA para licitaciones que se niega a mentir",
+      "summary": "La startup Ailucius ha desarrollado un redactor de ofertas basado en IA que, tras un año de iteraciones, ahora incluye un 'banner de advertencia' cuando no puede evidenciar requisitos. El sistema, pensado para procesos de contratación pública, prioriza la honestidad sobre la generación de contenido sin fundamento.",
+      "why_it_matters": "Introduce un enfoque de IA ética en un ámbito donde la precisión y la veracidad son críticas, evitando promesas falsas en licitaciones.",
+      "url": "https://ailucius.com/blog/making-an-ai-bid-writer-refuse-to-lie",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Confiarías en una IA que admite cuando no puede respaldar lo que dice? Este asistente para licitaciones se niega a mentir: muestra un aviso si no puede evidenciar un requisito.\n\n#ÉticaDeLaIA #Licitaciones #ContrataciónPública #Ailucius\nhttps://ailucius.com/blog/making-an-ai-bid-writer-refuse-to-lie",
+        "linkedin": "En las licitaciones, una afirmación sin pruebas puede tumbar una propuesta. Ailucius ha creado un asistente de IA que 𝗽𝗿𝗶𝗼𝗿𝗶𝘇𝗮 𝗹𝗮 𝗵𝗼𝗻𝗲𝘀𝘁𝗶𝗱𝗮𝗱 𝘀𝗼𝗯𝗿𝗲 𝗲𝗹 𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗼 𝘀𝗶𝗻 𝗳𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗼: cuando no encuentra evidencias, muestra un banner de advertencia en lugar de inventar. Un recordatorio de que la ética también puede ser diferencial en la automatización de procesos críticos.\n\n#ÉticaDeLaIA #Licitaciones #ContrataciónPública #Ailucius\n\nhttps://ailucius.com/blog/making-an-ai-bid-writer-refuse-to-lie"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Triton lleva la aceleración gráfica DirectX 11 a máquinas virtuales QEMU",
+      "summary": "El equipo de UTM ha lanzado Triton, un controlador de Windows para QEMU que, combinado con Neptune, permite el soporte completo de DirectX 11 en invitados Windows. Esto supone un salto en la virtualización de gráficos modernos, facilitando la ejecución de juegos y aplicaciones exigentes en máquinas virtuales.",
+      "why_it_matters": "Abre la puerta a un rendimiento gráfico casi nativo en entornos virtualizados, mejorando la experiencia de desarrollo y gaming.",
+      "url": "https://blog.getutm.app/2026/introducing-triton-directx-11-driver-for-qemu",
+      "source": "Lobsters"
+    },
+    {
+      "rank": 4,
+      "category": "investigacion",
+      "title": "Revision Prompting optimiza los procesos industriales con LLMs",
+      "summary": "La técnica Revision Prompting acelera y abarata el re-procesamiento de datos con modelos de lenguaje cuando las entradas se actualizan. En lugar de reenviar toda la nueva entrada, proporciona al LLM los cambios y la salida anterior, generando un parche que actualiza el resultado de manera consistente.",
+      "why_it_matters": "Mejora la eficiencia y reduce costes en flujos de trabajo que dependen de llamadas repetidas a LLMs, como la generación de documentos o código.",
+      "url": "https://revisionprompting.info",
+      "source": "Lobsters",
+      "social": {
+        "x": "Cada cambio en los datos obliga a reprocesar todo con LLMs. Revision Prompting envía solo las diferencias y la salida anterior, y el modelo genera un parche que actualiza el resultado. Más barato, más rápido.\n\n#RevisionPrompting #LLMOps #LLMs\nhttps://revisionprompting.info",
+        "linkedin": "Reprocesar una entrada completa con un LLM cuando solo cambia un detalle es como matar moscas a cañonazos: caro y lento. Revision Prompting, una nueva técnica propuesta en un paper reciente, da la vuelta a esto: en lugar de reenviar toda la nueva entrada, le pasa al modelo únicamente los cambios y la salida previa, y él genera un parche que actualiza el resultado de forma consistente. Para flujos de trabajo que dependen de llamadas repetidas, como generación de documentos o código, esto puede reducir costes y latencia de forma significativa. La clave está en tratar las actualizaciones como diffs y reutilizar el contexto anterior, algo que 𝗵𝗮𝗰𝗲 𝘃𝗶𝗮𝗯𝗹𝗲𝘀 𝗲𝗰𝗼𝗻ó𝗺𝗶𝗰𝗮𝗺𝗲𝗻𝘁𝗲 𝗺𝘂𝗰𝗵𝗼𝘀 𝗰𝗮𝘀𝗼𝘀 𝗱𝗲 𝘂𝘀𝗼 𝗾𝘂𝗲 𝗮𝗻𝘁𝗲𝘀 𝗲𝗿𝗮𝗻 𝗽𝗿𝗼𝗵𝗶𝗯𝗶𝘁𝗶𝘃𝗼𝘀.\n\n#RevisionPrompting #LLMOps #LLMs\n\nhttps://revisionprompting.info"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Soar, un gestor de paquetes moderno y sin bloat para Linux",
+      "summary": "Soar es un nuevo gestor de paquetes escrito en Rust que permite instalar binarios estáticos, AppImages y paquetes portables en cualquier distribución, sin necesidad de permisos de root. Con descargas paralelas y un repositorio centralizado, aspira a simplificar la instalación de software en Linux.",
+      "why_it_matters": "Ofrece una alternativa rápida y universal para obtener aplicaciones en Linux, evitando las complejidades de los gestores tradicionales.",
+      "url": "https://soar.qaidvoid.dev",
+      "source": "Lobsters",
+      "social": {
+        "x": "Soar es el nuevo gestor de paquetes para Linux que no necesita permisos de root y promete acabar con el bloat. ¿El principio del fin de apt y pacman?\n\n#Soar #Linux #Rust #OpenSource\nhttps://soar.qaidvoid.dev",
+        "linkedin": "Cada año aparece un nuevo intento de simplificar la instalación de software en Linux.\n\nEsta vez viene con Rust y sin dependencias del sistema: Soar instala binarios estáticos, AppImages y paquetes portables en cualquier distribución sin permisos de root. 𝗦𝘂 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗿𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼 𝗰𝗲𝗻𝘁𝗿𝗮𝗹𝗶𝘇𝗮𝗱𝗼 𝘆 𝗱𝗲𝘀𝗰𝗮𝗿𝗴𝗮𝘀 𝗽𝗮𝗿𝗮𝗹𝗲𝗹𝗮𝘀 lo convierten en una opción rápida y universal para quien huye de las complejidades de los gestores tradicionales. Para equipos que gestionan flotas heterogéneas o entornos de CI, tener un único método de despliegue que no toque el sistema puede ser una ventaja interesante.\n\n#Soar #Linux #Rust #OpenSource\n\nhttps://soar.qaidvoid.dev"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "robot.villas crea un puente para seguir blogs y noticias desde Mastodon",
+      "summary": "Este servicio despliega bots en el Fediverso que convierten fuentes RSS y Atom en cuentas de Mastodon, permitiendo seguir sitios web directamente desde el fediverso. Cualquier usuario de ActivityPub puede suscribirse y recibir actualizaciones de sus blogs favoritos sin salir de su cliente.",
+      "why_it_matters": "Facilita la integración de contenidos web tradicionales en el ecosistema descentralizado, potenciando la interoperabilidad.",
+      "url": "https://robot.villas",
+      "source": "Lobsters",
+      "social": {
+        "x": "Tu blog favorito ya está en Mastodon, aunque su autor no lo sepa. robot.villas convierte cualquier fuente RSS en una cuenta del Fediverso. Síguelo desde tu cliente ActivityPub.\n\n#Mastodon #Fediverso #ActivityPub #RSS\nhttps://robot.villas",
+        "linkedin": "Durante años, el Fediverso y la web tradicional han sido dos mundos que apenas se tocaban.\n\nrobot.villas cambia eso con un servicio que despliega bots para tender un puente: convierte fuentes RSS y Atom en cuentas de Mastodon. 𝗖𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗯𝗹𝗼𝗴 𝗽𝘂𝗲𝗱𝗲 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗿𝘀𝗲 𝗲𝗻 𝘂𝗻𝗮 𝗰𝘂𝗲𝗻𝘁𝗮 𝗻𝗮𝘁𝗶𝘃𝗮 𝗱𝗲𝗹 𝗙𝗲𝗱𝗶𝘃𝗲𝗿𝘀𝗼 y cualquier usuario de ActivityPub puede seguirlo sin salir de su cliente. Una pequeña revolución que potencia la interoperabilidad y da nueva vida a los contenidos descentralizados.\n\n#Mastodon #Fediverso #ActivityPub #RSS\n\nhttps://robot.villas"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "WhatsApp añade la función @all para menciones masivas en grupos",
+      "summary": "La última actualización de WhatsApp incluye la posibilidad de mencionar a todos los miembros de un chat grupal con @all, similar a otras plataformas. También introduce encuestas anónimas y una forma más sencilla de iniciar chats privados desde un grupo grande.",
+      "why_it_matters": "Mejora la comunicación en grupos al permitir notificaciones masivas y nuevas dinámicas de interacción, acercándose a las necesidades de comunidades y equipos.",
+      "url": "https://www.wired.com/story/whatsapp-gets-a-handy-all-feature-for-group-chats",
+      "source": "Wired",
+      "social": {
+        "x": "📢 ¿Cansado de mencionar uno a uno? @all llega a WhatsApp para avisar a todo el grupo de golpe. Y trae encuestas anónimas y chats privados más ágiles.\n\n#WhatsApp #Meta #Messaging\nhttps://www.wired.com/story/whatsapp-gets-a-handy-all-feature-for-group-chats",
+        "linkedin": "Los grupos de WhatsApp acaban de recibir tres herramientas que los equipos y comunidades llevaban años pidiendo.\n\nLa inclusión de @all permite notificaciones masivas sin esfuerzo, las encuestas anónimas cambian la dinámica de feedback y los atajos para chats privados agilizan la comunicación. @𝗮𝗹𝗹 𝗶𝗴𝘂𝗮𝗹𝗮 𝗮 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝗰𝗼𝗻 𝗼𝘁𝗿𝗮𝘀 𝗽𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮𝘀 𝗱𝗲 𝗺𝗲𝗻𝘀𝗮𝗷𝗲𝗿í𝗮 𝗽𝗮𝗿𝗮 𝗲𝗾𝘂𝗶𝗽𝗼𝘀 y abre nuevas posibilidades para coordinar comunidades sin salir de la app.\n\n#WhatsApp #Meta #Messaging\n\nhttps://www.wired.com/story/whatsapp-gets-a-handy-all-feature-for-group-chats"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "DREI convierte Emacs en un editor WYSIWYG para HTML",
+      "summary": "DREI es un nuevo modo para GNU Emacs que ofrece edición visual en tiempo real de HTML, permitiendo ver el resultado mientras se escribe. Basado en Scheme, este proyecto busca modernizar la experiencia de creación de contenido web dentro del veterano editor.",
+      "why_it_matters": "Combina la potencia de Emacs con la comodidad de la edición visual, atrayendo a desarrolladores que prefieren entornos de texto pero necesitan previsualización inmediata.",
+      "url": "https://speechcode.com/blog/drei",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Quién dijo que Emacs no podía ser WYSIWYG? DREI lo convierte en un editor visual para HTML.\n\n#Emacs #HTML #Scheme #WYSIWYG\nhttps://speechcode.com/blog/drei",
+        "linkedin": "Emacs, el editor de texto de 50 años, acaba de dar un salto sorprendente: ahora ofrece edición visual en tiempo real para HTML.\nDREI es un nuevo modo construido sobre Scheme que muestra el resultado WYSIWYG mientras escribes, fusionando la potencia de Emacs con la inmediatez que muchos echaban de menos. 𝗘𝘀𝘁𝗲 𝗺𝗼𝗱𝗼 𝗽𝗼𝗱𝗿í𝗮 𝗰𝗲𝗿𝗿𝗮𝗿 𝘂𝗻𝗮 𝗯𝗿𝗲𝗰𝗵𝗮 𝗵𝗶𝘀𝘁ó𝗿𝗶𝗰𝗮 y hacer que el flujo de trabajo sea más fluido sin renunciar a las miles de extensiones disponibles.\n\n#Emacs #HTML #Scheme #WYSIWYG\n\nhttps://speechcode.com/blog/drei"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "industria",
+      "title": "Desarrolladores exigen que las herramientas de IA para código prioricen la seguridad por defecto",
+      "summary": "Un análisis de redes sociales revela que los programadores piden a empresas como Anthropic, OpenAI y Cursor que integren medidas de seguridad y privacidad en sus asistentes de codificación con IA. La preocupación crece ante el uso de código generado automáticamente sin las debidas salvaguardas.",
+      "why_it_matters": "Señala la necesidad urgente de que las herramientas de IA generativa incorporen controles de seguridad para evitar vulnerabilidades introducidas por el código sugerido.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/08/devs-to-anthropic-openai-cursor-and-friends-make-security-and-privacy-the-default/5285107",
+      "source": "The Register",
+      "social": {
+        "x": "🔒 Las herramientas de IA para código aceleran el desarrollo, pero cada sugerencia sin revisión puede ser una puerta trasera. Los desarrolladores exigen seguridad por defecto.\n\n#DevSecOps #Anthropic #OpenAI #Cursor\nhttps://www.theregister.com/ai-and-ml/2026/08/08/devs-to-anthropic-openai-cursor-and-friends-make-security-and-privacy-the-default/5285107",
+        "linkedin": "El código generado por IA está abriendo un nuevo vector de ataque: cada sugerencia no revisada puede ser una vulnerabilidad.\n\nUn análisis de redes sociales muestra que los desarrolladores están pidiendo a empresas como Anthropic, OpenAI y Cursor que integren 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝘆 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝗽𝗼𝗿 𝗱𝗲𝗳𝗲𝗰𝘁𝗼 en sus asistentes de codificación. Esto no es un capricho: es una necesidad urgente para evitar que el desarrollo acelerado se convierta en un riesgo descontrolado.\n\n#DevSecOps #Anthropic #OpenAI #Cursor\n\nhttps://www.theregister.com/ai-and-ml/2026/08/08/devs-to-anthropic-openai-cursor-and-friends-make-security-and-privacy-the-default/5285107"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "Surge un movimiento para bifurcar Rails por desavenencias con DHH",
+      "summary": "Ante la incompatibilidad de visiones con el creador de Ruby on Rails, David Heinemeier Hansson, un grupo de desarrolladores propone una bifurcación dura del framework. Aunque el núcleo técnico sigue siendo valorado, consideran que la gobernanza actual lastra el proyecto.",
+      "why_it_matters": "Refleja la tensión entre la comunidad y los liderazgos en proyectos open source, y podría derivar en una alternativa que marque el futuro del desarrollo web con Ruby.",
+      "url": "https://lucas.dohmen.io/posts/2026/08/09/rails-is-done",
+      "source": "Lobsters",
+      "social": {
+        "x": "No es un conflicto técnico: es una lucha por la gobernanza de Rails. Un grupo de desarrolladores prepara un hard fork por diferencias irreconciliables con DHH.\n\n#RubyOnRails #OpenSource #Fork #DHH\nhttps://lucas.dohmen.io/posts/2026/08/09/rails-is-done",
+        "linkedin": "La gobernanza de los proyectos open source puede ser su mayor fortaleza o su punto más débil.\n\nUn grupo de desarrolladores de Ruby on Rails, hartos de la visión de su creador David Heinemeier Hansson, ha comenzado a organizar un hard fork del framework. 𝗡𝗼 𝗲𝘀 𝘂𝗻𝗮 𝗱𝗶𝘀𝗽𝘂𝘁𝗮 𝘁é𝗰𝗻𝗶𝗰𝗮, 𝘀𝗶𝗻𝗼 𝘀𝗼𝗯𝗿𝗲 𝗾𝘂𝗶é𝗻 𝘆 𝗰ó𝗺𝗼 𝘀𝗲 𝘁𝗼𝗺𝗮𝗻 𝗹𝗮𝘀 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝗲𝘀. Si el fork prospera, dividiría el ecosistema Ruby, pero también podría revitalizar el desarrollo web con este lenguaje, que muchos sentían estancado bajo un liderazgo unipersonal.\n\n#RubyOnRails #OpenSource #Fork #DHH\n\nhttps://lucas.dohmen.io/posts/2026/08/09/rails-is-done"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "Un centro de datos de Amazon podría convertirse en el mayor contaminante de EE. UU.",
+      "summary": "Amazon planea construir una planta de gas natural junto a su nuevo centro de datos en Texas, con un permiso para emitir 33 millones de toneladas de CO2 al año, más que cualquier otra planta eléctrica del país. La medida ha generado críticas por su impacto climático.",
+      "why_it_matters": "Ilustra el costo ambiental oculto de la expansión de la infraestructura en la nube y la IA, y reabre el debate sobre la sostenibilidad de las grandes tecnológicas.",
+      "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s",
+      "source": "TechCrunch",
+      "social": {
+        "x": "No es una refinería, es un centro de datos. Amazon construirá una planta de gas en Texas que podría emitir 33 millones de toneladas de CO2 al año, más que cualquier otra planta eléctrica de EE.UU.\n\n#Amazon #DataCenter #Texas #HuellaDeCarbono\nhttps://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s",
+        "linkedin": "El mayor contaminante industrial de Estados Unidos podría ser, en pocos años, un centro de datos de Amazon.\n\nLos permisos solicitados en Texas para una planta de gas que alimente sus servidores contemplan hasta 33 millones de toneladas de CO2 al año, superando a cualquier planta eléctrica del país. 𝗘𝘀𝘁𝗮 𝗰𝗶𝗳𝗿𝗮 𝗽𝗼𝗻𝗲 𝗲𝗻 𝗲𝘃𝗶𝗱𝗲𝗻𝗰𝗶𝗮 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗼𝗰𝘂𝗹𝘁𝗼 𝗱𝗲 𝗹𝗮 𝗲𝘅𝗽𝗮𝗻𝘀𝗶ó𝗻 𝗱𝗲 𝗹𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗰𝗹𝗼𝘂𝗱 y reabre el debate sobre si las grandes tecnológicas pueden cumplir sus promesas climáticas mientras escalan sus capacidades de IA.\n\n#Amazon #DataCenter #Texas #HuellaDeCarbono\n\nhttps://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "industria",
+      "title": "Primeras imágenes del cráter lunar causado por el impacto de un cohete de SpaceX",
+      "summary": "El satélite surcoreano Danuri ha captado las primeras fotografías del pequeño cráter dejado en la Luna por la colisión de una etapa de un cohete de SpaceX. El impacto, ocurrido meses atrás, ha permitido estudiar la composición del suelo lunar.",
+      "why_it_matters": "Proporciona datos únicos sobre la formación de cráteres y la respuesta del subsuelo lunar, útiles para futuras misiones de exploración.",
+      "url": "https://www.wired.com/story/first-images-spacex-rocket-moon-crater",
+      "source": "Wired",
+      "social": {
+        "x": "Misterio resuelto: así es el cráter que un cohete de SpaceX abrió en la Luna. Las primeras imágenes, cortesía del satélite Danuri.\n\n#SpaceX #Luna #Danuri #ExploraciónEspacial\nhttps://www.wired.com/story/first-images-spacex-rocket-moon-crater",
+        "linkedin": "Misterio resuelto: así es el cráter que un cohete de SpaceX abrió en la Luna.\n\nEl satélite surcoreano Danuri ha captado las primeras fotografías del pequeño cráter dejado por la colisión de una etapa de un cohete de SpaceX. El impacto, ocurrido meses atrás, no ha sido en vano: permite estudiar la composición del suelo lunar y la formación de cráteres, datos clave para futuras misiones. 𝗘𝘀𝘁𝗮𝘀 𝗶𝗺á𝗴𝗲𝗻𝗲𝘀 𝗼𝗳𝗿𝗲𝗰𝗲𝗻 𝘂𝗻𝗮 𝗼𝗽𝗼𝗿𝘁𝘂𝗻𝗶𝗱𝗮𝗱 ú𝗻𝗶𝗰𝗮 𝗽𝗮𝗿𝗮 𝗲𝗻𝘁𝗲𝗻𝗱𝗲𝗿 𝗹𝗮 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮 𝗱𝗲𝗹 𝘀𝘂𝗯𝘀𝘂𝗲𝗹𝗼 𝗹𝘂𝗻𝗮𝗿 𝗮𝗻𝘁𝗲 𝗶𝗺𝗽𝗮𝗰𝘁𝗼𝘀, algo que hasta ahora solo podíamos simular.\n\n#SpaceX #Luna #Danuri #ExploraciónEspacial\n\nhttps://www.wired.com/story/first-images-spacex-rocket-moon-crater"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "El vehículo autónomo Perseverance demuestra su éxito en Marte",
+      "summary": "Tras recorrer de forma autónoma el 90 % de sus trayectos, el rover Perseverance se ha convertido en el primer vehículo autoconducido en otro planeta. Su sistema de navegación sin intervención humana ha superado todas las expectativas de los ingenieros de la NASA.",
+      "why_it_matters": "Muestra la madurez de la conducción autónoma en entornos extremos, allanando el camino para futuras misiones robóticas y tripuladas.",
+      "url": "https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Perseverance ha recorrido el 90% de sus trayectos en Marte sin intervención humana. La conducción autónoma acaba de pasar su examen más duro.\n\n#Perseverance #NASA #Marte #ConducciónAutónoma\nhttps://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success",
+        "linkedin": "Marte ya tiene su primer vehículo autoconducido.\n\nEl rover Perseverance ha recorrido el 90% de sus trayectos de forma autónoma, superando todas las expectativas de la NASA. 𝗘𝘀 𝗹𝗮 𝗽𝗿𝗶𝗺𝗲𝗿𝗮 𝘃𝗲𝘇 𝗾𝘂𝗲 𝘂𝗻 𝘃𝗲𝗵í𝗰𝘂𝗹𝗼 𝘀𝗲 𝗰𝗼𝗻𝗱𝘂𝗰𝗲 𝘀𝗼𝗹𝗼 𝗲𝗻 𝗼𝘁𝗿𝗼 𝗽𝗹𝗮𝗻𝗲𝘁𝗮, un logro que valida la madurez de la conducción autónoma en las condiciones más adversas. Este éxito allana el camino para misiones robóticas y tripuladas donde la autonomía será crítica.\n\n#Perseverance #NASA #Marte #ConducciónAutónoma\n\nhttps://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "OpenAI adquiere la startup de presentaciones NextSlide",
+      "summary": "OpenAI ha fichado al equipo de NextSlide, una aplicación que convertía ideas en presentaciones editables mediante IA, para que trabajen en ChatGPT. La adquisición refuerza las capacidades de productividad y comunicación visual dentro del ecosistema de OpenAI.",
+      "why_it_matters": "Señala el interés de OpenAI por integrar herramientas de creación de contenido visual en sus productos, expandiendo su utilidad más allá del texto.",
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide",
+      "source": "TechCrunch",
+      "social": {
+        "x": "📊 OpenAI quiere que ChatGPT te haga las diapositivas. Acaba de adquirir NextSlide para lograrlo.\n\n#OpenAI #ChatGPT #NextSlide\nhttps://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide",
+        "linkedin": "Si creías que ChatGPT solo servía para texto, OpenAI acaba de mover ficha.\n\nLa empresa ha adquirido NextSlide, una startup que convertía ideas en presentaciones editables mediante IA. Su equipo ya trabaja en integrar estas capacidades en ChatGPT. Para cualquier profesional que prepare presentaciones, 𝗹𝗮 𝗹í𝗻𝗲𝗮 𝗲𝗻𝘁𝗿𝗲 𝗲𝗹 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝗱𝗲 𝘁𝗲𝘅𝘁𝗼 𝘆 𝗲𝗹 𝗱𝗶𝘀𝗲ñ𝗮𝗱𝗼𝗿 𝗱𝗲 𝗱𝗶𝗮𝗽𝗼𝘀𝗶𝘁𝗶𝘃𝗮𝘀 𝘀𝗲 𝗱𝗶𝗳𝘂𝗺𝗶𝗻𝗮.\n\n#OpenAI #ChatGPT #NextSlide\n\nhttps://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "X reemplaza su programa de reparto de ingresos por recompensas a contenido original",
+      "summary": "La red social X, propiedad de SpaceX, liquidará su programa actual de Revenue Sharing y lanzará Original Content Rewards a partir del 8 de septiembre. El cambio busca alinear mejor los incentivos para los creadores, aunque deja fuera a los participantes actuales.",
+      "why_it_matters": "Revoluciona la monetización para influencers en X, y podría alterar el panorama de la creación de contenido en la plataforma.",
+      "url": "https://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards",
+      "source": "TechCrunch",
+      "social": {
+        "x": "X acaba de matar su programa de reparto de ingresos. El 8 de septiembre llegan las recompensas por contenido original, pero los participantes actuales se quedan fuera. ¿A quién beneficia realmente?\n\n#X #Creadores #Monetización #ContenidoOriginal\nhttps://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards",
+        "linkedin": "X entierra su Revenue Sharing y apuesta por las recompensas al contenido original.\n\nA partir del 8 de septiembre, el programa de reparto de ingresos desaparece. La nueva fórmula premia el contenido original, pero 𝗹𝗼𝘀 𝗰𝗿𝗲𝗮𝗱𝗼𝗿𝗲𝘀 𝗾𝘂𝗲 𝘆𝗮 𝗽𝗮𝗿𝘁𝗶𝗰𝗶𝗽𝗮𝗯𝗮𝗻 𝗻𝗼 𝗺𝗶𝗴𝗿𝗮𝗿á𝗻 𝗮𝘂𝘁𝗼𝗺á𝘁𝗶𝗰𝗮𝗺𝗲𝗻𝘁𝗲. La plataforma redefine quién cobra y por qué, y eso obliga a repensar la estrategia de monetización en X.\n\n#X #Creadores #Monetización #ContenidoOriginal\n\nhttps://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "El músico Tom Vek diseña un reproductor de música digital que huye de lo retro",
+      "summary": "Tom Vek, conocido por sus álbumes de indietrónica, está desarrollando Sleevenote, un dispositivo hardware para escuchar música digital que no imita estéticas vintage. Su enfoque busca una experiencia moderna y táctil, alejada de los reproductores nostálgicos.",
+      "why_it_matters": "Propone una alternativa fresca en un mercado de dispositivos musicales dominado por el diseño retro, atrayendo a audiófilos y amantes de la música.",
+      "url": "https://www.theverge.com/report/976872/tom-vek-musician-entrepreneur-sleevenote-interview",
+      "source": "The Verge",
+      "social": {
+        "x": "Tom Vek, músico de indietrónica, está diseñando Sleevenote: un reproductor de música digital que reniega del diseño retro.\n\n#Sleevenote #MusicTech #Hardware\nhttps://www.theverge.com/report/976872/tom-vek-musician-entrepreneur-sleevenote-interview",
+        "linkedin": "Durante años, el hardware musical ha vivido de la nostalgia: reproductores que replican walkmans o giradiscos.\n\nTom Vek, conocido por sus álbumes de indietrónica, apuesta por algo diferente con Sleevenote, un dispositivo que 𝗿𝗲𝗰𝗵𝗮𝘇𝗮 𝗹𝗮 𝗲𝘀𝘁é𝘁𝗶𝗰𝗮 𝘃𝗶𝗻𝘁𝗮𝗴𝗲 para ofrecer una experiencia de escucha moderna y táctil. Esta propuesta refresca un mercado estancado en el pasado y puede marcar una nueva dirección para los amantes del audio que buscan innovación funcional, no solo estética.\n\n#Sleevenote #MusicTech #Hardware\n\nhttps://www.theverge.com/report/976872/tom-vek-musician-entrepreneur-sleevenote-interview"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "herramientas",
+      "title": "Un mapa interactivo de código abierto para seguir el eclipse solar total del 12 de agosto",
+      "summary": "Con motivo del eclipse solar del 12 de agosto de 2026, se ha lanzado un mapa web que muestra la trayectoria de la totalidad, los horarios precisos y las probabilidades de nubosidad en cada punto. La herramienta, creada con datos abiertos, ayuda a planificar la observación del fenómeno.",
+      "why_it_matters": "Facilita a millones de personas la experiencia de ver uno de los eventos astronómicos más esperados, con datos precisos y en tiempo real.",
+      "url": "https://eclipsefan.org/?v=2&t=max&layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm&lat=43.4623&lon=-3.8099&opacity=besselian%3A0.2%2Cumbra-live%3A0.2&zoom=6&palier=minute",
+      "source": "Hacker News",
+      "social": {
+        "x": "El 12 de agosto de 2026, un eclipse total cruzará la península. Este mapa calcula al milisegundo cuándo y dónde verlo, y si las nubes te dejarán.\n\n#EclipseSolar #OpenSource #OpenData #Astronomía\nhttps://eclipsefan.org/?v=2&t=max&layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm&lat=43.4623&lon=-3.8099&opacity=besselian%3A0.2%2Cumbra-live%3A0.2&zoom=6&palier=minute",
+        "linkedin": "Planificar un eclipse solar total es un reto: unos minutos de diferencia y puedes perder el espectáculo.\n\nEl próximo 12 de agosto de 2026, la sombra de la Luna cruzará la península ibérica. Para ayudar a elegir el punto exacto de observación, un desarrollador ha creado un mapa interactivo y de código abierto que 𝘀𝘂𝗽𝗲𝗿𝗽𝗼𝗻𝗲 𝗹𝗮 𝘁𝗿𝗮𝘆𝗲𝗰𝘁𝗼𝗿𝗶𝗮 𝗱𝗲 𝗹𝗮 𝘁𝗼𝘁𝗮𝗹𝗶𝗱𝗮𝗱 𝗰𝗼𝗻 𝗹𝗮𝘀 𝗽𝗿𝗼𝗯𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀 𝗱𝗲 𝗻𝘂𝗯𝗲𝘀 𝗽𝗼𝗿 𝘂𝗯𝗶𝗰𝗮𝗰𝗶ó𝗻 𝘆 𝗵𝗼𝗿𝗮. Una muestra de cómo los datos abiertos pueden democratizar la experiencia de un evento astronómico único.\n\n#EclipseSolar #OpenSource #OpenData #Astronomía\n\nhttps://eclipsefan.org/?v=2&t=max&layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm&lat=43.4623&lon=-3.8099&opacity=besselian%3A0.2%2Cumbra-live%3A0.2&zoom=6&palier=minute"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "El cazador de hackers de Google explica por qué los grupos reciben nombres en clave",
+      "summary": "Google ha cambiado la forma en que nombra a los grupos de ciberamenazas, y uno de sus principales expertos cuenta el proceso detrás de estos apodos. Los nombres ayudan a diferenciar actores maliciosos y a coordinar la respuesta entre equipos de seguridad.",
+      "why_it_matters": "Ofrece una visión única de la ciberseguridad ofensiva y cómo las grandes tecnológicas catalogan a sus adversarios, mejorando la colaboración en la industria.",
+      "url": "https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames",
+      "source": "TechCrunch",
+      "social": {
+        "x": "No es solo un nombre bonito: la forma en que Google bautiza a los grupos de hackers puede definir cómo se combaten. Un cazador de amenazas lo cuenta.\n\n#Google #Ciberseguridad #ThreatIntelligence\nhttps://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames",
+        "linkedin": "Nombrar a un adversario es el primer paso para defenderte de él.\n\nGoogle ha cambiado su sistema de nombres de grupos de ciberamenazas y uno de sus expertos explica por qué. 𝗨𝗻𝗮 𝗻𝗼𝗺𝗲𝗻𝗰𝗹𝗮𝘁𝘂𝗿𝗮 𝗰𝗼𝗵𝗲𝗿𝗲𝗻𝘁𝗲 𝗽𝗲𝗿𝗺𝗶𝘁𝗲 𝗾𝘂𝗲 𝗹𝗼𝘀 𝗲𝗾𝘂𝗶𝗽𝗼𝘀 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗰𝗼𝗼𝗿𝗱𝗶𝗻𝗲𝗻 𝘀𝘂 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮 𝘀𝗶𝗻 𝗺𝗮𝗹𝗲𝗻𝘁𝗲𝗻𝗱𝗶𝗱𝗼𝘀, y en este sector, eso marca la diferencia.\n\n#Google #Ciberseguridad #ThreatIntelligence\n\nhttps://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "Framework de trading financiero con múltiples agentes LLM que permite implementar estrategias de inversión automatizadas y analizar mercados en tiempo real. Ideal para explorar la integración de IA en finanzas.",
+      "language": "Python",
+      "stars": 96688,
+      "social": {
+        "x": "🤖 96.6k ⭐ para un framework de trading multiagente con LLMs. Analiza mercados, backtestea y ejecuta estrategias. Open source y sin paywall.\n\n#TradingAgents #Python #OpenSource #GitHub\nhttps://github.com/TauricResearch/TradingAgents",
+        "linkedin": "CANSADO DE PAGAR POR BOTS DE TRADING QUE NO ENTIENDES? ESTE FRAMEWORK OPEN SOURCE TE DA AGENTES CON IA PARA DOMINAR LOS MERCADOS.\n\nTradingAgents, con casi 100k estrellas en GitHub, es un framework multiagente basado en LLMs que te permite diseñar, probar y ejecutar estrategias de trading automatizadas. Olvídate de las cajas negras: aquí tienes el control total.\n\n→ Agentes especializados en análisis técnico, fundamental y de sentimiento.\n→ Backtesting sobre datos históricos y simulación en tiempo real.\n→ Integración sencilla con APIs de mercado y fuentes de noticias.\n→ Escrito en Python, fácil de extender y hacer self-hosted.\n\n𝗟𝗮 𝗶𝗻𝘁𝗲𝗹𝗶𝗴𝗲𝗻𝗰𝗶𝗮 𝗰𝗼𝗹𝗲𝗰𝘁𝗶𝘃𝗮 𝗱𝗲 𝘃𝗮𝗿𝗶𝗼𝘀 𝗟𝗟𝗠𝘀 𝘁𝗿𝗮𝗯𝗮𝗷𝗮𝗻𝗱𝗼 𝗽𝗮𝗿𝗮 𝘁𝘂 𝗰𝗮𝗿𝘁𝗲𝗿𝗮.\n\nGuarda este post si quieres explorarlo, te dejo el repo abajo.\n\n#TradingAgents #Python #OpenSource #GitHub\n\nhttps://github.com/TauricResearch/TradingAgents"
+      }
+    },
+    {
+      "name": "denoland/celld",
+      "url": "https://github.com/denoland/celld",
+      "description": "Implementación autogestionada y distribuida de Durable Objects, que simplifica la creación de aplicaciones con estado y baja latencia. Perfecto para arquitecturas serverless y edge computing.",
+      "language": "Rust",
+      "stars": 2706,
+      "social": {
+        "x": "Olvídate de Cloudflare: celld te permite ejecutar Durable Objects en tu propia infra. Rust, open source y ya casi 3k estrellas.\n\n#celld #Rust #OpenSource #Serverless\nhttps://github.com/denoland/celld",
+        "linkedin": "EJECUTA DURABLE OBJECTS EN TUS PROPIOS SERVIDORES, SIN ATADURAS.\n\nDeno ha lanzado celld, una implementación self-hosted y distribuida de Durable Objects escrita en Rust. Con ella, puedes crear aplicaciones con estado y baja latencia en arquitecturas serverless o edge, sin depender de un cloud específico.\n\n→ Self-hosted: despliega en tus máquinas, sin costes ocultos.\n→ Distribuido y de baja latencia, ideal para edge computing.\n→ Escrito en Rust: eficiente y fiable.\n→ Simplifica la creación de apps con estado en entornos efímeros.\n\n𝗰𝗲𝗹𝗹𝗱 𝗱𝗲𝗺𝗼𝗰𝗿𝗮𝘁𝗶𝘇𝗮 𝗲𝗹 𝗲𝘀𝘁𝗮𝗱𝗼 𝘀𝗲𝗿𝘃𝗲𝗿𝗹𝗲𝘀𝘀, 𝗲𝗹𝗶𝗺𝗶𝗻𝗮𝗻𝗱𝗼 𝗲𝗹 𝘃𝗲𝗻𝗱𝗼𝗿 𝗹𝗼𝗰𝗸-𝗶𝗻 𝘆 𝗱á𝗻𝗱𝗼𝘁𝗲 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝘁𝗼𝘁𝗮𝗹.\n\nGuarda este post si trabajas con serverless o edge. Te dejo el repo más abajo.\n\n#celld #Rust #OpenSource #Serverless\n\nhttps://github.com/denoland/celld"
+      }
+    },
+    {
+      "name": "LadybirdBrowser/ladybird",
+      "url": "https://github.com/LadybirdBrowser/ladybird",
+      "description": "Navegador web verdaderamente independiente, construido desde cero sin usar motores de otros navegadores. Un proyecto prometedor para quienes buscan alternativas a los gigantes y quieren contribuir al futuro de la web.",
+      "language": "C++",
+      "stars": 65071,
+      "social": {
+        "x": "Alguien acaba de crear un navegador sin depender de Chromium ni WebKit. Son 65k estrellas y cero ataduras corporativas.\n\n#Ladybird #Cpp #OpenSource #GitHub\nhttps://github.com/LadybirdBrowser/ladybird",
+        "linkedin": "Chromium domina el 90% del mercado. Pero un pequeño equipo está construyendo un navegador desde cero, sin heredar ni una línea de código de los gigantes.\n\nLadybird es un proyecto open source que aspira a ser una alternativa real. No depende de motores ajenos y ya acumula más de 65.000 estrellas en GitHub.\n\n→ 𝗠𝗼𝘁𝗼𝗿 𝗱𝗲 𝗿𝗲𝗻𝗱𝗲𝗿𝗶𝘇𝗮𝗱𝗼 𝗽𝗿𝗼𝗽𝗶𝗼 (LibWeb) y motor JavaScript (LibJS).\n→ Desarrollo activo en C++, con enfoque en rendimiento y estándares web.\n→ Comunidad vibrante donde cualquiera puede contribuir al futuro de la web.\n\nSi te interesa un internet más abierto, guarda este post y échale un ojo al repo.\n\n#Ladybird #Cpp #OpenSource #GitHub\n\nhttps://github.com/LadybirdBrowser/ladybird"
+      }
+    },
+    {
+      "name": "bannedbook/fanqiang",
+      "url": "https://github.com/bannedbook/fanqiang",
+      "description": "Herramienta que facilita el acceso a internet sin restricciones, superando bloqueos geográficos y de censura. Útil para desarrolladores que necesitan probar servicios globales o mantener la privacidad.",
+      "language": "Kotlin",
+      "stars": 50062,
+      "social": {
+        "x": "Cero bloqueos, cero censura, 50k estrellas. Este repo open source en Kotlin te permite navegar sin límites.\n\n#fanqiang #Kotlin #OpenSource #Privacidad\nhttps://github.com/bannedbook/fanqiang",
+        "linkedin": "50.000 ESTRELLAS EN GITHUB Y CERO RESTRICCIONES: ESTA HERRAMIENTA OPEN SOURCE SALTEA LA CENSURA DE INTERNET.\n\nEl repositorio bannedbook/fanqiang reúne utilidades en Kotlin para 𝗮𝗰𝗰𝗲𝗱𝗲𝗿 𝗮 𝗶𝗻𝘁𝗲𝗿𝗻𝗲𝘁 𝘀𝗶𝗻 𝗯𝗹𝗼𝗾𝘂𝗲𝗼𝘀 𝗴𝗲𝗼𝗴𝗿á𝗳𝗶𝗰𝗼𝘀 𝗻𝗶 𝗰𝗲𝗻𝘀𝘂𝗿𝗮. Diseñada para sortear bloqueos en países con censura estricta, se ha vuelto imprescindible para desarrolladores que necesitan probar servicios globales o mantener la privacidad de sus conexiones.\n\n→ Métodos y guías para configurar túneles y proxies.\n→ Ideal para testing de aplicaciones en distintas regiones.\n→ Código en Kotlin, fácil de entender y personalizar.\n→ Comunidad activa con miles de contribuidores.\n\nGuarda este post si trabajas con servicios globales o te importa la privacidad digital. Te dejo el repo abajo.\n\n#fanqiang #Kotlin #OpenSource #Privacidad\n\nhttps://github.com/bannedbook/fanqiang"
+      }
+    }
+  ]
+}
