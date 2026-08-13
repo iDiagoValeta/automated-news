@@ -1,0 +1,311 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T08:39:15.924Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "DeepSeek lanza V4 Pro 0813, un modelo de mezcla de expertos con 1 millón de tokens de contexto",
+      "summary": "DeepSeek ha presentado V4 Pro 0813, un modelo de mezcla de expertos a gran escala con una ventana de contexto de 1.048.576 tokens y salida máxima de 384.000 tokens. Ofrece precios competitivos: 0,435 dólares por millón de tokens de entrada y 0,87 por millón de salida, e incluye puntos de referencia independientes de Artificial Analysis.",
+      "why_it_matters": "Marca un nuevo estándar de relación coste/rendimiento para modelos de gran escala.",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un millón de tokens de contexto ya es una realidad. Y no viene de OpenAI ni de Google: es DeepSeek V4 Pro 0813, a 0,435 dólares por millón de tokens de entrada.\n\n#DeepSeek #MoE #ArtificialAnalysis\nhttps://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+        "linkedin": "Un millón de tokens de contexto deja de ser terreno exclusivo de los grandes laboratorios.\n\nDeepSeek ha presentado V4 Pro 0813, un modelo de mezcla de expertos con una ventana de contexto de 1.048.576 tokens y salida máxima de 384.000 tokens. Los precios son de 0,435 dólares por millón de tokens de entrada y 0,87 por millón de salida, y los benchmarks independientes de Artificial Analysis respaldan el anuncio: marca 𝘂𝗻 𝗻𝘂𝗲𝘃𝗼 𝗲𝘀𝘁á𝗻𝗱𝗮𝗿 𝗱𝗲 𝗿𝗲𝗹𝗮𝗰𝗶ó𝗻 𝗰𝗼𝘀𝘁𝗲/𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗽𝗮𝗿𝗮 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗮 𝗴𝗿𝗮𝗻 𝗲𝘀𝗰𝗮𝗹𝗮. Para cualquier equipo que trabaje con contextos largos, esta combinación cambia las reglas de viabilidad.\n\n#DeepSeek #MoE #ArtificialAnalysis\n\nhttps://openrouter.ai/deepseek/deepseek-v4-pro-0813"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "xAI lanza Grok 4.6, centrado en agentes de larga duración y trabajo visual",
+      "summary": "Grok 4.6 se basa en Grok 4.5 y mejora el rendimiento en agentes de larga ejecución y tareas interactivas y visuales más ambiciosas. Según xAI, está disponible desde hoy y se integra en sus productos.",
+      "why_it_matters": "Avanza en el rendimiento agéntico y sitúa a xAI en la frontera de la inteligencia artificial.",
+      "url": "https://x.ai/news/grok-4-6",
+      "source": "Hacker News",
+      "social": {
+        "x": "Los agentes de larga duración y el trabajo visual acaban de recibir un empujón: Grok 4.6 ya está disponible y xAI lo ha puesto en sus productos.\n\n#xAI #Grok\nhttps://x.ai/news/grok-4-6",
+        "linkedin": "Los agentes de larga duración y el trabajo visual acaban de recibir un empujón: Grok 4.6 ya está disponible y xAI lo ha puesto en sus productos.\n\nEl salto no es menor: xAI mejora el rendimiento en tareas interactivas y visuales más ambiciosas, y lo hace sobre la base de Grok 4.5. 𝗟𝗮 𝗳𝗿𝗼𝗻𝘁𝗲𝗿𝗮 𝗱𝗲 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗮𝘂𝘁ó𝗻𝗼𝗺𝗼𝘀 𝘀𝗲 𝗺𝘂𝗲𝘃𝗲 𝗵𝗮𝗰𝗶𝗮 𝗹𝗮 𝗲𝗷𝗲𝗰𝘂𝗰𝗶ó𝗻 𝘀𝗼𝘀𝘁𝗲𝗻𝗶𝗱𝗮 𝘆 𝗹𝗮 𝗰𝗼𝗺𝗽𝗿𝗲𝗻𝘀𝗶ó𝗻 𝘃𝗶𝘀𝘂𝗮𝗹, y xAI se coloca en esa carrera. Para equipos que diseñan agentes, esto toca decisiones de infraestructura y producto.\n\n#xAI #Grok\n\nhttps://x.ai/news/grok-4-6"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Google DeepMind presenta SL2T, IA que traduce lengua de signos a texto",
+      "summary": "El nuevo modelo sign-language-to-text (SL2T) impulsa funciones de accesibilidad para personas sordas y con problemas de audición. Permite convertir la lengua de signos en texto en tiempo real y estará disponible en productos de Google.",
+      "why_it_matters": "Acerca la IA a un colectivo con necesidades de comunicación muy específicas.",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "Traducir lengua de signos en tiempo real deja de ser una promesa: Google DeepMind lo integra en sus productos.\n\n#GoogleDeepMind #SL2T #LenguaDeSignos #Accesibilidad\nhttps://deepmind.google/blog/putting-sign-language-ai-into-users-hands",
+        "linkedin": "La lengua de signos era uno de los últimos grandes vacíos de la IA conversacional.\nSL2T convierte lengua de signos en texto en tiempo real y estará en productos de Google. No es solo un avance técnico: 𝗮𝗯𝗿𝗲 𝗹𝗮 𝗮𝗰𝗰𝗲𝘀𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱 a un colectivo que históricamente ha estado fuera de las interfaces basadas en voz y texto. Para quien trabaje en producto, es una señal de que lo accesible empieza a ser estándar.\n\n#GoogleDeepMind #SL2T #LenguaDeSignos #Accesibilidad\n\nhttps://deepmind.google/blog/putting-sign-language-ai-into-users-hands"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Claude Cowork ya se puede usar desde la barra lateral de Chrome",
+      "summary": "La extensión de Anthropic para Chrome ahora permite ejecutar Claude Cowork en una barra lateral, manteniendo conversaciones con el chatbot sin abandonar la pestaña actual. Es una mejora de usabilidad para tareas colaborativas.",
+      "why_it_matters": "Facilita el uso del asistente de IA mientras trabajas en otras páginas.",
+      "url": "https://www.engadget.com/2235919/claude-cowork-can-now-run-in-a-chrome-sidebar",
+      "source": "Engadget",
+      "social": {
+        "x": "¿Y si Claude Cowork no te obligara a abandonar la pestaña? Ya no lo hace: la extensión de Anthropic estrena barra lateral en Chrome.\n\n#ClaudeCowork #Chrome #Anthropic\nhttps://www.engadget.com/2235919/claude-cowork-can-now-run-in-a-chrome-sidebar",
+        "linkedin": "Cambiar de pestaña para consultar al asistente es la fricción que mata la adopción.\nAnthropic acaba de llevar Claude Cowork a la 𝗯𝗮𝗿𝗿𝗮 𝗹𝗮𝘁𝗲𝗿𝗮𝗹 𝗱𝗲 𝗖𝗵𝗿𝗼𝗺𝗲, así que puedes mantener la conversación mientras sigues en la página que estás usando. Para tareas colaborativas o de investigación, esto convierte al asistente en un compañero constante, no en una interrupción.\n\n#ClaudeCowork #Chrome #Anthropic\n\nhttps://www.engadget.com/2235919/claude-cowork-can-now-run-in-a-chrome-sidebar"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Nvidia lanza NeMo Switchyard, un enrutador de modelos para reducir costes de IA empresarial",
+      "summary": "NeMo Switchyard es una solución software que aplica enrutamiento de modelos al estilo GPT-5 para derivar cada consulta al modelo más adecuado según coste y complejidad. Busca optimizar el gasto en inferencia en entornos empresariales.",
+      "why_it_matters": "Ayuda a las empresas a contener los costes de IA sin sacrificar calidad.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/12/nvidias-latest-solution-for-soaring-enterprise-costs-nemo-switchyard-software-router/5286911",
+      "source": "The Register",
+      "social": {
+        "x": "Cada consulta no necesita el modelo más caro. Nvidia acaba de lanzar NeMo Switchyard, un enrutador que manda cada petición al modelo más barato capaz de resolverla.\n\n#Nvidia #NeMoSwitchyard #Inferencia\nhttps://www.theregister.com/ai-and-ml/2026/08/12/nvidias-latest-solution-for-soaring-enterprise-costs-nemo-switchyard-software-router/5286911",
+        "linkedin": "Cada consulta no necesita el modelo más caro.\nNvidia ha lanzado NeMo Switchyard, un enrutador de modelos que deriva cada petición al modelo más adecuado según coste y complejidad, al estilo del enrutamiento de GPT-5. La propuesta es 𝗰𝗼𝗻𝘁𝗲𝗻𝗲𝗿 𝗲𝗹 𝗴𝗮𝘀𝘁𝗼 𝗲𝗻 𝗶𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝘀𝗶𝗻 𝘀𝗮𝗰𝗿𝗶𝗳𝗶𝗰𝗮𝗿 𝗰𝗮𝗹𝗶𝗱𝗮𝗱, algo que en entornos empresariales con miles de llamadas diarias puede marcar la diferencia. Una jugada clara para vender eficiencia, no solo potencia bruta.\n\n#Nvidia #NeMoSwitchyard #Inferencia\n\nhttps://www.theregister.com/ai-and-ml/2026/08/12/nvidias-latest-solution-for-soaring-enterprise-costs-nemo-switchyard-software-router/5286911"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Liquid AI lanza LFM2.5-VL-3B, un modelo de visión ligero para el edge",
+      "summary": "Es un modelo de visión y lenguaje de 3.000 millones de parámetros optimizado para ejecutarse en dispositivos con recursos limitados. Ofrece mejor rendimiento y velocidad para tareas de comprensión visual en el borde.",
+      "why_it_matters": "Abre la puerta a la IA multimodal en dispositivos edge sin depender de la nube.",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "La visión por IA se baja de la nube: Liquid AI lanza LFM2.5-VL-3B, un modelo de 3B parámetros para el edge.\n\n#LiquidAI #EdgeComputing #ComputerVision #VisionLanguageModel\nhttps://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+        "linkedin": "La visión por IA se baja de la nube: Liquid AI lanza LFM2.5-VL-3B, un modelo de 3.000 millones de parámetros optimizado para el edge.\nOfrece mejor rendimiento y velocidad para tareas de comprensión visual en dispositivos con recursos limitados, sin depender de la nube. 𝗔𝗯𝗿𝗲 𝗹𝗮 𝗽𝘂𝗲𝗿𝘁𝗮 𝗮 𝗹𝗮 𝗜𝗔 𝗺𝘂𝗹𝘁𝗶𝗺𝗼𝗱𝗮𝗹 𝗲𝗻 𝗲𝗹 𝗲𝗱𝗴𝗲 para aplicaciones industriales, robótica o wearables donde la latencia o la privacidad son críticas.\n\n#LiquidAI #EdgeComputing #ComputerVision #VisionLanguageModel\n\nhttps://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "AllenAI presenta exportaciones personalizadas de embeddings desde OlmoEarth Studio",
+      "summary": "La nueva funcionalidad permite generar embeddings personalizados para análisis posteriores a partir de los modelos de OlmoEarth. Está pensada para investigadores y desarrolladores que necesitan representaciones vectoriales específicas.",
+      "why_it_matters": "Facilita la creación de aplicaciones de búsqueda y análisis con datos geoespaciales y científicos.",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "🌍 Los embeddings personalizados para datos geoespaciales ya no son solo para los grandes laboratorios. AllenAI los acaba de poner a disposición en OlmoEarth Studio.\n\n#AllenAI #OlmoEarth #Embeddings #Geoespacial\nhttps://huggingface.co/blog/allenai/olmoearth-embeddings",
+        "linkedin": "🌍 Los embeddings personalizados para datos geoespaciales ya no son solo para los grandes laboratorios.\n\nAllenAI acaba de añadir a OlmoEarth Studio la opción de 𝗲𝘅𝗽𝗼𝗿𝘁𝗮𝗿 𝗲𝗺𝗯𝗲𝗱𝗱𝗶𝗻𝗴𝘀 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝘇𝗮𝗱𝗼𝘀 desde sus modelos. Está pensada para investigadores y desarrolladores que necesitan representaciones vectoriales específicas para búsqueda y análisis. Esto facilita crear aplicaciones sobre datos geoespaciales y científicos sin depender de representaciones genéricas.\n\n#AllenAI #OlmoEarth #Embeddings #Geoespacial\n\nhttps://huggingface.co/blog/allenai/olmoearth-embeddings"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "OpenWALDO quiere desafiar a los modelos propietarios con datos de entrenamiento abiertos",
+      "summary": "El proyecto OpenWALDO busca crear un conjunto de datos de entrenamiento transparente de 167.000 millones de tokens para modelos de IA. Aunque aún está lejos de los billones de tokens de los gigantes, invita a contribuir.",
+      "why_it_matters": "Impulsa la transparencia y la apertura en el entrenamiento de modelos de IA.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/12/openwaldo-aims-to-blow-the-doors-off-proprietary-ai-training-models/5286864",
+      "source": "The Register",
+      "social": {
+        "x": "¿Y si pudieras ver exactamente con qué datos se entrena un modelo? OpenWALDO quiere hacerlo realidad con 167.000 millones de tokens abiertos.\n\n#OpenWALDO #OpenSource #TrainingData\nhttps://www.theregister.com/ai-and-ml/2026/08/12/openwaldo-aims-to-blow-the-doors-off-proprietary-ai-training-models/5286864",
+        "linkedin": "La caja negra del entrenamiento de IA sigue cerrada para casi todos.\n\nOpenWALDO quiere abrirla con un conjunto de 𝟭𝟲𝟳.𝟬𝟬𝟬 𝗺𝗶𝗹𝗹𝗼𝗻𝗲𝘀 𝗱𝗲 𝘁𝗼𝗸𝗲𝗻𝘀 𝘁𝗿𝗮𝗻𝘀𝗽𝗮𝗿𝗲𝗻𝘁𝗲𝘀: una cifra modesta frente a los billones de los gigantes, pero con una diferencia clave: cualquiera puede auditarlo, replicarlo y contribuir. Para equipos que desconfían de los modelos opacos, esto convierte la transparencia en un activo práctico, no en un eslogan.\n\n#OpenWALDO #OpenSource #TrainingData\n\nhttps://www.theregister.com/ai-and-ml/2026/08/12/openwaldo-aims-to-blow-the-doors-off-proprietary-ai-training-models/5286864"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "Mesh, el CRM con IA de Automattic, llega a Android",
+      "summary": "La aplicación de contactos y gestión de relaciones impulsada por IA, Mesh, ya está disponible en Android. Ayuda a organizar y priorizar interacciones personales y profesionales.",
+      "why_it_matters": "Lleva las funciones de CRM con IA al móvil de forma accesible.",
+      "url": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Tu lista de contactos ya sabe a quién debes llamar primero. Mesh, el CRM con IA de Automattic, llega a Android.\n\n#Automattic #Mesh #Android #CRM\nhttps://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android",
+        "linkedin": "Tu lista de contactos ya sabe a quién debes llamar primero.\nMesh, el CRM con IA de Automattic, aterriza en Android para priorizar contactos personales y profesionales desde el móvil. 𝗟𝗮 𝗴𝗲𝘀𝘁𝗶ó𝗻 𝗱𝗲 𝗿𝗲𝗹𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗱𝗲 𝗲𝘀𝗰𝗿𝗶𝘁𝗼𝗿𝗶𝗼 𝗽𝗮𝗿𝗮 𝗲𝗾𝘂𝗶𝗽𝗼𝘀 𝗱𝗲 𝘃𝗲𝗻𝘁𝗮𝘀 y se vuelve accesible para cualquiera. Para profesionales independientes y equipos pequeños, significa menos tiempo organizando y más tiempo en las conversaciones que importan.\n\n#Automattic #Mesh #Android #CRM\n\nhttps://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Facebook lanza su app independiente Creator Studio con herramientas de IA para creadores",
+      "summary": "La nueva aplicación incluye un asistente de IA integrado que ofrece recomendaciones personalizadas según el estilo de contenido, el rendimiento y los objetivos de la audiencia. Está orientada a creadores de contenido.",
+      "why_it_matters": "Simplifica la gestión de contenido y añade capacidades de IA directamente en el flujo del creador.",
+      "url": "https://techcrunch.com/2026/08/12/facebook-officially-rolls-out-its-standalone-creator-studio-app-with-ai-tools-for-creators",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El asistente de IA que Facebook acaba de meter en su app para creadores no escribe por ti: decide por ti.\n\n#Facebook #CreatorStudio #Meta\nhttps://techcrunch.com/2026/08/12/facebook-officially-rolls-out-its-standalone-creator-studio-app-with-ai-tools-for-creators",
+        "linkedin": "Facebook acaba de meter un asistente de IA dentro de su app para creadores, y su trabajo no es redactar, sino decidir qué publicar.\n\nCreator Studio se independiza como aplicación propia y añade recomendaciones personalizadas según estilo, rendimiento y audiencia. 𝗘𝗹 𝗰𝗿𝗲𝗮𝗱𝗼𝗿 𝗽𝗶𝗲𝗿𝗱𝗲 𝗺𝗲𝗻𝗼𝘀 𝘁𝗶𝗲𝗺𝗽𝗼 𝗲𝗻 𝗱𝗲𝗰𝗶𝗱𝗶𝗿 𝘆 𝗺á𝘀 𝗲𝗻 𝗰𝗿𝗲𝗮𝗿; para los que gestionan varias cuentas, la IA pasa de curiosidad a utilidad diaria.\n\n#Facebook #CreatorStudio #Meta\n\nhttps://techcrunch.com/2026/08/12/facebook-officially-rolls-out-its-standalone-creator-studio-app-with-ai-tools-for-creators"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "Google presenta Pixel 11, Pixel Watch 5 y Pixel Tag con más funciones Gemini",
+      "summary": "En el evento Made by Google 2026, la compañía anunció la nueva serie Pixel 11, el reloj Pixel Watch 5 y el localizador Pixel Tag. Todos incorporan mejoras de Gemini y nuevas capacidades de cámara y salud.",
+      "why_it_matters": "Consolida la integración de la IA de Google en todo su ecosistema de hardware.",
+      "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El Pixel 11 no llega solo: Google ha metido Gemini hasta en el localizador.\n\n#Pixel11 #PixelWatch5 #PixelTag #Gemini\nhttps://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026",
+        "linkedin": "El Pixel 11 no llega solo: Google ha metido Gemini hasta en el localizador.\n\nCon el anuncio del Pixel 11, el Pixel Watch 5 y el Pixel Tag, Google convierte a Gemini en el eje de todo su hardware: cámara, salud y localización quedan atravesados por la IA. 𝗟𝗮 𝗮𝗽𝘂𝗲𝘀𝘁𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘃𝗲𝗻𝗱𝗲𝗿 𝗱𝗶𝘀𝗽𝗼𝘀𝗶𝘁𝗶𝘃𝗼𝘀, 𝘀𝗶𝗻𝗼 𝘂𝗻 𝗲𝗰𝗼𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗱𝗼𝗻𝗱𝗲 𝗹𝗮 𝗜𝗔 𝗲𝘀 𝗹𝗮 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗶𝗮. Para quien siga pensando en hardware como algo separado del software, este movimiento deja clara la dirección.\n\n#Pixel11 #PixelWatch5 #PixelTag #Gemini\n\nhttps://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "herramientas",
+      "title": "Woxi, una reimplementación open source de Mathematica/Wolfram Language",
+      "summary": "Woxi permite ejecutar código Wolfram Language en el navegador, en la CLI, en Jupyter o en su editor de cuadernos. Todo se ejecuta localmente en el navegador, sin enviar datos a servidores.",
+      "why_it_matters": "Ofrece una alternativa abierta y local a un entorno de cálculo simbólico muy usado en ciencia e ingeniería.",
+      "url": "https://woxi.ad-si.com",
+      "source": "Hacker News",
+      "social": {
+        "x": "Durante años, el cálculo simbólico era sinónimo de Wolfram. Woxi acaba de romper ese monopolio: open source y 100% local en tu navegador. Sin enviar datos a servidores.\n\n#WolframLanguage #OpenSource #Woxi\nhttps://woxi.ad-si.com",
+        "linkedin": "Durante años, hacer cálculo simbólico serio implicaba depender de Wolfram y, a menudo, de su nube.\nWoxi es una reimplementación open source del Wolfram Language que se ejecuta localmente en el navegador, en la CLI, en Jupyter o en su propio editor de cuadernos. 𝗧𝗼𝗱𝗼 𝗲𝗹 𝗰ó𝗺𝗽𝘂𝘁𝗼 𝗼𝗰𝘂𝗿𝗿𝗲 𝗲𝗻 𝘁𝘂 𝗺á𝗾𝘂𝗶𝗻𝗮, 𝘀𝗶𝗻 𝗲𝗻𝘃𝗶𝗮𝗿 𝗱𝗮𝘁𝗼𝘀 𝗮 𝘀𝗲𝗿𝘃𝗶𝗱𝗼𝗿𝗲𝘀. Para laboratorios, universidades y equipos de ingeniería que manejan datos sensibles o que quieren evitar el vendor lock-in, es una opción que merece la pena seguir de cerca.\n\n#WolframLanguage #OpenSource #Woxi\n\nhttps://woxi.ad-si.com"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "El creador de Node.js libera Durable Objects de Cloudflare con Celld",
+      "summary": "Ryan Dahl ha presentado Celld, una implementación de Durable Objects que se puede desplegar en infraestructura propia. Mantiene el mismo patrón de estado persistente y coordinación distribuida, pero sin depender de Cloudflare.",
+      "why_it_matters": "Permite usar un patrón muy útil de funciones con estado en cualquier proveedor o en tu propio servidor.",
+      "url": "https://www.theregister.com/devops/2026/08/12/nodejs-creator-liberates-durable-objects-from-cloudflare-with-celld/5286954",
+      "source": "The Register",
+      "social": {
+        "x": "Durable Objects ya no son solo de Cloudflare. El creador de Node.js acaba de liberar Celld para desplegarlos donde quieras.\n\n#Cloudflare #Nodejs #Celld #OpenSource\nhttps://www.theregister.com/devops/2026/08/12/nodejs-creator-liberates-durable-objects-from-cloudflare-with-celld/5286954",
+        "linkedin": "Durable Objects ya no son solo de Cloudflare.\nRyan Dahl, creador de Node.js, acaba de liberar Celld, una implementación open source que mantiene el patrón de estado persistente y coordinación distribuida, pero 𝘀𝗶𝗻 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝗹𝗮 𝗻𝘂𝗯𝗲 𝗱𝗲 𝗖𝗹𝗼𝘂𝗱𝗳𝗹𝗮𝗿𝗲. Para equipos que usan funciones con estado, esto elimina el vendor lock-in y permite desplegar en cualquier proveedor o en servidores propios.\n\n#Cloudflare #Nodejs #Celld #OpenSource\n\nhttps://www.theregister.com/devops/2026/08/12/nodejs-creator-liberates-durable-objects-from-cloudflare-with-celld/5286954"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "herramientas",
+      "title": "ShieldFont, una fuente que envenena los datos de entrenamiento de los scrapers de IA",
+      "summary": "ShieldFont es una tipografía diseñada para que las páginas sigan siendo legibles para los humanos pero resulten incomprensibles para los rastreadores de IA. Su objetivo es contaminar los datos de entrenamiento sin perjudicar la experiencia de lectura.",
+      "why_it_matters": "Ofrece una defensa sencilla y pasiva contra el scraping masivo de contenido por parte de modelos de IA.",
+      "url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Una fuente tipográfica que los humanos leen bien y los scrapers de IA no entienden. Así envenena los datos de entrenamiento.\n\n#ShieldFont #WebScraping #DataPoisoning\nhttps://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers",
+        "linkedin": "Una fuente tipográfica que los humanos leen bien y los scrapers de IA no entienden.\n\nShieldFont está diseñada para que las páginas sigan siendo legibles para las personas, pero resulten incomprensibles para los scrapers que alimentan modelos de IA. Es una defensa pasiva contra el scraping masivo: 𝗲𝗻𝘃𝗲𝗻𝗲𝗻𝗮 𝗹𝗼𝘀 𝗱𝗮𝘁𝗼𝘀 𝗱𝗲 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝘀𝗶𝗻 𝗽𝗲𝗿𝗷𝘂𝗱𝗶𝗰𝗮𝗿 𝗹𝗮 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝗱𝗲 𝗹𝗲𝗰𝘁𝘂𝗿𝗮. Para editores y equipos que publican en abierto, añade una capa de protección sin fricción.\n\n#ShieldFont #WebScraping #DataPoisoning\n\nhttps://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Twitch permite a los streamers excluir su contenido del entrenamiento de la IA de Amazon",
+      "summary": "La plataforma ha añadido una opción para que los creadores eviten que sus streams, VOD, clips y chats se usen en el entrenamiento futuro de modelos generativos de Amazon. La configuración es opt-out, no opt-in, y desde Twitch reconocen que casi nadie se habría apuntado voluntariamente.",
+      "why_it_matters": "Da a los creadores un control básico sobre el uso de su contenido para entrenar IA, aunque con una implementación polémica.",
+      "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+      "source": "The Verge",
+      "social": {
+        "x": "Twitch permite ahora excluir tus streams de la IA de Amazon. Pero es opt-out, no opt-in: casi nadie se habría apuntado voluntariamente.\n\n#Twitch #Amazon #GenerativeAI\nhttps://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+        "linkedin": "Twitch permite ahora excluir streams, clips y chats del entrenamiento de la IA de Amazon, pero con una condición que lo dice todo: es opt-out, no opt-in.\nLa plataforma reconoce que casi nadie se habría apuntado voluntariamente, así que ha optado por la vía pasiva. 𝗘𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝘀𝗼𝗯𝗿𝗲 𝗹𝗼𝘀 𝗱𝗮𝘁𝗼𝘀 𝗱𝗲 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝘀𝗶𝗴𝘂𝗲 𝘀𝗶𝗲𝗻𝗱𝗼 𝘂𝗻𝗶𝗹𝗮𝘁𝗲𝗿𝗮𝗹, aunque ahora el usuario tenga un botón que pulsar. Para los streamers, es una señal de que su contenido es valioso para entrenar modelos ajenos, y la decisión de excluirlo no debería ser un trámite.\n\n#Twitch #Amazon #GenerativeAI\n\nhttps://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Cisco cree que Mythos, el modelo de Anthropic, acelerará la retirada de equipos de red sin soporte",
+      "summary": "El CEO de Cisco, Chuck Robbins, afirma que el efecto de Mythos, el modelo detector de fallos de Anthropic, hará que los clientes busquen y reemplacen de inmediato los dispositivos sin soporte. La eficacia de Mythos está empujando a más parches y actualizaciones.",
+      "why_it_matters": "Muestra cómo la IA aplicada a la seguridad puede influir en decisiones de infraestructura corporativa.",
+      "url": "https://www.theregister.com/networks/2026/08/13/cisco-thinks-mythos-means-instant-death-for-unsupported-networking-kit/5287204",
+      "source": "The Register",
+      "social": {
+        "x": "Mythos detecta fallos en la red mejor que cualquier humano. Cisco cree que eso acelerará la retirada de equipos sin soporte.\n\n#Cisco #Anthropic #Mythos #Ciberseguridad\nhttps://www.theregister.com/networks/2026/08/13/cisco-thinks-mythos-means-instant-death-for-unsupported-networking-kit/5287204",
+        "linkedin": "Mythos detecta fallos en la red mejor que cualquier humano.\n\nCisco cree que ese nivel de precisión, logrado por el modelo de Anthropic, acelerará la retirada de equipos sin soporte: los clientes ya buscan reemplazar dispositivos vulnerables de inmediato. 𝗟𝗮 𝗜𝗔 𝗮𝗽𝗹𝗶𝗰𝗮𝗱𝗮 𝗮 𝗹𝗮 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗰𝗼𝗺𝗽𝗹𝗲𝗺𝗲𝗻𝘁𝗼 𝘆 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗲𝗹 𝗮𝗿𝗴𝘂𝗺𝗲𝗻𝘁𝗼 𝗾𝘂𝗲 𝗼𝗯𝗹𝗶𝗴𝗮 𝗮 𝗿𝗲𝗻𝗼𝘃𝗮𝗿 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮. Para los responsables de redes, cada fallo detectado es una decisión de compra.\n\n#Cisco #Anthropic #Mythos #Ciberseguridad\n\nhttps://www.theregister.com/networks/2026/08/13/cisco-thinks-mythos-means-instant-death-for-unsupported-networking-kit/5287204"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "La Casa Blanca ampliará su política de IA y podría incluir modelos abiertos",
+      "summary": "Según fuentes de WIRED, el marco de IA de la Casa Blanca se actualizará para incluir modelos abiertos, mientras el gobierno sigue debatiendo cómo regular una tecnología que ha intentado no regular.",
+      "why_it_matters": "Define el entorno regulatorio para el desarrollo y uso de la IA en Estados Unidos.",
+      "url": "https://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy",
+      "source": "Wired",
+      "social": {
+        "x": "La Casa Blanca ha intentado no regular la IA. Eso está a punto de cambiar, y los modelos abiertos son los primeros en la lista.\n\n#OpenSource #AIRegulation #WhiteHouse\nhttps://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy",
+        "linkedin": "Durante años, la Casa Blanca ha evitado regular la IA. Eso podría cambiar pronto: según WIRED, su marco de IA se actualizará para incluir modelos abiertos. Es un giro relevante porque define el entorno regulatorio para el desarrollo y uso de la IA en EE.UU. 𝗜𝗻𝗰𝗹𝘂𝗶𝗿 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗮𝗯𝗶𝗲𝗿𝘁𝗼𝘀 𝗲𝗻 𝗹𝗮 𝗽𝗼𝗹í𝘁𝗶𝗰𝗮 𝗲𝘀 𝘂𝗻𝗮 𝘀𝗲ñ𝗮𝗹 𝗱𝗲 𝗾𝘂𝗲 𝗲𝗹 𝗱𝗲𝗯𝗮𝘁𝗲 𝗵𝗮 𝗺𝗮𝗱𝘂𝗿𝗮𝗱𝗼 y afecta a quienes los desarrollan y despliegan.\n\n#OpenSource #AIRegulation #WhiteHouse\n\nhttps://www.wired.com/story/the-white-house-is-going-to-expand-its-ai-policy"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "investigacion",
+      "title": "Un investigador publica un nuevo zero-day de Windows que da privilegios de sistema",
+      "summary": "El investigador conocido como Nightmare Eclipse ha publicado una vulnerabilidad de día cero que permite escalar privilegios en sistemas Windows totalmente parcheados. Microsoft ya había amenazado con acciones legales, pero la publicación se ha llevado a cabo igualmente.",
+      "why_it_matters": "Evidencia la tensión entre la divulgación de fallos y las respuestas legales de los fabricantes.",
+      "url": "https://www.theregister.com/cyber-crime/2026/08/12/microsoft-vendetta-hacker-has-a-new-zero-day-that-gives-system-privileges-on-fully-patched-windows/5286889",
+      "source": "The Register",
+      "social": {
+        "x": "Un zero-day de Windows que otorga privilegios de sistema acaba de publicarse, pese a las amenazas legales de Microsoft.\n\n#Windows #ZeroDay #Microsoft #Ciberseguridad\nhttps://www.theregister.com/cyber-crime/2026/08/12/microsoft-vendetta-hacker-has-a-new-zero-day-that-gives-system-privileges-on-fully-patched-windows/5286889",
+        "linkedin": "El investigador que publicó un zero-day de Windows con privilegios de sistema no se detuvo ante las amenazas legales de Microsoft.\nNightmare Eclipse ha hecho pública una vulnerabilidad que permite escalar privilegios en sistemas totalmente parcheados, pese a la advertencia legal de la compañía. 𝗟𝗮 𝘁𝗿𝗮𝗻𝘀𝗽𝗮𝗿𝗲𝗻𝗰𝗶𝗮 𝗲𝗻 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗻𝗼 𝘀𝗶𝗲𝗺𝗽𝗿𝗲 𝗲𝗻𝗰𝗮𝗷𝗮 𝗰𝗼𝗻 𝗹𝗼𝘀 𝗶𝗻𝘁𝗲𝗿𝗲𝘀𝗲𝘀 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗮𝗹𝗲𝘀, y este caso reabre el debate sobre la divulgación responsable.\n\n#Windows #ZeroDay #Microsoft #Ciberseguridad\n\nhttps://www.theregister.com/cyber-crime/2026/08/12/microsoft-vendetta-hacker-has-a-new-zero-day-that-gives-system-privileges-on-fully-patched-windows/5286889"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "investigacion",
+      "title": "Un fallo en la compartición de pantalla de Zoom permite secuestrar dispositivos",
+      "summary": "Investigadores han descubierto una vulnerabilidad en Zoom que, mediante la compartición de pantalla, permite a un atacante tomar control del dispositivo. Lo llamativo es que una herramienta pública de IA encontró el fallo en menos de 20 prompts.",
+      "why_it_matters": "Demuestra el potencial de la IA para acelerar el descubrimiento de vulnerabilidades de seguridad.",
+      "url": "https://arstechnica.com/security/2026/08/researchers-found-a-way-to-hijack-devices-through-zoom-screen-sharing",
+      "source": "Ars Technica",
+      "social": {
+        "x": "No ha sido un humano quien ha encontrado el fallo de Zoom que permite secuestrar tu equipo. Ha sido una IA con menos de 20 prompts.\n\n#Zoom #Ciberseguridad #Vulnerabilidad #RedTeam\nhttps://arstechnica.com/security/2026/08/researchers-found-a-way-to-hijack-devices-through-zoom-screen-sharing",
+        "linkedin": "No ha sido un investigador humano quien ha encontrado el fallo de Zoom que permite secuestrar dispositivos: ha sido una IA pública con menos de 20 prompts.\nEl hallazgo demuestra que la IA 𝗮𝗰𝗲𝗹𝗲𝗿𝗮 𝗱𝗲 𝗳𝗼𝗿𝗺𝗮 𝗱𝗿á𝘀𝘁𝗶𝗰𝗮 𝗲𝗹 𝗱𝗲𝘀𝗰𝘂𝗯𝗿𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝘃𝘂𝗹𝗻𝗲𝗿𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀, y plantea un reto para los equipos de seguridad: la misma herramienta está al alcance de los atacantes. Lo que antes requería semanas de auditoría, ahora puede surgir en una conversación.\n\n#Zoom #Ciberseguridad #Vulnerabilidad #RedTeam\n\nhttps://arstechnica.com/security/2026/08/researchers-found-a-way-to-hijack-devices-through-zoom-screen-sharing"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "hugohe3/ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "description": "Genera presentaciones PowerPoint nativas a partir de documentos o temas usando IA, con formas, transiciones y animaciones reales, gráficos basados en datos y narración de audio. Ideal para automatizar la creación de decks profesionales sin perder calidad.",
+      "language": "Python",
+      "stars": 46153,
+      "social": {
+        "x": "Alguien acaba de regalar un generador de PowerPoints nativos con IA: formas, transiciones, animaciones, gráficos y narración. 46k estrellas y sin suscripción.\n\n#OpenSource #GitHub #Python #PowerPoint\nhttps://github.com/hugohe3/ppt-master",
+        "linkedin": "ALGUIEN HA REGALADO UN GENERADOR DE POWERPOINTS NATIVOS CON IA Y YA SUMA 46.000 ESTRELLAS EN GITHUB.\n\nCrear un deck profesional lleva horas: elegir plantilla, insertar gráficos, animar cada transición... Este repo de Python 𝗴𝗲𝗻𝗲𝗿𝗮 𝗣𝗼𝘄𝗲𝗿𝗣𝗼𝗶𝗻𝘁𝘀 𝗻𝗮𝘁𝗶𝘃𝗼𝘀 a partir de un documento o un simple tema, con formas, transiciones y animaciones reales, gráficos basados en datos y narración de audio. Ideal para automatizar la creación de presentaciones sin perder calidad.\n\n→ Genera archivos .pptx nativos, no exportaciones planas: las formas y animaciones se pueden editar después.\n→ Incluye gráficos basados en datos y narración de audio automática para cada diapositiva.\n→ 46.000 estrellas en GitHub y open source: sin cuotas, sin marcas de agua, sin límites.\n→ Pensado para equipos que necesitan producir decks profesionales en minutos, no en horas.\n\nGuarda este post para cuando tengas que montar una presentación y no quieras empezar desde cero. Te dejo el repo abajo.\n\n#OpenSource #GitHub #Python #PowerPoint\n\nhttps://github.com/hugohe3/ppt-master"
+      }
+    },
+    {
+      "name": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "Motor open source de Retrieval-Augmented Generation (RAG) que combina RAG avanzado con capacidades de agente para dar a los LLMs un contexto de mayor calidad. Muy útil para construir aplicaciones de IA que necesiten respuestas precisas sobre datos propios.",
+      "language": "Go",
+      "stars": 87745,
+      "social": {
+        "x": "Un motor RAG open source en Go ya suma 87k estrellas: combina RAG avanzado y agentes para dar contexto de calidad a tus LLMs. Sin paywall.\n\n#RagFlow #OpenSource #GitHub #Go\nhttps://github.com/infiniflow/ragflow",
+        "linkedin": "87.745 estrellas en GitHub y cero paywall: este motor RAG open source le da contexto de calidad a tus LLMs.\n\nSe llama 𝗥𝗮𝗴𝗙𝗹𝗼𝘄 y combina RAG avanzado con capacidades de agente. Pensado para construir aplicaciones de IA que necesitan respuestas precisas sobre datos propios, sin depender de servicios cerrados ni pagar licencias por uso.\n\n→ Motor open source escrito en Go, listo para self-hosted en tu infraestructura.\n→ Mejora la calidad del contexto que reciben tus modelos, clave para reducir alucinaciones.\n→ Integra agentes que orquestan la recuperación de información de forma autónoma.\n→ Comunidad activa: 87.745 estrellas avalan el proyecto.\n\nGuarda este post para cuando necesites darle contexto real a tus LLMs. El repo está abajo.\n\n#RagFlow #OpenSource #GitHub #Go\n\nhttps://github.com/infiniflow/ragflow"
+      }
+    },
+    {
+      "name": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "description": "Herramienta de crawling para extraer notas y comentarios de Xiaohongshu, Douyin, Kuaishou, Bilibili, Weibo, Baidu Tieba y Zhihu. Perfecta para recopilar datos de redes sociales chinas con fines de análisis o entrenamiento de modelos.",
+      "language": "Python",
+      "stars": 62218,
+      "social": {
+        "x": "Alguien acaba de liberar el scraper definitivo de redes sociales chinas: 62k estrellas y sin APIs oficiales. Datos para análisis o entrenamiento.\n\n#MediaCrawler #Python #OpenSource #GitHub\nhttps://github.com/NanmiCoder/MediaCrawler",
+        "linkedin": "62.000 ESTRELLAS Y UN SOLO REPO PARA EXTRAER DATOS DE TODAS LAS REDES SOCIALES CHINAS.\n\nMediaCrawler es una herramienta de crawling en Python que recopila notas y comentarios de Xiaohongshu, Douyin, Kuaishou, Bilibili, Weibo, Baidu Tieba y Zhihu. Olvídate de pagar por APIs oficiales: 𝗲𝘀𝘁𝗲 𝗿𝗲𝗽𝗼 𝘁𝗲 𝗱𝗮 𝗹𝗼𝘀 𝗱𝗮𝘁𝗼𝘀 𝘀𝗶𝗻 𝗰𝗼𝘀𝘁𝗲 𝘆 𝘀𝗶𝗻 𝗯𝗹𝗼𝗾𝘂𝗲𝗼𝘀.\n\n→ Extrae contenido de 7 plataformas chinas desde un único punto.\n→ Evita las APIs de pago y los límites de las plataformas.\n→ Perfecto para datasets de análisis o fine-tuning de modelos.\n→ 62k estrellas en GitHub lo avalan.\n\nGuarda este post para cuando necesites datos de redes sociales chinas. Te dejo el repo abajo.\n\n#MediaCrawler #Python #OpenSource #GitHub\n\nhttps://github.com/NanmiCoder/MediaCrawler"
+      }
+    },
+    {
+      "name": "Lightricks/LTX-2",
+      "url": "https://github.com/Lightricks/LTX-2",
+      "description": "Paquete oficial de inferencia y entrenamiento LoRA para el modelo generativo LTX-2, que crea vídeo y audio a partir de texto. Interesante para desarrolladores que quieran integrar generación multimodal en sus aplicaciones.",
+      "language": "Python",
+      "stars": 8786,
+      "social": {
+        "x": "Alguien acaba de liberar LTX-2: vídeo y audio desde texto, en open source y con LoRA. Ya roza las 9k estrellas.\n\n#LTX2 #OpenSource #Python #GitHub\nhttps://github.com/Lightricks/LTX-2",
+        "linkedin": "LIGHTRICKS ACABA DE LIBERAR LTX-2 Y ES UNA BESTIALIDAD.\n\nLightricks, la empresa detrás de Facetune, publica el paquete oficial de inferencia y entrenamiento LoRA de LTX-2, un modelo que genera 𝘃í𝗱𝗲𝗼 𝘆 𝗮𝘂𝗱𝗶𝗼 𝗮 𝗽𝗮𝗿𝘁𝗶𝗿 𝗱𝗲 𝘁𝗲𝘅𝘁𝗼 sin necesidad de APIs de pago.\n\nMientras herramientas como Runway o Pika cobran por minuto generado, aquí tienes el modelo en abierto, listo para self-hosted e integrar en tus aplicaciones.\n\nLo que incluye este repositorio:\n→ Inferencia con Python para generar clips y audio desde prompts.\n→ Entrenamiento LoRA para afinar el modelo con datos propios.\n→ Código oficial de Lightricks, con documentación para empezar.\n→ 8.7k estrellas en GitHub y subiendo.\n\nGuarda este post si quieres tener a mano el repo para tu próximo proyecto multimodal.\n\n#LTX2 #OpenSource #Python #GitHub\n\nhttps://github.com/Lightricks/LTX-2"
+      }
+    },
+    {
+      "name": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro",
+      "description": "Espacio de trabajo unificado para equipos que integra correo, chat, documentos, tareas, agentes, llamadas y CRM, todo enlazado con memoria compartida de IA. Útil para centralizar la colaboración y automatizar flujos con agentes.",
+      "language": "Rust",
+      "stars": 2240,
+      "social": {
+        "x": "Alguien acaba de crear el workspace definitivo: correo, chat, docs, tareas y CRM, todo con memoria de IA compartida. 2.2k estrellas en Rust.\n\n#Rust #OpenSource #GitHub #Productividad\nhttps://github.com/macro-inc/macro",
+        "linkedin": "UN SOLO WORKSPACE PARA CORREO, CHAT, DOCS, TAREAS Y CRM, CON MEMORIA DE IA COMPARTIDA.\n\n¿Pagas por separado por Notion, Slack, Gmail y Salesforce? Este proyecto open source en Rust los une en un único entorno, y encima añade agentes y llamadas. La clave: 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗶𝗱𝗮 𝗱𝗲 𝗜𝗔 que enlaza toda la información para que los agentes automaticen flujos.\n\n→ Bandeja de entrada unificada: correo y chat en el mismo sitio.\n→ Documentos colaborativos y gestión de tareas integradas.\n→ Agentes de IA que actúan sobre la memoria compartida.\n→ Llamadas y CRM sin salir del workspace.\n\nCon 2.2k estrellas y creciendo, es una alternativa seria para equipos que quieren centralizar sin depender de cinco suscripciones. Guárdalo para revisarlo con calma.\n\n#Rust #OpenSource #GitHub #Productividad\n\nhttps://github.com/macro-inc/macro"
+      }
+    }
+  ]
+}
