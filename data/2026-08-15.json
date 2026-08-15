@@ -1,0 +1,285 @@
+{
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15T08:39:18.663Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "herramientas",
+      "title": "DeepSeek lanza un harness de agentes con arquitectura 'todo es un plugin'",
+      "summary": "DeepSeek ha presentado una versión temprana de su harness de agentes open source, construido sobre el marco Cordis. La idea central es que modelos, herramientas, sesiones y sistemas de archivos son plugins intercambiables. Está dirigido a desarrolladores que trabajan con modelos de lenguaje.",
+      "why_it_matters": "Simplifica la creación de agentes complejos al unificar componentes bajo una misma abstracción.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/14/deepseeks-innovative-harness-treats-everything-as-a-plug-in/5288095",
+      "source": "The Register",
+      "social": {
+        "x": "¿Y si modelos, herramientas y sesiones de tu stack de agentes fuesen plugins intercambiables? DeepSeek acaba de publicarlo en open source.\n\n#DeepSeek #OpenSource #Cordis\nhttps://www.theregister.com/ai-and-ml/2026/08/14/deepseeks-innovative-harness-treats-everything-as-a-plug-in/5288095",
+        "linkedin": "¿Y si modelos, herramientas y sesiones de tu stack de agentes fuesen plugins intercambiables?\nDeepSeek acaba de publicar en open source un harness llamado Cordis donde 𝘁𝗼𝗱𝗼 𝗲𝘀 𝘂𝗻 𝗽𝗹𝘂𝗴𝗶𝗻 𝗶𝗻𝘁𝗲𝗿𝗰𝗮𝗺𝗯𝗶𝗮𝗯𝗹𝗲: modelos, herramientas, sesiones y sistemas de archivos. Esto simplifica la creación de agentes complejos y elimina el pegamento ad hoc que hoy mantiene cada equipo. La jugada apunta a reducir la fricción para llevar agentes a producción, y eso es lo que de verdad importa.\n\n#DeepSeek #OpenSource #Cordis\n\nhttps://www.theregister.com/ai-and-ml/2026/08/14/deepseeks-innovative-harness-treats-everything-as-a-plug-in/5288095"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "Google libera HEIR, un compilador para inferencia privada con cifrado homomórfico",
+      "summary": "Google ha presentado HEIR, un compilador open source que permite ejecutar inferencia de IA de forma criptográficamente segura mediante cifrado homomórfico. Forma parte de su Private Computing Toolkit y busca equilibrar privacidad y utilidad en modelos de IA. Es una herramienta para investigadores y desarrolladores que necesitan procesar datos sensibles.",
+      "why_it_matters": "Abre la puerta a usar IA sobre datos cifrados sin sacrificar la privacidad.",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Y si la IA pudiera trabajar con tus datos sin verlos? Google acaba de liberar HEIR, un compilador que lo hace posible con cifrado homomórfico.\n\n#HEIR #Google #HomomorphicEncryption #PrivateComputing\nhttps://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+        "linkedin": "¿Y si la IA pudiera trabajar con tus datos sin verlos?\nGoogle libera HEIR, un compilador open source que permite ejecutar inferencia sobre datos cifrados mediante cifrado homomórfico. Forma parte de su Private Computing Toolkit y 𝗮𝗯𝗿𝗲 𝗹𝗮 𝗽𝘂𝗲𝗿𝘁𝗮 𝗮 𝘂𝘀𝗮𝗿 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗱𝗲 𝗜𝗔 𝘀𝗶𝗻 𝗲𝘅𝗽𝗼𝗻𝗲𝗿 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗰𝗶ó𝗻 𝘀𝗲𝗻𝘀𝗶𝗯𝗹𝗲, algo que antes obligaba a elegir entre privacidad y utilidad. Para equipos que manejan datos médicos, financieros o personales, esto cambia el cálculo de riesgo.\n\n#HEIR #Google #HomomorphicEncryption #PrivateComputing\n\nhttps://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "Mole, un agente de investigación profunda para la terminal",
+      "summary": "Mole es un agente de deep research que se ejecuta en la terminal, con presupuesto de cómputo controlado, citas verificadas y límites de privacidad para datos locales. Está disponible en GitHub como proyecto open source. Permite automatizar búsquedas exhaustivas sin depender de servicios en la nube.",
+      "why_it_matters": "Ofrece una alternativa local y transparente a los agentes de investigación comerciales.",
+      "url": "https://github.com/lajosdeme/mole",
+      "source": "Hacker News",
+      "social": {
+        "x": "Los agentes de deep research suelen ser cajas negras en la nube. Mole es justo lo contrario: corre en tu terminal, con citas verificadas y control total.\n\n#OpenSource #DeepResearch #Terminal #GitHub\nhttps://github.com/lajosdeme/mole",
+        "linkedin": "La investigación profunda con IA está dominada por servicios en la nube que no te dejan ver qué pasa con tus datos.\n\nMole, un agente de deep research que se ejecuta en la terminal, ofrece una alternativa local y transparente: controla el presupuesto de cómputo, verifica las citas y respeta los límites de privacidad para datos locales. 𝗘𝗹 𝗱𝗲𝗲𝗽 𝗿𝗲𝘀𝗲𝗮𝗿𝗰𝗵 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗮𝗷𝗮 𝗻𝗲𝗴𝗿𝗮 y se convierte en una herramienta que puedes inspeccionar y adaptar. Para equipos que manejan información sensible o simplemente quieren saber qué hace el agente, este proyecto open source en GitHub es una señal de hacia dónde debería evolucionar el sector.\n\n#OpenSource #DeepResearch #Terminal #GitHub\n\nhttps://github.com/lajosdeme/mole"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Google permitirá eliminar las marcas de agua visibles en el contenido generado por IA",
+      "summary": "Google ha anunciado que los usuarios podrán desactivar las marcas de agua visibles (el icono de destellos) en imágenes, vídeos y música generados con sus modelos Nano Banana, Omni y Lyria. La opción llegará a Gemini y al editor de vídeo Flow. Las marcas invisibles SynthID seguirán presentes para identificar el origen del contenido.",
+      "why_it_matters": "Da más control al usuario sobre el aspecto del contenido generado, aunque mantiene la trazabilidad oculta.",
+      "url": "https://www.engadget.com/2237340/google-will-now-allow-users-to-remove-visible-watermarks-from-ai-content",
+      "source": "Engadget",
+      "social": {
+        "x": "Google deja que borres la marca de agua visible de sus imágenes y vídeos con IA. Lo que no podrás quitar es lo que no se ve.\n\n#Google #Gemini #SynthID\nhttps://www.engadget.com/2237340/google-will-now-allow-users-to-remove-visible-watermarks-from-ai-content",
+        "linkedin": "Google acaba de decidir que tú decides si quieres que se vea que una imagen fue generada con IA.\nLa opción llega a Gemini y Flow, y permite desactivar el icono de destellos en imágenes, vídeo y música de Nano Banana, Omni y Lyria. 𝗟𝗮𝘀 𝗺𝗮𝗿𝗰𝗮𝘀 𝗶𝗻𝘃𝗶𝘀𝗶𝗯𝗹𝗲𝘀 𝗦𝘆𝗻𝘁𝗵𝗜𝗗 𝘀𝗲𝗴𝘂𝗶𝗿á𝗻 𝗶𝗻𝘁𝗮𝗰𝘁𝗮𝘀, así que la trazabilidad no desaparece aunque la estética cambie. Para creadores es más libertad; para plataformas, un recordatorio de que la transparencia se está moviendo a lo invisible.\n\n#Google #Gemini #SynthID\n\nhttps://www.engadget.com/2237340/google-will-now-allow-users-to-remove-visible-watermarks-from-ai-content"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "industria",
+      "title": "Anthropic propone marcas de agua textuales basadas en palabras intrascendentes",
+      "summary": "Anthropic ha detallado un esquema para marcar texto generado por Claude modificando la elección de palabras poco relevantes, de forma que sea detectable como salida de IA. La técnica busca cumplir con la Ley de IA de la UE sin alterar el significado del contenido. Otros laboratorios podrían adoptar enfoques similares.",
+      "why_it_matters": "Plantea un método práctico para identificar texto generado por IA sin degradar la calidad.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/15/anthropic-says-text-watermarking-scheme-relies-on-inconsequential-words/5288156",
+      "source": "The Register",
+      "social": {
+        "x": "No verás la marca de agua, pero ahí está. Anthropic modifica palabras irrelevantes para que cualquier texto de Claude sea detectable como generado por IA.\n\n#Anthropic #Claude #AIAct\nhttps://www.theregister.com/ai-and-ml/2026/08/15/anthropic-says-text-watermarking-scheme-relies-on-inconsequential-words/5288156",
+        "linkedin": "Nadie presta atención a las palabras que no aportan significado, y por eso Anthropic las usa para marcar texto generado por Claude.\n\nLa técnica modifica la elección de términos poco relevantes para que el resultado sea detectable como salida de IA, sin alterar el significado y cumpliendo con la Ley de IA de la UE. 𝗡𝗼 𝗱𝗲𝗴𝗿𝗮𝗱𝗮 𝗹𝗮 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗼, algo que hasta ahora era el gran freno para las marcas de agua. Si otros laboratorios siguen este camino, el texto generado por IA dejará de ser indetectable sin sacrificar legibilidad.\n\n#Anthropic #Claude #AIAct\n\nhttps://www.theregister.com/ai-and-ml/2026/08/15/anthropic-says-text-watermarking-scheme-relies-on-inconsequential-words/5288156"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "AI Model Atlas visualiza poblaciones de modelos de aprendizaje automático en 3D",
+      "summary": "AI Model Atlas es una aplicación interactiva que representa modelos de ML como un grafo tridimensional interconectado, permitiendo explorar sus relaciones y evolución. Se ejecuta en el navegador y está disponible públicamente. Es útil para investigadores que quieren entender el panorama de modelos.",
+      "why_it_matters": "Facilita la comparación y el descubrimiento de modelos de IA de forma visual.",
+      "url": "https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0",
+      "source": "Hacker News",
+      "social": {
+        "x": "Hay miles de modelos de IA y ningún mapa para entenderlos. Hasta hoy: un atlas interactivo los muestra en 3D, conectados entre sí, desde el navegador.\n\n#MachineLearning #DataViz\nhttps://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0",
+        "linkedin": "Perderse entre miles de modelos de IA es fácil; visualizarlos en un mapa 3D interactivo ya no.\nAI Model Atlas es una aplicación web pública que representa los modelos como un grafo tridimensional interconectado, permitiendo explorar sus relaciones y evolución. Para investigadores y equipos que necesitan comparar arquitecturas, esta vista espacial 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝘂𝗻 𝗰𝗮𝘁á𝗹𝗼𝗴𝗼 𝗮𝗯𝘀𝘁𝗿𝗮𝗰𝘁𝗼 𝗲𝗻 𝘂𝗻 𝗽𝗮𝗶𝘀𝗮𝗷𝗲 𝗻𝗮𝘃𝗲𝗴𝗮𝗯𝗹𝗲, facilitando el descubrimiento de modelos y la identificación de huecos en el ecosistema.\n\n#MachineLearning #DataViz\n\nhttps://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "LuaCAD, diseño paramétrico 2D y 3D programable en Lua",
+      "summary": "LuaCAD es una herramienta de CAD paramétrico que permite escribir modelos en Lua y exportarlos a formatos como STL, 3MF o SCAD. Integra Lua 5.4 en un motor Rust y puede evaluar operaciones CSG directamente o generar código OpenSCAD. Es open source y se puede probar desde el navegador.",
+      "why_it_matters": "Aporta la flexibilidad de un lenguaje de scripting al diseño CAD paramétrico.",
+      "url": "https://luacad.ad-si.com",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Y si diseñar piezas 3D fuera tan simple como escribir Lua? LuaCAD lo demuestra: exporta a STL, 3MF o SCAD, sin instalar nada.\n\n#LuaCAD #Lua #Rust #OpenSource\nhttps://luacad.ad-si.com",
+        "linkedin": "Escribir modelos CAD en Lua y exportarlos a STL, 3MF o SCAD sin tocar un menú: eso es lo que propone LuaCAD, y se puede probar desde el navegador.\n\nEl proyecto integra Lua 5.4 en un motor Rust y puede evaluar operaciones CSG directamente o generar código OpenSCAD. Para equipos acostumbrados a automatizar, abre la puerta a 𝗳𝗹𝘂𝗷𝗼𝘀 𝗱𝗲 𝗱𝗶𝘀𝗲ñ𝗼 𝗽𝗮𝗿𝗮𝗺é𝘁𝗿𝗶𝗰𝗼 𝘃𝗲𝗿𝘀𝗶𝗼𝗻𝗮𝗯𝗹𝗲𝘀 𝘆 𝗿𝗲𝗽𝗿𝗼𝗱𝘂𝗰𝗶𝗯𝗹𝗲𝘀, algo que los CAD tradicionales no facilitan.\n\n#LuaCAD #Lua #Rust #OpenSource\n\nhttps://luacad.ad-si.com"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "ntfy, notificaciones push vía HTTP que puedes alojar en tu servidor",
+      "summary": "ntfy es un servicio de notificaciones pub-sub basado en HTTP que permite enviar avisos al móvil o al escritorio desde scripts o mediante API REST. Es software libre y se puede alojar en servidor propio. Los temas se crean simplemente publicando mensajes con PUT o POST.",
+      "why_it_matters": "Ofrece una alternativa abierta que puedes alojar en tu propio servidor frente a los servicios de notificaciones comerciales.",
+      "url": "https://ntfy.sh",
+      "source": "Hacker News",
+      "social": {
+        "x": "Mandar notificaciones push a tu móvil desde un script suele implicar un servicio externo. ntfy lo cambia: es self-hosted y publica temas con PUT o POST.\n\n#ntfy #selfhosted #HTTP #OpenSource\nhttps://ntfy.sh",
+        "linkedin": "No dependes de un servicio comercial para notificaciones push: puedes alojar el tuyo propio.\n\nntfy es un servicio pub-sub basado en HTTP. Publicar un mensaje es tan simple como un PUT o POST, y al ser 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝘆 𝘀𝗲𝗹𝗳-𝗵𝗼𝘀𝘁𝗲𝗱, tienes el control total de tus alertas. Para equipos que buscan soberanía y simplicidad, es una alternativa clara a los servicios cerrados.\n\n#ntfy #selfhosted #HTTP #OpenSource\n\nhttps://ntfy.sh"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Unforgetful, la app de recordatorios para quien no deja de posponer",
+      "summary": "Unforgetful es la nueva aplicación de recordatorios del desarrollador Marco Arment, diseñada para que las alertas sean más difíciles de ignorar o descartar por accidente. Está pensada para usuarios que posponen constantemente las notificaciones. La app busca reducir el hábito de pulsar 'snooze' sin pensar.",
+      "why_it_matters": "Ataca un problema real de productividad con un enfoque de diseño enfocado en la persistencia.",
+      "url": "https://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Pulsar 'snooze' sin pensar es un reflejo. Unforgetful, la nueva app de Marco Arment, está diseñada para que no puedas hacerlo.\n\n#Unforgetful #MarcoArment #Productividad\nhttps://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze",
+        "linkedin": "Pulsar 'snooze' sin pensar es un reflejo que muchos no controlamos.\n\nUnforgetful, la nueva app de Marco Arment, ataca ese problema de productividad: sus recordatorios están diseñados para que 𝗶𝗴𝗻𝗼𝗿𝗮𝗿𝗹𝗼𝘀 𝗼 𝗽𝗼𝘀𝗽𝗼𝗻𝗲𝗿𝗹𝗼𝘀 𝗿𝗲𝗾𝘂𝗶𝗲𝗿𝗮 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗰𝗼𝗻𝘀𝗰𝗶𝗲𝗻𝘁𝗲. Para equipos y perfiles que viven de las notificaciones, este enfoque de persistencia puede marcar la diferencia entre un aviso útil y un ruido más.\n\n#Unforgetful #MarcoArment #Productividad\n\nhttps://techcrunch.com/2026/08/14/unforgetful-is-a-new-reminders-app-for-people-who-cant-stop-hitting-snooze"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "Firefox se queda como el último gran navegador compatible con uBlock Origin",
+      "summary": "Mientras Edge y otros navegadores basados en Chromium eliminan el soporte para uBlock Origin debido a Manifest V3, Firefox ha confirmado que mantendrá la compatibilidad con esta extensión. Esto convierte a Firefox en la opción principal para usuarios que dependen de bloqueadores de contenido avanzados.",
+      "why_it_matters": "Consolida a Firefox como refugio para la privacidad y el control del usuario en la web.",
+      "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "uBlock Origin ya no funciona en Edge ni en Chrome. Firefox acaba de confirmar que lo seguirá soportando. Para quienes usan bloqueadores avanzados, la decisión es fácil.\n\n#Firefox #uBlockOrigin #ManifestV3\nhttps://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+        "linkedin": "Mientras Chromium entierra uBlock Origin, Firefox se convierte en el último gran navegador donde sigue funcionando con todo su poder.\nLa confirmación oficial de que mantendrá la compatibilidad sitúa a Firefox como 𝗲𝗹 𝗿𝗲𝗳𝘂𝗴𝗶𝗼 𝗻𝗮𝘁𝘂𝗿𝗮𝗹 𝗽𝗮𝗿𝗮 𝗹𝗮 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝘆 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼, y no es solo una cuestión técnica: es una postura frente al control de la web. Para equipos y usuarios que dependen de bloqueadores avanzados, migrar a Firefox deja de ser una opción y empieza a ser una necesidad.\n\n#Firefox #uBlockOrigin #ManifestV3\n\nhttps://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "Waymo obtiene permiso para operar robotaxis en Sacramento y San Diego",
+      "summary": "La Comisión de Servicios Públicos de California ha autorizado a Waymo a expandir su servicio de robotaxis a Sacramento y San Diego, además de ampliar su flota en el Área de la Bahía y Los Ángeles. La compañía podrá ofrecer viajes en más condados del estado. Es un paso más en la expansión de la conducción autónoma comercial.",
+      "why_it_matters": "Acelera la disponibilidad de transporte autónomo en nuevas ciudades de EE. UU.",
+      "url": "https://www.engadget.com/2237530/waymo-receives-permission-to-offer-rides-in-sacramento-and-san-diego",
+      "source": "Engadget",
+      "social": {
+        "x": "El robotaxi ya no es solo de San Francisco y Los Ángeles: Waymo podrá operar en Sacramento y San Diego.\n\n#Waymo #Robotaxis #California #SelfDriving\nhttps://www.engadget.com/2237530/waymo-receives-permission-to-offer-rides-in-sacramento-and-san-diego",
+        "linkedin": "El robotaxi ya no es solo de San Francisco y Los Ángeles: Waymo podrá operar en Sacramento y San Diego.\nLa Comisión de Servicios Públicos de California autoriza la expansión, que también amplía la flota en el Área de la Bahía y Los Ángeles. 𝗟𝗮 𝗰𝗼𝗻𝗱𝘂𝗰𝗰𝗶ó𝗻 𝗮𝘂𝘁ó𝗻𝗼𝗺𝗮 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗮𝗹 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁𝗼 𝗹𝗶𝗺𝗶𝘁𝗮𝗱𝗼 𝗮 𝗱𝗼𝘀 𝗰𝗶𝘂𝗱𝗮𝗱𝗲𝘀 y se convierte en un servicio que se extiende condado a condado. Para cualquier empresa que esté evaluando integrar robotaxis en su logística o movilidad, la señal es clara: la disponibilidad crece más rápido de lo previsto.\n\n#Waymo #Robotaxis #California #SelfDriving\n\nhttps://www.engadget.com/2237530/waymo-receives-permission-to-offer-rides-in-sacramento-and-san-diego"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "industria",
+      "title": "Una vulnerabilidad de compartición de pantalla en macOS permite acceso sin contraseña y está siendo explotada",
+      "summary": "Ars Technica informa de una vulnerabilidad en la función de compartir pantalla de macOS que permite a atacantes remotos iniciar sesión sin contraseña. El fallo está siendo explotado activamente, por lo que se recomienda actualizar de inmediato. Apple aún no ha publicado un parche definitivo.",
+      "why_it_matters": "Supone un riesgo grave para usuarios de Mac, especialmente los que tienen la compartición habilitada.",
+      "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation",
+      "source": "Ars Technica",
+      "social": {
+        "x": "¿Tienes Compartir Pantalla activado en tu Mac? Un fallo permite entrar sin contraseña y ya se está explotando. Apple aún no ha publicado parche.\n\n#macOS #Apple #Ciberseguridad #Vulnerabilidad\nhttps://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation",
+        "linkedin": "Hay un agujero en macOS que permite entrar en tu Mac sin contraseña y ya se está explotando.\n\nEl fallo está en la función Compartir Pantalla y afecta a cualquier Mac con esa opción activada, algo común en equipos que dan soporte remoto o comparten escritorio. Apple aún no ha publicado un parche definitivo, así que 𝗱𝗲𝘀𝗮𝗰𝘁𝗶𝘃𝗮𝗿 𝗖𝗼𝗺𝗽𝗮𝗿𝘁𝗶𝗿 𝗣𝗮𝗻𝘁𝗮𝗹𝗹𝗮 𝗮𝗵𝗼𝗿𝗮 𝗺𝗶𝘀𝗺𝗼 𝗲𝘀 𝗹𝗮 ú𝗻𝗶𝗰𝗮 𝗺𝗶𝘁𝗶𝗴𝗮𝗰𝗶ó𝗻 𝗳𝗶𝗮𝗯𝗹𝗲. El riesgo no es teórico: hay atacantes aprovechándolo ya.\n\n#macOS #Apple #Ciberseguridad #Vulnerabilidad\n\nhttps://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "El mayor avión totalmente eléctrico completa su primer vuelo de prueba con un coste de 5 dólares en electricidad",
+      "summary": "Un avión eléctrico de gran tamaño, respaldado por una aerolínea, ha realizado su primer vuelo de prueba consumiendo electricidad por valor de apenas 5 dólares. El proyecto busca desarrollar una aeronave comercial híbrida-eléctrica. La demostración valida la eficiencia energética de la propulsión eléctrica en aviación.",
+      "why_it_matters": "Muestra que la aviación eléctrica puede reducir drásticamente los costes operativos y las emisiones.",
+      "url": "https://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity",
+      "source": "Ars Technica",
+      "social": {
+        "x": "5 dólares de electricidad. Eso es lo que costó el primer vuelo del mayor avión totalmente eléctrico. Y una aerolínea ya está detrás.\n\n#ElectricAviation #HybridElectric #AviaciónEléctrica\nhttps://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity",
+        "linkedin": "El mayor avión totalmente eléctrico completó su primer vuelo de prueba con un coste de electricidad de 5 dólares.\n\nEl proyecto, respaldado por una aerolínea, busca desarrollar una aeronave comercial híbrida-eléctrica. Esta demostración valida que 𝗹𝗮 𝗽𝗿𝗼𝗽𝘂𝗹𝘀𝗶ó𝗻 𝗲𝗹é𝗰𝘁𝗿𝗶𝗰𝗮 𝗽𝘂𝗲𝗱𝗲 𝗿𝗲𝗱𝘂𝗰𝗶𝗿 𝗱𝗿á𝘀𝘁𝗶𝗰𝗮𝗺𝗲𝗻𝘁𝗲 𝗹𝗼𝘀 𝗰𝗼𝘀𝘁𝗲𝘀 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝘃𝗼𝘀 𝘆 𝗹𝗮𝘀 𝗲𝗺𝗶𝘀𝗶𝗼𝗻𝗲𝘀 en aviación, aunque la autonomía y la infraestructura de carga aún son retos pendientes.\n\n#ElectricAviation #HybridElectric #AviaciónEléctrica\n\nhttps://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "Los nuevos estilos de cámara de Google llegan solo a los Pixel 11",
+      "summary": "Google ha presentado Camera Looks, una función que procesa los datos de imagen a nivel de sensor para lograr estilos fotográficos que no parecen de smartphone, como el modo 'Digi' inspirado en cámaras digitales antiguas. Inicialmente estará disponible solo en la serie Pixel 11. Los modelos anteriores no recibirán esta función.",
+      "why_it_matters": "Limita una característica fotográfica innovadora a los usuarios que compren el último hardware de Google.",
+      "url": "https://www.theverge.com/tech/980467/google-pixel-11-camera-looks-older-phones",
+      "source": "The Verge",
+      "social": {
+        "x": "El modo 'Digi' de Google convierte tu Pixel 11 en una cámara digital de los 2000. Los Pixel anteriores se quedan fuera.\n\n#Google #Pixel11 #CameraLooks\nhttps://www.theverge.com/tech/980467/google-pixel-11-camera-looks-older-phones",
+        "linkedin": "¿Te acuerdas de las cámaras digitales de los 2000? Google ha creado un modo que las revive, pero solo para el Pixel 11.\n\nLa función Camera Looks procesa los datos a nivel de sensor para conseguir una estética que no parece de smartphone. El problema: 𝘀𝗼𝗹𝗼 𝗲𝘀𝘁𝗮𝗿á 𝗱𝗶𝘀𝗽𝗼𝗻𝗶𝗯𝗹𝗲 𝗲𝗻 𝗹𝗮 𝘀𝗲𝗿𝗶𝗲 𝗣𝗶𝘅𝗲𝗹 𝟭𝟭, dejando fuera a modelos anteriores. Es una apuesta por vender hardware, pero arriesga frustrar a quienes ya tienen un Pixel reciente y ven cómo las novedades se les escapan.\n\n#Google #Pixel11 #CameraLooks\n\nhttps://www.theverge.com/tech/980467/google-pixel-11-camera-looks-older-phones"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Un juez ordena a Google facilitar la instalación de tiendas de aplicaciones alternativas en Android",
+      "summary": "Un tribunal ha dado a Google una semana para hacer más visibles las tiendas de aplicaciones de terceros en Google Play, tras considerarlas anticompetitivas. La orden obliga a mostrar opciones de descarga alternativas a los usuarios de Android. Google deberá modificar la experiencia de instalación en su tienda oficial.",
+      "why_it_matters": "Aumenta la competencia en la distribución de apps móviles y reduce el control de Google.",
+      "url": "https://arstechnica.com/gadgets/2026/08/google-ordered-to-make-it-easier-to-download-alternative-android-app-stores",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Google tiene 7 días para ceder el control de la distribución de apps en Android. Las tiendas alternativas dejarán de estar ocultas.\n\n#Google #Android #GooglePlay #Antitrust\nhttps://arstechnica.com/gadgets/2026/08/google-ordered-to-make-it-easier-to-download-alternative-android-app-stores",
+        "linkedin": "Google tiene 7 días para ceder el control de la distribución de apps en Android. Un juez ordena hacer visibles las tiendas de aplicaciones alternativas en Google Play, que hasta ahora quedaban enterradas en los ajustes. 𝗟𝗮 𝗰𝗼𝗺𝗽𝗲𝘁𝗲𝗻𝗰𝗶𝗮 𝗲𝗻 𝗹𝗮 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝗰𝗶ó𝗻 𝗱𝗲 𝗮𝗽𝗽𝘀 𝗺ó𝘃𝗶𝗹𝗲𝘀 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘀𝗶𝗺𝗯ó𝗹𝗶𝗰𝗮 y se convierte en una opción real para desarrolladores y usuarios. Para cualquier equipo que publique en Android, toca revisar la estrategia de canales: no depender solo de Google Play ya no es una rareza, es una vía con respaldo judicial.\n\n#Google #Android #GooglePlay #Antitrust\n\nhttps://arstechnica.com/gadgets/2026/08/google-ordered-to-make-it-easier-to-download-alternative-android-app-stores"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Apple propone cobrar una comisión del 15% en compras realizadas fuera de la App Store",
+      "summary": "Apple ha pedido a un juez federal que le permita cobrar comisiones de hasta el 15% en compras realizadas a través de enlaces externos dentro de apps iOS. La medida afectaría a los desarrolladores que evitan el sistema de pago de Apple. La propuesta busca recuperar ingresos tras las presiones regulatorias.",
+      "why_it_matters": "Podría cambiar el modelo económico de las apps en iOS y la relación con los desarrolladores.",
+      "url": "https://techcrunch.com/2026/08/14/apple-proposes-to-take-a-15-cut-of-purchases-made-outside-the-app-store",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Apple no se rinde: quiere un 15% de las compras que hagas fuera de su App Store.\n\n#Apple #AppStore #iOS\nhttps://techcrunch.com/2026/08/14/apple-proposes-to-take-a-15-cut-of-purchases-made-outside-the-app-store",
+        "linkedin": "Apple quiere su comisión aunque compres fuera de su tienda.\nLa compañía ha pedido a un juez federal que le permita cobrar hasta un 15% en compras realizadas a través de enlaces externos dentro de apps iOS. Si la propuesta prospera, 𝗿𝗲𝗱𝗲𝗳𝗶𝗻𝗶𝗿í𝗮 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗲𝗰𝗼𝗻ó𝗺𝗶𝗰𝗼 𝗱𝗲 𝗹𝗮𝘀 𝗮𝗽𝗽𝘀 𝗲𝗻 𝗶𝗢𝗦 y tensaría aún más la relación con los desarrolladores.\n\n#Apple #AppStore #iOS\n\nhttps://techcrunch.com/2026/08/14/apple-proposes-to-take-a-15-cut-of-purchases-made-outside-the-app-store"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "investigacion",
+      "title": "Expertos advierten del 'peligro claro y presente' de los ataques autónomos con IA a infraestructuras críticas",
+      "summary": "Un informe alerta de que agentes de IA armados podrían convertir intrusiones digitales en desastres físicos contra infraestructuras críticas. Los expertos piden medidas preventivas ante esta nueva amenaza. El uso de IA en ciberataques aumenta la velocidad y el alcance de las agresiones.",
+      "why_it_matters": "Subraya la necesidad de proteger sistemas industriales ante la evolución de los ciberataques con IA.",
+      "url": "https://www.theregister.com/security/2026/08/14/autonomous-ai-attacks-pose-clear-and-present-danger-to-critical-infrastructure/5287594",
+      "source": "The Register",
+      "social": {
+        "x": "Agentes de IA armados podrían convertir un hackeo digital en un desastre físico. Y los expertos avisan: es un 'peligro claro y presente'.\n\n#CiberseguridadIndustrial #InfraestructurasCríticas #AgentesAutónomos\nhttps://www.theregister.com/security/2026/08/14/autonomous-ai-attacks-pose-clear-and-present-danger-to-critical-infrastructure/5287594",
+        "linkedin": "Agentes de IA armados podrían convertir una intrusión digital en un desastre físico contra infraestructuras críticas. Un nuevo informe alerta del 'peligro claro y presente' y pide medidas preventivas: 𝗹𝗮 𝘃𝗲𝗹𝗼𝗰𝗶𝗱𝗮𝗱 𝘆 𝗮𝗹𝗰𝗮𝗻𝗰𝗲 𝗱𝗲 𝗹𝗼𝘀 𝗰𝗶𝗯𝗲𝗿𝗮𝘁𝗮𝗾𝘂𝗲𝘀 𝗰𝗼𝗻 𝗜𝗔 𝗼𝗯𝗹𝗶𝗴𝗮𝗻 𝗮 𝗿𝗲𝗽𝗲𝗻𝘀𝗮𝗿 𝗹𝗮 𝗽𝗿𝗼𝘁𝗲𝗰𝗰𝗶ó𝗻 𝗱𝗲 𝘀𝗶𝘀𝘁𝗲𝗺𝗮𝘀 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮𝗹𝗲𝘀. No es ciencia ficción, es una evolución lógica del ataque que ya conocemos.\n\n#CiberseguridadIndustrial #InfraestructurasCríticas #AgentesAutónomos\n\nhttps://www.theregister.com/security/2026/08/14/autonomous-ai-attacks-pose-clear-and-present-danger-to-critical-infrastructure/5287594"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "Kit de herramientas de GitHub para empezar con el desarrollo guiado por especificaciones, ideal para equipos que quieren definir requisitos claros y generar código de forma coherente.",
+      "language": "Python",
+      "stars": 128700,
+      "social": {
+        "x": "Olvídate de tickets ambiguos: GitHub ha publicado su kit para que las especificaciones claras se conviertan en código coherente. 128k estrellas.\n\n#SpecKit #OpenSource #Python #GitHub\nhttps://github.com/github/spec-kit",
+        "linkedin": "¿Cansado de tickets ambiguos y código que no refleja lo que pediste?\n\nGitHub acaba de publicar spec-kit, su kit oficial para 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗼 𝗴𝘂𝗶𝗮𝗱𝗼 𝗽𝗼𝗿 𝗲𝘀𝗽𝗲𝗰𝗶𝗳𝗶𝗰𝗮𝗰𝗶𝗼𝗻𝗲𝘀. 128k estrellas lo respaldan.\n\n→ Define requisitos claros y sin ambigüedades.\n→ Genera código de forma coherente a partir de esas especificaciones.\n→ Diseñado para equipos que buscan consistencia entre lo que se pide y lo que se implementa.\n→ Escrito en Python y listo para integrar en tu flujo de GitHub.\n\nGuarda este post para cuando tu equipo necesite dejar de adivinar y empezar a especificar.\n\n#SpecKit #OpenSource #Python #GitHub\n\nhttps://github.com/github/spec-kit"
+      }
+    },
+    {
+      "name": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "description": "Alternativa open source a CapCut para editar vídeo, con una interfaz moderna y funciones pensadas para creadores que no quieren depender de soluciones propietarias.",
+      "language": "TypeScript",
+      "stars": 83326,
+      "social": {
+        "x": "CapCut te mete marca de agua. OpenCut no. 83k estrellas y cero paywall.\n\n#OpenCut #TypeScript #OpenSource #GitHub\nhttps://github.com/OpenCut-app/OpenCut",
+        "linkedin": "CAPCUT TE METE MARCA DE AGUA. ESTE REPO NO.\n\nOpenCut es una 𝗮𝗹𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝘃𝗮 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝗮 𝗖𝗮𝗽𝗖𝘂𝘁 que acaba de superar las 83.000 estrellas en GitHub. Construida con TypeScript, está pensada para creadores que no quieren depender de soluciones propietarias.\n\nMientras CapCut limita funciones y añade marca de agua en el plan gratuito, OpenCut ofrece una experiencia completa y transparente.\n\n→ Interfaz moderna y fluida, similar a la de los editores profesionales.\n→ Exportación sin marcas de agua ni límites artificiales.\n→ Funciones pensadas para creadores: edición multicapa, transiciones y más.\n→ Código abierto: puedes auditarlo, modificarlo y self-hosted si quieres.\n\nTe dejo el repo abajo para que lo guardes y lo pruebes.\n\n#OpenCut #TypeScript #OpenSource #GitHub\n\nhttps://github.com/OpenCut-app/OpenCut"
+      }
+    },
+    {
+      "name": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "description": "Navegador ultrarrápido para que agentes de IA automaticen tareas en la web, compartiendo el estado de tu sesión iniciada con herramientas como Codex o Claude Code sin molestarte y sin coste ni configuración.",
+      "language": "JavaScript",
+      "stars": 10524,
+      "social": {
+        "x": "Alguien acaba de regalar un navegador ultrarrápido para agentes de IA que automatizan tareas en la web, sin coste ni configuración. 10524 estrellas.\n\n#OpenSource #GitHub #JavaScript #AutomatizaciónWeb\nhttps://github.com/citrolabs/ego-lite",
+        "linkedin": "NAVEGADOR ULTRARRÁPIDO PARA AGENTES DE IA, GRATIS Y SIN CONFIGURACIÓN.\n\nLa automatización web con agentes de IA suele requerir SDKs o configuraciones complejas. ego-lite lo resuelve compartiendo el estado de tu sesión iniciada con herramientas como Codex o Claude Code, sin molestarte y sin coste. Ya suma 10524 estrellas en GitHub.\n\n→ 𝗖𝗼𝗺𝗽𝗮𝗿𝘁𝗲 𝘁𝘂 𝘀𝗲𝘀𝗶ó𝗻 𝗶𝗻𝗶𝗰𝗶𝗮𝗱𝗮 con agentes de IA (la clave del repo)\n→ Automatiza tareas en la web de forma ultrarrápida\n→ Sin coste ni configuración\n→ Integración directa con Codex y Claude Code\n\nGuarda este post para cuando necesites automatizar la web con IA. Te dejo el repo abajo.\n\n#OpenSource #GitHub #JavaScript #AutomatizaciónWeb\n\nhttps://github.com/citrolabs/ego-lite"
+      }
+    },
+    {
+      "name": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "description": "Modelo fundacional de solo 14 MB pensado para ejecutarse en dispositivos diminutos como móviles, wearables, altavoces inteligentes y robots, acercando la IA a entornos con recursos limitados.",
+      "language": "Python",
+      "stars": 5758,
+      "social": {
+        "x": "Alguien acaba de liberar un modelo fundacional de 14 MB para móviles, wearables y robots. 5.758 estrellas y cero nube.\n\n#Needle #Python #OpenSource #GitHub\nhttps://github.com/cactus-compute/needle",
+        "linkedin": "14 MB DE MODELO FUNDACIONAL QUE CORRE EN TU MÓVIL, WEARABLE O ROBOT. SIN SERVIDORES.\n\nMientras los grandes modelos de IA exigen GPUs y latencia, cactus-compute/needle lo reduce todo a un binario de 14 MB. Pensado para dispositivos diminutos, baja la barrera de entrada de la IA embebida.\n\n→ Modelo fundacional completo, no un simple clasificador.\n→ Corre local en móviles, wearables, altavoces inteligentes y robots.\n→ Python, open source, 5.758 estrellas en GitHub.\n→ 𝗟𝗮 𝗶𝗱𝗲𝗮: acercar la IA a entornos con recursos limitados sin depender de la nube.\n\nGuarda este post para cuando toques un proyecto edge. Te dejo el repo abajo.\n\n#Needle #Python #OpenSource #GitHub\n\nhttps://github.com/cactus-compute/needle"
+      }
+    },
+    {
+      "name": "ToolJet/ToolJet",
+      "url": "https://github.com/ToolJet/ToolJet",
+      "description": "Plataforma open source para crear aplicaciones internas, paneles, flujos de trabajo y agentes de IA, la base de ToolJet AI, muy útil para equipos que quieren automatizar procesos sin partir de cero.",
+      "language": "JavaScript",
+      "stars": 39226,
+      "social": {
+        "x": "Un repo con 39k estrellas regala lo que Retool cobra: apps internas, paneles y agentes de IA.\n\n#ToolJet #JavaScript #OpenSource #GitHub\nhttps://github.com/ToolJet/ToolJet",
+        "linkedin": "RETOOL COBRA POR ESTO. ESTE REPO LO REGALA CON 39K ESTRELLAS.\n\nToolJet es una plataforma open source para construir aplicaciones internas, paneles, flujos de trabajo y agentes de IA. Pensada para equipos que no quieren empezar de cero cada vez que automatizan un proceso.\n\n→ Crea aplicaciones internas a medida sin código.\n→ Monta paneles con datos en tiempo real.\n→ Automatiza flujos de trabajo entre herramientas.\n→ Integra agentes de IA usando la base de ToolJet AI.\n\nGuarda este post para cuando necesites 𝗺𝗼𝗻𝘁𝗮𝗿 𝘂𝗻𝗮 𝗮𝗽𝗽 𝗶𝗻𝘁𝗲𝗿𝗻𝗮 𝘀𝗶𝗻 𝗽𝗮𝗿𝘁𝗶𝗿 𝗱𝗲 𝗰𝗲𝗿𝗼. Te dejo el repo abajo.\n\n#ToolJet #JavaScript #OpenSource #GitHub\n\nhttps://github.com/ToolJet/ToolJet"
+      }
+    }
+  ]
+}
