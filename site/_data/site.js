@@ -1,6 +1,6 @@
 export default {
   title: "La Terminal",
-  tagline: "La actualidad tecnológica, cada mañana",
+  tagline: "La actualidad tecnológica, a mediodía",
   descripcion:
     "Diario estático de noticias de tecnología en español, publicado cada día en GitHub Pages.",
   keywords: [

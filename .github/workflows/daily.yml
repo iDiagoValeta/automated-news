@@ -2,19 +2,19 @@ name: Edición diaria
 
 on:
   schedule:
-    # Objetivo: publicar a partir de las 09:00 Europe/Madrid todo el año. GitHub
-    # Actions retrasa u OMITE ejecuciones programadas cuando la plataforma está
-    # cargada (sin error ni aviso), así que no basta con uno o dos disparos: se
-    # lanzan varios reintentos horarios. El guardián de más abajo solo deja
-    # publicar cuando en Madrid ya son las 09:00, y la idempotencia por fichero
-    # (data/AAAA-MM-DD.json) hace que solo el primer intento válido genere la
-    # edición; los demás salen en segundos sin gastar LLM ni crear commits.
-    # 07:09 UTC = 09:09 en verano (CEST); 08:09 UTC = 09:09 en invierno (CET).
-    - cron: "9 7 * * *"
-    - cron: "9 8 * * *"
-    - cron: "9 9 * * *"
-    - cron: "9 10 * * *"
-    - cron: "9 11 * * *"
+    # Objetivo: publicar a mediodía en Europe/Madrid, en tarifa valle de DeepSeek.
+    # Pico de DeepSeek: 01:00–04:00 y 06:00–10:00 UTC (el resto es valle, a mitad
+    # de precio). GitHub Actions retrasa u OMITE crons cuando está cargada, así
+    # que hay varios reintentos horarios ya dentro del valle. El guardián de más
+    # abajo solo deja correr el schedule si son las 10:00 UTC o más; la
+    # idempotencia por fichero (data/AAAA-MM-DD.json, fecha en Madrid) hace que
+    # solo el primer intento válido genere la edición.
+    # 10:15 UTC = 12:15 en verano (CEST) y 11:15 en invierno (CET).
+    - cron: "15 10 * * *"
+    - cron: "15 11 * * *"
+    - cron: "15 12 * * *"
+    - cron: "15 13 * * *"
+    - cron: "15 14 * * *"
   workflow_dispatch:
     inputs:
       skip_pipeline:
@@ -42,7 +42,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Ventana horaria (publicar a partir de las 09:00 Europe/Madrid)
+      - name: Ventana horaria (valle DeepSeek, a partir de las 10:00 UTC)
         id: guard
         run: |
           if [ "${{ github.event_name }}" != "schedule" ]; then
@@ -50,13 +50,15 @@ jobs:
             echo "Disparo manual: se ejecuta sin comprobar la hora."
             exit 0
           fi
-          hora=$((10#$(TZ='Europe/Madrid' date +%H)))
-          if [ "$hora" -ge 9 ]; then
+          # Hora UTC: evita pico 06:00–10:00 aunque GitHub dispare un cron pronto.
+          # A las ≥10:00 UTC en Madrid siempre es el mismo día civil (11:00 CET / 12:00 CEST).
+          hora_utc=$((10#$(date -u +%H)))
+          if [ "$hora_utc" -ge 10 ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
-            echo "En Madrid son >= las 09:00 (hora $hora): se ejecuta."
+            echo "UTC >= 10:00 (hora $hora_utc): valle DeepSeek, se ejecuta."
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
-            echo "En Madrid aún no son las 09:00 (hora $hora): se omite hasta el siguiente cron."
+            echo "UTC aún no son las 10:00 (hora $hora_utc): se omite hasta el siguiente cron."
           fi
 
       - name: Instalar pnpm
@@ -79,7 +81,7 @@ jobs:
         env:
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'deepseek' }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-flash' }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: pnpm run pipeline
 

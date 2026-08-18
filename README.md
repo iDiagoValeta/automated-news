@@ -125,7 +125,7 @@ Variables de entorno:
 | Variable | Uso |
 |---|---|
 | `DEEPSEEK_API_KEY` | Credencial de DeepSeek. |
-| `DEEPSEEK_MODEL` | Modelo de DeepSeek; por defecto, `deepseek-v4-pro`. |
+| `DEEPSEEK_MODEL` | Modelo de DeepSeek; por defecto, `deepseek-v4-flash`. |
 | `LLM_PROVIDER` | `deepseek` o `claude-code`. |
 | `CLAUDE_CODE_OAUTH_TOKEN` | Credencial del proveedor alternativo `claude-code`. |
 | `GITHUB_TOKEN` | Opcional para el fallback de GitHub Search API. |
@@ -136,9 +136,9 @@ Sin la credencial del proveedor seleccionado no se crea una edición, pero el pr
 
 El workflow [`.github/workflows/daily.yml`](.github/workflows/daily.yml):
 
-1. Se intenta varias veces cada mañana para absorber posibles retrasos del cron de GitHub.
-2. Un guardián comprueba que en Madrid sean al menos las 09:00.
-3. Genera la edición una sola vez gracias a la idempotencia por fecha.
+1. Se intenta varias veces a mediodía (desde las 10:15 UTC: 12:15 en verano, 11:15 en invierno) para absorber retrasos del cron de GitHub y caer en tarifa valle de DeepSeek.
+2. Un guardián omite el schedule antes de las 10:00 UTC, para no generar en pico.
+3. Genera la edición una sola vez gracias a la idempotencia por fecha de Madrid.
 4. Ejecuta el build, versiona el nuevo JSON y despliega `_site` en GitHub Pages.
 5. Abre un issue con el enlace al run si el workflow falla.
 

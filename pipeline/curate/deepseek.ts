@@ -14,13 +14,13 @@ export function deepseekProvider(): Provider {
   const apiKey = process.env.DEEPSEEK_API_KEY;
   if (!apiKey) throw new Error("Falta la variable de entorno DEEPSEEK_API_KEY");
   // `||` y no `??`: en el workflow la variable puede llegar como cadena vacía.
-  const model = process.env.DEEPSEEK_MODEL || "deepseek-v4-pro";
+  const model = process.env.DEEPSEEK_MODEL || "deepseek-v4-flash";
 
   return {
     name: "deepseek",
     async generate(systemPrompt: string, userPrompt: string): Promise<string> {
-      // Timeout amplio: v4-pro razona y puede tardar. No recorta la respuesta,
-      // solo evita cuelgues indefinidos.
+      // Timeout amplio: Flash también razona por defecto y puede tardar. No
+      // recorta la respuesta, solo evita cuelgues indefinidos.
       const controller = new AbortController();
       const timer = setTimeout(() => controller.abort(), 300_000);
       try {

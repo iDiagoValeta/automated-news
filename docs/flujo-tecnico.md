@@ -4,7 +4,7 @@ Documento técnico del proceso que convierte fuentes RSS, la API de Hacker News 
 
 ## 1. Visión general
 
-El proyecto es un sitio estático: no hay servidor ni base de datos. Un workflow de GitHub Actions ejecuta cada mañana un único orquestador (`pipeline/index.ts`), que produce un JSON por edición en `data/YYYY-MM-DD.json`. Eleventy transforma esos JSON en HTML y GitHub Pages lo sirve.
+El proyecto es un sitio estático: no hay servidor ni base de datos. Un workflow de GitHub Actions ejecuta a mediodía un único orquestador (`pipeline/index.ts`), que produce un JSON por edición en `data/YYYY-MM-DD.json` (fecha civil en `Europe/Madrid`). Eleventy transforma esos JSON en HTML y GitHub Pages lo sirve.
 
 El modelo de lenguaje (DeepSeek por defecto) se usa como un paso más del script, con prompts fijos en `prompts/` y salida validada contra un JSON Schema. Nunca se le deja inventar datos duros como las URL.
 
@@ -31,9 +31,9 @@ flowchart TD
 
 Fichero: `.github/workflows/daily.yml`.
 
-- **Crons.** GitHub solo entiende UTC y puede retrasar u omitir ejecuciones cuando tiene carga. El workflow programa cinco intentos horarios, de `07:09` a `11:09` UTC; el guardián y la idempotencia hacen que solo el primero válido publique.
-- **Guardián de hora.** El paso `guard` calcula la hora en `Europe/Madrid` y solo deja continuar (`run=true`) si son las 09:00 o más. Un disparo manual (`workflow_dispatch`) se ejecuta sin comprobar la hora.
-- **Idempotencia.** El orquestador aborta pronto si ya existe `data/<hoy>.json` (ver la sección de curación). El commit de la edición solo se crea si hay cambios en `data/`, así que dos crons el mismo día no publican dos veces.
+- **Crons.** GitHub solo entiende UTC y puede retrasar u omitir ejecuciones cuando tiene carga. El workflow programa cinco intentos horarios, de `10:15` a `14:15` UTC (12:15–16:15 en verano, 11:15–15:15 en invierno), ya en tarifa valle de DeepSeek (fuera de 01:00–04:00 y 06:00–10:00 UTC). El guardián y la idempotencia hacen que solo el primero válido publique.
+- **Guardián de hora.** El paso `guard` usa la hora UTC y solo deja continuar el `schedule` (`run=true`) si son las 10:00 o más, para no generar en pico aunque GitHub dispare pronto. Un disparo manual (`workflow_dispatch`) se ejecuta sin comprobar la hora. A esa hora, la fecha civil en `Europe/Madrid` es siempre el día que toca.
+- **Idempotencia.** El orquestador aborta pronto si ya existe `data/<hoy>.json` (fecha en Madrid; ver la sección de curación). El commit de la edición solo se crea si hay cambios en `data/`, así que dos crons el mismo día no publican dos veces.
 - **Entrada manual `skip_pipeline`.** Reconstruye y despliega el sitio sin regenerar la edición (salta el paso del pipeline y va directo al build).
 - **Permisos y concurrencia.** El job pide `contents: write`, `pages: write`, `id-token: write` e `issues: write`, y usa un grupo de `concurrency` para no solaparse consigo mismo. Si algún paso falla, un paso final abre un issue con enlace al run.
 
@@ -143,7 +143,7 @@ Ficheros: `pipeline/index.ts`, `eleventy.config.mjs`, `site/_data/editions.js`, 
 
 Ficheros: `pipeline/curate/index.ts`, `pipeline/curate/deepseek.ts`, `pipeline/curate/claude-code.ts`.
 
-- **DeepSeek** (por defecto): endpoint compatible con el formato de OpenAI, JSON mode, `temperature` 0.3 y timeout amplio (v4-pro razona y puede tardar). Modelo configurable con `DEEPSEEK_MODEL`.
+- **DeepSeek** (por defecto): endpoint compatible con el formato de OpenAI, JSON mode, `temperature` 0.3 y timeout amplio (Flash razona por defecto y puede tardar). Modelo configurable con `DEEPSEEK_MODEL`; por defecto, `deepseek-v4-flash`.
 - **claude-code** (alternativo): invoca el CLI de Claude Code en modo headless vía suscripción. No probado end to end.
 - La interfaz común es `Provider.generate(systemPrompt, userPrompt): Promise<string>`. `resolveProviderName()` elige según `LLM_PROVIDER`, y `providerCredentialPresent()` permite saltar sin fallar si no hay credencial.
 
