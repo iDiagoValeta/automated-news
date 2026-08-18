@@ -1,0 +1,324 @@
+{
+  "date": "2026-08-18",
+  "generated_at": "2026-08-18T07:48:05.475Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Qwen 3.8 27B: el nuevo modelo abierto de Alibaba que destaca en calidad pero tiende a sobrepensar",
+      "summary": "El nuevo modelo de lenguaje Qwen 3.8 27B de Alibaba obtiene una puntuación alta en los benchmarks y destaca por su rendimiento, aunque por defecto tiende a desarrollar razonamientos excesivamente largos antes de responder. Simon Willison lo analiza en su blog y confirma que es un modelo excelente, ideal para quienes buscan un modelo abierto competitivo.",
+      "why_it_matters": "Es uno de los modelos abiertos más potentes del momento y puede usarse en local o en la nube para múltiples tareas.",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
+      "source": "Lobsters",
+      "social": {
+        "x": "El nuevo Qwen 3.8 27B de Alibaba saca nota en benchmarks, pero por defecto razona tanto que desespera. Aun así, es un modelo abierto excelente.\n\n#Qwen #Alibaba #OpenSource\nhttps://simonwillison.net/2026/Aug/16/qwen-38-27b",
+        "linkedin": "Qwen 3.8 27B de Alibaba saca notas altísimas en benchmarks, pero por defecto razona más de la cuenta antes de responder.\nSimon Willison lo ha analizado y confirma que es un modelo excelente para quien busque open source competitivo, ya sea en local o en la nube. 𝗟𝗮 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝗲𝘀𝘁á 𝗳𝘂𝗲𝗿𝗮 𝗱𝗲 𝗱𝘂𝗱𝗮; 𝗹𝗼 𝗾𝘂𝗲 𝘀𝗲 𝗽𝗼𝗻𝗲 𝗮 𝗽𝗿𝘂𝗲𝗯𝗮 𝗲𝘀 𝘁𝘂 𝗽𝗮𝗰𝗶𝗲𝗻𝗰𝗶𝗮, porque sus razonamientos pueden extenderse más de lo necesario.\n\n#Qwen #Alibaba #OpenSource\n\nhttps://simonwillison.net/2026/Aug/16/qwen-38-27b"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "OpenAI reduce el precio de GPT-5.6 Sol a la mitad",
+      "summary": "OpenAI ha anunciado una bajada del 50% en el precio de GPT-5.6 Sol, su modelo insignia de la serie GPT-5.6. Ahora cuesta 2,50 dólares por millón de tokens de entrada y 15 dólares por millón de tokens de salida, con una ventana de contexto de 1.050.000 tokens.",
+      "why_it_matters": "El recorte de precio hace que un modelo de frontera sea mucho más asequible para desarrolladores y empresas.",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "source": "Hacker News",
+      "social": {
+        "x": "La barrera de entrada a los modelos de frontera acaba de caer a la mitad: OpenAI reduce GPT-5.6 Sol a 2,50 dólares por millón de tokens de entrada.\n\n#OpenAI #GPT56Sol #API #ModelosDeFrontera\nhttps://openrouter.ai/openai/gpt-5.6-sol",
+        "linkedin": "El precio de los modelos de frontera sigue cayendo y esta vez el recorte es del 50%.\nOpenAI ha bajado GPT-5.6 Sol a 2,50 dólares por millón de tokens de entrada y 15 por millón de salida, con una ventana de contexto de más de un millón de tokens. 𝗟𝗮 𝗰𝗼𝗺𝗽𝗲𝘁𝗲𝗻𝗰𝗶𝗮 𝗽𝗼𝗿 𝗰𝗮𝗽𝘁𝗮𝗿 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗲𝘀 𝘀𝗲 𝗵𝗮 𝗱𝗲𝘀𝗽𝗹𝗮𝘇𝗮𝗱𝗼 𝗱𝗲𝗹 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗮𝗹 𝗰𝗼𝘀𝘁𝗲 𝗽𝗼𝗿 𝘁𝗼𝗸𝗲𝗻, y eso cambia el cálculo para cualquier empresa que esté evaluando integrar IA en producción. Quien pensaba que un modelo de esta clase era inasumible tiene una señal clara de hacia dónde va el mercado.\n\n#OpenAI #GPT56Sol #API #ModelosDeFrontera\n\nhttps://openrouter.ai/openai/gpt-5.6-sol"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "Speko: un enrutador para modelos de voz por IA, al estilo OpenRouter",
+      "summary": "Speko, una startup respaldada por Y Combinator, se presenta como el 'OpenRouter de la voz por IA': unifica el acceso a múltiples modelos de voz y los evalúa idioma por idioma para elegir el mejor en cada caso. Ofrece una API única que simplifica la integración de capacidades de voz en aplicaciones.",
+      "why_it_matters": "Facilita la adopción de IA de voz al abstraer la complejidad de elegir y conectar distintos modelos de habla.",
+      "url": "https://speko.ai",
+      "source": "Hacker News",
+      "social": {
+        "x": "El rompecabezas de elegir modelo de voz para cada idioma acaba de desaparecer. Speko (YC) lo unifica en una API.\n\n#Speko #YCombinator #VoiceAI\nhttps://speko.ai",
+        "linkedin": "Elegir el mejor modelo de voz para cada idioma era un dolor silencioso para cualquier equipo que integra voz por IA. Speko, respaldada por Y Combinator, se presenta como el 'OpenRouter de la voz': una API única que unifica acceso a múltiples modelos y los evalúa idioma por idioma. 𝗟𝗮 𝗰𝗼𝗺𝗽𝗹𝗲𝗷𝗶𝗱𝗮𝗱 𝗱𝗲 𝗰𝗼𝗻𝗲𝗰𝘁𝗮𝗿 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿𝗲𝘀 𝗱𝗲 𝘃𝗼𝘇 𝗱𝗲𝘀𝗮𝗽𝗮𝗿𝗲𝗰𝗲 y, con ello, una barrera de entrada para productos que hablan. Para startups y empresas que hasta ahora posponían la voz por miedo a la integración, es el momento de reconsiderarlo.\n\n#Speko #YCombinator #VoiceAI\n\nhttps://speko.ai"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "industria",
+      "title": "Un fallo en GitHub Copilot Autofix permitió comprometer el Jira interno de Snowflake",
+      "summary": "Los investigadores de Wiz descubrieron y explotaron una vulnerabilidad en GitHub Actions que fue pasada por alto por la seguridad avanzada de GitHub y por Copilot Autofix. El fallo permitió a un agente autónomo confirmar acceso a datos sensibles en el Jira interno de Snowflake, apenas cinco días después de que el fallo se hiciera público.",
+      "why_it_matters": "Este incidente muestra que las herramientas de IA para código no son infalibles y subraya la necesidad de revisar manualmente los cambios de seguridad.",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un agente autónomo se coló en el Jira interno de Snowflake por un fallo que Copilot Autofix pasó por alto. Y GitHub Advanced Security tampoco lo vio.\n\n#GitHubActions #CopilotAutofix #Snowflake #AppSec\nhttps://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+        "linkedin": "GitHub Copilot Autofix no detectó un fallo que permitió a un agente autónomo acceder al Jira interno de Snowflake.\nEl incidente, descubierto por Wiz, muestra que 𝗹𝗮𝘀 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 𝗱𝗲 𝗜𝗔 𝗽𝗮𝗿𝗮 𝗰ó𝗱𝗶𝗴𝗼 𝗻𝗼 𝘀𝗼𝗻 𝗶𝗻𝗳𝗮𝗹𝗶𝗯𝗹𝗲𝘀: un fallo en GitHub Actions pasó desapercibido incluso para la seguridad avanzada de GitHub. La lección para equipos de desarrollo y seguridad es clara: la revisión manual de cambios críticos sigue siendo imprescindible, sobre todo cuando hay secretos o accesos sensibles en juego.\n\n#GitHubActions #CopilotAutofix #Snowflake #AppSec\n\nhttps://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Reddit prueba convertir hilos en vídeos y podcasts con voces de IA",
+      "summary": "Reddit está experimentando con una nueva función que transforma publicaciones de texto y sus comentarios en clips de vídeo narrados por voces sintéticas. El vídeo resalta el texto mientras se lee y se etiqueta como 'conversación real con voz de IA'. La prueba incluye hilos antiguos y populares.",
+      "why_it_matters": "Abre una nueva forma de consumir contenido de Reddit, especialmente para usuarios que prefieren formatos audiovisuales o que tienen dificultades de lectura.",
+      "url": "https://www.theverge.com/tech/981289/reddit-ai-text-video-posts",
+      "source": "The Verge",
+      "social": {
+        "x": "Reddit convierte hilos en vídeos con voces de IA y los etiqueta como «conversación real con voz de IA». ¿Leer o escuchar? El dilema de la comunidad.\n\n#Reddit #AIVoice #SyntheticMedia #VoiceAI\nhttps://www.theverge.com/tech/981289/reddit-ai-text-video-posts",
+        "linkedin": "Reddit está probando una función que convierte hilos enteros en vídeos y podcasts narrados por voces sintéticas, y los etiqueta como «conversación real con voz de IA».\n\nLa plataforma selecciona publicaciones y comentarios antiguos y populares, resalta el texto mientras se lee y lo empaqueta para formatos audiovisuales. 𝗘𝗹 𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗼 𝗴𝗲𝗻𝗲𝗿𝗮𝗱𝗼 𝗽𝗼𝗿 𝗜𝗔 𝗮𝗯𝗿𝗲 𝘂𝗻𝗮 𝘃í𝗮 𝗽𝗮𝗿𝗮 𝗾𝘂𝗶𝗲𝗻𝗲𝘀 𝗽𝗿𝗲𝗳𝗶𝗲𝗿𝗲𝗻 𝗲𝘀𝗰𝘂𝗰𝗵𝗮𝗿 𝗲𝗻 𝗹𝘂𝗴𝗮𝗿 𝗱𝗲 𝗹𝗲𝗲𝗿, pero también obliga a repensar qué significa participar en una comunidad que históricamente se basaba en texto. Para medios y creadores, es una señal de hacia dónde va la distribución: convertir la conversación en producto pasivo sin fricción.\n\n#Reddit #AIVoice #SyntheticMedia #VoiceAI\n\nhttps://www.theverge.com/tech/981289/reddit-ai-text-video-posts"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "DuckDB presenta la vista previa de su versión 2.0",
+      "summary": "El equipo de DuckDB ha publicado un adelanto de las novedades de la versión 2.0 de esta base de datos analítica embebida. Entre las mejoras se incluyen nuevas funciones, mayor rendimiento y cambios en la API, consolidando su posición como alternativa ligera a los data warehouses tradicionales.",
+      "why_it_matters": "DuckDB es una herramienta clave para análisis de datos local o en procesos, y la versión 2.0 promete mejoras significativas para los desarrolladores.",
+      "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "DuckDB 2.0 no será una actualización menor: nuevas funciones, más rendimiento y una API que va a obligar a revisar tus scripts de análisis.\n\n#DuckDB #DataEngineering #OpenSource\nhttps://duckdb.org/2026/08/17/duckdb-20-highlights.html",
+        "linkedin": "DuckDB ha logrado lo que pocos: ser la base de datos analítica de cabecera para análisis local y en procesos. Y su versión 2.0 viene con cambios que no son cosméticos.\nLa vista previa adelanta nuevas funciones, más rendimiento y una API que obligará a revisar cómo escribimos consultas. Para los desarrolladores que lo usan como alternativa ligera a los data warehouses, 𝗹𝗮 𝘃𝗲𝗿𝘀𝗶ó𝗻 𝟮.𝟬 𝗰𝗼𝗻𝘀𝗼𝗹𝗶𝗱𝗮 𝗮 𝗗𝘂𝗰𝗸𝗗𝗕 𝗰𝗼𝗺𝗼 𝗽𝗶𝗲𝘇𝗮 𝗰𝗹𝗮𝘃𝗲 𝗱𝗲𝗹 𝘀𝘁𝗮𝗰𝗸 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀 y plantea una pregunta incómoda: ¿hasta qué punto necesitas un warehouse tradicional?\n\n#DuckDB #DataEngineering #OpenSource\n\nhttps://duckdb.org/2026/08/17/duckdb-20-highlights.html"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Firefox para iOS añade bloqueo de anuncios experimental",
+      "summary": "Mozilla ha introducido una función experimental de bloqueo de anuncios en su navegador Firefox para iOS. Aunque no bloquea todos los anuncios, supone un paso adelante para quienes buscan una navegación más limpia en dispositivos de Apple.",
+      "why_it_matters": "Ofrece a los usuarios de iPhone y iPad una alternativa para reducir la publicidad intrusiva sin cambiar de navegador.",
+      "url": "https://www.theregister.com/software/2026/08/17/mozilla-adds-ad-blocking-to-firefox-for-ios/5288585",
+      "source": "The Register",
+      "social": {
+        "x": "Los anuncios en iOS tienen un nuevo enemigo inesperado: Firefox. Su bloqueo experimental ya está activo en iPhone.\n\n#Firefox #iOS #Mozilla #AdBlocking\nhttps://www.theregister.com/software/2026/08/17/mozilla-adds-ad-blocking-to-firefox-for-ios/5288585",
+        "linkedin": "Los anuncios en iOS tienen un nuevo enemigo inesperado: Firefox.\n\nMozilla acaba de activar un bloqueo de anuncios experimental en su navegador para iPhone y iPad. No cubre todos los anuncios, pero supone un paso adelante para quienes buscan una navegación más limpia sin cambiar de app. 𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗲𝘀 𝗾𝘂𝗲 𝗻𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝗾𝘂𝗲 𝗮𝗯𝗮𝗻𝗱𝗼𝗻𝗮𝗿 𝗙𝗶𝗿𝗲𝗳𝗼𝘅 para reducir la publicidad intrusiva, algo que hasta ahora solo era cómodo en Safari con bloqueadores de contenido.\n\n#Firefox #iOS #Mozilla #AdBlocking\n\nhttps://www.theregister.com/software/2026/08/17/mozilla-adds-ad-blocking-to-firefox-for-ios/5288585"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "industria",
+      "title": "Un fallo crítico en la compartición de pantalla de macOS se explota en entornos reales",
+      "summary": "La vulnerabilidad de macOS que permite a un atacante ver la pantalla de la víctima y abrir archivos ha comenzado a verse en ataques reales. Apple ya ha lanzado una actualización que corrige el problema, por lo que se recomienda instalar la última versión del sistema.",
+      "why_it_matters": "Afecta a la privacidad y seguridad de los usuarios de Mac y demuestra la importancia de aplicar los parches de seguridad con rapidez.",
+      "url": "https://www.engadget.com/2238240/apple-screen-sharing-bug-has-been-seen-in-the-wild-please-update-macos",
+      "source": "Engadget",
+      "social": {
+        "x": "Un fallo de macOS permite ver tu pantalla y abrir archivos sin que lo notes. Ya se explota en ataques reales. Apple ha lanzado el parche: actualiza cuanto antes.\n\n#macOS #Apple #ciberseguridad\nhttps://www.engadget.com/2238240/apple-screen-sharing-bug-has-been-seen-in-the-wild-please-update-macos",
+        "linkedin": "Un fallo de macOS permite ver tu pantalla y abrir archivos sin que lo notes.\nY ya no es teoría: hay ataques reales. Apple ha lanzado una actualización que corrige el problema, así que 𝗶𝗻𝘀𝘁𝗮𝗹𝗮 𝗹𝗮 ú𝗹𝘁𝗶𝗺𝗮 𝘃𝗲𝗿𝘀𝗶ó𝗻 𝗱𝗲 𝗺𝗮𝗰𝗢𝗦 𝗰𝘂𝗮𝗻𝘁𝗼 𝗮𝗻𝘁𝗲𝘀. Este caso muestra lo rápido que se mueven los atacantes una vez se conoce un fallo de compartición de pantalla, y por qué los parches de seguridad no pueden esperar.\n\n#macOS #Apple #ciberseguridad\n\nhttps://www.engadget.com/2238240/apple-screen-sharing-bug-has-been-seen-in-the-wild-please-update-macos"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "industria",
+      "title": "GitHub sufre una caída del servicio que afecta a descargas y Copilot",
+      "summary": "GitHub estuvo caído durante gran parte del día, con tasas de error del 50% en las descargas de repositorios y fallos en Copilot. Los desarrolladores se quejaron en redes sociales por la interrupción, que se suma a una serie de problemas de disponibilidad recientes.",
+      "why_it_matters": "GitHub es la plataforma central para el desarrollo de software y su inestabilidad afecta a millones de proyectos en todo el mundo.",
+      "url": "https://www.engadget.com/2238231/github-has-been-down-for-most-of-the-morning",
+      "source": "Engadget",
+      "social": {
+        "x": "El 50% de las descargas de GitHub fallaron hoy. Y Copilot también se cayó.\n\n#GitHub #Copilot #DevOps #OpenSource\nhttps://www.engadget.com/2238231/github-has-been-down-for-most-of-the-morning",
+        "linkedin": "Hoy GitHub ha fallado en la mitad de las descargas y ha tumbado Copilot.\nLa plataforma central del desarrollo de software ha registrado tasas de error del 50% en las descargas de repositorios y fallos en Copilot, sumándose a una serie de problemas de disponibilidad. 𝗟𝗮 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮 𝗱𝗲 𝘂𝗻𝗮 ú𝗻𝗶𝗰𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝘃𝘂𝗲𝗹𝘃𝗲 𝗮 𝗾𝘂𝗲𝗱𝗮𝗿 𝗲𝗻 𝗲𝘃𝗶𝗱𝗲𝗻𝗰𝗶𝗮: cuando GitHub se cae, se frena el trabajo de millones de equipos en todo el mundo.\n\n#GitHub #Copilot #DevOps #OpenSource\n\nhttps://www.engadget.com/2238231/github-has-been-down-for-most-of-the-morning"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Windows 11 acerca la barra de tareas móvil: nueva vista previa con iconos compactos",
+      "summary": "La última build de Windows 11 en el canal Insider introduce la esperada capacidad de mover la barra de tareas a cualquier borde de la pantalla, junto con iconos compactos y opciones de tamaño del menú de inicio. También marca el fin de la herramienta WMIC.",
+      "why_it_matters": "Esta característica, muy solicitada por los usuarios, devuelve flexibilidad a la interfaz de Windows y moderniza la experiencia de escritorio.",
+      "url": "https://www.theregister.com/os-platforms/2026/08/17/windows-11-movable-taskbar-edges-closer-to-general-release/5288393",
+      "source": "The Register",
+      "social": {
+        "x": "La barra de tareas de Windows 11 vuelve a ser tuya: ya puedes ponerla arriba, a los lados y con iconos compactos.\n\n#Windows11 #Microsoft #WindowsInsider\nhttps://www.theregister.com/os-platforms/2026/08/17/windows-11-movable-taskbar-edges-closer-to-general-release/5288393",
+        "linkedin": "La barra de tareas de Windows 11 deja de estar anclada abajo: la nueva build Insider permite moverla a cualquier borde y usar iconos compactos.\n𝗟𝗮 𝗳𝗹𝗲𝘅𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗾𝘂𝗲 𝗺𝘂𝗰𝗵𝗼𝘀 𝗲𝗰𝗵𝗮𝗯𝗮𝗻 𝗱𝗲 𝗺𝗲𝗻𝗼𝘀 𝗿𝗲𝗴𝗿𝗲𝘀𝗮 𝗮 𝗪𝗶𝗻𝗱𝗼𝘄𝘀, junto con opciones de tamaño del menú de inicio. Para los que llevan años pidiendo esta función, es una señal de que Microsoft escucha a los usuarios avanzados. Eso sí, llega en Insider, así que habrá que esperar a la versión estable.\n\n#Windows11 #Microsoft #WindowsInsider\n\nhttps://www.theregister.com/os-platforms/2026/08/17/windows-11-movable-taskbar-edges-closer-to-general-release/5288393"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "Un ciberdelincuente vende millones de registros robados de inquilinos de Azure corporativo",
+      "summary": "Investigadores de seguridad han detectado la venta de datos supuestamente extraídos de tenants de Azure de empresas como McDonald's, Vodafone, TCS y Kyndryl. El acceso se habría logrado mediante credenciales comprometidas, lo que subraya los riesgos de una mala gestión de identidades en la nube.",
+      "why_it_matters": "La filtración pone en evidencia la importancia de proteger las credenciales y monitorizar el acceso a los recursos en la nube.",
+      "url": "https://www.theregister.com/security/2026/08/17/crook-hawks-millions-of-records-allegedly-plundered-from-corporate-azure-tenants/5288305",
+      "source": "The Register",
+      "social": {
+        "x": "Millones de registros robados de tenants de Azure están en venta. Entre las víctimas: McDonald's, Vodafone, TCS y Kyndryl.\n\n#Azure #Microsoft #Ciberseguridad #CloudSecurity\nhttps://www.theregister.com/security/2026/08/17/crook-hawks-millions-of-records-allegedly-plundered-from-corporate-azure-tenants/5288305",
+        "linkedin": "Millones de registros robados de tenants de Azure están a la venta y las víctimas no son empresas cualquiera: McDonald's, Vodafone, TCS y Kyndryl.\n\nEl origen del acceso no fue un fallo de Azure, sino 𝗰𝗿𝗲𝗱𝗲𝗻𝗰𝗶𝗮𝗹𝗲𝘀 𝗰𝗼𝗺𝗽𝗿𝗼𝗺𝗲𝘁𝗶𝗱𝗮𝘀, según los investigadores. Esto confirma que en la nube la identidad es el nuevo perímetro: si no proteges las cuentas y monitorizas el acceso, da igual lo segura que sea la plataforma. La lección para cualquier equipo: revisa ya tus políticas de MFA y los permisos de tus tenants.\n\n#Azure #Microsoft #Ciberseguridad #CloudSecurity\n\nhttps://www.theregister.com/security/2026/08/17/crook-hawks-millions-of-records-allegedly-plundered-from-corporate-azure-tenants/5288305"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "industria",
+      "title": "Apple cambia sus avisos de recogida de datos tras la presión del regulador alemán",
+      "summary": "La autoridad de competencia alemana ha obligado a Apple a modificar los diálogos de consentimiento de datos para que no favorezcan a sus propias aplicaciones frente a las de terceros. El cambio llega después de quejas sobre el diseño de App Tracking Transparency, que según algunas estimaciones costó miles de millones a las redes sociales.",
+      "why_it_matters": "Afecta a la forma en que las apps piden permiso para rastrear a los usuarios y podría nivelar el campo de juego en el ecosistema iOS.",
+      "url": "https://www.theverge.com/tech/980977/apple-app-tracking-transparency-settlement-germany",
+      "source": "The Verge",
+      "social": {
+        "x": "Los avisos de Apple para pedir permiso no eran tan neutrales: favorecían a sus propias apps. Alemania lo ha corregido.\n\n#Apple #AppTrackingTransparency #iOS\nhttps://www.theverge.com/tech/980977/apple-app-tracking-transparency-settlement-germany",
+        "linkedin": "Los avisos de consentimiento de Apple no eran neutrales: estaban diseñados para favorecer a sus propias apps.\nEl regulador alemán acaba de obligar a Apple a rediseñar esos diálogos para que no beneficien a sus aplicaciones frente a las de terceros. Llega tras las quejas por App Tracking Transparency, que según algunas estimaciones costó miles de millones a las redes sociales. La clave: 𝗲𝗹 𝗱𝗶𝘀𝗲ñ𝗼 𝗱𝗲 𝗹𝗼𝘀 𝗰𝗼𝗻𝘀𝗲𝗻𝘁𝗶𝗺𝗶𝗲𝗻𝘁𝗼𝘀 𝗲𝘀 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗮, no solo de privacidad.\n\n#Apple #AppTrackingTransparency #iOS\n\nhttps://www.theverge.com/tech/980977/apple-app-tracking-transparency-settlement-germany"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Una investigación rastrea libros raros hasta un centro de entrenamiento de IA de Amazon",
+      "summary": "Un periodista colocó un dispositivo de rastreo en un envío de libros raros y descubrió que terminaban en una instalación de Amazon donde se escanean y destruyen para entrenar modelos de IA. La práctica ha generado críticas por el daño al patrimonio cultural y la falta de transparencia.",
+      "why_it_matters": "Ilustra los dilemas éticos en la obtención de datos para el entrenamiento de modelos de lenguaje.",
+      "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
+      "source": "Hacker News",
+      "social": {
+        "x": "Siguieron un envío de libros raros con un rastreador y acabó en Amazon: los escanean y destruyen para entrenar IA. El patrimonio cultural, convertido en dataset.\n\n#Amazon #MachineLearning #DataEthics #PatrimonioCultural\nhttps://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
+        "linkedin": "Un periodista puso un rastreador en un envío de libros raros y acabó en una instalación de Amazon donde se escanean y destruyen para entrenar modelos de IA.\n\nNo es un descuido: es un proceso sistemático que convierte patrimonio cultural en datos de entrenamiento, sin transparencia y con un coste ético que la industria sigue sin abordar. 𝗟𝗮 𝗽𝗿𝗼𝗰𝗲𝗱𝗲𝗻𝗰𝗶𝗮 𝗱𝗲 𝗹𝗼𝘀 𝗱𝗮𝘁𝗼𝘀 𝗱𝗲 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗲𝘀 𝘂𝗻𝗮 𝗰𝘂𝗲𝘀𝘁𝗶ó𝗻 é𝘁𝗶𝗰𝗮 𝘆 𝗹𝗲𝗴𝗮𝗹 𝗾𝘂𝗲 𝗹𝗮 𝗜𝗔 𝗻𝗼 𝗽𝘂𝗲𝗱𝗲 𝘀𝗲𝗴𝘂𝗶𝗿 𝗶𝗴𝗻𝗼𝗿𝗮𝗻𝗱𝗼 y este caso es la prueba.\n\n#Amazon #MachineLearning #DataEthics #PatrimonioCultural\n\nhttps://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "La startup de automatización con IA Relay cierra y su equipo se une al de Chrome en Google",
+      "summary": "Relay, una startup que desarrollaba herramientas de automatización impulsadas por IA, ha anunciado su cierre. Su fundador, Jacob Bank, se incorporará a Google junto con parte del equipo para trabajar en la integración de IA en el navegador Chrome.",
+      "why_it_matters": "Muestra la consolidación del talento en IA dentro de las grandes tecnológicas y el desafío de las startups en este espacio.",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Relay, la startup de automatización con IA, cierra. ¿El destino de su fundador y parte del equipo? Google, para integrar la IA en Chrome.\n\n#Google #Chrome #Relay\nhttps://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team",
+        "linkedin": "Relay, la startup de automatización con IA, cierra, pero su talento no se pierde: Google lo ficha para integrar la IA en Chrome.\n\nRelay, fundada por Jacob Bank, desarrollaba herramientas de automatización impulsadas por IA. Ha anunciado su cierre y su fundador, junto con parte del equipo, se une al equipo de Chrome para trabajar en la integración de IA en el navegador. 𝗟𝗮 𝗰𝗼𝗻𝘀𝗼𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝘁𝗮𝗹𝗲𝗻𝘁𝗼 𝗲𝗻 𝗜𝗔 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝗹𝗼𝘀 𝗴𝗶𝗴𝗮𝗻𝘁𝗲𝘀 𝘁𝗲𝗰𝗻𝗼𝗹ó𝗴𝗶𝗰𝗼𝘀 𝗱𝗲𝗷𝗮 𝗮 𝗹𝗮𝘀 𝘀𝘁𝗮𝗿𝘁𝘂𝗽𝘀 𝗰𝗼𝗻 𝘂𝗻 𝗿𝗲𝘁𝗼 𝗮ú𝗻 𝗺𝗮𝘆𝗼𝗿 𝗽𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝗿 𝗽𝗼𝗿 𝗽𝗲𝗿𝗳𝗶𝗹𝗲𝘀 𝗰𝗹𝗮𝘃𝗲. Para el sector, es una señal de que la batalla por la IA también se libra en el navegador y de que los grandes absorben a los equipos más prometedores.\n\n#Google #Chrome #Relay\n\nhttps://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "ByteDance acepta limitar sus modelos de IA para proteger la propiedad intelectual de Hollywood",
+      "summary": "La empresa matriz de TikTok ha firmado un memorando de entendimiento con la Motion Picture Association para evitar que sus modelos de IA generen contenido que infrinja los derechos de autor de películas y series. El acuerdo busca reducir la creación de deepfakes y versiones no autorizadas.",
+      "why_it_matters": "Es un paso hacia la autorregulación de los modelos generativos en la industria del entretenimiento.",
+      "url": "https://www.engadget.com/2238384/bytedance-agrees-to-reel-in-its-ai-models-to-protect-hollywood-ip",
+      "source": "Engadget",
+      "social": {
+        "x": "La empresa detrás de TikTok acaba de aceptar una restricción que ninguna otra gran tecnológica había firmado: limitar su IA para no imitar películas y series.\n\n#ByteDance #Hollywood #Deepfakes #GenerativeAI\nhttps://www.engadget.com/2238384/bytedance-agrees-to-reel-in-its-ai-models-to-protect-hollywood-ip",
+        "linkedin": "Hollywood acaba de lograr lo que parecía imposible: que una gran tecnológica acepte limitar su IA para no generar imitaciones de películas y series.\n\nByteDance (la matriz de TikTok) ha firmado un memorando con la Motion Picture Association para 𝗲𝘃𝗶𝘁𝗮𝗿 𝗾𝘂𝗲 𝘀𝘂𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗴𝗲𝗻𝗲𝗿𝗲𝗻 𝗱𝗲𝗲𝗽𝗳𝗮𝗸𝗲𝘀 𝗼 𝘃𝗲𝗿𝘀𝗶𝗼𝗻𝗲𝘀 𝗻𝗼 𝗮𝘂𝘁𝗼𝗿𝗶𝘇𝗮𝗱𝗮𝘀 𝗱𝗲 𝗼𝗯𝗿𝗮𝘀 𝗽𝗿𝗼𝘁𝗲𝗴𝗶𝗱𝗮𝘀. Es un movimiento que marca un precedente en la autorregulación del sector, justo cuando la presión regulatoria sobre la IA generativa crece en todo el mundo.\n\n#ByteDance #Hollywood #Deepfakes #GenerativeAI\n\nhttps://www.engadget.com/2238384/bytedance-agrees-to-reel-in-its-ai-models-to-protect-hollywood-ip"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Gartner prevé que los costes de la IA agéntica se multiplicarán por cinco para 2028",
+      "summary": "Según la consultora Gartner, los flujos de trabajo de IA agéntica consumirán muchos más tokens que las aplicaciones actuales, lo que disparará los costes a pesar de la caída del precio por token. Se espera que el gasto total en este tipo de sistemas se quintuplique en los próximos dos años.",
+      "why_it_matters": "Las empresas deben planificar cuidadosamente el uso de agentes autónomos para evitar sorpresas en la factura de la nube.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/agentic-ai-costs-set-to-balloon-fivefold-by-2028/5288363",
+      "source": "The Register",
+      "social": {
+        "x": "El precio por token baja, pero la factura de la IA agéntica se va a multiplicar por cinco. Gartner lo avisa: no es cuánto cuesta cada token, es cuántos tokens consumen los agentes.\n\n#Gartner #AgentesIA #FinOps #CloudCosts\nhttps://www.theregister.com/ai-and-ml/2026/08/17/agentic-ai-costs-set-to-balloon-fivefold-by-2028/5288363",
+        "linkedin": "El precio por token baja, pero la factura de la IA agéntica se va a multiplicar por cinco.\n\nGartner prevé que los flujos de trabajo con agentes autónomos disparen el consumo de tokens, lo que quintuplicará el gasto total en estos sistemas para 2028. 𝗘𝗹 𝗰𝗼𝘀𝘁𝗲 𝘆𝗮 𝗻𝗼 𝗱𝗲𝗽𝗲𝗻𝗱𝗲 𝗱𝗲𝗹 𝗽𝗿𝗲𝗰𝗶𝗼 𝗽𝗼𝗿 𝘁𝗼𝗸𝗲𝗻, 𝘀𝗶𝗻𝗼 𝗱𝗲 𝗰𝘂á𝗻𝘁𝗼𝘀 𝘁𝗼𝗸𝗲𝗻𝘀 𝗰𝗼𝗻𝘀𝘂𝗺𝗲𝗻 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀, y eso obliga a las empresas a poner límites y monitorizar cada despliegue. Quien no planifique el uso de agentes se va a encontrar con sorpresas en la factura de la nube.\n\n#Gartner #AgentesIA #FinOps #CloudCosts\n\nhttps://www.theregister.com/ai-and-ml/2026/08/17/agentic-ai-costs-set-to-balloon-fivefold-by-2028/5288363"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "lanzamientos",
+      "title": "Microsoft retirará la función Copilot de Excel en favor del panel lateral",
+      "summary": "Microsoft ha comunicado que eliminará la función Copilot integrada directamente en las celdas de Excel, argumentando que el panel lateral es suficiente para la mayoría de los usuarios. La decisión forma parte de una racionalización de las funciones de IA en Office.",
+      "why_it_matters": "Afecta a los flujos de trabajo de los usuarios que utilizaban Copilot dentro de las fórmulas, que deberán adaptarse al nuevo enfoque.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/17/excels-copilot-function-is-headed-for-the-recycle-bin/5288327",
+      "source": "The Register",
+      "social": {
+        "x": "Si usabas Copilot dentro de las celdas de Excel, prepárate: Microsoft lo retira y te manda al panel lateral.\n\n#Microsoft #Excel #Copilot #Office\nhttps://www.theregister.com/ai-and-ml/2026/08/17/excels-copilot-function-is-headed-for-the-recycle-bin/5288327",
+        "linkedin": "Si usabas Copilot dentro de las celdas de Excel, prepárate: Microsoft lo retira.\nLa compañía argumenta que el panel lateral es suficiente para la mayoría y que forma parte de una racionalización de las funciones de IA en Office. 𝗟𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗼𝗯𝗹𝗶𝗴𝗮 𝗮 𝗾𝘂𝗶𝗲𝗻𝗲𝘀 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗿𝗼𝗻 𝗖𝗼𝗽𝗶𝗹𝗼𝘁 𝗲𝗻 𝘀𝘂𝘀 𝗳ó𝗿𝗺𝘂𝗹𝗮𝘀 𝗮 𝗿𝗲𝗽𝗹𝗮𝗻𝘁𝗲𝗮𝗿 𝘀𝘂𝘀 𝗳𝗹𝘂𝗷𝗼𝘀 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼. Para los equipos que dependían de esa integración, el cambio puede suponer una pérdida de productividad.\n\n#Microsoft #Excel #Copilot #Office\n\nhttps://www.theregister.com/ai-and-ml/2026/08/17/excels-copilot-function-is-headed-for-the-recycle-bin/5288327"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "herramientas",
+      "title": "Cómo mejorar la utilización de GPU en clústeres de entrenamiento de IA, según Hugging Face",
+      "summary": "Un artículo del equipo de Hugging Face detalla cómo reordenar las tareas en un clúster de GPUs puede aumentar la utilización en 33 puntos porcentuales sin añadir hardware. Se basa en técnicas de planificación y asignación de recursos más eficientes.",
+      "why_it_matters": "Permite a las organizaciones exprimir al máximo su infraestructura de IA y reducir costes de computación.",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Un 33 % más de utilización de GPU sin comprar una sola tarjeta. La clave no es el hardware: es el orden de las tareas, según Hugging Face.\n\n#HuggingFace #GPU #MLOps #DeepLearning\nhttps://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+        "linkedin": "La mejora de utilización de GPU no siempre pasa por comprar más tarjetas.\nHugging Face publica una guía donde explica que 𝗿𝗲𝗼𝗿𝗱𝗲𝗻𝗮𝗿 𝗹𝗮𝘀 𝘁𝗮𝗿𝗲𝗮𝘀 del clúster puede sumar 33 puntos porcentuales de utilización sin añadir hardware. Para equipos que entrenan modelos, esto significa reducir costes de computación y retrasar inversiones en infraestructura.\n\n#HuggingFace #GPU #MLOps #DeepLearning\n\nhttps://huggingface.co/blog/Dharma-AI/gpu-management-pt2"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "herramientas",
+      "title": "Vetar código generado por IA sigue siendo difícil de justificar",
+      "summary": "Un desarrollador explica en un artículo por qué la revisión de código generado por IA a menudo no recibe la atención necesaria, lo que puede generar deuda técnica y errores ocultos. Propone un marco para evaluar el coste de la confianza en el código sintético.",
+      "why_it_matters": "Ayuda a los equipos de desarrollo a equilibrar la velocidad que da la IA con la necesidad de mantener la calidad y seguridad del código.",
+      "url": "https://amoffat.github.io/blog/vetting-burnout.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "El código que genera la IA se revisa menos de lo que debería. La deuda técnica que deja no aparece en el diff.\n\n#CodeReview #TechDebt #DevEx #SoftwareQuality\nhttps://amoffat.github.io/blog/vetting-burnout.html",
+        "linkedin": "El código que genera la IA se revisa menos de lo que debería.\nLa velocidad que promete la IA lleva a saltarse la revisión, pero el coste de la confianza ciega se paga en deuda técnica y errores ocultos. Un desarrollador propone un 𝗺𝗮𝗿𝗰𝗼 𝗽𝗮𝗿𝗮 𝗲𝘃𝗮𝗹𝘂𝗮𝗿 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗹𝗮 𝗰𝗼𝗻𝗳𝗶𝗮𝗻𝘇𝗮 𝗲𝗻 𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝘀𝗶𝗻𝘁é𝘁𝗶𝗰𝗼 y decidir cuándo merece la pena vetarlo. Para equipos que buscan equilibrar velocidad y calidad, es una lectura que conviene tener en el radar.\n\n#CodeReview #TechDebt #DevEx #SoftwareQuality\n\nhttps://amoffat.github.io/blog/vetting-burnout.html"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "herramientas",
+      "title": "Un flujo de trabajo práctico para el desarrollo asistido por LLMs",
+      "summary": "El artículo describe un proceso estructurado para integrar modelos de lenguaje en el desarrollo de software, desde la generación de especificaciones hasta la revisión de código y la implementación. Incluye consejos sobre cómo evitar errores comunes y aprovechar al máximo las capacidades de los LLMs.",
+      "why_it_matters": "Ofrece una guía concreta para desarrolladores que quieren adoptar la IA en su día a día de forma efectiva y segura.",
+      "url": "https://yogthos.net/posts/2026-08-17-llm-workflow.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "La mayoría de los desarrolladores usa LLMs como un autocompletado glorificado, no como un proceso. Este flujo va de la especificación a la revisión y evita los errores típicos.\n\n#LLMs #DevTools #CodeReview #IngenieríaDeSoftware\nhttps://yogthos.net/posts/2026-08-17-llm-workflow.html",
+        "linkedin": "La mayoría usa LLMs para programar, pero pocos tienen un flujo que aguante en producción.\n\nEste artículo describe un método completo: de la especificación a la implementación, con revisión de código y controles para evitar fallos comunes. 𝗘𝗹 𝘃𝗮𝗹𝗼𝗿 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗴𝗲𝗻𝗲𝗿𝗮𝗿 𝗺á𝘀 𝗰ó𝗱𝗶𝗴𝗼, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗿 𝗹𝗮 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝗰𝗶𝗮 𝗲𝗻 𝗰𝗮𝗱𝗮 𝗳𝗮𝘀𝗲 𝗰𝗼𝗻 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼. Para cualquier equipo que ya experimenta con estas herramientas, es una lectura práctica para dejar de improvisar y construir con método.\n\n#LLMs #DevTools #CodeReview #IngenieríaDeSoftware\n\nhttps://yogthos.net/posts/2026-08-17-llm-workflow.html"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "Genera vídeos cortos en HD a partir de un tema o palabra clave usando IA y flujos de trabajo automatizados. Ideal para crear contenido rápidamente sin tocar editores complejos.",
+      "language": "Python",
+      "stars": 106951,
+      "social": {
+        "x": "Alguien acaba de regalar un generador de vídeos cortos en HD con 106k estrellas. Escribes un tema y el flujo automatizado hace el vídeo, sin tocar editores.\n\n#MoneyPrinterTurbo #Python #OpenSource #GitHub\nhttps://github.com/harry0703/MoneyPrinterTurbo",
+        "linkedin": "ESCRIBE UN TEMA Y OBTÉN UN VÍDEO CORTO EN HD SIN TOCAR UN EDITOR.\n\nMoneyPrinterTurbo es un repo en Python que 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮 𝗹𝗮 𝗰𝗿𝗲𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝘃í𝗱𝗲𝗼𝘀 𝗰𝗼𝗿𝘁𝗼𝘀 a partir de una palabra clave. Sin tocar editores complejos: el flujo de trabajo se encarga de todo. Mientras herramientas comerciales te piden suscripción, este proyecto ya suma 106.951 estrellas en GitHub.\n\n→ Escribe un tema o palabra clave.\n→ El sistema aplica IA y flujos automatizados.\n→ Obtienes un vídeo corto en HD listo para publicar.\n→ Sin tocar editores complejos.\n\nGuarda este post para tenerlo a mano y pruébalo: el repo está abajo.\n\n#MoneyPrinterTurbo #Python #OpenSource #GitHub\n\nhttps://github.com/harry0703/MoneyPrinterTurbo"
+      }
+    },
+    {
+      "name": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "Herramienta open source de pentesting con IA que detecta y corrige vulnerabilidades en tus aplicaciones. Automatiza las pruebas de seguridad y facilita el trabajo de los equipos de desarrollo.",
+      "language": "Python",
+      "stars": 54605,
+      "social": {
+        "x": "Alguien acaba de regalar un pentester open source con IA que detecta y corrige vulnerabilidades en tus apps. 54k estrellas y sin cuota.\n\n#Strix #Python #OpenSource #GitHub\nhttps://github.com/usestrix/strix",
+        "linkedin": "ALGUIEN ACABA DE REGALAR UN PENTESTER OPEN SOURCE CON IA QUE DETECTA Y CORRIGE VULNERABILIDADES.\n\nMientras las suites comerciales cobran licencias por escanear tus aplicaciones, este proyecto da la vuelta al modelo: 𝗽𝗲𝗻𝘁𝗲𝘀𝘁𝗶𝗻𝗴 𝗰𝗼𝗻 𝗜𝗔 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲, en Python y ya con 54k estrellas en GitHub.\n\n→ Detecta vulnerabilidades en tus aplicaciones de forma automática.\n→ Corrige las vulnerabilidades encontradas, no solo las reporta.\n→ Automatiza las pruebas de seguridad, ahorrando tiempo a los equipos de desarrollo.\n→ Integración sencilla para equipos que quieren seguridad sin fricción.\n\nGuarda este post para cuando necesites un pentester open source. Te dejo el repo abajo.\n\n#Strix #Python #OpenSource #GitHub\n\nhttps://github.com/usestrix/strix"
+      }
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "Repositorio con 817 habilidades estructuradas de ciberseguridad para agentes de IA, mapeadas a frameworks como MITRE ATT&CK o NIST CSF 2.0. Funciona con Claude Code, GitHub Copilot, Cursor y más de 20 plataformas.",
+      "language": "Python",
+      "stars": 28668,
+      "social": {
+        "x": "Alguien libera 817 habilidades de ciberseguridad para agentes de IA, mapeadas a MITRE ATT&CK y NIST CSF 2.0. Compatible con Claude Code, Copilot, Cursor y 20+ plataformas. 28k estrellas.\n\n#Ciberseguridad #MITREATTACK #OpenSource #GitHub\nhttps://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+        "linkedin": "817 HABILIDADES DE CIBERSEGURIDAD PARA AGENTES DE IA, MAPEADAS A MITRE ATT&CK Y NIST CSF 2.0.\nLa mayoría de los agentes de IA improvisan en seguridad. Este repo les da un playbook estructurado, sin depender de suites comerciales cerradas.\n→ 𝟴𝟭𝟳 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀 𝗹𝗶𝘀𝘁𝗮𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿, organizadas y alineadas con frameworks reconocidos.\n→ Compatible con Claude Code, GitHub Copilot, Cursor y más de 20 plataformas.\n→ Escrito en Python, fácil de integrar en tu flujo de trabajo.\n→ 28.668 estrellas en GitHub avalan su utilidad.\nGuarda este post para tenerlo a mano. Te dejo el repo abajo.\n\n#Ciberseguridad #MITREATTACK #OpenSource #GitHub\n\nhttps://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+      }
+    },
+    {
+      "name": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "description": "Con cientos de modelos y proveedores, un solo comando te dice qué modelos de IA pueden ejecutarse en tu hardware. Ahorra tiempo al elegir el LLM adecuado para tu equipo.",
+      "language": "Rust",
+      "stars": 32504,
+      "social": {
+        "x": "🦀 Alguien acaba de crear un comando en Rust que te dice qué LLM puedes ejecutar en tu hardware. Y es open source.\n\n#llmfit #Rust #OpenSource #GitHub\nhttps://github.com/AlexsJones/llmfit",
+        "linkedin": "¿CUÁNTAS HORAS HAS PERDIDO PROBANDO LLMs QUE NO ARRANCAN EN TU HARDWARE?\n\nElegir qué modelo de lenguaje ejecutar en local es un dolor: cada proveedor publica requisitos distintos y acabas leyendo issues de GitHub en vez de programar. llmfit lo resuelve con un solo comando en Rust que analiza tu equipo y te dice qué modelos caben.\n\n→ Detecta CPU, GPU, memoria y disco.\n→ Compatible con cientos de modelos y proveedores.\n→ Instalable con cargo install y sin telemetría.\n→ Hecho en Rust: rápido, portable y sin dependencias pesadas.\n\n𝗨𝗻 𝘀𝗼𝗹𝗼 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝗽𝗮𝗿𝗮 𝘀𝗮𝗯𝗲𝗿 𝗾𝘂é 𝗟𝗟𝗠 𝗽𝘂𝗲𝗱𝗲𝘀 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿 𝗲𝗻 𝘁𝘂 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲.\n\nGuarda este post para la próxima vez que tengas que elegir modelo. Te dejo el repo abajo.\n\n#llmfit #Rust #OpenSource #GitHub\n\nhttps://github.com/AlexsJones/llmfit"
+      }
+    },
+    {
+      "name": "santifer/career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "description": "Busca empleo con IA de forma open source: escanea portales, puntúa ofertas con una rúbrica, adapta tu CV y hace seguimiento de candidaturas, todo desde tu CLI de codificación con IA. Muy práctico para automatizar la búsqueda de trabajo.",
+      "language": "JavaScript",
+      "stars": 65075,
+      "social": {
+        "x": "Alguien acaba de regalar un buscador de empleo open source que escanea portales, adapta tu CV y hace seguimiento desde la CLI. Y ya suma 65k estrellas.\n\n#OpenSource #JavaScript #CareerOps #GitHub\nhttps://github.com/santifer/career-ops",
+        "linkedin": "65.000 ESTRELLAS PARA UN ASISTENTE DE BÚSQUEDA DE EMPLEO OPEN SOURCE QUE TRABAJA DESDE LA CLI.\n\nBuscar trabajo sigue siendo un proceso manual: abrir portales, leer ofertas, ajustar el CV y hacer seguimiento. Este proyecto open source lo convierte en un flujo automatizado desde tu entorno de codificación, sin salir de tu terminal.\n\n→ Escanea portales de empleo y puntúa ofertas con una rúbrica.\n→ Adapta tu CV automáticamente según cada oferta.\n→ Hace seguimiento de candidaturas sin salir de la CLI.\n→ Integrado con asistentes de IA para trabajar con prompts.\n\nLa idea clave: 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗿 𝗹𝗮 𝗯ú𝘀𝗾𝘂𝗲𝗱𝗮 𝗱𝗲 𝗲𝗺𝗽𝗹𝗲𝗼 𝗰𝗼𝗻 𝗜𝗔 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝗱𝗲𝘀𝗱𝗲 𝘁𝘂 𝗖𝗟𝗜, 𝘀𝗶𝗻 𝗰𝗮𝗺𝗯𝗶𝗮𝗿 𝗱𝗲 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮. Te dejo el repo abajo. Guárdalo para tu próxima búsqueda.\n\n#OpenSource #JavaScript #CareerOps #GitHub\n\nhttps://github.com/santifer/career-ops"
+      }
+    }
+  ]
+}
