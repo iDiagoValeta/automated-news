@@ -1,0 +1,324 @@
+{
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T10:46:07.453Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "herramientas",
+      "title": "Unsloth lanza Dynamic 3.0 GGUF: modelos cuantizados con menos pérdida de calidad",
+      "summary": "El proyecto Unsloth ha presentado la tercera generación de sus GGUFs dinámicos, que prometen una mejor relación entre tamaño y calidad para ejecutar modelos locales. La novedad se integra en Unsloth Desktop para entrenar y ejecutar modelos sin conexión.",
+      "why_it_matters": "Permite a cualquiera correr LLMs potentes en una máquina doméstica con menos memoria y mejor rendimiento.",
+      "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+      "source": "Hacker News",
+      "social": {
+        "x": "La cuantización siempre fue un compromiso: tamaño a cambio de calidad. Unsloth acaba de reducir la pérdida con sus GGUFs Dynamic 3.0.\n\n#Unsloth #GGUF #LocalLLM\nhttps://unsloth.ai/docs/basics/dynamic-3.0-ggufs",
+        "linkedin": "La cuantización siempre fue el peaje para correr LLMs en local, pero Unsloth acaba de demostrar que ese peaje puede ser mucho más barato.\n\nDynamic 3.0 GGUF promete modelos más pequeños con una fidelidad muy cercana al original, y se integra en Unsloth Desktop para entrenar y ejecutar sin conexión. Para quien desarrolla con modelos locales, esto cambia las reglas: 𝗺𝗲𝗻𝗼𝘀 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗽𝗮𝗿𝗮 𝗺á𝘀 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 sin depender de la nube.\n\n#Unsloth #GGUF #LocalLLM\n\nhttps://unsloth.ai/docs/basics/dynamic-3.0-ggufs"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Ornith-1.5: un modelo open source que se mejora a sí mismo",
+      "summary": "La familia Ornith-1.5 amplía el enfoque de self-scaffolding a un bucle completo de auto-mejora: el modelo propone tareas, genera andamiajes específicos y produce soluciones para aprendizaje por refuerzo. Está disponible en tres escalas y en abierto.",
+      "why_it_matters": "Es un paso hacia modelos que generan sus propios datos de entrenamiento sin supervisión humana constante.",
+      "url": "https://ornith.ai/ornith_1_5.html",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Un modelo open source que se entrena a sí mismo? Ornith-1.5 ya lo hace.\n\n#Ornith #OpenSource #ReinforcementLearning\nhttps://ornith.ai/ornith_1_5.html",
+        "linkedin": "¿Y si el próximo gran avance en IA viniera de un modelo que se entrena a sí mismo?\n\nOrnith-1.5, open source, lleva la auto-mejora al siguiente nivel: propone tareas, genera scaffolding y produce soluciones para aprendizaje por refuerzo. 𝗘𝗹 𝗯𝘂𝗰𝗹𝗲 𝗱𝗲 𝗮𝘂𝘁𝗼-𝗺𝗲𝗷𝗼𝗿𝗮 𝘀𝗲 𝗰𝗶𝗲𝗿𝗿𝗮 𝘀𝗶𝗻 𝘀𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗶ó𝗻 𝗵𝘂𝗺𝗮𝗻𝗮 𝗰𝗼𝗻𝘀𝘁𝗮𝗻𝘁𝗲 y ya está disponible en tres escalas. Para los equipos que apuestan por open source, esto no es una curiosidad: es un paso hacia modelos que generan sus propios datos de entrenamiento.\n\n#Ornith #OpenSource #ReinforcementLearning\n\nhttps://ornith.ai/ornith_1_5.html"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "DFlash 2 acelera la generación de tokens hasta 3 veces sin cambiar el resultado",
+      "summary": "Inco AI ha publicado DFlash 2, la segunda generación de su drafter paralelo, que triplica la velocidad de decodificación autoregresiva. Ya hay versiones para Qwen3.8-27B y Muse Glimmer.",
+      "why_it_matters": "Reduce de forma notable el coste de inferencia en agentes, que consumen tokens de forma masiva.",
+      "url": "https://inco.ai/blog/dflash2",
+      "source": "Hacker News",
+      "social": {
+        "x": "Triplicar la velocidad de generación de tokens sin tocar el resultado ya es posible. Se llama DFlash 2.\n\n#IncoAI #DFlash2 #Qwen\nhttps://inco.ai/blog/dflash2",
+        "linkedin": "Generar tokens tres veces más rápido sin cambiar el resultado suena a promesa, pero DFlash 2 ya está aquí.\nInco AI ha publicado la segunda generación de su drafter paralelo, con versiones para Qwen3.8-27B y Muse Glimmer. 𝗟𝗮 𝗶𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗲𝗻 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮: si cada token cuesta menos, los agentes pueden razonar más tiempo por el mismo presupuesto. Esta es la clase de avance que baja los costes de verdad.\n\n#IncoAI #DFlash2 #Qwen\n\nhttps://inco.ai/blog/dflash2"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "OneCLI, un harness de agentes de IA sandboxed y open source para equipos",
+      "summary": "OneCLI, del batch de Y Combinator S26, ofrece un entorno aislado para que cada empleado de una empresa tenga su agente personal seguro. El código está disponible en GitHub.",
+      "why_it_matters": "Lleva los agentes de IA al trabajo diario de cualquier equipo sin exponer datos sensibles.",
+      "url": "https://github.com/onecli/onecli",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Un agente de IA para cada empleado sin exponer datos sensibles? OneCLI, del último batch de Y Combinator, lo resuelve con sandbox y open source.\n\n#OneCLI #YCombinator #OpenSource\nhttps://github.com/onecli/onecli",
+        "linkedin": "La adopción de agentes de IA en empresas choca siempre con el mismo muro: la fuga de datos.\n\nOneCLI, del último batch de Y Combinator, lo aborda con un sandbox para cada empleado, open source y disponible en GitHub. Cada agente vive en un entorno aislado, sin acceso a lo que no necesita, y el código abierto permite auditar qué hace exactamente. 𝗟𝗮 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗯𝗹𝗼𝗾𝘂𝗲𝗼 𝘆 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝘂𝗻𝗮 𝗼𝗽𝗰𝗶ó𝗻 𝗱𝗲 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶ó𝗻, lo que cambia la conversación para cualquier equipo que había decidido esperar.\n\n#OneCLI #YCombinator #OpenSource\n\nhttps://github.com/onecli/onecli"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Google llena Search y Gemini de herramientas de estudio para estudiantes",
+      "summary": "Google ha estrenado un centro de estudiantes en Gemini con funciones para reunir investigación, crear flashcards y hacer exámenes de práctica. También añade Deep Research en Gemini Live y sincroniza fechas de exámenes con Google Calendar.",
+      "why_it_matters": "Convierte a Gemini en un asistente de estudio práctico justo antes de la vuelta al cole.",
+      "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El aula de Gemini ya está abierta: investigación, flashcards y exámenes de práctica. La vuelta al cole se estudia con IA.\n\n#Gemini #Google #Estudiantes #Educación\nhttps://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini",
+        "linkedin": "¿Y si estudiar fuera más fácil con una IA que lo hace todo por ti? Google ha lanzado un centro de estudiantes en Gemini que combina investigación, creación de flashcards y exámenes de práctica, y además sincroniza tus fechas de examen con Google Calendar. 𝗚𝗲𝗺𝗶𝗻𝗶 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝘂𝗻 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝗱𝗲 𝗲𝘀𝘁𝘂𝗱𝗶𝗼 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗹 justo antes de la vuelta al cole, lo que cambia por completo la forma de prepararse para un examen. Para los estudiantes, ya no hace falta saltar entre cinco pestañas: todo el ciclo de estudio queda en una sola herramienta.\n\n#Gemini #Google #Estudiantes #Educación\n\nhttps://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Meta AI estrena app de escritorio para Mac",
+      "summary": "Meta ha lanzado una aplicación nativa de Meta AI para macOS, pensada para facilitar el uso del asistente en el trabajo. Con esta movida, la compañía quiere acercar sus herramientas de IA a entornos profesionales.",
+      "why_it_matters": "Amplía los escenarios de uso del asistente de Meta más allá del navegador y el móvil.",
+      "url": "https://www.engadget.com/2240154/meta-ai-now-has-a-dedicated-desktop-app-for-mac",
+      "source": "Engadget",
+      "social": {
+        "x": "Mientras todos miran a ChatGPT, Meta AI se cuela en el Mac y ahora es una app nativa de escritorio.\n\n#MetaAI #macOS\nhttps://www.engadget.com/2240154/meta-ai-now-has-a-dedicated-desktop-app-for-mac",
+        "linkedin": "Mientras el foco de la IA generativa está en los chatbots de consumo, Meta acaba de mover ficha en el terreno profesional: su asistente Meta AI llega como app nativa para macOS.\nHasta ahora el asistente vivía en el móvil y en el navegador, pero con una aplicación de escritorio la compañía apunta directamente a 𝗹𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝘃𝗶𝗱𝗮𝗱 𝗱𝗶𝗮𝗿𝗶𝗮 𝗱𝗲 𝗾𝘂𝗶𝗲𝗻 𝘁𝗿𝗮𝗯𝗮𝗷𝗮 𝗳𝗿𝗲𝗻𝘁𝗲 𝗮𝗹 𝗠𝗮𝗰. La jugada no es casual: si quieres que un asistente se convierta en parte de tu flujo de trabajo, necesita estar donde tú trabajas, no en una pestaña más. Veremos si esta apuesta convence a los equipos que ya están atados al ecosistema de OpenAI o Google.\n\n#MetaAI #macOS\n\nhttps://www.engadget.com/2240154/meta-ai-now-has-a-dedicated-desktop-app-for-mac"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Alexa+ ya es gratis en todos los Fire TV de Estados Unidos",
+      "summary": "Amazon ha liberado su asistente con IA Alexa+ en todos los Fire TV compatibles, sin necesidad de suscripción a Prime. La actualización se aplica automáticamente a los usuarios del país.",
+      "why_it_matters": "Pone la IA conversacional de Amazon al alcance de millones de hogares sin coste adicional.",
+      "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Fin a la suscripción: Alexa+ llega gratis a todos los Fire TV de EE. UU. La IA conversacional de Amazon se actualiza sola, sin Prime.\n\n#Alexa #FireTV #Amazon\nhttps://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required",
+        "linkedin": "Alexa+ ya no pide Prime en Fire TV: Amazon la ha liberado gratis en EE. UU. La actualización automática lleva la IA conversacional al salón sin fricción. El movimiento 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗮 𝗔𝗹𝗲𝘅𝗮+ 𝗲𝗻 𝗹𝗮 𝗽𝘂𝗲𝗿𝘁𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗱𝗲 𝗹𝗮 𝗜𝗔 𝗲𝗻 𝗰𝗮𝘀𝗮 y obliga a reaccionar a quien aún cobra por funciones similares.\n\n#Alexa #FireTV #Amazon\n\nhttps://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "Go 1.27 ya está disponible: estas son sus principales novedades",
+      "summary": "El lenguaje de Google publica su versión 1.27 con mejoras de rendimiento y nuevas funcionalidades para desarrolladores. El anuncio oficial incluye un repaso interactivo de los cambios.",
+      "why_it_matters": "Go sigue siendo una de las opciones más sólidas para backend y herramientas de infraestructura.",
+      "url": "https://go.dev/blog/go1.27",
+      "source": "Lobsters",
+      "social": {
+        "x": "Go 1.27 ya está aquí. Rendimiento, nuevas funciones y un repaso interactivo de todo lo que cambia. ¿Merece la pena actualizar?\n\n#GoLang #OpenSource #Backend\nhttps://go.dev/blog/go1.27",
+        "linkedin": "Go 1.27 no es una actualización de trámite: toca rendimiento y añade funciones que los equipos de backend llevaban tiempo pidiendo. Google ha acompañado el lanzamiento con un repaso interactivo que evita leer un changelog entero. Para quien mantiene servicios en producción, el punto clave son 𝗹𝗮𝘀 𝗺𝗲𝗷𝗼𝗿𝗮𝘀 𝗱𝗲 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗾𝘂𝗲 𝗽𝘂𝗲𝗱𝗲𝗻 𝗿𝗲𝗱𝘂𝗰𝗶𝗿 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗰𝗼𝗺𝗽𝗶𝗹𝗮𝗿 𝘆 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿 𝘀𝗶𝗻 𝘁𝗼𝗰𝗮𝗿 𝗹𝗮 𝗹ó𝗴𝗶𝗰𝗮. Si trabajas con Go, esta versión justifica una hora de pruebas.\n\n#GoLang #OpenSource #Backend\n\nhttps://go.dev/blog/go1.27"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "SvelteKit 3 presiona a Next.js con RPC integradas",
+      "summary": "El framework web SvelteKit llega a su versión 3 con un enfoque radical para RPC: funciones remotas con tipos seguros directamente en los componentes de la página. Simplifica la comunicación entre cliente y servidor sin necesidad de capas extra.",
+      "why_it_matters": "Facilita construir aplicaciones web complejas con menos código y más seguridad de tipos.",
+      "url": "https://www.theregister.com/devops/2026/08/19/sveltekit-3-puts-heat-on-nextjs-with-radical-approach-to-rpcs/5289925",
+      "source": "The Register",
+      "social": {
+        "x": "SvelteKit 3 llega con RPC de tipos seguros dentro de tus componentes. ¿El fin de las capas de API? Así presiona a Next.js.\n\n#SvelteKit #RPC #NextJS #TypeScript\nhttps://www.theregister.com/devops/2026/08/19/sveltekit-3-puts-heat-on-nextjs-with-radical-approach-to-rpcs/5289925",
+        "linkedin": "Next.js ya tiene un rival más serio en el ecosistema JS. SvelteKit 3 llega con RPC integradas y tipos seguros en los componentes de página: se acabó escribir capas de API a mano. La propuesta es simple, 𝗺𝗲𝗻𝗼𝘀 𝗰ó𝗱𝗶𝗴𝗼 𝗽𝗮𝗿𝗮 𝗰𝗼𝗻𝗲𝗰𝘁𝗮𝗿 𝗰𝗹𝗶𝗲𝗻𝘁𝗲 𝘆 𝘀𝗲𝗿𝘃𝗶𝗱𝗼𝗿 𝘀𝗶𝗻 𝘀𝗮𝗰𝗿𝗶𝗳𝗶𝗰𝗮𝗿 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗱𝗲 𝘁𝗶𝗽𝗼𝘀. Para equipos que valoran la velocidad de desarrollo, esto puede marcar la diferencia.\n\n#SvelteKit #RPC #NextJS #TypeScript\n\nhttps://www.theregister.com/devops/2026/08/19/sveltekit-3-puts-heat-on-nextjs-with-radical-approach-to-rpcs/5289925"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Liquid AI publica checkpoints cuantizados de LFM2.5 con destilación consciente de cuantización",
+      "summary": "Liquid AI ha subido a Hugging Face los pesos Q4_0 de sus modelos LFM2.5, obtenidos mediante destilación que tiene en cuenta la cuantización desde el entrenamiento. La idea es que la versión comprimida pierda menos calidad que una cuantización a posteriori.",
+      "why_it_matters": "Ofrece modelos más ligeros y precisos para correr en hardware modesto.",
+      "url": "https://huggingface.co/blog/LiquidAI/qad",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Cuantizar suele costar calidad. Liquid AI integra la cuantización en el entrenamiento y publica LFM2.5 Q4_0.\n\n#LiquidAI #LFM2.5 #HuggingFace\nhttps://huggingface.co/blog/LiquidAI/qad",
+        "linkedin": "¿Y si cuantizar un modelo no fuera sinónimo de perder calidad? Liquid AI acaba de publicar en Hugging Face los pesos Q4_0 de LFM2.5, pero no son una cuantización a posteriori: los han obtenido con destilación consciente de cuantización, es decir, teniendo en cuenta la compresión desde el entrenamiento. El resultado es una versión ligera que 𝗰𝗼𝗻𝘀𝗲𝗿𝘃𝗮 𝗺𝘂𝗰𝗵𝗼 𝗺𝗲𝗷𝗼𝗿 𝗹𝗮 𝗽𝗿𝗲𝗰𝗶𝘀𝗶ó𝗻 que los métodos habituales. Para desplegar modelos en hardware con pocos recursos, esto es un paso importante.\n\n#LiquidAI #LFM2.5 #HuggingFace\n\nhttps://huggingface.co/blog/LiquidAI/qad"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "El robotaxi Waymo Ojai se abre a todos los pasajeros en tres ciudades",
+      "summary": "La nueva generación de robotaxis de Waymo, más barata, ya está disponible para cualquier usuario en San Francisco, Phoenix y Los Ángeles. Es un paso clave en la estrategia de la compañía para llegar a escala y ser rentable.",
+      "why_it_matters": "Acerca el transporte autónomo al público general, no solo a listas de espera selectas.",
+      "url": "https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Se acabó la lista de espera: el robotaxi más barato de Waymo ya está disponible para todos en tres ciudades.\n\n#Waymo #Robotaxi #ConducciónAutónoma\nhttps://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities",
+        "linkedin": "El robotaxi de Waymo ya no es para una élite: ahora cualquiera puede pedirlo en tres ciudades.\n\nLa nueva generación de vehículos, más barata, permite abrir el servicio al público general. Que Waymo elimine la lista de espera demuestra que 𝗹𝗮 𝗰𝗼𝗻𝗱𝘂𝗰𝗰𝗶ó𝗻 𝗮𝘂𝘁ó𝗻𝗼𝗺𝗮 𝗵𝗮 𝗽𝗮𝘀𝗮𝗱𝗼 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁𝗼 𝗮 𝘂𝗻 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼 𝗱𝗲 𝘁𝗿𝗮𝗻𝘀𝗽𝗼𝗿𝘁𝗲 𝗰𝗼𝗻 𝗲𝘀𝗰𝗮𝗹𝗮 𝗿𝗲𝗮𝗹.\n\n#Waymo #Robotaxi #ConducciónAutónoma\n\nhttps://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "industria",
+      "title": "OpenAI refuerza la privacidad con Zero Data Retention para modelos de frontera",
+      "summary": "OpenAI ha confirmado que mantiene la política de Zero Data Retention para clientes de API elegibles y ha presentado Private Safety Processing, un sistema que permite aplicar salvaguardas sin comprometer la privacidad de los datos. La medida busca competir en el terreno del dato empresarial.",
+      "why_it_matters": "Da a las empresas una razón más para usar los modelos de OpenAI sin temor a fugas de información.",
+      "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "source": "OpenAI News",
+      "social": {
+        "x": "OpenAI acaba de eliminar el mayor freno para las empresas: Zero Data Retention en sus modelos de frontera.\n\n#OpenAI #Privacidad #API\nhttps://openai.com/index/offering-zero-data-retention-for-frontier-models",
+        "linkedin": "OpenAI ha convertido la privacidad en su mejor argumento comercial.\nLa compañía confirma su política de Zero Data Retention para clientes de API elegibles y presenta Private Safety Processing, un sistema que permite aplicar salvaguardas sin que nadie, ni OpenAI, tenga que ver tus datos. 𝗟𝗮 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗲𝗹 𝗻𝘂𝗲𝘃𝗼 𝗰𝗮𝗺𝗽𝗼 𝗱𝗲 𝗯𝗮𝘁𝗮𝗹𝗹𝗮 𝗱𝗲 𝗹𝗮 𝗜𝗔 𝗲𝗺𝗽𝗿𝗲𝘀𝗮𝗿𝗶𝗮𝗹: no basta con que el modelo sea potente, también debe ser discreto. Para cualquier empresa que había descartado la adopción de IA por miedo a filtrar información, esta noticia merece una segunda mirada.\n\n#OpenAI #Privacidad #API\n\nhttps://openai.com/index/offering-zero-data-retention-for-frontier-models"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "OpenAI frena parte de su desarrollo de IA para reforzar la seguridad",
+      "summary": "La compañía ha ralentizado el ritmo de algunos entrenamientos, incluyendo una pausa de dos semanas en el aprendizaje por refuerzo de sus últimos modelos y un retraso en su mayor ejecución de RL planificada. El movimiento se produce ante el escrutinio público y la competencia creciente.",
+      "why_it_matters": "Marca un precedente de autorregulación en un sector acostumbrado a correr más que a frenar.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "source": "The Verge",
+      "social": {
+        "x": "OpenAI pisa el freno: dos semanas de pausa en el RL de sus últimos modelos y retraso en su mayor ejecución de RL planificada. Un gesto inédito en un sector que no conoce la marcha atrás.\n\n#OpenAI #ReinforcementLearning #AISafety\nhttps://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+        "linkedin": "En un sector donde la regla es correr, OpenAI acaba de pisar el freno. La compañía ha pausado dos semanas el aprendizaje por refuerzo de sus últimos modelos y ha retrasado su mayor ejecución de RL planificada, según The Verge. No es un gesto simbólico: se produce bajo un escrutinio público creciente y con la competencia pisando los talones. 𝗙𝗿𝗲𝗻𝗮𝗿 𝘁𝗮𝗺𝗯𝗶é𝗻 𝗲𝘀 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗮, y este movimiento puede marcar un precedente en un sector que solo sabe acelerar.\n\n#OpenAI #ReinforcementLearning #AISafety\n\nhttps://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "La comunidad encuentra en horas cómo saltarse las marcas de agua invisibles de Claude",
+      "summary": "Tras el anuncio de Anthropic de incluir marcas de agua invisibles en el contenido generado por IA para cumplir la normativa europea, varios desarrolladores han compartido métodos para eliminarlas o evitarlas. Las soluciones circulan abiertamente en foros.",
+      "why_it_matters": "Pone en duda la eficacia real del watermarking como herramienta de transparencia y atribución.",
+      "url": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks",
+      "source": "Wired",
+      "social": {
+        "x": "Las marcas de agua invisibles de Claude han durado menos de un día. La comunidad ya ha compartido métodos para evitarlas.\n\n#Anthropic #Claude #Watermarking\nhttps://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks",
+        "linkedin": "Las marcas de agua invisibles de Anthropic para Claude se han saltado en cuestión de horas.\n\nEl anuncio de este sistema de atribución buscaba cumplir la normativa europea y dar transparencia sobre el contenido generado por IA. Pero los desarrolladores ya han publicado métodos para eliminarlas o esquivarlas, lo que pone en duda 𝗹𝗮 𝗲𝗳𝗶𝗰𝗮𝗰𝗶𝗮 𝗿𝗲𝗮𝗹 𝗱𝗲𝗹 𝘄𝗮𝘁𝗲𝗿𝗺𝗮𝗿𝗸𝗶𝗻𝗴 𝗰𝗼𝗺𝗼 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗱𝗲 𝗰𝗼𝗻𝘁𝗿𝗼𝗹. Si una medida de transparencia se neutraliza tan rápido, ¿sirve para algo más que para la foto?\n\n#Anthropic #Claude #Watermarking\n\nhttps://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Dos crates de Rust comprometidos en un ataque a la cadena de suministro",
+      "summary": "La crate arrayref 0.3.10 incluye una dependencia maliciosa, proc-macro1 1.0.107, que descarga y ejecuta un binario remoto durante la compilación. El análisis técnico detalla la línea temporal, los IOCs y cómo mitigar el riesgo.",
+      "why_it_matters": "Es un recordatorio de que los ataques a la cadena de suministro de software siguen siendo una amenaza real para el ecosistema Rust.",
+      "url": "https://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack",
+      "source": "Lobsters",
+      "social": {
+        "x": "⚠️ Ojo si usas arrayref 0.3.10: se ha colado una dependencia que ejecuta un binario remoto durante la compilación.\n\n#Rust #SupplyChain #OpenSource\nhttps://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack",
+        "linkedin": "La cadena de suministro de Rust vuelve a estar en el punto de mira. Esta semana se ha descubierto que la crate arrayref 0.3.10, muy utilizada, incluye una dependencia maliciosa llamada proc-macro1 que descarga y ejecuta un binario remoto en cuanto compilas. El incidente recuerda que 𝗹𝗮 𝗰𝗼𝗻𝗳𝗶𝗮𝗻𝘇𝗮 𝗶𝗺𝗽𝗹í𝗰𝗶𝘁𝗮 𝗲𝗻 𝗽𝗮𝗾𝘂𝗲𝘁𝗲𝘀 𝗽𝗼𝗽𝘂𝗹𝗮𝗿𝗲𝘀 𝗲𝘀 𝘂𝗻 𝗿𝗶𝗲𝘀𝗴𝗼 𝗿𝗲𝗮𝗹 y que toca auditar dependencias, revisar los indicadores de compromiso (IOCs) y exigir más transparencia a los registros. Quien haya usado esta versión debería tratar el entorno como potencialmente comprometido.\n\n#Rust #SupplyChain #OpenSource\n\nhttps://www.stepsecurity.io/blog/arrayref-rust-crate-supply-chain-attack"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "lanzamientos",
+      "title": "Flock prueba una herramienta de IA que identifica conductores por sus hábitos al volante",
+      "summary": "La empresa de cámaras de vigilancia Flock está probando un sistema que va más allá de leer matrículas y trata de reconocer a las personas por su forma de conducir. Las pruebas generan ya críticas por su impacto en la privacidad.",
+      "why_it_matters": "Amplía la vigilancia automatizada a un nivel que muchos consideran desproporcionado.",
+      "url": "https://www.engadget.com/2240069/flock-testing-new-ai-police-tool-tracks-identifies-drivers",
+      "source": "Engadget",
+      "social": {
+        "x": "¿Y si una cámara de tráfico supiera quién eres sin ver tu cara? Flock está probando IA que identifica conductores por cómo conducen.\n\n#Flock #Privacidad #Vigilancia\nhttps://www.engadget.com/2240069/flock-testing-new-ai-police-tool-tracks-identifies-drivers",
+        "linkedin": "Leer matrículas ya no parece suficiente: Flock está probando un sistema que reconoce a los conductores por sus hábitos al volante.\nLa promesa es mejorar la seguridad, pero el coste es una vigilancia que no necesita ver tu rostro para saber quién eres. 𝗘𝗹 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝘁𝗲𝗰𝗻𝗼𝗹𝗼𝗴í𝗮, 𝘀𝗶𝗻𝗼 𝗹𝗮 𝗳𝗮𝗹𝘁𝗮 𝗱𝗲 𝗹í𝗺𝗶𝘁𝗲𝘀 𝗰𝗹𝗮𝗿𝗼𝘀 𝘀𝗼𝗯𝗿𝗲 𝗰ó𝗺𝗼 𝘀𝗲 𝘂𝘀𝗮. Porque si se normaliza, cada desplazamiento se convierte en una huella identificable, y eso cambia las reglas del juego.\n\n#Flock #Privacidad #Vigilancia\n\nhttps://www.engadget.com/2240069/flock-testing-new-ai-police-tool-tracks-identifies-drivers"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "investigacion",
+      "title": "Google usará IA para evitar las estelas de condensación de los aviones",
+      "summary": "El proyecto Operación Blue Skies, en colaboración con el Gobierno británico, modificará sutilmente rutas de vuelo para probar si la IA puede reducir las estelas de condensación y su efecto climático. Es una prueba controlada a gran escala.",
+      "why_it_matters": "Ataca una fuente importante de calentamiento de la aviación con una solución basada en datos.",
+      "url": "https://www.engadget.com/2240125/google-is-trying-to-solve-contrails-with-ai",
+      "source": "Engadget",
+      "social": {
+        "x": "Un avión deja una estela que calienta el planeta. Google y el Gobierno británico probarán a gran escala si la IA puede ajustar las rutas de vuelo para no crearlas.\n\n#Google #Aviación #InteligenciaArtificial\nhttps://www.engadget.com/2240125/google-is-trying-to-solve-contrails-with-ai",
+        "linkedin": "Las estelas de condensación son el efecto menos conocido de la aviación, pero calientan el clima tanto como el CO2.\nGoogle y el Gobierno británico han puesto en marcha el proyecto Operación Blue Skies, una prueba controlada a gran escala que modificará sutilmente las rutas de vuelo para comprobar si la IA puede reducirlas. Si los datos acompañan, 𝗹𝗮 𝗮𝘃𝗶𝗮𝗰𝗶ó𝗻 𝘁𝗲𝗻𝗱𝗿á 𝘂𝗻𝗮 𝗽𝗮𝗹𝗮𝗻𝗰𝗮 𝗰𝗹𝗶𝗺á𝘁𝗶𝗰𝗮 𝗶𝗻𝗺𝗲𝗱𝗶𝗮𝘁𝗮 𝘀𝗶𝗻 𝗰𝗮𝗺𝗯𝗶𝗮𝗿 𝗱𝗲 𝗮𝘃𝗶ó𝗻 𝗻𝗶 𝗱𝗲 𝗰𝗼𝗺𝗯𝘂𝘀𝘁𝗶𝗯𝗹𝗲.\n\n#Google #Aviación #InteligenciaArtificial\n\nhttps://www.engadget.com/2240125/google-is-trying-to-solve-contrails-with-ai"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Meta ha estado aceptando anuncios de una app que desnuda a mujeres políticas con IA",
+      "summary": "Meta ha permitido anuncios de una aplicación capaz de generar desnudos falsos de figuras públicas, incluyendo a una política estadounidense mediante deepfake. El caso ha reavivado las críticas a sus sistemas de moderación de contenido.",
+      "why_it_matters": "Evidencia los fallos de moderación de Meta ante contenido generado con IA que vulnera a mujeres.",
+      "url": "https://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians",
+      "source": "Ars Technica",
+      "social": {
+        "x": "¿Meta combate los deepfakes? Su plataforma ha estado aceptando anuncios de una app que desnuda a mujeres políticas.\n\n#Deepfakes #Meta #Privacidad\nhttps://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians",
+        "linkedin": "Mientras Meta dice haber reforzado sus políticas contra los deepfakes, su plataforma ha estado aceptando anuncios de una app que desnuda a mujeres políticas con IA.\n\nLa investigación de Ars Technica muestra que 𝗹𝗮 𝗺𝗼𝗱𝗲𝗿𝗮𝗰𝗶ó𝗻 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗱𝗮 𝘀𝗶𝗴𝘂𝗲 𝗳𝗮𝗹𝗹𝗮𝗻𝗱𝗼 𝗮𝗻𝘁𝗲 𝗲𝗹 𝗮𝗯𝘂𝘀𝗼 𝗱𝗲 𝗹𝗮 𝗜𝗔 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗮 y que la app se promocionaba abiertamente en sus redes. Más allá del repaso ético, es una advertencia para quienes confían en que la tecnología puede moderar sola: la vigilancia humana sigue siendo imprescindible.\n\n#Deepfakes #Meta #Privacidad\n\nhttps://arstechnica.com/ai/2026/08/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "LandSpace logra el primer aterrizaje exitoso de su cohete reutilizable",
+      "summary": "La empresa china LandSpace ha conseguido posar la primera etapa de su lanzador tras un vuelo de prueba, siete meses después del accidente de diciembre. El cohete volverá a usarse en otro vuelo.",
+      "why_it_matters": "China acelera en la carrera por los cohetes reutilizables y presiona a SpaceX y sus rivales.",
+      "url": "https://www.theregister.com/offbeat/2026/08/20/china-marches-towards-re-usable-rockets-with-successful-first-stage-landing/5290095",
+      "source": "The Register",
+      "social": {
+        "x": "Siete meses después de un accidente, LandSpace aterriza su primera etapa. China ya tiene cohete reutilizable.\n\n#LandSpace #CohetesReutilizables #ReusableRockets\nhttps://www.theregister.com/offbeat/2026/08/20/china-marches-towards-re-usable-rockets-with-successful-first-stage-landing/5290095",
+        "linkedin": "Siete meses después del accidente de diciembre, LandSpace ha conseguido aterrizar la primera etapa de su cohete en una prueba. Es el primer aterrizaje vertical de una empresa china, y 𝗰𝗶𝗲𝗿𝗿𝗮 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲 𝗹𝗮 𝗯𝗿𝗲𝗰𝗵𝗮 𝘁é𝗰𝗻𝗶𝗰𝗮 𝗰𝗼𝗻 𝗦𝗽𝗮𝗰𝗲𝗫. Todavía falta demostrar que esa etapa puede volar varias veces, pero el camino ya está allanado. Para la industria, este hito significa que el reutilizable deja de ser un monopolio estadounidense y que China se convierte en un competidor serio en el mercado de lanzamientos.\n\n#LandSpace #CohetesReutilizables #ReusableRockets\n\nhttps://www.theregister.com/offbeat/2026/08/20/china-marches-towards-re-usable-rockets-with-successful-first-stage-landing/5290095"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "OpenRouter se une a Stripe: mismo producto, nueva casa",
+      "summary": "OpenRouter ha anunciado que se integra en Stripe manteniendo el nombre, el producto y la hoja de ruta actuales. El enrutamiento de modelos seguirá decidiéndose por la comunidad y no cambiará el servicio.",
+      "why_it_matters": "La infraestructura de enrutamiento de modelos que usan muchos proyectos de IA pasa a manos de un gigante de pagos, con impacto en todo el ecosistema.",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+      "source": "Hacker News",
+      "social": {
+        "x": "Stripe se hace con OpenRouter, pero no para cambiarlo: mismo producto, misma hoja de ruta. ¿Qué significa para la independencia del enrutamiento de modelos?\n\n#OpenRouter #Stripe\nhttps://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+        "linkedin": "OpenRouter, el enrutador de modelos que muchos proyectos de IA usan sin pensarlo, se integra en Stripe. El producto, el nombre y la hoja de ruta se mantienen, y la comunidad seguirá decidiendo qué modelos se enrutan. Pero que un gigante de pagos controle esta infraestructura crítica cambia el ecosistema: 𝗹𝗮 𝗶𝗻𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮 𝗱𝗲𝗹 𝗲𝗻𝗿𝘂𝘁𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗮𝗵𝗼𝗿𝗮 𝗱𝗲𝗽𝗲𝗻𝗱𝗲 𝗱𝗲 𝗹𝗮 𝗮𝗴𝗲𝗻𝗱𝗮 𝗱𝗲 𝗦𝘁𝗿𝗶𝗽𝗲. Para los desarrolladores, la pregunta no es si el servicio sigue funcionando, sino qué pasa cuando Stripe decida priorizar sus propios intereses.\n\n#OpenRouter #Stripe\n\nhttps://openrouter.ai/blog/announcements/openrouter-is-joining-stripe"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "Framework de habilidades agénticas y metodología de desarrollo que integra IA en el flujo de trabajo. Ideal para equipos que quieran aprovechar agentes en sus proyectos.",
+      "language": "Shell",
+      "stars": 274605,
+      "social": {
+        "x": "Alguien acaba de crear un framework para que los agentes de IA trabajen en tu flujo. 274.000 estrellas y cero paywall.\n\n#Superpowers #OpenSource #GitHub\nhttps://github.com/obra/superpowers",
+        "linkedin": "ALGUIEN HA CONSEGUIDO QUE LOS AGENTES DE IA TRABAJEN EN TU FLUJO DE DESARROLLO.\n\nEste framework open source, con 274.000 estrellas en GitHub, no es una librería más. Es una metodología para que los agentes de IA se integren de verdad en tu día a día.\n\n→ Define habilidades agénticas para cada tarea.\n→ Se integra en tu flujo de trabajo sin cambiar de herramientas.\n→ Pensado para equipos, no solo para desarrolladores individuales.\n→ El respaldo de la comunidad es abrumador.\n\n𝗟𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗜𝗔 𝗽𝘂𝗲𝗱𝗲𝗻 𝘀𝗲𝗿 𝗽𝗮𝗿𝘁𝗲 𝗮𝗰𝘁𝗶𝘃𝗮 𝗱𝗲 𝘁𝘂 𝗳𝗹𝘂𝗷𝗼 𝗱𝗲 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗼. Si quieres llevarlo a la práctica, te dejo el repo abajo. Guárdalo para tu próximo proyecto.\n\n#Superpowers #OpenSource #GitHub\n\nhttps://github.com/obra/superpowers"
+      }
+    },
+    {
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Colección de habilidades para ingenieros que trabajan con agentes de IA, extraídas del directorio .agents de Matt Pocock. Muy útil para configurar asistentes de código.",
+      "language": "Shell",
+      "stars": 224650,
+      "social": {
+        "x": "224.650 estrellas para un repo con las skills que Matt Pocock usa en sus agentes de IA. Tu editor de código te lo agradecerá.\n\n#OpenSource #GitHub #AgentesDeCodigo #MattPocock\nhttps://github.com/mattpocock/skills",
+        "linkedin": "¿QUIERES QUE TUS AGENTES DE IA TRABAJEN COMO LOS DE MATT POCOCK? Entonces este repo te interesa.\n\nMatt Pocock ha publicado el directorio .agents con las skills que usa a diario. No es un curso, es 𝗹𝗮 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶ó𝗻 𝗿𝗲𝗮𝗹 de un ingeniero puntero, y ya suma 224.650 estrellas en GitHub.\n\n→ Skills listas para integrar en tu directorio .agents.\n→ Optimizadas para asistentes de código como Cursor o Copilot.\n→ Basadas en el flujo real de Matt Pocock, sin humo.\n\nGuarda este post para no perderlo. El enlace está abajo.\n\n#OpenSource #GitHub #AgentesDeCodigo #MattPocock\n\nhttps://github.com/mattpocock/skills"
+      }
+    },
+    {
+      "name": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Motor de trading de producción escrito en Rust, con arquitectura determinista y orientada a eventos. Perfecto para desarrollar sistemas de trading de alta frecuencia.",
+      "language": "Rust",
+      "stars": 26632,
+      "social": {
+        "x": "Alguien acaba de regalar el motor de trading de alta frecuencia que usan en producción. 26k estrellas, Rust puro y cero coste de licencia.\n\n#NautilusTrader #Rust #OpenSource #GitHub\nhttps://github.com/nautechsystems/nautilus_trader",
+        "linkedin": "ALGUIEN ACABA DE ABRIR EL MOTOR DE TRADING QUE LAS EMPRESAS PAGAN POR USAR.\n\nNautilus Trader es un motor de trading de producción escrito en Rust, con arquitectura determinista y orientada a eventos. Vamos, lo que necesitas para sistemas de alta frecuencia sin pagar licencias de seis cifras.\n\n→ Arquitectura determinista y orientada a eventos, perfecta para backtesting y ejecución en vivo.\n→ Escrito en Rust, con el rendimiento que exige el HFT.\n→ Integración con exchanges y brokers para producción real.\n→ Más de 26.000 estrellas en GitHub y una comunidad activa.\n\n𝗟𝗮 𝗶𝗱𝗲𝗮 𝗰𝗹𝗮𝘃𝗲: 𝘆𝗮 𝗻𝗼 𝗻𝗲𝗰𝗲𝘀𝗶𝘁𝗮𝘀 𝘂𝗻 𝗳𝗼𝗻𝗱𝗼 𝗱𝗲 𝗶𝗻𝘃𝗲𝗿𝘀𝗶ó𝗻 𝗽𝗮𝗿𝗮 𝘁𝗲𝗻𝗲𝗿 𝗹𝗮 𝗺𝗶𝘀𝗺𝗮 𝘁𝗲𝗰𝗻𝗼𝗹𝗼𝗴í𝗮 𝗾𝘂𝗲 𝗲𝗹𝗹𝗼𝘀.\nTe dejo el repo abajo, guárdalo para cuando lo necesites.\n\n#NautilusTrader #Rust #OpenSource #GitHub\n\nhttps://github.com/nautechsystems/nautilus_trader"
+      }
+    },
+    {
+      "name": "marceloprates/prettymaps",
+      "url": "https://github.com/marceloprates/prettymaps",
+      "description": "Librería de Python para dibujar mapas bonitos a partir de datos de OpenStreetMap. Combina osmnx, matplotlib y shapely para generar visualizaciones personalizadas.",
+      "language": "Python",
+      "stars": 13429,
+      "social": {
+        "x": "🗺️ Olvídate de los mapas sosos: prettymaps dibuja planos dignos de enmarcar con datos de OpenStreetMap. 13k estrellas y cero paywall.\n\n#prettymaps #Python #OpenSource #GitHub\nhttps://github.com/marceloprates/prettymaps",
+        "linkedin": "¿QUIERES MAPAS BONITOS SIN PAGAR NADA?\n\nPues deja de depender de Google Maps y dale una oportunidad a prettymaps, la librería de Python que convierte datos de OpenStreetMap en 𝗺𝗮𝗽𝗮𝘀 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝘇𝗮𝗱𝗼𝘀 𝗱𝗶𝗴𝗻𝗼𝘀 𝗱𝗲 𝗲𝗻𝗺𝗮𝗿𝗰𝗮𝗿. Ya suma 13.429 estrellas y es 100% open source.\n\n→ Combina osmnx, matplotlib y shapely para generar visualizaciones únicas.\n→ Personaliza colores, estilos y elementos hasta que el mapa tenga tu firma.\n→ Exporta planos en alta resolución para imprimirlos o usarlos en tus proyectos.\n→ Sin costes, sin licencias, sin letra pequeña.\n\nTe dejo el repo abajo. Guárdalo para cuando quieras un mapa diferente.\n\n#prettymaps #Python #OpenSource #GitHub\n\nhttps://github.com/marceloprates/prettymaps"
+      }
+    },
+    {
+      "name": "immich-app/immich",
+      "url": "https://github.com/immich-app/immich",
+      "description": "Solución autohospedada de alto rendimiento para gestionar fotos y vídeos. Alternativa a Google Photos que te permite tener control total sobre tus recuerdos.",
+      "language": "TypeScript",
+      "stars": 112110,
+      "social": {
+        "x": "Alguien acaba de construir la alternativa a Google Photos que se aloja en tu propio servidor. 112k estrellas y tus fotos bajo tu control.\n\n#Immich #SelfHosted #OpenSource\nhttps://github.com/immich-app/immich",
+        "linkedin": "GOOGLE PHOTOS TE COBRA OTRA VEZ. ESTA ALTERNATIVA OPEN SOURCE METE TUS FOTOS EN TU SERVIDOR Y TE DEVUELVE EL CONTROL.\n\nImmich es una solución self-hosted de alto rendimiento para gestionar fotos y vídeos sin depender de la nube de Google. Con más de 112.000 estrellas, ya es el proyecto que muchos esperaban.\n\n→ Alojamiento propio: tus recuerdos no salen de tu infraestructura.\n→ Alto rendimiento: diseñado para manejar bibliotecas grandes con soltura.\n→ Privacidad real: 𝘁ú 𝗲𝗿𝗲𝘀 𝗲𝗹 𝗱𝘂𝗲ñ𝗼 𝗱𝗲 𝘁𝘂𝘀 𝗱𝗮𝘁𝗼𝘀, sin planes de suscripción.\n\nSi estás harto de pagar almacenamiento o de que analicen tus fotos, este repo es para ti. Te lo dejo aquí abajo.\n\n#Immich #SelfHosted #OpenSource\n\nhttps://github.com/immich-app/immich"
+      }
+    }
+  ]
+}
