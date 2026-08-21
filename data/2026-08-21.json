@@ -1,0 +1,324 @@
+{
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T10:46:34.540Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "ChatGPT ya lee y responde a tus iMessage en el Mac",
+      "summary": "OpenAI ha lanzado un plugin para que ChatGPT controle Apple Messages y pueda buscar conversaciones, redactar y enviar respuestas desde el escritorio. De momento está disponible solo para usuarios de ChatGPT Work y Codex, y la integración ya ha levantado dudas sobre privacidad y seguridad.",
+      "why_it_matters": "Acerca los asistentes de IA a los datos más personales del teléfono y obliga a repensar qué permisos entregamos a estas herramientas.",
+      "url": "https://www.engadget.com/2241390/openai-chatgpt-imessage-integration",
+      "source": "Engadget",
+      "social": {
+        "x": "¿Hasta dónde dejarías entrar a la IA? ChatGPT ya lee y responde tus iMessage en el Mac.\n\n#ChatGPT #OpenAI #iMessage #Mac\nhttps://www.engadget.com/2241390/openai-chatgpt-imessage-integration",
+        "linkedin": "La línea entre asistente e intruso se difumina: OpenAI ha lanzado un plugin que permite a ChatGPT leer y responder iMessage desde el Mac.\nDe momento solo está para cuentas de ChatGPT Work y Codex, pero la dirección es clara: 𝗹𝗼𝘀 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗜𝗔 𝘀𝗲 𝗲𝘀𝘁á𝗻 𝗺𝗼𝘃𝗶𝗲𝗻𝗱𝗼 𝗵𝗮𝗰𝗶𝗮 𝗻𝘂𝗲𝘀𝘁𝗿𝗼𝘀 𝗱𝗮𝘁𝗼𝘀 𝗺á𝘀 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗲𝘀. La pregunta ya no es si podemos, sino cuánta privacidad estamos dispuestos a ceder por conveniencia.\n\n#ChatGPT #OpenAI #iMessage #Mac\n\nhttps://www.engadget.com/2241390/openai-chatgpt-imessage-integration"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Ox Alpha, un modelo de razonamiento gratuito para programar y trabajar con agentes",
+      "summary": "Ox Alpha está pensado para tareas de código, trabajo agéntico y cargas de producción, con una ventana de contexto de 1.048.576 tokens y hasta 131.072 tokens de salida. Se puede probar gratis en OpenRouter.",
+      "why_it_matters": "Un modelo de razonamiento con ese contexto y sin coste puede cambiar la elección de herramientas en muchos equipos de desarrollo.",
+      "url": "https://openrouter.ai/stealth/ox-alpha",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Un modelo de razonamiento con 1M de contexto y gratis? Ox Alpha ya se puede probar en OpenRouter.\n\n#OxAlpha #OpenRouter\nhttps://openrouter.ai/stealth/ox-alpha",
+        "linkedin": "¿Cuánto pagarías por 1M de contexto? Ox Alpha lo ofrece gratis, con una ventana de 1M de tokens y 131k de salida, pensado para código y agentes. Hasta ahora ese nivel de contexto solía estar en APIs de pago, lo que 𝗽𝘂𝗲𝗱𝗲 𝗰𝗮𝗺𝗯𝗶𝗮𝗿 𝗹𝗮 𝗲𝗹𝗲𝗰𝗰𝗶ó𝗻 𝗱𝗲 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 en los equipos de desarrollo.\n\n#OxAlpha #OpenRouter\n\nhttps://openrouter.ai/stealth/ox-alpha"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "LFM2.5-DSpark logra una inferencia hasta 3,2 veces más rápida",
+      "summary": "Liquid AI publica en Hugging Face los detalles de LFM2.5-DSpark, una versión optimizada de su modelo que acelera la inferencia y reduce la latencia en producción. El artículo incluye benchmarks y pautas para probarla.",
+      "why_it_matters": "La eficiencia de inferencia es decisiva para abaratar y escalar el despliegue de IA en aplicaciones reales.",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Mientras todos miran los benchmarks de entrenamiento, la batalla está en la inferencia. Liquid AI acaba de soltar una versión de su modelo que es hasta 3,2 veces más rápida.\n\n#LiquidAI #LFM2 #HuggingFace #Latencia\nhttps://huggingface.co/blog/LiquidAI/lfm25-dspark",
+        "linkedin": "En producción, un modelo lento no es un modelo, es un coste.\nLiquid AI publica LFM2.5-DSpark, una versión optimizada de su modelo que promete hasta 3,2 veces más velocidad de inferencia. La latencia baja sin cambiar de hardware, lo que reduce el coste por consulta y hace viables aplicaciones en tiempo real. 𝗟𝗮 𝗲𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝗶𝗮 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗹𝗮 𝗻𝘂𝗲𝘃𝗮 𝘃𝗲𝗻𝘁𝗮𝗷𝗮 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗮 en el despliegue de IA.\n\n#LiquidAI #LFM2 #HuggingFace #Latencia\n\nhttps://huggingface.co/blog/LiquidAI/lfm25-dspark"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "Ramp lanza Router, una API para cambiar de modelo de IA sobre la marcha",
+      "summary": "La fintech Ramp ha presentado Router, un servicio que permite a empresas y desarrolladores usar y alternar entre distintos LLM mediante una API. El objetivo es elegir el modelo más adecuado por coste, velocidad o calidad sin reescribir la integración.",
+      "why_it_matters": "Reduce la dependencia de un único proveedor y facilita la gestión de múltiples modelos en producción.",
+      "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router",
+      "source": "TechCrunch",
+      "social": {
+        "x": "¿Cansado de estar atado a un único proveedor de IA? Ramp lanza Router, una API para alternar entre LLMs según coste, velocidad o calidad, sin reescribir integraciones.\n\n#Ramp #Router #LLM\nhttps://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router",
+        "linkedin": "La barrera para moverte entre modelos de IA acaba de bajar un escalón.\n\nRamp, la fintech de tarjetas corporativas, ha presentado Router, una API que permite alternar entre distintos LLM sin reescribir la integración. Puedes elegir el modelo según coste, velocidad o calidad y cambiarlo cuando quieras. Esto convierte la elección de proveedor en una decisión dinámica: 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘂𝗻 𝗰𝗼𝗺𝗽𝗿𝗼𝗺𝗶𝘀𝗼 𝗮 𝗹𝗮𝗿𝗴𝗼 𝗽𝗹𝗮𝘇𝗼, 𝘀𝗶𝗻𝗼 𝘂𝗻𝗮 𝗽𝗮𝗹𝗮𝗻𝗰𝗮 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝘃𝗮. Para cualquier equipo que gestione IA en producción, es un recordatorio de que la fijación por un solo modelo tiene los días contados.\n\n#Ramp #Router #LLM\n\nhttps://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Google Discover tendrá un feed personalizable por chat con IA",
+      "summary": "Google añade una opción para describir en lenguaje natural qué contenidos quieres ver y la IA ajusta el feed de Discover y recuerda tus preferencias. La función llega a la app de Google en los próximos días desde el menú de tres puntos.",
+      "why_it_matters": "Es un paso más hacia una personalización de contenidos gobernada por asistentes en lugar de algoritmos opacos.",
+      "url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+      "source": "The Verge",
+      "social": {
+        "x": "¿Cansado de que el algoritmo decida qué ves? Dile a la IA de Google qué quieres y Discover se adapta.\n\n#GoogleDiscover #Google\nhttps://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+        "linkedin": "El feed de Google Discover ya no es un experimento: ahora le dices a la IA qué quieres ver y ella lo configura.\n\nLa app de Google incorpora un chat en lenguaje natural para personalizar Discover, y además recuerda tus preferencias. Es un paso hacia una personalización gobernada por asistentes en lugar de 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗺𝗼𝘀 𝗼𝗽𝗮𝗰𝗼𝘀 𝗾𝘂𝗲 𝗱𝗲𝗰𝗶𝗱𝗲𝗻 𝘀𝗶𝗻 𝗲𝘅𝗽𝗹𝗶𝗰𝗮𝗰𝗶ó𝗻. Para quien genera contenido, el cambio es profundo: ya no se trata de optimizar para un algoritmo, sino de responder a la intención explícita del lector.\n\n#GoogleDiscover #Google\n\nhttps://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Meta lanza Pocket en EE. UU., su app para crear minijuegos con IA generativa",
+      "summary": "Pocket es la plataforma experimental de Meta para crear y compartir minijuegos interactivos con técnicas de 'vibe coding' sobre modelos generativos. Tras probarse en Brasil, ya está disponible para los usuarios de Estados Unidos.",
+      "why_it_matters": "Lleva la generación de juegos por IA al gran público y la convierte en una actividad social.",
+      "url": "https://www.engadget.com/2241098/meta-pocket-app-for-creating-generative-ai-minigames-available-in-us",
+      "source": "Engadget",
+      "social": {
+        "x": "Con una frase puedes crear un minijuego. Eso promete Pocket, la nueva app experimental de Meta que desembarca en EE. UU.\n\n#Meta #Pocket #VibeCoding #GenerativeAI\nhttps://www.engadget.com/2241098/meta-pocket-app-for-creating-generative-ai-minigames-available-in-us",
+        "linkedin": "Con una frase puedes crear un minijuego. Eso promete Pocket, la app experimental de Meta que ya está en EE. UU.\nTras su prueba en Brasil, la plataforma lleva el vibe coding al gran público: describir la idea en lenguaje natural y dejar que la IA genere la mecánica y el entorno. 𝗟𝗮 𝗰𝗿𝗲𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗷𝘂𝗲𝗴𝗼𝘀 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘁𝗲𝗿𝗿𝗶𝘁𝗼𝗿𝗶𝗼 𝗲𝘅𝗰𝗹𝘂𝘀𝗶𝘃𝗼 𝗱𝗲 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗮𝗱𝗼𝗿𝗲𝘀 y se convierte en una actividad social y accesible para cualquiera. Para quienes trabajan en tecnología, es una invitación a repensar cómo interactuamos con la IA: ya no solo la consumimos, la usamos para crear experiencias jugables.\n\n#Meta #Pocket #VibeCoding #GenerativeAI\n\nhttps://www.engadget.com/2241098/meta-pocket-app-for-creating-generative-ai-minigames-available-in-us"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Slack Code mete a los agentes de IA en el chat de grupo",
+      "summary": "Slack Code permite invitar a agentes de programación a los canales de Slack para que colaboren en tareas de código junto a todo el equipo. La función convierte la asistencia con IA en una experiencia compartida, no individual.",
+      "why_it_matters": "Integrar los agentes de código en la comunicación natural del equipo cambia la dinámica del desarrollo de software.",
+      "url": "https://www.theregister.com/saas/2026/08/20/slack-code-taps-into-collective-vibe-puts-ai-agents-into-the-group-chat/5290413",
+      "source": "The Register",
+      "social": {
+        "x": "Tu asistente de código ya no es solo tuyo: Slack Code integra a los agentes de IA en los canales del equipo.\n\n#SlackCode #Slack #AgentesDeCodigo\nhttps://www.theregister.com/saas/2026/08/20/slack-code-taps-into-collective-vibe-puts-ai-agents-into-the-group-chat/5290413",
+        "linkedin": "Hasta ahora, la IA te ayudaba a programar en privado.\n\nSlack Code lo cambia: puedes invitar a agentes de código a los canales y la asistencia se convierte en una tarea compartida. Esto no es solo una función nueva. Al integrar a los agentes en el canal donde ya se discute el código, 𝗹𝗮 𝗜𝗔 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗶𝗻𝗱𝗶𝘃𝗶𝗱𝘂𝗮𝗹 𝗽𝗮𝗿𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗿𝘀𝗲 𝗲𝗻 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲𝗹 𝗳𝗹𝘂𝗷𝗼 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗱𝗲𝗹 𝗲𝗾𝘂𝗶𝗽𝗼. El impacto va más allá de la productividad: cambia cómo se revisan las tareas, cómo se comparte conocimiento y cómo se colabora. Las empresas que adopten esta dinámica probablemente notarán que la barrera no es la tecnología, sino la cultura de equipo.\n\n#SlackCode #Slack #AgentesDeCodigo\n\nhttps://www.theregister.com/saas/2026/08/20/slack-code-taps-into-collective-vibe-puts-ai-agents-into-the-group-chat/5290413"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "Google refuerza Antigravity con controles empresariales para agentes de IA",
+      "summary": "Google Cloud incorpora a Antigravity nuevas capacidades de administración y gobernanza para que las empresas puedan gestionar mejor a sus agentes de IA. La medida llega en plena reorganización de la oferta de IA del gigante.",
+      "why_it_matters": "Las empresas necesitan supervisión y control antes de desplegar agentes de IA en entornos de producción.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/21/google-tethers-antigravity-to-enterprise-controls-amid-ai-shakeup/5290730",
+      "source": "The Register",
+      "social": {
+        "x": "Google añade gobernanza a Antigravity: sus agentes de IA ya tienen control empresarial. Porque desplegar sin supervisión no era opción.\n\n#GoogleCloud #Antigravity #AgentesIA\nhttps://www.theregister.com/ai-and-ml/2026/08/21/google-tethers-antigravity-to-enterprise-controls-amid-ai-shakeup/5290730",
+        "linkedin": "Las empresas no van a desplegar agentes de IA sin saber qué hacen. \nGoogle Cloud lo sabe y por eso refuerza Antigravity con controles empresariales: ahora los equipos pueden administrar permisos, auditar acciones y poner límites a sus agentes. 𝗟𝗮 𝗴𝗼𝗯𝗲𝗿𝗻𝗮𝗻𝘇𝗮 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗲𝗹 𝗿𝗲𝗾𝘂𝗶𝘀𝗶𝘁𝗼 𝗽𝗮𝗿𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻 y esta actualización responde a esa demanda. Cualquier organización que planee usar agentes de IA debería mirar de cerca esta evolución.\n\n#GoogleCloud #Antigravity #AgentesIA\n\nhttps://www.theregister.com/ai-and-ml/2026/08/21/google-tethers-antigravity-to-enterprise-controls-amid-ai-shakeup/5290730"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "Google da a los editores un botón para convertirse en fuente preferida en Search",
+      "summary": "Google permite a los lectores marcar un medio como fuente preferida en Búsqueda, Discover y Google News para que reciba más visibilidad. Es una respuesta al descenso de clics que la IA generativa está causando en el tráfico web.",
+      "why_it_matters": "Da a los editores una palanca para recuperar audiencia frente a la competencia de los resúmenes generados por IA.",
+      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Se acabó depender solo del algoritmo: Google deja que tus lectores te elijan como fuente preferida en Search. Una palanca contra la IA.\n\n#Google #GoogleSearch #GoogleNews\nhttps://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses",
+        "linkedin": "Google acaba de dar a los editores una palanca directa contra la caída de tráfico por la IA. A partir de ahora, los lectores podrán marcar sus medios preferidos en Search, Discover y Google News, y esos medios recibirán más visibilidad. Es un movimiento inteligente de Google, pero también 𝘂𝗻𝗮 𝗻𝘂𝗲𝘃𝗮 𝗼𝗽𝗼𝗿𝘁𝘂𝗻𝗶𝗱𝗮𝗱 𝗽𝗮𝗿𝗮 𝗹𝗼𝘀 𝗲𝗱𝗶𝘁𝗼𝗿𝗲𝘀 𝗱𝗲 𝗳𝗶𝗱𝗲𝗹𝗶𝘇𝗮𝗿 𝗮𝘂𝗱𝗶𝗲𝗻𝗰𝗶𝗮 𝘀𝗶𝗻 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝘀𝗼𝗹𝗼 𝗱𝗲𝗹 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗺𝗼. Quien sepa activar a su comunidad saldrá ganando.\n\n#Google #GoogleSearch #GoogleNews\n\nhttps://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "Vomit, una utilidad para limpiar la salida verbosa de Claude 5 con otro LLM",
+      "summary": "Vomit es una herramienta open source que usa un LLM auxiliar para limpiar y estructurar la salida de tokens de Claude 5, ahorrando tokens y mejorando la legibilidad. El proyecto ha tenido una gran acogida en Hacker News.",
+      "why_it_matters": "Es una solución práctica para un problema real: la verbosidad de los modelos y su coste en tokens.",
+      "url": "https://github.com/zachahn/vomit",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Respuestas eternas de Claude 5? Vomit, la utilidad open source que arrasa en Hacker News, usa otro LLM para limpiarlas y ahorrarte tokens.\n\n#OpenSource #Claude #LLM #HackerNews\nhttps://github.com/zachahn/vomit",
+        "linkedin": "¿Respuestas eternas de Claude 5?\nVomit, la utilidad open source que arrasa en Hacker News, usa otro LLM para limpiarlas y 𝗮𝗵𝗼𝗿𝗿𝗮𝗿 𝘁𝗼𝗸𝗲𝗻𝘀 𝘀𝗶𝗻 𝗽𝗲𝗿𝗱𝗲𝗿 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼. Es una solución pragmática a un problema que encarece las integraciones con LLM y, de paso, invita a preguntarse si la verbosidad de estos modelos es un precio necesario o un defecto asumible.\n\n#OpenSource #Claude #LLM #HackerNews\n\nhttps://github.com/zachahn/vomit"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "herramientas",
+      "title": "Huzzah, un experimento para programar con IA sin escribir prompts interminables",
+      "summary": "Su autor propone una nueva forma de trabajar con agentes de código que evita la fatiga de describir cada cambio en inglés. Huzzah intenta recuperar el placer de programar combinando asistencia generativa con control manual.",
+      "why_it_matters": "Plantea una alternativa a la dependencia actual de los 'prompts' largos y abre la puerta a otra interacción con la IA.",
+      "url": "https://www.danielvaughn.dev/posts/huzzah",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Cansado de escribir prompts interminables para programar con IA? Huzzah, un experimento en Hacker News, propone otra forma: menos inglés, más código.\n\n#Huzzah #agentesDeCodigo\nhttps://www.danielvaughn.dev/posts/huzzah",
+        "linkedin": "¿Cuántas horas perdemos escribiendo prompts para que una IA genere código? Huzzah, un experimento que circula en Hacker News, ataca esa fatiga con 𝘂𝗻𝗮 𝗶𝗻𝘁𝗲𝗿𝗮𝗰𝗰𝗶ó𝗻 𝗱𝗶𝘀𝘁𝗶𝗻𝘁𝗮: 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝗰𝗶𝗮 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗮 𝗰𝗼𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗺𝗮𝗻𝘂𝗮𝗹, sin describir cada cambio en inglés. La noticia no es solo otra herramienta: es una señal de que el sector empieza a cuestionar el modelo actual. Para los equipos de desarrollo, esto podría significar menos tiempo redactando y más tiempo programando de verdad.\n\n#Huzzah #agentesDeCodigo\n\nhttps://www.danielvaughn.dev/posts/huzzah"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "Rust 1.98.0 llega con novedades para el ecosistema y mejoras de compatibilidad",
+      "summary": "El lenguaje publica una nueva versión estable con cambios en el compilador y la biblioteca estándar. La actualización ya está disponible para todos los usuarios y mantiene la apuesta por la seguridad y el rendimiento.",
+      "why_it_matters": "Rust sigue consolidándose como una de las opciones más sólidas para sistemas y aplicaciones de alto rendimiento.",
+      "url": "https://blog.rust-lang.org/2026/08/20/Rust-1.98.0",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Qué trae Rust 1.98? Más que un lavado de cara: cambios en el compilador y la std que mejoran la compatibilidad y mantienen la seguridad y el rendimiento.\n\n#Rust #OpenSource\nhttps://blog.rust-lang.org/2026/08/20/Rust-1.98.0",
+        "linkedin": "Rust 1.98 ya está disponible, y no es una versión de relleno. Los cambios en el compilador y la std mejoran la compatibilidad y dejan claro que la seguridad y el rendimiento siguen siendo la base.\nPara los equipos que llevan Rust a producción, 𝗹𝗮 𝗲𝘀𝘁𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲 𝗲𝘀𝘁𝗮 𝗿𝗲𝗹𝗲𝗮𝘀𝗲 𝗲𝘀 𝗹𝗮 𝗺𝗲𝗷𝗼𝗿 𝗻𝗼𝘁𝗶𝗰𝗶𝗮. Si cada seis semanas el lenguaje avanza sin romper nada, es más fácil justificar su adopción en proyectos críticos.\n\n#Rust #OpenSource\n\nhttps://blog.rust-lang.org/2026/08/20/Rust-1.98.0"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "lanzamientos",
+      "title": "Bun 1.4 acelera el runtime de JavaScript con nuevas funciones",
+      "summary": "Llega la versión 1.4 de Bun, el runtime y toolkit de JavaScript que compite con Node.js. Incluye mejoras de rendimiento, compatibilidad y nuevas herramientas para desarrolladores.",
+      "why_it_matters": "Bun se consolida como una alternativa moderna y rápida para construir aplicaciones JavaScript.",
+      "url": "https://bun.com/blog/bun-v1.4",
+      "source": "Lobsters",
+      "social": {
+        "x": "Bun 1.4 ya está aquí: más rápido, más compatible y con nuevas herramientas para desarrolladores. ¿Le quitará el trono a Node.js?\n\n#Bun #NodeJS #JavaScript\nhttps://bun.com/blog/bun-v1.4",
+        "linkedin": "Bun 1.4 vuelve a poner en duda la superioridad de Node.js.\nCon mejoras de rendimiento, más compatibilidad y nuevas herramientas, 𝗲𝗹 𝗿𝘂𝗻𝘁𝗶𝗺𝗲 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝘀𝗲 𝗰𝗼𝗻𝘀𝗼𝗹𝗶𝗱𝗮 𝗰𝗼𝗺𝗼 𝘂𝗻𝗮 𝗮𝗹𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝘃𝗮 𝘀𝗲𝗿𝗶𝗮 𝗽𝗮𝗿𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻. Si tu stack está construido sobre Node.js, esta actualización te invita a replantearte si estás usando la herramienta adecuada. La brecha entre ambos se ha estrechado, y no tomar partido también es una decisión técnica.\n\n#Bun #NodeJS #JavaScript\n\nhttps://bun.com/blog/bun-v1.4"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "Go 1.27 amplía los genéricos con soporte para métodos",
+      "summary": "La nueva versión de Go permite usar genéricos también en métodos, una de las peticiones históricas de la comunidad. El lenguaje mantiene su filosofía de simplicidad con esta ampliación del sistema de tipos.",
+      "why_it_matters": "La llegada de métodos genéricos hace que Go sea más expresivo sin renunciar a su carácter pragmático.",
+      "url": "https://www.theregister.com/devops/2026/08/20/go-updates-may-delight-diehard-gophers-but-displease-ai-overlords/5290643",
+      "source": "The Register",
+      "social": {
+        "x": "Go lleva años vendiendo simplicidad. Esta semana añade métodos genéricos, la petición más votada de su historia.\n\n#GoLang #generics\nhttps://www.theregister.com/devops/2026/08/20/go-updates-may-delight-diehard-gophers-but-displease-ai-overlords/5290643",
+        "linkedin": "Go 1.27 incorpora por fin una de las peticiones más votadas de su comunidad: métodos genéricos.\nPara quien trabaja con Go, esto no era un capricho. Desde la llegada de los genéricos en 1.18, los métodos se quedaron fuera, y esa falta se notaba en librerías y código reutilizable. Con esta ampliación, 𝗚𝗼 𝘀𝗲 𝘃𝘂𝗲𝗹𝘃𝗲 𝗺á𝘀 𝗲𝘅𝗽𝗿𝗲𝘀𝗶𝘃𝗼 𝘀𝗶𝗻 𝗽𝗲𝗿𝗱𝗲𝗿 𝘀𝘂 𝗽𝗿𝗮𝗴𝗺𝗮𝘁𝗶𝘀𝗺𝗼, y eso cambia cómo diseñamos APIs y librerías.\n\n#GoLang #generics\n\nhttps://www.theregister.com/devops/2026/08/20/go-updates-may-delight-diehard-gophers-but-displease-ai-overlords/5290643"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Anna's Archive: las empresas de IA están destruyendo libros físicos y hay que escanearlos ya",
+      "summary": "El proyecto Anna's Archive denuncia que compañías de IA están destruyendo ejemplares físicos después de digitalizarlos y pide escanear libros raros antes de que desaparezcan. El mensaje se ha convertido en uno de los más votados del día en Hacker News.",
+      "why_it_matters": "El entrenamiento de modelos puede estar causando una pérdida irreparable de patrimonio bibliográfico.",
+      "url": "https://annas-archive.gl/blog/physical-destruction.html",
+      "source": "Hacker News",
+      "social": {
+        "x": "Escanean libros para entrenar IA y luego los destruyen. El proyecto Anna's Archive pide digitalizarlos todos ya.\n\n#AnnaArchive #HackerNews #Digitalización\nhttps://annas-archive.gl/blog/physical-destruction.html",
+        "linkedin": "Las empresas de IA están escaneando libros físicos para entrenar sus modelos y, después, destruyendo los ejemplares. Anna's Archive, el proyecto de preservación digital, ha lanzado un llamamiento: escanear los libros raros antes de que desaparezcan. 𝗟𝗮 𝗽é𝗿𝗱𝗶𝗱𝗮 𝗱𝗲 𝗽𝗮𝘁𝗿𝗶𝗺𝗼𝗻𝗶𝗼 𝗯𝗶𝗯𝗹𝗶𝗼𝗴𝗿á𝗳𝗶𝗰𝗼 𝗲𝘀 𝘂𝗻 𝗰𝗼𝘀𝘁𝗲 𝗶𝗻𝘃𝗶𝘀𝗶𝗯𝗹𝗲 𝗱𝗲𝗹 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 y esta semana su mensaje se ha convertido en uno de los más votados en Hacker News. Si la IA acelera la desaparición del conocimiento que dice preservar, algo falla en la cadena.\n\n#AnnaArchive #HackerNews #Digitalización\n\nhttps://annas-archive.gl/blog/physical-destruction.html"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "investigacion",
+      "title": "Una técnica de inyección cifrada consigue que Grok exfiltre datos del usuario",
+      "summary": "Un investigador ha demostrado que Grok puede ser manipulado con instrucciones maliciosas cifradas dentro de una página web, lo que provoca que el chatbot revele información del usuario. Es una nueva variante de ataque de inyección de prompts que salta los guardarraíles de seguridad.",
+      "why_it_matters": "La seguridad de los LLM sigue teniendo vulnerabilidades explotables desde contenido web aparentemente legítimo.",
+      "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Una inyección cifrada en una web hace que Grok suelte datos del usuario. Y funciona contra los guardrails actuales.\n\n#Grok #PromptInjection #LLM\nhttps://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted",
+        "linkedin": "Los ataques de inyección de prompts llevan tiempo siendo un dolor de cabeza, pero esta variante cifrada eleva la apuesta.\n\nUn investigador ha demostrado que Grok puede ser manipulado con instrucciones maliciosas escondidas en una página web, hasta el punto de que el chatbot revela información del usuario. 𝗘𝗹 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗻𝗼 𝗲𝘀 𝗾𝘂𝗲 𝗲𝘅𝗶𝘀𝘁𝗮 𝘂𝗻𝗮 𝗻𝘂𝗲𝘃𝗮 𝘁é𝗰𝗻𝗶𝗰𝗮, 𝘀𝗶𝗻𝗼 𝗾𝘂𝗲 𝗲𝗹 𝗰𝗶𝗳𝗿𝗮𝗱𝗼 𝗽𝗲𝗿𝗺𝗶𝘁𝗲 𝗲𝘃𝗮𝗱𝗶𝗿 𝗹𝗼𝘀 𝗳𝗶𝗹𝘁𝗿𝗼𝘀 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗮𝗰𝘁𝘂𝗮𝗹𝗲𝘀 y convierte cualquier contenido web en un vector de ataque. Para las empresas que ya usan LLM en producción, esto refuerza la necesidad de añadir capas de defensa externas, porque el modelo por sí solo no es suficiente.\n\n#Grok #PromptInjection #LLM\n\nhttps://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "investigacion",
+      "title": "Un tercio de las páginas web publicadas desde ChatGPT muestran signos de autoría de IA",
+      "summary": "Un estudio detecta que alrededor del 30% del contenido nuevo publicado en la web desde el lanzamiento de ChatGPT ha sido total o parcialmente generado por IA. La cifra subraya el impacto de los modelos generativos en la economía de la información.",
+      "why_it_matters": "Ayuda a cuantificar la cantidad de contenido sintético que ya circula y sus riesgos para la confianza y el SEO.",
+      "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Un tercio de las páginas web publicadas desde que existe ChatGPT llevan la marca de la IA. La web ya no es solo humana.\n\n#ChatGPT #IAgenerativa #SEO\nhttps://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds",
+        "linkedin": "La escala del contenido sintético ya tiene cifra: un 30% de las páginas publicadas desde ChatGPT muestran signos de IA. El estudio confirma lo que muchos temíamos: la web se está llenando de texto generado automáticamente. 𝗘𝘀𝘁𝗼 𝗿𝗲𝗲𝘀𝗰𝗿𝗶𝗯𝗲 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 𝗱𝗲𝗹 𝗦𝗘𝗢 𝘆 𝗱𝗲 𝗹𝗮 𝗰𝗼𝗻𝗳𝗶𝗮𝗻𝘇𝗮 𝗱𝗶𝗴𝗶𝘁𝗮𝗹: las marcas tendrán que esforzarse por demostrar valor humano y editorial. Ya no vale solo publicar, hay que certificar que detrás hay criterio.\n\n#ChatGPT #IAgenerativa #SEO\n\nhttps://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "La UE no otorga copyright a los contenidos generados íntegramente por IA",
+      "summary": "El derecho europeo se basa en la autoría humana y, en principio, una obra creada por completo con IA no está protegida por copyright. Expertos recuerdan que firmar ese contenido no da derechos, pero sí responsabilidad legal sobre lo publicado.",
+      "why_it_matters": "Fija el marco legal para creadores y empresas que usan IA para producir contenido en Europa.",
+      "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Sabías que en la UE un contenido hecho 100% por IA no tiene copyright? Firmarlo no te da derechos, solo responsabilidades.\n\n#Copyright #IAgenerativa #UniónEuropea\nhttps://mathstodon.xyz/@maxpool/117128107757895678",
+        "linkedin": "La UE no da copyright a lo que genera una IA de principio a fin.\nLa autoría humana es el pilar del sistema: tu firma no crea derechos, pero sí responsabilidad legal. 𝗣𝘂𝗯𝗹𝗶𝗰𝗮𝗿 𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗼 𝗴𝗲𝗻𝗲𝗿𝗮𝗱𝗼 𝗽𝗼𝗿 𝗜𝗔 𝘁𝗲 𝗵𝗮𝗰𝗲 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗮𝗯𝗹𝗲 𝗱𝗲 𝗹𝗼 𝗾𝘂𝗲 𝘀𝗲 𝗱𝗶𝗳𝘂𝗻𝗱𝗲. Para empresas y creadores, este marco cambia cómo escalar la producción con IA.\n\n#Copyright #IAgenerativa #UniónEuropea\n\nhttps://mathstodon.xyz/@maxpool/117128107757895678"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Cuando la IA diseña un fármaco, la ley de patentes se queda sin respuesta",
+      "summary": "Empresas como Insilico Medicine ya proponen moléculas con modelos generativos, pero las leyes de patentes solo permiten nombrar inventores humanos. El artículo analiza el vacío legal y las posibles soluciones para proteger los descubrimientos asistidos por IA.",
+      "why_it_matters": "La propiedad intelectual se ha convertido en el próximo gran dilema de la IA aplicada a la biomedicina.",
+      "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit",
+      "source": "MIT Technology Review",
+      "social": {
+        "x": "¿Quién inventa un fármaco si lo diseña una IA? La ley de patentes aún no lo tiene claro: solo admite inventores humanos. Esto es lo que pasa cuando la máquina es la que descubre.\n\n#InsilicoMedicine #Patentes #Biotecnología\nhttps://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit",
+        "linkedin": "La próxima batalla de la IA no será técnica, sino legal: cuando un modelo generativo propone una molécula, ¿quién figura como inventor? Las leyes de patentes solo reconocen humanos, pero empresas como Insilico Medicine ya usan IA para diseñar fármacos. El vacío es enorme y 𝗹𝗮 𝗽𝗿𝗼𝗽𝗶𝗲𝗱𝗮𝗱 𝗶𝗻𝘁𝗲𝗹𝗲𝗰𝘁𝘂𝗮𝗹 𝘀𝗲 𝗵𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝗲𝗹 𝗴𝗿𝗮𝗻 𝗱𝗶𝗹𝗲𝗺𝗮 𝗱𝗲 𝗹𝗮 𝗯𝗶𝗼𝗺𝗲𝗱𝗶𝗰𝗶𝗻𝗮. Mientras los tribunales no se pronuncien, decidir quién es el inventor será un negocio arriesgado para toda la industria.\n\n#InsilicoMedicine #Patentes #Biotecnología\n\nhttps://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Nevada autoriza a Tesla, Uber y Waymo a operar miles de robotaxis de pago",
+      "summary": "Las autoridades de Nevada han aprobado los permisos para que Tesla, Waymo y Uber ofrezcan viajes de pago en vehículos autónomos en el condado de Clark. La autorización permitirá desplegar hasta 8.000 robotaxis en los próximos doce meses.",
+      "why_it_matters": "Es una de las mayores autorizaciones comerciales de robotaxis hasta la fecha y acerca la conducción autónoma al gran público.",
+      "url": "https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada",
+      "source": "TechCrunch",
+      "social": {
+        "x": "La carrera del robotaxi deja de ser un experimento: Nevada autoriza 8.000 robotaxis de pago a Tesla, Uber y Waymo.\n\n#Robotaxi #Tesla #Waymo #Uber\nhttps://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada",
+        "linkedin": "La conducción autónoma deja de ser un caso de prueba: Nevada ha autorizado a Tesla, Uber y Waymo a operar 𝗵𝗮𝘀𝘁𝗮 𝟴.𝟬𝟬𝟬 𝗿𝗼𝗯𝗼𝘁𝗮𝘅𝗶𝘀 𝗱𝗲 𝗽𝗮𝗴𝗼 en el condado de Clark.\n\nEs una de las mayores aprobaciones comerciales de vehículos autónomos hasta la fecha, y no solo por el número: tres modelos de negocio muy distintos se disputan el mismo asfalto. Para el sector logístico y de movilidad, la señal es clara: el robotaxi deja de ser especulación para convertirse en un servicio regulado, con competencia real y escala.\n\n#Robotaxi #Tesla #Waymo #Uber\n\nhttps://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "Plataforma open source para análisis de producto con observabilidad de IA, session replay, flags de funcionalidad y gestión de errores. Ofrece todas las herramientas que un equipo necesita para depurar y mejorar productos basados en agentes.",
+      "language": "Python",
+      "stars": 38134,
+      "social": {
+        "x": "Alguien acaba de regalar el stack completo de analítica de producto: session replay, feature flags, errores y observabilidad de IA. PostHog, 38k estrellas, open source.\n\n#PostHog #OpenSource #GitHub #Python\nhttps://github.com/PostHog/posthog",
+        "linkedin": "POSTHOG TE DA TODA LA ANALÍTICA DE PRODUCTO EN UN SOLO REPO OPEN SOURCE.\n\nLas herramientas comerciales te cobran por separado cada módulo. PostHog agrupa en una plataforma gratuita y autohospedable todo lo que necesitas para entender y depurar tu producto.\n\n→ Session replay para ver exactamente qué hace cada usuario.\n→ Feature flags para desplegar funciones de forma segura.\n→ Gestión de errores con contexto y stack traces.\n→ Observabilidad de IA para productos basados en agentes.\n\n𝗨𝗻 𝘀𝗼𝗹𝗼 𝘀𝘁𝗮𝗰𝗸 𝗽𝗮𝗿𝗮 𝗱𝗲𝗽𝘂𝗿𝗮𝗿 𝘆 𝗺𝗲𝗷𝗼𝗿𝗮𝗿 𝘁𝘂 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼 sin pagar licencias por separado. Te dejo el repo abajo.\n\n#PostHog #OpenSource #GitHub #Python\n\nhttps://github.com/PostHog/posthog"
+      }
+    },
+    {
+      "name": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "description": "Índice vectorial de alto rendimiento escrito en Rust con bindings para Python, diseñado para búsquedas de similitud a gran escala. Ideal para construir sistemas de recomendación o memorias de agentes de IA.",
+      "language": "Rust",
+      "stars": 16090,
+      "social": {
+        "x": "Alguien acaba de regalar un índice vectorial en Rust con 16.090 estrellas. Perfecto para sistemas de recomendación y memoria de agentes de IA, sin pagar por API.\n\n#turbovec #Rust #Python #OpenSource\nhttps://github.com/RyanCodrai/turbovec",
+        "linkedin": "TURBOVEC: EL ÍNDICE VECTORIAL EN RUST QUE PONE EN APRIETOS A LOS PRODUCTOS DE PAGO. Con 16.090 estrellas y bindings para Python, promete búsquedas de similitud a gran escala para recomendadores y agentes de IA. Sin costes de licencia ni infraestructura cerrada.\n\n→ Núcleo en Rust: rendimiento nativo para escalar sin fricción.\n→ Bindings para Python: integración directa con tu stack de ciencia de datos.\n→ Ideal para construir sistemas de recomendación o memorias de agentes: solo indexa y consulta.\n→ Es 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲: puedes auditar, modificar y desplegar donde quieras.\n\n¿Trabajas con embeddings o buscadores semánticos? Te dejo el repo abajo para que lo guardes.\n\n#turbovec #Rust #Python #OpenSource\n\nhttps://github.com/RyanCodrai/turbovec"
+      }
+    },
+    {
+      "name": "Tencent/AI-Infra-Guard",
+      "url": "https://github.com/Tencent/AI-Infra-Guard",
+      "description": "Plataforma de red teaming para ecosistemas de IA que escanea agentes, skills, MCP y evalúa jailbreaks en LLMs. Imprescindible para asegurar infraestructuras de IA.",
+      "language": "Python",
+      "stars": 5173,
+      "social": {
+        "x": "Tencent acaba de regalar una plataforma de red teaming para IA. Escanea agentes, skills y MCP, y ya suma 5.173 estrellas en GitHub.\n\n#AIInfraGuard #RedTeaming #MCP #OpenSource\nhttps://github.com/Tencent/AI-Infra-Guard",
+        "linkedin": "TENCENT ACABA DE LIBERAR SU PLATAFORMA DE RED TEAMING PARA IA. Y ES OPEN SOURCE.\n\nMientras muchos venden auditores de IA por suscripción, este repo pone a tu alcance una herramienta que escanea agentes, skills y MCP para encontrar fallos antes que los atacantes. Ni pagar por agente ni esperar informes: lo ejecutas, revisas y corriges.\n\n→ Escanea agentes, skills y servidores MCP en busca de vulnerabilidades.\n→ Evalúa jailbreaks en LLMs con casos de uso reales.\n→ Genera informes accionables para tu equipo de seguridad.\n→ Pensado para integrarse en tu pipeline de CI/CD.\n\nLa parte interesante: 𝗲𝗹 𝗿𝗲𝗱 𝘁𝗲𝗮𝗺𝗶𝗻𝗴 𝗱𝗲 𝗜𝗔 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗹𝘂𝗷𝗼 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲𝗹 𝗰𝗶𝗰𝗹𝗼 𝗱𝗲 𝘃𝗶𝗱𝗮. Si trabajas con modelos, agentes o automatización, este repo te puede ahorrar un disgusto serio.\n\nGuárdatelo para cuando tengas que auditar tu stack de IA.\n\n#AIInfraGuard #RedTeaming #MCP #OpenSource\n\nhttps://github.com/Tencent/AI-Infra-Guard"
+      }
+    },
+    {
+      "name": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Núcleo o sistema base para construir agentes de IA modulares. Proporciona las piezas fundamentales para desarrollar agentes personalizados.",
+      "language": "Go",
+      "stars": 1505,
+      "social": {
+        "x": "Alguien acaba de liberar el núcleo para montar agentes de IA modulares. En Go, con 1.500 estrellas y todas las piezas para que construyas el tuyo a medida.\n\n#Substrate #GoLang #OpenSource #GitHub\nhttps://github.com/agent-substrate/substrate",
+        "linkedin": "¿CANSADO DE FRAMEWORKS QUE TE ENCAJONAN? ESTE REPO EN GO TE DA LAS PIEZAS PARA MONTAR AGENTES DE IA A TU MANERA.\n\nSubstrate es un núcleo open source con más de 1.500 estrellas que aspira a ser el sistema base para agentes personalizados. En lugar de imponerte una estructura cerrada, te entrega los componentes fundamentales para que decidas cómo encajan.\n\n→ Núcleo ligero escrito en Go, ideal para integrar en tus propios sistemas.\n→ Arquitectura modular: añade, quita o sustituye piezas según tu caso de uso.\n→ Sin magia ni cajas negras: 𝘁ú 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮𝘀 𝗰𝗮𝗱𝗮 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲.\n→ Pensado para desarrolladores que quieren ir más allá de los asistentes prefabricados.\n\nGuarda este post para la próxima vez que tengas que construir un agente desde cero. Te dejo el repo abajo.\n\n#Substrate #GoLang #OpenSource #GitHub\n\nhttps://github.com/agent-substrate/substrate"
+      }
+    },
+    {
+      "name": "modular/modular",
+      "url": "https://github.com/modular/modular",
+      "description": "Plataforma que incluye Mojo, un lenguaje de programación pensado para IA de alto rendimiento. Combina la facilidad de Python con la velocidad de C.",
+      "language": "Mojo",
+      "stars": 28339,
+      "social": {
+        "x": "Alguien acaba de crear Mojo, un lenguaje para IA que promete la velocidad de C con la facilidad de Python. 28k estrellas y subiendo.\n\n#Mojo #OpenSource #GitHub\nhttps://github.com/modular/modular",
+        "linkedin": "MOJO: EL LENGUAJE QUE QUIERE UNIR LO MEJOR DE PYTHON Y C.\n\nModular ha abierto el repositorio de su plataforma, que incluye Mojo, un lenguaje pensado para inteligencia artificial de alto rendimiento. La promesa es contundente: escribir con la comodidad de Python y ejecutar con la velocidad de C, sin elegir entre productividad y rendimiento.\n\n→ Sintaxis limpia y familiar para cualquier desarrollador de Python.\n→ Compilación optimizada para cargas de trabajo de IA y ML.\n→ Diseñado para aprovechar al máximo el hardware actual.\n\n𝗦𝗶 𝘁𝗿𝗮𝗯𝗮𝗷𝗮𝘀 𝗰𝗼𝗻 𝗜𝗔, 𝗲𝘀𝘁𝗲 𝗿𝗲𝗽𝗼 𝗽𝘂𝗲𝗱𝗲 𝗮𝗵𝗼𝗿𝗿𝗮𝗿𝘁𝗲 𝗺𝘂𝗰𝗵í𝘀𝗶𝗺𝗮𝘀 𝗵𝗼𝗿𝗮𝘀 𝗱𝗲 𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗮𝗰𝗶ó𝗻. Te dejo el enlace abajo.\n\n#Mojo #OpenSource #GitHub\n\nhttps://github.com/modular/modular"
+      }
+    }
+  ]
+}
