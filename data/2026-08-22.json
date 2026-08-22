@@ -1,0 +1,324 @@
+{
+  "date": "2026-08-22",
+  "generated_at": "2026-08-22T10:39:13.561Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "herramientas",
+      "title": "OzBrain: una memoria compartida para que todos tus agentes de IA trabajen con el mismo contexto",
+      "summary": "OzBrain es una capa de conocimiento que Claude, ChatGPT, Cursor y otros agentes pueden leer y escribir, de modo que comparten contexto de proyectos, conversaciones y documentos sin repetir explicaciones. La herramienta estructura la información para que cada agente acceda solo a lo que necesita.",
+      "why_it_matters": "Resuelve uno de los problemas más prácticos de los flujos con IA: que cada agente parta de cero y no tenga el mismo contexto que el equipo.",
+      "url": "https://ozbrain.com",
+      "source": "Hacker News",
+      "social": {
+        "x": "Todos tus agentes de IA parten de cero. OzBrain les da memoria compartida para que trabajen con el mismo contexto. ¿Y si no tuvieras que repetir nada?\n\n#OzBrain #AgentesIA #MemoriaCompartida\nhttps://ozbrain.com",
+        "linkedin": "¿Cuántas veces has tenido que explicarle el mismo proyecto a ChatGPT, Claude y Cursor? OzBrain es una capa de conocimiento que todos pueden leer y escribir, así comparten contexto sin repetir.\n\nEl problema real de los flujos con agentes no es la calidad del modelo, sino que 𝗰𝗮𝗱𝗮 𝗮𝗴𝗲𝗻𝘁𝗲 𝗮𝗿𝗿𝗮𝗻𝗰𝗮 𝗱𝗲 𝗰𝗲𝗿𝗼. OzBrain estructura la información para que cada uno acceda solo a lo que necesita, lo que elimina fricciones y hace que el equipo trabaje con una sola versión de la verdad. Si usas varias herramientas de IA a diario, esto puede ahorrarte horas y muchos quebraderos de cabeza.\n\n#OzBrain #AgentesIA #MemoriaCompartida\n\nhttps://ozbrain.com"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "Una fábrica de software agentizada, autocontenida y aislada, construida con herramientas de código abierto",
+      "summary": "Un desarrollador ha montado una fábrica de software donde un único prompt crea un repositorio, escribe el código y lo despliega, usando Forgejo, Coolify y modelos de IA en un entorno sandboxed. El resultado demuestra que es posible montar un pipeline de desarrollo autónomo casi sin depender de servicios externos.",
+      "why_it_matters": "Es un ejemplo práctico de cómo automatizar tareas de desarrollo con agentes de IA manteniendo el control de la infraestructura.",
+      "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un solo prompt crea el repo, escribe el código y lo despliega. Todo con herramientas open source y sin depender de la nube.\n\n#OpenSource #Forgejo #Coolify\nhttps://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory",
+        "linkedin": "Un solo prompt basta para que una IA genere código, cree el repositorio y lo despliegue.\nUn desarrollador lo ha demostrado con una 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝟭𝟬𝟬% 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝘆 𝗮𝘂𝘁𝗼𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗮 usando Forgejo, Coolify y modelos locales. Lo interesante es que esto demuestra que un pipeline de desarrollo autónomo es viable sin depender de servicios externos, y que cualquier equipo puede replicarlo manteniendo el control de su código y sus datos.\n\n#OpenSource #Forgejo #Coolify\n\nhttps://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "investigacion",
+      "title": "Nvidia demuestra que el harness del agente importa tanto o más que el propio modelo de IA",
+      "summary": "La investigación de Nvidia muestra que ajustando el harness, el sistema que envuelve y controla al agente, se consiguen mejores resultados y menos comportamientos fuera de límites, incluso cuando el modelo base no es el más capaz. Es decir, la arquitectura de orquestación puede compensar las carencias del modelo.",
+      "why_it_matters": "Cambia el enfoque a la hora de construir agentes fiables: optimizar el contorno que controla al modelo puede ser más efectivo que cambiar de modelo.",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero",
+      "source": "TechCrunch",
+      "social": {
+        "x": "No subestimes el harness: puede compensar un modelo mediocre. Nvidia lo demuestra.\n\n#Nvidia #AgentesIA #Harness\nhttps://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero",
+        "linkedin": "La próxima gran mejora en agentes de IA no vendrá de un modelo más grande, sino de un mejor harness. La investigación de Nvidia demuestra que ajustar el sistema que envuelve y controla al agente puede dar mejores resultados y reducir los comportamientos no deseados, incluso cuando el modelo base no es el más capaz. 𝗘𝗹 𝗵𝗮𝗿𝗻𝗲𝘀𝘀 𝗶𝗺𝗽𝗼𝗿𝘁𝗮 𝘁𝗮𝗻𝘁𝗼 𝗼 𝗺á𝘀 𝗾𝘂𝗲 𝗲𝗹 𝗽𝗿𝗼𝗽𝗶𝗼 𝗺𝗼𝗱𝗲𝗹𝗼. Para los equipos que construyen agentes, esto sugiere que a veces no hace falta cambiar de modelo, basta con rediseñar la orquestación.\n\n#Nvidia #AgentesIA #Harness\n\nhttps://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "investigacion",
+      "title": "DeepMind cumple 15 años investigando con videojuegos y se alía con estudios para crear nuevas IA",
+      "summary": "Google DeepMind repasa su historia desde Atari hasta EVE Online y anuncia colaboraciones con estudios de videojuegos para llevar la investigación en IA a entornos más ricos y cercanos al mundo real. El objetivo es usar esos juegos como banco de pruebas para agentes más capaces.",
+      "why_it_matters": "Los videojuegos son un campo de entrenamiento clave para la IA, y estas alianzas pueden acelerar avances aplicables fuera del juego.",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "DeepMind lleva 15 años entrenando IA jugando a videojuegos. Ahora se alía con estudios para que el próximo gran salto salga de ahí.\n\n#DeepMind #GoogleDeepMind #EVEOnline #Atari\nhttps://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+        "linkedin": "DeepMind cumple 15 años usando videojuegos como laboratorio de IA y acaba de anunciar alianzas con estudios para seguir explorando entornos más ricos y cercanos al mundo real.\n\nLos juegos han pasado de ser un simple pasatiempo a convertirse en un campo de entrenamiento clave para la inteligencia artificial. 𝗟𝗼𝘀 𝘃𝗶𝗱𝗲𝗼𝗷𝘂𝗲𝗴𝗼𝘀 𝘀𝗼𝗻 𝗲𝗹 𝗯𝗮𝗻𝗰𝗼 𝗱𝗲 𝗽𝗿𝘂𝗲𝗯𝗮𝘀 𝗽𝗲𝗿𝗳𝗲𝗰𝘁𝗼 𝗽𝗮𝗿𝗮 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗾𝘂𝗲 𝗹𝘂𝗲𝗴𝗼 𝘁𝗲𝗻𝗱𝗿á𝗻 𝗾𝘂𝗲 𝗼𝗽𝗲𝗿𝗮𝗿 𝗳𝘂𝗲𝗿𝗮 𝗱𝗲 𝗹𝗮 𝗽𝗮𝗻𝘁𝗮𝗹𝗹𝗮, y esta colaboración con estudios puede acelerar avances que acaben en tus productos. Si trabajas con IA, conviene vigilar lo que pase en el terreno del ocio.\n\n#DeepMind #GoogleDeepMind #EVEOnline #Atari\n\nhttps://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "investigacion",
+      "title": "La IA sube las notas de los deberes pero baja las de los exámenes: estudio con 27.000 alumnos",
+      "summary": "Un estudio con 27.000 estudiantes de China ha encontrado que quienes usaban herramientas de IA mejoraban en las tareas de casa con el tiempo, pero sacaban peores notas en exámenes realizados sin ayuda. Los investigadores vinculan el resultado a una dependencia excesiva de la IA durante el aprendizaje.",
+      "why_it_matters": "Aporta datos empíricos al debate sobre si la IA en las aulas ayuda o perjudica el aprendizaje real.",
+      "url": "https://canews24.online/?p=71",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un estudio con 27.000 alumnos: la IA infla las notas de los deberes y hunde las de los exámenes.\n\n#EdTech #LLM #MachineLearning\nhttps://canews24.online/?p=71",
+        "linkedin": "Un estudio con 27.000 alumnos confirma la paradoja de la IA educativa: mejora los deberes, empeora los exámenes.\nLa causa parece ser la dependencia: al delegar en la IA las tareas de casa, el cerebro no consolida lo aprendido. No es un argumento contra la tecnología, sino una advertencia: 𝘀𝗶 𝗻𝗼 𝗲𝘃𝗮𝗹𝘂𝗮𝗺𝗼𝘀 𝘀𝗶𝗻 𝗮𝘆𝘂𝗱𝗮, 𝗹𝗮 𝗜𝗔 𝗽𝘂𝗲𝗱𝗲 𝗲𝗻𝗺𝗮𝘀𝗰𝗮𝗿𝗮𝗿 𝗲𝗹 𝗮𝗽𝗿𝗲𝗻𝗱𝗶𝘇𝗮𝗷𝗲. Para empresas e instituciones, la conclusión es clara: hay que diseñar la formación con momentos de evaluación sin herramientas.\n\n#EdTech #LLM #MachineLearning\n\nhttps://canews24.online/?p=71"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "investigacion",
+      "title": "Claude Opus 4.6 se puede manipular para generar contenido sexual explícito",
+      "summary": "Una serie de pruebas de TechCrunch muestra que con relativamente poco esfuerzo se pueden burlar las políticas de uso de Anthropic y hacer que Claude Opus 4.6 genere contenido explícito. El modelo responde cuando se le plantean escenarios de ficción o se le da contexto que enmascara la intención.",
+      "why_it_matters": "Pone en evidencia que los filtros de seguridad de los grandes modelos siguen siendo vulnerables a técnicas sencillas de jailbreak.",
+      "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine",
+      "source": "TechCrunch",
+      "social": {
+        "x": "¿Cuánto cuesta que Claude genere contenido que no debería? Un simple contexto de ficción basta.\n\n#Claude #Anthropic #Jailbreak #Seguridad\nhttps://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine",
+        "linkedin": "Anthropic ha puesto a Claude como un modelo ejemplar en seguridad, pero una prueba de TechCrunch demuestra que basta un escenario ficticio para que Opus 4.6 genere contenido sexual explícito. Los filtros actuales se pueden eludir con técnicas sencillas de jailbreak, y eso debería preocupar a cualquier empresa que dependa de estos sistemas. 𝗟𝗮 𝗮𝗹𝗶𝗻𝗲𝗮𝗰𝗶ó𝗻 𝗻𝗼 𝗲𝘀 𝘂𝗻 𝗲𝘀𝘁𝗮𝗱𝗼 𝗲𝘀𝘁á𝘁𝗶𝗰𝗼, 𝘀𝗶𝗻𝗼 𝘂𝗻 𝗱𝗲𝘀𝗮𝗳í𝗼 𝗰𝗼𝗻𝘁𝗶𝗻𝘂𝗼 𝗾𝘂𝗲 𝗲𝘅𝗶𝗴𝗲 𝗽𝗿𝘂𝗲𝗯𝗮𝘀 𝗰𝗼𝗻𝘀𝘁𝗮𝗻𝘁𝗲𝘀.\n\n#Claude #Anthropic #Jailbreak #Seguridad\n\nhttps://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Más de un millón de personas han pulsado el botón de LinkedIn para marcar contenido generado por IA",
+      "summary": "LinkedIn anunció el botón 'Parece contenido hecho con IA' hace unas semanas y ya suma más de un millón de clics. La compañía lo presenta como una forma de que los usuarios etiqueten publicaciones de baja calidad generadas automáticamente.",
+      "why_it_matters": "Es un experimento social a gran escala para combatir el ruido que la IA generativa está introduciendo en las redes sociales.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+      "source": "The Verge",
+      "social": {
+        "x": "Un millón de clics en LinkedIn: los usuarios ya marcan publicaciones que parecen hechas con IA. ¿El primer gran filtro social contra el ruido generativo?\n\n#LinkedIn #IAgenerativa #RedesSociales\nhttps://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+        "linkedin": "LinkedIn lleva semanas probando un botón para señalar contenido que parece generado por IA. Ya ha recibido más de un millón de clics, y eso convierte la moderación colaborativa en 𝘂𝗻 𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁𝗼 𝘀𝗼𝗰𝗶𝗮𝗹 𝗮 𝗴𝗿𝗮𝗻 𝗲𝘀𝗰𝗮𝗹𝗮 contra el ruido generativo. Las marcas y creadores que usan IA sin transparencia deberían tomar nota: la comunidad está aprendiendo a detectarlos.\n\n#LinkedIn #IAgenerativa #RedesSociales\n\nhttps://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "industria",
+      "title": "Expertos en seguridad infantil piden cautela ante el ChatGPT para adolescentes de OpenAI",
+      "summary": "Varios especialistas en protección de menores han mostrado su escepticismo ante el lanzamiento de ChatGPT para Teens, y dicen que OpenAI debe demostrar que el producto es seguro antes de darlo por bueno. Dudan de que las salvaguardas sean suficientes para un público menor.",
+      "why_it_matters": "La entrada de la IA conversacional en la educación y en la vida de los menores exige más transparencia y controles de seguridad.",
+      "url": "https://www.engadget.com/2241179/child-safety-experts-skeptical-of-openai-chatgpt-for-teens",
+      "source": "Engadget",
+      "social": {
+        "x": "¿Es seguro el ChatGPT para adolescentes? Los expertos en infancia piden a OpenAI que lo demuestre antes de darlo por bueno.\n\n#OpenAI #ChatGPT #SeguridadInfantil\nhttps://www.engadget.com/2241179/child-safety-experts-skeptical-of-openai-chatgpt-for-teens",
+        "linkedin": "OpenAI lanza un ChatGPT para adolescentes, pero los expertos en protección infantil no se fían: exigen pruebas de seguridad antes de aceptarlo. La IA conversacional está entrando en las aulas y en la vida de los menores sin que sepamos qué efectos tiene a largo plazo. 𝗟𝗮𝘀 𝘀𝗮𝗹𝘃𝗮𝗴𝘂𝗮𝗿𝗱𝗮𝘀 𝗮𝗰𝘁𝘂𝗮𝗹𝗲𝘀 𝗻𝗼 𝗽𝗮𝗿𝗲𝗰𝗲𝗻 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝗽𝗮𝗿𝗮 𝘂𝗻 𝗽ú𝗯𝗹𝗶𝗰𝗼 𝘃𝘂𝗹𝗻𝗲𝗿𝗮𝗯𝗹𝗲, y la presión comercial no debería ir por delante de la evidencia.\n\n#OpenAI #ChatGPT #SeguridadInfantil\n\nhttps://www.engadget.com/2241179/child-safety-experts-skeptical-of-openai-chatgpt-for-teens"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "industria",
+      "title": "Las gafas de Meta con IA se multiplican y las apps para detectar sus grabaciones no son fiables",
+      "summary": "El auge de las gafas Meta AI con cámara está generando un problema de privacidad, porque es difícil saber cuándo están grabando. Aplicaciones como Zuckoff intentan detectarlas, pero Ars Technica comprueba que sus resultados son imperfectos y no garantizan protección.",
+      "why_it_matters": "La normalización de cámaras en wearables hace urgente debatir cómo proteger la privacidad de quienes están alrededor.",
+      "url": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect",
+      "source": "Ars Technica",
+      "social": {
+        "x": "¿Sabrías si unas Meta Ray-Ban te están grabando? Ni siquiera una app como Zuckoff puede detectarlo con fiabilidad.\n\n#Meta #RayBan #Wearables\nhttps://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect",
+        "linkedin": "Las Meta Ray-Ban se normalizan, pero sus cámaras plantean un problema: nadie detecta de forma fiable cuándo están grabando.\nArs Technica ha probado apps como Zuckoff y los resultados son desiguales. 𝗟𝗮 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲 𝗾𝘂𝗶𝗲𝗻𝗲𝘀 𝗻𝗼𝘀 𝗿𝗼𝗱𝗲𝗮𝗻 𝘀𝗲 𝗵𝗮 𝘃𝘂𝗲𝗹𝘁𝗼 𝘂𝗻𝗮 𝗰𝘂𝗲𝘀𝘁𝗶ó𝗻 𝘂𝗿𝗴𝗲𝗻𝘁𝗲 que la tecnología actual no resuelve. Si no exigimos transparencia, aceptaremos cámaras invisibles en nuestro día a día.\n\n#Meta #RayBan #Wearables\n\nhttps://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Los AirPods con cámara de Apple: cada auricular toma su propia imagen para la Visual Intelligence",
+      "summary": "Los nuevos detalles sobre los próximos AirPods con cámara revelan que cada auricular capturará una imagen de forma independiente y luego se sincronizarán para alimentar funciones de Visual Intelligence de Apple. El enfoque plantea dudas sobre cómo se usarán en el día a día.",
+      "why_it_matters": "Apple sigue integrando la IA en el hardware que ya llevamos puesto, lo que abre nuevas posibilidades pero también preguntas de privacidad y usabilidad.",
+      "url": "https://www.engadget.com/2241639/more-details-on-apple-camera-equipped-airpods",
+      "source": "Engadget",
+      "social": {
+        "x": "Apple mete una cámara en cada AirPod: cada uno captura su propia imagen para la Visual Intelligence.\n\n#Apple #AirPods #VisualIntelligence\nhttps://www.engadget.com/2241639/more-details-on-apple-camera-equipped-airpods",
+        "linkedin": "Apple va a poner una cámara en cada auricular, y eso cambia la idea que tenemos de unos cascos.\nLos próximos AirPods capturarán imágenes de forma independiente y las sincronizarán para alimentar la Visual Intelligence, la IA que ya está en el iPhone. Es un paso más hacia la computación ambiental, pero también abre dudas: ¿cuándo se activan las cámaras, qué graban y quién protege tus datos? 𝗟𝗮 𝗰𝗼𝗻𝗳𝗶𝗮𝗻𝘇𝗮 𝘀𝗲𝗿á 𝗲𝗹 𝗳𝗮𝗰𝘁𝗼𝗿 𝗾𝘂𝗲 𝗱𝗲𝘁𝗲𝗿𝗺𝗶𝗻𝗲 𝘀𝗶 𝗹𝗼𝘀 𝗮𝗱𝗼𝗽𝘁𝗮𝗺𝗼𝘀 𝗼 𝗹𝗼𝘀 𝗿𝗲𝗰𝗵𝗮𝘇𝗮𝗺𝗼𝘀. La tecnología deja de ser el reto; ahora lo es el diseño de su uso.\n\n#Apple #AirPods #VisualIntelligence\n\nhttps://www.engadget.com/2241639/more-details-on-apple-camera-equipped-airpods"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "Apple despide a más de 200 empleados de los equipos de Vision Pro y Siri",
+      "summary": "Bloomberg informa de que Apple ha recortado más de 200 puestos en las divisiones de Vision Pro y Siri, incluido el cierre de un equipo de juegos para las gafas y la reducción del equipo de contenido inmersivo. La compañía dice que busca evolucionar para ofrecer mejores experiencias.",
+      "why_it_matters": "La reestructuración muestra hacia dónde está moviendo Apple sus prioridades en IA y realidad aumentada.",
+      "url": "https://www.theverge.com/tech/983451/apple-layoffs-vision-pro-siri",
+      "source": "The Verge",
+      "social": {
+        "x": "¿Apple entierra la realidad aumentada? Despide a más de 200 empleados y mata los juegos de Vision Pro.\n\n#Apple #VisionPro #Siri #RealidadAumentada\nhttps://www.theverge.com/tech/983451/apple-layoffs-vision-pro-siri",
+        "linkedin": "¿Apple entierra la realidad aumentada? Acaba de despedir a más de 200 empleados y ha eliminado el equipo de juegos de Vision Pro.\n\nEl movimiento no es casual. Mientras los focos apuntan a la inteligencia artificial, la compañía recorta su apuesta por el contenido inmersivo. 𝗟𝗮 𝗔𝗥 𝗽𝗶𝗲𝗿𝗱𝗲 𝗽𝗿𝗶𝗼𝗿𝗶𝗱𝗮𝗱 𝗲𝘀𝘁𝗿𝗮𝘁é𝗴𝗶𝗰𝗮 𝗳𝗿𝗲𝗻𝘁𝗲 𝗮 𝗹𝗮 𝗜𝗔, y eso se nota en el ecosistema: si Apple no sostiene su plataforma, los desarrolladores buscarán otro lugar. La reestructuración no es solo un recorte, también es una señal de hacia dónde se mueve Cupertino.\n\n#Apple #VisionPro #Siri #RealidadAumentada\n\nhttps://www.theverge.com/tech/983451/apple-layoffs-vision-pro-siri"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "herramientas",
+      "title": "Rust activa el nuevo trait solver en las compilaciones nightly",
+      "summary": "El equipo de Rust ha habilitado el 'next-generation trait solver' en la rama nightly, un cambio esperado que simplifica el sistema de tipos y permite comportamientos más consistentes. Los usuarios que compilen con nightly podrán probarlo y reportar problemas.",
+      "why_it_matters": "Es un hito en la evolución del lenguaje que afectará al rendimiento de compilación y a la ergonomía de las traits.",
+      "url": "https://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly",
+      "source": "Lobsters",
+      "social": {
+        "x": "Llevaban años prometiéndolo y ya está: el nuevo trait solver de Rust llega a las compilaciones nightly.\n\n#Rust #TraitSolver #Nightly\nhttps://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly",
+        "linkedin": "Rust por fin activa en nightly su nuevo trait solver, el cambio más esperado para el sistema de tipos.\n\nEste hito lleva años en desarrollo y afecta directamente a la consistencia del lenguaje y al rendimiento de compilación. 𝗤𝘂𝗶𝗲𝗻𝗲𝘀 𝘂𝘀𝗲𝗻 𝘁𝗿𝗮𝗶𝘁𝘀 𝗰𝗼𝗺𝗽𝗹𝗲𝗷𝗮𝘀 𝗱𝗲𝗯𝗲𝗿í𝗮𝗻 𝗽𝗿𝗼𝗯𝗮𝗿𝗹𝗼 𝗲𝗻 𝘀𝘂𝘀 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗻𝗶𝗴𝗵𝘁𝗹𝘆 𝗽𝗮𝗿𝗮 𝗱𝗲𝘁𝗲𝗰𝘁𝗮𝗿 𝗿𝗲𝗴𝗿𝗲𝘀𝗶𝗼𝗻𝗲𝘀 𝗼 𝗺𝗲𝗷𝗼𝗿𝗮𝘀 𝗰𝘂𝗮𝗻𝘁𝗼 𝗮𝗻𝘁𝗲𝘀. Además, allana el camino para simplificar conceptos que hoy confunden a muchos desarrolladores.\n\n#Rust #TraitSolver #Nightly\n\nhttps://blog.rust-lang.org/2026/08/21/enabling-next-solver-on-nightly"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "LLVM 23 logra mejoras de tiempo de compilación de casi el 7%",
+      "summary": "El análisis de los cambios en LLVM 23 muestra una reducción media del 6,75% en el tiempo de compilación con -O3, con casos como sqlite3 que bajan un 10,5%. Las mejoras vienen de optimizar las tablas hash, el DenseMap y otras estructuras internas.",
+      "why_it_matters": "Para cualquier proyecto grande que dependa de LLVM, compilar más rápido reduce costes y acelera el ciclo de desarrollo.",
+      "url": "https://aengelke.net/llvm23-ct.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "Compilar con LLVM 23 es casi un 7% más rápido. Y en proyectos como sqlite3, la mejora supera el 10%.\n\n#LLVM #Rendimiento #OpenSource\nhttps://aengelke.net/llvm23-ct.html",
+        "linkedin": "LLVM 23 llega con una mejora que no es cosmética: un 6,75% menos de tiempo de compilación en -O3. Las optimizaciones internas en tablas hash y DenseMap se traducen en minutos ahorrados en proyectos grandes. 𝗖𝗮𝗱𝗮 𝗺𝗲𝗷𝗼𝗿𝗮 𝗱𝗲 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗲𝗻 𝗹𝗮 𝗰𝗮𝗱𝗲𝗻𝗮 𝗱𝗲 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 𝘀𝗲 𝗻𝗼𝘁𝗮 𝗱𝗶𝗿𝗲𝗰𝘁𝗼 𝗲𝗻 𝗲𝗹 𝗰𝗶𝗰𝗹𝗼 𝗱𝗲 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗼 y reduce costes de infraestructura.\n\n#LLVM #Rendimiento #OpenSource\n\nhttps://aengelke.net/llvm23-ct.html"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "Qué ocurre dentro de una GPU cuando lee memoria, explicado instrucción a instrucción",
+      "summary": "El blog Doubleword detalla el camino de una instrucción LDG.E en una RTX 4090, desde la warp hasta la DRAM, pasando por la caché L1, la TLB y la L2. Es un recorrido minucioso por el hardware que ayuda a entender los cuellos de botella de la memoria.",
+      "why_it_matters": "Entender cómo se accede a la memoria en una GPU es clave para optimizar kernels y aplicaciones de cómputo, incluidos los workloads de IA.",
+      "url": "https://blog.doubleword.ai/what-happens-when-a-gpu-reads-memory",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Qué ocurre dentro de una GPU cuando lee memoria? El recorrido de una instrucción LDG.E en una RTX 4090, explicado paso a paso.\n\n#GPU #CUDA #RTX4090\nhttps://blog.doubleword.ai/what-happens-when-a-gpu-reads-memory",
+        "linkedin": "¿Sabes cuántas capas de caché y tablas de traducción cruza una instrucción de memoria en una GPU?\n\nEl blog Doubleword lo desglosa para una RTX 4090: el camino completo de una LDG.E, desde la warp hasta la DRAM, pasando por L1, TLB y L2. Entender esta jerarquía es clave para optimizar kernels, sobre todo en cargas de IA donde 𝗲𝗹 𝗮𝗰𝗰𝗲𝘀𝗼 𝗮 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝘀𝘂𝗲𝗹𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮.\n\n#GPU #CUDA #RTX4090\n\nhttps://blog.doubleword.ai/what-happens-when-a-gpu-reads-memory"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "herramientas",
+      "title": "rust-glancer, un LSP alternativo para Rust centrado en consumir poca memoria",
+      "summary": "rust-glancer es un servidor de lenguaje (LSP) para Rust diseñado para funcionar con un uso de memoria reducido. El proyecto acaba de presentarse como una alternativa ligera al rust-analyzer tradicional.",
+      "why_it_matters": "Herramientas como esta amplían las opciones para programar en Rust en máquinas con recursos limitados.",
+      "url": "https://rust-glancer.github.io/blog/hello-world",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Te agobia el consumo de memoria de rust-analyzer? Conoce rust-glancer, el LSP ligero que acaba de aparecer.\n\n#Rust #LSP #rust-glancer\nhttps://rust-glancer.github.io/blog/hello-world",
+        "linkedin": "Si crees que para programar en Rust necesitas un LSP que devore memoria, presta atención a esto.\n\nrust-glancer se presenta como una alternativa ligera a rust-analyzer, centrada en consumir muy poca memoria. Aunque probablemente no sustituya al estándar en proyectos complejos, 𝘂𝗻𝗮 𝗼𝗽𝗰𝗶ó𝗻 𝗱𝗲 𝗯𝗮𝗷𝗼 𝗰𝗼𝗻𝘀𝘂𝗺𝗼 abre la puerta a trabajar en máquinas con pocos recursos. Para el ecosistema Rust, tener esta diversidad es una ventaja real.\n\n#Rust #LSP #rust-glancer\n\nhttps://rust-glancer.github.io/blog/hello-world"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "herramientas",
+      "title": "Exim 4.100 llega con novedades para el veterano servidor de correo",
+      "summary": "Se ha publicado Exim 4.100, una nueva versión del popular agente de transferencia de correo open source. La lista de cambios incluye correcciones y mejoras de mantenimiento para un software que sigue siendo clave en la infraestructura de email.",
+      "why_it_matters": "Exim gestiona una parte importante del correo de internet, y sus actualizaciones son críticas para la seguridad y la estabilidad del servicio.",
+      "url": "https://lists.exim.org/lurker/message/20260820.154633.91995f73.en.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "El correo de media internet depende de un programa de 1995. Exim acaba de lanzar su versión 4.100 y sigue siendo open source.\n\n#Exim #OpenSource #Email\nhttps://lists.exim.org/lurker/message/20260820.154633.91995f73.en.html",
+        "linkedin": "Exim acaba de lanzar su versión 4.100, pero si no eres administrador de sistemas probablemente no te hayas enterado. Está bien que sea así, porque significa que el correo sigue fluyendo sin dramas. Este veterano open source sigue siendo 𝘂𝗻𝗮 𝗽𝗶𝗲𝘇𝗮 𝗰𝗿í𝘁𝗶𝗰𝗮 𝘆 𝘀𝗶𝗹𝗲𝗻𝗰𝗶𝗼𝘀𝗮 𝗱𝗲 𝗹𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗱𝗲 𝗶𝗻𝘁𝗲𝗿𝗻𝗲𝘁 que conviene no ignorar: su mantenimiento y sus parches afectan directamente a la seguridad del email a escala global.\n\n#Exim #OpenSource #Email\n\nhttps://lists.exim.org/lurker/message/20260820.154633.91995f73.en.html"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "herramientas",
+      "title": "El camino hacia transacciones ACID en Cassandra 6",
+      "summary": "Un artículo técnico detalla cómo Cassandra 6 está incorporando transacciones ACID reales, algo que históricamente se había dejado de lado en favor de la consistencia eventual. El texto explica el diseño y las decisiones que permiten sumar esta capacidad sin romper la escalabilidad.",
+      "why_it_matters": "Si Cassandra consigue transacciones ACID, ampliará su uso en aplicaciones que hoy necesitan bases de datos relacionales.",
+      "url": "https://theconsensus.dev/p/2026/08/16/transactions-in-cassandra.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "Cassandra siempre fue sinónimo de consistencia eventual. Con la versión 6, promete transacciones ACID reales sin tocar la escalabilidad.\n\n#Cassandra6 #Cassandra #ACID\nhttps://theconsensus.dev/p/2026/08/16/transactions-in-cassandra.html",
+        "linkedin": "Durante años, quien necesitaba transacciones ACID descartaba Cassandra. La versión 6 podría cambiar esa decisión: el equipo del proyecto explica en un artículo cómo incorpora ACID real sin sacrificar la escalabilidad horizontal. 𝗦𝗶 𝗹𝗼 𝗰𝗼𝗻𝘀𝗶𝗴𝘂𝗲, 𝗖𝗮𝘀𝘀𝗮𝗻𝗱𝗿𝗮 𝗱𝗲𝗷𝗮𝗿á 𝗱𝗲 𝘀𝗲𝗿 𝘀𝗼𝗹𝗼 𝘂𝗻 𝗮𝗹𝗺𝗮𝗰é𝗻 𝗡𝗼𝗦𝗤𝗟 𝘆 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝗿á 𝗰𝗼𝗻 𝗹𝗮𝘀 𝗯𝗮𝘀𝗲𝘀 𝗿𝗲𝗹𝗮𝗰𝗶𝗼𝗻𝗮𝗹𝗲𝘀 en aplicaciones que exigen consistencia fuerte. Para cualquier arquitectura que hoy evita Cassandra por este motivo, toca revisar la elección.\n\n#Cassandra6 #Cassandra #ACID\n\nhttps://theconsensus.dev/p/2026/08/16/transactions-in-cassandra.html"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "lanzamientos",
+      "title": "Motorola lanzará móviles con GrapheneOS en 2027 y costarán más que los Pixel",
+      "summary": "Los teléfonos de Motorola con GrapheneOS, el sistema operativo centrado en la privacidad, llegarán al mercado en 2027 con un precio superior al de los Pixel. Es la primera expansión importante de GrapheneOS más allá del hardware de Google.",
+      "why_it_matters": "Llevar un sistema operativo privado a más fabricantes puede cambiar las opciones de quienes priorizan la seguridad en Android.",
+      "url": "https://arstechnica.com/gadgets/2026/08/motorolas-grapheneos-phones-will-launch-in-2027-priced-higher-than-pixels",
+      "source": "Ars Technica",
+      "social": {
+        "x": "En 2027, Motorola venderá móviles con GrapheneOS. Y no serán baratos: costarán más que los Pixel.\n\n#GrapheneOS #Motorola #Android #Privacidad\nhttps://arstechnica.com/gadgets/2026/08/motorolas-grapheneos-phones-will-launch-in-2027-priced-higher-than-pixels",
+        "linkedin": "GrapheneOS, el sistema operativo Android centrado en la privacidad, dará el salto a Motorola en 2027, y lo hará con un precio superior al de los Pixel.\n\nHasta ahora, GrapheneOS solo era viable en hardware de Google. Que Motorola lo adopte abre la puerta a que 𝗹𝗮 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲𝗷𝗲 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗻𝗶𝗰𝗵𝗼 y se convierta en una opción comercial real en Android. Que cueste más que un Pixel invita a preguntarse cuánto estamos dispuestos a pagar por controlar nuestros datos.\n\n#GrapheneOS #Motorola #Android #Privacidad\n\nhttps://arstechnica.com/gadgets/2026/08/motorolas-grapheneos-phones-will-launch-in-2027-priced-higher-than-pixels"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "lanzamientos",
+      "title": "Walmart por fin aceptará Apple Pay y Google Pay en sus tiendas de Estados Unidos",
+      "summary": "Walmart ha anunciado que incorporará el pago sin contacto con Apple Pay y Google Pay en tiendas y gasolineras de EE.UU. a partir del 24 de agosto, con despliegue completo previsto para finales de 2026. Era uno de los grandes minoristas que seguía usando su propia solución de pago.",
+      "why_it_matters": "La decisión elimina una de las mayores lagunas en la adopción del pago móvil en el comercio estadounidense.",
+      "url": "https://www.theverge.com/tech/983336/walmart-apple-google-pay-launch",
+      "source": "The Verge",
+      "social": {
+        "x": "Walmart llevaba años obligándote a usar su propia app para pagar. A partir del 24 de agosto, aceptará Apple Pay y Google Pay.\n\n#Walmart #ApplePay #GooglePay\nhttps://www.theverge.com/tech/983336/walmart-apple-google-pay-launch",
+        "linkedin": "Durante años, pagar en Walmart era una excepción: podías usar Apple Pay o Google Pay en casi cualquier sitio, pero no ahí.\nA partir del 24 de agosto, Walmart aceptará Apple Pay y Google Pay en todas sus tiendas y gasolineras de EE.UU., con despliegue completo para finales de 2026. La noticia 𝗲𝗹𝗶𝗺𝗶𝗻𝗮 𝘂𝗻𝗮 𝗱𝗲 𝗹𝗮𝘀 𝗺𝗮𝘆𝗼𝗿𝗲𝘀 𝗹𝗮𝗴𝘂𝗻𝗮𝘀 𝗲𝗻 𝗹𝗮 𝗮𝗱𝗼𝗽𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝗽𝗮𝗴𝗼 𝗺ó𝘃𝗶𝗹 𝗲𝗻 𝗲𝗹 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗼 𝗲𝘀𝘁𝗮𝗱𝗼𝘂𝗻𝗶𝗱𝗲𝗻𝘀𝗲 y deja en evidencia a los minoristas que aún obligan a usar su propia app. Para el retail, la lección es simple: si el cliente quiere pagar con su móvil, acabas por ceder.\n\n#Walmart #ApplePay #GooglePay\n\nhttps://www.theverge.com/tech/983336/walmart-apple-google-pay-launch"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Envenenan crates populares de Rust para robar credenciales de desarrolladores",
+      "summary": "Un ataque a la cadena de suministro ha distribuido versiones maliciosas de varias crates de Rust que instalaban un infostealer durante las compilaciones. El malware robaba tokens y credenciales de los desarrolladores que usaban esas dependencias.",
+      "why_it_matters": "La confianza en los registros de paquetes depende de detectar rápido estos ataques, que pueden comprometer proyectos enteros.",
+      "url": "https://www.theregister.com/security/2026/08/21/hackers-poison-popular-rust-crates-to-steal-developers-credentials/5291075",
+      "source": "The Register",
+      "social": {
+        "x": "Si usas Rust, revisa tus dependencias: han colado malware en crates populares para robar credenciales al compilar.\n\n#Rust #Ciberseguridad #SupplyChain #OpenSource\nhttps://www.theregister.com/security/2026/08/21/hackers-poison-popular-rust-crates-to-steal-developers-credentials/5291075",
+        "linkedin": "Un ataque a la cadena de suministro ha envenenado crates populares de Rust con un infostealer que roba credenciales al compilar.\n\n𝗟𝗮 𝗰𝗼𝗻𝗳𝗶𝗮𝗻𝘇𝗮 𝗲𝗻 𝗹𝗼𝘀 𝗿𝗲𝗴𝗶𝘀𝘁𝗿𝗼𝘀 𝗱𝗲 𝗽𝗮𝗾𝘂𝗲𝘁𝗲𝘀 𝗲𝘀 𝗹𝗮 𝗯𝗮𝘀𝗲 𝗱𝗲𝗹 𝗲𝗰𝗼𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 y este incidente demuestra que ningún registro está a salvo de dependencias maliciosas. Cualquier equipo que integre dependencias de Rust debería auditar sus builds y verificar los hashes de las crates que usa.\n\n#Rust #Ciberseguridad #SupplyChain #OpenSource\n\nhttps://www.theregister.com/security/2026/08/21/hackers-poison-popular-rust-crates-to-steal-developers-credentials/5291075"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "Sistema de optimización de rendimiento para agentes de IA, pensado para mejorar las habilidades, memoria y seguridad de herramientas como Claude Code, Codex o Cursor.",
+      "language": "JavaScript",
+      "stars": 241950,
+      "social": {
+        "x": "Alguien acaba de publicar ECC, un optimizador para agentes de IA (Claude Code, Codex, Cursor). 241.950 estrellas y mejoras en habilidades, memoria y seguridad.\n\n#ECC #JavaScript #OpenSource #GitHub\nhttps://github.com/affaan-m/ECC",
+        "linkedin": "¿TUS AGENTES DE IA RINDEN TODO LO QUE PUEDEN? Este repo dice que no.\n\nECC es un sistema de optimización de rendimiento para herramientas como Claude Code, Codex o Cursor. Está en JavaScript y ya suma 241.950 estrellas en GitHub.\n\nSu objetivo es claro: mejorar las habilidades, la memoria y la seguridad de tus agentes para que trabajen mejor contigo.\n\n→ Mejora las habilidades en la resolución de tareas.\n→ Amplía la memoria para retener más contexto.\n→ Refuerza la seguridad en cada interacción.\n→ Pensado para integrarse con los asistentes más usados.\n\n𝟮𝟰𝟭.𝟵𝟱𝟬 𝗲𝘀𝘁𝗿𝗲𝗹𝗹𝗮𝘀 en GitHub no es casualidad. Te dejo el repo abajo para que lo veas tú mismo.\n\n#ECC #JavaScript #OpenSource #GitHub\n\nhttps://github.com/affaan-m/ECC"
+      }
+    },
+    {
+      "name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "Plataforma para desplegar agentes de IA colaborativos y automatizar flujos de trabajo autónomos. Incluye memoria adaptativa, integración con RAG y soporte nativo para varios asistentes de código.",
+      "language": "TypeScript",
+      "stars": 68774,
+      "social": {
+        "x": "Alguien acaba de regalar una plataforma para orquestar agentes de IA. ruflo tiene 68.774 estrellas, memoria adaptativa y RAG integrado.\n\n#ruflo #OpenSource #GitHub #RAG\nhttps://github.com/ruvnet/ruflo",
+        "linkedin": "¿CANSADO DE PAGAR POR CADA AGENTE DE IA?\n\nruflo te deja 𝗱𝗲𝘀𝗽𝗹𝗲𝗴𝗮𝗿 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗲𝗻 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 𝗲𝗻𝘁𝗼𝗿𝗻𝗼, con memoria adaptativa, integración RAG y soporte para tus asistentes de código. Todo open source y con 68.774 estrellas.\n→ Memoria adaptativa para mantener el contexto en cada tarea.\n→ RAG integrado para responder con tus propios documentos.\n→ Compatible con varios asistentes de código para llevarlo a tu editor.\nGuarda este post: te dejo el repo abajo para que lo explores.\n\n#ruflo #OpenSource #GitHub #RAG\n\nhttps://github.com/ruvnet/ruflo"
+      }
+    },
+    {
+      "name": "apache/maka",
+      "url": "https://github.com/apache/maka",
+      "description": "Espacio de trabajo para agentes de IA local-first que registra todas las interacciones en un log inmutable. Resulta práctico para auditar y depurar el comportamiento de los agentes.",
+      "language": "TypeScript",
+      "stars": 2122,
+      "social": {
+        "x": "Alguien acaba de liberar un espacio de trabajo para agentes de IA que guarda un log inmutable de todo lo que hacen. Ni una acción sin rastro.\n\n#Maka #OpenSource #TypeScript #Apache\nhttps://github.com/apache/maka",
+        "linkedin": "¿SABES QUÉ HA HECHO HOY TU AGENTE DE IA?\n\nLos agentes de IA son cada vez más autónomos, pero también más opacos. Apache ha liberado Maka, un espacio de trabajo local-first que registra todas las interacciones en un log inmutable. Resulta ideal para auditar y depurar el comportamiento de tus agentes sin que se te escape nada.\n\n→ Cada prompt, respuesta y acción queda registrado de forma permanente.\n→ El log es inmutable, no se puede manipular ni borrar. Perfecto para auditorías.\n→ Todo se ejecuta en local, sin depender de servicios externos.\n→ Está escrito en TypeScript y es open source, bajo el paraguas de Apache.\n\nLa clave está en 𝘂𝗻 𝗹𝗼𝗴 𝗶𝗻𝗺𝘂𝘁𝗮𝗯𝗹𝗲 𝗾𝘂𝗲 𝗿𝗲𝗴𝗶𝘀𝘁𝗿𝗮 𝗰𝗮𝗱𝗮 𝗶𝗻𝘁𝗲𝗿𝗮𝗰𝗰𝗶ó𝗻. Si te dedicas a construir o gestionar agentes de IA, esto te cambia el día a día.\n\nTe dejo el repo abajo, ya tiene 2.122 estrellas y sigue creciendo. Guárdate el post para tenerlo a mano.\n\n#Maka #OpenSource #TypeScript #Apache\n\nhttps://github.com/apache/maka"
+      }
+    },
+    {
+      "name": "microsoft/onnxruntime",
+      "url": "https://github.com/microsoft/onnxruntime",
+      "description": "Acelerador de inferencia y entrenamiento de modelos de aprendizaje automático, compatible con múltiples plataformas. Es la forma más sencilla de ejecutar modelos ONNX en producción.",
+      "language": "C++",
+      "stars": 21563,
+      "social": {
+        "x": "Ejecutar modelos ONNX en producción es un dolor. Hasta que llega ONNX Runtime de Microsoft: lo acelera en cualquier plataforma. 21k estrellas.\n\n#ONNXRuntime #ONNX #OpenSource #GitHub\nhttps://github.com/microsoft/onnxruntime",
+        "linkedin": "TU MODELO ONNX PUEDE CORRER EN PRODUCCIÓN SIN SUFRIR.\n\nSi has intentado llevar un modelo de machine learning a producción, sabes que la inferencia puede ser lenta y complicada. Microsoft ha abierto ONNX Runtime, un acelerador que simplifica todo el proceso. Este repo es 𝗹𝗮 𝗳𝗼𝗿𝗺𝗮 𝗺á𝘀 𝘀𝗲𝗻𝗰𝗶𝗹𝗹𝗮 𝗱𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗢𝗡𝗡𝗫 𝗲𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻.\n\n→ Acelera la inferencia y el entrenamiento de modelos ONNX.\n→ Funciona en múltiples plataformas: CPU, GPU, móvil y edge.\n→ Se integra con frameworks populares de ML.\n→ Es open source y ya cuenta con más de 21.000 estrellas.\n\nTe dejo el repo abajo. Guárdalo para tu próximo deploy.\n\n#ONNXRuntime #ONNX #OpenSource #GitHub\n\nhttps://github.com/microsoft/onnxruntime"
+      }
+    },
+    {
+      "name": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "description": "Alternativa nativa y local para Logitech Options+, escrita en Rust. Permite reconfigurar botones, DPI y SmartShift sin necesidad de cuenta ni telemetría.",
+      "language": "Rust",
+      "stars": 13330,
+      "social": {
+        "x": "Alguien acaba de publicar OpenLogi: una alternativa local en Rust a Logitech Options+. Sin cuenta, sin telemetría y con control total de botones y DPI.\n\n#OpenLogi #Rust #OpenSource #GitHub\nhttps://github.com/AprilNEA/OpenLogi",
+        "linkedin": "¿CANSADO DE QUE LOGITECH OPTIONS+ TE OBLIGUE A CREAR UNA CUENTA Y A ACEPTAR TELEMETRÍA?\n\nHay una alternativa open source que funciona en local y está escrita en Rust. OpenLogi sustituye a ese software oficial y te devuelve el control de tu ratón sin depender de la nube ni de servicios de terceros.\n\n→ Reconfigura cualquier botón para que haga lo que tú quieras.\n→ Ajusta los niveles de DPI desde la interfaz, sin instalar nada extra.\n→ Activa y controla SmartShift, la función de scroll rápido, tal y como lo harías con el software original.\n→ Todo en local: tus datos no salen de tu equipo.\n→ Escrito en Rust, así que es rápido, eficiente y ligero.\n\nSi usas un ratón Logitech y no quieres renunciar a la privacidad, 𝗲𝘀𝘁𝗲 𝗿𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼 𝘁𝗲 𝘃𝘂𝗲𝗹𝘃𝗲 𝗮 𝗱𝗮𝗿 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝘁𝗼𝘁𝗮𝗹 𝗱𝗲 𝘁𝘂 𝗽𝗲𝗿𝗶𝗳é𝗿𝗶𝗰𝗼. Guárdatelo para la próxima vez que tengas que configurar un dispositivo nuevo.\n\n#OpenLogi #Rust #OpenSource #GitHub\n\nhttps://github.com/AprilNEA/OpenLogi"
+      }
+    }
+  ]
+}
