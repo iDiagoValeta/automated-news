@@ -1,0 +1,324 @@
+{
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T10:38:45.251Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "herramientas",
+      "title": "Por qué tu LLM local parece más tonto de lo que es: los peligros de una inferencia mal configurada",
+      "summary": "Un exhaustivo análisis muestra cómo cuantización, formato de prompt, muestreo y otros detalles de implementación degradan la calidad de los modelos locales. El autor compara configuraciones habituales con la implementación de referencia para demostrar que el problema no siempre es el modelo.",
+      "why_it_matters": "Entender estos matices permite sacar mucho más partido a los modelos que ya corremos en local sin cambiar de modelo.",
+      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Tu LLM local da respuestas mediocres? No cambies de modelo: ajusta la inferencia. Cuantización, prompt y muestreo son los culpables habituales. Un análisis lo demuestra.\n\n#LLM #LocalLLM #Quantization\nhttps://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+        "linkedin": "A muchos nos pasa: probamos un LLM local, vemos respuestas pobres y concluimos que el modelo es malo. Pero a menudo el problema no es el modelo, sino los detalles de la inferencia: cuantización agresiva, formato de prompt incorrecto o parámetros de muestreo mal elegidos. Un análisis detallado compara estas configuraciones con la implementación de referencia y demuestra que 𝗰𝗼𝗿𝗿𝗶𝗴𝗶𝗲𝗻𝗱𝗼 𝗹𝗮 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶ó𝗻 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗲𝘅𝗽𝗿𝗶𝗺𝗶𝗿 𝗺𝘂𝗰𝗵𝗼 𝗺á𝘀 𝗮𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝘀𝗶𝗻 𝗰𝗮𝗺𝗯𝗶𝗮𝗿𝗹𝗼. Esto importa porque evita migrar a soluciones más caras o complejas por un problema de ajuste, y mejora el rendimiento de los modelos que ya estamos usando en local.\n\n#LLM #LocalLLM #Quantization\n\nhttps://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Inherent presenta Faraday, un agente de IA que replica papers científicos mejor que Anthropic y OpenAI",
+      "summary": "El laboratorio londinense fundado por exalumnos de DeepMind asegura que su agente Faraday supera a los modelos de Anthropic y OpenAI a la hora de replicar artículos científicos. La capacidad de reproducir resultados de investigación podría acelerar la validación de nuevos trabajos.",
+      "why_it_matters": "Agentes capaces de repetir experimentos científicos por sí solos pueden convertirse en una herramienta clave para verificar y acelerar la investigación.",
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Faraday, el agente de IA de Inherent, replica papers científicos mejor que Anthropic y OpenAI. Detrás está un laboratorio londinense de exalumnos de DeepMind. La validación científica podría dejar de depender solo de la revisión humana.\nhttps://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research",
+        "linkedin": "Replicar un experimento científico es un trabajo lento y caro que casi nadie hace.\n\nFaraday, el agente de Inherent, asegura que lo hace solo y mejor que Anthropic y OpenAI. Fundado por exalumnos de DeepMind, este laboratorio londinense apunta a una de las tareas más tediosas de la ciencia. 𝗟𝗮 𝗿𝗲𝗽𝗿𝗼𝗱𝘂𝗰𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗰𝗼𝗺𝗼 𝗲𝘀𝘁á𝗻𝗱𝗮𝗿, 𝘆 𝗻𝗼 𝗰𝗼𝗺𝗼 𝗲𝘅𝗰𝗲𝗽𝗰𝗶ó𝗻, 𝗽𝗼𝗱𝗿í𝗮 𝘀𝗲𝗿 𝗲𝗹 𝗽𝗿ó𝘅𝗶𝗺𝗼 𝗴𝗿𝗮𝗻 𝗰𝗮𝗺𝗯𝗶𝗼 𝗲𝗻 𝗹𝗮 𝗶𝗻𝘃𝗲𝘀𝘁𝗶𝗴𝗮𝗰𝗶ó𝗻.\n\n#Faraday #Inherent #DeepMind\n\nhttps://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "investigacion",
+      "title": "Carrera de modelos autónomos en el speedrun de nanoGPT",
+      "summary": "Prime Intellect ha comparado 153 ejecuciones autónomas de 18 modelos de IA frontier en la prueba del optimizador nanoGPT. El ranking muestra qué modelos son capaces de cerrar más distancia con el récord humano en menos tiempo.",
+      "why_it_matters": "Este tipo de benchmarks estandarizados permite medir la capacidad real de los agentes de IA para resolver tareas complejas de ingeniería de forma autónoma.",
+      "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
+      "source": "Hacker News",
+      "social": {
+        "x": "153 ejecuciones autónomas, 18 modelos frontier y un solo reto: acercarse al récord humano en nanoGPT. El ranking acaba de publicarse.\n\n#nanoGPT #PrimeIntellect #AgentesIA\nhttps://www.primeintellect.ai/research/nanogpt-speedrun",
+        "linkedin": "La pregunta ya no es si los agentes de IA pueden programar: ahora medimos cuánto tardan en acercarse al récord humano. Prime Intellect ha comparado 153 ejecuciones autónomas de 18 modelos frontier en el speedrun de nanoGPT y el resultado deja un ranking con nombre y apellidos. 𝗟𝗮 𝗯𝗿𝗲𝗰𝗵𝗮 𝗰𝗼𝗻 𝗲𝗹 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗵𝘂𝗺𝗮𝗻𝗼 𝘀𝗲 𝗲𝘀𝘁á 𝗰𝗲𝗿𝗿𝗮𝗻𝗱𝗼 𝗯𝗮𝘀𝘁𝗮𝗻𝘁𝗲 𝗺á𝘀 𝗿á𝗽𝗶𝗱𝗼 𝗱𝗲 𝗹𝗼 𝗾𝘂𝗲 𝗺𝘂𝗰𝗵𝗼𝘀 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗮𝘀𝘂𝗺𝗲𝗻, y eso obliga a repensar el papel de la automatización en tareas complejas de ingeniería. Un benchmark estandarizado como este da al fin un criterio para evaluar a los agentes con datos objetivos.\n\n#nanoGPT #PrimeIntellect #AgentesIA\n\nhttps://www.primeintellect.ai/research/nanogpt-speedrun"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "industria",
+      "title": "OpenAI pide reforzar la ley de seguridad de IA de California que antes se opuso",
+      "summary": "OpenAI ha cambiado de postura y ahora apoya que la ley SB 53 de California se amplíe con más salvaguardas, como la monitorización de modelos frontier. La compañía considera que la normativa actual es una base importante pero insuficiente.",
+      "why_it_matters": "El giro de OpenAI puede influir en el debate regulatorio de la IA en Estados Unidos y en futuras leyes de seguridad.",
+      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill",
+      "source": "TechCrunch",
+      "social": {
+        "x": "OpenAI cambia de bando: ahora pide endurecer la ley de IA de California que antes combatió.\n\n#OpenAI #California #SB53 #RegulaciónIA\nhttps://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill",
+        "linkedin": "OpenAI ha dado un giro de 180 grados en California: ahora apoya ampliar la ley de seguridad de IA que antes rechazó.\n\nLa compañía considera que la SB 53 es una base importante pero insuficiente, y pide más salvaguardas, como la monitorización de modelos frontier. Este movimiento puede reconfigurar el debate regulatorio en EE.UU.: 𝘀𝗶 𝗲𝗹 𝗹í𝗱𝗲𝗿 𝗱𝗲 𝗹𝗮 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮 𝗽𝗶𝗱𝗲 𝗺á𝘀 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗲𝘀, 𝗹𝗮 𝗮𝘂𝘁𝗼𝗿𝗿𝗲𝗴𝘂𝗹𝗮𝗰𝗶ó𝗻 𝗽𝗶𝗲𝗿𝗱𝗲 𝗳𝘂𝗲𝗿𝘇𝗮.\n\n#OpenAI #California #SB53 #RegulaciónIA\n\nhttps://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "industria",
+      "title": "Los laboratorios de IA aún no dicen cómo contendrían un modelo rebelde",
+      "summary": "Un nuevo estudio concluye que los principales laboratorios de IA carecen de planes públicos y documentados para contener a un modelo que se comporte de forma inesperada o peligrosa. Esta falta de transparencia plantea dudas sobre el nivel real de preparación de la industria.",
+      "why_it_matters": "Ante el aumento de comportamientos imprevistos en sistemas avanzados, saber si hay protocolos de contención es esencial para la seguridad.",
+      "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Ningún gran laboratorio de IA ha hecho públicos sus protocolos para contener un modelo descontrolado. El estudio que lo confirma es inquietante.\n\n#SeguridadIA #RedTeaming #ModelosDeLenguaje\nhttps://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model",
+        "linkedin": "¿Qué haría un laboratorio de IA si uno de sus modelos empezara a comportarse de forma imprevisible o peligrosa? Según un nuevo estudio, la respuesta no está escrita en ningún documento público. Los principales laboratorios no han detallado sus planes de contención, y eso es un problema cuando los sistemas avanzan más rápido que las salvaguardas. 𝗟𝗮 𝘁𝗿𝗮𝗻𝘀𝗽𝗮𝗿𝗲𝗻𝗰𝗶𝗮 𝗻𝗼 𝗲𝘀 𝘂𝗻 𝗲𝘅𝘁𝗿𝗮, 𝗲𝘀 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲 𝗹𝗮 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 y cualquier organización que despliegue IA debería exigirla antes de confiar en estos sistemas.\n\n#SeguridadIA #RedTeaming #ModelosDeLenguaje\n\nhttps://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "industria",
+      "title": "Harvard usa avatares de IA de sus instructores en un bootcamp para emprendedores por 699 dólares",
+      "summary": "El programa HBS Foundry de Harvard Business School incluye avatares creados con HeyGen que dan feedback durante simulacros de pitch y reuniones de consejo. La iniciativa busca ampliar el alcance de la escuela combinando sesiones en vivo con tutores de IA.",
+      "why_it_matters": "Muestra cómo las instituciones educativas de élite están integrando avatares de IA para escalar la formación personalizada.",
+      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors",
+      "source": "TechCrunch",
+      "social": {
+        "x": "¿Pagarías 699 dólares para que un avatar de IA de un profesor de Harvard critique tu pitch?\n\n#Harvard #HeyGen #EdTech\nhttps://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors",
+        "linkedin": "La educación de élite ya no necesita que el profesor esté en la sala: Harvard Business School usa avatares de IA de sus instructores para evaluar pitches en su nuevo bootcamp para emprendedores.\nEl programa, que cuesta 699 dólares, combina sesiones en vivo con tutores de IA construidos con HeyGen. 𝗟𝗼 𝗶𝗻𝘁𝗲𝗿𝗲𝘀𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗻𝗼𝘃𝗲𝗱𝗮𝗱 𝘁𝗲𝗰𝗻𝗼𝗹ó𝗴𝗶𝗰𝗮, 𝘀𝗶𝗻𝗼 𝗰ó𝗺𝗼 𝗲𝘀𝗰𝗮𝗹𝗮 𝗹𝗮 𝗳𝗼𝗿𝗺𝗮𝗰𝗶ó𝗻 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝘇𝗮𝗱𝗮 a un público que antes no tenía acceso. Las universidades que no exploren este modelo se quedarán atrás.\n\n#Harvard #HeyGen #EdTech\n\nhttps://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "industria",
+      "title": "Creativos de Hollywood entrenan a la IA que podría quitarles el trabajo",
+      "summary": "Guionistas, directores y productores galardonados están aceptando trabajos temporales bien pagados para enseñar a modelos de IA a escribir guiones o producir contenido, en plena crisis de empleo en el sector. La contradicción refleja la tensión entre necesidad económica y futuro profesional.",
+      "why_it_matters": "El fenómeno evidencia cómo la industria creativa está financiando, a menudo sin querer, la automatización de sus propios puestos de trabajo.",
+      "url": "https://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
+      "source": "The Guardian",
+      "social": {
+        "x": "Los creativos que la IA va a sustituir son quienes la están entrenando. En Hollywood, por dinero.\n\n#Hollywood #Guionistas #IndustriaCreativa\nhttps://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
+        "linkedin": "Los profesionales que más temen a la IA están alimentando el modelo que puede relegarlos. En Hollywood, guionistas, directores y productores con premios aceptan trabajos temporales bien pagados para enseñar a los sistemas a escribir guiones y producir contenido, en plena crisis del sector. La necesidad económica convierte la contradicción en algo incómodo: 𝗹𝗮 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮 𝗰𝗿𝗲𝗮𝘁𝗶𝘃𝗮 𝗲𝘀𝘁á 𝗳𝗶𝗻𝗮𝗻𝗰𝗶𝗮𝗻𝗱𝗼, 𝗮 𝗺𝗲𝗻𝘂𝗱𝗼 𝘀𝗶𝗻 𝗾𝘂𝗲𝗿𝗲𝗿, 𝗹𝗮 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝘀𝘂𝘀 𝗽𝗿𝗼𝗽𝗶𝗼𝘀 𝗽𝘂𝗲𝘀𝘁𝗼𝘀. Para cualquiera que trabaje en este sector, la pregunta no es si la IA llegará, sino quién la está enseñando.\n\n#Hollywood #Guionistas #IndustriaCreativa\n\nhttps://www.theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Cómo impedir que Instagram use tus datos para entrenar IA y personalizar anuncios",
+      "summary": "Engadget explica los pasos para evitar que Instagram utilice tu actividad fuera de la aplicación para mejorar sus modelos de IA y ajustar la publicidad. La guía repasa los ajustes de privacidad disponibles en la app.",
+      "why_it_matters": "Con el aumento del uso de datos para IA, saber dónde y cómo desactivar ese rastreo es una habilidad básica de privacidad.",
+      "url": "https://www.engadget.com/2240136/how-to-limit-instragram-from-using-data-for-ai-ads",
+      "source": "Engadget",
+      "social": {
+        "x": "Instagram entrena su IA con tu actividad diaria. Existe un ajuste para impedirlo y pocos lo saben.\n\n#Instagram #Privacidad #Meta\nhttps://www.engadget.com/2240136/how-to-limit-instragram-from-using-data-for-ai-ads",
+        "linkedin": "Instagram lleva tiempo usando tu actividad para entrenar sus modelos de IA y afinar la publicidad, pero casi nadie sabe que se puede desactivar. Esta guía explica dónde está el ajuste, en la propia app. 𝗦𝗮𝗯𝗲𝗿 𝗹𝗼𝗰𝗮𝗹𝗶𝘇𝗮𝗿 𝗲𝘀𝗼𝘀 𝗶𝗻𝘁𝗲𝗿𝗿𝘂𝗽𝘁𝗼𝗿𝗲𝘀 𝗲𝘀 𝗹𝗮 𝗻𝘂𝗲𝘃𝗮 𝗮𝗹𝗳𝗮𝗯𝗲𝘁𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗱𝗶𝗴𝗶𝘁𝗮𝗹; recuperar el control de tus datos no requiere ser experto.\n\n#Instagram #Privacidad #Meta\n\nhttps://www.engadget.com/2240136/how-to-limit-instragram-from-using-data-for-ai-ads"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Compilación JIT en 5 microsegundos: copy-and-patch en Rust para ARM64",
+      "summary": "Una guía práctica muestra cómo construir un compilador JIT con la técnica copy-and-patch en Rust, generando código máquina ARM64. El resultado se compara con un intérprete y con una implementación escrita a mano, demostrando latencias de compilación de pocos microsegundos.",
+      "why_it_matters": "Tener compiladores JIT ultrarrápidos abre la puerta a su uso en bases de datos, motores de ejecución y otros sistemas donde hasta ahora se evitaban por su coste.",
+      "url": "https://malisper.me/jit-compiling-code-in-5-us",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Y si compilar a código máquina costara menos que interpretar? Con copy-and-patch en Rust, se logra en 5 microsegundos.\n\n#Rust #ARM64 #JIT #CopyAndPatch\nhttps://malisper.me/jit-compiling-code-in-5-us",
+        "linkedin": "¿Y si compilar a código máquina costara menos que interpretar? Una guía práctica muestra cómo usar la técnica copy-and-patch en Rust para ARM64 y logra compilaciones en 𝗽𝗼𝗰𝗼𝘀 𝗺𝗶𝗰𝗿𝗼𝘀𝗲𝗴𝘂𝗻𝗱𝗼𝘀. Eso significa que el JIT deja de ser un lujo reservado a lenguajes dinámicos: bases de datos, motores de reglas o procesadores de eventos pueden empezar a usarlo sin miedo al coste. Para los equipos que trabajan con sistemas de baja latencia, esta es una técnica que vale la pena tener en el radar.\n\n#Rust #ARM64 #JIT #CopyAndPatch\n\nhttps://malisper.me/jit-compiling-code-in-5-us"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "macOS 27 Golden Gate depreca hdiutil y migra sus funciones a diskutil",
+      "summary": "Apple ha marcado la herramienta de línea de comandos hdiutil como deprecada en la beta de macOS 27. diskutil hereda la mayoría de las opciones para manipular imágenes de disco, aunque faltan algunas específicas.",
+      "why_it_matters": "Quienes tengan scripts o flujos de trabajo basados en hdiutil tendrán que adaptarlos antes de la próxima gran actualización de macOS.",
+      "url": "https://lapcatsoftware.com/articles/2026/8/7.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "hdiutil tiene los días contados: Apple lo depreca en macOS 27 y empuja todo a diskutil. Si tus scripts dependen de él, te toca migrar.\n\n#macOS27 #hdiutil #diskutil #Apple\nhttps://lapcatsoftware.com/articles/2026/8/7.html",
+        "linkedin": "Si tus scripts de macOS dependen de hdiutil, tienes una migración pendiente.\nApple ha marcado la herramienta como deprecada en la beta de macOS 27 Golden Gate y diskutil pasa a asumir la manipulación de imágenes de disco. 𝗟𝗮 𝘃𝗲𝗻𝘁𝗮𝗻𝗮 𝗽𝗮𝗿𝗮 𝗮𝗱𝗮𝗽𝘁𝗮𝗿 𝘁𝘂𝘀 𝗳𝗹𝘂𝗷𝗼𝘀 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗾𝘂𝗲 𝗲𝗹 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝗱𝗲𝘀𝗮𝗽𝗮𝗿𝗲𝘇𝗰𝗮 𝗲𝘀 𝗮𝗵𝗼𝗿𝗮, y conviene revisar qué opciones específicas aún no están cubiertas.\n\n#macOS27 #hdiutil #diskutil #Apple\n\nhttps://lapcatsoftware.com/articles/2026/8/7.html"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "herramientas",
+      "title": "Guía práctica de las librerías GUI de Rust en 2026",
+      "summary": "Un desarrollador ha probado y revisado las principales bibliotecas de interfaz gráfica de Rust usando como ejercicio un generador de códigos QR. El análisis actualiza el estado del ecosistema GUI en Rust y compara opciones como egui, Slint o iced.",
+      "why_it_matters": "La elección de una librería GUI es una decisión clave en el desarrollo de aplicaciones de escritorio y esta comparativa ayuda a tomar una decisión informada.",
+      "url": "https://blog.wybxc.cc/blog/rust-gui-survey-2026",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Cuál es la mejor librería GUI de Rust en 2026? Un desarrollador lo prueba con un generador de QR y el resultado no es el esperado.\n\n#Rust #egui #Slint #iced\nhttps://blog.wybxc.cc/blog/rust-gui-survey-2026",
+        "linkedin": "¿Cuál es la mejor librería GUI de Rust en 2026? Un desarrollador lo ha probado con un generador de códigos QR, y el resultado no es el esperado.\n\nSu comparativa práctica enfrenta a egui, Slint e iced en una aplicación funcional, y deja claro que 𝗻𝗶𝗻𝗴𝘂𝗻𝗮 𝗹𝗶𝗯𝗿𝗲𝗿í𝗮 𝗲𝘀 𝘀𝘂𝗽𝗲𝗿𝗶𝗼𝗿 𝗲𝗻 𝘁𝗼𝗱𝗼: la elección depende del tipo de app que quieras construir. Para cualquiera que esté valorando Rust para escritorio, esta guía ahorra semanas de pruebas y evita decisiones basadas en opiniones en lugar de datos.\n\n#Rust #egui #Slint #iced\n\nhttps://blog.wybxc.cc/blog/rust-gui-survey-2026"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "Espressif libera un BSP de Linux para sus placas RISC-V ESP32-S31",
+      "summary": "Espressif ha publicado una preview para desarrolladores de un Board Support Package (BSP) de Linux para el microprocesador RISC-V ESP32-S31. El anuncio amplía el ecosistema del chip hacia sistemas más complejos basados en Linux.",
+      "why_it_matters": "Permite ejecutar Linux en hardware de bajo coste y abre nuevas posibilidades para proyectos embebidos y de prototipado.",
+      "url": "https://www.cnx-software.com/2026/08/22/espressif-systems-releases-a-linux-bsp-developer-preview-for-esp32-s31-risc-v-microprocessor",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Pensabas que Linux solo corría en placas caras? Espressif libera un BSP para su RISC-V ESP32-S31 y todo cambia.\n\n#Espressif #ESP32 #RISC-V #Linux\nhttps://www.cnx-software.com/2026/08/22/espressif-systems-releases-a-linux-bsp-developer-preview-for-esp32-s31-risc-v-microprocessor",
+        "linkedin": "¿Linux en un microcontrolador RISC-V de bajo coste? Espressif acaba de publicar un Board Support Package para el ESP32-S31, un paso que acerca el kernel a proyectos embebidos sin arruinarte. Para quien prototipa con hardware pequeño, esto significa que 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗰𝗼𝗿𝗿𝗲𝗿 𝗟𝗶𝗻𝘂𝘅 𝗲𝗻 𝗽𝗹𝗮𝗰𝗮𝘀 𝗱𝗲 𝗽𝗼𝗰𝗼𝘀 𝗲𝘂𝗿𝗼𝘀, ampliando las posibilidades de desarrollo de forma notable.\n\n#Espressif #ESP32 #RISC-V #Linux\n\nhttps://www.cnx-software.com/2026/08/22/espressif-systems-releases-a-linux-bsp-developer-preview-for-esp32-s31-risc-v-microprocessor"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "Un avance en la matemática del desequilibrio mejora el reparto justo por primera vez en 30 años",
+      "summary": "Científicos de la computación han encontrado una forma mejor de asignar objetos de manera uniforme entre dos grupos, un problema abierto desde hace tres décadas. El resultado, publicado en Quanta, tiene implicaciones en algoritmos de reparto y optimización.",
+      "why_it_matters": "Resolver un problema tan fundamental puede repercutir en sistemas de asignación de recursos, desde tareas en clústeres hasta distribución de bienes.",
+      "url": "https://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821",
+      "source": "Lobsters",
+      "social": {
+        "x": "El reparto justo entre dos grupos era un problema abierto desde hace 30 años. Ya no lo es.\n\n#Matemáticas #Algoritmos #Optimización\nhttps://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821",
+        "linkedin": "Un problema matemático sobre reparto justo llevaba tres décadas sin respuesta. Un equipo acaba de encontrar una solución que mejora la asignación uniforme entre dos grupos, y no es solo teoría: 𝗮𝗳𝗲𝗰𝘁𝗮 𝗮 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗾𝘂𝗲 𝗿𝗲𝗽𝗮𝗿𝘁𝗮 𝗿𝗲𝗰𝘂𝗿𝘀𝗼𝘀, desde clústeres de cálculo hasta bienes tangibles. Para quien diseña algoritmos de optimización, esto es un cambio de reglas.\n\n#Matemáticas #Algoritmos #Optimización\n\nhttps://www.quantamagazine.org/huge-breakthrough-in-the-math-of-imbalance-20260821"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "Verificación formal de cotas de tiempo para programas interactivos",
+      "summary": "Adam Chlipala publica un artículo sobre verificación formal de límites de tiempo de ejecución para programas interactivos. La técnica busca demostrar de forma rigurosa que un sistema responde dentro de unos tiempos establecidos.",
+      "why_it_matters": "Poder garantizar formalmente el tiempo de respuesta es clave para sistemas interactivos críticos como interfaces, controladores o servicios en tiempo real.",
+      "url": "https://adam.chlipala.net/papers/MetricsCPP26/MetricsCPP26.pdf",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Se puede demostrar matemáticamente que un programa interactivo cumple sus plazos de respuesta? Adam Chlipala dice que sí.\n\n#Coq #VerificaciónFormal #TiempoReal\nhttps://adam.chlipala.net/papers/MetricsCPP26/MetricsCPP26.pdf",
+        "linkedin": "¿Cuántas veces asumimos que un sistema responderá a tiempo solo porque funciona en pruebas? Adam Chlipala propone ir más allá: 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗿 𝗳𝗼𝗿𝗺𝗮𝗹𝗺𝗲𝗻𝘁𝗲 𝗾𝘂𝗲 𝘂𝗻 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗮 𝗶𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝗶𝘃𝗼 𝗰𝘂𝗺𝗽𝗹𝗲 𝘀𝘂𝘀 𝗰𝗼𝘁𝗮𝘀 𝗱𝗲 𝘁𝗶𝗲𝗺𝗽𝗼. Para interfaces críticas, controladores y servicios en tiempo real, esto convierte el rendimiento en una propiedad demostrable y no en una esperanza. La técnica promete cambiar cómo validamos los sistemas donde cada milisegundo importa.\n\n#Coq #VerificaciónFormal #TiempoReal\n\nhttps://adam.chlipala.net/papers/MetricsCPP26/MetricsCPP26.pdf"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Por qué dos núcleos Cortex-A9 pueden no ser coherentes en caché",
+      "summary": "Un desarrollador documenta su investigación sobre un problema real de coherencia de caché en un sistema con dos núcleos Cortex-A9. El artículo profundiza en las causas arquitectónicas y en las implicaciones para el desarrollo de software embebido.",
+      "why_it_matters": "Comprender estos fallos evita bugs intermitentes y muy difíciles de diagnosticar en sistemas multiprocesador.",
+      "url": "https://thejpster.org.uk/blog/blog-2026-08-22",
+      "source": "Lobsters",
+      "social": {
+        "x": "Dos núcleos Cortex-A9, una misma memoria y datos que se quedan viejos. Un caso real de coherencia de caché que conviene conocer.\n\n#CortexA9 #ARM #Cache\nhttps://thejpster.org.uk/blog/blog-2026-08-22",
+        "linkedin": "La coherencia de caché no es un concepto abstracto: puede arruinar un sistema en producción de forma intermitente y sin avisar.\n\nUn desarrollador acaba de documentar un caso real con dos núcleos Cortex-A9, donde el fallo solo se manifiesta en condiciones concretas y es casi imposible de reproducir. Detrás hay una cuestión arquitectónica que muchos equipos de software embebido ignoran hasta que les explota. La lección: 𝗹𝗮 𝗰𝗼𝗵𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗱𝗲 𝗰𝗮𝗰𝗵é 𝘀𝗲 𝗱𝗶𝘀𝗲ñ𝗮, 𝗻𝗼 𝘀𝗲 𝗶𝗺𝗽𝗿𝗼𝘃𝗶𝘀𝗮.\n\n#CortexA9 #ARM #Cache\n\nhttps://thejpster.org.uk/blog/blog-2026-08-22"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "investigacion",
+      "title": "InjectionBunny: escalada de privilegios por inyección SUID en el driver NTFS3 de Linux",
+      "summary": "Se ha publicado una vulnerabilidad que explota el controlador NTFS3 del kernel de Linux para inyectar binarios SUID y elevar privilegios. El hallazgo afecta a sistemas que montan unidades NTFS y requiere atención por parte de administradores.",
+      "why_it_matters": "Una vulnerabilidad de escalada de privilegios en el kernel es crítica, especialmente en entornos con discos NTFS y usuarios no privilegiados.",
+      "url": "https://lore.kernel.org/ntfs3/CAGBKPgPiXyKWtjgYSACnugmG1XPs=mPg-Zu-xQziUZ1k921+qA@mail.gmail.com/T",
+      "source": "Lobsters",
+      "social": {
+        "x": "Un simple disco NTFS puede darte root en Linux. Así funciona InjectionBunny, la nueva escalada en el driver NTFS3.\n\n#Linux #NTFS3 #seguridad\nhttps://lore.kernel.org/ntfs3/CAGBKPgPiXyKWtjgYSACnugmG1XPs=mPg-Zu-xQziUZ1k921+qA@mail.gmail.com/T",
+        "linkedin": "Un disco NTFS montado en Linux puede ser suficiente para escalar a root. La vulnerabilidad InjectionBunny juega con el driver NTFS3 del kernel: inyecta binarios SUID durante el montaje y eleva privilegios a nivel de sistema. 𝗖𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗲𝗻𝘁𝗼𝗿𝗻𝗼 𝗰𝗼𝗻 𝘂𝘀𝘂𝗮𝗿𝗶𝗼𝘀 𝗻𝗼 𝗽𝗿𝗶𝘃𝗶𝗹𝗲𝗴𝗶𝗮𝗱𝗼𝘀 𝘆 𝘂𝗻𝗶𝗱𝗮𝗱𝗲𝘀 𝗡𝗧𝗙𝗦 𝗲𝘀𝘁á 𝗲𝗻 𝗿𝗶𝗲𝘀𝗴𝗼, así que conviene revisar las políticas de montaje y actualizar el kernel cuanto antes.\n\n#Linux #NTFS3 #seguridad\n\nhttps://lore.kernel.org/ntfs3/CAGBKPgPiXyKWtjgYSACnugmG1XPs=mPg-Zu-xQziUZ1k921+qA@mail.gmail.com/T"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Amazon sube hasta un 60% el precio de Echo, Fire TV, Kindle y eero por la crisis de memoria",
+      "summary": "Amazon ha aumentado los precios de varios de sus dispositivos, como Echo, Fire TV, Kindle y eero, con subidas de hasta el 60%. Los modelos más baratos, como el Echo Dot, son los más afectados por el encarecimiento de los componentes de memoria.",
+      "why_it_matters": "La escasez de memoria sigue encareciendo el hardware de consumo y esta subida es un síntoma directo de una crisis global de suministro.",
+      "url": "https://www.theverge.com/tech/983598/amazon-price-increase-echo-kindle-fire-tv",
+      "source": "The Verge",
+      "social": {
+        "x": "Amazon sube hasta un 60% el precio de sus dispositivos: la memoria se ha convertido en el nuevo oro.\n\n#Amazon #Echo #Kindle #eero\nhttps://www.theverge.com/tech/983598/amazon-price-increase-echo-kindle-fire-tv",
+        "linkedin": "La crisis de memoria ya no es un problema solo de servidores: ahora encarece hasta un 60% los dispositivos que tienes en casa. Amazon ha subido el precio de sus Echo, Fire TV, Kindle y eero, y los modelos más baratos son los más afectados. Es el síntoma más visible de una escasez global que va a redefinir el hardware de consumo. 𝗟𝗮 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝘀𝗲 𝗵𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝗲𝗹 𝗻𝘂𝗲𝘃𝗼 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗽𝗮𝗿𝗮 𝗹𝗼𝘀 𝗳𝗮𝗯𝗿𝗶𝗰𝗮𝗻𝘁𝗲𝘀, y esta subida es solo el principio.\n\n#Amazon #Echo #Kindle #eero\n\nhttps://www.theverge.com/tech/983598/amazon-price-increase-echo-kindle-fire-tv"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "investigacion",
+      "title": "La hibernación elimina gran parte de las sinapsis en ratones, pero no borra sus recuerdos",
+      "summary": "Un estudio en ratones muestra que la hibernación provoca una pérdida significativa de sinapsis, pero los animales conservan sus recuerdos. El hallazgo desafía algunas teorías sobre cómo se almacena la memoria en el cerebro.",
+      "why_it_matters": "Comprender cómo las redes neuronales mantienen información a pesar de una poda masiva puede aportar pistas sobre plasticidad cerebral y persistencia de la memoria.",
+      "url": "https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Hibernar poda las sinapsis de los ratones, pero sus recuerdos siguen intactos. ¿Cómo es posible?\n\n#Neurociencia #Memoria #Cerebro\nhttps://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone",
+        "linkedin": "Un experimento con ratones acaba de complicar lo que creíamos sobre la memoria: durante la hibernación se pierde una gran parte de las sinapsis, pero los recuerdos sobreviven. Eso desafía la idea de que la memoria reside en conexiones individuales y apunta a que 𝗹𝗮 𝗿𝗲𝗱 𝗺𝗮𝗻𝘁𝗶𝗲𝗻𝗲 𝗹𝗮 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗰𝗶ó𝗻 𝗮𝘂𝗻𝗾𝘂𝗲 𝘀𝗲 𝗽𝗼𝗱𝗲𝗻 𝗺𝘂𝗰𝗵𝗮𝘀 𝗱𝗲 𝘀𝘂𝘀 𝗽𝗶𝗲𝘇𝗮𝘀. Para quienes trabajamos con plasticidad cerebral, es un recordatorio de que el todo puede ser más importante que las partes.\n\n#Neurociencia #Memoria #Cerebro\n\nhttps://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Los agentes de IA amplían la superficie de ataque: úsalos para atacar tus propios sistemas",
+      "summary": "The Register analiza cómo los agentes de IA se están convirtiendo en un nuevo vector de ataque y defiende que los equipos de seguridad deben emplearlos también en su propio beneficio. La seguridad ofensiva con IA empieza a ser vista como una necesidad, no una opción.",
+      "why_it_matters": "Si los atacantes ya usan IA para explotar sistemas, las defensas basadas únicamente en métodos tradicionales quedarán rápidamente obsoletas.",
+      "url": "https://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346",
+      "source": "The Register",
+      "social": {
+        "x": "Los agentes de IA ya atacan tus sistemas. La única forma de adelantarte es usarlos tú mismo contra tus propias defensas.\n\n#AgentesIA #SeguridadOfensiva #Ciberseguridad\nhttps://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346",
+        "linkedin": "Los atacantes ya usan agentes de IA contra tus sistemas.\n\nLa seguridad ofensiva con IA deja de ser una opción: es la única manera de adelantarse a un adversario que automatiza sus ataques. 𝗤𝘂𝗶𝗲𝗻 𝗻𝗼 𝗮𝘁𝗮𝗾𝘂𝗲 𝘀𝘂𝘀 𝗽𝗿𝗼𝗽𝗶𝗼𝘀 𝘀𝗶𝘀𝘁𝗲𝗺𝗮𝘀 𝗰𝗼𝗻 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗜𝗔 𝗻𝗼 𝗲𝘀𝘁𝗮𝗿á 𝗽𝗿𝗲𝗽𝗮𝗿𝗮𝗱𝗼 𝗽𝗮𝗿𝗮 𝗱𝗲𝗳𝗲𝗻𝗱𝗲𝗿𝘀𝗲. The Register lo plantea claro: la superficie de ataque crece, y solo puedes cerrarla atacándola primero.\n\n#AgentesIA #SeguridadOfensiva #Ciberseguridad\n\nhttps://www.theregister.com/security/2026/08/22/if-youre-not-using-ai-to-attack-your-own-systems-your-adversaries-will/5291346"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Waymo es nivel 4: qué haría falta para alcanzar un coche de nivel 5",
+      "summary": "Un explicador repasa los niveles de conducción autónoma y aclara por qué los vehículos de Waymo son de nivel 4, no de nivel 5. Alcanzar el nivel 5 exige operar en cualquier condición y entorno sin intervención humana, algo extremadamente difícil.",
+      "why_it_matters": "Ayuda a poner expectativas realistas sobre las capacidades de los robotaxis y el futuro de la conducción autónoma.",
+      "url": "https://www.engadget.com/2240138/if-waymo-cars-are-level-4-automation-what-is-level-5",
+      "source": "Engadget",
+      "social": {
+        "x": "Waymo es nivel 4, no 5: esto es lo que separa a un robotaxi de la autonomía total.\n\n#Waymo #Robotaxi #ConducciónAutónoma\nhttps://www.engadget.com/2240138/if-waymo-cars-are-level-4-automation-what-is-level-5",
+        "linkedin": "Waymo ya opera robotaxis sin conductor en varias ciudades, pero no son nivel 5.\nSus vehículos funcionan en entornos y condiciones controladas, algo muy distinto a la autonomía total. 𝗘𝗹 𝘀𝗮𝗹𝘁𝗼 𝗮𝗹 𝗻𝗶𝘃𝗲𝗹 𝟱 𝗲𝘅𝗶𝗴𝗲 𝗺𝗮𝗻𝗲𝗷𝗮𝗿 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗲𝘀𝗰𝗲𝗻𝗮𝗿𝗶𝗼 𝘀𝗶𝗻 𝗶𝗻𝘁𝗲𝗿𝘃𝗲𝗻𝗰𝗶ó𝗻 𝗵𝘂𝗺𝗮𝗻𝗮, 𝘂𝗻𝗮 𝗳𝗿𝗼𝗻𝘁𝗲𝗿𝗮 𝗾𝘂𝗲 𝗮ú𝗻 𝗽𝗮𝗿𝗲𝗰𝗲 𝗹𝗲𝗷𝗼𝘀.\n\n#Waymo #Robotaxi #ConducciónAutónoma\n\nhttps://www.engadget.com/2240138/if-waymo-cars-are-level-4-automation-what-is-level-5"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Herramienta de codificación basada en IA que se ejecuta en tu terminal, entiende tu código y te ayuda a programar más rápido mediante comandos en lenguaje natural. Incluye tareas rutinarias, explicaciones de código y gestión de flujos de trabajo de git.",
+      "language": "Python",
+      "stars": 142695,
+      "social": {
+        "x": "Alguien acaba de meter a Claude dentro de tu terminal. Escribe en lenguaje natural y la IA programa, explica y gestiona git por ti. 142.695 estrellas.\n\n#ClaudeCode #GitHub #Python #Terminal\nhttps://github.com/anthropics/claude-code",
+        "linkedin": "CLAUDE CODE HA LLEGADO A TU TERMINAL: PROGRAMA, EXPLICA Y GESTIONA GIT CON LENGUAJE NATURAL.\n\nAnthropic ha lanzado una herramienta que convierte la terminal en un compañero de desarrollo. Le describes lo que necesitas en lenguaje natural y el asistente ejecuta tareas rutinarias, te explica fragmentos de código y maneja los flujos de trabajo de git por ti. No es un plugin más, es otra forma de programar.\n\n→ Funciona directamente en tu terminal, sin salir del entorno.\n→ Entiende tu código y responde con acciones, no solo sugerencias.\n→ Automatiza tareas repetitivas y gestiona commits, ramas y merges.\n→ Con 142.695 estrellas, la comunidad ya lo está usando a diario.\n\nSi pasas horas delante de la terminal, 𝗲𝘀𝘁𝗼 𝗲𝘀 𝗰𝗼𝗺𝗼 𝘁𝗲𝗻𝗲𝗿 𝘂𝗻 𝗰𝗼𝗺𝗽𝗮ñ𝗲𝗿𝗼 𝘀𝗲𝗻𝗶𝗼𝗿 𝘀𝗶𝗲𝗺𝗽𝗿𝗲 𝗱𝗶𝘀𝗽𝗼𝗻𝗶𝗯𝗹𝗲. Te dejo el repo abajo.\n\n#ClaudeCode #GitHub #Python #Terminal\n\nhttps://github.com/anthropics/claude-code"
+      }
+    },
+    {
+      "name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Agente de codificación ligero que funciona en tu terminal. Permite automatizar tareas de programación de forma similar a Claude Code, con un enfoque minimalista.",
+      "language": "Rust",
+      "stars": 114583,
+      "social": {
+        "x": "Olvídate de Claude Code: OpenAI ha publicado Codex, un agente de codificación ligero para tu terminal con 114k estrellas.\n\n#Codex #Rust #OpenSource #GitHub\nhttps://github.com/openai/codex",
+        "linkedin": "OPENAI ACABA DE PUBLICAR CODEX, SU AGENTE DE CODIFICACIÓN PARA TERMINAL, Y ES TOTALMENTE OPEN SOURCE.\n\nMientras los asistentes de pago copan los titulares, OpenAI libera una herramienta ligera que corre en tu terminal para automatizar tareas de programación. Escrito en Rust, suma 114k estrellas en GitHub y se posiciona como una alternativa minimalista a Claude Code.\n\n→ Trabaja desde la terminal: sin IDE pesado, solo tu línea de comandos.\n→ Automatiza tareas de codificación repetitivas con instrucciones en lenguaje natural.\n→ Al ser open source, puedes revisar el código y adaptarlo a tu entorno.\n\n𝗨𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗱𝗲 𝗰𝗼𝗱𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗾𝘂𝗲 𝘃𝗶𝘃𝗲 𝗲𝗻 𝘁𝘂 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹 𝘆 𝘁𝗲 𝗾𝘂𝗶𝘁𝗮 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗱𝗲 𝗲𝗻𝗰𝗶𝗺𝗮: eso es lo que te llevas. Si programas a diario, merece la pena que lo pruebes.\n\nGuarda este post para tener el repo a mano cuando lo necesites.\n\n#Codex #Rust #OpenSource #GitHub\n\nhttps://github.com/openai/codex"
+      }
+    },
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Plataforma de automatización de flujos de trabajo de código abierto con capacidades nativas de IA. Combina construcción visual y código personalizado, con más de 400 integraciones y opciones de autoalojamiento o nube.",
+      "language": "TypeScript",
+      "stars": 202024,
+      "social": {
+        "x": "Alguien acaba de regalar el cañón de la automatización: n8n con IA nativa, 400+ integraciones y self-hosted. 202k estrellas y sin suscripciones.\n\n#n8n #OpenSource #GitHub #Automatización\nhttps://github.com/n8n-io/n8n",
+        "linkedin": "N8N ES LA PRUEBA DE QUE LA AUTOMATIZACIÓN NO DEBE COSTAR UNA FORTUNA. Este proyecto open source con 202k estrellas te da lo mismo que las soluciones comerciales: construcción visual de flujos, código personalizado y capacidades de IA nativas. Lo mejor: puedes autoalojarlo y tener 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝘁𝗼𝘁𝗮𝗹 𝗱𝗲 𝘁𝘂𝘀 𝗱𝗮𝘁𝗼𝘀.\n\n→ Más de 400 integraciones con los servicios que ya usas.\n→ IA nativa integrada en los flujos, sin depender de herramientas externas.\n→ Interfaz visual y la opción de escribir JavaScript o Python cuando necesitas más control.\n→ Self-hosted o en la nube, siempre con la flexibilidad del open source.\n\n¿Sigues pagando por automatizar? Te dejo el repo abajo.\n\n#n8n #OpenSource #GitHub #Automatización\n\nhttps://github.com/n8n-io/n8n"
+      }
+    },
+    {
+      "name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Servicio de código abierto que unifica suscripciones de varios proveedores de IA como Claude, OpenAI, Gemini y Grok en una sola API. Facilita el uso compartido de cuentas y la reducción de costes.",
+      "language": "Go",
+      "stars": 38951,
+      "social": {
+        "x": "Alguien acaba de convertir cuatro suscripciones de IA en una sola API. sub2api, open source, con 38.9k estrellas.\n\n#sub2api #OpenSource #Go #GitHub\nhttps://github.com/Wei-Shaw/sub2api",
+        "linkedin": "UN SOLO API PARA TODAS TUS IAs.\n\nsub2api es un servicio open source que agrupa Claude, OpenAI, Gemini y Grok en un único endpoint. Si pagas varias suscripciones, esto te interesa: 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗶𝗿 𝗰𝘂𝗲𝗻𝘁𝗮𝘀 𝘀𝗶𝗻 𝗱𝘂𝗽𝗹𝗶𝗰𝗮𝗿 𝗰𝗼𝘀𝘁𝗲𝘀 es la idea clave.\n\n→ Unifica todos los proveedores en una API compatible con OpenAI.\n→ Permite compartir cuentas entre varias personas de forma segura.\n→ Escrito en Go, se despliega en minutos y es fácil de mantener.\n\nYa suma 38.9k estrellas, así que no es un proyecto menor. Te dejo el repo abajo para que lo guardes.\n\n#sub2api #OpenSource #Go #GitHub\n\nhttps://github.com/Wei-Shaw/sub2api"
+      }
+    },
+    {
+      "name": "makeplane/plane",
+      "url": "https://github.com/makeplane/plane",
+      "description": "Alternativa de código abierto a Jira, Linear, Monday y ClickUp. Plataforma moderna de gestión de proyectos para organizar tareas, sprints, documentación y triaje.",
+      "language": "TypeScript",
+      "stars": 57404,
+      "social": {
+        "x": "Alguien acaba de construir la alternativa open source a Jira y ya tiene 57.404 estrellas. Plane organiza tareas, sprints y documentación sin pagar licencias.\n\n#Plane #OpenSource #ProjectManagement #TypeScript\nhttps://github.com/makeplane/plane",
+        "linkedin": "¿PAGARÍAS 20 EUROS AL MES POR UNA HERRAMIENTA QUE PUEDES TENER GRATIS EN TU SERVIDOR?\n\nPlane es la alternativa open source a Jira, Linear, Monday y ClickUp que ya supera las 57.000 estrellas en GitHub. Gestiona tareas, sprints y documentación sin depender de un SaaS de pago. Lo mejor: 𝗽𝘂𝗲𝗱𝗲𝘀 𝗱𝗲𝘀𝗽𝗹𝗲𝗴𝗮𝗿𝗹𝗼 𝗲𝗻 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 𝘀𝗲𝗿𝘃𝗶𝗱𝗼𝗿 y mantener el control total de tus datos.\n\n→ Organiza tareas, sprints y triaje de incidencias.\n→ Incluye documentación integrada, sin necesidad de herramientas externas.\n→ Despliegue self-hosted o en tu propia infraestructura.\n→ Código en TypeScript, abierto a contribuciones.\n\nSi tu equipo está cansado de pagar por software de gestión, te dejo el repo abajo. Guárdalo para tenerlo a mano.\n\n#Plane #OpenSource #ProjectManagement #TypeScript\n\nhttps://github.com/makeplane/plane"
+      }
+    }
+  ]
+}
