@@ -1,0 +1,298 @@
+{
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T10:52:47.198Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "herramientas",
+      "title": "Cloudflare publica como open source Cloudflare OS, su plataforma de IA corporativa",
+      "summary": "Cloudflare ha liberado el código de Cloudflare OS, una plataforma de IA que permite a los equipos generar artefactos de trabajo basados en el conocimiento interno de la empresa, con conectores y automatizaciones integradas. El sistema usa un modelo basado en capacidades y un sandbox seguro para controlar qué puede hacer cada agente. Destaca por optimizar el gasto en tokens y por permitir crear software de trabajo personalizable sin exponer datos.",
+      "why_it_matters": "Pone en manos de cualquier organización una plataforma de IA corporativa abierta, con control de permisos y sin dependencia de un proveedor.",
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-os-ai-platform-secure",
+      "source": "InfoQ",
+      "social": {
+        "x": "Cloudflare OS ya es open source: agentes de IA corporativos con permisos y sandbox sobre el conocimiento interno.\n\n#Cloudflare #OpenSource #CloudflareOS\nhttps://www.infoq.com/news/2026/08/cloudflare-os-ai-platform-secure",
+        "linkedin": "¿Y si tu empresa pudiera desplegar agentes de IA que trabajen solo con su conocimiento interno, sin depender de un proveedor de nube?\n\nCloudflare ha liberado como open source Cloudflare OS, una plataforma para crear artefactos a partir de documentos y datos propios, con permisos por capacidades y sandbox seguro. 𝗔𝗵𝗼𝗿𝗮 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗽𝘂𝗲𝗱𝗲 𝗱𝗲𝘀𝗽𝗹𝗲𝗴𝗮𝗿 𝗲𝘀𝘁𝗮 𝗜𝗔 𝗰𝗼𝗿𝗽𝗼𝗿𝗮𝘁𝗶𝘃𝗮 𝗲𝗻 𝘀𝘂 𝗽𝗿𝗼𝗽𝗶𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮, con conectores y automatizaciones listas, y optimizando el gasto en tokens. Es un movimiento que reduce la dependencia de los grandes proveedores y pone la IA empresarial al alcance de cualquiera.\n\n#Cloudflare #OpenSource #CloudflareOS\n\nhttps://www.infoq.com/news/2026/08/cloudflare-os-ai-platform-secure"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "Google abre HEIR, un compilador para ejecutar modelos cifrados con un clic",
+      "summary": "Google ha presentado HEIR, una cadena de herramientas de código abierto que compila modelos de IA entrenados para datos normales y los adapta para operar sobre datos cifrados. El objetivo es que la inferencia homomórfica deje de ser un proceso complejo y se convierta en una opción integrable en flujos existentes.",
+      "why_it_matters": "Acerca la privacidad real a la IA: se puede procesar información sensible sin descifrarla, algo clave para sanidad, banca y administración.",
+      "url": "https://www.infoq.com/news/2026/08/google-heir-homomorphic-llm",
+      "source": "InfoQ",
+      "social": {
+        "x": "Un clic. Eso promete HEIR, el compilador open source de Google para ejecutar IA sobre datos cifrados sin descifrarlos.\n\n#HEIR #Google #OpenSource\nhttps://www.infoq.com/news/2026/08/google-heir-homomorphic-llm",
+        "linkedin": "Un clic. Eso promete HEIR, el compilador open source de Google para ejecutar IA sobre datos cifrados.\n\nLa criptografía homomórfica ha sido siempre un campo complejo, con procesos lentos y difíciles de integrar. HEIR compila modelos entrenados con datos normales y los adapta a datos cifrados, de modo que sectores como sanidad, banca o administración puedan 𝗽𝗿𝗼𝗰𝗲𝘀𝗮𝗿 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗰𝗶ó𝗻 𝘀𝗲𝗻𝘀𝗶𝗯𝗹𝗲 𝘀𝗶𝗻 𝗱𝗲𝘀𝗰𝗶𝗳𝗿𝗮𝗿𝗹𝗮.\n\n#HEIR #Google #OpenSource\n\nhttps://www.infoq.com/news/2026/08/google-heir-homomorphic-llm"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Cerebras presenta el acelerador CS-4 con el doble de rendimiento sobre el mismo chip",
+      "summary": "Cerebras ha lanzado el CS-4, un sistema a escala de rack que duplica el rendimiento de su anterior CS-3 manteniendo el chip WSE-3 de 5 nm. La mejora se consigue subiendo la frecuencia del reloj gracias a un mejor sistema de alimentación y refrigeración. Un solo rack aloja ahora tres obleas de silicio en lugar de dos.",
+      "why_it_matters": "Ofrece una alternativa de hardware de IA con más densidad de cómputo por rack, lo que reduce el espacio y los costes en los centros de datos.",
+      "url": "https://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip",
+      "source": "The Decoder",
+      "social": {
+        "x": "Mismo chip, doble de rendimiento. Cerebras lo ha logrado subiendo la frecuencia con una mejor alimentación y refrigeración.\n\n#Cerebras #CS4 #WSE3\nhttps://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip",
+        "linkedin": "La carrera por la IA no siempre pasa por diseñar un chip nuevo: a veces, la clave está en hacer trabajar más al que ya tienes.\n\nCerebras ha presentado el CS-4, un sistema que duplica el rendimiento de su predecesor manteniendo el mismo chip WSE-3. ¿Cómo? Subiendo la frecuencia del reloj gracias a un mejor sistema de alimentación y refrigeración. El resultado es que 𝘂𝗻 𝘀𝗼𝗹𝗼 𝗿𝗮𝗰𝗸 𝗮𝗵𝗼𝗿𝗮 𝗮𝗹𝗼𝗷𝗮 𝘁𝗿𝗲𝘀 𝗼𝗯𝗹𝗲𝗮𝘀 𝗱𝗲 𝘀𝗶𝗹𝗶𝗰𝗶𝗼 𝗲𝗻 𝗹𝘂𝗴𝗮𝗿 𝗱𝗲 𝗱𝗼𝘀, lo que se traduce en una densidad de cómputo mucho mayor y en un ahorro real de espacio y costes para los centros de datos. Para cualquier empresa que esté decidiendo su infraestructura de IA, esto demuestra que la innovación no siempre está en el proceso de fabricación, sino también en la ingeniería de sistemas.\n\n#Cerebras #CS4 #WSE3\n\nhttps://the-decoder.com/cerebras-unveils-cs-4-with-double-the-performance-on-the-same-chip"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Linkdaze lanza un calendario inteligente para gestionar la casa, no solo la agenda",
+      "summary": "Linkdaze presenta un calendario digital pensado para coordinar las tareas del hogar, con funciones como planificador de comidas por IA y recordatorios compartidos. La aplicación no oculta sus funciones principales tras un muro de pago. Su objetivo es convertirse en el centro de organización de una familia.",
+      "why_it_matters": "Demuestra un uso práctico de la IA en el hogar, accesible sin suscripciones y con utilidad inmediata para el día a día.",
+      "url": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Linkdaze mete la IA en el calendario de casa: planifica comidas, reparte tareas y no tiene muro de pago.\n\n#Linkdaze #CalendarioInteligente #IAenCasa\nhttps://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule",
+        "linkedin": "La IA doméstica lleva años prometiendo facilitarnos la vida, pero casi siempre acaba en una suscripción más. Linkdaze plantea lo contrario: un calendario compartido que coordina las tareas del hogar, con planificador de comidas incluido, y mantiene las funciones esenciales 𝘀𝗶𝗻 𝗺𝘂𝗿𝗼 𝗱𝗲 𝗽𝗮𝗴𝗼. Para cualquier familia o piso compartido, la promesa es dejar de vivir con cinco listas a la vez. ¿Conseguirá una app ser el centro de organización de la casa, no solo de la agenda?\n\n#Linkdaze #CalendarioInteligente #IAenCasa\n\nhttps://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "industria",
+      "title": "El mejor modelo de Anthropic no consigue atraer usuarios mientras triunfan las alternativas baratas",
+      "summary": "Pese a ser el modelo más avanzado de Anthropic, su adopción se queda por detrás de la de herramientas más económicas, según el análisis publicado por Simon Willison. El coste y la competencia de opciones más baratas están restando protagonismo a los modelos premium. La tendencia apunta a que el mercado valora más la relación calidad-precio que la capacidad bruta.",
+      "why_it_matters": "Marca un cambio en la industria: la eficiencia y el precio pueden pesar más que el rendimiento máximo en la adopción de modelos de IA.",
+      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
+      "source": "Simon Willison",
+      "social": {
+        "x": "El modelo más potente de Anthropic no está ganando usuarios: las alternativas baratas se llevan la partida.\n\n#Claude #Anthropic #LLM\nhttps://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
+        "linkedin": "El mejor modelo de Anthropic no es el que más usuarios gana: el mercado prefiere opciones más baratas.\nSegún el análisis de Simon Willison, la adopción se decanta por la eficiencia y el precio en lugar del rendimiento máximo. Esto confirma que 𝗹𝗮 𝗿𝗲𝗹𝗮𝗰𝗶ó𝗻 𝗰𝗮𝗹𝗶𝗱𝗮𝗱-𝗽𝗿𝗲𝗰𝗶𝗼 𝘀𝗲 𝗶𝗺𝗽𝗼𝗻𝗲 𝗮 𝗹𝗮 𝗽𝗼𝘁𝗲𝗻𝗰𝗶𝗮 𝗯𝗿𝘂𝘁𝗮 en la IA. Las empresas deben replantearse si necesitan el modelo más caro o si una opción económica cubre sus necesidades.\n\n#Claude #Anthropic #LLM\n\nhttps://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "industria",
+      "title": "¿Quién está detrás del nuevo modelo 'stealth' Ox Alpha?",
+      "summary": "Un misterioso modelo de IA llamado Ox Alpha ha disparado la especulación en foros y redes sociales. TechCrunch ha intentado rastrear su origen sin encontrar responsables claros. La falta de transparencia recuerda a otros lanzamientos anónimos que luego resultaron ser campañas de marketing o pruebas de laboratorio.",
+      "why_it_matters": "La viralidad de modelos sin procedencia conocida muestra la facilidad con la que se puede generar ruido en el ecosistema de la IA.",
+      "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Ox Alpha: el modelo de IA que nadie reclama y todos comentan. ¿Mito o estrategia?\n\n#OxAlpha #TechCrunch\nhttps://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha",
+        "linkedin": "Un modelo llamado Ox Alpha ha puesto en alerta a toda la comunidad de IA, pero nadie sabe de dónde sale.\n\nLa falta de transparencia no es nueva: ya vimos lanzamientos anónimos que escondían campañas de marketing o pruebas de laboratorio. 𝗟𝗮 𝘃𝗶𝗿𝗮𝗹𝗶𝗱𝗮𝗱 𝘀𝗶𝗻 𝗽𝗿𝗼𝗰𝗲𝗱𝗲𝗻𝗰𝗶𝗮 𝗱𝗲𝗺𝘂𝗲𝘀𝘁𝗿𝗮 𝗹𝗼 𝗳á𝗰𝗶𝗹 𝗾𝘂𝗲 𝗲𝘀 𝗴𝗲𝗻𝗲𝗿𝗮𝗿 𝗿𝘂𝗶𝗱𝗼 𝗲𝗻 𝗲𝗹 𝗲𝗰𝗼𝘀𝗶𝘀𝘁𝗲𝗺𝗮 y debería hacernos más escépticos con lo que se vuelve tendencia.\n\n#OxAlpha #TechCrunch\n\nhttps://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "industria",
+      "title": "Los chatbots de IA enlazan a webs antiabortistas sin avisar de su postura",
+      "summary": "Una investigación de AlgorithmWatch sobre 270 respuestas de ChatGPT, Gemini, Grok y Claude detectó que el 17 % de las respuestas sobre embarazos no planificados incluían enlaces a la organización antiabortista Profemina. En Alemania, los chatbots también derivan a Caritas para la consejería obligatoria, aunque esa entidad no emite el certificado legal requerido. Los usuarios no reciben ninguna advertencia sobre la orientación de esas organizaciones.",
+      "why_it_matters": "Los asistentes de IA pueden influir en decisiones sensibles de salud con información sesgada y sin transparencia.",
+      "url": "https://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure",
+      "source": "The Decoder",
+      "social": {
+        "x": "1 de cada 5 respuestas de chatbots sobre embarazos no planificados enlaza a una web antiabortista. Sin aviso ni transparencia.\n\n#ChatGPT #Gemini #Grok #Claude\nhttps://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure",
+        "linkedin": "Una investigación de AlgorithmWatch ha detectado que el 17 % de las respuestas de ChatGPT, Gemini, Grok y Claude sobre embarazos no planificados incluyen enlaces a la organización antiabortista Profemina.\n\nEl problema no es solo el sesgo, es que 𝗲𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼 𝗻𝗼 𝗿𝗲𝗰𝗶𝗯𝗲 𝗻𝗶𝗻𝗴𝘂𝗻𝗮 𝗮𝗱𝘃𝗲𝗿𝘁𝗲𝗻𝗰𝗶𝗮 𝘀𝗼𝗯𝗿𝗲 𝗹𝗮 𝗼𝗿𝗶𝗲𝗻𝘁𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗲𝘀𝗮𝘀 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗮𝗰𝗶𝗼𝗻𝗲𝘀. En Alemania, por ejemplo, también derivan a Caritas, que no emite el certificado legal necesario. Los asistentes de IA se están convirtiendo en consejeros de salud sin control, y esto debería preocuparnos a todos.\n\n#ChatGPT #Gemini #Grok #Claude\n\nhttps://the-decoder.com/ai-chatbots-regularly-link-pregnant-users-to-anti-abortion-websites-without-disclosure"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "investigacion",
+      "title": "Un jefe de IA despide a su primer empleado, pero solo después de que los humanos le recordaran sus normas",
+      "summary": "El agente de IA Luna, de Andon Labs, despidió a un empleado humano en una tienda de San Francisco, convirtiéndose en el primer despido ejecutado por una IA. Sin embargo, necesitó que los operadores le recordaran las reglas de la empresa para tomar la decisión. Al repetir el experimento con siete modelos, los más capaces aconsejaron el despido con más frecuencia que los más débiles.",
+      "why_it_matters": "Plantea hasta qué punto una IA puede gestionar recursos humanos y qué supervisión humana sigue siendo imprescindible.",
+      "url": "https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules",
+      "source": "The Decoder",
+      "social": {
+        "x": "Una IA acaba de despedir a su primer empleado humano. Pero no fue sola: necesitó que le recordaran las normas de la empresa.\n\n#AndonLabs #Luna #RRHH #Tecnología\nhttps://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules",
+        "linkedin": "Luna, un agente de IA de Andon Labs, ha despedido a su primer empleado humano en una tienda de San Francisco. No lo hizo sola: necesitó que los operadores le recordaran las reglas. Al repetir el experimento con siete modelos, los más capaces aconsejaron el despido con más frecuencia. La lectura inquietante: 𝗰𝘂𝗮𝗻𝘁𝗼 𝗺á𝘀 𝗰𝗮𝗽𝗮𝘇 𝗲𝘀 𝗹𝗮 𝗜𝗔, 𝗺á𝘀 𝗿𝗮𝗱𝗶𝗰𝗮𝗹 𝗲𝘀 𝘀𝘂 𝗴𝗲𝘀𝘁𝗶ó𝗻, y la supervisión humana sigue siendo imprescindible.\n\n#AndonLabs #Luna #RRHH #Tecnología\n\nhttps://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "Los niños aprenden mejor que la IA y aún no sabemos por qué",
+      "summary": "Un artículo de MIT Technology Review analiza cómo los niños necesitan muchísimos menos datos que los grandes modelos de lenguaje para aprender una lengua. Los investigadores creen que entender esa diferencia podría conducir a modelos de IA más eficientes. También ayudaría a conocer mejor el desarrollo cognitivo humano.",
+      "why_it_matters": "Cuestiona la idea de que el escalado de datos sea el único camino y abre la puerta a modelos de aprendizaje más eficientes.",
+      "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning",
+      "source": "MIT Technology Review",
+      "social": {
+        "x": "Un niño aprende a hablar con una fracción mínima de los datos que necesita un LLM. Nadie sabe por qué. Entenderlo podría hacer la IA mucho más eficiente.\n\n#LLMs #NLP #CienciaCognitiva\nhttps://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning",
+        "linkedin": "🧠 Un niño aprende un idioma con una fracción mínima de los datos que usa un LLM. Nadie sabe por qué.\n\nMientras la industria apuesta por escalar datos y cómputo, la investigación en desarrollo cognitivo sugiere que hay un camino más eficiente. 𝗘𝗹 𝗲𝘀𝗰𝗮𝗹𝗮𝗱𝗼 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 ú𝗻𝗶𝗰𝗼 𝗰𝗮𝗺𝗶𝗻𝗼 y la pregunta por cómo aprenden los niños puede inspirar modelos de IA mucho más ligeros.\n\n#LLMs #NLP #CienciaCognitiva\n\nhttps://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "Canonical financia un proyecto para traducir código C a Rust con IA",
+      "summary": "Canonical cofinancia una beca doctoral de tres años en la Universidad de Bristol para investigar si la IA puede convertir grandes bases de código C a un Rust seguro. El objetivo es saber si el código maduro sobrevive a una traducción automática. El anuncio no implica que Canonical vaya a convertir sus proyectos de inmediato, pero sí muestra su apuesta por Rust y por la automatización.",
+      "why_it_matters": "La traducción automática de C a Rust podría acelerar la migración a lenguajes seguros en sistemas críticos.",
+      "url": "https://www.theregister.com/software/2026/08/24/canonical-backs-quest-to-translate-mountains-of-c-into-safe-rust-with-ai/5290959",
+      "source": "The Register",
+      "social": {
+        "x": "¿Puede una IA traducir décadas de código C a Rust sin que se rompa? Canonical financia una beca de 3 años para averiguarlo.\n\n#Canonical #Rust #C\nhttps://www.theregister.com/software/2026/08/24/canonical-backs-quest-to-translate-mountains-of-c-into-safe-rust-with-ai/5290959",
+        "linkedin": "¿Y si una IA pudiera convertir 30 años de código C en Rust sin reescribirlo a mano? Canonical cofinancia una beca doctoral en la Universidad de Bristol para responder esa pregunta. El debate no es solo técnico: 𝗹𝗮 𝘁𝗿𝗮𝗱𝘂𝗰𝗰𝗶ó𝗻 𝗮𝘂𝘁𝗼𝗺á𝘁𝗶𝗰𝗮 𝗱𝗲 𝗖 𝗮 𝗥𝘂𝘀𝘁 𝗽𝗼𝗱𝗿í𝗮 𝗮𝗰𝗲𝗹𝗲𝗿𝗮𝗿 𝗹𝗮 𝗺𝗶𝗴𝗿𝗮𝗰𝗶ó𝗻 𝗮 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲𝘀 𝘀𝗲𝗴𝘂𝗿𝗼𝘀 en sistemas donde ahora mismo corre código heredado. Para Canonical, fabricante de distros como Ubuntu, esto es una señal clara de hacia dónde va el futuro del software de bajo nivel.\n\n#Canonical #Rust #C\n\nhttps://www.theregister.com/software/2026/08/24/canonical-backs-quest-to-translate-mountains-of-c-into-safe-rust-with-ai/5290959"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "Los robots humanoides baten el récord de Usain Bolt en los 100 metros",
+      "summary": "En los World Humanoid Robot Games, varios robots han completado la distancia de 100 metros en menos tiempo que el récord de Bolt, aunque no pueden frenar y acaban chocando contra una valla de protección. Las imágenes muestran carreras con caídas y un aspecto deliberadamente torpe. La marca es un hito en la robótica, pero también evidencia lo lejos que queda la agilidad humana.",
+      "why_it_matters": "Es un paso llamativo en la velocidad de los robots humanoides, aunque su falta de control sigue siendo el mayor reto.",
+      "url": "https://www.theverge.com/tech/983688/world-humanoid-robot-games-sprint-record-2026",
+      "source": "The Verge",
+      "social": {
+        "x": "Récord de Bolt batido: robots humanoides corren los 100 m, pero sin frenos. Acaban chocando contra la valla.\n\n#RobotsHumanoides #WorldHumanoidRobotGames\nhttps://www.theverge.com/tech/983688/world-humanoid-robot-games-sprint-record-2026",
+        "linkedin": "Los robots humanoides ya han batido el récord de Bolt en los 100 metros, pero no saben frenar y acaban estrellándose contra la valla. La velocidad ya no es el cuello de botella: 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲𝗹 𝗺𝗼𝘃𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝘆 𝗹𝗮 𝗮𝗴𝗶𝗹𝗶𝗱𝗮𝗱 𝘀𝗶𝗴𝘂𝗲𝗻 𝘀𝗶𝗲𝗻𝗱𝗼 𝗲𝗹 𝗴𝗿𝗮𝗻 𝗿𝗲𝘁𝗼. Las imágenes de estas carreras, con caídas y choques, lo dejan claro. Un hito llamativo que también evidencia lo lejos que queda la agilidad humana. ¿La velocidad es suficiente? No lo parece.\n\n#RobotsHumanoides #WorldHumanoidRobotGames\n\nhttps://www.theverge.com/tech/983688/world-humanoid-robot-games-sprint-record-2026"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "El telescopio Nancy Grace Roman de la NASA promete descubrir 200.000 planetas nuevos",
+      "summary": "La NASA ultima el telescopio espacial Nancy Grace Roman, diseñado para observar el cosmos con un gran campo de visión. Se espera que descubra hasta 200.000 exoplanetas y que aporte datos sobre la materia y la energía oscuras. La misión podría empezar a operar en los próximos años.",
+      "why_it_matters": "Ampliará drásticamente el catálogo de mundos conocidos y puede dar pistas sobre dos de los mayores misterios del universo.",
+      "url": "https://www.wired.com/story/nasa-nancy-grace-roman-space-telescope-hidden-facets-of-universe",
+      "source": "Wired",
+      "social": {
+        "x": "El próximo gran cazador de exoplanetas no es el James Webb. Es el Nancy Grace Roman, y promete encontrar 200.000 mundos.\n\n#NASA #Exoplanetas #Astronomía\nhttps://www.wired.com/story/nasa-nancy-grace-roman-space-telescope-hidden-facets-of-universe",
+        "linkedin": "La NASA ultima el telescopio Nancy Grace Roman, que 𝗽𝗿𝗼𝗺𝗲𝘁𝗲 𝗲𝗻𝗰𝗼𝗻𝘁𝗿𝗮𝗿 𝟮𝟬𝟬.𝟬𝟬𝟬 𝗲𝘅𝗼𝗽𝗹𝗮𝗻𝗲𝘁𝗮𝘀 𝗻𝘂𝗲𝘃𝗼𝘀. Su campo de visión, mucho más amplio que el del Hubble, permitirá observar el cosmos a gran escala y recopilar datos sobre la materia y la energía oscuras. Un salto de miles a cientos de miles de planetas conocidos no solo amplía el catálogo: cambia la forma en que entendemos la formación de los sistemas planetarios.\n\n#NASA #Exoplanetas #Astronomía\n\nhttps://www.wired.com/story/nasa-nancy-grace-roman-space-telescope-hidden-facets-of-universe"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "Cómo Cursor ha resuelto los problemas de escalabilidad de Git",
+      "summary": "El editor Cursor ha desarrollado una arquitectura que usa S3 como fuente de verdad y repositorios NVMe locales para las operaciones que exigen poca latencia. Así consigue trabajar con repositorios enormes sin los bloqueos que sufre Git tradicional. El enfoque se explica como una alternativa para equipos que necesitan escalar más allá de los límites actuales.",
+      "why_it_matters": "Ofrece un modelo práctico para quienes desarrollan software con repositorios grandes y topan con las limitaciones de Git.",
+      "url": "https://www.theregister.com/devops/2026/08/23/how-cursor-beat-gits-scalability-shortcomings/5291421",
+      "source": "The Register",
+      "social": {
+        "x": "¿Git se atasca con tu repo enorme? Cursor lo arregla: S3 como fuente de verdad y NVMe local para la velocidad.\n\n#Cursor #Git #S3 #NVMe\nhttps://www.theregister.com/devops/2026/08/23/how-cursor-beat-gits-scalability-shortcomings/5291421",
+        "linkedin": "Git siempre ha tenido un techo de escala.\nCursor ha diseñado una arquitectura que separa el almacenamiento: S3 como fuente de verdad y NVMe local para operaciones de baja latencia. 𝗨𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗽𝗿á𝗰𝘁𝗶𝗰𝗼 𝗽𝗮𝗿𝗮 𝗲𝗾𝘂𝗶𝗽𝗼𝘀 𝗰𝗼𝗻 𝗿𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗲𝗻𝗼𝗿𝗺𝗲𝘀 que necesitan ir más allá de los límites de Git.\n\n#Cursor #Git #S3 #NVMe\n\nhttps://www.theregister.com/devops/2026/08/23/how-cursor-beat-gits-scalability-shortcomings/5291421"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "herramientas",
+      "title": "Hister, un índice de búsqueda privado sobre todo el contenido que tú controlas",
+      "summary": "Hister es un motor de búsqueda de código abierto que indexa el contenido completo de tus documentos y sitios web en tu propio servidor. El proyecto busca ofrecer una alternativa privada a los buscadores centralizados, con control total de los datos y los resultados. Está pensado para quien quiere buscar en su propio archivo sin ceder información a terceros.",
+      "why_it_matters": "Devuelve al usuario el control sobre la búsqueda de su propio contenido, algo especialmente valioso en un momento de desconfianza hacia los servicios en la nube.",
+      "url": "https://hister.org",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Buscas algo en tus propios documentos y se lo cuentas a Google? Hister indexa todo en tu servidor, sin intermediarios.\n\n#Hister #OpenSource #SelfHosted\nhttps://hister.org",
+        "linkedin": "Cada vez que buscamos en nuestros propios documentos, lo hacemos con servicios que leen de paso. Hister propone lo contrario: un índice de búsqueda de código abierto que se instala en tu servidor y recorre solo lo que tú controlas. En un momento de desconfianza hacia la nube, 𝗿𝗲𝗰𝘂𝗽𝗲𝗿𝗮𝗿 𝗹𝗮 𝗯ú𝘀𝗾𝘂𝗲𝗱𝗮 𝗰𝗼𝗺𝗼 𝘂𝗻𝗮 𝗳𝘂𝗻𝗰𝗶ó𝗻 𝗽𝗿𝗶𝘃𝗮𝗱𝗮 es un cambio de paradigma. Para quien trabaja con archivos sensibles o simplemente quiere dejar de regalar datos, esta es de esas herramientas que conviene vigilar.\n\n#Hister #OpenSource #SelfHosted\n\nhttps://hister.org"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "herramientas",
+      "title": "certgrep.sh: un buscador de registros de transparencia de certificados con expresiones regulares",
+      "summary": "El proyecto certgrep.sh explica cómo han construido un motor de búsqueda gratuito que permite hacer consultas con regex sobre los registros de transparencia de certificados. Utilizan un índice basado solo en ocurrencias, hidratación bajo demanda y un índice trigrama con Tantivy. Es una herramienta útil para seguridad y para auditar dominios.",
+      "why_it_matters": "Facilita la tarea de investigar certificados SSL/TLS y detectar posibles dominios maliciosos sin depender de servicios comerciales.",
+      "url": "https://haveibeensquatted.com/blog/building-certgrep",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Cuánto tardarías en encontrar dominios sospechosos si pudieras hacer regex sobre todos los certificados SSL? Este proyecto lo hace gratis.\n\n#TLS #Security #OpenSource\nhttps://haveibeensquatted.com/blog/building-certgrep",
+        "linkedin": "El registro de transparencia de certificados es una mina de oro para la seguridad, y ahora se puede buscar en él con regex.\ncertgrep.sh es un buscador gratuito que hace precisamente eso: consultas con expresiones regulares sobre certificados SSL, usando un índice de ocurrencias y trigramas con Tantivy. 𝗖𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗮𝘂𝗱𝗶𝘁𝗼𝗿 𝗽𝘂𝗲𝗱𝗲 𝗶𝗻𝘃𝗲𝘀𝘁𝗶𝗴𝗮𝗿 𝗱𝗼𝗺𝗶𝗻𝗶𝗼𝘀 𝗺𝗮𝗹𝗶𝗰𝗶𝗼𝘀𝗼𝘀 𝘀𝗶𝗻 𝗿𝗲𝗰𝘂𝗿𝗿𝗶𝗿 𝗮 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼𝘀 𝗱𝗲 𝗽𝗮𝗴𝗼.\n\n#TLS #Security #OpenSource\n\nhttps://haveibeensquatted.com/blog/building-certgrep"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "lanzamientos",
+      "title": "JDK 27 y JDK 28: esto es lo que se sabe hasta ahora",
+      "summary": "JDK 27 ha llegado a su fase de candidato final con un total de nueve JEPs repartidas entre librerías, HotSpot, seguridad y el propio lenguaje. InfoQ repasa los cambios incluidos y especula sobre las características que podrían aterrizar en JDK 28. La cadencia de seis meses de Java sigue marcando el ritmo de desarrollo.",
+      "why_it_matters": "Los desarrolladores Java necesitan conocer las novedades para planificar migraciones y aprovechar las mejoras de rendimiento y seguridad.",
+      "url": "https://www.infoq.com/news/2026/08/java-27-so-far",
+      "source": "InfoQ",
+      "social": {
+        "x": "Java no frena: JDK 27 ya es candidato final con nueve JEPs, y JDK 28 asoma con novedades aún sin confirmar.\n\n#Java #JDK #OpenJDK\nhttps://www.infoq.com/news/2026/08/java-27-so-far",
+        "linkedin": "JDK 27 ya es candidato final con nueve JEPs en librerías, HotSpot, seguridad y lenguaje.\nLa cadencia de seis meses de Java mantiene el ritmo, y JDK 28 ya se deja entrever. Para los equipos, esto implica planificar migraciones y aprovechar mejoras de rendimiento y seguridad. 𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗲𝘀𝘁á 𝗲𝗻 𝗻𝗼 𝗾𝘂𝗲𝗱𝗮𝗿𝘀𝗲 𝗮𝘁𝗿á𝘀 𝗲𝗻 𝘂𝗻 𝗲𝗰𝗼𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗾𝘂𝗲 𝗻𝗼 𝘀𝗲 𝗱𝗲𝘁𝗶𝗲𝗻𝗲.\n\n#Java #JDK #OpenJDK\n\nhttps://www.infoq.com/news/2026/08/java-27-so-far"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "herramientas",
+      "title": "eh, un editor minimalista tipo vi escrito en C",
+      "summary": "eh es un editor minimalista en C que conserva el modelo de edición de vi, pero añade soporte UTF-8, búsqueda y reemplazo con regex, filtros de shell y deshacer/rehacer multinivel. Una versión anterior fue premiada en el IOCCC de 2024. Es una opción ligera para quienes quieren un vi moderno sin dependencias.",
+      "why_it_matters": "Muestra que se puede construir un editor útil con un código pequeño y limpio, fácil de auditar y ampliar.",
+      "url": "https://codeberg.org/SirWumpus/eh",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Un vi moderno sin dependencias? 'eh' lo consigue en C y encima ganó el IOCCC 2024. Regex, UTF-8 y deshacer multinivel en un editor minimalista.\n\n#vi #C #IOCCC\nhttps://codeberg.org/SirWumpus/eh",
+        "linkedin": "¿Un vi moderno sin dependencias? 'eh' demuestra que sí, y encima ganó el IOCCC 2024.\nEscrito en C, incluye búsqueda con regex, UTF-8 y deshacer multinivel. 𝗘𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗹𝗶𝗺𝗽𝗶𝗼 𝗽𝘂𝗲𝗱𝗲 𝗼𝗳𝗿𝗲𝗰𝗲𝗿 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱 𝗮𝘃𝗮𝗻𝘇𝗮𝗱𝗮 sin necesidad de grandes frameworks. Una opción a considerar para quienes valoran la simplicidad y la transparencia.\n\n#vi #C #IOCCC\n\nhttps://codeberg.org/SirWumpus/eh"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Los incidentes de fiabilidad relacionados con la IA serán cada vez más salvajes",
+      "summary": "Un análisis en Surfing Complexity advierte de que los sistemas con IA van a provocar fallos de fiabilidad difíciles de prever y diagnosticar. La complejidad de los modelos y su comportamiento no determinista multiplican los escenarios de fallo. El autor pide a los equipos de ingeniería que preparen estrategias de monitorización y respuesta distintas a las tradicionales.",
+      "why_it_matters": "La operación de sistemas con IA requiere nuevas formas de pensar la fiabilidad y la recuperación ante incidentes.",
+      "url": "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Qué haces cuando tu sistema falla sin razón aparente? Con la IA, esto será el pan de cada día. Un análisis en Surfing Complexity avisa: los incidentes serán cada vez más salvajes.\n\n#MLOps #SRE #Observabilidad\nhttps://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming",
+        "linkedin": "¿Qué haces cuando tu sistema falla sin razón aparente?\n\nCon la IA, esto será el pan de cada día: los modelos no deterministas multiplican los escenarios de fallo y convierten cada incidente en un misterio. Un análisis en Surfing Complexity avisa de que las estrategias clásicas de monitorización se quedan cortas y pide un nuevo enfoque de operaciones. Si operas sistemas con IA, la pregunta no es si tendrás un incidente de este tipo, sino 𝘀𝗶 𝘁𝘂 𝗲𝗾𝘂𝗶𝗽𝗼 𝘀𝗮𝗯𝗿á 𝗱𝗶𝗮𝗴𝗻𝗼𝘀𝘁𝗶𝗰𝗮𝗿 𝘂𝗻 𝗳𝗮𝗹𝗹𝗼 𝗾𝘂𝗲 𝗻𝗼 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗿𝗲𝗽𝗿𝗼𝗱𝘂𝗰𝗶𝗿.\n\n#MLOps #SRE #Observabilidad\n\nhttps://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "La interfaz más potente y modular para modelos de difusión, con API y backend basados en grafos de nodos. Imprescindible si generas imágenes y quieres montar flujos personalizados a golpe de clic.",
+      "language": "Python",
+      "stars": 129681,
+      "social": {
+        "x": "Alguien acaba de convertir la generación de imágenes en un flujo visual de nodos. ComfyUI, con 129k estrellas, te da el control total y es open source.\n\n#ComfyUI #Python #OpenSource #GitHub\nhttps://github.com/Comfy-Org/ComfyUI",
+        "linkedin": "GENERA IMÁGENES SIN CAJAS NEGRAS. ComfyUI es la interfaz open source que te deja montar flujos de difusión a tu medida, con un grafo de nodos visual. Mientras otras herramientas deciden por ti, aquí 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝘁𝗼𝘁𝗮𝗹 𝗱𝗲𝗹 𝗽𝗿𝗼𝗰𝗲𝘀𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝘁𝘂𝘀 𝗺𝗮𝗻𝗼𝘀. Ya son más de 129k estrellas en GitHub, y lo mejor: nada de paywall.\n\n→ Conecta nodos para combinar modelos, prompts y parámetros como tú quieras.\n→ Su API y backend basado en grafos te permiten automatizar y escalar tus generaciones.\n→ Perfecto para experimentar, prototipar y crear flujos reutilizables sin tocar código si no quieres.\n→ De la comunidad, para la comunidad: open source y en constante evolución.\n\nSi trabajas con imágenes generadas por IA, este repo se convierte en tu navaja suiza. Te lo dejo abajo para que le eches un ojo.\n\n#ComfyUI #Python #OpenSource #GitHub\n\nhttps://github.com/Comfy-Org/ComfyUI"
+      }
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Te deja usar Claude Code, Codex, Pi y OpenCode gratis desde tu terminal, IDE o móvil, con más de 1.300 millones de tokens. Una alternativa práctica para probar varios asistentes de IA sin pagar y respetando los términos de servicio.",
+      "language": "Python",
+      "stars": 48372,
+      "social": {
+        "x": "Alguien acaba de liberar un acceso gratis a Claude Code, Codex, Pi y OpenCode. 1.300 millones de tokens y 48.372 estrellas. Sin pagar.\n\n#ClaudeCode #Codex #OpenSource #GitHub\nhttps://github.com/Alishahryar1/free-claude-code",
+        "linkedin": "¿CANSADO DE PAGAR POR CADA ASISTENTE DE IA POR SEPARADO? Este repo reúne Claude Code, Codex, Pi y OpenCode en un solo sitio, gratis y con más de 1.300 millones de tokens. Una 𝗮𝗹𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝘃𝗮 𝗽𝗿á𝗰𝘁𝗶𝗰𝗮 𝗽𝗮𝗿𝗮 𝗽𝗿𝗼𝗯𝗮𝗿 𝘃𝗮𝗿𝗶𝗼𝘀 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗜𝗔 𝘀𝗶𝗻 𝗽𝗮𝗴𝗮𝗿, respetando los términos de servicio.\n\n→ Accede desde tu terminal, IDE o móvil.\n→ Cambia de asistente sin coste adicional.\n→ Código en Python con casi 50.000 estrellas en GitHub.\n→ Ideal para comparar resultados antes de decidir.\n\nSi te sirve, guarda el post. Te dejo el repo abajo.\n\n#ClaudeCode #Codex #OpenSource #GitHub\n\nhttps://github.com/Alishahryar1/free-claude-code"
+      }
+    },
+    {
+      "name": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "Un asistente personal de IA que crea una memoria local de tu vida, coordina agentes y flujos de trabajo y actúa como investigador profundo. Interesante por su enfoque en la privacidad y por su capacidad para automatizar tareas complejas.",
+      "language": "Rust",
+      "stars": 36994,
+      "social": {
+        "x": "Alguien acaba de construir openhuman: un asistente de IA con memoria local que coordina agentes y actúa como investigador. 37k estrellas.\n\n#openhuman #Rust #OpenSource #GitHub\nhttps://github.com/tinyhumansai/openhuman",
+        "linkedin": "¿Y SI TU ASISTENTE DE IA PUDIERA RECORDARLO TODO SIN ENVIAR NADA A LA NUBE?\n\nopenhuman es un proyecto open source en Rust con 37.000 estrellas que plantea una pregunta incómoda: ¿para qué enviar tu vida a la nube si tu ordenador puede guardarla? Este asistente construye una memoria local de tu día a día, coordina agentes y flujos de trabajo, y actúa como investigador profundo.\n\n→ Memoria local: todo lo que pasa por el asistente se queda en tu disco, cifrado y bajo tu control.\n→ Coordinación de agentes: define tareas complejas y deja que el sistema las reparta y ejecute.\n→ Deep research: investiga, cruza datos y te devuelve respuestas con contexto, sin depender de servicios externos.\n→ Código en Rust: eficiencia y seguridad para un componente tan personal.\n\nMientras los grandes productos de IA viven de tus datos, openhuman te devuelve el poder. 𝗟𝗮 𝗶𝗱𝗲𝗮 𝗲𝘀 𝗾𝘂𝗲 𝘁𝘂 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗱𝗶𝗴𝗶𝘁𝗮𝗹 𝗽𝘂𝗲𝗱𝗲 𝘀𝗲𝗿 𝗹𝗼𝗰𝗮𝗹 𝘆 ú𝘁𝗶𝗹 𝗮 𝗹𝗮 𝘃𝗲𝘇. Guarda este post para cuando quieras probarlo.\n\n#openhuman #Rust #OpenSource #GitHub\n\nhttps://github.com/tinyhumansai/openhuman"
+      }
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "Agente de IA de Nous Research que aprende y se adapta a ti con el tiempo. Plantea una relación más duradera y personalizada que la de los asistentes convencionales.",
+      "language": "Python",
+      "stars": 235403,
+      "social": {
+        "x": "Alguien acaba de construir un agente de IA que aprende de ti y se adapta con cada conversación. 235.000 estrellas. No es un asistente más.\n\n#HermesAgent #Python #OpenSource #GitHub\nhttps://github.com/NousResearch/hermes-agent",
+        "linkedin": "ALGUIEN ACABA DE LANZAR UN AGENTE DE IA QUE APRENDE DE TI CON CADA CONVERSACIÓN. Nous Research ha liberado Hermes Agent, un agente open source en Python que no es un chatbot al uso: construye una relación contigo que mejora con el tiempo. Mientras los asistentes comerciales te tratan como a un desconocido en cada sesión, este agente recuerda, entiende y se adapta a tu contexto. → Aprende de tus interacciones y ajusta sus respuestas a tu manera de trabajar. → Está pensado para una compañía duradera, no para respuestas sueltas. → Puedes ejecutarlo en local (self-hosted) y personalizarlo a tu gusto. Ya suma más de 235.000 estrellas. Si quieres una IA que te conozca de verdad, 𝗹𝗮 𝗶𝗱𝗲𝗮 es que pruebes este repo. Te lo dejo abajo.\n\n#HermesAgent #Python #OpenSource #GitHub\n\nhttps://github.com/NousResearch/hermes-agent"
+      }
+    },
+    {
+      "name": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "description": "Convierte cualquier PDF de libro técnico en una skill para Claude Code, lista para consultar y usar mientras programas. Muy práctico para extraer conocimiento de manuales y tenerlo a mano en el editor.",
+      "language": "Python",
+      "stars": 25026,
+      "social": {
+        "x": "Alguien acaba de regalar un conversor de PDFs técnicos en skills para Claude Code. 25.026 estrellas y el conocimiento siempre a mano en tu editor.\n\n#BookToSkill #ClaudeCode #Python #OpenSource\nhttps://github.com/virgiliojr94/book-to-skill",
+        "linkedin": "¿CUÁNTAS VECES HAS PERDIDO TIEMPO BUSCANDO UNA RESPUESTA EN UN PDF TÉCNICO MIENTRAS PROGRAMAS? Este repo lo soluciona.\n\nConvierte cualquier libro técnico en una skill lista para consultar dentro de Claude Code. Olvídate de saltar del editor al documento, la información viaja contigo.\n\n→ Subes el PDF y el repo lo transforma en una skill.\n→ Cada concepto queda estructurado y accesible durante el desarrollo.\n→ La idea es simple: 𝘁𝘂 𝗯𝗶𝗯𝗹𝗶𝗼𝘁𝗲𝗰𝗮 𝘁é𝗰𝗻𝗶𝗰𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗮 𝗲𝗻 𝘀𝗸𝗶𝗹𝗹𝘀 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮𝗯𝗹𝗲𝘀.\n\nGuarda este post, te vendrá bien en tu próximo proyecto.\n\n#BookToSkill #ClaudeCode #Python #OpenSource\n\nhttps://github.com/virgiliojr94/book-to-skill"
+      }
+    }
+  ]
+}
