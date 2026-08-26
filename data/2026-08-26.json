@@ -1,0 +1,323 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T10:51:01.486Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Apple presenta el M6 y el M5 Ultra: su mayor salto en rendimiento y capacidades de IA",
+      "summary": "Apple ha presentado el chip M6, que estrena el nuevo Mac mini, y el M5 Ultra, que monta el Mac Studio. La compañía asegura que ambos suponen un salto extraordinario en rendimiento y en cómputo de IA, con los nuevos equipos pensados para el desarrollo local de modelos.",
+      "why_it_matters": "Marca el pistoletazo de salida de una nueva generación de Mac orientada al trabajo con IA local, algo que muchos desarrolladores llevaban esperando.",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
+      "source": "Hacker News",
+      "social": {
+        "x": "Apple acaba de dar el mayor salto en Mac con los chips M6 y M5 Ultra: desarrollo de IA en local sin depender de la nube.\n\n#Apple #M6 #M5Ultra #AppleSilicon\nhttps://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute",
+        "linkedin": "Por fin, Apple responde a la demanda de los desarrolladores que querían IA local sin sacrificar rendimiento. Los chips M6 y M5 Ultra, presentados junto al Mac mini y el Mac Studio, están diseñados para entrenar y ejecutar modelos en tu propia máquina. 𝗟𝗮 𝗜𝗔 𝗹𝗼𝗰𝗮𝗹 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝘂𝗻𝗮 𝗼𝗽𝗰𝗶ó𝗻 𝗿𝗲𝗮𝗹 𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻, no solo un experimento, y eso cambia las decisiones de infraestructura de muchos equipos.\n\n#Apple #M6 #M5Ultra #AppleSilicon\n\nhttps://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "IBM lanza Granite 4.2, su familia de modelos abiertos con capacidades agénticas bajo Apache 2.0",
+      "summary": "IBM publica los modelos Granite 4.2 en versiones de 3B, 8B y 30B, entrenados desde cero con unos 15 billones de tokens y contexto de hasta 512.000 tokens. Los modelos más grandes incluyen un entrenamiento de RL agéntico que les permite aprender a usar herramientas y ejecutar código por su cuenta.",
+      "why_it_matters": "Es una de las familias de modelos abiertos más capaces para construir agentes, con una licencia permisiva que permite usarla en producción sin restricciones.",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "No necesitas una API cerrada para tener agentes que ejecutan código. IBM Granite 4.2 lo hace, y con licencia Apache 2.0.\n\n#IBM #Granite #OpenSource\nhttps://huggingface.co/blog/ibm-granite/granite-4-2",
+        "linkedin": "¿Hace falta una API de pago para construir agentes de IA?\n\nIBM responde con Granite 4.2, su familia de modelos abiertos de 3B, 8B y 30B, entrenada con 15 billones de tokens y contexto de 512.000. Los modelos grandes incluyen RL agéntico: 𝗮𝗽𝗿𝗲𝗻𝗱𝗲𝗻 𝗮 𝘂𝘀𝗮𝗿 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 𝘆 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿 𝗰ó𝗱𝗶𝗴𝗼 𝗱𝗲 𝗳𝗼𝗿𝗺𝗮 𝗮𝘂𝘁ó𝗻𝗼𝗺𝗮. Con licencia Apache 2.0, se pueden desplegar en producción sin restricciones. Si evaluabas modelos para agentes, esta es la alternativa abierta que faltaba.\n\n#IBM #Granite #OpenSource\n\nhttps://huggingface.co/blog/ibm-granite/granite-4-2"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "OpenAI presenta Jalapeño, su primer chip de inferencia, y los benchmarks apuntan a que supera a Blackwell",
+      "summary": "OpenAI ha mostrado en Hot Chips su chip de inferencia personalizado, bautizado Jalapeño. Según los benchmarks de SemiAnalysis, supera a Nvidia Blackwell e incluso a Rubin en rendimiento y eficiencia energética, con 128 chips por rack que ofrecen 1,7 exaFLOPS y 27 TB de HBM.",
+      "why_it_matters": "Si se confirma, OpenAI dejaría de depender de Nvidia para la inferencia y podría abaratar drásticamente el coste de servir modelos a gran escala.",
+      "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show",
+      "source": "TechCrunch",
+      "social": {
+        "x": "OpenAI ya tiene su propio chip de inferencia. Se llama Jalapeño y los primeros benchmarks lo colocan por encima de Blackwell.\n\n#OpenAI #Nvidia #Blackwell\nhttps://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show",
+        "linkedin": "OpenAI ya tiene su propio chip de inferencia y, según los primeros datos, supera a Blackwell de Nvidia.\nPresentado en Hot Chips, Jalapeño ofrece 1,7 exaFLOPS por rack con 128 chips y 27 TB de HBM. Si los benchmarks se confirman, OpenAI puede recortar su dependencia de Nvidia y abaratar drásticamente el coste de servir modelos. 𝗘𝘀𝗮 𝗶𝗻𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮 𝗲𝘀𝘁𝗿𝗮𝘁é𝗴𝗶𝗰𝗮 𝗲𝘀 𝗹𝗼 𝗾𝘂𝗲 𝗿𝗲𝗮𝗹𝗺𝗲𝗻𝘁𝗲 𝗲𝘀𝘁á 𝗲𝗻 𝗷𝘂𝗲𝗴𝗼.\n\n#OpenAI #Nvidia #Blackwell\n\nhttps://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Claude ya comparte memoria entre el chat y Cowork para no repetirle el contexto",
+      "summary": "Anthropic ha activado la memoria compartida entre Claude y su herramienta de trabajo Cowork, de modo que los usuarios no tienen que volver a explicar cada vez sus preferencias o los detalles de un proyecto. Claude Code, de momento, queda fuera.",
+      "why_it_matters": "Elimina una de las mayores fricciones a la hora de usar asistentes de IA para trabajar: tener que darles contexto una y otra vez.",
+      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat",
+      "source": "TechCrunch",
+      "social": {
+        "x": "¿Cansado de repetirle el contexto a Claude? Anthropic une la memoria del chat y Cowork para que recuerde tus proyectos. Claude Code, de momento, no se suma.\n\n#Anthropic #Claude #Cowork\nhttps://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat",
+        "linkedin": "La mayor penalización al trabajar con IA es tener que repetirle el contexto. Anthropic acaba de conectarla entre Claude y Cowork: ahora el asistente recuerda tus proyectos y preferencias sin que se los vuelvas a explicar. Es un paso importante hacia 𝗹𝗮 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗶𝗱𝗮 𝗲𝗻𝘁𝗿𝗲 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀, pero Claude Code, el entorno de desarrollo, se queda fuera por ahora. Los equipos técnicos tendrán que esperar para deshacerse de esa fricción en su día a día.\n\n#Anthropic #Claude #Cowork\n\nhttps://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Instagram estrena First Draft, una función que recorta y edita tus clips de Reels automáticamente",
+      "summary": "La nueva función First Draft de Instagram analiza los clips seleccionados y genera un primer montaje en menos de diez segundos, recortando los momentos más destacados. Está pensada para quienes no tienen experiencia con software de edición y llega primero a la app de iPhone.",
+      "why_it_matters": "La edición de vídeo era una barrera para muchos creadores; con esto Instagram la automatiza y la pone al alcance de cualquiera.",
+      "url": "https://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Editar vídeo era el muro que frenaba a muchos creadores. Instagram acaba de derribarlo con First Draft.\n\n#Instagram #Reels #FirstDraft\nhttps://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious",
+        "linkedin": "Editar vídeo era el muro que frenaba a muchos creadores.\nInstagram acaba de derribarlo con First Draft, una función que recorta y monta tus clips de Reels en menos de diez segundos. Ya no hace falta tocar una timeline ni aprender un programa de edición: 𝗹𝗮 𝗲𝗱𝗶𝗰𝗶ó𝗻 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗳𝗶𝗹𝘁𝗿𝗼 𝗽𝗮𝗿𝗮 𝗽𝘂𝗯𝗹𝗶𝗰𝗮𝗿. Para cualquier creador que haya renunciado a Reels por falta de tiempo o herramientas, esto cambia las reglas: el contenido deja de depender de la técnica y pasa a depender solo de la idea.\n\n#Instagram #Reels #FirstDraft\n\nhttps://techcrunch.com/2026/08/25/instagrams-first-draft-feature-aims-to-make-editing-reels-less-tedious"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "Amazon OpenSearch añade MCP Apps para observar tus sistemas con agentes de IA",
+      "summary": "Amazon OpenSearch Service ahora permite que los agentes de IA respondan con visualizaciones interactivas además de texto gracias a las MCP Apps. Con un único servidor MCP local, el agente puede pasar de una alerta a un trace, a los logs y a la causa raíz en una misma conversación.",
+      "why_it_matters": "Lleva la observabilidad al terreno de los agentes: poder investigar incidencias conversando con tu infraestructura, sin cambiar de herramienta.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "¿Y si para investigar una incidencia no tuvieras que salir del chat? OpenSearch acaba de unir agentes de IA y observabilidad.\n\n#OpenSearch #AWS #MCP\nhttps://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps",
+        "linkedin": "Hasta ahora, pedirle a un agente de IA que investigara una incidencia terminaba en un enlace a un dashboard. OpenSearch Service cambia eso con las MCP Apps: un único servidor MCP local permite que el agente te responda con visualizaciones interactivas, traces y logs en la misma conversación. El salto es que 𝗹𝗮 𝗼𝗯𝘀𝗲𝗿𝘃𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝘀𝗲 𝘃𝘂𝗲𝗹𝘃𝗲 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲𝗹 𝗱𝗶á𝗹𝗼𝗴𝗼, así puedes pasar de una alerta a la causa raíz sin cambiar de herramienta. Para quienes viven en el chat, investigar se convierte en preguntar, no en bucear.\n\n#OpenSearch #AWS #MCP\n\nhttps://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "GitHub explica cómo evaluar modelos de lenguaje antes de llevarlos a producción",
+      "summary": "El equipo de GitHub ha publicado una guía con las lecciones aprendidas al evaluar LLMs para la detección de secretos en código real. Explica qué métricas mirar, cómo construir conjuntos de prueba representativos y en qué puntos suelen fallar los modelos.",
+      "why_it_matters": "La evaluación es un paso que muchas veces se hace a ojo; esta guía da un método práctico para no meter un modelo que falle en producción.",
+      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
+      "source": "GitHub Blog",
+      "social": {
+        "x": "Evaluar LLMs a ojo es un riesgo. GitHub publica su método para detectar secretos en código antes de producir.\n\n#GitHub #LLMs #MachineLearning\nhttps://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
+        "linkedin": "Evaluar un modelo de lenguaje no debería hacerse a ojo. GitHub acaba de publicar una guía con su método para evaluar LLMs en detección de secretos sobre código real: qué métricas mirar, cómo montar conjuntos de prueba y los fallos más comunes. 𝗟𝗼 𝗺á𝘀 𝘃𝗮𝗹𝗶𝗼𝘀𝗼 𝗲𝘀 𝘀𝗮𝗯𝗲𝗿 𝗱ó𝗻𝗱𝗲 𝗳𝗮𝗹𝗹𝗮𝗻 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀, porque ahí se decide si algo llega a producción. Si trabajas con LLMs, esta lectura te ahorrará sustos.\n\n#GitHub #LLMs #MachineLearning\n\nhttps://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Diagrid Catalyst 2.0 aporta ejecución duradera y verificable para agentes de IA",
+      "summary": "La nueva versión de Diagrid Catalyst aplica la recuperación basada en Dapr, historial de ejecución firmado y atestación de los flujos de trabajo de varios frameworks de agentes. La idea es que un agente pueda reanudar una tarea sin perder el estado y dejando un rastro verificable.",
+      "why_it_matters": "Uno de los problemas de los agentes es que fallan a media tarea y pierden el contexto; esta herramienta ataca justo ese punto.",
+      "url": "https://www.infoq.com/news/2026/08/diagrid-catalyst-ai-agents",
+      "source": "InfoQ",
+      "social": {
+        "x": "Los agentes de IA fallan a mitad de tarea y pierden todo el contexto. Catalyst 2.0 añade reanudación y un rastro firmado para que confíes en el resultado.\n\n#Dapr #Diagrid #AIAgents\nhttps://www.infoq.com/news/2026/08/diagrid-catalyst-ai-agents",
+        "linkedin": "La fiabilidad de los agentes de IA se juega en los fallos a mitad de tarea.\n\nDiagrid Catalyst 2.0 llega con recuperación basada en Dapr, historial de ejecución firmado y atestación de los flujos de trabajo de varios frameworks de agentes. La promesa: un agente puede reanudar una tarea sin perder el estado y dejando un rastro verificable. Esto ataca de lleno el problema de la pérdida de contexto, que es lo que impide que los agentes pasen del prototipo a producción. 𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗲𝘀𝘁á 𝗲𝗻 𝗾𝘂𝗲 𝗲𝗹 𝗵𝗶𝘀𝘁𝗼𝗿𝗶𝗮𝗹 𝗳𝗶𝗿𝗺𝗮𝗱𝗼 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗹𝗮 𝗲𝗷𝗲𝗰𝘂𝗰𝗶ó𝗻 𝗱𝗲 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗲𝗻 𝗮𝗹𝗴𝗼 𝗮𝘂𝗱𝗶𝘁𝗮𝗯𝗹𝗲, no solo en una caja negra.\n\n#Dapr #Diagrid #AIAgents\n\nhttps://www.infoq.com/news/2026/08/diagrid-catalyst-ai-agents"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "Google lanza Gemini Enterprise for Legal para automatizar contratos e investigación jurídica",
+      "summary": "Google presenta una solución de IA para el sector legal que se conecta con sistemas como iManage, DocuSign y Everlaw mediante conectores MCP. Partners como Deloitte ya ofrecen agentes listos para tareas como la revisión de contratos.",
+      "why_it_matters": "La IA aplicada a un sector tan concreto como el legal demuestra que los agentes empiezan a tener casos de uso claros y vendibles.",
+      "url": "https://the-decoder.com/google-launches-gemini-for-legal-work-to-automate-contracts-and-research",
+      "source": "The Decoder",
+      "social": {
+        "x": "⚖️ ¿El primer sector donde los agentes de IA van a ser rentables? El legal. Google acaba de lanzar Gemini Enterprise for Legal, con conectores para DocuSign e iManage.\n\n#LegalTech #Gemini #Google\nhttps://the-decoder.com/google-launches-gemini-for-legal-work-to-automate-contracts-and-research",
+        "linkedin": "El sector legal es el primer terreno donde los agentes de IA van a demostrar que no son demo.\nGoogle ha lanzado Gemini Enterprise for Legal, una suite que se conecta con herramientas que ya usan los despachos: iManage, DocuSign y Everlaw, y que cuenta con partners como Deloitte para desplegar agentes especializados en revisión de contratos. Lo importante no es solo el producto, sino que 𝗹𝗮 𝗜𝗔 𝗮𝗯𝗮𝗻𝗱𝗼𝗻𝗮 𝗲𝗹 𝗰𝗮𝗺𝗽𝗼 𝗱𝗲 𝗽𝗿𝘂𝗲𝗯𝗮𝘀 𝘆 𝗮𝘁𝗲𝗿𝗿𝗶𝘇𝗮 𝗲𝗻 𝘂𝗻 𝗳𝗹𝘂𝗷𝗼 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗰𝗼𝗻𝗰𝗿𝗲𝘁𝗼 𝘆 𝗳𝗮𝗰𝘁𝘂𝗿𝗮𝗯𝗹𝗲. Cualquier bufete que esté evaluando IA debería usar este caso como referencia para entender qué se puede automatizar hoy mismo.\n\n#LegalTech #Gemini #Google\n\nhttps://the-decoder.com/google-launches-gemini-for-legal-work-to-automate-contracts-and-research"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Meta lanzará pronto su agente de pago Hatch y estrenará el modelo Watermelon en octubre",
+      "summary": "Meta tiene previsto lanzar en las próximas semanas su agente de IA Hatch, de pago, y publicar en octubre un nuevo modelo llamado Watermelon. La compañía refuerza así su apuesta por los asistentes autónomos frente a ChatGPT y Claude.",
+      "why_it_matters": "Meta busca su hueco en la guerra de los agentes de IA con una oferta de pago y un modelo propio, lo que calienta la competencia.",
+      "url": "https://the-decoder.com/metas-paid-ai-agent-hatch-launches-soon-with-a-new-model-called-watermelon-due-in-october",
+      "source": "The Decoder",
+      "social": {
+        "x": "Meta mete presión en la guerra de los agentes: prepara Hatch, de pago, y un modelo llamado Watermelon para octubre.\n\n#Meta #Hatch #Watermelon\nhttps://the-decoder.com/metas-paid-ai-agent-hatch-launches-soon-with-a-new-model-called-watermelon-due-in-october",
+        "linkedin": "Meta no quiere quedarse fuera de la guerra de los agentes de IA. En las próximas semanas lanzará Hatch, su agente de pago, y en octubre publicará un modelo llamado Watermelon. La compañía busca así su hueco frente a ChatGPT y Claude, y de paso confirma que 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗮𝘂𝘁ó𝗻𝗼𝗺𝗼𝘀 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲𝗻 𝗲𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗮𝗹. El movimiento calienta la competencia y obliga a preguntarse si el valor está en el modelo o en el servicio.\n\n#Meta #Hatch #Watermelon\n\nhttps://the-decoder.com/metas-paid-ai-agent-hatch-launches-soon-with-a-new-model-called-watermelon-due-in-october"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "Nvidia asegura que su chip de inferencia Groq 3 LPX cuadruplica la velocidad de Cerebras, pero los números no son tan simples",
+      "summary": "Nvidia ha puesto en producción su chip de inferencia Groq 3 LPX y asegura 3.400 tokens por segundo en Gemma 4 31B, cuatro veces más que Cerebras. La letra pequeña: hacen falta 64 aceleradores para conseguirlo, mientras que Cerebras logra resultados similares con uno o dos.",
+      "why_it_matters": "La comparativa de rendimiento en inferencia se está convirtiendo en una guerra de cifras, pero hay que mirar el coste total y la escala antes de cantar victoria.",
+      "url": "https://the-decoder.com/nvidia-says-its-groq-3-lpx-is-four-times-faster-than-cerebras-but-the-math-is-more-complicated",
+      "source": "The Decoder",
+      "social": {
+        "x": "Nvidia presume de cuadruplicar a Cerebras en inferencia. La letra pequeña: necesita 64 chips para lograrlo.\n\n#Nvidia #Groq #Cerebras #LLM\nhttps://the-decoder.com/nvidia-says-its-groq-3-lpx-is-four-times-faster-than-cerebras-but-the-math-is-more-complicated",
+        "linkedin": "Los titulares de rendimiento en IA venden batallas de velocidad, pero la verdad está en los recursos que hay detrás. Nvidia anuncia 3.400 tokens por segundo con su Groq 3 LPX, cuatro veces más que Cerebras... usando 64 aceleradores, mientras que Cerebras logra resultados similares con uno o dos. Antes de cantar victoria, conviene mirar el coste total y la escala. 𝗟𝗮 𝗰𝗶𝗳𝗿𝗮 𝗯𝗿𝘂𝘁𝗮 𝘀𝗶𝗻 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 𝗻𝗼 𝗲𝘀 𝗰𝗼𝗺𝗽𝗮𝗿𝗮𝗰𝗶ó𝗻, 𝗲𝘀 𝗺𝗮𝗿𝗸𝗲𝘁𝗶𝗻𝗴.\n\n#Nvidia #Groq #Cerebras #LLM\n\nhttps://the-decoder.com/nvidia-says-its-groq-3-lpx-is-four-times-faster-than-cerebras-but-the-math-is-more-complicated"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Un modelo cuantizado a 4 bits que rinde mejor que el original: la curación consciente de la cuantización",
+      "summary": "Un equipo publica en Hugging Face una técnica de cuantización consciente de la curación que consigue que un modelo comprimido a 4 bits supere en rendimiento a su versión original de precisión completa.",
+      "why_it_matters": "Si la técnica se generaliza, podríamos ejecutar modelos más capaces en menos hardware, lo que abarata la IA local y en el edge.",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Comprimir un modelo a 4 bits suele costar rendimiento. Una técnica nueva consigue lo contrario: el comprimido supera al original. La cuantización deja de ser un sacrificio.\n\n#HuggingFace #Cuantización #MachineLearning\nhttps://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+        "linkedin": "Comprimir un modelo a 4 bits suele costar rendimiento. Esa regla se acaba de romper. Un equipo ha publicado en Hugging Face una cuantización consciente de la curación que logra que el modelo comprimido supere al original. Si la técnica se generaliza, 𝗽𝗼𝗱𝗿𝗲𝗺𝗼𝘀 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗺á𝘀 𝗰𝗮𝗽𝗮𝗰𝗲𝘀 𝗲𝗻 𝗺𝗲𝗻𝗼𝘀 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 y la IA local y en el edge se abarata de verdad. Para quien haya descartado la cuantización por pérdida de calidad, toca revisar esa decisión.\n\n#HuggingFace #Cuantización #MachineLearning\n\nhttps://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "El proyecto AgentHands de Google genera gestos manuales para agentes conversacionales en realidad extendida",
+      "summary": "Google Research presenta AgentHands, un sistema para generar gestos de manos interactivos y espacialmente anclados en conversaciones con agentes en XR. Está pensado para que los avatares y asistentes virtuales se expresen con naturalidad en entornos inmersivos.",
+      "why_it_matters": "Es un paso hacia asistentes virtuales que no solo hablan, sino que se comunican con el cuerpo, algo clave para que la realidad extendida sea creíble.",
+      "url": "https://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr",
+      "source": "Google Research",
+      "social": {
+        "x": "Se acabaron los avatares congelados en XR: Google Research presenta AgentHands, un sistema que genera gestos interactivos y anclados al espacio para agentes conversacionales. Así, los asistentes virtuales en realidad extendida se expresan con el cuerpo, n…\nhttps://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr",
+        "linkedin": "Los asistentes virtuales en realidad extendida suelen quedarse quietos mientras hablan. Google Research presenta AgentHands, un sistema que genera gestos espacialmente anclados durante una conversación con un agente. El reto a partir de ahora: 𝗹𝗮 𝗰𝗼𝗺𝘂𝗻𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗰𝗼𝗻 𝗺á𝗾𝘂𝗶𝗻𝗮𝘀 𝗻𝗼 𝗽𝘂𝗲𝗱𝗲 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝘀𝗼𝗹𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗼𝘇.\n\n#AgentHands #GoogleResearch #XR\n\nhttps://research.google/blog/agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "herramientas",
+      "title": "CarWatch: un Raspberry Pi con IA local para convertir tu coche en un agente conversacional",
+      "summary": "Un desarrollador ha creado CarWatch, un proyecto que combina un Raspberry Pi 5, una dashcam e IA local para que el coche actúe como un agente dentro de un chat. Es un ejemplo de cómo llevar modelos pequeños al automóvil sin depender de la nube.",
+      "why_it_matters": "Demuestra que la IA local ya se puede montar con hardware barato y que el coche es un campo de juego enorme para estos asistentes.",
+      "url": "https://github.com/ThinkOffApp/CarWatch",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Y si tu coche respondiera preguntas sobre la ruta sin enviar nada a la nube? CarWatch lo hace con un Raspberry Pi y una dashcam.\n\n#RaspberryPi #LocalAI #EdgeAI\nhttps://github.com/ThinkOffApp/CarWatch",
+        "linkedin": "Tener un asistente en el coche ha significado hasta ahora depender de la nube y de los fabricantes. CarWatch, un proyecto casero con Raspberry Pi 5 y una dashcam, demuestra que 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗹𝗹𝗲𝘃𝗮𝗿 𝗜𝗔 𝗹𝗼𝗰𝗮𝗹 𝗮𝗹 𝗰𝗼𝗰𝗵𝗲 𝗰𝗼𝗻 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗯𝗮𝗿𝗮𝘁𝗼 y sin conexión. Esto abre la puerta a que el automóvil sea un campo de juego para asistentes privados y personalizados. Los fabricantes deberían tomarlo como una señal.\n\n#RaspberryPi #LocalAI #EdgeAI\n\nhttps://github.com/ThinkOffApp/CarWatch"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "lanzamientos",
+      "title": "La programación de tareas mejorada de ChatGPT llega a las cuentas gratuitas",
+      "summary": "OpenAI ha abierto la herramienta de programación de tareas de ChatGPT a los usuarios gratuitos. Las cuentas de pago, además, pueden configurar que un prompt se lance cuando ocurra algo en Gmail, Slack o GitHub.",
+      "why_it_matters": "Convertir ChatGPT en un agente que actúa por su cuenta es un avance práctico que ahora llega a una base de usuarios mucho más amplia.",
+      "url": "https://www.engadget.com/2244194/free-accounts-can-now-access-chatgpts-upgraded-task-scheduling-tool",
+      "source": "Engadget",
+      "social": {
+        "x": "¿Qué hará ChatGPT mientras duermes? Los usuarios gratuitos ya pueden programar tareas.\n\n#ChatGPT #OpenAI\nhttps://www.engadget.com/2244194/free-accounts-can-now-access-chatgpts-upgraded-task-scheduling-tool",
+        "linkedin": "¿Qué hará ChatGPT mientras no estás? Ahora puede ejecutar tareas programadas, incluso en la cuenta gratuita.\n\nOpenAI ha abierto la programación de tareas a todos los usuarios. Los de pago, además, pueden configurar que un prompt se lance cuando ocurra algo en Gmail, Slack o GitHub. Esto convierte a ChatGPT en 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗾𝘂𝗲 𝗮𝗰𝘁ú𝗮 𝗽𝗼𝗿 𝘀𝘂 𝗰𝘂𝗲𝗻𝘁𝗮, y acerca la automatización inteligente a un público mucho mayor. Para quien aún veía ChatGPT como un simple chat, esto cambia las reglas.\n\n#ChatGPT #OpenAI\n\nhttps://www.engadget.com/2244194/free-accounts-can-now-access-chatgpts-upgraded-task-scheduling-tool"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "lanzamientos",
+      "title": "Nuxt 4.5 incorpora streaming SSR experimental, Vite 8 y un builder basado en Rspack",
+      "summary": "El framework de Vue Nuxt lanza su versión 4.5 con soporte experimental para streaming en el renderizado del lado del servidor, lo que mejora el Time to First Byte al enviar la estructura HTML de inmediato. También cambia a Vite 8 y añade un nuevo builder con Rspack 2.",
+      "why_it_matters": "Para quien desarrolle aplicaciones Vue, estas mejoras de rendimiento y construcción se notan directamente en la experiencia de usuario.",
+      "url": "https://www.infoq.com/news/2026/08/nuxt-4-5-streaming",
+      "source": "InfoQ",
+      "social": {
+        "x": "El HTML llega antes de que el servidor termine: Nuxt 4.5 estrena streaming SSR experimental y promete un TTFB mucho menor.\n\n#Nuxt #Vue #Vite #Rspack\nhttps://www.infoq.com/news/2026/08/nuxt-4-5-streaming",
+        "linkedin": "La primera pantalla ya no tiene que esperar a que el servidor complete todo el renderizado. Nuxt 4.5 incorpora streaming SSR experimental, que envía la estructura HTML de inmediato y reduce el Time to First Byte de forma notable. Para quien desarrolle aplicaciones Vue, 𝗲𝗹 𝘀𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴 𝗦𝗦𝗥 𝗰𝗮𝗺𝗯𝗶𝗮 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 𝗱𝗲𝗹 𝗷𝘂𝗲𝗴𝗼 𝗲𝗻 𝗹𝗮 𝗽𝗲𝗿𝗰𝗲𝗽𝗰𝗶ó𝗻 𝗱𝗲 𝗰𝗮𝗿𝗴𝗮 y además llega con Vite 8 y un builder alternativo basado en Rspack 2.\n\n#Nuxt #Vue #Vite #Rspack\n\nhttps://www.infoq.com/news/2026/08/nuxt-4-5-streaming"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "herramientas",
+      "title": "mold, el enlazador masivamente paralelo, publica su descripción en arXiv",
+      "summary": "El enlazador mold, conocido por su velocidad reduciendo los tiempos de compilación, ha aparecido en arXiv con un documento técnico que explica su diseño y su enfoque masivamente paralelo.",
+      "why_it_matters": "Para proyectos grandes, un enlazador rápido puede ahorrar horas de compilación cada día, y entender su arquitectura ayuda a exprimirlo.",
+      "url": "https://arxiv.org/abs/2608.23228",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Y si el cuello de botella de tus builds no fuera tu código, sino el enlazador? mold publica su arquitectura en arXiv.\n\n#mold #linker #Cpp #arXiv\nhttps://arxiv.org/abs/2608.23228",
+        "linkedin": "El enlazador es el gran olvidado de la cadena de compilación, pero puede marcar la diferencia entre una build de minutos y una de horas. mold, conocido por su velocidad, acaba de publicar su diseño en arXiv, y demuestra que 𝗲𝗹 𝗽𝗮𝗿𝗮𝗹𝗲𝗹𝗶𝘀𝗺𝗼 𝗺𝗮𝘀𝗶𝘃𝗼 𝘁𝗮𝗺𝗯𝗶é𝗻 𝗹𝗹𝗲𝗴𝗮 𝗮𝗹 𝗲𝘀𝗹𝗮𝗯ó𝗻 𝗳𝗶𝗻𝗮𝗹. Para equipos que compilan proyectos grandes, esto no es solo teoría: entender su arquitectura ayuda a configurarlo mejor y a ahorrar tiempo cada día.\n\n#mold #linker #Cpp #arXiv\n\nhttps://arxiv.org/abs/2608.23228"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "lanzamientos",
+      "title": "Los Intel Xeon 7 de 256 núcleos: un Diamond en bruto con retrasos y defectos, pero brillante",
+      "summary": "Intel presenta sus nuevos Xeon 7 con hasta 256 núcleos, basados en la arquitectura Diamond Rapids. The Register los describe como un producto que llega tarde y con fallos, pero que ofrece un rendimiento impresionante para cargas de trabajo de servidor y HPC.",
+      "why_it_matters": "La competencia en CPUs de datacenter sigue viva y estos procesadores marcan el techo actual de Intel en núcleos y ancho de banda.",
+      "url": "https://www.theregister.com/hpc/2026/08/25/intel-diamond-rapids-xeon-7-cpu-deep-dive/5292427",
+      "source": "The Register",
+      "social": {
+        "x": "Intel ya tiene Xeon de 256 núcleos. Llegan tarde y con defectos, pero rinden de maravilla.\n\n#Intel #Xeon #DiamondRapids #HPC\nhttps://www.theregister.com/hpc/2026/08/25/intel-diamond-rapids-xeon-7-cpu-deep-dive/5292427",
+        "linkedin": "256 núcleos, retrasos y defectos: así llegan los nuevos Xeon 7 de Intel, pero rinden de maravilla. The Register los ha analizado y, pese a los fallos, el rendimiento los convierte en 𝘂𝗻𝗮 𝗼𝗽𝗰𝗶ó𝗻 𝗺𝘂𝘆 𝘀𝗲𝗿𝗶𝗮 𝗽𝗮𝗿𝗮 𝗰𝗮𝗿𝗴𝗮𝘀 𝗱𝗲 𝘀𝗲𝗿𝘃𝗶𝗱𝗼𝗿 𝘆 𝗛𝗣𝗖. Si buscas potencia de cómputo y ancho de banda, esta generación vuelve a poner a Intel en el mapa, aunque el lanzamiento no haya sido perfecto.\n\n#Intel #Xeon #DiamondRapids #HPC\n\nhttps://www.theregister.com/hpc/2026/08/25/intel-diamond-rapids-xeon-7-cpu-deep-dive/5292427"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Waymo llevará sus robotaxis a Múnich en 2027",
+      "summary": "Waymo ha anunciado su expansión a Alemania, con servicio de robotaxi previsto para Múnich en 2027. La compañía ha creado filiales en varios países europeos este verano y el marco regulatorio alemán es especialmente favorable para el vehículo autónomo.",
+      "why_it_matters": "Es la primera gran expansión europea de Waymo, lo que acerca el robotaxi comercial a un mercado distinto del estadounidense.",
+      "url": "https://techcrunch.com/2026/08/25/waymo-robotaxis-are-headed-to-munich",
+      "source": "TechCrunch",
+      "social": {
+        "x": "¿Cuál será la primera gran ciudad europea con robotaxis de Waymo? Múnich, a partir de 2027. La regulación alemana allana el camino.\n\n#Waymo #Robotaxis #Múnich\nhttps://techcrunch.com/2026/08/25/waymo-robotaxis-are-headed-to-munich",
+        "linkedin": "Múnich será la primera gran ciudad europea con robotaxis de Waymo, y la fecha ya está marcada: 2027.\nLa elección no es casual: Alemania ofrece un marco regulatorio favorable y Waymo lleva meses preparando filiales en varios países. 𝗤𝘂𝗲 𝗲𝗹 𝗿𝗼𝗯𝗼𝘁𝗮𝘅𝗶 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗮𝗹 𝗰𝗿𝘂𝗰𝗲 𝗲𝗹 𝗔𝘁𝗹á𝗻𝘁𝗶𝗰𝗼 es la señal de que la conducción autónoma deja de ser un experimento y se convierte en un negocio global. Para las ciudades que quieran liderar esta transición, la regulación será su mejor arma.\n\n#Waymo #Robotaxis #Múnich\n\nhttps://techcrunch.com/2026/08/25/waymo-robotaxis-are-headed-to-munich"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Debian consulta a sus desarrolladores qué hacer con la IA: usarla, limitarla o prohibirla",
+      "summary": "El proyecto Debian ha abierto una votación general sobre el uso de LLMs en el desarrollo de la distribución, con ocho opciones que van desde permitirlos sin restricciones hasta prohibirlos. La líder del proyecto ha ampliado el plazo una semana ante la magnitud del debate.",
+      "why_it_matters": "La decisión de una distribución tan influyente como Debian puede marcar cómo las comunidades open source integran o rechazan la IA generativa.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/26/debian-polls-its-developers-on-whether-to-burn-the-bots-tame-the-bots-or-let-em-loose/5292270",
+      "source": "The Register",
+      "social": {
+        "x": "Debian ha abierto la votación que puede decidir si la IA entra o no en el open source: ocho opciones, desde usarla sin límites hasta prohibirla. El debate ha sido tan grande que amplían el plazo.\n\n#Debian #OpenSource #LLMs\nhttps://www.theregister.com/ai-and-ml/2026/08/26/debian-polls-its-developers-on-whether-to-burn-the-bots-tame-the-bots-or-let-em-loose/5292270",
+        "linkedin": "¿Qué hará Debian con la IA? La pregunta no es menor: la distribución más influyente del ecosistema open source ha abierto una votación general con ocho posturas, desde usar LLMs sin restricciones hasta prohibirlos por completo. El debate ha sido tan masivo que han ampliado el plazo una semana. La decisión no quedará en una anécdota: 𝗽𝘂𝗲𝗱𝗲 𝗺𝗮𝗿𝗰𝗮𝗿 𝗰ó𝗺𝗼 𝗲𝗹 𝗿𝗲𝘀𝘁𝗼 𝗱𝗲 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗻 𝗼 𝗿𝗲𝗰𝗵𝗮𝘇𝗮𝗻 𝗹𝗮 𝗜𝗔 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗮. Si Debian se decanta por restringirla, muchas comunidades mirarán ahí como referencia.\n\n#Debian #OpenSource #LLMs\n\nhttps://www.theregister.com/ai-and-ml/2026/08/26/debian-polls-its-developers-on-whether-to-burn-the-bots-tame-the-bots-or-let-em-loose/5292270"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "Framework financiero con múltiples agentes de LLM que colaboran para analizar y operar en bolsa. Una forma práctica de aplicar IA generativa a decisiones de inversión, con código listo para usar.",
+      "language": "Python",
+      "stars": 100621,
+      "social": {
+        "x": "Alguien acaba de cruzar 100k estrellas con un framework donde varios agentes de IA debaten entre sí antes de operar en bolsa. Y encima es open source.\n\n#TradingAgents #LLM #OpenSource #GitHub\nhttps://github.com/TauricResearch/TradingAgents",
+        "linkedin": "¿Y SI LA PRÓXIMA DECISIÓN DE INVERSIÓN LA TOMARA UN CONSEJO DE AGENTES DE IA?\n\nTradingAgents es un framework en Python que coordina múltiples agentes de LLM con roles distintos: unos analizan el mercado, otros cuestionan riesgos, otros ejecutan. No es un chatbot con consejos: es un comité de inversión simulado, con código listo para usar y sin suscripción.\n\nLa idea central es 𝘂𝗻 𝗰𝗼𝗺𝗶𝘁é 𝗱𝗲 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗜𝗔 𝗾𝘂𝗲 𝗱𝗲𝗯𝗮𝘁𝗲 𝗰𝗮𝗱𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗶𝗻𝘃𝗲𝗿𝘀𝗶ó𝗻 antes de ejecutar nada.\n\n→ Agentes especializados que colaboran en lugar de un único prompt.\n→ Debate interno antes de cada operación, como un análisis profesional.\n→ Código Python abierto, listo para experimentar y adaptar.\n→ Más de 100.000 estrellas en GitHub y subiendo.\n\nSi trabajas con datos financieros o te interesa la IA aplicada, guárdate este post y ábrelo cuando tengas un rato. Te dejo el repo abajo.\n\n#TradingAgents #LLM #OpenSource #GitHub\n\nhttps://github.com/TauricResearch/TradingAgents"
+      }
+    },
+    {
+      "name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "Un archivo CLAUDE.md que ajusta el comportamiento de Claude Code a partir de las observaciones de Andrej Karpathy sobre errores comunes al programar con LLMs. Mejora la calidad y la seguridad del código generado con un simple cambio de configuración.",
+      "stars": 207486,
+      "social": {
+        "x": "¿Y si Claude Code programara con el criterio de Karpathy? Un archivo CLAUDE.md y 207k estrellas dicen que sí.\n\n#ClaudeCode #Karpathy #OpenSource #GitHub\nhttps://github.com/multica-ai/andrej-karpathy-skills",
+        "linkedin": "207.486 ESTRELLAS PARA UN ARCHIVO QUE CAMBIA CÓMO PROGRAMA CLAUDE CODE.\n\nAndrej Karpathy lleva tiempo avisando de los errores más comunes al programar con LLMs. Este repo convierte sus observaciones en un CLAUDE.md listo para usar.\n\n→ Un solo archivo de configuración mejora la calidad y la seguridad del código generado.\n→ Basado en las lecciones de Karpathy, no en promesas vacías.\n→ 207k estrellas en GitHub lo avalan.\n\nSi usas Claude Code, 𝘂𝗻 𝘀𝗶𝗺𝗽𝗹𝗲 𝗰𝗮𝗺𝗯𝗶𝗼 𝗱𝗲 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶ó𝗻 puede marcar la diferencia. Te dejo el repo abajo.\n\n#ClaudeCode #Karpathy #OpenSource #GitHub\n\nhttps://github.com/multica-ai/andrej-karpathy-skills"
+      }
+    },
+    {
+      "name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Modifica el comportamiento de tu agente de IA para que evite escribir código innecesario, como haría un desarrollador senior con experiencia. Ideal para reducir ruido y centrarse en lo esencial en tus proyectos con agentes.",
+      "language": "JavaScript",
+      "stars": 111758,
+      "social": {
+        "x": "Alguien acaba de enseñar a tu agente de IA a no escribir código de más. 111k estrellas ya lo avalan.\n\n#Ponytail #OpenSource #JavaScript #AgentesIA\nhttps://github.com/DietrichGebert/ponytail",
+        "linkedin": "TU AGENTE DE IA ESCRIBE DEMASIADO. ESTE REPO LE ENSEÑA A PARARSE.\n\nComo un desarrollador senior con años de experiencia, que sabe cuándo no hay que tocar nada. Mientras los asistentes IA generan código innecesario por defecto, este proyecto les enseña a ser quirúrgicos. Con 111k estrellas en GitHub, ya hay mucha gente que lo usa para reducir ruido y centrarse en lo esencial.\n\n→ Modifica el comportamiento de tu agente para que evite escribir lo que no hace falta.\n→ Ideal para proyectos con agentes: menos código basura, más foco en lo importante.\n→ 100% open source, escrito en JavaScript.\n→ Simple de integrar: cambia la configuración de tu agente y listo.\n\n𝗟𝗮 𝗶𝗱𝗲𝗮 𝗰𝗹𝗮𝘃𝗲 𝗲𝘀 𝗾𝘂𝗲 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗯𝘂𝗲𝗻𝗼 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗾𝘂𝗲 𝗺á𝘀 𝗲𝘀𝗰𝗿𝗶𝗯𝗲, 𝘀𝗶𝗻𝗼 𝗲𝗹 𝗾𝘂𝗲 𝘀𝗮𝗯𝗲 𝗰𝘂á𝗻𝗱𝗼 𝗻𝗼 𝗲𝘀𝗰𝗿𝗶𝗯𝗶𝗿. Si quieres que tu IA piense antes de actuar, te dejo el repo abajo.\n\n#Ponytail #OpenSource #JavaScript #AgentesIA\n\nhttps://github.com/DietrichGebert/ponytail"
+      }
+    },
+    {
+      "name": "marin-community/marin",
+      "url": "https://github.com/marin-community/marin",
+      "description": "Framework open source para investigar y desarrollar modelos fundacionales. Ofrece una base modular para entrenar y evaluar tus propios modelos, ideal para equipos que quieren ir más allá de las APIs preentrenadas.",
+      "language": "Python",
+      "stars": 2324,
+      "social": {
+        "x": "¿Harto de pagar por cada llamada a un modelo? Marin te deja entrenar y evaluar los tuyos, open source y con 2.324 estrellas.\n\n#Marin #Python #OpenSource #GitHub\nhttps://github.com/marin-community/marin",
+        "linkedin": "¿Harto de depender de APIs preentrenadas para cada experimento?\n\nMarin es un framework open source con el que tu equipo puede entrenar y evaluar sus propios modelos fundacionales. Lleva 2.324 estrellas y sigue creciendo, y da 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝘁𝗼𝘁𝗮𝗹 𝘀𝗼𝗯𝗿𝗲 𝘁𝘂𝘀 𝗽𝗿𝗼𝗽𝗶𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀.\n\n→ Base modular para entrenar desde cero o adaptar arquitecturas existentes.\n→ Evaluación integrada para comparar resultados sin salir del framework.\n→ Ideal para equipos que quieren ir más allá de lo que ofrecen las APIs cerradas.\n\nUna alternativa seria para quien necesita flexibilidad y soberanía sobre sus datos. Te dejo el repo abajo.\n\n#Marin #Python #OpenSource #GitHub\n\nhttps://github.com/marin-community/marin"
+      }
+    },
+    {
+      "name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Directorio oficial de plugins para Claude Code mantenido por Anthropic. Añade funcionalidades de alta calidad a tus flujos de trabajo con IA sin tener que buscar en fuentes no fiables.",
+      "language": "Python",
+      "stars": 34224,
+      "social": {
+        "x": "Alguien acaba de centralizar los plugins oficiales de Claude Code. 34k estrellas y un directorio curado por Anthropic para no fiarte de fuentes dudosas.\n\n#ClaudeCode #Anthropic #OpenSource #GitHub\nhttps://github.com/anthropics/claude-plugins-official",
+        "linkedin": "¿CANSADO DE INSTALAR PLUGINS DE CLAUDE DE ORIGEN DUDOSO? Anthropic ha publicado el directorio oficial de plugins para Claude Code, y ya suma más de 34.000 estrellas en GitHub. Nada de buscar en fuentes poco fiables ni de probar código random. Con este repo tienes 𝗹𝗮 𝗰𝗼𝗻𝗳𝗶𝗮𝗻𝘇𝗮 𝗱𝗲 𝘂𝗻 𝗱𝗶𝗿𝗲𝗰𝘁𝗼𝗿𝗶𝗼 𝗼𝗳𝗶𝗰𝗶𝗮𝗹 y de alta calidad para tus flujos de trabajo con IA.\n\n→ Acceso a plugins verificados y listos para usar en Claude Code.\n→ Mantenido directamente por Anthropic, así que sabes que está al día.\n→ Proyecto en Python, fácil de explorar y contribuir.\n\nGuárdate el post y revisa el repo abajo: la diferencia entre un flujo fiable y uno improvisado está en la fuente.\n\n#ClaudeCode #Anthropic #OpenSource #GitHub\n\nhttps://github.com/anthropics/claude-plugins-official"
+      }
+    }
+  ]
+}
