@@ -1,0 +1,298 @@
+{
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T14:51:42.205Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Tencent libera Hy4, un LLM con 770.000 millones de parámetros y más de un millón de tokens de contexto",
+      "summary": "Tencent ha publicado y abierto el código de Hy4 preview, un modelo de lenguaje de nueva generación con 770.000 millones de parámetros totales y 49.000 millones de parámetros activos, además de una ventana de contexto que supera el millón de tokens. Es uno de los modelos abiertos más grandes lanzados hasta la fecha.",
+      "why_it_matters": "Permite a cualquier equipo desplegar un LLM de primer nivel con contexto enorme sin depender de APIs propietarias.",
+      "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview",
+      "source": "Hacker News",
+      "social": {
+        "x": "Tencent libera uno de los LLM abiertos más grandes jamás creados: 770.000 millones de parámetros y más de un millón de tokens de contexto.\n\n#Tencent #Hy4 #OpenSource #LLM\nhttps://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview",
+        "linkedin": "Mientras el foco está en los modelos cerrados, Tencent publica uno de los LLM open source más grandes jamás creados: Hy4, con 770.000 millones de parámetros y una ventana de contexto de más de un millón de tokens.\nEsto permite a cualquier equipo desplegar un modelo de primer nivel para procesar documentos extensos o repositorios de código completos sin depender de APIs propietarias. 𝗟𝗮 𝘃𝗲𝗻𝘁𝗮𝗻𝗮 𝗱𝗲 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 𝗱𝗲 𝘂𝗻 𝗺𝗶𝗹𝗹ó𝗻 𝗱𝗲 𝘁𝗼𝗸𝗲𝗻𝘀 𝗲𝘀 𝗹𝗼 𝗾𝘂𝗲 𝗿𝗲𝗮𝗹𝗺𝗲𝗻𝘁𝗲 𝗰𝗮𝗺𝗯𝗶𝗮 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 𝗱𝗲𝗹 𝗷𝘂𝗲𝗴𝗼: tareas que antes requerían dividir la información ahora caben en una sola pasada.\n\n#Tencent #Hy4 #OpenSource #LLM\n\nhttps://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "vLLM 0.28.0 llega con una gran optimización para Kimi-K3",
+      "summary": "La nueva versión del servidor de inferencia vLLM incluye 584 commits de 270 contribuidores y un esfuerzo específico para exprimir el rendimiento de Kimi-K3 en todo el stack, incluyendo decode context parallel. La actualización mejora la velocidad y la escalabilidad para servir LLMs en producción.",
+      "why_it_matters": "vLLM es el estándar de facto para servir modelos propios y esta versión mejora directamente el rendimiento en hardware real.",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+      "source": "Hacker News",
+      "social": {
+        "x": "vLLM 0.28.0 dedica 584 commits a un solo modelo: Kimi-K3. Decode context parallel incluido.\n\n#vLLM #KimiK3 #OpenSource\nhttps://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+        "linkedin": "Mientras todos hablan de modelos, vLLM 0.28.0 demuestra que la inferencia también se juega en los detalles.\nvLLM, el estándar para servir LLMs en producción, llega con 584 commits de 270 contribuidores y un esfuerzo específico para exprimir Kimi-K3 en todo el stack, incluyendo decode context parallel. 𝗣𝗮𝗿𝗮 𝗾𝘂𝗶𝗲𝗻 𝗼𝗽𝗲𝗿𝗮 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗽𝗿𝗼𝗽𝗶𝗼𝘀, 𝗰𝗮𝗱𝗮 𝗮𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝘃𝗟𝗟𝗠 𝗰𝘂𝗲𝗻𝘁𝗮 𝗽𝗼𝗿𝗾𝘂𝗲 𝘀𝗲 𝘁𝗿𝗮𝗱𝘂𝗰𝗲 𝗱𝗶𝗿𝗲𝗰𝘁𝗮𝗺𝗲𝗻𝘁𝗲 𝗲𝗻 𝗺𝗲𝗻𝗼𝘀 𝗹𝗮𝘁𝗲𝗻𝗰𝗶𝗮 𝘆 𝗺á𝘀 𝗿𝗲𝗾𝘂𝗲𝘀𝘁𝘀 𝗽𝗼𝗿 𝗱ó𝗹𝗮𝗿.\n\n#vLLM #KimiK3 #OpenSource\n\nhttps://github.com/vllm-project/vllm/releases/tag/v0.28.0"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "AWS libera Kiro Crew para ejecutar agentes de codificación asíncronos",
+      "summary": "Amazon ha abierto el código de Kiro Crew, un sistema para orquestar varios agentes de codificación Kiro a lo largo de sesiones, herramientas y tareas. Permite asignar trabajos como investigación de incidencias, triaje de tickets, migraciones y supervisión de pull requests sin intervención activa.",
+      "why_it_matters": "Lleva la programación con agentes de IA a un modelo asíncrono y open source que se puede desplegar en tu propia infraestructura.",
+      "url": "https://www.infoq.com/news/2026/08/kiro-crew-coding-agents",
+      "source": "InfoQ",
+      "social": {
+        "x": "¿Tus agentes de código trabajan en segundo plano mientras duermes? Con Kiro Crew, el nuevo open source de AWS, sí.\n\n#AWS #OpenSource #Kiro\nhttps://www.infoq.com/news/2026/08/kiro-crew-coding-agents",
+        "linkedin": "Los agentes de código ya no trabajan solo cuando les das órdenes: con Kiro Crew, AWS los convierte en un equipo que opera en segundo plano.\n\nLa compañía ha liberado como open source este orquestador de agentes Kiro, diseñado para trabajar de forma asíncrona a lo largo de sesiones, herramientas y tareas. Sirve para encargar desde investigación de incidencias y triaje de tickets hasta migraciones y supervisión de pull requests, sin intervención activa.\n\nLo más relevante es que el desarrollo asistido por IA deja de ser un diálogo en tiempo real para convertirse en un flujo desplegable en tu propia infraestructura. 𝗟𝗮 𝗰𝗹𝗮𝘃𝗲: 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗰ó𝗱𝗶𝗴𝗼 𝘆𝗮 𝘀𝗼𝗻 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝘆 𝘀𝗲𝗹𝗳-𝗵𝗼𝘀𝘁𝗲𝗱, lo que permite a las empresas adoptarlos sin depender de un servicio externo.\n\n#AWS #OpenSource #Kiro\n\nhttps://www.infoq.com/news/2026/08/kiro-crew-coding-agents"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Rust pide a la comunidad que experimente con la sobrecarga de funciones",
+      "summary": "El equipo de Rust ha publicado un llamamiento a probar un prototipo de sobrecarga de funciones en el lenguaje. La propuesta está disponible para experimentar en nightly y busca recoger feedback antes de decidir si se incorpora de forma estable.",
+      "why_it_matters": "Es una de las funcionalidades más solicitadas y discutidas de Rust; que se pruebe en público acerca una mejora de ergonomía muy esperada.",
+      "url": "https://blog.rust-lang.org/inside-rust/2026/08/19/overloading-experiment",
+      "source": "Lobsters",
+      "social": {
+        "x": "La función más pedida de Rust ya se puede probar en nightly: la sobrecarga de funciones. El equipo pide feedback antes de decidir su futuro.\n\n#RustLang #nightly\nhttps://blog.rust-lang.org/inside-rust/2026/08/19/overloading-experiment",
+        "linkedin": "La sobrecarga de funciones es una de las peticiones más antiguas de Rust. Esta semana el equipo ha publicado un prototipo en nightly y pide a la comunidad que lo pruebe antes de decidir. Es un paso importante para la ergonomía del lenguaje, aunque también reabre el debate entre simplicidad y complejidad. 𝗣𝗿𝗼𝗯𝗮𝗿 𝗲𝗻 𝗽ú𝗯𝗹𝗶𝗰𝗼 𝘂𝗻𝗮 𝗳𝗲𝗮𝘁𝘂𝗿𝗲 𝘁𝗮𝗻 𝘀𝗼𝗹𝗶𝗰𝗶𝘁𝗮𝗱𝗮 demuestra la apuesta de Rust por el consenso. Si programas en Rust, aprovecha para dar tu opinión.\n\n#RustLang #nightly\n\nhttps://blog.rust-lang.org/inside-rust/2026/08/19/overloading-experiment"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Open Oscar Server: monta tu propio servidor compatible con AIM e ICQ",
+      "summary": "Se ha publicado un servidor de mensajería instantánea self-hosted, escrito en Go, compatible con los clientes clásicos de AIM e ICQ. Es un proyecto independiente, no afiliado a AOL, que permite revivir la mensajería de los 2000 con tus propios datos.",
+      "why_it_matters": "Demuestra que los protocolos de mensajería antiguos pueden volver a funcionar con software moderno y control total de los datos.",
+      "url": "https://github.com/mk6i/open-oscar-server",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Crees que AIM e ICQ son historia? Hay un servidor self-hosted que los devuelve a la vida y puedes montarlo hoy.\n\n#Go #SelfHosted #AIM #ICQ\nhttps://github.com/mk6i/open-oscar-server",
+        "linkedin": "AIM e ICQ no son solo nostalgia: un proyecto self-hosted los ha devuelto a la vida.\nOpen Oscar Server, escrito en Go, es compatible con los clientes clásicos de los 2000 y se despliega en tu propia infraestructura. Lo relevante no es el factor retro, sino que 𝗹𝗼𝘀 𝗽𝗿𝗼𝘁𝗼𝗰𝗼𝗹𝗼𝘀 𝗮𝗻𝘁𝗶𝗴𝘂𝗼𝘀 𝗽𝘂𝗲𝗱𝗲𝗻 𝘀𝗲𝗴𝘂𝗶𝗿 𝗼𝗽𝗲𝗿𝗮𝗻𝗱𝗼 𝗰𝗼𝗻 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗺𝗼𝗱𝗲𝗿𝗻𝗼 𝘆 𝘀𝗶𝗻 𝗰𝗲𝗱𝗲𝗿 𝗱𝗮𝘁𝗼𝘀 𝗮 𝘁𝗲𝗿𝗰𝗲𝗿𝗼𝘀. Para cualquier organización que valore la soberanía de sus comunicaciones, es una alternativa a tener en cuenta.\n\n#Go #SelfHosted #AIM #ICQ\n\nhttps://github.com/mk6i/open-oscar-server"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "Cómo transferir archivos entre dos ordenadores con un cable Ethernet normal",
+      "summary": "Una guía práctica explica cómo conectar dos equipos directamente con un cable de red y transferir archivos sin router. Basta con configurar direcciones IPv6 locales y usar herramientas como socat.",
+      "why_it_matters": "Es un truco sencillo y muy útil para mover datos rápido entre equipos sin depender de servicios externos.",
+      "url": "https://maurycyz.com/misc/etherfiles",
+      "source": "Lobsters",
+      "social": {
+        "x": "Sin router, sin nube: un cable Ethernet normal y un par de comandos bastan para transferir archivos entre dos equipos.\n\n#Socat #Ethernet #IPv6\nhttps://maurycyz.com/misc/etherfiles",
+        "linkedin": "No hace falta un router ni un servicio en la nube para mover archivos entre dos ordenadores. Una guía práctica explica cómo conectar dos equipos con un cable Ethernet normal, configurar direcciones IPv6 locales y usar socat para transferir archivos directamente. Es un truco simple, pero muy útil cuando no hay red wifi o quieres evitar depender de servicios externos. 𝗗𝗼𝗺𝗶𝗻𝗮𝗿 𝗲𝘀𝘁𝗮𝘀 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 𝗱𝗲 𝗯𝗮𝗷𝗼 𝗻𝗶𝘃𝗲𝗹 sigue marcando la diferencia incluso en la era de la nube.\n\n#Socat #Ethernet #IPv6\n\nhttps://maurycyz.com/misc/etherfiles"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Monitoriza el estado de tu IPv6 en OpenWrt para evitar caídas silenciosas",
+      "summary": "Un usuario de OpenWrt comparte una automatización que vigila la conectividad IPv6 y avisa al instante si se cae. La montó después de sufrir una caída de más de tres meses en su fibra sin darse cuenta.",
+      "why_it_matters": "El IPv6 puede fallar de forma silenciosa en muchas conexiones; esta solución es aplicable a cualquier router OpenWrt.",
+      "url": "https://bergs.biz/blog/2026/08/30/openwrt-monitor-your-ipv6-status",
+      "source": "Lobsters",
+      "social": {
+        "x": "Tres meses con la IPv6 caída sin enterarte: así lo resolvió un usuario de OpenWrt.\n\n#OpenWrt #IPv6 #Networking #SelfHosted\nhttps://bergs.biz/blog/2026/08/30/openwrt-monitor-your-ipv6-status",
+        "linkedin": "Tres meses con la IPv6 caída sin enterarte: esa fue la gota que colmó el vaso para un usuario de OpenWrt.\n\nEl IPv6 puede fallar en silencio y muchas veces nadie se da cuenta hasta que algo deja de funcionar. La solución que comparte es una automatización para OpenWrt que monitoriza la conectividad y avisa al instante si se cae. 𝗨𝗻𝗮 𝗰𝗮í𝗱𝗮 𝘀𝗶𝗹𝗲𝗻𝗰𝗶𝗼𝘀𝗮 𝗱𝗲 𝗜𝗣𝘃𝟲 𝗲𝘀 𝗺á𝘀 𝗰𝗼𝗺ú𝗻 𝗱𝗲 𝗹𝗼 𝗾𝘂𝗲 𝗽𝗮𝗿𝗲𝗰𝗲 y esta es una forma sencilla de evitarla en cualquier router con OpenWrt.\n\n#OpenWrt #IPv6 #Networking #SelfHosted\n\nhttps://bergs.biz/blog/2026/08/30/openwrt-monitor-your-ipv6-status"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "ReactOS 0.4.16 ya está disponible",
+      "summary": "El sistema operativo de código abierto compatible con Windows ha publicado su versión 0.4.16. La release incluye mejoras de estabilidad, soporte de hardware y avances en la compatibilidad con aplicaciones y controladores de Windows.",
+      "why_it_matters": "ReactOS sigue demostrando que es posible reimplementar Windows con software libre y alargar la vida de equipos antiguos.",
+      "url": "https://reactos.org/project-news/reactos-0416-released",
+      "source": "Lobsters",
+      "social": {
+        "x": "¿Y si Windows pudiera ser 100% libre? ReactOS 0.4.16 demuestra que se puede, y de paso alarga la vida de tu viejo PC.\n\n#ReactOS #OpenSource #SoftwareLibre\nhttps://reactos.org/project-news/reactos-0416-released",
+        "linkedin": "¿Y si Windows pudiera ser software libre? ReactOS 0.4.16 acerca esa idea con mejoras de compatibilidad y estabilidad.\n\nLa nueva release es un paso más en la reimplementación de Windows con código abierto, lo que permite alargar la vida de equipos antiguos y ofrecer una alternativa sin depender de un proveedor. 𝗥𝗲𝗮𝗰𝘁𝗢𝗦 𝗱𝗲𝗺𝘂𝗲𝘀𝘁𝗿𝗮 𝗾𝘂𝗲 𝗲𝘀 𝘃𝗶𝗮𝗯𝗹𝗲 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗶𝗿 𝘂𝗻 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝘃𝗼 𝗰𝗼𝗺𝗽𝗮𝘁𝗶𝗯𝗹𝗲 𝗮 𝗽𝗮𝗿𝘁𝗶𝗿 𝗱𝗲 𝗶𝗻𝗴𝗲𝗻𝗶𝗲𝗿í𝗮 𝗶𝗻𝘃𝗲𝗿𝘀𝗮 𝘆 𝗰𝗼𝗹𝗮𝗯𝗼𝗿𝗮𝗰𝗶ó𝗻 𝗮𝗯𝗶𝗲𝗿𝘁𝗮, aunque todavía no esté listo para todos los entornos productivos.\n\n#ReactOS #OpenSource #SoftwareLibre\n\nhttps://reactos.org/project-news/reactos-0416-released"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "Apple renueva sus Mac de pequeño formato con Mac Mini y Mac Studio",
+      "summary": "La rumorología se confirma y Apple renueva la gama de escritorio con un Mac Mini y un Mac Studio más potentes, manteniendo el formato compacto. The Verge los recoge en su resumen semanal junto a otras novedades.",
+      "why_it_matters": "Renovar el Mac Mini y el Mac Studio ofrece una alternativa equilibrada a los portátiles para quien necesita potencia de escritorio.",
+      "url": "https://www.theverge.com/tech/986280/mac-mini-studio-star-wars-zero-company-wyze-camera",
+      "source": "The Verge",
+      "social": {
+        "x": "Apple no ha abandonado el escritorio: llegan nuevos Mac Mini y Mac Studio con más potencia en el mismo formato compacto.\n\n#Apple #MacMini #MacStudio\nhttps://www.theverge.com/tech/986280/mac-mini-studio-star-wars-zero-company-wyze-camera",
+        "linkedin": "Apple no solo vive de portátiles: acaba de renovar su gama de escritorio con un Mac Mini y un Mac Studio más potentes.\nLa compañía mantiene el formato compacto que hizo famosa a esta familia, y eso 𝗿𝗲𝗳𝘂𝗲𝗿𝘇𝗮 𝗹𝗮 𝗶𝗱𝗲𝗮 𝗱𝗲 𝗾𝘂𝗲 𝗲𝗹 𝗲𝘀𝗰𝗿𝗶𝘁𝗼𝗿𝗶𝗼 𝘀𝗶𝗴𝘂𝗲 𝘀𝗶𝗲𝗻𝗱𝗼 𝘂𝗻𝗮 𝗼𝗽𝗰𝗶ó𝗻 𝗿𝗲𝗮𝗹 𝗳𝗿𝗲𝗻𝘁𝗲 𝗮 𝗹𝗼𝘀 𝗽𝗼𝗿𝘁á𝘁𝗶𝗹𝗲𝘀 cuando la prioridad es la potencia sostenida. Para quien trabaja con vídeo, código o modelos locales, no es una actualización menor: es la señal de que Apple sigue cuidando a quien no quiere cargar con todo en la mochila.\n\n#Apple #MacMini #MacStudio\n\nhttps://www.theverge.com/tech/986280/mac-mini-studio-star-wars-zero-company-wyze-camera"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "Demuestran ataques de prompt injection contra Claude Code Opus 5 en modo Auto",
+      "summary": "Un investigador ha publicado vectores de ataque que consiguen inyectar instrucciones maliciosas en Claude Code Opus 5 cuando trabaja en modo Auto. El agente puede llegar a ejecutar comandos arbitrarios en la máquina.",
+      "why_it_matters": "Los agentes autónomos con acceso a terminal son un blanco crítico para la inyección de prompts; esta investigación muestra que el riesgo sigue ahí.",
+      "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode",
+      "source": "Lobsters",
+      "social": {
+        "x": "Un prompt envenenado basta para que Claude Code Opus 5 en modo Auto ejecute comandos arbitrarios en tu máquina.\n\n#ClaudeCode #PromptInjection #AgenticAI #Ciberseguridad\nhttps://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode",
+        "linkedin": "Si tu agente autónomo tiene acceso a la terminal, un simple prompt malicioso puede bastar para que ejecute comandos en tu sistema. Un investigador lo ha demostrado con Claude Code Opus 5 en modo Auto: la inyección de prompts logra que el agente realice acciones arbitrarias en la máquina. El riesgo no es teórico: cualquier entrada que procese, un archivo o un enlace, puede ser el vector. Esto debería moderar el entusiasmo por delegar tareas críticas a agentes sin supervisión, y 𝗱𝗲𝗷𝗮𝗿 𝗰𝗹𝗮𝗿𝗼 𝗾𝘂𝗲 𝗹𝗮 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗱𝗲𝗯𝗲 𝗱𝗶𝘀𝗲ñ𝗮𝗿𝘀𝗲 𝗲𝗻 𝗲𝗹 𝗳𝗹𝘂𝗷𝗼 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼, no darse por sentada.\n\n#ClaudeCode #PromptInjection #AgenticAI #Ciberseguridad\n\nhttps://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Un estudio muestra que los agentes de IA no saben estimar el tiempo",
+      "summary": "Claude Code y Codex sobreestiman de forma sistemática cuánto tardarán en completar tareas, según una nueva investigación. Codex se equivoca hasta diez veces y ambos se puntúan un 20% por encima de su rendimiento real.",
+      "why_it_matters": "Sin una noción fiable del tiempo, es difícil dejar tareas largas y autónomas en manos de agentes de IA con supervisión mínima.",
+      "url": "https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it",
+      "source": "The Decoder",
+      "social": {
+        "x": "Los agentes de IA no saben estimar el tiempo. Codex se equivoca hasta diez veces: dice una hora y tarda diez.\n\n#ClaudeCode #Codex #AgentesIA\nhttps://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it",
+        "linkedin": "Los agentes de IA no tienen ni idea de cuánto tardarán en hacer lo que les pides.\n\nUn estudio con Claude Code y Codex revela que ambos sobreestiman su velocidad de forma sistemática: Codex se equivoca hasta diez veces, y los dos se puntúan un 20% por encima de su rendimiento real. Sin una noción fiable del tiempo, 𝗱𝗲𝗹𝗲𝗴𝗮𝗿 𝘁𝗮𝗿𝗲𝗮𝘀 𝗹𝗮𝗿𝗴𝗮𝘀 𝗲𝗻 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗮𝘂𝘁ó𝗻𝗼𝗺𝗼𝘀 𝗰𝗼𝗻 𝘀𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗶ó𝗻 𝗺í𝗻𝗶𝗺𝗮 𝗲𝘀 𝘂𝗻𝗮 𝗮𝗽𝘂𝗲𝘀𝘁𝗮 𝗮𝗿𝗿𝗶𝗲𝘀𝗴𝗮𝗱𝗮. No es solo un problema de planificación: es una barrera para confiarles trabajo de verdad.\n\n#ClaudeCode #Codex #AgentesIA\n\nhttps://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "La IA puede inflar las notas sin que haya aprendizaje real, según un experimento",
+      "summary": "Un experimento con 1.053 estudiantes de la Universidad Bocconi muestra que GPT-4o elevó las notas de una tarea de marketing casi un punto en una escala de cinco. No se comprobó si los alumnos aprendieron y otros estudios sugieren que depender de la IA perjudica la formación a largo plazo.",
+      "why_it_matters": "Cuestiona qué miden realmente las evaluaciones cuando la IA puede producir los resultados que antes premiaban el esfuerzo y el pensamiento propio.",
+      "url": "https://the-decoder.com/the-skills-that-earn-top-grades-are-the-ones-ai-can-fake-best",
+      "source": "The Decoder",
+      "social": {
+        "x": "Con GPT-4o las notas suben casi un punto, pero el aprendizaje no se mide. Un experimento con 1.053 estudiantes lo deja claro.\n\n#GPT4o #Bocconi #Aprendizaje\nhttps://the-decoder.com/the-skills-that-earn-top-grades-are-the-ones-ai-can-fake-best",
+        "linkedin": "Las notas suben cuando la IA hace el trabajo, pero nadie comprueba si el aprendizaje acompaña. Un experimento con 1.053 estudiantes de la Universidad Bocconi muestra que GPT-4o elevó casi un punto las notas de una tarea de marketing. 𝗟𝗮 𝗲𝘃𝗮𝗹𝘂𝗮𝗰𝗶ó𝗻 𝗲𝘀𝘁á 𝗽𝗿𝗲𝗺𝗶𝗮𝗻𝗱𝗼 𝗹𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮, 𝗻𝗼 𝗲𝗹 𝗰𝗼𝗻𝗼𝗰𝗶𝗺𝗶𝗲𝗻𝘁𝗼. Si las universidades no adaptan sus exámenes, el título perderá valor como señal de competencia real.\n\n#GPT4o #Bocconi #Aprendizaje\n\nhttps://the-decoder.com/the-skills-that-earn-top-grades-are-the-ones-ai-can-fake-best"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "Crean el Big Bang más pequeño hasta la fecha para estudiar los orígenes del universo",
+      "summary": "Un equipo científico ha producido el estado de materia más parecido al universo primigenio usando átomos más pequeños de lo que se creía posible. El hallazgo redefine las condiciones necesarias para recrear el plasma de quarks y gluones en el laboratorio.",
+      "why_it_matters": "Permite investigar los primeros instantes del universo con experimentos más accesibles y controlados.",
+      "url": "https://www.wired.com/story/scientists-create-littlest-big-bang-to-study-universe-origins",
+      "source": "Wired",
+      "social": {
+        "x": "Lo más parecido al Big Bang jamás recreado en laboratorio se ha conseguido con átomos diminutos. Los físicos creían que era imposible.\n\n#BigBang #Cosmología #FísicaDePartículas\nhttps://www.wired.com/story/scientists-create-littlest-big-bang-to-study-universe-origins",
+        "linkedin": "Lo más parecido al Big Bang jamás recreado en laboratorio se ha conseguido con átomos diminutos, mucho más pequeños de lo que la física consideraba viable.\n\nUn equipo científico ha producido un estado de materia que imita el plasma de quarks y gluones, el ingrediente del universo en sus primeros instantes. Este avance permite estudiar el origen del cosmos con experimentos más accesibles y controlados. 𝗟𝗮 𝗴𝗿𝗮𝗻 𝗻𝗼𝘁𝗶𝗰𝗶𝗮 𝗲𝘀 𝗾𝘂𝗲 𝗻𝗼 𝗵𝗮𝗿á𝗻 𝗳𝗮𝗹𝘁𝗮 𝗮𝗰𝗲𝗹𝗲𝗿𝗮𝗱𝗼𝗿𝗲𝘀 𝗴𝗶𝗴𝗮𝗻𝘁𝗲𝘀 𝗽𝗮𝗿𝗮 𝘀𝗲𝗴𝘂𝗶𝗿 𝗲𝘅𝗽𝗹𝗼𝗿𝗮𝗻𝗱𝗼 𝗹𝗼𝘀 𝗶𝗻𝗶𝗰𝗶𝗼𝘀 𝗱𝗲𝗹 𝘂𝗻𝗶𝘃𝗲𝗿𝘀𝗼.\n\n#BigBang #Cosmología #FísicaDePartículas\n\nhttps://www.wired.com/story/scientists-create-littlest-big-bang-to-study-universe-origins"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "Meta prueba robots para trabajar en sus centros de datos",
+      "summary": "Meta ha comenzado a probar robots en tareas que hoy realizan técnicos en sus centros de datos. El objetivo es automatizar labores repetitivas o físicamente exigentes y evaluar si la robótica puede integrarse en la operación diaria.",
+      "why_it_matters": "Los centros de datos son un entorno realista y en crecimiento donde la robótica puede empezar a desplazar o complementar el trabajo humano a gran escala.",
+      "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers",
+      "source": "Ars Technica",
+      "social": {
+        "x": "En los centros de datos de Meta, los robots ya hacen el trabajo que nadie quiere. ¿Qué pasará con los técnicos?\n\n#Meta #Robótica #CentrosDeDatos\nhttps://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers",
+        "linkedin": "Meta mete robots en sus centros de datos, y no es un experimento cualquiera.\n\nLa compañía está probando máquinas para tareas que hoy hacen técnicos: labores repetitivas o físicamente exigentes. El movimiento tiene lógica: los centros de datos crecen sin freno y necesitan operaciones más escalables. 𝗟𝗮 𝗿𝗼𝗯ó𝘁𝗶𝗰𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗰𝗶𝗲𝗻𝗰𝗶𝗮 𝗳𝗶𝗰𝗰𝗶ó𝗻 𝗽𝗮𝗿𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗿𝘀𝗲 𝗲𝗻 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗻𝗲𝗴𝗼𝗰𝗶𝗼 𝗲𝗻 𝘂𝗻 𝘀𝗲𝗰𝘁𝗼𝗿 𝗰𝗹𝗮𝘃𝗲.\n\n#Meta #Robótica #CentrosDeDatos\n\nhttps://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Los Juegos Mundiales de Robots Humanoides de Pekín muestran avances y fallos",
+      "summary": "En Pekín, los robots humanoides batieron récords y también se rompieron durante la competición. La cita sirve de escaparate del empuje de China por liderar la robótica y de termómetro del estado real de la tecnología.",
+      "why_it_matters": "Ver a los robots fallar en público es tan útil como ver sus logros para calibrar qué falta para que se integren en la vida real.",
+      "url": "https://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
+      "source": "The Verge",
+      "social": {
+        "x": "En Pekín, los robots humanoides batieron récords y también cayeron. El evento que muestra el verdadero pulso de la robótica.\n\n#RobotsHumanoides #Robótica #Pekín\nhttps://www.theverge.com/tech/986167/china-humanoid-robot-games-race",
+        "linkedin": "En Pekín, los robots humanoides lograron récords y también sufrieron caídas en público. La competición sirve de escaparate del empuje de China por liderar la robótica, pero también de termómetro real de lo que falta para que se integren en la vida real. 𝗩𝗲𝗿𝗹𝗼𝘀 𝗳𝗮𝗹𝗹𝗮𝗿 𝗲𝗻 𝗱𝗶𝗿𝗲𝗰𝘁𝗼 𝗲𝘀 𝘁𝗮𝗻 ú𝘁𝗶𝗹 𝗰𝗼𝗺𝗼 𝘃𝗲𝗿 𝘀𝘂𝘀 𝗹𝗼𝗴𝗿𝗼𝘀 para calibrar expectativas y tomar decisiones informadas.\n\n#RobotsHumanoides #Robótica #Pekín\n\nhttps://www.theverge.com/tech/986167/china-humanoid-robot-games-race"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Qué significa de verdad que GLM-5.3 Flash corra en hardware chino",
+      "summary": "Un análisis repasa las implicaciones de ejecutar el modelo GLM-5.3 Flash sobre chips chinos, desde el rendimiento hasta la reducción de dependencia de Occidente. El autor desglosa qué supone para la soberanía tecnológica del país.",
+      "why_it_matters": "Muestra cómo la inteligencia artificial china avanza con semiconductores propios y puede prescindir cada vez más de infraestructura estadounidense.",
+      "url": "https://martinalderson.com/posts/glm-5-3-flash-chinese-hardware",
+      "source": "Lobsters",
+      "social": {
+        "x": "Que GLM-5.3 Flash corra en hardware chino no es un detalle técnico: es un cambio geopolítico.\n\n#GLM #ZhipuAI #SoberaníaTecnológica #China\nhttps://martinalderson.com/posts/glm-5-3-flash-chinese-hardware",
+        "linkedin": "China acaba de cruzar una línea en IA que muchos daban por imposible: ejecutar un modelo como GLM-5.3 Flash sobre hardware fabricado en el país. El análisis en Lobsters explica por qué no es solo una cuestión de rendimiento, sino de 𝘀𝗼𝗯𝗲𝗿𝗮𝗻í𝗮 𝘁𝗲𝗰𝗻𝗼𝗹ó𝗴𝗶𝗰𝗮: Pekín reduce su dependencia de los semiconductores occidentales y abre una nueva etapa para el despliegue de IA. Mientras Occidente debate regulaciones, China construye una pila completa de hardware y software.\n\n#GLM #ZhipuAI #SoberaníaTecnológica #China\n\nhttps://martinalderson.com/posts/glm-5-3-flash-chinese-hardware"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Sony Music y Warner Chappell demandan a Anthropic por usar sus canciones para entrenar a Claude",
+      "summary": "Las editoras musicales han presentado una demanda contra Anthropic por utilizar decenas de miles de obras protegidas para entrenar a sus modelos sin permiso. Piden hasta 150.000 dólares por canción y una indemnización que podría alcanzar los miles de millones.",
+      "why_it_matters": "El caso puede sentar precedente sobre el uso de contenido con copyright en el entrenamiento de modelos de IA y afectar a toda la industria.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+      "source": "The Verge",
+      "social": {
+        "x": "Por entrenar a Claude con canciones de Sony y Warner, Anthropic se enfrenta a una demanda de miles de millones. Las editoras piden hasta 150.000 dólares por obra.\n\n#Anthropic #Claude #Copyright #IndustriaMusical\nhttps://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+        "linkedin": "Las discográficas han puesto precio al entrenamiento de modelos de IA: 150.000 dólares por canción.\n\nSony Music y Warner Chappell han demandado a Anthropic por usar decenas de miles de obras protegidas para entrenar a Claude sin permiso. Piden una indemnización que podría alcanzar los miles de millones. Este caso no solo afecta a Anthropic: 𝗿𝗲𝗱𝗲𝗳𝗶𝗻𝗲 𝗲𝗹 𝗿𝗶𝗲𝘀𝗴𝗼 𝗹𝗲𝗴𝗮𝗹 𝗱𝗲 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗿 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗺𝗼𝗱𝗲𝗹𝗼 𝗰𝗼𝗻 𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗼 𝗰𝗼𝗻 𝗰𝗼𝗽𝘆𝗿𝗶𝗴𝗵𝘁. Si las editoras ganan, toda la industria tendrá que replantearse cómo obtiene sus datos.\n\n#Anthropic #Claude #Copyright #IndustriaMusical\n\nhttps://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "El cambio de límites de Claude Code sube la cuota sobre el papel pero la recorta en la práctica",
+      "summary": "Anthropic eliminará el próximo 14 de septiembre una subida temporal del 50% en los límites semanales de uso de Claude Code y la sustituirá por un aumento permanente del 25%. En la práctica, los usuarios con planes de pago pierden un 17% de capacidad respecto al máximo actual.",
+      "why_it_matters": "Los límites de uso condicionan directamente el trabajo diario de quienes dependen de asistentes de codificación.",
+      "url": "https://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice",
+      "source": "The Decoder",
+      "social": {
+        "x": "Claude Code: lo que presentan como un aumento del 25% en los límites de uso es, en realidad, un recorte del 17% para los usuarios de pago. A partir del 14 de septiembre.\n\n#ClaudeCode #Anthropic #AsistentesDeCodigo\nhttps://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice",
+        "linkedin": "Anthropic anuncia un aumento permanente del 25% en los límites de uso de Claude Code y lo presenta como una mejora. Lo que no dice es que sustituye a una subida temporal del 50%, así que en la práctica tus límites semanales se reducen un 17%. 𝗗𝗲𝘁𝗿á𝘀 𝗱𝗲 𝗰𝗮𝗱𝗮 𝗮𝗷𝘂𝘀𝘁𝗲 𝗱𝗲 𝗰𝘂𝗼𝘁𝗮 𝗵𝗮𝘆 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗾𝘂𝗲 𝗰𝗼𝗻𝗱𝗶𝗰𝗶𝗼𝗻𝗮 𝘁𝘂 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗱𝗶𝗮𝗿𝗶𝗼 𝗰𝗼𝗻 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗰ó𝗱𝗶𝗴𝗼. Si usas Claude Code para programar, vale la pena leer la letra pequeña antes del 14 de septiembre.\n\n#ClaudeCode #Anthropic #AsistentesDeCodigo\n\nhttps://the-decoder.com/anthropics-claude-code-limit-change-is-a-raise-on-paper-but-a-cut-in-practice"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "unclecode/crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "description": "Crawl4AI es un rastreador y extractor web pensado para alimentar modelos de lenguaje. Permite convertir páginas web en texto limpio y estructurado para usarlo en proyectos de IA o análisis de datos.",
+      "language": "Python",
+      "stars": 80063,
+      "social": {
+        "x": "Alguien acaba de regalar un rastreador que convierte cualquier página web en texto limpio para tus modelos de lenguaje. 80.000 estrellas y subiendo.\n\n#crawl4ai #Python #OpenSource #GitHub\nhttps://github.com/unclecode/crawl4ai",
+        "linkedin": "¿TODAVÍA LIMPIAS EL HTML A MANO PARA TUS LLMs?\n\nCrawl4AI es un rastreador open source que convierte cualquier página web en texto limpio y estructurado, listo para alimentar tus modelos de lenguaje. Con más de 80.000 estrellas, se ha convertido en la herramienta de referencia para RAG, análisis de datos y automatización.\n\n→ Convierte HTML en Markdown o JSON sin esfuerzo.\n→ Ignora menús, anuncios y ruido: extrae solo lo importante.\n→ Pensado para integrarse con LLMs y pipelines de datos.\n→ Escrito en Python, fácil de desplegar en local o en servidor.\n\n𝗦𝘂 𝘀𝘂𝗽𝗲𝗿𝗽𝗼𝗱𝗲𝗿: 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮 𝗰𝗮𝗼𝘀 𝘄𝗲𝗯 𝗲𝗻 𝗱𝗮𝘁𝗼𝘀 𝗹𝗶𝘀𝘁𝗼𝘀 𝗽𝗮𝗿𝗮 𝘁𝘂 𝗜𝗔.\n\nSi trabajas con datos de la web, guarda este post. Te dejo el repo abajo.\n\n#crawl4ai #Python #OpenSource #GitHub\n\nhttps://github.com/unclecode/crawl4ai"
+      }
+    },
+    {
+      "name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "Habilidad para agentes de IA que investiga temas en Reddit, X, YouTube, HN, Polymarket y la web, y sintetiza un resumen con fuentes. Ideal para tener información reciente y contrastada sobre cualquier asunto.",
+      "language": "Python",
+      "stars": 60360,
+      "social": {
+        "x": "Alguien acaba de crear una skill para agentes de IA que investiga en Reddit, X, YouTube, HN y Polymarket y sintetiza un resumen con fuentes. 60k estrellas.\n\n#last30days #OpenSource #Python #agentesIA\nhttps://github.com/mvanhorn/last30days-skill",
+        "linkedin": "TU AGENTE DE IA PUEDE INVESTIGAR EN REDDIT, X, YOUTUBE Y HN, Y VOLVER CON UN RESUMEN CON FUENTES.\n\nEste repo open source convierte a tu agente en un investigador que rastrea las principales plataformas y la web para darte 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗰𝗶ó𝗻 𝗿𝗲𝗰𝗶𝗲𝗻𝘁𝗲 𝘆 𝗰𝗼𝗻𝘁𝗿𝗮𝘀𝘁𝗮𝗱𝗮, nada de respuestas genéricas.\n\n→ Rastrea Reddit, X, YouTube, HN, Polymarket y la web.\n→ Sintetiza un resumen con fuentes contrastadas.\n→ Ideal para estar al día de cualquier tema.\n→ Python, open source y con 60.360 estrellas.\n\nGuarda este post para tener la skill a mano, te dejo el repo abajo.\n\n#last30days #OpenSource #Python #agentesIA\n\nhttps://github.com/mvanhorn/last30days-skill"
+      }
+    },
+    {
+      "name": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "Herramienta de código abierto que elimina automáticamente la censura de los modelos de lenguaje. Permite que las respuestas sean más libres y sin restricciones impuestas por el proveedor.",
+      "language": "Python",
+      "stars": 28968,
+      "social": {
+        "x": "¿Cansado de que tu IA te diga 'no puedo responder'? Este repo elimina la censura de los LLMs y ya suma 28.9k estrellas.\n\n#Heretic #Python #OpenSource #GitHub\nhttps://github.com/p-e-w/heretic",
+        "linkedin": "TU IA NO ES LIBRE: ESTE REPO ELIMINA SU CENSURA AUTOMÁTICAMENTE.\n\nLos grandes modelos de lenguaje tienen restricciones impuestas por sus creadores. Heretic, una herramienta open source escrita en Python, elimina esas barreras para que las respuestas sean completas y sin limitaciones.\n\n→ 𝗘𝗹𝗶𝗺𝗶𝗻𝗮 𝗹𝗮 𝗰𝗲𝗻𝘀𝘂𝗿𝗮 𝗮𝘂𝘁𝗼𝗺á𝘁𝗶𝗰𝗮𝗺𝗲𝗻𝘁𝗲 de cualquier modelo de lenguaje.\n→ Se ejecuta en local, sin depender de servicios externos.\n→ Ya suma casi 29.000 estrellas en GitHub.\n\nSi quieres que tu IA responda sin filtros, te dejo el repo abajo. Guárdalo para cuando lo necesites.\n\n#Heretic #Python #OpenSource #GitHub\n\nhttps://github.com/p-e-w/heretic"
+      }
+    },
+    {
+      "name": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "description": "Alternativa de código abierto a Semrush y Ahrefs para análisis SEO. Ofrece herramientas de investigación de palabras clave, auditoría y seguimiento de posicionamiento sin coste de licencia.",
+      "language": "TypeScript",
+      "stars": 14941,
+      "social": {
+        "x": "¿Pagas por Semrush o Ahrefs? Este repo open source replica sus funciones clave: keywords, auditoría y posiciones. 14.9k estrellas y sin coste de licencia.\n\n#OpenSource #SEO #TypeScript #GitHub\nhttps://github.com/every-app/open-seo",
+        "linkedin": "¿TODAVÍA PAGAS UNA FORTALEZA POR TUS HERRAMIENTAS SEO?\n\nMientras Semrush y Ahrefs te cobran una licencia mensual, existe una alternativa open source que cubre lo esencial: investigación de palabras clave, auditoría de tu web y seguimiento de posicionamiento. Se llama every-app/open-seo, está escrita en TypeScript y supera las 14.900 estrellas en GitHub.\n\n→ Investiga palabras clave con datos reales, sin pagar extra.\n→ Audita tu web con los mismos criterios que los grandes del sector.\n→ Sigue tus posiciones en Google y controla la evolución.\n\n𝗟𝗼 𝗺𝗲𝗷𝗼𝗿: 𝗲𝘀 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝘆 𝗻𝗼 𝗱𝗲𝗽𝗲𝗻𝗱𝗲 𝗱𝗲 𝗻𝗶𝗻𝗴ú𝗻 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿. Te dejo el repo abajo. Guárdatelo para tu próximo proyecto SEO.\n\n#OpenSource #SEO #TypeScript #GitHub\n\nhttps://github.com/every-app/open-seo"
+      }
+    },
+    {
+      "name": "colinhacks/zod",
+      "url": "https://github.com/colinhacks/zod",
+      "description": "Librería TypeScript para validación de esquemas con inferencia de tipos estática. Muy útil para garantizar la forma de los datos en aplicaciones frontend y backend.",
+      "language": "TypeScript",
+      "stars": 43599,
+      "social": {
+        "x": "Tu API te manda datos inesperados y tu app explota. Zod lo evita con esquemas tipados. 43k estrellas lo confirman.\n\n#Zod #TypeScript #OpenSource\nhttps://github.com/colinhacks/zod",
+        "linkedin": "¿TU APP EXPLOTA POR DATOS INESPERADOS? ESTO TE INTERESA.\n\nZod es la librería TypeScript que valida esquemas y, de paso, te da la inferencia de tipos estática. Con 43.599 estrellas, se ha convertido en el estándar de facto para garantizar la forma de los datos en frontend y backend.\n\n→ Defines un esquema y Zod valida en runtime, sin sorpresas.\n→ 𝗭𝗼𝗱 𝘂𝗻𝗲 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻 𝘆 𝗲𝗹 𝘁𝗶𝗽𝗼 𝗲𝗻 𝘂𝗻 𝘀𝗼𝗹𝗼 𝗲𝘀𝗾𝘂𝗲𝗺𝗮, así que no duplicas nada.\n→ Ideal para APIs, formularios y cualquier entrada de datos.\n\nSi usas TypeScript, te ahorrará horas de debugging. Guarda el post para tener la referencia. Te dejo el repo abajo.\n\n#Zod #TypeScript #OpenSource\n\nhttps://github.com/colinhacks/zod"
+      }
+    }
+  ]
+}
