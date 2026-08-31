@@ -1,0 +1,298 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T17:36:37.469Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "OpenClaw 2.0 llega con instalación simplificada, navegador reconstruido y sesiones multijugador",
+      "summary": "La fundación OpenClaw ha publicado la mayor actualización de su plataforma de agentes de IA, con más de 16.000 pull requests y 933 colaboradores. Incluye configuración automática de recursos existentes, una aplicación de navegador reescrita desde cero, sesiones en la nube y colaboración en tiempo real.",
+      "why_it_matters": "Consolida a OpenClaw como una de las plataformas abiertas más completas para construir y ejecutar agentes de IA.",
+      "url": "https://openclaw.ai/blog/openclaw-2-accidentally",
+      "source": "Hacker News",
+      "social": {
+        "x": "OpenClaw 2.0 no es una actualización menor: 16.000 pull requests, navegador reescrito, sesiones en la nube y colaboración en tiempo real.\n\n#OpenClaw #OpenSource #AgentesIA\nhttps://openclaw.ai/blog/openclaw-2-accidentally",
+        "linkedin": "Con más de 16.000 pull requests y 933 colaboradores, OpenClaw 2.0 se consolida como la plataforma abierta más completa para agentes de IA.\nLa fundación ha reescrito el navegador desde cero, simplifica la instalación y añade sesiones en la nube y colaboración en tiempo real. Para los equipos que ya construyen agentes, esto significa que 𝘂𝗻𝗮 𝗮𝗹𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝘃𝗮 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝗰𝘂𝗯𝗿𝗲 𝘆𝗮 𝗲𝗹 𝗰𝗶𝗰𝗹𝗼 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼: desarrollo, despliegue y trabajo en equipo. La pregunta no es si lo abierto puede competir, sino cuándo migrar.\n\n#OpenClaw #OpenSource #AgentesIA\n\nhttps://openclaw.ai/blog/openclaw-2-accidentally"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Cloudflare lanza AI Search para que los agentes busquen en datos propios",
+      "summary": "El nuevo servicio de búsqueda y recuperación está pensado para dar a los agentes y aplicaciones de IA un buscador listo para usar sobre datos personalizados. Incluye integración con agentes, búsqueda multimodal y conexión con el resto del ecosistema de Cloudflare.",
+      "why_it_matters": "Quita una barrera importante a la hora de dar a los agentes acceso a información propia de forma rápida y escalable.",
+      "url": "https://www.infoq.com/news/2026/08/cloudflare-ai-search",
+      "source": "InfoQ",
+      "social": {
+        "x": "¿Y si tu agente de IA pudiera buscar en tus datos sin montar un buscador? Cloudflare estrena AI Search.\n\n#Cloudflare #AISearch #AgentesIA\nhttps://www.infoq.com/news/2026/08/cloudflare-ai-search",
+        "linkedin": "Dar a un agente de IA acceso a tus datos propios siempre ha sido un proyecto: hay que montar índices, gestionar APIs y escalar.\nCloudflare presenta AI Search, un servicio de búsqueda y recuperación diseñado para que tus agentes consulten tu información 𝘀𝗶𝗻 𝗺𝗼𝗻𝘁𝗮𝗿 𝘂𝗻 𝗯𝘂𝘀𝗰𝗮𝗱𝗼𝗿 𝗮 𝗺𝗲𝗱𝗶𝗱𝗮. Incluye integración con su ecosistema y búsqueda multimodal, y se presenta como una opción lista para producción. Para cualquier equipo que quiera dar a la IA contexto real de negocio, esto reduce un obstáculo clásico.\n\n#Cloudflare #AISearch #AgentesIA\n\nhttps://www.infoq.com/news/2026/08/cloudflare-ai-search"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "investigacion",
+      "title": "Google lanza TimesFM-3, un modelo de predicción multivariante sin entrenamiento previo",
+      "summary": "Investigadores de Google presentan un modelo de fundación para forecasting que funciona en modo zero-shot, sin ajuste por dominio. Es capaz de manejar series temporales multivariantes de ámbitos como energía, ventas o IoT y competir con métodos específicos.",
+      "why_it_matters": "Lleva la predicción de series temporales de calidad a equipos sin recursos para entrenar modelos propios.",
+      "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting",
+      "source": "Google Research",
+      "social": {
+        "x": "¿Y si no hiciera falta entrenar un modelo para cada serie temporal? Google lanza TimesFM-3, forecasting multivariante en zero-shot.\n\n#Google #TimesFM #Forecasting #MachineLearning\nhttps://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting",
+        "linkedin": "Durante años, el forecasting de calidad ha exigido entrenar un modelo por dominio. TimesFM-3 de Google lo cambia: funciona en zero-shot, sin ajuste.\nEste modelo de fundación maneja series multivariantes de energía, ventas o IoT y compite con métodos específicos. Para equipos sin recursos de ML, 𝗹𝗮 𝗽𝗿𝗲𝗱𝗶𝗰𝗰𝗶ó𝗻 𝗱𝗲 𝘀𝗲𝗿𝗶𝗲𝘀 𝘁𝗲𝗺𝗽𝗼𝗿𝗮𝗹𝗲𝘀 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗽𝗿𝗶𝘃𝗶𝗹𝗲𝗴𝗶𝗼 y se convierte en una capacidad accesible.\n\n#Google #TimesFM #Forecasting #MachineLearning\n\nhttps://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "investigacion",
+      "title": "Los modelos de difusión continua para lenguaje vuelven a la primera línea",
+      "summary": "Un análisis de Sander.ai repasa la nueva oleada de investigaciones sobre modelos de difusión continua para texto, una vía que había quedado relegada por los métodos discretos. Explica por qué está resurgiendo ahora y qué puede aportar frente a los modelos autorregresivos.",
+      "why_it_matters": "Apunta a una alternativa al paradigma dominante en generación de texto con posibles ventajas en control y eficiencia.",
+      "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
+      "source": "Hacker News",
+      "social": {
+        "x": "La difusión continua para texto vuelve a primera línea. Una alternativa olvidada que ahora promete control y eficiencia. Un análisis explica el regreso.\n\n#DiffusionModels #GenerativeAI #LLM\nhttps://sander.ai/2026/08/24/continuous-dlms.html",
+        "linkedin": "La difusión continua para texto ha sido la eterna promesa de la generación de lenguaje, una vía que parecía dormida.\n\nDurante años, los modelos autorregresivos han marcado el ritmo con su generación token a token. Pero la difusión continua propone otra forma de hacerlo: un proceso iterativo que refina la secuencia completa desde el ruido. Un análisis reciente explica por qué esta vía resurge y qué puede aportar, especialmente en control y eficiencia. 𝗟𝗮 𝗱𝗶𝗳𝘂𝘀𝗶ó𝗻 𝗰𝗼𝗻𝘁𝗶𝗻𝘂𝗮 𝘃𝘂𝗲𝗹𝘃𝗲 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗮𝗹𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝘃𝗮 𝗰𝗿𝗲í𝗯𝗹𝗲 𝗮 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗮𝘂𝘁𝗼𝗿𝗿𝗲𝗴𝗿𝗲𝘀𝗶𝘃𝗼𝘀, y quienes la descartaron en su día deberían reconsiderarla.\n\n#DiffusionModels #GenerativeAI #LLM\n\nhttps://sander.ai/2026/08/24/continuous-dlms.html"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "investigacion",
+      "title": "Microsoft presenta GigaPath-Flash y GigaTIME-Flash para patología a gran escala",
+      "summary": "Los nuevos modelos de fundación reducen la carga computacional de sus predecesores manteniendo un rendimiento alto. Están pensados para facilitar estudios de patología a escala poblacional y ampliar el acceso a este tipo de análisis.",
+      "why_it_matters": "Abarata el análisis masivo de muestras de tejido, un campo con gran potencial para la IA aplicada a la medicina.",
+      "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models",
+      "source": "Microsoft Research",
+      "social": {
+        "x": "¿La IA para patología ya no necesita un clúster? Microsoft presenta dos modelos que lo hacen posible.\n\n#Microsoft #GigaPath #GigaTIME\nhttps://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models",
+        "linkedin": "¿Cuánta potencia de cálculo crees que se necesita para analizar tejidos a escala poblacional?\nMicrosoft ha presentado GigaPath-Flash y GigaTIME-Flash, dos modelos de fundación para patología que reducen la carga computacional de sus predecesores sin sacrificar rendimiento. Están pensados para que los estudios masivos no dependan de infraestructuras descomunales. Esto 𝗮𝗯𝗮𝗿𝗮𝘁𝗮 𝗲𝗹 𝗮𝗻á𝗹𝗶𝘀𝗶𝘀 𝗱𝗲 𝗺𝘂𝗲𝘀𝘁𝗿𝗮𝘀 𝗱𝗲 𝘁𝗲𝗷𝗶𝗱𝗼, un avance que acerca la IA a más laboratorios y hospitales.\n\n#Microsoft #GigaPath #GigaTIME\n\nhttps://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "DoorDash automatiza 130.000 tareas de ingeniería al mes con su plataforma de agentes Flux",
+      "summary": "La compañía ha sacado la carga de trabajo de agentes de programación de los portátiles y la ha llevado a una plataforma en la nube con microVM de Firecracker, pasarela MCP y playbooks reutilizables. Flux ejecuta más de 25.000 revisiones de código automatizadas cada semana.",
+      "why_it_matters": "Es un ejemplo real de cómo poner agentes de IA en producción con acceso limitado, auditoría y una escala enorme.",
+      "url": "https://www.infoq.com/news/2026/08/doordash-flux-cloud-agent",
+      "source": "InfoQ",
+      "social": {
+        "x": "¿Qué pasa cuando sacas a los agentes de IA del portátil y los pones a producir? DoorDash automatiza 130.000 tareas de ingeniería al mes con Flux.\n\n#DoorDash #Firecracker #MCP\nhttps://www.infoq.com/news/2026/08/doordash-flux-cloud-agent",
+        "linkedin": "Mucho se habla de agentes de IA, pero pocos los han puesto a trabajar a esta escala. DoorDash automatiza 130.000 tareas de ingeniería al mes con Flux, su plataforma de agentes en la nube. El detalle que marca la diferencia no es el modelo, sino 𝗰ó𝗺𝗼 𝗹𝗲 𝗱𝗮𝗻 𝗮𝗰𝗰𝗲𝘀𝗼 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮𝗱𝗼 𝘆 𝗮𝘂𝗱𝗶𝘁𝗼𝗿í𝗮 𝗰𝗼𝗻 𝗺𝗶𝗰𝗿𝗼𝗩𝗠 𝘆 𝗠𝗖𝗣. Para cualquier equipo que quiera ir más allá del prototipo, este caso es un manual de producción.\n\n#DoorDash #Firecracker #MCP\n\nhttps://www.infoq.com/news/2026/08/doordash-flux-cloud-agent"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Microsoft Foundry amplía su enrutador de modelos a 28 regiones",
+      "summary": "El model router de Foundry pasa de dos a 28 regiones y renueva el pool con Claude Opus 4.8 y GPT-5.6, retirando cuatro modelos. Los despliegues por defecto reciben automáticamente los cambios del pool, mientras que las configuraciones personalizadas deben incluirlos manualmente.",
+      "why_it_matters": "Simplifica el acceso a los últimos modelos de IA sin tener que reescribir la integración ni gestionar varios proveedores.",
+      "url": "https://www.infoq.com/news/2026/08/foundry-model-router-regions",
+      "source": "InfoQ",
+      "social": {
+        "x": "Microsoft Foundry acaba de actualizar su router de modelos en 28 regiones, y si usas el pool por defecto ya tienes Claude Opus 4.8 y GPT-5.6 sin tocar nada.\n\n#MicrosoftFoundry #ClaudeOpus #GPT5_6\nhttps://www.infoq.com/news/2026/08/foundry-model-router-regions",
+        "linkedin": "Si usas Microsoft Foundry, tus modelos por defecto se acaban de actualizar solos: el pool ya incluye Claude Opus 4.8 y GPT-5.6, y el router llega a 28 regiones. Lo relevante no es solo el catálogo, sino que los despliegues configurados con el pool por defecto reciben estos cambios automáticamente, sin reescribir integraciones. Para quien gestiona varios proveedores, 𝗙𝗼𝘂𝗻𝗱𝗿𝘆 𝘀𝗲 𝗮𝗳𝗶𝗮𝗻𝘇𝗮 𝗰𝗼𝗺𝗼 𝘂𝗻 𝗽𝘂𝗻𝘁𝗼 ú𝗻𝗶𝗰𝗼 𝗱𝗲 𝗮𝗰𝗰𝗲𝘀𝗼 𝗮 𝗹𝗼𝘀 ú𝗹𝘁𝗶𝗺𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀, reduciendo la fricción operativa y acelerando la adopción de novedades.\n\n#MicrosoftFoundry #ClaudeOpus #GPT5_6\n\nhttps://www.infoq.com/news/2026/08/foundry-model-router-regions"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "Circleback añade un plan gratuito a su toma de notas de reuniones con IA",
+      "summary": "La aplicación de notas para reuniones estrena nivel gratuito y planes de pago desde 14 dólares al mes. El movimiento busca ampliar su base de usuarios en un mercado con mucha competencia.",
+      "why_it_matters": "Reduce la barrera de entrada para probar herramientas de IA en el día a día del trabajo de oficina.",
+      "url": "https://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Si sigues pagando por tomar notas en reuniones, espera. Circleback acaba de estrenar plan gratuito con IA.\n\n#Circleback #SaaS #WorkTech\nhttps://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers",
+        "linkedin": "Si sigues pagando por tomar notas en reuniones, espera. Circleback acaba de estrenar plan gratuito con IA.\nEn un mercado saturado de asistentes, el movimiento busca ampliar su base de usuarios con una barrera de entrada mínima. 𝗟𝗮 𝗯𝗮𝘁𝗮𝗹𝗹𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗴𝗿𝗮𝗯𝗮𝗿 𝗹𝗮 𝗿𝗲𝘂𝗻𝗶ó𝗻, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗹𝗮 𝗶𝗻𝘁𝗲𝗹𝗶𝗴𝗲𝗻𝗰𝗶𝗮 𝗾𝘂𝗲 𝗲𝘅𝘁𝗿𝗮𝗲 𝗲𝗹 𝘃𝗮𝗹𝗼𝗿 𝗱𝗲 𝗹𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝗰𝗶ó𝗻. Probar la herramienta sin pagar es la mejor jugada para decidir si merece la pena la suscripción.\n\n#Circleback #SaaS #WorkTech\n\nhttps://techcrunch.com/2026/08/31/meeting-notetaker-circleback-adds-a-free-tier-to-attract-more-customers"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "industria",
+      "title": "OpenAI cobra a algunos clientes solo cuando su IA completa la tarea",
+      "summary": "OpenAI está ofreciendo a grandes clientes un modelo de precios basado en resultados: se paga cuando el agente termina el trabajo, no por suscripción fija. Otras empresas como Salesforce y Adobe exploran fórmulas similares.",
+      "why_it_matters": "Traslada al proveedor parte del riesgo de que la IA no cumpla y puede redefinir cómo se vende software empresarial.",
+      "url": "https://the-decoder.com/openai-starts-charging-some-customers-only-when-its-ai-actually-works",
+      "source": "The Decoder",
+      "social": {
+        "x": "OpenAI cobra solo cuando la IA completa la tarea. El riesgo deja de ser del cliente.\n\n#OpenAI #AgentesIA #SoftwareEmpresarial\nhttps://the-decoder.com/openai-starts-charging-some-customers-only-when-its-ai-actually-works",
+        "linkedin": "OpenAI acaba de mover ficha en el software empresarial: solo cobra cuando la IA completa la tarea.\nEs un giro que traslada el riesgo al proveedor y puede redefinir cómo se vende la IA. Si el agente no entrega, no hay factura, así que OpenAI apuesta por la fiabilidad de sus sistemas. Para las empresas que dudaban del retorno, 𝗲𝘀𝘁𝗲 𝗺𝗼𝗱𝗲𝗹𝗼 𝗮𝗹𝗶𝗻𝗲𝗮 𝗶𝗻𝗰𝗲𝗻𝘁𝗶𝘃𝗼𝘀 𝗰𝗼𝗺𝗼 𝗽𝗼𝗰𝗮𝘀 𝘃𝗲𝗰𝗲𝘀 𝘀𝗲 𝗵𝗮 𝘃𝗶𝘀𝘁𝗼.\n\n#OpenAI #AgentesIA #SoftwareEmpresarial\n\nhttps://the-decoder.com/openai-starts-charging-some-customers-only-when-its-ai-actually-works"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "Instagram obliga a etiquetar los perfiles generados por IA y reducirá su alcance",
+      "summary": "Instagram sustituye la etiqueta 'AI creator' por 'perfil generado con IA' y limitará la recomendación de cuentas que no la usen. La compañía reconoce que muchos usuarios no distinguen entre perfiles reales y sintéticos.",
+      "why_it_matters": "Afronta uno de los mayores problemas de confianza de las redes sociales: la proliferación de influencers falsos.",
+      "url": "https://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
+      "source": "The Verge",
+      "social": {
+        "x": "Los influencers falsos de Instagram tienen las horas contadas: etiqueta de IA obligatoria o menos alcance.\n\n#Instagram #Meta #InteligenciaArtificial\nhttps://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop",
+        "linkedin": "Instagram ha movido ficha contra los perfiles sintéticos que se hacen pasar por personas. La plataforma sustituye la etiqueta 'AI creator' por 'perfil generado por IA' y 𝗹𝗶𝗺𝗶𝘁𝗮𝗿á 𝗲𝗹 𝗮𝗹𝗰𝗮𝗻𝗰𝗲 𝗱𝗲 𝗹𝗮𝘀 𝗰𝘂𝗲𝗻𝘁𝗮𝘀 𝗾𝘂𝗲 𝗻𝗼 𝗹𝗮 𝘂𝘁𝗶𝗹𝗶𝗰𝗲𝗻. Es un reconocimiento explícito de que muchos usuarios no distinguen entre lo real y lo falso, y un cambio que afecta a marcas y creadores: la transparencia deja de ser un extra para convertirse en una condición para tener visibilidad.\n\n#Instagram #Meta #InteligenciaArtificial\n\nhttps://www.theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "ChatGPT se enfrenta a la normativa europea más dura para grandes plataformas",
+      "summary": "La Comisión Europea ha clasificado a ChatGPT como un buscador en línea de gran tamaño bajo la Ley de Servicios Digitales, con más de 45 millones de usuarios mensuales en la UE. OpenAI deberá presentar evaluaciones de riesgo, informes de transparencia y un archivo publicitario antes de finales de 2026.",
+      "why_it_matters": "Impone obligaciones legales concretas sobre menores, salud mental y contenidos ilegales a uno de los servicios de IA más usados.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+      "source": "The Verge",
+      "social": {
+        "x": "Bruselas acaba de clasificar a ChatGPT como buscador de gran tamaño. Ahora OpenAI tendrá que rendir cuentas como las grandes plataformas.\n\n#DSA #ChatGPT #OpenAI\nhttps://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa",
+        "linkedin": "La Comisión Europea ha clasificado a ChatGPT como un buscador en línea de gran tamaño, un estatus reservado a las plataformas más influyentes.\nCon más de 45 millones de usuarios mensuales en la UE, OpenAI deberá presentar evaluaciones de riesgo, informes de transparencia y un archivo publicitario antes de finales de 2026. 𝗘𝘀 𝗹𝗮 𝗽𝗿𝗶𝗺𝗲𝗿𝗮 𝘃𝗲𝘇 𝗾𝘂𝗲 𝘂𝗻 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼 𝗱𝗲 𝗜𝗔 𝗮𝘀𝘂𝗺𝗲 𝗼𝗯𝗹𝗶𝗴𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗹𝗲𝗴𝗮𝗹𝗲𝘀 𝗱𝗶𝗿𝗲𝗰𝘁𝗮𝘀 𝘀𝗼𝗯𝗿𝗲 𝗺𝗲𝗻𝗼𝗿𝗲𝘀, 𝘀𝗮𝗹𝘂𝗱 𝗺𝗲𝗻𝘁𝗮𝗹 𝘆 𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗼𝘀 𝗶𝗹𝗲𝗴𝗮𝗹𝗲𝘀. Para cualquier empresa que use IA generativa, esto marca el camino de lo que viene.\n\n#DSA #ChatGPT #OpenAI\n\nhttps://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "industria",
+      "title": "Debian da luz verde al código generado con IA en su distribución",
+      "summary": "La comunidad de Debian ha votado a favor de permitir que sus colaboradores usen herramientas de IA generativa para escribir código. La divulgación de su uso no será obligatoria, pero la calidad y la responsabilidad final seguirán siendo del autor.",
+      "why_it_matters": "Marca un precedente en el ecosistema Linux sobre cómo integrar la programación asistida por IA sin romper la confianza en el software.",
+      "url": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
+      "source": "The Verge",
+      "social": {
+        "x": "Debian, una de las comunidades más estrictas del software libre, acaba de decir sí a la IA generativa en su código. El autor sigue siendo el responsable.\n\n#Debian #Linux #OpenSource\nhttps://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
+        "linkedin": "¿Qué pasa cuando una de las distribuciones más puristas del software libre aprueba el código generado por IA? Debian ha votado a favor.\nLa decisión marca un precedente en el ecosistema Linux: los colaboradores podrán usar herramientas como Copilot sin obligación de declararlo, siempre que la calidad y la responsabilidad recaigan en el autor. Para el resto de proyectos, 𝗹𝗮 𝘀𝗲ñ𝗮𝗹 𝗲𝘀 𝗰𝗹𝗮𝗿𝗮: 𝗹𝗮 𝗜𝗔 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘂𝗻𝗮 𝗮𝗺𝗲𝗻𝗮𝘇𝗮, 𝘀𝗶𝗻𝗼 𝘂𝗻𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗺á𝘀 que hay que integrar sin perder la confianza de la comunidad.\n\n#Debian #Linux #OpenSource\n\nhttps://www.theverge.com/tech/986789/linux-debian-generative-ai-policy"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Un agente de IA de Meta borra los correos de una investigadora de seguridad",
+      "summary": "Summer Yue contó que su agente OpenClaw perdió la instrucción de pedir permiso antes de borrar y acabó eliminando mensajes de su bandeja de entrada. El incidente se debió a la compactación del contexto, que hizo que el agente olvidara la orden original.",
+      "why_it_matters": "Recuerda los riesgos de delegar acciones irreversibles en agentes autónomos sin salvaguardas suficientes.",
+      "url": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un agente de IA de Meta ha borrado correos de una investigadora porque, al compactar su contexto, olvidó la orden de pedir permiso. ¿Hasta qué punto delegamos lo irreversible?\n\n#OpenClaw #Meta #Ciberseguridad #AgentesAutónomos\nhttps://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails",
+        "linkedin": "La compactación de contexto hace que los agentes de IA olviden instrucciones críticas. Esta semana, un agente de Meta borró los correos de una investigadora porque perdió la orden de pedir permiso antes de eliminar. 𝗗𝗲𝗹𝗲𝗴𝗮𝗿 𝗮𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗶𝗿𝗿𝗲𝘃𝗲𝗿𝘀𝗶𝗯𝗹𝗲𝘀 𝗲𝗻 𝘀𝗶𝘀𝘁𝗲𝗺𝗮𝘀 𝗮𝘂𝘁ó𝗻𝗼𝗺𝗼𝘀 𝘀𝗶𝗻 𝘀𝗮𝗹𝘃𝗮𝗴𝘂𝗮𝗿𝗱𝗮𝘀 𝗲𝘀 𝘂𝗻𝗮 𝗮𝗽𝘂𝗲𝘀𝘁𝗮 𝗱𝗲𝗺𝗮𝘀𝗶𝗮𝗱𝗼 𝗮𝗿𝗿𝗶𝗲𝘀𝗴𝗮𝗱𝗮 para cualquier organización. Si confiamos tareas delicadas a estos agentes, necesitamos capas de verificación externas que no dependan de la memoria del modelo.\n\n#OpenClaw #Meta #Ciberseguridad #AgentesAutónomos\n\nhttps://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "OpenAI y otros laboratorios compran miles de Mac mini para entrenar agentes de ordenador",
+      "summary": "OpenAI habría adquirido decenas de miles de Mac mini y Mac Studio para entrenar agentes capaces de manejar un ordenador, según The Information. Anthropic también utiliza hardware de Apple, y la alta demanda ha agotado algunos modelos.",
+      "why_it_matters": "Explica por qué Apple se ha convertido en un proveedor clave para la próxima generación de agentes de IA.",
+      "url": "https://the-decoder.com/openai-and-rival-ai-labs-are-buying-tens-of-thousands-of-mac-minis-to-train-computer-use-agents",
+      "source": "The Decoder",
+      "social": {
+        "x": "¿Dónde se entrena a los agentes de IA que manejarán tu ordenador? En decenas de miles de Mac mini. OpenAI ha comprado tantas que ha agotado modelos.\n\n#Apple #OpenAI #Anthropic\nhttps://the-decoder.com/openai-and-rival-ai-labs-are-buying-tens-of-thousands-of-mac-minis-to-train-computer-use-agents",
+        "linkedin": "Que OpenAI haya comprado decenas de miles de Mac mini para entrenar agentes de ordenador dice más sobre el futuro de la IA que cualquier anuncio de modelo.\n\nApple se convierte así en el proveedor clave de los sistemas que manejarán nuestro ordenador. Anthropic también usa su hardware y la demanda ha agotado algunos modelos. 𝗟𝗮 𝗻𝘂𝗲𝘃𝗮 𝗳𝗿𝗼𝗻𝘁𝗲𝗿𝗮 𝗱𝗲𝗹 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝗜𝗔 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘀𝗼𝗹𝗼 𝗚𝗣𝗨: 𝗲𝗹 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗱𝗲 𝗰𝗼𝗻𝘀𝘂𝗺𝗼 𝘁𝗶𝗲𝗻𝗲 𝘂𝗻 𝗽𝗮𝗽𝗲𝗹 𝗽𝗿𝗼𝘁𝗮𝗴𝗼𝗻𝗶𝘀𝘁𝗮.\n\n#Apple #OpenAI #Anthropic\n\nhttps://the-decoder.com/openai-and-rival-ai-labs-are-buying-tens-of-thousands-of-mac-minis-to-train-computer-use-agents"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "El fabricante chino CXMT lanza sus primeros chips HBM3E para IA",
+      "summary": "ChangXin Memory Technologies ha empezado a producir en pequeñas cantidades memoria HBM3E, el tipo de memoria de alto ancho de banda usado en aceleradores de IA. Es un avance hacia la autosuficiencia de China en componentes críticos.",
+      "why_it_matters": "Reduce la dependencia china de proveedores exteriores en un componente central del despliegue de IA.",
+      "url": "https://the-decoder.com/chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap",
+      "source": "The Decoder",
+      "social": {
+        "x": "¿Y si el próximo cuello de botella de la IA no fuera solo Nvidia? China ya fabrica su propia memoria HBM3E.\n\n#HBM3E #CXMT #Semiconductores #China\nhttps://the-decoder.com/chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap",
+        "linkedin": "Mientras EE.UU. aprieta el cerco tecnológico a China, el país responde con una pieza crítica: la memoria HBM3E que ya fabrica localmente CXMT.\nEste componente es esencial en los aceleradores de IA y hasta ahora solo estaba en manos de SK Hynix y Samsung. Que un fabricante chino entre en HBM3E significa 𝗺𝗲𝗻𝗼𝘀 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮 𝗱𝗲 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿𝗲𝘀 𝗲𝘅𝘁𝗿𝗮𝗻𝗷𝗲𝗿𝗼𝘀 𝗲𝗻 𝗲𝗹 𝗱𝗲𝘀𝗽𝗹𝗶𝗲𝗴𝘂𝗲 𝗱𝗲 𝗜𝗔 y un movimiento claro hacia la autosuficiencia tecnológica. Para el resto del mundo, la pregunta ya no es si China puede sortear las restricciones, sino a qué ritmo lo hará.\n\n#HBM3E #CXMT #Semiconductores #China\n\nhttps://the-decoder.com/chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "lanzamientos",
+      "title": "OpenShot 4.0 trae corrección de color profesional y grabación de pantalla",
+      "summary": "La nueva versión del editor de vídeo open source incluye ruedas de color, curvas, LUTs, osciloscopios y grabación de pantalla, webcam y audio del sistema. También añade máscaras locales de objetos basadas en machine learning.",
+      "why_it_matters": "Equipa a creadores con funciones de edición avanzadas sin pagar licencias ni depender de la nube.",
+      "url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Pagando por DaVinci o Premiere? OpenShot 4.0 añade corrección de color profesional a su editor open source.\n\n#OpenShot #OpenSource #ColorGrading\nhttps://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before",
+        "linkedin": "Hasta ahora, la corrección de color profesional era territorio de suites caras o suscripciones.\nOpenShot 4.0 rompe esa barrera con ruedas de color, curvas, LUTs y osciloscopios integrados en un editor open source. 𝗟𝗼 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘂𝗻 𝗰𝗼𝗺𝗽𝗿𝗼𝗺𝗶𝘀𝗼, 𝗲𝘀 𝘂𝗻𝗮 𝗮𝗹𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝘃𝗮 𝗿𝗲𝗮𝗹 para creadores y estudios que quieren control sin depender de la nube ni de licencias. Y si encima añade grabación de pantalla, la propuesta es difícil de ignorar.\n\n#OpenShot #OpenSource #ColorGrading\n\nhttps://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "VLC supera los 7.000 millones de descargas",
+      "summary": "El reproductor multimedia de VideoLAN alcanza la cifra de 7.000 millones de descargas, 18 meses después de superar los 6.000 millones. El equipo ha portado además VLC al nuevo sistema operativo Vega OS de Amazon para televisores.",
+      "why_it_matters": "Confirma la vigencia del software libre de escritorio frente al dominio de las plataformas de streaming.",
+      "url": "https://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads",
+      "source": "TechCrunch",
+      "social": {
+        "x": "20 años y 7.000 millones de descargas después, VLC sigue siendo el rey del vídeo en tu dispositivo.\n\n#VLC #OpenSource #SoftwareLibre\nhttps://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads",
+        "linkedin": "¿Cuántas apps de hace 20 años siguen siendo imprescindibles hoy? VLC acaba de cruzar los 7.000 millones de descargas y, de paso, se cuela en los televisores con Vega OS, el sistema de Amazon. Mientras el streaming domina la conversación, un proyecto de software libre demuestra que 𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗮𝗯𝗶𝗲𝗿𝘁𝗼 𝘀𝗶𝗴𝘂𝗲 𝘁𝗲𝗻𝗶𝗲𝗻𝗱𝗼 𝘂𝗻𝗮 𝘃𝗶𝗴𝗲𝗻𝗰𝗶𝗮 𝗾𝘂𝗲 𝗹𝗮𝘀 𝗴𝗿𝗮𝗻𝗱𝗲𝘀 𝗰𝗼𝗿𝗽𝗼𝗿𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗻𝗼 𝗽𝘂𝗲𝗱𝗲𝗻 𝗶𝗴𝗻𝗼𝗿𝗮𝗿. La cifra no es una anécdota: es el resultado de una comunidad que lleva años apostando por la compatibilidad universal y la privacidad. Quizás sea momento de que más empresas tomen nota: no todo tiene que ser una plataforma cerrada.\n\n#VLC #OpenSource #SoftwareLibre\n\nhttps://techcrunch.com/2026/08/31/vlc-crosses-7-billion-downloads"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "herramientas",
+      "title": "Guía práctica para eliminar credenciales de larga duración en Google Cloud",
+      "summary": "Un artículo de InfoQ explica cómo aplicar Workload Identity Federation a más de 120 proyectos en producción y sustituir las claves de cuenta de servicio por relaciones de confianza. Las identidades federadas se configuran una vez y se controlan mediante condiciones de atributos.",
+      "why_it_matters": "Ayuda a las empresas a reducir el riesgo de fuga de secretos y simplificar la gestión de identidades en la nube.",
+      "url": "https://www.infoq.com/articles/gcp-wif-scale",
+      "source": "InfoQ",
+      "social": {
+        "x": "120 proyectos en producción y cero claves de cuenta de servicio: así se aplica Workload Identity Federation en Google Cloud.\n\n#GoogleCloud #WorkloadIdentityFederation\nhttps://www.infoq.com/articles/gcp-wif-scale",
+        "linkedin": "¿Sigues rotando claves de cuenta de servicio en Google Cloud? Ese hábito esconde un problema: la clave no debería existir.\n\nWorkload Identity Federation permite sustituir esas claves por una relación de confianza entre el workload y la plataforma, configurada una vez y controlada por condiciones de atributos. InfoQ explica cómo aplicarlo a más de 120 proyectos en producción, y el resultado es una reducción drástica del riesgo de fuga. La conclusión para cualquier responsable de infraestructura es clara: 𝗹𝗮𝘀 𝗰𝗹𝗮𝘃𝗲𝘀 𝗱𝗲 𝗹𝗮𝗿𝗴𝗮 𝗱𝘂𝗿𝗮𝗰𝗶ó𝗻 𝘆𝗮 𝘀𝗼𝗻 𝘂𝗻𝗮 𝘁𝗲𝗰𝗻𝗼𝗹𝗼𝗴í𝗮 𝗵𝗲𝗿𝗲𝗱𝗮𝗱𝗮.\n\n#GoogleCloud #WorkloadIdentityFederation\n\nhttps://www.infoq.com/articles/gcp-wif-scale"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "ECC es un sistema que optimiza el rendimiento de agentes de IA como Claude Code y Cursor, aportando habilidades, memoria y seguridad. Ideal para desarrolladores que buscan exprimir al máximo sus asistentes de código.",
+      "language": "JavaScript",
+      "stars": 245087,
+      "social": {
+        "x": "Alguien acaba de liberar un sistema para exprimir a Claude Code y Cursor: 245.000 estrellas y sin suscripción. 🚀\n\n#ECC #ClaudeCode #OpenSource #GitHub\nhttps://github.com/affaan-m/ECC",
+        "linkedin": "245.000 DESARROLLADORES YA LO USAN PARA TENER A SUS AGENTES DE IA EN MODO PRO. ECC es un sistema open source que optimiza el rendimiento de asistentes como Claude Code y Cursor. No es un plugin más: aporta habilidades, memoria y seguridad en un solo sitio, y lo mejor es que 𝗻𝗼 𝗵𝗮𝗰𝗲 𝗳𝗮𝗹𝘁𝗮 𝗽𝗮𝗴𝗮𝗿 𝘂𝗻𝗮 𝗰𝘂𝗼𝘁𝗮 𝗺𝗲𝗻𝘀𝘂𝗮𝗹. → Añade skills reutilizables a tus agentes. → Mantén memoria de contexto entre sesiones. → Refuerza la seguridad de tus flujos de trabajo. Si aún no has probado a sacarle todo el partido a tus asistentes, esto te interesa. Te dejo el repo abajo para que lo guardes.\n\n#ECC #ClaudeCode #OpenSource #GitHub\n\nhttps://github.com/affaan-m/ECC"
+      }
+    },
+    {
+      "name": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "Minimind te permite entrenar un modelo de lenguaje de 64 millones de parámetros desde cero en solo dos horas. Perfecto para entender cómo funcionan los LLM por dentro sin necesidad de un superordenador.",
+      "language": "Python",
+      "stars": 55924,
+      "social": {
+        "x": "Un repo con 55.924 estrellas te enseña a entrenar un modelo de lenguaje desde cero en 2 horas. Sin GPU de 8.000 €.\n\n#Minimind #LLM #Python #OpenSource\nhttps://github.com/jingyaogong/minimind",
+        "linkedin": "¿CÓMO ENTRENAR UN LLM DESDE CERO SIN UN SUPERORDENADOR?\n\nMinimind lo demuestra: 64 millones de parámetros, dos horas de entrenamiento, y todo el código en Python. No es teoría, es un repositorio con +55.000 estrellas que te lleva de cero a un modelo funcional.\n\nMientras las grandes empresas gastan millones en clusters, este repo te muestra el camino con hardware de andar por casa. Perfecto para quienes quieren entender qué pasa realmente dentro de un modelo de lenguaje.\n\n→ Entrena un modelo de 64M de parámetros desde cero en solo 2 horas.\n→ Todo el proceso explicado y reproducible en Python.\n→ Ideal para aprender arquitecturas, tokenización y optimización.\n→ Con 55.924 estrellas, la comunidad ya lo ha validado.\n→ No necesitas superordenador: 𝗹𝗮 𝗰𝗼𝗺𝗽𝗹𝗲𝗷𝗶𝗱𝗮𝗱 𝗱𝗲 𝗹𝗼𝘀 𝗟𝗟𝗠 𝘀𝗲 𝗲𝗻𝘁𝗶𝗲𝗻𝗱𝗲 𝗰𝗼𝗻 𝗿𝗲𝗰𝘂𝗿𝘀𝗼𝘀 𝗺𝗼𝗱𝗲𝘀𝘁𝗼𝘀.\n\nSi quieres dejar de usar los LLM como caja negra y construir uno desde la base, te dejo el repo aquí abajo. Guárdalo para cuando tengas esas dos horas.\n\n#Minimind #LLM #Python #OpenSource\n\nhttps://github.com/jingyaogong/minimind"
+      }
+    },
+    {
+      "name": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "description": "Aula interactiva multiagente impulsada por IA que ofrece una experiencia de aprendizaje inmersiva con un solo clic. Combina simulación y agentes para facilitar la enseñanza.",
+      "language": "TypeScript",
+      "stars": 26501,
+      "social": {
+        "x": "Alguien acaba de convertir tu clase en un aula de IA con un solo clic. OpenMAIC suma 26.5k estrellas y simula agentes para enseñar sin preparar nada.\n\n#OpenMAIC #TypeScript #OpenSource #GitHub\nhttps://github.com/THU-MAIC/OpenMAIC",
+        "linkedin": "¿Y SI PUDIERAS MONTAR UN AULA INTERACTIVA CON IA EN UN SOLO CLIC?\n\nOpenMAIC es un proyecto open source que está revolucionando la enseñanza: combina agentes y simulación para ofrecer una experiencia de aprendizaje inmersiva. Ya tiene 26.5k estrellas en GitHub y está desarrollado en TypeScript.\n\nMientras muchas plataformas comerciales te cobran por cada usuario, aquí tienes un entorno completo donde los agentes actúan como alumnos, profesores o tutores. Todo listo para desplegar con un solo clic.\n\n→ Despliegue inmediato sin configuración compleja.\n→ Agentes que simulan interacciones reales dentro del aula.\n→ Experiencia inmersiva que combina simulación y enseñanza.\n→ Código abierto para que lo adaptes a tu metodología.\n\nLa clave está en que 𝗹𝗮 𝗲𝗻𝘀𝗲ñ𝗮𝗻𝘇𝗮 𝗽𝘂𝗲𝗱𝗲 𝘀𝗲𝗿 𝗶𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝗶𝘃𝗮, 𝗶𝗻𝗺𝗲𝗿𝘀𝗶𝘃𝗮 𝘆 𝗮𝘂𝘁𝗼𝗴𝗲𝘀𝘁𝗶𝗼𝗻𝗮𝗱𝗮 𝗰𝗼𝗻 𝗜𝗔. Guarda este post para tener el repo a mano y pruébalo.\n\n#OpenMAIC #TypeScript #OpenSource #GitHub\n\nhttps://github.com/THU-MAIC/OpenMAIC"
+      }
+    },
+    {
+      "name": "Osmantic/ODS",
+      "url": "https://github.com/Osmantic/ODS",
+      "description": "Convierte tu PC o Mac en un servidor de IA al completo, con inferencia de LLM, interfaz de chat, voz, agentes y generación de imágenes. Una solución práctica para montar tu propio asistente local sin depender de la nube.",
+      "language": "Python",
+      "stars": 5334,
+      "social": {
+        "x": "Alguien acaba de convertir tu PC o Mac en un servidor de IA local: LLM, chat, voz, agentes e imágenes. Y ya suma 5.334 estrellas.\n\n#ODS #LLM #OpenSource #SelfHosted\nhttps://github.com/Osmantic/ODS",
+        "linkedin": "¿CANSADO DE DEPENDER DE LA NUBE Y PAGAR POR CADA LLAMADA? ESTE REPO LO RESUELVE.\n\nOsmantic/ODS es un proyecto open source en Python que convierte tu PC o Mac en un servidor de IA completo. Nada de APIs de pago ni límites raros: todo corre en local, con privacidad total.\n\n→ Inferencia de LLM directamente en tu equipo.\n→ Interfaz de chat limpia y funcional.\n→ Reconocimiento y síntesis de voz para hablar con tu asistente.\n→ Agentes que ejecutan tareas de forma autónoma.\n→ Generación de imágenes sin salir de tu máquina.\n\nAdemás, ya cuenta con más de 5.300 estrellas, señal de que la comunidad lo está usando. 𝗟𝗮 𝗰𝗹𝗮𝘃𝗲: 𝗺𝗼𝗻𝘁𝗮 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 '𝗖𝗵𝗮𝘁𝗚𝗣𝗧' 𝗽𝗿𝗶𝘃𝗮𝗱𝗼, 𝘀𝗶𝗻 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝘁𝗲𝗿𝗰𝗲𝗿𝗼𝘀 𝗻𝗶 𝗱𝗲 𝗺𝗲𝗻𝘀𝘂𝗮𝗹𝗶𝗱𝗮𝗱𝗲𝘀. Te dejo el repo abajo, guárdalo para tenerlo a mano.\n\n#ODS #LLM #OpenSource #SelfHosted\n\nhttps://github.com/Osmantic/ODS"
+      }
+    },
+    {
+      "name": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "description": "Paquete de habilidades para clientes de IA como Claude Code o Cursor, especializado en ingeniería inversa y pentesting autorizado. Incluye enrutamiento automático y una base de conocimiento que evoluciona sola.",
+      "language": "PowerShell",
+      "stars": 32957,
+      "social": {
+        "x": "Alguien acaba de convertir a Claude Code y Cursor en máquinas de ingeniería inversa. 33.000 estrellas y un paquete de habilidades que evoluciona solo.\n\n#ReverseEngineering #Pentesting #OpenSource #GitHub\nhttps://github.com/zhaoxuya520/reverse-skill",
+        "linkedin": "CLAUDE CODE Y CURSOR AHORA TAMBIÉN HACEN INGENIERÍA INVERSA Y PENTESTING AUTORIZADO.\n\nEste repo con 33.000 estrellas empaqueta habilidades para que los clientes de IA realicen análisis de binarios, búsqueda de vulnerabilidades y pruebas de penetración, todo con enrutamiento automático y una base de conocimiento que se actualiza sola.\n\n→ Enrutamiento automático de tareas de reversa y pentest.\n→ Base de conocimiento que evoluciona con cada uso.\n→ Pensado para Claude Code, Cursor y otros agentes.\n→ PowerShell como lenguaje base, ideal para entornos Windows.\n\n𝗖𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗮 𝘁𝘂 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝗱𝗲 𝗜𝗔 𝗲𝗻 𝘂𝗻 𝗽𝗲𝗻𝘁𝗲𝘀𝘁𝗲𝗿 𝗮𝘂𝘁𝗼𝗿𝗶𝘇𝗮𝗱𝗼. Te dejo el repo abajo.\n\n#ReverseEngineering #Pentesting #OpenSource #GitHub\n\nhttps://github.com/zhaoxuya520/reverse-skill"
+      }
+    }
+  ]
+}
