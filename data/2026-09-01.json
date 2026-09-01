@@ -1,0 +1,298 @@
+{
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T14:52:28.993Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Runway presenta Solaris, un sistema de IA que genera interfaces de software en tiempo real",
+      "summary": "La empresa de IA Runway ha presentado Solaris, el primer modelo de una categoría que denomina 'Interface World Models'. En lugar de ejecutar código, el sistema genera la interfaz de usuario fotograma a fotograma mientras el usuario interactúa con ella.",
+      "why_it_matters": "Abre la puerta a interfaces dinámicas generadas por IA en tiempo real, sin un ciclo de desarrollo tradicional.",
+      "url": "https://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time",
+      "source": "The Decoder",
+      "social": {
+        "x": "¿Y si una interfaz no se programara, sino que se generara mientras la usas? Runway presenta Solaris, que crea la interfaz fotograma a fotograma.\n\n#Runway #Solaris #ModelosGenerativos\nhttps://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time",
+        "linkedin": "¿Y si las interfaces de software se generaran en tiempo real en lugar de programarse? Runway ha presentado Solaris, un modelo que dibuja la interfaz fotograma a fotograma mientras el usuario interactúa, sin necesidad de código.\n\nEsto no es un ajuste cosmético: 𝗰𝗮𝗺𝗯𝗶𝗮 𝗲𝗹 𝗽𝗮𝗽𝗲𝗹 𝗱𝗲𝗹 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿, 𝗾𝘂𝗲 𝗽𝗮𝘀𝗮 𝗱𝗲 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗶𝗿 𝗽𝗮𝗻𝘁𝗮𝗹𝗹𝗮𝘀 𝗮 𝗱𝗶𝗿𝗶𝗴𝗶𝗿 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗼. Solaris abre la puerta a interfaces dinámicas y personalizadas que reaccionan al instante, pero también plantea dudas sobre control y comportamiento predecible. Para equipos de producto y diseño, el primer impacto es imaginable: el ciclo de desarrollo tal y como lo conocemos se acorta drásticamente.\n\n#Runway #Solaris #ModelosGenerativos\n\nhttps://the-decoder.com/runways-solaris-is-an-ai-system-that-generates-software-interfaces-in-real-time"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Almanac: un agente de IA con ordenador propio que conoce toda la empresa",
+      "summary": "Almanac (YC S26) es un agente que vive en su propio ordenador, conectado a las herramientas de la empresa y con una wiki con todo el conocimiento interno. Se le pide trabajo por mensaje y avisa cuando ha terminado, por ejemplo revisando Slack o abriendo issues en GitHub.",
+      "why_it_matters": "Automatiza tareas de conocimiento corporativo que hasta ahora exigían intervención humana constante.",
+      "url": "https://usealmanac.com",
+      "source": "Hacker News",
+      "social": {
+        "x": "Almanac, de YC S26, es un agente de IA con ordenador propio y acceso a toda la wiki de tu empresa. Le encargas algo por mensaje y te avisa cuando termina.\n\n#Almanac #YC #AgentesIA\nhttps://usealmanac.com",
+        "linkedin": "Tu próximo compañero de trabajo podría ser un agente de IA que ya ha leído toda la documentación de la empresa.\nAlmanac, del programa YC S26, vive en su propio ordenador, conectado a Slack, GitHub y otras herramientas, y con una wiki que centraliza el conocimiento interno. Le pides una tarea por mensaje y te avisa cuando la ha completado: revisar Slack, abrir issues, redactar informes. 𝗟𝗮 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝗰𝗼𝗻𝗼𝗰𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗰𝗼𝗿𝗽𝗼𝗿𝗮𝘁𝗶𝘃𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗽𝗿𝗼𝗺𝗲𝘀𝗮 para convertirse en un flujo real, y obliga a las empresas a preguntarse qué tareas de gestión interna pueden delegarse por completo.\n\n#Almanac #YC #AgentesIA\n\nhttps://usealmanac.com"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "AWS Agent Registry ya está disponible: un catálogo para gobernar agentes y herramientas de IA",
+      "summary": "AWS ha lanzado la disponibilidad general de Agent Registry, un catálogo único, buscable y gobernado para agentes, herramientas, skills y recursos personalizados de una organización. Facilita publicar, curar y descubrir componentes de IA a escala.",
+      "why_it_matters": "Poner orden en el creciente ecosistema de agentes es clave para que las empresas los adopten sin caos.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Los agentes de IA se nos están yendo de las manos. AWS acaba de lanzar un registro central para catalogarlos, gobernarlos y desplegarlos a escala.\n\n#AWS #AgentRegistry #MachineLearning\nhttps://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry",
+        "linkedin": "Los agentes de IA se multiplican en las empresas sin un control central, y eso es un problema operativo y de seguridad. AWS ha lanzado la disponibilidad general de Agent Registry, un catálogo que permite publicar, descubrir y curar agentes, herramientas y skills desde un único lugar. 𝗟𝗮 𝗴𝗼𝗯𝗲𝗿𝗻𝗮𝗻𝘇𝗮 𝗱𝗲 𝗹𝗼𝘀 𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗜𝗔 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝘂𝗻𝗮 𝗰𝗮𝗽𝗮 𝗶𝗺𝗽𝗿𝗲𝘀𝗰𝗶𝗻𝗱𝗶𝗯𝗹𝗲 𝗽𝗮𝗿𝗮 𝗲𝘀𝗰𝗮𝗹𝗮𝗿 𝘀𝘂 𝗮𝗱𝗼𝗽𝗰𝗶ó𝗻 sin caer en el caos. Para cualquier equipo que esté desplegando agentes, esta es una pieza que faltaba en la arquitectura.\n\n#AWS #AgentRegistry #MachineLearning\n\nhttps://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "TimesFM-3: el modelo de Google para predicción de series temporales sin entrenamiento previo",
+      "summary": "Google Research ha presentado TimesFM-3, un modelo fundacional zero-shot para forecasting multivariante. Permite hacer predicciones sobre series temporales sin ajuste específico por dominio.",
+      "why_it_matters": "Simplifica tareas de previsión en negocio, energía o logística sin necesidad de montar modelos propios.",
+      "url": "https://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting",
+      "source": "Google Research",
+      "social": {
+        "x": "¿Forecasting sin entrenar un modelo? TimesFM-3 de Google ya lo hace para series temporales.\n\n#TimesFM #GoogleResearch #Forecasting\nhttps://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting",
+        "linkedin": "¿Y si pudieras predecir tus series temporales sin entrenar un modelo?\nGoogle Research ha presentado TimesFM-3, un modelo zero-shot para forecasting multivariante que permite predicciones sin ajuste por dominio. Para comercio, energía o logística, 𝗲𝗹𝗶𝗺𝗶𝗻𝗮 𝗹𝗮 𝗻𝗲𝗰𝗲𝘀𝗶𝗱𝗮𝗱 𝗱𝗲 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗶𝗿 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗽𝗿𝗼𝗽𝗶𝗼𝘀, bajando los costes y abriendo la puerta a cualquier empresa con datos.\n\n#TimesFM #GoogleResearch #Forecasting\n\nhttps://research.google/blog/timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "DLSS 5 llega el 3 de septiembre y exigirá una GPU muy potente",
+      "summary": "Nvidia lanza el esperado DLSS 5 con NBA 2K27, pero requiere un hardware considerable. La compañía defiende que mejora el aspecto frente a los primeros ejemplos, aunque la comunidad lo ve con recelo.",
+      "why_it_matters": "Marca el salto al neural rendering en juegos, aunque levanta dudas sobre sus requisitos.",
+      "url": "https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27",
+      "source": "The Verge",
+      "social": {
+        "x": "El 3 de septiembre llega DLSS 5, pero no para todos: exigirá una GPU muy potente y la comunidad ya recela.\n\n#DLSS5 #Nvidia #NeuralRendering #NBA2K27\nhttps://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27",
+        "linkedin": "El 3 de septiembre DLSS 5 llega con NBA 2K27 y, por primera vez, el salto al neural rendering en juegos pasa por una GPU de gama muy alta. 𝗦𝘂 𝗿𝗲𝗾𝘂𝗶𝘀𝗶𝘁𝗼 𝗱𝗲 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗱𝗲𝗷𝗮 𝗳𝘂𝗲𝗿𝗮 𝗮 𝗹𝗮 𝗺𝗮𝘆𝗼𝗿í𝗮 𝗱𝗲 𝗷𝘂𝗴𝗮𝗱𝗼𝗿𝗲𝘀, y eso es lo que la comunidad cuestiona. Nvidia defiende que el aspecto mejora, pero el recelo es evidente. ¿Es este el precio del futuro gráfico o un paso en falso?\n\n#DLSS5 #Nvidia #NeuralRendering #NBA2K27\n\nhttps://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "'Sonos 27' renueva la app y permite que agentes de IA controlen el sistema de audio",
+      "summary": "Sonos ha anunciado su mayor actualización de software, con interfaz renovada y una nueva base que permite a agentes de IA controlar los altavoces. La compañía asegura que el sistema podrá comunicarse con cualquier IA que elija el usuario.",
+      "why_it_matters": "Lleva la IA al hogar de forma práctica: pedir música o ajustar el equipo con lenguaje natural.",
+      "url": "https://www.engadget.com/2248252/sonos-27-brings-a-refreshed-ui-to-the-app-and-lets-ai-agents-control-your-system",
+      "source": "Engadget",
+      "social": {
+        "x": "¿Y si tu altavoz no dependiera de Alexa ni de Google? Sonos acaba de dejarlo listo para cualquier IA.\n\n#Sonos27 #Sonos\nhttps://www.engadget.com/2248252/sonos-27-brings-a-refreshed-ui-to-the-app-and-lets-ai-agents-control-your-system",
+        "linkedin": "¿Y si tu altavoz no dependiera de Alexa ni de Google? Sonos acaba de dejarlo listo para cualquier IA.\nLa actualización 27 de su app renueva la interfaz y, lo más importante, abre el control del sistema a agentes de IA que elijas tú. 𝗘𝘀𝘁𝗼 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗹 𝗮𝗹𝘁𝗮𝘃𝗼𝘇 𝗲𝗻 𝘂𝗻 𝗱𝗶𝘀𝗽𝗼𝘀𝗶𝘁𝗶𝘃𝗼 𝗮𝗯𝗶𝗲𝗿𝘁𝗼 𝗮 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 y cambia la partida: ya no compites por tener el mejor asistente, sino por tener la mejor integración. Para los usuarios, significa más libertad; para las plataformas, un nuevo campo de batalla.\n\n#Sonos27 #Sonos\n\nhttps://www.engadget.com/2248252/sonos-27-brings-a-refreshed-ui-to-the-app-and-lets-ai-agents-control-your-system"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Cómo conectar un servidor MCP alojado en AgentCore Runtime con Amazon Quick",
+      "summary": "AWS explica el patrón para desplegar un servidor MCP en AgentCore Runtime e integrarlo con Amazon Quick. Así se reutilizan herramientas y agentes de IA ya creados, evitando duplicar conectores para cada cliente.",
+      "why_it_matters": "Estandariza la integración de herramientas de IA y facilita que los clientes las usen en sus flujos.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/connect-an-agentcore-runtime-hosted-mcp-server-to-amazon-quick",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "El problema de los conectores por cliente tiene solución, y AWS la ha escrito. Así se conecta un servidor MCP en AgentCore Runtime con Amazon Quick.\n\n#AWS #MCP #AgentCore #AmazonQuick\nhttps://aws.amazon.com/blogs/machine-learning/connect-an-agentcore-runtime-hosted-mcp-server-to-amazon-quick",
+        "linkedin": "¿Cuántos conectores has escrito para integrar la misma herramienta de IA en distintos clientes?\nAWS ha publicado el patrón para desplegar un servidor MCP en AgentCore Runtime y conectarlo con Amazon Quick. En lugar de duplicar integraciones para cada cliente, 𝗿𝗲𝘂𝘁𝗶𝗹𝗶𝘇𝗮𝘀 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗾𝘂𝗲 𝘆𝗮 𝘁𝗶𝗲𝗻𝗲𝘀 y los expones de forma estándar. Para los equipos de plataforma, esto cambia las reglas: estandarizar la capa de herramientas de IA deja de ser un proyecto propio y pasa a ser una configuración.\n\n#AWS #MCP #AgentCore #AmazonQuick\n\nhttps://aws.amazon.com/blogs/machine-learning/connect-an-agentcore-runtime-hosted-mcp-server-to-amazon-quick"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "HCP Terraform se posiciona como plano de control para la infraestructura impulsada por IA",
+      "summary": "HashiCorp presenta HCP Terraform como la capa de gobernanza para la nueva generación de infraestructura gestionada por agentes de IA. El reto pasa de escribir configuración a verificar y ejecutar con seguridad lo que generan los agentes.",
+      "why_it_matters": "La expansión de agentes de código convierte la validación y el control en el principal cuello de botella.",
+      "url": "https://www.infoq.com/news/2026/09/hcp-terraform-ai-driven-control",
+      "source": "InfoQ",
+      "social": {
+        "x": "La IA ya escribe tu infraestructura. HCP Terraform llega para decir si puedes ejecutarla.\n\n#HashiCorp #HCPTerraform #InfraestructuraComoCódigo\nhttps://www.infoq.com/news/2026/09/hcp-terraform-ai-driven-control",
+        "linkedin": "El reto ya no es escribir infraestructura, sino controlar lo que generan los agentes de IA. HashiCorp presenta HCP Terraform como plano de control para esta nueva etapa, y la jugada tiene sentido: 𝗹𝗮 𝗴𝗼𝗯𝗲𝗿𝗻𝗮𝗻𝘇𝗮 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗰𝗿í𝘁𝗶𝗰𝗼 cuando la configuración se produce en masa. Para los equipos, la confianza en la IA no se improvisa: se construye con políticas y validación.\n\n#HashiCorp #HCPTerraform #InfraestructuraComoCódigo\n\nhttps://www.infoq.com/news/2026/09/hcp-terraform-ai-driven-control"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "Un estudio denuncia que los AI Overviews de Google en elecciones son opacos y parciales",
+      "summary": "AlgorithmWatch analizó 4.480 búsquedas electorales y encontró que los AI Overviews aparecen de forma inconsistente, se apoyan en pocas fuentes y a veces toman partido. La principal fuente es YouTube, la propia plataforma de Google.",
+      "why_it_matters": "Cuestiona la fiabilidad de la IA generativa en un terreno tan sensible como la información electoral.",
+      "url": "https://the-decoder.com/googles-election-ai-overviews-are-opaque-rely-on-few-sources-and-sometimes-take-sides",
+      "source": "The Decoder",
+      "social": {
+        "x": "Los AI Overviews de Google son opacos, inconsistentes y a veces toman partido en las elecciones. Lo dice un estudio con 4.480 búsquedas.\n\n#Google #AIOverviews #AlgorithmWatch #Elecciones\nhttps://the-decoder.com/googles-election-ai-overviews-are-opaque-rely-on-few-sources-and-sometimes-take-sides",
+        "linkedin": "Que Google recurra a su propio YouTube como principal fuente en las respuestas electorales de sus AI Overviews ya es un detalle preocupante. AlgorithmWatch ha analizado 4.480 búsquedas electorales y concluye que estas respuestas son 𝗼𝗽𝗮𝗰𝗮𝘀, 𝗶𝗻𝗰𝗼𝗻𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲𝘀 𝘆 𝗮 𝘃𝗲𝗰𝗲𝘀 𝘁𝗼𝗺𝗮𝗻 𝗽𝗮𝗿𝘁𝗶𝗱𝗼. Cuando la IA generativa se usa para informar sobre elecciones, la transparencia no es un extra, es un requisito democrático. Este estudio demuestra que todavía estamos lejos.\n\n#Google #AIOverviews #AlgorithmWatch #Elecciones\n\nhttps://the-decoder.com/googles-election-ai-overviews-are-opaque-rely-on-few-sources-and-sometimes-take-sides"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "GigaPath-Flash y GigaTIME-Flash: modelos de patología más eficientes para estudios masivos",
+      "summary": "Microsoft Research ha publicado dos modelos fundacionales de patología que reducen drásticamente la carga computacional manteniendo un buen rendimiento. Su objetivo es permitir estudios a escala poblacional que antes eran inviables.",
+      "why_it_matters": "Acercan el análisis de imágenes médicas con IA a hospitales e investigadores con menos recursos.",
+      "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models",
+      "source": "Microsoft Research",
+      "social": {
+        "x": "Un análisis masivo de biopsias ya no exige un superordenador. Microsoft Research libera dos modelos de patología que lo hacen posible con menos recursos.\n\n#MicrosoftResearch #PatologíaDigital #SaludDigital #ModelosFundacionales\nhttps://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models",
+        "linkedin": "La patología digital lleva años prometiendo análisis a gran escala, pero el coste computacional lo hacía inviable para la mayoría de los centros.\n\nMicrosoft Research ha publicado GigaPath-Flash y GigaTIME-Flash, dos modelos que mantienen un buen rendimiento con una fracción de los recursos. Eso acerca el análisis de imágenes médicas a hospitales e investigadores con menos medios. 𝗟𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗽𝗮𝗿𝗮 𝗹𝗼𝘀 𝗲𝘀𝘁𝘂𝗱𝗶𝗼𝘀 𝗽𝗼𝗯𝗹𝗮𝗰𝗶𝗼𝗻𝗮𝗹𝗲𝘀 𝗮𝗰𝗮𝗯𝗮 𝗱𝗲 𝗯𝗮𝗷𝗮𝗿, y con ella se abren preguntas de investigación que antes eran inasumibles.\n\n#MicrosoftResearch #PatologíaDigital #SaludDigital #ModelosFundacionales\n\nhttps://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "Mozilla lanza el bloqueo de anuncios integrado en Firefox para iOS",
+      "summary": "La función bloquea la mayoría de anuncios y rastreadores de terceros antes de que carguen en el iPhone, usando la tecnología Content Blocker de WebKit y el filtro EasyList. No hace falta instalar ninguna extensión aparte.",
+      "why_it_matters": "Mejora la privacidad y el rendimiento en el navegador móvil sin configuración adicional.",
+      "url": "https://www.theverge.com/news/987247/mozilla-firefox-ad-blocker-ios-launch",
+      "source": "The Verge",
+      "social": {
+        "x": "En el iPhone, Firefox acaba de hacer lo que Safari no hace de serie: bloquear anuncios. Y sin instalar nada.\n\n#Firefox #Mozilla #iOS\nhttps://www.theverge.com/news/987247/mozilla-firefox-ad-blocker-ios-launch",
+        "linkedin": "En el iPhone, Firefox acaba de hacer lo que Safari no hace de serie: bloquear anuncios.\n\nMozilla ha integrado el filtro EasyList directamente en el navegador, así que los anuncios y rastreadores de terceros se cortan antes de cargar, sin que tengas que instalar una extensión aparte. En un ecosistema tan cerrado como iOS, 𝗹𝗮 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗲𝘅𝘁𝗿𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗲𝗹 𝗰𝗼𝗺𝗽𝗼𝗿𝘁𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗽𝗼𝗿 𝗱𝗲𝗳𝗲𝗰𝘁𝗼. Para quien usa el móvil para trabajar, esto se traduce en menos rastreo, menos distracción y una navegación más rápida.\n\n#Firefox #Mozilla #iOS\n\nhttps://www.theverge.com/news/987247/mozilla-firefox-ad-blocker-ios-launch"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "RavynOS: un sistema operativo open source que quiere ser compatible con macOS",
+      "summary": "RavynOS es un sistema operativo en fase pre-alpha basado en Darwin, FreeBSD y código abierto de Apple. Pretende ofrecer la experiencia de macOS sin restricciones de hardware y con la libertad del software libre.",
+      "why_it_matters": "Plantea una alternativa abierta al ecosistema cerrado de Apple para quienes quieren ese estilo sin ataduras.",
+      "url": "https://ravynos.com",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Y si pudieras tener macOS sin un Mac? RavynOS promete la experiencia Apple en cualquier hardware, y es open source.\n\n#RavynOS #OpenSource #FreeBSD #macOS\nhttps://ravynos.com",
+        "linkedin": "¿Y si pudieras tener macOS sin un Mac? RavynOS es un sistema operativo en fase pre-alpha basado en Darwin y FreeBSD que busca replicar la experiencia de Apple en cualquier equipo. 𝗟𝗮 𝗹𝗶𝗯𝗲𝗿𝘁𝗮𝗱 𝗱𝗲 𝗲𝗹𝗲𝗴𝗶𝗿 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝘀𝗶𝗻 𝗿𝗲𝗻𝘂𝗻𝗰𝗶𝗮𝗿 𝗮𝗹 𝗲𝗰𝗼𝘀𝗶𝘀𝘁𝗲𝗺𝗮 es la promesa que seduce, aunque aún haya mucho camino por recorrer. Para los que apuestan por lo abierto, es un proyecto a seguir de cerca.\n\n#RavynOS #OpenSource #FreeBSD #macOS\n\nhttps://ravynos.com"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "Guía de AWS para crear chats con agentes multi-tenant sobre datos de empresa en Bedrock",
+      "summary": "AWS publica una guía para construir aplicaciones de chat agénticas multi-tenant sobre Managed Knowledge Base de Bedrock, con aislamiento de datos por usuario e ingestión asíncrona. Incluye buenas prácticas para operar la solución a escala.",
+      "why_it_matters": "Ofrece un modelo claro para desplegar asistentes de documentos en empresas con distintos clientes.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-multi-tenant-agentic-chat-applications-on-enterprise-data-with-amazon-bedrock-managed-knowledge-base",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Que un chat de documentos sea multi-tenant no es un extra: es la diferencia entre pillar un cliente y perderlo. AWS publica una guía para hacerlo en Bedrock.\n\n#AWS #AmazonBedrock #MultiTenancy\nhttps://aws.amazon.com/blogs/machine-learning/build-multi-tenant-agentic-chat-applications-on-enterprise-data-with-amazon-bedrock-managed-knowledge-base",
+        "linkedin": "La diferencia entre una demo y un producto real en IA es el aislamiento de datos.\nCuando das acceso a un chat de documentos a varios clientes, cada uno debe ver solo sus datos, y eso es más difícil de lo que parece. AWS acaba de publicar una guía para construir asistentes multi-tenant sobre Bedrock, con aislamiento por usuario e ingestión asíncrona. 𝗘𝗹 𝗮𝗶𝘀𝗹𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀 𝗲𝘀 𝗲𝗹 𝗿𝗲𝘁𝗼 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹 𝗮𝗹 𝗲𝘀𝗰𝗮𝗹𝗮𝗿 𝘂𝗻 𝗰𝗵𝗮𝘁 𝗱𝗲 𝗲𝗺𝗽𝗿𝗲𝘀𝗮 y esta guía lo convierte en un patrón repetible.\n\n#AWS #AmazonBedrock #MultiTenancy\n\nhttps://aws.amazon.com/blogs/machine-learning/build-multi-tenant-agentic-chat-applications-on-enterprise-data-with-amazon-bedrock-managed-knowledge-base"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "Microsoft y AWS crean un puente multicloud con enlaces privados de 100 Gbps",
+      "summary": "Microsoft ha anunciado un servicio para conectar Azure y AWS de forma privada y con alta velocidad, combinando Azure Multicloud Interconnect con AWS Interconnect. Evita configuraciones de red complejas entre las dos nubes.",
+      "why_it_matters": "Facilita las arquitecturas multicloud, que hasta ahora eran un dolor de cabeza para muchas empresas.",
+      "url": "https://www.theregister.com/off-prem/2026/09/01/microsoft-and-aws-build-the-multicloud-bridge-they-said-customers-barely-needed/5293614",
+      "source": "The Register",
+      "social": {
+        "x": "El día que Microsoft y AWS se dan la mano: enlace privado de 100 Gbps entre Azure y AWS para que el multicloud deje de ser un infierno.\n\n#Azure #AWS #Multicloud\nhttps://www.theregister.com/off-prem/2026/09/01/microsoft-and-aws-build-the-multicloud-bridge-they-said-customers-barely-needed/5293614",
+        "linkedin": "Microsoft y AWS han decidido enterrar el hacha de guerra: un enlace privado de 100 Gbps entre Azure y AWS promete simplificar el multicloud como nunca antes. Hasta ahora, mover cargas entre las dos nubes exigía configuraciones de red complejas y latencia por internet. Este nuevo puente, basado en Azure Multicloud Interconnect y AWS Interconnect, deja esa época atrás. Para las empresas que viven en un entorno multicloud, 𝗹𝗮 𝗰𝗼𝗺𝗽𝗹𝗲𝗷𝗶𝗱𝗮𝗱 𝗱𝗲 𝗿𝗲𝗱 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗹𝗮 𝗲𝘅𝗰𝘂𝘀𝗮 𝗽𝗮𝗿𝗮 𝗻𝗼 𝗱𝗶𝘃𝗲𝗿𝘀𝗶𝗳𝗶𝗰𝗮𝗿. La pregunta es si el resto de nubes seguirán el mismo camino.\n\n#Azure #AWS #Multicloud\n\nhttps://www.theregister.com/off-prem/2026/09/01/microsoft-and-aws-build-the-multicloud-bridge-they-said-customers-barely-needed/5293614"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Waymo lanza su robotaxi en Denver, San Diego y Tampa y ya opera en 14 ciudades",
+      "summary": "El servicio de taxis autónomos de Alphabet comenzará a invitar usuarios de forma gradual en tres nuevas ciudades. La compañía sigue su estrategia habitual de ampliar el acceso poco a poco.",
+      "why_it_matters": "Confirma que la conducción autónoma comercial sigue expandiéndose por Estados Unidos.",
+      "url": "https://techcrunch.com/2026/09/01/waymo-accelerates-robotaxi-expansion-with-launches-in-denver-san-diego-and-tampa",
+      "source": "TechCrunch",
+      "social": {
+        "x": "¿Todavía crees que el coche autónomo es un experimento? Waymo ya opera en 14 ciudades: Denver, San Diego y Tampa son las últimas. La conducción autónoma comercial no frena.\n\n#Waymo #Robotaxi #ConduccionAutonoma\nhttps://techcrunch.com/2026/09/01/waymo-accelerates-robotaxi-expansion-with-launches-in-denver-san-diego-and-tampa",
+        "linkedin": "¿Cuántas ciudades necesitas para que el coche autónomo sea una realidad? Waymo ya opera en 14, y acaba de sumar Denver, San Diego y Tampa.\n\nLa expansión es gradual pero constante, lo que demuestra que el robotaxi ya no es un piloto: es un servicio comercial. 𝗪𝗮𝘆𝗺𝗼 𝗲𝘀𝘁á 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝘆𝗲𝗻𝗱𝗼 𝘂𝗻𝗮 𝗿𝗲𝗱 𝗱𝗲 𝗺𝗼𝘃𝗶𝗹𝗶𝗱𝗮𝗱 𝗾𝘂𝗲 𝗼𝗯𝗹𝗶𝗴𝗮𝗿á 𝗮 𝗿𝗲𝗽𝗹𝗮𝗻𝘁𝗲𝗮𝗿 𝗲𝗹 𝘁𝗿𝗮𝗻𝘀𝗽𝗼𝗿𝘁𝗲 𝘂𝗿𝗯𝗮𝗻𝗼 y a las empresas del sector a acelerar sus propias apuestas.\n\n#Waymo #Robotaxi #ConduccionAutonoma\n\nhttps://techcrunch.com/2026/09/01/waymo-accelerates-robotaxi-expansion-with-launches-in-denver-san-diego-and-tampa"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Instagram limita el alcance de los perfiles de IA no etiquetados",
+      "summary": "Ante el malestar por los influencers artificiales, Instagram restringe la visibilidad de los perfiles de IA que no estén claramente identificados. La plataforma reconoce que los usuarios a menudo no distinguen entre cuentas reales y generadas.",
+      "why_it_matters": "La transparencia sobre los perfiles sintéticos se convierte en una exigencia regulatoria y social.",
+      "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles",
+      "source": "TechCrunch",
+      "social": {
+        "x": "¿Ese influencer es real? Instagram limita el alcance de los perfiles de IA que no se identifican.\n\n#Instagram #Meta #InfluencersIA #Transparencia\nhttps://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles",
+        "linkedin": "Los perfiles de IA sin etiqueta pierden alcance en Instagram.\n\nLa plataforma responde a la confusión creciente entre cuentas reales y sintéticas. 𝗟𝗮 𝘁𝗿𝗮𝗻𝘀𝗽𝗮𝗿𝗲𝗻𝗰𝗶𝗮 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝘂𝗻𝗮 𝗲𝘅𝗶𝗴𝗲𝗻𝗰𝗶𝗮 𝗿𝗲𝗴𝘂𝗹𝗮𝘁𝗼𝗿𝗶𝗮 𝘆 𝘀𝗼𝗰𝗶𝗮𝗹, y también en un factor de distribución. Si trabajas con influencers virtuales, identificarlos ya no es opcional.\n\n#Instagram #Meta #InfluencersIA #Transparencia\n\nhttps://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "CXMT fabrica sus primeros chips HBM3E y acerca a China a la memoria de IA de última generación",
+      "summary": "El mayor fabricante chino de memoria, ChangXin Memory Technologies, ha producido sus primeros lotes de HBM3E en pequeñas cantidades. Este tipo de memoria es clave en los aceleradores de IA actuales.",
+      "why_it_matters": "Reduce la dependencia china de importaciones de memoria en plena pugna tecnológica por la IA.",
+      "url": "https://the-decoder.com/chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap",
+      "source": "The Decoder",
+      "social": {
+        "x": "CXMT, el mayor fabricante chino de memoria, ya produce sus primeros HBM3E. En la guerra de la IA, controlar esta pieza es casi tan importante como tener GPU.\n\n#CXMT #HBM3E #Semiconductores\nhttps://the-decoder.com/chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap",
+        "linkedin": "China ha dado un paso clave para su autonomía en IA: CXMT, su mayor fabricante de memoria, ya produce HBM3E, la memoria que necesitan los aceleradores de IA. Este hito reduce su dependencia de las importaciones en plena guerra tecnológica y demuestra que 𝗹𝗮 𝗰𝗮𝗱𝗲𝗻𝗮 𝗱𝗲 𝘀𝘂𝗺𝗶𝗻𝗶𝘀𝘁𝗿𝗼 𝗱𝗲 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗱𝗲 𝗮𝗹𝘁𝗼 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝘀𝗲 𝗲𝘀𝘁á 𝗿𝗲𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗻𝗱𝗼. La IA no se juega solo con procesadores: la memoria también es estratégica.\n\n#CXMT #HBM3E #Semiconductores\n\nhttps://the-decoder.com/chinas-cxmt-makes-its-first-hbm3e-chips-closing-the-ai-memory-gap"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "El Pentágono incorpora versiones propias de ChatGPT y Grok a su portal de IA",
+      "summary": "Las versiones clasificadas de ChatGPT de OpenAI y Grok de SpaceXAI se unirán a Gemini en el portal central de herramientas de IA del Pentágono. Es un paso más en la adopción militar de modelos generativos.",
+      "why_it_matters": "La IA generativa se convierte en infraestructura crítica también en el ámbito de la defensa.",
+      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El Pentágono acaba de meter a ChatGPT y Grok en su portal de IA clasificada. La guerra también se libra con modelos generativos.\n\n#Pentágono #ChatGPT #Grok #OpenAI\nhttps://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok",
+        "linkedin": "Que el Pentágono integre ChatGPT y Grok en su portal de IA no es una anécdota: es la señal de que 𝗹𝗮 𝗜𝗔 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗮 𝘀𝗲 𝗵𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗰𝗿í𝘁𝗶𝗰𝗮 𝗽𝗮𝗿𝗮 𝗹𝗮 𝗱𝗲𝗳𝗲𝗻𝘀𝗮. OpenAI y xAI han desarrollado versiones clasificadas de sus modelos para operar en entornos militares, un paso que reconfigura la relación entre Silicon Valley y el Pentágono. Las implicaciones para la seguridad, la ética y el control de esta tecnología son enormes, y apenas estamos empezando a verlas.\n\n#Pentágono #ChatGPT #Grok #OpenAI\n\nhttps://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "Alternativa open source y totalmente local a ElevenLabs para clonar voces, diseñarlas, doblar vídeos y transcribir audio en 646 idiomas. Perfecta para crear contenido de voz sin depender de servicios externos.",
+      "language": "Python",
+      "stars": 13299,
+      "social": {
+        "x": "Alguien acaba de liberar una alternativa open source a ElevenLabs que clona voces, dobla vídeos y transcribe en 646 idiomas. Todo local y sin pagar un céntimo.\n\n#VoiceStudio #OpenSource #Python #GitHub\nhttps://github.com/debpalash/VoiceStudio",
+        "linkedin": "ALGUIEN ACABA DE LIBERAR LA ALTERNATIVA OPEN SOURCE A ELEVENLABS QUE CLONA VOCES EN 646 IDIOMAS.\n\nMientras los servicios comerciales te atan con suscripciones, VoiceStudio corre 100% en tu máquina. La clave: 𝘁𝗼𝗱𝗼 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮 𝗲𝗻 𝗹𝗼𝗰𝗮𝗹, así que tus audios no salen de tu equipo ni estás expuesto a cortes de API.\n\n¿Qué puedes hacer?\n\n→ Clonar cualquier voz con unos minutos de muestra.\n→ Diseñar voces sintéticas desde cero.\n→ Doblar vídeos a 646 idiomas sin depender de servicios externos.\n→ Transcribir audio con precisión, incluso sin conexión.\n\nUn proyecto con más de 13.000 estrellas que demuestra que la síntesis de voz de nivel profesional ya no es exclusiva de los grandes. Te dejo el repo abajo.\n\n#VoiceStudio #OpenSource #Python #GitHub\n\nhttps://github.com/debpalash/VoiceStudio"
+      }
+    },
+    {
+      "name": "browser-use/video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "description": "Permite editar vídeos usando agentes de codificación. Automatiza tareas como cortar, unir o añadir efectos mediante instrucciones en lenguaje natural.",
+      "language": "Python",
+      "stars": 22679,
+      "social": {
+        "x": "Alguien acaba de regalar un editor de vídeo que obedece órdenes en lenguaje natural. Ya suma 22.6k estrellas.\n\n#VideoUse #OpenSource #Python #GitHub\nhttps://github.com/browser-use/video-use",
+        "linkedin": "EDITAR VÍDEO DICIENDO QUÉ HACER, NO CÓMO.\nEste proyecto open source convierte tus instrucciones en acciones reales sobre el vídeo: cortar, unir, añadir efectos, todo sin tocar la línea de tiempo.\n→ Automatiza tareas tediosas con agentes de codificación\n→ Funciona con lenguaje natural, sin conocimientos técnicos\n→ Hecho en Python y ya tiene más de 22.6k estrellas\nSi editar vídeo te quita horas, 𝗲𝘀𝘁𝗼 𝘁𝗲 𝗱𝗲𝘃𝘂𝗲𝗹𝘃𝗲 𝗹𝗮 𝘃𝗶𝗱𝗮. Te dejo el repo abajo.\n\n#VideoUse #OpenSource #Python #GitHub\n\nhttps://github.com/browser-use/video-use"
+      }
+    },
+    {
+      "name": "Gitlawb/openclaude",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "description": "Agente de IA que funciona en cualquier entorno y se conecta con cualquier herramienta. Muy flexible para automatizar tareas con Claude sin atarse a una plataforma.",
+      "language": "TypeScript",
+      "stars": 31083,
+      "social": {
+        "x": "¿Cansado de que la IA solo funcione dentro de un ecosistema cerrado? Alguien ha creado OpenClaude, un agente que se conecta a cualquier herramienta. 31.083 estrellas y cero lock-in.\n\n#OpenClaude #TypeScript #OpenSource #GitHub\nhttps://github.com/Gitlawb/openclaude",
+        "linkedin": "ADIÓS AL LOCK-IN: ESTE AGENTE DE IA SE CONECTA A CUALQUIER HERRAMIENTA.\n\nOpenClaude acaba de llegar a GitHub con 31.083 estrellas. Es un agente de IA en TypeScript que funciona en cualquier entorno y se integra con lo que ya uses, sin obligarte a vivir dentro de una plataforma.\n\n→ Funciona en cualquier entorno: local, CI, servidores, lo que sea.\n→ Se conecta con cualquier herramienta: APIs, CLIs, plugins, etc.\n→ Flexibilidad total para automatizar tareas con Claude sin reescribir tu stack.\n→ Cero ataduras: tú pones el contexto, él se adapta.\n\nLa clave es que 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝘀𝗲 𝗮𝗱𝗮𝗽𝘁𝗮 𝗮 𝘁𝘂 𝘀𝘁𝗮𝗰𝗸, y no al revés. Guárdate este post para cuando necesites un agente de IA que no te ate a nada. Te dejo el repo abajo.\n\n#OpenClaude #TypeScript #OpenSource #GitHub\n\nhttps://github.com/Gitlawb/openclaude"
+      }
+    },
+    {
+      "name": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Conjunto de habilidades para Claude Code que guían el proceso de investigación académica: investigar, redactar, revisar y finalizar. Muy útil para automatizar la escritura de artículos y revisiones.",
+      "language": "Python",
+      "stars": 44678,
+      "social": {
+        "x": "Alguien acaba de liberar un set de skills para Claude Code que automatiza la investigación académica: investigar, redactar, revisar y finalizar. 44.6k estrellas y open source.\n\n#AcademicResearch #ClaudeCode #OpenSource\nhttps://github.com/Imbad0202/academic-research-skills",
+        "linkedin": "¿CANSADO DE ESCRIBIR PAPERS DESDE CERO? ESTE REPO ENSEÑA A CLAUDE CODE A HACERLO POR TI.\nEste repositorio reúne un conjunto de skills que cubren todo el ciclo de una investigación académica: desde el primer borrador hasta la revisión final. Convierte a Claude Code en tu 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝗱𝗲 𝗶𝗻𝘃𝗲𝘀𝘁𝗶𝗴𝗮𝗰𝗶ó𝗻 𝗮𝗰𝗮𝗱é𝗺𝗶𝗰𝗮. Mientras muchas herramientas de pago te cobran por cada función, aquí tienes 44.6k estrellas de comunidad y un enfoque completamente open source.\n→ Investiga automáticamente fuentes y estructura el trabajo.\n→ Redacta secciones con coherencia y criterio académico.\n→ Revisa el texto con un ojo crítico antes de entregar.\n→ Finaliza el paper listo para enviar o publicar.\nSi escribes artículos, revisiones o tesis, este repo te va a ahorrar horas. Te lo dejo abajo, guárdalo para la próxima sesión.\n\n#AcademicResearch #ClaudeCode #OpenSource\n\nhttps://github.com/Imbad0202/academic-research-skills"
+      }
+    },
+    {
+      "name": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "description": "Librería en Rust para inspeccionar PDFs, clasificarlos y extraer texto de forma rápida. Detecta si un PDF es escaneado o basado en texto, lo que facilita decidir el siguiente paso en un pipeline.",
+      "language": "Rust",
+      "stars": 17737,
+      "social": {
+        "x": "¿PDF escaneado o digital? Este repo en Rust lo detecta al instante y extrae texto sin fricción. Ya suma 17.737 estrellas.\n\n#PDFInspector #Rust #OpenSource\nhttps://github.com/firecrawl/pdf-inspector",
+        "linkedin": "¿TUS PDFs TE HACEN PERDER HORAS? ESTA LIBRERÍA EN RUST LOS CLASIFICA AL INSTANTE.\n\nFirecrawl acaba de abrir el código de pdf-inspector, una herramienta que analiza cualquier PDF y te dice si es escaneado o basado en texto. Algo clave para decidir si necesitas OCR o basta con extracción directa.\n\n→ Detecta el tipo de PDF con precisión, incluso en lotes\n→ Extrae texto de forma rápida y ligera, pensada para pipelines\n→ Escrita en Rust, se integra donde el rendimiento importa\n→ Con más de 17.700 estrellas, la comunidad ya la está adoptando\n\nSi trabajas con documentos, guarda este post y prueba el repo. Te lo dejo aquí abajo.\n\n#PDFInspector #Rust #OpenSource\n\nhttps://github.com/firecrawl/pdf-inspector"
+      }
+    }
+  ]
+}
