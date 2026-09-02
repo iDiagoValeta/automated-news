@@ -1,0 +1,324 @@
+{
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T14:28:26.937Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "herramientas",
+      "title": "Google Pics lleva la IA generativa de imágenes a Workspace",
+      "summary": "Google lanza Google Pics, su herramienta de creación y edición de imágenes integrada en Workspace y basada en el modelo Nano Banana. Permite generar o retocar imágenes con instrucciones en lenguaje natural y se presenta como una alternativa a Canva y Adobe con un enfoque AI-first.",
+      "why_it_matters": "Pone la generación de imágenes por IA al alcance de millones de usuarios en las herramientas que ya usan cada día.",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics",
+      "source": "Google AI",
+      "social": {
+        "x": "Adiós a cambiar de pestaña: Google Pics integra la generación de imágenes en Workspace. El modelo se llama Nano Banana y promete competir con Canva desde Docs o Gmail.\n\n#GooglePics #NanoBanana #GoogleWorkspace\nhttps://blog.google/products-and-platforms/products/workspace/google-pics",
+        "linkedin": "Google ha movido ficha en la guerra de la creación visual: Google Pics llega a Workspace. La nueva herramienta, basada en el modelo Nano Banana, permite generar o retocar imágenes con lenguaje natural dentro de Docs, Gmail o Presentaciones. Para millones de usuarios esto significa que la IA generativa deja de ser un experimento aparte y 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝘂𝗻𝗮 𝗲𝘅𝘁𝗲𝗻𝘀𝗶ó𝗻 𝗻𝗮𝘁𝘂𝗿𝗮𝗹 𝗱𝗲 𝘀𝘂 𝗿𝘂𝘁𝗶𝗻𝗮 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼. La presión sobre Canva y Adobe es real, y su respuesta marcará el futuro de la edición visual. La jugada de Google no es solo tecnológica, es de ecosistema.\n\n#GooglePics #NanoBanana #GoogleWorkspace\n\nhttps://blog.google/products-and-platforms/products/workspace/google-pics"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Anthropic lanza Claude Fable 5.1 con mejoras en código y un 45% menos de coste",
+      "summary": "Anthropic presenta Claude Fable 5.1, su modelo más avanzado para codificación e investigación, junto con Mythos 5.1. Fable 5.1 duplica la puntuación de su predecesor en Terminal-Bench-Science, mejora más de un 30% la codificación agéntica y reduce hasta un 45% el coste en ejecuciones autónomas largas.",
+      "why_it_matters": "Mayor capacidad y menor coste en tareas de agente, lo que acelera la adopción de la IA en entornos de desarrollo exigentes.",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less",
+      "source": "The Decoder",
+      "social": {
+        "x": "Los agentes de código acaban de ganar un 45% de margen. Claude Fable 5.1 de Anthropic ya está aquí.\n\n#Anthropic #ClaudeFable #LLM\nhttps://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less",
+        "linkedin": "El coste de los agentes de IA acaba de bajar un 45% sin sacrificar rendimiento. Anthropic ha presentado Claude Fable 5.1, su modelo más avanzado para codificación, que 𝗱𝘂𝗽𝗹𝗶𝗰𝗮 𝗹𝗮 𝗽𝘂𝗻𝘁𝘂𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝘀𝘂 𝗽𝗿𝗲𝗱𝗲𝗰𝗲𝘀𝗼𝗿 𝗲𝗻 𝘁𝗮𝗿𝗲𝗮𝘀 𝗰𝗶𝗲𝗻𝘁í𝗳𝗶𝗰𝗮𝘀 y mejora más de un 30% la codificación agéntica. Para los equipos que evalúan IA en entornos de desarrollo, este es el argumento que faltaba para pasar de las pruebas a producción.\n\n#Anthropic #ClaudeFable #LLM\n\nhttps://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "World Labs presenta Atlas, un modelo de mundo para generar y simular espacios 3D",
+      "summary": "World Labs, la compañía de Fei-Fei Li, presenta Atlas, un omni world model que genera, reconstruye y simula mundos tridimensionales. Puede crear escenarios imaginados, reconstruir espacios reales a partir de unas pocas fotos y generar datos de entrenamiento para robots en simulación.",
+      "why_it_matters": "Es un paso relevante hacia la inteligencia espacial, con aplicaciones directas en robótica, simulación y creación de contenido.",
+      "url": "https://www.worldlabs.ai/blog/atlas",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Y si una IA pudiera reconstruir una habitación real a partir de tres fotos y luego simular lo que pasa dentro? Eso hace Atlas, el nuevo modelo de World Labs.\n\n#WorldLabs #Atlas #InteligenciaEspacial\nhttps://www.worldlabs.ai/blog/atlas",
+        "linkedin": "La siguiente frontera de la IA no es solo generar texto: es entender y simular el espacio 3D. World Labs, la compañía de Fei-Fei Li, presenta Atlas, un omni world model que reconstruye escenarios reales a partir de unas pocas fotos y genera datos sintéticos para entrenar robots. Si la inteligencia espacial se convierte en el nuevo campo de batalla, 𝗾𝘂𝗶𝗲𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗲 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗱𝗲 𝗺𝘂𝗻𝗱𝗼 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮𝗿á 𝗹𝗮 𝗽𝗿ó𝘅𝗶𝗺𝗮 𝗱é𝗰𝗮𝗱𝗮 𝗱𝗲 𝗹𝗮 𝗿𝗼𝗯ó𝘁𝗶𝗰𝗮. Y Atlas es un primer paso serio para que el sector deje de depender de entornos de entrenamiento limitados.\n\n#WorldLabs #Atlas #InteligenciaEspacial\n\nhttps://www.worldlabs.ai/blog/atlas"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Google DeepMind enseña a Gemini a analizar vídeo de forma agéntica con menos tokens",
+      "summary": "Gemini 3.7 Flash, 3.6 Flash y 3.5 Flash-Lite incorporan comprensión de vídeo agéntica: el propio modelo decide qué segmentos examinar y a qué resolución. Google asegura que reduce el consumo de tokens hasta un 88% y mejora la precisión en vídeos de larga duración.",
+      "why_it_matters": "El análisis eficiente de vídeos de varias horas abre casos de uso que antes resultaban inviables por coste.",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "Hasta un 88% menos de tokens para analizar vídeo. Gemini ahora decide qué fragmentos examinar y a qué resolución, y los vídeos de larga duración por fin son viables. DeepMind lo ha hecho posible.\n\n#Gemini #GoogleDeepMind\nhttps://deepmind.google/blog/introducing-agentic-video-in-gemini",
+        "linkedin": "Analizar un vídeo de varias horas consumía tantos tokens que casi nadie lo intentaba. Gemini lo cambia con un enfoque agéntico: el modelo decide qué fragmentos examinar y a qué resolución, y recorta el consumo hasta un 88%. 𝗟𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗽𝗮𝗿𝗮 𝗲𝗹 𝘃í𝗱𝗲𝗼 𝗹𝗮𝗿𝗴𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗲𝘅𝗶𝘀𝘁𝗶𝗿, y con ella se abren casos de uso antes inviables: desde auditorías de grabaciones hasta resúmenes automáticos de horas de metraje. La pregunta deja de ser cuánto costará procesarlo y pasa a ser qué problema quieres resolver.\n\n#Gemini #GoogleDeepMind\n\nhttps://deepmind.google/blog/introducing-agentic-video-in-gemini"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Multiverse Computing lanza Quasar 438B, su modelo de razonamiento para empresas",
+      "summary": "La compañía europea Multiverse Computing presenta Quasar 438B, un modelo de razonamiento para agentes empresariales y codificación que funciona en inglés y español. Según sus pruebas, supera a los modelos europeos comparables en siete de ocho evaluaciones de Artificial Analysis.",
+      "why_it_matters": "Demuestra que Europa puede competir en modelos de gran tamaño con una oferta bilingüe orientada a la empresa.",
+      "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
+      "source": "Hacker News",
+      "social": {
+        "x": "Mientras el mundo mira a OpenAI y Google, Europa responde con Quasar 438B: un modelo de razonamiento bilingüe que ya supera a rivales europeos en 7 de 8 pruebas.\n\n#Quasar438B #MultiverseComputing #ArtificialAnalysis\nhttps://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
+        "linkedin": "Mientras Europa debate su soberanía tecnológica en los despachos, una empresa ya ha puesto un modelo competitivo sobre la mesa.\nMultiverse Computing ha presentado Quasar 438B, un modelo de razonamiento para agentes y código que funciona en inglés y español. Según sus pruebas, supera a los modelos europeos comparables en siete de ocho evaluaciones. 𝗘𝘂𝗿𝗼𝗽𝗮 𝗽𝘂𝗲𝗱𝗲 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝗿 𝗲𝗻 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗱𝗲 𝗴𝗿𝗮𝗻 𝘁𝗮𝗺𝗮ñ𝗼 𝘀𝗶 𝗮𝗽𝘂𝗻𝘁𝗮 𝗮 𝗻𝗶𝗰𝗵𝗼𝘀 𝗰𝗼𝗻𝗰𝗿𝗲𝘁𝗼𝘀; la apuesta por el bilingüismo y el foco empresarial es una vía tan obvia como necesaria.\n\n#Quasar438B #MultiverseComputing #ArtificialAnalysis\n\nhttps://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Meta presenta un modelo de transcripción en tiempo real multihablante y multilingüe",
+      "summary": "El laboratorio Meta Superintelligence Lab ha publicado un modelo de transcripción capaz de distinguir a varios hablantes e idiomas en tiempo real, incluso cuando se alternan en la misma conversación. La herramienta resulta útil para subtítulos, reuniones y contenido multilingüe.",
+      "why_it_matters": "Resuelve un problema cotidiano: transcribir conversaciones reales con varios participantes y cambios de idioma.",
+      "url": "https://www.engadget.com/2249112/meta-new-ai-transcription-model-can-distinguist-between-multiple-speakers-and-languages-in-real-time",
+      "source": "Engadget",
+      "social": {
+        "x": "¿Cuántas veces has visto fallar la transcripción cuando dos personas hablan en idiomas distintos? Meta presenta un modelo que los transcribe en tiempo real, incluso si cambian de idioma a mitad de frase.\n\n#Meta #Transcripcion #Multilingue #TiempoReal\nhttps://www.engadget.com/2249112/meta-new-ai-transcription-model-can-distinguist-between-multiple-speakers-and-languages-in-real-time",
+        "linkedin": "Transcribir una reunión donde se mezclan varios idiomas es uno de los retos pendientes de la IA.\n\nMeta ha publicado un modelo que lo resuelve en tiempo real: identifica a cada hablante y sigue los cambios de idioma, incluso dentro de una misma frase. Para subtitulado en directo, actas de reuniones o cualquier contenido multilingüe, 𝗲𝘀𝘁𝗼 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗮𝘂𝘁𝗼𝗺á𝘁𝗶𝗰𝗼 𝘂𝗻𝗮 𝘁𝗮𝗿𝗲𝗮 𝗾𝘂𝗲 𝘀𝗶𝗲𝗺𝗽𝗿𝗲 𝗱𝗲𝗽𝗲𝗻𝗱í𝗮 𝗱𝗲 𝗲𝗱𝗶𝗰𝗶ó𝗻 𝗺𝗮𝗻𝘂𝗮𝗹.\n\n#Meta #Transcripcion #Multilingue #TiempoReal\n\nhttps://www.engadget.com/2249112/meta-new-ai-transcription-model-can-distinguist-between-multiple-speakers-and-languages-in-real-time"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Anthropic abre a reguladores y medios la verificación de texto generado por Claude",
+      "summary": "Anthropic lanza una API para que reguladores, medios, verificadores e investigadores puedan comprobar si un texto lleva la marca de agua digital de Claude. La medida responde a la exigencia de marcas invisibles en el texto generado por IA que introduce la Ley de IA europea.",
+      "why_it_matters": "Aporta transparencia para distinguir contenido sintético en un momento de auge de la desinformación.",
+      "url": "https://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others",
+      "source": "The Decoder",
+      "social": {
+        "x": "¿Quién está detrás de ese texto: un humano o Claude? Anthropic abre a reguladores y medios la verificación de su marca de agua.\n\n#Anthropic #Claude #LeyIA\nhttps://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others",
+        "linkedin": "¿Quién está detrás de ese texto: un humano o Claude? Anthropic ha abierto una API para que reguladores y medios puedan verificarlo.\n\nLa medida no es una casualidad: responde a la exigencia de la Ley de IA europea de marcar los textos sintéticos. Con esta API, Anthropic ofrece 𝘂𝗻𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗼𝗳𝗶𝗰𝗶𝗮𝗹 𝗽𝗮𝗿𝗮 𝗱𝗮𝗿 𝘁𝗿𝗮𝗻𝘀𝗽𝗮𝗿𝗲𝗻𝗰𝗶𝗮 en un momento crítico de desinformación. Para las redacciones y los verificadores, es un avance real: tendrán un método fiable para confirmar el origen de un contenido. Para el resto del sector, es un recordatorio de que la procedencia de la IA será cada vez más auditable.\n\n#Anthropic #Claude #LeyIA\n\nhttps://the-decoder.com/anthropic-opens-claude-ai-text-detection-to-regulators-media-fact-checkers-and-others"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "ChatGPT Health se integra con Epic para que los clínicos importen historiales",
+      "summary": "OpenAI añade a ChatGPT Health una integración con Epic que permite a los profesionales sanitarios importar datos de pacientes con acceso de solo lectura. La función facilita consultar el historial dentro de la conversación con el asistente.",
+      "why_it_matters": "Acerca la IA generativa al puesto de trabajo clínico real, donde la integración con la historia del paciente es clave.",
+      "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El muro entre el historial clínico y la IA acaba de rajarse. ChatGPT Health se integra con Epic para que los clínicos consulten datos de pacientes desde el chat.\n\n#OpenAI #ChatGPTHealth #Epic #SaludDigital\nhttps://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data",
+        "linkedin": "Hasta ahora, un clínico podía conversar con una IA, pero sin acceso al historial del paciente; la integración de ChatGPT Health con Epic cambia eso.\nOpenAI ha conectado el asistente con Epic en modo solo lectura, para que los clínicos importen datos y los consulten dentro de la conversación. Es el primer paso para que la IA generativa deje de responder de memoria y trabaje con 𝗲𝗹 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗱𝗲𝗹 𝗽𝗮𝗰𝗶𝗲𝗻𝘁𝗲. Pero el acceso a los datos no sustituye el criterio clínico: convierte al asistente en un copiloto mejor informado, y eso ya es mucho.\n\n#OpenAI #ChatGPTHealth #Epic #SaludDigital\n\nhttps://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "OpenClaw 2.0 simplifica la instalación de agentes de IA personales y colaborativos",
+      "summary": "La nueva versión del agente personal de código abierto OpenClaw renueva su proceso de instalación, interfaz de navegador, memoria, habilidades, automatizaciones y seguridad. También añade funciones de colaboración entre agentes.",
+      "why_it_matters": "Baja la barrera para tener un agente de IA propio, self-hosted y controlado por el usuario.",
+      "url": "https://www.infoq.com/news/2026/09/openclaw-2-release",
+      "source": "InfoQ",
+      "social": {
+        "x": "¿Un agente de IA propio y self-hosted? OpenClaw 2.0 hace que montarlo ya no sea cosa de valientes: simplifica la instalación, renueva la interfaz del navegador y añade agentes colaborativos.\n\n#OpenClaw #OpenSource #SelfHosted\nhttps://www.infoq.com/news/2026/09/openclaw-2-release",
+        "linkedin": "Montar un agente de IA self-hosted siempre fue territorio de valientes.\nOpenClaw 2.0 llega para acabar con esa fama: renueva el proceso de instalación y su interfaz en el navegador, y permite que varios agentes colaboren entre sí. Si evitabas el despliegue local por la complejidad de la configuración, 𝗹𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗮𝗰𝗮𝗯𝗮 𝗱𝗲 𝗯𝗮𝗷𝗮𝗿: mantienes el control de tus datos y de tus automatizaciones.\n\n#OpenClaw #OpenSource #SelfHosted\n\nhttps://www.infoq.com/news/2026/09/openclaw-2-release"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Android conecta Gemini con Find Hub para localizar dispositivos perdidos",
+      "summary": "La nueva entrega de Android Drop conecta Gemini con el centro Find Hub, que ahora guarda objetos recordados, y hace oficiales los puntos anti-mareo en los ajustes. Las funciones se suman a otras novedades de accesibilidad en el ecosistema Android.",
+      "why_it_matters": "Muestra cómo Gemini empieza a dar valor en tareas cotidianas del sistema operativo.",
+      "url": "https://arstechnica.com/gadgets/2026/09/latest-android-drop-connects-gemini-to-find-hub-adds-keep-notes-and-themes-to-messages",
+      "source": "Ars Technica",
+      "social": {
+        "x": "¿Dónde dejaste el móvil? Pídele a Gemini que lo busque: Android ya ha unido el asistente con Find Hub.\n\n#Android #Gemini #FindHub\nhttps://arstechnica.com/gadgets/2026/09/latest-android-drop-connects-gemini-to-find-hub-adds-keep-notes-and-themes-to-messages",
+        "linkedin": "Que tu asistente te diga dónde has dejado las llaves suena a promesa de futuro, pero Android acaba de hacerlo realidad. La nueva Android Drop conecta Gemini con Find Hub, el centro que ahora guarda los objetos que registras, y de paso incorpora ajustes anti-mareo. La novedad no es otra app de rastreo: es que 𝗹𝗮 𝗶𝗻𝘁𝗲𝗹𝗶𝗴𝗲𝗻𝗰𝗶𝗮 𝗮𝗿𝘁𝗶𝗳𝗶𝗰𝗶𝗮𝗹 𝘀𝗲 𝗶𝗻𝘁𝗲𝗴𝗿𝗮 𝗲𝗻 𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗽𝗮𝗿𝗮 𝗿𝗲𝘀𝗼𝗹𝘃𝗲𝗿 𝘁𝗮𝗿𝗲𝗮𝘀 𝗰𝗼𝘁𝗶𝗱𝗶𝗮𝗻𝗮𝘀. Puede ser el primer paso real para que los asistentes dejen de ser un adorno.\n\n#Android #Gemini #FindHub\n\nhttps://arstechnica.com/gadgets/2026/09/latest-android-drop-connects-gemini-to-find-hub-adds-keep-notes-and-themes-to-messages"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "herramientas",
+      "title": "Weedout elimina de YouTube los vídeos etiquetados como 'Made with AI'",
+      "summary": "Weedout es una extensión para Safari que oculta de la portada, las búsquedas, los relacionados y Shorts los vídeos que YouTube marca con la etiqueta 'Made with AI'. La detección usa la propia etiqueta oficial de YouTube, sin heurísticas ni falsas acusaciones.",
+      "why_it_matters": "Una solución sencilla para quien prefiera filtrar el contenido sintético de su feed.",
+      "url": "https://masteranza.github.io/weedout",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Cansado de que YouTube te recomiende vídeos generados con IA? Weedout, una extensión de Safari, los elimina de tu feed usando la etiqueta oficial 'Made with AI'.\n\n#YouTube #Safari #Weedout\nhttps://masteranza.github.io/weedout",
+        "linkedin": "YouTube etiqueta los vídeos generados con IA, pero no te permite ocultarlos. \n\nWeedout, una extensión de Safari, convierte esa etiqueta en un filtro real: oculta el contenido sintético de portada, búsquedas, relacionados y Shorts. 𝗡𝗼 𝘂𝘀𝗮 𝗵𝗲𝘂𝗿í𝘀𝘁𝗶𝗰𝗮𝘀 𝗻𝗶 𝗮𝗻á𝗹𝗶𝘀𝗶𝘀 𝗱𝗲 𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗼: 𝘀𝗲 𝗹𝗶𝗺𝗶𝘁𝗮 𝗮 𝗹𝗲𝗲𝗿 𝗹𝗮 𝗲𝘁𝗶𝗾𝘂𝗲𝘁𝗮 𝗼𝗳𝗶𝗰𝗶𝗮𝗹 𝗱𝗲 𝗬𝗼𝘂𝗧𝘂𝗯𝗲, así que evita falsos positivos y acusaciones erróneas. Es una herramienta simple para quien quiere decidir cuánta IA consume en su feed.\n\n#YouTube #Safari #Weedout\n\nhttps://masteranza.github.io/weedout"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "herramientas",
+      "title": "Cloudflare añade permisos OAuth opcionales para que el usuario pueda rechazar accesos",
+      "summary": "Cloudflare permite ahora marcar ciertos ámbitos OAuth como opcionales para que los usuarios puedan quitarlos al dar su consentimiento. La compañía cita los servidores MCP como caso motivador, ya que los agentes de IA piden permisos para todo lo que podrían hacer.",
+      "why_it_matters": "Da a los usuarios más control sobre lo que los agentes de IA pueden hacer con sus cuentas.",
+      "url": "https://www.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes",
+      "source": "InfoQ",
+      "social": {
+        "x": "¿Un agente de IA pidiendo acceso a casi todo? En Cloudflare ahora puedes quitarle permisos antes de aceptar.\n\n#Cloudflare #OAuth #MCP\nhttps://www.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes",
+        "linkedin": "¿Confiarías en un agente de IA que pide acceso a casi todo tu correo y tus archivos?\n\nCloudflare ha decidido pasarte el control: ahora permite marcar ciertos permisos OAuth como opcionales para que los rechaces en el consentimiento. El detonante han sido los servidores MCP, que piden acceso a casi todo. 𝗘𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗴𝗿𝗮𝗻𝘂𝗹𝗮𝗿 𝗱𝗲 𝗽𝗲𝗿𝗺𝗶𝘀𝗼𝘀 𝗲𝘀 𝗹𝗮 𝗰𝗼𝗻𝗱𝗶𝗰𝗶ó𝗻 𝗽𝗮𝗿𝗮 𝗾𝘂𝗲 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗮𝘂𝘁ó𝗻𝗼𝗺𝗼𝘀 𝘂𝘀𝗲𝗻 𝗻𝘂𝗲𝘀𝘁𝗿𝗮𝘀 𝗰𝘂𝗲𝗻𝘁𝗮𝘀 𝘀𝗶𝗻 𝗾𝘂𝗲 𝘀𝗲𝗮 𝘂𝗻𝗮 𝗰𝗲𝘀𝗶ó𝗻 𝘁𝗼𝘁𝗮𝗹 𝗱𝗲 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱.\n\n#Cloudflare #OAuth #MCP\n\nhttps://www.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "BenchMIRT: un benchmark para saber qué miden realmente las pruebas de los LLM",
+      "summary": "El Allen Institute publica BenchMIRT, un banco de pruebas diseñado para analizar qué están midiendo realmente los benchmarks actuales de los grandes modelos de lenguaje. Su objetivo es separar la habilidad real de los atajos y el ruido estadístico.",
+      "why_it_matters": "Ayuda a evaluar con más rigor los avances en IA y a no fiarse de mejoras aparentes.",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "¿Qué miden de verdad las pruebas de los LLM? El Allen Institute publica BenchMIRT, un benchmark para detectar atajos y ruido estadístico.\n\n#BenchMIRT #AllenInstitute #LLM #HuggingFace\nhttps://huggingface.co/blog/allenai/benchmirt",
+        "linkedin": "Confiar en un benchmark de IA sin saber qué está midiendo es como leer una nota sin saber qué examen hiciste. El Allen Institute publica BenchMIRT, una herramienta para auditar los propios benchmarks: separa la habilidad real de los atajos y el ruido estadístico. 𝗟𝗮 𝗲𝘃𝗮𝗹𝘂𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗹𝗼𝘀 𝗟𝗟𝗠 𝗻𝗲𝗰𝗲𝘀𝗶𝘁𝗮 𝘁𝗮𝗻𝘁𝗮 𝗶𝗻𝗴𝗲𝗻𝗶𝗲𝗿í𝗮 𝗰𝗼𝗺𝗼 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀, y esta propuesta es un paso en esa dirección. Si trabajas con IA, conviene preguntarse qué mejoras son reales y cuáles solo estadísticas.\n\n#BenchMIRT #AllenInstitute #LLM #HuggingFace\n\nhttps://huggingface.co/blog/allenai/benchmirt"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "Un marco para entender la frontera de eficiencia en inferencia de LLM",
+      "summary": "Baseten explica cómo las técnicas de inferencia o bien mueven un despliegue a lo largo de la frontera entre latencia y rendimiento, o bien empujan toda la frontera hacia fuera para ganar eficiencia. Propone así un marco para decidir qué optimizaciones rentan en producción.",
+      "why_it_matters": "Ofrece criterios prácticos para elegir técnicas de inferencia según el cuello de botella de cada servicio.",
+      "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference",
+      "source": "Hacker News",
+      "social": {
+        "x": "La mayoría elige técnicas de inferencia sin mirar el cuello de botella. Baseten propone un marco: unas te mueven en la frontera latencia/rendimiento, otras la empujan. ¿Cuál te toca?\n\n#Baseten #LLM #Inferencia\nhttps://www.baseten.co/blog/the-efficient-frontier-of-llm-inference",
+        "linkedin": "¿Estás optimizando la inferencia de tu LLM en la dirección correcta? El marco de Baseten distingue entre mover el despliegue por la frontera latencia/rendimiento y empujar esa frontera hacia fuera.\n\nLa mayoría de artículos se limitan a enumerar técnicas: cuantización, batching, speculative decoding… Pero sin tener claro si tu cuello de botella es la latencia o el throughput, puedes aplicar la receta equivocada. 𝗘𝗹 𝗺𝗮𝗿𝗰𝗼 𝗱𝗲 𝗕𝗮𝘀𝗲𝘁𝗲𝗻 𝗰𝗹𝗮𝘀𝗶𝗳𝗶𝗰𝗮 𝗰𝗮𝗱𝗮 𝘁é𝗰𝗻𝗶𝗰𝗮 𝘀𝗲𝗴ú𝗻 𝘀𝗶 𝗺𝗲𝗷𝗼𝗿𝗮 𝗲𝗹 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝗹𝗮 𝗳𝗿𝗼𝗻𝘁𝗲𝗿𝗮 𝗼 𝗹𝗮 𝗲𝘅𝗽𝗮𝗻𝗱𝗲, y da criterios concretos para producción. Para equipos que sirven modelos en producción, esta distinción ahorra tiempo, dinero y noches de debugging.\n\n#Baseten #LLM #Inferencia\n\nhttps://www.baseten.co/blog/the-efficient-frontier-of-llm-inference"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Google mapea las emisiones de metano desde el espacio con deep learning",
+      "summary": "El equipo de Google Research aplica modelos de deep learning a imágenes de satélite para cartografiar las emisiones globales de metano. La técnica permite detectar fuentes difusas que los métodos tradicionales pasan por alto.",
+      "why_it_matters": "La IA se convierte en una herramienta práctica para vigilar un gas de efecto invernadero decisivo.",
+      "url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning",
+      "source": "Google Research",
+      "social": {
+        "x": "Un gas invisible se escapa de minas, tuberías y vertederos sin que nadie lo note. Google ha empezado a cazarlo desde el espacio con deep learning.\n\n#Google #DeepLearning #Metano #Satélites\nhttps://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning",
+        "linkedin": "El metano es responsable de buena parte del calentamiento, pero hasta ahora solo detectábamos las grandes fugas. Google Research ha combinado imágenes de satélite con deep learning para 𝗰𝗮𝗿𝘁𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝗿 𝗹𝗮𝘀 𝗲𝗺𝗶𝘀𝗶𝗼𝗻𝗲𝘀 𝗱𝗶𝗳𝘂𝘀𝗮𝘀 𝗾𝘂𝗲 𝗽𝗮𝘀𝗮𝗯𝗮𝗻 𝗱𝗲𝘀𝗮𝗽𝗲𝗿𝗰𝗶𝗯𝗶𝗱𝗮𝘀. No es un experimento de laboratorio: es una herramienta que puede orientar políticas y auditorías ambientales. Y un recordatorio de que la IA también sirve para vigilar el planeta.\n\n#Google #DeepLearning #Metano #Satélites\n\nhttps://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "investigacion",
+      "title": "Swiggy usa un modelo multitarea con 350 señales para predecir el valor del cliente",
+      "summary": "La plataforma india de delivery Swiggy ha desarrollado un modelo interno de predicción del valor del cliente a largo plazo con más de 350 características previas al pedido. Incluir el número de pedidos como tarea auxiliar redujo un 63% los parámetros y mejoró el rendimiento.",
+      "why_it_matters": "Un caso real de cómo simplificar el modelo abarata la IA y optimiza a la vez la adquisición de clientes.",
+      "url": "https://www.infoq.com/news/2026/09/swiggy-pltv-multitask-mlp",
+      "source": "InfoQ",
+      "social": {
+        "x": "¿Y si añadir una tarea extra a tu modelo de predicción de clientes lo hiciera un 63% más pequeño y más preciso? Swiggy lo consiguió.\n\n#Swiggy #MachineLearning #DataScience\nhttps://www.infoq.com/news/2026/09/swiggy-pltv-multitask-mlp",
+        "linkedin": "Reducir un 63% el tamaño de un modelo mejorando su precisión suena a utopía, pero Swiggy lo ha logrado.\nSu equipo de datos desarrolló un predictor del valor del cliente a largo plazo con más de 350 señales previas al pedido. La clave fue añadir una tarea auxiliar, predecir el número de pedidos, lo que permitió 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝘂𝗻 𝟲𝟯% 𝗺á𝘀 𝗹𝗶𝗴𝗲𝗿𝗼 𝘆 𝗮 𝗹𝗮 𝘃𝗲𝘇 𝗺á𝘀 𝗽𝗿𝗲𝗰𝗶𝘀𝗼. Es un caso real de cómo la multitarea bien usada abarata la IA y optimiza la adquisición de clientes.\n\n#Swiggy #MachineLearning #DataScience\n\nhttps://www.infoq.com/news/2026/09/swiggy-pltv-multitask-mlp"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Mistral usará los datos de los usuarios para entrenar por defecto, salvo en el plan enterprise",
+      "summary": "Mistral ha cambiado sus condiciones para entrenar sus modelos con las aportaciones de los usuarios de forma predeterminada. Solo los clientes enterprise quedan excluidos, y el resto puede solicitar que sus datos no se utilicen.",
+      "why_it_matters": "Cambia las reglas de privacidad de uno de los principales proveedores europeos de IA y obliga a revisar el consentimiento.",
+      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "source": "Hacker News",
+      "social": {
+        "x": "Tu silencio es un 'sí' en Mistral: por defecto, tus datos entrenan sus modelos.\n\n#Mistral #API #LLM\nhttps://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+        "linkedin": "Tu silencio es un 'sí' en Mistral: por defecto, tus datos entrenan sus modelos.\nLa empresa francesa ha actualizado sus condiciones: a menos que contrates el plan enterprise, tus interacciones se usarán para entrenar sus modelos sin que tengas que hacer nada. Quien no quiera participar debe solicitar la exclusión, un paso que la mayoría no sabrá que existe. 𝗟𝗮 𝗼𝗽𝗰𝗶ó𝗻 𝗽𝗼𝗿 𝗱𝗲𝗳𝗲𝗰𝘁𝗼 𝗲𝘀 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼, 𝗻𝗼 𝗱𝗲𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼, y en pleno debate europeo sobre privacidad, obliga a leer la letra pequeña.\n\n#Mistral #API #LLM\n\nhttps://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "OpenAI prepara Astra, su primer modelo con capacidades de ciberseguridad 'críticas'",
+      "summary": "OpenAI planea lanzar Astra, al que ha clasificado como su primer modelo con capacidades de ciberseguridad de nivel 'crítico'. La compañía dará acceso anticipado a socios seleccionados para que refuercen sus defensas antes del despliegue general.",
+      "why_it_matters": "La llegada de modelos con capacidades críticas en el ámbito cibernético obliga a repensar la supervisión de la IA.",
+      "url": "https://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities",
+      "source": "Wired",
+      "social": {
+        "x": "¿Debería un modelo de IA con capacidades de ciberseguridad 'críticas' estar al alcance de todos? OpenAI cree que no, y Astra es su primera apuesta con acceso restringido.\n\n#OpenAI #Astra #Ciberseguridad\nhttps://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities",
+        "linkedin": "¿Debería un modelo de IA con capacidades de ciberseguridad 'críticas' estar al alcance de todos?\nOpenAI responde con cautela: Astra, su próximo modelo, tendrá acceso anticipado limitado a socios seleccionados para reforzar defensas antes del despliegue general. 𝗟𝗮 𝗹𝗹𝗲𝗴𝗮𝗱𝗮 𝗱𝗲 𝗹𝗮 𝗜𝗔 𝗰𝗼𝗻 𝗻𝗶𝘃𝗲𝗹 '𝗰𝗿í𝘁𝗶𝗰𝗼' 𝗼𝗯𝗹𝗶𝗴𝗮 𝗮 𝗹𝗮𝘀 𝗲𝗺𝗽𝗿𝗲𝘀𝗮𝘀 𝗮 𝗿𝗲𝗽𝗲𝗻𝘀𝗮𝗿 𝗾𝘂𝗶é𝗻 𝘁𝗶𝗲𝗻𝗲 𝗮𝗰𝗰𝗲𝘀𝗼 𝘆 𝗯𝗮𝗷𝗼 𝗾𝘂é 𝘀𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗶ó𝗻, no solo técnica, sino también operativa y legal. Lo que antes era un debate teórico se convierte en un problema práctico para cualquier responsable de gobernanza de IA.\n\n#OpenAI #Astra #Ciberseguridad\n\nhttps://www.wired.com/story/openai-astra-first-ai-model-with-critical-cyber-abilities"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Un CVE de Artifactory permite robar tokens de administrador sin autenticarse",
+      "summary": "Los servidores expuestos de JFrog Artifactory están recibiendo ataques que explotan una vulnerabilidad sin parchear para acuñar tokens de administrador. Los investigadores no descartan que parte del tráfico provenga de agentes de IA autónomos.",
+      "why_it_matters": "Muestra cómo la IA amplifica la velocidad de explotación de vulnerabilidades conocidas.",
+      "url": "https://www.theregister.com/security/2026/09/01/another-artifactory-cve-under-attack-by-ai-agents-or-humans/5293769",
+      "source": "The Register",
+      "social": {
+        "x": "¿Y si los ataques a JFrog Artifactory los están lanzando agentes de IA? Un CVE sin parche permite acuñar tokens de admin sin autenticarse.\n\n#JFrog #Artifactory #CVE\nhttps://www.theregister.com/security/2026/09/01/another-artifactory-cve-under-attack-by-ai-agents-or-humans/5293769",
+        "linkedin": "¿Y si los agentes de IA autónomos están detrás de la nueva oleada de ataques a JFrog Artifactory? Un CVE sin parche permite a cualquiera acuñar tokens de administrador sin autenticarse.\n\nLos investigadores han detectado tráfico sospechoso contra servidores expuestos y no descartan que parte proceda de bots autónomos. No es un CVE más: sugiere que 𝗹𝗮 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗼𝗳𝗲𝗻𝘀𝗶𝘃𝗮 𝗲𝘀𝘁á 𝗰𝗼𝗺𝗽𝗿𝗶𝗺𝗶𝗲𝗻𝗱𝗼 𝗲𝗹 𝘁𝗶𝗲𝗺𝗽𝗼 𝗱𝗲 𝗿𝗲𝗮𝗰𝗰𝗶ó𝗻 𝗱𝗲 𝗹𝗼𝘀 𝗲𝗾𝘂𝗶𝗽𝗼𝘀 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱. Las empresas que dependen de parchear a tiempo pueden encontrarse en desventaja.\n\n#JFrog #Artifactory #CVE\n\nhttps://www.theregister.com/security/2026/09/01/another-artifactory-cve-under-attack-by-ai-agents-or-humans/5293769"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "El nuevo CEO de Apple, John Ternus, anuncia un gran lanzamiento para la próxima semana",
+      "summary": "En su primer memorando como consejero delegado de Apple, John Ternus ha adelantado que la compañía tiene un gran lanzamiento la próxima semana, cuando se espera el primer iPhone plegable. Ternus toma el relevo en uno de los momentos más esperados del año para la firma.",
+      "why_it_matters": "El estreno de Ternus al frente de Apple llega con un producto que puede marcar su próximo ciclo.",
+      "url": "https://techcrunch.com/2026/09/01/john-ternus-hypes-huge-launch-next-week-in-first-memo-as-apple-ceo",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El nuevo CEO de Apple lleva días en el cargo y su primer anuncio es un lanzamiento para la próxima semana. Todos los rumores apuntan al mismo producto: un iPhone plegable.\n\n#Apple #iPhonePlegable #Ternus\nhttps://techcrunch.com/2026/09/01/john-ternus-hypes-huge-launch-next-week-in-first-memo-as-apple-ceo",
+        "linkedin": "El primer movimiento de John Ternus como CEO de Apple no es una reorganización ni un relevo, es la promesa de un lanzamiento la próxima semana.\n\nCon el iPhone plegable como candidato número uno, Ternus aprovecha su primer memo para poner fecha a la siguiente gran apuesta de la compañía. Aterriza con una decisión heredada, pero que ahora firma él. 𝗘𝗹 𝗲𝘀𝘁𝗿𝗲𝗻𝗼 𝗲𝗻 𝗲𝗹 𝗰𝗮𝗿𝗴𝗼 𝘀𝗲 𝗷𝘂𝗲𝗴𝗮 𝗲𝗻 𝗹𝗮 𝗰𝗿𝗲𝗱𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲 𝗲𝘀𝗲 𝗮𝗻𝘂𝗻𝗰𝗶𝗼, y eso condicionará cómo le reciba el mercado. Un relevo nunca es solo un cambio de nombre.\n\n#Apple #iPhonePlegable #Ternus\n\nhttps://techcrunch.com/2026/09/01/john-ternus-hypes-huge-launch-next-week-in-first-memo-as-apple-ceo"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "Un agente de IA que se adapta y crece contigo, pensado para automatizar tareas y asistirte cada día. Su enorme popularidad lo convierte en un proyecto a seguir de cerca.",
+      "language": "Python",
+      "stars": 239864,
+      "social": {
+        "x": "Alguien acaba de superar las 239.000 estrellas con un agente de IA que se adapta a ti. Se llama Hermes Agent y automatiza cada día.\n\n#HermesAgent #Python #GitHub #NousResearch\nhttps://github.com/NousResearch/hermes-agent",
+        "linkedin": "HERMES AGENT NO ES UN CHATBOT MÁS. ES UN AGENTE DE IA QUE SE ADAPTA A TI, APRENDE DE TUS RUTINAS Y CRECE CONTIGO.\n\nNousResearch acaba de poner en GitHub un proyecto que ya supera las 239.000 estrellas. No es una demo ni un experimento: hablamos de un agente en Python listo para automatizar tareas y asistirte cada día. Mientras que otras soluciones te obligan a seguir su flujo, aquí la idea es que el agente se ajuste a cómo trabajas tú.\n\n→ Escrito en Python, se integra con facilidad en tu flujo de trabajo.\n→ Aprende de tus rutinas para proponerte automatizaciones a medida.\n→ Está diseñado para el uso diario, como un asistente que está contigo a todas horas.\n→ La comunidad ya es enorme: las cifras de estrellas lo demuestran.\n\n𝗟𝗮 𝗶𝗱𝗲𝗮 𝗰𝗹𝗮𝘃𝗲: 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝘀𝗲 𝗮𝗱𝗮𝗽𝘁𝗮 𝗮 𝘁𝗶, 𝗻𝗼 𝘁ú 𝗮𝗹 𝗮𝗴𝗲𝗻𝘁𝗲. Eso es lo que diferencia a Hermes Agent.\n\nTe dejo el repo abajo para que lo guardes. Este proyecto promete, no le pierdas la pista.\n\n#HermesAgent #Python #GitHub #NousResearch\n\nhttps://github.com/NousResearch/hermes-agent"
+      }
+    },
+    {
+      "name": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "Modelo de Google para pronósticos de series temporales, entrenado previamente y listo para usar en predicción de datos. Muy útil para añadir capacidades de análisis predictivo a tus aplicaciones.",
+      "language": "Python",
+      "stars": 29153,
+      "social": {
+        "x": "Alguien acaba de liberar el modelo de forecasting de Google. TimesFM ya suma 29k estrellas y predice series temporales sin entrenar.\n\n#TimesFM #OpenSource #Python #Forecasting\nhttps://github.com/google-research/timesfm",
+        "linkedin": "GOOGLE ACABA DE LIBERAR SU MODELO DE FORECASTING OPEN SOURCE.\n\nSe llama TimesFM, ya supera las 29.000 estrellas en GitHub y está diseñado para pronosticar series temporales sin necesidad de entrenar. Añadir análisis predictivo a una aplicación suele implicar modelos propios o APIs de pago, pero aquí tienes un modelo preentrenado que puedes integrar directamente en Python.\n\n→ Genera predicciones sobre datos históricos con una sola carga del modelo.\n→ Se integra en aplicaciones Python para darles capacidad de análisis predictivo.\n→ Es de Google Research y está pensado para usarse de forma directa, sin necesidad de montar un pipeline de entrenamiento.\n\nSi trabajas con datos, 𝗴𝘂á𝗿𝗱𝗮𝘁𝗲 𝗲𝘀𝘁𝗲 𝗿𝗲𝗽𝗼 y pruébalo en tu próximo proyecto. Te dejo el enlace abajo.\n\n#TimesFM #OpenSource #Python #Forecasting\n\nhttps://github.com/google-research/timesfm"
+      }
+    },
+    {
+      "name": "superlinked/sie",
+      "url": "https://github.com/superlinked/sie",
+      "description": "Servidor de inferencia open source que agrupa todos los modelos que necesita tu agente. Simplifica el despliegue y la gestión de modelos en producción.",
+      "language": "Python",
+      "stars": 2982,
+      "social": {
+        "x": "Alguien acaba de abrir el código de un servidor open source que unifica todos los modelos de tu agente. Y ya suma 2982 estrellas.\n\n#SIE #Python #OpenSource #GitHub\nhttps://github.com/superlinked/sie",
+        "linkedin": "TU AGENTE NECESITA MUCHOS MODELOS. SIE LOS AGRUPA EN UN ÚNICO SERVIDOR.\n\nSi trabajas con agentes, sabes que el mayor dolor es gestionar varias infraestructuras de inferencia. Texto por un lado, imagen por otro, cada endpoint con su configuración. SIE (Superlinked Inference Engine) llega para acabar con eso: 𝘂𝗻 𝘀𝗼𝗹𝗼 𝘀𝗲𝗿𝘃𝗶𝗱𝗼𝗿 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝗾𝘂𝗲 𝗰𝗲𝗻𝘁𝗿𝗮𝗹𝗶𝘇𝗮 𝘁𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗾𝘂𝗲 𝘁𝘂 𝗮𝗴𝗲𝗻𝘁𝗲 𝗻𝗲𝗰𝗲𝘀𝗶𝘁𝗮, listo para el deploy y la gestión en producción.\n\n→ Consolida modelos de distinto tipo (texto, imagen, etc.) en una misma API.\n→ Evita montar un servicio por cada proveedor o framework de inferencia.\n→ Reduce el coste operativo y la complejidad de tu stack.\n→ Escrito en Python, ya disponible como proyecto open source con 2982 estrellas.\n\nSi montas agentes o despliegas inferencia, tienes que verlo. Te dejo el link aquí abajo.\n\n#SIE #Python #OpenSource #GitHub\n\nhttps://github.com/superlinked/sie"
+      }
+    },
+    {
+      "name": "pacifio/atlas",
+      "url": "https://github.com/pacifio/atlas",
+      "description": "Control de versiones para agentes de desarrollo: permite coordinar varios agentes, ver sus cambios y consultarlos en un único sitio. Una herramienta clave para flujos de trabajo con IA.",
+      "language": "Rust",
+      "stars": 2683,
+      "social": {
+        "x": "Alguien acaba de crear Atlas: control de versiones para agentes de IA. Ahora puedes coordinar varios, revisar sus cambios y consultarlo todo en un único sitio. Rust y open source.\n\n#Atlas #Rust #OpenSource #GitHub\nhttps://github.com/pacifio/atlas",
+        "linkedin": "¿VARIOS AGENTES DE IA TRABAJAN SOBRE TU CÓDIGO SIN COORDINARSE? ATLAS LES DA UN CONTROL DE VERSIONES.\n\nAtlas es un repositorio central para agentes de desarrollo: cada agente registra sus cambios y tú puedes verlo todo en un único sitio. En vez de adivinar qué ha tocado cada uno, tienes un histórico claro y una coordinación real.\n\n→ Coordina varios agentes trabajando en el mismo proyecto.\n→ Guarda el histórico de los cambios de cada agente.\n→ Consulta la actividad completa desde una única vista.\n→ Open source y escrito en Rust.\n\nLa conclusión es clara: 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗼 𝘁𝗮𝗺𝗯𝗶é𝗻 𝗻𝗲𝗰𝗲𝘀𝗶𝘁𝗮𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲 𝘃𝗲𝗿𝘀𝗶𝗼𝗻𝗲𝘀.\n\nSi los agentes de IA ya forman parte de tu pipeline, guárdate este post para tenerlo a mano. Te lo dejo por aquí abajo.\n\n#Atlas #Rust #OpenSource #GitHub\n\nhttps://github.com/pacifio/atlas"
+      }
+    },
+    {
+      "name": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "Skill para agentes que elimina las marcas típicas de texto generado por IA. Resulta muy práctica para dar un tono más natural a los escritos automáticos.",
+      "language": "Python",
+      "stars": 39968,
+      "social": {
+        "x": "Alguien acaba de liberar un skill que le quita el tono robótico a cualquier texto de IA. 40.000 estrellas y todo open source.\n\n#Humanizer #Python #OpenSource #GitHub\nhttps://github.com/blader/humanizer",
+        "linkedin": "40.000 ESTRELLAS PARA UN SKILL QUE QUITA LAS MARCAS DE LA IA EN TUS TEXTOS.\n\nSi generas contenido con modelos o trabajas con agentes que redactan, sabes que el resultado a veces delata a la máquina. Este repositorio, blader/humanizer, hace justo lo contrario: limpia los patrones típicos de la IA para que el texto suene humano. Y no hablamos de un truco: es una skill pensada para agentes, con código abierto y casi 40.000 estrellas en GitHub.\n\n→ Detecta y reformula muletillas de la IA (como «en conclusión», «es importante destacar» o estructuras demasiado perfectas).\n→ Puede integrarse en flujos de agentes que escriben textos automáticos, emails, informes o respuestas.\n→ Está escrito en Python, así que puedes leerlo, adaptarlo o extenderlo sin depender de un servicio de pago.\n→ Es open source: el coste es cero y el control es total.\n\nLo interesante es que no necesitas ser un experto: el propio repositorio explica cómo usarlo. 𝗛𝘂𝗺𝗮𝗻𝗶𝘇𝗮𝗿 𝗹𝗼 𝗾𝘂𝗲 𝗴𝗲𝗻𝗲𝗿𝗮 𝗹𝗮 𝗺á𝗾𝘂𝗶𝗻𝗮 𝘀𝗶𝗻 𝗽𝗮𝗴𝗮𝗿 𝗽𝗼𝗿 𝗲𝗹𝗹𝗼 𝗲𝘀 𝗹𝗮 𝗰𝗹𝗮𝘃𝗲. Si trabajas con texto generado por IA, este repo vale la pena.\n\nTe dejo el enlace abajo. Guárdalo para cuando lo necesites.\n\n#Humanizer #Python #OpenSource #GitHub\n\nhttps://github.com/blader/humanizer"
+      }
+    }
+  ]
+}
