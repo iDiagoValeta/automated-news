@@ -1,0 +1,298 @@
+{
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T14:33:32.989Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Gemini 3.8 Flash y Flash Cyber, las nuevas apuestas de Google para agentes y ciberseguridad",
+      "summary": "Google ha presentado Gemini 3.8 Flash y una versión especializada, Flash Cyber, orientada a flujos de trabajo agénticos y a la protección frente a amenazas. La familia Flash sigue ampliándose para ofrecer modelos rápidos y baratos sin renunciar a la inteligencia de nueva generación.",
+      "why_it_matters": "Los desarrolladores que integran IA pueden usar ya estos modelos para construir agentes y herramientas de seguridad con menos latencia y coste.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un Flash para construir agentes y otro para defender: llegan Gemini 3.8 Flash y Flash Cyber.\n\n#Gemini #FlashCyber #Ciberseguridad\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber",
+        "linkedin": "La batalla por la IA ya no la gana el modelo con más parámetros, sino el que mejor se adapta al problema.\nGoogle acaba de dar un paso en esa dirección con Gemini 3.8 Flash, optimizado para flujos de trabajo agénticos, y Flash Cyber, una versión dedicada a la ciberseguridad. Ambos llegan con la promesa de reducir latencia y coste, algo que los desarrolladores notarán al construir sus agentes o herramientas de seguridad. 𝗟𝗮 𝗲𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘇𝗮𝗰𝗶ó𝗻 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗲𝗹 𝗻𝘂𝗲𝘃𝗼 𝗰𝗮𝗺𝗽𝗼 𝗱𝗲 𝗯𝗮𝘁𝗮𝗹𝗹𝗮.\n\n#Gemini #FlashCyber #Ciberseguridad\n\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Muse Spark 1.3 llega con 'max reasoning' para tareas de razonamiento y agentes",
+      "summary": "Meta ha publicado Muse Spark 1.3, una nueva versión de su familia de modelos con un modo de razonamiento máximo para retos complejos. También ha mejorado la usabilidad en escenarios reales, uno de los puntos débiles de los agentes.",
+      "why_it_matters": "Meta aprieta en la gama de razonamiento con un modelo disponible para desarrolladores que compite directamente con los líderes del mercado.",
+      "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "source": "Hacker News",
+      "social": {
+        "x": "El límite del razonamiento artificial se mueve cada semana. Hoy lo mueve Meta: Muse Spark 1.3 incorpora 'max reasoning' para tareas y agentes complejos.\n\n#MuseSpark #Meta #MaxReasoning\nhttps://research.meta.ai/blog/introducing-muse-spark-1-3",
+        "linkedin": "Si construyes agentes, sabes que el problema no es solo responder: es cuándo hay que parar a razonar.\nMeta acaba de publicar Muse Spark 1.3, con un modo 'max reasoning' para tareas complejas y mejoras de usabilidad para agentes en entornos reales. Lo relevante: 𝗠𝗲𝘁𝗮 𝗲𝗻𝘁𝗿𝗮 𝗱𝗲 𝗹𝗹𝗲𝗻𝗼 𝗲𝗻 𝗹𝗮 𝗰𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲𝗹 𝗿𝗮𝘇𝗼𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝗴𝗮𝗺𝗮 𝗮𝗹𝘁𝗮 al ofrecer a los desarrolladores una alternativa a los modelos propietarios que hasta ahora marcaban el ritmo. Si tu equipo está evaluando agentes, merece la pena probar esta versión.\n\n#MuseSpark #Meta #MaxReasoning\n\nhttps://research.meta.ai/blog/introducing-muse-spark-1-3"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Cohere lanza Parse 5, un modelo multimodal para extraer datos de documentos complejos",
+      "summary": "Cohere ha lanzado Parse 5, un modelo fundacional multimodal de 2.300 millones de parámetros que convierte PDF con contenido visual rico en Markdown estructurado. El modelo ofrece coordenadas de los elementos extraídos y ha sido evaluado sobre miles de páginas empresariales.",
+      "why_it_matters": "Extraer información de facturas, informes y contratos es una de las aplicaciones con retorno más inmediato de la IA generativa.",
+      "url": "https://www.infoq.com/news/2026/09/cohere-multimodal-parse",
+      "source": "InfoQ",
+      "social": {
+        "x": "Cada día miles de empleados copian datos de PDFs a mano. Cohere ha entrenado un modelo para que lo hagan las máquinas y se llama Parse 5.\n\n#Cohere #Parse5 #Multimodal\nhttps://www.infoq.com/news/2026/09/cohere-multimodal-parse",
+        "linkedin": "Copiar y pegar datos de facturas o informes sigue siendo uno de los trabajos más odiados en las oficinas. Cohere quiere eliminarlo con Parse 5, un modelo fundacional multimodal de 2.300 millones de parámetros entrenado para leer PDFs con visuales complejos y devolverlos como Markdown, incluso con las coordenadas de cada elemento. El avance no es solo técnico: 𝗹𝗮 𝗲𝘅𝘁𝗿𝗮𝗰𝗰𝗶ó𝗻 𝗱𝗲 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗼𝘀 𝘀𝗲 𝗲𝘀𝘁á 𝗰𝗼𝗻𝘃𝗶𝗿𝘁𝗶𝗲𝗻𝗱𝗼 𝗲𝗻 𝘂𝗻 𝗰𝗼𝗺𝗺𝗼𝗱𝗶𝘁𝘆, y las empresas que lo adopten dejarán de perder horas en tareas que la IA puede hacer por ellas.\n\n#Cohere #Parse5 #Multimodal\n\nhttps://www.infoq.com/news/2026/09/cohere-multimodal-parse"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Primeros PC con el superchip Nvidia RTX Spark, pensados para ejecutar IA en local",
+      "summary": "Nvidia y sus socios han mostrado en la IFA 2026 los primeros portátiles y mini PC equipados con el superchip RTX Spark. Estos equipos están diseñados para ejecutar modelos de IA directamente en el ordenador, sin depender de la nube.",
+      "why_it_matters": "Llevar la IA al PC reduce costes, acelera la respuesta y evita enviar datos sensibles a servicios externos.",
+      "url": "https://www.wired.com/story/nvidia-rtx-spark-laptops-first-look",
+      "source": "Wired",
+      "social": {
+        "x": "¿Y si la IA más potente no necesitara internet? Nvidia presenta en la IFA el superchip RTX Spark para ejecutarla en tu PC.\n\n#Nvidia #RTXSpark #IFA2026\nhttps://www.wired.com/story/nvidia-rtx-spark-laptops-first-look",
+        "linkedin": "La IA ya no tiene por qué vivir en la nube. En la IFA 2026, Nvidia ha presentado junto a sus socios los primeros PC con el superchip RTX Spark, hardware pensado para ejecutar modelos de IA de forma local. Para las empresas, esto significa no depender de servicios externos: 𝗲𝘀 𝗹𝗮 𝗼𝗽𝗰𝗶ó𝗻 𝗽𝗮𝗿𝗮 𝗺𝗮𝗻𝘁𝗲𝗻𝗲𝗿 𝗱𝗮𝘁𝗼𝘀 𝘀𝗲𝗻𝘀𝗶𝗯𝗹𝗲𝘀 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝗹𝗮 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗮𝗰𝗶ó𝗻 mientras se reduce la latencia y el coste por uso. El siguiente paso es decidir qué modelos saltan a tu equipo.\n\n#Nvidia #RTXSpark #IFA2026\n\nhttps://www.wired.com/story/nvidia-rtx-spark-laptops-first-look"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "pnpm 12 da el salto a Rust para instalar paquetes más rápido",
+      "summary": "pnpm 12 ha pasado a una implementación nativa en Rust que mantiene los comandos, las opciones y los formatos de pnpm 11. El cambio acelera el arranque y las operaciones con el sistema de ficheros, sobre todo cuando la caché ya está disponible.",
+      "why_it_matters": "Una instalación de dependencias más rápida se nota a diario en cualquier proyecto JavaScript o TypeScript.",
+      "url": "https://www.infoq.com/news/2026/09/pnpm-12-rust",
+      "source": "InfoQ",
+      "social": {
+        "x": "¿Cuánto tardas instalando dependencias? pnpm 12 ha reescrito su motor en Rust para reducir ese tiempo.\n\n#pnpm #Rust #JavaScript\nhttps://www.infoq.com/news/2026/09/pnpm-12-rust",
+        "linkedin": "Cada segundo que pasas esperando a que se instalen las dependencias es un segundo que no estás escribiendo código.\npnpm 12 ha reescrito su motor en Rust para recortar esos segundos, manteniendo intactos los comandos y el flujo de trabajo que ya conoces. Con la caché ya cargada, la mejora se nota desde el primer uso: 𝗹𝗮𝘀 𝗶𝗻𝘀𝘁𝗮𝗹𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝘀𝗲𝗿á𝗻 𝗻𝗼𝘁𝗮𝗯𝗹𝗲𝗺𝗲𝗻𝘁𝗲 𝗺á𝘀 𝗿á𝗽𝗶𝗱𝗮𝘀. Es otro paso en la tendencia de reescribir en Rust las herramientas más usadas del ecosistema JavaScript.\n\n#pnpm #Rust #JavaScript\n\nhttps://www.infoq.com/news/2026/09/pnpm-12-rust"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "Audacity 4.0 se apoya en Qt para renovar la edición de audio",
+      "summary": "La versión 4.0 del editor de audio open source reconstruye la interfaz sobre Qt y estrena un nuevo modelo de edición de clips. La aplicación mantiene la mayoría de los flujos de trabajo de Audacity 3.",
+      "why_it_matters": "La mayor renovación de Audacity en años llega justo cuando muchos usuarios buscan alternativas abiertas a los editores comerciales.",
+      "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
+      "source": "Lobsters",
+      "social": {
+        "x": "La alternativa abierta a los editores de audio comerciales acaba de dar un golpe en la mesa: Audacity 4.0, con Qt y un nuevo modelo de clips, ya está aquí.\n\n#Audacity #Qt #OpenSource\nhttps://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
+        "linkedin": "Audacity llevaba tiempo haciendo su trabajo sin llamar la atención. Su 4.0 rompe esa inercia: interfaz con Qt y edición de clips renovada.\n\nLa actualización no es una simple capa de pintura: el proyecto ha reescrito la interfaz gráfica sobre Qt y ha cambiado la lógica de edición de clips, aunque preserva los flujos de trabajo de la versión 3. Que esto ocurra justo cuando aumenta la demanda de alternativas abiertas a los editores de audio comerciales es una gran noticia. 𝗘𝗹 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝗲𝗻 𝗮𝘂𝗱𝗶𝗼 𝘆𝗮 𝗻𝗼 𝘀𝗲 𝗽𝗲𝗿𝗰𝗶𝗯𝗲 𝗰𝗼𝗺𝗼 𝘂𝗻𝗮 𝗹𝗶𝗺𝗶𝘁𝗮𝗰𝗶ó𝗻, 𝘀𝗶𝗻𝗼 𝗰𝗼𝗺𝗼 𝘂𝗻𝗮 𝗼𝗽𝗰𝗶ó𝗻 𝗲𝘀𝘁𝗿𝗮𝘁é𝗴𝗶𝗰𝗮.\n\n#Audacity #Qt #OpenSource\n\nhttps://github.com/audacity/audacity/releases/tag/Audacity-4.0.0"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Haiku OS publica su beta 6 con WebPositive renovado y un hipervisor acelerado",
+      "summary": "El proyecto Haiku ha publicado la sexta beta de su sistema operativo, una semana después de cumplir 25 años. La nueva versión incluye un WebPositive basado en WebKit y un hipervisor con aceleración por hardware.",
+      "why_it_matters": "Haiku demuestra que sigue viva la idea de un sistema de escritorio ligero y alternativo a Linux y a los clones de Unix.",
+      "url": "https://www.theregister.com/os-platforms/2026/09/03/haiku-os-rises-/-beta-6-sails-open-web-/-virtual-winds-fly-fast/5294184",
+      "source": "The Register",
+      "social": {
+        "x": "¿Un sistema operativo que no es Linux ni Windows? Sigue vivo. Haiku OS, heredero de BeOS, lanza su beta 6 con WebPositive sobre WebKit y un hipervisor acelerado por hardware.\n\n#HaikuOS #OpenSource #WebKit\nhttps://www.theregister.com/os-platforms/2026/09/03/haiku-os-rises-/-beta-6-sails-open-web-/-virtual-winds-fly-fast/5294184",
+        "linkedin": "¿Un sistema operativo alternativo que cumple 25 años y sigue mejorando? Haiku OS acaba de publicar su beta 6.\nEl proyecto, heredero de BeOS, renueva WebPositive con el motor WebKit y añade un hipervisor con aceleración por hardware. Eso demuestra que la ligereza y la independencia no están reñidas con la tecnología actual: 𝗹𝗮 𝗮𝗽𝘂𝗲𝘀𝘁𝗮 𝗽𝗼𝗿 𝘂𝗻 𝗲𝘀𝗰𝗿𝗶𝘁𝗼𝗿𝗶𝗼 𝗽𝗿𝗼𝗽𝗶𝗼 𝘀𝗶𝗴𝘂𝗲 𝘃𝗶𝘃𝗮. Para cualquier profesional que dé por muertos los sistemas alternativos, esta beta es un recordatorio.\n\n#HaikuOS #OpenSource #WebKit\n\nhttps://www.theregister.com/os-platforms/2026/09/03/haiku-os-rises-/-beta-6-sails-open-web-/-virtual-winds-fly-fast/5294184"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "C# tendrá union types en la actualización de noviembre",
+      "summary": "Microsoft llevará los union types a C# en la actualización de noviembre. La función permitirá representar datos que pueden tomar distintos tipos y obligará a que la palabra clave unsafe asuma más trabajo.",
+      "why_it_matters": "Es una de las características más esperadas por la comunidad .NET y simplificará el modelado de datos heterogéneos.",
+      "url": "https://www.theregister.com/devops/2026/09/02/microsoft-devs-rejoice-union-types-coming-to-c-in-november/5294056",
+      "source": "The Register",
+      "social": {
+        "x": "C# tendrá union types en noviembre: un valor podrá ser uno de varios tipos, y unsafe asumirá más trabajo.\n\n#CSharp #DotNet #Microsoft\nhttps://www.theregister.com/devops/2026/09/02/microsoft-devs-rejoice-union-types-coming-to-c-in-november/5294056",
+        "linkedin": "Los union types por fin llegan a C# en la actualización de noviembre, una de las características más reclamadas por la comunidad .NET.\nEl cambio permite modelar datos que pueden tomar distintos tipos sin recurrir a herencia ni a soluciones improvisadas, lo que simplificará el código en escenarios heterogéneos. Pero hay un matiz importante: 𝗹𝗮 𝗽𝗮𝗹𝗮𝗯𝗿𝗮 𝗰𝗹𝗮𝘃𝗲 𝘂𝗻𝘀𝗮𝗳𝗲 𝗮𝘀𝘂𝗺𝗶𝗿á 𝗺á𝘀 𝘁𝗿𝗮𝗯𝗮𝗷𝗼, y eso obliga a los equipos a conocer bien los casos de uso antes de adoptarla. Para quienes trabajan con APIs o protocolos donde los datos cambian de forma, esta actualización merece un hueco en el roadmap.\n\n#CSharp #DotNet #Microsoft\n\nhttps://www.theregister.com/devops/2026/09/02/microsoft-devs-rejoice-union-types-coming-to-c-in-november/5294056"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "NeoMME, un nuevo encoder multimodal nativo y multilingüe en Hugging Face",
+      "summary": "Hugging Face ha publicado NeoMME, un encoder multimodal nativo y multilingüe pensado para ser eficiente. El modelo apunta a reducir el coste de las tareas que necesitan entender varias modalidades y varios idiomas a la vez.",
+      "why_it_matters": "Los encoders eficientes son una pieza clave para la búsqueda, la clasificación y los sistemas RAG que trabajan con contenido multimodal.",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Procesar imágenes y textos en varios idiomas a la vez suele ser caro. Hugging Face ha publicado NeoMME, un encoder pensado para abaratar esa tarea.\n\n#NeoMME #HuggingFace #RAG\nhttps://huggingface.co/blog/Hcompany/neomme",
+        "linkedin": "El coste de los RAG multimodales acaba de toparse con un rival serio: NeoMME, el nuevo encoder de Hugging Face.\nHasta ahora, entender varias modalidades y varios idiomas a la vez solía implicar modelos pesados y facturas altas. NeoMME apuesta por una arquitectura eficiente que 𝗿𝗲𝗱𝘂𝗰𝗲 𝗲𝗹 𝗴𝗮𝘀𝘁𝗼 𝗽𝗼𝗿 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮 𝘀𝗶𝗻 𝘀𝗮𝗰𝗿𝗶𝗳𝗶𝗰𝗮𝗿 𝗽𝗿𝗲𝗰𝗶𝘀𝗶ó𝗻. Para equipos que trabajan con búsqueda, clasificación o RAG, esto abre la puerta a replantearse sus pipelines: toca probar antes de migrar, pero la dirección parece clara.\n\n#NeoMME #HuggingFace #RAG\n\nhttps://huggingface.co/blog/Hcompany/neomme"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "Claude Fable 5.1 resuelve un mensaje cifrado de 1653 que llevaba siglos sin descifrarse",
+      "summary": "Según Vals AI, Claude Fable 5.1 ha resuelto el 'Cyphral Distich' de Sir Thomas Urquhart en 44 minutos y sin ayuda humana. El acertijo, compuesto por dos líneas de 32 números, estaba sin resolver desde 1653, y otros modelos de frontera no habían logrado una solución verificable.",
+      "why_it_matters": "Demuestra que los modelos de razonamiento pueden enfrentarse a problemas abiertos y obtener soluciones comprobables por sí solos.",
+      "url": "https://the-decoder.com/claude-fable-5-1-decoded-a-centuries-old-royalist-message-hidden-in-plain-sight-since-1653",
+      "source": "The Decoder",
+      "social": {
+        "x": "Nadie pudo descifrar un mensaje cifrado de 1653 en 372 años. Claude Fable 5.1 lo ha hecho en 44 minutos.\n\n#Claude #LLM #Criptografía\nhttps://the-decoder.com/claude-fable-5-1-decoded-a-centuries-old-royalist-message-hidden-in-plain-sight-since-1653",
+        "linkedin": "Un modelo de IA acaba de descifrar un mensaje que resistió 372 años.\nClaude Fable 5.1 resolvió el Cyphral Distich en 44 minutos, sin ayuda humana. No es solo un récord: es una demostración de que 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗱𝗲 𝗿𝗮𝘇𝗼𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗽𝘂𝗲𝗱𝗲𝗻 𝗮𝗯𝗼𝗿𝗱𝗮𝗿 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮𝘀 𝗮𝗯𝗶𝗲𝗿𝘁𝗼𝘀 𝘆 𝗮𝗽𝗼𝗿𝘁𝗮𝗿 𝘀𝗼𝗹𝘂𝗰𝗶𝗼𝗻𝗲𝘀 𝗰𝗼𝗺𝗽𝗿𝗼𝗯𝗮𝗯𝗹𝗲𝘀. Para investigadores, esto supone una herramienta nueva y fiable.\n\n#Claude #LLM #Criptografía\n\nhttps://the-decoder.com/claude-fable-5-1-decoded-a-centuries-old-royalist-message-hidden-in-plain-sight-since-1653"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Los LLM aún no sirven para identificar setas y pueden provocar intoxicaciones",
+      "summary": "Un análisis con GPT-5.6-Sol, Gemini 3.8 Flash, GLM-5.3-Flash y Claude Fable 5.1 para distinguir setas comestibles de venenosas revela errores peligrosos. Incluso el mejor sistema acierta solo el 65% de las veces, así que usarlo para recolectar puede acabar en una intoxicación.",
+      "why_it_matters": "Recuerda que la IA generativa todavía no está lista para dar consejos que afecten directamente a la salud.",
+      "url": "https://quesma.com/blog/mushroom-llm-vision",
+      "source": "Hacker News",
+      "social": {
+        "x": "🍄 ¿Sabías que un LLM puede recomendarte comer una seta venenosa? En pruebas con 4 modelos, el mejor solo acertó el 65%. No te fíes de un LLM para recolectar.\n\n#LLM #AISafety\nhttps://quesma.com/blog/mushroom-llm-vision",
+        "linkedin": "Si un asistente de IA te dice que esa seta es comestible, no te lo creas.\n\nUna prueba con cuatro LLM actuales ha demostrado que el mejor solo acierta el 65% de las veces. En una de cada tres respuestas, un error puede acabar en una intoxicación. Esto no es un detalle menor: la IA generativa se está integrando en apps de salud y bienestar, y este caso demuestra que aún no distingue entre parecer correcta y ser correcta. 𝗟𝗮 𝗳𝗹𝘂𝗶𝗱𝗲𝘇 𝘃𝗲𝗿𝗯𝗮𝗹 𝗻𝗼 𝗲𝗾𝘂𝗶𝘃𝗮𝗹𝗲 𝗮 𝗰𝗼𝗻𝗼𝗰𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗳𝗶𝗮𝗯𝗹𝗲, y cuando hay riesgo físico, hay que tratarla con más prudencia. Si trabajas con LLM, recuerda que la seguridad no se resuelve con un mejor prompt, sino con validación real.\n\n#LLM #AISafety\n\nhttps://quesma.com/blog/mushroom-llm-vision"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "'Recurrent depth', la nueva técnica de razonamiento de OpenAI que enciende las alarmas",
+      "summary": "OpenAI incorporará 'recurrent depth' a su modelo Astra, una técnica que permite razonar al margen del pensamiento secuencial de los modelos actuales. Los expertos en seguridad han mostrado su preocupación por esta decisión.",
+      "why_it_matters": "Podría cambiar la forma de razonar de los grandes modelos y plantear nuevos retos de control y auditoría.",
+      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Los modelos de IA razonan en cadena: un paso tras otro. OpenAI ha roto esa cadena con 'recurrent depth', que estrena en Astra. Los expertos en seguridad alertan.\n\n#OpenAI #Astra #recurrentDepth\nhttps://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts",
+        "linkedin": "Mientras el debate sobre el control de la IA se centra en auditar los pasos que da un modelo, OpenAI acaba de anunciar que su modelo Astra no necesitará seguir esos pasos.\nLa técnica, llamada 'recurrent depth', busca romper con el esquema secuencial de los LLM actuales, lo que podría dar a Astra una forma de razonamiento más flexible y eficiente. Pero, como advierten los expertos en seguridad, también complica la trazabilidad: 𝘀𝗶𝗻 𝘂𝗻 𝗽𝗿𝗼𝗰𝗲𝘀𝗼 𝘀𝗲𝗰𝘂𝗲𝗻𝗰𝗶𝗮𝗹 𝗰𝗹𝗮𝗿𝗼, 𝗲𝘀 𝗰𝗮𝘀𝗶 𝗶𝗺𝗽𝗼𝘀𝗶𝗯𝗹𝗲 𝗲𝘅𝗽𝗹𝗶𝗰𝗮𝗿 𝗽𝗼𝗿 𝗾𝘂é 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝘁𝗼𝗺𝗮 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻. Para cualquier empresa que trabaje con IA, esto no es un detalle técnico, sino una nueva variable en su estrategia de riesgos.\n\n#OpenAI #Astra #recurrentDepth\n\nhttps://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Un ransomware orquestado por agentes de IA deja una auditoría de seguridad de 80 páginas",
+      "summary": "Un ataque de ransomware documentado por The Register muestra que agentes de IA completaron todas las fases del asalto sin intervención humana. Como remate, la víctima recibió un informe de seguridad de 80 páginas sobre el incidente.",
+      "why_it_matters": "La automatización de ataques con agentes de IA obliga a rediseñar la detección y la respuesta ante amenazas.",
+      "url": "https://www.theregister.com/security/2026/09/02/ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-an-80-page-security-audit/5294009",
+      "source": "The Register",
+      "social": {
+        "x": "Los atacantes ya no son humanos: agentes de IA ejecutaron un ransomware y, como remate, mandaron una auditoría de seguridad de 80 páginas.\n\n#Ransomware #AgentesIA\nhttps://www.theregister.com/security/2026/09/02/ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-an-80-page-security-audit/5294009",
+        "linkedin": "Los atacantes ya no son humanos: un ransomware orquestado por agentes de IA envió a la víctima una auditoría de seguridad de 80 páginas.\n\nEl caso documentado por The Register muestra que el ataque se completó sin intervención humana en ninguna de sus fases, y la auditoría posterior no es un añadido: la generación de informes ya forma parte de la automatización ofensiva. Para los equipos de defensa, este escenario 𝗼𝗯𝗹𝗶𝗴𝗮 𝗮 𝗿𝗲𝗱𝗶𝘀𝗲ñ𝗮𝗿 𝗹𝗮 𝗱𝗲𝘁𝗲𝗰𝗰𝗶ó𝗻 𝘆 𝗹𝗮 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮 𝗮𝗻𝘁𝗲 𝗮𝗺𝗲𝗻𝗮𝘇𝗮𝘀, porque el adversario ya no es solo un humano con herramientas, sino un sistema autónomo que además documenta su trabajo.\n\n#Ransomware #AgentesIA\n\nhttps://www.theregister.com/security/2026/09/02/ai-agents-carried-out-every-step-of-this-ransomware-attack-then-left-the-victim-an-80-page-security-audit/5294009"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "Las escuelas de Nueva York prohíben el uso de IA",
+      "summary": "Nueva York ha vetado el uso de inteligencia artificial en las escuelas públicas, en una decisión de calado para el sistema educativo de la ciudad. La prohibición se produce en pleno debate sobre el impacto de la IA generativa en el aprendizaje.",
+      "why_it_matters": "La medida marca un precedente en cómo las grandes ciudades afrontan la entrada de la IA en las aulas.",
+      "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Prohibir la IA en las aulas? Nueva York lo acaba de hacer.\n\n#NuevaYork #ChatGPT #EdTech\nhttps://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
+        "linkedin": "Nueva York veta la IA en todas sus escuelas públicas, una medida que puede marcar un antes y un después en la educación.\n\nLa prohibición llega en pleno apogeo de herramientas como ChatGPT y cuando nadie ha evaluado su impacto real en el aprendizaje. 𝗟𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗡𝘂𝗲𝘃𝗮 𝗬𝗼𝗿𝗸 𝗽𝘂𝗲𝗱𝗲 𝗱𝗲𝘀𝗮𝘁𝗮𝗿 𝘂𝗻 𝗲𝗳𝗲𝗰𝘁𝗼 𝗱𝗼𝗺𝗶𝗻ó 𝗲𝗻𝘁𝗿𝗲 𝗹𝗮𝘀 𝗴𝗿𝗮𝗻𝗱𝗲𝘀 𝗰𝗶𝘂𝗱𝗮𝗱𝗲𝘀 𝘆, 𝗱𝗲 𝗽𝗮𝘀𝗼, 𝗰𝗮𝗺𝗯𝗶𝗮𝗿 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 𝗱𝗲𝗹 𝗷𝘂𝗲𝗴𝗼 𝗽𝗮𝗿𝗮 𝗹𝗮 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮 𝗱𝗲 𝗹𝗮 𝘁𝗲𝗰𝗻𝗼𝗹𝗼𝗴í𝗮 𝗲𝗱𝘂𝗰𝗮𝘁𝗶𝘃𝗮. Las empresas que confían en vender IA para colegios deberían tomar nota: el debate ha pasado de las aulas a los despachos reguladores.\n\n#NuevaYork #ChatGPT #EdTech\n\nhttps://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "El Departamento de Justicia de EE.UU. respalda el fair use en el entrenamiento de IA",
+      "summary": "El Departamento de Justicia de Estados Unidos ha presentado un escrito en el que defiende que entrenar modelos de IA con material protegido es fair use. La postura contradice el informe de la Oficina de Copyright, cuyo director fue cesado después de publicarlo.",
+      "why_it_matters": "La posición oficial de Washington influirá en el caso del New York Times contra OpenAI y en todo el sector del entrenamiento de modelos.",
+      "url": "https://the-decoder.com/us-department-of-justice-backs-fair-use-for-ai-training-in-landmark-copyright-case",
+      "source": "The Decoder",
+      "social": {
+        "x": "EE.UU. se posiciona en la guerra de la IA: el Departamento de Justicia avala el fair use en el entrenamiento de modelos. La directora de la Oficina de Copyright fue cesada tras publicar lo contrario.\n\n#FairUse #OpenAI #Copyright #IA\nhttps://the-decoder.com/us-department-of-justice-backs-fair-use-for-ai-training-in-landmark-copyright-case",
+        "linkedin": "El Departamento de Justicia de EE.UU. defiende que entrenar IA con material protegido es fair use, justo lo contrario del informe que costó el puesto a la directora de la Oficina de Copyright. No es una opinión cualquiera: 𝗲𝗹 𝗲𝗷𝗲𝗰𝘂𝘁𝗶𝘃𝗼 𝘀𝗲 𝗮𝗹𝗶𝗻𝗲𝗮 𝗰𝗼𝗻 𝗢𝗽𝗲𝗻𝗔𝗜 𝘆 𝗰𝗼𝗺𝗽𝗮ñí𝗮, lo que pone en aprietos al New York Times y a todas las demandas colectivas sobre scraping. Para las empresas que entrenan modelos, este es el respaldo legal que necesitaban para seguir sin pedir permiso.\n\n#FairUse #OpenAI #Copyright #IA\n\nhttps://the-decoder.com/us-department-of-justice-backs-fair-use-for-ai-training-in-landmark-copyright-case"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "El Pentágono suma ChatGPT y Grok a su plataforma de IA militar",
+      "summary": "El Pentágono ha añadido ChatGPT Mil de OpenAI y Grok for Government de xAI a GenAI.mil, su plataforma central de IA. Con esta ampliación, las Fuerzas Armadas dispondrán de más herramientas de IA generativa para sus operaciones.",
+      "why_it_matters": "La entrada de modelos comerciales en defensa sienta precedente para el uso de IA en entornos de alto riesgo.",
+      "url": "https://the-decoder.com/us-military-adds-chatgpt-and-grok-to-ai-platform-genai-mil",
+      "source": "The Decoder",
+      "social": {
+        "x": "OpenAI y xAI ya están dentro del Pentágono: ChatGPT y Grok aterrizan en su plataforma de IA militar.\n\n#OpenAI #xAI #Pentágono\nhttps://the-decoder.com/us-military-adds-chatgpt-and-grok-to-ai-platform-genai-mil",
+        "linkedin": "La IA de consumo ya no es solo un asistente para redactar emails: el Pentágono la ha integrado en su plataforma militar como herramienta oficial. OpenAI y xAI han sumado ChatGPT y Grok a GenAI.mil, la red de IA de las Fuerzas Armadas de EE. UU. Da igual la polémica: la defensa es un mercado tan grande que ninguna gran empresa de modelos puede permitirse ignorarlo. 𝗟𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗶ó𝗻 𝗱𝗲 𝗰𝗵𝗮𝘁𝗯𝗼𝘁𝘀 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗮𝗹𝗲𝘀 𝗲𝗻 𝘀𝗶𝘀𝘁𝗲𝗺𝗮𝘀 𝗺𝗶𝗹𝗶𝘁𝗮𝗿𝗲𝘀 𝗿𝗲𝗱𝗲𝗳𝗶𝗻𝗲 𝗹𝗼𝘀 𝗹í𝗺𝗶𝘁𝗲𝘀 𝗱𝗲 𝗹𝗮 𝗜𝗔 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗮 y obliga a revisar las políticas de uso responsable.\n\n#OpenAI #xAI #Pentágono\n\nhttps://the-decoder.com/us-military-adds-chatgpt-and-grok-to-ai-platform-genai-mil"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "NVIDIA compra Hugging Face por 12.930 millones de dólares",
+      "summary": "NVIDIA ha confirmado la compra de Hugging Face por 12.930 millones de dólares y asegura que mantendrá la plataforma abierta y neutral en hardware. El acuerdo, pendiente de aprobación regulatoria, está previsto para la primera mitad de 2027.",
+      "why_it_matters": "La operación pone en manos del mayor fabricante de chips de IA el principal repositorio de modelos abiertos del mundo.",
+      "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
+      "source": "NVIDIA Blog",
+      "social": {
+        "x": "NVIDIA compra Hugging Face por 12.930 millones de dólares. Dice que será neutral, pero el rey de las GPU pasa a controlar el mayor repositorio de IA abierta.\n\n#NVIDIA #HuggingFace #OpenSource #GPU\nhttps://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
+        "linkedin": "Hugging Face era el gran punto neutral del open source en IA. Eso acaba de cambiar.\n\nNVIDIA ha confirmado la compra de Hugging Face por 12.930 millones de dólares, una operación pendiente de aprobación regulatoria prevista para la primera mitad de 2027. La compañía asegura que la plataforma seguirá abierta y neutral en hardware, pero el conflicto de intereses es evidente: quien fabrica las GPUs con las que se ejecutan esos modelos controla ahora el principal repositorio donde se comparten los modelos. 𝗟𝗮 𝗻𝗲𝘂𝘁𝗿𝗮𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗰𝗹𝗮𝗿𝗮𝗱𝗮 𝗻𝗼 𝘀𝘂𝘀𝘁𝗶𝘁𝘂𝘆𝗲 𝗮 𝗹𝗮 𝗻𝗲𝘂𝘁𝗿𝗮𝗹𝗶𝗱𝗮𝗱 𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮𝗹.\n\n#NVIDIA #HuggingFace #OpenSource #GPU\n\nhttps://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Anthropic asegura 35.000 millones en capacidad de cómputo con Lambda",
+      "summary": "Anthropic ha cerrado un acuerdo de 35.000 millones de dólares con Lambda, la nube respaldada por NVIDIA, para asegurarse más infraestructura para Claude. El pacto se suma a la carrera de los grandes laboratorios por garantizarse capacidad de cómputo.",
+      "why_it_matters": "La disponibilidad de capacidad de cómputo decide quién puede escalar sus modelos, por eso estos acuerdos marcan la próxima etapa de la IA.",
+      "url": "https://the-decoder.com/anthropic-ramps-up-claude-infrastructure-with-35-billion-lambda-deal",
+      "source": "The Decoder",
+      "social": {
+        "x": "La IA tiene nuevo cuello de botella: la capacidad de cómputo. Anthropic ha movido ficha con Lambda: 35.000 millones para que Claude no se quede corto.\n\n#Anthropic #Lambda #Claude\nhttps://the-decoder.com/anthropic-ramps-up-claude-infrastructure-with-35-billion-lambda-deal",
+        "linkedin": "La batalla por la IA se decide cada vez menos en la investigación y más en la infraestructura.\nAnthropic acaba de dar un paso contundente: un acuerdo de 35.000 millones de dólares con Lambda para garantizarse la capacidad de cómputo que necesita Claude. No es una mera compra de servidores, es una apuesta por asegurar la cadena de suministro más crítica de la inteligencia artificial. 𝗘𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲𝗹 𝗰ó𝗺𝗽𝘂𝘁𝗼 𝘀𝗲 𝗵𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝗹𝗮 𝘃𝗲𝗿𝗱𝗮𝗱𝗲𝗿𝗮 𝘃𝗲𝗻𝘁𝗮𝗷𝗮 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗮, y solo los jugadores con capacidad para firmar acuerdos de esta escala van a poder entrenar los modelos más avanzados. Para el resto, la pregunta ya no es quién tiene la mejor arquitectura, sino quién tiene garantizado el suministro de chips.\n\n#Anthropic #Lambda #Claude\n\nhttps://the-decoder.com/anthropic-ramps-up-claude-infrastructure-with-35-billion-lambda-deal"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "magnitudedev/magnitude",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "description": "Servidor de inferencia open source que ejecuta los mejores modelos locales según tu hardware y se conecta con el agente de IA que ya uses. Ideal para mantener tus datos privados y reducir costes.",
+      "language": "TypeScript",
+      "stars": 1801,
+      "social": {
+        "x": "Alguien acaba de crear el servidor de inferencia que lee tu hardware, elige el mejor modelo local y se conecta con el agente de IA que ya usas. Fin de la nube.\n\n#Magnitude #OpenSource #LocalAI #TypeScript\nhttps://github.com/magnitudedev/magnitude",
+        "linkedin": "¿TU AGENTE DE IA SIGUE VIVIENDO EN LA NUBE? MIRA ESTO.\n\nMagnitude es un servidor de inferencia open source que analiza tu hardware y levanta el mejor modelo local que puedas ejecutar. Se conecta con el agente de IA que ya usas, así que no tienes que tocar nada de tu flujo de trabajo. 𝗧𝘂𝘀 𝗱𝗮𝘁𝗼𝘀 𝘀𝗲 𝗾𝘂𝗲𝗱𝗮𝗻 𝗲𝗻 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 𝘀𝗲𝗿𝘃𝗶𝗱𝗼𝗿 𝗺𝗶𝗲𝗻𝘁𝗿𝗮𝘀 𝘀𝗶𝗴𝘂𝗲𝘀 𝘂𝘀𝗮𝗻𝗱𝗼 𝗹𝗮 𝗺𝗶𝘀𝗺𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗱𝗲 𝘀𝗶𝗲𝗺𝗽𝗿𝗲.\n\n→ Detecta automáticamente tu equipo y elige el modelo local más potente.\n→ Se integra con tu agente de IA habitual, sin migraciones ni cambios.\n→ Open source y escrito en TypeScript: fácil de entender y ampliar.\n→ Tú controlas los datos y eliminas el coste por API.\n\nCon más de 1.800 estrellas en GitHub, este proyecto está demostrando que lo local no está reñido con lo avanzado. Te dejo el repo abajo.\n\n#Magnitude #OpenSource #LocalAI #TypeScript\n\nhttps://github.com/magnitudedev/magnitude"
+      }
+    },
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Repositorio público de Anthropic con Agent Skills listas para usar. Añade capacidades reutilizables y bien definidas a tus agentes de IA.",
+      "language": "Python",
+      "stars": 173468,
+      "social": {
+        "x": "Anthropic acaba de soltar en abierto sus Agent Skills: capacidades listas para enchufar a tus agentes. 173k estrellas no se equivocan.\n\n#AgentSkills #Anthropic #OpenSource #Python\nhttps://github.com/anthropics/skills",
+        "linkedin": "ANTHROPIC ACABA DE PUBLICAR SUS AGENT SKILLS Y YA SUPERA LAS 173.000 ESTRELLAS.\n\nEn un mundo donde las funcionalidades de IA se venden por suscripción, este repositorio oficial de Anthropic te da módulos reutilizables y bien definidos para que tus agentes hagan tareas concretas. Se acabó programar cada funcionalidad desde cero.\n\n→ Añade skills específicas a tus agentes: cada una resuelve una tarea concreta.\n→ Son oficiales de Anthropic, con el respaldo de la compañía.\n→ Están en Python y listas para integrar en tu flujo actual.\n→ La comunidad ya las ha convertido en uno de los repos con más estrellas.\n\n𝗟𝗮 𝗶𝗱𝗲𝗮: 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗶𝗿 𝗰𝗮𝗱𝗮 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗺𝗮𝗻𝘂𝗮𝗹𝗺𝗲𝗻𝘁𝗲 𝘆 𝗱𝗮𝗹𝗲 𝗮 𝘁𝘂 𝗮𝗴𝗲𝗻𝘁𝗲 𝘀𝗸𝗶𝗹𝗹𝘀 𝘆𝗮 𝗵𝗲𝗰𝗵𝗮𝘀. Te dejo el repo abajo.\n\n#AgentSkills #Anthropic #OpenSource #Python\n\nhttps://github.com/anthropics/skills"
+      }
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Colección de skills de ingeniería de nivel de producción para agentes de IA que escriben código. Incluye directrices y ejemplos prácticos para mejorar la calidad del trabajo generado.",
+      "language": "JavaScript",
+      "stars": 91882,
+      "social": {
+        "x": "Tu agente de IA escribe código como un junior. Este repo open source de 91.8k estrellas le da skills de nivel producción para que trabaje como senior.\n\n#AgentSkills #OpenSource #GitHub\nhttps://github.com/addyosmani/agent-skills",
+        "linkedin": "A TU AGENTE DE IA LE FALTAN SKILLS DE INGENIERÍA DE NIVEL PRODUCCIÓN.\n\nAddy Osmani, autor de patrones de frontend y referente en performance web, acaba de liberar en GitHub un repo llamado 'agent-skills' que ya tiene 91.8k estrellas. No es un framework para encadenar prompts: es una colección de directrices y ejemplos prácticos para que el código que genera una IA no parezca hecho por un becario.\n\n→ Contexto primero: define el objetivo, la arquitectura y las convenciones del proyecto antes de pedir cualquier implementación.\n→ Planificación obligatoria: el agente debe explicar su enfoque y listar los riesgos antes de escribir una línea de código.\n→ Code review integrado: instrucciones para que cada respuesta pase un filtro de calidad, edge cases y mantenibilidad.\n→ Ejemplos reales para tareas como tests, refactors, deploy o seguridad, listos para importar a tu workflow.\n\nLa idea no es pedirle a la IA que escriba, es 𝗱𝗮𝗿𝗹𝗲 𝗹𝗮𝘀 𝗺𝗶𝘀𝗺𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 𝗱𝗲 𝗶𝗻𝗴𝗲𝗻𝗶𝗲𝗿í𝗮 𝗾𝘂𝗲 𝘀𝗲𝗴𝘂𝗶𝗿í𝗮 𝘂𝗻 𝘀𝗲𝗻𝗶𝗼𝗿 𝗽𝗮𝗿𝗮 𝗾𝘂𝗲 𝘀𝘂 𝗼𝘂𝘁𝗽𝘂𝘁 𝗹𝗹𝗲𝗴𝘂𝗲 𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻 𝘀𝗶𝗻 𝘀𝗼𝗿𝗽𝗿𝗲𝘀𝗮𝘀.\n\nSi trabajas con agentes de código, este repo te va a cambiar el día a día. Guárdalo para cuando tengas delante el enlace y lo revises con calma.\n\n#AgentSkills #OpenSource #GitHub\n\nhttps://github.com/addyosmani/agent-skills"
+      }
+    },
+    {
+      "name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Hace que tu agente de IA piense como el desarrollador senior más vago de la sala, evitando escribir código innecesario. El mejor código es el que nunca se escribe.",
+      "language": "JavaScript",
+      "stars": 122924,
+      "social": {
+        "x": "122.924 estrellas y un lema: el mejor código es el que nunca se escribe. El repo Ponytail hace que tu agente de IA piense como el desarrollador senior más vago.\n\n#Ponytail #JavaScript #OpenSource #GitHub\nhttps://github.com/DietrichGebert/ponytail",
+        "linkedin": "EL MEJOR CÓDIGO ES EL QUE NUNCA SE ESCRIBE.\n\nEste repo open source, con más de 122.000 estrellas en GitHub, invierte la lógica de la programación asistida: en lugar de pedir a tu agente de IA que genere código sin parar, le enseña a pensar como un desarrollador senior vago. Ese que duda antes de escribir una línea y que prefiere no tocar nada si no hace falta.\n\n→ Consigue que tu IA te haga preguntas antes de lanzarse a programar.\n→ Elimina el código innecesario y el overengineering.\n→ Reduce la complejidad y la deuda técnica.\n→ Aplica un criterio senior a cada decisión.\n\nLa idea clave de este proyecto es 𝗲𝗹 𝗺𝗲𝗷𝗼𝗿 𝗰ó𝗱𝗶𝗴𝗼 𝗲𝘀 𝗲𝗹 𝗾𝘂𝗲 𝗻𝘂𝗻𝗰𝗮 𝘀𝗲 𝗲𝘀𝗰𝗿𝗶𝗯𝗲. Si quieres que tu agente aprenda a decir «no hace falta», te dejo el repo abajo.\n\n#Ponytail #JavaScript #OpenSource #GitHub\n\nhttps://github.com/DietrichGebert/ponytail"
+      }
+    },
+    {
+      "name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "Skill para Claude Code que recorta hasta un 65% de tokens haciendo que el modelo responda en un estilo cavernícola y telegráfico. Perfecta para abaratar costes en tareas sencillas.",
+      "language": "Go",
+      "stars": 102935,
+      "social": {
+        "x": "Alguien acaba de publicar una skill que recorta un 65% de tokens en Claude Code. Caveman te hace responder en modo cavernícola, y tu factura lo nota. 102k estrellas.\n\n#Caveman #ClaudeCode #OpenSource #GitHub\nhttps://github.com/JuliusBrussee/caveman",
+        "linkedin": "¿PAGAR MENOS POR CADA PROMPT? HAY UNA SKILL PARA CLAUDE CODE QUE RECORTA HASTA UN 65% DE TOKENS.\n\nEl proyecto se llama Caveman y ya suma 102.935 estrellas en GitHub. No es una IA nueva: es un skill que cambia el registro del modelo a un estilo cavernícola y telegráfico. 𝗨𝗻 𝗺𝗼𝗱𝗼 𝘂𝗹𝘁𝗿𝗮 𝗰𝗼𝗻𝗰𝗶𝘀𝗼 𝗾𝘂𝗲 𝗮𝗯𝗮𝗿𝗮𝘁𝗮 𝗹𝗼𝘀 𝗰𝗼𝘀𝘁𝗲𝘀 en tareas sencillas donde no necesitas párrafos bonitos.\n\n→ Activa la skill en Claude Code y el modelo responde con frases cortas y directas, sin relleno.\n→ Reduce el consumo de tokens hasta un 65% en operaciones de bajo nivel.\n→ Es open source, está escrita en Go y se instala en minutos en tu entorno.\n\nSi usas Claude Code a diario, esta skill puede aligerar tu factura mensual. Te dejo el repo abajo, guarda el post para no perderlo.\n\n#Caveman #ClaudeCode #OpenSource #GitHub\n\nhttps://github.com/JuliusBrussee/caveman"
+      }
+    }
+  ]
+}
