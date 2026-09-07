@@ -1,0 +1,281 @@
+{
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T15:50:45.827Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "herramientas",
+      "title": "Speculative decoding en vLLM para GPUs AMD: guía oficial para acelerar la generación",
+      "summary": "El blog de vLLM detalla cómo aplicar speculative decoding en GPUs AMD para acelerar la inferencia de modelos de lenguaje. La guía explica el esquema draft-and-verify, métodos como MTP, EAGLE-3, DFlash y DSpark, y dedica secciones a configuración, ajuste y benchmarks.",
+      "why_it_matters": "Permite sacar más rendimiento a la generación de LLMs en hardware AMD, una alternativa cada vez más interesante frente a Nvidia.",
+      "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
+      "source": "Hacker News",
+      "social": {
+        "x": "¿Puedes acelerar la inferencia de LLMs en una GPU AMD? Sí, y vLLM acaba de publicar la guía oficial de speculative decoding.\n\n#vLLM #AMD #SpeculativeDecoding\nhttps://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
+        "linkedin": "¿Puedes acelerar la inferencia de LLMs en una GPU AMD? Sí, y vLLM acaba de publicar una guía oficial para hacerlo con speculative decoding.\n\nEl esquema draft-and-verify se explica con métodos como MTP, EAGLE-3, DFlash y DSpark, además de configuración y benchmarks. Si usas vLLM sobre AMD, esto se traduce en más tokens por segundo. 𝗔𝗠𝗗 𝘀𝗲 𝗰𝗼𝗻𝘀𝗼𝗹𝗶𝗱𝗮 𝗰𝗼𝗺𝗼 𝗮𝗹𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝘃𝗮 𝗿𝗲𝗮𝗹 𝗮 𝗡𝘃𝗶𝗱𝗶𝗮 𝗽𝗮𝗿𝗮 𝘀𝗲𝗿𝘃𝗶𝗿 𝗟𝗟𝗠𝘀 𝗲𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻.\n\n#vLLM #AMD #SpeculativeDecoding\n\nhttps://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "Engrim: memoria SQLite local y universal para los agentes de IA de tu editor",
+      "summary": "Engrim es un motor de memoria episódica para agentes de IA que funciona con SQLite y guarda los datos en el propio proyecto. Es compatible con asistentes como Claude Code, Cursor, Windsurf o Codex y no depende de servicios en la nube.",
+      "why_it_matters": "Ofrece una capa de memoria compartida y local entre distintos asistentes, algo esencial para tareas largas y para mantener el contexto sin depender de terceros.",
+      "url": "https://github.com/timgordontg/engrim",
+      "source": "Hacker News",
+      "social": {
+        "x": "Mismo proyecto, varios asistentes de IA, una sola memoria. Engrim lo consigue sin salir de tu máquina.\n\n#Engrim #SQLite #ClaudeCode\nhttps://github.com/timgordontg/engrim",
+        "linkedin": "Si trabajas con agentes de IA en tu editor, sabes que el contexto se pierde en cuanto cambias de sesión. Engrim resuelve esto con una memoria episódica en SQLite que vive en tu propio proyecto y comparten asistentes como Claude Code, Cursor, Windsurf o Codex. Sin depender de la nube, cada tarea deja huella local y cualquier herramienta la puede consultar después. Para equipos que alternan entre editores o manejan proyectos largos, 𝘁𝗲𝗻𝗲𝗿 𝘂𝗻𝗮 𝘀𝗼𝗹𝗮 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗹𝗼𝗰𝗮𝗹 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗶𝗱𝗮 deja de ser un extra y se vuelve una ventaja decisiva.\n\n#Engrim #SQLite #ClaudeCode\n\nhttps://github.com/timgordontg/engrim"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "Grok Build: el agente de código de Grok y cómo usarlo en proyectos reales",
+      "summary": "Grok Build es el agente de programación de Grok, capaz de trabajar sobre una codebase completa y no solo desde un chat. Engadget repasa qué plan necesitas, cómo se integra en el flujo y en qué tareas resulta más útil.",
+      "why_it_matters": "Los coding agents como Grok Build son la forma práctica de que la IA modifique código real, y aprender a usarlos hoy marca la diferencia en el desarrollo.",
+      "url": "https://www.engadget.com/2249020/how-to-use-spacexai-grok-build",
+      "source": "Engadget"
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "Cómo controlar ChatGPT para adolescentes con los nuevos controles parentales",
+      "summary": "Engadget explica cómo activar los controles parentales de ChatGPT, pensados para supervisar la actividad de los menores. OpenAI ofrece límites granulares para restringir contenidos y funciones sin tener que bloquear la herramienta por completo.",
+      "why_it_matters": "Da a las familias una forma práctica de mantener a los adolescentes en entornos de IA con más supervisión.",
+      "url": "https://www.engadget.com/2247843/how-to-set-up-chatgpt-parental-controls",
+      "source": "Engadget",
+      "social": {
+        "x": "No hace falta prohibir ChatGPT a tu hijo adolescente. OpenAI lanza controles parentales con límites granulares para supervisar su actividad sin bloquearle la herramienta.\n\n#ChatGPT #OpenAI #ControlParental\nhttps://www.engadget.com/2247843/how-to-set-up-chatgpt-parental-controls",
+        "linkedin": "Los padres llevan tiempo con un dilema: permitir que sus hijos usen ChatGPT sin red o quitárselo por completo.\nOpenAI acaba de presentar controles parentales que ofrecen 𝗹í𝗺𝗶𝘁𝗲𝘀 𝗴𝗿𝗮𝗻𝘂𝗹𝗮𝗿𝗲𝘀 𝗽𝗮𝗿𝗮 𝘀𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗮𝗿 𝘆 𝗿𝗲𝘀𝘁𝗿𝗶𝗻𝗴𝗶𝗿 la actividad de los menores, sin necesidad de bloquear la herramienta. Así, las familias pueden establecer reglas claras y acompañar el uso de la IA en lugar de demonizarla o dejarla al azar.\n\n#ChatGPT #OpenAI #ControlParental\n\nhttps://www.engadget.com/2247843/how-to-set-up-chatgpt-parental-controls"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Del demo a producción: cómo testear agentes de IA con simulación y CI/CD",
+      "summary": "Zhou Yu explica en InfoQ cómo llevar agentes de IA de la demo a producción mediante pruebas simuladas. La propuesta usa personas sintéticas, entropía de trayectorias y evaluación integrada en CI/CD para detectar casos límite en agentes multi-turno.",
+      "why_it_matters": "Resuelve el gran salto pendiente: no basta con que un agente funcione en una demo, hay que evaluarlo de forma automática y continua.",
+      "url": "https://www.infoq.com/presentations/ai-agent-testing-evaluation",
+      "source": "InfoQ",
+      "social": {
+        "x": "¿Tu agente de IA solo brilla en la demo? En producción se rompe. La solución: testearlo con simulación y CI/CD.\n\n#AgentesIA #CICD #PersonasSintéticas\nhttps://www.infoq.com/presentations/ai-agent-testing-evaluation",
+        "linkedin": "Un agente de IA que funciona de maravilla en la demo puede fallar en cuanto toca producción.\n\nPara evitarlo, no basta con afinar prompts: hace falta una estrategia de evaluación continua que se integre en el desarrollo. Zhou Yu propone en InfoQ combinar simulación con personas sintéticas, métricas como la entropía de las trayectorias y un pipeline de CI/CD para detectar los casos límite en conversaciones de varios turnos. La idea de fondo es que 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗱𝗲 𝗜𝗔 𝗲𝘀 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲, 𝗻𝗼 𝘂𝗻 𝘁𝗿𝘂𝗰𝗼 𝗱𝗲 𝗱𝗲𝗺𝗼𝘀𝘁𝗿𝗮𝗰𝗶ó𝗻: hasta que no lo pruebes de forma automática en cada cambio, no puedes decir que esté listo para producción. Esto convierte el desarrollo de agentes en ingeniería de software, y eso debería ser el estándar para cualquier equipo que quiera llevarlos a producción.\n\n#AgentesIA #CICD #PersonasSintéticas\n\nhttps://www.infoq.com/presentations/ai-agent-testing-evaluation"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "investigacion",
+      "title": "Qwen-Drive 1.0: un solo modelo para percepción, tráfico y planificación al volante",
+      "summary": "Alibaba ha publicado Qwen-Drive 1.0, un modelo que reúne en un solo sistema la percepción del entorno, el diálogo sobre tráfico y la planificación de rutas. Los investigadores advierten de que los modelos de texto e imagen no entienden el espacio tridimensional por defecto y que esa capacidad debe entrenarse de forma específica.",
+      "why_it_matters": "Supone un paso hacia modelos unificados capaces de manejar tanto el cockpit como la conducción, y muestra un límite real de la IA multimodal actual.",
+      "url": "https://the-decoder.com/qwen-drive-1-0-tells-you-why-it-brakes-just-dont-expect-the-explanation-to-match-the-maneuver",
+      "source": "The Decoder",
+      "social": {
+        "x": "Los modelos multimodales no entienden el 3D por defecto. Alibaba lanza Qwen-Drive, un único modelo que añade esa capacidad para la conducción.\n\n#QwenDrive #Alibaba #Multimodal #ConducciónAutónoma\nhttps://the-decoder.com/qwen-drive-1-0-tells-you-why-it-brakes-just-dont-expect-the-explanation-to-match-the-maneuver",
+        "linkedin": "La IA multimodal puede describir una imagen, pero no sabe qué distancia real separa dos coches. Alibaba ha presentado Qwen-Drive, un modelo que reúne percepción, diálogo sobre tráfico y planificación de rutas en un solo sistema.\n\nLos investigadores avisan: los modelos de texto e imagen no entienden el 3D por defecto, y 𝗲𝘀𝗮 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲𝗯𝗲 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗿𝘀𝗲 𝗱𝗲 𝗳𝗼𝗿𝗺𝗮 𝗲𝘀𝗽𝗲𝗰í𝗳𝗶𝗰𝗮. Qwen-Drive es un paso hacia sistemas unificados que manejen tanto el cockpit como la conducción, y una prueba de que el límite de la IA multimodal está en la comprensión espacial. Para quien trabaje en vehículos autónomos, esto marca la dirección: el futuro no es encadenar modelos, sino entrenar uno solo con conciencia del espacio.\n\n#QwenDrive #Alibaba #Multimodal #ConducciónAutónoma\n\nhttps://the-decoder.com/qwen-drive-1-0-tells-you-why-it-brakes-just-dont-expect-the-explanation-to-match-the-maneuver"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "industria",
+      "title": "OpenAI dice que sus agentes ya actúan como becarios de investigación automáticos",
+      "summary": "OpenAI afirma que sus agentes internos generan 3,1 días de trabajo por cada día humano y que ya ha alcanzado su objetivo de contar con un becario de investigación automatizado. Su científico jefe advierte de que ningún laboratorio tiene suficiente control sobre alineamiento y monitorización para seguir escalando al máximo ritmo.",
+      "why_it_matters": "Valida que los agentes de IA ya pueden participar en el ciclo de investigación, pero también reconoce que la seguridad no avanza al mismo ritmo.",
+      "url": "https://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time",
+      "source": "The Decoder",
+      "social": {
+        "x": "3,1 días de trabajo por cada día humano: eso rinden los agentes de OpenAI. Su científico jefe avisa: la seguridad no va al mismo ritmo.\n\n#OpenAI #AIAgents #AISafety\nhttps://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time",
+        "linkedin": "3,1 días de trabajo por cada jornada humana: eso es lo que OpenAI dice que aportan sus agentes internos, al nivel de un becario de investigación automatizado.\n\nLa cifra parece un hito, pero el propio científico jefe de la compañía matiza el entusiasmo: ningún laboratorio, incluido el suyo, tiene suficiente control sobre alineamiento y monitorización para escalar a todo gas. Y ese es el punto que no deberíamos pasar por alto: 𝗹𝗮 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗲𝘃𝗼𝗹𝘂𝗰𝗶𝗼𝗻𝗮 𝗺á𝘀 𝗿á𝗽𝗶𝗱𝗼 𝗾𝘂𝗲 𝗻𝘂𝗲𝘀𝘁𝗿𝗮 𝗳𝗼𝗿𝗺𝗮 𝗱𝗲 𝘃𝗶𝗴𝗶𝗹𝗮𝗿𝗹𝗼𝘀. Cualquier adopción seria de esta tecnología debería planificarse con esa brecha en mente.\n\n#OpenAI #AIAgents #AISafety\n\nhttps://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "vlt 1.0 llega como sustituto de npm con instalaciones seguras por fases",
+      "summary": "vlt, el gestor de paquetes creado por el equipo original de npm, alcanza la versión 1.0 como sustituto directo de npm. Incluye instalaciones por fases que evitan ejecutar scripts automáticamente, un grafo de dependencias consultable y registros que bloquean paquetes maliciosos.",
+      "why_it_matters": "Mejora la seguridad del ecosistema JavaScript sin romper la compatibilidad con las prácticas actuales de desarrollo.",
+      "url": "https://www.infoq.com/news/2026/09/vlt-npm-replacement",
+      "source": "InfoQ",
+      "social": {
+        "x": "¿Y si pudieses instalar dependencias sin que sus scripts se ejecuten por defecto? vlt 1.0, el sustituto de npm creado por su equipo original, lo hace.\n\n#vlt #npm #JavaScript\nhttps://www.infoq.com/news/2026/09/vlt-npm-replacement",
+        "linkedin": "El riesgo más silencioso de JavaScript es el script que se cuela al instalar un paquete.\n\nvlt 1.0, el sustituto de npm del equipo original, instala en fases y solo ejecuta lo que apruebes. Además ofrece un grafo consultable y bloquea paquetes maliciosos. La clave: 𝗺𝗲𝗷𝗼𝗿𝗮 𝗹𝗮 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝘀𝗶𝗻 𝗿𝗼𝗺𝗽𝗲𝗿 𝗰𝗼𝗻 𝗹𝗮𝘀 𝗽𝗿á𝗰𝘁𝗶𝗰𝗮𝘀 𝗮𝗰𝘁𝘂𝗮𝗹𝗲𝘀. Si gestionas dependencias en Node, merece una prueba.\n\n#vlt #npm #JavaScript\n\nhttps://www.infoq.com/news/2026/09/vlt-npm-replacement"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Netflix adopta el autoscaler open source de Flink para más de 30.000 jobs",
+      "summary": "Netflix está migrando su autoscaler de Flink hacia la versión open source para operar más de 30.000 jobs de streaming en varias regiones de AWS. La compañía reporta una reducción del 58% en el gasto anualizado de computación Flink de un equipo, con un ahorro cercano a 1,1 millones de dólares.",
+      "why_it_matters": "Demuestra que un autoscaler open source puede simplificar y abaratar la operación de pipelines de streaming a gran escala.",
+      "url": "https://www.infoq.com/news/2026/09/netflix-flink-autoscaler",
+      "source": "InfoQ",
+      "social": {
+        "x": "Netflix recorta un 58% su gasto en computación de Flink con un autoscaler open source que ya gestiona más de 30.000 jobs.\n\n#Flink #Netflix #OpenSource #DataEngineering\nhttps://www.infoq.com/news/2026/09/netflix-flink-autoscaler",
+        "linkedin": "Netflix ha recortado un 58% el coste de computación de Flink apostando por un autoscaler open source. Lo utiliza en más de 30.000 jobs de streaming y el ahorro estimado para un solo equipo ronda 1,1 millones de dólares al año. Si dudabas de que las herramientas comunitarias puedan gestionar escala de producción, 𝗲𝘀𝘁𝗮 𝗰𝗶𝗳𝗿𝗮 𝘃𝘂𝗲𝗹𝘃𝗲 𝗮 𝗽𝗼𝗻𝗲𝗿 𝗲𝗹 𝗱𝗲𝗯𝗮𝘁𝗲 𝘀𝗼𝗯𝗿𝗲 𝗹𝗮 𝗺𝗲𝘀𝗮: lo abierto no está reñido con lo masivo.\n\n#Flink #Netflix #OpenSource #DataEngineering\n\nhttps://www.infoq.com/news/2026/09/netflix-flink-autoscaler"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Asahi Linux estrena soporte oficial para los Mac con Apple M3",
+      "summary": "El proyecto Asahi Linux ya soporta oficialmente los Mac con SoC M3, aunque con limitaciones importantes. La aceleración 3D eficiente, los displays externos y el puerto HDMI todavía no están totalmente operativos.",
+      "why_it_matters": "Acerca Linux como sistema de escritorio a los Mac más recientes, aunque el soporte gráfico sigue siendo la asignatura pendiente.",
+      "url": "https://www.theregister.com/os-platforms/2026/09/07/asahi-linux-takes-on-apple-m3-minus-a-few-creature-comforts/5294788",
+      "source": "The Register",
+      "social": {
+        "x": "Asahi Linux ya soporta oficialmente los Mac M3. La letra pequeña: ni aceleración 3D eficiente ni monitores externos.\n\n#AsahiLinux #AppleSilicon #M3\nhttps://www.theregister.com/os-platforms/2026/09/07/asahi-linux-takes-on-apple-m3-minus-a-few-creature-comforts/5294788",
+        "linkedin": "Linux en un Mac M3 ya es oficial y se llama Asahi Linux. Pero, como suele pasar, el diablo está en los detalles: 𝗹𝗮 𝗮𝗰𝗲𝗹𝗲𝗿𝗮𝗰𝗶ó𝗻 𝟯𝗗 𝗲𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲 𝘆 𝗹𝗮𝘀 𝗽𝗮𝗻𝘁𝗮𝗹𝗹𝗮𝘀 𝗲𝘅𝘁𝗲𝗿𝗻𝗮𝘀 𝗮ú𝗻 𝗻𝗼 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮𝗻. Es un gran paso para el proyecto y prueba que el interés por Linux en Apple Silicon no para de crecer. Aun así, el anuncio también evidencia que los gráficos siguen siendo la asignatura pendiente y que el camino hacia una alternativa real a macOS aún tiene baches.\n\n#AsahiLinux #AppleSilicon #M3\n\nhttps://www.theregister.com/os-platforms/2026/09/07/asahi-linux-takes-on-apple-m3-minus-a-few-creature-comforts/5294788"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "Nueva York prohíbe la IA en las escuelas públicas hasta octavo grado",
+      "summary": "Nueva York ha prohibido que unos 600.000 alumnos hasta octavo grado usen herramientas de IA en las escuelas públicas. Los chatbots compañeros quedan vetados en todos los niveles y los profesores solo podrán usar IA para preparar contenido, no para corregir.",
+      "why_it_matters": "Es una de las mayores restricciones escolares a la IA en Estados Unidos y marcará el debate sobre cómo integrarla en el aula.",
+      "url": "https://the-decoder.com/new-york-city-bans-ai-tools-from-public-schools-through-eighth-grade",
+      "source": "The Decoder",
+      "social": {
+        "x": "Nueva York, no Silicon Valley: la IA queda prohibida para 600.000 alumnos de escuelas públicas hasta octavo grado.\n\n#NuevaYork #EdTech #Chatbots\nhttps://the-decoder.com/new-york-city-bans-ai-tools-from-public-schools-through-eighth-grade",
+        "linkedin": "Nueva York, no Silicon Valley: la IA queda prohibida para 600.000 alumnos de escuelas públicas hasta octavo grado.\n\nLa medida también veta los chatbots en todos los niveles y limita a los docentes a usar IA solo para preparar contenido, no para corregir. Es una de las restricciones más contundentes en EE. UU. y supondrá un precedente para otras ciudades. 𝗟𝗮 𝗿𝗲𝗴𝘂𝗹𝗮𝗰𝗶ó𝗻 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗹𝗮 𝗹𝗹𝗮𝘃𝗲 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗱𝗲 𝗹𝗮 𝗜𝗔 𝗮 𝗹𝗮𝘀 𝗲𝘀𝗰𝘂𝗲𝗹𝗮𝘀.\n\n#NuevaYork #EdTech #Chatbots\n\nhttps://the-decoder.com/new-york-city-bans-ai-tools-from-public-schools-through-eighth-grade"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "Isar Aerospace lanza el primer cohete orbital comercial de Europa",
+      "summary": "Isar Aerospace ha conseguido poner en órbita baja su cohete Spectrum desde Noruega, convirtiéndose en el primer lanzamiento orbital totalmente comercial de Europa. La compañía lo intentó en marzo, pero el vehículo cayó al mar y explotó a los pocos segundos del despegue.",
+      "why_it_matters": "Abre una nueva etapa para el lanzamiento comercial en Europa y demuestra que las startups pueden competir en el acceso al espacio.",
+      "url": "https://www.theverge.com/science/990906/isar-aerospace-europe-orbital-rocket-launch",
+      "source": "The Verge",
+      "social": {
+        "x": "Se estrelló en marzo a los pocos segundos de despegar. Hoy, el Spectrum de Isar Aerospace ha alcanzado la órbita: primer lanzamiento comercial de Europa.\n\n#IsarAerospace #Spectrum #NewSpace\nhttps://www.theverge.com/science/990906/isar-aerospace-europe-orbital-rocket-launch",
+        "linkedin": "Tres meses después de un primer intento que acabó en explosión, el cohete Spectrum de Isar Aerospace ha logrado lo que ninguna startup europea había conseguido: alcanzar la órbita.\n\nDespegó desde Noruega y completó la primera misión orbital totalmente comercial de Europa. 𝗤𝘂𝗲 𝘂𝗻𝗮 𝘀𝘁𝗮𝗿𝘁𝘂𝗽 𝗲𝘂𝗿𝗼𝗽𝗲𝗮 𝗹𝗼 𝗰𝗼𝗻𝘀𝗶𝗴𝗮 𝗲𝗻 𝘀𝘂 𝘀𝗲𝗴𝘂𝗻𝗱𝗼 𝗶𝗻𝘁𝗲𝗻𝘁𝗼 𝗱𝗲𝗺𝘂𝗲𝘀𝘁𝗿𝗮 𝗾𝘂𝗲 𝗲𝗹 𝗮𝗰𝗰𝗲𝘀𝗼 𝗮𝗹 𝗲𝘀𝗽𝗮𝗰𝗶𝗼 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘁𝗲𝗿𝗿𝗲𝗻𝗼 𝗿𝗲𝘀𝗲𝗿𝘃𝗮𝗱𝗼 𝗮 𝗮𝗴𝗲𝗻𝗰𝗶𝗮𝘀 𝗻𝗶 𝗮 𝗴𝗶𝗴𝗮𝗻𝘁𝗲𝘀 𝗰𝗼𝗺𝗼 𝗦𝗽𝗮𝗰𝗲𝗫. Para el sector, es la señal de que Europa puede tener una industria lanzadora competitiva sin depender de nadie.\n\n#IsarAerospace #Spectrum #NewSpace\n\nhttps://www.theverge.com/science/990906/isar-aerospace-europe-orbital-rocket-launch"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "El mapa del cielo más grande jamás creado ya se puede explorar en la web",
+      "summary": "Un equipo de astrónomos ha publicado un mapa interactivo de 5,6 billones de píxeles que cubre aproximadamente el 75% del cielo y contiene unos 4.000 millones de objetos celestes. El mapa se puede explorar directamente desde el navegador.",
+      "why_it_matters": "Pone al alcance de cualquiera una cantidad enorme de datos astronómicos, útil para la investigación y la divulgación.",
+      "url": "https://www.wired.com/story/astronomers-complete-largest-map-of-space-yes-you-can-play-with-it",
+      "source": "Wired",
+      "social": {
+        "x": "¿Sabías que el 75% del cielo ya está cartografiado en un mapa interactivo? Con 5,6 billones de píxeles y 4.000 millones de objetos, puedes recorrer el universo sin salir del navegador.\n\n#Astronomía #CienciaAbierta\nhttps://www.wired.com/story/astronomers-complete-largest-map-of-space-yes-you-can-play-with-it",
+        "linkedin": "Hay un mapa del cielo que cubre el 75% de lo que vemos, con 5,6 billones de píxeles, y ahora se puede recorrer desde cualquier navegador.\n\nDetrás está un trabajo de astrónomos que han ordenado miles de millones de objetos en un lienzo interactivo. Esto no es solo un logro técnico: 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗹𝗮 𝗮𝘀𝘁𝗿𝗼𝗻𝗼𝗺í𝗮 𝗲𝗻 𝘂𝗻𝗮 𝗰𝗶𝗲𝗻𝗰𝗶𝗮 𝗮𝗯𝗶𝗲𝗿𝘁𝗮 𝗾𝘂𝗲 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿𝗮 𝗽𝘂𝗲𝗱𝗲 𝘁𝗼𝗰𝗮𝗿, desde el investigador hasta el curioso. Ahora el límite no es el telescopio, sino tu curiosidad.\n\n#Astronomía #CienciaAbierta\n\nhttps://www.wired.com/story/astronomers-complete-largest-map-of-space-yes-you-can-play-with-it"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "CERN deja RHEL y elige Debian para controlar sus aceleradores de partículas",
+      "summary": "El CERN ha decidido migrar sus sistemas de control de aceleradores, unas 2.200 máquinas especializadas, de Red Hat a Debian. La causa son las restricciones de compilador impuestas por Red Hat, que amenazaban el soporte del hardware legacy.",
+      "why_it_matters": "Una organización científica de referencia apuesta por Debian en entornos críticos, un aval importante para el ecosistema open source.",
+      "url": "https://www.infoq.com/news/2026/09/cern-debian-infra",
+      "source": "InfoQ",
+      "social": {
+        "x": "⚛️ Si Red Hat pensó que su restricción de compilador era un detalle, el CERN acaba de demostrar que no: sus sistemas de control migran a Debian (2.200 máquinas).\n\n#CERN #Debian #RHEL #OpenSource\nhttps://www.infoq.com/news/2026/09/cern-debian-infra",
+        "linkedin": "Si Red Hat pensó que su restricción de compilador era un detalle, el CERN acaba de enviar un mensaje claro: migra sus sistemas de control de RHEL a Debian.\nLa decisión afecta a 2.200 máquinas que supervisan los aceleradores de partículas. El problema era que las restricciones de compilador de Red Hat comprometían el soporte de hardware legacy, algo crítico en este entorno. Que una institución como el CERN confíe en Debian para una infraestructura tan exigente es un respaldo enorme para 𝗲𝗹 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝗲𝗻 𝗲𝗻𝘁𝗼𝗿𝗻𝗼𝘀 𝗱𝗼𝗻𝗱𝗲 𝗲𝗹 𝗲𝗿𝗿𝗼𝗿 𝗻𝗼 𝗲𝘀𝘁á 𝗽𝗲𝗿𝗺𝗶𝘁𝗶𝗱𝗼.\n\n#CERN #Debian #RHEL #OpenSource\n\nhttps://www.infoq.com/news/2026/09/cern-debian-infra"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Nitter seguirá funcionando tras recibir asesoramiento legal",
+      "summary": "El proyecto Nitter, la interfaz open source para leer X sin anuncios ni rastreadores, continuará tras recibir asesoramiento legal. Su instancia pública XCancel ya está operativa y se espera que el resto de servidores vuelvan pronto.",
+      "why_it_matters": "Mantiene viva una herramienta clave para leer X con privacidad y sin vigilancia, después de una campaña legal en su contra.",
+      "url": "https://www.theregister.com/personal-tech/2026/09/07/nitter-lives-to-proxy-another-day-after-taking-legal-advice/5294754",
+      "source": "The Register",
+      "social": {
+        "x": "Pensaban que una carta legal bastaba para tumbar Nitter, el cliente open source para leer X sin anuncios. Sigue en pie y su instancia XCancel ya funciona.\n\n#Nitter #OpenSource #Privacidad\nhttps://www.theregister.com/personal-tech/2026/09/07/nitter-lives-to-proxy-another-day-after-taking-legal-advice/5294754",
+        "linkedin": "Nitter no ha muerto. El cliente open source para leer X sin anuncios ni rastreadores ha superado la ofensiva legal: su instancia XCancel ya está operativa y el resto de servidores volverán pronto. Para quienes necesitaban leer la red social sin vigilancia, esto es un respiro, pero también una lección: 𝗹𝗮 𝗰𝗼𝗻𝘁𝗶𝗻𝘂𝗶𝗱𝗮𝗱 𝗱𝗲 𝗡𝗶𝘁𝘁𝗲𝗿 𝗱𝗲𝗺𝘂𝗲𝘀𝘁𝗿𝗮 𝗾𝘂𝗲 𝘂𝗻𝗮 𝗰𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗮𝗰𝘁𝗶𝘃𝗮 𝗽𝘂𝗲𝗱𝗲 𝗳𝗿𝗲𝗻𝗮𝗿 𝗹𝗼𝘀 𝗶𝗻𝘁𝗲𝗻𝘁𝗼𝘀 𝗹𝗲𝗴𝗮𝗹𝗲𝘀 𝗱𝗲 𝘀𝗶𝗹𝗲𝗻𝗰𝗶𝗮𝗿 𝗹𝗼 𝗮𝗯𝗶𝗲𝗿𝘁𝗼.\n\n#Nitter #OpenSource #Privacidad\n\nhttps://www.theregister.com/personal-tech/2026/09/07/nitter-lives-to-proxy-another-day-after-taking-legal-advice/5294754"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "La compra de Hugging Face por Nvidia puede fragmentar la IA, según The Register",
+      "summary": "The Register analiza la adquisición de Hugging Face por parte de Nvidia y avisa de que puede cambiar el rumbo del desarrollo de IA. La operación podría llevar a un ecosistema más fragmentado y con menos interoperabilidad entre plataformas.",
+      "why_it_matters": "Hugging Face es el gran repositorio abierto de modelos y su compra por Nvidia puede redefinir cómo se comparte y despliega la IA.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/07/jensens-purchase-of-a-new-toy-could-reshape-the-entire-ai-industry/5294610",
+      "source": "The Register",
+      "social": {
+        "x": "Nvidia quiere comprar Hugging Face, el mayor repositorio de IA abierta. ¿Qué podría salir mal? The Register ya habla de fragmentación.\n\n#Nvidia #HuggingFace #OpenSource\nhttps://www.theregister.com/ai-and-ml/2026/09/07/jensens-purchase-of-a-new-toy-could-reshape-the-entire-ai-industry/5294610",
+        "linkedin": "Hugging Face ha sido el gran terreno neutral de la IA abierta. Hasta ahora.\nSi la compra por parte de Nvidia se confirma, The Register avisa de un futuro fragmentado: en lugar de un ecosistema donde los modelos se comparten sin ataduras, cada plataforma podría empujar hacia sus propias reglas. 𝗟𝗮 𝗻𝗲𝘂𝘁𝗿𝗮𝗹𝗶𝗱𝗮𝗱 𝗻𝗼 𝘀𝗲 𝗿𝗲𝗰𝘂𝗽𝗲𝗿𝗮 𝗳á𝗰𝗶𝗹𝗺𝗲𝗻𝘁𝗲 cuando un actor dominante controla el repositorio central. Quien construya sobre esta infraestructura deberá seguir de cerca cómo se cierra el acuerdo.\n\n#Nvidia #HuggingFace #OpenSource\n\nhttps://www.theregister.com/ai-and-ml/2026/09/07/jensens-purchase-of-a-new-toy-could-reshape-the-entire-ai-industry/5294610"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Seattle Times y Newsday demandan a OpenAI y Microsoft por copyright",
+      "summary": "The Seattle Times y Newsday han presentado una demanda conjunta contra OpenAI y Microsoft por utilizar sus artículos para entrenar modelos sin autorización. El caso se suma a otras demandas de medios contra las principales empresas de IA.",
+      "why_it_matters": "Refuerza la presión legal sobre OpenAI y Microsoft por el uso de contenido editorial en el entrenamiento de sus modelos.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "source": "The Verge",
+      "social": {
+        "x": "Ya no es solo The New York Times: Seattle Times y Newsday demandan a OpenAI y Microsoft por entrenar sus modelos con noticias sin permiso.\n\n#OpenAI #Microsoft\nhttps://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+        "linkedin": "Primero fue The New York Times, ahora Seattle Times y Newsday: los periódicos están convirtiendo el copyright en el talón de Aquiles de la IA generativa.\n\nAmbos medios demandan a OpenAI y Microsoft por entrenar sus modelos con artículos sin autorización. Es la misma acusación que ya enfrentan otras compañías, pero el número de demandas crece y eso cambia el tablero. Hasta ahora la industria asumía que el 'fair use' protegía el uso de contenido ajeno. Si los jueces no lo ven así, 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲𝗹 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝘀𝗲 𝗱𝗶𝘀𝗽𝗮𝗿𝗮𝗿á 𝘆 𝗹𝗮𝘀 𝗹𝗶𝗰𝗲𝗻𝗰𝗶𝗮𝘀 𝗲𝗱𝗶𝘁𝗼𝗿𝗶𝗮𝗹𝗲𝘀 𝘀𝗲 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗿á𝗻 𝗲𝗻 𝘂𝗻 𝗻𝗲𝗴𝗼𝗰𝗶𝗼 𝗼𝗯𝗹𝗶𝗴𝗮𝘁𝗼𝗿𝗶𝗼.\n\n#OpenAI #Microsoft\n\nhttps://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "description": "Un framework open source para crear agentes autónomos capaces de investigar, programar y ejecutar tareas complejas que pueden durar desde minutos hasta horas. Incluye sandboxes, memoria, herramientas, habilidades y subagentes para afrontar proyectos de largo recorrido.",
+      "language": "Python",
+      "stars": 81727,
+      "social": {
+        "x": "Alguien en ByteDance acaba de liberar DeerFlow, un framework open source para agentes autónomos que investigan, programan y ejecutan tareas de horas. 81.727 estrellas, sandboxes, memoria y subagentes.\n\n#DeerFlow #ByteDance #OpenSource #Python\nhttps://github.com/bytedance/deer-flow",
+        "linkedin": "EL OPEN SOURCE ACABA DE SUBIR EL LISTÓN: BYTEDANCE HA LIBERADO DEERFLOW, UN FRAMEWORK PARA CONSTRUIR AGENTES AUTÓNOMOS QUE NO SE DETIENEN A LOS CINCO MINUTOS.\n\nMientras muchas herramientas de IA se quedan en demos, DeerFlow está pensado para tareas que duran horas. El agente investiga, escribe código y lo ejecuta en un entorno aislado, sin que tengas que estar encima.\n\n→ Sandboxes para probar el código sin miedo a romper nada.\n→ Memoria persistente para mantener el contexto de proyectos largos.\n→ Catálogo de herramientas y habilidades que amplían lo que el agente puede hacer.\n→ Subagentes que se reparten el trabajo y lo traen todo junto.\n\nLa clave está en que no es un juguete, es 𝘂𝗻𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗿𝗲𝗮𝗹 𝗽𝗮𝗿𝗮 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗹𝗮𝗿𝗴𝗼 𝗿𝗲𝗰𝗼𝗿𝗿𝗶𝗱𝗼. Si quieres ver hacia dónde va la IA, este repo es una parada obligatoria. Guárdate el post y revísalo con calma.\n\n#DeerFlow #ByteDance #OpenSource #Python\n\nhttps://github.com/bytedance/deer-flow"
+      }
+    },
+    {
+      "name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Optimiza la ventana de contexto de los agentes de programación con IA, reduciendo el output de las herramientas hasta un 98%. Mantiene memoria de sesión y permite trabajar con 17 plataformas a través de MCP y hooks.",
+      "language": "TypeScript",
+      "stars": 20641,
+      "social": {
+        "x": "Alguien acaba de lanzar Context Mode: reduce el output de los agentes de IA hasta un 98% sin perder la memoria. 20.6k estrellas ya.\n\n#ContextMode #TypeScript #OpenSource #GitHub\nhttps://github.com/mksglu/context-mode",
+        "linkedin": "TUS AGENTES DE IA GENERAN DEMASIADO RUIDO.\n\nContext Mode lo arregla: 𝗿𝗲𝗱𝘂𝗰𝗲 𝗲𝗹 𝗼𝘂𝘁𝗽𝘂𝘁 𝗱𝗲 𝗹𝗮𝘀 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 𝗵𝗮𝘀𝘁𝗮 𝘂𝗻 𝟵𝟴% y mantiene la memoria de sesión para que tu agente no pierda el hilo.\n\n→ Se integra con 17 plataformas mediante MCP y hooks.\n→ Escrito en TypeScript, es open source y ya cuenta con 20.6k estrellas.\n→ Ideal para trabajar con agentes de código, automatizaciones y flujos de desarrollo.\n\nSi programar con IA se te está yendo de las manos, esta herramienta te va a devolver el control. Te dejo el repo abajo, guárdalo para tenerlo a mano.\n\n#ContextMode #TypeScript #OpenSource #GitHub\n\nhttps://github.com/mksglu/context-mode"
+      }
+    },
+    {
+      "name": "jo-inc/camofox-browser",
+      "url": "https://github.com/jo-inc/camofox-browser",
+      "description": "Un navegador headless pensado para agentes de IA que esquiva Cloudflare y otros sistemas de detección de bots. Se usa como reemplazo directo de Puppeteer o Playwright.",
+      "language": "JavaScript",
+      "stars": 9442,
+      "social": {
+        "x": "Alguien acaba de liberar un navegador headless para agentes de IA que esquiva Cloudflare y otros anti-bots. 9.4k estrellas y reemplaza a Puppeteer.\n\n#Camofox #OpenSource #JavaScript #GitHub\nhttps://github.com/jo-inc/camofox-browser",
+        "linkedin": "¿PUPPETEER TE BLOQUEA EN CLOUDFLARE? CAMOFOX ES UN NAVEGADOR HEADLESS PARA IA QUE LO RESUELVE.\n\nSi trabajas con agentes de IA o scraping, los sistemas anti-bots de Cloudflare acaban detectando cualquier navegador automatizado. Camofox nace como alternativa open source a Puppeteer y Playwright, pero con un objetivo: pasar desapercibido.\n\n→ Reemplazo directo: cambias tu script y listo.\n→ 𝗘𝘀𝗾𝘂𝗶𝘃𝗮 𝗖𝗹𝗼𝘂𝗱𝗳𝗹𝗮𝗿𝗲 𝘆 𝗼𝘁𝗿𝗼𝘀 𝗱𝗲𝘁𝗲𝗰𝘁𝗼𝗿𝗲𝘀 𝗱𝗲 𝗯𝗼𝘁𝘀 𝘀𝗶𝗻 𝘁𝗲𝗻𝗲𝗿 𝗾𝘂𝗲 𝗿𝗼𝘁𝗮𝗿 𝗽𝗿𝗼𝘅𝗶𝗲𝘀 𝗻𝗶 𝗳𝗶𝗻𝗴𝗲𝗿𝗽𝗿𝗶𝗻𝘁𝘀.\n→ Pensado para agentes de IA, scraping y automatización.\n→ 9.4k estrellas en GitHub y subiendo.\n\nSi tu agente necesita navegar sin bloqueos, vale la pena probarlo. Te dejo el enlace abajo.\n\n#Camofox #OpenSource #JavaScript #GitHub\n\nhttps://github.com/jo-inc/camofox-browser"
+      }
+    },
+    {
+      "name": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Convierte documentos y archivos ofimáticos a Markdown, lo que simplifica procesar su contenido con herramientas de IA o integrarlo en pipelines de automatización. Es una utilidad muy práctica para preparar datos.",
+      "language": "Python",
+      "stars": 179666,
+      "social": {
+        "x": "Microsoft acaba de liberar MarkItDown, una herramienta open source que convierte PDFs, Word y PowerPoint a Markdown limpio para tus pipelines de IA. Ya suma 179k estrellas.\n\n#MarkItDown #Python #OpenSource\nhttps://github.com/microsoft/markitdown",
+        "linkedin": "¿Sigues copiando y pegando texto de Word y PDFs para dárselo a tu IA? Microsoft ha liberado MarkItDown, una utilidad open source que convierte documentos y archivos ofimáticos a Markdown limpio. Ya tiene 179k estrellas, y no es casualidad.\n\nEl desafío al trabajar con LLMs y pipelines es que los formatos de oficina llegan llenos de estilos y ruido. MarkItDown extrae el contenido real y lo estructura en Markdown, el formato que mejor se adapta a las herramientas de IA y automatización.\n\n→ Convierte documentos y archivos ofimáticos a Markdown en un solo paso.\n→ Funciona como herramienta de terminal y también como librería Python.\n→ Pensado para alimentar agentes, pipelines de datos y flujos de automatización.\n→ Es open source y está respaldado por Microsoft.\n\n𝗖𝗼𝗻 𝗠𝗮𝗿𝗸𝗜𝘁𝗗𝗼𝘄𝗻, 𝗽𝗿𝗲𝗽𝗮𝗿𝗮𝗿 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗼𝘀 𝗽𝗮𝗿𝗮 𝗜𝗔 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗺𝗮𝗻𝘂𝗮𝗹. Guarda este repo para la próxima vez que necesites limpiar contenido antes de dárselo a un modelo.\n\n#MarkItDown #Python #OpenSource\n\nhttps://github.com/microsoft/markitdown"
+      }
+    },
+    {
+      "name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Herramienta que permite generar vídeo a partir de código HTML, un flujo pensado para que los agentes de IA creen contenido audiovisual. Ideal para renderizar animaciones y automatizar producciones.",
+      "language": "TypeScript",
+      "stars": 45168,
+      "social": {
+        "x": "Alguien acaba de abrir el código de una herramienta que convierte HTML en vídeo. 45.168 estrellas y un flujo pensado para que los agentes de IA generen contenido audiovisual.\n\n#Hyperframes #TypeScript #OpenSource #GitHub\nhttps://github.com/heygen-com/hyperframes",
+        "linkedin": "HEYGEN ACABA DE LIBERAR HYPERFRAMES, SU HERRAMIENTA PARA GENERAR VÍDEO DESDE HTML.\n\nHasta ahora esto era un servicio cerrado. Ahora está en abierto y con 45.168 estrellas. La idea es que los agentes de IA no tengan que editar vídeo: 𝗲𝗹𝗹𝗼𝘀 𝗲𝘀𝗰𝗿𝗶𝗯𝗲𝗻 𝗲𝗹 𝗛𝗧𝗠𝗟 𝘆 𝗲𝗹 𝗺𝗼𝘁𝗼𝗿 𝗹𝗼 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗹𝗮 𝗽𝗶𝗲𝘇𝗮 𝗮𝘂𝗱𝗶𝗼𝘃𝗶𝘀𝘂𝗮𝗹. Así que te ahorras todo el flujo de renderizado.\n\n→ Convierte HTML en vídeo directamente, sin pasar por un editor.\n→ Está pensado para agentes de IA: ellos generan el código y el sistema lo produce.\n→ Sirve tanto para animaciones como para producciones automatizadas.\n→ Escrito en TypeScript, así que encaja bien en tu stack actual.\n\nSi tu trabajo tiene algo que ver con vídeo generado por IA, no necesitas un equipo de edición. Solo este repo. Te lo dejo abajo, guárdalo para cuando lo necesites.\n\n#Hyperframes #TypeScript #OpenSource #GitHub\n\nhttps://github.com/heygen-com/hyperframes"
+      }
+    }
+  ]
+}
