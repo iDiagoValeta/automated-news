@@ -1,0 +1,311 @@
+{
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T14:34:52.828Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Meta presenta Muse, su agente personal de IA para encargarse de tareas cotidianas",
+      "summary": "Muse es el nuevo agente personal de IA de Meta, pensado para tareas que van desde vender un coche hasta reservar un viaje. Para funcionar pedirá acceso a datos personales como el correo, el calendario o los pagos, lo que convierte su lanzamiento en una prueba de confianza para la compañía.",
+      "why_it_matters": "Meta pone a prueba si los usuarios están dispuestos a confiar a un agente de IA el acceso a su vida digital.",
+      "url": "https://ai.meta.com/muse",
+      "source": "Meta AI",
+      "social": {
+        "x": "¿Le darías a la IA de Meta acceso a tu correo, calendario y pagos? Muse, su nuevo agente personal, promete vender tu coche o planificar tu viaje. El precio: tu vida digital.\n\n#Meta #Muse #Privacidad #DatosPersonales\nhttps://ai.meta.com/muse",
+        "linkedin": "Muse, el agente personal de IA de Meta, quiere actuar por ti: vender tu coche, reservar viajes, gestionar tu agenda.\n\nEsa promesa tiene un precio: Meta necesita acceso a tu correo, calendario y pagos. En plena era de desconfianza hacia las grandes tecnológicas, 𝗲𝗹 𝘃𝗲𝗿𝗱𝗮𝗱𝗲𝗿𝗼 𝗱𝗲𝘀𝗮𝗳í𝗼 𝗱𝗲 𝗠𝗲𝘁𝗮 𝗻𝗼 𝗲𝘀 𝘁é𝗰𝗻𝗶𝗰𝗼, 𝘀𝗶𝗻𝗼 𝗱𝗲 𝗰𝗼𝗻𝗳𝗶𝗮𝗻𝘇𝗮. Si los usuarios ceden, los agentes de IA se vuelven imprescindibles; si no, quedan en una bonita demo.\n\n#Meta #Muse #Privacidad #DatosPersonales\n\nhttps://ai.meta.com/muse"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "Google DeepMind lanza AlphaGenome Atlas, un mapa de los efectos de todas las variantes posibles del ADN humano",
+      "summary": "AlphaGenome Atlas es una base de datos que predice el efecto de todas las variantes posibles de un solo nucleótido en el genoma humano. El conjunto de datos ocupa un petabyte y ya ha ayudado a identificar la causa de un caso de epilepsia que había pasado desapercibido.",
+      "why_it_matters": "Es una de las aplicaciones biomédicas más ambiciosas de la IA y puede acelerar el diagnóstico genético de enfermedades.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas",
+      "source": "Google DeepMind Blog",
+      "social": {
+        "x": "Un petabyte de datos para predecir el efecto de cada variante del ADN humano. Su primer hallazgo: la causa de una epilepsia que llevaba años sin explicación.\n\n#AlphaGenome #DeepMind #Genómica\nhttps://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas",
+        "linkedin": "Un solo cambio en una letra del ADN puede desencadenar una enfermedad, pero hasta ahora nadie había predicho el efecto de todas las variantes.\n\nAlphaGenome Atlas, el proyecto de Google DeepMind, lo ha hecho: un mapa de un petabyte que ya ha dado con la causa de una epilepsia que se resistía al diagnóstico. Para la genética clínica, esto supone 𝗽𝗮𝘀𝗮𝗿 𝗱𝗲 𝗯𝘂𝘀𝗰𝗮𝗿 𝗮 𝗰𝗶𝗲𝗴𝗮𝘀 𝗮 𝘁𝗲𝗻𝗲𝗿 𝘂𝗻𝗮 𝗿𝗲𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗮 𝗱𝗲 𝗰𝗮𝗱𝗮 𝗺𝘂𝘁𝗮𝗰𝗶ó𝗻. Si el sistema se valida, diagnósticos que hoy tardan años podrían llegar en semanas.\n\n#AlphaGenome #DeepMind #Genómica\n\nhttps://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Mercury 2.5 promete 1.107 tokens por segundo y un 40% más de inteligencia que su predecesor",
+      "summary": "Inception Labs presenta Mercury 2.5, un modelo de lenguaje basado en difusión que alcanza velocidades de 1.107 tokens por segundo. La compañía asegura que el modelo es un 40% más inteligente que Mercury 2 y comparable a los modelos de frontera optimizados por coste.",
+      "why_it_matters": "Los LLM de difusión plantean una alternativa real para reducir la latencia y el coste de la inferencia de IA.",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
+      "source": "Inception Labs",
+      "social": {
+        "x": "1.107 tokens por segundo: el nuevo LLM de Inception Labs no es autorregresivo, sino de difusión.\n\n#InceptionLabs #DiffusionLLM #Mercury25\nhttps://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
+        "linkedin": "Un LLM que no es autorregresivo y genera a 1.107 tokens por segundo: así es Mercury 2.5, el nuevo modelo de difusión de Inception Labs.\n\nLa compañía asegura que también es un 40% más inteligente que su predecesor, con un rendimiento comparable a los mejores modelos optimizados por coste. Si esto se confirma, 𝗹𝗮 𝗶𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗮 𝗴𝗿𝗮𝗻 𝗲𝘀𝗰𝗮𝗹𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗲𝘀𝘁𝗮𝗿 𝗹𝗶𝗺𝗶𝘁𝗮𝗱𝗮 𝗽𝗼𝗿 𝗹𝗮 𝗹𝗮𝘁𝗲𝗻𝗰𝗶𝗮 y la IA generativa puede integrarse en aplicaciones en tiempo real. Es el momento de empezar a evaluar arquitecturas de difusión para producción.\n\n#InceptionLabs #DiffusionLLM #Mercury25\n\nhttps://www.inceptionlabs.ai/blog/introducing-mercury-2-5"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "ChatGPT Images 2.5 llega con dos modelos: uno más rápido y otro para ediciones precisas",
+      "summary": "OpenAI ha lanzado dos nuevos modelos de generación de imágenes con ChatGPT Images 2.5. Flare se centra en una generación más rápida y Sunburst en ediciones precisas, aunque la compañía no ha aclarado qué usuarios recibirán cada variante ni cuándo.",
+      "why_it_matters": "La generación de imágenes dentro de ChatGPT sigue evolucionando con más velocidad y mejor control sobre el resultado.",
+      "url": "https://the-decoder.com/chatgpt-images-2-5-faster-more-precise-but-not-the-same-for-everyone",
+      "source": "The Decoder",
+      "social": {
+        "x": "Dos modelos de imagen se acaban de colar en ChatGPT: Flare para velocidad y Sunburst para edición precisa. ¿Cuál te tocará? OpenAI aún no lo dice.\n\n#ChatGPTImages #OpenAI #Flare #Sunburst\nhttps://the-decoder.com/chatgpt-images-2-5-faster-more-precise-but-not-the-same-for-everyone",
+        "linkedin": "En ChatGPT ya no hay un generador de imágenes, sino dos, y OpenAI no ha aclarado cuál te tocará.\nFlare apuesta por la velocidad, Sunburst por la edición precisa. La decisión parece lógica, pero 𝗹𝗮 𝗼𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝘀𝗼𝗯𝗿𝗲 𝘀𝘂 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝗰𝗶ó𝗻 complica a quien usa la herramienta a diario. Esperemos que OpenAI publique una hoja de ruta clara, porque la generación visual está entrando en una fase de especialización que exige saber qué herramienta tienes delante.\n\n#ChatGPTImages #OpenAI #Flare #Sunburst\n\nhttps://the-decoder.com/chatgpt-images-2-5-faster-more-precise-but-not-the-same-for-everyone"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Suno v6 entrena su nuevo modelo de música con Warner, BMG y Believe",
+      "summary": "Suno presenta su nueva generación de modelos de música, v6, en tres versiones desarrolladas con la colaboración de Warner Music, BMG y Believe. La compañía ha apagado todos sus modelos anteriores y permite ahora ediciones parciales de las canciones mediante texto o generación multimodal.",
+      "why_it_matters": "Suno da un paso hacia el entrenamiento con música licenciada mientras sigue inmersa en demandas por derechos de autor.",
+      "url": "https://the-decoder.com/suno-launches-v6-music-models-built-with-warner-bmg-and-believe",
+      "source": "The Decoder",
+      "social": {
+        "x": "Mientras algunas discográficas demandan a Suno, Warner, BMG y Believe se unen a ella para entrenar la v6. La compañía apaga todos sus modelos anteriores.\n\n#Suno #WarnerMusic #BMG #Believe\nhttps://the-decoder.com/suno-launches-v6-music-models-built-with-warner-bmg-and-believe",
+        "linkedin": "Warner, BMG y Believe han dado su música a Suno mientras otras discográficas la demandan: la industria ya no habla con una sola voz.\n\nSuno presenta v6, un modelo en tres versiones, y ha apagado todos los anteriores. Es un movimiento que va más allá de la tecnología: apuesta por las licencias en plena batalla legal. 𝗟𝗮 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮 𝘀𝗲 𝗵𝗮 𝗽𝗮𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝗱𝗼𝘀: 𝗹𝗮 𝗾𝘂𝗲 𝗱𝗲𝗺𝗮𝗻𝗱𝗮 𝘆 𝗹𝗮 𝗾𝘂𝗲 𝗽𝗿𝗲𝗳𝗶𝗲𝗿𝗲 𝗰𝗼𝗯𝗿𝗮𝗿 𝗱𝗲𝗿𝗲𝗰𝗵𝗼𝘀 𝗮𝗻𝘁𝗲𝘀 𝗾𝘂𝗲 𝗹𝗶𝘁𝗶𝗴𝗮𝗿.\n\n#Suno #WarnerMusic #BMG #Believe\n\nhttps://the-decoder.com/suno-launches-v6-music-models-built-with-warner-bmg-and-believe"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Instacart incorpora a Clementine, un asistente de IA para hacer la compra",
+      "summary": "Clementine es el nuevo asistente conversacional de Instacart, que ayuda a decidir qué cocinar y a añadir los ingredientes al carrito teniendo en cuenta el presupuesto. El asistente ya está disponible en el marketplace de la compañía en América del Norte.",
+      "why_it_matters": "La compra de alimentos se suma a la lista de tareas cotidianas donde los asistentes de IA buscan hacerse un hueco.",
+      "url": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine",
+      "source": "TechCrunch",
+      "social": {
+        "x": "¿Qué cenamos? Clementine, el nuevo asistente de IA de Instacart, responde y te mete los ingredientes en el carrito.\n\n#Instacart #Clementine\nhttps://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine",
+        "linkedin": "¿Y si la IA decidiera qué cenas y ya metiera los ingredientes en el carrito? Instacart acaba de estrenar Clementine, un asistente conversacional que hace exactamente eso y ajusta las sugerencias al presupuesto.\n\nLa lista de la compra, una de las rutinas más personales y recurrentes, se convierte en el nuevo campo de batalla de los asistentes inteligentes. 𝗤𝘂𝗶𝗲𝗻 𝗱𝗼𝗺𝗶𝗻𝗲 𝗹𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝗰𝗶ó𝗻 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗹𝗮 𝗰𝗼𝗺𝗽𝗿𝗮 𝘀𝗲 𝗾𝘂𝗲𝗱𝗮 𝗰𝗼𝗻 𝗹𝗮 𝘃𝗲𝗻𝘁𝗮, y eso obliga a marcas y supermercados a repensar cómo aparecen dentro del chat. Para el consumidor, el cambio es sutil: la decisión se delega. Y para el retail, es un terremoto silencioso.\n\n#Instacart #Clementine\n\nhttps://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Hugging Face lanza ML Intern para ejecutar experimentos de machine learning desde un chat",
+      "summary": "ML Intern es un asistente integrado en el chatbot de Hugging Face que permite a cualquier persona lanzar experimentos de machine learning sin conocimientos previos. El sistema guía el proceso de entrenamiento y evaluación mediante una conversación natural.",
+      "why_it_matters": "Reduce la barrera técnica para experimentar con machine learning y acerca el análisis de modelos a usuarios no especializados.",
+      "url": "https://the-decoder.com/hugging-faces-new-ml-intern-lets-anyone-run-machine-learning-experiments-through-a-simple-chat",
+      "source": "The Decoder",
+      "social": {
+        "x": "Hugging Face ha convertido su chat en un laboratorio de ML: con ML Intern, ejecutas experimentos sin escribir código.\n\n#HuggingFace #MLIntern #MachineLearning\nhttps://the-decoder.com/hugging-faces-new-ml-intern-lets-anyone-run-machine-learning-experiments-through-a-simple-chat",
+        "linkedin": "Si no sabes programar, entrenar un modelo de machine learning parecía un sueño imposible.\nHugging Face acaba de presentar ML Intern, un asistente dentro de su chat que guía el entrenamiento y la evaluación de modelos con una simple conversación. No hace falta escribir código ni montar infraestructura: 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗽𝗲𝗿𝘀𝗼𝗻𝗮 𝗽𝘂𝗲𝗱𝗲 𝗽𝗹𝗮𝗻𝘁𝗲𝗮𝗿 𝘂𝗻 𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁𝗼 𝘆 𝘃𝗲𝗿 𝗿𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼𝘀 𝗲𝗻 𝗰𝘂𝗲𝘀𝘁𝗶ó𝗻 𝗱𝗲 𝗺𝗶𝗻𝘂𝘁𝗼𝘀. La barrera técnica que mantenía el ML en manos de especialistas empieza a resquebrajarse, y eso cambia quién puede poner la ciencia de datos al servicio de su trabajo.\n\n#HuggingFace #MLIntern #MachineLearning\n\nhttps://the-decoder.com/hugging-faces-new-ml-intern-lets-anyone-run-machine-learning-experiments-through-a-simple-chat"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "NVIDIA presenta CUDA Rust para escribir kernels de GPU en Rust",
+      "summary": "NVIDIA ha anunciado el soporte nativo de Rust para programación de GPUs dentro del ecosistema CUDA, con dos vías para escribir kernels. La compañía amplía así un lenguaje que hasta ahora se apoyaba principalmente en C++ y Python.",
+      "why_it_matters": "Permite a quienes desarrollan en Rust escribir código de GPU con las garantías de ese lenguaje sin salirse de su ecosistema.",
+      "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels",
+      "source": "NVIDIA Developer Blog",
+      "social": {
+        "x": "Escribir kernels de GPU en Rust era un parche. NVIDIA lo acaba de hacer nativo en CUDA.\n\n#CUDA #Rust #NVIDIA\nhttps://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels",
+        "linkedin": "La programación de GPU con CUDA ya no es exclusiva de C++ y Python: NVIDIA acaba de integrar Rust con soporte nativo.\n\nHasta ahora, cualquier intento de usar Rust en CUDA pasaba por capas intermedias o soluciones externas. Con CUDA Rust, escribir kernels con las garantías de memoria de Rust se convierte en parte del ecosistema oficial. Para los equipos que construyen su stack en Rust, el cambio es determinante: 𝘆𝗮 𝗽𝘂𝗲𝗱𝗲𝗻 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗮𝗿 𝗹𝗮 𝗚𝗣𝗨 𝘀𝗶𝗻 𝘀𝗮𝗹𝗶𝗿 𝗱𝗲 𝘀𝘂 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲 𝗻𝗶 𝗽𝗲𝗿𝗱𝗲𝗿 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱. NVIDIA amplía así el alcance de CUDA a una comunidad que valora el control y la fiabilidad.\n\n#CUDA #Rust #NVIDIA\n\nhttps://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "GPT-6 Astra de OpenAI ya está disponible en Amazon Bedrock",
+      "summary": "OpenAI ha puesto GPT-6 Astra a disposición general en Amazon Bedrock para tareas que requieren razonamiento profundo. AWS asegura que el modelo se ejecuta sobre una infraestructura de inferencia diseñada para ofrecer alto rendimiento, seguridad y escalabilidad.",
+      "why_it_matters": "Las empresas que ya usan AWS podrán desplegar el nuevo modelo de OpenAI sin cambiar de proveedor de infraestructura.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock",
+      "source": "AWS Machine Learning Blog",
+      "social": {
+        "x": "OpenAI ha puesto GPT-6 Astra en Amazon Bedrock. Si tu empresa ya usa AWS, no necesitas moverte para aprovechar su razonamiento profundo.\n\n#OpenAI #AWS #Bedrock\nhttps://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock",
+        "linkedin": "¿Cuál es el siguiente paso para la IA empresarial? Que el modelo estrella de OpenAI aterrice en Amazon Bedrock.\n\nGPT-6 Astra, orientado a tareas de razonamiento profundo, ya está disponible para todas las empresas que usan AWS. Esto significa que 𝗽𝘂𝗲𝗱𝗲𝘀 𝗱𝗲𝘀𝗽𝗹𝗲𝗴𝗮𝗿 𝗹𝗼 ú𝗹𝘁𝗶𝗺𝗼 𝗱𝗲 𝗢𝗽𝗲𝗻𝗔𝗜 𝘀𝗶𝗻 𝗰𝗮𝗺𝗯𝗶𝗮𝗿 𝗱𝗲 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿 𝗱𝗲 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮, ni duplicar tu stack. No es solo una integración: es un movimiento que refuerza la idea de que la nube se está convirtiendo en el verdadero campo de batalla de la inteligencia artificial. Las empresas ya no tienen que elegir entre OpenAI y su nube de confianza.\n\n#OpenAI #AWS #Bedrock\n\nhttps://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "La resolución de Navier-Stokes por OpenAI se enreda en acusaciones de malas prácticas",
+      "summary": "OpenAI anunció que sus agentes han resuelto uno de los problemas del milenio, Navier-Stokes, con un modelo interno y 10.000 agentes concurrentes. El matemático Tristan Buckmaster acusa a la empresa de haberse apropiado de sus avances y de presionarle para que eliminara a un coautor de Anthropic de su artículo.",
+      "why_it_matters": "El caso plantea dudas sobre cómo se atribuyen y validan los descubrimientos científicos hechos con la ayuda de modelos de IA.",
+      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
+      "source": "TechCrunch",
+      "social": {
+        "x": "OpenAI presume de resolver Navier-Stokes con IA. El matemático implicado lo llama apropiación y asegura que presionaron para eliminar a un coautor de Anthropic.\n\n#OpenAI #Anthropic #NavierStokes #Matemáticas\nhttps://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician",
+        "linkedin": "Que OpenAI haya logrado resolver Navier-Stokes con IA no implica que la ciencia esté celebrando. Tristan Buckmaster, coautor del trabajo, acusa a OpenAI de apropiarse de sus avances y de presionar para que un investigador de Anthropic fuera borrado del artículo. El anuncio pierde brillo y enciende una pregunta de fondo: 𝗰ó𝗺𝗼 𝘀𝗲 𝗮𝘁𝗿𝗶𝗯𝘂𝘆𝗲𝗻 𝗹𝗼𝘀 𝗱𝗲𝘀𝗰𝘂𝗯𝗿𝗶𝗺𝗶𝗲𝗻𝘁𝗼𝘀 𝗰𝘂𝗮𝗻𝗱𝗼 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝘀𝗼𝗻 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲𝗹 𝗽𝗿𝗼𝗰𝗲𝘀𝗼.\n\n#OpenAI #Anthropic #NavierStokes #Matemáticas\n\nhttps://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "La IA meteorológica de Google mejora al integrar más datos brutos de satélite",
+      "summary": "El modelo de predicción meteorológica de Google ha incorporado más entradas de datos sin procesar procedentes de satélites, como hacen los sistemas tradicionales. Esta actualización mejora la precisión de sus pronósticos.",
+      "why_it_matters": "Demuestra que los modelos de IA pueden beneficiarse de incorporar más observaciones reales, igual que la meteorología clásica.",
+      "url": "https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data",
+      "source": "Ars Technica",
+      "social": {
+        "x": "La última mejora de la IA meteorológica de Google no viene de un modelo más grande, sino de algo más básico: datos brutos de satélite.\n\n#Google #Meteorología #Satélite\nhttps://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data",
+        "linkedin": "¿Y si el secreto de mejorar la predicción meteorológica con IA no fuera un algoritmo más grande, sino más datos brutos?\nGoogle ha actualizado su modelo para integrar directamente datos brutos de satélite, como hacen los sistemas meteorológicos tradicionales. Este giro de guion demuestra que 𝗹𝗮 𝗜𝗔 𝘁𝗮𝗺𝗯𝗶é𝗻 𝗴𝗮𝗻𝗮 𝗰𝘂𝗮𝗻𝗱𝗼 𝘀𝗲 𝗮𝗰𝗲𝗿𝗰𝗮 𝗮 𝗹𝗮 𝗺𝗲𝘁𝗲𝗼𝗿𝗼𝗹𝗼𝗴í𝗮 𝗰𝗹á𝘀𝗶𝗰𝗮. Supone un recordatorio para cualquier equipo que desarrolle modelos: a veces lo que más impacto tiene no es la arquitectura, sino los datos que decides usar.\n\n#Google #Meteorología #Satélite\n\nhttps://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "industria",
+      "title": "Un investigador de Anthropic dimite y alerta del riesgo de una IA que puede matar a todos los humanos",
+      "summary": "Jacob Coxon, investigador de pretraining que ha trabajado en OpenAI y Anthropic, ha dejado la compañía y acusa a ambos laboratorios de jugar con las vidas humanas en su carrera hacia la superinteligencia. Horas después, otro investigador de Anthropic cifró en más del 10% las opciones de que una IA desalineada acabe con la humanidad en esta década.",
+      "why_it_matters": "La fuga de investigadores de seguridad refleja la tensión creciente dentro de los principales laboratorios de IA.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+      "source": "The Verge",
+      "social": {
+        "x": "Un investigador de Anthropic ha dimitido y denuncia: la industria juega con vidas humanas. Otro compañero cifra en más del 10% el riesgo de extinción por IA esta década.\n\n#Anthropic #OpenAI #AISafety\nhttps://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+        "linkedin": "La dimisión de un investigador de Anthropic no debería tratarse como una anécdota interna, sino como una alerta sobre el rumbo de la IA.\nJacob Coxon, que pasó por OpenAI, abandona la compañía y denuncia que la carrera hacia la superinteligencia está jugando con vidas humanas. Un compañero de laboratorio lo traduce en números: más del 10% de posibilidades de que una IA desalineada provoque la extinción humana en esta década. 𝗟𝗮𝘀 𝗱𝗶𝗺𝗶𝘀𝗶𝗼𝗻𝗲𝘀 𝗱𝗲 𝗲𝘀𝘁𝗲 𝘁𝗶𝗽𝗼 𝘀𝗼𝗻 𝗲𝗹 𝗺𝗲𝗷𝗼𝗿 𝗶𝗻𝗱𝗶𝗰𝗮𝗱𝗼𝗿 𝗱𝗲𝗹 𝗺𝗮𝗹𝗲𝘀𝘁𝗮𝗿 𝗶𝗻𝘁𝗲𝗿𝗻𝗼 𝗲𝗻 𝗹𝗼𝘀 𝗴𝗶𝗴𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗹𝗮 𝗜𝗔, y las empresas que dependen de estos modelos deberían exigir más transparencia sobre los riesgos.\n\n#Anthropic #OpenAI #AISafety\n\nhttps://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Los modelos de IA empiezan a marcar su texto con marcas de agua invisibles",
+      "summary": "Anthropic ha anunciado que todos sus futuros modelos de Claude incluirán una marca de agua en el texto que generen. Google ya aplica un sistema similar en Gemini y OpenAI tiene previsto hacer lo mismo, en parte por la presión regulatoria de la ley de IA europea.",
+      "why_it_matters": "La marca de agua en texto es una de las pocas vías prácticas para distinguir contenido generado por máquinas a gran escala.",
+      "url": "https://spectrum.ieee.org/ai-watermark-text-anthropic-openai",
+      "source": "IEEE Spectrum",
+      "social": {
+        "x": "Una firma invisible viajará en cada texto que genere Claude a partir de ahora. Anthropic lo confirma: todos sus futuros modelos la llevarán.\n\n#Anthropic #Claude #Watermarking\nhttps://spectrum.ieee.org/ai-watermark-text-anthropic-openai",
+        "linkedin": "¿Y si se pudiera comprobar si un texto lo ha escrito una máquina?\n\nAnthropic ha anunciado que todos sus futuros Claude incluirán una marca de agua invisible. Google ya lo hace en Gemini y OpenAI lo tiene previsto: la ley de IA europea empuja a que el contenido sintético sea identificable. No es una bala de plata, pero 𝗲𝘀 𝗹𝗮 ú𝗻𝗶𝗰𝗮 𝘃í𝗮 𝗽𝗿á𝗰𝘁𝗶𝗰𝗮 𝗮 𝗴𝗿𝗮𝗻 𝗲𝘀𝗰𝗮𝗹𝗮 𝗽𝗮𝗿𝗮 𝗱𝗶𝘀𝘁𝗶𝗻𝗴𝘂𝗶𝗿 𝘁𝗲𝘅𝘁𝗼 𝗴𝗲𝗻𝗲𝗿𝗮𝗱𝗼 𝗽𝗼𝗿 𝗜𝗔. Para editores, plataformas y reguladores, esto cambia el punto de partida.\n\n#Anthropic #Claude #Watermarking\n\nhttps://spectrum.ieee.org/ai-watermark-text-anthropic-openai"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "EE UU acusa a laboratorios chinos de destilar a escala industrial los modelos de IA estadounidenses",
+      "summary": "La NSA, CISA y el FBI señalan a DeepSeek, Moonshot y otros laboratorios chinos de llevar a cabo una campaña industrial de destilación de los modelos de IA de frontera de Estados Unidos. El aviso sostiene que esta práctica forma parte del núcleo de la estrategia china en IA.",
+      "why_it_matters": "La acusación eleva la tensión geopolítica en torno a la propiedad intelectual y la ventaja tecnológica de los laboratorios estadounidenses.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/09/us-claims-chinese-ai-companies-core-ai-strategy-is-distilling-american-models/5295171",
+      "source": "The Register",
+      "social": {
+        "x": "NSA, CISA y el FBI han puesto nombre y apellidos a la estrategia china en IA: destilación a escala industrial.\n\n#DeepSeek #Moonshot\nhttps://www.theregister.com/ai-and-ml/2026/09/09/us-claims-chinese-ai-companies-core-ai-strategy-is-distilling-american-models/5295171",
+        "linkedin": "NSA, CISA y el FBI han dejado de hablar de sospechas: han puesto nombre y apellidos a la estrategia china en IA.\nApuntan a DeepSeek, Moonshot y otros laboratorios por destilar a escala industrial los modelos de frontera estadounidenses. La destilación no es nueva, pero que tres agencias de inteligencia la cataloguen como el núcleo de esa estrategia la convierte en un asunto de seguridad nacional. 𝗘𝘀𝗲 𝘀𝗮𝗹𝘁𝗼 𝗱𝗲 𝗹𝗮 𝘁é𝗰𝗻𝗶𝗰𝗮 𝗮𝗹 𝗲𝘀𝗽𝗶𝗼𝗻𝗮𝗷𝗲 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮𝗹 redefine la guerra por la IA: ya no se discute solo quién lidera, sino qué se puede copiar y a qué precio.\n\n#DeepSeek #Moonshot\n\nhttps://www.theregister.com/ai-and-ml/2026/09/09/us-claims-chinese-ai-companies-core-ai-strategy-is-distilling-american-models/5295171"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Los suscriptores de Claude sufren el robo de tokens de sus cuentas",
+      "summary": "Anthropic ha avisado a sus usuarios de que los tokens de Claude están siendo sustraídos por atacantes que utilizan las cuentas sin permiso. El mes pasado, un cliente detectó un consumo anómalo en su suscripción cuando no estaba trabajando con el modelo.",
+      "why_it_matters": "El robo de tokens de IA se convierte en un riesgo económico y de seguridad para quienes contratan estos servicios.",
+      "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Atacantes están usando cuentas de Claude sin permiso y vaciando los tokens. Si eres suscriptor, revisa tu consumo.\n\n#Claude #Anthropic\nhttps://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers",
+        "linkedin": "El robo de tokens de IA ya no es una posibilidad teórica: los suscriptores de Claude están viendo consumos que no han hecho.\nAnthropic ha avisado de que las cuentas se están utilizando sin autorización para gastar tokens. Lo preocupante es que, a diferencia de una tarjeta, el impacto no es solo económico: 𝘁𝗮𝗺𝗯𝗶é𝗻 𝗲𝘅𝗽𝗼𝗻𝗲 𝗲𝗹 𝗵𝗶𝘀𝘁𝗼𝗿𝗶𝗮𝗹 𝗱𝗲 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝘆 𝗹𝗼𝘀 𝗱𝗮𝘁𝗼𝘀 𝗾𝘂𝗲 𝗽𝗮𝘀𝗮𝗻 𝗽𝗼𝗿 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼. Para cualquier empresa que use Claude como herramienta de trabajo, esto obliga a revisar la autenticación y a vigilar el consumo de forma activa.\n\n#Claude #Anthropic\n\nhttps://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "El aluvión de código generado por IA complica la revisión en las empresas de software",
+      "summary": "Las herramientas de IA pueden generar miles de líneas de código en minutos, pero ese código necesita una revisión cuidadosa porque a menudo esconde errores sutiles, problemas de seguridad o suposiciones incorrectas. Las empresas empiezan a buscar soluciones para que la avalancha de código generado no borre las ganancias de productividad.",
+      "why_it_matters": "La calidad del software generado por IA se ha convertido en uno de los principales cuellos de botella del desarrollo moderno.",
+      "url": "https://spectrum.ieee.org/ai-code-review-software-engineers",
+      "source": "IEEE Spectrum",
+      "social": {
+        "x": "La IA genera código a una velocidad que ningún humano puede revisar. El cuello de botella se ha movido: ya no es escribirlo, es verificarlo.\n\n#GenerativeAI #CodeReview\nhttps://spectrum.ieee.org/ai-code-review-software-engineers",
+        "linkedin": "La IA generativa ha convertido la escritura de código en un cuello de botella de revisión.\n\nLas herramientas generan miles de líneas en minutos, pero ese código incluye errores sutiles, vulnerabilidades y suposiciones incorrectas. 𝗟𝗮 𝗿𝗲𝘃𝗶𝘀𝗶ó𝗻 𝗺𝗮𝗻𝘂𝗮𝗹 𝘀𝗲 𝗵𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝗲𝗹 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹 𝗳𝗿𝗲𝗻𝗼 𝗱𝗲𝗹 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗼 𝗰𝗼𝗻 𝗜𝗔 y las empresas buscan soluciones para que la avalancha no borre las ganancias de productividad.\n\n#GenerativeAI #CodeReview\n\nhttps://spectrum.ieee.org/ai-code-review-software-engineers"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "lanzamientos",
+      "title": "Chrome pasa a lanzar actualizaciones cada dos semanas por el nuevo entorno de amenazas con IA",
+      "summary": "Google ha acelerado el ciclo de lanzamiento de Chrome para distribuir cada dos semanas parches de seguridad y nuevas funciones. La decisión responde a un panorama de amenazas en el que la IA está cambiando tanto la velocidad como la naturaleza de los ataques.",
+      "why_it_matters": "Un ciclo de actualización más corto reduce la ventana de exposición a vulnerabilidades en el navegador más utilizado del mundo.",
+      "url": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Chrome pasa a actualizarse cada dos semanas. La IA ha acelerado los ataques y el navegador más usado del mundo no puede esperar un mes.\n\n#Chrome #Google #Ciberseguridad\nhttps://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape",
+        "linkedin": "Chrome actualiza cada dos semanas, y el motivo no es añadir funciones, sino frenar a los atacantes que usan IA. Google acelera el ciclo de parches porque el entorno de amenazas ha cambiado: la IA permite automatizar ataques a una velocidad antes impensable. 𝗘𝘀𝗮 𝘃𝗲𝗻𝘁𝗮𝗻𝗮 𝗱𝗲 𝗲𝘅𝗽𝗼𝘀𝗶𝗰𝗶ó𝗻 𝗱𝗲 𝘂𝗻 𝗺𝗲𝘀 𝘀𝗲 𝗿𝗲𝗱𝘂𝗰𝗲 𝗮 𝗹𝗮 𝗺𝗶𝘁𝗮𝗱 en el navegador más usado del mundo, y eso obliga a revisar también cómo se actualizan otras herramientas críticas.\n\n#Chrome #Google #Ciberseguridad\n\nhttps://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Los principales fabricantes de chips adoptan las máscaras más grandes de ASML para impulsar la litografía high-NA EUV",
+      "summary": "Los grandes fabricantes de semiconductores han aceptado el cambio a fotomáscaras de mayor tamaño que propone ASML. La medida busca eliminar las limitaciones actuales y aumentar hasta un 40% la productividad de las máquinas de litografía high-NA EUV.",
+      "why_it_matters": "La decisión condicionará la fabricación de chips avanzados durante la próxima década y la viabilidad de las máquinas más caras de ASML.",
+      "url": "https://arstechnica.com/gadgets/2026/09/top-chipmakers-embrace-asmls-400m-machines-agree-to-crucial-chipmaking-change",
+      "source": "Ars Technica",
+      "social": {
+        "x": "La litografía High-NA EUV, la más cara de ASML, necesita máscaras más grandes para despegar. Los grandes fabricantes de chips acaban de aceptarlo, con un +40% de productividad por delante.\n\n#ASML #HighNA #EUV\nhttps://arstechnica.com/gadgets/2026/09/top-chipmakers-embrace-asmls-400m-machines-agree-to-crucial-chipmaking-change",
+        "linkedin": "La litografía High-NA EUV, la apuesta más cara de ASML, necesita un cambio de formato en las fotomáscaras para ser viable.\n\nLos grandes fabricantes de semiconductores ya han respaldado el plan de ASML de agrandar las máscaras en sus equipos más avanzados, una medida que promete aumentar la productividad hasta un 40%. 𝗟𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗻𝗼 𝗲𝘀 𝘀𝗼𝗹𝗼 𝘁é𝗰𝗻𝗶𝗰𝗮: 𝗰𝗼𝗻𝗱𝗶𝗰𝗶𝗼𝗻𝗮 𝗹𝗮 𝘃𝗶𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗲𝗰𝗼𝗻ó𝗺𝗶𝗰𝗮 𝗱𝗲 𝗲𝘀𝘁𝗮𝘀 𝗺á𝗾𝘂𝗶𝗻𝗮𝘀 y la hoja de ruta de los chips avanzados para la próxima década. Para el sector, es la señal de que la litografía extrema necesita un estándar industrial que la haga rentable.\n\n#ASML #HighNA #EUV\n\nhttps://arstechnica.com/gadgets/2026/09/top-chipmakers-embrace-asmls-400m-machines-agree-to-crucial-chipmaking-change"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Microsoft corrige en su mayor Patch Tuesday 974 vulnerabilidades, 112 de ellas críticas",
+      "summary": "Microsoft ha batido su propio récord en el boletín de seguridad mensual con 974 vulnerabilidades corregidas, de las cuales 112 son críticas. Adobe también ha publicado actualizaciones urgentes que los equipos de seguridad deberían aplicar de inmediato.",
+      "why_it_matters": "El volumen de parches refleja la presión que la automatización y la IA ejercen sobre el descubrimiento y la explotación de fallos.",
+      "url": "https://www.theregister.com/security/2026/09/09/microsoft-breaks-patch-tuesday-record-with-974-cve-deluge/5295160",
+      "source": "The Register",
+      "social": {
+        "x": "974 vulnerabilidades en un mes. Microsoft acaba de publicar el mayor Patch Tuesday de su historia. ¿Se puede sostener este ritmo?\n\n#PatchTuesday #Microsoft #Adobe\nhttps://www.theregister.com/security/2026/09/09/microsoft-breaks-patch-tuesday-record-with-974-cve-deluge/5295160",
+        "linkedin": "Microsoft ha publicado el mayor Patch Tuesday de su historia: 974 vulnerabilidades corregidas, 112 de ellas críticas.\n\nLa cifra no es un accidente: la automatización y la IA están comprimiendo los tiempos entre el descubrimiento de un fallo y su explotación. Para los equipos de seguridad, 𝗲𝗹 𝗱𝗲𝘀𝗮𝗳í𝗼 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘀𝗼𝗹𝗼 𝗽𝗮𝗿𝗰𝗵𝗲𝗮𝗿, 𝘀𝗶𝗻𝗼 𝘀𝗮𝗯𝗲𝗿 𝗾𝘂é 𝗽𝗮𝗿𝗰𝗵𝗲𝗮𝗿 𝗽𝗿𝗶𝗺𝗲𝗿𝗼 cuando cada mes llegan casi mil boletines. Adobe también ha lanzado actualizaciones urgentes, así que conviene revisar los procesos de aplicación de parches antes de que sea demasiado tarde.\n\n#PatchTuesday #Microsoft #Adobe\n\nhttps://www.theregister.com/security/2026/09/09/microsoft-breaks-patch-tuesday-record-with-974-cve-deluge/5295160"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "Framework de trading financiero que usa múltiples agentes basados en LLM para simular y ejecutar estrategias. Una herramienta potente para experimentar con IA en los mercados.",
+      "language": "Python",
+      "stars": 103657,
+      "social": {
+        "x": "Alguien acaba de poner a un equipo de agentes de IA a operar en bolsa, y ha liberado el código en GitHub. El framework es open source y ya tiene más de 100.000 estrellas.\n\n#TradingAgents #Python #OpenSource #GitHub\nhttps://github.com/TauricResearch/TradingAgents",
+        "linkedin": "¿Y SI TE DIJERA QUE UN EQUIPO DE AGENTES DE IA PUEDE OPERAR EN BOLSA DE FORMA AUTÓNOMA?\nTradingAgents es un framework open source en Python con más de 103.000 estrellas que se dedica exactamente a eso.\n\nLejos de ser un broker automático para hacerte rico, es una herramienta para experimentar: coordina 𝗺ú𝗹𝘁𝗶𝗽𝗹𝗲𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗯𝗮𝘀𝗮𝗱𝗼𝘀 𝗲𝗻 𝗟𝗟𝗠 que simulan y ejecutan estrategias de mercado. Así puedes investigar cómo se comporta la IA en entornos volátiles y aprender de sus decisiones.\n\n→ Framework en Python listo para clonar y ejecutar.\n→ Agentes LLM que colaboran entre sí para simular operaciones de compra y venta.\n→ Código abierto, ideal para estudiar y modificar.\n\nSi te interesan la IA y los mercados, te dejo el repo abajo. Guárdalo para tenerlo a mano cuando quieras experimentar.\n\n#TradingAgents #Python #OpenSource #GitHub\n\nhttps://github.com/TauricResearch/TradingAgents"
+      }
+    },
+    {
+      "name": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "Librería de habilidades para agentes que convierte texto en modelos CAD, CAE y CAM. Muy práctica para automatizar tareas de diseño e ingeniería con IA.",
+      "language": "Python",
+      "stars": 14887,
+      "social": {
+        "x": "Alguien acaba de publicar text-to-cad: convierte texto en modelos CAD, CAE y CAM. 14.887 estrellas y una idea clara: automatizar la ingeniería con IA.\n\n#TextToCAD #CAD #OpenSource #Python\nhttps://github.com/earthtojake/text-to-cad",
+        "linkedin": "IMAGÍNATE DESCRIBIR CON TEXTO UNA PIEZA MECÁNICA Y QUE UNA IA TE DEVUELVA EL MODELO CAD. ESO YA ES POSIBLE.\n\nAsí se presenta text-to-cad, una librería open source en Python que funciona como una skill para agentes de IA. 𝗘𝗹 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲 𝗻𝗮𝘁𝘂𝗿𝗮𝗹 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗹𝗮 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗱𝗶𝗿𝗲𝗰𝘁𝗮 𝗮𝗹 𝗱𝗶𝘀𝗲ñ𝗼 𝘁é𝗰𝗻𝗶𝗰𝗼. Convierte frases en modelos CAD, CAE y CAM, un atajo enorme para quien trabaja en automatización de ingeniería.\n\n→ Añade la capacidad de modelar en 3D a tu agente con una librería Python.\n→ Genera modelos técnicos para diseño (CAD), simulación (CAE) y fabricación (CAM).\n→ Al ser open source, puedes adaptarla a tu stack sin coste de licencia.\n→ Ya suma 14.887 estrellas en GitHub: la comunidad ha respondido.\n\nSi te dedicas a la ingeniería, el diseño industrial o la fabricación digital, este repo te puede ahorrar días de trabajo. Te lo dejo abajo para que lo explores.\n\n#TextToCAD #CAD #OpenSource #Python\n\nhttps://github.com/earthtojake/text-to-cad"
+      }
+    },
+    {
+      "name": "vastsa/PI-Desktop",
+      "url": "https://github.com/vastsa/PI-Desktop",
+      "description": "Aplicación de escritorio que prioriza el procesamiento local para agentes de código con IA. Integra un núcleo en Rust y una interfaz Electron, con soporte para plugins instalables por el usuario.",
+      "language": "TypeScript",
+      "stars": 1493,
+      "social": {
+        "x": "Alguien acaba de regalar un escritorio para agentes de código con IA que corre 100% en local. Núcleo en Rust, plugins a tu gusto y 1.493 estrellas.\n\n#PIDesktop #Rust #Electron #OpenSource\nhttps://github.com/vastsa/PI-Desktop",
+        "linkedin": "¿TU AGENTE DE CÓDIGO CON IA SIGUE MANDANDO TUS DATOS A LA NUBE?\n\nPI-Desktop apuesta por el 𝗽𝗿𝗼𝗰𝗲𝘀𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗹𝗼𝗰𝗮𝗹 para que tus agentes de código con IA trabajen en tu propio equipo. Mientras otras soluciones te cobran por uso o dependen de servidores externos, este proyecto ya suma 1.493 estrellas en GitHub.\n\n→ Núcleo en Rust para un rendimiento serio.\n→ Interfaz Electron, fácil de usar y personalizar.\n→ Soporte para plugins instalables por el usuario.\n→ Tus datos no salen de tu máquina.\n\nSi buscas una alternativa abierta para tu flujo de desarrollo, te dejo el repo abajo. Guárdatelo para cuando lo necesites.\n\n#PIDesktop #Rust #Electron #OpenSource\n\nhttps://github.com/vastsa/PI-Desktop"
+      }
+    },
+    {
+      "name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "description": "Un skill para agentes de programación que obliga a dar respuestas concisas y directas. Perfecto para quienes buscan claridad y evitan divagaciones del asistente.",
+      "language": "Python",
+      "stars": 33246,
+      "social": {
+        "x": "¿Cansado de que tu asistente de programación te suelte un tratado? Un skill con 33k estrellas responde en dos líneas. Se llama i-have-adhd.\n\n#IHaveADHD #Python #OpenSource #GitHub\nhttps://github.com/ayghri/i-have-adhd",
+        "linkedin": "Que un asistente de programación te dé una respuesta de dos párrafos cuando solo preguntas por un error es el nuevo infierno.\n\nEste repo, que ya suma 33.246 estrellas, pone fin a eso. Se llama i-have-adhd y es un skill para agentes de código que los obliga a dar 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮𝘀 𝗰𝗼𝗻𝗰𝗶𝘀𝗮𝘀 𝘆 𝗱𝗶𝗿𝗲𝗰𝘁𝗮𝘀. Nada de divagaciones.\n\n¿Cómo lo hace?\n\n→ Establece reglas de estilo que el agente debe seguir: ir al grano, sin relleno ni cortesía innecesaria.\n→ Se puede aplicar a cualquier agente que soporte skills, por lo que no estás atado a una plataforma.\n→ Ideal para desarrolladores con poco tiempo, equipos ágiles o personas con TDAH que necesitan claridad en pantalla.\n\nYa lo he probado y la diferencia se nota. Si quieres que tu asistente deje de darte la chapa, guarda este post y abre el enlace cuando estés en tu editor.\n\n#IHaveADHD #Python #OpenSource #GitHub\n\nhttps://github.com/ayghri/i-have-adhd"
+      }
+    },
+    {
+      "name": "pascalorg/editor",
+      "url": "https://github.com/pascalorg/editor",
+      "description": "Editor para crear y compartir proyectos de arquitectura en 3D. Destaca por su facilidad de uso y por permitir colaborar en tiempo real.",
+      "language": "TypeScript",
+      "stars": 22735,
+      "social": {
+        "x": "¿Aún pagas una licencia CAD para tus proyectos? Este editor de arquitectura 3D es open source, colabora en tiempo real y ya tiene 22.7k estrellas.\n\n#PascalEditor #Arquitectura3D #TypeScript #OpenSource\nhttps://github.com/pascalorg/editor",
+        "linkedin": "¿PARA QUÉ SEGUIR PAGANDO UNA LICENCIA CAD CUANDO HAY UN EDITOR OPEN SOURCE DE ARQUITECTURA 3D QUE COLABORA EN TIEMPO REAL?\n\nExiste, se llama Pascal Editor y en GitHub acumula ya 22.7k estrellas. Está escrito en TypeScript y nace para que la creación, revisión y compartición de proyectos de arquitectura en 3D no se convierta en un quebradero de cabeza.\n\nLo que te encuentras dentro del repo:\n\n→ Un editor 3D enfocado a arquitectura, con una curva de aprendizaje mínima.\n→ Colaboración en tiempo real para que todo tu equipo vea los cambios al instante.\n→ Open source, así que tienes libertad para inspeccionarlo, adaptarlo e integrarlo en tu flujo de trabajo.\n→ Una comunidad que crece rápido, señal de que el proyecto va en serio.\n\n𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗲𝘀 𝗾𝘂𝗲 𝘆𝗮 𝗻𝗼 𝗻𝗲𝗰𝗲𝘀𝗶𝘁𝗮𝘀 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝘀𝗼𝗹𝘂𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝗿𝗼𝗽𝗶𝗲𝘁𝗮𝗿𝗶𝗮𝘀 𝗰𝗮𝗿𝗮𝘀 𝗽𝗮𝗿𝗮 𝘁𝗿𝗮𝗯𝗮𝗷𝗮𝗿 𝗲𝗻 𝟯𝗗. Si estás metido en arquitectura, construcción o diseño, este repo te interesa: guárdatelo para tenerlo a mano cuando empieces a explorarlo.\n\nEnlace abajo.\n\n#PascalEditor #Arquitectura3D #TypeScript #OpenSource\n\nhttps://github.com/pascalorg/editor"
+      }
+    }
+  ]
+}
