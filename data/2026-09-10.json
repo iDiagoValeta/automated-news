@@ -1,0 +1,324 @@
+{
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T14:25:22.903Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "DeepSeek lanza V4.1-Flash, un modelo multimodal que reduce la caché KV a la cuarta parte",
+      "summary": "DeepSeek ha presentado V4.1-Flash, el modelo más pequeño de su nueva familia de arquitecturas, con comprensión visual nativa y 552.000 millones de parámetros, de los que solo 16.000 millones están activos por token. La compañía asegura que recorta el consumo de memoria de la caché KV a un cuarto respecto a su predecesor y lo publica bajo licencia MIT, con el foco puesto en agentes de IA más baratos.",
+      "why_it_matters": "Es un modelo open source pensado para abaratar el despliegue de agentes, con menos memoria, más rendimiento de inferencia y una licencia que permite usarlo sin fricción.",
+      "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+      "source": "Hacker News",
+      "social": {
+        "x": "DeepSeek recorta la caché KV a la cuarta parte y libera V4.1-Flash bajo licencia MIT. El despliegue de agentes acaba de abaratarse.\nhttps://twitter.com/deepseek_ai/status/2097930608790167907",
+        "linkedin": "DeepSeek acaba de mover el cuello de botella de sitio: V4.1-Flash es multimodal, open source y con licencia MIT.\n\nEl modelo declara 552.000 millones de parámetros, pero solo 16.000 millones activos por token, y recorta la caché KV a un cuarto respecto a su predecesor. Traducido a dinero: 𝗺𝗲𝗻𝗼𝘀 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗽𝗼𝗿 𝗶𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝘀𝗶𝗴𝗻𝗶𝗳𝗶𝗰𝗮 𝗺á𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗽𝗼𝗿 𝗚𝗣𝗨. Para cualquier equipo que esté montando agentes a escala, el coste ya no lo decide solo el modelo, sino la arquitectura que lo rodea: aquí es donde se gana o se pierde el margen.\n\nhttps://twitter.com/deepseek_ai/status/2097930608790167907"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Meta lanza Muse, un agente de IA que compra, escribe correos y negocia precios por WhatsApp",
+      "summary": "Meta ha presentado Muse, un agente capaz de reservar viajes, gestionar compras y enviar correos a través de WhatsApp, con pagos mediante Stripe Link. Un agente de seguridad aparte, Sentinel, revisa cada acción antes de que salga a internet.",
+      "why_it_matters": "Lleva la ejecución de tareas reales a una app de mensajería con millones de usuarios, justo donde OpenAI dejó aparcado su checkout dentro de ChatGPT.",
+      "url": "https://the-decoder.com/muse-can-shop-write-emails-and-negotiate-prices-for-users-all-through-whatsapp",
+      "source": "The Decoder",
+      "social": {
+        "x": "El agente que compra por ti no va a vivir en una app nueva: va a vivir en WhatsApp. Meta presenta Muse, que reserva viajes, gestiona compras y negocia precios con Stripe Link.\n\n#Meta #WhatsApp #Stripe #Muse\nhttps://the-decoder.com/muse-can-shop-write-emails-and-negotiate-prices-for-users-all-through-whatsapp",
+        "linkedin": "El checkout se muda a la conversación: Meta presenta Muse, un agente que reserva viajes, gestiona compras, envía correos y negocia precios dentro de WhatsApp, con pagos vía Stripe Link.\n\nLo relevante no es el agente en sí, sino dónde vive. Mientras OpenAI dejó aparcado su checkout dentro de ChatGPT, Meta lo coloca en una app que ya tiene millones de usuarios y una cuenta de pago conectada, con Sentinel revisando cada acción antes de que salga a internet. Para cualquier negocio con venta online, 𝗲𝗹 𝗲𝗺𝗯𝘂𝗱𝗼 𝗱𝗲 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗶ó𝗻 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗽𝗮𝘀𝗮𝗿 𝗽𝗼𝗿 𝘂𝗻𝗮 𝘄𝗲𝗯 y empieza a pasar por un chat.\n\n#Meta #WhatsApp #Stripe #Muse\n\nhttps://the-decoder.com/muse-can-shop-write-emails-and-negotiate-prices-for-users-all-through-whatsapp"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "Cómo desplegar el modelo abierto Qwen3.8-2.4T-A95B en SageMaker HyperPod con vLLM",
+      "summary": "AWS explica paso a paso el despliegue del modelo abierto Qwen3.8-2.4T-A95B, de 2,4 billones de parámetros, sobre SageMaker HyperPod con vLLM: aprovisionamiento del clúster, cuantización NVFP4 y un endpoint compatible con la API de OpenAI con tool calling y decodificación especulativa MTP.",
+      "why_it_matters": "Es una receta concreta para servir uno de los mayores modelos abiertos en infraestructura propia sin montar el stack desde cero.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Un modelo abierto de 2,4 billones de parámetros corriendo en tu propia infraestructura. AWS acaba de publicar la receta.\n\n#Qwen #vLLM #SageMaker #AWS\nhttps://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm",
+        "linkedin": "Un modelo abierto de 2,4 billones de parámetros ya se puede servir en tu propia infraestructura sin montar el stack desde cero.\n\nAWS ha publicado la receta completa: SageMaker HyperPod, vLLM, cuantización NVFP4 y un endpoint compatible con la API de OpenAI con tool calling y decodificación especulativa MTP. 𝗟𝗼 𝗶𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝘁𝗮𝗺𝗮ñ𝗼 𝗱𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝘀𝗶𝗻𝗼 𝗾𝘂𝗲 𝗲𝗹 𝗰𝗮𝗺𝗶𝗻𝗼 𝗲𝘀𝘁é 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗮𝗱𝗼: lo que antes eran semanas de ingeniería se convierte en una configuración reproducible. Para cualquier equipo que esté sopesando open source frente a APIs cerradas, el coste de entrada acaba de bajar.\n\n#Qwen #vLLM #SageMaker #AWS\n\nhttps://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "investigacion",
+      "title": "Procedural Graphs, una estructura de ejecución que evoluciona sola para agentes LLM",
+      "summary": "Un artículo de arXiv propone los Procedural Graphs, un grafo de estado, acción y resultado que explicita qué debe hacer un agente, en qué orden y bajo qué condiciones. La idea es evitar que los agentes pierdan el objetivo, invoquen herramientas en mal orden o repitan acciones cuando las trayectorias se alargan.",
+      "why_it_matters": "Ataca uno de los fallos más habituales de los agentes en producción: la pérdida de rumbo en tareas largas.",
+      "url": "https://arxiv.org/abs/2609.09153",
+      "source": "Hacker News",
+      "social": {
+        "x": "Los agentes LLM se desorientan cuando la tarea se alarga. La propuesta: un grafo que fija qué hacer, en qué orden y bajo qué condiciones.\n\n#LLM #AIAgents #arXiv\nhttps://arxiv.org/abs/2609.09153",
+        "linkedin": "Los agentes LLM no fallan por falta de capacidad, sino por perder el rumbo cuando la tarea se alarga.\n\nUn paper en arXiv propone los Procedural Graphs: un grafo de estado, acción y resultado que explicita qué debe hacer el agente, en qué orden y bajo qué condiciones, para que no invoque herramientas en mal orden ni repita pasos. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗹𝗮 𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗱𝗲 𝗲𝗷𝗲𝗰𝘂𝗰𝗶ó𝗻 𝗾𝘂𝗲 𝗹𝗼 𝗿𝗼𝗱𝗲𝗮, y eso se resuelve con ingeniería, no con más parámetros. Si tienes agentes en producción, esta es la capa donde conviene invertir esfuerzo.\n\n#LLM #AIAgents #arXiv\n\nhttps://arxiv.org/abs/2609.09153"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "investigacion",
+      "title": "Entrenar un LLM de 3.800 millones de parámetros desde cero por 998 dólares",
+      "summary": "Un desarrollador relata cómo entrenó desde cero un modelo de 3.800 millones de parámetros sobre 65.000 millones de tokens en 43 horas, con un coste de 998 dólares, depurando en una RTX 5090 y terminando en B200 alquiladas. El resultado alcanza 0,384 CORE.",
+      "why_it_matters": "Demuestra que entrenar un modelo con prestaciones decentes está al alcance de una sola persona con unos miles de dólares.",
+      "url": "https://hugovergnes.github.io/little-lm-3-8b",
+      "source": "Hacker News",
+      "social": {
+        "x": "Entrenar un LLM de 3.800 millones de parámetros desde cero por 998 dólares. Una persona, 43 horas y una RTX 5090 antes de terminar en B200 alquiladas.\nhttps://hugovergnes.github.io/little-lm-3-8b",
+        "linkedin": "Entrenar un modelo de 3.800 millones de parámetros desde cero ya cuesta menos que un portátil decente: 998 dólares.\n\nUn desarrollador lo cuenta con todo el detalle: 65.000 millones de tokens, 43 horas de entrenamiento, depuración en una RTX 5090 y el tramo final en B200 alquiladas. Alcanza 0,384 CORE, que no compite con la frontera, pero deja claro que 𝗹𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗱𝗶𝗻𝗲𝗿𝗼 𝗻𝗶 𝗲𝗹 𝗮𝗰𝗰𝗲𝘀𝗼 𝗮 𝘂𝗻 𝗰𝗹ú𝘀𝘁𝗲𝗿. Si entrenar desde cero cabe en el presupuesto de una sola persona, cualquier equipo que hoy paga API para todo tiene una decisión pendiente que revisar.\n\nhttps://hugovergnes.github.io/little-lm-3-8b"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "IBM publica PatchTST-FM-r2, su modelo de series temporales con licencia comercial",
+      "summary": "IBM Research ha publicado en Hugging Face Granite Time Series PatchTST-FM-r2, un modelo de predicción de series temporales que la compañía presenta como estado del arte y con una licencia apta para uso comercial.",
+      "why_it_matters": "Los modelos de series temporales con licencia permisiva son escasos y este se puede integrar directamente en productos y pipelines de predicción.",
+      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Los modelos de series temporales con licencia apta para uso comercial escasean. IBM acaba de publicar uno en Hugging Face.\n\n#IBM #Granite #TimeSeries #HuggingFace\nhttps://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+        "linkedin": "Encontrar un modelo de predicción de series temporales que puedas meter en un producto comercial sin abrir un expediente legal es raro. IBM Research acaba de publicar PatchTST-FM-r2 en Hugging Face con licencia comercial y lo presenta como estado del arte. Para los equipos que llevan años haciendo forecasting con modelos propios o con librerías clásicas, 𝗹𝗮 𝗹𝗶𝗰𝗲𝗻𝗰𝗶𝗮 𝗽𝗲𝘀𝗮 𝘁𝗮𝗻𝘁𝗼 𝗰𝗼𝗺𝗼 𝗹𝗮𝘀 𝗺é𝘁𝗿𝗶𝗰𝗮𝘀, porque un modelo así entra en un pipeline de producción el mismo día que lo descargas. La duda razonable ya no es si funciona en el benchmark, sino cuánto aguanta con datos reales.\n\n#IBM #Granite #TimeSeries #HuggingFace\n\nhttps://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Reconstruir AUTOMATIC1111 con Gradio Workflow",
+      "summary": "El blog de Hugging Face muestra cómo reconstruir la interfaz de AUTOMATIC1111, el popular front-end de Stable Diffusion, apoyándose en Gradio Workflow para orquestar los distintos pasos de generación.",
+      "why_it_matters": "Sirve de ejemplo práctico para montar interfaces de IA complejas con componentes reutilizables en lugar de código a medida.",
+      "url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Reconstruir AUTOMATIC1111 ya no exige código a medida: Gradio Workflow permite montarlo con componentes reutilizables. Hugging Face lo demuestra.\n\n#HuggingFace #Gradio #StableDiffusion #AUTOMATIC1111\nhttps://huggingface.co/blog/gradio-workflow-1111",
+        "linkedin": "La interfaz de AUTOMATIC1111 se puede reconstruir con componentes reutilizables en lugar de código a medida. Hugging Face muestra cómo hacerlo con Gradio Workflow, que orquesta los pasos de generación. Para quien construye herramientas de IA, la lección va más allá del ejemplo: 𝗹𝗮 𝗼𝗿𝗾𝘂𝗲𝘀𝘁𝗮𝗰𝗶ó𝗻 𝗰𝗼𝗻 𝗽𝗶𝗲𝘇𝗮𝘀 𝗿𝗲𝘂𝘁𝗶𝗹𝗶𝘇𝗮𝗯𝗹𝗲𝘀 reduce el coste de mantener interfaces complejas frente al código hecho a medida.\n\n#HuggingFace #Gradio #StableDiffusion #AUTOMATIC1111\n\nhttps://huggingface.co/blog/gradio-workflow-1111"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "investigacion",
+      "title": "NASA e IBM crean un modelo de IA para explorar la Luna",
+      "summary": "NASA e IBM han presentado un modelo de IA dedicado a la Luna y pensado para la era Artemis, que aplica aprendizaje automático a los datos de observación del satélite para apoyar la planificación de misiones.",
+      "why_it_matters": "Es un ejemplo de IA aplicada a datos científicos que puede mejorar la preparación de las próximas misiones lunares.",
+      "url": "https://www.engadget.com/2254569/nasa-ibm-ai-model-moon",
+      "source": "Engadget",
+      "social": {
+        "x": "La NASA y IBM entrenan un modelo de IA solo para la Luna. No para escribir texto: para decidir dónde pisar en Artemis.\n\n#NASA #IBM #Artemis #MachineLearning\nhttps://www.engadget.com/2254569/nasa-ibm-ai-model-moon",
+        "linkedin": "La Luna ya tiene su propio modelo de IA, y no lo firma una tecnológica cualquiera: lo firman NASA e IBM.\n\nEl sistema aplica aprendizaje automático a los datos de observación del satélite para apoyar la planificación de las misiones Artemis, o sea, 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗱é𝗰𝗮𝗱𝗮𝘀 𝗱𝗲 𝗶𝗺á𝗴𝗲𝗻𝗲𝘀 𝘆 𝗺𝗲𝗱𝗶𝗰𝗶𝗼𝗻𝗲𝘀 𝗲𝗻 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝗲𝘀 𝗱𝗲 𝗺𝗶𝘀𝗶ó𝗻. Lo interesante no es el modelo en sí, sino el patrón: la IA aplicada a datos científicos deja de ser un experimento de laboratorio y se mete en la cadena de preparación de una misión real. Para cualquier equipo que trabaje con datos propios y voluminosos, ese es el listón que se está fijando.\n\n#NASA #IBM #Artemis #MachineLearning\n\nhttps://www.engadget.com/2254569/nasa-ibm-ai-model-moon"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "GPT-6 Astra lidera los problemas abiertos de matemáticas y OpenAI dice que no era su prioridad",
+      "summary": "GPT-6 Astra encabeza ErdosBench, un banco de pruebas con problemas abiertos de matemáticas, aunque el científico jefe de OpenAI, Jakub Pachocki, asegura que las matemáticas no eran un objetivo deliberado. Según The Decoder, los recursos se concentran en la mejora recursiva y la alineación.",
+      "why_it_matters": "Retrata un desarrollo de la IA cada vez más desigual, con saltos enormes en dominios concretos y menos avance general.",
+      "url": "https://the-decoder.com/gpt-6-astra-gives-mathematicians-a-breather-and-openai-says-thats-by-design",
+      "source": "The Decoder",
+      "social": {
+        "x": "GPT-6 Astra se pone por delante de todos en problemas abiertos de matemáticas. OpenAI dice que no era su prioridad. Y eso es lo verdaderamente llamativo.\n\n#OpenAI #GPT6 #ErdosBench\nhttps://the-decoder.com/gpt-6-astra-gives-mathematicians-a-breather-and-openai-says-thats-by-design",
+        "linkedin": "GPT-6 Astra lidera ErdosBench, un banco de problemas abiertos de matemáticas, y OpenAI dice que no era un objetivo deliberado.\nQue un modelo destaque en un dominio que nadie puso en la hoja de ruta apunta a algo más incómodo: los saltos de capacidad llegan 𝗱𝗼𝗻𝗱𝗲 𝗲𝗹 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗴𝗲𝗻𝗲𝗿𝗮𝗹 𝗹𝗼𝘀 𝗱𝗲𝗷𝗮 𝗰𝗮𝗲𝗿, no donde se planifican. Si eso se consolida, los benchmarks generales dirán cada vez menos sobre lo que hará tu caso de uso concreto, y los equipos tendrán que medir el suyo con sus propios datos. Con los recursos puestos en mejora recursiva y alineación, las matemáticas han sido el efecto secundario.\n\n#OpenAI #GPT6 #ErdosBench\n\nhttps://the-decoder.com/gpt-6-astra-gives-mathematicians-a-breather-and-openai-says-thats-by-design"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "El sistema de IA de Google evalúa todos los cambios de una sola base del genoma humano",
+      "summary": "Google ha presentado un sistema de IA que evalúa el efecto de cada posible cambio de una única base en el genoma humano, donde la mayoría resultan inocuos pero unos pocos son significativos. El trabajo busca priorizar variantes relevantes para la investigación y la práctica clínica.",
+      "why_it_matters": "Puede acelerar la interpretación de variantes genéticas, hoy uno de los principales cuellos de botella de la genómica.",
+      "url": "https://arstechnica.com/science/2026/09/googles-ai-genome-system-evaluates-every-possible-one-base-change",
+      "source": "Ars Technica",
+      "social": {
+        "x": "La mayoría de los cambios de una sola base en el genoma humano son inocuos. Google ha entrenado una IA para distinguir los pocos que no lo son.\n\n#Google #Genómica #GenomaHumano\nhttps://arstechnica.com/science/2026/09/googles-ai-genome-system-evaluates-every-possible-one-base-change",
+        "linkedin": "La mayoría de los cambios de una sola base en el genoma humano son inocuos. El problema nunca fue ese, sino encontrar los pocos que no lo son.\n\nGoogle ha presentado un sistema de IA que evalúa el efecto de cada variante posible y prioriza las relevantes para investigación y práctica clínica. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲 𝗹𝗮 𝗴𝗲𝗻ó𝗺𝗶𝗰𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘀𝗲𝗰𝘂𝗲𝗻𝗰𝗶𝗮𝗿, 𝘀𝗶𝗻𝗼 𝗶𝗻𝘁𝗲𝗿𝗽𝗿𝗲𝘁𝗮𝗿 𝗹𝗼 𝘀𝗲𝗰𝘂𝗲𝗻𝗰𝗶𝗮𝗱𝗼: generar datos es barato, entenderlos no. Si esto aguanta a escala, el salto no se queda en los casos raros de laboratorio, sino en todo el trabajo de interpretación que hoy frena a los equipos clínicos.\n\n#Google #Genómica #GenomaHumano\n\nhttps://arstechnica.com/science/2026/09/googles-ai-genome-system-evaluates-every-possible-one-base-change"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "herramientas",
+      "title": "La IETF publica el RFC 10008 con el nuevo método HTTP QUERY",
+      "summary": "La IETF ha estandarizado el método QUERY, que permite enviar filtros complejos en el cuerpo de la petición manteniendo semántica segura, cacheable e idempotente. Es el primer verbo HTTP nuevo desde 2010 y resuelve las limitaciones de GET sin caer en POST.",
+      "why_it_matters": "Es un cambio de estándar que afecta al diseño de APIs y que los frameworks y clientes irán incorporando.",
+      "url": "https://www.infoq.com/news/2026/09/http-query-method",
+      "source": "InfoQ",
+      "social": {
+        "x": "GET se queda corto y POST es un parche. La IETF estrena QUERY, el primer método HTTP nuevo desde 2010. Y cambia cómo diseñas tus APIs.\n\n#HTTP #IETF #API #WebStandards\nhttps://www.infoq.com/news/2026/09/http-query-method",
+        "linkedin": "Hay peticiones que nunca encajaron del todo en GET ni en POST. Ahora tienen su propio método HTTP.\n\nLa IETF acaba de publicar el RFC 10008 y estandariza QUERY: los filtros complejos viajan en el cuerpo de la petición, pero mantiene la semántica segura, cacheable e idempotente que GET pierde en cuanto la query se complica. Es el primer verbo nuevo desde 2010, y hasta ahora esto se resolvía con POST, que funciona, aunque se lleva por delante la caché y las convenciones. Para quien diseña APIs, frameworks o clientes HTTP, toca revisar cuándo GET ya no basta: 𝗲𝗹 𝗺é𝘁𝗼𝗱𝗼 𝗾𝘂𝗲 𝗹𝗹𝗲𝘃𝗮𝘀 𝗮ñ𝗼𝘀 𝗶𝗺𝗽𝗿𝗼𝘃𝗶𝘀𝗮𝗻𝗱𝗼 𝗰𝗼𝗻 𝗣𝗢𝗦𝗧 𝘆𝗮 𝘁𝗶𝗲𝗻𝗲 𝗲𝘀𝘁á𝗻𝗱𝗮𝗿.\n\n#HTTP #IETF #API #WebStandards\n\nhttps://www.infoq.com/news/2026/09/http-query-method"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "herramientas",
+      "title": "Microsoft ataca a Salesforce y a los ERP con un conversor impulsado por IA",
+      "summary": "Microsoft ha presentado una herramienta basada en IA para convertir datos y lógica de Salesforce y otros ERP hacia su ecosistema, según The Register. El movimiento llega en un momento en el que Salesforce tiene dificultades para vender su propia IA.",
+      "why_it_matters": "Facilita y abarata la migración entre plataformas empresariales, con impacto directo en las cuentas de los proveedores.",
+      "url": "https://www.theregister.com/software/2026/09/10/microsoft-goes-after-salesforce-and-erp-users-with-ai-powered-converter/5295428",
+      "source": "The Register",
+      "social": {
+        "x": "Migrar desde Salesforce siempre ha sido caro y doloroso. Microsoft acaba de lanzar un conversor con IA para que salir cueste bastante menos.\n\n#Microsoft #Salesforce #ERP #SAP\nhttps://www.theregister.com/software/2026/09/10/microsoft-goes-after-salesforce-and-erp-users-with-ai-powered-converter/5295428",
+        "linkedin": "Salir de Salesforce acaba de dejar de ser un proyecto de años.\n\nMicrosoft ha presentado una herramienta que traslada datos y lógica de negocio desde Salesforce y otros ERP hacia su propio ecosistema, y lo hace con IA. 𝗟𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗿𝗲𝗮𝗹 𝗱𝗲 𝗲𝘀𝘁𝗮𝘀 𝗽𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮𝘀 𝗻𝘂𝗻𝗰𝗮 𝗳𝘂𝗲 𝗲𝗹 𝗽𝗿𝗲𝗰𝗶𝗼, 𝘀𝗶𝗻𝗼 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝘀𝗮𝗹𝗶𝗿 𝗱𝗲 𝗲𝗹𝗹𝗮𝘀, y ahí es justo donde apunta el movimiento. Si la conversión se vuelve barata, la migración deja de ser un negocio cautivo y pasa a ser una guerra abierta entre proveedores.\n\n#Microsoft #Salesforce #ERP #SAP\n\nhttps://www.theregister.com/software/2026/09/10/microsoft-goes-after-salesforce-and-erp-users-with-ai-powered-converter/5295428"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Rust es ya un lenguaje de nivel 1 en Microsoft",
+      "summary": "La Rust Foundation publica un texto en el que Microsoft detalla por qué Rust es estratégico para la compañía, desde las declaraciones del CTO de Azure, Mark Russinovich, hasta los millones invertidos en apoyar el proyecto. La entrada repasa además los planes para el código nativo.",
+      "why_it_matters": "Confirma el respaldo sostenido de uno de los mayores fabricantes de software a Rust como lenguaje de sistema.",
+      "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft",
+      "source": "Lobsters",
+      "social": {
+        "x": "Rust ya no es un experimento en Microsoft: es lenguaje de primera clase, con millones invertidos y Azure empujando. El C tiene por fin un sucesor creíble.\n\n#Rust #Microsoft #Azure #OpenSource\nhttps://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft",
+        "linkedin": "Rust acaba de dejar de ser un experimento en Microsoft para convertirse en lenguaje de primera clase.\n\nLa Rust Foundation ha publicado un texto en el que la compañía detalla por qué lo considera estratégico: desde las declaraciones de Mark Russinovich, CTO de Azure, hasta los millones que invierte en apoyar el proyecto. 𝗖𝘂𝗮𝗻𝗱𝗼 𝗾𝘂𝗶𝗲𝗻 𝗺á𝘀 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗱𝗲 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝗲 𝗽𝗼𝗻𝗲 𝗱𝗶𝗻𝗲𝗿𝗼 𝘆 𝗵𝗼𝗷𝗮 𝗱𝗲 𝗿𝘂𝘁𝗮 𝗱𝗲𝘁𝗿á𝘀 𝗱𝗲 𝘂𝗻 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲, 𝗮𝗹 𝗿𝗲𝘀𝘁𝗼 𝗱𝗲 𝗹𝗮 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮 𝘀𝗲 𝗹𝗲 𝗮𝗰𝗮𝗯𝗮𝗻 𝗹𝗮𝘀 𝗲𝘅𝗰𝘂𝘀𝗮𝘀 𝗽𝗮𝗿𝗮 𝗽𝗼𝘀𝗽𝗼𝗻𝗲𝗿 𝗹𝗮 𝗺𝗶𝗴𝗿𝗮𝗰𝗶ó𝗻. Los planes de código nativo apuntan además a que Rust irá ganando terreno justo donde hoy mandan el C y el C++, que es donde más caro sale equivocarse.\n\n#Rust #Microsoft #Azure #OpenSource\n\nhttps://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "Las nuevas funciones de audio del Apple Watch normalizan que la tecnología escuche siempre",
+      "summary": "El Apple Watch Series 12 y el Ultra 4 incorporan funciones de Audio Intelligence que transcriben y resumen conversaciones recientes y permiten rebobinar momentos del día. Apple asegura que no guarda audio en bruto, pero la función reabre el debate sobre consentimiento y privacidad.",
+      "why_it_matters": "Un wearable con micrófono siempre disponible cambia la expectativa social sobre cuándo se puede estar grabando a alguien.",
+      "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Tu reloj transcribe ahora la conversación que acabas de tener. Apple dice que no guarda el audio en bruto. El debate no es técnico, es de expectativas.\n\n#AppleWatch #Apple #Privacidad #Wearables\nhttps://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening",
+        "linkedin": "Apple acaba de convertir el Apple Watch en un micrófono siempre disponible, y eso cambia más cosas que la lista de funciones del Series 12.\n\nAudio Intelligence transcribe y resume conversaciones recientes y permite rebobinar momentos del día. Que no se guarde audio en bruto resuelve parte del problema técnico, no el social: 𝗹𝗮 𝗽𝗼𝘀𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲 𝗲𝘀𝘁𝗮𝗿 𝗴𝗿𝗮𝗯𝗮𝗱𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝗾𝘂𝗲 𝗮𝗹𝗴𝘂𝗶𝗲𝗻 𝘀𝗮𝗾𝘂𝗲 𝗲𝗹 𝗺ó𝘃𝗶𝗹 𝗱𝗲 𝗹𝗮 𝗺𝗲𝘀𝗮. Para quien negocia, da clase o hace entrevistas, el consentimiento pasa a ser una conversación que toca tener antes y no después.\n\n#AppleWatch #Apple #Privacidad #Wearables\n\nhttps://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Clearview AI prueba una herramienta que desentierra la vida online de cualquiera",
+      "summary": "Clearview AI ha probado InquiryIQ, un prototipo no revelado hasta ahora que usa un modelo de xAI, el fabricante de Grok, para reunir asociados, cuentas sociales y otros datos de personas identificadas con su reconocimiento facial. La herramienta está planteada para uso policial.",
+      "why_it_matters": "Muestra cómo la IA generativa se acopla a la vigilancia policial y amplía el perfilado automático de personas.",
+      "url": "https://www.wired.com/story/clearview-ai-is-testing-an-ai-tool-that-lets-cops-instantly-unearth-your-online-activity",
+      "source": "Wired",
+      "social": {
+        "x": "Con una sola foto, el nuevo prototipo de Clearview AI reúne las cuentas sociales y los contactos de esa persona. Está pensado para la policía.\n\n#ClearviewAI #xAI #ReconocimientoFacial #Privacidad\nhttps://www.wired.com/story/clearview-ai-is-testing-an-ai-tool-that-lets-cops-instantly-unearth-your-online-activity",
+        "linkedin": "Hasta ahora Clearview AI te decía quién era la persona de la foto. Su nuevo prototipo quiere contarte además con quién se relaciona.\n\nInquiryIQ, un desarrollo que no se había hecho público hasta ahora, usa un modelo de xAI para cruzar esa identidad con cuentas sociales, contactos y otros rastros digitales, y está planteado para uso policial. 𝗟𝗮 𝗜𝗔 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁𝗼 𝗱𝗲 𝗼𝗳𝗶𝗰𝗶𝗻𝗮 𝘆 𝘀𝗲 𝗮𝗰𝗼𝗽𝗹𝗮 𝗱𝗶𝗿𝗲𝗰𝘁𝗮𝗺𝗲𝗻𝘁𝗲 𝗮𝗹 𝗽𝗲𝗿𝗳𝗶𝗹𝗮𝗱𝗼 𝗽𝗼𝗹𝗶𝗰𝗶𝗮𝗹, con un nivel de detalle que antes exigía semanas de trabajo manual. Para cualquiera que trabaje con datos personales, la pregunta ya no es qué se puede llegar a hacer, sino quién responde cuando esto se despliega.\n\n#ClearviewAI #xAI #ReconocimientoFacial #Privacidad\n\nhttps://www.wired.com/story/clearview-ai-is-testing-an-ai-tool-that-lets-cops-instantly-unearth-your-online-activity"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "El investigador que dejó Anthropic: «Es la hora de la verdad para la humanidad»",
+      "summary": "Jacob Coxon, investigador de seguridad que ha salido de Anthropic, explica a WIRED que dentro de la compañía existe una suerte de miniproyecto Manhattan y que a los laboratorios les quedan pocos años para hacer sus sistemas seguros. Sus advertencias sobre la IA que se mejora a sí misma han llegado a CNN y Fox News.",
+      "why_it_matters": "La salida de voces de seguridad de los grandes laboratorios alimenta el debate público y político sobre los riesgos de la IA.",
+      "url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity",
+      "source": "Wired",
+      "social": {
+        "x": "Un investigador de seguridad se marcha de Anthropic con un aviso incómodo: a los laboratorios les quedan pocos años para hacer sus sistemas seguros.\n\n#Anthropic #SeguridadIA #WIRED\nhttps://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity",
+        "linkedin": "Cuando alguien que trabajaba en seguridad dentro de Anthropic dice que es la hora de la verdad, conviene escuchar.\n\nJacob Coxon describe en WIRED un miniproyecto Manhattan interno y sostiene que a los laboratorios les quedan pocos años para hacer sus sistemas seguros, sobre todo si la IA empieza a mejorar sus propias capacidades. Sus avisos ya han saltado de los foros técnicos a CNN y Fox News, y eso cambia el terreno: 𝗲𝗹 𝗱𝗲𝗯𝗮𝘁𝗲 𝘀𝗼𝗯𝗿𝗲 𝗿𝗶𝗲𝘀𝗴𝗼𝘀 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗱𝗶𝘀𝗰𝘂𝘀𝗶ó𝗻 𝗶𝗻𝘁𝗲𝗿𝗻𝗮 𝘆 𝗲𝗻𝘁𝗿𝗮 𝗲𝗻 𝗹𝗮 𝗮𝗴𝗲𝗻𝗱𝗮 𝗽𝗼𝗹í𝘁𝗶𝗰𝗮. Para quien desarrolla o adopta estos sistemas, la presión regulatoria y reputacional va a llegar antes que las garantías técnicas.\n\n#Anthropic #SeguridadIA #WIRED\n\nhttps://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "lanzamientos",
+      "title": "La Switch 2 estrena VRR en modo dock con la actualización 23.0.0",
+      "summary": "Nintendo ha publicado el firmware 23.0.0, que añade compatibilidad con variable refresh rate a la Switch 2 cuando está acoplada al televisor. La consola se lanzó sin esta función pese a estar prometida de inicio.",
+      "why_it_matters": "Mejora la fluidez y reduce el tearing en juegos con framerate inestable, algo que PS5 y Xbox Series ya ofrecían.",
+      "url": "https://www.theverge.com/news/993231/nintendo-switch-2-vrr-support-firmware-update",
+      "source": "The Verge",
+      "social": {
+        "x": "La Switch 2 ya tiene VRR. Nintendo lo prometió de salida, ha tardado en cumplirlo y, de momento, solo funciona con la consola acoplada al televisor.\n\n#Nintendo #Switch2 #VRR #Firmware\nhttps://www.theverge.com/news/993231/nintendo-switch-2-vrr-support-firmware-update",
+        "linkedin": "La Switch 2 ya tiene VRR, pero solo cuando está acoplada al televisor.\n\nEl firmware 23.0.0 añade variable refresh rate en modo dock, una función que Nintendo prometió de salida y que no llegó con el lanzamiento. El resultado es menos tearing y más fluidez en juegos con framerate inestable, justo lo que PS5 y Xbox Series ya ofrecían desde el primer día. Nintendo suele ir a su ritmo y le funciona, pero cuando el retraso toca algo tan medible como la tasa de refresco, la comparación con la competencia se vuelve incómoda. 𝗟𝗮 𝗳𝘂𝗻𝗰𝗶ó𝗻 𝘆𝗮 𝗲𝘀𝘁á, 𝗮𝘂𝗻𝗾𝘂𝗲 𝗹𝗹𝗲𝗴𝗮 𝗰𝘂𝗮𝗻𝗱𝗼 𝗵𝗮 𝗱𝗲𝗷𝗮𝗱𝗼 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝘃𝗲𝗻𝘁𝗮𝗷𝗮 𝗽𝗮𝗿𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗱𝗲𝘂𝗱𝗮 𝘀𝗮𝗹𝗱𝗮𝗱𝗮.\n\n#Nintendo #Switch2 #VRR #Firmware\n\nhttps://www.theverge.com/news/993231/nintendo-switch-2-vrr-support-firmware-update"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Harvey alcanza una valoración de 15.500 millones de dólares",
+      "summary": "La startup de IA para el sector legal Harvey ha cerrado una ronda que la valora en 15.500 millones de dólares, casi el doble de los 11.000 millones que alcanzó hace nueve meses.",
+      "why_it_matters": "Es un termómetro de cómo el capital sigue apostando por la IA vertical aplicada a profesiones concretas.",
+      "url": "https://techcrunch.com/2026/09/09/harvey-hits-15-5b-valuation-months-after-reaching-11b",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El capital ha dejado de buscar el modelo que lo hace todo. Harvey, una IA hecha solo para abogados, acaba de valer 15.500 millones de dólares.\n\n#Harvey #LegalTech #VentureCapital\nhttps://techcrunch.com/2026/09/09/harvey-hits-15-5b-valuation-months-after-reaching-11b",
+        "linkedin": "El capital ya no premia al modelo que lo hace todo, sino al que resuelve un oficio concreto.\n\nHarvey, la startup de IA para el sector legal, ha cerrado una ronda que la valora en 15.500 millones de dólares, casi el doble de los 11.000 millones que alcanzó hace nueve meses. Es la señal más clara de que 𝗹𝗮 𝗜𝗔 𝘃𝗲𝗿𝘁𝗶𝗰𝗮𝗹 𝗵𝗮 𝗱𝗲𝗷𝗮𝗱𝗼 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗮𝗽𝘂𝗲𝘀𝘁𝗮 𝘆 𝘀𝗲 𝗵𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝗹𝗮 𝗰𝗮𝘁𝗲𝗴𝗼𝗿í𝗮 𝗾𝘂𝗲 𝗲𝗹 𝗰𝗮𝗽𝗶𝘁𝗮𝗹 𝗽𝗲𝗿𝘀𝗶𝗴𝘂𝗲. Para quien construye producto la lectura es incómoda: competir por capacidad bruta es caro y se copia rápido, mientras que el foso real está en el flujo de trabajo, los datos propietarios y la confianza de un gremio.\n\n#Harvey #LegalTech #VentureCapital\n\nhttps://techcrunch.com/2026/09/09/harvey-hits-15-5b-valuation-months-after-reaching-11b"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "lanzamientos",
+      "title": "Snapchat entra en la organización de eventos",
+      "summary": "Snapchat ha añadido funciones para crear y gestionar eventos y quedadas, desde cumpleaños y partidos hasta sesiones de estudio o planes de fin de semana, compitiendo de forma directa con Partiful.",
+      "why_it_matters": "Refuerza la apuesta de Snapchat por la utilidad social más allá de los mensajes efímeros.",
+      "url": "https://techcrunch.com/2026/09/10/snapchat-takes-aim-at-partiful-with-new-event-planning-features",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Snapchat quiere organizar tus planes, no solo los mensajes. Su rival ahí no es Instagram: es Partiful, la app que se ha hecho dueña de las invitaciones.\n\n#Snapchat #Partiful #SocialApps\nhttps://techcrunch.com/2026/09/10/snapchat-takes-aim-at-partiful-with-new-event-planning-features",
+        "linkedin": "Snapchat no quiere ser solo el lugar donde se comentan los planes, sino donde se organizan.\n\nLa app ha añadido creación y gestión de eventos y quedadas: cumpleaños, partidos, sesiones de estudio, planes de fin de semana. El movimiento apunta directamente a Partiful y encaja con una estrategia que Snapchat lleva tiempo empujando: 𝗲𝗹 𝘃𝗮𝗹𝗼𝗿 𝗲𝘀𝘁á 𝗲𝗻 𝗹𝗮 𝘂𝘁𝗶𝗹𝗶𝗱𝗮𝗱 𝘀𝗼𝗰𝗶𝗮𝗹, 𝗻𝗼 𝗲𝗻 𝗲𝗹 𝗺𝗲𝗻𝘀𝗮𝗷𝗲 𝗲𝗳í𝗺𝗲𝗿𝗼. Para quien trabaja en producto social, la lección es que la retención se gana cuando la app resuelve una coordinación real, no cuando añade otra forma de chatear.\n\n#Snapchat #Partiful #SocialApps\n\nhttps://techcrunch.com/2026/09/10/snapchat-takes-aim-at-partiful-with-new-event-planning-features"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "herramientas",
+      "title": "Un detector de comentarios escritos por IA basado en regresión logística",
+      "summary": "El blog Entropic Thoughts describe un clasificador para detectar comentarios generados por IA que entrena una regresión logística sobre salidas de un LLM, en lugar de invocar un modelo grande en cada comprobación.",
+      "why_it_matters": "Es una alternativa barata y reproducible para marcar texto y código generados automáticamente en revisiones y repositorios.",
+      "url": "https://entropicthoughts.com/better-ai-comment-classifier",
+      "source": "Lobsters",
+      "social": {
+        "x": "Detectar comentarios escritos por IA no necesita un modelo enorme en cada comprobación. Una regresión logística entrenada con salidas de un LLM lo hace barato y reproducible.\n\n#LLM #LogisticRegression #EntropicThoughts\nhttps://entropicthoughts.com/better-ai-comment-classifier",
+        "linkedin": "Detectar texto generado por IA no tiene por qué costar una llamada a un modelo grande en cada comprobación.\n\nEl blog Entropic Thoughts describe un clasificador que entrena una regresión logística sobre salidas de un LLM y luego la usa para marcar comentarios sospechosos. Para equipos con repositorios y revisiones a escala, 𝗹𝗮 𝗰𝗹𝗮𝘃𝗲 𝗲𝘀𝘁á 𝗲𝗻 𝘀𝗲𝗽𝗮𝗿𝗮𝗿 𝗲𝗹 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗰𝗮𝗿𝗼 𝗱𝗲 𝗹𝗮 𝗰𝗼𝗺𝗽𝗿𝗼𝗯𝗮𝗰𝗶ó𝗻 𝗯𝗮𝗿𝗮𝘁𝗮: se entrena una vez y se aplica después con recursos mínimos, aunque depende de la calidad de las etiquetas y del LLM con el que se generaron los datos.\n\n#LLM #LogisticRegression #EntropicThoughts\n\nhttps://entropicthoughts.com/better-ai-comment-classifier"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Gateway de IA gratuito y open source (MIT) que unifica 352 proveedores y más de 1200 modelos en un único endpoint, con fallback automático según la cuota disponible y compresión de tokens para gastar menos. Funciona tal cual con Claude Code, Codex, Cursor, Cline o Copilot.",
+      "language": "TypeScript",
+      "stars": 63904,
+      "social": {
+        "x": "63.904 estrellas y cero cuotas: este gateway open source unifica 352 proveedores de IA y 1.200 modelos en un solo endpoint.\n\n#OmniRoute #TypeScript #OpenSource #GitHub\nhttps://github.com/diegosouzapw/OmniRoute",
+        "linkedin": "UN SOLO ENDPOINT PARA 352 PROVEEDORES DE IA Y MÁS DE 1.200 MODELOS. Y ES GRATIS.\n\nCada vez que se agota la cuota de un modelo toca entrar a la consola, cambiar la API key y rezar para que el proveedor de turno no esté caído. OmniRoute resuelve eso con 𝘂𝗻 𝗴𝗮𝘁𝗲𝘄𝗮𝘆 𝘀𝗲𝗹𝗳-𝗵𝗼𝘀𝘁𝗲𝗱 𝗾𝘂𝗲 𝗲𝗻𝗿𝘂𝘁𝗮 𝗰𝗮𝗱𝗮 𝗽𝗲𝘁𝗶𝗰𝗶ó𝗻 𝗮𝗹 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿 𝗾𝘂𝗲 𝘁𝗲𝗻𝗴𝗮 𝗰𝘂𝗼𝘁𝗮 𝗱𝗶𝘀𝗽𝗼𝗻𝗶𝗯𝗹𝗲, con fallback automático y compresión de tokens para que la factura no se dispare.\n\nEs MIT, está escrito en TypeScript y ya acumula 63.904 estrellas en GitHub.\n\n→ 352 proveedores y más de 1.200 modelos detrás de una misma API.\n→ Fallback automático: si un proveedor falla o se queda sin cuota, salta al siguiente.\n→ Compresión de tokens para gastar menos en cada llamada.\n→ Funciona tal cual con Claude Code, Codex, Cursor, Cline y Copilot.\n\nNo hay cuota mensual ni capa de pago: el gateway corre en tu propia infraestructura y tú decides qué proveedores enchufar. Si mañana quieres añadir uno nuevo, cambias la config y listo, sin tocar el resto del stack.\n\nGuarda este post para la próxima vez que se te acabe la cuota a mitad de un deploy. Te dejo el repo abajo.\n\n#OmniRoute #TypeScript #OpenSource #GitHub\n\nhttps://github.com/diegosouzapw/OmniRoute"
+      }
+    },
+    {
+      "name": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "description": "Motor escrito en C puro y sin dependencias que ejecuta modelos MoE de frontera en hardware doméstico, leyendo los expertos desde disco a demanda. Es la forma más sencilla de probar modelos enormes sin montar un clúster.",
+      "language": "C",
+      "stars": 27316,
+      "social": {
+        "x": "Un motor en C puro y sin dependencias que ejecuta modelos MoE de frontera en tu ordenador leyendo los expertos desde disco. 27.316 estrellas y ni un clúster de por medio.\n\n#Colibri #MoE #OpenSource #C\nhttps://github.com/JustVugg/colibri",
+        "linkedin": "EJECUTA MODELOS MoE DE FRONTERA EN TU ORDENADOR SIN MONTAR UN CLÚSTER.\n\nHasta ahora, probar un modelo de frontera en local significaba o comprar GPUs de datacenter o tirar de servicios en la nube con cuota mensual. Colibri va justo al contrario: un motor escrito en C puro, sin dependencias, que asume que tu hardware es doméstico y se adapta a él.\n\nSu truco es 𝗹𝗲𝗲𝗿 𝗹𝗼𝘀 𝗲𝘅𝗽𝗲𝗿𝘁𝗼𝘀 𝗱𝗲𝘀𝗱𝗲 𝗱𝗶𝘀𝗰𝗼 𝗮 𝗱𝗲𝗺𝗮𝗻𝗱𝗮, así que no necesita tener el modelo entero en memoria: carga solo lo que va a usar en cada paso.\n\n→ C puro y sin dependencias: compilas y lo tienes funcionando\n→ Carga los expertos desde disco según se necesitan, no todos de golpe\n→ Pensado para hardware doméstico, no para un clúster\n→ Ya acumula 27.316 estrellas en GitHub\n→ La vía más sencilla que hay ahora mismo de probar modelos enormes sin infraestructura\n\nSi llevas tiempo queriendo tocar modelos grandes sin hipotecarte en hardware, este repo te ahorra el montaje entero. Guárdalo para cuando te pongas con ello, que te dejo el enlace abajo.\n\n#Colibri #MoE #OpenSource #C\n\nhttps://github.com/JustVugg/colibri"
+      }
+    },
+    {
+      "name": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "description": "Utilidad de línea de comandos en Rust que con un solo comando te dice qué modelos, entre cientos de ellos y de distintos proveedores, pueden correr en tu hardware. Te ahorra descargar pesos en balde.",
+      "language": "Rust",
+      "stars": 35555,
+      "social": {
+        "x": "Antes de bajar 40 GB de pesos en balde: este CLI en Rust te dice en un comando qué modelos LLM caben en tu hardware. Ya van 35k estrellas.\n\n#llmfit #Rust #OpenSource #GitHub\nhttps://github.com/AlexsJones/llmfit",
+        "linkedin": "DEJAS DE DESCARGAR PESOS ANTES DE SABER SI TU EQUIPO PUEDE CON ELLOS.\n\nLevantar un modelo en local casi siempre empieza igual: buscas el repo, eliges un modelo, lanzas la descarga y descubres cuando llevas 40 GB que tu máquina no da para tanto. O al contrario, te quedas corto y vas sobrado de GPU. llmfit invierte el orden: primero te dice qué modelos encajan en tu hardware, entre cientos de ellos y de distintos proveedores, y solo después decides qué bajas.\n\n→ Un único comando: mira tu hardware y lo cruza con el catálogo de modelos.\n→ Cubre cientos de modelos de varios proveedores, no una sola familia.\n→ Te ahorra descargar pesos en balde y el rato que se va con ellos.\n→ Está escrito en Rust y se usa desde la terminal, sin montar nada más.\n→ Encaja perfecto si vas de self-hosted y no quieres quemar ancho de banda por probar.\n\n𝗘𝗹𝗲𝗴𝗶𝗿 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲𝘀𝗽𝘂é𝘀 𝗱𝗲 𝗺𝗶𝗿𝗮𝗿 𝘁𝘂 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲, 𝘆 𝗻𝗼 𝗮𝗹 𝗿𝗲𝘃é𝘀, 𝗲𝘀 𝗹𝗼 𝗾𝘂𝗲 𝘁𝗲 𝗮𝗵𝗼𝗿𝗿𝗮 𝗹𝗮 𝘁𝗮𝗿𝗱𝗲. Con 35.000 estrellas, el dolor debía de ser bastante común.\n\nGuarda el post para la próxima vez que estés a punto de descargar un modelo a ciegas.\n\n#llmfit #Rust #OpenSource #GitHub\n\nhttps://github.com/AlexsJones/llmfit"
+      }
+    },
+    {
+      "name": "nashsu/llm_wiki",
+      "url": "https://github.com/nashsu/llm_wiki",
+      "description": "Aplicación de escritorio multiplataforma que convierte tus documentos en una wiki de conocimiento interconectada de forma automática. En vez del RAG clásico, va construyendo y manteniendo un índice persistente, así que cada consulta aprovecha el trabajo anterior.",
+      "language": "TypeScript",
+      "stars": 17877,
+      "social": {
+        "x": "17.877 estrellas: este repo convierte tus documentos en una wiki interconectada sin montar un RAG. Guarda un índice persistente y cada consulta reutiliza lo anterior.\n\n#LLMWiki #TypeScript #OpenSource #GitHub\nhttps://github.com/nashsu/llm_wiki",
+        "linkedin": "TU RAG CLÁSICO EMPIEZA DE CERO EN CADA PREGUNTA. ESTE REPO, NO.\n\nnashsu/llm_wiki ya suma 17.877 estrellas y propone otra cosa: en vez de trocear tus documentos y recuperar fragmentos en cada consulta, va construyendo una wiki de conocimiento interconectada con un índice persistente. 𝗖𝗮𝗱𝗮 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮 𝗮𝗽𝗿𝗼𝘃𝗲𝗰𝗵𝗮 𝗲𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗱𝗲 𝗹𝗮 𝗮𝗻𝘁𝗲𝗿𝗶𝗼𝗿.\n\nEs una app de escritorio multiplataforma escrita en TypeScript, así que la instalas y trabajas sobre tus propios archivos.\n\n→ Convierte tus documentos en una wiki con conceptos enlazados entre sí, no en un montón de fragmentos sueltos.\n→ Mantiene el índice vivo: lo que ya se procesó no se vuelve a calcular.\n→ Se ejecuta en tu máquina, sin depender de un servicio externo que te cobre por consulta.\n→ Open source y en TypeScript, con el código a la vista para adaptarlo a tu flujo.\n\nSi trasteas con RAG, con segundo cerebro o simplemente acumulas PDFs que nunca vuelves a abrir, este repo te va a interesar. Guárdatelo para probarlo con calma: te dejo el enlace abajo.\n\n#LLMWiki #TypeScript #OpenSource #GitHub\n\nhttps://github.com/nashsu/llm_wiki"
+      }
+    },
+    {
+      "name": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "description": "Herramienta open source de Vercel Labs para gestionar skills de agentes: se lanza con npx skills y permite añadir capacidades reutilizables a tus agentes. Muy práctica si saltas entre distintos frameworks y quieres un formato común.",
+      "language": "TypeScript",
+      "stars": 30943,
+      "social": {
+        "x": "Cada framework de agentes tenía su propio formato de skills. Vercel Labs suelta `npx skills` para usar uno común. 30k estrellas.\n\n#VercelLabs #Agentes #TypeScript #OpenSource\nhttps://github.com/vercel-labs/skills",
+        "linkedin": "CADA FRAMEWORK DE AGENTES TENÍA SU PROPIO FORMATO DE SKILLS. VERCEL LABS ACABA DE PROPONER UNO COMÚN.\n\nSi saltas entre frameworks, conoces el problema: escribes la misma skill tres veces porque cada herramienta espera su propia estructura, su carpeta y su manera de cargarla. Al final acabas con capacidades duplicadas que se desincronizan en cuanto tocas una.\n\nvercel-labs/skills ataca justo eso. La idea es sencilla: 𝘂𝗻 𝗳𝗼𝗿𝗺𝗮𝘁𝗼 𝗰𝗼𝗺ú𝗻 𝗱𝗲 𝘀𝗸𝗶𝗹𝗹𝘀 que puedas enchufar a tus agentes sin reescribir nada, y un comando para gestionarlas.\n\n→ Se lanza al vuelo con `npx skills`, sin instalar nada de forma global.\n→ Permite añadir capacidades reutilizables a tus agentes y llevarlas de un framework a otro.\n→ Está escrito en TypeScript y mantenido desde Vercel Labs, así que el listón de calidad viene de serie.\n→ Con más de 30.000 estrellas, ya no es un experimento de fin de semana.\n\nSi trabajas con agentes a diario, esto te ahorra justo la parte aburrida: mantener el mismo conocimiento en cinco sitios distintos. Guárdate el post y pruébalo la próxima vez que tengas que repetir una skill.\n\nTe dejo el repo abajo.\n\n#VercelLabs #Agentes #TypeScript #OpenSource\n\nhttps://github.com/vercel-labs/skills"
+      }
+    }
+  ]
+}
