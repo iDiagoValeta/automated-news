@@ -1,0 +1,320 @@
+{
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T14:25:09.106Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "OpenAI abre en beta su API de agentes, la que mueve Codex y ChatGPT",
+      "summary": "OpenAI ha publicado en beta pública la Agents API, la infraestructura que sostiene Codex y ChatGPT. Permite crear agentes en la nube que trabajan de forma autónoma durante horas, ejecutan código y reparten tareas entre subagentes, sin coste adicional más allá del consumo de tokens. Cloudflare, Vercel y Oracle aportan entornos sandbox complementarios.",
+      "why_it_matters": "Cualquier desarrollador puede montar agentes con la misma maquinaria que usa OpenAI, sin construir su propia orquestación.",
+      "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt",
+      "source": "The Decoder",
+      "social": {
+        "x": "OpenAI acaba de abrir la maquinaria que mueve Codex y ChatGPT. Ahora cualquier desarrollador puede montar agentes que trabajan solos durante horas.\n\n#OpenAI #Codex #AgentsAPI\nhttps://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt",
+        "linkedin": "Montar agentes autónomos ha sido hasta ahora un ejercicio de fontanería: orquestación propia, sandbox, control de costes y mucho pegamento. OpenAI acaba de abrir en beta pública la Agents API, la misma infraestructura que sostiene Codex y ChatGPT, y 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗽𝘂𝗲𝗱𝗲 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗶𝗿 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗰𝗼𝗻 𝗹𝗮 𝗺𝗮𝗾𝘂𝗶𝗻𝗮𝗿𝗶𝗮 𝗱𝗲 𝗢𝗽𝗲𝗻𝗔𝗜 𝘀𝗶𝗻 𝗺𝗼𝗻𝘁𝗮𝗿 𝗹𝗮 𝘀𝘂𝘆𝗮. Son agentes que trabajan de forma autónoma durante horas, ejecutan código y reparten tareas entre subagentes, con Cloudflare, Vercel y Oracle aportando los entornos sandbox. La pregunta para los equipos deja de ser si saben construir agentes y pasa a ser qué parte de su valor sigue en pie cuando el sustrato lo pone otro.\n\n#OpenAI #Codex #AgentsAPI\n\nhttps://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "OpenAI lanza GPT-6 Astra, centrado en código y uso del ordenador",
+      "summary": "OpenAI ha presentado GPT-6 Astra, un modelo orientado al coding, el uso del ordenador, las tareas agénticas de larga duración y la ciberseguridad. Está disponible en ChatGPT, Codex y la API de OpenAI.",
+      "why_it_matters": "Es el modelo con el que OpenAI quiere cubrir los flujos de trabajo agénticos que ya usan miles de equipos.",
+      "url": "https://www.infoq.com/news/2026/09/openai-gpt6-astra",
+      "source": "InfoQ",
+      "social": {
+        "x": "OpenAI ya apunta a lo que viene después del chatbot: GPT-6 Astra está pensado para usar el ordenador y encadenar tareas durante horas.\n\n#OpenAI #GPT6 #Codex\nhttps://www.infoq.com/news/2026/09/openai-gpt6-astra",
+        "linkedin": "El chatbot ha dejado de ser el producto. El producto es el agente.\n\nOpenAI presenta GPT-6 Astra con el foco en coding, control del ordenador, tareas agénticas de larga duración y ciberseguridad, y lo coloca a la vez en ChatGPT, Codex y su API. 𝗟𝗼 𝗿𝗲𝗹𝗲𝘃𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝘀𝗮𝗹𝘁𝗼 𝗱𝗲 𝗯𝗲𝗻𝗰𝗵𝗺𝗮𝗿𝗸, 𝘀𝗶𝗻𝗼 𝗾𝘂𝗲 𝗢𝗽𝗲𝗻𝗔𝗜 𝗾𝘂𝗶𝗲𝗿𝗲 𝘀𝗲𝗿 𝗹𝗮 𝗰𝗮𝗽𝗮 𝘀𝗼𝗯𝗿𝗲 𝗹𝗮 𝗾𝘂𝗲 𝘆𝗮 𝘀𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗻 𝗹𝗼𝘀 𝗳𝗹𝘂𝗷𝗼𝘀 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗱𝗲 𝗺𝗶𝗹𝗲𝘀 𝗱𝗲 𝗲𝗾𝘂𝗶𝗽𝗼𝘀. Para quien construye producto encima de un modelo de terceros, la pregunta se desplaza: ya no es cuál puntúa más alto, sino quién controla la ejecución cuando la tarea dura horas y toca sistemas reales.\n\n#OpenAI #GPT6 #Codex\n\nhttps://www.infoq.com/news/2026/09/openai-gpt6-astra"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "GPT-Live-1, la API de voz que escucha y habla a la vez",
+      "summary": "OpenAI lanza GPT-Live-1 como API para desarrolladores, un modelo de voz full-duplex que puntúa un 80,1% en pruebas de interactividad, frente al 45,4% de su predecesor. El precio es de 0,05 dólares por minuto.",
+      "why_it_matters": "Abre la puerta a asistentes de voz fluidos en los que se puede interrumpir sin esperar turnos.",
+      "url": "https://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time",
+      "source": "The Decoder",
+      "social": {
+        "x": "OpenAI pasa del 45,4% al 80,1% en interactividad de voz con su nueva API: escucha y habla a la vez, por 0,05 $ el minuto.\n\n#OpenAI #APIs #FullDuplex #VoiceAI\nhttps://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time",
+        "linkedin": "Del 45,4% al 80,1%. Esa es la distancia entre esperar tu turno para hablar y poder interrumpir en mitad de una frase.\n\nOpenAI lanza GPT-Live-1, una API de voz full-duplex que escucha y responde al mismo tiempo, a 0,05 dólares el minuto. Quien haya construido un asistente por turnos sabe que el cuello de botella nunca fue la transcripción, sino la latencia y la imposibilidad de cortar al sistema a mitad de respuesta. 𝗘𝗹 𝘁𝘂𝗿𝗻𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗿𝗲𝘀𝘁𝗿𝗶𝗰𝗰𝗶ó𝗻 𝗱𝗲 𝗱𝗶𝘀𝗲ñ𝗼, y eso reescribe de arriba abajo la experiencia de los asistentes, los agentes de soporte y cualquier producto que hoy dependa de un botón para hablar.\n\n#OpenAI #APIs #FullDuplex #VoiceAI\n\nhttps://the-decoder.com/openais-gpt-live-1-api-lets-developers-build-apps-that-talk-and-listen-at-the-same-time"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "DeepSeek V4.1 Flash demuestra que un LLM potente no necesita más GPUs",
+      "summary": "El nuevo modelo de DeepSeek mantiene una capacidad alta con un coste de servicio mucho menor, hasta el punto de que no hace falta ampliar el parque de GPUs para servirlo. El fabricante lo presenta como una plantilla para construir modelos eficientes.",
+      "why_it_matters": "Sirve de referencia para quien quiera servir LLMs potentes sin disparar el gasto en inferencia.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/11/deepseeks-new-model-sets-a-template-for-powerful-llms-that-run-lean/5295715",
+      "source": "The Register",
+      "social": {
+        "x": "DeepSeek acaba de demostrar que servir un LLM puntero no exige ampliar el parque de GPUs: su V4.1 Flash mantiene el nivel con una fracción del coste de inferencia.\n\n#DeepSeek #LLM #GPUs\nhttps://www.theregister.com/ai-and-ml/2026/09/11/deepseeks-new-model-sets-a-template-for-powerful-llms-that-run-lean/5295715",
+        "linkedin": "Durante dos años, la respuesta a «necesito un modelo mejor» ha sido comprar más GPUs.\n\nDeepSeek V4.1 Flash apunta justo en la dirección contraria: mantiene una capacidad alta con un coste de servicio mucho menor, 𝘀𝗶𝗻 𝗻𝗲𝗰𝗲𝘀𝗶𝗱𝗮𝗱 𝗱𝗲 𝗮𝗺𝗽𝗹𝗶𝗮𝗿 𝗲𝗹 𝗽𝗮𝗿𝗾𝘂𝗲 𝗱𝗲 𝗚𝗣𝗨𝘀, y se presenta como plantilla para construir modelos eficientes. Para quien sirve LLMs en producción, la pregunta deja de ser cuánta GPU hace falta y pasa a ser cuánto se puede ahorrar rediseñando el modelo. La eficiencia ya no es una optimización de última hora, es una decisión de arquitectura.\n\n#DeepSeek #LLM #GPUs\n\nhttps://www.theregister.com/ai-and-ml/2026/09/11/deepseeks-new-model-sets-a-template-for-powerful-llms-that-run-lean/5295715"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Slack permite crear informes y dashboards interactivos dentro del chat",
+      "summary": "Slackforce Surfaces deja describir a Slackbot lo que necesitas y genera informes interactivos, encuestas, dashboards, presentaciones o microsites dentro de la conversación. Slackbot usa IA para reunir datos de conversaciones y de apps conectadas como Google Drive o Salesforce, y el resultado se puede compartir o fijar en un canal.",
+      "why_it_matters": "Convierte el chat en una herramienta de creación rápida de artefactos compartidos sin salir de Slack.",
+      "url": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
+      "source": "The Verge"
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "La app de Gemini llega a Windows",
+      "summary": "Google lanza la app de escritorio de Gemini para Windows, pensada para convivir con el resto de aplicaciones del día a día. Incluye un atajo de teclado para abrirla, igual que la versión de Mac.",
+      "why_it_matters": "Los usuarios de Windows ya pueden invocar Gemini sin pasar por el navegador.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows",
+      "source": "Hacker News",
+      "social": {
+        "x": "Gemini se instala en Windows y se abre con un atajo, sin pasar por el navegador. Google quiere estar donde ya trabajas.\n\n#Gemini #Google #Windows\nhttps://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows",
+        "linkedin": "Gemini ya tiene app de escritorio en Windows y se abre con un atajo de teclado, igual que en Mac.\n\nHasta ahora el asistente de Google vivía dentro del navegador, y eso lo dejaba en manos de quien tuviera una pestaña abierta. Bajarlo al escritorio con invocación directa cambia la frecuencia de uso: 𝗹𝗮 𝗯𝗮𝘁𝗮𝗹𝗹𝗮 𝗱𝗲𝗹 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝘀𝗲 𝗹𝗶𝗯𝗿𝗮 𝗲𝗻 𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝘃𝗼, 𝗻𝗼 𝗲𝗻 𝗹𝗮 𝘄𝗲𝗯. Para quien trabaja en Windows con Copilot ya integrado, esto añade por fin competencia real en su propio terreno.\n\n#Gemini #Google #Windows\n\nhttps://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Cognition SWE-2 alcanza 92,8 en Terminal-Bench 2.1",
+      "summary": "El nuevo modelo SWE-2 de Cognition logra 92,8 puntos en Terminal-Bench 2.1, con una arquitectura MoE de 2,8 billones de parámetros totales y 104.000 millones activos por token. Su ficha incluye requisitos de hardware, opciones de cuantización y precios en la nube.",
+      "why_it_matters": "Marca un nuevo techo en los benchmarks de agentes que trabajan en terminal, la referencia para el coding automatizado.",
+      "url": "https://tokenstead.ai/models/swe-2",
+      "source": "Hacker News",
+      "social": {
+        "x": "92,8 sobre 100 en Terminal-Bench. El nuevo SWE-2 de Cognition pone el listón donde ningún agente de terminal había llegado.\n\n#Cognition #SWE2 #TerminalBench #MoE\nhttps://tokenstead.ai/models/swe-2",
+        "linkedin": "92,8 sobre 100 en Terminal-Bench 2.1: Cognition acaba de mover el techo de los agentes que trabajan en la terminal.\n\nSWE-2 es un MoE de 2,8 billones de parámetros totales y 104.000 millones activos por token, y su ficha ya incluye requisitos de hardware, opciones de cuantización y precios en la nube. Eso es lo que cambia el marco: el modelo se presenta como algo que se despliega y se factura, no como una demo de laboratorio. Para quien automatiza coding, 𝗲𝗹 𝗯𝗲𝗻𝗰𝗵𝗺𝗮𝗿𝗸 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝘀𝗰𝗮𝗽𝗮𝗿𝗮𝘁𝗲 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝗱𝗲 𝗰𝗼𝗺𝗽𝗿𝗮, porque el coste por token activo pesa tanto como la puntuación.\n\n#Cognition #SWE2 #TerminalBench #MoE\n\nhttps://tokenstead.ai/models/swe-2"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "Amazon Quick estrena aplicación de escritorio",
+      "summary": "El asistente de IA de Amazon ya está disponible de forma general en macOS y Windows, con la promesa de que los datos se quedan en el entorno del cliente y las conversaciones son privadas. La app móvil incorpora además un feed de actividad que reúne correo, calendario y CRM.",
+      "why_it_matters": "Lleva un asistente de trabajo con IA al escritorio sin obligar a mover los datos a la nube del proveedor.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Amazon lleva su asistente de IA al escritorio con una promesa incómoda para el resto: tus datos no salen de tu entorno.\n\n#AmazonQuick #AWS #Copilot\nhttps://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop",
+        "linkedin": "Amazon ha llevado Quick, su asistente de IA, al escritorio de macOS y Windows, y lo ha hecho con el argumento que más pesa en una decisión de compra corporativa: los datos se quedan en el entorno del cliente.\n\nLa objeción número uno para adoptar asistentes de IA en la empresa nunca ha sido la calidad del modelo, sino dónde acaban los datos. Que las conversaciones sean privadas y no pasen por la nube del proveedor cambia el cálculo en sectores regulados, y presiona a Copilot y Gemini, que juegan con la ventaja de vivir ya dentro de Word y Google Workspace. 𝗔𝗺𝗮𝘇𝗼𝗻 𝗮𝗽𝘂𝗲𝘀𝘁𝗮 𝗽𝗼𝗿 𝗲𝗹 𝗲𝘀𝗰𝗿𝗶𝘁𝗼𝗿𝗶𝗼 𝘆 𝗽𝗼𝗿 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲𝗹 𝗱𝗮𝘁𝗼, 𝗻𝗼 𝗽𝗼𝗿 𝗹𝗮 𝘀𝘂𝗶𝘁𝗲. La app móvil suma un feed que mezcla correo, calendario y CRM: la intención es ser el punto de entrada al trabajo diario, no una pestaña más.\n\n#AmazonQuick #AWS #Copilot\n\nhttps://aws.amazon.com/blogs/machine-learning/amazon-quick-is-now-generally-available-on-desktop"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "SageMaker Inference recorta la latencia hasta un 77% con enrutado por prefijo",
+      "summary": "Amazon SageMaker Inference incorpora prefix-aware routing, una estrategia que envía las peticiones con el mismo prefijo de prompt a la misma instancia para mantener caliente la KV cache. En pruebas con Llama 3.1 70B baja el P50 de time-to-first-token hasta un 77% y sube el acierto de caché del 25% a más del 80%.",
+      "why_it_matters": "Es un cambio de configuración sencillo que abarata y acelera cualquier servicio de LLM con prompts repetidos.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Amazon acaba de recortar el time-to-first-token de Llama 3.1 70B hasta un 77% con un cambio de configuración. Y el truco está en el prefijo del prompt.\n\n#AWS #SageMaker #Llama\nhttps://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference",
+        "linkedin": "El truco para servir LLMs más rápido no estaba en el hardware, sino en decidir a qué instancia va cada petición.\n\nSageMaker Inference estrena prefix-aware routing: agrupa las peticiones que comparten prefijo de prompt en la misma instancia para que la KV cache siga caliente. En las pruebas con Llama 3.1 70B, el P50 de time-to-first-token cae hasta un 77% y el acierto de caché sube del 25% a más del 80%. 𝗘𝘀 𝘂𝗻 𝗮𝗷𝘂𝘀𝘁𝗲 𝗱𝗲 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶ó𝗻, 𝗻𝗼 𝘂𝗻 𝗿𝗲𝗱𝗶𝘀𝗲ñ𝗼 𝗱𝗲 𝗹𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮, y cualquier equipo con prompts repetidos (RAG, system prompts largos, agentes) tiene aquí una rebaja de coste y latencia casi gratis.\n\n#AWS #SageMaker #Llama\n\nhttps://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Skild AI S1 aprende tareas nuevas viendo un solo vídeo",
+      "summary": "Skild AI ha presentado S1, un modelo fundacional de robótica que aprende tareas largas nunca vistas a partir de una única demostración en vídeo. Está construido sobre la plataforma de physical AI de NVIDIA, pensado para plantas de producción y almacenes que cambian de tarea a menudo.",
+      "why_it_matters": "Reduce el reprogramado de robots a una demostración, algo clave para que la automatización física sea realmente flexible.",
+      "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai",
+      "source": "NVIDIA Blog",
+      "social": {
+        "x": "Un robot aprende una tarea que nunca ha hecho viendo un solo vídeo. Skild AI lo llama S1 y va sobre la plataforma de physical AI de NVIDIA.\n\n#SkildAI #NVIDIA #Robotica #PhysicalAI\nhttps://blogs.nvidia.com/blog/skild-ai-s1-physical-ai",
+        "linkedin": "Enseñar una tarea nueva a un robot ha dejado de ser un proyecto de ingeniería: ahora basta con un vídeo.\n\nSkild AI ha presentado S1, un modelo fundacional de robótica construido sobre la plataforma de physical AI de NVIDIA, capaz de aprender tareas largas que nunca ha visto a partir de una sola demostración en vídeo. Para plantas de producción y almacenes que cambian de tarea a menudo, esto ataca el cuello de botella real de la automatización física: 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗿𝗲𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗮𝗿 𝗰𝗮𝗱𝗮 𝘃𝗲𝘇 𝗾𝘂𝗲 𝗰𝗮𝗺𝗯𝗶𝗮 𝗲𝗹 𝗽𝗿𝗼𝗰𝗲𝘀𝗼. Si el aprendizaje se resuelve con una demostración, la pregunta deja de ser si el robot puede hacer la tarea y pasa a ser cuánto tarda en aprenderla.\n\n#SkildAI #NVIDIA #Robotica #PhysicalAI\n\nhttps://blogs.nvidia.com/blog/skild-ai-s1-physical-ai"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "herramientas",
+      "title": "Thelio Mira AI: workstation Linux con 192 GB de memoria GPU",
+      "summary": "System76 amplía su catálogo con Thelio Mira AI, un equipo de escritorio Linux enfocado al desarrollo de IA local. Permite entrenar, hacer fine-tuning e iterar cargas de trabajo exigentes sobre el propio hardware, con hasta 192 GB de memoria GPU.",
+      "why_it_matters": "Es una alternativa de sobremesa para quien quiere trabajar con modelos grandes sin depender de la nube.",
+      "url": "https://system76.com/workstations/thelio-mira-ai",
+      "source": "Hacker News",
+      "social": {
+        "x": "192 GB de memoria GPU en una torre que corre Linux. System76 quiere que entrenes y ajustes tus modelos en el escritorio, no en la nube.\n\n#System76 #Linux #GPU #Workstations\nhttps://system76.com/workstations/thelio-mira-ai",
+        "linkedin": "192 GB de memoria GPU en un equipo de escritorio. Sin clúster, sin nube y sin factura por hora.\n\nSystem76 ha presentado Thelio Mira AI, una workstation Linux pensada para entrenar, hacer fine-tuning e iterar cargas de trabajo de IA sobre el propio hardware. Para estudios pequeños y equipos de investigación, 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗹𝗮 𝗻𝘂𝗯𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗹𝗮 ú𝗻𝗶𝗰𝗮 𝘃í𝗮 𝗽𝗮𝗿𝗮 𝘁𝗿𝗮𝗯𝗮𝗷𝗮𝗿 𝗰𝗼𝗻 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗴𝗿𝗮𝗻𝗱𝗲𝘀, aunque el desembolso inicial y el mantenimiento del equipo siguen ahí. La pregunta interesante ya no es si el hardware local aguanta, sino cuántos proyectos necesitan de verdad esa escala.\n\n#System76 #Linux #GPU #Workstations\n\nhttps://system76.com/workstations/thelio-mira-ai"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "herramientas",
+      "title": "wrapture, el paquete de monkey patching para Python que conviene mirar",
+      "summary": "Graham Dumpleton ha publicado wrapture, un paquete de monkey patching que Simon Willison considera casi imprescindible para desarrolladores de Python. Desde su lanzamiento el 31 de agosto ha publicado tutoriales casi a diario y workshops interactivos en cuadernos de JupyterLab.",
+      "why_it_matters": "El monkey patching bien hecho es una técnica muy útil y este paquete la vuelve mucho más manejable.",
+      "url": "https://simonwillison.net/2026/Sep/11/wrapture",
+      "source": "Simon Willison",
+      "social": {
+        "x": "El monkey patching en Python tiene mala fama, y con razón. Graham Dumpleton acaba de publicar wrapture para volverla manejable, y Simon Willison ya lo llama casi imprescindible.\n\n#Python #OpenSource #JupyterLab\nhttps://simonwillison.net/2026/Sep/11/wrapture",
+        "linkedin": "El monkey patching en Python arrastra fama de chapuza. Acaba de salir un paquete que lo hace presentable.\n\nGraham Dumpleton ha publicado wrapture, y Simon Willison lo considera casi imprescindible para quienes desarrollan en Python. Desde el 31 de agosto, Dumpleton no ha parado: tutoriales casi diarios y workshops interactivos en cuadernos de JupyterLab. Lo relevante no es que aparezca otra librería, sino que ataca el problema de fondo: 𝗲𝗹 𝗺𝗼𝗻𝗸𝗲𝘆 𝗽𝗮𝘁𝗰𝗵𝗶𝗻𝗴 𝗻𝗼 𝗲𝘀 𝗺𝗮𝗹𝗼, 𝗹𝗼 𝗾𝘂𝗲 𝘀𝘂𝗲𝗹𝗲 𝘀𝗲𝗿 𝗺𝗮𝗹𝗼 𝗲𝘀 𝗰ó𝗺𝗼 𝘀𝗲 𝗵𝗮𝗰𝗲. Si en tu equipo se parchean dependencias en producción, esto sube el listón de lo que se considera aceptable.\n\n#Python #OpenSource #JupyterLab\n\nhttps://simonwillison.net/2026/Sep/11/wrapture"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "tsgolint llega a la versión estable 7 y acelera el linting de TypeScript",
+      "summary": "tsgolint ha publicado su versión estable 7, que aporta análisis con tipos para TypeScript con la velocidad nativa de Go. La herramienta se integra en Oxlint.",
+      "why_it_matters": "Da a los proyectos de TypeScript un linting con tipos mucho más rápido que las alternativas escritas en JavaScript.",
+      "url": "https://www.infoq.com/news/2026/09/tsgolint-oxlint-typescript",
+      "source": "InfoQ",
+      "social": {
+        "x": "TypeScript ya puede tener linting con tipos a la velocidad de Go. tsgolint llega a la 7 estable y se integra en Oxlint.\n\n#TypeScript #Go #Oxlint #Linting\nhttps://www.infoq.com/news/2026/09/tsgolint-oxlint-typescript",
+        "linkedin": "El linting con tipos de TypeScript acaba de dejar de ser el cuello de botella del CI: tsgolint llega a la versión 7 estable con velocidad nativa de Go y se integra en Oxlint.\n\nHasta ahora, el análisis con tipos en TypeScript pagaba el precio de ejecutarse sobre JavaScript, y por eso muchos equipos lo reservaban para el pre-commit o lo desactivaban directamente. 𝗤𝘂𝗲 𝘂𝗻𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗲𝘀𝗰𝗿𝗶𝘁𝗮 𝗲𝗻 𝗚𝗼 𝗹𝗼 𝗵𝗮𝗴𝗮 𝗺𝘂𝗰𝗵𝗼 𝗺á𝘀 𝗿á𝗽𝗶𝗱𝗼 𝗰𝗮𝗺𝗯𝗶𝗮 𝗲𝗹 𝗰á𝗹𝗰𝘂𝗹𝗼: el linting con tipos puede volver a formar parte del flujo normal, también en monorepos grandes. La integración en Oxlint además empuja hacia un stack de linting más unificado.\n\n#TypeScript #Go #Oxlint #Linting\n\nhttps://www.infoq.com/news/2026/09/tsgolint-oxlint-typescript"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "Anthropic documenta ocho meses de abuso de Claude",
+      "summary": "El informe de threat intelligence de Anthropic recoge operaciones interrumpidas entre diciembre de 2025 y agosto de 2026: ciberataques, software de misiles, enjambres de drones kamikaze, sistemas de vigilancia y campañas de destilación de laboratorios chinos. Anthropic cifra en más de 151 millones los intercambios hechos solo desde el equipo de Qwen, y señala también a DeepSeek y Moonshot AI.",
+      "why_it_matters": "Es la radiografía más detallada hasta la fecha de cómo se abusa de un modelo frontera y de qué salvaguardas fallan.",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "source": "Hacker News",
+      "social": {
+        "x": "151 millones de intercambios con Claude salieron de un solo equipo de Qwen. Anthropic documenta ocho meses de abuso: misiles, drones kamikaze, vigilancia.\n\n#Anthropic #Claude #Qwen #ThreatIntelligence\nhttps://www.anthropic.com/threat-intelligence-report-september-2026",
+        "linkedin": "Anthropic ha hecho algo que ningún laboratorio había hecho antes: contar por escrito cómo se abusó de su propio modelo.\n\nEl informe de threat intelligence recoge operaciones interrumpidas entre diciembre de 2025 y agosto de 2026: ciberataques, software de misiles, enjambres de drones kamikaze, sistemas de vigilancia y campañas de destilación desde laboratorios chinos. Solo el equipo de Qwen acumula más de 151 millones de intercambios, con DeepSeek y Moonshot AI también señalados. 𝗟𝗼 𝘃𝗮𝗹𝗶𝗼𝘀𝗼 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗰𝗮𝘁á𝗹𝗼𝗴𝗼 𝗱𝗲 𝗮𝗯𝘂𝘀𝗼𝘀, 𝘀𝗶𝗻𝗼 𝗹𝗮 𝗹𝗶𝘀𝘁𝗮 𝗱𝗲 𝘀𝗮𝗹𝘃𝗮𝗴𝘂𝗮𝗿𝗱𝗮𝘀 𝗾𝘂𝗲 𝗳𝗮𝗹𝗹𝗮𝗿𝗼𝗻, y eso convierte el informe en lectura obligada para cualquiera que despliegue un modelo frontera hoy.\n\n#Anthropic #Claude #Qwen #ThreatIntelligence\n\nhttps://www.anthropic.com/threat-intelligence-report-september-2026"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Microsoft declara Rust lenguaje interno de nivel 1",
+      "summary": "Microsoft ha ascendido Rust a la categoría de lenguaje interno Tier 1, lo que da a sus desarrolladores las herramientas para eliminar bugs de memoria en Windows. La compañía ya venía impulsando Rust en componentes críticos del sistema.",
+      "why_it_matters": "El respaldo oficial acelera la migración de código crítico a un lenguaje con seguridad de memoria.",
+      "url": "https://www.theregister.com/devops/2026/09/11/microsoft-annoints-rust-as-a-tier-1-internal-language/5295732",
+      "source": "The Register",
+      "social": {
+        "x": "Windows arrastra bugs de memoria desde siempre. Microsoft acaba de subir Rust a lenguaje interno de nivel 1 para eliminarlos.\n\n#Rust #Microsoft #Windows #SeguridadDeMemoria\nhttps://www.theregister.com/devops/2026/09/11/microsoft-annoints-rust-as-a-tier-1-internal-language/5295732",
+        "linkedin": "Que Microsoft suba Rust a lenguaje interno de nivel 1 suena a trámite burocrático. Es la confirmación de que la seguridad de memoria ha dejado de ser una preferencia.\nTier 1 significa que los equipos de la casa tienen soporte, tooling y permiso para escribir código crítico en Rust, no solo para experimentar en un componente aislado. Es la vía oficial para migrar buena parte del código que hoy genera los CVEs de Windows. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲, 𝘀𝗶𝗻𝗼 𝗹𝗮 𝗶𝗻𝘁𝗲𝗿𝗼𝗽 𝗰𝗼𝗻 𝗺𝗶𝗹𝗹𝗼𝗻𝗲𝘀 𝗱𝗲 𝗹í𝗻𝗲𝗮𝘀 𝗱𝗲 𝗖++ 𝘆 𝗹𝗮 𝗴𝗲𝗻𝘁𝗲 𝗾𝘂𝗲 𝘀𝗲𝗽𝗮 𝗵𝗮𝗰𝗲𝗿𝗹𝗼 𝗯𝗶𝗲𝗻. Para cualquier equipo con una base de código grande, la conversación deja de ser si merece la pena migrar y pasa a ser por dónde empezar.\n\n#Rust #Microsoft #Windows #SeguridadDeMemoria\n\nhttps://www.theregister.com/devops/2026/09/11/microsoft-annoints-rust-as-a-tier-1-internal-language/5295732"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "herramientas",
+      "title": "Netflix reescribe Conductor para workflows diez veces mayores",
+      "summary": "Conductor 4.0 pasa de soportar unas 2.500 a 30.000 tareas por workflow y recorta un 40% la latencia p99 de evaluación, en un motor que ya ejecuta 420 millones de workflows al mes. La nueva versión separa metadatos y datos de tarea, mueve la evaluación a procesos asíncronos e incorpora asignación dinámica de workers y controles de concurrencia.",
+      "why_it_matters": "Es un caso práctico de rediseño de orquestación para quienes gestionan pipelines a gran escala.",
+      "url": "https://www.infoq.com/news/2026/09/netflix-conductor-4-workflow",
+      "source": "InfoQ",
+      "social": {
+        "x": "Netflix multiplica por 12 el techo de su motor de workflows: de 2.500 a 30.000 tareas por flujo, con un 40% menos de latencia p99.\n\n#Netflix #Conductor #OpenSource #Workflows\nhttps://www.infoq.com/news/2026/09/netflix-conductor-4-workflow",
+        "linkedin": "Netflix acaba de reescribir el motor que ya ejecuta 420 millones de workflows al mes.\n\nConductor 4.0 pasa de unas 2.500 a 30.000 tareas por workflow y recorta un 40% la latencia p99 de evaluación, separando metadatos y datos de tarea, moviendo la evaluación a procesos asíncronos y añadiendo asignación dinámica de workers. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝘆𝗮 𝗻𝗼 𝗲𝗿𝗮 𝗹𝗮 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲 𝗰ó𝗺𝗽𝘂𝘁𝗼, 𝘀𝗶𝗻𝗼 𝗲𝗹 𝗱𝗶𝘀𝗲ñ𝗼 𝗱𝗲𝗹 𝗽𝗿𝗼𝗽𝗶𝗼 𝗼𝗿𝗾𝘂𝗲𝘀𝘁𝗮𝗱𝗼𝗿. Para quien gestiona pipelines a gran escala, la lección es incómoda: añadir workers tiene un techo y llega un punto en el que hay que rehacer la arquitectura por dentro.\n\n#Netflix #Conductor #OpenSource #Workflows\n\nhttps://www.infoq.com/news/2026/09/netflix-conductor-4-workflow"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "herramientas",
+      "title": "Android permite migrar contraseñas y passkeys entre gestores",
+      "summary": "Google ha añadido a Android la migración segura de credenciales entre gestores de contraseñas, incluidas las passkeys. De momento son pocas las apps compatibles, pero la compañía asegura que llegarán más.",
+      "why_it_matters": "Elimina la principal barrera para cambiar de gestor de contraseñas sin perder accesos.",
+      "url": "https://arstechnica.com/gadgets/2026/09/android-can-now-securely-migrate-your-logins-between-password-managers",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Cambiar de gestor de contraseñas siempre fue un dolor: o migrabas a mano o perdías accesos. Android ya permite moverlas, passkeys incluidas.\n\n#Android #Passkeys #Google #PasswordManager\nhttps://arstechnica.com/gadgets/2026/09/android-can-now-securely-migrate-your-logins-between-password-managers",
+        "linkedin": "El motivo número uno para no cambiar de gestor de contraseñas acaba de desaparecer en Android.\nGoogle ha añadido la migración de credenciales entre apps, passkeys incluidas, así que 𝘆𝗮 𝗻𝗼 𝗵𝗮𝘆 𝗲𝘅𝗰𝘂𝘀𝗮 𝘁é𝗰𝗻𝗶𝗰𝗮 𝗽𝗮𝗿𝗮 𝘀𝗲𝗴𝘂𝗶𝗿 𝗮𝘁𝗿𝗮𝗽𝗮𝗱𝗼 𝗲𝗻 𝗲𝗹 𝗴𝗲𝘀𝘁𝗼𝗿 𝗾𝘂𝗲 𝗲𝗹𝗲𝗴𝗶𝘀𝘁𝗲 𝗵𝗮𝗰𝗲 𝗮ñ𝗼𝘀. De momento son pocas las aplicaciones compatibles y ahí está el riesgo: si los gestores no la implementan, la función se queda en nada. Para quien gestiona credenciales en una empresa, es también el momento de revisar qué se usa y con qué criterio.\n\n#Android #Passkeys #Google #PasswordManager\n\nhttps://arstechnica.com/gadgets/2026/09/android-can-now-securely-migrate-your-logins-between-password-managers"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "herramientas",
+      "title": "Búsqueda semántica de vídeo e imagen en Amazon Bedrock",
+      "summary": "El modelo de embeddings Marengo Embed 3.0 de TwelveLabs ya está disponible de forma general en Amazon Bedrock Knowledge Bases. Aporta búsqueda en lenguaje natural sobre vídeo, imagen y audio sin gestionar infraestructura.",
+      "why_it_matters": "Pone la búsqueda multimodal lista para usar sobre archivos de medios que hasta ahora eran un cajón cerrado.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Buscar «el plano del coche rojo» en tu archivo de vídeo ya es una consulta de texto. Marengo Embed 3.0 aterriza en Amazon Bedrock.\n\n#AWS #Bedrock #TwelveLabs #Multimodal\nhttps://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0",
+        "linkedin": "El vídeo y el audio dejan de ser un cajón cerrado: ya se pueden buscar en lenguaje natural.\nTwelveLabs pone Marengo Embed 3.0 en disponibilidad general dentro de Amazon Bedrock Knowledge Bases, con búsqueda semántica sobre vídeo, imagen y audio 𝘀𝗶𝗻 𝗴𝗲𝘀𝘁𝗶𝗼𝗻𝗮𝗿 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗽𝗿𝗼𝗽𝗶𝗮. Para equipos de medios, soporte o moderación de contenido, la barrera deja de ser técnica: montar un buscador multimodal pasa a ser una decisión de producto, y el trabajo real se traslada a tener los metadatos, los permisos y la política de retención en orden. Quien tenga el archivo ordenado, gana.\n\n#AWS #Bedrock #TwelveLabs #Multimodal\n\nhttps://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "investigacion",
+      "title": "LinkedIn acelera su búsqueda de empleo con IA ocho veces",
+      "summary": "LinkedIn ha detallado la infraestructura de entrenamiento de su búsqueda de empleo con IA, basada en destilación multi-teacher. El proceso comprime el conocimiento de varios modelos grandes en un modelo de ranking de 0,6B de parámetros, ocho veces más rápido de entrenar.",
+      "why_it_matters": "Muestra cómo servir ranking con IA a gran escala usando modelos pequeños y con coste contenido.",
+      "url": "https://www.infoq.com/news/2026/09/linkedin-ai-multi-teacher",
+      "source": "InfoQ",
+      "social": {
+        "x": "Ocho veces más rápido de entrenar y con un modelo de solo 0,6B: así ha montado LinkedIn su buscador de empleo. La clave está en la destilación multi-teacher.\n\n#LinkedIn #MachineLearning #LLM\nhttps://www.infoq.com/news/2026/09/linkedin-ai-multi-teacher",
+        "linkedin": "LinkedIn no ha mejorado su buscador de empleo con un modelo más grande, sino con uno mucho más pequeño.\n\nHan destilado el conocimiento de varios modelos grandes en un modelo de ranking de 0,6B de parámetros que 𝗲𝗻𝘁𝗿𝗲𝗻𝗮 𝗼𝗰𝗵𝗼 𝘃𝗲𝗰𝗲𝘀 𝗺á𝘀 𝗿á𝗽𝗶𝗱𝗼 que la alternativa, y han publicado cómo lo sirven en producción. Para cualquier equipo que tenga que poner IA a escala, la lectura es clara: los modelos pequeños y bien destilados están ganando la partida en coste y latencia, y no siempre hace falta el modelo más grande del mercado para rankear bien.\n\n#LinkedIn #MachineLearning #LLM\n\nhttps://www.infoq.com/news/2026/09/linkedin-ai-multi-teacher"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "investigacion",
+      "title": "Codex y ChatGPT ayudan a buscar nuevos antimicrobianos",
+      "summary": "El laboratorio de César de la Fuente usa Codex y ChatGPT para rastrear genomas de organismos vivos y extintos en busca de candidatos antimicrobianos contra infecciones resistentes a los fármacos.",
+      "why_it_matters": "Es un ejemplo de investigación biomédica real acelerada por asistentes de código.",
+      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "source": "OpenAI News",
+      "social": {
+        "x": "La próxima generación de antibióticos puede estar en el ADN de especies extintas. Un laboratorio usa Codex y ChatGPT para encontrarla.\n\n#OpenAI #Codex #ChatGPT\nhttps://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+        "linkedin": "Buscar antibióticos en el ADN de especies extintas suena a ciencia ficción, pero ya es una línea de trabajo real.\n\nEl laboratorio de César de la Fuente usa Codex y ChatGPT para rastrear genomas de organismos vivos y ya extinguidos en busca de candidatos contra infecciones resistentes a los fármacos. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲𝗹 𝗱𝗲𝘀𝗰𝘂𝗯𝗿𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝗮𝗻𝘁𝗶𝗺𝗶𝗰𝗿𝗼𝗯𝗶𝗮𝗻𝗼𝘀 𝗻𝘂𝗻𝗰𝗮 𝗳𝘂𝗲 𝗹𝗮 𝗳𝗮𝗹𝘁𝗮 𝗱𝗲 𝗶𝗱𝗲𝗮𝘀, 𝘀𝗶𝗻𝗼 𝗲𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗱𝗲 𝗳𝗶𝗹𝘁𝗿𝗮𝗿 𝗺𝗶𝗹𝗹𝗼𝗻𝗲𝘀 𝗱𝗲 𝘀𝗲𝗰𝘂𝗲𝗻𝗰𝗶𝗮𝘀. Aquí los asistentes de código no hacen ciencia por su cuenta: se comen la parte mecánica del pipeline para que el equipo dedique el tiempo a validar candidatos. Para cualquier grupo de investigación, la señal es que estas herramientas ya están aportando en entornos reales, no solo en demos.\n\n#OpenAI #Codex #ChatGPT\n\nhttps://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "melgarafael/DeskcommCRM",
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "description": "CRM open source con agentes de IA nativos e integración con WhatsApp, pensado para negocios que venden por chat. Se instala en tu propio servidor, es multi-tenant y compatible con MCP, como alternativa a Kommo, Octadesk o Intercom.",
+      "language": "TypeScript",
+      "stars": 1140,
+      "social": {
+        "x": "Intercom te cobra por asiento. Este CRM open source mete agentes de IA en WhatsApp, se instala en tu servidor y ya suma 1.140 estrellas.\n\n#DeskcommCRM #TypeScript #OpenSource #GitHub\nhttps://github.com/melgarafael/DeskcommCRM",
+        "linkedin": "INTERCOM TE COBRA POR ASIENTO. ESTE CRM SE INSTALA EN TU SERVIDOR Y NO PAGA POR USUARIO.\n\nSi vendes por chat, ya sabes cómo acaba la historia: empiezas con un plan barato y terminas pagando por cada agente, por cada conversación y por cada integración. Kommo, Octadesk o Intercom funcionan bien, pero el precio escala contigo y tus datos viven en su nube.\n\nDeskcommCRM va por otro camino. Es un CRM open source escrito en TypeScript, 𝗽𝗲𝗻𝘀𝗮𝗱𝗼 𝗽𝗮𝗿𝗮 𝗾𝘂𝗲 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗜𝗔 𝘃𝗶𝘃𝗮𝗻 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲𝗹 𝗖𝗥𝗠 𝘆 𝗻𝗼 𝗲𝗻 𝘂𝗻 𝗽𝗹𝘂𝗴𝗶𝗻 𝗮𝗽𝗮𝗿𝘁𝗲, así que atienden, cualifican y hacen seguimiento con el contexto real de cada conversación.\n\n→ Integración nativa con WhatsApp, el canal donde se cierran las ventas en la mayoría de negocios hispanohablantes.\n→ Agentes de IA nativos, no un añadido de terceros que haya que sincronizar.\n→ Multi-tenant: puedes montar una instancia y dar servicio a varios clientes o marcas.\n→ Compatible con MCP, así que puedes enchufarlo a las herramientas del ecosistema que ya usas.\n→ Self-hosted: se instala en tu propio servidor y los datos se quedan contigo.\n\nLo interesante no es solo el ahorro. Es que dejas de depender de que un proveedor cambie el precio o cierre la API. Con 1.140 estrellas en GitHub, el proyecto ya tiene tracción suficiente para mirarlo en serio antes de firmar otra cuota mensual.\n\nGuarda este post para cuando toque revisar el gasto en herramientas de atención al cliente. El repo lo tienes abajo.\n\n#DeskcommCRM #TypeScript #OpenSource #GitHub\n\nhttps://github.com/melgarafael/DeskcommCRM"
+      }
+    },
+    {
+      "name": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "Kit de herramientas de GitHub para trabajar con desarrollo guiado por especificaciones: escribes la spec y los agentes de IA generan el código a partir de ella. Muy útil para dar estructura a proyectos asistidos por IA en lugar de dejar que el modelo improvise.",
+      "language": "Python",
+      "stars": 135571,
+      "social": {
+        "x": "Deja de dejar que la IA improvise: escribes la spec y el agente genera el código. GitHub lo regala y ya suma 135.000 estrellas.\n\n#spec-kit #GitHub #OpenSource #Python\nhttps://github.com/github/spec-kit",
+        "linkedin": "GITHUB ACABA DE REGALAR EL MÉTODO PARA QUE LA IA NO IMPROVISE CÓDIGO.\n\nLa mayoría de proyectos asistidos por IA terminan igual: prompts sueltos, decisiones de arquitectura inventadas sobre la marcha y un repositorio que nadie entiende dos semanas después. spec-kit le da la vuelta al flujo y pone 𝗹𝗮 𝗲𝘀𝗽𝗲𝗰𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗽𝗼𝗿 𝗱𝗲𝗹𝗮𝗻𝘁𝗲 𝘆 𝗮𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗻𝗱𝗼 𝗱𝗲𝘁𝗿á𝘀.\n\nEn lugar de pedir código a ciegas, primero describes qué quieres construir con precisión y a partir de ahí el agente trabaja con una referencia estable. Ya lleva más de 135.000 estrellas, así que no es una idea minoritaria.\n\n→ Escribes la spec en lenguaje natural y el toolkit la convierte en un plan técnico revisable.\n→ El plan se descompone en tareas concretas que el agente va ejecutando en orden.\n→ El código resultante respeta esa estructura en vez de improvisar en cada paso.\n→ Se instala como paquete de Python y encaja con los agentes de IA que ya usas encima del repositorio.\n\nEl cambio real no es de herramientas, es de orden: la spec es el contrato y el modelo deja de tener que adivinar qué querías.\n\nSi trabajas con IA en tus proyectos, guarda este post para tenerlo a mano: te dejo el repositorio abajo.\n\n#spec-kit #GitHub #OpenSource #Python\n\nhttps://github.com/github/spec-kit"
+      }
+    },
+    {
+      "name": "jordan-gibbs/hyperresearch",
+      "url": "https://github.com/jordan-gibbs/hyperresearch",
+      "description": "Base de conocimiento para investigación asistida por agentes, que recopilan, buscan y sintetizan información de la web en una wiki persistente y consultable. Te permite tener todo lo investigado organizado en lugar de repartido entre pestañas.",
+      "language": "Python",
+      "stars": 2299,
+      "social": {
+        "x": "Tus pestañas de investigación son un cementerio. Este repo en Python las convierte en una wiki persistente que tus agentes consultan solos. 2.299 estrellas.\n\n#HyperResearch #Python #OpenSource #GitHub\nhttps://github.com/jordan-gibbs/hyperresearch",
+        "linkedin": "DEJA DE PERDER TUS INVESTIGACIONES ENTRE PESTAÑAS ABIERTAS.\n\nCada vez que investigas algo con un agente, el resultado acaba en un chat, en un marcador o en treinta pestañas que cierras el viernes y no vuelves a abrir. HyperResearch propone lo contrario: que los propios agentes recopilen, busquen y sinteticen la información y la dejen en una wiki persistente y consultable.\n\nLa diferencia no es la búsqueda, es que 𝗲𝗹 𝗿𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝘀𝗼𝗯𝗿𝗲𝘃𝗶𝘃𝗲 𝗮 𝗹𝗮 𝘀𝗲𝘀𝗶ó𝗻.\n\nQué hace:\n\n→ Los agentes recopilan y buscan información en la web por ti.\n→ Sintetizan lo encontrado en entradas de una wiki que puedes volver a consultar cuando quieras.\n→ Todo queda en un mismo sitio, en lugar de repartido entre pestañas, notas y conversaciones sueltas.\n→ Está escrito en Python y ya suma 2.299 estrellas en GitHub.\n\nEl problema nunca fue encontrar información, era no tener un sitio donde quedase ordenada. Aquí lo tienes, y encima son los agentes quienes hacen el trabajo pesado.\n\nSi investigas a diario con agentes, guárdate este post: te dejo el repo abajo.\n\n#HyperResearch #Python #OpenSource #GitHub\n\nhttps://github.com/jordan-gibbs/hyperresearch"
+      }
+    },
+    {
+      "name": "alsk1992/CloddsBot",
+      "url": "https://github.com/alsk1992/CloddsBot",
+      "description": "Agente de trading con IA que opera de forma autónoma en más de mil mercados, desde Polymarket o Kalshi hasta exchanges descentralizados. Escanea oportunidades, ejecuta operaciones y gestiona el riesgo, y puedes alojarlo en tu propio servidor.",
+      "language": "TypeScript",
+      "stars": 1986,
+      "social": {
+        "x": "Un bot de trading con IA que opera solo en más de 1.000 mercados, de Polymarket a exchanges descentralizados. 1.986 estrellas y se aloja en tu servidor.\n\n#CloddsBot #OpenSource #TypeScript #TradingAutomatizado\nhttps://github.com/alsk1992/CloddsBot",
+        "linkedin": "UN BOT DE TRADING CON IA QUE OPERA SOLO, EN MÁS DE MIL MERCADOS Y SIN CUOTA DE SAAS.\n\nLa mayoría de herramientas de trading automático te obligan a pasar por su nube, con su suscripción y sus límites. CloddsBot va por otro camino: es open source, está escrito en TypeScript y lo alojas donde quieras.\n\nCon casi 2.000 estrellas en GitHub, se conecta a Polymarket, Kalshi y exchanges descentralizados, escanea oportunidades, ejecuta operaciones y gestiona el riesgo por su cuenta.\n\n→ Escanea mercados en busca de oportunidades en tiempo real\n→ Ejecuta órdenes en más de mil mercados, desde predicción hasta DEX\n→ Gestiona el riesgo de cada posición de forma autónoma\n→ Self-hosted: tus claves y tu estrategia no salen de tu servidor\n→ TypeScript de punta a punta, fácil de extender\n\n𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗲𝘀 𝗾𝘂𝗲 𝗻𝗼 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝘀 𝗱𝗲 𝗻𝗮𝗱𝗶𝗲 𝗽𝗮𝗿𝗮 𝗼𝗽𝗲𝗿𝗮𝗿: el bot corre en tu infraestructura y tú mantienes el control.\n\nGuarda este post si te interesa el trading algorítmico o los agentes autónomos. Te dejo el repo abajo.\n\n#CloddsBot #OpenSource #TypeScript #TradingAutomatizado\n\nhttps://github.com/alsk1992/CloddsBot"
+      }
+    },
+    {
+      "name": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "description": "Simulador de satélite espía que funciona en el navegador con datos reales, sobre un globo terráqueo 3D fotorrealista. Una forma muy vistosa de explorar inteligencia geoespacial open source sin montar nada.",
+      "language": "JavaScript",
+      "stars": 26127,
+      "social": {
+        "x": "Un simulador de satélite espía que corre en el navegador: datos reales sobre un globo 3D fotorrealista. Sin instalar nada. Y ya suma 26.000 estrellas.\n\n#OpenSource #JavaScript #GIS #GitHub\nhttps://github.com/bilawalsidhu/gods-eye-view",
+        "linkedin": "INTELIGENCIA GEOESPACIAL DE SATÉLITE, EN EL NAVEGADOR Y SIN INSTALAR NADA.\n\nMontar un visor geoespacial suele implicar cuentas de pago, APIs con cuota y un stack de GIS que cuesta días levantar. Este repo lo resuelve abriendo una pestaña: un globo terráqueo 3D fotorrealista con datos reales, planteado como un simulador de satélite espía.\n\n→ Globo 3D fotorrealista que se navega como si tuvieras el control del satélite.\n→ Datos reales, sin capas de relleno ni mockups.\n→ Todo en JavaScript y en el navegador, así que no hay nada que desplegar.\n→ 26.000 estrellas en GitHub, señal de que el enfoque ha conectado con mucha gente.\n\n𝗟𝗼 𝗶𝗻𝘁𝗲𝗿𝗲𝘀𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗲𝗳𝗲𝗰𝘁𝗼 𝘃𝗶𝘀𝘁𝗼𝘀𝗼, 𝘀𝗶𝗻𝗼 𝗾𝘂𝗲 𝗱𝗲𝗺𝘂𝗲𝘀𝘁𝗿𝗮 𝗾𝘂𝗲 𝗹𝗮 𝗶𝗻𝘁𝗲𝗹𝗶𝗴𝗲𝗻𝗰𝗶𝗮 𝗴𝗲𝗼𝗲𝘀𝗽𝗮𝗰𝗶𝗮𝗹 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗲𝘅𝗽𝗹𝗼𝗿𝗮𝗿 𝘀𝗶𝗻 𝗺𝗼𝗻𝘁𝗮𝗿 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗽𝗿𝗼𝗽𝗶𝗮.\n\nGuárdalo para la próxima vez que quieras entender un dataset geoespacial en cinco minutos, o para explicarle el concepto a alguien que no viene del sector. Te dejo el repo abajo.\n\n#OpenSource #JavaScript #GIS #GitHub\n\nhttps://github.com/bilawalsidhu/gods-eye-view"
+      }
+    }
+  ]
+}
