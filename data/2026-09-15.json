@@ -1,0 +1,324 @@
+{
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T15:00:08.759Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Perplexity lleva su agente Computer al PC local con Windows y GPUs RTX",
+      "summary": "Perplexity ha lanzado Portable Computer para Windows, una versión local de su agente Computer que planifica y ejecuta tareas de varios pasos con modelos que corren en el propio equipo. Al ejecutarse en local, los datos sensibles no salen del PC, y la compañía lo acelera con GPUs NVIDIA RTX.",
+      "why_it_matters": "Permite usar un agente de IA sin enviar datos a la nube, algo clave para quien trabaja con información sensible.",
+      "url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs",
+      "source": "NVIDIA Blog",
+      "social": {
+        "x": "El agente de Perplexity ya vive en tu PC: planifica tareas de varios pasos y las ejecuta en local, sin que los datos salgan de la máquina.\n\n#Perplexity #NVIDIA #RTX #Agentes\nhttps://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs",
+        "linkedin": "La IA que trabaja con tus datos más sensibles ya no necesita salir de tu ordenador.\n\nPerplexity ha lanzado Portable Computer para Windows: su agente Computer, el que planifica y ejecuta tareas de varios pasos, ahora corre en local sobre GPUs NVIDIA RTX. Eso significa que 𝗹𝗼𝘀 𝗱𝗮𝘁𝗼𝘀 𝗻𝗼 𝘀𝗮𝗹𝗲𝗻 𝗱𝗲𝗹 𝗲𝗾𝘂𝗶𝗽𝗼, y ese era justo el freno que impedía meter agentes en despachos, clínicas o cualquier equipo que maneje información confidencial. El movimiento apunta a algo más de fondo: el cómputo local deja de ser una limitación de rendimiento y empieza a venderse como ventaja. Si trabajas con datos que no pueden subir a la nube, el cálculo acaba de cambiar.\n\n#Perplexity #NVIDIA #RTX #Agentes\n\nhttps://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Apple estrena una Siri reconstruida sobre Gemini, pero deja fuera a la UE",
+      "summary": "Apple ya distribuye su nueva Siri AI, construida sobre los modelos Gemini de Google y repartida entre el dispositivo y Private Cloud Compute. Los primeros análisis destacan las peticiones de varios pasos y el contexto de pantalla, aunque también señalan alucinaciones y lagunas con el contexto personal. En la UE el asistente sigue sin estar disponible.",
+      "why_it_matters": "Marca el giro de Apple hacia modelos de terceros para su asistente, con un impacto directo en los usuarios europeos que se quedan sin la función.",
+      "url": "https://the-decoder.com/apple-brings-a-fully-revamped-siri-built-on-googles-gemini-but-not-to-the-eu",
+      "source": "The Decoder",
+      "social": {
+        "x": "La nueva Siri corre sobre los modelos Gemini de Google, no sobre uno propio. En la UE sigue sin estar disponible.\n\n#Apple #Siri #Gemini #AppleIntelligence\nhttps://the-decoder.com/apple-brings-a-fully-revamped-siri-built-on-googles-gemini-but-not-to-the-eu",
+        "linkedin": "Apple ha reconstruido Siri sobre los modelos Gemini de Google, y en la UE no habrá versión: el asistente sigue sin estar disponible para los usuarios europeos.\n\nLos primeros análisis destacan las peticiones de varios pasos y el contexto de pantalla, pero también alucinaciones y lagunas con el contexto personal. Parte del trabajo se queda en el dispositivo y parte pasa por Private Cloud Compute. 𝗟𝗼 𝗿𝗲𝗹𝗲𝘃𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗜𝗔, 𝗲𝘀 𝗾𝘂𝗲 𝗔𝗽𝗽𝗹𝗲 𝗿𝗲𝗻𝘂𝗻𝗰𝗶𝗮 𝗮 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗶𝗿 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗽𝗼𝗿 𝘀𝘂 𝗰𝘂𝗲𝗻𝘁𝗮. Cuando la pieza central de tu producto la pone un tercero, la ventaja se desplaza al hardware y a la integración, y Europa vuelve a quedarse mirando.\n\n#Apple #Siri #Gemini #AppleIntelligence\n\nhttps://the-decoder.com/apple-brings-a-fully-revamped-siri-built-on-googles-gemini-but-not-to-the-eu"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Salesforce y Nvidia presentan Koa, un modelo de razonamiento para ventas y soporte",
+      "summary": "Salesforce ha presentado Koa, un modelo de razonamiento construido sobre el modelo de pesos abiertos Nemotron de Nvidia y entrenado para tareas de ventas, marketing y atención al cliente. La compañía lo plantea como alternativa a depender de los grandes laboratorios de IA.",
+      "why_it_matters": "Es un ejemplo de modelo especializado y abierto que las empresas pueden adaptar a sus propios flujos de trabajo.",
+      "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Salesforce ya no quiere depender de los grandes laboratorios de IA. Su nuevo modelo, Koa, se apoya en los pesos abiertos de Nvidia.\n\n#Salesforce #Nvidia #Nemotron #OpenSource\nhttps://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear",
+        "linkedin": "Salesforce ya no quiere construir su IA sobre los modelos de otros. Koa es su apuesta: un modelo de razonamiento montado sobre Nemotron, los pesos abiertos de Nvidia, y afinado para ventas, marketing y atención al cliente.\n\nLa jugada no es solo técnica. 𝗨𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗲𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘇𝗮𝗱𝗼 𝘆 𝗮𝗯𝗶𝗲𝗿𝘁𝗼 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗮𝗱𝗮𝗽𝘁𝗮𝗿 𝗮 𝗹𝗼𝘀 𝗳𝗹𝘂𝗷𝗼𝘀 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗱𝗲 𝗰𝗮𝗱𝗮 𝗲𝗺𝗽𝗿𝗲𝘀𝗮, sin pasar por la API ni por los precios de un gran laboratorio. Para los equipos que llevan meses atando su hoja de ruta a un proveedor externo, esto abre otra vía: menos dependencia, más control sobre los datos y sobre el coste.\n\n#Salesforce #Nvidia #Nemotron #OpenSource\n\nhttps://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Nari Labs abre en beta pública sus modelos Qwen3-TTS y Qwen3-ASR",
+      "summary": "Nari Labs ha puesto en beta pública dos modelos multimodales de 1.700 millones de parámetros para síntesis de voz y reconocimiento de habla, con APIs de inferencia optimizadas. La propuesta apunta a baja latencia y bajo coste para llevarlos a producción.",
+      "why_it_matters": "Ofrecen TTS y ASR abiertos y baratos a quien quiera integrar voz en sus aplicaciones sin depender de APIs cerradas.",
+      "url": "https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks",
+      "source": "Hacker News",
+      "social": {
+        "x": "TTS y ASR abiertos, de 1.700 millones de parámetros y pensados para producción, no para demos. Nari Labs los abre en beta pública.\n\n#TTS #ASR #Qwen #OpenSource\nhttps://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks",
+        "linkedin": "El coste de meter voz en tu producto acaba de dejar de ser una excusa.\n\nNari Labs abre en beta pública Qwen3-TTS y Qwen3-ASR, dos modelos de 1.700 millones de parámetros con APIs de inferencia optimizadas y foco en baja latencia. 𝗣𝗮𝗿𝗮 𝗾𝘂𝗶𝗲𝗻 𝘃𝗲𝗻í𝗮 𝗱𝗲𝘀𝗰𝗮𝗿𝘁𝗮𝗻𝗱𝗼 𝗹𝗮 𝘃𝗼𝘇 𝗽𝗼𝗿 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝗔𝗣𝗜𝘀 𝗰𝗲𝗿𝗿𝗮𝗱𝗮𝘀 𝗼 𝗽𝗼𝗿 𝗽𝗿𝗲𝗰𝗶𝗼, 𝗲𝗹 𝗰á𝗹𝗰𝘂𝗹𝗼 𝗰𝗮𝗺𝗯𝗶𝗮. Habrá que ver cómo se comportan con carga real y en cuántos idiomas aguantan, pero la barrera de entrada ya no es ni técnica ni económica.\n\n#TTS #ASR #Qwen #OpenSource\n\nhttps://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Capsule empaqueta aplicaciones web enteras en un solo archivo con SQLite dentro",
+      "summary": "Capsule guarda la interfaz, los datos y todo lo demás de una app en un único archivo .capsule que se comparte como un documento y se abre como una aplicación. Incluye generación y actualización de apps a partir de prompts, sin nube ni cuentas.",
+      "why_it_matters": "Propone una forma muy simple de distribuir aplicaciones y datos sin infraestructura, útil para prototipos y herramientas personales.",
+      "url": "https://withcapsule.app",
+      "source": "Hacker News",
+      "social": {
+        "x": "Una app web entera, interfaz y datos incluidos, cabiendo en un solo archivo que se comparte como un documento y se abre como una aplicación. Sin nube y sin cuentas.\n\n#SQLite #Capsule #WebApps\nhttps://withcapsule.app",
+        "linkedin": "Una app web completa, con sus datos dentro, cabe en un solo archivo y se comparte como si fuera un PDF.\n\nCapsule empaqueta interfaz y base de datos SQLite en un .capsule que se abre como aplicación, sin nube, sin cuentas y sin desplegar nada. Para prototipos, herramientas internas o utilidades personales, elimina justo la parte más molesta de distribuir software. La duda llega al salir del prototipo: sin servidor no hay colaboración en tiempo real ni control de acceso, así que 𝗲𝗹 𝗮𝗿𝗰𝗵𝗶𝘃𝗼 ú𝗻𝗶𝗰𝗼 𝗲𝘀 𝘂𝗻 𝗳𝗼𝗿𝗺𝗮𝘁𝗼 𝗱𝗲 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝗰𝗶ó𝗻, 𝗻𝗼 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗮𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮. Aun así, es un buen recordatorio de que no toda app necesita infraestructura detrás.\n\n#SQLite #Capsule #WebApps\n\nhttps://withcapsule.app"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Agility Robotics presenta Digit 5, un humanoide que trabaja junto a personas sin vallas",
+      "summary": "Agility Robotics ha desvelado Digit 5, la nueva generación de su robot humanoide para almacenes y fábricas, que según la empresa puede operar junto a personas sin necesidad de barreras de seguridad. La compañía aspira a desplegarlo en entornos logísticos.",
+      "why_it_matters": "Acerca los humanoides a compartir espacio con trabajadores, un paso clave para su adopción real en almacenes.",
+      "url": "https://the-decoder.com/agility-robotics-says-its-new-digit-5-robot-can-work-next-to-people-without-safety-fences",
+      "source": "The Decoder",
+      "social": {
+        "x": "Un humanoide ya trabaja junto a personas sin vallas de seguridad de por medio. Agility Robotics presenta Digit 5 y apunta directo a los almacenes.\n\n#AgilityRobotics #Digit5 #Humanoides #Logística\nhttps://the-decoder.com/agility-robotics-says-its-new-digit-5-robot-can-work-next-to-people-without-safety-fences",
+        "linkedin": "El obstáculo para meter un humanoide en un almacén nunca fue la destreza, sino la valla.\n\nAgility Robotics asegura que Digit 5 rompe esa lógica: 𝗽𝘂𝗲𝗱𝗲 𝗼𝗽𝗲𝗿𝗮𝗿 𝗲𝗻 𝗲𝗹 𝗺𝗶𝘀𝗺𝗼 𝗲𝘀𝗽𝗮𝗰𝗶𝗼 𝗾𝘂𝗲 𝗹𝗼𝘀 𝘁𝗿𝗮𝗯𝗮𝗷𝗮𝗱𝗼𝗿𝗲𝘀 𝘀𝗶𝗻 𝗯𝗮𝗿𝗿𝗲𝗿𝗮𝘀 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱, según la compañía. Si eso se sostiene en un turno real y no solo en una demo, el cálculo cambia para cualquier operador logístico: integrar un robot deja de ser obra civil y pasa a ser software y formación. Queda por ver quién responde cuando el robot y la persona se cruzan en el mismo pasillo, y ahí la normativa va por detrás de la tecnología.\n\n#AgilityRobotics #Digit5 #Humanoides #Logística\n\nhttps://the-decoder.com/agility-robotics-says-its-new-digit-5-robot-can-work-next-to-people-without-safety-fences"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Voicemod lanza un dispositivo de bolsillo para cambiar la voz en tiempo real desde el móvil",
+      "summary": "Voicemod ha presentado Key, un accesorio que lleva su cambio de voz en tiempo real a iOS y Android, con efectos y soundboard. Hasta ahora la función estaba ligada al PC.",
+      "why_it_matters": "Lleva la modificación de voz en directo al teléfono, algo útil para creadores y para quien hace llamadas o emisiones.",
+      "url": "https://www.theverge.com/tech/994828/voicemod-voice-changer-key-pocket-ios-android-soundboard",
+      "source": "The Verge",
+      "social": {
+        "x": "El cambio de voz en tiempo real ya no vive en tu PC: Voicemod lo mete en un dispositivo de bolsillo para iOS y Android.\n\n#Voicemod #iOS #Android #Streaming\nhttps://www.theverge.com/tech/994828/voicemod-voice-changer-key-pocket-ios-android-soundboard",
+        "linkedin": "Voicemod acaba de sacar el cambio de voz en directo del PC y meterlo en un dispositivo de bolsillo.\n\nKey conecta con el móvil y lleva los efectos y el soundboard a iOS y Android, justo donde muchos creadores ya graban, emiten y hacen llamadas. El movimiento tiene sentido: la emisión desde el teléfono ha dejado de ser un apaño y el audio suele ser la parte peor resuelta. 𝗘𝗹 𝗰𝗮𝗺𝗯𝗶𝗼 𝗱𝗲 𝘃𝗼𝘇 𝗲𝗻 𝘁𝗶𝗲𝗺𝗽𝗼 𝗿𝗲𝗮𝗹 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲𝗹 𝗼𝗿𝗱𝗲𝗻𝗮𝗱𝗼𝗿, y eso lo pone al alcance de cualquiera que grabe o emita fuera de casa.\n\n#Voicemod #iOS #Android #Streaming\n\nhttps://www.theverge.com/tech/994828/voicemod-voice-changer-key-pocket-ios-android-soundboard"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Grab estandariza más de 500 servicios de agentes con su framework LLM-Kit",
+      "summary": "Grab ha implantado LLM-Kit, un framework interno que unifica más de 500 servicios de agentes de IA y centraliza la integración, la evaluación y la gestión de secretos. Según la empresa, el tiempo de despliegue de un agente nuevo ha bajado de dos semanas a una hora.",
+      "why_it_matters": "Muestra cómo una empresa grande convierte agentes dispersos en una plataforma con despliegues rápidos y control operativo.",
+      "url": "https://www.infoq.com/news/2026/09/grab-agent-platform",
+      "source": "InfoQ",
+      "social": {
+        "x": "Grab tardaba dos semanas en poner un agente de IA en producción. Ahora tarda una hora, después de meter más de 500 servicios en un framework interno.\n\n#LLMKit #Grab #AgenticAI\nhttps://www.infoq.com/news/2026/09/grab-agent-platform",
+        "linkedin": "Ya casi nadie tiene problemas para lanzar un agente de IA; el problema es gobernarlo cuando tienes cientos.\n\nGrab ha metido más de 500 servicios de agentes en LLM-Kit, un framework interno que centraliza la integración, la evaluación y la gestión de secretos, y con ello ha bajado el despliegue de un agente nuevo de dos semanas a una hora. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀 𝗹𝗮 𝗽𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮 𝗾𝘂𝗲 𝗹𝗼 𝗿𝗼𝗱𝗲𝗮. Para cualquier equipo con agentes sueltos repartidos por media empresa, la lección es que la ventaja está en el andamiaje: evaluación común, secretos en un solo sitio y un camino de despliegue que no dependa de una persona concreta.\n\n#LLMKit #Grab #AgenticAI\n\nhttps://www.infoq.com/news/2026/09/grab-agent-platform"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "PC-ALM, una alternativa local a backpropagation que entrena redes de hasta 1.000 capas",
+      "summary": "Un equipo de Sakana AI presenta PC-ALM, un método de aprendizaje local que sustituye a backpropagation mediante dinámicas de control por capas. El sistema entrena MLPs residuales de hasta 1.000 capas y se queda cerca del rendimiento de backprop.",
+      "why_it_matters": "Explora una vía de entrenamiento más plausible biológicamente y con potencial para redes muy profundas.",
+      "url": "https://pub.sakana.ai/pc-alm",
+      "source": "Hacker News",
+      "social": {
+        "x": "Backpropagation lleva décadas siendo intocable. Sakana AI acaba de entrenar una red de 1.000 capas sin usarla.\n\n#SakanaAI #Backpropagation #DeepLearning\nhttps://pub.sakana.ai/pc-alm",
+        "linkedin": "Backpropagation es la base de casi todo lo que se entrena hoy. Sakana AI propone saltársela.\nPC-ALM aprende capa por capa con dinámicas de control local, 𝗲𝗻𝘁𝗿𝗲𝗻𝗮 𝗠𝗟𝗣𝘀 𝗿𝗲𝘀𝗶𝗱𝘂𝗮𝗹𝗲𝘀 𝗱𝗲 𝗵𝗮𝘀𝘁𝗮 𝟭.𝟬𝟬𝟬 𝗰𝗮𝗽𝗮𝘀 y se queda cerca del rendimiento de backprop. El interés no está solo en la cifra: apunta a un aprendizaje más plausible biológicamente y a arquitecturas que hoy son un dolor de cabeza por el flujo de gradientes. Si la brecha se cierra, no será una curiosidad de laboratorio.\n\n#SakanaAI #Backpropagation #DeepLearning\n\nhttps://pub.sakana.ai/pc-alm"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "Agentes de IA que denuncian a sus compañeros cuando hacen trampas",
+      "summary": "En un experimento de Google DeepMind, varios agentes de IA resolvían problemas de matemáticas repartidos en facciones rivales y, cuando algunos hacían trampas, otros intentaban frenarlos. Es la primera vez que se observa ese comportamiento de denuncia.",
+      "why_it_matters": "Entender estas dinámicas entre agentes importa para el alineamiento de sistemas autónomos que trabajan en grupo.",
+      "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues",
+      "source": "MIT Technology Review",
+      "social": {
+        "x": "Pusieron a varios agentes de IA a resolver problemas en facciones rivales. Cuando algunos hicieron trampas, los otros los denunciaron.\n\n#GoogleDeepMind #MultiAgentSystems #Alineamiento\nhttps://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues",
+        "linkedin": "Pusieron a varios agentes de IA a resolver problemas en facciones rivales. Cuando algunos hicieron trampas, los demás los denunciaron.\n\nEs la primera vez que se observa ese comportamiento de denuncia, en un experimento de Google DeepMind, y apunta a algo incómodo: los sistemas autónomos que trabajan en grupo empiezan a generar normas propias, con lo que eso implica para el alineamiento. 𝗦𝗶 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗽𝘂𝗲𝗱𝗲 𝘃𝗶𝗴𝗶𝗹𝗮𝗿 𝘆 𝘀𝗲ñ𝗮𝗹𝗮𝗿 𝗮 𝗼𝘁𝗿𝗼, 𝗮𝗹𝗴𝘂𝗶𝗲𝗻 𝘁𝗶𝗲𝗻𝗲 𝗾𝘂𝗲 𝗱𝗲𝗰𝗶𝗱𝗶𝗿 𝗾𝘂𝗶é𝗻 𝗱𝗲𝗳𝗶𝗻𝗲 𝗾𝘂é 𝗲𝘀 𝘁𝗿𝗮𝗺𝗽𝗮 antes de poner equipos de agentes a trabajar en producción.\n\n#GoogleDeepMind #MultiAgentSystems #Alineamiento\n\nhttps://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "¿Debemos fiarnos de los jueces LLM cuando coinciden?",
+      "summary": "Investigadores de Amazon Science advierten de que los paneles de jueces LLM pueden dar una falsa sensación de consenso cuando sus salidas están muy correlacionadas. Proponen descontar esas opiniones redundantes para que el panel refleje perspectivas diversas.",
+      "why_it_matters": "La evaluación automática con modelos se ha vuelto clave y este sesgo puede inflar los resultados.",
+      "url": "https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them",
+      "source": "Hacker News",
+      "social": {
+        "x": "Pides a tres jueces LLM que evalúen tu modelo, los tres coinciden, y ahí está el problema: sus opiniones están correlacionadas.\n\n#LLM #AmazonScience #LLMAsAJudge\nhttps://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them",
+        "linkedin": "Tres jueces LLM coinciden en su veredicto. Y eso, precisamente, es lo que debería hacerte desconfiar.\n\nInvestigadores de Amazon Science avisan de que los paneles de jueces LLM pueden dar 𝘂𝗻𝗮 𝗳𝗮𝗹𝘀𝗮 𝘀𝗲𝗻𝘀𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗰𝗼𝗻𝘀𝗲𝗻𝘀𝗼 cuando sus salidas están muy correlacionadas: modelos de la misma familia, entrenados con datos parecidos, tienden a fallar en los mismos sitios. Su propuesta es descontar las opiniones redundantes para que el panel refleje perspectivas diversas y no solo votos repetidos.\n\nSi evalúas con LLM-as-a-judge, mide cuánta independencia real hay entre tus jueces antes de fiarte de la media. El sesgo infla los resultados y, por lo general, pasa desapercibido.\n\n#LLM #AmazonScience #LLMAsAJudge\n\nhttps://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Por qué los agentes de investigación en machine learning no sobreajustan",
+      "summary": "Un análisis de Amazon Science sostiene que los agentes de IA aprenden modelos comprimibles de los datos, con poco espacio para memorizar, y por eso no sobreajustan como cabría esperar.",
+      "why_it_matters": "Ayuda a entender por qué estos agentes generalizan y qué límites tienen cuando investigan.",
+      "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un agente de IA que investiga debería sobreajustar. No lo hace, y la explicación de Amazon Science cambia cómo entendemos que generalice.\n\n#MachineLearning #AmazonScience #LLM\nhttps://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+        "linkedin": "Los agentes de IA que investigan deberían sobreajustar. No lo hacen.\n\nUn análisis de Amazon Science explica por qué: construyen modelos comprimibles de los datos y tienen poco espacio para memorizar, así que generalizan mejor de lo que cabría esperar. 𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗾𝘂𝗲 𝘀𝗲𝗮𝗻 𝗺á𝘀 𝗶𝗻𝘁𝗲𝗹𝗶𝗴𝗲𝗻𝘁𝗲𝘀, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗾𝘂𝗲 𝘀𝘂 𝗳𝗼𝗿𝗺𝗮 𝗱𝗲 𝗮𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝗹𝗶𝗺𝗶𝘁𝗮 𝗹𝗮 𝗺𝗲𝗺𝗼𝗿𝗶𝘇𝗮𝗰𝗶ó𝗻. Para los equipos que usan agentes en I+D, esto marca dónde está el valor real y también los límites cuando la tarea exige precisión.\n\n#MachineLearning #AmazonScience #LLM\n\nhttps://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "Los modelos abiertos chinos recortan distancias con la frontera a una quinta parte del coste",
+      "summary": "Un informe de Mozilla, adelantado por Ars Technica, concluye que pagar por los modelos de frontera apenas compra unos cuatro meses de ventaja sobre los modelos abiertos, y a un coste cinco veces mayor. Los modelos abiertos, en buena parte chinos, se han acercado muy rápido en capacidad.",
+      "why_it_matters": "Pone cifras a la brecha real entre modelos cerrados y abiertos, con implicaciones directas a la hora de elegir qué usar.",
+      "url": "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Pagar por un modelo de frontera te compra cuatro meses de ventaja. Y cuesta cinco veces más. Un informe de Mozilla pone cifras a la brecha con los modelos abiertos.\n\n#OpenSource #Mozilla #LLM #China\nhttps://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models",
+        "linkedin": "Pagar por la frontera te compra cuatro meses. Nada más. Un informe de Mozilla concluye que los modelos cerrados solo mantienen esa ventaja durante unos cuatro meses sobre los abiertos, y a un coste cinco veces mayor.\n\nLos modelos abiertos, muchos de ellos chinos, han recortado la distancia en capacidad a un ritmo que hace dos años nadie daba por hecho. Para quien elige stack, la pregunta ya no es cuál es el mejor modelo, sino cuánto está dispuesto a pagar por esa ventana de cuatro meses. 𝗟𝗮 𝘃𝗲𝗻𝘁𝗮𝗷𝗮 𝘀𝗲 𝗰𝗮𝗱𝘂𝗰𝗮; 𝗹𝗮 𝗳𝗮𝗰𝘁𝘂𝗿𝗮, 𝗻𝗼.\n\n#OpenSource #Mozilla #LLM #China\n\nhttps://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "Microsoft publica un código de conducta para sus modelos de IA",
+      "summary": "Microsoft ha presentado un código de conducta para sus modelos MAI con principios generales, como apoyar a las personas en lugar de sustituirlas, y restricciones concretas de seguridad que prohíben hackear sistemas o engañar a usuarios. La compañía rechaza cualquier atisbo de vida interior o de derechos para los modelos.",
+      "why_it_matters": "Fija por escrito qué se espera de los modelos de un gran proveedor y cómo piensa aplicarlo.",
+      "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Microsoft publica un código de conducta para sus modelos de IA: prohibido hackear o engañar. Y una línea que zanja el debate: no tienen vida interior ni derechos.\n\n#Microsoft #MAI #AISafety\nhttps://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans",
+        "linkedin": "Un código de conducta para modelos de IA es el tipo de documento que nadie lee hasta que hace falta.\n\nMicrosoft acaba de publicarlo para sus modelos MAI y, más allá de las obviedades (nada de hackear sistemas ni de engañar a usuarios), lo interesante es lo que dice de la relación entre proveedor y modelo: 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗻𝗼 𝘁𝗶𝗲𝗻𝗲𝗻 𝘃𝗶𝗱𝗮 𝗶𝗻𝘁𝗲𝗿𝗶𝗼𝗿 𝗻𝗶 𝗱𝗲𝗿𝗲𝗰𝗵𝗼𝘀. Eso traslada al terreno contractual una discusión que hasta ahora se movía en lo filosófico.\n\nPara quien integra modelos de terceros, la lectura es clara: las reglas de uso y las expectativas de comportamiento las fija el proveedor de arriba abajo, y conviene tenerlas presentes al diseñar productos encima. El movimiento también presiona al resto de grandes laboratorios, que tendrán que publicar algo equivalente o explicar por qué no.\n\n#Microsoft #MAI #AISafety\n\nhttps://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "OpenAI tiene a cientos de contratistas leyendo conversaciones de ChatGPT",
+      "summary": "Según 404 Media, OpenAI emplea a cientos de trabajadores externos que leen conversaciones reales de ChatGPT y las puntúan de uno a siete, en parte para reducir la adulación y el tono demasiado humano. Los prompts están anonimizados pero pueden contener datos sensibles, y la opción para evitar la revisión humana viene activada por defecto.",
+      "why_it_matters": "Recuerda que las conversaciones pueden acabar siendo revisadas por personas y que desactivarlo depende del usuario.",
+      "url": "https://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations",
+      "source": "The Decoder",
+      "social": {
+        "x": "OpenAI tiene a cientos de contratistas leyendo conversaciones reales de ChatGPT. La opción para evitar la revisión humana viene activada por defecto.\n\n#OpenAI #ChatGPT #Privacidad\nhttps://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations",
+        "linkedin": "Las conversaciones que mantienes con ChatGPT pueden estar siendo leídas por personas.\n\nOpenAI emplea a cientos de contratistas externos que revisan chats reales y los puntúan del 1 al 7, en parte para corregir la adulación y ese tono demasiado humano que a veces adopta el modelo. Los prompts van anonimizados, pero pueden contener datos sensibles, y 𝗹𝗮 𝗼𝗽𝗰𝗶ó𝗻 𝗽𝗮𝗿𝗮 𝗲𝘅𝗰𝗹𝘂𝗶𝗿 𝘁𝘂 𝗰𝘂𝗲𝗻𝘁𝗮 𝗱𝗲 𝗹𝗮 𝗿𝗲𝘃𝗶𝘀𝗶ó𝗻 𝗵𝘂𝗺𝗮𝗻𝗮 𝘃𝗶𝗲𝗻𝗲 𝗮𝗰𝘁𝗶𝘃𝗮𝗱𝗮 𝗽𝗼𝗿 𝗱𝗲𝗳𝗲𝗰𝘁𝗼. Si usas ChatGPT para trabajo con información de clientes, conviene entrar en ajustes y comprobar cómo lo tienes configurado.\n\n#OpenAI #ChatGPT #Privacidad\n\nhttps://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "¿Pacto de seguridad o cartel? El parón de la IA divide al sector",
+      "summary": "La propuesta de OpenAI, Anthropic y Google DeepMind de frenar el desarrollo de la frontera, con auditores externos y un acuerdo global, ha levantado sospechas de que busca cerrar el paso a competidores. Cohere la tilda de cartel, y la Casa Blanca y Trump se oponen.",
+      "why_it_matters": "El debate definirá las reglas del próximo ciclo de la IA y quién puede competir en él.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+      "source": "The Verge",
+      "social": {
+        "x": "OpenAI, Anthropic y DeepMind proponen frenar la IA de frontera. Cohere lo llama cartel. Los que marcan el ritmo quieren escribir las reglas.\n\n#OpenAI #Anthropic #GoogleDeepMind #Cohere\nhttps://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+        "linkedin": "Tres de los laboratorios que van en cabeza proponen frenar la IA de frontera. El primero en responderles los ha llamado cartel.\n\nOpenAI, Anthropic y Google DeepMind piden auditores externos y un acuerdo global para el desarrollo de la frontera, y Cohere lo lee como un movimiento para 𝗰𝗲𝗿𝗿𝗮𝗿 𝗲𝗹 𝗽𝗮𝘀𝗼 𝗮 𝗹𝗼𝘀 𝗾𝘂𝗲 𝘃𝗶𝗲𝗻𝗲𝗻 𝗽𝗼𝗿 𝗱𝗲𝘁𝗿á𝘀, con la Casa Blanca y Trump en contra. La pregunta incómoda no es si la seguridad importa, sino quién redacta la norma y con qué incentivos. Si las reglas las escriben los que ya van primeros, la barrera de entrada deja de ser técnica y pasa a ser regulatoria.\n\n#OpenAI #Anthropic #GoogleDeepMind #Cohere\n\nhttps://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Lina Khan pide usar las leyes que ya existen contra los directivos de la IA",
+      "summary": "La ex presidenta de la FTC sostiene que el Gobierno de EE. UU. no necesita esperar nuevas normas para actuar frente a las amenazas de la IA, porque ya hay leyes y un precedente del Tribunal Supremo de 1934 que permitirían exigir responsabilidades a las empresas y, en algunos casos, a sus directivos.",
+      "why_it_matters": "Abre la puerta a regular la IA con el marco legal vigente en lugar de esperar una legislación nueva.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
+      "source": "Hacker News",
+      "social": {
+        "x": "No hace falta una ley nueva de IA: en EE. UU. ya habría base legal para exigir responsabilidades a las empresas y a sus directivos. Lo dice la ex presidenta de la FTC.\n\n#LinaKhan #FTC #TechPolicy\nhttps://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325",
+        "linkedin": "Todos debaten qué ley hace falta para la IA. Lina Khan responde que la ley ya está escrita.\n\nLa ex presidenta de la FTC sostiene que el Gobierno de EE. UU. puede exigir responsabilidades a las empresas de IA, y en algunos casos a sus directivos, con la normativa vigente y un precedente del Tribunal Supremo de 1934. 𝗡𝗼 𝗵𝗮𝗰𝗲 𝗳𝗮𝗹𝘁𝗮 𝗹𝗲𝗴𝗶𝘀𝗹𝗮𝗰𝗶ó𝗻 𝗻𝘂𝗲𝘃𝗮 𝗽𝗮𝗿𝗮 𝗲𝗺𝗽𝗲𝘇𝗮𝗿 𝗮 𝗮𝗰𝘁𝘂𝗮𝗿. Es la vía más rápida que tiene cualquier regulador: menos años en el Congreso y más riesgo real para quien despliega. Para los equipos de legal y compliance, la pregunta deja de ser cuándo llega la norma y pasa a ser si el producto aguanta el escrutinio con las reglas de siempre.\n\n#LinaKhan #FTC #TechPolicy\n\nhttps://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "OpenAI paga por generar más datos de biología para entrenar modelos",
+      "summary": "Ante la escasez de datos biomédicos, OpenAI financia la creación de nuevos conjuntos, siguiendo ideas como rescatar información de empresas biotecnológicas quebradas para obtener ensayos, datos de seguridad y estrategias de fabricación. El objetivo es mejorar el rendimiento de la IA en medicina.",
+      "why_it_matters": "Los datos, y no solo los modelos, son el cuello de botella para aplicar IA en salud.",
+      "url": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it",
+      "source": "MIT Technology Review",
+      "social": {
+        "x": "OpenAI está pagando por fabricar los datos que no existen. En biología, el cuello de botella ya no es el modelo: son los datos.\n\n#OpenAI #Biotecnología #DatosBiomédicos\nhttps://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it",
+        "linkedin": "Si el cuello de botella de la IA en salud son los datos, la salida pasa por pagar por generarlos. OpenAI está financiando la creación de nuevos conjuntos biomédicos, y entre las vías que se exploran está rescatar ensayos, datos de seguridad y estrategias de fabricación de empresas biotecnológicas que ya han quebrado.\n\nLlevamos años discutiendo de arquitecturas, parámetros y cómputo mientras el recurso verdaderamente escaso estaba en otro sitio. 𝗤𝘂𝗶𝗲𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗲 𝗹𝗼𝘀 𝗱𝗮𝘁𝗼𝘀 𝗰𝗹í𝗻𝗶𝗰𝗼𝘀 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮 𝗹𝗮 𝗽𝗿ó𝘅𝗶𝗺𝗮 𝗴𝗲𝗻𝗲𝗿𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗺é𝗱𝗶𝗰𝗼𝘀, y eso no se compra con más GPUs. Para los equipos de salud digital, la pregunta deja de ser qué modelo usar y pasa a ser de dónde sacan los datos con los que entrenarlo.\n\n#OpenAI #Biotecnología #DatosBiomédicos\n\nhttps://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "herramientas",
+      "title": ".NET 11 llega a Release Candidate 1 con C# 15 y F# 11 por defecto",
+      "summary": "Microsoft ha publicado .NET 11 RC1 con licencia go-live para usarlo en producción, C# 15 y F# 11 como versiones de lenguaje por defecto, dotnet test ampliado a móvil y escritorio, y mejores tiempos de compilación para Android con .NET MAUI.",
+      "why_it_matters": "Es la antesala de la versión estable y ya se puede probar en producción, algo útil para los equipos que trabajan con .NET.",
+      "url": "https://www.infoq.com/news/2026/09/dotnet-11-rc-1-release",
+      "source": "InfoQ",
+      "social": {
+        "x": "Microsoft abre la mano: ya puedes usar .NET 11 en producción antes de que sea estable. Llega con C# 15 y F# 11 por defecto y Android compila más rápido.\n\n#dotnet #CSharp #FSharp #MAUI\nhttps://www.infoq.com/news/2026/09/dotnet-11-rc-1-release",
+        "linkedin": "Microsoft acaba de poner .NET 11 en manos de cualquiera que quiera desplegarlo en producción, meses antes de la versión estable.\n\nEl RC1 llega con licencia go-live, C# 15 y F# 11 como versiones de lenguaje por defecto, dotnet test ampliado a móvil y escritorio, y mejores tiempos de compilación en Android con MAUI. 𝗟𝗮 𝘀𝗲ñ𝗮𝗹 𝗱𝗲 𝗳𝗼𝗻𝗱𝗼 𝗲𝘀 𝗾𝘂𝗲 𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 𝗾𝘂𝗶𝗲𝗿𝗲 𝗾𝘂𝗲 𝘃𝗮𝗹𝗶𝗱𝗲𝘀 𝗲𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻, 𝗻𝗼 𝗲𝗻 𝘂𝗻 𝗲𝗻𝘁𝗼𝗿𝗻𝗼 𝗱𝗲 𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗼𝗿𝗶𝗼, y eso estrecha el salto entre el RC y el GA. Para equipos con ciclos de actualización largos, empezar las pruebas ahora es lo que marca la diferencia.\n\n#dotnet #CSharp #FSharp #MAUI\n\nhttps://www.infoq.com/news/2026/09/dotnet-11-rc-1-release"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "lanzamientos",
+      "title": "MediaTek estrena el proceso de 2 nm de TSMC con su Dimensity 9600 Pro",
+      "summary": "MediaTek ha anunciado que su chip insignia para móviles, el Dimensity 9600 Pro, es el primero en fabricarse con el proceso N2P de 2 nanómetros de TSMC, por delante de su rival Qualcomm. La compañía taiwanesa refuerza así su posición en la gama alta.",
+      "why_it_matters": "El salto a 2 nm marcará la próxima generación de móviles en eficiencia y rendimiento.",
+      "url": "https://www.engadget.com/2258880/mediatek-is-using-tsmcs-cutting-edge-2nm-process-for-its-latest-chip",
+      "source": "Engadget",
+      "social": {
+        "x": "MediaTek acaba de adelantar a Qualcomm: el primer chip de móvil fabricado en 2 nm ya tiene nombre, y no es el suyo.\n\n#MediaTek #TSMC #Dimensity #Qualcomm\nhttps://www.engadget.com/2258880/mediatek-is-using-tsmcs-cutting-edge-2nm-process-for-its-latest-chip",
+        "linkedin": "El primer chip de 2 nm no lo firma ni Apple ni Qualcomm.\n\nMediaTek ha confirmado que su Dimensity 9600 Pro es el primero en salir de fábrica con el proceso N2P de TSMC, así que se queda con el turno en un nodo que siempre ha servido de escaparate para la gama alta. El golpe es doble para Qualcomm: pierde la primicia ante el rival al que lleva meses vendiendo superioridad. 𝗘𝗹 𝟮 𝗻𝗺 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗽𝗿𝗼𝗺𝗲𝘀𝗮 𝗱𝗲 𝗵𝗼𝗷𝗮 𝗱𝗲 𝗿𝘂𝘁𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝘃𝗲𝗻𝘁𝗮𝗷𝗮 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗮𝗹 𝗺𝗲𝗱𝗶𝗯𝗹𝗲: quien la tenga antes podrá vender eficiencia por vatio, no solo potencia. Habrá que ver precios y disponibilidad real, pero el fabricante de referencia para el próximo año ya no es el de siempre.\n\n#MediaTek #TSMC #Dimensity #Qualcomm\n\nhttps://www.engadget.com/2258880/mediatek-is-using-tsmcs-cutting-edge-2nm-process-for-its-latest-chip"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "danny-avila/LibreChat",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "description": "Alternativa open source a ChatGPT pensada para self-hosting, con agentes, MCP, cambio de modelo entre OpenAI, Anthropic, Gemini, Groq y otros, e intérprete de código o generación de imágenes. Es una de las formas más completas de tener tu propio chat con IA en un servidor propio.",
+      "language": "TypeScript",
+      "stars": 43676,
+      "social": {
+        "x": "43.676 estrellas y cero suscripción: este clon open source de ChatGPT se monta en tu servidor y conecta OpenAI, Claude, Gemini y Groq en la misma interfaz.\n\n#LibreChat #OpenSource #TypeScript #MCP\nhttps://github.com/danny-avila/LibreChat",
+        "linkedin": "CHATGPT, PERO EN TU PROPIO SERVIDOR Y SIN PAGAR NINGUNA SUSCRIPCIÓN.\n\nCada subida de precio de los planes de IA deja a mucha gente buscando alternativas que pueda controlar. LibreChat es una de las más completas que existen hoy: una alternativa open source pensada para self-hosting, con 43.676 estrellas en GitHub y escrita en TypeScript.\n\nLa diferencia con otros clones no está en la interfaz, sino en lo que puedes enchufar por debajo. 𝗣𝘂𝗲𝗱𝗲𝘀 𝘁𝗲𝗻𝗲𝗿 𝘁𝗼𝗱𝗼 𝘁𝘂 𝘀𝘁𝗮𝗰𝗸 𝗱𝗲 𝗜𝗔 𝗲𝗻 𝘂𝗻𝗮 𝘀𝗼𝗹𝗮 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝘇 𝘆 𝗲𝗻 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 𝘀𝗲𝗿𝘃𝗶𝗱𝗼𝗿, sin cambiar de pestaña ni de factura.\n\n→ Cambio de modelo entre OpenAI, Anthropic, Gemini, Groq y otros sin salir de la conversación.\n→ Agentes y soporte de MCP para conectar tus propias herramientas y datos al chat.\n→ Intérprete de código y generación de imágenes integrados.\n→ Tus conversaciones se quedan en tu máquina, no en los servidores de un tercero.\n→ Stack en TypeScript, fácil de desplegar y de extender con plugins propios.\n\nSi ya has montado algo con Docker y quieres dejar de pagar cuota mensual por un chat con IA, este repo es un punto de partida muy sólido. Guárdate el post para cuando te pongas con el deploy: te dejo el repositorio abajo.\n\n#LibreChat #OpenSource #TypeScript #MCP\n\nhttps://github.com/danny-avila/LibreChat"
+      }
+    },
+    {
+      "name": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "description": "Toolkit para montar agentes de IA que unifica la API de distintos LLM y trae bucle de agente, interfaz TUI y una CLI de coding agent. Va bien si quieres construir tu propio agente sin atarte a un solo proveedor.",
+      "language": "TypeScript",
+      "stars": 105516,
+      "social": {
+        "x": "105k estrellas y cero ataduras: un toolkit en TypeScript que unifica la API de distintos LLM para montar tu propio agente. Trae bucle de agente, TUI y CLI de coding agent.\n\n#LLM #TypeScript #OpenSource #GitHub\nhttps://github.com/earendil-works/pi",
+        "linkedin": "DEJA DE ATAR TU AGENTE A UN SOLO PROVEEDOR DE LLM.\n\nMontar un agente desde cero suele acabar igual: te encierras en la API de un proveedor y, cuando quieres cambiar de modelo, reescribes medio proyecto. Este toolkit de earendil-works resuelve justo eso, con 𝘂𝗻𝗮 𝗰𝗮𝗽𝗮 𝗰𝗼𝗺ú𝗻 𝗾𝘂𝗲 𝘁𝗲 𝗽𝗲𝗿𝗺𝗶𝘁𝗲 𝗰𝗮𝗺𝗯𝗶𝗮𝗿 𝗱𝗲 𝗟𝗟𝗠 𝘀𝗶𝗻 𝘁𝗼𝗰𝗮𝗿 𝗹𝗮 𝗹ó𝗴𝗶𝗰𝗮 𝗱𝗲 𝘁𝘂 𝗮𝗴𝗲𝗻𝘁𝗲.\n\nEstá escrito en TypeScript y ya acumula más de 105.000 estrellas. No es solo la parte de abstracción: viene con las piezas que normalmente te toca montar a mano.\n\n→ API unificada para distintos LLM, sin dependencia de un único proveedor\n→ Bucle de agente ya implementado, para que empieces por el problema y no por la fontanería\n→ Interfaz TUI incluida, cómoda para probar y depurar desde la terminal\n→ CLI de coding agent lista para usar\n→ Todo en TypeScript, fácil de extender y de integrar en tus proyectos\n\nSi estás construyendo agentes, guarda este post: cuando necesites cambiar de modelo o añadir otro proveedor, te vas a acordar de él. Te dejo el repo abajo.\n\n#LLM #TypeScript #OpenSource #GitHub\n\nhttps://github.com/earendil-works/pi"
+      }
+    },
+    {
+      "name": "pacifio/atlas",
+      "url": "https://github.com/pacifio/atlas",
+      "description": "Control de versiones pensado para agentes de programación: puedes lanzar varios a la vez, seguir sus cambios y consultarlos desde un único sitio. Resulta muy práctico si trabajas a diario con coding agents y quieres ordenar todo lo que tocan.",
+      "language": "Rust",
+      "stars": 4502,
+      "social": {
+        "x": "Lanzas tres coding agents a la vez y no sabes qué tocó cada uno. Atlas le pone control de versiones a tus agentes. 4.502 estrellas y escrito en Rust.\n\n#Atlas #Rust #OpenSource #CodingAgents\nhttps://github.com/pacifio/atlas",
+        "linkedin": "NADIE SABE QUÉ HIZO CADA AGENTE CUANDO LANZAS TRES A LA VEZ.\n\nGit se diseñó para personas que hacen commits de uno en uno. Cuando pones varios coding agents a trabajar sobre el mismo repo, el historial se convierte en un caos: cambios mezclados, ramas que nadie recuerda y commits que no sabes de quién son.\n\nAtlas parte de otra idea: 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲 𝘃𝗲𝗿𝘀𝗶𝗼𝗻𝗲𝘀 𝗽𝗲𝗻𝘀𝗮𝗱𝗼 𝗽𝗮𝗿𝗮 𝗮𝗴𝗲𝗻𝘁𝗲𝘀.\n\n→ Puedes lanzar varios agentes a la vez sobre el mismo proyecto\n→ Puedes seguir los cambios que hace cada uno\n→ Puedes consultarlos todos desde un único sitio\n→ Escrito en Rust, con 4.502 estrellas\n\nSi trabajas a diario con coding agents, esto te ordena todo lo que tocan y te quita de encima el trabajo de reconstruir el historial a mano. Guárdate el post para tu próximo flujo de trabajo con agentes. Te dejo el repo abajo.\n\n#Atlas #Rust #OpenSource #CodingAgents\n\nhttps://github.com/pacifio/atlas"
+      }
+    },
+    {
+      "name": "alphaXiv/OpenResearch",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "description": "Convierte tus coding agents en agentes de investigación. Una manera de reaprovechar lo que ya tienes para buscar, leer y sintetizar información.",
+      "language": "Rust",
+      "stars": 3027,
+      "social": {
+        "x": "No necesitas otro agente: OpenResearch convierte tu coding agent en un agente de investigación. Busca, lee y sintetiza. 3.027 estrellas.\n\n#OpenResearch #Rust #OpenSource #GitHub\nhttps://github.com/alphaXiv/OpenResearch",
+        "linkedin": "TU CODING AGENT YA PUEDE INVESTIGAR POR TI.\n\nCasi todos usamos asistentes para escribir código, pero siguen siendo poco fiables buscando, leyendo y sintetizando información externa. OpenResearch resuelve justo eso: 𝗻𝗼 𝗻𝗲𝗰𝗲𝘀𝗶𝘁𝗮𝘀 𝗼𝘁𝗿𝗼 𝗮𝗴𝗲𝗻𝘁𝗲, 𝗿𝗲𝘂𝘁𝗶𝗹𝗶𝘇𝗮𝘀 𝗲𝗹 𝗾𝘂𝗲 𝘆𝗮 𝘁𝗶𝗲𝗻𝗲𝘀 y lo conviertes en un agente de investigación.\n\n→ Busca fuentes y papers por ti.\n→ Lee y extrae lo importante sin abrir 20 pestañas.\n→ Sintetiza la información en una respuesta útil.\n→ Está escrito en Rust y suma 3.027 estrellas en GitHub.\n\nSi ya tienes un coding agent montado, esto te ahorra montar otro desde cero. Te dejo el repo abajo.\n\n#OpenResearch #Rust #OpenSource #GitHub\n\nhttps://github.com/alphaXiv/OpenResearch"
+      }
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Conjunto de skills de ingeniería pensadas para agentes de programación, con flujos y buenas prácticas listas para usar. Ayuda a que tus coding agents afronten tareas reales con más criterio.",
+      "language": "JavaScript",
+      "stars": 94570,
+      "social": {
+        "x": "Casi 95.000 estrellas para un repo que no trae código de producto: son skills de ingeniería para que tu agente de programación deje de improvisar.\n\n#AgentSkills #JavaScript #OpenSource #GitHub\nhttps://github.com/addyosmani/agent-skills",
+        "linkedin": "TU AGENTE DE CÓDIGO NO NECESITA MÁS CONTEXTO. NECESITA CRITERIO.\n\nAddy Osmani ha publicado un conjunto de skills de ingeniería pensadas específicamente para agentes de programación. No es otro wrapper de un modelo ni un framework más: es una colección de flujos y buenas prácticas en JavaScript que se enchufan al agente para que afronte tareas reales con criterio y no a base de ensayo y error. La clave es sencilla: 𝗲𝗹 𝘃𝗮𝗹𝗼𝗿 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀𝘁á 𝗲𝗻 𝗹𝗮𝘀 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗾𝘂𝗲 𝗹𝗲 𝗱𝗮𝘀.\n\n→ Skills de ingeniería listas para usar, sin escribir los prompts desde cero cada vez.\n→ Flujos que marcan cómo planificar, revisar y cerrar una tarea de principio a fin.\n→ Buenas prácticas del sector dentro del propio agente, no solo en tu cabeza.\n→ JavaScript legible, fácil de adaptar a tu stack y a tu forma de trabajar.\n→ Casi 95.000 estrellas: la comunidad ya lo está metiendo en sus proyectos.\n\nSi tu agente se pierde a mitad de una tarea o te devuelve código que hay que reescribir entero, esto te ahorra ese rato. Guárdate el post para la próxima vez que toque montar un flujo de trabajo. Te dejo el repo abajo.\n\n#AgentSkills #JavaScript #OpenSource #GitHub\n\nhttps://github.com/addyosmani/agent-skills"
+      }
+    }
+  ]
+}
