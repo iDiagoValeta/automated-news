@@ -1,0 +1,311 @@
+{
+  "date": "2026-09-16",
+  "generated_at": "2026-09-16T14:57:52.204Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "TypeSafe AI presenta Jev, un modelo pensado para que las máquinas tomen decisiones",
+      "summary": "TypeSafe AI, laboratorio fundado por un exinvestigador de OpenAI, abre el acceso anticipado a Jev, el primer modelo de su familia System One. En lugar de conversar, el modelo produce decisiones probabilísticas tipadas que se integran directamente en software, y su demo lo muestra jugando a Doom.",
+      "why_it_matters": "Es una apuesta por sacar la IA de la ventana de chat y llevarla a la automatización real dentro de sistemas, justo el hueco que los modelos conversacionales no han cubierto.",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un exinvestigador de OpenAI quiere sacar la IA del chat: su modelo no conversa, emite decisiones probabilísticas tipadas que van directas a tu software. Y lo prueba jugando a Doom.\n\n#OpenAI #TypeSafeAI #DesarrolloDeSoftware\nhttps://typesafe.ai/blog/introducing-system-one-models-and-jev",
+        "linkedin": "La IA que se pasa el día dentro de una ventana de chat acaba de recibir una alternativa seria.\n\nTypeSafe AI, el laboratorio fundado por un exinvestigador de OpenAI, abre el acceso anticipado a Jev, el primer modelo de su familia System One. No conversa: produce decisiones probabilísticas tipadas que se integran directamente en el software, y su demo lo enseña jugando a Doom. 𝗟𝗮 𝗮𝗽𝘂𝗲𝘀𝘁𝗮 𝗻𝗼 𝗲𝘀 𝗼𝘁𝗿𝗼 𝗰𝗵𝗮𝘁𝗯𝗼𝘁, 𝘀𝗶𝗻𝗼 𝗹𝗹𝗲𝘃𝗮𝗿 𝗹𝗮 𝗜𝗔 𝗮 𝗹𝗮 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗿𝗲𝗮𝗹 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝘀𝗶𝘀𝘁𝗲𝗺𝗮𝘀, justo el hueco que los modelos conversacionales no han cubierto. Para quien construye producto, eso desplaza el trabajo: menos prompt y más integración con tipos, contratos y errores controlados.\n\n#OpenAI #TypeSafeAI #DesarrolloDeSoftware\n\nhttps://typesafe.ai/blog/introducing-system-one-models-and-jev"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Google lanza Gemini 3.8 Live, sus modelos de voz para conversación natural",
+      "summary": "Google DeepMind presenta Gemini 3.8 Live y 3.8 Live Extended Thinking, dos modelos de diálogo en tiempo real orientados a desarrolladores. Lideran la tabla de speech-to-speech de Artificial Analysis y se ofrecen a 1,38 dólares por hora de conversación, muy por debajo de su competencia.",
+      "why_it_matters": "Abundan las opciones de voz en tiempo real a un precio agresivo, lo que hace viable integrar asistentes hablados en productos propios.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking",
+      "source": "Hacker News",
+      "social": {
+        "x": "1,38 dólares por hora de conversación. Eso es lo que cuesta Gemini 3.8 Live, el nuevo modelo de voz de Google que ya lidera su tabla.\n\n#Gemini #GoogleDeepMind #SpeechToSpeech\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking",
+        "linkedin": "1,38 dólares por hora de conversación es lo que Google le pone a la voz en tiempo real.\n\nGemini 3.8 Live y 3.8 Live Extended Thinking llegan al primer puesto de la tabla speech-to-speech de Artificial Analysis y dejan el coste por debajo de casi toda su competencia. Cuando hablar con una máquina se abarata hasta este punto, 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗿 𝘃𝗼𝘇 𝗲𝗻 𝘁𝘂 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗽𝗿𝗲𝘀𝘂𝗽𝘂𝗲𝘀𝘁𝗼 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼. El cuello de botella ya no es el precio, sino qué haces con un asistente que responde sin pausas y recuerda el hilo de la conversación.\n\n#Gemini #GoogleDeepMind #SpeechToSpeech\n\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Mistral y Mozilla llevan IA privada y multilingüe al navegador",
+      "summary": "Mistral y Mozilla han anunciado una alianza para integrar modelos abiertos, privados y multilingües directamente en el navegador. La propuesta prioriza el control y la elección del usuario sobre qué IA se ejecuta y con qué datos.",
+      "why_it_matters": "Mete IA open source en el navegador con la privacidad como argumento, una vía distinta a la de los asistentes en la nube.",
+      "url": "https://mistral.ai/news/mistral-x-mozilla",
+      "source": "Hacker News",
+      "social": {
+        "x": "Mistral y Mozilla quieren que la IA deje de salir de tu navegador: modelos abiertos, multilingües y ejecutándose en local, sin pasar por la nube.\n\n#Mistral #Mozilla #OpenSource #Privacidad\nhttps://mistral.ai/news/mistral-x-mozilla",
+        "linkedin": "La IA de tu navegador puede dejar de ser una petición a un servidor ajeno.\n\nMistral y Mozilla han unido fuerzas para integrar modelos abiertos, privados y multilingües que se ejecutan dentro del propio navegador, y lo relevante no es solo técnico: el usuario decide 𝗾𝘂é 𝗺𝗼𝗱𝗲𝗹𝗼 𝗰𝗼𝗿𝗿𝗲 𝘆 𝗰𝗼𝗻 𝗾𝘂é 𝗱𝗮𝘁𝗼𝘀. Es una vía distinta a la de los asistentes en la nube, donde la privacidad es una promesa contractual y no una propiedad del sistema. Para quien maneja datos sensibles o trabaja en varias lenguas, la pregunta ya no es si el open source puede competir, sino si sigue teniendo sentido enviarlo todo fuera.\n\n#Mistral #Mozilla #OpenSource #Privacidad\n\nhttps://mistral.ai/news/mistral-x-mozilla"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Cartesian convierte texto y bocetos en modelos 3D editables",
+      "summary": "Formas presenta Cartesian, una herramienta de modelado 3D con IA orientada a arquitectura y diseño de producto. A partir de palabras, croquis y referencias genera geometría editable, con caras, aristas y sólidos que se pueden inspeccionar, medir y modificar. De momento funciona con lista de espera.",
+      "why_it_matters": "La edición real de la geometría generada es lo que separa esta herramienta de las demos de 3D generativo que solo producen mallas cerradas.",
+      "url": "https://www.formas.ai/cartesian",
+      "source": "Hacker News",
+      "social": {
+        "x": "Casi todo el 3D generativo te entrega una malla cerrada que no puedes tocar. Cartesian genera caras, aristas y sólidos editables. De momento, solo por lista de espera.\n\n#Cartesian #Formas #CAD #Modelado3D\nhttps://www.formas.ai/cartesian",
+        "linkedin": "El 3D generativo lleva meses enseñando mallas resultonas que no sirven para producir. Cartesian apunta justo a lo contrario: 𝗴𝗲𝗼𝗺𝗲𝘁𝗿í𝗮 𝗲𝗱𝗶𝘁𝗮𝗯𝗹𝗲 𝗱𝗲 𝘃𝗲𝗿𝗱𝗮𝗱, con caras, aristas y sólidos que se pueden inspeccionar, medir y modificar a partir de texto, croquis y referencias.\n\nLa diferencia parece técnica, pero no lo es. Una malla cerrada sirve para renderizar; una topología editable sirve para fabricar, documentar y seguir iterando encima. Para estudios de arquitectura y equipos de diseño de producto, ese es el listón que decide si la IA entra en el flujo real o se queda en la demo. Formas aún lo tiene en lista de espera, así que la prueba llegará cuando la geometría se complique.\n\n#Cartesian #Formas #CAD #Modelado3D\n\nhttps://www.formas.ai/cartesian"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Cloudflare permite bloquear el entrenamiento con IA sin perder visibilidad en buscadores",
+      "summary": "Cloudflare introduce controles para que los dueños de sitios puedan prohibir el rastreo con fines de entrenamiento de IA manteniendo su presencia en los buscadores. La compañía también estrena la designación Accountable, un modelo compartido con Apple, Google y Microsoft.",
+      "why_it_matters": "Da a los editores una vía intermedia entre dejarse rastrear por todo y desaparecer de las búsquedas.",
+      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers",
+      "source": "Hacker News",
+      "social": {
+        "x": "Cloudflare ya te deja bloquear el entrenamiento con IA en tu web sin desaparecer de Google. El interruptor que faltaba entre todo abierto y nada.\n\n#Cloudflare #WebScraping #Accountable\nhttps://blog.cloudflare.com/accountable-mixed-use-ai-crawlers",
+        "linkedin": "Hasta ahora la decisión era binaria: dejar que todo el mundo rastreara tu sitio o cerrarlo y desaparecer de las búsquedas.\n\nCloudflare rompe esa dicotomía con controles que permiten prohibir el rastreo para entrenamiento de IA y 𝗺𝗮𝗻𝘁𝗲𝗻𝗲𝗿 𝗹𝗮 𝗽𝗿𝗲𝘀𝗲𝗻𝗰𝗶𝗮 𝗲𝗻 𝗯𝘂𝘀𝗰𝗮𝗱𝗼𝗿𝗲𝘀 a la vez. La compañía estrena además la designación Accountable, compartida con Apple, Google y Microsoft, que apunta a lo mismo: separar el rastreo que indexa del rastreo que entrena. Para medios y editores es la primera vía intermedia seria, y pone a los que venden datos de entrenamiento a justificar por qué deberías dejarles entrar.\n\n#Cloudflare #WebScraping #Accountable\n\nhttps://blog.cloudflare.com/accountable-mixed-use-ai-crawlers"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "Pizza Bot, una bandeja de entrada para agentes de IA que trabajan en segundo plano",
+      "summary": "Pizza Bot es una bandeja de entrada local-first para agentes de larga duración, construida con DeepAgents y LangGraph. Los agentes reportan avances y plantean preguntas en una interfaz parecida al correo, en lugar de obligar a vigilar una terminal.",
+      "why_it_matters": "Propone una forma sensata de supervisar varios agentes a la vez sin perder el hilo de lo que hace cada uno.",
+      "url": "https://github.com/pizza-bot-app/pizza-bot",
+      "source": "Hacker News",
+      "social": {
+        "x": "Dejar a un agente de IA trabajando solo es fácil. Seguir a cinco a la vez, no. Pizza Bot los mete en una bandeja de entrada tipo correo.\n\n#DeepAgents #LangGraph #LocalFirst\nhttps://github.com/pizza-bot-app/pizza-bot",
+        "linkedin": "Supervisar agentes de IA no tiene por qué parecerse a vigilar una terminal que escupe logs.\n\nPizza Bot es una bandeja de entrada local-first, construida con DeepAgents y LangGraph, donde agentes de larga duración reportan avances y plantean preguntas como si fueran correos. La forma importa: 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗹𝗮𝗿𝗴𝗮 𝗱𝘂𝗿𝗮𝗰𝗶ó𝗻 𝗲𝘀𝘁á 𝗲𝗻 𝗹𝗮 𝘀𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗶ó𝗻, 𝗻𝗼 𝗲𝗻 𝗹𝗮 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼. Si vas a tener varios corriendo en paralelo, necesitas un sitio único donde ver qué hace cada uno y responder solo cuando toca.\n\n#DeepAgents #LangGraph #LocalFirst\n\nhttps://github.com/pizza-bot-app/pizza-bot"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Meta lanza un servidor MCP para configurar WhatsApp Business con agentes de IA",
+      "summary": "Meta ha publicado un servidor MCP de WhatsApp Business que permite a agentes de programación como Claude, Cursor, Codex o ChatGPT encargarse de la configuración inicial, las plantillas de mensajes, las pruebas y la resolución de problemas.",
+      "why_it_matters": "Lleva el patrón MCP a un producto masivo y ahorra el trabajo más tedioso de poner en marcha una integración empresarial.",
+      "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El trámite más tedioso de WhatsApp Business ya no lo hace una persona: Meta publica un servidor MCP para que lo resuelva tu agente.\n\n#MCP #WhatsAppBusiness #Meta #Claude\nhttps://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup",
+        "linkedin": "El trabajo más aburrido de montar WhatsApp Business ya lo puede hacer un agente, y eso dice bastante de hacia dónde va MCP.\n\nMeta ha publicado un servidor MCP que permite a Claude, Cursor, Codex o ChatGPT encargarse de la configuración inicial, las plantillas de mensajes, las pruebas y la resolución de problemas de la API. 𝗠𝗖𝗣 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗰𝗼𝘀𝗮 𝗱𝗲 𝗲𝗮𝗿𝗹𝘆 𝗮𝗱𝗼𝗽𝘁𝗲𝗿𝘀 𝘆 𝗮𝘁𝗲𝗿𝗿𝗶𝘇𝗮 𝗲𝗻 𝘂𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼 𝗺𝗮𝘀𝗶𝘃𝗼: cuando el protocolo lo adopta una plataforma con millones de empresas detrás, la duda ya no es si merece la pena, sino qué partes de tu integración sigues haciendo a mano. Para equipos pequeños, esto puede quitarse de encima semanas de puesta en marcha.\n\n#MCP #WhatsAppBusiness #Meta #Claude\n\nhttps://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "Amazon estrena Alexa+ en India con soporte de hindi",
+      "summary": "Amazon abre el acceso anticipado a Alexa+ a todos los clientes de India, con el hindi entre los idiomas admitidos. El asistente renovado llega así a un mercado donde la cobertura lingüística local es decisiva.",
+      "why_it_matters": "El soporte de hindi es una prueba exigente para un asistente de voz que aspira a funcionar fuera del inglés.",
+      "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Alexa+ aterriza en India y el reto no es el hardware ni el precio: es el hindi. Un asistente que no entiende el idioma local, sencillamente no se usa.\n\n#Amazon #Alexa #India #AsistentesDeVoz\nhttps://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support",
+        "linkedin": "El examen más duro de Alexa+ no se hace en inglés. Amazon acaba de abrir el acceso anticipado de su asistente renovado a todos los clientes de India, con el hindi entre los idiomas admitidos, y ese detalle importa más que cualquier mejora de catálogo.\n\nIndia es un mercado donde el asistente que no habla el idioma de casa simplemente no se enciende, y donde conviven acentos, mezclas de idiomas y nombres propios que hacen sudar a los modelos entrenados solo en inglés. 𝗘𝗹 𝗵𝗶𝗻𝗱𝗶 𝗲𝘀 𝗹𝗮 𝗽𝗿𝘂𝗲𝗯𝗮 𝗱𝗲 𝗳𝘂𝗲𝗴𝗼 𝗽𝗮𝗿𝗮 𝘂𝗻 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝗱𝗲 𝘃𝗼𝘇 𝗾𝘂𝗲 𝗮𝘀𝗽𝗶𝗿𝗮 𝗮 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮𝗿 𝗳𝘂𝗲𝗿𝗮 𝗱𝗲𝗹 𝗶𝗻𝗴𝗹é𝘀, y lo que Amazon aprenda ahí marcará si el resto de mercados no anglosajones reciben algo más que una traducción superficial.\n\n#Amazon #Alexa #India #AsistentesDeVoz\n\nhttps://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Cómo recortar hasta un 90 % el coste de entrada en Amazon Bedrock con prompt caching",
+      "summary": "El equipo de AWS explica el prompt caching de Amazon Bedrock, que reduce hasta un 90 % el coste de los tokens de entrada cuando se repite el mismo contexto. El artículo recorre seis escenarios prácticos con la API Converse, desde el contenido de los mensajes hasta la integración con LangChain.",
+      "why_it_matters": "Es una de las optimizaciones más rentables y menos conocidas para quien despliega aplicaciones con modelos en producción.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Hasta un 90 % menos en el coste de los tokens de entrada de Amazon Bedrock. La palanca se llama prompt caching y casi nadie la toca.\n\n#AmazonBedrock #AWS #PromptCaching #LangChain\nhttps://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching",
+        "linkedin": "Reenviar el mismo contexto en cada llamada es la parte de la factura que nadie mira. Amazon Bedrock la cobra hasta un 90 % menos con prompt caching, y el truco no es magia: es ordenar el prompt para que el prefijo estable quede delante y el sistema lo reutilice.\n\nNo es una función nueva ni exótica, es de las optimizaciones con mejor relación entre esfuerzo y ahorro cuando la aplicación ya está en producción, tanto con la API Converse como con LangChain. 𝗦𝗶 𝗺𝗮𝗻𝗱𝗮𝘀 𝗲𝗹 𝗺𝗶𝘀𝗺𝗼 𝘀𝘆𝘀𝘁𝗲𝗺 𝗽𝗿𝗼𝗺𝗽𝘁 𝘆 𝗹𝗮𝘀 𝗺𝗶𝘀𝗺𝗮𝘀 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗲𝗻 𝗰𝗮𝗱𝗮 𝗽𝗲𝘁𝗶𝗰𝗶ó𝗻, 𝗲𝘀𝘁á𝘀 𝗽𝗮𝗴𝗮𝗻𝗱𝗼 𝗽𝗼𝗿 𝘁𝗼𝗸𝗲𝗻𝘀 𝗾𝘂𝗲 𝘆𝗮 𝗵𝗮𝗯í𝗮𝘀 𝗲𝗻𝘃𝗶𝗮𝗱𝗼.\n\n#AmazonBedrock #AWS #PromptCaching #LangChain\n\nhttps://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "SageMaker AI añade listas de preferencia de instancias para los trabajos de entrenamiento",
+      "summary": "Amazon SageMaker AI permite ahora indicar una lista ordenada de hasta cinco tipos de instancia para trabajos de entrenamiento y procesamiento. El servicio arranca en el primero que tenga capacidad disponible, lo que elimina los bucles de reintento y los scripts de vigilancia escritos a mano.",
+      "why_it_matters": "Ataca el problema cotidiano de quedarse sin GPU y tener que reintentar a mano hasta encontrar hueco.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Se acabó el bucle de reintentos cuando no hay GPU: SageMaker AI ya acepta una lista ordenada de hasta 5 tipos de instancia y arranca en la primera con hueco.\n\n#SageMaker #AWS #MLOps\nhttps://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs",
+        "linkedin": "Quedarse sin GPU ya no tiene por qué costarte un bucle de reintentos.\n\nSageMaker AI permite ahora declarar una lista ordenada de hasta cinco tipos de instancia para entrenamiento y procesamiento, y arranca en el primero que tenga capacidad. Eso convierte 𝗲𝗹 𝘀𝗰𝗿𝗶𝗽𝘁 𝗱𝗲 𝘃𝗶𝗴𝗶𝗹𝗮𝗻𝗰𝗶𝗮 𝗾𝘂𝗲 𝗺𝗮𝗻𝘁𝗶𝗲𝗻𝗲𝘀 𝗮 𝗺𝗮𝗻𝗼 𝗲𝗻 𝗰ó𝗱𝗶𝗴𝗼 𝗺𝘂𝗲𝗿𝘁𝗼. Para equipos con colas compartidas, el ahorro real está en el tiempo muerto y en quitar una pieza frágil de la infraestructura, aunque la lógica de reintento sigue siendo tuya si entrenas en multi-cloud o self-hosted.\n\n#SageMaker #AWS #MLOps\n\nhttps://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Un agente superó la tarea, pero ¿la repetirá igual de bien?",
+      "summary": "Un artículo de IBM Research en el blog de Hugging Face analiza la consistencia de los agentes: un mismo agente puede resolver una tarea una vez y fallar en el intento siguiente. La propuesta mide esa variabilidad en lugar de conformarse con el mejor resultado.",
+      "why_it_matters": "Evaluar agentes por su mejor ejecución oculta lo que de verdad importa en producción, que es la fiabilidad repetida.",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Un agente puede resolver la tarea hoy y fallar en el siguiente intento. IBM Research propone medir esa variabilidad, no el mejor resultado.\n\n#HuggingFace #IBMResearch #Agentes #LLM\nhttps://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+        "linkedin": "Un agente puede resolver la tarea hoy y fallar mañana. Esa es la métrica que debería importarte en producción, no la mejor ejecución de una demo.\n\nIBM Research analiza en el blog de Hugging Face cómo medir la consistencia de los agentes, esa variabilidad que se esconde cuando solo publicamos el mejor intento. 𝗟𝗮 𝗳𝗶𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗿𝗲𝗽𝗲𝘁𝗶𝗱𝗮 𝗲𝘀 𝗹𝗮 𝗺é𝘁𝗿𝗶𝗰𝗮 𝗾𝘂𝗲 𝗱𝗲𝗰𝗶𝗱𝗲 𝘀𝗶 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗮𝗴𝘂𝗮𝗻𝘁𝗮 𝗲𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻, y evaluar por el pico es engañarse. Para los equipos que ya despliegan agentes, toca medir la distribución completa y no la anécdota.\n\n#HuggingFace #IBMResearch #Agentes #LLM\n\nhttps://huggingface.co/blog/ibm-research/altk-evolve-consistency"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Never Give Up: una técnica de RL para que los modelos no se rindan ante problemas difíciles",
+      "summary": "Un nuevo trabajo sobre post-entrenamiento con RL describe el efecto Mateo en el entrenamiento de LLM, donde los problemas fáciles acaparan las señales de aprendizaje. La propuesta, Never Give Up, fuerza al modelo a insistir en los problemas duros y mejora las curvas de evaluación en competiciones matemáticas.",
+      "why_it_matters": "Ofrece un ajuste concreto de RL que ayuda a los modelos a no atascarse justo en los casos más difíciles.",
+      "url": "https://mnoukhov.github.io/posts/ngu",
+      "source": "Hacker News",
+      "social": {
+        "x": "El efecto Mateo también envenena el entrenamiento de LLM: los problemas fáciles se llevan todas las señales. Never Give Up lo corrige forzando al modelo a insistir en los difíciles.\n\n#ReinforcementLearning #LLM #PostTraining\nhttps://mnoukhov.github.io/posts/ngu",
+        "linkedin": "En el entrenamiento con RL, los problemas fáciles se llevan casi todas las señales de aprendizaje y los difíciles se quedan sin entrenar. Es el efecto Mateo aplicado a los LLM, y explica por qué un modelo brilla en los benchmarks y luego se atasca en el caso raro.\n\nNever Give Up ataca justo ahí: 𝗳𝘂𝗲𝗿𝘇𝗮 𝗮𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗮 𝗶𝗻𝘀𝗶𝘀𝘁𝗶𝗿 𝗲𝗻 𝗹𝗼𝘀 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮𝘀 𝗱𝘂𝗿𝗼𝘀 𝗲𝗻 𝘃𝗲𝘇 𝗱𝗲 𝗮𝗯𝗮𝗻𝗱𝗼𝗻𝗮𝗿𝗹𝗼𝘀, y las curvas de evaluación en competiciones matemáticas mejoran. Para quien entrena modelos de razonamiento, la lección es que el cuello de botella puede no estar en los datos, sino en cómo se reparte la recompensa.\n\n#ReinforcementLearning #LLM #PostTraining\n\nhttps://mnoukhov.github.io/posts/ngu"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "Etiquetado automático de productos con Qwen3-8B en SageMaker",
+      "summary": "El blog de AWS muestra cómo ajustar Qwen3-8B con fine-tuning supervisado y RLVR sobre la personalización serverless de SageMaker. El modelo resultante se despliega para inferencia asíncrona y genera etiquetas de catálogo de forma automática y coherente.",
+      "why_it_matters": "Sirve de plantilla para sustituir el etiquetado manual de catálogos por un modelo propio y económico.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Etiquetar un catálogo a mano no escala. Un Qwen3-8B ajustado en SageMaker puede hacerlo solo, incluso con inferencia asíncrona.\n\n#Qwen3 #SageMaker #AWS #FineTuning\nhttps://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization",
+        "linkedin": "El etiquetado de catálogos es una de esas tareas donde lo manual no escala y el coste se acumula sin que nadie mire.\n\nAWS ha publicado una guía que combina fine-tuning supervisado y RLVR sobre Qwen3-8B con la personalización serverless de SageMaker, y lo despliega para inferencia asíncrona. 𝗨𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝟴𝗕 𝗯𝗶𝗲𝗻 𝗮𝗷𝘂𝘀𝘁𝗮𝗱𝗼 𝗽𝘂𝗲𝗱𝗲 𝗮𝘀𝘂𝗺𝗶𝗿 𝗲𝗹 𝗲𝘁𝗶𝗾𝘂𝗲𝘁𝗮𝗱𝗼 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗮 𝘂𝗻𝗮 𝗳𝗿𝗮𝗰𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝗰𝗼𝘀𝘁𝗲, y la receta es replicable con tus propios datos y taxonomías. Para equipos de e-commerce o data, la pregunta ya no es si merece la pena entrenar, sino cuánto catálogo se sigue etiquetando a mano.\n\n#Qwen3 #SageMaker #AWS #FineTuning\n\nhttps://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "Retrieve-for-Train acelera las búsquedas complejas con IA moviendo el coste al entrenamiento",
+      "summary": "Google Research propone Retrieve-for-Train, un método que traslada parte del coste de la búsqueda compleja desde la inferencia hacia el entrenamiento. El objetivo es acelerar las búsquedas con IA que hoy chocan con límites de cómputo en el tiempo de respuesta.",
+      "why_it_matters": "Reordena dónde se gasta el cómputo para que los sistemas de búsqueda con IA respondan más rápido.",
+      "url": "https://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train",
+      "source": "Google Research",
+      "social": {
+        "x": "El cuello de botella de la búsqueda con IA no estaba en el modelo, sino en cuándo se paga el cómputo. Google Research lo mueve al entrenamiento.\n\n#GoogleResearch #Retrieval #MLOps\nhttps://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train",
+        "linkedin": "El cuello de botella de la búsqueda con IA no estaba en el modelo, sino en cuándo se paga el cómputo.\n\nGoogle Research propone Retrieve-for-Train, que traslada parte del coste de la búsqueda compleja desde la inferencia hacia el entrenamiento. La idea es que el sistema aprenda por adelantado parte del trabajo que hoy se resuelve en el momento de la consulta. 𝗣𝗮𝗿𝗮 𝗾𝘂𝗶𝗲𝗻 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝘆𝗲 𝗿𝗲𝘁𝗿𝗶𝗲𝘃𝗮𝗹, 𝗰𝗮𝗺𝗯𝗶𝗮 𝗹𝗮 𝗽𝗿𝗲𝗴𝘂𝗻𝘁𝗮: 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘀𝗼𝗹𝗼 𝗾𝘂é 𝗺𝗼𝗱𝗲𝗹𝗼 𝘂𝘀𝗮𝗿, 𝘀𝗶𝗻𝗼 𝗾𝘂é 𝘀𝗲 𝗽𝗮𝗴𝗮 𝗲𝗻 𝘁𝗿𝗮𝗶𝗻𝗶𝗻𝗴 𝘆 𝗾𝘂é 𝗲𝗻 𝘀𝗲𝗿𝘃𝗶𝗻𝗴. El intercambio no sale gratis, porque el entrenamiento se vuelve más caro y más específico, pero cuando la latencia es el límite real del producto es una palanca mucho más rentable que seguir optimizando el prompt.\n\n#GoogleResearch #Retrieval #MLOps\n\nhttps://research.google/blog/bypassing-inference-bottlenecks-accelerating-complex-ai-search-with-retrieve-for-train"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "lanzamientos",
+      "title": "Java 27 llega con criptografía post-cuántica y novedades en el lenguaje",
+      "summary": "Oracle publica Java 27, la segunda versión no LTS desde JDK 25, con nueve JEP que refuerzan la seguridad, la gestión de memoria y la experimentación en el lenguaje. Entre las novedades destacan el respaldo de criptografía post-cuántica y mejoras en la recolección de basura.",
+      "why_it_matters": "El respaldo post-cuántico importa a cualquier equipo que deba planificar la migración de sus sistemas criptográficos a medio plazo.",
+      "url": "https://openjdk.org/projects/jdk/27",
+      "source": "Lobsters",
+      "social": {
+        "x": "La criptografía post-cuántica ya está en Java 27. La migración que muchos equipos aún no han planificado empieza a tener fecha.\n\n#Java27 #Oracle #PostQuantum #JEP\nhttps://openjdk.org/projects/jdk/27",
+        "linkedin": "La criptografía post-cuántica ya está en Java 27, y eso convierte una amenaza difusa en un problema de calendario para cualquier equipo con sistemas a largo plazo.\n\nOracle ha publicado la segunda versión no LTS desde JDK 25 con nueve JEP que refuerzan la seguridad, la gestión de memoria y el garbage collection. La parte post-cuántica no es un detalle menor: es el aviso de que 𝗹𝗮 𝗺𝗶𝗴𝗿𝗮𝗰𝗶ó𝗻 𝗰𝗿𝗶𝗽𝘁𝗼𝗴𝗿á𝗳𝗶𝗰𝗮 𝗲𝗺𝗽𝗶𝗲𝘇𝗮 𝗮 𝘁𝗲𝗻𝗲𝗿 𝗳𝗲𝗰𝗵𝗮𝘀 𝘆 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗮𝗯𝗹𝗲𝘀, no solo un debate técnico. Si tu software va a seguir vivo cuando la computación cuántica sea real, esta versión es una señal para abrir el plan, no para esperar al LTS.\n\n#Java27 #Oracle #PostQuantum #JEP\n\nhttps://openjdk.org/projects/jdk/27"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Shopify abandona React Native y reescribe sus apps en Swift y Kotlin",
+      "summary": "Shopify ha dejado React Native para reescribir sus aplicaciones principales en Swift y Kotlin. El responsable de móvil de la compañía justifica la decisión por la mejora de los modelos de IA, que ha cambiado la relación entre coste y beneficio de mantener bases de código nativas.",
+      "why_it_matters": "Es un caso llamativo de cómo la IA está alterando decisiones de arquitectura que parecían cerradas.",
+      "url": "https://www.infoq.com/news/2026/09/shopify-drops-react-native",
+      "source": "InfoQ",
+      "social": {
+        "x": "Shopify deja React Native y reescribe sus apps en Swift y Kotlin. Y el motivo no es el rendimiento: es que la IA ha cambiado las cuentas.\n\n#Shopify #ReactNative #Swift #Kotlin\nhttps://www.infoq.com/news/2026/09/shopify-drops-react-native",
+        "linkedin": "El motivo por el que Shopify abandona React Native no es el rendimiento: es que la IA ha cambiado la economía de mantener código nativo.\n\nDurante años, compartir una sola base de código fue la decisión obvia para cualquier equipo móvil con pocas manos. Si escribir y mantener Swift y Kotlin cuesta cada vez menos con asistencia de IA, 𝗹𝗮 𝘃𝗲𝗻𝘁𝗮𝗷𝗮 𝗱𝗲 𝗹𝗮 𝗺𝘂𝗹𝘁𝗶𝗽𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮 𝘀𝗲 𝗲𝘀𝘁𝗿𝗲𝗰𝗵𝗮 𝗷𝘂𝘀𝘁𝗼 𝗱𝗼𝗻𝗱𝗲 𝗺á𝘀 𝗱𝗼𝗹í𝗮: el coste de mantenimiento. Y eso reabre debates de arquitectura que muchos equipos daban por cerrados para siempre.\n\n#Shopify #ReactNative #Swift #Kotlin\n\nhttps://www.infoq.com/news/2026/09/shopify-drops-react-native"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "España sufre su primer ciberataque asistido por IA",
+      "summary": "Las autoridades españolas de protección de datos han pedido una revisión inmediata de los modelos de protección tras detectar un ataque cibernético apoyado por IA. Es el primer caso documentado de este tipo en el país.",
+      "why_it_matters": "Confirma que la IA ya se está usando para atacar de forma operativa, no solo en pruebas de laboratorio.",
+      "url": "https://www.theregister.com/cyber-crime/2026/09/16/spain-gets-its-first-taste-of-ai-aided-cyber-attack/5296844",
+      "source": "The Register",
+      "social": {
+        "x": "España registra su primer ciberataque asistido por IA. No era una prueba de laboratorio: era un ataque real y ya está en manos de las autoridades.\n\n#Ciberseguridad #AEPD #ThreatIntelligence\nhttps://www.theregister.com/cyber-crime/2026/09/16/spain-gets-its-first-taste-of-ai-aided-cyber-attack/5296844",
+        "linkedin": "España ya tiene documentado su primer ciberataque asistido por IA, y la respuesta no se ha hecho esperar: la AEPD ha pedido revisar los modelos de protección.\n\nHasta ahora la IA aplicada a ciberseguridad ofensiva se movía en demos y entornos controlados. Este caso confirma que 𝘆𝗮 𝘀𝗲 𝗲𝘀𝘁á 𝘂𝘀𝗮𝗻𝗱𝗼 𝗲𝗻 𝗼𝗽𝗲𝗿𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗿𝗲𝗮𝗹𝗲𝘀, 𝗻𝗼 𝗲𝗻 𝗽𝗿𝘂𝗲𝗯𝗮𝘀 𝗱𝗲 𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗼𝗿𝗶𝗼. Para cualquier equipo de seguridad, eso desplaza el punto de partida: el adversario automatiza reconocimiento y explotación a un ritmo que las defensas basadas en reglas fijas no cubren. Toca preguntarse qué parte de la defensa sigue dependiendo de procesos manuales.\n\n#Ciberseguridad #AEPD #ThreatIntelligence\n\nhttps://www.theregister.com/cyber-crime/2026/09/16/spain-gets-its-first-taste-of-ai-aided-cyber-attack/5296844"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Un agente autónomo encuentra un token con permisos de administrador en el GitHub de Baseten",
+      "summary": "Strix, un agente autónomo de hacking, halló en 25 minutos un token activo con permisos de administrador sobre repositorios internos de Baseten. El equipo publica el caso como advertencia sobre los secretos expuestos en infraestructuras de terceros.",
+      "why_it_matters": "Muestra lo rápido que un agente puede convertir un descuido de seguridad en un acceso completo a producción.",
+      "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un agente autónomo tardó 25 minutos en encontrar un token con permisos de administrador en el GitHub de Baseten. Nadie lo estaba buscando.\n\n#GitHub #Baseten #AppSec #DevSecOps\nhttps://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+        "linkedin": "Un agente autónomo tardó 25 minutos en encontrar un token de administrador activo en el GitHub de Baseten.\nStrix no hizo nada que un humano con tiempo y curiosidad no pudiera hacer. 𝗟𝗮 𝗱𝗶𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗲𝘀𝘁á 𝗲𝗻 𝗹𝗮 𝗲𝘀𝗰𝗮𝗹𝗮: lo que antes exigía un investigador dedicado ahora es un proceso que se ejecuta solo y no se cansa. Si tu equipo deja secretos en repos, pipelines de CI o infraestructuras de terceros, el margen de error ya no se mide en días sino en minutos, y el aviso de Baseten debería leerse como una auditoría pendiente en cualquier empresa.\n\n#GitHub #Baseten #AppSec #DevSecOps\n\nhttps://www.strix.ai/blog/baseten-harbor-github-pat-takeover"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "lanzamientos",
+      "title": "El nuevo robot humanoide de Agility se detiene y se agacha para no dañar a sus compañeros",
+      "summary": "Agility presenta un humanoide capaz de detenerse, agacharse o apartarse para evitar golpear a las personas que trabajan a su lado. El objetivo es que pueda operar fuera de jaulas y barreras de seguridad en entornos compartidos.",
+      "why_it_matters": "Retirar las barreras físicas es un paso imprescindible para que los robots humanoides resulten útiles en fábricas y almacenes reales.",
+      "url": "https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers",
+      "source": "Ars Technica",
+      "social": {
+        "x": "El humanoide de Agility ya sabe frenar y agacharse para no golpear a un compañero de trabajo. La consecuencia: puede salir de la jaula.\n\n#Agility #Humanoides #RoboticaIndustrial #Automatizacion\nhttps://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers",
+        "linkedin": "Las jaulas que separan a los robots de las personas son la prueba de que aún no confiamos en ellos. Agility acaba de mostrar un humanoide capaz de detenerse, agacharse o apartarse cuando alguien se cruza a su lado, y eso es lo que permite 𝗾𝘂𝗶𝘁𝗮𝗿 𝗹𝗮𝘀 𝗯𝗮𝗿𝗿𝗲𝗿𝗮𝘀 𝗳í𝘀𝗶𝗰𝗮𝘀 de fábricas y almacenes. El cambio no es cosmético: sin vallas hay convivencia real, y sin convivencia el humanoide se queda en demostración caras. Si esto aguanta a escala, cambia cómo se diseña la planta, no solo el robot.\n\n#Agility #Humanoides #RoboticaIndustrial #Automatizacion\n\nhttps://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "Estudio de voz con IA open source con el que clonar voces, dictar y crear audio desde tu propio equipo. Una opción self-hosted para todo lo relacionado con voz sin depender de servicios en la nube.",
+      "language": "TypeScript",
+      "stars": 54156,
+      "social": {
+        "x": "54.000 estrellas y ni una cuota mensual: Voicebox clona voces, dicta y genera audio en tu propio equipo. Self-hosted, sin pasar por la nube.\n\n#Voicebox #OpenSource #TypeScript #GitHub\nhttps://github.com/jamiepine/voicebox",
+        "linkedin": "54.000 ESTRELLAS PARA UN ESTUDIO DE VOZ QUE NO PASA POR LA NUBE.\n\nLos servicios comerciales de voz cobran por carácter o por minuto, y todo lo que grabas acaba en sus servidores. Voicebox va por otro camino: un estudio de voz completo que corre en tu propio equipo y que montas tú mismo.\n\nEstá escrito en TypeScript, es open source y ya acumula más de 54.000 estrellas en GitHub. 𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗲𝘀 𝗾𝘂𝗲 𝗲𝗹 𝗮𝘂𝗱𝗶𝗼 𝗻𝗼 𝘀𝗮𝗹𝗲 𝗱𝗲 𝘁𝘂 𝗺á𝗾𝘂𝗶𝗻𝗮, así que no hay cuota, no hay límite de minutos y no tienes que subir muestras de voz a un tercero.\n\n→ Clonar voces a partir de tus propias muestras\n→ Dictado por voz para escribir sin teclear\n→ Crear audio y locuciones desde texto\n→ Instalación self-hosted, en tu equipo o en tu servidor\n\nSi haces podcast, vídeo o necesitas voces para un proyecto, tener esto en local cambia bastante las cuentas. Guarda el post y échale un ojo al repo, lo tienes abajo.\n\n#Voicebox #OpenSource #TypeScript #GitHub\n\nhttps://github.com/jamiepine/voicebox"
+      }
+    },
+    {
+      "name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Plataforma de conocimiento con LLM que convierte documentos en bruto en un RAG consultable, un agente de razonamiento autónomo y una wiki que se mantiene sola. Viene de Tencent y es open source, así que puedes montarla por tu cuenta.",
+      "language": "Go",
+      "stars": 24972,
+      "social": {
+        "x": "Tencent acaba de soltar su plataforma de conocimiento con LLM: convierte documentos en bruto en un RAG consultable que puedes montar tú. 25k estrellas y open source.\n\n#WeKnora #RAG #OpenSource #Golang\nhttps://github.com/Tencent/WeKnora",
+        "linkedin": "TENCENT ACABA DE LIBERAR SU PROPIA PLATAFORMA DE CONOCIMIENTO CON LLM. Y es open source.\n\nLa mayoría de soluciones de RAG corporativo te obligan a pasar por caja, a subir tus documentos a la nube de otro o a montar el pipeline a mano. WeKnora va en la dirección contraria: viene de Tencent, es open source y se despliega en tu propia infraestructura.\n\nQué hace con tus documentos en bruto:\n\n→ Los ingesta y los convierte en un RAG consultable, con búsqueda semántica sobre tu propio corpus.\n→ Levanta un agente de razonamiento autónomo que consulta ese conocimiento antes de responder.\n→ Genera una wiki a partir del material que le vas dejando.\n→ Todo self-hosted, así que los datos no salen de tu servidor.\n\nY ahí está la gracia: 𝗹𝗮 𝘄𝗶𝗸𝗶 𝘀𝗲 𝗺𝗮𝗻𝘁𝗶𝗲𝗻𝗲 𝘀𝗼𝗹𝗮 según entra documentación nueva, sin que nadie tenga que reescribirla a mano.\n\nEstá escrito en Go y ya ronda las 25.000 estrellas en GitHub.\n\nGuarda el post si trabajas con RAG o con conocimiento interno, y échale un ojo al repo. Te lo dejo abajo.\n\n#WeKnora #RAG #OpenSource #Golang\n\nhttps://github.com/Tencent/WeKnora"
+      }
+    },
+    {
+      "name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Herramienta de programación agéntica que vive en tu terminal: entiende el código del proyecto, ejecuta tareas rutinarias, explica partes complejas y se encarga de flujos de git mediante comandos en lenguaje natural.",
+      "language": "TypeScript",
+      "stars": 145302,
+      "social": {
+        "x": "Claude Code no es un editor: es un agente que vive en tu terminal. Le pides en lenguaje natural que arregle el bug y hace el commit. 145.000 estrellas.\n\n#ClaudeCode #TypeScript #OpenSource #GitHub\nhttps://github.com/anthropics/claude-code",
+        "linkedin": "TU TERMINAL ACABA DE GANAR UN COMPAÑERO DE PROGRAMACIÓN.\n\nClaude Code no es un autocompletado ni un plugin más del editor. Es una herramienta de programación agéntica que vive dentro de la terminal, entiende el código de tu proyecto y trabaja sobre él con comandos en lenguaje natural. La diferencia con los copilotos de siempre es que no se queda dando sugerencias en un panel lateral: entra, mira el repositorio y actúa.\n\n→ Entiende la estructura del proyecto y explica las partes complejas cuando se lo pides.\n→ Ejecuta tareas rutinarias: refactors, tests y código repetitivo que no aporta nada a nadie.\n→ Se encarga de los flujos de git por ti, con commits y ramas desde una frase.\n→ Todo en la misma terminal donde ya estás trabajando, sin cambiar de ventana ni de contexto.\n\nLa clave está en que 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗼𝗽𝗲𝗿𝗮 𝘀𝗼𝗯𝗿𝗲 𝘁𝘂 𝗿𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼 𝗿𝗲𝗮𝗹, 𝗻𝗼 𝘀𝗼𝗯𝗿𝗲 𝘂𝗻 𝗳𝗿𝗮𝗴𝗺𝗲𝗻𝘁𝗼 𝗽𝗲𝗴𝗮𝗱𝗼 𝗲𝗻 𝘂𝗻 𝗰𝗵𝗮𝘁. Ahí es donde deja de ser un juguete y empieza a ahorrarte horas.\n\nEstá en TypeScript y ya supera las 145.000 estrellas. Guarda este post para la próxima tarea aburrida del sprint y échale un ojo al repo, lo tienes abajo.\n\n#ClaudeCode #TypeScript #OpenSource #GitHub\n\nhttps://github.com/anthropics/claude-code"
+      }
+    },
+    {
+      "name": "roboflow/supervision",
+      "url": "https://github.com/roboflow/supervision",
+      "description": "Librería de computer vision con utilidades reutilizables para detección, seguimiento y anotación sobre imágenes y vídeo. Te ahorra bastante trabajo repetitivo si estás montando pipelines de visión por computador.",
+      "language": "Python",
+      "stars": 50470,
+      "social": {
+        "x": "50.000 estrellas y ni un pipeline que montar desde cero: esta librería de Python te da detección, tracking y anotación listas para usar.\n\n#Supervision #ComputerVision #Python #OpenSource\nhttps://github.com/roboflow/supervision",
+        "linkedin": "50.000 ESTRELLAS PARA NO VOLVER A ESCRIBIR EL MISMO BUCLE DE ANOTACIÓN.\n\nMontar un pipeline de computer vision casi nunca falla por el modelo. Falla por todo lo que va alrededor: dibujar cajas, mantener IDs entre frames, contar objetos que cruzan una línea o convertir datasets de un formato a otro. Es el trabajo aburrido que se repite en cada proyecto.\n\nSupervision, de Roboflow, empaqueta justo eso en Python y lo publica en open source. Lo que en muchas herramientas comerciales viene atado a una suscripción y a su propia nube, aquí son funciones que importas y ejecutas donde te dé la gana.\n\n→ Detección y anotación: cajas, máscaras, etiquetas y paletas de color listas para pintar sobre imagen o vídeo.\n→ Tracking con IDs persistentes entre frames, sin montar tu propio matching.\n→ Zonas y líneas de conteo con PolygonZone y LineZone, para saber cuánto entra y cuánto sale.\n→ Conversión entre formatos de dataset (COCO, YOLO, Pascal VOC) sin scripts a medida.\n→ Conectores con los modelos más habituales: YOLO, Detectron2, Transformers o Inference.\n\n𝗟𝗮 𝗶𝗱𝗲𝗮: no es un modelo nuevo, es la capa de fontanería que casi todos los proyectos de visión acaban escribiendo a mano.\n\nSi trabajas con vídeo o imágenes, guárdatelo: en la próxima demo te va a ahorrar más tiempo del que parece.\n\n#Supervision #ComputerVision #Python #OpenSource\n\nhttps://github.com/roboflow/supervision"
+      }
+    },
+    {
+      "name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "Skill para agentes de programación que hace auditorías de seguridad en varias fases y deja los hallazgos en un formato legible por máquina y verificado de forma independiente. Práctico para añadir comprobaciones de seguridad al flujo de trabajo de un agente.",
+      "language": "JavaScript",
+      "stars": 6006,
+      "social": {
+        "x": "Cloudflare regala la skill que audita tu código en varias fases y deja los fallos en un formato que tu agente de programación entiende. 6k estrellas.\n\n#Cloudflare #OpenSource #GitHub #JavaScript\nhttps://github.com/cloudflare/security-audit-skill",
+        "linkedin": "CLOUDFLARE ACABA DE REGALAR UNA AUDITORÍA DE SEGURIDAD PARA TU AGENTE DE CÓDIGO.\n\nHasta ahora, pedirle a un agente que revisara la seguridad de un proyecto acababa en un informe difuso que nadie sabía interpretar. Este repo lo convierte en un proceso por fases, con hallazgos verificados de forma independiente y en un formato legible por máquina, así que el propio agente puede actuar sobre ellos sin que tú tengas que traducir nada.\n\n→ Auditoría de seguridad en varias fases, no un único prompt suelto\n→ Los hallazgos se entregan en formato legible por máquina, listos para que el agente los consuma\n→ Verificación independiente de cada hallazgo, para no perder el tiempo con falsos positivos\n→ Se enchufa al flujo de trabajo del agente como una skill más, sin montar nada aparte\n→ JavaScript, 6.006 estrellas y el respaldo de Cloudflare detrás\n\n𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗻𝗼 𝗲𝘀 𝗾𝘂𝗲 𝗲𝗻𝗰𝘂𝗲𝗻𝘁𝗿𝗲 𝗳𝗮𝗹𝗹𝗼𝘀, 𝘀𝗶𝗻𝗼 𝗾𝘂𝗲 𝗹𝗼𝘀 𝗱𝗲𝗷𝗲 𝗲𝗻 𝘂𝗻 𝗳𝗼𝗿𝗺𝗮𝘁𝗼 𝗾𝘂𝗲 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗽𝘂𝗲𝗱𝗮 𝘂𝘀𝗮𝗿 𝘀𝗶𝗻 𝗶𝗻𝘁𝗲𝗿𝘃𝗲𝗻𝗰𝗶ó𝗻 𝗵𝘂𝗺𝗮𝗻𝗮.\n\nSi trabajas con agentes de programación, esto es de esas piezas que conviene añadir antes de que el proyecto crezca y la seguridad se vuelva un problema caro.\n\nGuárdalo para tu próximo repo.\n\n#Cloudflare #OpenSource #GitHub #JavaScript\n\nhttps://github.com/cloudflare/security-audit-skill"
+      }
+    }
+  ]
+}
