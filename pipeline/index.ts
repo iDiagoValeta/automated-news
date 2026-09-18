@@ -54,7 +54,7 @@ async function main(): Promise<void> {
     throw new Error(`Todas las fuentes fallaron (${collected.failures.join(", ")}). Se aborta sin publicar.`);
   }
 
-  const items = normalize(collected.items, cfg.candidate_cap);
+  const items = normalize(collected.items, cfg.candidate_cap, cfg.blocked_domains ?? []);
   log(
     `Normalizados ${items.length} ítems únicos de ${collected.items.length} recogidos ` +
       `(${collected.succeeded}/${collected.attempted} fuentes OK).`,

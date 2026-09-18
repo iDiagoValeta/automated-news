@@ -14,13 +14,15 @@ pnpm run typecheck
 pnpm run build
 ```
 
+El workflow [`.github/workflows/ci.yml`](.github/workflows/ci.yml) ejecuta las mismas tres comprobaciones en cada pull request y en cada push a `main`. No consume LLM ni secretos: solo instala dependencias, corre tests, typecheck y el build de Eleventy. Un PR con tests en rojo se ve en Checks antes del merge.
+
 Si tu cambio toca fuentes, recogida o configuración, comprueba además la recogida sin consumir LLM:
 
 ```bash
 pnpm run pipeline -- --collect-only
 ```
 
-No hay workflow de CI para PRs: la verificación es responsabilidad de quien abre el PR, y se indica en la descripción cómo se ha comprobado.
+La verificación local sigue siendo responsabilidad de quien abre el PR (el CI no sustituye correr los comandos antes de empujar). En la descripción del PR se indica qué se ha comprobado.
 
 ## Reglas del proyecto
 
@@ -111,7 +113,7 @@ Cómo sabremos que está hecho y verificado.
 
 ### Checklist antes de abrir
 
-- [ ] `pnpm test`, `pnpm run typecheck` y `pnpm run build` pasan en local.
+- [ ] `pnpm test`, `pnpm run typecheck` y `pnpm run build` pasan en local (el CI las repetirá).
 - [ ] Si toca fuentes o recogida: `--collect-only` ejecutado y resultados revisados.
 - [ ] El diff no toca `data/` salvo ediciones reales generadas por el pipeline.
 - [ ] Textos nuevos en español de España, sin rayas ni guiones medios.

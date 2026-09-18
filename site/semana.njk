@@ -1,0 +1,62 @@
+---
+layout: base.njk
+title: Semana
+description: Resumen de las ediciones de los últimos siete días, sin pasar por el modelo.
+permalink: "/semana/index.html"
+---
+<div class="semana">
+  <h1 class="archivo__title">Esta semana</h1>
+  {% set w = derived.semana %}
+  {% if w.editions.length %}
+    <p class="archivo__intro">
+      Del {{ w.from | fechaCorta }} al {{ w.to | fechaCorta }}.
+      {{ w.editions.length }} edición{% if w.editions.length != 1 %}es{% endif %}
+      a partir de los JSON publicados, sin llamada al modelo.
+    </p>
+
+    <section class="semana__bloque" aria-labelledby="semana-destacadas">
+      <h2 id="semana-destacadas" class="semana__h2">Destacadas</h2>
+      <p class="semana__ayuda">La noticia de rank 1 de cada día.</p>
+      <ul class="archivo__lista">
+        {% for row in w.tops %}
+          <li class="archivo__item">
+            <a href="{{ row.path | url }}">
+              <span class="archivo__fecha">{{ row.date | fechaCorta }}</span>
+              <span class="archivo__lead">{{ row.item.title }}</span>
+              <span class="archivo__count">{{ row.item.category }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    <section class="semana__bloque" aria-labelledby="semana-temas">
+      <h2 id="semana-temas" class="semana__h2">Temas</h2>
+      <ul class="semana__temas">
+        {% for cat in w.categories %}
+          <li>
+            <span class="kicker">{{ cat.label }}</span>
+            <span class="semana__tema-n">{{ cat.count }} noticia{% if cat.count != 1 %}s{% endif %}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+
+    {% if w.repos.length %}
+      <section class="semana__bloque" aria-labelledby="semana-repos">
+        <h2 id="semana-repos" class="semana__h2">Repositorios de la semana</h2>
+        <ul class="semana__repos">
+          {% for repo in w.repos %}
+            <li>
+              <a href="{{ repo.url }}" target="_blank" rel="noopener">{{ repo.name }}</a>
+              <span class="semana__repo-meta">{{ repo.date | fechaCorta }}{% if repo.language %} · {{ repo.language }}{% endif %}</span>
+              <p>{{ repo.description }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+  {% else %}
+    <p class="empty">Aún no hay ediciones para resumir.</p>
+  {% endif %}
+</div>

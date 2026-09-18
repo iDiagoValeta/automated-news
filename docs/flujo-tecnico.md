@@ -72,6 +72,7 @@ La recogida de tendencias de GitHub es una llamada aparte, no forma parte de `co
 Fichero: `pipeline/normalize.ts`.
 
 - **`canonicalUrl()`** canonicaliza cada URL para deduplicar: quita el fragmento `#...`, los parámetros de tracking (`utm_*`, `ref`, `fbclid`) y la barra final.
+- **Blocklist de dominios.** `blocked_domains` en `config/sources.json` descarta agregadores y rehosts (el host exacto y cualquier subdominio) antes de deduplicar. Los ítems de Hacker News registran el dominio de destino para alimentar esa lista.
 - **Deduplicación.** Se agrupa por URL canónica en un `Map`. En una colisión se conserva el primer ítem, pero hereda la mayor puntuación disponible y el `snippet` si le faltaba.
 - **Orden por señal.** Primero por puntos de Hacker News (descendente), y a igualdad, por fecha de publicación más reciente.
 - **Cap.** Se recorta a `candidate_cap` para acotar el tamaño del prompt de curación.
@@ -104,7 +105,7 @@ Si hay menos de 6 ítems normalizados, se aborta sin publicar.
 - Llama al proveedor pidiendo salida en JSON.
 - Fuerza `date`, `generated_at` y `provider` desde el propio script (`coerceMeta`), no desde el modelo.
 - **Valida** con `validateDigest()`: primero contra el JSON Schema (Ajv), y después dos comprobaciones fuera del schema: cada `url` del digest debe existir en las URL de entrada (el modelo elige, nunca inventa), y los `rank` no pueden repetirse.
-- **Reintentos.** Hasta 3 intentos (1 más 2 reintentos). Si un intento no valida, se inyecta el error concreto en el prompt y se reintenta. Si tras los reintentos sigue sin validar, lanza y el pipeline aborta (exit distinto de 0).
+- **Reintentos.** Hasta 3 intentos (1 más 2 reintentos). Un error de red o de proveedor en `generate()` consume intento y se reintenta con el prompt base. Si un intento no valida (JSON o schema), se inyecta el error concreto en el prompt y se reintenta. Si el proveedor principal agota los intentos y el alternativo tiene credencial, se hace failover automático y el digest lleva el `provider` del que curó. Si tras toda la cadena sigue sin validar, lanza y el pipeline aborta (exit distinto de 0).
 
 ## 8. Paso 5: Posts sociales
 
@@ -123,7 +124,7 @@ Ficheros: `pipeline/sources/github.ts`, `prompts/repos.md`, `pipeline/curate/rep
 
 Sección independiente de las noticias, también **best effort**.
 
-- **Recogida** (`collectGithubTrending`): intenta el scraping de `github.com/trending` (`parseTrending` extrae owner/repo, descripción, lenguaje y estrellas de cada `article.Box-row`). Si falla, cae a la Search API oficial (`created:>hace 7 días`, ordenado por estrellas), usando `GITHUB_TOKEN` si está disponible. Si todo falla, devuelve lista vacía y la sección no aparece.
+- **Recogida** (`collectGithubTrending`): intenta el scraping de `github.com/trending` (`parseTrending` extrae owner/repo, descripción, lenguaje y estrellas de cada `article.Box-row`). Si el HTML responde 200 y se parsean menos de `min_parse_alert` repos (5 por defecto), se registra un aviso y el workflow diario abre un issue (`fallo-automatico`) sin abortar la edición. Si falla del todo, cae a la Search API oficial (`created:>hace 7 días`, ordenado por estrellas), usando `GITHUB_TOKEN` si está disponible. Si todo falla, devuelve lista vacía y la sección no aparece. Hay un fixture de regresión con HTML real en `pipeline/__tests__/fixtures/github-trending.snapshot.html`.
 - **Ventana sin repeticiones**: antes de la curación, `loadRecentRepoNames()` lee los repos publicados en las siete ediciones naturales anteriores y `excludeRecentRepos()` los elimina de los candidatos. Un repositorio puede volver a aparecer a partir del octavo día.
 - **Selección y descripción** (`attachRepos`): una tercera llamada al modelo (prompt `prompts/repos.md`) que elige los repos más interesantes para el diario (IA y herramientas prácticas primero) y los describe en castellano. Los datos duros (nombre, URL, lenguaje, estrellas) se toman **siempre** del repo recogido, no de la respuesta del modelo; del modelo solo se usa la descripción. El resultado se guarda en `digest.repos`.
 
@@ -136,7 +137,9 @@ Ficheros: `pipeline/index.ts`, `eleventy.config.mjs`, `site/_data/editions.js`, 
 - Las plantillas Nunjucks renderizan el sitio. `site/_includes/edicion.njk` compone la edición de noticias (el destacado `items[0]` más la rejilla de noticias) y `archivo.njk` el histórico de ediciones. `eleventy.config.mjs` aporta los filtros de fecha en español y el separador de miles.
 - **Navegación unificada.** Cada sección lleva arriba un botón que despliega un **calendario** en un popover (`site/_includes/calendario.njk` + `site/js/calendario.js`; `<details>` que se cierra al clic fuera o con Escape): abre en el día actual, resalta ese día y solo deja seleccionar los días con edición (el resto quedan deshabilitados); las fechas disponibles se inyectan como JSON y el JS renderiza el mes y navega entre meses dentro del rango publicado. Debajo, una barra secuencial (`nav-temporal.njk`) lleva al día anterior o siguiente. La cabecera (`base.njk`) resalta la pestaña activa entre Noticias, Repositorios y Archivo.
 - **Sección de repositorios.** Los repos se muestran en su propia pestaña, no dentro de la edición. `site/_data/reposEditions.js` expone las ediciones que tienen repos (con ruta bajo `/repositorios/` y sus vecinos), y las plantillas `repositorios.njk` (portada) y `repos-dia.njk` (una página por fecha) renderizan la lista reutilizando el include `repos-lista.njk`.
-- **Archivo unificado.** `/archivo/` es un índice (`archivo.njk`) que enlaza a `/archivo/noticias/` (`archivo-noticias.njk`) y `/archivo/repositorios/` (`archivo-repositorios.njk`), cada uno con su histórico agrupado por mes.
+- **Archivo unificado.** `/archivo/` es un índice (`archivo.njk`) que enlaza a `/archivo/noticias/` (`archivo-noticias.njk`), `/archivo/repositorios/` (`archivo-repositorios.njk`) y `/archivo/buscar/` (búsqueda en el navegador sobre un índice de título, resumen y fuente generado en el build).
+- **Resumen semanal.** `/semana/` se construye desde los JSON de los últimos 7 días (destacada de cada día, temas por categoría, repos), sin llamada al modelo.
+- **Distribución.** Eleventy genera `/feed.xml` (RSS 2.0), `/atom.xml`, `/sitemap.xml` y `/robots.txt`. La plantilla base incluye canonical, Open Graph y `rel=alternate` a los feeds.
 - **Publicación.** El workflow hace `git add data/`, crea el commit de la edición solo si hay cambios, reintegra los cambios remotos con `git pull --rebase` para no perder la edición ante un push concurrente, y despliega `_site` en GitHub Pages.
 
 ## 11. Proveedores de modelo
@@ -161,7 +164,8 @@ El digest tiene `date`, `generated_at`, `provider`, un array `items` (de 6 a 20 
 | Fallan todas las fuentes | Aborta con exit 1. |
 | Menos de 6 ítems normalizados | Aborta sin publicar. |
 | No se enriquece ningún artículo | Aviso; se usan los snippets. |
-| Curación no valida tras 3 intentos | Aborta con exit 1. |
+| Curación no valida o cae la red | Reintenta (3) y, si hay credencial, prueba el otro proveedor. Si ambos fallan, aborta con exit 1. |
+| GitHub Trending parsea < umbral con HTTP 200 | Aviso + issue automático; se sigue con lo parseado o el fallback. |
 | Posts sociales fallan | La edición se publica sin posts. |
 | Repos hot fallan (scraping y API) | La edición se publica sin la sección. |
 | Sin credencial del proveedor | No se genera edición nueva; se conserva la última. |
