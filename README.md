@@ -12,7 +12,8 @@ No necesita servidor ni base de datos: cada edición queda guardada como JSON de
 - Repositorios trending de GitHub seleccionados por utilidad, con prioridad para IA y herramientas prácticas.
 - Una ventana de siete días que evita repetir repositorios publicados recientemente.
 - Posts para X y LinkedIn listos para copiar desde cada noticia y repositorio.
-- Archivo por fechas, calendario y navegación entre ediciones.
+- Archivo por fechas, calendario, resumen semanal y búsqueda en el navegador.
+- Feeds RSS y Atom, sitemap y etiquetas Open Graph.
 - Publicación automática mediante GitHub Actions y GitHub Pages.
 - Tolerancia a fallos: una fuente, artículo o post social puede fallar sin bloquear toda la edición.
 
@@ -159,7 +160,7 @@ pipeline/               recogida, curación y validación
 prompts/                 instrucciones editoriales para el LLM
 schema/                  JSON Schema del digest
 site/                    plantillas, estilos y JavaScript
-.github/workflows/       generación y despliegue diarios
+.github/workflows/       generación diaria, CI de PRs y despliegue
 ```
 
 Los JSON históricos forman parte del producto: alimentan el archivo público, la navegación y el filtro que evita repetir repositorios durante siete días.
@@ -170,7 +171,7 @@ Los JSON históricos forman parte del producto: alimentan el archivo público, l
 - **Fuentes por delante del modelo.** El LLM redacta, pero no inventa enlaces ni metadatos.
 - **Best effort.** Los fallos secundarios no impiden publicar contenido válido.
 - **Datos versionados.** Cada edición queda auditable en Git.
-- **Posts listos para usar.** X respeta el límite de 280 caracteres y pondera cada URL como 23; LinkedIn usa un formato más desarrollado.
+- **Posts listos para usar.** X respeta el límite de 280 caracteres y pondera cada URL como 23; LinkedIn usa un formato más desarrollado. El destino de esos posts (publicación automática, intents o retirar la generación) está pendiente de decisión; ver el issue #17.
 
 ## Licencia
 

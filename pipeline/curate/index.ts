@@ -44,13 +44,71 @@ function getProvider(name: ProviderName): Provider {
   return name === "claude-code" ? claudeCodeProvider() : deepseekProvider();
 }
 
+/** El otro proveedor del par deepseek / claude-code. */
+export function alternateProviderName(name: ProviderName): ProviderName {
+  return name === "deepseek" ? "claude-code" : "deepseek";
+}
+
+/**
+ * Cadena de proveedores: el principal y, si hay credencial, el alternativo
+ * para failover automático.
+ */
+export function resolveProviderChain(primary: ProviderName): Provider[] {
+  const chain: Provider[] = [getProvider(primary)];
+  const alt = alternateProviderName(primary);
+  if (providerCredentialPresent(alt)) chain.push(getProvider(alt));
+  return chain;
+}
+
+type CurateOutcome = { ok: true; digest: Digest } | { ok: false; errors: string[] };
+
 /**
  * Paso 3 del pipeline. Llama al LLM configurado, valida la salida contra el
- * schema + comprobación de URLs, y reintenta hasta 2 veces inyectando el error
- * concreto en el prompt. Lanza si tras los reintentos sigue sin validar.
+ * schema + comprobación de URLs, y reintenta hasta 2 veces. Un error de red
+ * en generate() consume intento (se reintenta con el prompt base). Un fallo
+ * de JSON/schema inyecta el error en el prompt. Si el proveedor principal
+ * agota los intentos, se prueba el alternativo cuando su credencial está
+ * presente. Lanza si tras toda la cadena sigue sin validar.
+ *
+ * `providers` permite inyectar mocks en tests; si se omite, se resuelve
+ * desde el entorno.
  */
-export async function curate(items: NewsItem[], meta: CurateMeta, repos?: ReposInput): Promise<Digest> {
-  const provider = getProvider(meta.provider);
+export async function curate(
+  items: NewsItem[],
+  meta: CurateMeta,
+  repos?: ReposInput,
+  providers?: Provider[],
+): Promise<Digest> {
+  const chain = providers ?? resolveProviderChain(meta.provider);
+  if (chain.length === 0) {
+    throw new Error("No hay proveedores LLM disponibles para curar.");
+  }
+
+  let lastErrors: string[] = ["desconocido"];
+
+  for (let i = 0; i < chain.length; i++) {
+    const provider = chain[i];
+    if (i > 0) {
+      log(`Failover: se reintenta la curación con ${provider.name} tras fallar ${chain[i - 1].name}.`);
+    }
+    const attemptMeta: CurateMeta = { ...meta, provider: provider.name };
+    const outcome = await curateWithProvider(items, attemptMeta, provider, repos);
+    if (outcome.ok) return outcome.digest;
+    lastErrors = outcome.errors;
+  }
+
+  throw new Error(
+    `Curación falló tras ${MAX_ATTEMPTS} intentos con ${chain.map((p) => p.name).join(", ")}. ` +
+      `Últimos errores: ${lastErrors.join(" | ")}`,
+  );
+}
+
+async function curateWithProvider(
+  items: NewsItem[],
+  meta: CurateMeta,
+  provider: Provider,
+  repos?: ReposInput,
+): Promise<CurateOutcome> {
   const systemPrompt = readFileSync(PROMPT_PATH, "utf8");
   const inputUrls = new Set(items.map((i) => i.url));
   const baseUserPrompt = buildUserPrompt(items, meta);
@@ -59,7 +117,16 @@ export async function curate(items: NewsItem[], meta: CurateMeta, repos?: ReposI
   let lastErrors: string[] = ["desconocido"];
 
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
-    const raw = await provider.generate(systemPrompt, userPrompt);
+    let raw: string;
+    try {
+      raw = await provider.generate(systemPrompt, userPrompt);
+    } catch (e) {
+      lastErrors = [`Error de red o de proveedor: ${String(e)}`];
+      warn(`Intento ${attempt}: generate() falló`, String(e));
+      // La red no produjo JSON: reintentar con el prompt base, no con el error.
+      userPrompt = baseUserPrompt;
+      continue;
+    }
     log(`Curación (${provider.name}) intento ${attempt}/${MAX_ATTEMPTS}: ${raw.length} chars`);
 
     let parsed: unknown;
@@ -89,7 +156,7 @@ export async function curate(items: NewsItem[], meta: CurateMeta, repos?: ReposI
         await attachRepos(provider, valid, repos.trending, repos.pick);
         await attachRepoSocial(provider, valid);
       }
-      return valid;
+      return { ok: true, digest: valid };
     }
 
     lastErrors = result.errors;
@@ -97,7 +164,7 @@ export async function curate(items: NewsItem[], meta: CurateMeta, repos?: ReposI
     userPrompt = withErrors(baseUserPrompt, lastErrors);
   }
 
-  throw new Error(`Curación falló tras ${MAX_ATTEMPTS} intentos. Últimos errores: ${lastErrors.join(" | ")}`);
+  return { ok: false, errors: lastErrors };
 }
 
 /** Forzamos date/generated_at/provider desde nuestro meta (no del modelo). */

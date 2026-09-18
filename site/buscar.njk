@@ -1,0 +1,23 @@
+---
+layout: base.njk
+title: Buscar
+description: Búsqueda en el archivo de La Terminal, en el propio navegador.
+permalink: "/archivo/buscar/index.html"
+---
+<div class="buscar">
+  <h1 class="archivo__title">Buscar en el archivo</h1>
+  <p class="archivo__intro">
+    Filtra por palabras del titular, el resumen o la fuente. El índice se genera
+    en el build y la búsqueda corre en el navegador, también sin red tras la primera carga.
+  </p>
+
+  <form class="buscar-form" id="buscar" role="search" data-index="{{ '/search-index.json' | url }}">
+    <label class="visually-hidden" for="q">Consulta</label>
+    <input id="q" name="q" type="search" autocomplete="off" placeholder="Título, resumen o fuente" />
+    <button type="submit">Buscar</button>
+  </form>
+
+  <p class="buscar-estado" id="buscar-estado" hidden></p>
+  <ol class="buscar-resultados" id="buscar-resultados"></ol>
+</div>
+<script type="module" src="{{ '/js/buscar.js' | url }}?v={{ assets.buscar }}"></script>

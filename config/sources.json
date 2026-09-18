@@ -5,6 +5,9 @@
   "candidate_cap": 300,
   "enrich_top": 30,
   "enrich_timeout_ms": 9000,
+  "blocked_domains": [
+    "canews24.online"
+  ],
   "rss": [
     { "id": "openai", "name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "enabled": true, "fragile": false },
     { "id": "deepmind", "name": "Google DeepMind", "url": "https://deepmind.com/blog/feed/basic", "enabled": true, "fragile": false },
@@ -50,6 +53,7 @@
     "enabled": true,
     "since": "daily",
     "limit": 25,
-    "pick": 5
+    "pick": 5,
+    "min_parse_alert": 5
   }
 }

@@ -77,6 +77,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Ejecutar pipeline (recogida, enriquecimiento, curación, posts)
+        id: pipeline
         if: steps.guard.outputs.run == 'true' && ! inputs.skip_pipeline
         env:
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'deepseek' }}
@@ -84,6 +85,39 @@ jobs:
           DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-flash' }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: pnpm run pipeline
+
+      - name: Alerta si el parseo de GitHub Trending se rompe
+        if: steps.guard.outputs.run == 'true' && steps.pipeline.outputs.trending_parse_alert == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const titlePrefix = "Alerta: parseo de GitHub Trending";
+            const { data: open } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              labels: "fallo-automatico",
+              per_page: 50,
+            });
+            if (open.some((i) => i.title.startsWith(titlePrefix))) {
+              console.log("Ya hay una alerta abierta de GitHub Trending; no se duplica.");
+              return;
+            }
+            const run = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `${titlePrefix} (${new Date().toISOString().slice(0, 10)})`,
+              body: [
+                "El scraping de `github.com/trending` devolvió HTML 200 pero parseó menos repositorios de los esperados.",
+                "La edición del día puede haberse publicado con el fallback de la Search API o sin sección de repos.",
+                "",
+                `- Run: ${run}`,
+                "- Revisa `pipeline/sources/github.ts` (`parseTrending`) y el fixture `pipeline/__tests__/fixtures/github-trending.snapshot.html`.",
+                "- Si GitHub cambió el markup, actualiza el parser y el snapshot.",
+              ].join("\n"),
+              labels: ["fallo-automatico"],
+            });
 
       - name: Construir sitio (Eleventy)
         if: steps.guard.outputs.run == 'true'

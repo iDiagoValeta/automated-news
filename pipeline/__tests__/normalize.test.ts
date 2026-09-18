@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { canonicalUrl, normalize } from "../normalize.ts";
+import { canonicalUrl, hostnameOf, isBlockedHost, normalize } from "../normalize.ts";
 import type { NewsItem } from "../types.ts";
 
 function item(partial: Partial<NewsItem>): NewsItem {
@@ -45,3 +45,37 @@ test("normalize ordena por puntos y respeta el cap", () => {
   assert.equal(out[0].url, "https://x.com/2", "mayor puntuación primero");
   assert.equal(out[1].url, "https://x.com/3");
 });
+
+test("isBlockedHost cubre el dominio y sus subdominios", () => {
+  const blocked = ["canews24.online"];
+  assert.equal(isBlockedHost("canews24.online", blocked), true);
+  assert.equal(isBlockedHost("www.canews24.online", blocked), true);
+  assert.equal(isBlockedHost("theverge.com", blocked), false);
+  assert.equal(hostnameOf("https://canews24.online/?p=71"), "canews24.online");
+});
+
+test("normalize descarta el rehost canews24.online de Hacker News", () => {
+  const items = [
+    item({
+      url: "https://canews24.online/?p=71",
+      source: "Hacker News",
+      title: "Estudio sobre IA en exámenes",
+      points: 80,
+    }),
+    item({
+      url: "https://www.canews24.online/otra",
+      source: "Hacker News",
+      points: 60,
+    }),
+    item({
+      url: "https://www.theverge.com/ai/ok",
+      source: "The Verge",
+      points: 10,
+    }),
+  ];
+  const out = normalize(items, 120, ["canews24.online"]);
+  assert.equal(out.length, 1);
+  assert.equal(out[0].url, "https://www.theverge.com/ai/ok");
+  assert.ok(out.every((i) => !i.url.includes("canews24")));
+});
+

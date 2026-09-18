@@ -1,6 +1,32 @@
+import { appendFileSync } from "node:fs";
 import { fetchText } from "../http.ts";
 import { warn } from "../log.ts";
 import type { GithubTrendingConfig, RepoRaw, SourcesConfig } from "../types.ts";
+
+/** Umbral por defecto: por debajo, el HTML 200 se considera markup roto. */
+export const TRENDING_PARSE_ALERT_MIN = 5;
+
+/** ¿El recuento parseado es demasiado bajo para un HTML de trending válido? */
+export function trendingParseLooksBroken(
+  parsedCount: number,
+  minCount = TRENDING_PARSE_ALERT_MIN,
+): boolean {
+  return parsedCount < minCount;
+}
+
+/**
+ * Marca la salida del step de Actions para que el workflow abra un issue.
+ * Fuera de GitHub Actions no hace nada.
+ */
+export function flagTrendingParseAlert(): void {
+  const out = process.env.GITHUB_OUTPUT;
+  if (!out) return;
+  try {
+    appendFileSync(out, "trending_parse_alert=true\n");
+  } catch (e) {
+    warn("No se pudo escribir GITHUB_OUTPUT para la alerta de trending.", String(e));
+  }
+}
 
 /** Quita etiquetas HTML y decodifica las entidades más comunes. */
 function stripHtml(s: string): string {
@@ -108,9 +134,18 @@ export async function collectGithubTrending(
   gh: GithubTrendingConfig,
 ): Promise<RepoRaw[]> {
   const url = `https://github.com/trending?since=${gh.since}`;
+  const minAlert = gh.min_parse_alert ?? TRENDING_PARSE_ALERT_MIN;
   try {
     const html = await fetchText(url, cfg.timeout_ms, cfg.user_agent);
     const repos = parseTrending(html, gh.limit);
+    // fetchText solo devuelve el cuerpo si el status fue 200 (u otro 2xx).
+    if (trendingParseLooksBroken(repos.length, minAlert)) {
+      warn(
+        `GitHub trending: HTML 200 pero solo ${repos.length} repos parseados ` +
+          `(umbral ${minAlert}). El markup puede haber cambiado.`,
+      );
+      flagTrendingParseAlert();
+    }
     if (repos.length > 0) return repos;
     throw new Error("trending sin resultados parseables");
   } catch (e) {

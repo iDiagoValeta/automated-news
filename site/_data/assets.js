@@ -20,4 +20,5 @@ export default {
   css: hash("css/diario.css"),
   calendario: hash("js/calendario.js"),
   compartir: hash("js/compartir.js"),
+  buscar: hash("js/buscar.js"),
 };

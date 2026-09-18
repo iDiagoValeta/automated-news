@@ -7,5 +7,6 @@ layout: base.njk
 permalink: "{{ edition.path }}"
 eleventyComputed:
   title: "Edición {{ edition.date | fechaCorta }} {{ edition.year }}"
+  description: "{{ edition.items[0].summary }}"
 ---
 {% include "edicion.njk" %}

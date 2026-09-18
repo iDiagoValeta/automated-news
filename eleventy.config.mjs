@@ -18,6 +18,8 @@ function capitalizar(s) {
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "site/css": "css" });
   eleventyConfig.addPassthroughCopy({ "site/js": "js" });
+  eleventyConfig.addPassthroughCopy({ "site/img": "img" });
+  eleventyConfig.addPassthroughCopy({ "site/_11ty/search.js": "js/search.js" });
 
   // "2026-07-18" -> "sábado, 18 de julio de 2026"
   eleventyConfig.addFilter("fechaLarga", (s) => {
@@ -43,6 +45,15 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("miles", (n) =>
     new Intl.NumberFormat("es-ES", { useGrouping: "always" }).format(Number(n)),
   );
+
+  // Recorta un texto para meta description / Open Graph.
+  eleventyConfig.addFilter("metaDesc", (s, max = 200) => {
+    const t = String(s || "").replace(/\s+/g, " ").trim();
+    if (t.length <= max) return t;
+    const cut = t.slice(0, max - 1);
+    const sp = cut.lastIndexOf(" ");
+    return `${(sp > 80 ? cut.slice(0, sp) : cut).trimEnd()}…`;
+  });
 
   // Agrupa ediciones (ya ordenadas desc) por año-mes para el archivo.
   eleventyConfig.addFilter("agrupaPorMes", (editions) => {

@@ -110,6 +110,11 @@ export interface GithubTrendingConfig {
   limit: number;
   /** Cuántos elige el modelo para la sección. */
   pick: number;
+  /**
+   * Si el HTML de trending responde 200 y se parsean menos de este número de
+   * repos, se considera markup roto: aviso + issue automático. Por defecto, 5.
+   */
+  min_parse_alert?: number;
 }
 
 export interface SourcesConfig {
@@ -121,6 +126,11 @@ export interface SourcesConfig {
   /** Cuántos de los candidatos con más señal se enriquecen leyendo el artículo. */
   enrich_top: number;
   enrich_timeout_ms: number;
+  /**
+   * Dominios agregador/rehost que se descartan en la normalización (el host
+   * exacto y cualquier subdominio). Configurable sin tocar código.
+   */
+  blocked_domains: string[];
   rss: RssSource[];
   hackernews: HackerNewsConfig;
   huggingface_trending: HfTrendingConfig;
