@@ -19,7 +19,7 @@ const site = {
   descripcion: "Diario estático de noticias de tecnología.",
 };
 
-function edition(date, over = {}) {
+function edition(date: string, over: Record<string, unknown> = {}) {
   return {
     date,
     generated_at: `${date}T12:00:00.000Z`,
@@ -82,15 +82,15 @@ test("RSS y Atom son XML bien formados y parseables", async () => {
   const atomFeed = await parser.parseString(atom);
   assert.equal(rssFeed.items.length, 2);
   assert.equal(atomFeed.items.length, 2);
-  assert.ok(rssFeed.items[0].title.includes("2026-09-18"));
-  assert.ok((rssFeed.items[0].contentSnippet || rssFeed.items[0].content || "").includes("Titular"));
+  assert.ok(rssFeed.items[0]?.title?.includes("2026-09-18"));
+  assert.ok((rssFeed.items[0]?.contentSnippet || rssFeed.items[0]?.content || "").includes("Titular"));
 });
 
 test("sitemap y robots apuntan a la URL de GitHub Pages", () => {
   const editions = [edition("2026-09-18")];
   const xml = buildSitemap(site.url, staticPagePaths(editions));
   assert.match(xml, /<urlset /);
-  assert.match(xml, /https:\/\/idiagovaleta.github.io\/automated-news\/$/m);
+  assert.match(xml, /<loc>https:\/\/idiagovaleta.github.io\/automated-news\/<\/loc>/);
   assert.match(xml, /\/2026\/09\/18\//);
   assert.match(xml, /\/semana\//);
   assert.match(xml, /\/archivo\/buscar\//);
@@ -110,7 +110,7 @@ test("buildWeek toma la ventana de 7 días y el rank 1 de cada día", () => {
   assert.equal(week.to, "2026-09-18");
   assert.equal(week.editions.length, 2);
   assert.equal(week.tops.length, 2);
-  assert.ok(week.tops[0].item.title.includes("2026-09-18"));
+  assert.ok(String(week.tops[0].item.title).includes("2026-09-18"));
   assert.ok(week.categories.some((c) => c.id === "lanzamientos"));
   assert.ok(week.repos.some((r) => r.name.startsWith("acme/tool-")));
 });
@@ -122,4 +122,37 @@ test("searchDocs encuentra por palabras del titular", () => {
   assert.ok(hits.length >= 1);
   assert.ok(hits[0].title.includes("2026-09-18"));
   assert.equal(searchDocs(index, "zzznoexiste").length, 0);
+});
+
+test("searchDocs no confunde code con Codex y prioriza el titular reciente", () => {
+  const editions = [
+    {
+      date: "2026-09-18",
+      path: "/2026/09/18/",
+      items: [
+        {
+          title: "Claude Code estrena Projects",
+          summary: "Novedad reciente.",
+          source: "The Verge",
+          category: "herramientas",
+        },
+      ],
+    },
+    {
+      date: "2026-08-30",
+      path: "/2026/08/30/",
+      items: [
+        {
+          title: "Codex y Hermes instalan código",
+          summary: "Otra pieza sobre asistentes de código.",
+          source: "Ars Technica",
+          category: "herramientas",
+        },
+      ],
+    },
+  ];
+  const index = buildSearchIndex(editions);
+  const hits = searchDocs(index, "Claude Code");
+  assert.equal(hits.length, 1);
+  assert.equal(hits[0].date, "2026-09-18");
 });

@@ -27,45 +27,39 @@ export function tokenize(query) {
     .filter((t) => t.length >= 2);
 }
 
-function haystack(doc) {
-  return `${doc.title} ${doc.summary} ${doc.source}`
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "");
+function fieldTokens(text) {
+  return new Set(tokenize(text));
 }
 
 /**
- * Puntuación simple: coincidencia en título (3), fuente (2) y resumen (1).
- * Sin dependencias: el índice cabe entero en el cliente.
+ * Puntuación simple: coincidencia de tokens en título (3), fuente (2) y
+ * resumen (1). Sin dependencias: el índice cabe entero en el cliente.
  */
 export function searchDocs(index, query) {
   const terms = tokenize(query);
   if (terms.length === 0) return [];
   const scored = [];
   for (const doc of index) {
-    const title = (doc.title || "")
-      .toLowerCase()
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "");
-    const source = (doc.source || "")
-      .toLowerCase()
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "");
-    const all = haystack(doc);
+    const titleToks = fieldTokens(doc.title);
+    const sourceToks = fieldTokens(doc.source);
+    const summaryToks = fieldTokens(doc.summary);
     let score = 0;
     let hits = 0;
     for (const t of terms) {
-      if (title.includes(t)) {
+      let hit = false;
+      if (titleToks.has(t)) {
         score += 3;
-        hits += 1;
+        hit = true;
       }
-      if (source.includes(t)) {
+      if (sourceToks.has(t)) {
         score += 2;
-        hits += 1;
-      } else if (all.includes(t)) {
-        score += 1;
-        hits += 1;
+        hit = true;
       }
+      if (summaryToks.has(t)) {
+        score += 1;
+        hit = true;
+      }
+      if (hit) hits += 1;
     }
     if (hits === 0) continue;
     if (hits === terms.length) score += 2;
