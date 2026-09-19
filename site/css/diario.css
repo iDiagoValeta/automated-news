@@ -365,6 +365,7 @@ a {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 0.5rem;
 }
@@ -693,6 +694,7 @@ a {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 0.75rem;
 }
@@ -702,6 +704,8 @@ a {
 .share {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
   gap: 0.4rem;
   flex-shrink: 0;
 }
@@ -717,13 +721,28 @@ a {
   background: color-mix(in srgb, var(--paper-bright) 65%, transparent);
   color: var(--muted);
   cursor: pointer;
+  text-decoration: none;
   box-shadow: inset 0 1px 0 var(--highlight);
   transition: color 0.15s, border-color 0.15s, box-shadow 0.15s;
+}
+.share__intent {
+  width: auto;
+  gap: 0.35rem;
+  padding: 0 0.55rem;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 .share__btn:hover {
   color: var(--ink);
   border-color: var(--accent);
   box-shadow: inset 0 1px 0 var(--highlight-strong), 0 1px 3px var(--shadow);
+}
+.share__btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 .share__btn.is-copied {
   color: var(--accent);

@@ -15,7 +15,7 @@ export interface NewsItem {
   content?: string;
 }
 
-/** Texto listo para pegar en cada red social. */
+/** Texto listo para el compositor (web intent) o para copiar. */
 export interface SocialPosts {
   x: string;
   linkedin: string;
