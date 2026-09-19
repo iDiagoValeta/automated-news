@@ -11,7 +11,7 @@ No necesita servidor ni base de datos: cada edición queda guardada como JSON de
 - Hasta 20 noticias diarias, resumidas en español y enlazadas a la fuente original.
 - Repositorios trending de GitHub seleccionados por utilidad, con prioridad para IA y herramientas prácticas.
 - Una ventana de siete días que evita repetir repositorios publicados recientemente.
-- Posts para X y LinkedIn listos para copiar desde cada noticia y repositorio.
+- Posts para X y LinkedIn en cada noticia y repositorio: botones de web intent que abren el compositor con el texto listo, más copiar por si LinkedIn no precarga el cuerpo.
 - Archivo por fechas, calendario, resumen semanal y búsqueda en el navegador.
 - Feeds RSS y Atom, sitemap y etiquetas Open Graph.
 - Publicación automática mediante GitHub Actions y GitHub Pages.
@@ -171,7 +171,7 @@ Los JSON históricos forman parte del producto: alimentan el archivo público, l
 - **Fuentes por delante del modelo.** El LLM redacta, pero no inventa enlaces ni metadatos.
 - **Best effort.** Los fallos secundarios no impiden publicar contenido válido.
 - **Datos versionados.** Cada edición queda auditable en Git.
-- **Posts listos para usar.** X respeta el límite de 280 caracteres y pondera cada URL como 23; LinkedIn usa un formato más desarrollado. El destino de esos posts (publicación automática, intents o retirar la generación) está pendiente de decisión; ver el issue #17.
+- **Posts listos para usar.** X respeta el límite de 280 caracteres y pondera cada URL como 23; LinkedIn usa un formato más desarrollado. En la web, un web intent abre X o LinkedIn con ese texto; la publicación sigue siendo manual (issue #17).
 
 ## Licencia
 

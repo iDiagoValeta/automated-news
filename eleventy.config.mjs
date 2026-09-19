@@ -1,6 +1,8 @@
 // Configuración de Eleventy (v3, ESM). Genera el sitio desde site/ leyendo
 // las ediciones de data/*.json vía site/_data/editions.js.
 
+import { shareModel } from "./site/_11ty/share.js";
+
 const MESES = [
   "enero", "febrero", "marzo", "abril", "mayo", "junio",
   "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
@@ -54,6 +56,9 @@ export default function (eleventyConfig) {
     const sp = cut.lastIndexOf(" ");
     return `${(sp > 80 ? cut.slice(0, sp) : cut).trimEnd()}…`;
   });
+
+  // Convierte item.social en hrefs de web intent (vacío si falta el texto).
+  eleventyConfig.addFilter("shareModel", shareModel);
 
   // Agrupa ediciones (ya ordenadas desc) por año-mes para el archivo.
   eleventyConfig.addFilter("agrupaPorMes", (editions) => {

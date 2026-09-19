@@ -28,7 +28,7 @@ La verificación local sigue siendo responsabilidad de quien abre el PR (el CI n
 
 Un cambio no puede romper estas decisiones (detalladas en [README](README.md) y [docs/flujo-tecnico.md](docs/flujo-tecnico.md)):
 
-1. **Estático por defecto.** Sin servidor ni base de datos; las ediciones son JSON versionados en Git.
+1. **Estático por defecto.** Sin servidor ni base de datos; las ediciones son JSON versionados en Git. Los posts sociales se abren con web intents (sin API ni publicación automática).
 2. **Fuentes por delante del modelo.** El LLM selecciona y redacta, pero nunca inventa URL ni metadatos. Toda salida se valida contra `schema/digest.schema.json` y contra pertenencia a la entrada.
 3. **Best effort.** Un fallo secundario (una fuente, un artículo, un post social) nunca bloquea la edición completa.
 4. **Idempotencia diaria.** Existe una edición por fecha civil en `Europe/Madrid`. No subas a `main` un `data/YYYY-MM-DD.json` generado en local sin saber lo que haces: bloquearías la generación oficial de ese día.

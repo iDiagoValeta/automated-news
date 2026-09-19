@@ -117,6 +117,7 @@ Tras una curación válida, `attachSocial()` genera el texto para X y LinkedIn d
 - El modelo devuelve, por noticia, `hook_x`, `hook_linkedin` y `hashtags`. El gancho va como primera línea (lo que frena el scroll).
 - **Ensamblado para X** (`assembleX`): texto plano (las letras Unicode en negrita cuentan doble en X). El gancho es el post; si no cabe en 280 contando la URL como 23, primero se sueltan los hashtags y luego se recorta el gancho.
 - **Ensamblado para LinkedIn** (`assembleLinkedIn`): sin límite práctico. El gancho abre y la idea clave marcada por el modelo con `**...**` se convierte a negrita Unicode (`applyBold`, `boldSans`), porque LinkedIn no renderiza markdown.
+- El texto se guarda en `item.social` / `repo.social`. La web lo abre con web intents; no se publica por API.
 
 ## 9. Paso 6: Repositorios hot
 
@@ -134,7 +135,8 @@ Ficheros: `pipeline/index.ts`, `eleventy.config.mjs`, `site/_data/editions.js`, 
 
 - El orquestador escribe `data/YYYY-MM-DD.json` con `writeFileSync`.
 - **Eleventy** (`pnpm run build`) lee todas las ediciones vía `site/_data/editions.js`, que ordena los ítems de cada edición por `rank`, ordena las ediciones de más reciente a más antigua y calcula número, rutas y vecinos.
-- Las plantillas Nunjucks renderizan el sitio. `site/_includes/edicion.njk` compone la edición de noticias (el destacado `items[0]` más la rejilla de noticias) y `archivo.njk` el histórico de ediciones. `eleventy.config.mjs` aporta los filtros de fecha en español y el separador de miles.
+- Las plantillas Nunjucks renderizan el sitio. `site/_includes/edicion.njk` compone la edición de noticias (el destacado `items[0]` más la rejilla de noticias) y `archivo.njk` el histórico de ediciones. `eleventy.config.mjs` aporta los filtros de fecha en español, el separador de miles y `shareModel` (web intents).
+- **Web intents.** Donde ya se muestran los posts (`share.njk` en noticias y repos), X abre `https://x.com/intent/post?text=...` y LinkedIn el compositor del feed (`shareActive` + `text`). LinkedIn no documenta un intent con cuerpo arbitrario (su `share-offsite` solo admite URL); el botón de copiar deja pegar el texto si el feed no lo precarga. Sin texto social no se pintan botones.
 - **Navegación unificada.** Cada sección lleva arriba un botón que despliega un **calendario** en un popover (`site/_includes/calendario.njk` + `site/js/calendario.js`; `<details>` que se cierra al clic fuera o con Escape): abre en el día actual, resalta ese día y solo deja seleccionar los días con edición (el resto quedan deshabilitados); las fechas disponibles se inyectan como JSON y el JS renderiza el mes y navega entre meses dentro del rango publicado. Debajo, una barra secuencial (`nav-temporal.njk`) lleva al día anterior o siguiente. La cabecera (`base.njk`) resalta la pestaña activa entre Noticias, Repositorios y Archivo.
 - **Sección de repositorios.** Los repos se muestran en su propia pestaña, no dentro de la edición. `site/_data/reposEditions.js` expone las ediciones que tienen repos (con ruta bajo `/repositorios/` y sus vecinos), y las plantillas `repositorios.njk` (portada) y `repos-dia.njk` (una página por fecha) renderizan la lista reutilizando el include `repos-lista.njk`.
 - **Archivo unificado.** `/archivo/` es un índice (`archivo.njk`) que enlaza a `/archivo/noticias/` (`archivo-noticias.njk`), `/archivo/repositorios/` (`archivo-repositorios.njk`) y `/archivo/buscar/` (búsqueda en el navegador sobre un índice de título, resumen y fuente generado en el build).

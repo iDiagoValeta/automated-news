@@ -2,9 +2,9 @@
 if ("scrollRestoration" in history) history.scrollRestoration = "manual";
 window.addEventListener("pageshow", () => window.scrollTo(0, 0));
 
-// Copia al portapapeles el texto listo para publicar en X o LinkedIn.
+// Copia al portapapeles el texto social (fallback si el intent no precarga).
 document.addEventListener("click", async (e) => {
-  const btn = e.target.closest(".share__btn");
+  const btn = e.target.closest(".share__copy");
   if (!btn) return;
   const text = btn.getAttribute("data-copy");
   if (!text) return;
