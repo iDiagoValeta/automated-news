@@ -1,0 +1,324 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T15:00:21.840Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "OpenAI lanza GPT-6 Sol y Luna, dos modelos que recortan el precio a la mitad",
+      "summary": "OpenAI ha presentado GPT-6 Sol y GPT-6 Luna, dos modelos que llevan inteligencia de frontera al trabajo diario con equilibrios distintos entre capacidad y coste. Sol apunta a la máxima calidad y Luna a la eficiencia, y ambos rebajan el precio por token frente a sus predecesores. Ya están disponibles en la API y en Amazon Bedrock.",
+      "why_it_matters": "Dos modelos nuevos a mitad de precio cambian de golpe el cálculo de coste de cualquier producto construido sobre la API.",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "source": "OpenAI News",
+      "social": {
+        "x": "OpenAI parte GPT-6 en dos, Sol y Luna, y baja a la mitad el precio por token. Uno va a por la máxima calidad; el otro, a la eficiencia. Ya están en la API.\n\n#OpenAI #GPT6 #AmazonBedrock #API\nhttps://openai.com/index/introducing-gpt-6-sol-and-luna",
+        "linkedin": "El coste por token deja de ser la excusa. OpenAI parte su modelo de frontera en dos, GPT-6 Sol y GPT-6 Luna, y 𝗿𝗲𝗯𝗮𝗷𝗮 𝗮 𝗹𝗮 𝗺𝗶𝘁𝗮𝗱 𝗲𝗹 𝗽𝗿𝗲𝗰𝗶𝗼 𝗱𝗲 𝗹𝗮 𝗶𝗻𝘁𝗲𝗹𝗶𝗴𝗲𝗻𝗰𝗶𝗮 𝗱𝗲 𝗳𝗿𝗼𝗻𝘁𝗲𝗿𝗮. Sol apunta a la máxima calidad y Luna a la eficiencia, y los dos llegan a la vez a la API y a Amazon Bedrock.\n\nPara cualquier equipo con producto montado sobre la API, esto no es una actualización más: cambia la cuenta de explotación de un día para otro. Toca revisar qué llamadas siguen usando el modelo caro cuando Luna haría el trabajo, y qué parte del roadmap de costes conviene rehacer esta misma semana.\n\n#OpenAI #GPT6 #AmazonBedrock #API\n\nhttps://openai.com/index/introducing-gpt-6-sol-and-luna"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Claude Opus 5.5 iguala a Fable 5.1 con un 40 % menos de coste",
+      "summary": "Anthropic estrena la generación Opus 5.5, que según la compañía iguala a Claude Fable 5.1 en la mayoría de tareas con un coste de ejecución un 40 % inferior al de Opus 5. Sus benchmarks la sitúan por delante de GPT-6 Astra en buena parte de las pruebas y promete una escritura menos «Claudish». Se esperan Sonnet 5.5 y Haiku 5.5 en las próximas semanas.",
+      "why_it_matters": "El modelo tope de Anthropic baja de precio justo cuando OpenAI también recorta, y eso llega directo a la factura de quien los usa.",
+      "url": "https://the-decoder.com/claude-opus-5-5-matches-fable-5-1-at-40-percent-lower-cost-as-anthropic-promises-to-fix-claudish-writing",
+      "source": "The Decoder",
+      "social": {
+        "x": "Opus 5.5 cuesta un 40 % menos que Opus 5 y, según Anthropic, rinde igual. No es la única que está recortando precios.\n\n#Anthropic #ClaudeOpus #OpenAI\nhttps://the-decoder.com/claude-opus-5-5-matches-fable-5-1-at-40-percent-lower-cost-as-anthropic-promises-to-fix-claudish-writing",
+        "linkedin": "El modelo tope de Anthropic baja de precio un 40 % sin que, sobre el papel, se pierda rendimiento.\n\nOpus 5.5 iguala a Claude Fable 5.1 en la mayoría de tareas y se coloca por delante de GPT-6 Astra en buena parte de los benchmarks, con una escritura menos reconocible como suya. Lo importante no es el modelo en sí, sino el patrón: 𝗹𝗼𝘀 𝗽𝗿𝗲𝗰𝗶𝗼𝘀 𝗱𝗲 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝘁𝗼𝗽𝗲 𝗲𝘀𝘁á𝗻 𝗰𝗮𝘆𝗲𝗻𝗱𝗼 𝗮 𝗹𝗮 𝘃𝗲𝘇 𝗲𝗻 𝗹𝗮𝘀 𝗱𝗼𝘀 𝗰𝗮𝘀𝗮𝘀 𝗾𝘂𝗲 𝗺𝗮𝗿𝗰𝗮𝗻 𝗲𝗹 𝗿𝗶𝘁𝗺𝗼. Si tu producto depende de una API, revisa el coste por tarea antes de tocar la arquitectura, y no fijes la elección de modelo a fuego: Sonnet 5.5 y Haiku 5.5 llegan en semanas.\n\n#Anthropic #ClaudeOpus #OpenAI\n\nhttps://the-decoder.com/claude-opus-5-5-matches-fable-5-1-at-40-percent-lower-cost-as-anthropic-promises-to-fix-claudish-writing"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "GPT-6 mejora el prompt caching con más aciertos y menos latencia",
+      "summary": "OpenAI detalla las mejoras de prompt caching de GPT-6: tasas de acierto más altas, nuevas herramientas de diagnóstico, breakpoints explícitos y controles que reducen latencia y coste. Está pensado para cargas con prompts largos y repetidos, como agentes con system prompts extensos.",
+      "why_it_matters": "Aprovechar bien la caché es hoy una de las palancas más directas para recortar la factura de una aplicación con prompts largos.",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "source": "OpenAI News",
+      "social": {
+        "x": "La palanca más barata para recortar la factura de GPT-6 no es cambiar de modelo: es la caché de prompts. Y OpenAI acaba de afinarla.\n\n#OpenAI #GPT6 #PromptCaching\nhttps://openai.com/index/better-prompt-caching-for-gpt-6",
+        "linkedin": "Los equipos que construyen agentes gastan buena parte del presupuesto repitiendo el mismo system prompt una y otra vez.\n\nGPT-6 llega con una caché de prompts que acierta más, añade breakpoints explícitos y herramientas de diagnóstico, así que 𝗹𝗮 𝗰𝗮𝗰𝗵é 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝘁𝗿𝘂𝗰𝗼 𝗮𝗿𝘁𝗲𝘀𝗮𝗻𝗮𝗹 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗽𝗶𝗲𝘇𝗮 𝗱𝗲 𝗶𝗻𝗴𝗲𝗻𝗶𝗲𝗿í𝗮 𝗾𝘂𝗲 𝘀𝗲 𝗺𝗶𝗱𝗲. Para quien mantiene prompts largos y estables, eso es coste y latencia que caen sin tocar el modelo. La pregunta interesante ya no es si cachear, sino cuánto de tu prompt es de verdad estable.\n\n#OpenAI #GPT6 #PromptCaching\n\nhttps://openai.com/index/better-prompt-caching-for-gpt-6"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Alibaba lanza Qwen Audio 3.1 y hunde hasta un 95 % el precio del audio",
+      "summary": "El equipo Qwen de Alibaba presenta Qwen-Audio-3.1, una familia de cinco modelos para reconocimiento de voz, síntesis de voz e interacción en tiempo real. El modelo ASR mejora el reconocimiento multilingüe y de dialectos y limpia muletillas y repeticiones, mientras que ASR-Next añade identificación de hablantes con marcas de tiempo y detección de emociones y ruido. TTS cubre síntesis multilingüe y los precios caen hasta un 95 %.",
+      "why_it_matters": "Cinco modelos de audio mucho más baratos hacen viable integrar voz en productos pequeños sin disparar el coste.",
+      "url": "https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent",
+      "source": "The Decoder",
+      "social": {
+        "x": "Alibaba acaba de hundir hasta un 95 % el precio de integrar voz en tu producto. Cinco modelos de audio, del reconocimiento al tiempo real.\n\n#Qwen #Alibaba #ASR #TTS\nhttps://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent",
+        "linkedin": "Alibaba acaba de tirar hasta un 95 % el precio de integrar voz en un producto.\n\nQwen-Audio-3.1 llega con cinco modelos: reconocimiento de voz multilingüe y de dialectos, identificación de hablantes con marcas de tiempo, detección de emociones y ruido, y síntesis multilingüe. El ASR además limpia muletillas y repeticiones, un detalle nada menor si vas a transcribir audio real de usuarios. Con estos precios, 𝗺𝗼𝗻𝘁𝗮𝗿 𝘃𝗼𝘇 𝗲𝗻 𝘂𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼 𝗽𝗲𝗾𝘂𝗲ñ𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗽𝗿𝗲𝘀𝘂𝗽𝘂𝗲𝘀𝘁𝗼 y pasa a ser una decisión de producto.\n\n#Qwen #Alibaba #ASR #TTS\n\nhttps://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Unreal Agent promete ahorrar hasta un 40 % frente a Codex",
+      "summary": "Unreal Labs presenta Unreal Agent, un harness de agentes que, según sus propias mediciones, logra hasta un 40 % de ahorro de coste frente a Codex en cargas de producción y en benchmarks de código y ciencia, sin pérdida de rendimiento. La empresa busca socios para llevar esa eficiencia de coste a agentes de frontera.",
+      "why_it_matters": "Si el ahorro se confirma, el coste por tarea de los agentes de código cae de forma inmediata y medible.",
+      "url": "https://unreallabs.ai/blog/unreal-agent",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un harness de agentes promete recortar un 40 % el coste de Codex en producción. Si se confirma, el precio por tarea de los agentes de código cae ya.\n\n#UnrealAgent #Codex #DevTools\nhttps://unreallabs.ai/blog/unreal-agent",
+        "linkedin": "Un harness de agentes promete recortar un 40 % el coste de Codex en producción sin perder rendimiento.\n\nUnreal Agent, de Unreal Labs, se presenta como una capa de orquestación que ataca justo donde más duele ahora: el coste por tarea. Si las mediciones se sostienen en entornos reales y no solo en su propio benchmark, 𝗹𝗮 𝗲𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝗶𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗱𝗲 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝗱𝗲 𝗰𝗼𝗺𝗽𝗿𝗮 a la hora de elegir agentes de código. La empresa busca socios para llevar esa cifra a modelos de frontera, y ahí es donde tendrá que demostrarse.\n\n#UnrealAgent #Codex #DevTools\n\nhttps://unreallabs.ai/blog/unreal-agent"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Rabbit vuelve con OS3, un agente de IA que no necesita su hardware",
+      "summary": "Rabbit, la empresa del discreto R1, lanza OS3, un «agentic operating system» que corre en la nube pero opera sobre Windows, Mac y Linux locales. Permite asociar hasta cinco dispositivos a una cuenta y elegir los modelos de IA, y decide por su cuenta qué dispositivos, archivos y apps necesita para completar la tarea.",
+      "why_it_matters": "El agente de Rabbit deja de depender de un gadget propio y se instala en los equipos que la gente ya tiene.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+      "source": "The Verge",
+      "social": {
+        "x": "El R1 pasó sin pena ni gloria. Rabbit ahora mete su agente de IA en tu Windows, Mac o Linux, sin hardware propio y eligiendo él solo qué archivos y apps necesita.\n\n#Rabbit #AgenticOS #Windows #Linux\nhttps://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+        "linkedin": "Rabbit deja de vender cacharros y se mete en el ordenador que ya tienes.\n\nOS3 es un agentic operating system que corre en la nube pero trabaja sobre Windows, Mac y Linux locales: puedes asociar hasta cinco dispositivos a una cuenta y elegir el modelo de IA. Lo relevante es otra cosa: el agente decide por su cuenta qué dispositivos, archivos y apps necesita para completar la tarea. 𝗘𝗹 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗻𝘂𝗻𝗰𝗮 𝗳𝘂𝗲 𝗲𝗹 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼, 𝗲𝗿𝗮 𝗲𝗹 𝗽𝗲𝗮𝗷𝗲. Si funciona, el asistente deja de ser una app que abres para convertirse en algo que actúa sobre tu equipo, y eso mueve la conversación a permisos, trazabilidad y confianza.\n\n#Rabbit #AgenticOS #Windows #Linux\n\nhttps://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Google Labs lleva su agente CC a las familias y los hogares",
+      "summary": "Google Labs amplía CC a grupos, empezando por familias y hogares, con el objetivo de que sus miembros dediquen menos tiempo a la logística del día a día. El agente coordina tareas compartidas sobre las herramientas de Google.",
+      "why_it_matters": "Marca el paso de los agentes de la productividad individual a la coordinación de un grupo de personas.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups",
+      "source": "Hacker News",
+      "social": {
+        "x": "El agente personal ya no basta: Google Labs pone CC a coordinar al grupo, y empieza por las familias.\n\n#GoogleLabs #GoogleWorkspace #Agentes\nhttps://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups",
+        "linkedin": "El agente personal ya no basta: Google Labs pone CC a coordinar al grupo, y empieza por las familias.\n\nEl campo de pruebas es la logística del día a día, con tareas compartidas que CC reparte y sigue sobre las herramientas de Google que ya usamos en casa. 𝗟𝗼 𝗿𝗲𝗹𝗲𝘃𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲, 𝘀𝗶𝗻𝗼 𝗲𝗹 𝗰𝗮𝗺𝗯𝗶𝗼 𝗱𝗲 𝘂𝗻𝗶𝗱𝗮𝗱: 𝗱𝗲 𝘂𝘀𝘂𝗮𝗿𝗶𝗼 𝗮 𝗴𝗿𝘂𝗽𝗼. Si un agente puede coordinar a cuatro personas sin que nadie ejerza de project manager, el paso siguiente son los equipos de trabajo, y ahí es donde conviene mirar quién consigue acceso a calendarios, listas e hilos de conversación.\n\n#GoogleLabs #GoogleWorkspace #Agentes\n\nhttps://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Graphify convierte el código en grafos de conocimiento para agentes",
+      "summary": "Graphify es una herramienta open source que transforma bases de código y datos sin estructurar en grafos de conocimiento consultables, pensada para el razonamiento multiarchivo de los asistentes de programación. Sus últimas versiones mejoran el parser y la resolución entre archivos, aunque la comunidad pide más facilidad para integrarla en el día a día.",
+      "why_it_matters": "Dar contexto estructurado a un agente de código sigue siendo uno de los cuellos de botella más caros de resolver.",
+      "url": "https://www.infoq.com/news/2026/09/graphify-codebase-exploration",
+      "source": "InfoQ",
+      "social": {
+        "x": "Los agentes de código se pierden al razonar entre archivos. Graphify los convierte en grafos de conocimiento para que dejen de ir a ciegas.\n\n#Graphify #OpenSource #KnowledgeGraph #DevTools\nhttps://www.infoq.com/news/2026/09/graphify-codebase-exploration",
+        "linkedin": "El cuello de botella de los agentes de código no es el modelo: es el contexto.\n\nGraphify es una herramienta open source que transforma bases de código y datos sin estructurar en grafos de conocimiento consultables, pensada para el razonamiento multiarchivo de los asistentes de programación. Sus últimas versiones mejoran el parser y la resolución entre archivos, aunque la comunidad sigue pidiendo que sea más fácil meterla en el día a día. 𝗗𝗮𝗿 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮𝗱𝗼 𝗮 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝘀𝗶𝗴𝘂𝗲 𝘀𝗶𝗲𝗻𝗱𝗼 𝘂𝗻𝗼 𝗱𝗲 𝗹𝗼𝘀 𝗰𝘂𝗲𝗹𝗹𝗼𝘀 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗺á𝘀 𝗰𝗮𝗿𝗼𝘀 𝗱𝗲 𝗿𝗲𝘀𝗼𝗹𝘃𝗲𝗿, y quien lo resuelva bien se lleva una ventaja difícil de copiar en herramientas de programación asistida.\n\n#Graphify #OpenSource #KnowledgeGraph #DevTools\n\nhttps://www.infoq.com/news/2026/09/graphify-codebase-exploration"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "NVIDIA Nemotron 3 llega a la diarización de hablantes en tiempo real",
+      "summary": "Hugging Face publica la receta de NVIDIA para construir sistemas de IA multihablante en tiempo real con Nemotron 3, capaces de identificar quién habla y en qué momento. El enfoque es aplicable a transcripciones de reuniones, subtitulado y análisis de llamadas.",
+      "why_it_matters": "La diarización fiable es la pieza que faltaba para que las transcripciones automáticas sean útiles de verdad.",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Saber quién habla y cuándo era el punto que hacía inservible una transcripción. NVIDIA lo resuelve en tiempo real con Nemotron 3, y la receta es pública.\n\n#NVIDIA #Nemotron #HuggingFace\nhttps://huggingface.co/blog/nvidia/nemotron-diarization",
+        "linkedin": "Saber quién dijo qué era justo lo que hacía inservible una transcripción automática.\n\nHugging Face acaba de publicar la receta de NVIDIA con Nemotron 3 para hacer diarización en tiempo real, así que el sistema distingue a cada hablante mientras la conversación ocurre. 𝗟𝗮 𝗱𝗶𝗮𝗿𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗳𝗶𝗮𝗯𝗹𝗲 𝗲𝘀 𝗹𝗮 𝗽𝗶𝗲𝘇𝗮 𝗾𝘂𝗲 𝗳𝗮𝗹𝘁𝗮𝗯𝗮 para que las transcripciones de reuniones, el subtitulado o el análisis de llamadas sirvan de verdad. Si llevabas tiempo aparcando la transcripción automática por su mala calidad con varios interlocutores, toca volver a mirarla.\n\n#NVIDIA #Nemotron #HuggingFace\n\nhttps://huggingface.co/blog/nvidia/nemotron-diarization"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "La herramienta de terminal llm llega a la versión 0.36",
+      "summary": "Simon Willison actualiza llm, su herramienta de línea de comandos para consultar modelos desde la terminal, a la versión 0.36. El proyecto sigue siendo una vía rápida para probar prompts y encadenar modelos desde scripts sin montar una aplicación.",
+      "why_it_matters": "Es una de las formas más simples de meter modelos en la terminal y en cualquier script de shell.",
+      "url": "https://simonwillison.net/2026/Sep/22/llm",
+      "source": "Simon Willison",
+      "social": {
+        "x": "Puedes tener un modelo corriendo en tu terminal en dos comandos. Simon Willison acaba de actualizar llm a la 0.36, la vía más corta para probar prompts y encadenarlos desde un script.\n\n#llm #CLI #SimonWillison\nhttps://simonwillison.net/2026/Sep/22/llm",
+        "linkedin": "Probar un prompt no debería obligarte a abrir un notebook, una app o un navegador.\n\nllm acaba de llegar a la 0.36 y sigue fiel a lo que le dio fama: consultar modelos desde la terminal y encadenarlos dentro de un script de shell, sin montar una aplicación. 𝗣𝗮𝗿𝗮 𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗻𝗴 𝗿á𝗽𝗶𝗱𝗼 𝘀𝗶𝗴𝘂𝗲 𝘀𝗶𝗲𝗻𝗱𝗼 𝗹𝗮 𝘃í𝗮 𝗺á𝘀 𝗰𝗼𝗿𝘁𝗮 𝗾𝘂𝗲 𝗵𝗮𝘆, y eso explica que Simon Willison mantenga el foco en la CLI mientras el resto del sector construye interfaces. Si en tu equipo se copian y pegan prompts en una web, aquí hay una tarde de trabajo que se recupera sola.\n\n#llm #CLI #SimonWillison\n\nhttps://simonwillison.net/2026/Sep/22/llm"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "YouTube te deja construir tu propio algoritmo con IA",
+      "summary": "YouTube ha presentado los feeds personalizados: el usuario describe con sus propias palabras los vídeos que quiere ver y Gemini construye una pestaña a medida con esa petición. La función llega junto a otras novedades para creadores, como pruebas A/B de vídeo, miniaturas dinámicas y doblaje en directo.",
+      "why_it_matters": "Pone en manos del usuario un control explícito sobre el algoritmo que decide qué ve cada día.",
+      "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai",
+      "source": "TechCrunch",
+      "social": {
+        "x": "YouTube te deja pedirle el algoritmo con tus propias palabras: describes lo que quieres ver y Gemini te monta una pestaña a medida.\n\n#YouTube #Gemini #Google #CreadoresDeContenido\nhttps://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai",
+        "linkedin": "El algoritmo de YouTube deja de ser intocable: ahora le describes con tus palabras qué vídeos quieres ver y Gemini te construye la pestaña.\n\nDurante años la única forma de influir en él era entrenarlo sin querer, a base de clics y horas de reproducción. Esto invierte la relación y pone 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗲𝘅𝗽𝗹í𝗰𝗶𝘁𝗼 𝗱𝗲𝗹 𝗳𝗲𝗲𝗱 𝗲𝗻 𝗺𝗮𝗻𝗼𝘀 𝗱𝗲𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼, aunque queda por ver cuánto margen real tiene ese prompt frente a los objetivos publicitarios de la plataforma. Llega además con pruebas A/B de vídeo, miniaturas dinámicas y doblaje en directo para creadores.\n\n#YouTube #Gemini #Google #CreadoresDeContenido\n\nhttps://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "Qualcomm estrena chips capaces de mover un modelo MoE de 30B en el móvil",
+      "summary": "Qualcomm ha lanzado dos versiones de su Snapdragon 8 Elite Gen 6 con la IA como argumento central. El chip tope, según la compañía, puede ejecutar en local un modelo mixture-of-expert de 30.000 millones de parámetros.",
+      "why_it_matters": "Modelos grandes corriendo en el propio teléfono cambian lo que se puede hacer sin conexión ni nube.",
+      "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Sin nube y sin conexión: Qualcomm dice que su nuevo Snapdragon mueve un modelo de 30.000 millones de parámetros dentro del propio móvil.\n\n#Qualcomm #Snapdragon #OnDeviceAI\nhttps://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai",
+        "linkedin": "Qualcomm acaba de mover la línea de lo que un teléfono puede hacer sin depender de la nube.\n\nSus nuevos Snapdragon 8 Elite Gen 6, según la compañía, 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗻 𝗲𝗻 𝗹𝗼𝗰𝗮𝗹 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗺𝗶𝘅𝘁𝘂𝗿𝗲-𝗼𝗳-𝗲𝘅𝗽𝗲𝗿𝘁 𝗱𝗲 𝟯𝟬.𝟬𝟬𝟬 𝗺𝗶𝗹𝗹𝗼𝗻𝗲𝘀 𝗱𝗲 𝗽𝗮𝗿á𝗺𝗲𝘁𝗿𝗼𝘀, algo que hasta ahora era territorio de servidores. Si eso se sostiene en la práctica, cambia quién puede construir qué: asistentes, traducción o agentes que funcionan en un avión, en el metro o con datos que no salen del dispositivo. La duda que queda no es si el modelo cabe, sino cuánto dura la batería y cuánta calidad se pierde frente a la nube.\n\n#Qualcomm #Snapdragon #OnDeviceAI\n\nhttps://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "Adobe Premiere llega a Android y es gratis",
+      "summary": "Adobe lleva por fin la edición de vídeo potente a Android con una versión gratuita que ni siquiera exige cuenta de Creative Cloud. Las funciones basadas en IA sí quedan detrás de pago.",
+      "why_it_matters": "Editar vídeo en serio desde el móvil deja de requerir una suscripción para empezar.",
+      "url": "https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Premiere ya está en Android y no cuesta nada empezar: ni suscripción ni cuenta de Creative Cloud. Las funciones de IA sí se pagan.\n\n#AdobePremiere #Android #EdicionDeVideo\nhttps://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free",
+        "linkedin": "Durante años, editar vídeo en serio desde el móvil ha sido cosa de apps recortadas o de suscripciones que dolían antes de haber grabado el primer clip.\n\nAdobe acaba de llevar Premiere a Android con 𝘂𝗻𝗮 𝘃𝗲𝗿𝘀𝗶ó𝗻 𝗴𝗿𝗮𝘁𝘂𝗶𝘁𝗮 𝗾𝘂𝗲 𝗻𝗶 𝘀𝗶𝗾𝘂𝗶𝗲𝗿𝗮 𝗲𝘅𝗶𝗴𝗲 𝗰𝘂𝗲𝗻𝘁𝗮 𝗱𝗲 𝗖𝗿𝗲𝗮𝘁𝗶𝘃𝗲 𝗖𝗹𝗼𝘂𝗱, y deja las funciones de IA detrás de pago. La jugada apunta a lo obvio: el móvil es donde se graba casi todo, así que captar al creador antes de que se profesionalice vale más que la suscripción del primer mes. Para quien edita en Android, la pregunta ya no es si puede, sino qué pasa cuando quiera ir más rápido con IA.\n\n#AdobePremiere #Android #EdicionDeVideo\n\nhttps://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "Spotify abre su algoritmo de recomendación con Taste Profile",
+      "summary": "Spotify estrena Taste Profile para los usuarios Premium de Estados Unidos: pueden ver cómo la plataforma interpreta sus gustos y reescribir sus recomendaciones con lenguaje natural.",
+      "why_it_matters": "Es otro paso hacia un control del algoritmo que se ejerce hablando, no navegando por menús.",
+      "url": "https://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Spotify te deja reescribir su algoritmo en lenguaje natural. Ya no tocas menús: le dices qué te gusta y él obedece.\n\n#Spotify #LenguajeNatural #MachineLearning\nhttps://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile",
+        "linkedin": "El control del algoritmo ya no se ejerce navegando menús: se ejerce escribiendo.\nSpotify estrena Taste Profile para los usuarios Premium de Estados Unidos. Puedes ver cómo la plataforma interpreta tus gustos y reescribir sus recomendaciones en lenguaje natural, sin sliders ni géneros marcados a mano.\nLo relevante es que 𝗹𝗮 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗮𝗷𝗮 𝗻𝗲𝗴𝗿𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻 𝘁𝗲𝘅𝘁𝗼 𝗲𝗱𝗶𝘁𝗮𝗯𝗹𝗲. Para cualquier equipo de producto eso reabre una pregunta incómoda: si el usuario puede explicar lo que quiere, ¿por qué seguimos deduciéndolo? Y fija un listón que el resto de plataformas va a tener difícil ignorar.\n\n#Spotify #LenguajeNatural #MachineLearning\n\nhttps://techcrunch.com/2026/09/23/spotify-is-giving-you-the-keys-to-its-recommendation-algorithm-with-u-s-launch-of-taste-profile"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Cómo Modal escala un millón de sandboxes concurrentes en segundos",
+      "summary": "Ingenieros de Modal explican cómo reconstruyeron su infraestructura de sandboxes al margen de Kubernetes para soportar millones de entornos concurrentes y decenas de miles de creaciones por segundo.",
+      "why_it_matters": "Aislar código de agentes a gran escala es una infraestructura cada vez más crítica y aún poco documentada.",
+      "url": "https://www.infoq.com/news/2026/09/modal-scaling-sandboxes",
+      "source": "InfoQ",
+      "social": {
+        "x": "Un millón de sandboxes concurrentes y decenas de miles de creaciones por segundo. Modal lo consiguió dejando Kubernetes fuera de la ecuación.\n\n#Modal #Kubernetes #Sandboxing #Infraestructura\nhttps://www.infoq.com/news/2026/09/modal-scaling-sandboxes",
+        "linkedin": "Un millón de sandboxes concurrentes suena a cifra de marketing hasta que ves que se crean decenas de miles por segundo.\n\nModal ha reconstruido su infraestructura 𝗳𝘂𝗲𝗿𝗮 𝗱𝗲 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀 para aislar código de agentes a esa escala, y lo relevante no es el número: es que esta capa apenas estaba documentada. Si construyes agentes que ejecutan código, el aislamiento es tu cuello de botella real, y apoyarte en el orquestador por defecto ya no es la respuesta automática.\n\n#Modal #Kubernetes #Sandboxing #Infraestructura\n\nhttps://www.infoq.com/news/2026/09/modal-scaling-sandboxes"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "investigacion",
+      "title": "Cloudflare libera 100 TB de memoria en la caché DNS de 1.1.1.1",
+      "summary": "Cloudflare ha rediseñado la representación en memoria de su caché DNS Big Pineapple: cada entrada ocupa un 56 % menos y la flota ha liberado unos 100 TB de memoria de trabajo. Los cambios, escritos en Rust, suben un 43 % el ritmo de inserción en caché y recortan un 19 % la latencia de consulta.",
+      "why_it_matters": "Es un caso real de optimización de estructuras de datos a escala enorme, con técnicas reutilizables.",
+      "url": "https://www.infoq.com/news/2026/09/cloudflare-dns-cache",
+      "source": "InfoQ",
+      "social": {
+        "x": "Cloudflare ha liberado 100 TB de RAM reescribiendo una sola estructura de datos en Rust. La caché de 1.1.1.1 ahora inserta un 43 % más rápido.\n\n#Cloudflare #Rust #DNS #Rendimiento\nhttps://www.infoq.com/news/2026/09/cloudflare-dns-cache",
+        "linkedin": "Rediseñar cómo se representa un dato en memoria puede liberar 100 TB de RAM en una flota entera.\n\nEs lo que ha hecho Cloudflare en la caché de su resolutor 1.1.1.1: cada entrada ocupa un 56 % menos, el código está escrito en Rust y el ritmo de inserción sube un 43 % mientras la latencia de consulta cae un 19 %. 𝗟𝗮 𝗹𝗲𝗰𝗰𝗶ó𝗻 𝗲𝘀𝘁á 𝗲𝗻 𝗱ó𝗻𝗱𝗲 𝗮𝗽𝗮𝗿𝗲𝗰𝗶ó 𝗲𝗹 𝗮𝗵𝗼𝗿𝗿𝗼: no en añadir máquinas, sino en revisar la estructura de datos. Cualquier equipo que opere servicios a gran escala puede aplicar el mismo enfoque sin tocar su arquitectura.\n\n#Cloudflare #Rust #DNS #Rendimiento\n\nhttps://www.infoq.com/news/2026/09/cloudflare-dns-cache"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "herramientas",
+      "title": "Visual FoxPro revive con un IDE moderno y un runtime de 64 bits",
+      "summary": "FoxDev Studio recupera Visual FoxPro 9 con el mismo lenguaje, reconstruido sobre Electron, React y una máquina virtual en Rust compilada a WebAssembly. Abre los proyectos, formularios y tablas existentes sin reescribir, convertir ni exportar nada.",
+      "why_it_matters": "Queda mucho código FoxPro en producción y ahora puede seguir funcionando sin migraciones dolorosas.",
+      "url": "https://foxscript.org",
+      "source": "Hacker News",
+      "social": {
+        "x": "Hay software en producción que lleva 20 años escrito en Visual FoxPro. Acaba de volver a arrancar, con runtime de 64 bits y sin migrar nada.\n\n#VisualFoxPro #FoxDevStudio #WebAssembly #Rust\nhttps://foxscript.org",
+        "linkedin": "Visual FoxPro lleva años siendo ese código que nadie quiere tocar pero que sigue facturando cada día.\n\nFoxDev Studio lo recupera con el mismo lenguaje, pero reconstruido sobre Electron, React y una máquina virtual en Rust compilada a WebAssembly. Abre proyectos, formularios y tablas existentes 𝘀𝗶𝗻 𝗿𝗲𝗲𝘀𝗰𝗿𝗶𝗯𝗶𝗿, 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗿 𝗻𝗶 𝗲𝘅𝗽𝗼𝗿𝘁𝗮𝗿 𝗻𝗮𝗱𝗮, y con runtime de 64 bits. Para los equipos que mantienen aplicaciones de negocio en FoxPro, el cálculo cambia: ya no hay que elegir entre una migración dolorosa o seguir atado a herramientas de hace dos décadas.\n\n#VisualFoxPro #FoxDevStudio #WebAssembly #Rust\n\nhttps://foxscript.org"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Zig prohíbe las contribuciones generadas con IA y se muda de GitHub",
+      "summary": "Andrew Kelley, creador de Zig, detalla en una entrevista con JetBrains la prohibición formal de contribuciones hechas con IA y el traslado del proyecto de GitHub a Codeberg. Argumenta que los envíos automatizados degradan la calidad del código y debilitan los vínculos entre quienes participan en el open source, y señala fallos persistentes de GitHub e incentivos desalineados.",
+      "why_it_matters": "Es el caso más visible de una comunidad open source que decide cerrar la puerta a la IA generativa.",
+      "url": "https://www.infoq.com/news/2026/09/andrew-kelley-zig-no-ai",
+      "source": "InfoQ",
+      "social": {
+        "x": "Zig prohíbe las contribuciones generadas con IA y se muda de GitHub a Codeberg. Su creador: el código automatizado degrada el proyecto y deshace la comunidad.\n\n#Zig #OpenSource #GitHub #Codeberg\nhttps://www.infoq.com/news/2026/09/andrew-kelley-zig-no-ai",
+        "linkedin": "El proyecto open source más visible que dice no a la IA generativa se llama Zig. Andrew Kelley ha prohibido formalmente las contribuciones hechas con IA y ha trasladado el proyecto de GitHub a Codeberg.\n\nSu argumento no es técnico, es social: los envíos automatizados degradan la calidad del código y 𝗿𝗼𝗺𝗽𝗲𝗻 𝗹𝗼𝘀 𝘃í𝗻𝗰𝘂𝗹𝗼𝘀 𝗱𝗲 𝗰𝗼𝗻𝗳𝗶𝗮𝗻𝘇𝗮 𝗲𝗻𝘁𝗿𝗲 𝗾𝘂𝗶𝗲𝗻𝗲𝘀 𝘀𝗼𝘀𝘁𝗶𝗲𝗻𝗲𝗻 𝗲𝗹 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼. A eso suma fallos persistentes de GitHub e incentivos desalineados con las comunidades.\n\nPara cualquier proyecto que dependa de contribuciones externas, la pregunta ya no es si la IA puede escribir código, sino qué normas quiere ponerle. Zig ha elegido las más duras, y ese precedente va a presionar al resto.\n\n#Zig #OpenSource #GitHub #Codeberg\n\nhttps://www.infoq.com/news/2026/09/andrew-kelley-zig-no-ai"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "El asistente Muse de Meta se estrena con un fallo de seguridad grave",
+      "summary": "Meta ha corregido un zero-day de Muse, su nuevo asistente de IA, que habría permitido a un atacante hacer «lo que quisiera» en el Mac de la víctima. El incidente ilustra los riesgos de conceder permisos amplios a un agente de IA.",
+      "why_it_matters": "Recuerda que un agente con acceso al sistema es también una superficie de ataque de primer nivel.",
+      "url": "https://www.wired.com/story/metas-muse-ai-agent-zero-day",
+      "source": "Wired",
+      "social": {
+        "x": "El primer susto serio de un asistente de IA de consumo: un zero-day en Muse, el de Meta, dejaba a un atacante hacer lo que quisiera en tu Mac.\n\n#Meta #Muse #ZeroDay #macOS\nhttps://www.wired.com/story/metas-muse-ai-agent-zero-day",
+        "linkedin": "El asistente de IA de Meta ha estrenado su primer zero-day antes de que la mayoría sepa que existe.\n\nMeta ya lo ha corregido, y el fallo en sí importa menos que lo que revela: un agente con permisos amplios sobre el sistema es 𝘂𝗻𝗮 𝘀𝘂𝗽𝗲𝗿𝗳𝗶𝗰𝗶𝗲 𝗱𝗲 𝗮𝘁𝗮𝗾𝘂𝗲 𝗱𝗲 𝗽𝗿𝗶𝗺𝗲𝗿 𝗻𝗶𝘃𝗲𝗹. Si le das acceso al escritorio, al terminal o a tus credenciales, el modelo de amenaza deja de ser el chat y pasa a ser tu máquina. Toca preguntarse qué permisos merece de verdad un agente que todavía es nuevo.\n\n#Meta #Muse #ZeroDay #macOS\n\nhttps://www.wired.com/story/metas-muse-ai-agent-zero-day"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "herramientas",
+      "title": "Jev explicado en 25 líneas de Python",
+      "summary": "Un post de NobodyWho desmonta el hype alrededor de Jev implementándolo en apenas 25 líneas de Python, con llama.cpp y un modelo de Hugging Face. Los autores sostienen que la técnica no es la frontera que algunos venden.",
+      "why_it_matters": "Bajar una técnica de moda a 25 líneas es la mejor forma de entender qué aporta de verdad y qué no.",
+      "url": "https://www.nobodywho.ai/posts/jev-in-25-lines",
+      "source": "Hacker News",
+      "social": {
+        "x": "Jev cabe en 25 líneas de Python. Quien lo ha implementado dice que la técnica no es la frontera que algunos venden.\n\n#Python #HuggingFace #LLM\nhttps://www.nobodywho.ai/posts/jev-in-25-lines",
+        "linkedin": "Cada vez que sale una técnica nueva, la conversación se llena de fronteras y de promesas. Esta vez alguien la ha bajado a 𝟮𝟱 𝗹í𝗻𝗲𝗮𝘀 𝗱𝗲 𝗣𝘆𝘁𝗵𝗼𝗻 𝗰𝗼𝗻 𝗹𝗹𝗮𝗺𝗮.𝗰𝗽𝗽 𝘆 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗛𝘂𝗴𝗴𝗶𝗻𝗴 𝗙𝗮𝗰𝗲, y el resultado es bastante menos épico de lo que suena: la técnica es real, pero está lejos del salto que algunos venden. Para quien tiene que decidir qué adopta en su stack, la lección útil no es Jev, es el hábito de reproducir la demo antes de creerse el titular.\n\n#Python #HuggingFace #LLM\n\nhttps://www.nobodywho.ai/posts/jev-in-25-lines"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "strands-agents/harness-sdk",
+      "url": "https://github.com/strands-agents/harness-sdk",
+      "description": "SDK open source para montar agentes de IA listos para producción y controlarlos de principio a fin. Funciona con Python y TypeScript, y admite cualquier modelo y cualquier nube.",
+      "language": "Python",
+      "stars": 7668,
+      "social": {
+        "x": "Montar un agente de IA que aguante en producción es un dolor de cabeza. Este SDK open source lo resuelve con Python o TypeScript, cualquier modelo y cualquier nube. Casi 7,7k estrellas.\n\n#StrandsAgents #Python #TypeScript #OpenSource\nhttps://github.com/strands-agents/harness-sdk",
+        "linkedin": "UN SDK OPEN SOURCE PARA MONTAR AGENTES DE IA QUE AGUANTAN PRODUCCIÓN. Y SIN ATARTE A NINGÚN MODELO NI A NINGUNA NUBE.\n\nCasi todo lo que se ve de agentes son demos de fin de semana: funcionan en el portátil y se caen en cuanto llega tráfico real, aparecen errores raros o hay que auditar qué ha decidido el agente y por qué. Strands Agents publica un harness SDK pensado justo para esa parte, la que no sale en los vídeos.\n\n→ Funciona con Python y TypeScript, con la misma lógica de agente en ambos\n→ Admite cualquier modelo y cualquier nube, sin lock-in de proveedor\n→ Control de principio a fin: ciclos de ejecución, herramientas y estado del agente\n→ Enfoque de producción, no de prototipo\n→ Open source y ya con casi 7.700 estrellas\n\n𝗟𝗮 𝗱𝗶𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗵𝗮𝗿𝗻𝗲𝘀𝘀 𝗾𝘂𝗲 𝗹𝗼 𝗿𝗼𝗱𝗲𝗮.\n\nSi estás construyendo agentes de verdad, guarda este post: te dejo el repo abajo.\n\n#StrandsAgents #Python #TypeScript #OpenSource\n\nhttps://github.com/strands-agents/harness-sdk"
+      }
+    },
+    {
+      "name": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "Servidor MCP de inteligencia de código que indexa tu repositorio en un grafo de conocimiento persistente y responde consultas en milisegundos. Cubre 158 lenguajes, gasta hasta un 99% menos de tokens y llega como un único binario estático sin dependencias.",
+      "language": "C",
+      "stars": 44373,
+      "social": {
+        "x": "44.373 estrellas para un servidor MCP que indexa tu repo en un grafo y responde en milisegundos. Hasta un 99% menos de tokens y un solo binario en C.\n\n#MCP #OpenSource #C #GitHub\nhttps://github.com/DeusData/codebase-memory-mcp",
+        "linkedin": "TU AGENTE NO NECESITA LEER TODO TU REPOSITORIO OTRA VEZ.\n\nCada consulta al código vuelve a llenar la ventana de contexto con archivos enteros, y el gasto de tokens se dispara sin aportar nada nuevo. Además, el agente suele responder peor cuanta más información irrelevante le metes delante. codebase-memory-mcp ataca justo ese problema: indexa el repositorio una vez en un grafo de conocimiento persistente y responde tirando de ahí, no de un volcado de ficheros.\n\nY no es un juguete: 44.373 estrellas y escrito en C.\n\n→ Cubre 158 lenguajes, así que sirve igual para un monorepo poliglota que para un proyecto pequeño.\n→ Responde consultas en milisegundos porque el grafo ya está construido, no se recalcula en cada pregunta.\n→ Gasta hasta un 99% menos de tokens por consulta, lo que se nota directamente en la factura del modelo.\n→ Se instala como un único binario estático, sin dependencias ni runtime que mantener.\n→ Se enchufa a cualquier cliente compatible con MCP, así que no te ata a un editor concreto.\n\n𝗟𝗮 𝗶𝗱𝗲𝗮: el contexto de tu código deja de ser algo que se relee en cada consulta y pasa a ser algo que se consulta.\n\nSi trabajas con agentes sobre repositorios grandes, este es de los que conviene probar antes de que se vuelva estándar. Te dejo el repo abajo, guárdalo para tenerlo a mano.\n\n#MCP #OpenSource #C #GitHub\n\nhttps://github.com/DeusData/codebase-memory-mcp"
+      }
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "Proyecto que busca convertir cualquier programa con interfaz de línea de comandos en algo que los agentes de IA puedan manejar sin fricción. Viene con CLI-Hub, un catálogo para explorar las integraciones disponibles.",
+      "language": "Python",
+      "stars": 49782,
+      "social": {
+        "x": "Un repo convierte cualquier programa de terminal en algo que un agente de IA maneja sin fricción. Ya suma 49.782 estrellas y trae catálogo, CLI-Hub.\n\n#CLIAnything #OpenSource #Python #GitHub\nhttps://github.com/HKUDS/CLI-Anything",
+        "linkedin": "CASI 50.000 ESTRELLAS PARA UN REPO QUE PONE LA TERMINAL EN MANOS DE TUS AGENTES DE IA.\n\nHoy casi todo el mundo conecta agentes a APIs nuevas, con wrappers y SDKs a medida. Pero la mayoría de herramientas útiles siguen viviendo en la línea de comandos, y ahí la integración se convierte en trabajo manual cada vez que añades una.\n\nCLI-Anything ataca justo eso: 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗿 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗮 𝗰𝗼𝗻 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝘇 𝗱𝗲 𝗹í𝗻𝗲𝗮 𝗱𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼𝘀 𝗲𝗻 𝗮𝗹𝗴𝗼 𝗾𝘂𝗲 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗱𝗲 𝗜𝗔 𝗽𝘂𝗲𝗱𝗮 𝗺𝗮𝗻𝗲𝗷𝗮𝗿 𝘀𝗶𝗻 𝗳𝗿𝗶𝗰𝗰𝗶ó𝗻. Está escrito en Python, acumula 49.782 estrellas y viene con CLI-Hub, un catálogo para explorar las integraciones disponibles.\n\n→ Convierte programas de terminal en herramientas manejables por agentes.\n→ CLI-Hub sirve como catálogo para descubrir qué integraciones ya existen.\n→ Python como base, fácil de leer y de extender.\n→ El objetivo es quitar fricción, no envolver cada herramienta a mano.\n\nSi trabajas con agentes y te pasas el día pegando comandos, échale un ojo. Guarda el post y te dejo el repo abajo.\n\n#CLIAnything #OpenSource #Python #GitHub\n\nhttps://github.com/HKUDS/CLI-Anything"
+      }
+    },
+    {
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "Framework de skills para agentes que además propone una metodología de desarrollo de software. Viene bien para estructurar cómo trabajan tus agentes y exprimirlos en tareas reales.",
+      "language": "Shell",
+      "stars": 290498,
+      "social": {
+        "x": "obra/superpowers: 290k estrellas para un framework de skills que enseña a tus agentes a programar con método, no a improvisar.\n\n#OpenSource #GitHub #Agentes #Shell\nhttps://github.com/obra/superpowers",
+        "linkedin": "290.000 ESTRELLAS PARA UN FRAMEWORK QUE ENSEÑA A TUS AGENTES A TRABAJAR CON MÉTODO\n\nLa mayoría usa agentes de código a golpe de prompt suelto: pides algo, sale algo, y cada tarea vuelve a ser una lotería. El problema casi nunca es el modelo, es que no hay método detrás.\n\nobra/superpowers va justo a eso: un framework de skills en Shell que ordena cómo trabajan tus agentes y añade 𝘂𝗻𝗮 𝗺𝗲𝘁𝗼𝗱𝗼𝗹𝗼𝗴í𝗮 𝗱𝗲 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗼 𝗱𝗲 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 en lugar de improvisación. Y todo en abierto, sin cuota mensual ni capa de pago por encima.\n\n→ Skills reutilizables que definen cómo debe comportarse el agente en cada tipo de tarea\n→ Una metodología que estructura el trabajo, del encargo al resultado, con pasos claros\n→ Pensado para tareas reales, no para demos de laboratorio\n→ Escrito en Shell, así que encaja donde ya ejecutas tus agentes\n→ Open source y con una comunidad enorme detrás, como se ve en las estrellas\n\nSi trabajas con agentes a diario, esto te quita de encima lo que más duele: reexplicar lo mismo en cada sesión y revisar resultados que no siguen ningún criterio.\n\nGuarda el post y échale un ojo al repo, lo tienes abajo.\n\n#OpenSource #GitHub #Agentes #Shell\n\nhttps://github.com/obra/superpowers"
+      }
+    },
+    {
+      "name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "Lenguaje de diseño pensado para que los harness de IA generen interfaces mucho más cuidadas. Útil si quieres que tus agentes no se limiten a maquetar algo funcional, sino también presentable.",
+      "language": "JavaScript",
+      "stars": 70146,
+      "social": {
+        "x": "Tu agente de IA maqueta interfaces funcionales pero feas. Este repo de 70k estrellas le enseña a diseñarlas bien.\n\n#impeccable #OpenSource #JavaScript #GitHub\nhttps://github.com/pbakaus/impeccable",
+        "linkedin": "TU AGENTE DE IA SABE MAQUETAR. NO SABE DISEÑAR. ESTE REPO LO ARREGLA.\n\nLe pides una pantalla a tu harness de IA y te devuelve algo que funciona, sí, pero con espaciados raros, jerarquía inexistente y tipografía de plantilla. El resultado cumple, no convence.\n\nimpeccable es 𝘂𝗻 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲 𝗱𝗲 𝗱𝗶𝘀𝗲ñ𝗼 𝗾𝘂𝗲 𝗹𝗲 𝗱𝗮 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝘃𝗶𝘀𝘂𝗮𝗹 𝗮𝗹 𝗮𝗴𝗲𝗻𝘁𝗲: reglas que entiende y aplica solo, sin que se las repitas en cada prompt.\n\n→ Se enchufa a los flujos de generación de UI con agentes que ya usas.\n→ Va más allá de la maqueta funcional: busca interfaces presentables de verdad.\n→ Está escrito en JavaScript y se integra sin montar medio stack nuevo.\n→ Acumula más de 70.000 estrellas en GitHub.\n\nLa diferencia entre \"una interfaz que funciona\" y \"una interfaz que da gusto usar\" casi nunca es el código: es el criterio. Este repo se lo da a tu agente.\n\nGuárdate el post para la próxima vez que le pidas una pantalla y te salga un borrador. Te dejo el repo abajo.\n\n#impeccable #OpenSource #JavaScript #GitHub\n\nhttps://github.com/pbakaus/impeccable"
+      }
+    }
+  ]
+}
