@@ -50,6 +50,7 @@
         <a href="{{ '/repositorios/' | url }}"{% if esRepos %} class="is-active" aria-current="page"{% endif %}>Repositorios</a>
         <a href="{{ '/semana/' | url }}"{% if esSemana %} class="is-active" aria-current="page"{% endif %}>Semana</a>
         <a href="{{ '/archivo/' | url }}"{% if esArchivo %} class="is-active" aria-current="page"{% endif %}>Archivo</a>
+        <a class="masthead__buscar" href="{{ '/archivo/buscar/' | url }}" data-paleta aria-keyshortcuts="Control+K Meta+K /">Buscar <kbd>⌘K</kbd></a>
       </nav>
     </header>
 
@@ -57,6 +58,8 @@
 
     <script src="{{ '/js/calendario.js' | url }}?v={{ assets.calendario }}" defer></script>
     <script src="{{ '/js/compartir.js' | url }}?v={{ assets.compartir }}" defer></script>
+    <script type="module" src="{{ '/js/paleta.js' | url }}?v={{ assets.paleta }}"></script>
+    <script src="{{ '/js/tilt.js' | url }}?v={{ assets.tilt }}" defer></script>
 
     <footer class="pie">
       <a class="pie__marca" href="{{ '/' | url }}">{{ site.title }}</a>
