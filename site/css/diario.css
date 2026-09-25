@@ -1572,3 +1572,123 @@ html.is-cambiando-tema * {
     animation: none;
   }
 }
+
+/* ---------- Teléfono: vista compacta y con aire ---------- */
+
+.share-nativo .share > :not(.share__nativo) {
+  display: none;
+}
+.share__nativo {
+  width: auto;
+  gap: 0.35rem;
+  padding: 0 0.7rem;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1rem;
+  }
+
+  /* Cabecera más baja: marca, lema y menú en menos altura. */
+  .masthead {
+    padding: 1.4rem 1rem 0;
+  }
+  .masthead__name {
+    font-size: 2.4rem;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+  }
+  .masthead__tagline {
+    font-size: 0.6rem;
+    letter-spacing: 0.14em;
+    margin-top: 0.5rem;
+  }
+  .tema {
+    top: 1.15rem;
+    right: 0.5rem;
+  }
+
+  /* Menú en una sola fila deslizable. */
+  .masthead__nav {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 1.4rem;
+    margin: 1rem -1rem 0;
+    padding: 0.8rem 1rem 0.7rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+  }
+  .masthead__nav::-webkit-scrollbar {
+    display: none;
+  }
+  .masthead__nav a {
+    flex: 0 0 auto;
+  }
+  .masthead__buscar kbd {
+    display: none;
+  }
+
+  .content {
+    padding: 0 1rem 3rem;
+  }
+
+  /* Calendario y filtro: más juntos y discretos. */
+  .cal-menu-wrap {
+    margin: 0.8rem 0 1rem;
+  }
+  .filtro {
+    margin: 0 -1rem 1.6rem;
+    padding: 0.25rem 1rem;
+    width: auto;
+    max-width: none;
+    border: 0;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+  }
+  .filtro__op {
+    min-height: 32px;
+    padding: 0 0.75rem;
+    font-size: 0.6rem;
+  }
+
+  /* Noticia principal a una escala de teléfono. */
+  .lead {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+  .lead__title {
+    font-size: 1.95rem;
+    line-height: 1.1;
+    margin-bottom: 0.8rem;
+  }
+  .lead__summary {
+    font-size: 1.08rem;
+    margin-bottom: 1rem;
+  }
+  .story__title {
+    font-size: 1.3rem;
+  }
+  .stories {
+    gap: 2.2rem;
+  }
+  .why {
+    font-size: 0.93rem;
+  }
+
+  /* Categoría y compartir en la misma línea. */
+  .item-head {
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 0.6rem;
+  }
+  .kicker {
+    font-size: 0.58rem;
+  }
+}

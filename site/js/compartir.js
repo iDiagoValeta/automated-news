@@ -48,3 +48,29 @@ document.addEventListener("click", async (e) => {
     document.body.removeChild(ta);
   }
 });
+
+// En pantallas pequeñas con hoja de compartir nativa, un único botón sustituye
+// a los cuatro (publicar/copiar en X y LinkedIn): menos ruido en cada noticia.
+const movil = matchMedia("(max-width: 600px)");
+function modoNativo() {
+  const usar = Boolean(navigator.share) && movil.matches;
+  document.documentElement.classList.toggle("share-nativo", usar);
+  for (const b of document.querySelectorAll(".share__nativo")) b.hidden = !usar;
+}
+modoNativo();
+movil.addEventListener("change", modoNativo);
+document.addEventListener("click", async (e) => {
+  const btn = e.target.closest(".share__nativo");
+  if (!btn) return;
+  const art = btn.closest("article");
+  const enlace = art?.querySelector("h2 a, h3 a");
+  try {
+    const text = btn.dataset.shareText || "";
+    const datos = { title: enlace?.textContent?.trim(), text };
+    // Si el texto ya lleva el enlace, no duplicarlo.
+    if (enlace && !text.includes(enlace.href)) datos.url = enlace.href;
+    await navigator.share(datos);
+  } catch {
+    /* cancelado por el usuario */
+  }
+});

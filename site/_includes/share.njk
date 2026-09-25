@@ -22,6 +22,11 @@
       <svg class="share__ico share__ico--ok" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.5 4.5L19 7.5"/></svg>
     </button>
     {% endif %}
+    {# Móvil: un solo botón con la hoja de compartir del sistema (compartir.js). #}
+    <button class="share__btn share__nativo" type="button" data-share-text="{{ s.x.text if s.x else s.linkedin.text }}" hidden>
+      <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 002 2h10a2 2 0 002-2v-6"/></svg>
+      <span>Compartir</span>
+    </button>
     <span class="share__ok" aria-hidden="true">Copiado</span>
   </div>
   {% endif %}
