@@ -7,7 +7,7 @@
 {% include "calendario.njk" %}
 <article class="edicion">
   {% if lead %}
-    <article class="lead">
+    <article class="lead" data-categoria="{{ lead.category }}">
       <div class="item-head">
         <span class="kicker">{{ lead.category }}</span>
         {{ share(lead.social) }}
@@ -27,7 +27,7 @@
     <div class="stories">
       {% for item in edition.items %}
         {% if loop.index0 > 0 %}
-        <article class="story">
+        <article class="story" data-categoria="{{ item.category }}" style="--i: {{ loop.index0 }}">
           <div class="item-head">
             <span class="kicker">{{ item.category }}</span>
             {{ share(item.social) }}

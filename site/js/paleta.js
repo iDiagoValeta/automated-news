@@ -33,6 +33,10 @@ function marcar(i) {
 
 async function buscar() {
   const q = input.value;
+  // Esqueleto con brillo mientras llega el índice (solo la primera vez).
+  if (!index && q.trim()) {
+    lista.innerHTML = '<li class="paleta__esqueleto"></li>'.repeat(3);
+  }
   const res = searchDocs(await cargar(), q).slice(0, 8);
   lista.innerHTML = "";
   items = [];

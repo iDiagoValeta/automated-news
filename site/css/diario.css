@@ -1,6 +1,6 @@
 /* La Terminal. Estética de diario, tinta sobre papel. La separación la hace el
    espacio, no las líneas; el color se reserva a lo interactivo. Modo claro y
-   oscuro vía prefers-color-scheme. Textura: grano de papel + lavados tonales. */
+   oscuro vía prefers-color-scheme o el interruptor de tema. Textura: grano de papel + lavados tonales. */
 
 :root {
   --paper: #f7f4ec;
@@ -34,8 +34,10 @@
   --wrap: 1180px;
 }
 
+/* Oscuro: por preferencia del sistema salvo que se elija claro a mano, o
+   forzado con el interruptor (data-theme en <html>, ver base.njk). */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --paper: #1a1814;
     --paper-bright: #221f1a;
     --paper-deep: #141210;
@@ -60,6 +62,37 @@
     --grain-opacity: 0.14;
     --on-accent: #141210;
   }
+}
+:root[data-theme="dark"] {
+  --paper: #1a1814;
+  --paper-bright: #221f1a;
+  --paper-deep: #141210;
+  --ink: #e8e4dc;
+  --muted: #9a9488;
+  --faint: #3a3530;
+  --accent: #6b9bc4;
+  --link: #c8d8e8;
+  --shadow: rgba(0, 0, 0, 0.28);
+  --shadow-deep: rgba(0, 0, 0, 0.45);
+  --shadow-card: rgba(0, 0, 0, 0.2);
+  --highlight: rgba(255, 255, 255, 0.06);
+  --highlight-strong: rgba(255, 255, 255, 0.1);
+  --highlight-mid: rgba(255, 255, 255, 0.04);
+  --highlight-soft: rgba(255, 255, 255, 0.05);
+  --surface-glow: rgba(255, 255, 255, 0.04);
+  --surface-glow-strong: rgba(255, 255, 255, 0.07);
+  --text-shadow-light: rgba(0, 0, 0, 0.35);
+  --vignette: rgba(0, 0, 0, 0.32);
+  --wash-cool: rgba(51, 82, 110, 0.14);
+  --wash-warm: rgba(120, 88, 48, 0.1);
+  --grain-opacity: 0.14;
+  --on-accent: #141210;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
 }
 
 * {
@@ -1212,4 +1245,330 @@ kbd {
   display: flex;
   gap: 0.3rem;
   align-items: center;
+}
+
+/* ---------- Compartir dentro de tarjetas: sin desbordar ---------- */
+
+/* La fila de compartir puede encoger y partir en varias líneas en vez de
+   salirse de su contenedor. */
+.share {
+  flex-shrink: 1;
+  min-width: 0;
+}
+.lead,
+.story,
+.repo {
+  container-type: inline-size;
+}
+/* En columnas estrechas (tarjetas, noticias secundarias) los botones quedan
+   solo con icono; el texto sigue disponible por aria-label y title. */
+@container (max-width: 460px) {
+  .share__intent {
+    width: 30px;
+    padding: 0;
+  }
+  .share__intent span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+}
+
+/* Copiar: el icono se transforma en un check al confirmar (NotifyButton). */
+.share__copy {
+  position: relative;
+}
+.share__ico {
+  transition: opacity 0.2s ease, transform 0.3s cubic-bezier(0.3, 1.5, 0.5, 1);
+}
+.share__ico--ok {
+  position: absolute;
+  opacity: 0;
+  transform: scale(0.4) rotate(-20deg);
+}
+.share__btn.is-copied .share__ico:not(.share__ico--ok) {
+  opacity: 0;
+  transform: scale(0.4);
+}
+.share__btn.is-copied .share__ico--ok {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- Interruptor de tema (LiquidToggle) ---------- */
+
+.masthead {
+  position: relative;
+}
+.tema {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.5rem;
+  padding: 4px;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  border-radius: 999px;
+}
+.tema__pista {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 58px;
+  height: 30px;
+  padding: 0 8px;
+  border: 1px solid var(--faint);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--paper-bright) 70%, transparent);
+  box-shadow: inset 0 1px 3px var(--shadow);
+  color: var(--muted);
+  transition: background-color 0.3s, border-color 0.3s;
+}
+.tema:hover .tema__pista {
+  border-color: var(--accent);
+}
+.tema__ico {
+  position: relative;
+  z-index: 1;
+  transition: color 0.3s, transform 0.4s cubic-bezier(0.3, 1.5, 0.5, 1);
+}
+.tema__bola {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 1px 3px var(--shadow-deep), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+  /* Efecto líquido: la bola se estira mientras viaja y recupera su forma. */
+  transition:
+    transform 0.45s cubic-bezier(0.5, 1.6, 0.4, 0.9),
+    width 0.25s ease;
+}
+.tema:active .tema__bola {
+  width: 30px;
+}
+.tema[aria-checked="false"] .tema__ico--sol,
+.tema[aria-checked="true"] .tema__ico--luna {
+  color: var(--on-accent);
+}
+.tema[aria-checked="true"] .tema__bola {
+  transform: translateX(28px);
+}
+.tema[aria-checked="true"]:active .tema__bola {
+  transform: translateX(20px);
+}
+.tema[aria-checked="true"] .tema__ico--luna {
+  transform: rotate(-20deg);
+}
+/* Transición suave de colores solo al cambiar de tema, no al cargar. */
+html.is-cambiando-tema,
+html.is-cambiando-tema * {
+  transition: background-color 0.35s ease, color 0.35s ease, border-color 0.35s ease !important;
+}
+
+/* ---------- Indicador deslizante del menú (GooTabs) ---------- */
+
+.masthead__nav {
+  position: relative;
+}
+.masthead__nav a,
+.masthead__nav a:hover,
+.masthead__nav a.is-active {
+  transition: color 0.2s;
+}
+.masthead__nav.has-indicador a,
+.masthead__nav.has-indicador a:hover,
+.masthead__nav.has-indicador a.is-active {
+  border-bottom-color: transparent;
+}
+.masthead__indicador {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--accent);
+  pointer-events: none;
+}
+.masthead__indicador.is-listo {
+  transition:
+    transform 0.35s cubic-bezier(0.3, 1.3, 0.5, 1),
+    width 0.35s cubic-bezier(0.3, 1.3, 0.5, 1),
+    opacity 0.2s;
+}
+
+/* ---------- Progreso de lectura (ProgressTicks) ---------- */
+
+.progreso {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 40;
+  display: flex;
+  gap: 3px;
+  padding: 6px 8px 0;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: opacity 0.25s, transform 0.25s;
+}
+.progreso.is-visible {
+  opacity: 1;
+  transform: none;
+}
+.progreso__marca {
+  flex: 1;
+  height: 3px;
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--muted) 25%, transparent);
+  transition: background-color 0.3s, transform 0.3s cubic-bezier(0.3, 1.6, 0.5, 1);
+}
+.progreso__marca.is-leida {
+  background: color-mix(in srgb, var(--accent) 55%, transparent);
+}
+.progreso__marca.is-actual {
+  background: var(--accent);
+  transform: scaleY(1.7);
+}
+
+/* ---------- Filtro por categoría (MagneticSelect) ---------- */
+
+.filtro {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem;
+  width: fit-content;
+  max-width: 100%;
+  margin: -1rem auto 2.4rem;
+  padding: 0.3rem;
+  border: 1px solid var(--faint);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--paper-bright) 60%, transparent);
+  box-shadow: inset 0 1px 0 var(--highlight);
+}
+.filtro__op {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 34px;
+  padding: 0 0.85rem;
+  border: 0;
+  border-radius: 999px;
+  background: none;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.2s, transform 0.15s;
+}
+.filtro__op:hover {
+  color: var(--ink);
+}
+.filtro__op:active {
+  transform: scale(0.95);
+}
+.filtro__op[aria-pressed="true"] {
+  color: var(--on-accent);
+}
+.filtro__n {
+  font-weight: 400;
+  opacity: 0.7;
+  letter-spacing: 0;
+}
+.filtro__pastilla {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--accent) 35%, transparent);
+}
+.filtro.is-listo .filtro__pastilla {
+  transition:
+    transform 0.4s cubic-bezier(0.3, 1.4, 0.5, 1),
+    width 0.4s cubic-bezier(0.3, 1.4, 0.5, 1),
+    height 0.4s;
+}
+.is-oculto {
+  display: none !important;
+}
+
+/* ---------- Entrada escalonada de tarjetas ---------- */
+
+@keyframes entrada {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+.lead,
+.story,
+.repo {
+  animation: entrada 0.55s cubic-bezier(0.2, 0.8, 0.3, 1) backwards;
+  animation-delay: calc(min(var(--i, 0), 10) * 60ms);
+}
+
+/* ---------- Esqueleto de carga en la paleta ---------- */
+
+.paleta__esqueleto {
+  height: 3.1rem;
+  margin: 0.3rem 0.35rem;
+  border-radius: 8px;
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--faint) 55%, transparent) 25%,
+    color-mix(in srgb, var(--faint) 100%, transparent) 50%,
+    color-mix(in srgb, var(--faint) 55%, transparent) 75%
+  );
+  background-size: 200% 100%;
+  animation: brillo 1.2s linear infinite;
+}
+@keyframes brillo {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .tema {
+    top: 0.6rem;
+    right: 0.6rem;
+  }
+  /* Una sola fila deslizable en vez de varias líneas de pastillas. */
+  .filtro {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-top: -1.2rem;
+  }
+  .filtro::-webkit-scrollbar {
+    display: none;
+  }
+  .filtro__op {
+    flex: 0 0 auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lead,
+  .story,
+  .repo,
+  .paleta__esqueleto {
+    animation: none;
+  }
 }

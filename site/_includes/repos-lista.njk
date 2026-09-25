@@ -3,7 +3,7 @@
 <section class="repos" aria-label="Repositorios hot">
   <div class="repos__grid">
     {% for repo in repos %}
-    <article class="repo">
+    <article class="repo" style="--i: {{ loop.index0 }}">
       <div class="repo__head">
         <h3 class="repo__name">
           <a href="{{ repo.url }}" target="_blank" rel="noopener">{{ repo.name }}</a>
