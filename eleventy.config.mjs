@@ -60,6 +60,11 @@ export default function (eleventyConfig) {
   // Convierte item.social en hrefs de web intent (vacío si falta el texto).
   eleventyConfig.addFilter("shareModel", shareModel);
 
+  // El esquema guarda las categorías sin tilde (son identificadores); en
+  // pantalla se muestran con su ortografía.
+  const CATEGORIAS = { investigacion: "investigación" };
+  eleventyConfig.addFilter("categoria", (c) => CATEGORIAS[c] || c);
+
   // Agrupa ediciones (ya ordenadas desc) por año-mes para el archivo.
   eleventyConfig.addFilter("agrupaPorMes", (editions) => {
     const groups = new Map();

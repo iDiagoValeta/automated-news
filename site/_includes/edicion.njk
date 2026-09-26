@@ -1,25 +1,21 @@
 {% from "share.njk" import share %}
 
 {% set lead = edition.items[0] %}
-{% set fechas = editions %}
-{% set fechaAttr = "path" %}
-{% set fechaActual = edition.date %}
-{% include "calendario.njk" %}
 <article class="edicion">
   {% if lead %}
-    <article class="lead" data-categoria="{{ lead.category }}">
-      <div class="item-head">
-        <span class="kicker">{{ lead.category }}</span>
-        {{ share(lead.social) }}
-      </div>
+    <article class="lead">
+      <span class="kicker">{{ lead.category | categoria }}</span>
       <h2 class="lead__title">
         <a href="{{ lead.url }}" target="_blank" rel="noopener">{{ lead.title }}</a>
       </h2>
       <p class="lead__summary">{{ lead.summary }}</p>
       <p class="why"><span class="why__label">Por qué importa</span>{{ lead.why_it_matters }}</p>
-      <p class="source">
-        <a href="{{ lead.url }}" target="_blank" rel="noopener">{{ lead.source }}</a>
-      </p>
+      <div class="item-pie">
+        <p class="source">
+          <a href="{{ lead.url }}" target="_blank" rel="noopener">{{ lead.source }}</a>
+        </p>
+        {{ share(lead.social) }}
+      </div>
     </article>
   {% endif %}
 
@@ -27,19 +23,19 @@
     <div class="stories">
       {% for item in edition.items %}
         {% if loop.index0 > 0 %}
-        <article class="story" data-categoria="{{ item.category }}" style="--i: {{ loop.index0 }}">
-          <div class="item-head">
-            <span class="kicker">{{ item.category }}</span>
-            {{ share(item.social) }}
-          </div>
+        <article class="story" style="--i: {{ loop.index0 }}">
+          <span class="kicker">{{ item.category | categoria }}</span>
           <h3 class="story__title">
             <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
           </h3>
           <p class="story__summary">{{ item.summary }}</p>
           <p class="why"><span class="why__label">Por qué importa</span>{{ item.why_it_matters }}</p>
-          <p class="source">
-            <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.source }}</a>
-          </p>
+          <div class="item-pie">
+            <p class="source">
+              <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.source }}</a>
+            </p>
+            {{ share(item.social) }}
+          </div>
         </article>
         {% endif %}
       {% endfor %}
