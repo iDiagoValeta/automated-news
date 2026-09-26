@@ -1,6 +1,7 @@
 // Interacciones de la interfaz, inspiradas en bloques de Bencho (bencho.dev):
 // interruptor de tema (LiquidToggle), indicador deslizante del menú (GooTabs),
-// progreso de lectura por marcas (ProgressTicks) y selector de tipografía.
+// progreso de lectura por marcas (ProgressTicks), selector de tipografía y
+// cursor retro pixelado.
 // Todo es mejora progresiva: sin JS la página funciona igual.
 
 const reducirMovimiento = matchMedia("(prefers-reduced-motion: reduce)");
@@ -171,7 +172,73 @@ function initTipografia() {
   });
 }
 
+/* ---------- Cursor retro ---------- */
+
+// La flecha (o la manita sobre lo pulsable) es un <img> que sigue al ratón.
+// Solo con ratón y sin preferencia de movimiento reducido; sin JS queda el
+// cursor del sistema.
+function initCursor() {
+  if (!matchMedia("(hover: hover) and (pointer: fine)").matches || reducirMovimiento.matches) return;
+  // Ruta de las imágenes a partir de la hoja propia (no la primera: si hay
+  // tipografía elegida, la de Google Fonts va antes).
+  const hoja = document.querySelector('link[href*="css/diario.css"]');
+  if (!hoja) return;
+  const base = new URL("../img/", hoja.href).href;
+  const crear = (nombre) => {
+    const img = document.createElement("img");
+    img.src = `${base}cursor-${nombre}.svg`;
+    img.alt = "";
+    img.className = "cursor-retro__el";
+    img.setAttribute("aria-hidden", "true");
+    document.body.append(img);
+    return img;
+  };
+  const flecha = crear("flecha");
+  const mano = crear("mano");
+  // Punta de cada dibujo: la flecha en su esquina, la manita en el dedo.
+  const punta = new Map([[flecha, [0, 0]], [mano, [11, 0]]]);
+  const pulsable = "a, button, summary, label, [role='button']";
+  const sistema = "input, textarea, select, dialog, dialog *";
+  let x = 0;
+  let y = 0;
+  let actual = null;
+  let pendiente = false;
+
+  function pintar() {
+    pendiente = false;
+    for (const el of [flecha, mano]) el.classList.toggle("is-visible", el === actual);
+    if (!actual) return;
+    const [dx, dy] = punta.get(actual);
+    actual.style.transform = `translate(${x - dx}px, ${y - dy}px)`;
+  }
+  document.addEventListener("pointermove", (e) => {
+    if (e.pointerType !== "mouse") return;
+    x = e.clientX;
+    y = e.clientY;
+    const t = e.target instanceof Element ? e.target : null;
+    actual = !t || t.closest(sistema) ? null : t.closest(pulsable) ? mano : flecha;
+    if (!pendiente) {
+      pendiente = true;
+      requestAnimationFrame(pintar);
+    }
+  });
+  // Fuera de la ventana no se dibuja nada.
+  document.documentElement.addEventListener("mouseleave", () => {
+    actual = null;
+    pintar();
+  });
+  // El cursor del sistema solo se oculta cuando los dos dibujos han cargado;
+  // si alguno falla, se queda el del sistema.
+  Promise.all([flecha.decode(), mano.decode()])
+    .then(() => document.documentElement.classList.add("cursor-retro"))
+    .catch(() => {
+      flecha.remove();
+      mano.remove();
+    });
+}
+
 initTema();
 initTipografia();
 initIndicador();
 initProgreso();
+initCursor();
