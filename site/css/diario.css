@@ -175,27 +175,30 @@ a {
   color: inherit;
 }
 
-/* Cursor retro pixelado (flecha y manita del Mac clásico), de 32 px como
-   máximo: por encima, algunos sistemas (Linux) lo recortan. Solo con ratón;
-   el valor tras la coma es el cursor del sistema si la imagen no carga.
-   Los componentes usan var(--cursor-mano) en vez de "pointer". */
-:root {
-  --cursor-mano: pointer;
+/* Cursor retro pixelado (flecha y manita del Mac clásico), dibujado por
+   interfaz.js como un elemento que sigue al ratón. No se usa cursor: url()
+   porque Linux recorta los cursores a 32 px reales y, con la pantalla
+   escalada, la flecha se cortaba. Sobre campos de texto y la paleta (que
+   está en la capa superior y taparía el elemento) vuelve el del sistema. */
+html.cursor-retro,
+html.cursor-retro *:not(input, textarea, select, dialog, dialog *) {
+  cursor: none !important;
 }
-@media (hover: hover) and (pointer: fine) {
-  :root {
-    --cursor-mano: url("../img/cursor-mano.svg") 11 0, pointer;
-  }
-  html {
-    cursor: url("../img/cursor-flecha.svg") 0 0, default;
-  }
-  a,
-  button,
-  summary,
-  label,
-  [role="button"] {
-    cursor: var(--cursor-mano);
-  }
+/* El cursor se hereda: sin esto, la paleta se quedaría sin ninguno. */
+html.cursor-retro dialog {
+  cursor: auto;
+}
+.cursor-retro__el {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2147483647;
+  pointer-events: none;
+  image-rendering: pixelated;
+  visibility: hidden;
+}
+.cursor-retro__el.is-visible {
+  visibility: visible;
 }
 
 /* Categorías (investigación, herramientas…): etiqueta tipográfica, no cuerpo. */
@@ -554,7 +557,7 @@ a {
   color: var(--muted);
   font-size: 1.05rem;
   line-height: 1;
-  cursor: var(--cursor-mano);
+  cursor: pointer;
   transition: color 0.15s, border-color 0.15s;
 }
 .calendario__nav:hover:not(:disabled) {
@@ -756,7 +759,7 @@ a {
   border-radius: 999px;
   background: none;
   color: var(--muted);
-  cursor: var(--cursor-mano);
+  cursor: pointer;
   list-style: none;
   transition: color 0.15s, border-color 0.15s, background-color 0.15s;
 }
@@ -799,7 +802,7 @@ a {
   font-size: 0.9rem;
   text-align: left;
   text-decoration: none;
-  cursor: var(--cursor-mano);
+  cursor: pointer;
 }
 .share__item svg {
   flex-shrink: 0;
@@ -958,7 +961,7 @@ a {
   border-radius: 6px;
   background: var(--accent);
   color: var(--on-accent);
-  cursor: var(--cursor-mano);
+  cursor: pointer;
 }
 .buscar-form button:hover {
   filter: brightness(1.08);
@@ -1254,7 +1257,7 @@ kbd {
   font-family: var(--serif);
   font-size: 0.95rem;
   font-weight: 700;
-  cursor: var(--cursor-mano);
+  cursor: pointer;
   list-style: none;
   user-select: none;
   transition: color 0.15s, border-color 0.15s;
@@ -1291,7 +1294,7 @@ kbd {
   color: var(--ink);
   font-size: 1.05rem;
   text-align: left;
-  cursor: var(--cursor-mano);
+  cursor: pointer;
 }
 .tipo__op:hover {
   background: color-mix(in srgb, var(--accent) 10%, transparent);
@@ -1304,7 +1307,7 @@ kbd {
   padding: 0;
   border: 0;
   background: none;
-  cursor: var(--cursor-mano);
+  cursor: pointer;
   border-radius: 999px;
 }
 .tema__pista {
