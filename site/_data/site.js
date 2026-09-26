@@ -1,6 +1,6 @@
 export default {
   title: "La Terminal",
-  tagline: "La actualidad tecnológica, a mediodía",
+  tagline: "La actualidad tecnológica",
   url: "https://idiagovaleta.github.io/automated-news",
   descripcion:
     "Diario estático de noticias de tecnología en español, publicado cada día en GitHub Pages.",

@@ -24,10 +24,12 @@ document.addEventListener("click", async (e) => {
   if (!btn) return;
   const text = btn.getAttribute("data-copy");
   if (!text) return;
+  const aviso = `Texto para ${btn.dataset.red} copiado`;
+  btn.closest("details")?.removeAttribute("open");
   try {
     await navigator.clipboard.writeText(text);
     btn.classList.add("is-copied");
-    notificar("Texto copiado al portapapeles");
+    notificar(aviso);
     setTimeout(() => btn.classList.remove("is-copied"), 1600);
   } catch {
     // Fallback para navegadores sin permiso de portapapeles.
@@ -40,7 +42,7 @@ document.addEventListener("click", async (e) => {
     try {
       document.execCommand("copy");
       btn.classList.add("is-copied");
-      notificar("Texto copiado al portapapeles");
+      notificar(aviso);
       setTimeout(() => btn.classList.remove("is-copied"), 1600);
     } catch {
       /* nada más que hacer */
@@ -50,7 +52,7 @@ document.addEventListener("click", async (e) => {
 });
 
 // En pantallas pequeñas con hoja de compartir nativa, un único botón sustituye
-// a los cuatro (publicar/copiar en X y LinkedIn): menos ruido en cada noticia.
+// al menú de cuatro acciones (publicar/copiar en X y LinkedIn): menos ruido en cada noticia.
 const movil = matchMedia("(max-width: 600px)");
 function modoNativo() {
   const usar = Boolean(navigator.share) && movil.matches;
@@ -72,5 +74,30 @@ document.addEventListener("click", async (e) => {
     await navigator.share(datos);
   } catch {
     /* cancelado por el usuario */
+  }
+});
+
+// Animación de apertura (CSS .is-abriendo): se quita al cerrar para que
+// vuelva a dispararse en la siguiente apertura. "toggle" no burbujea.
+document.addEventListener(
+  "toggle",
+  (e) => {
+    if (e.target instanceof HTMLDetailsElement) e.target.classList.toggle("is-abriendo", e.target.open);
+  },
+  true,
+);
+
+// Menús desplegables (compartir, calendario, tipografía): se cierran al pulsar
+// fuera, al elegir un enlace o con Escape, y solo hay uno abierto a la vez.
+document.addEventListener("click", (e) => {
+  for (const d of document.querySelectorAll("details[open]")) {
+    if (!d.contains(e.target) || e.target.closest(".share__item[href]")) d.removeAttribute("open");
+  }
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key !== "Escape") return;
+  for (const d of document.querySelectorAll("details[open]")) {
+    d.removeAttribute("open");
+    d.querySelector("summary")?.focus();
   }
 });

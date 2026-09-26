@@ -6,10 +6,6 @@ permalink: "/repositorios/index.html"
 {% if reposEditions.length %}
   {% set ed = reposEditions[0] %}
   {% set repos = ed.repos %}
-  {% set fechas = reposEditions %}
-  {% set fechaAttr = "reposPath" %}
-  {% set fechaActual = ed.date %}
-  {% include "calendario.njk" %}
   {% include "repos-lista.njk" %}
 
   {% set olderPath = ed.reposOlderPath %}

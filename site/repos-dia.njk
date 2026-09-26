@@ -9,10 +9,6 @@ eleventyComputed:
   title: "Repositorios {{ ed.date | fechaCorta }} {{ ed.year }}"
 ---
 {% set repos = ed.repos %}
-{% set fechas = reposEditions %}
-{% set fechaAttr = "reposPath" %}
-{% set fechaActual = ed.date %}
-{% include "calendario.njk" %}
 {% include "repos-lista.njk" %}
 
 {% set olderPath = ed.reposOlderPath %}

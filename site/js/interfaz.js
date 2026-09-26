@@ -1,8 +1,7 @@
 // Interacciones de la interfaz, inspiradas en bloques de Bencho (bencho.dev):
 // interruptor de tema (LiquidToggle), indicador deslizante del menú (GooTabs),
-// progreso de lectura por marcas (ProgressTicks) y filtro por categoría con
-// pastilla deslizante (MagneticSelect). Todo es mejora progresiva: sin JS la
-// página funciona igual.
+// progreso de lectura por marcas (ProgressTicks) y selector de tipografía.
+// Todo es mejora progresiva: sin JS la página funciona igual.
 
 const reducirMovimiento = matchMedia("(prefers-reduced-motion: reduce)");
 const oscuroSistema = matchMedia("(prefers-color-scheme: dark)");
@@ -82,7 +81,7 @@ function initIndicador() {
 /* ---------- Progreso de lectura por marcas ---------- */
 
 function initProgreso() {
-  const lista = () => [...document.querySelectorAll(".lead, .story, .repo")].filter((a) => !a.classList.contains("is-oculto"));
+  const lista = () => [...document.querySelectorAll(".lead, .story, .repo")];
   if (lista().length < 3) return;
 
   const barra = document.createElement("div");
@@ -137,106 +136,42 @@ function initProgreso() {
   };
   addEventListener("scroll", pedir, { passive: true });
   addEventListener("resize", pedir);
-  document.addEventListener("filtrado", construir);
   construir();
 }
 
-/* ---------- Filtro por categoría ---------- */
+/* ---------- Tipografía ---------- */
 
-function initFiltro() {
-  const edicion = document.querySelector(".edicion");
-  if (!edicion) return;
-  const arts = [...edicion.querySelectorAll("[data-categoria]")];
-  const cuenta = new Map();
-  for (const a of arts) {
-    const c = a.dataset.categoria;
-    if (c) cuenta.set(c, (cuenta.get(c) || 0) + 1);
-  }
-  if (cuenta.size < 2) return;
-
-  const grupo = document.createElement("div");
-  grupo.className = "filtro";
-  grupo.setAttribute("role", "group");
-  grupo.setAttribute("aria-label", "Filtrar noticias por categoría");
-  const pastilla = document.createElement("span");
-  pastilla.className = "filtro__pastilla";
-  pastilla.setAttribute("aria-hidden", "true");
-  grupo.append(pastilla);
-
-  const estado = document.createElement("p");
-  estado.className = "visually-hidden";
-  estado.setAttribute("role", "status");
-
-  const opciones = [["", "Todas", arts.length], ...[...cuenta].map(([c, n]) => [c, c, n])];
-  const botones = opciones.map(([valor, texto, n]) => {
-    const b = document.createElement("button");
-    b.type = "button";
-    b.className = "filtro__op";
-    b.dataset.valor = valor;
-    b.setAttribute("aria-pressed", String(valor === ""));
-    b.append(texto);
-    const num = document.createElement("span");
-    num.className = "filtro__n";
-    num.textContent = String(n);
-    b.append(num);
-    grupo.append(b);
-    return b;
+// Las fuentes y su carga están en el <head> (base.njk), para aplicarlas antes
+// de pintar; aquí solo se elige y se recuerda.
+function initTipografia() {
+  const menu = document.querySelector(".tipo");
+  if (!menu) return;
+  const ops = [...menu.querySelectorAll(".tipo__op")];
+  const html = document.documentElement;
+  const pintar = () => {
+    const actual = html.dataset.fuente || "clasica";
+    for (const o of ops) o.setAttribute("aria-pressed", String(o.dataset.fuente === actual));
+  };
+  pintar();
+  // Al abrir, se cargan todas para que cada opción se vea con su letra.
+  menu.addEventListener("toggle", () => {
+    if (menu.open) for (const f of Object.keys(window.FUENTES || {})) window.cargarFuente(f);
   });
-
-  function colocar(b) {
-    pastilla.style.width = `${b.offsetWidth}px`;
-    pastilla.style.height = `${b.offsetHeight}px`;
-    pastilla.style.transform = `translate(${b.offsetLeft}px, ${b.offsetTop}px)`;
-  }
-  const elegido = () => botones.find((b) => b.getAttribute("aria-pressed") === "true");
-
-  function elegir(b) {
-    if (b === elegido()) return;
-    for (const o of botones) o.setAttribute("aria-pressed", String(o === b));
-    colocar(b);
-    const valor = b.dataset.valor;
-    let visibles = 0;
-    for (const a of arts) {
-      const ok = !valor || a.dataset.categoria === valor;
-      a.classList.toggle("is-oculto", !ok);
-      if (ok) {
-        visibles += 1;
-        if (!reducirMovimiento.matches) {
-          // Reinicia la animación de entrada para las que aparecen.
-          a.style.animation = "none";
-          void a.offsetWidth;
-          a.style.animation = "";
-        }
-      }
-    }
-    estado.textContent = valor
-      ? `${visibles} ${visibles === 1 ? "noticia" : "noticias"} de ${valor}.`
-      : `Mostrando las ${visibles} noticias.`;
-    document.dispatchEvent(new Event("filtrado"));
-  }
-
-  grupo.addEventListener("click", (e) => {
-    const b = e.target.closest(".filtro__op");
-    if (b) elegir(b);
+  menu.addEventListener("click", (e) => {
+    const o = e.target.closest(".tipo__op");
+    if (!o) return;
+    const f = o.dataset.fuente;
+    if (f === "clasica") delete html.dataset.fuente;
+    else html.dataset.fuente = f;
+    try {
+      localStorage.setItem("fuente", f);
+    } catch {}
+    pintar();
+    menu.open = false;
   });
-  // Flechas para moverse entre opciones, como una barra de herramientas.
-  grupo.addEventListener("keydown", (e) => {
-    if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
-    const i = botones.indexOf(document.activeElement);
-    if (i < 0) return;
-    e.preventDefault();
-    const sig = botones[(i + (e.key === "ArrowRight" ? 1 : -1) + botones.length) % botones.length];
-    sig.focus();
-  });
-
-  edicion.before(grupo, estado);
-  colocar(elegido());
-  requestAnimationFrame(() => requestAnimationFrame(() => grupo.classList.add("is-listo")));
-  addEventListener("resize", () => colocar(elegido()));
-  document.fonts?.ready.then(() => colocar(elegido()));
 }
 
 initTema();
+initTipografia();
 initIndicador();
-initFiltro();
 initProgreso();

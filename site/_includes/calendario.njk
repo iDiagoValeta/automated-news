@@ -1,14 +1,14 @@
-{# Botón desplegable con el calendario de fechas disponibles. Espera `fechas`
+{# Icono desplegable (en la cabecera) con el calendario de fechas disponibles. Espera `fechas`
    (lista con `.date`), `fechaAttr` (atributo de ruta) y `fechaActual`. #}
 {% if fechas and fechas.length %}
-<div class="cal-menu-wrap">
-  <details class="cal-menu">
-    <summary class="cal-menu__boton">Calendario <span class="cal-menu__chevron" aria-hidden="true">▾</span></summary>
-    <div class="cal-menu__panel">
-      <div class="calendario" data-actual="{{ fechaActual }}" aria-label="Calendario de ediciones disponibles">
-        <script type="application/json" class="calendario__datos">[{% for e in fechas %}{"d":"{{ e.date }}","u":"{{ e[fechaAttr] | url }}"}{{ "," if not loop.last }}{% endfor %}]</script>
-      </div>
+<details class="cal-menu">
+  <summary class="herramienta" aria-label="Calendario de ediciones" title="Calendario de ediciones">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></g></svg>
+  </summary>
+  <div class="cal-menu__panel">
+    <div class="calendario" data-actual="{{ fechaActual }}" aria-label="Calendario de ediciones disponibles">
+      <script type="application/json" class="calendario__datos">[{% for e in fechas %}{"d":"{{ e.date }}","u":"{{ e[fechaAttr] | url }}"}{{ "," if not loop.last }}{% endfor %}]</script>
     </div>
-  </details>
-</div>
+  </div>
+</details>
 {% endif %}
