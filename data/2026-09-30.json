@@ -1,0 +1,324 @@
+{
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T16:24:13.091Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "OpenAI lanza Dots, agentes siempre activos que trabajan por su cuenta",
+      "summary": "OpenAI ha presentado Dots, unos agentes que funcionan de forma permanente en ordenadores en la nube y que pueden corregir errores o enviar facturas olvidadas incluso antes de que se lo pidan. Se accede a ellos desde ChatGPT, Slack y Microsoft Teams, y cuando nadie trabaja con ellos siguen buscando tareas útiles con acceso de solo lectura.",
+      "why_it_matters": "Supone el salto del asistente que responde al agente que actúa solo en segundo plano, el nuevo campo de batalla frente a Muse de Meta.",
+      "url": "https://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse",
+      "source": "The Decoder",
+      "social": {
+        "x": "OpenAI ya tiene agentes que no esperan a que les pidas nada: corrigen errores y mandan facturas olvidadas por su cuenta. El asistente que responde ha muerto.\n\n#OpenAI #ChatGPT #MicrosoftTeams\nhttps://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse",
+        "linkedin": "El asistente que esperaba tu pregunta ya es la versión antigua: OpenAI lanza Dots, agentes que viven en la nube y trabajan por su cuenta.\n\nSe usan desde ChatGPT, Slack y Teams, y cuando nadie está con ellos siguen buscando tareas con permiso de solo lectura. El salto de «responde cuando le hablo» a «actúa en segundo plano» cambia lo que un equipo espera de una herramienta: 𝗹𝗮 𝘂𝗻𝗶𝗱𝗮𝗱 𝗱𝗲 𝘃𝗮𝗹𝗼𝗿 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗹𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝗰𝗶ó𝗻 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗹𝗮 𝘁𝗮𝗿𝗲𝗮 𝗰𝗲𝗿𝗿𝗮𝗱𝗮. Y abre la pregunta incómoda: quién revisa lo que hizo el agente mientras nadie miraba.\n\n#OpenAI #ChatGPT #MicrosoftTeams\n\nhttps://the-decoder.com/openai-launches-always-on-dots-agents-to-rival-metas-muse"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Instagram añade un asistente de IA para creadores en su app Edits",
+      "summary": "El asistente conversacional de Edits analiza la cuenta del creador y responde a preguntas abiertas: qué está funcionando en Instagram, por qué un vídeo rindió mejor que otro o qué contenido puede conectar con su audiencia. La propuesta es dar feedback personalizado en lugar de consejos genéricos.",
+      "why_it_matters": "Pone analítica accionable en manos de los creadores sin salir de la app, en plena competencia entre plataformas por retener talento.",
+      "url": "https://techcrunch.com/2026/09/30/instagram-rolls-out-an-ai-video-editor-for-creators",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Instagram mete un asistente de IA dentro de Edits que te dice qué vídeos funcionan y por qué. La analítica deja de ser un panel y pasa a ser una conversación.\n\n#Instagram #Edits #Meta\nhttps://techcrunch.com/2026/09/30/instagram-rolls-out-an-ai-video-editor-for-creators",
+        "linkedin": "Instagram quiere que dejes de adivinar por qué funcionó un vídeo y que se lo preguntes directamente.\n\nSu asistente conversacional en Edits analiza tu cuenta y responde en lenguaje natural: qué está funcionando, por qué un vídeo rindió mejor que otro o qué contenido puede conectar con tu audiencia. 𝗟𝗮 𝗮𝗻𝗮𝗹í𝘁𝗶𝗰𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗽𝗮𝗻𝗲𝗹 𝗱𝗲 𝗺é𝘁𝗿𝗶𝗰𝗮𝘀 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝗰𝗶ó𝗻, y eso amplía quién puede aprovecharla: creadores sin perfil técnico que antes se limitaban a mirar números sin saber qué hacer con ellos. La jugada también es de retención, porque si el feedback útil vive dentro de la app, irse a otra plataforma cuesta más.\n\n#Instagram #Edits #Meta\n\nhttps://techcrunch.com/2026/09/30/instagram-rolls-out-an-ai-video-editor-for-creators"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "DoorDash estrena un agente de IA al que se le pide comida por mensaje",
+      "summary": "DoorDash lanza un agente text-to-order: basta escribir «pide lo de siempre» y el bot resuelve el pedido sin abrir la aplicación. La función amplía lo que ya hacía el chatbot Ask DoorDash dentro de la app y llega acompañada de entregas con drones en el norte de California.",
+      "why_it_matters": "Lleva la conversación a la interfaz más universal, los mensajes, y aprieta la competencia con Uber Eats y Grubhub.",
+      "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Escribes «pide lo de siempre» y el pedido se resuelve solo, sin abrir la app. DoorDash se muda a la interfaz donde ya vives: tus mensajes.\n\n#DoorDash #UberEats #Grubhub\nhttps://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food",
+        "linkedin": "La app de delivery lleva años siendo el peaje que todos pagamos por pedir comida. DoorDash acaba de saltárselo con un agente que recibe el pedido por mensaje: escribes «pide lo de siempre» y el bot lo resuelve sin abrir nada.\n\nLa jugada no es la IA, es dónde la coloca. 𝗟𝗼𝘀 𝗺𝗲𝗻𝘀𝗮𝗷𝗲𝘀 𝘀𝗼𝗻 𝗹𝗮 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝘇 𝗺á𝘀 𝘂𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗾𝘂𝗲 𝗲𝘅𝗶𝘀𝘁𝗲 𝘆 𝗻𝗮𝗱𝗶𝗲 𝘁𝗶𝗲𝗻𝗲 𝗾𝘂𝗲 𝗶𝗻𝘀𝘁𝗮𝗹𝗮𝗿𝘀𝗲 𝗻𝗮𝗱𝗮 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿𝗹𝗮, así que la barrera de entrada al pedido baja casi a cero y la conversación pasa a ser el nuevo embudo de conversión. Para Uber Eats y Grubhub el reto no es copiar el bot, es que su producto deja de ser el destino y pasa a ser el backend. Y para los equipos que construyen sobre delivery, toca preguntarse si su interfaz seguirá siendo suya dentro de dos años.\n\n#DoorDash #UberEats #Grubhub\n\nhttps://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "OpenAI convierte ChatGPT en algo parecido a un sistema operativo",
+      "summary": "En su DevDay, OpenAI añadió espacios de trabajo compartidos, documentos y presentaciones colaborativas, un sistema abierto de plugins con automatización de eventos vía MCP, integraciones con Slack y Microsoft Teams y un marketplace empresarial con 32 socios. También estrena un plan Pro 500.",
+      "why_it_matters": "ChatGPT deja de ser un chat y pasa a ser la capa donde se trabaja y se integran otras herramientas.",
+      "url": "https://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system",
+      "source": "The Decoder",
+      "social": {
+        "x": "ChatGPT deja de ser un chat: con espacios compartidos, plugins y MCP, OpenAI quiere que sea la capa donde trabajas.\n\n#OpenAI #ChatGPT #MCP #DevDay\nhttps://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system",
+        "linkedin": "El anuncio interesante del DevDay no es ninguna función suelta: es que OpenAI quiere que ChatGPT deje de ser una pestaña y pase a ser la capa donde trabajas.\n\nCon espacios de trabajo compartidos, documentos y presentaciones colaborativas, un sistema abierto de plugins con automatización de eventos vía MCP e integraciones con Slack y Microsoft Teams, el producto se parece cada vez más a un sistema operativo y menos a un chat. Y con un marketplace empresarial de 32 socios, 𝗹𝗼 𝗾𝘂𝗲 𝗲𝘀𝘁á 𝗲𝗻 𝗷𝘂𝗲𝗴𝗼 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝘀𝗶𝗻𝗼 𝗾𝘂𝗶é𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮 𝗲𝗹 𝗽𝘂𝗻𝘁𝗼 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗮𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗱𝗶𝗮𝗿𝗶𝗼. Para los equipos de producto, la pregunta deja de ser qué asistente usar y pasa a ser cuánto de su flujo de trabajo quieren entregar a un único proveedor.\n\n#OpenAI #ChatGPT #MCP #DevDay\n\nhttps://the-decoder.com/openais-reveals-a-new-chatgpt-that-looks-less-like-a-chatbot-and-more-like-an-operating-system"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Codex amplía miras: entornos reutilizables, escaneos de seguridad y API de decisiones",
+      "summary": "OpenAI dota a Codex de entornos en la nube reutilizables, análisis de seguridad automáticos para repositorios de GitHub y una vista de revisión de código en la aplicación de escritorio. La Agents API incorpora Computer Use y aparece una Decisions API para decisiones rápidas y puntuales, junto al nivel Ultrafast, hasta ocho veces más rápido y seis veces más caro.",
+      "why_it_matters": "Mete a los agentes de código en el flujo real de revisión y despliegue, con controles de seguridad incluidos.",
+      "url": "https://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast",
+      "source": "The Decoder",
+      "social": {
+        "x": "OpenAI quiere meter a Codex en tu flujo real: entornos reutilizables, escaneo de seguridad en repos de GitHub y una API de decisiones. Ultrafast va 8 veces más rápido y cuesta 6 veces más.\n\n#OpenAI #Codex #GitHub #DevTools\nhttps://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast",
+        "linkedin": "Codex ya no se queda en el chat: ahora revisa repos, escanea seguridad y se mete en el despliegue.\n\nOpenAI ha añadido entornos reutilizables en la nube, análisis de seguridad automático para repos de GitHub y una vista de revisión de código en la app de escritorio. La Agents API suma Computer Use, aparece una Decisions API para decisiones rápidas y puntuales, y el nivel Ultrafast promete hasta ocho veces más velocidad a seis veces el precio. La lectura interesante es otra: 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗲𝗻𝘁𝗿𝗮 𝗲𝗻 𝗲𝗹 𝗽𝗿𝗼𝗰𝗲𝘀𝗼 𝗱𝗲 𝗿𝗲𝘃𝗶𝘀𝗶ó𝗻 𝘆 𝗱𝗲𝘀𝗽𝗹𝗶𝗲𝗴𝘂𝗲, 𝗻𝗼 𝗲𝗻 𝘂𝗻𝗮 𝗽𝗲𝘀𝘁𝗮ñ𝗮 𝗮𝗽𝗮𝗿𝘁𝗲. Ahí es donde se mide de verdad si un equipo confía en él, y donde los controles de seguridad dejan de ser un extra.\n\n#OpenAI #Codex #GitHub #DevTools\n\nhttps://the-decoder.com/openai-expands-codex-and-its-api-at-devday-with-security-scans-a-decisions-api-and-ultrafast"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "DeepSeek y Huawei publican herramientas open source para los chips Ascend",
+      "summary": "DeepSeek y Huawei han desarrollado en abierto utilidades de programación para los aceleradores Ascend, con TileLang como pieza central, un lenguaje que busca un modelo de programación más sencillo que CUDA. El objetivo es atacar el mayor lastre de la industria china de IA: el software capaz de exprimir sus propios chips.",
+      "why_it_matters": "Si el software chino para Ascend madura, se reduce la dependencia de CUDA y del ecosistema de Nvidia.",
+      "url": "https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips",
+      "source": "The Decoder",
+      "social": {
+        "x": "El mayor lastre de la IA china no son los chips, es el software capaz de exprimirlos. DeepSeek y Huawei acaban de publicar en abierto la vía para soltarse de CUDA.\n\n#DeepSeek #Huawei #Ascend #CUDA\nhttps://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips",
+        "linkedin": "El cuello de botella de la IA china nunca fueron los chips, sino el software capaz de exprimirlos.\n\nDeepSeek y Huawei han publicado en abierto utilidades de programación para los aceleradores Ascend, con TileLang como pieza central: un lenguaje que busca un modelo de programación más sencillo que CUDA. 𝗟𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗿𝗲𝗮𝗹 𝗱𝗲 𝗡𝘃𝗶𝗱𝗶𝗮 𝗻𝘂𝗻𝗰𝗮 𝗳𝘂𝗲 𝗲𝗹 𝘀𝗶𝗹𝗶𝗰𝗶𝗼, 𝗳𝘂𝗲 𝗲𝗹 𝗲𝗰𝗼𝘀𝗶𝘀𝘁𝗲𝗺𝗮: décadas de librerías, documentación y gente que sabe usarlas. Lo abierto es la única vía realista para que un competidor deje de ser una alternativa de nicho, y aquí lo están aplicando justo donde más duele.\n\n#DeepSeek #Huawei #Ascend #CUDA\n\nhttps://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Hunch, un Ctrl+F que busca respuestas y no solo palabras",
+      "summary": "Un desarrollador ha creado Hunch, una extensión para Firefox, Chrome y Safari que resalta los párrafos que responden a la búsqueda en lugar de los que repiten las mismas palabras. Está pensada para casos como buscar «hazte pasar por un navegador» y dar con la opción --user-agent.",
+      "why_it_matters": "Mejora una función que usamos cientos de veces por semana sin obligar a cambiar de herramienta.",
+      "url": "https://blog.tymscar.com/posts/hunchsemanticfind",
+      "source": "Lobsters",
+      "social": {
+        "x": "Escribes «hazte pasar por un navegador» y el Ctrl+F no encuentra nada. Hunch sí: resalta el párrafo que responde, no la palabra exacta.\n\n#Firefox #Chrome #Safari #Extensiones\nhttps://blog.tymscar.com/posts/hunchsemanticfind",
+        "linkedin": "El Ctrl+F encuentra palabras. Hunch encuentra respuestas.\n\nEs una extensión para Firefox, Chrome y Safari que resalta los párrafos que contestan a tu búsqueda en lugar de los que repiten el término. La diferencia se nota cuando tú y la documentación llamáis a lo mismo de forma distinta: pides «hazte pasar por un navegador» y te lleva directo a la opción --user-agent. 𝗘𝗹 𝘃𝗮𝗹𝗼𝗿 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗰𝗮𝗺𝗯𝗶𝗮𝗿 𝗱𝗲 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗾𝘂𝗲 𝗹𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗲𝗻𝘁𝗶𝗲𝗻𝗱𝗮 𝗹𝗼 𝗾𝘂𝗲 𝗯𝘂𝘀𝗰𝗮𝘀. Para quien vive dentro de documentación ajena, eso es tiempo recuperado cada día.\n\n#Firefox #Chrome #Safari #Extensiones\n\nhttps://blog.tymscar.com/posts/hunchsemanticfind"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "DeepMind presenta SynthID Bio para marcar contenido generado por IA",
+      "summary": "Google DeepMind amplía su tecnología de marcado de agua SynthID con una variante orientada al ámbito biológico, pensada para señalar material producido por modelos de IA en ese terreno.",
+      "why_it_matters": "El marcado invisible llega a un campo donde distinguir lo generado por IA es especialmente delicado.",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "DeepMind acaba de esconder una marca de agua invisible en lo que la IA genera en biología. ¿Sabrías distinguirlo sin su detector?\n\n#DeepMind #SynthID #GoogleDeepMind\nhttps://deepmind.google/blog/introducing-synthid-bio",
+        "linkedin": "Saber si un resultado biológico lo ha escrito una persona o un modelo ya no es un detalle académico.\n\nDeepMind amplía SynthID, su sistema de marca de agua invisible, con una variante pensada para el ámbito biológico, justo donde la frontera entre un dato real y uno generado puede pesar en una revisión o en una decisión de laboratorio. 𝗟𝗮 𝘁𝗿𝗮𝘇𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗲𝘅𝘁𝗿𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮, y quien no la incorpore ahora tendrá que improvisarla cuando el problema ya le haya estallado encima.\n\n#DeepMind #SynthID #GoogleDeepMind\n\nhttps://deepmind.google/blog/introducing-synthid-bio"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Hugging Face abre un ranking para evaluar voz sintética y clonación de voz",
+      "summary": "El Open TTS Leaderboard de Hugging Face ofrece una evaluación escalable de text-to-speech multilingüe y de clonación de voz, con el fin de comparar modelos en condiciones homogéneas y reproducibles.",
+      "why_it_matters": "Faltaba un baremo común para elegir modelo de voz, y esto facilita mucho la decisión técnica.",
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Elegir un modelo de voz era ir a ciegas. Hugging Face acaba de abrir un ranking que compara TTS y clonación de voz en las mismas condiciones.\n\n#HuggingFace #TTS #OpenSource #VoiceCloning\nhttps://huggingface.co/blog/open-tts-leaderboard",
+        "linkedin": "Elegir modelo de voz siempre fue un acto de fe. El Open TTS Leaderboard de Hugging Face cambia eso: 𝘂𝗻 𝗯𝗮𝗿𝗲𝗺𝗼 𝗰𝗼𝗺ú𝗻 𝘆 𝗿𝗲𝗽𝗿𝗼𝗱𝘂𝗰𝗶𝗯𝗹𝗲 𝗽𝗮𝗿𝗮 𝗧𝗧𝗦 𝗺𝘂𝗹𝘁𝗶𝗹𝗶𝗻𝗴ü𝗲 𝘆 𝗰𝗹𝗼𝗻𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝘃𝗼𝘇. Para cualquier equipo que integre voz en un producto, la decisión deja de depender de demos sueltas y se apoya en comparativas homogéneas. Y en un terreno donde lo abierto avanza deprisa, tener un árbitro neutral vale casi tanto como el propio modelo.\n\n#HuggingFace #TTS #OpenSource #VoiceCloning\n\nhttps://huggingface.co/blog/open-tts-leaderboard"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "Cursor rediseña su almacenamiento de Git con un WAL sobre S3",
+      "summary": "Cursor ha presentado Continuity, una arquitectura de almacenamiento Git que usa un write ahead log sobre S3 como fuente de verdad y convierte los repositorios en NVMe locales en cachés térmicas. En pruebas sintéticas con S3 Express One Zone reporta escalado lineal de lecturas hasta 100 réplicas y más de 300 pushes por segundo.",
+      "why_it_matters": "Muestra cómo escalar Git más allá de sus límites clásicos, algo cada vez más necesario con agentes que escriben código sin parar.",
+      "url": "https://www.infoq.com/news/2026/09/cursor-continuity-git-storage",
+      "source": "InfoQ",
+      "social": {
+        "x": "Git se diseñó para un disco local. Cursor lo ha movido a S3 y ahora aguanta 300 pushes por segundo.\n\n#Git #Cursor #S3 #DevTools\nhttps://www.infoq.com/news/2026/09/cursor-continuity-git-storage",
+        "linkedin": "Git lleva dos décadas asumiendo que el repositorio vive en un disco local. Cursor acaba de romper esa premisa con Continuity: un write-ahead log sobre S3 como fuente de verdad y los repositorios convertidos en cachés térmicas sobre NVMe.\n\nEn pruebas con S3 Express One Zone reporta escalado lineal de lecturas hasta 100 réplicas y más de 300 pushes por segundo. Lo relevante no es la cifra, sino el motivo: los agentes que escriben código sin parar están llevando a Git a un régimen de escritura para el que nunca se pensó. 𝗘𝘀𝗰𝗮𝗹𝗮𝗿 𝗚𝗶𝘁 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘂𝗻 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗱𝗲 𝗺á𝘀 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲, 𝘀𝗶𝗻𝗼 𝗱𝗲 𝗱𝗲𝗰𝗶𝗱𝗶𝗿 𝗱ó𝗻𝗱𝗲 𝘃𝗶𝘃𝗲 𝗹𝗮 𝗳𝘂𝗲𝗻𝘁𝗲 𝗱𝗲 𝘃𝗲𝗿𝗱𝗮𝗱. Si tienes monorepos grandes o CI con muchas réplicas leyendo a la vez, esto te afecta antes de lo que crees.\n\n#Git #Cursor #S3 #DevTools\n\nhttps://www.infoq.com/news/2026/09/cursor-continuity-git-storage"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "SvelteKit 3 llega a release candidate con la configuración en Vite",
+      "summary": "El equipo de Svelte ha entrado en fase release candidate de SvelteKit 3, que traslada la configuración a vite.config.ts y sustituye el alias $lib por #lib. Requiere Vite 8 y Svelte 5, y mejora el tratamiento de errores y la eficiencia de compilación.",
+      "why_it_matters": "Es el framework de referencia para quien construye con Svelte y anticipa cambios que romperán compatibilidad.",
+      "url": "https://www.infoq.com/news/2026/09/sveltekit-3-vite",
+      "source": "InfoQ",
+      "social": {
+        "x": "SvelteKit 3 ya está en release candidate: la configuración se muda a vite.config.ts y el alias $lib pasa a ser #lib. Dos cambios que romperán tu proyecto.\n\n#Svelte #SvelteKit #Vite #JavaScript\nhttps://www.infoq.com/news/2026/09/sveltekit-3-vite",
+        "linkedin": "El alias que escribes en cada import de un proyecto Svelte está a punto de cambiar de nombre, y con él media documentación que circula por ahí.\n\nSvelteKit 3 ya está en release candidate: la configuración se traslada a vite.config.ts, $lib pasa a ser #lib y el framework exige Vite 8 y Svelte 5. 𝗟𝗮 𝗺𝗶𝗴𝗿𝗮𝗰𝗶ó𝗻 𝗻𝗼 𝗲𝘀 𝗰𝗼𝘀𝗺é𝘁𝗶𝗰𝗮: cualquier receta, plugin o script que dé por hecho el alias antiguo deja de funcionar.\n\nLo interesante es el momento. Al estar en RC, todavía hay margen para adaptar el tooling propio, las plantillas y la documentación interna antes de que el cambio llegue a producción. Para quien mantiene librerías o starters sobre SvelteKit, esa ventana vale más que esperar al release final.\n\n#Svelte #SvelteKit #Vite #JavaScript\n\nhttps://www.infoq.com/news/2026/09/sveltekit-3-vite"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Anthropic avisa: el modelo abierto GLM-5.3 casi iguala a Claude Mythos creando exploits",
+      "summary": "Anthropic asegura que GLM-5.3, el modelo de pesos abiertos de Zhipu, genera exploits de ciberseguridad de extremo a extremo casi al nivel de su Claude Mythos Preview, y que la variante Flash logró un ataque fiable contra Chrome por 20,40 dólares usando la API de Zhipu. Las salvaguardas son fáciles de eliminar y ya circulan versiones sin restricciones.",
+      "why_it_matters": "Un modelo abierto con capacidad ofensiva avanzada y sin protecciones efectivas cambia el cálculo de riesgo de toda la industria.",
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "source": "Hacker News",
+      "social": {
+        "x": "GLM-5.3 es abierto, genera exploits casi al nivel de Claude Mythos y tumbar Chrome le costó 20,40 dólares. Y las salvaguardas se eliminan con facilidad.\n\n#Anthropic #GLM #Ciberseguridad #OpenSource\nhttps://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+        "linkedin": "La brecha entre un modelo cerrado y uno abierto acaba de cerrarse en el terreno que nadie quería: el ofensivo.\n\nAnthropic sitúa a GLM-5.3, el modelo de pesos abiertos de Zhipu, casi al nivel de Claude Mythos Preview generando exploits de extremo a extremo, y su variante Flash consiguió un ataque fiable contra Chrome por 20,40 dólares usando la API de Zhipu. Lo que cambia el cálculo no es solo la capacidad, sino que 𝘀𝘂𝘀 𝘀𝗮𝗹𝘃𝗮𝗴𝘂𝗮𝗿𝗱𝗮𝘀 𝘀𝗲 𝗲𝗹𝗶𝗺𝗶𝗻𝗮𝗻 𝗰𝗼𝗻 𝗳𝗮𝗰𝗶𝗹𝗶𝗱𝗮𝗱 𝘆 𝘆𝗮 𝗰𝗶𝗿𝗰𝘂𝗹𝗮𝗻 𝘃𝗲𝗿𝘀𝗶𝗼𝗻𝗲𝘀 𝘀𝗶𝗻 𝗿𝗲𝘀𝘁𝗿𝗶𝗰𝗰𝗶𝗼𝗻𝗲𝘀. Para cualquier equipo de seguridad, la pregunta deja de ser si un atacante puede acceder a capacidad ofensiva avanzada, sino a qué precio y con cuánta fricción.\n\n#Anthropic #GLM #Ciberseguridad #OpenSource\n\nhttps://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "Inyecciones de prompt que se autorreplican: el gusano llega a la IA",
+      "summary": "Los investigadores describen un ataque en el que las inyecciones de prompt se copian y se propagan solas entre sistemas, al estilo de un gusano informático. El vector aprovecha que los agentes leen contenido externo y actúan a partir de él.",
+      "why_it_matters": "Es una amenaza con nombre propio para cualquiera que despliegue agentes que consumen texto de terceros.",
+      "url": "https://www.theregister.com/security/2026/09/29/add-one-more-ai-worry-to-the-nightmare-scenario-self-replicating-prompt-injections/5299922",
+      "source": "The Register",
+      "social": {
+        "x": "Un prompt malicioso ya no hace falta escribirlo una vez: se copia solo y salta de agente en agente. La inyección de prompt acaba de aprender a reproducirse.\n\n#PromptInjection #LLM #Ciberseguridad #Agentes\nhttps://www.theregister.com/security/2026/09/29/add-one-more-ai-worry-to-the-nightmare-scenario-self-replicating-prompt-injections/5299922",
+        "linkedin": "La inyección de prompt acaba de aprender a reproducirse sola.\n\nHasta ahora era un problema local: alguien escondía instrucciones en una web o un documento y el modelo las obedecía una vez. Los investigadores describen ahora un gusano que 𝘀𝗲 𝗰𝗼𝗽𝗶𝗮 𝘆 𝘀𝗲 𝗽𝗿𝗼𝗽𝗮𝗴𝗮 𝗲𝗻𝘁𝗿𝗲 𝘀𝗶𝘀𝘁𝗲𝗺𝗮𝘀 𝘀𝗶𝗻 𝗶𝗻𝘁𝗲𝗿𝘃𝗲𝗻𝗰𝗶ó𝗻 𝗵𝘂𝗺𝗮𝗻𝗮, aprovechando que los agentes leen contenido de terceros y actúan a partir de él. Para quien despliega agentes que consumen texto externo, la superficie de ataque deja de ser el modelo y pasa a ser todo lo que el agente lee. Tratar ese contenido como código no confiable ya no es paranoia, es requisito de diseño.\n\n#PromptInjection #LLM #Ciberseguridad #Agentes\n\nhttps://www.theregister.com/security/2026/09/29/add-one-more-ai-worry-to-the-nightmare-scenario-self-replicating-prompt-injections/5299922"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "Diffusion Controller unifica y simplifica la generación de imágenes con IA",
+      "summary": "Google Research presenta Diffusion Controller, un método que unifica distintos tipos de control sobre los modelos de difusión y simplifica su uso a la hora de generar imágenes.",
+      "why_it_matters": "Menos piezas sueltas para dirigir un modelo de difusión se traduce en flujos de trabajo más sencillos.",
+      "url": "https://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation",
+      "source": "Google Research",
+      "social": {
+        "x": "Controlar un modelo de difusión era un puzle de parches distintos para cada tipo de guía. Google Research lo deja en una sola pieza.\n\n#GoogleResearch #DiffusionController #GenerativeAI\nhttps://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation",
+        "linkedin": "Dirigir un modelo de difusión hoy es ir cosiendo parches: un controlador para la pose, otro para la profundidad, otro para el estilo.\n\nGoogle Research presenta Diffusion Controller, un método que 𝘂𝗻𝗶𝗳𝗶𝗰𝗮 𝘁𝗼𝗱𝗼𝘀 𝗲𝘀𝗼𝘀 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗲𝘀 𝗲𝗻 𝘂𝗻𝗮 𝘀𝗼𝗹𝗮 𝗽𝗶𝗲𝘇𝗮 y simplifica cómo se le pide una imagen al modelo. El cambio no va de calidad de imagen, va de flujo de trabajo: menos código propio que mantener, menos combinaciones que se rompen y equipos que antes necesitaban a alguien especializado ahora pueden iterar más rápido. Si construyes producto sobre generación de imágenes, esta es la parte del pipeline que llevabas tiempo parcheando a mano.\n\n#GoogleResearch #DiffusionController #GenerativeAI\n\nhttps://research.google/blog/how-diffusion-controller-unifies-and-simplifies-ai-image-generation"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Un sistema de machine learning anticipa el impacto del clima espacial en la red eléctrica",
+      "summary": "Microsoft Research describe un pipeline de machine learning que usa información del viento solar en el momento de la previsión para estimar el riesgo en 66.935 subestaciones de Estados Unidos. El sistema avisa entre 30 y 60 minutos antes de que llegue la tormenta.",
+      "why_it_matters": "Con ese margen, los operadores pueden proteger transformadores y evitar daños costosos.",
+      "url": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids",
+      "source": "Microsoft Research",
+      "social": {
+        "x": "Una tormenta solar puede freír transformadores en minutos. Microsoft Research ya avisa de 30 a 60 minutos antes, subestación por subestación.\n\n#MicrosoftResearch #MachineLearning #ClimaEspacial #RedElectrica\nhttps://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids",
+        "linkedin": "El clima espacial deja de ser un riesgo difuso cuando puedes señalar qué subestación va a sufrir.\n\nMicrosoft Research ha descrito un pipeline de machine learning que cruza datos del viento solar en el momento de la previsión con un mapa de 66.935 subestaciones de Estados Unidos, y emite un 𝗮𝘃𝗶𝘀𝗼 𝗱𝗲 𝟯𝟬 𝗮 𝟲𝟬 𝗺𝗶𝗻𝘂𝘁𝗼𝘀 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗾𝘂𝗲 𝗹𝗹𝗲𝗴𝘂𝗲 𝗹𝗮 𝘁𝗼𝗿𝗺𝗲𝗻𝘁𝗮. Para un operador de red, ese margen es exactamente el que separa un transformador protegido de uno quemado, y el coste de sustituirlo no es pequeño. La parte interesante no es el modelo en sí, sino que convierte una predicción geofísica en una decisión operativa concreta: qué activo atiendes primero. El siguiente paso lógico es llevarlo a producción con datos en tiempo real, y ahí es donde se verá si el enfoque aguanta.\n\n#MicrosoftResearch #MachineLearning #ClimaEspacial #RedElectrica\n\nhttps://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "herramientas",
+      "title": "Cloudflare prepara certificados TLS resistentes a ataques cuánticos",
+      "summary": "Cloudflare planea emitir certificados TLS con criptografía poscuántica como parte de una renovación profunda del sistema de autenticación de sitios web.",
+      "why_it_matters": "Adelanta la migración a algoritmos llamados a sobrevivir a los ordenadores cuánticos.",
+      "url": "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Cloudflare ya prepara certificados TLS poscuánticos. El ordenador cuántico que los rompería todavía no existe, pero la web ya se está mudando.\n\n#Cloudflare #PostQuantum #TLS #Criptografía\nhttps://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates",
+        "linkedin": "Cloudflare va a emitir certificados TLS poscuánticos antes de que exista el ordenador cuántico capaz de romper los actuales.\n\nLa criptografía que sostiene las conexiones de medio internet se apoya en problemas que una máquina cuántica resolvería con relativa facilidad, y la migración no se improvisa: hay que cambiar algoritmos, navegadores y toda la cadena de confianza sin romper nada por el camino. 𝗟𝗼 𝗱𝗶𝗳í𝗰𝗶𝗹 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗺𝗼 𝗻𝘂𝗲𝘃𝗼, 𝗲𝘀 𝗺𝗼𝘃𝗲𝗿 𝗮 𝗺𝗶𝗹𝗹𝗼𝗻𝗲𝘀 𝗱𝗲 𝘀𝗶𝘁𝗶𝗼𝘀 𝘆 𝗰𝗹𝗶𝗲𝗻𝘁𝗲𝘀 𝗮 𝗹𝗮 𝘃𝗲𝘇. Si tocas infraestructura o seguridad, el calendario poscuántico ya ha arrancado, aunque el riesgo real parezca lejano.\n\n#Cloudflare #PostQuantum #TLS #Criptografía\n\nhttps://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "OpenClaw se pone traje: Red Hat, Nvidia y OpenAI preparan una versión empresarial",
+      "summary": "El proyecto OpenClaw, vetado en muchas empresas, trabaja en una edición enterprise que sus impulsores describen como «Kubernetes para agentes», con Red Hat, Nvidia y OpenAI entre los implicados.",
+      "why_it_matters": "Si los agentes se van a estandarizar, hace falta una capa común de despliegue y control como la que hubo para los contenedores.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/30/openclaw-slips-on-a-suit-to-evade-widespread-business-bans/5299962",
+      "source": "The Register",
+      "social": {
+        "x": "OpenClaw, el proyecto vetado en muchas empresas, ahora tiene a Red Hat, Nvidia y OpenAI construyendo su versión enterprise. ¿Kubernetes para agentes?\n\n#OpenClaw #Kubernetes #RedHat #OpenAI\nhttps://www.theregister.com/ai-and-ml/2026/09/30/openclaw-slips-on-a-suit-to-evade-widespread-business-bans/5299962",
+        "linkedin": "OpenClaw, el proyecto vetado en muchas empresas, ahora tiene a Red Hat, Nvidia y OpenAI construyendo su edición enterprise.\nSus impulsores lo describen como «Kubernetes para agentes»: 𝘂𝗻𝗮 𝗰𝗮𝗽𝗮 𝗰𝗼𝗺ú𝗻 𝗱𝗲 𝗱𝗲𝘀𝗽𝗹𝗶𝗲𝗴𝘂𝗲 𝘆 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗽𝗮𝗿𝗮 𝗲𝘀𝘁𝗮𝗻𝗱𝗮𝗿𝗶𝘇𝗮𝗿 𝗮𝗴𝗲𝗻𝘁𝗲𝘀, 𝗶𝗴𝘂𝗮𝗹 𝗾𝘂𝗲 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀 𝗹𝗼 𝗳𝘂𝗲 𝗽𝗮𝗿𝗮 𝗹𝗼𝘀 𝗰𝗼𝗻𝘁𝗲𝗻𝗲𝗱𝗼𝗿𝗲𝘀. Si cuaja, la batalla dejará de estar en qué framework usas para construirlos y se moverá a quién controla el runtime. Para los equipos que hoy los bloquean por seguridad, la conversación pasa de «no» a «bajo qué condiciones».\n\n#OpenClaw #Kubernetes #RedHat #OpenAI\n\nhttps://www.theregister.com/ai-and-ml/2026/09/30/openclaw-slips-on-a-suit-to-evade-widespread-business-bans/5299962"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Trump y los grandes de la tecnología firman un código de IA solo «moralmente vinculante»",
+      "summary": "El acuerdo, titulado Joint Commitment on Frontier Responsibilities, contempla auditorías externas para comprobar que los modelos funcionan como se espera, pero no aclara qué ocurriría si una empresa incumple. Trump firmó además una orden ejecutiva para renombrar la IA como «Superintelligence».",
+      "why_it_matters": "La autorregulación sin consecuencias deja la seguridad de los modelos frontera en manos de sus creadores.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs",
+      "source": "The Verge",
+      "social": {
+        "x": "Trump y las grandes tecnológicas firman un código de IA «moralmente vinculante»: auditorías externas, sí; consecuencias por incumplir, ninguna.\n\n#Trump #OpenAI #Anthropic #Superintelligence\nhttps://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs",
+        "linkedin": "Un código de IA que se firma, se anuncia y no obliga a nada.\n\nEl Joint Commitment on Frontier Responsibilities incluye auditorías externas para comprobar que los modelos frontera funcionan como se espera, pero no aclara qué ocurre si una empresa incumple. Trump lo ha acompañado además de una orden ejecutiva para renombrar la IA como «Superintelligence», que es ejercicio de comunicación más que de gobernanza. 𝗟𝗮 𝗮𝘂𝘁𝗼𝗿𝗿𝗲𝗴𝘂𝗹𝗮𝗰𝗶ó𝗻 𝘀𝗶𝗻 𝗰𝗼𝗻𝘀𝗲𝗰𝘂𝗲𝗻𝗰𝗶𝗮𝘀 𝗱𝗲𝗷𝗮 𝗹𝗮 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗱𝗲 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗳𝗿𝗼𝗻𝘁𝗲𝗿𝗮 𝗲𝗻 𝗺𝗮𝗻𝗼𝘀 𝗱𝗲 𝗾𝘂𝗶𝗲𝗻𝗲𝘀 𝗹𝗼𝘀 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝘆𝗲𝗻, así que cualquier equipo que integre estos modelos trabaja hoy con la palabra del proveedor como única garantía.\n\n#Trump #OpenAI #Anthropic #Superintelligence\n\nhttps://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "AMD compra World Labs, la startup de modelos del mundo de Fei-Fei Li, por 8.200 millones",
+      "summary": "AMD adquiere World Labs por 8.200 millones de dólares en una operación que espera cerrar antes de que acabe el año. El movimiento aprieta la competencia con Nvidia más allá del hardware.",
+      "why_it_matters": "Es la apuesta de AMD por los modelos del mundo, un terreno en el que Nvidia también quiere mandar.",
+      "url": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup",
+      "source": "Ars Technica",
+      "social": {
+        "x": "AMD suelta 8.200 millones por World Labs, la startup de Fei-Fei Li. No compra chips: compra los modelos del mundo.\n\n#AMD #Nvidia #WorldLabs #FeiFeiLi\nhttps://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup",
+        "linkedin": "AMD acaba de gastarse 8.200 millones en una empresa que no fabrica ni un solo chip.\n\nLa compra de World Labs, la startup de modelos del mundo de Fei-Fei Li, traslada la guerra con Nvidia del silicio a la capa de arriba: 𝗾𝘂𝗶𝗲𝗻 𝗱𝗼𝗺𝗶𝗻𝗲 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗾𝘂𝗲 𝗲𝗻𝘁𝗶𝗲𝗻𝗱𝗲𝗻 𝗲𝗹 𝗺𝘂𝗻𝗱𝗼 𝗳í𝘀𝗶𝗰𝗼 𝘀𝗲 𝗾𝘂𝗲𝗱𝗮 𝗰𝗼𝗻 𝗹𝗮 𝗽𝗿ó𝘅𝗶𝗺𝗮 𝗽𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮. Para AMD es la vía rápida para dejar de ser solo la alternativa barata en GPUs, y para quien construye robótica, simulación o agentes significa que su stack dependerá cada vez más de un puñado de jugadores. La operación, además, aún tiene que cerrarse antes de que acabe el año.\n\n#AMD #Nvidia #WorldLabs #FeiFeiLi\n\nhttps://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "La FTC abre una investigación a OpenAI, Anthropic y otros laboratorios de IA",
+      "summary": "La Comisión Federal de Comercio investiga posibles vulneraciones de la protección de los consumidores por parte de OpenAI, Anthropic y otros laboratorios, y prevé exigir documentación y testimonios de directivos mediante requerimientos legales. La investigación ya estaba en marcha antes del hackeo a Hugging Face.",
+      "why_it_matters": "Es la primera gran ofensiva regulatoria que apunta directamente a cómo se venden y despliegan los modelos.",
+      "url": "https://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns",
+      "source": "The Decoder",
+      "social": {
+        "x": "La FTC quiere saber cómo se venden los modelos de OpenAI y Anthropic. Y no lo pide por favor: va con requerimientos legales y testimonios de directivos.\n\n#FTC #OpenAI #Anthropic\nhttps://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns",
+        "linkedin": "La FTC no está mirando cómo funcionan los modelos, sino cómo se venden.\n\nLa investigación apunta a OpenAI, Anthropic y otros laboratorios por posibles vulneraciones de la protección de los consumidores, y prevé exigir documentación y testimonios de directivos mediante requerimientos legales. 𝗘𝘀 𝗹𝗮 𝗽𝗿𝗶𝗺𝗲𝗿𝗮 𝗼𝗳𝗲𝗻𝘀𝗶𝘃𝗮 𝗿𝗲𝗴𝘂𝗹𝗮𝘁𝗼𝗿𝗶𝗮 𝗾𝘂𝗲 𝗲𝗻𝘁𝗿𝗮 𝗱𝗲 𝗹𝗹𝗲𝗻𝗼 𝗲𝗻 𝗲𝗹 𝗱𝗶𝘀𝗰𝘂𝗿𝘀𝗼 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗮𝗹 𝗱𝗲 𝗹𝗮 𝗜𝗔, no en su parte técnica. Para quien compra o despliega estos modelos, la due diligence deja de ser un trámite: lo que el proveedor promete por escrito empieza a tener consecuencias.\n\n#FTC #OpenAI #Anthropic\n\nhttps://the-decoder.com/ftc-launches-sweeping-probe-into-openai-anthropic-and-other-ai-labs-over-consumer-protection-concerns"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Optimiza la ventana de contexto de los agentes de programación con IA: aísla la salida de las herramientas (hasta un 98% menos), guarda memoria de sesión y enruta peticiones entre 17 plataformas mediante MCP y hooks. Muy útil si tus agentes se quedan sin contexto a las pocas iteraciones.",
+      "language": "TypeScript",
+      "stars": 24371,
+      "social": {
+        "x": "Tu agente se queda sin contexto a las tres iteraciones. Este repo open source recorta la salida de las herramientas hasta un 98% y ya va por 24k estrellas.\n\n#ContextMode #MCP #OpenSource #TypeScript\nhttps://github.com/mksglu/context-mode",
+        "linkedin": "TU AGENTE NO SE QUEDA SIN CONTEXTO POR CULPA DEL MODELO, SINO DE LAS HERRAMIENTAS.\n\nCada llamada a una tool vuelca su salida en crudo dentro de la ventana de contexto. Unos cuantos comandos, un par de lecturas de ficheros y el agente empieza a olvidar lo que estaba haciendo. La solución habitual es pagar por una ventana más grande, que solo retrasa el problema unas cuantas iteraciones más.\n\ncontext-mode ataca la causa: 𝗲𝗹 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 𝘀𝗲 𝘁𝗲 𝘃𝗮 𝗲𝗻 𝗹𝗮 𝘀𝗮𝗹𝗶𝗱𝗮 𝗱𝗲 𝗹𝗮𝘀 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀, 𝗻𝗼 𝗲𝗻 𝗲𝗹 𝗽𝗿𝗼𝗺𝗽𝘁.\n\n→ Aísla la salida de cada tool y la recorta hasta un 98%, así que la ventana se llena mucho más despacio.\n→ Guarda memoria de sesión, de modo que el agente no vuelve a descubrir lo que ya tenía resuelto.\n→ Enruta peticiones entre 17 plataformas distintas mediante MCP y hooks, sin cambiar tu flujo de trabajo.\n→ Está escrito en TypeScript, es open source y suma más de 24.000 estrellas.\n\nSi trabajas a diario con agentes de programación y los ves perder el hilo, esto es de esas piezas que se instalan una vez y no se quitan. Te dejo el repo abajo: guárdalo para la próxima vez que tu agente se quede en blanco a mitad de tarea.\n\n#ContextMode #MCP #OpenSource #TypeScript\n\nhttps://github.com/mksglu/context-mode"
+      }
+    },
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "Genera vídeos cortos en alta definición a partir de un tema o unas palabras clave usando modelos de IA y un flujo de trabajo automatizado. Es una forma muy práctica de sacar contenido para redes sin editar nada a mano.",
+      "language": "Python",
+      "stars": 127382,
+      "social": {
+        "x": "127k estrellas y cero edición manual. Escribes un tema y este repo te devuelve un vídeo corto en HD. Open source y en Python.\n\n#MoneyPrinterTurbo #Python #OpenSource #GitHub\nhttps://github.com/harry0703/MoneyPrinterTurbo",
+        "linkedin": "127.382 ESTRELLAS PARA NO TOCAR UN EDITOR DE VÍDEO NUNCA MÁS.\n\nPublicar a diario tiene un cuello de botella conocido: grabar ya está resuelto, pero montar el vídeo corto se come la tarde. MoneyPrinterTurbo ataca justo esa parte del proceso.\n\nTú le das un tema o unas palabras clave y el resto lo hace un flujo automatizado:\n\n→ Partes de una idea escrita, no de material grabado ni de una timeline abierta.\n→ Modelos de IA y un flujo de trabajo automatizado se encargan del montaje.\n→ La salida es un vídeo corto en alta definición, listo para redes.\n→ Es open source, está en Python y acumula 127.382 estrellas.\n\n𝗟𝗮 𝗶𝗱𝗲𝗮: dejas de editar y pasas a revisar. Mismo tiempo, muchos más vídeos publicados.\n\nSi sacas contenido para redes, guárdate este post: te va a ahorrar más de una tarde de timeline. Te dejo el repositorio abajo.\n\n#MoneyPrinterTurbo #Python #OpenSource #GitHub\n\nhttps://github.com/harry0703/MoneyPrinterTurbo"
+      }
+    },
+    {
+      "name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Escribes HTML y lo renderiza como vídeo, con un diseño pensado para que lo manejen agentes. Viene bien para generar vídeos de forma programática desde código.",
+      "language": "TypeScript",
+      "stars": 54533,
+      "social": {
+        "x": "Escribes HTML y sale vídeo. HeyGen publica hyperframes, un motor para generar vídeo desde código pensado para agentes, y ya suma 54.533 estrellas.\n\n#Hyperframes #TypeScript #OpenSource #GitHub\nhttps://github.com/heygen-com/hyperframes",
+        "linkedin": "ESCRIBES HTML Y TE DEVUELVE UN VÍDEO LISTO PARA PUBLICAR.\n\nGenerar vídeo desde código sigue siendo incómodo: APIs cerradas, plantillas rígidas y cuotas que suben con cada render. HeyGen publica hyperframes, un motor en TypeScript que da la vuelta al planteamiento: 𝗲𝗹 𝗛𝗧𝗠𝗟 𝗲𝘀 𝗹𝗮 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝘆 𝗲𝗹 𝘃í𝗱𝗲𝗼 𝗹𝗮 𝘀𝗮𝗹𝗶𝗱𝗮.\n\nY no está pensado solo para humanos. Su diseño asume que lo manejen agentes, así que encaja en flujos donde un modelo escribe el marcado y el render sale por su cuenta.\n\n→ Escribes marcado HTML y el motor lo renderiza como vídeo.\n→ Estructura predecible, lista para que la maneje un agente.\n→ Generación programática: el vídeo vive en tu código, no en un editor.\n→ TypeScript de punta a punta, sencillo de integrar en tu stack.\n→ 54.533 estrellas: no es un experimento de un fin de semana.\n\nSi produces contenido a escala o automatizas con agentes, te ahorras el paso manual entero. Guárdate el post antes de que se pierda en el timeline.\n\nTe dejo el repo abajo.\n\n#Hyperframes #TypeScript #OpenSource #GitHub\n\nhttps://github.com/heygen-com/hyperframes"
+      }
+    },
+    {
+      "name": "modelcontextprotocol/servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "description": "Colección de servidores de referencia del Model Context Protocol (MCP), el estándar para conectar modelos de IA con herramientas y datos externos. Es el punto de partida lógico para montar tus propias integraciones.",
+      "language": "TypeScript",
+      "stars": 90749,
+      "social": {
+        "x": "90.749 estrellas y ningún paywall: el repo que enchufa tu IA a tus herramientas y datos con el estándar MCP. Copias, adaptas y publicas.\n\n#MCP #ModelContextProtocol #TypeScript #OpenSource\nhttps://github.com/modelcontextprotocol/servers",
+        "linkedin": "90.749 ESTRELLAS Y CERO PAYWALL PARA CONECTAR TU IA CON TUS PROPIAS HERRAMIENTAS.\n\nHasta hace nada, conectar un modelo con tu base de datos, tu repositorio o tu API interna era pegamento a medida: un script por integración, un formato distinto por proveedor y una capa extra cada vez que cambiabas de cliente. Las plataformas comerciales lo resuelven, sí, pero sus conectores viven detrás de un plan de pago y de su nube.\n\nEl Model Context Protocol cambia el planteamiento: en lugar de integraciones propietarias, un estándar abierto. Y este repositorio es su puerta de entrada, con los servidores de referencia mantenidos por el propio proyecto. 𝗘𝗹 𝗽𝘂𝗻𝘁𝗼 𝗱𝗲 𝗽𝗮𝗿𝘁𝗶𝗱𝗮 𝗻𝗼 𝗲𝘀 𝘂𝗻 𝘁𝘂𝘁𝗼𝗿𝗶𝗮𝗹, 𝗲𝘀 𝘂𝗻𝗮 𝗰𝗼𝗹𝗲𝗰𝗰𝗶ó𝗻 𝗱𝗲 𝘀𝗲𝗿𝘃𝗶𝗱𝗼𝗿𝗲𝘀 𝗾𝘂𝗲 𝗽𝘂𝗲𝗱𝗲𝘀 𝗰𝗼𝗽𝗶𝗮𝗿 𝘆 𝗮𝗱𝗮𝗽𝘁𝗮𝗿 𝗵𝗼𝘆 𝗺𝗶𝘀𝗺𝗼.\n\nQué te encuentras dentro:\n\n→ Servidores de referencia listos para leer, arrancar y modificar, no ejemplos sueltos de un blog.\n→ Todo en TypeScript, así que si ya escribes TS, montar tu propio servidor MCP es cuestión de una tarde.\n→ Self-hosted: corre en tu máquina o en tu infraestructura, sin depender de un SaaS de terceros ni de cuotas mensuales.\n→ Un protocolo abierto por debajo, de modo que cualquier cliente compatible puede hablar con el servidor que construyas.\n→ El camino natural para tus integraciones internas: adaptas uno existente y lo publicas para tu equipo.\n\nSi trabajas con IA aplicada, este repo es de los que se guardan para tenerlos a mano cuando llegue la petición de «conéctalo con nuestro sistema».\n\nTe dejo el repositorio abajo. Guárdalo antes de que se te pierda entre marcadores.\n\n#MCP #ModelContextProtocol #TypeScript #OpenSource\n\nhttps://github.com/modelcontextprotocol/servers"
+      }
+    },
+    {
+      "name": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Grafo de conocimiento del código preindexado que se sincroniza solo cuando cambia el código, compatible con Claude Code, Codex, Gemini, Cursor y otros agentes. Reduce tokens y llamadas a herramientas, y funciona al 100% en local.",
+      "language": "C",
+      "stars": 72505,
+      "social": {
+        "x": "72.505 estrellas para un grafo de código preindexado que se actualiza solo. Tus agentes (Claude Code, Cursor, Codex) dejan de releer archivos y ahorran tokens. 100% local.\n\n#codegraph #OpenSource #GitHub #ClaudeCode\nhttps://github.com/colbymchenry/codegraph",
+        "linkedin": "TU AGENTE NO NECESITA LEER TODO TU CÓDIGO OTRA VEZ.\n\nCada vez que le pides algo a Claude Code, Cursor o Codex, el agente vuelve a rastrear el repositorio para orientarse: más tokens, más llamadas a herramientas y más tiempo perdido. codegraph ataca justo ese problema con un grafo de conocimiento del código preindexado que se sincroniza solo cuando cambias archivos.\n\nEl contraste con lo comercial es claro: las plataformas de indexado de pago te obligan a subir el código a su nube. Aquí el índice vive en tu máquina y 𝘁𝗼𝗱𝗼 𝗲𝗹 𝗶𝗻𝗱𝗲𝘅𝗮𝗱𝗼 𝘆 𝗹𝗮𝘀 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮𝘀 𝘀𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗻 𝗲𝗻 𝗹𝗼𝗰𝗮𝗹.\n\n→ Indexa el repositorio una vez y el grafo se mantiene al día con cada cambio\n→ Compatible con Claude Code, Codex, Gemini, Cursor y otros agentes\n→ Reduce tokens y llamadas a herramientas en cada consulta\n→ Funciona al 100% en local, sin mandar tu código a ningún servicio\n→ Escrito en C y ya acumula 72.505 estrellas en GitHub\n\nSi usas agentes a diario, guarda este post: te va a ahorrar tokens en cada tarea y te sirve para cualquier repo que toques.\n\nTe dejo el repositorio abajo.\n\n#codegraph #OpenSource #GitHub #ClaudeCode\n\nhttps://github.com/colbymchenry/codegraph"
+      }
+    }
+  ]
+}
