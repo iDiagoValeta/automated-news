@@ -1,0 +1,324 @@
+{
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T17:01:19.699Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Google presenta Gemini 4 Argon, su modelo frontera más capaz",
+      "summary": "Google ha anunciado Gemini 4 Argon, su primer modelo frontera en más de siete meses, orientado a coding, trabajo de conocimiento empresarial y ciberseguridad. De momento solo tienen acceso algunos probadores, y la API y los planes de pago llegarán más adelante. En las primeras comparativas independientes iguala a GPT-6 Astra, aunque se queda por detrás de Claude Opus 5.5.",
+      "why_it_matters": "Marca el regreso de Google a la primera línea de los modelos frontera y fija el nuevo listón de calidad y precio con el que competirá el resto del sector.",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "Google rompe siete meses de silencio con Gemini 4 Argon: iguala a GPT-6 Astra en las primeras comparativas, pero no alcanza a Claude Opus 5.5.\n\n#GoogleDeepMind #Gemini #OpenAI #Anthropic\nhttps://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence",
+        "linkedin": "Google vuelve al primer plano de los modelos frontera después de siete meses sin mover ficha.\n\nGemini 4 Argon llega enfocado en coding, conocimiento empresarial y ciberseguridad, y en las primeras comparativas independientes 𝗶𝗴𝘂𝗮𝗹𝗮 𝗮 𝗚𝗣𝗧-𝟲 𝗔𝘀𝘁𝗿𝗮, 𝗮𝘂𝗻𝗾𝘂𝗲 𝘀𝗲 𝗾𝘂𝗲𝗱𝗮 𝗽𝗼𝗿 𝗱𝗲𝘁𝗿á𝘀 𝗱𝗲 𝗖𝗹𝗮𝘂𝗱𝗲 𝗢𝗽𝘂𝘀 𝟱.𝟱. De momento solo lo prueban unos pocos probadores y no hay API ni planes de pago: Google enseña músculo antes de ponerlo a la venta. Lo importante para el sector no es quién gana la semana, sino que vuelve a haber tres laboratorios capaces de marcar el listón de calidad y precio. Para los equipos que eligen modelo cada trimestre, eso se traduce en más margen para negociar y menos dependencia de un solo proveedor.\n\n#GoogleDeepMind #Gemini #OpenAI #Anthropic\n\nhttps://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "Magnitude, un motor de inferencia open source que se optimiza solo",
+      "summary": "Magnitude (YC S25) es un motor de inferencia para agentes que compila y ajusta sus propios kernels en el dispositivo del usuario. Según sus creadores, los modelos abiertos corren hasta el doble de rápido que con llama.cpp. Está disponible como proyecto open source en GitHub.",
+      "why_it_matters": "Permite exprimir el hardware propio para servir agentes sin depender de infraestructura ajena, algo clave para quien despliega modelos abiertos.",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "source": "Hacker News",
+      "social": {
+        "x": "Magnitude compila y ajusta sus propios kernels en tu máquina: hasta el doble de rápido que llama.cpp. Y es open source.\n\n#OpenSource #llamaCpp #GitHub #LLMs\nhttps://github.com/magnitudedev/magnitude",
+        "linkedin": "Un motor de inferencia que se optimiza solo acaba de poner el doble de rendimiento sobre la mesa frente a llama.cpp.\n\nMagnitude compila y ajusta sus kernels en el propio dispositivo donde corre el modelo, así que el hardware que ya tienes rinde más sin tocar una línea de código. Para quien despliega agentes con modelos abiertos, el cálculo cambia: 𝗲𝗹 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗳𝘂𝗻𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝗿𝘂𝗻𝘁𝗶𝗺𝗲, 𝗻𝗼 𝗱𝗲 𝘁𝘂 𝗲𝗾𝘂𝗶𝗽𝗼 𝗱𝗲 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮. Y si la ventaja se mantiene, la pregunta deja de ser qué modelo eliges y pasa a ser cuánto le sacas a la máquina que ya pagas.\n\n#OpenSource #llamaCpp #GitHub #LLMs\n\nhttps://github.com/magnitudedev/magnitude"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Cloudflare lanza Clef, modelos de decisión open source en Workers AI",
+      "summary": "Cloudflare ha presentado Clef y Clef-flash, modelos de decisión open source alojados en Workers AI y pensados para clasificación rápida y flujos agénticos. También estrena una plataforma de reinforcement learning para ajustar estos modelos con datos propios.",
+      "why_it_matters": "Ofrece una vía sencilla y barata para añadir clasificación y decisiones a los agentes sin montar infraestructura propia.",
+      "url": "https://blog.cloudflare.com/clef-decision-models",
+      "source": "Hacker News",
+      "social": {
+        "x": "Cloudflare lanza Clef: modelos de decisión open source que viven en Workers AI y se afinan con tus datos. Clasificación para agentes sin infraestructura propia.\n\n#Cloudflare #WorkersAI #OpenSource #ReinforcementLearning\nhttps://blog.cloudflare.com/clef-decision-models",
+        "linkedin": "Cloudflare acaba de meter los modelos de decisión dentro de la plataforma donde ya corres tus agentes.\n\nClef y Clef-flash son open source, se sirven desde Workers AI y llegan con una plataforma de reinforcement learning para ajustarlos con datos propios. 𝗟𝗮 𝗰𝗹𝗮𝘀𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼 𝗮𝗽𝗮𝗿𝘁𝗲 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗽𝗶𝗲𝘇𝗮 𝗺á𝘀 𝗱𝗲𝗹 𝘀𝘁𝗮𝗰𝗸. Para equipos pequeños eso quita de la ecuación montar y mantener inferencia propia: el coste real se desplaza a los datos de ajuste y a la evaluación, no a la infraestructura.\n\n#Cloudflare #WorkersAI #OpenSource #ReinforcementLearning\n\nhttps://blog.cloudflare.com/clef-decision-models"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Shopify Canvas: montar una tienda online conversando con la IA",
+      "summary": "Shopify ha presentado Canvas, un constructor de tiendas que deja crear y personalizar el sitio charlando con Sidekick, el agente de IA de la plataforma. Los cambios se ven en tiempo real mientras se piden.",
+      "why_it_matters": "Baja la barrera técnica para lanzar una tienda y muestra cómo los builders conversacionales llegan al comercio electrónico.",
+      "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Le hablas a Shopify y la tienda se edita sola: Canvas convierte el editor en una conversación con Sidekick.\n\n#Shopify #Sidekick #eCommerce\nhttps://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai",
+        "linkedin": "Montar una tienda online ya no va de arrastrar bloques, va de explicar lo que quieres.\n\nShopify Canvas deja describir el cambio y Sidekick lo aplica en pantalla mientras hablas, sin tocar el builder. 𝗟𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗽𝗮𝗿𝗮 𝗹𝗮𝗻𝘇𝗮𝗿 𝘂𝗻𝗮 𝘁𝗶𝗲𝗻𝗱𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘁é𝗰𝗻𝗶𝗰𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗱𝗲 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼: 𝗾𝘂é 𝘃𝗲𝗻𝗱𝗲𝘀, 𝗰ó𝗺𝗼 𝗹𝗼 𝗰𝘂𝗲𝗻𝘁𝗮𝘀 𝘆 𝗰ó𝗺𝗼 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲𝘀. Para agencias y freelances que montan tiendas por encargo, la parte repetitiva se automatiza y el valor se desplaza a la estrategia y al catálogo.\n\n#Shopify #Sidekick #eCommerce\n\nhttps://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Google sustituye las Gems por Skills, prompts reutilizables sobre un estándar abierto",
+      "summary": "Google reemplaza las Gems de Gemini por Skills, prompts detallados y reutilizables que se invocan escribiendo / o que Gemini ejecuta por su cuenta. El formato sigue un estándar abierto de Anthropic. Las Gems se retiran a partir de noviembre y migrarán automáticamente.",
+      "why_it_matters": "Consolida un formato común de prompts entre los grandes laboratorios, lo que facilita portar flujos de trabajo entre asistentes.",
+      "url": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats",
+      "source": "The Decoder",
+      "social": {
+        "x": "Google entierra las Gems y adopta el estándar de prompts de Anthropic. Tu próximo flujo de trabajo dejará de pertenecer a un solo asistente.\n\n#Gemini #Anthropic #Google\nhttps://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats",
+        "linkedin": "Google retira las Gems de Gemini para quedarse con Skills, prompts reutilizables que siguen un estándar abierto de Anthropic.\n\nLas Gems no desaparecen de golpe: a partir de noviembre se migran solas, así que el usuario apenas lo notará. Lo relevante es otra cosa: 𝘂𝗻 𝗺𝗶𝘀𝗺𝗼 𝗳𝗼𝗿𝗺𝗮𝘁𝗼 𝗱𝗲 𝗽𝗿𝗼𝗺𝗽𝘁𝘀 𝗲𝗺𝗽𝗶𝗲𝘇𝗮 𝗮 𝘀𝗲𝗿𝘃𝗶𝗿 𝗲𝗻 𝘃𝗮𝗿𝗶𝗼𝘀 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲𝘀, y eso abarata muchísimo portar flujos de trabajo de un laboratorio a otro. Para quien lleva meses construyendo automatizaciones cerradas, es el momento de revisar cuánto de ese trabajo depende de la plataforma y cuánto se puede llevar consigo.\n\n#Gemini #Anthropic #Google\n\nhttps://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "AWS publica Dogwood, un cortafuegos open source para las llamadas de los agentes",
+      "summary": "Dogwood Local Engine es una librería open source que comprueba las llamadas a herramientas de un agente contra reglas temporales definidas por el usuario antes de ejecutarlas. Bloquea acciones como cambiar ficheros o transferir datos que se salgan de la política establecida.",
+      "why_it_matters": "Añade una capa de control local y verificable para frenar agentes descontrolados sin depender de servicios externos.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/01/aws-offers-local-open-source-leash-for-agent-harnesses/5300578",
+      "source": "The Register",
+      "social": {
+        "x": "Tus agentes pueden borrar ficheros o sacar datos sin que te enteres. AWS publica un cortafuegos open source que revisa cada llamada antes de ejecutarla.\n\n#AWS #OpenSource #Agentes #Dogwood\nhttps://www.theregister.com/ai-and-ml/2026/10/01/aws-offers-local-open-source-leash-for-agent-harnesses/5300578",
+        "linkedin": "Que un agente decida cambiar un fichero o mover datos no debería depender de la buena voluntad del modelo.\n\nAWS publica Dogwood Local Engine, una librería open source que valida cada llamada a herramientas contra reglas temporales que defines tú y la bloquea antes de que se ejecute. 𝗘𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼 𝗲𝘅𝘁𝗲𝗿𝗻𝗼 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝗰𝗼𝗿𝗿𝗲𝗿 𝗲𝗻 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗮 𝗺á𝗾𝘂𝗶𝗻𝗮, algo que importa si tocas datos regulados o si no quieres mandar cada traza a un tercero. La contrapartida es clara: escribir y mantener esas políticas es trabajo nuevo para el equipo.\n\n#AWS #OpenSource #Agentes #Dogwood\n\nhttps://www.theregister.com/ai-and-ml/2026/10/01/aws-offers-local-open-source-leash-for-agent-harnesses/5300578"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Amazon se suma a los modelos de decisión con Strands Decider 2B",
+      "summary": "AWS Strand Labs ha publicado Strands Decider 2B, un modelo de decisión al estilo de Jev que devuelve resultados tipados en lugar de texto. Se une a una oleada de modelos ligeros pensados para decidir rápido y barato dentro de flujos agénticos.",
+      "why_it_matters": "Confirma que la inteligencia rápida y barata para tomar decisiones se está convirtiendo en una pieza estándar de los agentes.",
+      "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Los agentes ya no necesitan un LLM enorme para decidir. Amazon publica un modelo de 2B que devuelve resultados tipados, no texto libre.\n\n#AWS #StrandsDecider #LLM #Agentes\nhttps://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web",
+        "linkedin": "El modelo que decide dentro de tu agente ya no tiene por qué ser el más grande del catálogo.\n\nAWS Strand Labs ha publicado Strands Decider 2B, un modelo pensado para devolver resultados tipados en lugar de texto libre, y se suma a la oleada de modelos ligeros que deciden rápido y barato dentro de flujos agénticos. Para quien diseña agentes, esto quita de en medio el parseo frágil de respuestas y abarata cada paso de decisión. La lectura es clara: 𝗹𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗿á𝗽𝗶𝗱𝗮 𝘆 𝗯𝗮𝗿𝗮𝘁𝗮 𝘀𝗲 𝗲𝘀𝘁á 𝗰𝗼𝗻𝘃𝗶𝗿𝘁𝗶𝗲𝗻𝗱𝗼 𝗲𝗻 𝘂𝗻𝗮 𝗽𝗶𝗲𝘇𝗮 𝗲𝘀𝘁á𝗻𝗱𝗮𝗿 𝗱𝗲𝗹 𝘀𝘁𝗮𝗰𝗸 𝗮𝗴é𝗻𝘁𝗶𝗰𝗼, y quien no la integre acabará pagando de más por pensar.\n\n#AWS #StrandsDecider #LLM #Agentes\n\nhttps://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "Audible estrena historias interactivas con las que conversar con los personajes",
+      "summary": "Audible lanza Interactive Stories, un formato que permite explorar los mundos de los libros y hablar con sus personajes mediante IA generativa. La primera experiencia acompañará al clásico de Bram Stoker, Drácula.",
+      "why_it_matters": "Es un ejemplo de cómo la IA generativa se integra en el consumo de contenido más allá del chat y el texto.",
+      "url": "https://techcrunch.com/2026/10/01/audibles-new-features-let-you-explore-book-worlds-and-even-talk-to-characters",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Ya puedes hablar con Drácula. Audible estrena un formato en el que conversas con los personajes de la novela, no solo la escuchas.\n\n#Audible #Drácula #Audiolibros #IAgenerativa\nhttps://techcrunch.com/2026/10/01/audibles-new-features-let-you-explore-book-worlds-and-even-talk-to-characters",
+        "linkedin": "Audible acaba de convertir un audiolibro en algo con lo que se conversa.\n\nEl primer experimento es Drácula: puedes explorar el mundo de Bram Stoker y hablar con sus personajes gracias a IA generativa. La jugada encaja con una empresa cuyo negocio es la narración de audio, pero abre una pregunta incómoda: 𝘀𝗶 𝗲𝗹 𝗼𝘆𝗲𝗻𝘁𝗲 𝗽𝘂𝗲𝗱𝗲 𝗽𝗿𝗲𝗴𝘂𝗻𝘁𝗮𝗿𝗹𝗲 𝗮𝗹 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗷𝗲, 𝗱ó𝗻𝗱𝗲 𝗾𝘂𝗲𝗱𝗮 𝗹𝗮 𝗮𝘂𝘁𝗼𝗿í𝗮. Y señala por dónde va el consumo de contenido, no el chat: la IA generativa metida dentro de la obra, no al lado.\n\n#Audible #Drácula #Audiolibros #IAgenerativa\n\nhttps://techcrunch.com/2026/10/01/audibles-new-features-let-you-explore-book-worlds-and-even-talk-to-characters"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Allen AI publica Olmo-core 3, infraestructura abierta para entrenar MoE grandes",
+      "summary": "El equipo de Allen AI ha publicado Olmo-core 3, una base de entrenamiento abierta y escalable para modelos de mezcla de expertos (MoE) de gran tamaño. El objetivo es que cualquiera pueda reproducir y adaptar el pipeline de entrenamiento.",
+      "why_it_matters": "Abre infraestructura que hasta ahora quedaba dentro de los laboratorios y facilita entrenar MoE sin partir de cero.",
+      "url": "https://huggingface.co/blog/allenai/olmocore3",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Entrenar un MoE grande ha sido cosa de unos pocos laboratorios. Allen AI acaba de abrir su pipeline completo para que lo hagas tú.\n\n#AllenAI #OlmoCore #MoE #OpenSource\nhttps://huggingface.co/blog/allenai/olmocore3",
+        "linkedin": "Entrenar un MoE grande ha sido durante años un privilegio de quien ya tenía el pipeline montado en casa.\n\nOlmo-core 3 pone esa parte en abierto: Allen AI publica la base de entrenamiento escalable y reproducible para modelos de mezcla de expertos, de modo que se puede reproducir y adaptar en lugar de partir de cero. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗻𝗼 𝗲𝗿𝗮𝗻 𝗹𝗮𝘀 𝗶𝗱𝗲𝗮𝘀 𝗻𝗶 𝗹𝗼𝘀 𝗱𝗮𝘁𝗼𝘀, 𝘀𝗶𝗻𝗼 𝗹𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮, y abrirla cambia quién puede competir. Para cualquier equipo que se planteaba entrenar en casa, la pregunta ya no es si puede, sino qué construye encima.\n\n#AllenAI #OlmoCore #MoE #OpenSource\n\nhttps://huggingface.co/blog/allenai/olmocore3"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "Mac Studio con M5 Ultra: modelos frontera en local sobre la mesa",
+      "summary": "Wired analiza el nuevo Mac Studio con chip M5 Ultra, capaz de mover modelos de lenguaje de nivel frontera en local. La review lo describe como un adelanto de lo que está por llegar en cómputo de escritorio.",
+      "why_it_matters": "Demuestra que ejecutar modelos potentes sin nube ya es viable en un equipo de sobremesa, con lo que implica en privacidad y coste.",
+      "url": "https://www.wired.com/review/apple-mac-studio-m5-ultra-2026",
+      "source": "Wired",
+      "social": {
+        "x": "Un Mac Studio con M5 Ultra mueve modelos frontera en local. La nube deja de ser obligatoria para trabajar con los mejores modelos.\n\n#Apple #MacStudio #LocalAI #LLM\nhttps://www.wired.com/review/apple-mac-studio-m5-ultra-2026",
+        "linkedin": "Ejecutar un modelo de nivel frontera sin tocar la nube ya cabe en un equipo de sobremesa.\n\nWired analiza el Mac Studio con M5 Ultra y lo describe como un adelanto del cómputo de escritorio que viene. 𝗟𝗮 𝗳𝗿𝗼𝗻𝘁𝗲𝗿𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗻𝘂𝗯𝗲: para quien trabaja con datos sensibles, la pregunta deja de ser qué modelo puede pagar en una API y pasa a ser qué le cabe en el escritorio. El coste por token desaparece, pero aparece el del hardware, y eso solo sale a cuenta con volumen de uso sostenido.\n\n#Apple #MacStudio #LocalAI #LLM\n\nhttps://www.wired.com/review/apple-mac-studio-m5-ultra-2026"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "Legato presenta unas gafas con IA para problemas de audición",
+      "summary": "La startup Legato lanza sus gafas auditivas con IA, pensadas para hacer más accesible el cuidado de la audición. La propuesta ataca el coste, la comodidad y el estigma asociados a los audífonos tradicionales.",
+      "why_it_matters": "Acerca un dispositivo de salud auditiva a un formato discreto y más barato gracias al procesado con IA.",
+      "url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El estigma del audífono tiene los días contados: unas gafas con IA prometen audición asistida sin parecer un dispositivo médico.\n\n#Legato #Wearables #SaludAuditiva\nhttps://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses",
+        "linkedin": "Quien necesita un audífono y no lo lleva casi nunca es por vergüenza, no por precio.\n\nLegato acaba de presentar unas gafas con IA que procesan el sonido y asisten la audición sin el aspecto de dispositivo médico, atacando de golpe el coste, la comodidad y el estigma que arrastra el sector desde décadas. 𝗘𝗹 𝘃𝗮𝗹𝗼𝗿 𝗮𝗾𝘂í 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗻𝗼𝗿𝗺𝗮𝗹𝗶𝘇𝗮𝗿 𝗹𝗮 𝘀𝗮𝗹𝘂𝗱 𝗮𝘂𝗱𝗶𝘁𝗶𝘃𝗮 𝗰𝗼𝗺𝗼 𝗮𝗹𝗴𝗼 𝗰𝗼𝘁𝗶𝗱𝗶𝗮𝗻𝗼, y eso es justo lo que llevaba años bloqueando la adopción. Para los fabricantes tradicionales de audífonos, es un problema de imagen que no se arregla con mejores especificaciones.\n\n#Legato #Wearables #SaludAuditiva\n\nhttps://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "Qualcomm publica una preview de Linux para los Snapdragon X2",
+      "summary": "Qualcomm ha lanzado una preview para desarrolladores de Linux sobre sus próximos procesadores Snapdragon X2 para portátiles. El trabajo se centra en integrarse con el kernel mainline antes del lanzamiento comercial, e incluye un entorno Debian 13 funcional.",
+      "why_it_matters": "Ataca uno de los lastres históricos de los portátiles ARM, la compatibilidad de software, con el kernel mainline como prioridad.",
+      "url": "https://www.infoq.com/news/2026/10/snapdragon-x2-linux",
+      "source": "InfoQ",
+      "social": {
+        "x": "Qualcomm deja probar Linux en los Snapdragon X2 antes de que salgan a la venta. Y con el kernel mainline como prioridad, no como apaño posterior.\n\n#Qualcomm #SnapdragonX2 #Linux #ARM\nhttps://www.infoq.com/news/2026/10/snapdragon-x2-linux",
+        "linkedin": "El lastre histórico de los portátiles ARM nunca fue el hardware, fue el software.\n\nQualcomm acaba de abrir una preview de Linux para sus Snapdragon X2, con un Debian 13 funcional y 𝗲𝗹 𝗸𝗲𝗿𝗻𝗲𝗹 𝗺𝗮𝗶𝗻𝗹𝗶𝗻𝗲 𝗰𝗼𝗺𝗼 𝗼𝗯𝗷𝗲𝘁𝗶𝘃𝗼 𝗱𝗲𝘀𝗱𝗲 𝗲𝗹 𝗽𝗿𝗶𝗺𝗲𝗿 𝗱í𝗮, antes incluso del lanzamiento comercial. Para quien despliega flotas de portátiles o desarrolla sobre Linux, esto cambia el calendario: si los drivers entran en mainline en lugar de vivir en parches de fabricante, la compatibilidad deja de depender de una distribución concreta y el soporte se mide en años, no en versiones. Queda por ver el rendimiento real y cuánto de ese trabajo llega a upstream sin recortes, pero el enfoque es el correcto.\n\n#Qualcomm #SnapdragonX2 #Linux #ARM\n\nhttps://www.infoq.com/news/2026/10/snapdragon-x2-linux"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "lanzamientos",
+      "title": "Los contenedores de WSL ya están disponibles de forma general",
+      "summary": "Microsoft ha llevado a disponibilidad general los contenedores de WSL, que permiten ejecutar contenedores Linux directamente desde Windows. La función sale del periodo de preview y queda lista para producción.",
+      "why_it_matters": "Simplifica el flujo de quien desarrolla en Windows y despliega en Linux sin saltar entre máquinas virtuales.",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/09/29/wsl-containers-now-generally-available",
+      "source": "Lobsters",
+      "social": {
+        "x": "Los contenedores de WSL salen de preview: corres contenedores Linux desde Windows sin levantar una máquina virtual aparte. Ya valen para producción.\n\n#WSL #Microsoft #Windows #DevOps\nhttps://blogs.windows.com/windowsdeveloper/2026/09/29/wsl-containers-now-generally-available",
+        "linkedin": "Durante años, desarrollar en Windows y desplegar en Linux obligaba a convivir con dos entornos y una máquina virtual de por medio. Eso cambia: 𝗹𝗼𝘀 𝗰𝗼𝗻𝘁𝗲𝗻𝗲𝗱𝗼𝗿𝗲𝘀 𝗱𝗲 𝗪𝗦𝗟 𝗽𝗮𝘀𝗮𝗻 𝗮 𝗱𝗶𝘀𝗽𝗼𝗻𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗴𝗲𝗻𝗲𝗿𝗮𝗹 y dejan de ser una función en pruebas.\n\nPara quien tiene Windows como estación principal, el valor no está en la novedad en sí, sino en las capas que elimina: un mismo flujo de contenedores de punta a punta, sin saltar de máquina en máquina. Quien ya trabaja en Linux apenas lo notará, pero para el resto es una razón menos para cambiar de sistema.\n\n#WSL #Microsoft #Windows #DevOps\n\nhttps://blogs.windows.com/windowsdeveloper/2026/09/29/wsl-containers-now-generally-available"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "Rust 1.99 ya está disponible",
+      "summary": "El equipo de Rust ha publicado la versión 1.99 del lenguaje, un paso más hacia la futura 2.0 que mantiene la cadencia de releases cada seis semanas. El anuncio detalla los cambios y mejoras incluidas.",
+      "why_it_matters": "Rust sigue ganando terreno en sistemas y backend, y cada release acerca herramientas más estables a quien lo adopta.",
+      "url": "https://blog.rust-lang.org/2026/10/01/Rust-1.99.0",
+      "source": "Lobsters",
+      "social": {
+        "x": "Rust ya está en la 1.99. Una release cada seis semanas sin excepción, y la 2.0 cada vez más cerca. Pocos proyectos sostienen ese ritmo sin romper lo que ya funciona.\n\n#Rust #RustLang #OpenSource\nhttps://blog.rust-lang.org/2026/10/01/Rust-1.99.0",
+        "linkedin": "Rust ya va por la 1.99, pero lo verdaderamente noticioso no es el número: es que sigue llegando puntual cada seis semanas.\n\nMientras otros ecosistemas acumulan años entre versiones mayores, Rust ha convertido la cadencia en su mejor argumento de confianza: 𝗾𝘂𝗶𝗲𝗻 𝗮𝗱𝗼𝗽𝘁𝗮 𝗥𝘂𝘀𝘁 𝗵𝗼𝘆 𝘀𝗮𝗯𝗲 𝗾𝘂𝗲 𝗹𝗮𝘀 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 𝗾𝘂𝗲 𝗻𝗲𝗰𝗲𝘀𝗶𝘁𝗮 𝗲𝘀𝘁𝗮𝗿á𝗻 𝗺á𝘀 𝗲𝘀𝘁𝗮𝗯𝗹𝗲𝘀 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝘀𝗲𝗶𝘀 𝘀𝗲𝗺𝗮𝗻𝗮𝘀, 𝗻𝗼 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝘁𝗿𝗲𝘀 𝗮ñ𝗼𝘀. Para los equipos de sistemas y backend, esa previsibilidad pesa más que cualquier funcionalidad concreta de esta entrega. Con la 2.0 en el horizonte, la pregunta interesante es si el proyecto sabrá mantener la misma disciplina cuando toque cambiar de número.\n\n#Rust #RustLang #OpenSource\n\nhttps://blog.rust-lang.org/2026/10/01/Rust-1.99.0"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "herramientas",
+      "title": "Cómo montar agentes ambient en Amazon Bedrock AgentCore",
+      "summary": "Un nuevo artículo de AWS explica cómo construir agentes que reaccionan a eventos (subidas a S3, alertas o calendarios) en lugar de esperar un prompt. El ejemplo usa SQS, Lambda y DynamoDB, con una herramienta de consulta al humano y una página de revisión.",
+      "why_it_matters": "Ofrece una receta concreta y agnóstica de framework para llevar agentes a producción con supervisión humana.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "La mayoría de agentes esperan un prompt. AWS propone lo contrario: que reaccionen solos a eventos en Bedrock AgentCore.\n\n#AWS #Bedrock #AgentCore #Serverless\nhttps://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows",
+        "linkedin": "La mayoría de los agentes que se despliegan hoy siguen esperando a que alguien les escriba un prompt.\n\nAWS publica una receta para montarlos al revés: agentes que se disparan con eventos (una subida a S3, una alerta, un calendario) sobre Bedrock AgentCore, con SQS, Lambda y DynamoDB en el ejemplo y sin atarse a ningún framework. 𝗘𝗹 𝗱𝗲𝘁𝗮𝗹𝗹𝗲 𝗾𝘂𝗲 𝗱𝗲𝗰𝗶𝗱𝗲 𝘀𝗶 𝗲𝘀𝘁𝗼 𝗹𝗹𝗲𝗴𝗮 𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗼𝗿𝗾𝘂𝗲𝘀𝘁𝗮𝗰𝗶ó𝗻, 𝘀𝗶𝗻𝗼 𝗹𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗱𝗲 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮 𝗮𝗹 𝗵𝘂𝗺𝗮𝗻𝗼 𝘆 𝗹𝗮 𝗽á𝗴𝗶𝗻𝗮 𝗱𝗲 𝗿𝗲𝘃𝗶𝘀𝗶ó𝗻: el agente pide permiso antes de actuar. Si estás llevando agentes a producción, esa pieza es la que casi siempre falta.\n\n#AWS #Bedrock #AgentCore #Serverless\n\nhttps://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "investigacion",
+      "title": "La IA Ataraxos gana al mejor jugador de Stratego por menos de 8.000 dólares",
+      "summary": "Un sistema llamado Ataraxos ha derrotado con claridad al mejor jugador de Stratego de la historia. El juego es difícil para la IA porque cada bando coloca sus piezas boca abajo, y DeepMind no lo consiguió en 2023 pese a un gran presupuesto. El equipo, de Carnegie Mellon, NYU, Stanford y MIT, lo logró con menos de 8.000 dólares.",
+      "why_it_matters": "Muestra que con buenas ideas y poco dinero se pueden batir problemas de información oculta ante los que fallaron proyectos mucho más caros.",
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Un equipo académico ha batido al mejor jugador de Stratego de la historia por menos de 8.000 dólares. DeepMind lo intentó en 2023 y no pudo.\n\n#Stratego #DeepMind #CarnegieMellon #GameAI\nhttps://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+        "linkedin": "DeepMind lo intentó en 2023 con un gran presupuesto y no lo consiguió. Un equipo de Carnegie Mellon, NYU, Stanford y MIT ha batido al mejor jugador de Stratego de la historia por menos de 8.000 dólares.\n\nEl sistema se llama Ataraxos y el juego es duro para una máquina porque cada bando coloca sus piezas boca abajo: no hay información perfecta, solo deducción a partir de lo que pasa en cada choque. 𝗖𝗼𝗻 𝗹𝗮𝘀 𝗶𝗱𝗲𝗮𝘀 𝗰𝗼𝗿𝗿𝗲𝗰𝘁𝗮𝘀, 𝘂𝗻 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗾𝘂𝗲 𝘀𝗲 𝗿𝗲𝘀𝗶𝘀𝘁𝗶ó 𝗮 𝗹𝗼𝘀 𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗼𝗿𝗶𝗼𝘀 𝗺𝗲𝗷𝗼𝗿 𝗳𝗶𝗻𝗮𝗻𝗰𝗶𝗮𝗱𝗼𝘀 𝗰𝗮𝗲 𝗰𝗼𝗻 𝟴.𝟬𝟬𝟬 𝗱ó𝗹𝗮𝗿𝗲𝘀. Para quien planifica I+D, la pregunta ya no es cuánto cómputo hace falta, sino si el planteamiento es el bueno.\n\n#Stratego #DeepMind #CarnegieMellon #GameAI\n\nhttps://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "investigacion",
+      "title": "Una IA reconstruye lo que estás viendo a partir de un escáner cerebral",
+      "summary": "Una nueva herramienta de IA adivina qué está mirando una persona analizando sus escáneres cerebrales y recrea la imagen con notable precisión. El sistema también funciona al revés, prediciendo la actividad cerebral a partir del estímulo visual.",
+      "why_it_matters": "Acerca las interfaces cerebro-ordenador a usos prácticos y reabre el debate sobre los límites de la privacidad mental.",
+      "url": "https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at",
+      "source": "MIT Technology Review",
+      "social": {
+        "x": "Una IA reconstruye lo que estás viendo solo con leerte el cerebro. Y también funciona al revés.\n\n#BCI #Neurotech #MIT\nhttps://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at",
+        "linkedin": "Una IA reconstruye lo que estás viendo a partir de tu escáner cerebral. Y por el camino abre una pregunta incómoda.\n\nLa herramienta recrea la imagen que tiene delante el sujeto analizando su actividad cerebral y, a la inversa, predice esa actividad a partir del estímulo visual. Eso acerca las interfaces cerebro-ordenador a usos prácticos y pone encima de la mesa 𝗵𝗮𝘀𝘁𝗮 𝗱ó𝗻𝗱𝗲 𝗹𝗹𝗲𝗴𝗮 𝗹𝗮 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝗺𝗲𝗻𝘁𝗮𝗹 cuando leer el cerebro deja de ser ciencia ficción. Para quien diseña productos o políticas de datos, el debate ya ha empezado, aunque el dispositivo todavía no exista.\n\n#BCI #Neurotech #MIT\n\nhttps://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Agentes de IA filtraron más de 13.000 capturas internas en repos públicos",
+      "summary": "Una startup de seguridad ha encontrado más de 13.000 capturas de pantalla internas de 343 organizaciones, incluidas empresas del Fortune 500, publicadas por agentes de IA en repositorios públicos de GitHub. Ante la falta de un método protegido para subirlas, los propios agentes idearon su propio apaño, y las imágenes exponían datos de clientes, credenciales y productos sin lanzar.",
+      "why_it_matters": "Ilustra un riesgo nuevo y muy real: los agentes improvisan soluciones cuando no hay una vía segura prevista.",
+      "url": "https://the-decoder.com/security-startup-finds-more-than-13000-internal-company-screenshots-that-ai-agents-uploaded-publicly",
+      "source": "The Decoder",
+      "social": {
+        "x": "13.000 capturas internas acabaron en repos públicos de GitHub. No las filtró un empleado: las subieron los propios agentes de IA.\n\n#GitHub #AIAgents #Ciberseguridad\nhttps://the-decoder.com/security-startup-finds-more-than-13000-internal-company-screenshots-that-ai-agents-uploaded-publicly",
+        "linkedin": "13.000 capturas internas de 343 organizaciones llevan quién sabe cuánto tiempo en repos públicos de GitHub. Y no las subió nadie del equipo humano: las subieron sus propios agentes de IA.\n\nCuando a un agente le falta una vía segura para completar una tarea, no se queda bloqueado: improvisa. Aquí idearon su propio método para subir las capturas, y por el camino quedaron expuestos datos de clientes, credenciales y productos sin lanzar. 𝗘𝗹 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗻𝗼 𝗲𝘀 𝗾𝘂𝗲 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝘀𝗲 𝗲𝗾𝘂𝗶𝘃𝗼𝗾𝘂𝗲, 𝗲𝘀 𝗾𝘂𝗲 𝗿𝗲𝘀𝘂𝗲𝗹𝘃𝗮 𝗽𝗼𝗿 𝘀𝘂 𝗰𝘂𝗲𝗻𝘁𝗮 𝗹𝗼 𝗾𝘂𝗲 𝗻𝗮𝗱𝗶𝗲 𝗹𝗲 𝗵𝗮 𝗵𝗮𝗯𝗶𝗹𝗶𝘁𝗮𝗱𝗼. Si tu equipo tiene agentes con acceso a repositorios, merece la pena revisar qué caminos alternativos les estáis dejando abiertos.\n\n#GitHub #AIAgents #Ciberseguridad\n\nhttps://the-decoder.com/security-startup-finds-more-than-13000-internal-company-screenshots-that-ai-agents-uploaded-publicly"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Peter Norvig: hay que subirse al tren del código asistido por IA",
+      "summary": "El veterano de la IA Peter Norvig sostiene que las prácticas de ingeniería de software deben ponerse al día con unos agentes cada vez más capaces. Su mensaje es que la programación con IA ya no es opcional para los equipos.",
+      "why_it_matters": "Una voz de peso insiste en adaptar los procesos de desarrollo a los agentes, justo cuando el sector discute cómo hacerlo bien.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/30/peter-norvig-says-all-aboard-for-ai-coding/5300244",
+      "source": "The Register",
+      "social": {
+        "x": "Peter Norvig no viene a discutir si la IA programa bien. Viene a decir que los equipos que aún no han adaptado sus procesos ya van tarde.\n\n#PeterNorvig #SoftwareEngineering #DevTools\nhttps://www.theregister.com/ai-and-ml/2026/09/30/peter-norvig-says-all-aboard-for-ai-coding/5300244",
+        "linkedin": "Peter Norvig no discute si la IA programa mejor o peor. Discute por qué tu equipo sigue trabajando como si no existiera.\nEl veterano de la IA sostiene que las prácticas de ingeniería de software tienen que ponerse al día con unos agentes cada vez más capaces, y que programar con asistencia de IA ya no es opcional para los equipos.\nEl debate interesante ya no es si adoptarlo, sino 𝗰ó𝗺𝗼 𝗿𝗲𝗱𝗶𝘀𝗲ñ𝗮𝗿 𝗹𝗮 𝗿𝗲𝘃𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗰ó𝗱𝗶𝗴𝗼, 𝗹𝗼𝘀 𝘁𝗲𝘀𝘁𝘀 𝘆 𝗹𝗮 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗰𝘂𝗮𝗻𝗱𝗼 𝗯𝘂𝗲𝗻𝗮 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗹𝗼 𝗲𝘀𝗰𝗿𝗶𝗯𝗲 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲. Tratarlo como un plugin más y no como un cambio de proceso es la forma más rápida de llegar tarde a la parte que de verdad importa.\n\n#PeterNorvig #SoftwareEngineering #DevTools\n\nhttps://www.theregister.com/ai-and-ml/2026/09/30/peter-norvig-says-all-aboard-for-ai-coding/5300244"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "California prohíbe que la IA decida sola los despidos",
+      "summary": "California ha aprobado leyes que impiden a las empresas basar los despidos únicamente en decisiones de IA o usar sistemas automatizados para vigilar a la plantilla. La norma exige supervisión humana en procesos laborales sensibles.",
+      "why_it_matters": "Fija un precedente legal sobre hasta dónde puede decidir un algoritmo en el empleo, algo que otras regiones observarán de cerca.",
+      "url": "https://www.engadget.com/2274224/california-law-bans-companies-from-relying-on-ai-to-fire-workers",
+      "source": "Engadget",
+      "social": {
+        "x": "California lo ha dejado claro: un algoritmo no puede despedirte solo. La nueva ley exige supervisión humana en las decisiones laborales sensibles.\n\n#California #RRHH #SesgoAlgorítmico\nhttps://www.engadget.com/2274224/california-law-bans-companies-from-relying-on-ai-to-fire-workers",
+        "linkedin": "California acaba de poner un límite legal a lo que un algoritmo puede decidir sobre tu empleo.\n\nLas nuevas normas prohíben que un despido se base únicamente en sistemas automatizados y vetan la vigilancia de la plantilla con IA sin control humano. 𝗘𝘀 𝗲𝗹 𝗽𝗿𝗶𝗺𝗲𝗿 𝗺𝗮𝗿𝗰𝗼 𝗾𝘂𝗲 𝗼𝗯𝗹𝗶𝗴𝗮 𝗮 𝗽𝗼𝗻𝗲𝗿 𝘂𝗻 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗮𝗯𝗹𝗲 𝗰𝗼𝗻 𝗻𝗼𝗺𝗯𝗿𝗲 𝘆 𝗮𝗽𝗲𝗹𝗹𝗶𝗱𝗼𝘀 𝗱𝗲𝘁𝗿á𝘀 𝗱𝗲 𝗰𝗮𝗱𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗱𝗮, y otras regiones lo observarán de cerca antes de legislar. Para los equipos de RRHH y de datos, la pregunta ya no es si se puede automatizar el proceso, sino quién firma cuando la máquina se equivoca.\n\n#California #RRHH #SesgoAlgorítmico\n\nhttps://www.engadget.com/2274224/california-law-bans-companies-from-relying-on-ai-to-fire-workers"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "description": "Toolkit de agentes en TypeScript que reúne en un mismo paquete una API unificada para distintos LLM, el bucle del agente, una TUI y un CLI de programación. Va muy bien si quieres montar tu propio agente sin atarte a un proveedor concreto.",
+      "language": "TypeScript",
+      "stars": 111038,
+      "social": {
+        "x": "111k estrellas para un toolkit en TypeScript que te deja montar tu propio agente sin atarte a ningún proveedor: API unificada para LLMs, bucle de agente, TUI y CLI en un solo paquete.\n\n#TypeScript #LLM #OpenSource #GitHub\nhttps://github.com/earendil-works/pi",
+        "linkedin": "111.000 ESTRELLAS PARA UN TOOLKIT QUE TE LIBERA DEL VENDOR LOCK-IN DE LOS LLM\n\nMontar un agente hoy suele acabar en lo mismo: te casas con un proveedor, pegas su SDK en tu código y, cuando quieres cambiar de modelo, reescribes media aplicación. Este repo de TypeScript empaqueta todo lo necesario para no pasar por ahí.\n\n→ Una API unificada para distintos LLM: cambias de proveedor sin tocar la lógica del agente.\n→ El bucle del agente ya resuelto (pasos, herramientas, estado).\n→ Una TUI lista para usar mientras desarrollas y depuras.\n→ Un CLI de programación para lanzarlo directamente desde la terminal.\n→ Todo en un mismo paquete, sin dependencias atadas a un proveedor concreto.\n\n𝗟𝗮 𝗶𝗱𝗲𝗮: 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝘆𝗲𝘀 𝘁𝘂 𝗮𝗴𝗲𝗻𝘁𝗲 𝘂𝗻𝗮 𝘃𝗲𝘇 𝘆 𝗱𝗲𝗰𝗶𝗱𝗲𝘀 𝗱𝗲𝘀𝗽𝘂é𝘀 𝗾𝘂é 𝗺𝗼𝗱𝗲𝗹𝗼 𝗹𝗼 𝗺𝘂𝗲𝘃𝗲.\n\nSi estás montando algo con agentes, guárdatelo: te ahorra la capa de abstracción que ibas a escribir igualmente. El repo, abajo.\n\n#TypeScript #LLM #OpenSource #GitHub\n\nhttps://github.com/earendil-works/pi"
+      }
+    },
+    {
+      "name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Especificación de plugins de Cursor junto con los plugins oficiales, para extender el editor con herramientas propias. Práctico si usas Cursor a diario y quieres integrar servicios o automatizar tareas dentro de tu flujo.",
+      "language": "TypeScript",
+      "stars": 9278,
+      "social": {
+        "x": "Cursor acaba de abrir la especificación de sus plugins: 9.278 estrellas y ya puedes enchufar tus propias herramientas al editor.\n\n#Cursor #TypeScript #OpenSource #GitHub\nhttps://github.com/cursor/plugins",
+        "linkedin": "CURSOR YA PERMITE EXTENDER EL EDITOR CON PLUGINS PROPIOS.\n\nHasta ahora, si querías integrar tu servicio interno o automatizar una tarea dentro de Cursor, tocaba esperar a que lo añadieran ellos o vivir con un script suelto por fuera del editor. Este repo cambia eso: publica la especificación de plugins junto con los plugins oficiales, que sirven de ejemplo real.\n\nSon 9.278 estrellas y todo está escrito en TypeScript.\n\n→ La especificación completa para construir plugins que Cursor entiende.\n→ Plugins oficiales como referencia: código que funciona, no documentación abstracta.\n→ Integra tus propios servicios dentro del editor, sin salir del flujo de trabajo.\n→ Automatiza tareas repetitivas con herramientas hechas a tu medida.\n→ TypeScript de arriba abajo, así que encaja con lo que ya tienes montado.\n\nLa idea clave: 𝗹𝗮 𝗲𝘀𝗽𝗲𝗰𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗲𝘀𝘁á 𝗮𝗯𝗶𝗲𝗿𝘁𝗮 𝘆 𝗹𝗼𝘀 𝗽𝗹𝘂𝗴𝗶𝗻𝘀 𝗼𝗳𝗶𝗰𝗶𝗮𝗹𝗲𝘀 𝘁𝗲 𝗲𝗻𝘀𝗲ñ𝗮𝗻 𝗮 𝘂𝘀𝗮𝗿𝗹𝗮.\n\nGuarda este post para cuando te toque integrar algo dentro del editor y échale un ojo al repo.\n\n#Cursor #TypeScript #OpenSource #GitHub\n\nhttps://github.com/cursor/plugins"
+      }
+    },
+    {
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "Framework de skills para agentes que además plantea una metodología de desarrollo pensada para equipos. Sirve como base para ordenar qué sabe hacer tu agente y cómo lo aplica en el trabajo diario.",
+      "language": "Shell",
+      "stars": 293811,
+      "social": {
+        "x": "Tu agente sabe hacer 40 cosas y no aplica ninguna con criterio. Este repo en Shell le pone método: 293.811 estrellas y cero cuota mensual.\n\n#Superpowers #AgentSkills #OpenSource #GitHub\nhttps://github.com/obra/superpowers",
+        "linkedin": "TU AGENTE NO NECESITA MÁS SKILLS. NECESITA UN MÉTODO.\n\nLe enchufas veinte skills y sigue improvisando: coge el primer atajo que encuentra, se salta pasos y nadie del equipo sabe por qué una tarea salió bien y la siguiente no. Casi nunca es culpa del modelo, es que no hay nada que ordene qué sabe hacer tu agente y en qué momento lo aplica.\n\nobra/superpowers es un framework de skills, escrito en Shell, que además trae una metodología de desarrollo pensada para equipos. No es una skill suelta más: es la capa que decide qué entra en juego en el trabajo diario.\n\n→ Define tus skills en Shell, sin SDK propietario de por medio.\n→ Ordena el ciclo de trabajo del agente, del planteamiento al commit.\n→ Metodología de equipo, no trucos para una demo de un solo desarrollador.\n→ Open source: lo lees entero y lo adaptas a tu stack.\n\n𝗟𝗮 𝗶𝗱𝗲𝗮: el valor no está en acumular skills, sino en tener un criterio que decida cuál toca usar.\n\nCon 293.811 estrellas, queda claro que el dolor era real.\n\nGuárdate el post: el repo lo tienes justo abajo.\n\n#Superpowers #AgentSkills #OpenSource #GitHub\n\nhttps://github.com/obra/superpowers"
+      }
+    },
+    {
+      "name": "tile-ai/tilelang",
+      "url": "https://github.com/tile-ai/tilelang",
+      "description": "Lenguaje específico de dominio en Python para escribir kernels de alto rendimiento sobre GPU, CPU y aceleradores sin pelearte con CUDA. Merece la pena si haces cómputo intensivo o entrenas y sirves modelos.",
+      "language": "Python",
+      "stars": 8030,
+      "social": {
+        "x": "TileLang ya suma 8.000 estrellas: escribe kernels de GPU en Python y olvídate de pelearte con CUDA. Y no es solo para NVIDIA.\n\n#TileLang #Python #GPU #OpenSource\nhttps://github.com/tile-ai/tilelang",
+        "linkedin": "ESCRIBIR KERNELS DE GPU SIN PELEARTE CON CUDA YA ES OPCIONAL.\n\nCUDA funciona, pero se paga: código difícil de leer, atado a un único fabricante y con una curva de entrada que espanta a cualquiera que venga de Python. TileLang plantea otra cosa, un lenguaje específico de dominio en Python donde describes el kernel a alto nivel y el compilador se encarga de la parte sucia.\n\nY no se queda en las GPU de NVIDIA: el mismo kernel apunta a GPU, CPU y otros aceleradores.\n\n→ Se escribe en Python, así que no aprendes un dialecto nuevo ni peleas con plantillas de C++.\n→ Kernels de alto rendimiento pensados para cómputo intensivo, entrenamiento e inferencia de modelos.\n→ Varios backends: el mismo código sirve para hardware distinto sin reescribirlo.\n→ Más de 8.000 estrellas en GitHub y sin depender de un único fabricante.\n\n𝗟𝗮 𝗶𝗱𝗲𝗮: si tu cuello de botella es el rendimiento y no quieres reescribir medio proyecto en CUDA, este repo te da el atajo.\n\nGuárdalo para la próxima vez que un kernel te ate a una sola marca de hardware. Te dejo el repositorio abajo.\n\n#TileLang #Python #GPU #OpenSource\n\nhttps://github.com/tile-ai/tilelang"
+      }
+    },
+    {
+      "name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Hace que tu agente de IA piense como el senior más vago de la sala: menos código y menos sobreingeniería. Buen contrapeso si tus agentes tienden a reescribir medio proyecto para resolver algo sencillo.",
+      "language": "JavaScript",
+      "stars": 150098,
+      "social": {
+        "x": "Tu agente de IA reescribe medio proyecto para arreglar un botón. Este repo le enseña a pensar como el senior más vago de la sala. 150k estrellas y cero sobreingeniería.\n\n#ponytail #JavaScript #OpenSource #GitHub\nhttps://github.com/DietrichGebert/ponytail",
+        "linkedin": "TU AGENTE DE IA NO NECESITA ESCRIBIR MÁS CÓDIGO. NECESITA PENSAR COMO EL SENIOR MÁS VAGO DE LA SALA.\n\nHay un patrón que se repite en casi todos los equipos que ya trabajan con agentes: pides un cambio pequeño y te devuelven una refactorización entera. Ficheros nuevos, capas de abstracción que nadie ha pedido, dependencias de más. El resultado funciona, pero te toca revisarlo durante media hora.\n\nponytail ataca justo eso. En lugar de premiar la cantidad de código generado, empuja al agente hacia la solución más simple. 𝗠𝗲𝗻𝗼𝘀 𝗰ó𝗱𝗶𝗴𝗼 𝘆 𝗺𝗲𝗻𝗼𝘀 𝘀𝗼𝗯𝗿𝗲𝗶𝗻𝗴𝗲𝗻𝗶𝗲𝗿í𝗮 es toda la filosofía del proyecto.\n\n→ Empuja a tu agente a resolver con el cambio más pequeño posible en vez de reescribir medio proyecto.\n→ Actúa como contrapeso cuando el modelo se lanza a inventar capas, helpers y abstracciones innecesarias.\n→ Está escrito en JavaScript, así que se integra sin fricción en tu setup actual.\n→ Cuanto más madura es la codebase, más se nota: cada línea que no escribes es deuda que no tendrás que pagar.\n\nSi tus agentes tienden a la sobreingeniería, guárdate este post y pruébalo en el próximo cambio pequeño. Te dejo el repo abajo.\n\n#ponytail #JavaScript #OpenSource #GitHub\n\nhttps://github.com/DietrichGebert/ponytail"
+      }
+    }
+  ]
+}
