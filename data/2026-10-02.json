@@ -1,0 +1,324 @@
+{
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T16:15:49.688Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "OpenAI presenta en su DevDay GPT-6.1 Sol, computer use en la Agents API y entornos Codex en la nube",
+      "summary": "OpenAI ha anunciado en su DevDay 2026 una batería de novedades para desarrolladores: el modelo GPT-6.1 Sol, la capacidad de computer use dentro de la Agents API, entornos Codex alojados en la nube, una Decisions API y nuevos plugins para ChatGPT.",
+      "why_it_matters": "Es la hoja de ruta práctica para cualquiera que construya sobre OpenAI en los próximos meses.",
+      "url": "https://www.infoq.com/news/2026/10/openai-devday-2026",
+      "source": "InfoQ",
+      "social": {
+        "x": "Tus agentes ya pueden usar el ordenador sin que estés delante. OpenAI lo ha metido en la Agents API, junto a Codex en la nube y GPT-6.1 Sol.\n\n#OpenAI #Codex #AgentsAPI #DevDay\nhttps://www.infoq.com/news/2026/10/openai-devday-2026",
+        "linkedin": "La noticia no es GPT-6.1 Sol. Es que OpenAI ya te deja soltar agentes que manejan el ordenador por su cuenta.\n\nEl DevDay ha traído cuatro piezas que cambian cómo se construye: computer use dentro de la Agents API, entornos Codex alojados en la nube, una Decisions API y nuevos plugins para ChatGPT. El modelo es lo vistoso, pero 𝗹𝗼 𝗾𝘂𝗲 𝗺𝘂𝗲𝘃𝗲 𝗲𝗹 𝘁𝗮𝗯𝗹𝗲𝗿𝗼 𝗲𝘀 𝗾𝘂𝗲 𝗹𝗮 𝗰𝗮𝗽𝗮 𝗱𝗲 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗽𝗮𝘀𝗮 𝗱𝗲 𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁𝗼 𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗴𝗲𝘀𝘁𝗶𝗼𝗻𝗮𝗱𝗮. Para quien construye encima, eso quita trabajo propio y añade dependencia de un solo proveedor.\n\n#OpenAI #Codex #AgentsAPI #DevDay\n\nhttps://www.infoq.com/news/2026/10/openai-devday-2026"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "OpenAI publica una guía práctica para elegir y ajustar los modelos GPT-6",
+      "summary": "La guía explica cómo seleccionar entre los modelos de la familia GPT-6, ajustar el esfuerzo de razonamiento, mejorar prompts y skills, coordinar herramientas y preparar workflows para producción.",
+      "why_it_matters": "Es material directo para equipos que quieran llevar GPT-6 a producción sin ir a ciegas.",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "source": "OpenAI News",
+      "social": {
+        "x": "El modelo más grande de GPT-6 no siempre es el que tu equipo necesita. OpenAI publica la guía para elegir y ajustar cada uno.\n\n#OpenAI #GPT6 #PromptEngineering\nhttps://openai.com/index/practical-guide-building-gpt-6",
+        "linkedin": "El error más caro con GPT-6 no es elegir mal el modelo, es no tocar el esfuerzo de razonamiento.\n\nOpenAI ha publicado una guía práctica que va más allá del «usa el más grande»: cómo seleccionar entre los modelos de la familia, ajustar el reasoning effort, mejorar prompts y skills, coordinar herramientas y preparar workflows para producción. 𝗘𝗹 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝘆𝗮 𝗱𝗲𝗽𝗲𝗻𝗱𝗲 𝗺𝗲𝗻𝗼𝘀 𝗱𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗾𝘂𝗲 𝗱𝗲 𝗰ó𝗺𝗼 𝗹𝗼 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗲𝘀. Para cualquier equipo que esté llevando GPT-6 a producción, esto ahorra semanas de prueba y error, y unas cuantas facturas de tokens de más.\n\n#OpenAI #GPT6 #PromptEngineering\n\nhttps://openai.com/index/practical-guide-building-gpt-6"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "ChatGPT añade un probador virtual de ropa a partir de tus fotos",
+      "summary": "OpenAI despliega funciones de compra en ChatGPT que permiten probarse virtualmente ropa y accesorios usando fotos propias y guardar productos en una biblioteca de favoritos. Las imágenes las genera el último modelo de la compañía.",
+      "why_it_matters": "Lleva la generación de imagen al comercio del día a día y tensa la competencia con los probadores de otras plataformas.",
+      "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Ya puedes probarte ropa sin salir de ChatGPT: subes una foto y el modelo te la pone encima. OpenAI apunta directo al comercio.\n\n#OpenAI #ChatGPT #ecommerce\nhttps://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you",
+        "linkedin": "El probador de ropa se cuela donde ya pasas el día: dentro del chat.\n\nOpenAI despliega funciones de compra en ChatGPT con las que puedes probarte virtualmente ropa y accesorios a partir de tus propias fotos, guardar productos en una biblioteca de favoritos y, el paso lógico, acabar comprando ahí mismo. Las imágenes las genera su último modelo, así que 𝗹𝗮 𝗴𝗲𝗻𝗲𝗿𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗶𝗺𝗮𝗴𝗲𝗻 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗷𝘂𝗴𝘂𝗲𝘁𝗲 𝗰𝗿𝗲𝗮𝘁𝗶𝘃𝗼 𝘆 𝗲𝗻𝘁𝗿𝗮 𝗲𝗻 𝗲𝗹 𝗲𝗺𝗯𝘂𝗱𝗼 𝗱𝗲 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗶ó𝗻. Para el comercio electrónico esto aprieta: si el try-on vive dentro del asistente, la tienda deja de ser el primer punto de contacto con el producto.\n\n#OpenAI #ChatGPT #ecommerce\n\nhttps://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Black Forest Labs lanza Flux 3 Image con edición por pasos",
+      "summary": "Black Forest Labs publica Flux 3 Image, la parte de imagen de su familia Flux 3. Permite ediciones en varios pasos sin tocar el resto de la imagen, componer escenas con bounding boxes y hasta diez imágenes de referencia, y obtener hasta 4K. Los pesos abiertos llegarán en las próximas semanas.",
+      "why_it_matters": "La edición selectiva que respeta el resto del lienzo es justo lo que faltaba en muchos flujos de trabajo con imagen.",
+      "url": "https://the-decoder.com/black-forest-labs-launches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone",
+      "source": "The Decoder",
+      "social": {
+        "x": "Flux 3 Image edita solo lo que le señalas y deja el resto del lienzo intacto. Los pesos abiertos llegan en semanas.\n\n#Flux #BlackForestLabs #OpenSource #GenerativeAI\nhttps://the-decoder.com/black-forest-labs-launches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone",
+        "linkedin": "Editar una imagen sin cargarse el resto del lienzo ya no es un compromiso: Flux 3 Image cambia solo lo que le señalas.\n\nBlack Forest Labs ha publicado la parte de imagen de su familia Flux 3, con edición por pasos, composición de escenas mediante bounding boxes y hasta diez imágenes de referencia, con salida de hasta 4K. 𝗟𝗼𝘀 𝗽𝗲𝘀𝗼𝘀 𝗮𝗯𝗶𝗲𝗿𝘁𝗼𝘀 𝗹𝗹𝗲𝗴𝗮𝗻 𝗲𝗻 𝗹𝗮𝘀 𝗽𝗿ó𝘅𝗶𝗺𝗮𝘀 𝘀𝗲𝗺𝗮𝗻𝗮𝘀, y ahí está la parte que mueve el tablero: la edición selectiva que respeta el resto de la imagen era justo lo que faltaba en muchos flujos de trabajo. Para quien hoy encadena varios modelos solo para retocar una zona, el pipeline se puede simplificar bastante.\n\n#Flux #BlackForestLabs #OpenSource #GenerativeAI\n\nhttps://the-decoder.com/black-forest-labs-launches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Microsoft AI lanza modelos de transcripción y voz para agentes",
+      "summary": "Microsoft AI ha publicado MAI-Transcribe-2-Streaming, un modelo de transcripción en tiempo real, junto con nuevos modelos de text-to-speech pensados para agentes de voz.",
+      "why_it_matters": "Da a los desarrolladores piezas listas para montar agentes de voz con latencia baja.",
+      "url": "https://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents",
+      "source": "The Decoder",
+      "social": {
+        "x": "Microsoft acaba de soltar las piezas que faltaban para montar agentes de voz: transcripción en streaming y text-to-speech nuevos. La latencia deja de ser excusa.\n\n#MicrosoftAI #TextToSpeech #VoiceAgents\nhttps://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents",
+        "linkedin": "Montar un agente de voz en tiempo real ya no es un problema de modelos, es un problema de latencia. Y Microsoft AI acaba de mover esa ficha con MAI-Transcribe-2-Streaming y nuevos modelos de text-to-speech pensados específicamente para agentes de voz: 𝗹𝗮𝘀 𝗽𝗶𝗲𝘇𝗮𝘀 𝗱𝗲𝗹 𝘀𝘁𝗮𝗰𝗸 𝗱𝗲 𝘃𝗼𝘇 𝗹𝗹𝗲𝗴𝗮𝗻 𝗿𝗲𝘀𝘂𝗲𝗹𝘁𝗮𝘀 𝘆 𝗰𝗼𝗻 𝗹𝗮𝘁𝗲𝗻𝗰𝗶𝗮 𝗯𝗮𝗷𝗮. Para cualquier equipo que esté construyendo asistentes conversacionales, esto baja el coste de entrada y desplaza la competencia del terreno de la infraestructura al del diseño del flujo de conversación. Cuando responder sea instantáneo por defecto, la ventaja estará en que el agente tenga algo útil que decir.\n\n#MicrosoftAI #TextToSpeech #VoiceAgents\n\nhttps://the-decoder.com/microsoft-ai-releases-new-transcription-and-text-to-speech-models-for-voice-agents"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Ideogram 4.5 edita solo la zona que le pides",
+      "summary": "El nuevo modelo de Ideogram promete modificar únicamente las áreas seleccionadas de una imagen y dejar intacto el resto. Llega con resolución nativa 2K desde 0,8 céntimos por imagen y ya lo usan socios como Runway, Pika y Leonardo AI; habrá pesos abiertos.",
+      "why_it_matters": "Baja el coste y sube el control en la edición de imagen, algo clave para producción real.",
+      "url": "https://the-decoder.com/ideogram-says-its-new-model-can-edit-part-of-an-image-without-messing-up-the-rest",
+      "source": "The Decoder",
+      "social": {
+        "x": "El problema de la edición con IA nunca fue generar: era no cargarse el resto de la imagen. Ideogram 4.5 ataca justo eso, a 0,8 céntimos por imagen.\n\n#Ideogram #Runway #Pika #OpenSource\nhttps://the-decoder.com/ideogram-says-its-new-model-can-edit-part-of-an-image-without-messing-up-the-rest",
+        "linkedin": "Editar una imagen con IA sin cargarte el resto del encuadre era la asignatura pendiente.\n\nIdeogram 4.5 dice que solo toca la zona que le marcas y deja el resto intacto, a 2K nativo y desde 0,8 céntimos por imagen. Runway, Pika y Leonardo AI ya lo integran, y habrá pesos abiertos, así que 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗽𝗼𝗿 𝗶𝗺𝗮𝗴𝗲𝗻 𝘆 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗳𝗶𝗻𝗼 𝘀𝗼𝗻 𝗹𝗼 𝗾𝘂𝗲 𝘀𝗲𝗽𝗮𝗿𝗮 𝘂𝗻𝗮 𝗱𝗲𝗺𝗼 𝗯𝗼𝗻𝗶𝘁𝗮 𝗱𝗲 𝘂𝗻 𝗳𝗹𝘂𝗷𝗼 𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻 𝗿𝗲𝗮𝗹. Para equipos de diseño, marketing o postproducción, toca revisar los pipelines de edición.\n\n#Ideogram #Runway #Pika #OpenSource\n\nhttps://the-decoder.com/ideogram-says-its-new-model-can-edit-part-of-an-image-without-messing-up-the-rest"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "El avatar de vídeo de Tavus engaña a casi la mitad de los participantes de una llamada",
+      "summary": "Tavus presenta Griffin, su Human Interaction Model, capaz de mantener videollamadas en tiempo real procesando expresiones faciales, tono de voz y gestos. En un estudio de la propia empresa, el 48 % de los participantes creyó que era una persona real tras un minuto de llamada, frente al 2 % de sistemas anteriores.",
+      "why_it_matters": "Sube el listón del realismo en vídeo sintético y aviva las dudas sobre identidad y fraude.",
+      "url": "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call",
+      "source": "The Decoder",
+      "social": {
+        "x": "El 48 % de los participantes creyó estar hablando con una persona real. Era un avatar de vídeo. Y bastó un minuto de llamada.\n\n#Tavus #Deepfakes #IdentidadDigital\nhttps://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call",
+        "linkedin": "El 48 % de los participantes de un estudio creyó estar hablando con una persona real. Era Griffin, el avatar de vídeo de Tavus.\n\nEl dato viene de la propia empresa, que ha medido su Human Interaction Model en videollamadas de un minuto: 𝗽𝗿𝗼𝗰𝗲𝘀𝗮 𝗲𝘅𝗽𝗿𝗲𝘀𝗶ó𝗻 𝗳𝗮𝗰𝗶𝗮𝗹, 𝘁𝗼𝗻𝗼 𝗱𝗲 𝘃𝗼𝘇 𝘆 𝗴𝗲𝘀𝘁𝗼𝘀 𝗲𝗻 𝘁𝗶𝗲𝗺𝗽𝗼 𝗿𝗲𝗮𝗹 y engaña a casi la mitad de los sujetos, frente al 2 % de los sistemas anteriores. El salto ya no es de calidad de imagen, es de credibilidad, y eso mueve el problema de sitio: la pregunta deja de ser si el vídeo sintético canta y pasa a ser cómo verificamos quién hay al otro lado. Para quien trabaja en fraude, verificación de identidad o selección de personal, la videollamada acaba de dejar de ser una prueba de humanidad.\n\n#Tavus #Deepfakes #IdentidadDigital\n\nhttps://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Docker lleva a la CNCF su especificación para empaquetar permisos de agentes de IA",
+      "summary": "Docker anuncia que dona a la CNCF el Sandbox Kit Specification, con el objetivo de que aquello a lo que puede acceder un agente de IA sea tan portable como el propio agente. La idea es empaquetar esos permisos como imágenes OCI.",
+      "why_it_matters": "Estandarizar los permisos de los agentes facilita desplegarlos sin abrirles de par en par el sistema.",
+      "url": "https://www.infoq.com/news/2026/10/docker-sandbox-ai-agent",
+      "source": "InfoQ",
+      "social": {
+        "x": "Docker dona a la CNCF una idea incómoda: que los permisos de un agente de IA se empaqueten como una imagen OCI y viajen con él.\n\n#Docker #CNCF #OCI #OpenSource\nhttps://www.infoq.com/news/2026/10/docker-sandbox-ai-agent",
+        "linkedin": "Docker quiere que aquello a lo que puede acceder un agente de IA sea tan portable como el agente mismo.\n\nPara eso ha donado a la CNCF su Sandbox Kit Specification, que empaqueta los permisos de un agente en artefactos OCI: 𝗹𝗼𝘀 𝗽𝗲𝗿𝗺𝗶𝘀𝗼𝘀 𝘀𝗲 𝗺𝘂𝗲𝘃𝗲𝗻 𝗰𝗼𝗻 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲, 𝗻𝗼 𝘀𝗲 𝗿𝗲𝗶𝗻𝘃𝗲𝗻𝘁𝗮𝗻 𝗲𝗻 𝗰𝗮𝗱𝗮 𝗽𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮. Hoy cada herramienta resuelve el aislamiento a su manera y el resultado suele ser darle al agente más acceso del necesario porque limitarlo es un trabajo aparte. Si la especificación cuaja, desplegar agentes con un mínimo de contención deja de ser artesanal y pasa a ser una pieza más del pipeline. A quien ya tiene agentes corriendo en producción le toca mirar cómo los está limitando.\n\n#Docker #CNCF #OCI #OpenSource\n\nhttps://www.infoq.com/news/2026/10/docker-sandbox-ai-agent"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "DigitalOcean estrena agentes gestionados en public preview",
+      "summary": "DigitalOcean lanza Managed Agents en public preview, una capa gestionada para ejecutar agentes de IA con runtimes aislados en microVM, acceso a herramientas bajo control e inferencia serverless.",
+      "why_it_matters": "Baja la barrera para poner agentes en producción sin montar tú mismo el aislamiento.",
+      "url": "https://www.infoq.com/news/2026/10/digitalocean-managed-agents",
+      "source": "InfoQ",
+      "social": {
+        "x": "Montar el aislamiento de tus agentes ya no corre de tu cuenta. DigitalOcean estrena Managed Agents en public preview: microVM aisladas, herramientas bajo control e inferencia serverless.\n\n#DigitalOcean #AIAgents #Serverless #MicroVM\nhttps://www.infoq.com/news/2026/10/digitalocean-managed-agents",
+        "linkedin": "Montar el aislamiento de tus agentes ya no tiene por qué correr de tu cuenta.\n\nDigitalOcean pone Managed Agents en public preview: 𝗿𝘂𝗻𝘁𝗶𝗺𝗲𝘀 𝗮𝗶𝘀𝗹𝗮𝗱𝗼𝘀 𝗲𝗻 𝗺𝗶𝗰𝗿𝗼𝗩𝗠, 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 𝗯𝗮𝗷𝗼 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗲 𝗶𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝘀𝗲𝗿𝘃𝗲𝗿𝗹𝗲𝘀𝘀. La barrera real para llevar agentes a producción nunca fue el modelo, sino toda la fontanería de alrededor: sandboxing, permisos, escalado de la inferencia. Para un equipo sin plataforma propia, esto marca la diferencia entre quedarse en el prototipo y desplegar de verdad, y apunta a hacia dónde va el sector: el agente como un servicio más que se contrata, no como un experimento que se mantiene a mano.\n\n#DigitalOcean #AIAgents #Serverless #MicroVM\n\nhttps://www.infoq.com/news/2026/10/digitalocean-managed-agents"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "NVIDIA amplía DGX Spark a 64 GB para la IA local",
+      "summary": "NVIDIA anuncia que este mes llegará DGX Spark con 64 GB de memoria unificada de la mano de fabricantes como Acer. El equipo busca facilitar la ejecución de modelos abiertos cada vez más capaces sin salir del puesto de trabajo.",
+      "why_it_matters": "Refuerza la opción de correr IA en local cuando la nube no encaja por coste o privacidad.",
+      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
+      "source": "NVIDIA Blog",
+      "social": {
+        "x": "La memoria era la excusa para no correr modelos abiertos en local. NVIDIA acaba de quitarla: DGX Spark sube a 64 GB.\n\n#NVIDIA #DGXSpark #OpenSource\nhttps://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync",
+        "linkedin": "La memoria era la excusa para no correr modelos abiertos en local. NVIDIA acaba de quitarla.\n\nDGX Spark pasa a 64 GB de memoria unificada y llegará este mes con fabricantes como Acer, pensado para modelos abiertos cada vez más capaces sin salir del puesto de trabajo. La lectura interesante no es el hardware, sino lo que desbloquea: 𝗲𝗾𝘂𝗶𝗽𝗼𝘀 𝗾𝘂𝗲 𝗽𝘂𝗲𝗱𝗲𝗻 𝗱𝗲𝘀𝗰𝗮𝗿𝘁𝗮𝗿 𝗹𝗮 𝗻𝘂𝗯𝗲 𝗽𝗼𝗿 𝗰𝗼𝘀𝘁𝗲 𝗼 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝘀𝗶𝗻 𝗿𝗲𝗻𝘂𝗻𝗰𝗶𝗮𝗿 𝗮 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲𝗰𝗲𝗻𝘁𝗲. Para quien maneja datos sensibles, esa decisión deja de ser un acto de fe.\n\n#NVIDIA #DGXSpark #OpenSource\n\nhttps://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "Cloudflare publica los modelos abiertos Clef",
+      "summary": "Cloudflare estrena su familia de modelos abiertos Clef, que también procesa imagen y vídeo y está disponible en Hugging Face para quien tenga hardware para ejecutarla en local. La compañía admite que sale más caro.",
+      "why_it_matters": "Amplía el catálogo de modelos abiertos multimodales que puedes self-host.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/01/cloudflare-tries-to-outplay-jev-with-open-weight-clef-models/5300649",
+      "source": "The Register",
+      "social": {
+        "x": "Cloudflare ya tiene sus propios modelos abiertos. Y suelta el dato que casi nadie da: ejecutarlos en local sale más caro.\n\n#Cloudflare #OpenSource #HuggingFace\nhttps://www.theregister.com/ai-and-ml/2026/10/01/cloudflare-tries-to-outplay-jev-with-open-weight-clef-models/5300649",
+        "linkedin": "Cloudflare se suma a los modelos abiertos con Clef, y lo más interesante no es el modelo: es lo que la empresa admite sobre su coste.\n\nClef también procesa imagen y vídeo, está en Hugging Face y se puede 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿 𝗲𝗻 𝗹𝗼𝗰𝗮𝗹 𝘀𝗶𝗻 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝗻𝗶𝗻𝗴𝘂𝗻𝗮 𝗔𝗣𝗜. La letra pequeña es que, según Cloudflare, sale más caro que las alternativas, algo que muy pocas compañías dicen en el anuncio. Para quien monta su propio stack, el mensaje es claro: lo abierto ya no es la opción barata por defecto, es la opción que controlas.\n\n#Cloudflare #OpenSource #HuggingFace\n\nhttps://www.theregister.com/ai-and-ml/2026/10/01/cloudflare-tries-to-outplay-jev-with-open-weight-clef-models/5300649"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "Ai2 libera AstaBrief, su modelo rápido de generación de informes",
+      "summary": "El equipo de Ai2 publica en abierto AstaBrief, el modelo que hay detrás de la generación rápida de informes en su herramienta Asta. El post detalla la recolección de datos y el entrenamiento con SFT.",
+      "why_it_matters": "Ofrece un modelo abierto y ligero para generar informes, reutilizable en tus propios flujos.",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "El modelo que redacta los informes de Asta ya no es una caja negra: Ai2 lo libera. Ligero, entrenado con SFT y reutilizable en tus propios flujos.\n\n#Ai2 #OpenSource #SFT #LLM\nhttps://huggingface.co/blog/allenai/astabrief",
+        "linkedin": "El modelo que redacta los informes de Asta ya se puede descargar.\n\nAi2 ha publicado AstaBrief, el modelo ligero que mueve la generación rápida de informes en su herramienta Asta, y lo ha acompañado del detalle de cómo recolectaron los datos y cómo lo entrenaron con SFT. Para quien construye flujos de generación de informes, 𝗲𝗹 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗮𝗱𝗼 𝗽𝗲𝘀𝗮 𝘁𝗮𝗻𝘁𝗼 𝗰𝗼𝗺𝗼 𝗹𝗼𝘀 𝗽𝗲𝘀𝗼𝘀: puedes reproducir el proceso y adaptarlo a tus propias fuentes en lugar de ajustar a ciegas sobre una API cerrada. Lo abierto deja de ser una demo y pasa a ser una pieza reutilizable.\n\n#Ai2 #OpenSource #SFT #LLM\n\nhttps://huggingface.co/blog/allenai/astabrief"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "AWS enseña a afinar un agente de búsqueda con RL multiturno en SageMaker",
+      "summary": "El tutorial muestra cómo afinar con refuerzo multiturno un agente de búsqueda sobre Amazon SageMaker AI, con el objetivo de lograr la fiabilidad de un modelo frontera con menos latencia y coste. Incluye las mejoras medidas en calidad de recuperación.",
+      "why_it_matters": "Es una receta aplicable para quien quiera agentes de búsqueda más fiables sin depender siempre de un modelo enorme.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "¿Y si tu agente de búsqueda no necesitara un modelo frontera? AWS enseña a afinarlo con RL multiturno en SageMaker: misma fiabilidad, menos latencia y coste.\n\n#AWS #SageMaker #MachineLearning\nhttps://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai",
+        "linkedin": "El agente de búsqueda que necesitas no tiene por qué ser un modelo frontera.\n\nAWS ha publicado en su blog de Machine Learning una receta para afinar con RL multiturno un agente de búsqueda sobre SageMaker AI, con métricas de mejora en calidad de recuperación y el objetivo de igualar la fiabilidad de un modelo grande con menos latencia y coste. Lo relevante no es el tutorial en sí, sino lo que implica: 𝗹𝗮 𝗳𝗶𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗱𝗲 𝗯ú𝘀𝗾𝘂𝗲𝗱𝗮 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗴𝗮𝗻𝗮𝗿 𝗰𝗼𝗻 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗶𝗿𝗶𝗴𝗶𝗱𝗼 𝗲𝗻 𝗹𝘂𝗴𝗮𝗿 𝗱𝗲 𝗰𝗼𝗺𝗽𝗿𝗮𝗻𝗱𝗼 𝗺á𝘀 𝗽𝗮𝗿á𝗺𝗲𝘁𝗿𝗼𝘀. Para quien mantiene agentes en producción, es una vía que conviene evaluar antes de escalar de modelo.\n\n#AWS #SageMaker #MachineLearning\n\nhttps://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "herramientas",
+      "title": "El agente de código Pi da marcha atrás y añade soporte MCP",
+      "summary": "El agente de programación Pi incorpora soporte para MCP después de haber defendido lo contrario. Para no perder su carácter minimalista, han movido la nueva capa a un componente aparte.",
+      "why_it_matters": "MCP se consolida como el estándar de facto para conectar herramientas a los agentes de código.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/02/pi-coding-agent-pulls-a-180-and-adds-mcp-support/5300678",
+      "source": "The Register",
+      "social": {
+        "x": "Pi defendía que MCP sobraba para un agente de código. Ahora lo soporta, en un componente aparte para no engordar el núcleo.\n\n#MCP #Pi #DevTools\nhttps://www.theregister.com/ai-and-ml/2026/10/02/pi-coding-agent-pulls-a-180-and-adds-mcp-support/5300678",
+        "linkedin": "Pi se pasó meses defendiendo que un agente de código no necesita MCP. Ahora lo soporta.\n\nEl giro dice más del estándar que del propio Pi: cuando hasta los proyectos que lo criticaban lo adoptan, la pregunta deja de ser si MCP se impone y pasa a ser cómo lo integras sin arrastrar complejidad. La respuesta de Pi es 𝗺𝗼𝘃𝗲𝗿 𝗹𝗮 𝗰𝗮𝗽𝗮 𝗮 𝘂𝗻 𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁𝗲 𝗮𝗽𝗮𝗿𝘁𝗲, 𝗳𝘂𝗲𝗿𝗮 𝗱𝗲𝗹 𝗻ú𝗰𝗹𝗲𝗼, y es la que van a copiar más agentes minimalistas. Para quien construye tooling para agentes, adaptarse al estándar sin renunciar a la propia arquitectura ya no es una contradicción.\n\n#MCP #Pi #DevTools\n\nhttps://www.theregister.com/ai-and-ml/2026/10/02/pi-coding-agent-pulls-a-180-and-adds-mcp-support/5300678"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "lanzamientos",
+      "title": "JetBrains Air, su apuesta por el desarrollo agéntico",
+      "summary": "JetBrains presenta Air, un sistema de productos para desarrollar software con agentes, construido sobre su plataforma abierta Central. La compañía lleva seis meses experimentando con entornos de desarrollo agénticos.",
+      "why_it_matters": "Es la respuesta de un fabricante clásico de IDEs a un mercado que se está rehaciendo alrededor de los agentes.",
+      "url": "https://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air",
+      "source": "Lobsters",
+      "social": {
+        "x": "JetBrains lleva seis meses probando entornos de desarrollo agénticos. Ahora lo enseña: Air, su plataforma para trabajar con agentes.\n\n#JetBrains #Air #DevTools\nhttps://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air",
+        "linkedin": "JetBrains lleva seis meses experimentando con entornos de desarrollo agénticos y ahora lo pone encima de la mesa.\n\nAir no es un IDE con un asistente pegado al lateral: es un sistema de productos para desarrollar software con agentes, construido sobre 𝘀𝘂 𝗽𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮 𝗮𝗯𝗶𝗲𝗿𝘁𝗮 𝗖𝗲𝗻𝘁𝗿𝗮𝗹. Para un fabricante clásico de IDEs el movimiento dice bastante, porque el mercado se está rehaciendo alrededor de los agentes y quien no rediseñe la herramienta desde dentro acabará vendiendo un editor de texto con autocompletado. La duda real es si su base de usuarios de toda la vida migra o se queda donde ya tiene montados sus flujos.\n\n#JetBrains #Air #DevTools\n\nhttps://blog.jetbrains.com/blog/2026/09/22/introducing-jetbrains-air"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "investigacion",
+      "title": "Los LLM no razonan, según el aviso de MIT Technology Review",
+      "summary": "Diez años después del duelo de AlphaGo con Lee Sedol, el artículo sostiene que la IA actual sigue sin apoyarse en la maquinaria que hizo posible aquella victoria. Los grandes modelos de lenguaje no razonan, aunque lo parezca.",
+      "why_it_matters": "Recuerda los límites de fondo de los LLM justo cuando más decisiones se toman sobre ellos.",
+      "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason",
+      "source": "MIT Technology Review",
+      "social": {
+        "x": "Parece razonar. No razona. Diez años después de AlphaGo, MIT Technology Review recuerda que los LLM siguen sin la maquinaria que hizo posible aquella victoria.\n\n#LLM #AlphaGo #MITTechnologyReview\nhttps://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason",
+        "linkedin": "Parece que razona, pero no razona. Eso sostiene MIT Technology Review diez años después de que AlphaGo ganara a Lee Sedol, y el matiz importa: los LLM no se apoyan en la maquinaria que hizo posible aquella victoria.\n\nLa diferencia no es académica. 𝗘𝘀𝘁𝗮𝗺𝗼𝘀 𝘁𝗼𝗺𝗮𝗻𝗱𝗼 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝗲𝘀 𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼, 𝗰𝗼𝗻𝘁𝗿𝗮𝘁𝗮𝗰𝗶ó𝗻 𝘆 𝗽𝗿𝗲𝘀𝘂𝗽𝘂𝗲𝘀𝘁𝗼 𝘀𝗼𝗯𝗿𝗲 𝘀𝗶𝘀𝘁𝗲𝗺𝗮𝘀 𝗾𝘂𝗲 𝗶𝗺𝗶𝘁𝗮𝗻 𝗲𝗹 𝗿𝗮𝘇𝗼𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝘀𝗶𝗻 𝘁𝗲𝗻𝗲𝗿𝗹𝗼, y eso cambia qué les puedes pedir y qué no. El aviso no pide frenar la adopción, pide dejar de confundir una demostración convincente con una capacidad real.\n\n#LLM #AlphaGo #MITTechnologyReview\n\nhttps://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "investigacion",
+      "title": "La IA por fin vence al mejor jugador de Stratego de la historia",
+      "summary": "Un sistema de IA ha superado al mejor jugador de Stratego, un juego en el que casi toda la información está oculta. La clave fue añadir una segunda red neuronal que estima la identidad de las piezas no visibles.",
+      "why_it_matters": "Avanzar en información oculta e imperfecta es un paso relevante hacia agentes que decidan sin datos completos.",
+      "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Una IA acaba de ganar al mejor jugador de Stratego de la historia. En este juego no ves las piezas del rival, y ahí está el mérito.\n\n#Stratego #DeepLearning #ReinforcementLearning\nhttps://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+        "linkedin": "Al mejor jugador de Stratego de la historia le ha ganado una IA. Y lo relevante no es el juego, sino lo que no se ve.\n\nEn Stratego casi toda la información está oculta: no sabes qué pieza tienes delante ni qué planea el rival. El sistema lo resolvió con una segunda red neuronal que estima la identidad de las piezas no visibles, así que decide con una imagen parcial del tablero. 𝗔𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝗮 𝗱𝗲𝗰𝗶𝗱𝗶𝗿 𝗰𝗼𝗻 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗰𝗶ó𝗻 𝗶𝗻𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗮 𝗲𝘀 𝗹𝗼 𝗾𝘂𝗲 𝘀𝗲𝗽𝗮𝗿𝗮 𝗮 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗾𝘂𝗲 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮𝗻 𝗲𝗻 𝘂𝗻𝗮 𝗱𝗲𝗺𝗼 𝗱𝗲 𝗹𝗼𝘀 𝗾𝘂𝗲 𝗽𝘂𝗲𝗱𝗲𝗻 𝗼𝗽𝗲𝗿𝗮𝗿 𝗲𝗻 𝗲𝗹 𝗺𝘂𝗻𝗱𝗼 𝗿𝗲𝗮𝗹, ya sea en logística, diagnóstico o negociación. Para quien construye agentes, la arquitectura importa más que el marcador.\n\n#Stratego #DeepLearning #ReinforcementLearning\n\nhttps://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "investigacion",
+      "title": "Un profesor de Stanford empuja Homa como sustituto de TCP",
+      "summary": "Homa es una propuesta para repensar las redes de la era de la IA que, según su impulsor, debería sustituir a TCP. El artículo repasa los problemas del protocolo clásico ante las cargas actuales de los centros de datos.",
+      "why_it_matters": "Si las redes de datos son el cuello de botella de la IA, conviene mirar alternativas al TCP de siempre.",
+      "url": "https://www.theregister.com/networks/2026/10/01/stanford-prof-is-beating-the-drum-for-a-new-protocol-to-replace-tcp/5300629",
+      "source": "The Register",
+      "social": {
+        "x": "TCP lleva medio siglo funcionando y un profesor de Stanford dice que ya no aguanta las cargas de la IA. Su relevo se llama Homa.\n\n#TCP #Homa #Stanford #DataCenters\nhttps://www.theregister.com/networks/2026/10/01/stanford-prof-is-beating-the-drum-for-a-new-protocol-to-replace-tcp/5300629",
+        "linkedin": "TCP cumple 50 años y hay quien sostiene que ya no está a la altura de lo que le pedimos hoy. Un profesor de Stanford propone Homa como sustituto: un protocolo pensado para las cargas de los centros de datos de la IA, donde la latencia de cola pesa más que el ancho de banda bruto. 𝗦𝗶 𝗹𝗮 𝗿𝗲𝗱 𝗲𝘀 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲 𝗹𝗮 𝗜𝗔, 𝗿𝗲𝗽𝗹𝗮𝗻𝘁𝗲𝗮𝗿 𝗲𝗹 𝘁𝗿𝗮𝗻𝘀𝗽𝗼𝗿𝘁𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗱𝗲𝗯𝗮𝘁𝗲 𝗮𝗰𝗮𝗱é𝗺𝗶𝗰𝗼. Nadie va a migrar internet a Homa mañana, pero quien diseñe infraestructura debería seguir de cerca esta conversación.\n\n#TCP #Homa #Stanford #DataCenters\n\nhttps://www.theregister.com/networks/2026/10/01/stanford-prof-is-beating-the-drum-for-a-new-protocol-to-replace-tcp/5300629"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "OpenAI despide a tres empleados por filtrar información a un grupo externo",
+      "summary": "OpenAI ha prescindido de tres trabajadores, dos investigadores de seguridad y una program manager, a los que acusa de compartir información confidencial con una organización externa de seguridad en IA. La empresa niega que sea una represalia por sus críticas.",
+      "why_it_matters": "Muestra la tensión entre transparencia y confidencialidad en los laboratorios que dicen tomarse la seguridad en serio.",
+      "url": "https://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team",
+      "source": "The Decoder",
+      "social": {
+        "x": "OpenAI despide a dos investigadores de seguridad y una program manager por compartir información con un grupo externo. Niega que sea represalia.\n\n#OpenAI #AISafety #TheDecoder\nhttps://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team",
+        "linkedin": "Hay dos lecturas de esto: una filtración de confidencialidad o un aviso para quien hable de más. OpenAI ha despedido a dos investigadores de seguridad y a una program manager por compartir información con una organización externa dedicada a la seguridad en IA, y sostiene que no es una represalia por sus críticas.\n\nEl punto de fondo es que 𝗹𝗮 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗲𝗻 𝗜𝗔 𝗱𝗲𝗽𝗲𝗻𝗱𝗲 𝗱𝗲 𝗾𝘂𝗲 𝗲𝘅𝗶𝘀𝘁𝗮𝗻 𝗰𝗮𝗻𝗮𝗹𝗲𝘀 𝗲𝘅𝘁𝗲𝗿𝗻𝗼𝘀 𝗱𝗲 𝗰𝗼𝗻𝘁𝗿𝗮𝘀𝘁𝗲, y esos canales viven de que alguien de dentro hable. Si compartir con un tercero se trata como falta grave, el mensaje para el resto del equipo es difícil de malinterpretar. A los laboratorios que usan la seguridad como argumento comercial les toca explicar quién audita desde fuera cuando dentro no se puede hablar.\n\n#OpenAI #AISafety #TheDecoder\n\nhttps://the-decoder.com/three-firings-and-a-fourth-departure-shake-up-openais-safety-team"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Trillium Labs quiere investigar en abierto la IA de alto riesgo",
+      "summary": "Mientras muchos laboratorios guardan bajo llave sus investigaciones delicadas, Trillium Labs apuesta por hacer público su trabajo sobre auto-mejora y comportamiento de modelos. La idea es exponer el riesgo en lugar de esconderlo.",
+      "why_it_matters": "Plantea otro modelo de hacer seguridad en IA, con la transparencia como método y no como eslogan.",
+      "url": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open",
+      "source": "Wired",
+      "social": {
+        "x": "Todos los laboratorios esconden su investigación sobre IA de alto riesgo. Trillium Labs ha decidido publicarla entera: exponer el riesgo en vez de taparlo.\n\n#TrilliumLabs #OpenSource #SeguridadIA\nhttps://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open",
+        "linkedin": "Todos los laboratorios esconden su investigación sobre IA de alto riesgo. Trillium Labs ha decidido publicarla entera.\n\nMientras la seguridad en IA se ha convertido en un ejercicio privado, este laboratorio trabaja sobre auto-mejora y comportamiento de modelos 𝗮 𝗹𝗮 𝘃𝗶𝘀𝘁𝗮 𝗱𝗲 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿𝗮, con la transparencia como método y no como eslogan. Es un movimiento incómodo: publicar los fallos también los pone en manos de quien quiera explotarlos. Pero si la alternativa es que solo unos pocos vean los riesgos, la pregunta para cualquier equipo de seguridad ya no es si conviene publicar, sino cuánto se pierde por no hacerlo.\n\n#TrilliumLabs #OpenSource #SeguridadIA\n\nhttps://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Da ojos a tu agente de IA para moverse por internet: lee y busca en Twitter, Reddit, YouTube, GitHub, Bilibili o Xiaohongshu desde un único CLI y sin pagar APIs. Muy útil para agentes que necesitan información actualizada de redes sociales.",
+      "language": "Python",
+      "stars": 88158,
+      "social": {
+        "x": "Tu agente de IA está ciego. Este CLI en Python le da ojos para leer Twitter, Reddit, YouTube y GitHub sin pagar ni una API. 88k estrellas.\n\n#AgentReach #Python #OpenSource #GitHub\nhttps://github.com/Panniantong/Agent-Reach",
+        "linkedin": "TU AGENTE DE IA ESTÁ CIEGO. Y por eso te contesta con información de hace dos años.\n\nLos agentes razonan de maravilla, pero no ven nada de lo que pasa ahí fuera. Las APIs oficiales de Twitter, Reddit o YouTube cobran, limitan o directamente te cierran la puerta. Así que la mayoría acaba pegando capturas a mano como si estuviéramos en 2015.\n\nAgent-Reach resuelve eso con 𝘂𝗻 ú𝗻𝗶𝗰𝗼 𝗖𝗟𝗜 𝗲𝗻 𝗣𝘆𝘁𝗵𝗼𝗻 𝗾𝘂𝗲 𝗹𝗲 𝗱𝗮 𝗼𝗷𝗼𝘀 𝗮 𝘁𝘂 𝗮𝗴𝗲𝗻𝘁𝗲, sin pasar por ninguna API de pago.\n\n→ Lee y busca en Twitter, Reddit, YouTube, GitHub, Bilibili o Xiaohongshu desde el mismo comando.\n→ Sin claves de API, sin cuotas mensuales ni límites impuestos por terceros.\n→ Pensado para agentes que necesitan contexto fresco, no el dataset del año pasado.\n→ Se instala en Python y se enchufa a tu flujo actual sin montar media infraestructura.\n→ 88k estrellas y una comunidad que ya lo usa a diario.\n\nSi tu agente tiene que saber qué se está diciendo hoy, esta es la vía más corta que vas a encontrar.\n\nGuarda este post y pásale el repo a tu yo del futuro.\n\n#AgentReach #Python #OpenSource #GitHub\n\nhttps://github.com/Panniantong/Agent-Reach"
+      }
+    },
+    {
+      "name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "Proxy para agentes de programación que les hace hablar como un cavernícola y recorta hasta un 65% los tokens consumidos. Una forma sencilla de bajar el coste de tus sesiones con el agente sin cambiar de modelo.",
+      "language": "Go",
+      "stars": 108940,
+      "social": {
+        "x": "108.940 estrellas: este proxy hace que tu agente de código hable como un cavernícola y recorta hasta un 65% los tokens de la sesión. Y sin cambiar de modelo.\n\n#Caveman #Go #OpenSource #GitHub\nhttps://github.com/JuliusBrussee/caveman",
+        "linkedin": "TU AGENTE HABLA DE MÁS. Y CADA PALABRA LA PAGAS TÚ.\n\nBuena parte del coste de una sesión con un agente de programación no viene de pensar, viene de explicarse. Relleno, cortesías, párrafos que nadie pidió y que se facturan token a token.\n\nEste repo de Go mete un proxy entre tu agente y el modelo y le obliga a hablar como un cavernícola: frases cortas, cero adorno, misma respuesta útil. Si comparas con las APIs comerciales, donde el gasto crece justo cuando el agente se pone charlatán, aquí el ahorro viene por el formato, no por recortar capacidad.\n\n→ Proxy escrito en Go, se coloca delante de tu agente\n→ Recorta hasta un 65% de los tokens consumidos\n→ No cambias de modelo ni de proveedor\n→ 108.940 estrellas y cero configuración rara\n\n𝗟𝗮 𝗶𝗱𝗲𝗮: 𝗱𝗲𝗷𝗮𝘀 𝗱𝗲 𝗽𝗮𝗴𝗮𝗿 𝗽𝗼𝗿 𝗹𝗮𝘀 𝗽𝗮𝗹𝗮𝗯𝗿𝗮𝘀 𝗾𝘂𝗲 𝘀𝗼𝗯𝗿𝗮𝗻, 𝗻𝗼 𝗽𝗼𝗿 𝗹𝗮 𝗶𝗻𝘁𝗲𝗹𝗶𝗴𝗲𝗻𝗰𝗶𝗮.\n\nGuárdate este post para tu próxima sesión larga de refactor y pruébalo antes de renovar cuota. El repo te lo dejo abajo.\n\n#Caveman #Go #OpenSource #GitHub\n\nhttps://github.com/JuliusBrussee/caveman"
+      }
+    },
+    {
+      "name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Colección de Agent Skills oficiales de Google para que tus agentes trabajen con sus productos y tecnologías. Práctico si ya montas agentes que necesitan integrarse con servicios de Google sin reinventar las herramientas.",
+      "language": "Python",
+      "stars": 20650,
+      "social": {
+        "x": "Google acaba de soltar sus Agent Skills oficiales: 20.650 estrellas para que tus agentes usen sus productos sin reinventar las herramientas.\n\n#AgentSkills #Google #Python #OpenSource\nhttps://github.com/google/skills",
+        "linkedin": "GOOGLE ACABA DE ABRIR SUS AGENT SKILLS OFICIALES. Y ya van 20.650 estrellas.\n\nMontar un agente que hable con servicios de Google suele acabar en lo mismo: leerse media documentación, escribir tus propias herramientas y mantenerlas cada vez que algo cambia en la API. Este repo corta ese trabajo de raíz, porque son las skills que el propio Google publica para que tus agentes trabajen con sus productos y tecnologías.\n\n→ Colección de Agent Skills oficiales, mantenidas por Google\n→ Python como lenguaje base, fácil de enchufar a tu stack actual\n→ Integración con productos y servicios de Google sin reinventar herramientas\n→ Se acabó escribir wrappers a mano para cada endpoint\n→ 20.650 estrellas: no es el experimento de un fin de semana\n\n𝗟𝗮 𝗶𝗱𝗲𝗮: 𝗱𝗲𝗷𝗮𝘀 𝗱𝗲 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗶𝗿 𝘁𝘂𝘀 𝗽𝗿𝗼𝗽𝗶𝗮𝘀 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 𝗽𝗮𝗿𝗮 𝗾𝘂𝗲 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗵𝗮𝗯𝗹𝗲 𝗰𝗼𝗻 𝗚𝗼𝗼𝗴𝗹𝗲 𝘆 𝗽𝗮𝘀𝗮𝘀 𝗮 𝘂𝘀𝗮𝗿 𝗹𝗮𝘀 𝗾𝘂𝗲 𝗚𝗼𝗼𝗴𝗹𝗲 𝘆𝗮 𝗺𝗮𝗻𝘁𝗶𝗲𝗻𝗲.\n\nSi montas agentes en producción, guárdatelo antes de tu próxima integración. Te dejo el repo abajo.\n\n#AgentSkills #Google #Python #OpenSource\n\nhttps://github.com/google/skills"
+      }
+    },
+    {
+      "name": "Effect-TS/effect",
+      "url": "https://github.com/Effect-TS/effect",
+      "description": "Framework de TypeScript para construir aplicaciones listas para producción, con errores, concurrencia y dependencias gestionados de forma explícita. Buena opción cuando tu backend ha crecido y necesitas algo más serio que promesas sueltas por todos lados.",
+      "language": "TypeScript",
+      "stars": 16453,
+      "social": {
+        "x": "16.453 estrellas: el framework de TypeScript que hace explícitos errores, concurrencia y dependencias. Tu backend deja de ser una fiesta de promesas sueltas.\n\n#EffectTS #TypeScript #OpenSource #GitHub\nhttps://github.com/Effect-TS/effect",
+        "linkedin": "TU BACKEND HA CRECIDO Y LAS PROMESAS SUELTAS YA NO LO SOSTIENEN.\n\nEmpiezas con un fetch y un try/catch. Un año después tienes reintentos copiados en cuatro sitios, un timeout que nadie sabe de dónde sale y dos dependencias que se importan en círculo. Effect es un framework de TypeScript, con 16.453 estrellas, que ataca justo eso: aquí 𝗹𝗼𝘀 𝗲𝗿𝗿𝗼𝗿𝗲𝘀, 𝗹𝗮 𝗰𝗼𝗻𝗰𝘂𝗿𝗿𝗲𝗻𝗰𝗶𝗮 𝘆 𝗹𝗮𝘀 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮𝘀 𝘀𝗲 𝗱𝗲𝗰𝗹𝗮𝗿𝗮𝗻 𝗽𝗼𝗿 𝗲𝘀𝗰𝗿𝗶𝘁𝗼, y el compilador te obliga a tenerlos en cuenta.\n\nNo es un router con superpoderes ni una capa fina sobre Express. Es un modelo distinto para escribir backend en TypeScript, pensado para producción desde el primer commit.\n\n→ Errores tipados: cada función declara qué puede fallar y no puedes ignorarlo por descuido.\n→ Concurrencia con estructura: fibras, cancelación, timeouts y reintentos sin montar tu propia fontanería.\n→ Dependencias explícitas: inyección por capas y con tipos, en lugar de una maraña de imports.\n→ Recursos bajo control: adquisición y liberación garantizadas, también cuando algo falla.\n→ Adopción gradual: puedes empezar por un módulo sin reescribir todo el proyecto.\n\nSi tu backend ya pesa demasiado para ir tirando de promesas, este repo merece una tarde de lectura. Guárdate el post para la próxima refactorización: te dejo el enlace abajo.\n\n#EffectTS #TypeScript #OpenSource #GitHub\n\nhttps://github.com/Effect-TS/effect"
+      }
+    },
+    {
+      "name": "getsentry/sentry",
+      "url": "https://github.com/getsentry/sentry",
+      "description": "Plataforma de seguimiento de errores y rendimiento pensada para desarrolladores, que también puedes montar self-hosted. Ayuda a ver qué está fallando en producción antes de que lo note el usuario.",
+      "language": "Python",
+      "stars": 44960,
+      "social": {
+        "x": "44.960 estrellas y puedes montarlo en tu propio servidor. Sentry te avisa de lo que falla en producción antes de que lo note el usuario.\n\n#Sentry #Python #OpenSource #GitHub\nhttps://github.com/getsentry/sentry",
+        "linkedin": "MONITORIZAR PRODUCCIÓN NO DEBERÍA COSTAR UNA CUOTA POR ASIENTO.\n\nSentry lleva años siendo el estándar para enterarse de los errores antes que el cliente. Lo que mucha gente pasa por alto es que el repositorio es open source y se puede levantar self-hosted: los datos se quedan en tu infraestructura y no pagas por usuario.\n\nQué te da:\n\n→ Seguimiento de errores en tiempo real, con el stack trace completo y el contexto de cada excepción.\n→ Trazas de rendimiento para ver qué endpoint se está arrastrando y por qué.\n→ Alertas que llegan antes que el mensaje del usuario enfadado.\n→ Compatibilidad con tu stack: Python, JavaScript, móvil y prácticamente cualquier framework que uses.\n→ Self-hosted con Docker, así que puedes probarlo sin depender de nadie.\n\n𝗟𝗮 𝗱𝗶𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗻𝗼 𝗲𝘀 𝗮𝗽𝗮𝗴𝗮𝗿 𝗳𝘂𝗲𝗴𝗼𝘀, 𝗲𝘀 𝗲𝗻𝘁𝗲𝗿𝗮𝗿𝘁𝗲 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗾𝘂𝗲 𝗵𝗮𝘆𝗮 𝗳𝘂𝗲𝗴𝗼.\n\nSi tienes algo en producción y todavía te enteras de los fallos por capturas de pantalla, este repo te ahorra esa conversación.\n\nGuárdalo para el día que toque montar observabilidad en serio.\n\n#Sentry #Python #OpenSource #GitHub\n\nhttps://github.com/getsentry/sentry"
+      }
+    }
+  ]
+}
