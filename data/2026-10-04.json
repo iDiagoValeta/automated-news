@@ -1,0 +1,298 @@
+{
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T15:21:11.085Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "herramientas",
+      "title": "Obelisk 0.42, agentes duraderos con sandboxes por capas",
+      "summary": "Obelisk estrena la versión 0.42 de su motor de workflows para agentes, que guarda el progreso en una base de datos para que el trabajo sobreviva al proceso que lo ejecuta. El código se reproduce de forma determinista a partir del historial registrado, se ejecuta dentro de políticas de sandbox que se pueden revisar y deja un historial de fallos inspeccionable.",
+      "why_it_matters": "Permite montar agentes que retoman su tarea tras un reinicio y con límites de seguridad claros, algo clave para llevarlos a producción.",
+      "url": "https://obeli.sk/blog/announcing-obelisk-0-42",
+      "source": "Lobsters",
+      "social": {
+        "x": "El problema de los agentes en producción no es el prompt: es que mueren al reiniciar. Obelisk 0.42 guarda su estado y los reanuda en sandboxes con políticas revisables.\n\n#Obelisk #Sandbox #Workflows #DurableExecution\nhttps://obeli.sk/blog/announcing-obelisk-0-42",
+        "linkedin": "El problema de llevar agentes a producción no es el modelo: es que el proceso muere y se lleva por delante el trabajo.\nObelisk 0.42 ataca justo eso: guarda el progreso en base de datos, reproduce el código de forma determinista desde el historial y ejecuta dentro de sandboxes con políticas revisables. 𝗟𝗮 𝗱𝘂𝗿𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗽𝗮𝗿𝗰𝗵𝗲 𝗱𝗲 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗽𝗿𝗼𝗽𝗶𝗲𝗱𝗮𝗱 𝗱𝗲𝗹 𝗺𝗼𝘁𝗼𝗿. Si tu agente no sobrevive a un reinicio, todavía no está listo para producción.\n\n#Obelisk #Sandbox #Workflows #DurableExecution\n\nhttps://obeli.sk/blog/announcing-obelisk-0-42"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "Pizza Bot, una inbox open source para agentes de IA en segundo plano",
+      "summary": "Un equipo de desarrolladores de AWS ha publicado Pizza Bot, una aplicación self-hosted que deja a los agentes ejecutar tareas en segundo plano y devolver los resultados en una interfaz tipo inbox. Los agentes pueden trabajar por calendario o por webhook, delegar en workers especializados y pausarse para pedir aprobación humana.",
+      "why_it_matters": "Ofrece una forma sencilla de orquestar agentes autónomos con supervisión humana sin depender de un servicio externo.",
+      "url": "https://www.infoq.com/news/2026/10/pizza-bot-ai-agents",
+      "source": "InfoQ",
+      "social": {
+        "x": "Agentes que trabajan solos en segundo plano y se detienen a pedirte permiso antes de actuar. Pizza Bot lo hace self-hosted, sin servicio externo.\n\n#OpenSource #AWS #SelfHosted\nhttps://www.infoq.com/news/2026/10/pizza-bot-ai-agents",
+        "linkedin": "Los agentes ya saben ejecutar tareas. El problema es saber qué están haciendo y cuándo hay que pararlos.\n\nPizza Bot, publicado por un equipo de desarrolladores de AWS, es una inbox open source y self-hosted: los agentes se lanzan por calendario o por webhook, delegan en workers especializados y pueden pausarse para pedir aprobación humana. 𝗟𝗮 𝘀𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗶ó𝗻 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗽𝗮𝗿𝗰𝗵𝗲 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲 𝗹𝗮 𝗮𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮. Para quien ya tiene agentes en producción, la discusión ya no es si orquestarlos, sino bajo qué control y en qué infraestructura.\n\n#OpenSource #AWS #SelfHosted\n\nhttps://www.infoq.com/news/2026/10/pizza-bot-ai-agents"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "OpenAPPA, el motor open source que frena el prompt injection",
+      "summary": "Archestra ha lanzado OpenAPPA, un motor de seguridad open source pensado para evitar la exfiltración de datos provocada por prompt injection o por alucinaciones del modelo. Según la compañía, logra un 0% de ataques exitosos en los benchmarks Bench-Corp y AgentThreatBench, frente al 10% del modo automático de Claude Code y el 31% de Microsoft FIDES.",
+      "why_it_matters": "Aporta una capa de defensa medible para quien despliega agentes con acceso a datos sensibles.",
+      "url": "https://www.infoq.com/news/2026/10/open-APPA-zero-security-breach",
+      "source": "InfoQ",
+      "social": {
+        "x": "0% de ataques de prompt injection con éxito. Un motor open source lo logra frente al 10% de Claude Code y el 31% de Microsoft FIDES.\n\n#OpenSource #PromptInjection #Ciberseguridad #Archestra\nhttps://www.infoq.com/news/2026/10/open-APPA-zero-security-breach",
+        "linkedin": "El prompt injection deja de ser un riesgo difuso y pasa a tener número: cero.\n\nArchestra ha publicado OpenAPPA, un motor de seguridad open source que, según sus propias pruebas, logra 𝘂𝗻 𝟬% 𝗱𝗲 𝗮𝘁𝗮𝗾𝘂𝗲𝘀 𝗲𝘅𝗶𝘁𝗼𝘀𝗼𝘀 en Bench-Corp y AgentThreatBench, frente al 10% del modo automático de Claude Code y el 31% de Microsoft FIDES. Para quien despliega agentes con acceso a datos sensibles, el cambio de marco es claro: ya no se discute si la defensa existe, sino si es medible y si puedes auditar el código que la implementa. Los números son de la compañía que vende el motor, así que toca replicarlos, pero el listón acaba de subir y ahora hay contra qué comparar.\n\n#OpenSource #PromptInjection #Ciberseguridad #Archestra\n\nhttps://www.infoq.com/news/2026/10/open-APPA-zero-security-breach"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Kolibri, el modelo open-weight 'soberano' de Aleph Alpha",
+      "summary": "Aleph Alpha ha presentado Kolibri, un modelo de pesos abiertos que la empresa enmarca en su propuesta de IA soberana para gobiernos y organizaciones que quieren mantener el control sobre su propia infraestructura.",
+      "why_it_matters": "Suma una alternativa open-weight para quien no quiere depender de los grandes proveedores estadounidenses o chinos.",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model",
+      "source": "Lobsters",
+      "social": {
+        "x": "Hay una tercera vía para la IA soberana europea, y acaba de abrir sus pesos: Aleph Alpha presenta Kolibri.\n\n#AlephAlpha #OpenWeights #OpenSource #SoberaníaDigital\nhttps://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model",
+        "linkedin": "Hay una tercera vía para la IA soberana europea, y acaba de abrir sus pesos.\n\nAleph Alpha ha presentado Kolibri, un modelo open-weight pensado para gobiernos y organizaciones que necesitan mantener su infraestructura bajo control, sin depender de proveedores estadounidenses ni chinos. 𝗔𝗾𝘂í 𝗹𝗮 𝗺é𝘁𝗿𝗶𝗰𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗿𝗮𝗻𝗸𝗶𝗻𝗴, 𝗲𝘀 𝗹𝗮 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮: si tus datos y tu cómputo no pueden salir de tu jurisdicción, ningún modelo cerrado de un tercero te sirve por bueno que sea. Para los equipos que llevan años defendiendo lo abierto en Europa, esto les da una pieza más con la que argumentar.\n\n#AlephAlpha #OpenWeights #OpenSource #SoberaníaDigital\n\nhttps://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Mythos, el modelo de Anthropic para cazar bugs, vuelve a demostrar su potencia",
+      "summary": "El modelo Mythos de Anthropic, orientado a la búsqueda de vulnerabilidades, destaca por su capacidad matemática, y su utilidad vuelve a quedar en evidencia ahora que una vulnerabilidad recién destapada está siendo explotada desde direcciones IP alojadas en China, según un investigador de VulnCheck.",
+      "why_it_matters": "Muestra el potencial de los modelos especializados para encontrar fallos de seguridad antes que los equipos humanos.",
+      "url": "https://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
+      "source": "The Register",
+      "social": {
+        "x": "Mythos, el modelo de Anthropic especializado en cazar bugs, ha vuelto a adelantarse a los humanos: el fallo que detectó ya se explota desde IP alojadas en China.\n\n#Anthropic #Mythos #VulnCheck\nhttps://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933",
+        "linkedin": "Mythos ha vuelto a hacerlo: ha encontrado un bug que los equipos humanos no vieron y ya se está explotando desde IP alojadas en China.\n\nEl modelo de Anthropic orientado a la búsqueda de vulnerabilidades demuestra que 𝗹𝗮 𝗲𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗲𝘀𝘁𝗿𝗲𝗰𝗵𝗮 𝗲𝗹 𝗰𝗲𝗿𝗰𝗼 𝗺𝘂𝗰𝗵𝗼 𝗺á𝘀 𝗿á𝗽𝗶𝗱𝗼 𝗾𝘂𝗲 𝘂𝗻 𝗮𝗻á𝗹𝗶𝘀𝗶𝘀 𝗴𝗲𝗻é𝗿𝗶𝗰𝗼. Para los equipos de seguridad no es una amenaza, sino una ventaja en la ventana crítica entre el descubrimiento y la explotación. La pregunta ya no es si la IA puede encontrar fallos, sino si tu equipo la está usando para encontrarlos antes.\n\n#Anthropic #Mythos #VulnCheck\n\nhttps://www.theregister.com/security/2026/10/03/anthropics-super-bug-hunting-model-mythos-is-hardcore-good-at-math-as-latest-vuln-under-attack-shows/5300933"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "investigacion",
+      "title": "NASA e IBM publican un modelo lunar open source entrenado con 17 años de datos orbitales",
+      "summary": "NASA e IBM han lanzado el Lunar Foundation Model, uno de los primeros modelos de IA open source dedicados a la ciencia lunar. Entrenado con casi dos millones de paquetes de teselas, en su mayoría procedentes de 17 años de datos del Lunar Reconnaissance Orbiter, reduce el error al predecir depósitos de hielo en los polos.",
+      "why_it_matters": "Demuestra que un modelo fundacional puede convertir décadas de observación en una herramienta útil para la investigación lunar.",
+      "url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science",
+      "source": "The Decoder",
+      "social": {
+        "x": "Hay 17 años de imágenes de la Luna convertidos en un modelo que predice dónde está el hielo. NASA e IBM lo publican en abierto.\n\n#NASA #IBM #OpenSource #LunarFoundationModel\nhttps://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science",
+        "linkedin": "La NASA y IBM acaban de convertir 17 años de observación lunar en un modelo que cualquiera puede descargar.\n\nEl Lunar Foundation Model se apoya en casi dos millones de paquetes de teselas, en su mayoría del Lunar Reconnaissance Orbiter, y reduce el error al localizar depósitos de hielo en los polos: la materia prima más valiosa para cualquier base permanente. La lección trasciende la Luna. 𝗨𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗳𝘂𝗻𝗱𝗮𝗰𝗶𝗼𝗻𝗮𝗹 𝗽𝘂𝗲𝗱𝗲 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗿 𝗱é𝗰𝗮𝗱𝗮𝘀 𝗱𝗲 𝗼𝗯𝘀𝗲𝗿𝘃𝗮𝗰𝗶ó𝗻 𝗮𝗰𝘂𝗺𝘂𝗹𝗮𝗱𝗮 𝗲𝗻 𝘂𝗻𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼, y quien custodia el archivo de datos parte con ventaja para entrenarlo. Para los equipos de investigación, el cuello de botella deja de ser el acceso a los datos y pasa a ser saber qué preguntarles.\n\n#NASA #IBM #OpenSource #LunarFoundationModel\n\nhttps://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "investigacion",
+      "title": "Google frena la memorización de tareas en agentes que se auto-mejoran",
+      "summary": "Los agentes de IA que se auto-mejoran tienden a memorizar las tareas de test, de modo que sus mejoras se desvanecen ante tareas nuevas. RRSI, un método de investigadores de Google, corrige ese efecto y eleva hasta 4,7 puntos las puntuaciones en benchmarks no vistos usando alrededor de un 30% menos de tokens que una versión sin regularizar.",
+      "why_it_matters": "Ataca uno de los fallos clásicos al evaluar agentes que aprenden solos y lo hace además con menos gasto de tokens.",
+      "url": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests",
+      "source": "The Decoder",
+      "social": {
+        "x": "Un agente que se auto-mejora puede estar memorizando el test en vez de aprender. Google ha encontrado la forma de evitarlo y gasta un 30% menos de tokens.\n\n#Google #LLM #AIAgents #Benchmarks\nhttps://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests",
+        "linkedin": "Los agentes que se auto-mejoran tienen un problema incómodo: memorizan las tareas de test y luego se desinflan en cuanto aparece algo nuevo.\n\nEs el fallo clásico al evaluar sistemas que aprenden solos, y el equipo de Google lo ataca de frente con RRSI: 𝗵𝗮𝘀𝘁𝗮 𝟰,𝟳 𝗽𝘂𝗻𝘁𝗼𝘀 𝗺á𝘀 𝗲𝗻 𝗯𝗲𝗻𝗰𝗵𝗺𝗮𝗿𝗸𝘀 𝗻𝗼 𝘃𝗶𝘀𝘁𝗼𝘀 𝘂𝘀𝗮𝗻𝗱𝗼 𝘂𝗻 𝟯𝟬% 𝗺𝗲𝗻𝗼𝘀 𝗱𝗲 𝘁𝗼𝗸𝗲𝗻𝘀. Para quien diseña pipelines de evaluación, la lectura es clara: medir la mejora sin comprobar que generaliza no mide nada, solo mide el atajo. Menos coste y menos autoengaño, dos cosas que rara vez llegan juntas.\n\n#Google #LLM #AIAgents #Benchmarks\n\nhttps://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Fulcrum Echo imita el estilo de cualquier escritor, y lo hemos probado",
+      "summary": "La startup Fulcrum ha lanzado Echo, una herramienta que genera texto imitando el estilo de cualquier autor a partir de sus escritos previos. En la prueba de The Register el resultado es convincente, aunque la empresa arrastra un problema de identidad de marca por coincidir con otras compañías llamadas Fulcrum.",
+      "why_it_matters": "Pone al alcance de cualquiera la clonación de estilos de escritura, con lo que eso implica para la autoría y el plagio.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/04/fulcrum-echo-promises-ai-text-in-the-style-of-any-writer-so-i-tested-it/5300944",
+      "source": "The Register",
+      "social": {
+        "x": "Ya puedes clonar el estilo de cualquier escritor a partir de lo que ese escritor ya ha publicado. Y en las pruebas, el resultado convence.\n\n#Fulcrum #FulcrumEcho #TheRegister\nhttps://www.theregister.com/ai-and-ml/2026/10/04/fulcrum-echo-promises-ai-text-in-the-style-of-any-writer-so-i-tested-it/5300944",
+        "linkedin": "La clonación de estilos de escritura acaba de salir de los laboratorios.\n\nFulcrum Echo genera texto imitando el estilo de cualquier autor a partir de sus escritos previos, y en la prueba de The Register el resultado convence. 𝗖𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿𝗮 𝗽𝘂𝗲𝗱𝗲 𝗿𝗲𝗽𝗹𝗶𝗰𝗮𝗿 𝗹𝗮 𝘃𝗼𝘇 𝗱𝗲 𝘂𝗻 𝗮𝘂𝘁𝗼𝗿 𝗰𝗼𝗻 𝗹𝗼 𝗾𝘂𝗲 𝗲𝘀𝗲 𝗮𝘂𝘁𝗼𝗿 𝘆𝗮 𝗵𝗮 𝗽𝘂𝗯𝗹𝗶𝗰𝗮𝗱𝗼, así que el debate ya no es si la herramienta funciona, sino quién firma lo que sale de ella. Para equipos editoriales y de contenido, la autoría y el plagio dejan de ser una discusión teórica: la herramienta ya está aquí y es difícil de distinguir.\n\n#Fulcrum #FulcrumEcho #TheRegister\n\nhttps://www.theregister.com/ai-and-ml/2026/10/04/fulcrum-echo-promises-ai-text-in-the-style-of-any-writer-so-i-tested-it/5300944"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Cuando el agente dice que ha terminado pero la base de datos lo desmiente",
+      "summary": "Un análisis de Microsoft publicado en el blog de Hugging Face aborda qué ocurre cuando un agente afirma haber completado una tarea pero el estado real de la base de datos dice lo contrario. El texto pone el foco en verificar los resultados contra el sistema de registro en lugar de fiarse del mensaje del modelo.",
+      "why_it_matters": "Recuerda que no basta con que el agente diga que ha terminado: hay que comprobar el estado real de los datos.",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Tu agente dice que ha terminado. La base de datos dice que no. Microsoft explica por qué el mensaje del modelo nunca es la prueba.\n\n#Microsoft #HuggingFace #Agents #LLM\nhttps://huggingface.co/blog/microsoft/thinkingbox",
+        "linkedin": "Tu agente dice que ha terminado. La base de datos dice lo contrario.\n\nUn análisis de Microsoft en el blog de Hugging Face pone el foco justo ahí: comprobar el resultado contra el sistema de registro en lugar de fiarse del mensaje del modelo. 𝗤𝘂𝗲 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝘀𝗲 𝗱𝗲𝗰𝗹𝗮𝗿𝗲 𝗲𝘅𝗶𝘁𝗼𝘀𝗼 𝗻𝗼 𝗲𝘀 𝗲𝘃𝗶𝗱𝗲𝗻𝗰𝗶𝗮 𝗱𝗲 𝗻𝗮𝗱𝗮; la única prueba válida es el estado real de los datos. Para cualquier equipo que ya tenga agentes escribiendo en producción, esto deja de ser una recomendación de estilo y pasa a ser parte del diseño: si no verificas, no sabes si el trabajo está hecho.\n\n#Microsoft #HuggingFace #Agents #LLM\n\nhttps://huggingface.co/blog/microsoft/thinkingbox"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "Google recorta el acceso gratuito a Gemini y reserva Pro para los de pago",
+      "summary": "A partir de octubre de 2026, Google limita el acceso gratuito a sus modelos Gemini: quienes no paguen tendrán solo el modelo más pequeño, Flash-Lite, mientras que Flash y Pro quedarán reservados a los suscriptores. El movimiento podría preparar el terreno para Gemini 4 Argon, más exigente en recursos.",
+      "why_it_matters": "Cambia lo que pueden hacer gratis millones de usuarios y empuja a pagar por los modelos más capaces.",
+      "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro",
+      "source": "The Decoder",
+      "social": {
+        "x": "Desde octubre, el Gemini gratis se queda con Flash-Lite. Flash y Pro solo para suscriptores. Google empuja a pagar por los modelos que de verdad sirven.\n\n#Google #Gemini #LLM\nhttps://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro",
+        "linkedin": "Google acaba de poner precio a la frontera entre probar la IA y trabajar con ella.\n\nA partir de octubre, Gemini reserva 𝗙𝗹𝗮𝘀𝗵 𝘆 𝗣𝗿𝗼 𝗮 𝗹𝗼𝘀 𝘀𝘂𝘀𝗰𝗿𝗶𝗽𝘁𝗼𝗿𝗲𝘀 y deja el acceso gratuito en Flash-Lite, el modelo más pequeño. El movimiento apunta a preparar el terreno para Gemini 4 Argon, más exigente en recursos y más caro de servir. La lectura es clara: el plan gratuito deja de ser una ventana al producto bueno y pasa a ser una versión recortada, así que quien haya montado flujos de trabajo sobre esos modelos tendrá que revisar dependencias y presupuesto antes del cambio.\n\n#Google #Gemini #LLM\n\nhttps://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "Capcom prepara un futuro en el que creará videojuegos junto a la IA",
+      "summary": "En la Capcom Open Conference RE: 2026, el programador Satoshi Ishida presentó el plan para evolucionar el RE Engine de cara a la próxima generación. La compañía, que antes aseguraba que no usaría contenido generado por IA en sus juegos, ahora habla de un futuro en el que se desarrollen junto a la IA para acelerar tareas que hoy consumen mucho tiempo.",
+      "why_it_matters": "Un gran estudio japonés admite que la IA entrará en su flujo de producción, otra señal del giro del sector.",
+      "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+      "source": "The Verge",
+      "social": {
+        "x": "Capcom decía que no usaría IA en sus juegos. Ahora diseña un RE Engine que se desarrolle junto a ella.\n\n#Capcom #REEngine #GameDev\nhttps://www.theverge.com/games/1004418/capcom-ai-game-development",
+        "linkedin": "Capcom dijo hace no tanto que no metería contenido generado por IA en sus juegos. En la Capcom Open Conference RE: 2026 ha presentado justo lo contrario: un RE Engine pensado para evolucionar de la mano de la IA y acelerar tareas que hoy se comen horas de producción.\n\n𝗘𝗹 𝗴𝗶𝗿𝗼 𝗻𝗼 𝗲𝘀 𝗱𝗲 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮, 𝗲𝘀 𝗱𝗲 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼: el mismo estudio que se resistía admite ahora que la IA entra en su flujo de trabajo. Cuando un grande japonés mueve ficha, la conversación en el sector deja de ser si la IA entra en el desarrollo y pasa a ser cómo y con qué límites. Afecta a todo el pipeline: perfiles, herramientas internas y quién acaba firmando cada decisión creativa.\n\n#Capcom #REEngine #GameDev\n\nhttps://www.theverge.com/games/1004418/capcom-ai-game-development"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "industria",
+      "title": "Dimite el responsable de seguridad de OpenAI y denuncia una cultura 'rota'",
+      "summary": "David Robinson, responsable de seguridad de OpenAI, ha renunciado a su puesto advirtiendo de que la cultura de la compañía está rota y pidiendo al sector más cautela con una tecnología que avanza muy rápido. Se suma así a otros exempleados que han lanzado advertencias parecidas al marcharse.",
+      "why_it_matters": "Una nueva salida en el área de seguridad de OpenAI refuerza las dudas sobre cómo prioriza la compañía el desarrollo frente a los riesgos.",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "source": "Hacker News",
+      "social": {
+        "x": "El responsable de seguridad de OpenAI dimite y deja un diagnóstico incómodo: la cultura de la compañía está rota.\n\n#OpenAI #AISafety #Talento\nhttps://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+        "linkedin": "Ha dimitido el responsable de seguridad de OpenAI, y su mensaje de salida no va sobre él: va sobre cómo prioriza la compañía.\n\nDavid Robinson se va avisando de que la cultura está rota y pidiendo al sector más cautela con una tecnología que corre más deprisa que sus frenos. No es un caso aislado: otros exempleados han soltado advertencias parecidas al marcharse, y el patrón pesa más que la persona. La idea con la que me quedo es que 𝗾𝘂𝗶𝗲𝗻 𝘀𝗲 𝘃𝗮 𝗲𝘀 𝗷𝘂𝘀𝘁𝗼 𝗾𝘂𝗶𝗲𝗻 𝘁𝗲𝗻í𝗮 𝗾𝘂𝗲 𝗽𝗼𝗻𝗲𝗿 𝗹í𝗺𝗶𝘁𝗲𝘀, y eso reabre la duda de cuánto pesa de verdad la seguridad en la hoja de ruta. Para los equipos que integran estos modelos, delegar toda la evaluación de riesgos en el proveedor es cada vez menos defendible.\n\n#OpenAI #AISafety #Talento\n\nhttps://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "System76 prohíbe el código generado por IA en buena parte de COSMIC y Pop!_OS",
+      "summary": "System76 ha vetado el código generado por IA en gran parte de los repositorios de COSMIC, el entorno de escritorio que desarrolla para Pop!_OS. La medida se apoya en motivos de licencias y de originalidad del código que se acepta en el proyecto.",
+      "why_it_matters": "Es uno de los vetos más amplios de una empresa de software libre al código asistido por IA, y sienta un precedente para otros proyectos.",
+      "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases",
+      "source": "Hacker News",
+      "social": {
+        "x": "System76 veta el código generado por IA en COSMIC y buena parte de Pop!_OS. No es una postura ideológica: las licencias están detrás.\n\n#System76 #COSMIC #PopOS #OpenSource\nhttps://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases",
+        "linkedin": "System76 acaba de prohibir el código generado por IA en buena parte de los repositorios de COSMIC y Pop!_OS, y no lo hace por una cruzada ideológica: son las licencias y la originalidad del código las que están en juego.\n\nLa medida cubre el entorno de escritorio que la empresa desarrolla para Pop!_OS y es uno de los vetos más amplios que ha firmado una compañía de software libre, así que marca precedente. Para quien mantiene proyectos abiertos, la pregunta incómoda es otra: 𝘀𝗶 𝗻𝗼 𝗽𝘂𝗲𝗱𝗲𝘀 𝗱𝗲𝗺𝗼𝘀𝘁𝗿𝗮𝗿 𝗱𝗲 𝗱ó𝗻𝗱𝗲 𝘀𝗮𝗹𝗲 𝗰𝗮𝗱𝗮 𝗹í𝗻𝗲𝗮, 𝘁𝗮𝗺𝗽𝗼𝗰𝗼 𝗽𝘂𝗲𝗱𝗲𝘀 𝗱𝗲𝗳𝗲𝗻𝗱𝗲𝗿 𝘀𝘂 𝗹𝗶𝗰𝗲𝗻𝗰𝗶𝗮. Los proyectos que viven de contribuciones externas tendrán que decidir pronto si exigen declarar el uso de IA o si lo prohíben de plano.\n\n#System76 #COSMIC #PopOS #OpenSource\n\nhttps://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "Trump presenta su Super Intelligence Force",
+      "summary": "El presidente de Estados Unidos, Donald Trump, ha desvelado la creación de un grupo de trabajo llamado Super Intelligence Force, que presenta como su respuesta al debate sobre la seguridad de la IA. Con esta iniciativa sitúa la discusión en el terreno institucional.",
+      "why_it_matters": "Muestra cómo la política estadounidense intenta ordenar desde arriba el desarrollo y la seguridad de la IA.",
+      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Trump ya tiene respuesta para el debate sobre la seguridad de la IA: una Super Intelligence Force. Y con ella cambia quién pone las reglas.\n\n#Trump #SeguridadIA #SuperIntelligenceForce\nhttps://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force",
+        "linkedin": "Trump acaba de meter la seguridad de la IA en el terreno institucional: nace la Super Intelligence Force.\n\nEl movimiento no llega desde un laboratorio ni desde un regulador técnico, sino desde la Casa Blanca, y eso cambia quién decide las reglas del juego. 𝗟𝗮 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗱𝗲 𝗹𝗮 𝗜𝗔 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗱𝗲𝗯𝗮𝘁𝗲 𝗲𝗻𝘁𝗿𝗲 𝗲𝗺𝗽𝗿𝗲𝘀𝗮𝘀 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗽𝗼𝗹í𝘁𝗶𝗰𝗮 𝗱𝗲 𝗘𝘀𝘁𝗮𝗱𝗼. Para los equipos que desarrollan modelos en Estados Unidos, eso significa un interlocutor nuevo, con criterios propios y bastante menos paciencia con la autorregulación.\n\n#Trump #SeguridadIA #SuperIntelligenceForce\n\nhttps://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Los modelos chinos repiten la doctrina oficial o se niegan a responder",
+      "summary": "Un estudio de Aleph Alpha concluye que los modelos de IA chinos siguen a menudo la línea del partido en temas políticamente sensibles: solo entre el 17% y el 41% de sus respuestas se consideran equilibradas. La compañía vende IA soberana a gobiernos, lo que le da un interés comercial en marcar diferencias con los modelos chinos.",
+      "why_it_matters": "Aporta una medida concreta del sesgo político de los modelos chinos, un factor clave para quien deba elegir uno.",
+      "url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics",
+      "source": "The Decoder",
+      "social": {
+        "x": "Solo entre el 17 % y el 41 % de las respuestas de los modelos chinos sobre temas sensibles se consideran equilibradas. Lo mide Aleph Alpha, que vende IA soberana a gobiernos.\n\n#AlephAlpha #ModelosChinos #IASoberana\nhttps://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics",
+        "linkedin": "Un modelo que repite la doctrina del partido no es neutral: es una herramienta con línea editorial.\n\nUn estudio de Aleph Alpha pone cifra a ese sesgo: solo entre el 17 % y el 41 % de las respuestas de los modelos chinos sobre temas sensibles resultan equilibradas; en el resto, siguen la doctrina oficial o directamente se niegan a responder. Para cualquier equipo que tenga que elegir modelo, esto deja de ser una anécdota y pasa a ser un criterio de evaluación más. Conviene leer el dato con contexto: Aleph Alpha vende IA soberana a gobiernos y tiene interés comercial en marcar distancias con los modelos chinos. 𝗟𝗮 𝗰𝗶𝗳𝗿𝗮 𝗲𝘀 ú𝘁𝗶𝗹, 𝗽𝗲𝗿𝗼 𝗲𝗹 𝗶𝗻𝗳𝗼𝗿𝗺𝗲 𝗻𝗼 𝗲𝘀 𝗻𝗲𝘂𝘁𝗿𝗮𝗹.\n\n#AlephAlpha #ModelosChinos #IASoberana\n\nhttps://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Anthropic intentó convencer al Papa de que la IA podía ser consciente",
+      "summary": "Según The Telegraph, Anthropic trató de persuadir al Vaticano de que un modelo de IA podría ser un ser consciente, una idea que la posterior encíclica del pontífice rechazó. El episodio deja al descubierto las conversaciones de la compañía con pensadores religiosos sobre la naturaleza de estos sistemas.",
+      "why_it_matters": "Ilustra hasta qué punto las empresas de IA buscan legitimidad filosófica y cómo la Iglesia marca distancia.",
+      "url": "https://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being",
+      "source": "Hacker News",
+      "social": {
+        "x": "Anthropic quiso convencer al Vaticano de que una IA podía ser consciente. La respuesta del Papa llegó en forma de encíclica.\n\n#Anthropic #Vaticano #InteligenciaArtificial\nhttps://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being",
+        "linkedin": "Cuando una empresa de IA necesita que un teólogo le confirme que su modelo importa, el problema ya no es técnico.\n\nSegún The Telegraph, Anthropic trató de persuadir al Vaticano de que uno de sus sistemas podía ser un ser consciente. La encíclica posterior del pontífice rechazó esa idea y marcó distancia, justo lo contrario de la legitimidad filosófica que perseguía la compañía. 𝗤𝘂𝗲 𝗲𝗹 𝗮𝗿𝗴𝘂𝗺𝗲𝗻𝘁𝗼 𝗱𝗲 𝘃𝗲𝗻𝘁𝗮 𝘀𝗲𝗮 𝗹𝗮 𝗰𝗼𝗻𝘀𝗰𝗶𝗲𝗻𝗰𝗶𝗮 𝗱𝗶𝗰𝗲 𝗺á𝘀 𝗱𝗲 𝗹𝗮 𝗽𝗿𝗲𝘀𝗶ó𝗻 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗮 𝗱𝗲𝗹 𝘀𝗲𝗰𝘁𝗼𝗿 𝗾𝘂𝗲 𝗱𝗲 𝗹𝗮 𝘁𝗲𝗰𝗻𝗼𝗹𝗼𝗴í𝗮 𝗲𝗻 𝘀í: cuando el debate se traslada del benchmark al púlpito, conviene preguntarse qué se está intentando justificar y ante quién.\n\n#Anthropic #Vaticano #InteligenciaArtificial\n\nhttps://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "herramientas",
+      "title": "Una vulnerabilidad crítica de GitLab está siendo explotada",
+      "summary": "La CVE-2026-85706 es una vulnerabilidad crítica de path traversal en GitLab que ha pasado de riesgo teórico a explotación confirmada. Afecta a instalaciones self-managed de GitLab CE y EE y podría permitir a un atacante remoto no autenticado leer archivos arbitrarios del servidor.",
+      "why_it_matters": "Quien gestione un GitLab self-managed debería actualizar cuanto antes: el fallo ya se está aprovechando.",
+      "url": "https://www.infoq.com/news/2026/10/gitlab-critical-vulnerabilities",
+      "source": "InfoQ",
+      "social": {
+        "x": "GitLab tiene un fallo que ya no es teoría: se está explotando. Si tu instancia es self-managed, un atacante sin credenciales puede leer archivos del servidor.\n\n#GitLab #CVE #DevSecOps #SelfHosted\nhttps://www.infoq.com/news/2026/10/gitlab-critical-vulnerabilities",
+        "linkedin": "La vulnerabilidad de GitLab que muchos apuntaron para «ya la miraremos» ya se está explotando.\n\nLa CVE-2026-85706 es un path traversal que permite a un atacante remoto no autenticado leer archivos arbitrarios del servidor, y afecta a instalaciones 𝘀𝗲𝗹𝗳-𝗺𝗮𝗻𝗮𝗴𝗲𝗱 𝗱𝗲 𝗚𝗶𝘁𝗟𝗮𝗯 𝗖𝗘 𝘆 𝗘𝗘. En un servidor GitLab no vive solo código: hay tokens de CI, variables de entorno y claves de deploy, así que el impacto real empieza en la lectura de ficheros y sigue en todo lo que se puede cosechar después. Actualizar no es una tarea de mantenimiento pendiente, es la mitigación que hay disponible hoy.\n\n#GitLab #CVE #DevSecOps #SelfHosted\n\nhttps://www.infoq.com/news/2026/10/gitlab-critical-vulnerabilities"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "lanzamientos",
+      "title": "Orion avanza hacia Linux y Windows",
+      "summary": "Kagi ha publicado una actualización sobre el desarrollo de Orion para Linux y Windows, su navegador basado en WebKit que hasta ahora solo existía en macOS. La compañía detalla el estado de los ports y los pasos que quedan para llevarlo a las dos plataformas.",
+      "why_it_matters": "Amplía las alternativas reales a Chrome y Firefox con un motor distinto y un enfoque centrado en la privacidad.",
+      "url": "https://blog.kagi.com/update-orion-linux-windows",
+      "source": "Lobsters",
+      "social": {
+        "x": "Orion, el navegador WebKit de Kagi, deja de ser exclusivo de macOS: la compañía ya detalla su camino hacia Linux y Windows.\n\n#Orion #Kagi #WebKit #Linux\nhttps://blog.kagi.com/update-orion-linux-windows",
+        "linkedin": "Orion lleva años siendo ese navegador que los usuarios de Mac presumen y el resto no puede ni probar. Kagi acaba de publicar el estado de los ports a Linux y Windows, con los pasos que quedan por delante.\n\nSi llega a buen puerto, 𝗵𝗮𝗯𝗿á 𝗽𝗼𝗿 𝗳𝗶𝗻 𝘂𝗻𝗮 𝗮𝗹𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝘃𝗮 𝗿𝗲𝗮𝗹 𝗮 𝗖𝗵𝗿𝗼𝗺𝗲 𝘆 𝗙𝗶𝗿𝗲𝗳𝗼𝘅 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗶𝗱𝗮 𝘀𝗼𝗯𝗿𝗲 𝗪𝗲𝗯𝗞𝗶𝘁, es decir, un tercer motor en juego y no otra capa sobre Blink. Para quien pasa el día dentro del navegador, que la privacidad deje de ser un extra y sea el punto de partida cambia bastante las cosas.\n\n#Orion #Kagi #WebKit #Linux\n\nhttps://blog.kagi.com/update-orion-linux-windows"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "antirez/ds4",
+      "url": "https://github.com/antirez/ds4",
+      "description": "Motor de inferencia local para DeepSeek 4 Flash y PRO con soporte para Metal, CUDA y ROCm, firmado por el creador de Redis. Te permite exprimir estos modelos en tu propia máquina sin pasar por una API.",
+      "language": "C",
+      "stars": 23320,
+      "social": {
+        "x": "El creador de Redis firma un motor de inferencia local para DeepSeek 4: 23.320 estrellas, escrito en C y con Metal, CUDA y ROCm. Sin pasar por una API.\n\n#DeepSeek #OpenSource #GitHub #C\nhttps://github.com/antirez/ds4",
+        "linkedin": "EL CREADOR DE REDIS ACABA DE FIRMAR UN MOTOR DE INFERENCIA LOCAL PARA DEEPSEEK 4.\n\nSalvatore Sanfilippo (antirez) no necesita presentación: su nombre está detrás de Redis. Ahora ha puesto su firma en ds4, un motor en C para mover DeepSeek 4 Flash y PRO en hardware propio. La diferencia con la API oficial es simple: 𝘁ú 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮𝘀 𝗱ó𝗻𝗱𝗲 𝘀𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝘀𝗶𝗻 𝗰𝘂𝗼𝘁𝗮𝘀 𝘆 𝘀𝗶𝗻 𝗲𝗻𝘃𝗶𝗮𝗿 𝘁𝘂𝘀 𝗽𝗿𝗼𝗺𝗽𝘁𝘀 𝗮 𝘂𝗻 𝘁𝗲𝗿𝗰𝗲𝗿𝗼.\n\nEl repo ya acumula 23.320 estrellas, y no es casualidad: toca los tres backends que de verdad importan si tienes GPU en casa o en el curro.\n\n→ Metal, para quienes trabajan en Mac con Apple Silicon.\n→ CUDA, el terreno habitual de las NVIDIA.\n→ ROCm, para las AMD que muchos daban por perdidas en inferencia.\n→ Escrito en C, sin capas de Python que lastren el arranque.\n→ Pensado para exprimir los modelos Flash y PRO en tu propia máquina.\n\nEl patrón se repite: la inferencia local deja de ser un experimento de fin de semana y empieza a tener herramientas serias firmadas por gente que sabe lo que hace. Si trasteas con modelos en local, este repo te ahorra semanas de pruebas.\n\nGuarda el post para cuando montes tu próximo setup y te dejo el repositorio abajo.\n\n#DeepSeek #OpenSource #GitHub #C\n\nhttps://github.com/antirez/ds4"
+      }
+    },
+    {
+      "name": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "Sistema de producción de vídeo agéntico open source: 12 pipelines, más de 100 herramientas y cientos de archivos de skills y conocimiento de producción. Convierte a tu asistente de código en un estudio de vídeo completo.",
+      "language": "Python",
+      "stars": 62943,
+      "social": {
+        "x": "62.000 estrellas y cero paywall: OpenMontage convierte tu asistente de código en un estudio de vídeo con 12 pipelines y +100 herramientas.\n\n#OpenMontage #OpenSource #Python #GitHub\nhttps://github.com/calesthio/OpenMontage",
+        "linkedin": "TU ASISTENTE DE CÓDIGO PUEDE MONTAR VÍDEO POR TI. Y ES OPEN SOURCE.\n\nProducir vídeo con IA suele pasar por una suscripción mensual, una cuota por render y un editor en la nube que decide por ti. OpenMontage propone lo contrario: un sistema de producción agéntico que corre en tu máquina y trabaja con el asistente que ya usas.\n\nEl repo trae 12 pipelines, más de 100 herramientas y cientos de archivos de skills y conocimiento de producción. No es un prompt suelto, es un estudio de vídeo entero descrito para que un agente lo ejecute.\n\nLo que puedes hacer con él:\n→ Encadenar pipelines de producción de vídeo de principio a fin.\n→ Dar a tu asistente más de 100 herramientas específicas de edición y montaje.\n→ Apoyarte en cientos de archivos de skills para que el agente sepa qué hacer en cada fase.\n→ Mantenerlo self-hosted, en Python y sin cuota mensual.\n\n𝗟𝗮 𝗶𝗱𝗲𝗮: tu asistente de código deja de ser un chat y pasa a ser un estudio de vídeo completo.\n\nGuárdatelo para tu próximo proyecto y échale un ojo al repo, lo tienes justo debajo.\n\n#OpenMontage #OpenSource #Python #GitHub\n\nhttps://github.com/calesthio/OpenMontage"
+      }
+    },
+    {
+      "name": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "Da a tu agente superpoderes de CAD, de modo que pueda generar modelos 3D a partir de una descripción en texto. Una vía muy directa para meter a los asistentes de IA en el diseño de piezas.",
+      "language": "Python",
+      "stars": 16715,
+      "social": {
+        "x": "16.715 estrellas para el repo que convierte una frase en un modelo 3D: describes la pieza en texto y tu agente de IA la genera en CAD. Sin licencias carísimas.\n\n#CAD #Python #OpenSource #GitHub\nhttps://github.com/earthtojake/text-to-cad",
+        "linkedin": "TU AGENTE DE IA ACABA DE APRENDER A DISEÑAR PIEZAS EN 3D.\n\nEl CAD ha vivido siempre detrás de licencias carísimas y curvas de aprendizaje de meses. Este repo le da la vuelta: describes la pieza con palabras y el modelo 3D sale solo.\n\n→ Convierte una descripción en texto en geometría 3D, sin tocar el ratón.\n→ Se enchufa como herramienta de un agente, así que el asistente razona y genera el modelo por su cuenta.\n→ Python de principio a fin, sencillo de levantar en local y de integrar en tus propios pipelines.\n→ 16.715 estrellas: no es un experimento de fin de semana, hay comunidad detrás.\n\n𝗟𝗮 𝗶𝗱𝗲𝗮: 𝗲𝗹 𝗖𝗔𝗗 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗮 𝗾𝘂𝗲 𝗮𝗯𝗿𝗲𝘀 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗾𝘂𝗲 𝘁𝘂 𝗮𝗴𝗲𝗻𝘁𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮.\n\nSi diseñas piezas, prototipas hardware o simplemente te gusta trastear con modelos 3D, guárdatelo. Te dejo el repo abajo.\n\n#CAD #Python #OpenSource #GitHub\n\nhttps://github.com/earthtojake/text-to-cad"
+      }
+    },
+    {
+      "name": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "description": "Alternativa open source a CapCut para editar vídeo, pensada para no depender de una app propietaria ni de suscripciones. Un proyecto muy activo y con una comunidad enorme detrás.",
+      "language": "TypeScript",
+      "stars": 91919,
+      "social": {
+        "x": "CapCut te mete marca de agua y te empuja a la suscripción. Este repo open source edita vídeo igual y ya suma 91.919 estrellas.\n\n#OpenCut #OpenSource #TypeScript #GitHub\nhttps://github.com/OpenCut-app/OpenCut",
+        "linkedin": "AQUÍ NADIE TE COBRA POR EXPORTAR UN VÍDEO.\n\nEditar vídeo se ha convertido en una cuota mensual más. CapCut te marca el vídeo si no pagas, te empuja al plan de pago y decide por ti cuándo cambia el precio o las condiciones. Y si un día desaparece o cambia el modelo, tu flujo de trabajo se va con él.\n\nOpenCut nace justo para eso: 𝗻𝗼 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝘀 𝗱𝗲 𝘂𝗻𝗮 𝗮𝗽𝗽 𝗽𝗿𝗼𝗽𝗶𝗲𝘁𝗮𝗿𝗶𝗮 𝗻𝗶 𝗱𝗲 𝘂𝗻𝗮 𝘀𝘂𝘀𝗰𝗿𝗶𝗽𝗰𝗶ó𝗻 𝗽𝗮𝗿𝗮 𝗲𝗱𝗶𝘁𝗮𝗿 𝘃í𝗱𝗲𝗼. Es una alternativa open source, escrita en TypeScript y con una comunidad enorme detrás que la mantiene muy activa.\n\n→ Alternativa directa a CapCut, sin marca de agua ni planes de pago\n→ Código abierto: lo puedes leer, modificarlo y montarlo donde quieras\n→ TypeScript de arriba abajo, fácil de tocar si eres dev\n→ 91.919 estrellas: no es un experimento abandonado, hay gente dentro\n→ Proyecto en desarrollo constante, con comunidad grande y activa\n\nSi editas vídeo a menudo o simplemente no quieres que tu herramienta dependa del capricho de una empresa, este repo merece un hueco en tus marcadores. Guárdatelo antes de que lo necesites de verdad.\n\nTe dejo el repositorio abajo.\n\n#OpenCut #OpenSource #TypeScript #GitHub\n\nhttps://github.com/OpenCut-app/OpenCut"
+      }
+    },
+    {
+      "name": "caddyserver/caddy",
+      "url": "https://github.com/caddyserver/caddy",
+      "description": "Servidor web multiplataforma con HTTP/1, HTTP/2 y HTTP/3 y certificados HTTPS automáticos, sin configurar nada a mano. Sigue siendo una de las formas más cómodas de poner un sitio en producción.",
+      "language": "Go",
+      "stars": 76353,
+      "social": {
+        "x": "🔒 Caddy pone tu web en producción con HTTPS automático y ya suma 76k estrellas. Sin pelear con el config de nginx ni con Certbot.\n\n#Caddy #Go #DevOps #OpenSource\nhttps://github.com/caddyserver/caddy",
+        "linkedin": "EL SERVIDOR WEB QUE TE QUITA DE ENCIMA LA PARTE MÁS ODIADA DE PONER ALGO EN PRODUCCIÓN\n\nMontar un sitio con HTTPS a mano suele acabar en Certbot, renovaciones que caducan sin avisar y un archivo de nginx que nadie del equipo se atreve a tocar. Caddy parte de otra premisa: 𝗻𝗼 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝘀 𝗻𝗮𝗱𝗮 𝗮 𝗺𝗮𝗻𝗼.\n\n→ Emite y renueva los certificados TLS por su cuenta, sin pasos manuales ni cron a medias.\n→ Escribes dos líneas en un Caddyfile y ya tienes el sitio servido con HTTPS.\n→ Habla HTTP/1, HTTP/2 y HTTP/3 (QUIC) desde el primer arranque.\n→ Un único binario en Go para Linux, macOS y Windows, sin dependencias que arrastrar.\n→ 76.353 estrellas en GitHub y años de uso en producción a sus espaldas.\n\nSi tienes un VPS con proyectos que dan pereza mantener, este es de los que se guardan. Te dejo el repo abajo.\n\n#Caddy #Go #DevOps #OpenSource\n\nhttps://github.com/caddyserver/caddy"
+      }
+    }
+  ]
+}
