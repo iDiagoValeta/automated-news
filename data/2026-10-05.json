@@ -1,0 +1,320 @@
+{
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T19:17:27.732Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Reka AI presenta Rho-1, un modelo multimodal que también controla robots",
+      "summary": "Reka AI ha publicado una research preview de Rho-1, un modelo de 19.000 millones de parámetros que procesa y genera texto, imagen, vídeo y acciones de control de robots en una única red neuronal. En vez de repartir las tareas entre sistemas especializados, lo trata todo como tokens dentro de una misma ventana de contexto. Se entrenó con 320 GPU H100 durante unos tres meses, muy por debajo del cómputo que exigen los modelos punteros actuales.",
+      "why_it_matters": "Demuestra que un solo modelo puede cubrir muchas modalidades y el control de un robot con una fracción del cómputo habitual.",
+      "url": "https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model",
+      "source": "The Decoder",
+      "social": {
+        "x": "Un solo modelo que ve, escribe, genera vídeo y mueve un robot. Reka AI lo entrenó con 320 H100 en tres meses, una fracción de lo habitual.\n\n#RekaAI #Rho1 #Multimodal #H100\nhttps://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model",
+        "linkedin": "Un solo modelo que ve, escribe, genera vídeo y además controla un robot. Y no hizo falta una granja de GPU para entrenarlo.\n\nReka AI ha presentado Rho-1 como research preview: 19.000 millones de parámetros que tratan texto, imagen, vídeo y acciones de robot como tokens dentro de la misma ventana de contexto, en lugar de repartir el trabajo entre sistemas especializados. Lo relevante no es que haya un modelo más, sino que se entrenara con 𝟯𝟮𝟬 𝗚𝗣𝗨 𝗛𝟭𝟬𝟬 𝗱𝘂𝗿𝗮𝗻𝘁𝗲 𝘂𝗻𝗼𝘀 𝘁𝗿𝗲𝘀 𝗺𝗲𝘀𝗲𝘀, muy por debajo del cómputo que manejan los modelos punteros. Para quien decide arquitectura, la lectura es que la multimodalidad deja de ser una cuestión de presupuesto: si entrenar cuesta esto, más equipos pequeños podrán competir en esta capa, y la ventaja se moverá a los datos y al producto.\n\n#RekaAI #Rho1 #Multimodal #H100\n\nhttps://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Aleph Alpha publica Kolibri, un modelo abierto de 78.000 millones de parámetros",
+      "summary": "Aleph Alpha ha liberado Kolibri, un modelo mixture-of-experts alemán-inglés de 78.000 millones de parámetros, de los que alrededor de 3.000 millones se activan por token. Más del 21 % de los datos de entrenamiento son en alemán y se entrenó con 768 GPU B200 repartidas entre Alemania y Finlandia. Los pesos están disponibles bajo licencia Apache 2.0.",
+      "why_it_matters": "Es una apuesta por la soberanía europea en IA con pesos abiertos y reutilizables por cualquiera.",
+      "url": "https://the-decoder.com/aleph-alpha-releases-kolibri-an-open-weight-model-that-makes-the-case-for-european-ai-sovereignty",
+      "source": "The Decoder",
+      "social": {
+        "x": "78.000 millones de parámetros, pero solo 3.000 activos por token. Y los pesos, abiertos bajo Apache 2.0. El modelo es alemán.\n\n#AlephAlpha #Kolibri #OpenSource #LLM\nhttps://the-decoder.com/aleph-alpha-releases-kolibri-an-open-weight-model-that-makes-the-case-for-european-ai-sovereignty",
+        "linkedin": "Un modelo de 78.000 millones de parámetros que solo activa 3.000 por token, entrenado entre Alemania y Finlandia, y con los pesos disponibles para cualquiera.\n\nAleph Alpha ha liberado Kolibri, un mixture-of-experts alemán-inglés con más del 21 % de sus datos de entrenamiento en alemán, publicado bajo Apache 2.0 con 768 GPU B200. Eso significa que cualquier equipo puede descargarlo, afinarlo y desplegarlo en su propia infraestructura sin pedir permiso. 𝗟𝗮 𝗷𝘂𝗴𝗮𝗱𝗮 𝗻𝗼 𝗲𝘀 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝗿 𝗲𝗻 𝘁𝗮𝗺𝗮ñ𝗼 𝗰𝗼𝗻 𝗹𝗼𝘀 𝗴𝗿𝗮𝗻𝗱𝗲𝘀 𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗼𝗿𝗶𝗼𝘀 𝗲𝘀𝘁𝗮𝗱𝗼𝘂𝗻𝗶𝗱𝗲𝗻𝘀𝗲𝘀, 𝘀𝗶𝗻𝗼 𝗼𝗳𝗿𝗲𝗰𝗲𝗿 𝘂𝗻𝗮 𝗯𝗮𝘀𝗲 𝘀𝗼𝗯𝗲𝗿𝗮𝗻𝗮 𝗾𝘂𝗲 𝗘𝘂𝗿𝗼𝗽𝗮 𝗽𝘂𝗲𝗱𝗮 𝗮𝘂𝗱𝗶𝘁𝗮𝗿 𝘆 𝗿𝗲𝘂𝘁𝗶𝗹𝗶𝘇𝗮𝗿. Para quien trabaja con datos en alemán o necesita justificar dónde se ejecuta el modelo, las opciones acaban de ampliarse.\n\n#AlephAlpha #Kolibri #OpenSource #LLM\n\nhttps://the-decoder.com/aleph-alpha-releases-kolibri-an-open-weight-model-that-makes-the-case-for-european-ai-sovereignty"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "OpenAI añade marcas de agua invisibles al texto de ChatGPT en la UE",
+      "summary": "OpenAI ha detallado su plan para cumplir las normas europeas de transparencia con textGrain, un sistema propietario que incrusta una señal estadística invisible en el texto y el código generados en la UE. A diferencia de Anthropic, permitirá a los clientes de API de todo el mundo desactivarlas. Las pruebas muestran tasas de detección de hasta el 95 %, que caen al 17 % cuando se sustituye una cuarta parte de las palabras.",
+      "why_it_matters": "Marca un precedente sobre cómo se etiquetará el contenido generado por IA en Europa y hasta dónde llega el control del proveedor.",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "source": "OpenAI News",
+      "social": {
+        "x": "OpenAI marcará con una señal invisible todo el texto que ChatGPT genere en la UE. El problema: basta cambiar una de cada cuatro palabras para que la detección caiga del 95 % al 17 %.\n\n#OpenAI #ChatGPT #textGrain #Anthropic\nhttps://openai.com/index/eu-text-provenance",
+        "linkedin": "OpenAI etiquetará con una marca de agua invisible todo el texto que ChatGPT genere en la UE. Y ya ha admitido dónde falla.\n\nSu sistema se llama textGrain y detecta hasta el 95 % del texto marcado, pero esa tasa se hunde al 17 % si alguien reescribe una de cada cuatro palabras. 𝗢𝗽𝗲𝗻𝗔𝗜 𝗽𝗲𝗿𝗺𝗶𝘁𝗶𝗿á 𝗮 𝗹𝗼𝘀 𝗰𝗹𝗶𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗔𝗣𝗜 𝗱𝗲 𝘁𝗼𝗱𝗼 𝗲𝗹 𝗺𝘂𝗻𝗱𝗼 𝗱𝗲𝘀𝗮𝗰𝘁𝗶𝘃𝗮𝗿 𝗹𝗮 𝗺𝗮𝗿𝗰𝗮; 𝗔𝗻𝘁𝗵𝗿𝗼𝗽𝗶𝗰 𝗻𝗼 𝗱𝗮𝗿á 𝗲𝘀𝗮 𝗼𝗽𝗰𝗶ó𝗻. Para los equipos que despliegan producto en Europa, la pregunta deja de ser si hay marca de agua y pasa a ser cuánto se puede confiar en ella cuando quien la emite es también quien decide apagarla.\n\n#OpenAI #ChatGPT #textGrain #Anthropic\n\nhttps://openai.com/index/eu-text-provenance"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "GitHub lanza ReviewBench, un benchmark abierto para la revisión de código con IA",
+      "summary": "GitHub ha presentado ReviewBench, un benchmark para agentes de revisión de código construido sobre pull requests representativos de GitHub. Combina varias fuentes de ground truth, una evaluación calibrada y métricas alineadas con producción. El objetivo es medir de forma fiable la calidad de los agentes que revisan código.",
+      "why_it_matters": "Da a los equipos una forma objetiva de comparar agentes de code review antes de integrarlos en su flujo de trabajo.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
+      "source": "GitHub Blog",
+      "social": {
+        "x": "GitHub acaba de publicar el examen con el que piensa medir a los agentes que revisan tu código. Y es abierto.\n\n#GitHub #CodeReview #OpenSource #DevTools\nhttps://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review",
+        "linkedin": "Todos los agentes de code review aseguran ser buenos, pero hasta ahora no había una forma neutral de comprobarlo.\n\nGitHub lanza ReviewBench, un benchmark abierto construido sobre pull requests representativos, con varias fuentes de ground truth y métricas alineadas con lo que ocurre en producción. 𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗲𝘀 𝗾𝘂𝗲 𝘀𝗲 𝗮𝗽𝗼𝘆𝗮 𝗲𝗻 𝗽𝘂𝗹𝗹 𝗿𝗲𝗾𝘂𝗲𝘀𝘁𝘀 𝗿𝗲𝗮𝗹𝗲𝘀 𝘆 𝗻𝗼 𝗲𝗻 𝘁𝗲𝘀𝘁𝘀 𝘀𝗶𝗻𝘁é𝘁𝗶𝗰𝗼𝘀, así que la comparación se parece bastante más a tu día a día que a una demo. Para cualquier equipo que esté valorando meter un agente en su flujo de revisión, esto le da un criterio objetivo antes de decidir. El aviso de siempre: un benchmark abierto también invita a optimizar para él.\n\n#GitHub #CodeReview #OpenSource #DevTools\n\nhttps://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Amazon añade una skill de agente para optimizar la inferencia en SageMaker",
+      "summary": "AWS ha incorporado la skill aws-ai-ml al Agent Toolkit for AWS, que da a agentes de programación como Kiro, Claude Code o Codex conocimientos profundos sobre optimización y benchmarking de inferencia. Basta con describir lo que se quiere y el agente genera código ejecutable del SDK de SageMaker v3 para comparar despliegues y recomendar el mejor.",
+      "why_it_matters": "Automatiza una tarea de ajuste fino muy repetitiva, como es elegir y comparar configuraciones de inferencia.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Describes lo que quieres y el agente escribe el código que compara despliegues de inferencia en SageMaker y te dice cuál rinde más.\n\n#AWS #SageMaker #AgentToolkit #ClaudeCode\nhttps://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent",
+        "linkedin": "El ajuste de inferencia en SageMaker deja de ser prueba y error: ahora lo conduce el agente.\n\nAWS ha metido la skill aws-ai-ml en su Agent Toolkit, así que asistentes como Kiro, Claude Code o Codex entienden de optimización y benchmarking de inferencia. Describes el objetivo y el agente genera código del SDK de SageMaker v3 para comparar despliegues y recomendar el mejor. 𝗟𝗮 𝗽𝗮𝗿𝘁𝗲 𝗿𝗲𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗮 𝗱𝗲𝗹 𝘁𝘂𝗻𝗶𝗻𝗴 𝗽𝗮𝘀𝗮 𝗮𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝘆 𝗲𝗹 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝘀𝗲 𝗾𝘂𝗲𝗱𝗮 𝗱𝗼𝗻𝗱𝗲 𝗱𝗲𝗯𝗲: 𝗲𝗻 𝗱𝗲𝗰𝗶𝗱𝗶𝗿 𝗾𝘂é 𝘀𝗲 𝗺𝗶𝗱𝗲 𝘆 𝗽𝗼𝗿 𝗾𝘂é. Para equipos con varios modelos en producción, cada iteración sale bastante más barata.\n\n#AWS #SageMaker #AgentToolkit #ClaudeCode\n\nhttps://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Instinct lleva su agente de IA a los chats de grupo, incluso sin cuenta",
+      "summary": "Instinct lanza chats de grupo en los que varios amigos pueden usar su agente de IA para planificar viajes, organizar coches compartidos o coordinar eventos. La empresa asegura que las cuentas personales siguen separadas y que hace falta permiso antes de que un agente personal comparta información o actúe. Los invitados sin cuenta también pueden participar.",
+      "why_it_matters": "Explora un modelo de agente compartido entre varias personas, un paso más allá del asistente individual.",
+      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Instinct acaba de meter tu agente de IA en el chat de grupo. Y los amigos sin cuenta también pueden usarlo.\n\n#Instinct #AIAgents #TechCrunch\nhttps://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account",
+        "linkedin": "El agente personal deja de ser personal: Instinct lo lleva a los chats de grupo, donde varios amigos lo usan a la vez y hasta los invitados sin cuenta pueden participar.\n\nLa función es llamativa, pero lo interesante es el modelo: 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗶𝗱𝗼 𝗾𝘂𝗲 𝗻𝗲𝗰𝗲𝘀𝗶𝘁𝗮 𝗽𝗲𝗿𝗺𝗶𝘀𝗼 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗮𝗰𝘁𝘂𝗮𝗿 𝗼 𝗱𝗲 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗶𝗿 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗰𝗶ó𝗻. Para quien diseña producto con IA, ahí está la pregunta incómoda: si el agente vive en un grupo, ¿de quién son los datos y quién responde cuando se equivoca? Instinct dice que las cuentas siguen separadas y que el consentimiento es explícito, y ese detalle decidirá si el modelo escala o se queda en demo.\n\n#Instinct #AIAgents #TechCrunch\n\nhttps://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "TikTok despliega un asistente de compra con IA y pago en un clic",
+      "summary": "TikTok ha lanzado un Shopping Assistant, un agente conversacional de IA pensado para ayudar a descubrir y comprar productos dentro de la app. La función se acompaña de un checkout en un solo clic para reducir los pasos hasta la compra. Refuerza así la apuesta de la plataforma por el comercio integrado.",
+      "why_it_matters": "Convierte el descubrimiento de producto en una conversación con IA y acorta el camino hasta el pago.",
+      "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout",
+      "source": "TechCrunch",
+      "social": {
+        "x": "TikTok acaba de meter un dependiente con IA dentro de la app y el pago pasa a ser un solo clic. El feed deja de ser escaparate y se convierte en caja.\n\n#TikTok #SocialCommerce #eCommerce\nhttps://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout",
+        "linkedin": "El feed de TikTok deja de ser un escaparate y se convierte en caja.\n\nLa plataforma ha lanzado un Shopping Assistant, un agente conversacional que recomienda productos dentro de la app, acompañado de un checkout de un solo clic para reducir los pasos hasta el pago. El movimiento no es menor: hasta ahora el comercio social vivía de la interrupción, con el usuario saliendo a buscar, comparar y volver, y esto lo convierte en una conversación que acaba en compra sin fricción. 𝗤𝘂𝗶𝗲𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗲 𝗹𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝗰𝗶ó𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮 𝗹𝗮 𝘃𝗲𝗻𝘁𝗮, y TikTok parte con ventaja porque la intención de compra nace del propio contenido y no de una búsqueda externa. Para las marcas, la pregunta deja de ser cuánto tráfico manda el vídeo y pasa a ser cuánto convierte el asistente.\n\n#TikTok #SocialCommerce #eCommerce\n\nhttps://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "El entrevistador de IA de HackerRank ya ha conducido más de 500.000 entrevistas",
+      "summary": "HackerRank ha presentado un entrevistador con IA que ya ha conducido más de 500.000 entrevistas, con Snowflake, Snorkel y Capgemini entre los primeros en probarlo. La herramienta plantea preguntas y evalúa a los candidatos de forma automática. Es una muestra de hacia dónde pueden ir los procesos de selección técnica.",
+      "why_it_matters": "Anticipa un cambio profundo en cómo se filtran los candidatos técnicos en las empresas.",
+      "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become",
+      "source": "TechCrunch"
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Claude Code llega a Amazon Bedrock en las regiones GovCloud de AWS",
+      "summary": "Anthropic ha puesto Claude Opus 5.5 y Claude Sonnet 5.5 a disposición de los clientes de Amazon Bedrock en las regiones AWS GovCloud de Estados Unidos. El artículo explica cómo usarlos junto a Claude Code en cargas de trabajo reguladas. Así, los equipos con requisitos de cumplimiento estrictos pueden aprovechar asistentes de código gestionados.",
+      "why_it_matters": "Acerca los asistentes de IA para programar a entornos regulados que hasta ahora quedaban fuera.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Los asistentes de código nunca llegaban a los entornos regulados. Claude Code acaba de entrar en GovCloud de AWS.\n\n#AWS #AmazonBedrock #ClaudeCode #Anthropic\nhttps://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock",
+        "linkedin": "Los equipos que trabajan bajo cumplimiento estricto llevaban años viendo pasar los asistentes de código de largo. Desde ahora Claude Code está disponible en Amazon Bedrock dentro de las regiones GovCloud de AWS, con Claude Opus 5.5 y Sonnet 5.5 para cargas de trabajo reguladas.\n\nLa barrera nunca fue la capacidad del modelo, sino dónde se ejecuta: sin despliegue en un entorno autorizado, la conversación no empezaba. 𝗤𝘂𝗲 𝗲𝗹 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝗮𝘁𝗲𝗿𝗿𝗶𝗰𝗲 𝗲𝗻 𝗲𝗹 𝗺𝗶𝘀𝗺𝗼 𝘀𝗶𝘁𝗶𝗼 𝗱𝗼𝗻𝗱𝗲 𝘆𝗮 𝘃𝗶𝘃𝗲 𝗹𝗮 𝗰𝗮𝗿𝗴𝗮 𝗿𝗲𝗴𝘂𝗹𝗮𝗱𝗮 𝗰𝗮𝗺𝗯𝗶𝗮 𝗲𝗹 𝗰á𝗹𝗰𝘂𝗹𝗼 para banca, sanidad o sector público, que ya no tienen que elegir entre cumplir y programar más rápido.\n\n#AWS #AmazonBedrock #ClaudeCode #Anthropic\n\nhttps://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "Recuperación agéntica con LangChain y las Knowledge Bases de Bedrock",
+      "summary": "El artículo muestra cómo montar una aplicación RAG sobre Amazon Bedrock Managed Knowledge Base con LangChain, comparando la recuperación de un solo paso con la recuperación agéntica. Ambas rutas se ejecutan con la misma consulta para leer los eventos de traza y comparar costes. La recuperación agéntica resuelve mejor las preguntas con varias partes.",
+      "why_it_matters": "Ofrece una receta práctica para mejorar aplicaciones RAG cuando las preguntas exigen varias búsquedas encadenadas.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Una sola búsqueda no resuelve una pregunta con varias partes. La recuperación agéntica sobre Bedrock las encadena, y hay receta para comparar trazas y costes.\n\n#LangChain #AmazonBedrock #RAG #AWS\nhttps://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases",
+        "linkedin": "Una sola búsqueda vectorial resuelve menos preguntas de las que crees.\nMontar RAG con LangChain sobre las Knowledge Bases gestionadas de Bedrock es la parte fácil; el problema aparece cuando la consulta tiene varias partes y una única recuperación se queda corta. La recuperación agéntica encadena varias búsquedas y 𝗱𝗲𝗰𝗶𝗱𝗲 𝗰𝘂á𝗻𝗱𝗼 𝗽𝗮𝗿𝗮𝗿 𝘀𝗲𝗴ú𝗻 𝗹𝗼 𝗾𝘂𝗲 𝘃𝗮 𝗲𝗻𝗰𝗼𝗻𝘁𝗿𝗮𝗻𝗱𝗼, así que la comparación honesta ya no es solo de calidad, sino de coste por consulta. Para quien tiene RAG en producción, leer los eventos de traza de ambas rutas con la misma pregunta es lo que convierte el artículo en algo aplicable.\n\n#LangChain #AmazonBedrock #RAG #AWS\n\nhttps://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Qwen 3.8 y su peculiar forma de sumar con palabras",
+      "summary": "Simon Willison prueba cómo se comporta Qwen 3.8 27B cuando se le pide hacer sumas en las que los números van escritos con palabras en lugar de cifras. El experimento sirve para medir hasta qué punto el modelo maneja la aritmética fuera de los formatos habituales. Es una muestra de las pruebas caseras con las que conviene auditar un modelo antes de usarlo.",
+      "why_it_matters": "Recuerda que los modelos fallan justo donde menos se espera y conviene probarlos uno mismo, no solo leer benchmarks.",
+      "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words",
+      "source": "Simon Willison",
+      "social": {
+        "x": "Qwen suma sin problema... hasta que le escribes los números con palabras. Ahí aparece lo que ningún benchmark te cuenta.\n\n#Qwen #LLM #SimonWillison\nhttps://simonwillison.net/2026/Oct/4/qwen38-addition-in-words",
+        "linkedin": "Un modelo puede bordar los benchmarks y atragantarse con una suma escrita con letras.\n\nSimon Willison ha probado Qwen con aritmética en palabras en lugar de cifras, un formato que ningún test estándar cubre. El resultado recuerda algo incómodo: 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗳𝗮𝗹𝗹𝗮𝗻 𝗱𝗼𝗻𝗱𝗲 𝗻𝗮𝗱𝗶𝗲 𝗽𝗶𝗲𝗻𝘀𝗮 𝗲𝗻 𝗺𝗶𝗿𝗮𝗿, y esos huecos solo salen a la luz cuando alguien los prueba por su cuenta. Si estás evaluando un modelo para producción, media hora de casos raros propios vale más que la tabla de puntuaciones de la web.\n\n#Qwen #LLM #SimonWillison\n\nhttps://simonwillison.net/2026/Oct/4/qwen38-addition-in-words"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Una IA resuelve un problema matemático abierto y desata el debate",
+      "summary": "IEEE Spectrum recoge la reacción del mundo matemático tras conocerse que un sistema de IA ha resuelto un problema que llevaba años abierto, en el marco del foro Heidelberg Laureate. La noticia ha generado satisfacción y recelos a partes iguales entre investigadores. El caso aviva la discusión sobre la autoría y la validación de los resultados asistidos por IA.",
+      "why_it_matters": "Pone sobre la mesa cómo se acreditan y se validan los hallazgos matemáticos cuando los logra una máquina.",
+      "url": "https://spectrum.ieee.org/millennium-prize-ai",
+      "source": "IEEE Spectrum AI",
+      "social": {
+        "x": "Una IA ha resuelto un problema matemático que llevaba años abierto. El hallazgo ha dividido a los matemáticos: ¿de quién es el mérito y cómo se valida?\n\n#Matemáticas #HeidelbergLaureate #IEEESpectrum #InteligenciaArtificial\nhttps://spectrum.ieee.org/millennium-prize-ai",
+        "linkedin": "Una IA resuelve un problema matemático abierto y el debate no va de matemáticas.\nLa noticia, recogida por IEEE Spectrum en el marco del foro Heidelberg Laureate, ha dejado al sector dividido entre la satisfacción y el recelo. Lo relevante no es solo que la máquina haya llegado a la solución: 𝗹𝗮 𝗰𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗻𝗼 𝗱𝗶𝘀𝗰𝘂𝘁𝗲 𝘁𝗮𝗻𝘁𝗼 𝘀𝗶 𝗲𝗹 𝗿𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗲𝘀 𝗰𝗼𝗿𝗿𝗲𝗰𝘁𝗼 𝗰𝗼𝗺𝗼 𝗾𝘂𝗶é𝗻 𝗹𝗼 𝗳𝗶𝗿𝗺𝗮 𝘆 𝗰ó𝗺𝗼 𝘀𝗲 𝘃𝗮𝗹𝗶𝗱𝗮. Para cualquier equipo que ya trabaje con sistemas asistidos por IA, el cuello de botella se ha movido: generar resultados es cada vez más barato, verificarlos y acreditarlos sigue siendo artesanal. Hasta que exista un proceso de revisión asumido, hallazgos así quedarán en un limbo incómodo.\n\n#Matemáticas #HeidelbergLaureate #IEEESpectrum #InteligenciaArtificial\n\nhttps://spectrum.ieee.org/millennium-prize-ai"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "Mantener al humano en el bucle puede acabar dejándolo fuera",
+      "summary": "Tres investigadores de ética de la IA sostienen que el mecanismo de supervisión humana sobre los agentes autónomos fracasa si no cambian las prácticas actuales. Aunque casi todos los agentes incluyen sistemas para avisar al usuario de sus acciones, en la práctica esos avisos empujan a la persona fuera del bucle. El argumento aparece en un artículo publicado en ArXiv.",
+      "why_it_matters": "Cuestiona uno de los salvaguardas más citados frente a agentes de IA que actúan por su cuenta.",
+      "url": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
+      "source": "IEEE Spectrum AI",
+      "social": {
+        "x": "El salvavidas más citado frente a los agentes de IA se cae solo: los avisos que deberían mantenerte en el bucle te empujan fuera.\n\n#AIEthics #AgentesIA #ArXiv\nhttps://spectrum.ieee.org/agentic-ai-humans-in-loop",
+        "linkedin": "El mecanismo que debía mantener al humano en el bucle hace justo lo contrario: los avisos acaban expulsándolo.\n\nTres investigadores de ética de la IA lo defienden en un paper en ArXiv y ponen el dedo en una verdad incómoda: 𝘂𝗻 𝗮𝘃𝗶𝘀𝗼 𝗾𝘂𝗲 𝗻𝗮𝗱𝗶𝗲 𝗽𝘂𝗲𝗱𝗲 𝗽𝗿𝗼𝗰𝗲𝘀𝗮𝗿 𝗮 𝘁𝗶𝗲𝗺𝗽𝗼 𝗻𝗼 𝗲𝘀 𝘀𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗶ó𝗻, 𝗲𝘀 𝘂𝗻𝗮 𝗳𝗶𝗿𝗺𝗮 𝗲𝗻 𝗯𝗹𝗮𝗻𝗰𝗼. Casi todos los agentes autónomos presumen de pedir confirmación antes de actuar, pero si el flujo les lanza diez avisos por minuto, la persona acaba aprobando sin leer. Para quien diseña o compra agentes, la pregunta ya no es si hay un human in the loop, sino cuánto tarda ese humano en dejar de mirarlo.\n\n#AIEthics #AgentesIA #ArXiv\n\nhttps://spectrum.ieee.org/agentic-ai-humans-in-loop"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "herramientas",
+      "title": "ArtCraft, una suite de diseño y edición open source escrita en Rust",
+      "summary": "ArtCraft reúne siete aplicaciones nativas y de código abierto para edición de imagen, ilustración vectorial, vídeo, fotografía, PDF, motion graphics y maquetación. Todas están escritas en Rust, son gratuitas y su código está disponible en GitHub. Se presentan como alternativa compatible con los formatos de Adobe.",
+      "why_it_matters": "Es una alternativa libre y nativa a la suite de Adobe, con el rendimiento que da Rust.",
+      "url": "https://getartcraft.com/apps",
+      "source": "Hacker News",
+      "social": {
+        "x": "Siete aplicaciones de diseño, vídeo y maquetación escritas en Rust quieren hacerle la competencia a Adobe. Son libres y leen sus formatos.\n\n#Rust #OpenSource #ArtCraft #Adobe\nhttps://getartcraft.com/apps",
+        "linkedin": "La suite de Adobe tiene por fin un rival que no vive de imitar su interfaz: siete aplicaciones nativas escritas en Rust, gratis y con el código en GitHub.\nLa clave no es el precio, es el rendimiento. Rust es justo lo que le faltaba a los proyectos libres para meterse en edición de vídeo o motion graphics sin quedarse cortos, y la compatibilidad con los formatos de Adobe elimina la excusa más repetida para no dar el salto. 𝗣𝗮𝗿𝗮 𝗳𝗿𝗲𝗲𝗹𝗮𝗻𝗰𝗲𝘀 𝘆 𝗲𝘀𝘁𝘂𝗱𝗶𝗼𝘀 𝗽𝗲𝗾𝘂𝗲ñ𝗼𝘀, 𝗹𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗽𝗮𝗿𝗮 𝘁𝗿𝗮𝗯𝗮𝗷𝗮𝗿 𝗲𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻 𝗽𝗿𝗼𝗳𝗲𝘀𝗶𝗼𝗻𝗮𝗹 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗰𝗼𝗻ó𝗺𝗶𝗰𝗮. Queda por ver si esas siete piezas se comportan como una suite o como siete aplicaciones sueltas.\n\n#Rust #OpenSource #ArtCraft #Adobe\n\nhttps://getartcraft.com/apps"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "herramientas",
+      "title": "Mold, el enlazador rápido para Linux, publica la versión 3.0.0",
+      "summary": "Mold, el enlazador (linker) alternativo para Linux conocido por su velocidad, ha publicado la versión 3.0.0 en GitHub. El proyecto de rui314 sigue reduciendo los tiempos de enlace frente a los enlazadores tradicionales, algo crítico en bases de código grandes. Es una pieza clave para acelerar las compilaciones en proyectos de gran tamaño.",
+      "why_it_matters": "Recortar los tiempos de enlazado se nota en cada compilación de un proyecto grande.",
+      "url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
+      "source": "Lobsters",
+      "social": {
+        "x": "Mold 3.0.0 ya está aquí. El linker de rui314 sigue recortando los segundos que pierdes en cada enlace, y en bases de código grandes eso se nota en cada build.\n\n#Mold #Linux #OpenSource\nhttps://github.com/rui314/mold/releases/tag/v3.0.0",
+        "linkedin": "Mold 3.0.0 ya está en GitHub y sigue haciendo lo que le dio fama: enlazar en una fracción del tiempo que tardan ld o gold.\n\nEn un proyecto grande el enlace se repite cientos de veces al día, así que cada segundo recortado se multiplica en el tiempo de todo el equipo. 𝗟𝗮 𝘃𝗲𝗹𝗼𝗰𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗹𝗶𝗻𝗸𝗲𝗿 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗱𝗲𝘁𝗮𝗹𝗹𝗲 𝘁é𝗰𝗻𝗶𝗰𝗼 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘁𝗶𝗲𝗺𝗽𝗼 𝗱𝗲 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗼 𝗿𝗲𝗰𝘂𝗽𝗲𝗿𝗮𝗱𝗼. Si mantienes una toolchain interna o una CI pesada, es de esas actualizaciones que conviene probar sin dudar.\n\n#Mold #Linux #OpenSource\n\nhttps://github.com/rui314/mold/releases/tag/v3.0.0"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "herramientas",
+      "title": "Gleam deja de compilar a código fuente de Erlang",
+      "summary": "Gleam ha publicado la versión 1.19.0, en la que el generador de código Erlang se ha reescrito por completo. Ahora el compilador produce Erlang abstract forms, la representación intermedia que usa el propio compilador de Erlang, en lugar de código fuente. El cambio busca un resultado más fiable y con mejores metadatos.",
+      "why_it_matters": "Es un cambio de arquitectura que puede mejorar la calidad del código generado para la máquina virtual de Erlang.",
+      "url": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore",
+      "source": "Lobsters",
+      "social": {
+        "x": "Gleam ha dejado de escribir código fuente de Erlang. Ahora le pasa al compilador sus abstract forms directamente, y eso cambia la fiabilidad del resultado.\n\n#Gleam #Erlang #BEAM #OpenSource\nhttps://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore",
+        "linkedin": "Gleam ya no escribe Erlang: ahora le entrega al compilador la misma representación intermedia que este usa por dentro.\n\nCon la 1.19.0 el generador de código Erlang se ha reescrito por completo y produce Erlang abstract forms en lugar de texto que después hay que volver a parsear. 𝗖𝗮𝗱𝗮 𝗰𝗮𝗽𝗮 𝗱𝗲 𝘁𝗿𝗮𝗱𝘂𝗰𝗰𝗶ó𝗻 𝗾𝘂𝗲 𝗱𝗲𝘀𝗮𝗽𝗮𝗿𝗲𝗰𝗲 𝗲𝘀 𝘂𝗻𝗮 𝗳𝘂𝗲𝗻𝘁𝗲 𝗺𝗲𝗻𝗼𝘀 𝗱𝗲 𝗲𝗿𝗿𝗼𝗿𝗲𝘀 𝘆 𝗺𝗲𝗷𝗼𝗿𝗲𝘀 𝗺𝗲𝘁𝗮𝗱𝗮𝘁𝗼𝘀, algo que se nota en el código que acaba corriendo sobre la BEAM. Si mantienes librerías, haces debug del Erlang generado o dependes de herramientas que lo inspeccionan, este cambio de arquitectura te afecta más de lo que parece.\n\n#Gleam #Erlang #BEAM #OpenSource\n\nhttps://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "herramientas",
+      "title": "Llevan el Doom original a SQL",
+      "summary": "El equipo de CedarDB ha portado el Doom original para que se ejecute dentro de SQL. El experimento demuestra hasta qué punto se puede estrujar un motor de base de datos como plataforma de cómputo. Es un ejercicio de ingeniería tan absurdo como instructivo.",
+      "why_it_matters": "Un ejemplo extremo de hasta dónde se puede llevar un motor de base de datos cuando se usa como runtime.",
+      "url": "https://cedardb.com/blog/sqldoom",
+      "source": "Lobsters",
+      "social": {
+        "x": "Doom ya se ejecuta dentro de SQL. Lo interesante no es el juego, sino hasta dónde aguanta un motor de base de datos cuando lo usas como runtime.\n\n#SQL #CedarDB #Doom #BasesDeDatos\nhttps://cedardb.com/blog/sqldoom",
+        "linkedin": "El Doom original ya corre dentro de SQL, y lo jugoso no es el juego sino lo que revela del motor que hay debajo.\n\nEl equipo de CedarDB ha portado el Doom original para que se ejecute dentro de su base de datos. Es un ejercicio tan absurdo como instructivo, porque lleva al límite una idea que muchos equipos dan por sentada: 𝘂𝗻 𝗺𝗼𝘁𝗼𝗿 𝗱𝗲 𝗯𝗮𝘀𝗲 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀 𝗽𝘂𝗲𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗿𝘂𝗻𝘁𝗶𝗺𝗲 𝗱𝗲 𝗽𝗿𝗼𝗽ó𝘀𝗶𝘁𝗼 𝗴𝗲𝗻𝗲𝗿𝗮𝗹, no solo un sitio donde guardar filas.\n\nPara quien diseña motores, esto es una prueba de estrés sobre el planificador, el almacenamiento y el modelo de ejecución. Para quien decide dónde vive la lógica de negocio, es un recordatorio incómodo de que la frontera entre base de datos y plataforma de cómputo es más difusa de lo que parece.\n\n#SQL #CedarDB #Doom #BasesDeDatos\n\nhttps://cedardb.com/blog/sqldoom"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Noruega abre la primera gran ofensiva regulatoria contra las gafas con IA",
+      "summary": "Noruega quiere tiempo para redactar una normativa permanente sobre las gafas con IA capaces de grabar a quien está delante. Es el primer movimiento serio de un gobierno contra este tipo de dispositivos. La medida responde a las dudas sobre la privacidad de las personas grabadas sin saberlo.",
+      "why_it_matters": "Marca el inicio de la regulación sobre dispositivos que graban de forma discreta y continua.",
+      "url": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Noruega es el primer país que mueve ficha contra las gafas con IA. El motivo: graban a quien tienes delante sin que lo sepa.\n\n#Noruega #MetaRayBan #Privacidad #Wearables\nhttps://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown",
+        "linkedin": "Noruega se convierte en el primer gobierno que mueve ficha contra las gafas con IA.\n\nDe momento no prohíbe nada: pide tiempo para redactar una normativa permanente. Y ahí está lo interesante, porque el problema de fondo no es la cámara, es que la persona grabada no tiene forma de saber que lo está siendo. 𝗖𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗱𝗶𝘀𝗽𝗼𝘀𝗶𝘁𝗶𝘃𝗼 𝗾𝘂𝗲 𝗴𝗿𝗮𝗯𝗮 𝗱𝗲 𝗳𝗼𝗿𝗺𝗮 𝗰𝗼𝗻𝘁𝗶𝗻𝘂𝗮 𝘆 𝗱𝗶𝘀𝗰𝗿𝗲𝘁𝗮 𝗵𝗮𝗰𝗲 𝗶𝗺𝗽𝗼𝘀𝗶𝗯𝗹𝗲 𝗲𝗷𝗲𝗿𝗰𝗲𝗿 𝗲𝗹 𝗰𝗼𝗻𝘀𝗲𝗻𝘁𝗶𝗺𝗶𝗲𝗻𝘁𝗼, y eso afecta a todo el que acaba en el encuadre, no solo a quien lleva las gafas puestas. Para quien desarrolla hardware con IA, la pregunta ya no es si habrá regulación, sino cuánto tarda en aterrizar en su mercado.\n\n#Noruega #MetaRayBan #Privacidad #Wearables\n\nhttps://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Investigan un enjambre de agentes de IA chino que apunta a un servicio de mapas",
+      "summary": "Un grupo de investigadores independientes ha detectado un enjambre de agentes que al parecer corre sobre la infraestructura de Tencent y apunta al servicio de mapas Amap, de Alibaba. El hallazgo muestra agentes autónomos usados para atacar a gran escala. Es un ejemplo temprano de conflicto entre flotas de agentes.",
+      "why_it_matters": "Anticipa un escenario en el que los agentes de IA se enfrentan entre sí de forma automatizada.",
+      "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Han detectado un enjambre de agentes de IA atacando a escala el servicio de mapas de Alibaba. Es el primer indicio de flotas de agentes que se enfrentan entre sí.\n\n#Ciberseguridad #Tencent #Alibaba #AIAgents\nhttps://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet",
+        "linkedin": "Un enjambre de agentes de IA ha estado atacando a escala el servicio de mapas de Alibaba, y todo apunta a que corre sobre infraestructura de Tencent.\n\nEl hallazgo lo firma un equipo de investigadores independientes y anticipa algo más incómodo que un ataque puntual: 𝗹𝗮 𝗽𝗿ó𝘅𝗶𝗺𝗮 𝗰𝗮𝗽𝗮 𝗱𝗲 𝗹𝗮 𝗰𝗶𝗯𝗲𝗿𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝘀𝗲 𝗷𝘂𝗴𝗮𝗿á 𝗲𝗻𝘁𝗿𝗲 𝗺á𝗾𝘂𝗶𝗻𝗮𝘀, 𝗻𝗼 𝗰𝗼𝗻𝘁𝗿𝗮 𝗵𝘂𝗺𝗮𝗻𝗼𝘀. Si unos agentes pueden coordinarse para atacar, los equipos de seguridad van a necesitar defensas que también decidan solas.\n\n#Ciberseguridad #Tencent #Alibaba #AIAgents\n\nhttps://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Google congela su bug bounty de open source por la avalancha de informes generados con IA",
+      "summary": "Google ha suspendido temporalmente su programa de recompensas por errores en open source tras un aumento significativo de envíos generados con IA. La compañía atribuye la pausa a la dificultad de gestionar informes de baja calidad. Es un efecto secundario visible del uso masivo de asistentes de IA para buscar vulnerabilidades.",
+      "why_it_matters": "Muestra cómo el aluvión de informes generados por IA puede degradar procesos que dependen de la revisión humana.",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Google congela su bug bounty de open source: la avalancha de informes escritos con IA hace imposible separar el hallazgo real del ruido.\n\n#OpenSource #Google #BugBounty #Ciberseguridad\nhttps://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions",
+        "linkedin": "El primer proceso que la IA ha roto en open source no ha sido el código, sino la revisión.\n\nGoogle ha pausado temporalmente su programa de recompensas por errores porque la mayoría de los informes que recibe ahora los genera una IA. El volumen se puede discutir; el problema es la calidad: cribar cientos de reportes plausibles pero vacíos cuesta el mismo tiempo que analizar un fallo de verdad. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗻𝗰𝗼𝗻𝘁𝗿𝗮𝗿 𝘃𝘂𝗹𝗻𝗲𝗿𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗿 𝗾𝘂𝗶é𝗻 𝗹𝗮𝘀 𝗿𝗲𝗽𝗼𝗿𝘁𝗮.\n\nEl trabajo de mantenimiento, que ya era escaso y en buena parte voluntario, ahora incluye filtrar ruido producido a coste casi cero. Cualquier proyecto abierto a contribuciones externas va a necesitar reputación verificable o señales de calidad, porque la barrera para enviar un informe ha desaparecido. Y sin eso, los programas que dependen de revisión humana se apagan solos.\n\n#OpenSource #Google #BugBounty #Ciberseguridad\n\nhttps://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "Una colección de agentes de IA especializados, cada uno con su propio rol, personalidad y flujo de trabajo, pensada para montar tu propia 'agencia' de asistentes. Muy útil para ver cómo se estructuran prompts y procesos de agentes orientados a entregar resultados concretos.",
+      "language": "Shell",
+      "stars": 157142,
+      "social": {
+        "x": "157k estrellas y ni una suscripción: este repo te monta una agencia entera de agentes de IA, cada uno con su rol, su personalidad y su flujo de trabajo.\n\n#AIAgents #OpenSource #GitHub #Prompts\nhttps://github.com/msitarzewski/agency-agents",
+        "linkedin": "MONTA UNA AGENCIA ENTERA DE AGENTES DE IA SIN PAGAR PLATAFORMA NINGUNA.\n\nCasi todo lo que hoy se vende como «plataforma de agentes» es una capa bonita sobre lo mismo: un rol, unas instrucciones y un flujo de trabajo. Este repo te da esa capa en abierto, con 157k estrellas detrás y todo escrito en Shell.\n\nLo interesante no es la cantidad de agentes, sino que 𝗰𝗮𝗱𝗮 𝘂𝗻𝗼 𝗲𝘀 𝘂𝗻 𝗲𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘀𝘁𝗮 𝗰𝗼𝗻 𝘀𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 𝗿𝗼𝗹, 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱 𝘆 𝗳𝗹𝘂𝗷𝗼 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼.\n\n→ Perfiles definidos: quién es el agente, cómo habla y qué decide.\n→ Prompts estructurados y fáciles de adaptar a tu caso concreto.\n→ Procesos orientados a entregables, no a conversación infinita.\n→ Todo en Shell: lo clonas, lo lees y lo modificas en minutos.\n→ Te vale como plantilla aunque acabes escribiendo tus propios agentes desde cero.\n\nSi estás montando un sistema de agentes para tu equipo, esto es material de referencia antes de pagar una cuota mensual.\n\nGuarda el post para cuando te toque diseñar los tuyos. Te dejo el repo abajo.\n\n#AIAgents #OpenSource #GitHub #Prompts\n\nhttps://github.com/msitarzewski/agency-agents"
+      }
+    },
+    {
+      "name": "tester-army/e2e",
+      "url": "https://github.com/tester-army/e2e",
+      "description": "Framework de testing end-to-end para aplicaciones web y móviles, planteado como alternativa moderna a las herramientas de siempre. Promete una configuración más sencilla para automatizar las pruebas de tu producto.",
+      "language": "TypeScript",
+      "stars": 4443,
+      "social": {
+        "x": "Montar tests end-to-end para web y móvil pide media tarde de configuración. Este repo promete lo contrario y ya suma 4.443 estrellas.\n\n#Testing #TypeScript #OpenSource #GitHub\nhttps://github.com/tester-army/e2e",
+        "linkedin": "LAS PRUEBAS END-TO-END NO DEBERÍAN COSTARNOS UNA TARDE DE CONFIGURACIÓN.\n\nAutomatizar los tests de un producto suele empezar igual: instalas el framework, peleas con el entorno, con los selectores y con los dispositivos, y cuando por fin corre algo ya has perdido el día. La parte que debería ahorrarte tiempo acaba siendo otro proyecto dentro del proyecto.\n\nAquí es donde entra e2e, un framework de testing end-to-end escrito en TypeScript que se plantea como 𝘂𝗻𝗮 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶ó𝗻 𝗺𝘂𝗰𝗵𝗼 𝗺á𝘀 𝘀𝗲𝗻𝗰𝗶𝗹𝗹𝗮 que la de las herramientas de siempre.\n\n→ Sirve tanto para aplicaciones web como para móviles.\n→ Está escrito en TypeScript, así que encaja sin fricción en stacks modernos.\n→ Su propuesta es recortar el trabajo de puesta en marcha, no añadir otra capa.\n→ 4.443 estrellas en GitHub, sin cuota ni paywall de por medio.\n\nSi tu equipo ha aparcado los tests end-to-end porque montarlos costaba más que el bug que iban a cazar, este repo merece una prueba.\n\nGuarda el post y échale un ojo con calma: te dejo el enlace al repositorio abajo.\n\n#Testing #TypeScript #OpenSource #GitHub\n\nhttps://github.com/tester-army/e2e"
+      }
+    },
+    {
+      "name": "DuarteSantos8/openGym",
+      "url": "https://github.com/DuarteSantos8/openGym",
+      "description": "Gestor de entrenamiento self-hosted para gimnasio y peso corporal: planifica rutinas, registra series, supersets, calentamientos y cardio, y consulta qué músculos tienes entrenados, fatigados o desentrenados. Permite importar datos de FitNotes, Strong o Hevy y guarda todo en tu propio servidor.",
+      "language": "JavaScript",
+      "stars": 3976,
+      "social": {
+        "x": "Strong y Hevy te cobran suscripción. Este repo no: gestor de entrenamiento self-hosted con rutinas, supersets, cardio y mapa de músculos fatigados.\n\n#openGym #SelfHosted #OpenSource #JavaScript\nhttps://github.com/DuarteSantos8/openGym",
+        "linkedin": "STRONG Y HEVY TE COBRAN SUSCRIPCIÓN. ESTE REPO NO.\n\nLlevar el registro de tus entrenamientos implica pagar cada mes y dejar tus datos en la nube de otro. openGym va justo en la dirección contraria: un gestor de entrenamiento self-hosted donde todo vive en tu propio servidor y el plan lo decides tú. Casi 4.000 estrellas después, la comunidad lo tiene claro.\n\n𝗡𝗼 𝗵𝗮𝘆 𝗰𝘂𝗼𝘁𝗮 𝗺𝗲𝗻𝘀𝘂𝗮𝗹, 𝗵𝗮𝘆 𝗰𝗼𝗻𝘁𝗿𝗼𝗹: 𝘁𝘂 𝗽𝗿𝗼𝗴𝗿𝗲𝘀𝗶ó𝗻 𝘀𝗲 𝗾𝘂𝗲𝗱𝗮 𝗲𝗻 𝘁𝘂 𝗯𝗮𝘀𝗲 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀.\n\n→ Planifica rutinas por días con series, supersets, calentamientos y bloques de cardio.\n→ Registra cada serie con su peso y sus repeticiones, y consulta el histórico sin hojas de cálculo.\n→ Ve de un vistazo qué músculos tienes entrenados, fatigados o desentrenados antes de reventar la sesión.\n→ Importa tus datos desde FitNotes, Strong o Hevy y no pierdas años de progreso acumulado.\n→ JavaScript, self-hosted y sin dependencias de ninguna nube ajena.\n\nGuarda este post si llevas el gimnasio en serio: la próxima vez que dudes entre espalda o pierna, vas a querer tenerlo a mano. Te dejo el repo abajo.\n\n#openGym #SelfHosted #OpenSource #JavaScript\n\nhttps://github.com/DuarteSantos8/openGym"
+      }
+    },
+    {
+      "name": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "description": "Herramienta que automatiza el portado de ejecutables de PS5 a Linux y Windows. Interesante si sigues de cerca la escena del homebrew y la emulación en consolas.",
+      "language": "C++",
+      "stars": 4781,
+      "social": {
+        "x": "🎮 Portar un ejecutable de PS5 a Linux o Windows era trabajo manual. Este repo en C++ lo automatiza y ya suma 4.781 estrellas.\n\n#AnyPS5 #PS5 #Homebrew #OpenSource\nhttps://github.com/boykopovar/AnyPS5",
+        "linkedin": "PORTAR UN EJECUTABLE DE PS5 A PC YA NO ES UN TRABAJO MANUAL.\n\nHasta ahora, mover un ejecutable de PS5 a Linux o Windows era un proceso artesanal: tocar binarios, ajustar dependencias y repetir el mismo trabajo en cada versión. AnyPS5 se encarga de esa parte por ti, y lo hace desde un único repositorio en C++.\n\nNo es un emulador más. Es maquinaria para la parte aburrida del portado, la que hacía que muchos proyectos de homebrew se quedaran a medias.\n\n→ Automatiza la conversión de ejecutables de PS5 a builds para Linux y Windows\n→ Escrito en C++, con el código abierto y listo para leer\n→ Pensado para quien sigue de cerca la escena del homebrew y la emulación en consolas\n→ 4.781 estrellas en GitHub, sin paywall ni cuenta de por medio\n\nLo importante aquí es 𝗹𝗮 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝗽𝗼𝗿𝘁𝗮𝗱𝗼: lo que antes era horas de trabajo manual, ahora es un paso más del flujo.\n\nSi trasteas con homebrew o sigues la escena de la emulación, guárdatelo. Es de esos repos que conviene tener localizados antes de que salga la próxima idea rara que quieras probar.\n\nTe dejo el repositorio abajo.\n\n#AnyPS5 #PS5 #Homebrew #OpenSource\n\nhttps://github.com/boykopovar/AnyPS5"
+      }
+    },
+    {
+      "name": "Stremio/stremio-web",
+      "url": "https://github.com/Stremio/stremio-web",
+      "description": "Cliente web de Stremio, el reproductor que reúne catálogos, addons y streaming en una sola interfaz. Cómodo si ya usas Stremio y quieres entrar desde el navegador sin instalar nada.",
+      "language": "JavaScript",
+      "stars": 14227,
+      "social": {
+        "x": "Stremio ya no necesita instalarse: su cliente web abre catálogos, addons y streaming en una pestaña. 14k estrellas y open source.\n\n#Stremio #JavaScript #OpenSource #GitHub\nhttps://github.com/Stremio/stremio-web",
+        "linkedin": "STREMIO AHORA SE ABRE EN UNA PESTAÑA Y NO HAY QUE INSTALAR NADA\n\nStremio lleva años siendo ese reproductor que junta catálogos, addons y streaming bajo una sola interfaz. El problema era el de siempre: para usarlo tenías que pasar por la app de escritorio o por el móvil, equipo por equipo.\n\nSu cliente web elimina ese paso. 𝗔𝗯𝗿𝗲𝘀 𝘂𝗻𝗮 𝗽𝗲𝘀𝘁𝗮ñ𝗮 𝘆 𝘁𝗶𝗲𝗻𝗲𝘀 𝗲𝘅𝗮𝗰𝘁𝗮𝗺𝗲𝗻𝘁𝗲 𝗹𝗼 𝗺𝗶𝘀𝗺𝗼, sin descargas, sin instaladores y sin configurar nada de cero.\n\n→ Reúne catálogos, addons y streaming en una única interfaz.\n→ Corre en el navegador, así que vale en cualquier equipo donde tengas sesión.\n→ Tu cuenta y tus addons siguen ahí: la experiencia es la misma de la app.\n→ JavaScript, open source y ya suma 14.227 estrellas en GitHub.\n\nSi ya usas Stremio a diario, esto te quita el engorro de instalarlo cada vez que cambias de máquina. Y si nunca lo has probado, es la forma más rápida de ver de qué va sin comprometerte.\n\nTe dejo el repo abajo. Guárdalo para la próxima vez que te sientes delante de un ordenador que no es el tuyo.\n\n#Stremio #JavaScript #OpenSource #GitHub\n\nhttps://github.com/Stremio/stremio-web"
+      }
+    }
+  ]
+}
