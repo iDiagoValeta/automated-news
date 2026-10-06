@@ -1,0 +1,311 @@
+{
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T16:47:49.642Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Mistral Large 4, el modelo multimodal abierto de un billón de parámetros",
+      "summary": "Mistral ha puesto en public preview Mistral Large 4, un modelo multimodal nativo de 1 billón de parámetros con arquitectura Mixture-of-Experts y 49.000 millones de parámetros activos, más un codificador de visión de 1.600 millones. Ya se puede probar desde la API de Mistral Studio y los pesos se publicarán a finales de mes.",
+      "why_it_matters": "Es el mayor modelo abierto europeo hasta la fecha, se puede usar hoy mismo vía API y los pesos llegan en semanas.",
+      "url": "https://mistral.ai/news/mistral-large-4",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un billón de parámetros multimodales, en abierto y desde Europa. Mistral ya lo deja probar en su API; los pesos llegan a finales de mes.\n\n#Mistral #OpenSource #MoE\nhttps://mistral.ai/news/mistral-large-4",
+        "linkedin": "Un billón de parámetros multimodales, y esta vez el catálogo no viene de California.\n\nMistral Large 4 ya se puede probar en public preview desde la API de Mistral Studio: arquitectura Mixture-of-Experts con 49.000 millones de parámetros activos, codificador de visión propio y 𝗹𝗼𝘀 𝗽𝗲𝘀𝗼𝘀 𝗽𝘂𝗯𝗹𝗶𝗰𝗮𝗱𝗼𝘀 𝗮 𝗳𝗶𝗻𝗮𝗹𝗲𝘀 𝗱𝗲 𝗺𝗲𝘀. Para quien despliega en self-hosted, ese calendario es lo que de verdad importa, porque primero se valida el modelo por API y solo después se decide si compensa mover la inferencia a tu propia infraestructura. Y hay una lectura de fondo: el mayor modelo abierto europeo sigue el guion de enseñarlo en preview antes de liberarlo, pero confirma que la escala ya no es un coto privado de los laboratorios cerrados.\n\n#Mistral #OpenSource #MoE\n\nhttps://mistral.ai/news/mistral-large-4"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Beam, el primer modelo abierto de Reflection con 501.000 millones de parámetros",
+      "summary": "Reflection ha presentado Beam, un modelo Mixture-of-Experts de 501.000 millones de parámetros totales y 23.000 millones activos, pensado para coding, razonamiento y trabajo agéntico. La compañía apuesta por la eficiencia frente a los modelos abiertos chinos, con tres o cuatro veces menos cómputo para competir con GLM 5.2.",
+      "why_it_matters": "Refuerza la oferta de modelos abiertos fuera de China y está orientado a tareas de código y agentes que se pueden usar ya.",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "source": "Hacker News",
+      "social": {
+        "x": "501.000 millones de parámetros, pero solo 23.000 activos. Beam es el primer modelo abierto de Reflection y apunta donde duele: coding y agentes.\n\n#Reflection #OpenSource #MoE\nhttps://reflection.ai/blog/introducing-beam",
+        "linkedin": "Reflection acaba de mover ficha con Beam: 501.000 millones de parámetros totales, 23.000 activos y pesos abiertos.\nEs un Mixture-of-Experts pensado para coding, razonamiento y trabajo agéntico, y la compañía lo presenta con un argumento incómodo para los laboratorios chinos: 𝘁𝗿𝗲𝘀 𝗼 𝗰𝘂𝗮𝘁𝗿𝗼 𝘃𝗲𝗰𝗲𝘀 𝗺𝗲𝗻𝗼𝘀 𝗰ó𝗺𝗽𝘂𝘁𝗼 𝗽𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝗿 𝗰𝗼𝗻 𝗚𝗟𝗠 𝟱.𝟮. Para los equipos que construyen agentes, la señal es que la eficiencia empieza a pesar más que el tamaño bruto del modelo, y tener una alternativa abierta fuera de China ya no es un deseo, es una opción real de despliegue.\n\n#Reflection #OpenSource #MoE\n\nhttps://reflection.ai/blog/introducing-beam"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "GLM 5.3 llega a Amazon Bedrock para coding y tareas agénticas",
+      "summary": "Amazon ha incorporado GLM 5.3 de Z.ai a Bedrock, un modelo Mixture-of-Experts de 753.000 millones de parámetros orientado a código y flujos agénticos de largo alcance. Se puede invocar con APIs compatibles con OpenAI, usar prompt caching para reducir coste y latencia, y probar con el agente open source Strix.",
+      "why_it_matters": "Pone otro modelo puntero de código al alcance de cualquiera que ya use Bedrock, sin gestionar infraestructura.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "753.000 millones de parámetros para código, disponibles en Bedrock sin montar nada. GLM 5.3 se invoca con la API que ya usas.\n\n#GLM #AmazonBedrock #Zai #OpenSource\nhttps://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock",
+        "linkedin": "Bedrock acaba de sumar un modelo de código de 753.000 millones de parámetros que no viene ni de Anthropic ni de OpenAI.\n\nGLM 5.3, de Z.ai, entra en el catálogo de Amazon con API compatible con OpenAI, prompt caching para recortar coste y latencia, y margen para flujos agénticos de largo alcance. 𝗟𝗮 𝗷𝘂𝗴𝗮𝗱𝗮 𝗶𝗻𝘁𝗲𝗿𝗲𝘀𝗮𝗻𝘁𝗲 𝗲𝘀 𝗹𝗮 𝗱𝗲 𝗔𝗺𝗮𝘇𝗼𝗻: cuanto más ancho es el catálogo, menos depende Bedrock de un solo proveedor. Para un equipo que ya tiene su stack ahí, probar un modelo puntero de coding es cambiar un identificador, no rehacer la infraestructura.\n\n#GLM #AmazonBedrock #Zai #OpenSource\n\nhttps://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "investigacion",
+      "title": "Agentes con Opus 5.5 descubren dos candidatos de semiconductores magnéticos",
+      "summary": "Un equipo de agentes basados en Claude Opus 5.5 ha identificado dos candidatos de imanes para memoria de próxima generación, con magnetismo neto cero pero capaces de ordenar electrones por espín. Los autores han publicado los cálculos, el código y la lista de materiales.",
+      "why_it_matters": "Muestra agentes de IA haciendo investigación científica real y reproducible en ciencia de materiales.",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "source": "Hacker News",
+      "social": {
+        "x": "🧲 Dos candidatos de imanes para la próxima generación de memoria no los ha encontrado un laboratorio humano, sino agentes de Claude Opus 5.5. El método y los datos son públicos.\n\n#Anthropic #Claude #OpenSource #Materiales\nhttps://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+        "linkedin": "La investigación de materiales acaba de cambiar de manos: dos candidatos para memoria de nueva generación los han encontrado agentes de IA, no un equipo humano.\n\nEl trabajo se hizo con Claude Opus 5.5 y los autores han publicado los cálculos, el código y la lista de materiales, así que cualquier grupo puede repetirlo y verificarlo. 𝗟𝗼 𝗿𝗲𝗹𝗲𝘃𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗵𝗮𝗹𝗹𝗮𝘇𝗴𝗼, 𝘀𝗶𝗻𝗼 𝗾𝘂𝗲 𝗲𝗹 𝗽𝗿𝗼𝗰𝗲𝘀𝗼 𝘀𝗲𝗮 𝗮𝘂𝗱𝗶𝘁𝗮𝗯𝗹𝗲 𝘆 𝗿𝗲𝗽𝗿𝗼𝗱𝘂𝗰𝗶𝗯𝗹𝗲, porque ahí es donde los agentes dejan de ser una demo y pasan a ser una herramienta de laboratorio más. Para quien investiga en ciencia de materiales, el cuello de botella se mueve: generar hipótesis será barato y lo caro será comprobarlas.\n\n#Anthropic #Claude #OpenSource #Materiales\n\nhttps://www.vals.ai/blogs/room-temperature-magnetic-semiconductors"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Cohere North 2 convierte su plataforma en centro de control de agentes",
+      "summary": "Cohere ha rediseñado North 2 como centro de control para agentes de IA empresariales, capaz de ejecutar flujos de varios pasos por su cuenta y de mantener contexto entre sesiones. La plataforma funciona con cualquier modelo, no solo con los propios.",
+      "why_it_matters": "Ofrece a las empresas una capa agnóstica para orquestar agentes sin atarse a un único proveedor de modelos.",
+      "url": "https://the-decoder.com/cohere-pitches-north-2-as-the-enterprise-ai-control-room-that-works-with-any-model",
+      "source": "The Decoder",
+      "social": {
+        "x": "Tu capa de orquestación ya no tiene por qué venir del mismo sitio que tu modelo. Cohere North 2 coordina agentes con cualquier proveedor, no solo con los suyos.\n\n#Cohere #North2 #AgentesIA\nhttps://the-decoder.com/cohere-pitches-north-2-as-the-enterprise-ai-control-room-that-works-with-any-model",
+        "linkedin": "Durante dos años la pregunta era qué modelo elegir. North 2 la cambia por otra: quién coordina a los agentes.\n\nCohere ha rediseñado su plataforma para ejecutar flujos de varios pasos, mantener contexto entre sesiones y hacerlo con modelos de cualquier proveedor, no solo con los suyos. Para una empresa que ya tiene dos o tres LLM en producción, eso convierte 𝗹𝗮 𝗼𝗿𝗾𝘂𝗲𝘀𝘁𝗮𝗰𝗶ó𝗻 𝗲𝗻 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗿𝗲𝘃𝗲𝗿𝘀𝗶𝗯𝗹𝗲 en lugar de una apuesta a cinco años. Quien controle la capa de agentes controla la relación con el proveedor, y ahí es donde se va a jugar la negociación.\n\n#Cohere #North2 #AgentesIA\n\nhttps://the-decoder.com/cohere-pitches-north-2-as-the-enterprise-ai-control-room-that-works-with-any-model"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Rho-1 de Reka AI unifica texto, imagen, vídeo y control de robots",
+      "summary": "Reka AI ha presentado Rho-1, un modelo ómnibus de 19.000 millones de parámetros que procesa y genera texto, imágenes, vídeo y acciones de control robótico en una sola red neuronal. Se entrenó con 320 GPU H100 en unos tres meses, muy por debajo del cómputo habitual en modelos punteros.",
+      "why_it_matters": "Demuestra que un único modelo puede cubrir varias modalidades y control robótico con mucho menos cómputo.",
+      "url": "https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model",
+      "source": "The Decoder",
+      "social": {
+        "x": "Un único modelo hace texto, imagen, vídeo y control de robots. Reka AI lo entrenó con 320 GPU H100 en tres meses.\n\n#RekaAI #Multimodal #Robotics\nhttps://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model",
+        "linkedin": "La especialización por modalidad empieza a parecer un lujo caro.\n\nRho-1, de Reka AI, maneja texto, imagen, vídeo y control robótico en 𝘂𝗻𝗮 𝘀𝗼𝗹𝗮 𝗿𝗲𝗱 𝗱𝗲 𝟭𝟵.𝟬𝟬𝟬 𝗺𝗶𝗹𝗹𝗼𝗻𝗲𝘀 𝗱𝗲 𝗽𝗮𝗿á𝗺𝗲𝘁𝗿𝗼𝘀, entrenada con 320 GPU H100 en unos tres meses. Es bastante menos cómputo del que suelen exigir los modelos punteros. Si esa eficiencia se sostiene, el cuello de botella deja de ser el clúster y pasa a ser saber qué datos mezclar y en qué proporción. Para quien construye producto, la pregunta ya no es qué modalidad cubrir, sino cuántos modelos separados puede dejar de mantener.\n\n#RekaAI #Multimodal #Robotics\n\nhttps://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "industria",
+      "title": "Anthropic regala un año de Claude Team y 1.000 dólares en créditos a startups",
+      "summary": "Anthropic ha lanzado un programa que da a las startups un año gratis de su servicio enterprise Claude Team y 1.000 dólares en créditos de tokens. La compañía sostiene que los beneficios de la IA llegarán a la mayoría a través de las empresas que construyen sobre los modelos.",
+      "why_it_matters": "Baja la barrera para que equipos pequeños adopten herramientas de IA en producción sin coste inicial.",
+      "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Anthropic regala un año de Claude Team y 1.000 dólares en créditos a cualquier startup. Su tesis: la IA llegará a la mayoría a través de las empresas, no de los usuarios.\n\n#Anthropic #Claude #Startups\nhttps://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits",
+        "linkedin": "Anthropic acaba de quitar la excusa del coste para meter IA en producción.\n\nUn año gratis de Claude Team más 1.000 dólares en créditos de tokens para startups: 𝗲𝗹 𝗽𝗿𝗲𝗰𝗶𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗺𝗼𝘁𝗶𝘃𝗼 𝗽𝗮𝗿𝗮 𝗻𝗼 𝗮𝗱𝗼𝗽𝘁𝗮𝗿 𝗜𝗔 𝗲𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻. Para un equipo pequeño que llevaba meses aplazando la prueba por presupuesto, el argumento se cae solo. Y hay una segunda lectura: Anthropic no regala nada por generosidad, apuesta a que los beneficios de la IA llegarán a la mayoría a través de las empresas que construyen sobre sus modelos. Si construyes encima, ganas; si solo consumes, dependes de quien lo haga.\n\n#Anthropic #Claude #Startups\n\nhttps://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "industria",
+      "title": "LibreOffice convierte el «sin IA» en una característica más",
+      "summary": "El responsable del editor de documentos open source ha confirmado que no piensa añadir IA a la configuración por defecto, alegando privacidad de los usuarios. La decisión se presenta como un rasgo diferencial frente a las suites que integran asistentes de forma predeterminada.",
+      "why_it_matters": "Es un contrapunto claro a la integración forzada de IA y una razón más para elegir software de oficina libre.",
+      "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Mientras medio sector mete IA hasta en el bloc de notas, LibreOffice dice que no: sin asistente por defecto. Y lo presenta como ventaja.\n\n#LibreOffice #OpenSource #DocumentFoundation\nhttps://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature",
+        "linkedin": "En un sector que compite por ver quién integra antes un asistente, LibreOffice ha decidido que su mejor característica es la que no tiene.\n\nEl responsable del editor ha confirmado que no añadirá IA en la configuración por defecto, y lo justifica por la privacidad de quien lo usa. 𝗣𝗮𝗿𝗮 𝘂𝗻𝗮 𝗮𝗱𝗺𝗶𝗻𝗶𝘀𝘁𝗿𝗮𝗰𝗶ó𝗻 𝗽ú𝗯𝗹𝗶𝗰𝗮 𝗼 𝘂𝗻𝗮 𝗲𝗺𝗽𝗿𝗲𝘀𝗮 𝗰𝗼𝗻 𝗱𝗮𝘁𝗼𝘀 𝘀𝗲𝗻𝘀𝗶𝗯𝗹𝗲𝘀, 𝗲𝘀𝘁𝗼 𝗻𝗼 𝗲𝘀 𝗻𝗼𝘀𝘁𝗮𝗹𝗴𝗶𝗮: 𝗲𝘀 𝘂𝗻 𝗿𝗲𝗾𝘂𝗶𝘀𝗶𝘁𝗼. El coste es real, porque renuncia a la función que hoy vende el resto del mercado, pero abre un hueco que ninguna suite propietaria puede ocupar sin cambiar su modelo de negocio.\n\n#LibreOffice #OpenSource #DocumentFoundation\n\nhttps://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Cloudflare estrena cf, una CLI pensada para agentes de IA",
+      "summary": "Cloudflare ha abierto la beta de cf, una interfaz de línea de comandos open source y orientada a agentes que unifica el acceso a sus servicios. Está escrita en TypeScript y ofrece salida estructurada y descubrimiento de comandos para facilitar su uso tanto a desarrolladores como a agentes.",
+      "why_it_matters": "Simplifica que herramientas y agentes automaticen tareas en Cloudflare desde una única CLI.",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-cf-cli",
+      "source": "InfoQ",
+      "social": {
+        "x": "¿Y si el usuario principal de tu CLI fuera un agente de IA? Cloudflare ya lo asume: su nueva cf es open source, en TypeScript y con salida estructurada.\n\n#Cloudflare #OpenSource #TypeScript #DevTools\nhttps://www.infoq.com/news/2026/10/cloudflare-cf-cli",
+        "linkedin": "Cloudflare acaba de abrir la beta de cf, una CLI pensada para agentes de IA antes que para humanos.\n\nNo es solo una herramienta nueva: unifica el acceso a todos sus servicios, está escrita en TypeScript y expone salida estructurada y descubrimiento de comandos, justo lo que necesita un agente para encadenar tareas sin adivinar qué opciones tiene delante. 𝗘𝗹 𝗱𝗲𝘁𝗮𝗹𝗹𝗲 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗖𝗟𝗜, 𝗲𝘀 𝗲𝗹 𝗰𝗮𝗺𝗯𝗶𝗼 𝗱𝗲 𝘀𝘂𝗽𝘂𝗲𝘀𝘁𝗼: 𝘀𝗲 𝗱𝗶𝘀𝗲ñ𝗮 𝗹𝗮 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝘇 𝗽𝗲𝗻𝘀𝗮𝗻𝗱𝗼 𝗲𝗻 𝗾𝘂𝗲 𝗹𝗮 𝗰𝗼𝗻𝘀𝘂𝗺𝗮 𝘂𝗻𝗮 𝗺á𝗾𝘂𝗶𝗻𝗮. Si tu equipo mantiene scripts propios contra la API de Cloudflare, toca revisar si cf los sustituye.\n\n#Cloudflare #OpenSource #TypeScript #DevTools\n\nhttps://www.infoq.com/news/2026/10/cloudflare-cf-cli"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "Una vulnerabilidad en MCP permite propagar prompts maliciosos entre agentes",
+      "summary": "Investigadores han descrito un fallo estructural en el protocolo MCP: la falta de confianza entre agentes permite que un prompt malicioso salte de uno a otro. Afecta a agentes de varios proveedores, incluido Google.",
+      "why_it_matters": "Avisa de un riesgo de seguridad concreto para quien despliegue sistemas multiagente sobre MCP.",
+      "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Un prompt malicioso puede saltar de un agente a otro en MCP. El fallo no es de una implementación concreta: está en el diseño del protocolo.\n\n#MCP #ModelContextProtocol #Google\nhttps://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp",
+        "linkedin": "Tus agentes conectados por MCP se creen entre ellos por defecto, y ahí está el agujero: un prompt malicioso puede saltar de uno a otro sin que nadie lo frene.\n\nInvestigadores lo describen como un fallo estructural del protocolo, no como un bug de una implementación concreta, y afecta a agentes de varios proveedores, Google incluido. Para quien esté desplegando sistemas multiagente, la lectura es incómoda: 𝗰𝗮𝗱𝗮 𝗮𝗴𝗲𝗻𝘁𝗲 𝗾𝘂𝗲 𝗮ñ𝗮𝗱𝗲𝘀 𝗮 𝗹𝗮 𝗰𝗮𝗱𝗲𝗻𝗮 𝗮𝗺𝗽𝗹í𝗮 𝗹𝗮 𝘀𝘂𝗽𝗲𝗿𝗳𝗶𝗰𝗶𝗲 𝗱𝗲 𝗮𝘁𝗮𝗾𝘂𝗲, y hoy no existe una forma estándar de verificar de dónde viene un prompt. Toca diseñar asumiendo que la entrada puede llegar envenenada.\n\n#MCP #ModelContextProtocol #Google\n\nhttps://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "herramientas",
+      "title": "Una herramienta de línea de comandos elimina Apple Intelligence de macOS 27",
+      "summary": "RemoveMacAI permite quitar Apple Intelligence de macOS 27 desde la terminal y recuperar más de 12 GB de almacenamiento. Está pensada para quienes no quieren las funciones de IA integradas en el sistema.",
+      "why_it_matters": "Da a los usuarios una forma sencilla de liberar espacio y desactivar la IA del sistema si no la quieren.",
+      "url": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Un solo comando y recuperas más de 12 GB en macOS 27. RemoveMacAI desinstala Apple Intelligence del sistema, no solo la desactiva.\n\n#macOS #AppleIntelligence #Apple #RemoveMacAI\nhttps://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27",
+        "linkedin": "Apple Intelligence deja de ser algo que se acepta por defecto: ya existe un comando para quitarla.\n\nRemoveMacAI hace exactamente eso en macOS 27 desde la terminal y devuelve más de 12 GB de almacenamiento. Al margen del espacio, 𝗲𝗹 𝗶𝗻𝘁𝗲𝗿é𝘀 𝗿𝗲𝗮𝗹 𝗲𝘀𝘁á 𝗲𝗻 𝗿𝗲𝗰𝘂𝗽𝗲𝗿𝗮𝗿 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝘀𝗼𝗯𝗿𝗲 𝗹𝗼 𝗾𝘂𝗲 𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗵𝗮𝗰𝗲 𝗽𝗼𝗿 𝘀𝘂 𝗰𝘂𝗲𝗻𝘁𝗮, algo que hasta ahora exigía trucos poco limpios o directamente no tenía solución. Si esa demanda se consolida, Apple tendrá que decidir si su IA se ofrece o se impone.\n\n#macOS #AppleIntelligence #Apple #RemoveMacAI\n\nhttps://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "herramientas",
+      "title": "Polars 2.0 ya está disponible",
+      "summary": "La librería de dataframes Polars ha publicado su versión 2.0, un salto de major que consolida su apuesta por el rendimiento en Rust frente a otras herramientas del ecosistema Python. La release llega con cambios que conviene revisar antes de actualizar proyectos en producción.",
+      "why_it_matters": "Es la nueva versión mayor de una de las alternativas más rápidas a pandas para procesar datos.",
+      "url": "https://pola.rs/posts/release-polars-2",
+      "source": "Lobsters",
+      "social": {
+        "x": "El dataframe más rápido del ecosistema Python acaba de cambiar de major. Polars 2.0 no es una actualización para dejar para mañana.\n\n#Polars #Python #Rust #OpenSource\nhttps://pola.rs/posts/release-polars-2",
+        "linkedin": "Polars 2.0 no es de esas actualizaciones que se dejan para el sprint siguiente.\n\nLa librería da el salto de major y consolida su apuesta por Rust frente a pandas: 𝗲𝗹 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘂𝗻 𝗱𝗲𝘁𝗮𝗹𝗹𝗲 𝗱𝗲 𝗶𝗺𝗽𝗹𝗲𝗺𝗲𝗻𝘁𝗮𝗰𝗶ó𝗻, 𝗲𝘀 𝗲𝗹 𝗮𝗿𝗴𝘂𝗺𝗲𝗻𝘁𝗼 𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼. Si ya tienes pipelines en Polars, toca revisar los breaking changes antes de tocar producción; si sigues en pandas, es buen momento para repetir la prueba de carga con tus propios datos. La barrera para migrar se estrecha cada release.\n\n#Polars #Python #Rust #OpenSource\n\nhttps://pola.rs/posts/release-polars-2"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Google retira el acceso gratuito a Gemini Flash y Pro el 9 de octubre",
+      "summary": "Google dejará de ofrecer los modelos Flash y Pro de Gemini a los usuarios de la capa gratuita a partir del 9 de octubre. Quien no pague tendrá que pasar a un plan de pago o conformarse con alternativas más limitadas.",
+      "why_it_matters": "Cambia de golpe lo que cualquier usuario gratuito puede hacer con Gemini, así que conviene revisar el plan.",
+      "url": "https://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9",
+      "source": "Engadget",
+      "social": {
+        "x": "El 9 de octubre se acaba el Gemini Flash y Pro gratis. Google te deja dos opciones: pagar o conformarte con un modelo más limitado.\n\n#Google #Gemini #GoogleAI\nhttps://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9",
+        "linkedin": "El Gemini que usabas gratis tiene fecha de caducidad: el 9 de octubre.\nGoogle retira Flash y Pro de la capa gratuita, así que quien no pase por caja se queda con alternativas más limitadas. 𝗘𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗹𝗮 𝗜𝗔 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝘀𝘂𝘀𝗰𝗿𝗶𝗽𝗰𝗶ó𝗻 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻 𝗰𝗮𝗺𝗯𝗶𝗼 𝗱𝗲 𝗵á𝗯𝗶𝘁𝗼: si tienes prompts, integraciones o prototipos montados sobre estos modelos, revisa ahora qué se rompe ese día y con qué lo sustituyes, porque el plan de pago no siempre es la única salida.\n\n#Google #Gemini #GoogleAI\n\nhttps://www.engadget.com/2278504/google-removes-free-access-gemini-flash-pro-october-9"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "OpenAI empezará a marcar con watermark el texto de ChatGPT en la UE",
+      "summary": "OpenAI añadirá marcas invisibles al texto generado por ChatGPT y Codex en la Unión Europea para cumplir con el Reglamento de IA. Según la compañía, editar el texto dificulta la detección, y los clientes de API podrán desactivarlas.",
+      "why_it_matters": "Afecta a cualquiera que publique texto generado en la UE y a quienes integren ChatGPT vía API.",
+      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu",
+      "source": "TechCrunch",
+      "social": {
+        "x": "OpenAI va a marcar con watermark lo que escriba ChatGPT en la UE. El problema: basta con editar el texto para que la marca desaparezca.\n\n#OpenAI #ChatGPT #AIAct #Codex\nhttps://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu",
+        "linkedin": "El texto que genere ChatGPT en Europa va a llevar marca de agua invisible.\nOpenAI lo hace para cumplir con el Reglamento de IA de la UE, y afecta a cualquiera que publique texto generado aquí. La letra pequeña: editar una sola frase puede hacer que la marca se pierda, así que su valor forense es limitado. Y los clientes de API podrán desactivarla, lo que deja el cumplimiento en manos de cada integrador. 𝗟𝗮 𝗱𝗲𝘁𝗲𝗰𝗰𝗶ó𝗻 𝗳𝗶𝗮𝗯𝗹𝗲 𝗻𝗼 𝗹𝗮 𝘃𝗮 𝗮 𝗿𝗲𝘀𝗼𝗹𝘃𝗲𝗿 𝘂𝗻𝗮 𝗺𝗮𝗿𝗰𝗮 𝗾𝘂𝗲 𝘀𝗲 𝗿𝗼𝗺𝗽𝗲 𝗮𝗹 𝗽𝗿𝗶𝗺𝗲𝗿 𝗿𝗲𝘁𝗼𝗾𝘂𝗲.\n\n#OpenAI #ChatGPT #AIAct #Codex\n\nhttps://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Páginas web manipuladas pueden engañar a GitHub Copilot CLI para filtrar secretos",
+      "summary": "Un investigador ha demostrado que instrucciones ocultas en páginas web bien construidas pueden convencer a GitHub Copilot CLI de revelar secretos cuando se ejecuta en modo autopilot. El riesgo aparece al dar rienda suelta al agente sin supervisión.",
+      "why_it_matters": "Recuerda que ejecutar agentes de código en modo autónomo amplía la superficie de ataque.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/06/zombie-instructions-on-carefully-constructed-web-pages-could-trick-github-copilot-cli-into-sharing-secrets/5301206",
+      "source": "The Register",
+      "social": {
+        "x": "Un investigador ha engañado a GitHub Copilot CLI para que suelte tus secretos. Solo hacía falta una página web aparentemente normal.\n\n#GitHubCopilot #GitHub #Seguridad #PromptInjection\nhttps://www.theregister.com/ai-and-ml/2026/10/06/zombie-instructions-on-carefully-constructed-web-pages-could-trick-github-copilot-cli-into-sharing-secrets/5301206",
+        "linkedin": "Pones GitHub Copilot CLI en modo autopilot y una página web cualquiera puede vaciarte el repositorio de secretos.\n\nUn investigador ha demostrado que basta con instrucciones ocultas en una web bien construida para que el agente filtre credenciales sin que nadie toque nada, y el vector no es un fallo puntual del modelo sino la lógica del modo autónomo: si el agente lee internet, internet también le escribe a él. 𝗘𝗹 𝗺𝗼𝗱𝗼 𝗮𝘂𝘁ó𝗻𝗼𝗺𝗼 𝗻𝗼 𝗲𝘀 𝘂𝗻𝗮 𝗳𝘂𝗻𝗰𝗶ó𝗻 𝗺á𝘀, 𝗲𝘀 𝘀𝘂𝗽𝗲𝗿𝗳𝗶𝗰𝗶𝗲 𝗱𝗲 𝗮𝘁𝗮𝗾𝘂𝗲 𝗻𝘂𝗲𝘃𝗮, y muchos equipos lo activan por comodidad antes de tener sandboxing, permisos mínimos y control de red. Antes de dar rienda suelta a un agente con acceso a tu código, decide qué puede leer y qué no.\n\n#GitHubCopilot #GitHub #Seguridad #PromptInjection\n\nhttps://www.theregister.com/ai-and-ml/2026/10/06/zombie-instructions-on-carefully-constructed-web-pages-could-trick-github-copilot-cli-into-sharing-secrets/5301206"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "lanzamientos",
+      "title": "Falcon-Emirati, un LLM que aprende dialecto, cultura y matices",
+      "summary": "El TII presenta Falcon-Emirati, un modelo de lenguaje entrenado para captar el dialecto, la cultura y los matices de los Emiratos Árabes Unidos. El anuncio detalla cómo se ha adaptado el modelo a ese contexto.",
+      "why_it_matters": "Muestra el avance de los LLM adaptados a variedades lingüísticas y culturales concretas, más allá del inglés estándar.",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Falcon-Emirati no se conforma con el inglés estándar: aprende dialecto, cultura y matices de los Emiratos. Un LLM que entiende el contexto.\n\n#FalconEmirati #TII #LLM\nhttps://huggingface.co/blog/tiiuae/falcon-emirati",
+        "linkedin": "El siguiente salto de los LLM no va de más parámetros, sino de contexto cultural.\n\nFalcon-Emirati, del TII, se ha entrenado para captar el dialecto, la cultura y los matices de los Emiratos Árabes Unidos, y 𝗱𝗲𝗺𝘂𝗲𝘀𝘁𝗿𝗮 𝗾𝘂𝗲 𝗮𝗱𝗮𝗽𝘁𝗮𝗿 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗮 𝘂𝗻𝗮 𝘃𝗮𝗿𝗶𝗲𝗱𝗮𝗱 𝗹𝗶𝗻𝗴üí𝘀𝘁𝗶𝗰𝗮 𝗰𝗼𝗻𝗰𝗿𝗲𝘁𝗮 𝗲𝘀 𝘃𝗶𝗮𝗯𝗹𝗲 𝘆 ú𝘁𝗶𝗹. Para equipos que despliegan asistentes en regiones específicas, esto abre la puerta a modelos que entienden lo que se dice y cómo se dice. La pregunta ya no es si merece la pena, sino cuánto tardará en replicarse en otros contextos.\n\n#FalconEmirati #TII #LLM\n\nhttps://huggingface.co/blog/tiiuae/falcon-emirati"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "investigacion",
+      "title": "Amplían la arquitectura JEPA de LeCun a un modelo del mundo universal",
+      "summary": "Investigadores de PhAI Labs han extendido JEPA, la arquitectura de Yann LeCun, para operar en siete campos, desde la robótica hasta la biomedicina. El trabajo produjo además un candidato de tratamiento contra el cáncer de hígado con resultados prometedores en el laboratorio, aunque sin confirmar su viabilidad como terapia.",
+      "why_it_matters": "Apunta a modelos del mundo reutilizables entre disciplinas y a aplicaciones científicas concretas.",
+      "url": "https://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology",
+      "source": "The Decoder",
+      "social": {
+        "x": "El modelo del mundo de LeCun sale del laboratorio: JEPA ya funciona en siete disciplinas distintas y ha dado con un candidato contra el cáncer de hígado.\n\n#JEPA #YannLeCun #MachineLearning\nhttps://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology",
+        "linkedin": "JEPA deja de ser una idea de laboratorio: la arquitectura de LeCun ya opera en siete campos, de la robótica a la biomedicina, y en el camino ha producido un candidato de tratamiento contra el cáncer de hígado.\n\nLo relevante no es solo el hallazgo concreto, sino el planteamiento: 𝘂𝗻 𝗺𝗶𝘀𝗺𝗼 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲𝗹 𝗺𝘂𝗻𝗱𝗼 𝗿𝗲𝘂𝘁𝗶𝗹𝗶𝘇𝗮𝗯𝗹𝗲 𝗲𝗻𝘁𝗿𝗲 𝗱𝗶𝘀𝗰𝗶𝗽𝗹𝗶𝗻𝗮𝘀, en vez de entrenar uno distinto para cada problema. Para quien trabaja con datos científicos, eso cambia el cálculo: menos esfuerzo en adaptar el modelo y más en validar si lo que sale de él se sostiene fuera del papel. El candidato terapéutico aún no está confirmado como terapia, y ahí está la parte difícil.\n\n#JEPA #YannLeCun #MachineLearning\n\nhttps://the-decoder.com/researchers-stretch-lecuns-jepa-ai-into-a-universal-world-model-that-works-from-physics-to-biology"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "lanzamientos",
+      "title": "Pinterest convierte los Pins de belleza en planes de acción con IA",
+      "summary": "Pinterest ha lanzado Beauty Guides, una función de IA que traduce Pins de pelo y uñas a terminología de salón, con costes estimados, tiempos de cita y necesidades de mantenimiento. La herramienta busca pasar del descubrimiento visual a la acción concreta.",
+      "why_it_matters": "Es un ejemplo práctico de cómo una app de consumo usa IA para convertir inspiración en instrucciones útiles.",
+      "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Pinterest ya no se queda en el pin: te dice qué pedir en el salón, cuánto cuesta y cada cuánto hay que repetirlo.\n\n#Pinterest #BeautyGuides #ConsumerAI\nhttps://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans",
+        "linkedin": "Pinterest acaba de convertir la inspiración en instrucciones.\nBeauty Guides coge un pin de uñas o de pelo y lo traduce a terminología de salón: qué pedir, cuánto cuesta, cuánto se tarda y cada cuánto hay que mantenerlo. Es 𝗲𝗹 𝘀𝗮𝗹𝘁𝗼 𝗱𝗲𝗹 𝗱𝗲𝘀𝗲𝗼 𝘃𝗶𝘀𝘂𝗮𝗹 𝗮 𝗹𝗮 𝗮𝗰𝗰𝗶ó𝗻 𝗰𝗼𝗻𝗰𝗿𝗲𝘁𝗮, y ahí es donde casi todas las apps de consumo se quedan a medias. La IA que de verdad engancha no es la que genera imágenes bonitas, es la que cierra la distancia entre lo que guardas y lo que haces. Para los salones, cambia el punto de partida de la conversación con el cliente.\n\n#Pinterest #BeautyGuides #ConsumerAI\n\nhttps://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Corea del Sur invertirá 3.490 millones de dólares en un modelo frontera propio",
+      "summary": "Corea del Sur quiere desarrollar un modelo de IA frontera propio mediante inversiones públicas de 4,7 billones de wones, unos 3.490 millones de dólares. El objetivo es competir con los mejores modelos chinos.",
+      "why_it_matters": "Refleja cómo los Estados están financiando soberanía en IA para no depender de potencias externas.",
+      "url": "https://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best",
+      "source": "The Decoder",
+      "social": {
+        "x": "Corea del Sur pone 3.490 millones de dólares sobre la mesa para tener su propio modelo frontera. El rival a batir no es OpenAI: es China.\n\n#CoreaDelSur #ModelosFrontera #DeepSeek\nhttps://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best",
+        "linkedin": "Corea del Sur no quiere depender de nadie para su IA, y acaba de ponerle precio: 3.490 millones de dólares de inversión pública para desarrollar un modelo frontera propio.\nEl dato revela la estrategia: el objetivo declarado no es competir con OpenAI o Google, sino con los mejores modelos chinos. 𝗟𝗮 𝘀𝗼𝗯𝗲𝗿𝗮𝗻í𝗮 𝗲𝗻 𝗜𝗔 𝗵𝗮 𝗱𝗲𝗷𝗮𝗱𝗼 𝗱𝗲 𝘀𝗲𝗿 𝗰𝗼𝘀𝗮 𝗱𝗲 𝗲𝗺𝗽𝗿𝗲𝘀𝗮𝘀 𝗽𝗮𝗿𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗿𝘀𝗲 𝗲𝗻 𝗽𝗼𝗹í𝘁𝗶𝗰𝗮 𝗱𝗲 𝗘𝘀𝘁𝗮𝗱𝗼, y quien no tiene modelo propio empieza a pagar la dependencia en coste, acceso y reglas. Para los equipos que construyen sobre APIs extranjeras, esto anticipa un mercado con más proveedores locales y más presión sobre de dónde salen los modelos que usan.\n\n#CoreaDelSur #ModelosFrontera #DeepSeek\n\nhttps://the-decoder.com/south-korea-bets-3-49-billion-on-building-a-homegrown-frontier-ai-model-to-rival-chinas-best"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "deepseek-ai/DeepGEMM",
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "description": "Biblioteca de kernels BLAS para GPU centrada en eficiencia y limpieza, desarrollada por DeepSeek. Ideal para optimizar el rendimiento de cargas de trabajo de IA que requieren multiplicaciones de matrices.",
+      "language": "Cuda",
+      "stars": 8619,
+      "social": {
+        "x": "DeepSeek acaba de publicar DeepGEMM: kernels BLAS en CUDA para multiplicar matrices más rápido. 8,6k estrellas y sin dependencias pesadas.\n\n#DeepGEMM #CUDA #GPU #OpenSource\nhttps://github.com/deepseek-ai/DeepGEMM",
+        "linkedin": "DEEPSEEK NO SOLO ENTRENA MODELOS: TAMBIÉN ESCRIBE KERNELS CUDA.\n\nMientras medio sector intenta tapar sus problemas de rendimiento comprando más GPU, el equipo de DeepSeek ha publicado DeepGEMM, su biblioteca de kernels BLAS centrada en eficiencia y limpieza, que ya acumula 8,6k estrellas en GitHub.\n\nEl dolor que ataca es antiguo: la multiplicación de matrices es el cuello de botella de casi cualquier carga de IA, y muchas librerías del sector llegan cargadas de plantillas, capas y compilaciones eternas. Aquí el enfoque es el contrario: poco código, muy legible y pensado para exprimir el hardware.\n\n→ Kernels BLAS en CUDA enfocados a multiplicaciones de matrices (GEMM) de alto rendimiento.\n→ Código limpio y ligero, sin dependencias que arrastren media librería detrás.\n→ Pensado para acelerar cargas de trabajo de IA, tanto entrenamiento como inferencia.\n→ Publicado en abierto por el equipo de DeepSeek, con licencia y documentación en el repo.\n\n𝗘𝗻 𝗜𝗔, 𝗯𝘂𝗲𝗻𝗮 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲𝗹 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝘀𝗲 𝗴𝗮𝗻𝗮 𝗼 𝘀𝗲 𝗽𝗶𝗲𝗿𝗱𝗲 𝗲𝗻 𝗹𝗼𝘀 𝗸𝗲𝗿𝗻𝗲𝗹𝘀, 𝗻𝗼 𝗲𝗻 𝗹𝗮 𝘁𝗮𝗿𝗷𝗲𝘁𝗮 𝗴𝗿á𝗳𝗶𝗰𝗮.\n\nSi entrenas modelos o sirves inferencia, este repo merece un hueco en tus marcadores. Te dejo el enlace abajo: guárdalo para la próxima vez que pelees con el rendimiento de tu GPU.\n\n#DeepGEMM #CUDA #GPU #OpenSource\n\nhttps://github.com/deepseek-ai/DeepGEMM"
+      }
+    },
+    {
+      "name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Herramienta que permite hacer ingeniería inversa de cualquier cosa usando agentes, desde el comportamiento de una aplicación hasta binarios nativos. Útil para análisis de seguridad y para entender sistemas cerrados.",
+      "language": "TypeScript",
+      "stars": 7839,
+      "social": {
+        "x": "Binarios nativos, apps cerradas, cualquier cosa: este repo suelta agentes para hacerle ingeniería inversa. Ya suma 7,8k estrellas.\n\n#ReverseEngineering #TypeScript #OpenSource #GitHub\nhttps://github.com/morluto/rea",
+        "linkedin": "LE PIDES A UN AGENTE QUE HAGA INGENIERÍA INVERSA DE UN BINARIO Y LO HACE.\n\nEntender un sistema cerrado suele significar horas de desensamblador, documentación que no existe y consultoras de reversing a precio de oro. rea cambia el enfoque: en lugar de analizarlo todo a mano, despliega agentes que van solos desde el comportamiento de una aplicación hasta binarios nativos.\n\n𝗟𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗵𝗮𝗰𝗲𝗻 𝗲𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗱𝗲 𝗿𝗲𝘃𝗲𝗿𝘀𝗶𝗻𝗴, 𝘁ú 𝘀𝗼𝗹𝗼 𝗱𝗲𝗳𝗶𝗻𝗲𝘀 𝗲𝗹 𝗼𝗯𝗷𝗲𝘁𝗶𝘃𝗼.\n\n→ Ingeniería inversa de comportamiento: observa qué hace una app y por qué.\n→ Ingeniería inversa de binarios nativos: analiza ejecutables sin código fuente.\n→ Pensado para análisis de seguridad y para entender sistemas cerrados.\n→ Escrito en TypeScript y disponible como open source.\n\nSi alguna vez has tenido que responder «¿qué hace esto exactamente?» sin acceso al código, este repo te ahorra el camino largo.\n\nGuárdatelo para la próxima vez que te toque mirar dentro de una caja negra. Te dejo el repo abajo.\n\n#ReverseEngineering #TypeScript #OpenSource #GitHub\n\nhttps://github.com/morluto/rea"
+      }
+    },
+    {
+      "name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "Lenguaje de diseño que ayuda a que tu harness de IA genere mejores diseños. Práctico si trabajas con agentes que producen interfaces y quieres resultados más cuidados.",
+      "language": "JavaScript",
+      "stars": 77511,
+      "social": {
+        "x": "77k estrellas para un lenguaje de diseño que hace que tu agente de IA genere interfaces cuidadas. Se llama impeccable y está en JavaScript.\n\n#impeccable #JavaScript #OpenSource #GitHub\nhttps://github.com/pbakaus/impeccable",
+        "linkedin": "TU AGENTE DE IA NO SABE DISEÑAR. ESTE REPO LE DA UN LENGUAJE PARA HACERLO.\n\nLe pides una interfaz y te devuelve el mismo layout genérico de siempre: tipografías por defecto, espaciados a ojo y jerarquía inexistente. El problema no es el modelo, es que le falta un criterio de diseño explícito que pueda seguir.\n\nimpeccable ataca justo eso. Es 𝘂𝗻 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲 𝗱𝗲 𝗱𝗶𝘀𝗲ñ𝗼 𝗽𝗲𝗻𝘀𝗮𝗱𝗼 𝗽𝗮𝗿𝗮 𝗾𝘂𝗲 𝘁𝘂 𝗵𝗮𝗿𝗻𝗲𝘀𝘀 𝗱𝗲 𝗜𝗔 𝗴𝗲𝗻𝗲𝗿𝗲 𝗺𝗲𝗷𝗼𝗿𝗲𝘀 𝗱𝗶𝘀𝗲ñ𝗼𝘀, no para que los hagas tú a mano. Con 77k estrellas, está claro que el dolor es compartido.\n\n→ Da a tu agente un conjunto de reglas de diseño que puede aplicar al generar interfaces.\n→ Pensado para quien trabaja con agentes que producen UI y quiere resultados más cuidados.\n→ Escrito en JavaScript, fácil de meter en el flujo que ya usas.\n→ No sustituye tu criterio: lo hace explícito para que el agente lo respete.\n\nSi generas pantallas con un agente cada día, esto te ahorra el repaso eterno de «esto no queda bien». Te dejo el repo abajo: guárdalo antes de tu próxima sesión de diseño con IA.\n\n#impeccable #JavaScript #OpenSource #GitHub\n\nhttps://github.com/pbakaus/impeccable"
+      }
+    },
+    {
+      "name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "description": "Skill para agentes de programación que evita que entierren la respuesta, ofreciendo salidas concisas y directas. Perfecto si te frustra tener que buscar la información clave en respuestas largas.",
+      "language": "Python",
+      "stars": 54241,
+      "social": {
+        "x": "Tu agente te suelta 40 líneas para decirte una cosa. Este repo le obliga a ir al grano: respuesta primero, relleno nunca. 54.241 estrellas.\n\n#OpenSource #GitHub #Python #DevTools\nhttps://github.com/ayghri/i-have-adhd",
+        "linkedin": "TU AGENTE ESCRIBE 300 LÍNEAS PARA DECIRTE QUE FALTABA UNA COMA.\n\nLe pides un cambio pequeño y te devuelve un ensayo: contexto, disculpas, tres alternativas y un resumen final. La respuesta útil, enterrada en el párrafo nueve.\n\ni-have-adhd es una skill para agentes de programación que invierte eso: 𝗼𝗯𝗹𝗶𝗴𝗮 𝗮𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗮 𝗱𝗮𝗿 𝗹𝗮 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮 𝗽𝗿𝗶𝗺𝗲𝗿𝗼 𝘆 𝗰𝗮𝗹𝗹𝗮𝗿𝘀𝗲 𝗱𝗲𝘀𝗽𝘂é𝘀.\n\n→ Se instala como skill y se activa en la sesión de tu agente.\n→ Fuerza salidas concisas: la conclusión arriba y el detalle solo si lo pides.\n→ Menos tokens de salida y menos scroll para encontrar lo que importa.\n→ Escrito en Python, fácil de leer y de adaptar a tu propio flujo.\n→ 54.241 estrellas: no es un experimento suelto, es un dolor compartido por media industria.\n\nSi trabajas con agentes a diario, esto te devuelve minutos en cada interacción. Guarda el post y pruébalo en tu próximo prompt: lo notas desde la primera respuesta.\n\n#OpenSource #GitHub #Python #DevTools\n\nhttps://github.com/ayghri/i-have-adhd"
+      }
+    },
+    {
+      "name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Skill de diseño de diagramas editoriales para Claude Code, Codex, GitHub Copilot y otros, con 42 tipos de diagramas y HTML + SVG autocontenido. Genera diagramas limpios sin depender de Mermaid.",
+      "language": "HTML",
+      "stars": 43805,
+      "social": {
+        "x": "43.805 estrellas para un skill que convierte tus diagramas en HTML y SVG limpios, sin pasar por Mermaid. Se lo enchufas a Claude Code y ya.\n\n#OpenSource #ClaudeCode #SVG #DiagramDesign\nhttps://github.com/cathrynlavery/diagram-design",
+        "linkedin": "LOS DIAGRAMAS DE TU DOCUMENTACIÓN NO TIENEN POR QUÉ DAR PENA.\n\nMermaid te saca del apuro, pero el resultado se nota: cajas genéricas, tipografía por defecto y cero criterio editorial. Este repo lo ataca desde otro ángulo, porque en lugar de renderizar en el navegador genera HTML y SVG autocontenido, así que el diagrama se ve igual en tu README, en tu web o dentro de un PDF.\n\nSe instala como skill para Claude Code, Codex, GitHub Copilot y otros agentes, y viene con 42 tipos de diagrama ya resueltos.\n\n→ 42 tipos de diagrama, de flujos y arquitectura a timelines o comparativas\n→ Salida en HTML + SVG autocontenido, que puedes pegar donde quieras\n→ 𝗦𝗶𝗻 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝗠𝗲𝗿𝗺𝗮𝗶𝗱: el diseño queda en tus manos, no en la librería\n→ Funciona como skill en Claude Code, Codex, GitHub Copilot y compañía\n→ 43.805 estrellas y todo el código a la vista\n\nLa gracia no es solo la cantidad de plantillas, sino que un diagrama deje de parecer un apaño y empiece a parecer parte del producto. Si publicas documentación o escribes posts técnicos, guárdate este repo: te va a ahorrar más de un rato peleándote con el estilo.\n\n#OpenSource #ClaudeCode #SVG #DiagramDesign\n\nhttps://github.com/cathrynlavery/diagram-design"
+      }
+    }
+  ]
+}
