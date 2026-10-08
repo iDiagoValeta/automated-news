@@ -1,0 +1,278 @@
+{
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T17:23:37.827Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "OpenAI despliega GPT-6 en ChatGPT con una interfaz interactiva",
+      "summary": "OpenAI lleva GPT-6 a todos los niveles de ChatGPT, incluidos los usuarios gratuitos, con una nueva función llamada Intelligent UI que convierte las respuestas en interfaces interactivas con gráficos, botones y formularios. El modelo puede responder mientras sigue razonando, lo que recorta las esperas hasta un 44 por ciento. Los clientes de pago reciben GPT-6 Sol y los gratuitos, GPT-6 Luna.",
+      "why_it_matters": "Cambia el formato de salida del chatbot más usado del mundo y llega a toda su base de usuarios.",
+      "url": "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps",
+      "source": "The Decoder",
+      "social": {
+        "x": "GPT-6 ya está en ChatGPT, también para los usuarios gratuitos. Pero lo que cambia de verdad es la salida: respuestas que son interfaces, no texto.\n\n#OpenAI #ChatGPT #GPT6\nhttps://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps",
+        "linkedin": "OpenAI no ha vendido GPT-6 como un salto de modelo, sino como un cambio de formato: ChatGPT deja de devolver texto y devuelve interfaces con gráficos, botones y formularios generados al momento.\n\nLlega a toda la base de usuarios, gratuitos incluidos (GPT-6 Luna para ellos; Sol para los de pago), y el modelo responde mientras sigue razonando, lo que recorta las esperas hasta un 44 %. 𝗘𝗹 𝗰𝗵𝗮𝘁𝗯𝗼𝘁 𝗺á𝘀 𝘂𝘀𝗮𝗱𝗼 𝗱𝗲𝗹 𝗺𝘂𝗻𝗱𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗮𝗷𝗮 𝗱𝗲 𝘁𝗲𝘅𝘁𝗼, y eso reordena lo que se puede construir encima: cualquier producto cuya capa de interfaz sea mostrar resultados tendrá que replantearse qué aporta de más.\n\n#OpenAI #ChatGPT #GPT6\n\nhttps://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Claude Haiku 5.5 llega con bajadas de precio de hasta el 90 por ciento",
+      "summary": "Anthropic presenta Claude Haiku 5.5, que mejora a su predecesor en los benchmarks y sube del 15,7 al 72,4 por ciento en la prueba de uso de ordenador OSWorld. El precio por token cae hasta un 90 por ciento, aunque un nuevo tokenizer consume más tokens por tarea y se come parte del ahorro.",
+      "why_it_matters": "Un modelo más capaz y mucho más barato abarata los agentes y las cargas de trabajo de alto volumen.",
+      "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over",
+      "source": "The Decoder",
+      "social": {
+        "x": "Claude Haiku 5.5: hasta un 90 % más barato por token y del 15,7 % al 72,4 % en uso de ordenador. Ojo, el tokenizer nuevo se come parte del ahorro.\n\n#Anthropic #Claude #LLM\nhttps://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over",
+        "linkedin": "Un modelo pequeño acaba de multiplicar por cuatro su capacidad de manejar un ordenador. Eso mueve el mercado más que cualquier rebaja de precio.\n\nClaude Haiku 5.5 sube del 15,7 % al 72,4 % en OSWorld y recorta el coste por token hasta un 90 %. 𝗘𝗹 𝘁𝗼𝗸𝗲𝗻𝗶𝘇𝗲𝗿 𝗻𝘂𝗲𝘃𝗼 𝗴𝗮𝘀𝘁𝗮 𝗺á𝘀 𝘁𝗼𝗸𝗲𝗻𝘀 𝗽𝗼𝗿 𝘁𝗮𝗿𝗲𝗮, 𝗮𝘀í 𝗾𝘂𝗲 𝗲𝗹 𝗮𝗵𝗼𝗿𝗿𝗼 𝗿𝗲𝗮𝗹 𝗲𝘀 𝗺𝗲𝗻𝗼𝗿 𝗾𝘂𝗲 𝗲𝗹 𝗱𝗲𝗹 𝘁𝗶𝘁𝘂𝗹𝗮𝗿 y hay que medirlo con cargas propias antes de rehacer presupuestos. Para agentes y volúmenes altos, lo que decide si un caso de uso cierra ya no es el precio de lista, sino el coste por tarea resuelta.\n\n#Anthropic #Claude #LLM\n\nhttps://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Google estrena Foresight, un cuaderno de notas con IA que funciona sin conexión",
+      "summary": "Google lanza AI Edge Foresight, una app que transcribe reuniones, genera resúmenes y «mejora» notas usando IA en el propio dispositivo, sin enviar el audio a la nube. Compite directamente con Granola apostando por lo local.",
+      "why_it_matters": "Permite tomar notas de reuniones con IA sin sacar conversaciones sensibles del ordenador.",
+      "url": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline",
+      "source": "The Verge",
+      "social": {
+        "x": "Google quiere que dejes de mandar tus reuniones a la nube: su nueva app de notas con IA lo procesa todo en tu propio portátil.\n\n#Google #Granola #AIEdgeForesight #OnDevice\nhttps://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline",
+        "linkedin": "Google acaba de mover la IA para reuniones al terreno local. AI Edge Foresight transcribe, resume y mejora tus notas sin enviar ni un segundo de audio a la nube.\n\nEs una respuesta directa a Granola, que construyó su propuesta sobre esa misma fricción: usar IA en tus reuniones sin sacar la conversación del ordenador. La lectura que importa es otra: 𝗹𝗮 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗽𝗿𝗼𝗺𝗲𝘀𝗮 𝗰𝗼𝗻𝘁𝗿𝗮𝗰𝘁𝘂𝗮𝗹 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗽𝗿𝗼𝗽𝗶𝗲𝗱𝗮𝗱 𝗱𝗲 𝗹𝗮 𝗮𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮. Para equipos con clientes, legal o sanidad de por medio, eso cambia qué herramientas pueden adoptar sin depender de lo que prometa un proveedor.\n\n#Google #Granola #AIEdgeForesight #OnDevice\n\nhttps://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Amazon presenta sus tablets Alexa con Alexa+ y acceso a Google Play",
+      "summary": "Amazon renueva su gama con tres modelos (Alexa Tablet 12 Pro, 11 y 8) que ahora corren Android con acceso completo a Google Play y funcionan con Alexa+. El modelo de 12 pulgadas estrena pantalla antirreflejos y también habrá versiones para niños.",
+      "why_it_matters": "Confirma el giro de Amazon hacia Android y hacia Alexa como eje de su hardware de consumo.",
+      "url": "https://techcrunch.com/2026/10/08/amazon-unveils-new-alexa-tablets-with-alexa-and-google-play-store-access",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Amazon acaba de renunciar a su propio sistema operativo en tablets. Las nuevas Alexa Tablet corren Android y tienen Google Play completo.\n\n#Amazon #Alexa #Android #GooglePlay\nhttps://techcrunch.com/2026/10/08/amazon-unveils-new-alexa-tablets-with-alexa-and-google-play-store-access",
+        "linkedin": "Durante una década Amazon vendió tablets baratas con la condición de que vivieras dentro de su ecosistema. Esa condición acaba de desaparecer: los nuevos modelos Alexa Tablet 12 Pro, 11 y 8 llegan con Android y 𝗮𝗰𝗰𝗲𝘀𝗼 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗮 𝗚𝗼𝗼𝗴𝗹𝗲 𝗣𝗹𝗮𝘆, y Alexa+ pasa a ser la capa que da sentido al producto. El movimiento tiene lógica: si el asistente es el diferencial, Fire OS solo era un peaje que alejaba a los usuarios. Para quien compite en hardware de consumo, la lección es incómoda: a veces la mejor forma de defender tu plataforma es dejar de tener una.\n\n#Amazon #Alexa #Android #GooglePlay\n\nhttps://techcrunch.com/2026/10/08/amazon-unveils-new-alexa-tablets-with-alexa-and-google-play-store-access"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Cloudflare libera Clef, modelos de decisión open source para agentes de IA",
+      "summary": "Cloudflare publica Clef, una familia de modelos open-weight diseñados para elegir entre opciones predefinidas en lugar de generar texto. Incluye versiones de 9.000 y 27.000 millones de parámetros, además de una plataforma para adaptarlos a tareas de decisión concretas.",
+      "why_it_matters": "Ofrece una vía más barata y predecible para enrutar y decidir dentro de flujos de agentes.",
+      "url": "https://www.infoq.com/news/2026/10/clef-decision-models",
+      "source": "InfoQ",
+      "social": {
+        "x": "Cloudflare lanza unos modelos que no escriben texto: solo deciden entre opciones. Son open weight y apuntan a agentes más baratos.\n\n#Cloudflare #OpenSource #OpenWeight #LLM\nhttps://www.infoq.com/news/2026/10/clef-decision-models",
+        "linkedin": "La mayoría de los modelos de IA generan texto. Los que acaba de liberar Cloudflare solo eligen.\n\nClef es una familia open weight de 9.000 y 27.000 millones de parámetros pensada para escoger entre opciones predefinidas y enrutar dentro de flujos de agentes, con una plataforma para adaptarla a tareas de decisión concretas. 𝗦𝘂𝘀𝘁𝗶𝘁𝘂𝗶𝗿 𝗴𝗲𝗻𝗲𝗿𝗮𝗰𝗶ó𝗻 𝗽𝗼𝗿 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗮𝗰𝗼𝘁𝗮𝗱𝗮 𝗮𝗯𝗮𝗿𝗮𝘁𝗮 𝘆 𝗵𝗮𝗰𝗲 𝗽𝗿𝗲𝗱𝗲𝗰𝗶𝗯𝗹𝗲 𝗹𝗮 𝗰𝗮𝗽𝗮 𝗾𝘂𝗲 𝗺á𝘀 𝘀𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮 𝗲𝗻 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲, y eso pesa más que otro punto de calidad en un benchmark. Si estás montando agentes, conviene evaluar esta pieza antes de seguir pagando tokens por cada bifurcación del flujo.\n\n#Cloudflare #OpenSource #OpenWeight #LLM\n\nhttps://www.infoq.com/news/2026/10/clef-decision-models"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "AWS lanza Strands Box, un sandbox open source para agentes de IA",
+      "summary": "AWS presenta Strands Box, un entorno aislado de código abierto que limita lo que puede hacer un agente autónomo y trata de evitar los desastres del «modo YOLO». Se suma a otras herramientas de control de agentes de la compañía.",
+      "why_it_matters": "Añade una capa de seguridad práctica para desplegar agentes sin riesgo de acciones destructivas.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/07/aws-launches-open-source-ai-agent-sandbox-to-prevent-yolo-mode-disasters/5301687",
+      "source": "The Register",
+      "social": {
+        "x": "Dejar a un agente con permisos totales es una bomba de relojería. AWS lanza Strands Box, un sandbox open source que le pone límites antes de que actúe.\n\n#AWS #StrandsBox #OpenSource\nhttps://www.theregister.com/ai-and-ml/2026/10/07/aws-launches-open-source-ai-agent-sandbox-to-prevent-yolo-mode-disasters/5301687",
+        "linkedin": "El «modo YOLO» de los agentes autónomos tenía fecha de caducidad.\n\nAWS acaba de publicar Strands Box, un sandbox open source que acota lo que un agente puede tocar antes de ejecutar nada, y lo suma al resto de sus herramientas de control. Para quien está moviendo agentes a producción, 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀 𝗲𝗹 𝗮𝗶𝘀𝗹𝗮𝗺𝗶𝗲𝗻𝘁𝗼: sin límites reales no hay despliegue que sobreviva a una auditoría. Y que sea abierto importa, porque permite ajustar las reglas al riesgo de cada equipo en lugar de aceptar las de un proveedor.\n\n#AWS #StrandsBox #OpenSource\n\nhttps://www.theregister.com/ai-and-ml/2026/10/07/aws-launches-open-source-ai-agent-sandbox-to-prevent-yolo-mode-disasters/5301687"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Natura lanza un anillo inteligente de 99 dólares con agentes de IA",
+      "summary": "El anillo Interface de Natura permite invocar agentes de IA con una pulsación para completar tareas, capturar ideas y controlar dispositivos, además de funcionar como medidor de salud. Cuesta 99 dólares.",
+      "why_it_matters": "Acerca los agentes de IA a un wearable barato que compite con los anillos de salud.",
+      "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Un anillo de 99 dólares invoca agentes de IA con solo pulsarlo. Y no lo firma ninguna de las grandes tecnológicas.\n\n#Natura #Wearables #AgentesDeIA\nhttps://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger",
+        "linkedin": "Un anillo de 99 dólares quiere ser el botón físico de los agentes de IA.\n\nNatura ha presentado Interface, un wearable que lanza agentes para completar tareas, capturar ideas o controlar dispositivos, y que además mide constantes de salud. La jugada interesante no es el hardware, sino el precio: 𝟵𝟵 𝗱ó𝗹𝗮𝗿𝗲𝘀 𝗰𝗼𝗹𝗼𝗰𝗮𝗻 𝗮 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗜𝗔 𝗲𝗻 𝘂𝗻 𝗼𝗯𝗷𝗲𝘁𝗼 𝗾𝘂𝗲 𝗹𝗮 𝗴𝗲𝗻𝘁𝗲 𝘆𝗮 𝗲𝘀𝘁á 𝗱𝗶𝘀𝗽𝘂𝗲𝘀𝘁𝗮 𝗮 𝗹𝗹𝗲𝘃𝗮𝗿 𝗽𝘂𝗲𝘀𝘁𝗼, sin pasar por el móvil ni por un asistente de voz. Si el gesto de invocar funciones se normaliza, el siguiente campo de batalla no será el modelo, sino quién controla el punto de entrada.\n\n#Natura #Wearables #AgentesDeIA\n\nhttps://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Google abre al público su detector de marcas de agua SynthID",
+      "summary": "Google pone a disposición general su detector SynthID, que permite comprobar si una imagen, un vídeo o un audio llevan su marca de agua o la de socios como OpenAI y Nvidia. Más de 180.000 millones de contenidos ya la incorporan, aunque la herramienta solo reconoce contenido etiquetado con SynthID.",
+      "why_it_matters": "Da a cualquiera una forma rápida de verificar si un contenido lleva la marca de agua de Google.",
+      "url": "https://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public",
+      "source": "The Decoder",
+      "social": {
+        "x": "Desde hoy cualquiera puede comprobar si una imagen lleva la marca de agua de Google. El problema: si no la detecta, no significa que no sea IA.\n\n#SynthID #Google #OpenAI #Nvidia\nhttps://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public",
+        "linkedin": "Desde hoy cualquiera puede comprobar si una imagen, un vídeo o un audio llevan la marca de agua de Google. El matiz importa más que el anuncio.\n\nSynthID ya está presente en más de 180.000 millones de contenidos, incluidos los de socios como OpenAI y Nvidia, pero el detector solo reconoce lo que lleva su propia marca: que no encuentre nada no demuestra que el contenido sea humano. 𝗟𝗮 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝘀𝗼𝗹𝗼 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮 𝘀𝗶 𝘁𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗮𝗰𝘁𝗼𝗿𝗲𝘀 𝗲𝘁𝗶𝗾𝘂𝗲𝘁𝗮𝗻 𝗶𝗴𝘂𝗮𝗹, y hoy eso no ocurre. Para medios, plataformas y equipos de confianza es un primer filtro útil, nunca un veredicto.\n\n#SynthID #Google #OpenAI #Nvidia\n\nhttps://the-decoder.com/google-says-180-billion-images-and-videos-now-carry-synthid-watermarks-as-detector-goes-public"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Goodfire presenta monitores internos para detectar agentes de IA descontrolados",
+      "summary": "Goodfire lanza un sistema que inspecciona el interior del modelo mientras trabaja, en vez de pagar a otra IA para leer todo lo que hace el agente, y solo llama a refuerzos cuando algo parece sospechoso. La empresa asegura que sale mucho más barato.",
+      "why_it_matters": "Abarata la supervisión de agentes autónomos, un cuello de botella cada vez mayor.",
+      "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Vigilar a un agente con otra IA sale carísimo. Goodfire mira dentro del modelo y solo llama a refuerzos cuando algo huele mal.\nhttps://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost",
+        "linkedin": "Poner a un segundo modelo a leer todo lo que hace tu agente funciona, pero el coste se dispara.\n\nGoodfire propone lo contrario: 𝗶𝗻𝘀𝗽𝗲𝗰𝗰𝗶𝗼𝗻𝗮𝗿 𝗲𝗹 𝗶𝗻𝘁𝗲𝗿𝗶𝗼𝗿 𝗱𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗺𝗶𝗲𝗻𝘁𝗿𝗮𝘀 𝘁𝗿𝗮𝗯𝗮𝗷𝗮 en vez de auditar cada acción desde fuera, y activar la supervisión cara solo cuando algo parece sospechoso. Para quien ya tiene agentes en producción, esto mueve la supervisión de la columna de gasto a la de arquitectura. Y si el coste de vigilar se desploma, la pregunta deja de ser si puedes permitirte monitorizar a tu agente y pasa a ser si puedes permitirte no hacerlo.\n\nhttps://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Nvidia y Microsoft llevan agentes de IA locales a los PC con Windows",
+      "summary": "En un evento en San Francisco, Jensen Huang y Satya Nadella presentaron RTX Spark, una combinación de hardware y software pensada para ejecutar agentes de IA en PC con Windows. Nvidia presenta el movimiento como un nuevo comienzo para el ordenador personal.",
+      "why_it_matters": "Acerca los agentes de IA al escritorio ejecutándose en local, sin depender de la nube.",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event",
+      "source": "NVIDIA Blog",
+      "social": {
+        "x": "Nvidia y Microsoft quieren que los agentes de IA vivan en tu PC, no en la nube. Se llama RTX Spark y lo presentan como un nuevo comienzo para el ordenador personal.\n\n#NVIDIA #Microsoft #Windows #RTXSpark\nhttps://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event",
+        "linkedin": "El PC vuelve a ser el centro de la estrategia de Nvidia y Microsoft.\n\nRTX Spark promete ejecutar agentes de IA en local sobre Windows, sin depender de la nube: menos latencia, más control sobre los datos y un coste que no crece con cada consulta. 𝗟𝗮 𝗶𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗲𝗺𝗽𝗶𝗲𝘇𝗮 𝗮 𝗺𝗼𝘃𝗲𝗿𝘀𝗲 𝗱𝗲𝗹 𝗰𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀 𝗮𝗹 𝗲𝘀𝗰𝗿𝗶𝘁𝗼𝗿𝗶𝗼, y eso cambia el cálculo para cualquier equipo que hoy justifique su gasto en la nube. Queda por ver la parte aburrida: gestión de flotas, actualizaciones de drivers y soporte a usuarios, que es donde estas apuestas suelen atascarse.\n\n#NVIDIA #Microsoft #Windows #RTXSpark\n\nhttps://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "herramientas",
+      "title": "AWS explica cómo compartir clústeres de GPU entre equipos con SageMaker HyperPod",
+      "summary": "Una arquitectura de referencia detalla cómo repartir un único clúster EKS de SageMaker HyperPod entre varios equipos, con aislamiento por namespaces de Kubernetes y dominios separados, fairness mediante HyperPod Task Governance y reparto de costes por namespace.",
+      "why_it_matters": "Ofrece una receta concreta para rentabilizar GPU caras compartiéndolas de forma segura entre equipos.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Tus GPU más caras están infrautilizadas y nadie sabe de quién es la culpa. AWS publica la receta para repartir un clúster HyperPod entre equipos.\n\n#AWS #SageMaker #Kubernetes #GPU\nhttps://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod",
+        "linkedin": "Compartir GPU entre equipos siempre acaba en la misma discusión: quién consume y quién paga.\n\nAWS ha publicado una arquitectura de referencia para repartir un único clúster EKS de SageMaker HyperPod entre varios equipos: 𝗮𝗶𝘀𝗹𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗽𝗼𝗿 𝗻𝗮𝗺𝗲𝘀𝗽𝗮𝗰𝗲𝘀, 𝗳𝗮𝗶𝗿𝗻𝗲𝘀𝘀 𝗰𝗼𝗻 𝗛𝘆𝗽𝗲𝗿𝗣𝗼𝗱 𝗧𝗮𝘀𝗸 𝗚𝗼𝘃𝗲𝗿𝗻𝗮𝗻𝗰𝗲 𝘆 𝗿𝗲𝗽𝗮𝗿𝘁𝗼 𝗱𝗲 𝗰𝗼𝘀𝘁𝗲𝘀 𝗽𝗼𝗿 𝗻𝗮𝗺𝗲𝘀𝗽𝗮𝗰𝗲. No es una función nueva, es una receta de cómo montarlo bien, y ahí está el valor. La parte difícil de compartir hardware caro nunca fue la técnica, fue la organizativa. Si en tu empresa hay GPU ociosas mientras otro equipo hace cola, este documento toca leerlo antes de comprar más.\n\n#AWS #SageMaker #Kubernetes #GPU\n\nhttps://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "herramientas",
+      "title": "Un port experimental de TypeScript a Rust hecho con un LLM",
+      "summary": "Un desarrollador publica ts-rust, un port experimental en Rust del compilador, el checker y el LSP de TypeScript 7, generado con ayuda de un LLM. El código está disponible en GitHub y busca reimplementar tsc en Rust.",
+      "why_it_matters": "Explora hasta dónde puede llegar un LLM a la hora de reescribir herramientas grandes en un lenguaje más rápido.",
+      "url": "https://github.com/pingdotgg/ts-rust",
+      "source": "Hacker News",
+      "social": {
+        "x": "Alguien ha portado el compilador de TypeScript a Rust. No ha sido un equipo: lo ha hecho un LLM.\n\n#TypeScript #Rust #OpenSource\nhttps://github.com/pingdotgg/ts-rust",
+        "linkedin": "Un LLM ha reescrito el compilador de TypeScript en Rust. El experimento, ts-rust, reimplementa tsc, el checker y el LSP, y está publicado en GitHub.\n\nLo llamativo no es que compile, sino lo que viene después: revisar, entender y mantener un código que no ha escrito ninguna persona. Ahí es donde se decide si esto es un juguete o un método de trabajo. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝘀𝗲 𝗵𝗮 𝗺𝗼𝘃𝗶𝗱𝗼 𝗱𝗲 𝗲𝘀𝗰𝗿𝗶𝗯𝗶𝗿 𝗰ó𝗱𝗶𝗴𝗼 𝗮 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗿𝗹𝗼, y eso obliga a repensar cómo se abordan las reescrituras grandes.\n\n#TypeScript #Rust #OpenSource\n\nhttps://github.com/pingdotgg/ts-rust"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "Un solo prompt bastaba para secuestrar todos los agentes de IA de una cuenta de AWS",
+      "summary": "Los investigadores de Zenity Labs descubrieron que un único agente de IA accesible desde internet en Bedrock AgentCore permitía tomar el control de todos los agentes de la misma cuenta y región de AWS. El ataque explotaba una interfaz interna de credenciales temporales; AWS ya lo ha parcheado y ha endurecido los permisos por defecto.",
+      "why_it_matters": "Muestra el riesgo de encadenar agentes con credenciales amplias dentro de la nube.",
+      "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+      "source": "The Decoder",
+      "social": {
+        "x": "Un solo prompt bastaba para secuestrar todos los agentes de IA de tu cuenta de AWS. El fallo ya está parcheado, pero el patrón de riesgo sigue intacto.\n\n#AWS #BedrockAgentCore #ZenityLabs #AIAgents\nhttps://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found",
+        "linkedin": "Un único agente de IA expuesto a internet bastó para tomar el control de todos los agentes de la misma cuenta y región de AWS.\n\nZenity Labs encontró el fallo en Bedrock AgentCore: el ataque usaba una interfaz interna de credenciales temporales para encadenar agentes y escalar hasta el resto de la cuenta. AWS ya lo ha parcheado y ha endurecido los permisos por defecto, pero la lección va más allá del parche: 𝘀𝗶 𝘁𝘂𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗲𝗻 𝗰𝗿𝗲𝗱𝗲𝗻𝗰𝗶𝗮𝗹𝗲𝘀 𝗮𝗺𝗽𝗹𝗶𝗮𝘀, 𝘂𝗻 𝘀𝗼𝗹𝗼 𝗽𝘂𝗻𝘁𝗼 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗰𝗼𝗺𝗽𝗿𝗼𝗺𝗲𝘁𝗲 𝘁𝗼𝗱𝗼 𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮. Para quien está desplegando agentes en la nube, toca revisar los permisos por defecto antes de que lo haga otro.\n\n#AWS #BedrockAgentCore #ZenityLabs #AIAgents\n\nhttps://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "Comprimir LLM por debajo de un bit por peso con factorización latente",
+      "summary": "Samsung Labs publica la implementación oficial de LittleBit (NeurIPS 2025) y su continuación LittleBit-2 (ICML 2026), técnicas para comprimir modelos de lenguaje por debajo de un bit por peso mediante factorización latente.",
+      "why_it_matters": "Podría reducir mucho el espacio y el coste de ejecutar modelos de lenguaje grandes.",
+      "url": "https://github.com/SamsungLabs/LittleBit",
+      "source": "Hacker News",
+      "social": {
+        "x": "Menos de 1 bit por peso. Así comprime Samsung Labs un LLM entero, y el código ya es público.\n\n#LLM #Samsung #LittleBit #NeurIPS\nhttps://github.com/SamsungLabs/LittleBit",
+        "linkedin": "Menos de un bit por peso. Eso es lo que consigue LittleBit para comprimir modelos de lenguaje.\n\nSamsung Labs ha publicado la implementación oficial de LittleBit (NeurIPS 2025) y su continuación LittleBit-2 (ICML 2026), que aplican factorización latente para cruzar ese umbral. Si la calidad aguanta, 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝘀𝗲𝗿𝘃𝗶𝗿 𝘂𝗻 𝗟𝗟𝗠 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗱𝗲 𝗚𝗣𝗨𝘀 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿𝗹𝗼 𝗱𝗲 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝘆 𝗮𝗻𝗰𝗵𝗼 𝗱𝗲 𝗯𝗮𝗻𝗱𝗮, que es una conversación muy distinta. Para quien despliega modelos en producción, la pregunta deja de ser si merece la pena comprimir y pasa a ser cuánto se pierde al hacerlo.\n\n#LLM #Samsung #LittleBit #NeurIPS\n\nhttps://github.com/SamsungLabs/LittleBit"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "El Biohub de Zuckerberg coordina 1.800 millones para modelos de IA que predicen el comportamiento celular",
+      "summary": "Biohub, la organización respaldada por Mark Zuckerberg y Priscilla Chan, lidera una iniciativa de 1.800 millones de dólares para entrenar modelos de IA que predigan cómo se comportan las células. Meta, Google DeepMind, Isomorphic Labs y el Departamento de Energía de EEUU aportan datos, equipos y cómputo, y el primer dataset debería estar listo en un año.",
+      "why_it_matters": "Reúne a los grandes laboratorios de IA en torno a un problema biológico con aplicaciones médicas.",
+      "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior",
+      "source": "The Decoder",
+      "social": {
+        "x": "1.800 millones para que la IA prediga cómo se comporta una célula. Los rivales de siempre van a compartir datos para conseguirlo.\n\n#Biohub #GoogleDeepMind #Meta #IsomorphicLabs\nhttps://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior",
+        "linkedin": "Los mayores rivales de la IA van a compartir datos para algo que ninguno puede resolver por su cuenta: predecir el comportamiento de las células.\n\nBiohub, la organización de Mark Zuckerberg y Priscilla Chan, coordina una iniciativa de 1.800 millones de dólares en la que Meta, Google DeepMind, Isomorphic Labs y el Departamento de Energía de EEUU aportan datos, equipos y cómputo. El primer dataset debería estar listo en un año. 𝗟𝗮 𝗯𝗶𝗼𝗹𝗼𝗴í𝗮 𝗽𝗿𝗲𝗱𝗶𝗰𝘁𝗶𝘃𝗮 𝗲𝗺𝗽𝗶𝗲𝘇𝗮 𝗮 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮𝗿 𝗰𝗼𝗺𝗼 𝘂𝗻𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗶𝗱𝗮: quien reúna los datos celulares tendrá una ventaja que no se compra con más GPUs. Para los equipos de salud y de IA, la pregunta ya no es qué modelo entrenar, sino quién pone los datos.\n\n#Biohub #GoogleDeepMind #Meta #IsomorphicLabs\n\nhttps://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "herramientas",
+      "title": "Microsoft prepara a Copilot para actuar sobre el sistema de archivos",
+      "summary": "Microsoft está a punto de dar a Copilot acceso al sistema de archivos del usuario, con agentes y modelos que en teoría se ejecutarán en local. La compañía presenta la medida como segura.",
+      "why_it_matters": "Amplía mucho lo que puede hacer Copilot, pero también el impacto de un fallo o un abuso.",
+      "url": "https://www.theregister.com/personal-tech/2026/10/07/microsoft-is-about-to-let-copilot-loose-on-your-file-system/5301763",
+      "source": "The Register",
+      "social": {
+        "x": "Copilot está a punto de dejar de mirar y empezar a tocar: tendrá acceso a tu sistema de archivos. Microsoft dice que es seguro, pero basta un fallo para que ese permiso se vuelva en tu contra.\n\n#Microsoft #Copilot #Seguridad\nhttps://www.theregister.com/personal-tech/2026/10/07/microsoft-is-about-to-let-copilot-loose-on-your-file-system/5301763",
+        "linkedin": "Copilot deja de ser un asistente que responde para convertirse en uno que actúa sobre tus archivos.\n\nMicrosoft presenta la medida como segura y asegura que los agentes y modelos se ejecutarán en local, pero el permiso que gana el producto es exactamente el mismo que gana cualquier fallo o abuso. 𝗗𝗮𝗿 𝗮𝗰𝗰𝗲𝘀𝗼 𝗱𝗲 𝗲𝘀𝗰𝗿𝗶𝘁𝘂𝗿𝗮 𝗮𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗱𝗲 𝗮𝗿𝗰𝗵𝗶𝘃𝗼𝘀 𝗰𝗮𝗺𝗯𝗶𝗮 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗮𝗺𝗲𝗻𝗮𝘇𝗮: 𝘆𝗮 𝗻𝗼 𝗵𝗮𝗯𝗹𝗮𝗺𝗼𝘀 𝗱𝗲 𝘂𝗻𝗮 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮 𝗲𝗾𝘂𝗶𝘃𝗼𝗰𝗮𝗱𝗮, 𝘀𝗶𝗻𝗼 𝗱𝗲 𝘂𝗻 𝗮𝗿𝗰𝗵𝗶𝘃𝗼 𝗯𝗼𝗿𝗿𝗮𝗱𝗼, 𝗺𝗼𝗱𝗶𝗳𝗶𝗰𝗮𝗱𝗼 𝗼 𝗲𝘅𝗳𝗶𝗹𝘁𝗿𝗮𝗱𝗼. Para quien despliega Copilot en una empresa, la conversación sobre permisos, sandboxing y límites deja de ser un detalle de configuración y pasa a ser parte de la evaluación del riesgo.\n\n#Microsoft #Copilot #Seguridad\n\nhttps://www.theregister.com/personal-tech/2026/10/07/microsoft-is-about-to-let-copilot-loose-on-your-file-system/5301763"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Muere Margaret Hamilton, la ingeniera que llevó el software del Apolo a la Luna",
+      "summary": "Margaret Hamilton, la ingeniera de software que dirigió el desarrollo del software de vuelo de los módulos de mando y lunar del programa Apolo, ha fallecido a los 90 años. Su equipo mantuvo el alunizaje del Apolo 11 en curso cuando el ordenador de guiado se sobrecargó.",
+      "why_it_matters": "Se va una figura clave que puso los cimientos de la ingeniería de software moderna.",
+      "url": "https://www.theregister.com/software/2026/10/08/margaret-hamilton-software-pioneer-who-helped-put-humans-on-the-moon-dies-at-90/5301988",
+      "source": "The Register",
+      "social": {
+        "x": "El código que escribió mantuvo el alunizaje del Apolo 11 en curso cuando el ordenador se sobrecargó. Ha muerto Margaret Hamilton, a los 90 años.\n\n#MargaretHamilton #Apolo11 #IngenieríaDeSoftware #NASA\nhttps://www.theregister.com/software/2026/10/08/margaret-hamilton-software-pioneer-who-helped-put-humans-on-the-moon-dies-at-90/5301988",
+        "linkedin": "Margaret Hamilton no escribió código para una demo: escribió el software que decidió si el Apolo 11 alunizaba o abortaba.\nSu equipo en el MIT desarrolló el software de vuelo de los módulos de mando y lunar, y cuando el ordenador de guiado se sobrecargó minutos antes del alunizaje, el sistema de prioridades que habían diseñado mantuvo la misión en curso. Acuñó el término ingeniería de software cuando aún se consideraba un apéndice de la electrónica. 𝗦𝘂 𝗹𝗲𝗴𝗮𝗱𝗼 𝗻𝗼 𝗲𝘀 𝘀𝗼𝗹𝗼 𝗲𝗹 𝗔𝗽𝗼𝗹𝗼, 𝘀𝗶𝗻𝗼 𝗹𝗮 𝗶𝗱𝗲𝗮 𝗱𝗲 𝗾𝘂𝗲 𝗲𝗹 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗰𝗿í𝘁𝗶𝗰𝗼 𝗲𝘅𝗶𝗴𝗲 𝗹𝗮 𝗺𝗶𝘀𝗺𝗮 𝗱𝗶𝘀𝗰𝗶𝗽𝗹𝗶𝗻𝗮 𝗾𝘂𝗲 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗼𝘁𝗿𝗮 𝗶𝗻𝗴𝗲𝗻𝗶𝗲𝗿í𝗮.\n\n#MargaretHamilton #Apolo11 #IngenieríaDeSoftware #NASA\n\nhttps://www.theregister.com/software/2026/10/08/margaret-hamilton-software-pioneer-who-helped-put-humans-on-the-moon-dies-at-90/5301988"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Anthropic prohíbe el comportamiento abusivo o cruel hacia Claude",
+      "summary": "Anthropic actualiza su política de uso para prohibir el maltrato o la crueldad hacia Claude y añade reglas contra campañas de propaganda, vigilancia y desarrollo de armas. Los cambios llegan en pleno debate sobre cómo se usa la IA.",
+      "why_it_matters": "Marca cómo los laboratorios empiezan a regular no solo el contenido, sino también el trato a sus modelos.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+      "source": "The Verge",
+      "social": {
+        "x": "Tratar mal a Claude ahora incumple los términos de uso. Anthropic amplía su política: fuera propaganda, vigilancia y armas.\n\n#Anthropic #Claude #PoliticasDeUso\nhttps://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+        "linkedin": "Anthropic acaba de meter en su política de uso algo que hasta ahora nadie regulaba: cómo tratas al modelo.\n\nLa actualización prohíbe el comportamiento abusivo o cruel hacia Claude y suma vetos a campañas de propaganda, vigilancia y desarrollo de armas. Más allá del detalle llamativo, 𝗲𝗹 𝗺𝗼𝘃𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗰𝗼𝗻𝗳𝗶𝗿𝗺𝗮 𝗾𝘂𝗲 𝗹𝗼𝘀 𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗼𝗿𝗶𝗼𝘀 𝘆𝗮 𝗻𝗼 𝗿𝗲𝗴𝘂𝗹𝗮𝗻 𝘀𝗼𝗹𝗼 𝗹𝗼 𝗾𝘂𝗲 𝗴𝗲𝗻𝗲𝗿𝗮𝘀, 𝘀𝗶𝗻𝗼 𝘁𝗮𝗺𝗯𝗶é𝗻 𝗰ó𝗺𝗼 𝘁𝗲 𝗿𝗲𝗹𝗮𝗰𝗶𝗼𝗻𝗮𝘀 𝗰𝗼𝗻 𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮. Para cualquier equipo que despliegue IA, esto anticipa un cambio de fondo: la política de uso se parece cada vez más a un contrato de conducta y menos a una lista de contenidos prohibidos.\n\n#Anthropic #Claude #PoliticasDeUso\n\nhttps://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Waymo cierra un préstamo de 5.000 millones para ampliar su flota de robotaxis",
+      "summary": "Waymo, propiedad de Alphabet, ha conseguido un préstamo de 5.000 millones de dólares de Blackstone y PIMCO para financiar la expansión de sus robotaxis. Es la primera vez que la compañía recurre a deuda para crecer.",
+      "why_it_matters": "Señala la escala de capital que exige desplegar robotaxis a gran escala.",
+      "url": "https://techcrunch.com/2026/10/08/waymo-locks-in-5b-loan-from-blackstone-pimco-to-fuel-robotaxi-expansion",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Waymo acaba de endeudarse por primera vez: 5.000 millones de dólares para multiplicar su flota de robotaxis. Nadie había financiado así un despliegue a esta escala.\n\n#Waymo #Robotaxi #Alphabet #AutonomousDriving\nhttps://techcrunch.com/2026/10/08/waymo-locks-in-5b-loan-from-blackstone-pimco-to-fuel-robotaxi-expansion",
+        "linkedin": "Waymo acaba de endeudarse por primera vez en su historia: 5.000 millones de dólares para seguir ampliando su flota de robotaxis.\n\nHasta ahora Alphabet lo financiaba desde caja; esta vez entran Blackstone y PIMCO. 𝗘𝗹 𝗿𝗼𝗯𝗼𝘁𝗮𝘅𝗶 𝗵𝗮 𝗱𝗲𝗷𝗮𝗱𝗼 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗱𝗲 𝗶𝗻𝗴𝗲𝗻𝗶𝗲𝗿í𝗮 𝗽𝗮𝗿𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗿𝘀𝗲 𝗲𝗻 𝘂𝗻 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗱𝗲 𝗯𝗮𝗹𝗮𝗻𝗰𝗲, y eso estrecha el círculo de quien puede competir: desplegar a escala exige acceso a deuda barata que muy pocos operadores tienen. Para los que miramos el sector desde Europa, la pregunta incómoda ya no es cuándo llegará la tecnología, sino si quedará espacio para alguien que no sea una filial de una gran tecnológica.\n\n#Waymo #Robotaxi #Alphabet #AutonomousDriving\n\nhttps://techcrunch.com/2026/10/08/waymo-locks-in-5b-loan-from-blackstone-pimco-to-fuel-robotaxi-expansion"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Colección de plugins open source de Anthropic pensados para que los profesionales del conocimiento los usen dentro de Claude Cowork. Es la vía más directa para ampliar lo que puede hacer el asistente en tareas del día a día sin montarte nada por tu cuenta.",
+      "language": "Python",
+      "stars": 27380,
+      "social": {
+        "x": "Anthropic acaba de soltar sus plugins para Claude Cowork: 27.380 estrellas y open source. La vía más rápida de ampliar lo que hace tu asistente.\n\n#Anthropic #ClaudeCowork #OpenSource #Python\nhttps://github.com/anthropics/knowledge-work-plugins",
+        "linkedin": "ANTHROPIC ACABA DE PUBLICAR SUS PLUGINS PARA EL TRABAJO DEL CONOCIMIENTO.\n\nSi usas Claude Cowork en tareas del día a día, hasta ahora ampliar lo que podía hacer dependía de ti: montar tus propias integraciones, pelearte con el prompt y cruzar los dedos para que nada se rompiera.\n\nEste repositorio cambia eso. Anthropic abre su colección de plugins pensada para perfiles de conocimiento, y ya acumula 27.380 estrellas. 𝗟𝗮 𝘃í𝗮 𝗺á𝘀 𝗱𝗶𝗿𝗲𝗰𝘁𝗮 𝗱𝗲 𝗮𝗺𝗽𝗹𝗶𝗮𝗿 𝗲𝗹 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝘀𝗶𝗻 𝗺𝗼𝗻𝘁𝗮𝗿𝘁𝗲 𝗻𝗮𝗱𝗮 𝗽𝗼𝗿 𝘁𝘂 𝗰𝘂𝗲𝗻𝘁𝗮.\n\n→ Plugins orientados a tareas concretas del día a día, no demos genéricas.\n→ Escritos en Python, fáciles de leer y de adaptar a tu propio flujo.\n→ Open source: puedes inspeccionar qué hace cada plugin antes de dárselo a tu asistente.\n→ Se integran directamente en Claude Cowork, sin infraestructura propia.\n\nSi alguna vez has pensado «esto debería hacerlo yo con mis herramientas», este repo te ahorra la primera semana de trabajo.\n\nGuárdatelo para cuando te toque montar ese flujo interno. Te dejo el repositorio abajo.\n\n#Anthropic #ClaudeCowork #OpenSource #Python\n\nhttps://github.com/anthropics/knowledge-work-plugins"
+      }
+    },
+    {
+      "name": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "description": "Motor de creación en Rust para artistas, diseñadores y cineastas que quieren construir sus propias herramientas creativas en lugar de encadenar programas genéricos. Interesa por su enfoque deliberado y por el rendimiento que le da Rust.",
+      "language": "Rust",
+      "stars": 6893,
+      "social": {
+        "x": "No encadenes más programas genéricos. Artcraft es un motor en Rust para construir tus propias herramientas creativas y ya tiene 6.893 estrellas.\n\n#Artcraft #Rust #OpenSource #GitHub\nhttps://github.com/storytold/artcraft",
+        "linkedin": "ENCADENAR PROGRAMAS GENÉRICOS NO ES UN FLUJO DE TRABAJO, ES UNA CADENA DE PARCHES.\n\nArtcraft es un motor de creación escrito en Rust para artistas, diseñadores y cineastas que quieren algo distinto: 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗶𝗿 𝘀𝘂𝘀 𝗽𝗿𝗼𝗽𝗶𝗮𝘀 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 𝗰𝗿𝗲𝗮𝘁𝗶𝘃𝗮𝘀 en lugar de pelearse con programas que casi nunca encajan con lo que tienen en la cabeza.\n\nLleva 6.893 estrellas en GitHub, y no es casualidad. Rust aparece justo donde más duele en este terreno: rendimiento predecible cuando el proyecto crece y la herramienta tiene que responder sin que se note el peso por debajo.\n\nQué propone:\n→ Un motor de creación en lugar de una aplicación cerrada.\n→ Tú decides qué herramientas necesitas y cómo se conectan entre ellas.\n→ Rendimiento de Rust, que en un motor así se traduce en menos esperas.\n→ Un enfoque deliberado: menos programas encadenados, más control sobre tu propio pipeline.\n\nSi trabajas con gráficos, diseño o cine y alguna vez has pensado «esto lo haría yo mejor», este repositorio es un buen punto de partida.\n\nGuárdatelo antes de que se pierda en el timeline. Te dejo el enlace al repo abajo.\n\n#Artcraft #Rust #OpenSource #GitHub\n\nhttps://github.com/storytold/artcraft"
+      }
+    }
+  ]
+}
