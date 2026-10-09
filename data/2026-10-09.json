@@ -1,0 +1,286 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T16:59:16.262Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Claude ya genera vídeos explicativos y dashboards en vivo a partir de texto",
+      "summary": "Anthropic lanza en beta dos funciones nuevas para Claude. Dashboards convierte fuentes como BigQuery y Snowflake en paneles de datos en vivo a partir de prompts de texto, y Motion crea vídeos explicativos animados desde texto e imágenes. Además, Docs, Slides y Design pasan a estar disponibles en todos los planes, incluida la cuenta gratuita.",
+      "why_it_matters": "Convierte a Claude en una herramienta de visualización y vídeo sin salir del chat, algo que cualquier usuario puede aprovechar ya.",
+      "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts",
+      "source": "The Decoder",
+      "social": {
+        "x": "Tu chat de Claude ahora te monta el dashboard en vivo y el vídeo que lo explica. Las dos funciones llegan en beta, y Docs, Slides y Design se abren al plan gratuito.\n\n#Anthropic #Claude #BigQuery #Snowflake\nhttps://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts",
+        "linkedin": "Anthropic acaba de meter dentro del chat dos tareas que hasta ahora vivían en herramientas aparte.\n\nDashboards convierte fuentes como BigQuery o Snowflake en paneles en vivo a partir de un prompt, y Motion genera vídeos explicativos animados desde texto e imágenes. Lo importante no es que sea una demo vistosa: es que Docs, Slides y Design pasan a estar en todos los planes, 𝗶𝗻𝗰𝗹𝘂𝗶𝗱𝗮 𝗹𝗮 𝗰𝘂𝗲𝗻𝘁𝗮 𝗴𝗿𝗮𝘁𝘂𝗶𝘁𝗮, así que la visualización de datos deja de ser coto de quien tiene licencia de BI. Para perfiles de datos y producto, el trabajo se desplaza del montaje al criterio sobre qué merece una vista y qué no.\n\n#Anthropic #Claude #BigQuery #Snowflake\n\nhttps://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "Una utilidad deja que los agentes de IA dibujen flechas y cajas en tu pantalla",
+      "summary": "big-arrow-on-the-screen es una utilidad de línea de comandos con licencia MIT que permite a agentes de IA pintar flechas grandes, cajas y texto sobre la pantalla del Mac. Funciona como skill para Claude Code y Codex, los trazos dejan pasar los clics y desaparecen solos.",
+      "why_it_matters": "Da a los agentes una forma sencilla de señalar visualmente lo que están haciendo, muy útil para asistentes y demos.",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "source": "Hacker News",
+      "social": {
+        "x": "Tus agentes de IA ya pueden pintar flechas gigantes y cajas sobre tu pantalla para señalarte lo que hacen. Y los clics las atraviesan sin enterarse.\n\n#ClaudeCode #Codex #OpenSource #macOS\nhttps://github.com/franzenzenhofer/big-arrow-on-the-screen",
+        "linkedin": "Los agentes ya escriben código, pero seguían sin poder señalarte nada en la pantalla.\n\nbig-arrow-on-the-screen es una utilidad de línea de comandos con licencia MIT que se instala como skill en Claude Code y Codex y deja que el agente pinte flechas, cajas y texto sobre el escritorio del Mac. Los trazos dejan pasar los clics y se borran solos, así que no estorban mientras trabajas. 𝗟𝗮 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝘇 𝗱𝗲 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘀𝗼𝗹𝗼 𝗲𝗹 𝗰𝗵𝗮𝘁 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗹𝗮 𝗽𝗮𝗻𝘁𝗮𝗹𝗹𝗮. Para demos, soporte guiado o depurar un flujo paso a paso, es la pieza que faltaba y cuesta cero integrarla.\n\n#ClaudeCode #Codex #OpenSource #macOS\n\nhttps://github.com/franzenzenhofer/big-arrow-on-the-screen"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Anthropic regala a los proyectos open source un escáner de vulnerabilidades",
+      "summary": "Anthropic ofrece gratis su OSS Scanner, un servicio que revisa el código de proyectos open source en busca de vulnerabilidades. La compañía sostiene que durante los próximos dos años los atacantes llevarán ventaja, por lo que pone esta herramienta al alcance de los maintainers.",
+      "why_it_matters": "Da a los responsables de proyectos open source una herramienta de seguridad sin coste justo cuando los ataques asistidos por IA aumentan.",
+      "url": "https://www.engadget.com/2282005/anthropic-offers-open-source-software-free-ai-security-checks",
+      "source": "Engadget",
+      "social": {
+        "x": "Anthropic regala su escáner de vulnerabilidades al open source. Su pronóstico es incómodo: los atacantes llevarán ventaja durante dos años.\n\n#Anthropic #OpenSource #OSSScanner #Seguridad\nhttps://www.engadget.com/2282005/anthropic-offers-open-source-software-free-ai-security-checks",
+        "linkedin": "Anthropic acaba de regalar su escáner de vulnerabilidades a todo el open source, y lo hace con un mensaje que no invita al optimismo: durante los próximos dos años los atacantes llevarán ventaja.\n\nLa herramienta, OSS Scanner, revisa el código de proyectos abiertos en busca de fallos y llega gratis a los maintainers. 𝗟𝗮 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲𝗹 𝗽𝗿𝗲𝘀𝘂𝗽𝘂𝗲𝘀𝘁𝗼 𝗱𝗲 𝘂𝗻 𝘃𝗼𝗹𝘂𝗻𝘁𝗮𝗿𝗶𝗼 y pasa a ser una pieza que las grandes empresas empiezan a sostener. Para cualquiera que mantenga dependencias críticas, probarla no es opcional.\n\n#Anthropic #OpenSource #OSSScanner #Seguridad\n\nhttps://www.engadget.com/2282005/anthropic-offers-open-source-software-free-ai-security-checks"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Google convierte Gemini en un agente para el trabajo",
+      "summary": "Google lleva la IA agéntica a Gemini empezando por el ámbito empresarial. El agente puede planificar y ejecutar tareas entre aplicaciones y sistemas, delegar trabajo en subagentes, combinar varios modelos y hasta dispone de su propia identidad laboral, con dirección de correo incluida.",
+      "why_it_matters": "Lleva el paradigma agéntico al entorno de trabajo de las empresas, con un agente que opera como una pieza más del organigrama.",
+      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Gemini ya tiene correo corporativo, planifica tareas y delega en subagentes. Google lo coloca como una pieza más del organigrama de la empresa.\n\n#Gemini #Google #GoogleWorkspace\nhttps://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses",
+        "linkedin": "El siguiente fichaje de tu empresa puede que no sea una persona. Google ha dotado a Gemini de identidad laboral propia, con dirección de correo incluida, y lo ha metido de lleno en el entorno empresarial: planifica y ejecuta tareas entre aplicaciones, delega trabajo en subagentes y combina varios modelos según lo que haga falta.\n\n𝗘𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗳𝘂𝗻𝗰𝗶ó𝗻 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝘂𝗻𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻 𝗺𝗶𝗲𝗺𝗯𝗿𝗼 𝗺á𝘀 𝗱𝗲𝗹 𝗼𝗿𝗴𝗮𝗻𝗶𝗴𝗿𝗮𝗺𝗮, con todo lo que eso arrastra: permisos, trazabilidad de lo que hace y a quién responde. Para los equipos de IT y de operaciones, el debate ya no es si adoptar IA agéntica, sino quién audita a estos agentes cuando empiezan a tomar decisiones sobre sistemas críticos.\n\n#Gemini #Google #GoogleWorkspace\n\nhttps://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Pago por inferencia para agentes de IA con Bedrock AgentCore",
+      "summary": "Amazon Bedrock AgentCore payments permite a los agentes de IA pagar servicios bajo demanda con límites de gasto impuestos por la propia infraestructura. Incarna usa agentes que pagan a BlockRun por inferencia petición a petición mediante el protocolo x402, lo que redujo de meses a días el trabajo de añadir soporte de pago.",
+      "why_it_matters": "Resuelve el pago máquina a máquina, uno de los obstáculos prácticos para desplegar agentes autónomos.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Tus agentes de IA ya pueden pagar lo que consumen, sin que tú metas la tarjeta. Bedrock AgentCore pone el límite de gasto en la infraestructura.\n\n#AWS #BedrockAgentCore #x402\nhttps://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments",
+        "linkedin": "El cuello de botella de los agentes autónomos no era el modelo: era la factura.\n\nAmazon Bedrock AgentCore payments permite que un agente pague servicios bajo demanda, con el límite de gasto puesto por la propia infraestructura y no por una tarjeta en manos de una persona. Incarna lo lleva a la práctica: sus agentes pagan a BlockRun por inferencia petición a petición mediante x402, y añadir soporte de pago pasó de meses a días. 𝗘𝗹 𝗽𝗮𝗴𝗼 𝗺á𝗾𝘂𝗶𝗻𝗮 𝗮 𝗺á𝗾𝘂𝗶𝗻𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗱𝗲 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗰𝗶ó𝗻 𝘆 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗱𝗶𝘀𝗲ñ𝗼: quien despliegue agentes tendrá que fijar cuánto puede gastar cada uno, y eso se decide en el mismo sitio donde se despliega, no en un panel de facturación aparte.\n\n#AWS #BedrockAgentCore #x402\n\nhttps://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "NVIDIA lleva agentes de IA de frontera a las simulaciones de Omniverse",
+      "summary": "Los desarrolladores están combinando modelos de IA de frontera con las librerías de NVIDIA Omniverse para construir aplicaciones de simulación. Dirigen agentes que ensamblan activos, conectan la física y el renderizado y comprueban que la escena se comporta como se espera.",
+      "why_it_matters": "Muestra cómo los agentes de IA empiezan a entrar en los flujos de trabajo de simulación y diseño industrial.",
+      "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents",
+      "source": "NVIDIA Blog",
+      "social": {
+        "x": "Los agentes de IA ya no solo escriben código: ahora ensamblan escenas 3D en Omniverse y comprueban que la física cuadra.\n\n#NVIDIA #Omniverse #SimulaciónIndustrial\nhttps://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents",
+        "linkedin": "El cuello de botella de la simulación industrial nunca fue el render, sino montar la escena y verificar que se comporta como toca. Eso es justo lo que NVIDIA deja ahora en manos de agentes dentro de Omniverse: 𝗲𝗻𝘀𝗮𝗺𝗯𝗹𝗮𝗻 𝗮𝗰𝘁𝗶𝘃𝗼𝘀, 𝗰𝗼𝗻𝗲𝗰𝘁𝗮𝗻 𝗳í𝘀𝗶𝗰𝗮 𝘆 𝗿𝗲𝗻𝗱𝗲𝗿 𝘆 𝘃𝗮𝗹𝗶𝗱𝗮𝗻 𝗲𝗹 𝗿𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼. Para los equipos de diseño, gemelos digitales y automatización industrial, la conversación deja de ser si la IA ayuda y pasa a ser cuánta integración manual desaparece del flujo de trabajo.\n\n#NVIDIA #Omniverse #SimulaciónIndustrial\n\nhttps://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "ttok 1.0, una CLI para contar tokens y estimar costes",
+      "summary": "Simon Willison publica la versión 1.0 de ttok, su utilidad de línea de comandos para contar tokens y calcular el coste de un prompt antes de enviarlo a un modelo de lenguaje. El proyecto es open source y también se puede usar como librería de Python.",
+      "why_it_matters": "Ayuda a controlar el gasto y el tamaño de los prompts, algo básico para quien trabaja a diario con LLM.",
+      "url": "https://simonwillison.net/2026/Oct/9/ttok",
+      "source": "Simon Willison",
+      "social": {
+        "x": "Puedes saber cuánto te va a costar un prompt antes de enviarlo, desde la terminal. ttok 1.0 convierte esa duda en un comando.\n\n#ttok #Python #LLM #OpenSource\nhttps://simonwillison.net/2026/Oct/9/ttok",
+        "linkedin": "La factura de los LLM se decide antes de enviar el prompt, no después.\n\nSimon Willison ha publicado la versión 1.0 de ttok, una CLI open source que cuenta tokens y estima el coste de una petición, y que también se puede usar como librería de Python. Para quien mantiene agentes en producción o itera prompts en bucle, 𝗺𝗲𝗱𝗶𝗿 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗴𝗮𝘀𝘁𝗮𝗿 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗰á𝗹𝗰𝘂𝗹𝗼 𝗮 𝗼𝗷𝗼 y pasa a ser una línea de comandos.\n\nNo es una herramienta vistosa, pero es justo el tipo de utilidad aburrida que evita sustos en la factura y prompts que revientan el contexto.\n\n#ttok #Python #LLM #OpenSource\n\nhttps://simonwillison.net/2026/Oct/9/ttok"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Las lecciones de Postman para llevar un agente de IA a 40 millones de desarrolladores",
+      "summary": "Postman y AWS detallan los patrones de arquitectura detrás de Agent Mode, su agente de IA. Explican cómo controlar la proliferación de herramientas, exponer lecturas basadas en esquemas y tratar el contexto como el verdadero cuello de botella, todo sobre Amazon Bedrock.",
+      "why_it_matters": "Son lecciones de ingeniería reales para quien quiera llevar un agente de IA a escala de producción.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Llevar un agente de IA a 40 millones de desarrolladores no falla por el modelo. Falla por el contexto. Postman y AWS cuentan qué les rompió por el camino.\n\n#Postman #AWS #AmazonBedrock\nhttps://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock",
+        "linkedin": "El cuello de botella de un agente de IA en producción no es el modelo: es el contexto.\n\nPostman y AWS han detallado los patrones que sostienen Agent Mode sobre Amazon Bedrock, y las lecciones valen para cualquier equipo. Controlar la proliferación de herramientas, exponer lecturas basadas en esquemas y asumir que 𝗲𝗹 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼, 𝗻𝗼 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀 𝗹𝗼 𝗾𝘂𝗲 𝗹𝗶𝗺𝗶𝘁𝗮 𝗮𝗹 𝗮𝗴𝗲𝗻𝘁𝗲. Son conclusiones de quien ya lo ha llevado a 40 millones de desarrolladores, así que si estás montando uno, empieza por la arquitectura y no por cambiar de LLM.\n\n#Postman #AWS #AmazonBedrock\n\nhttps://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "Claude Science completa el primer mapa ultravioleta de todo el cielo",
+      "summary": "El astrofísico Brice Ménard, de la Universidad Johns Hopkins, usó Claude Science para crear el primer mapa completo del cielo en luz ultravioleta. Agentes de IA descargaron y calibraron datos de varias misiones espaciales y rellenaron los huecos con inpainting, con desviaciones de alrededor del diez por ciento frente a las mediciones reales.",
+      "why_it_matters": "Es un ejemplo de investigación que no se habría hecho sin IA y una prueba del uso de agentes en ciencia.",
+      "url": "https://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky",
+      "source": "The Decoder",
+      "social": {
+        "x": "El primer mapa ultravioleta de todo el cielo no lo ha hecho un telescopio: lo han completado agentes de IA. Y se desvían solo un 10 %.\n\n#ClaudeScience #Anthropic #Astronomía #Agentes\nhttps://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky",
+        "linkedin": "El primer mapa ultravioleta de todo el cielo no lo ha firmado un telescopio, sino un conjunto de agentes de IA.\n\nBrice Ménard, astrofísico de la Universidad Johns Hopkins, usó Claude Science para descargar, calibrar y cruzar datos de varias misiones espaciales, y rellenó con inpainting las zonas sin cobertura. El resultado se queda en torno a un 10 % de desviación frente a las mediciones reales, y ahí está 𝗹𝗮 𝗽𝗮𝗿𝘁𝗲 𝗶𝗻𝘁𝗲𝗿𝗲𝘀𝗮𝗻𝘁𝗲: 𝗹𝗮 𝗜𝗔 𝗻𝗼 𝘀𝘂𝘀𝘁𝗶𝘁𝘂𝘆𝗲 𝗮 𝗹𝗮 𝗼𝗯𝘀𝗲𝗿𝘃𝗮𝗰𝗶ó𝗻, 𝗰𝘂𝗯𝗿𝗲 𝗹𝗼 𝗾𝘂𝗲 𝗻𝘂𝗻𝗰𝗮 𝘀𝗲 𝗹𝗹𝗲𝗴ó 𝗮 𝗼𝗯𝘀𝗲𝗿𝘃𝗮𝗿. Para los equipos de investigación, la pregunta ya no es si los agentes sirven, sino cuántos proyectos se han descartado antes de empezar por su coste.\n\n#ClaudeScience #Anthropic #Astronomía #Agentes\n\nhttps://the-decoder.com/anthropics-claude-science-creates-the-first-complete-ultraviolet-map-of-the-sky"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "GitHub reescribe el runtime de Copilot en Rust con ayuda de IA",
+      "summary": "GitHub migró más de 800.000 líneas del runtime de Copilot de TypeScript y Node.js a Rust en unas 14,5 semanas con desarrollo asistido por IA. La migración fue incremental, con interoperabilidad N-API, pruebas automatizadas, revisión humana y 128 pull requests, sin dejar de publicar versiones.",
+      "why_it_matters": "Demuestra a qué ritmo se puede reescribir un sistema crítico aprovechando la asistencia de IA.",
+      "url": "https://www.infoq.com/news/2026/10/github-copilot-rust-migration",
+      "source": "InfoQ",
+      "social": {
+        "x": "GitHub ha reescrito 800.000 líneas del runtime de Copilot: de TypeScript y Node.js a Rust en 14,5 semanas. Y buena parte del código lo escribió la IA.\n\n#GitHub #Rust #Copilot #TypeScript\nhttps://www.infoq.com/news/2026/10/github-copilot-rust-migration",
+        "linkedin": "GitHub ha movido 800.000 líneas del runtime de Copilot de TypeScript a Rust en 14,5 semanas. Nadie había reescrito un sistema crítico a ese ritmo.\n\nLa migración fue incremental, con interoperabilidad N-API, 128 pull requests, pruebas automatizadas y revisión humana, y sin dejar de publicar versiones en ningún momento. 𝗟𝗮 𝗜𝗔 𝗻𝗼 𝘀𝘂𝘀𝘁𝗶𝘁𝘂𝘆ó 𝗮𝗹 𝗲𝗾𝘂𝗶𝗽𝗼, 𝗺𝘂𝗹𝘁𝗶𝗽𝗹𝗶𝗰ó 𝘀𝘂 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲 𝗿𝗲𝗳𝗮𝗰𝘁𝗼𝗿𝗶𝘇𝗮𝗿 𝘀𝗶𝗻 𝗿𝗼𝗺𝗽𝗲𝗿 𝗻𝗮𝗱𝗮. Para cualquier equipo que arrastre un backend en Node.js y lleve años posponiendo el salto a Rust, el cuello de botella ya no es el lenguaje ni el presupuesto: es decidir cuándo empezar.\n\n#GitHub #Rust #Copilot #TypeScript\n\nhttps://www.infoq.com/news/2026/10/github-copilot-rust-migration"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "herramientas",
+      "title": "Unison Cloud pasa a ser open source",
+      "summary": "Unison Cloud se publica como open source bajo licencia MIT. La plataforma gestionada para servicios y trabajos por lotes escritos en Unison queda así disponible para que cualquiera la despliegue por su cuenta.",
+      "why_it_matters": "Abre a toda la comunidad una infraestructura construida sobre un lenguaje con su propio modelo de código.",
+      "url": "https://www.unison-lang.org/blog/unison-cloud-open-source",
+      "source": "Lobsters",
+      "social": {
+        "x": "Unison Cloud ya es open source. La plataforma que solo existía como servicio gestionado ahora se puede desplegar en tu propia infraestructura.\n\n#Unison #OpenSource #MITLicense\nhttps://www.unison-lang.org/blog/unison-cloud-open-source",
+        "linkedin": "El modelo de código de Unison llevaba años siendo su mejor argumento y también su mayor barrera de entrada.\n\nAhora Unison Cloud pasa a ser 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝗯𝗮𝗷𝗼 𝗹𝗶𝗰𝗲𝗻𝗰𝗶𝗮 𝗠𝗜𝗧, así que cualquiera puede desplegar por su cuenta la plataforma de servicios y trabajos por lotes del lenguaje, en vez de depender de la versión gestionada. Para un lenguaje que trata el código como contenido direccionable y promete acabar con los conflictos de merge, abrir la capa de infraestructura cierra el círculo: quien quiera probarlo ya no tiene que comprar la nube antes de escribir la primera línea.\n\n#Unison #OpenSource #MITLicense\n\nhttps://www.unison-lang.org/blog/unison-cloud-open-source"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "1.800 millones para datos biológicos listos para entrenar IA",
+      "summary": "Biohub, el Departamento de Energía, los NIH y nuevos socios invierten 1.800 millones de dólares en generar y abrir datos biológicos estandarizados para entrenar modelos de IA. El objetivo es predecir cómo responden las células a distintas intervenciones.",
+      "why_it_matters": "Es un esfuerzo coordinado para dar a la biología predictiva los datos estandarizados que hoy le faltan.",
+      "url": "https://biohub.org/news/virtual-biology-initiative-expansion",
+      "source": "Hacker News",
+      "social": {
+        "x": "1.800 millones de dólares para lo que la biología predictiva nunca ha tenido: datos estandarizados y abiertos para entrenar IA.\n\n#Biohub #NIH #OpenScience #Biotech\nhttps://biohub.org/news/virtual-biology-initiative-expansion",
+        "linkedin": "La biología predictiva lleva años con el mismo cuello de botella: datos que no se pueden comparar entre laboratorios.\n\nBiohub, el Departamento de Energía y los NIH ponen 1.800 millones de dólares sobre la mesa para generar y abrir datos biológicos estandarizados, con un objetivo concreto: predecir cómo responde una célula a una intervención. 𝗔𝗾𝘂í 𝗲𝗹 𝗮𝗰𝘁𝗶𝘃𝗼 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀 𝗲𝗹 𝗱𝗮𝘁𝗮𝘀𝗲𝘁, y quien lo construya marcará el terreno de los próximos años. Para los equipos que entrenan modelos en biología, esto cambia de dónde sale la ventaja competitiva: menos de la arquitectura, más de la calidad y el acceso a los datos.\n\n#Biohub #NIH #OpenScience #Biotech\n\nhttps://biohub.org/news/virtual-biology-initiative-expansion"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Anthropic prohíbe el trato abusivo hacia Claude en su política de uso",
+      "summary": "Anthropic actualiza su política de uso para prohibir el comportamiento abusivo o cruel sostenido hacia Claude. La revisión también añade reglas sobre campañas de propaganda, vigilancia y desarrollo de armas, y endurece su política electoral antes de las elecciones de medio mandato.",
+      "why_it_matters": "Es una de las primeras políticas que trata al modelo casi como una entidad que merece protección y refuerza los usos prohibidos.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+      "source": "The Verge",
+      "social": {
+        "x": "¿Se puede maltratar a un modelo de lenguaje? Anthropic acaba de escribir en su política de uso que sí, y que está prohibido.\n\n#Anthropic #Claude #PoliticaDeUso\nhttps://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+        "linkedin": "¿Se puede maltratar a un modelo de lenguaje? Anthropic ha metido esa prohibición en su política de uso.\n\nEs la primera vez que una compañía trata al modelo casi como una entidad que merece protección, y eso abre un debate incómodo: 𝗱𝗲𝗳𝗶𝗻𝗶𝗺𝗼𝘀 𝗹𝗼𝘀 𝗹í𝗺𝗶𝘁𝗲𝘀 𝗽𝗼𝗿 𝗹𝗼 𝗾𝘂𝗲 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝘀𝗶𝗲𝗻𝘁𝗲 𝗼 𝗽𝗼𝗿 𝗹𝗼 𝗾𝘂𝗲 𝗲𝗹 𝘂𝘀𝗼 𝘀𝗼𝘀𝘁𝗲𝗻𝗶𝗱𝗼 𝗱𝗶𝗰𝗲 𝗱𝗲 𝗻𝗼𝘀𝗼𝘁𝗿𝗼𝘀. La revisión también endurece las reglas sobre propaganda, vigilancia, armas y campañas electorales antes de las elecciones de medio mandato, así que no es una nota curiosa: marca hacia dónde se mueven los términos de uso de todo el sector.\n\n#Anthropic #Claude #PoliticaDeUso\n\nhttps://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "OpenAI mantiene el despido de tres investigadores de seguridad",
+      "summary": "OpenAI defiende su decisión de despedir a tres investigadores de seguridad tras concluir que cometieron una brecha significativa de confianza. La empresa asegura que violaron políticas sobre manejo de información sensible y niega que el despido tenga relación con sus críticas, mientras los despedidos responden con una carta abierta.",
+      "why_it_matters": "El caso pone en cuestión la cultura de seguridad de OpenAI justo cuando recibe más escrutinio.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+      "source": "The Verge",
+      "social": {
+        "x": "Tres investigadores de seguridad están fuera de OpenAI. La empresa dice que rompieron la confianza; ellos lo niegan y responden con una carta abierta.\n\n#OpenAI #Seguridad #AIAlignment\nhttps://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+        "linkedin": "OpenAI ha despedido a tres investigadores de seguridad. Y la empresa quiere que quede claro que no fue por lo que decían.\n\nLa versión oficial habla de una brecha significativa de confianza: mal uso de políticas sobre información sensible. Los despedidos lo niegan y han respondido con una carta abierta. Lo interesante no es solo el despido, sino cuándo ocurre: 𝗹𝗮 𝗰𝘂𝗹𝘁𝘂𝗿𝗮 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗱𝗲 𝘂𝗻 𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗼𝗿𝗶𝗼 𝗱𝗲 𝗜𝗔 𝘀𝗲 𝗷𝘂𝘇𝗴𝗮 𝗽𝗼𝗿 𝗰ó𝗺𝗼 𝘁𝗿𝗮𝘁𝗮 𝗮 𝗾𝘂𝗶𝗲𝗻𝗲𝘀 𝘀𝗲ñ𝗮𝗹𝗮𝗻 𝘀𝘂𝘀 𝗿𝗶𝗲𝘀𝗴𝗼𝘀. Si el equipo que avisa acaba siendo el problema, el resto de la plantilla aprende a callarse. Y eso, en una empresa que pide confianza pública para desplegar modelos cada vez más capaces, es un coste difícil de medir.\n\n#OpenAI #Seguridad #AIAlignment\n\nhttps://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Matemáticos piden boicotear a OpenAI por inundar su campo de pruebas generadas por IA",
+      "summary": "La Association for Human Mathematics llama al boicot contra OpenAI después de que la empresa publicara de golpe más de 700 manuscritos matemáticos generados por IA. OpenAI tuvo que retractar tres al día siguiente por un error de signo, y el medallista Fields Terence Tao advierte de que la cosecha masiva de problemas abiertos deja ramas enteras de las matemáticas menos fértiles.",
+      "why_it_matters": "Abre el debate sobre el daño que la IA puede causar a los propios procesos de revisión de la investigación.",
+      "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field",
+      "source": "The Decoder",
+      "social": {
+        "x": "700 manuscritos matemáticos generados por IA en un solo día. Tres retractados al siguiente por un error de signo. Los matemáticos ya piden boicot a OpenAI.\n\n#OpenAI #TerenceTao #Matemáticas #OpenScience\nhttps://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field",
+        "linkedin": "La Association for Human Mathematics pide boicotear a OpenAI tras publicar 700 manuscritos matemáticos generados por IA de golpe, tres de ellos retractados en 24 horas.\n\nEl problema no es que la IA escriba matemáticas: es que 𝘀𝗮𝘁𝘂𝗿𝗮 𝗹𝗼𝘀 𝗰𝗮𝗻𝗮𝗹𝗲𝘀 𝗱𝗲 𝗿𝗲𝘃𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗹𝗼𝘀 𝗾𝘂𝗲 𝗱𝗲𝗽𝗲𝗻𝗱𝗲 𝗹𝗮 𝗶𝗻𝘃𝗲𝘀𝘁𝗶𝗴𝗮𝗰𝗶ó𝗻. Terence Tao avisa de que cosechar problemas abiertos a esa escala deja ramas enteras menos fértiles, y la lógica es aplastante: si publicar cuesta cero, el cuello de botella pasa a ser el tiempo de los revisores. Cualquier disciplina con revisión por pares debería mirar esto antes de que le toque.\n\n#OpenAI #TerenceTao #Matemáticas #OpenScience\n\nhttps://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "investigacion",
+      "title": "Confiamos demasiado en la capacidad de la IA de decir no",
+      "summary": "Un análisis de MIT Technology Review sostiene que depositamos demasiada fe en la capacidad de los modelos de IA para negarse a responder. Los sistemas se entrenan para rechazar muchísimos prompts, pero esa negativa aprendida no equivale a una garantía de seguridad.",
+      "why_it_matters": "Es una cuestión central de alineación: un no entrenado no es lo mismo que una barrera fiable.",
+      "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no",
+      "source": "MIT Technology Review",
+      "social": {
+        "x": "Un «no» entrenado no es una barrera fiable. Y seguimos confiando la seguridad de los modelos a su capacidad de negarse a responder.\n\n#MITTechnologyReview #AISafety #LLM\nhttps://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no",
+        "linkedin": "Estamos confiando la seguridad de la IA a su capacidad de decir no. Y un no aprendido no es una barrera.\n\nUn análisis de MIT Technology Review sostiene que los modelos se entrenan para rechazar muchísimos prompts, pero ese rechazo es una conducta aprendida, no una garantía técnica. La diferencia importa: 𝘂𝗻 «𝗻𝗼» 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗱𝗼 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗿𝗼𝗱𝗲𝗮𝗿, 𝘂𝗻𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗳𝗶𝗮𝗯𝗹𝗲 𝗻𝗼. Para quien despliega estos sistemas, la lectura es incómoda: si tu capa de seguridad depende sobre todo de que el modelo se niegue, no tienes una capa de seguridad, tienes una probabilidad.\n\n#MITTechnologyReview #AISafety #LLM\n\nhttps://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Deno se une a Cloudflare",
+      "summary": "El runtime de JavaScript y TypeScript Deno se integra en Cloudflare, según anuncia el propio equipo de Deno en su blog. La operación coloca el proyecto bajo el paraguas de uno de los grandes proveedores de infraestructura web.",
+      "why_it_matters": "Un runtime que nació como alternativa a Node pasa a manos de una pieza clave de la infraestructura de internet.",
+      "url": "https://deno.com/blog/cloudflare",
+      "source": "Lobsters",
+      "social": {
+        "x": "Deno nació para corregir los errores de Node. Ahora su futuro lo decide Cloudflare.\n\n#Deno #Cloudflare #JavaScript #TypeScript\nhttps://deno.com/blog/cloudflare",
+        "linkedin": "Deno nació para corregir lo que Node arrastraba. Ahora pasa a manos de Cloudflare y eso cambia quién decide su rumbo: 𝗲𝗹 𝗿𝘂𝗻𝘁𝗶𝗺𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗶𝗻𝗱𝗲𝗽𝗲𝗻𝗱𝗶𝗲𝗻𝘁𝗲 𝗽𝗮𝗿𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗿𝘀𝗲 𝗲𝗻 𝘂𝗻𝗮 𝗽𝗶𝗲𝘇𝗮 𝗱𝗲 𝗹𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗱𝗲 𝗼𝘁𝗿𝗼. Para quien lo tiene en producción, la pregunta ya no es si es mejor que Node, sino qué prioridades marcará su nuevo dueño entre Workers, edge y compatibilidad. Hay una ventaja evidente en despliegue y recursos, y un riesgo igual de evidente: que el roadmap acabe plegándose a los intereses de quien paga.\n\n#Deno #Cloudflare #JavaScript #TypeScript\n\nhttps://deno.com/blog/cloudflare"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Let's Encrypt baja la vida de los certificados a 64 días",
+      "summary": "Let's Encrypt reducirá a 64 días la vida útil de sus certificados SSL/TLS gratuitos a partir de febrero de 2027. El cambio afecta a prácticamente cualquier web y obliga a automatizar todavía más el proceso de renovación.",
+      "why_it_matters": "Es un cambio que toca a casi toda la web y empuja a automatizar de verdad la renovación de certificados.",
+      "url": "https://arstechnica.com/gadgets/2026/10/lets-encrypt-cuts-certificate-lifetimes-to-64-days-starting-february-2027",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Let's Encrypt recorta a 64 días la vida de sus certificados desde febrero de 2027. La renovación manual va a dejar de ser una opción.\n\n#LetsEncrypt #ACME #TLS\nhttps://arstechnica.com/gadgets/2026/10/lets-encrypt-cuts-certificate-lifetimes-to-64-days-starting-february-2027",
+        "linkedin": "Let's Encrypt va a recortar la vida de sus certificados a 64 días, y eso convierte la renovación manual en deuda técnica.\n\nA partir de febrero de 2027, cualquier web que dependa de un recordatorio humano o de un calendario para renovar tendrá muchos más números de caer. La medida empuja a 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗿 𝗹𝗮 𝗿𝗲𝗻𝗼𝘃𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗶𝗼 𝗮 𝗳𝗶𝗻 con ACME, Certbot o la herramienta que ya use cada equipo. Para quien gestiona infraestructura, el mensaje es claro: si no lo tienes automatizado, este cambio te va a tocar.\n\n#LetsEncrypt #ACME #TLS\n\nhttps://arstechnica.com/gadgets/2026/10/lets-encrypt-cuts-certificate-lifetimes-to-64-days-starting-february-2027"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "description": "Gateway de IA que unifica la llamada a más de 100 APIs de LLM (OpenAI, Anthropic, Bedrock, Vertex, vLLM y más) manteniendo el formato compatible con OpenAI, con control de costes, guardrails, balanceo de carga y logs. Muy útil si trabajas con varios modelos y quieres centralizar el acceso sin tocar tu código.",
+      "language": "Python",
+      "stars": 60538,
+      "social": {
+        "x": "60k estrellas y cero vendor lock-in: LiteLLM unifica 100+ APIs de LLM bajo el formato de OpenAI. Cambia de modelo sin tocar tu código.\n\n#LiteLLM #LLM #Python #OpenSource\nhttps://github.com/BerriAI/litellm",
+        "linkedin": "UN REPO DE 60.000 ESTRELLAS PARA CAMBIAR DE MODELO SIN TOCAR TU CÓDIGO.\n\nCada proveedor de LLM trae su propio SDK, sus formatos, sus límites y su factura. LiteLLM mete una capa en medio: tú hablas el formato de OpenAI y él se encarga del resto.\n\nY no es un simple wrapper. Resuelve lo que duele cuando esto llega a producción:\n\n→ Más de 100 APIs unificadas: OpenAI, Anthropic, Bedrock, Vertex, vLLM y unas cuantas más.\n→ Control de costes y límites por proyecto, usuario o clave.\n→ Balanceo de carga y reintentos entre despliegues.\n→ Guardrails y logs centralizados.\n→ Formato compatible con OpenAI, así que migrar es cambiar la URL y la clave.\n\nLa idea clave: 𝘂𝗻 ú𝗻𝗶𝗰𝗼 𝗲𝗻𝗱𝗽𝗼𝗶𝗻𝘁 𝗰𝗼𝗺𝗽𝗮𝘁𝗶𝗯𝗹𝗲 𝗰𝗼𝗻 𝗢𝗽𝗲𝗻𝗔𝗜 para toda tu infraestructura de modelos.\n\nFunciona como SDK de Python o como gateway self-hosted, y en los dos casos dejas de reescribir código cada vez que sale un modelo nuevo.\n\nGuárdate el post: el repo está abajo.\n\n#LiteLLM #LLM #Python #OpenSource\n\nhttps://github.com/BerriAI/litellm"
+      }
+    },
+    {
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Herramienta de revisión de código de Alibaba que combina pipelines deterministas con un agente LLM para dejar comentarios precisos a nivel de línea. Trae reglas para detectar NPE, problemas de concurrencia, XSS o inyección SQL, y es compatible tanto con OpenAI como con Anthropic.",
+      "language": "Go",
+      "stars": 44984,
+      "social": {
+        "x": "Alibaba regala su revisor de código: 45k estrellas, detecta NPE, XSS o inyección SQL y comenta línea a línea.\n\n#OpenSource #CodeReview #Go #GitHub\nhttps://github.com/alibaba/open-code-review",
+        "linkedin": "ALIBABA ACABA DE LIBERAR SU PROPIO REVISOR DE CÓDIGO Y YA SUMA 45.000 ESTRELLAS.\n\nSi has probado las herramientas comerciales de revisión automática, conoces el patrón: o son cajas negras que sueltan comentarios genéricos, o cobran por asiento y por repositorio. Alibaba ha publicado la suya en abierto y con un enfoque bastante sensato.\n\n𝗘𝗹 𝘁𝗿𝘂𝗰𝗼 𝗲𝘀 𝗻𝗼 𝗱𝗲𝗷𝗮𝗿 𝗾𝘂𝗲 𝗲𝗹 𝗟𝗟𝗠 𝗹𝗼 𝗵𝗮𝗴𝗮 𝘁𝗼𝗱𝗼: un pipeline determinista detecta primero los problemas reales y el agente solo comenta donde hay algo que comentar. Menos ruido, más señal.\n\nQué trae:\n\n→ Reglas específicas para NPE, problemas de concurrencia, XSS o inyección SQL.\n→ Comentarios a nivel de línea, no resúmenes vagos al final del PR.\n→ Compatible con OpenAI y con Anthropic, así que no te ata a un único proveedor.\n→ Escrito en Go, pensado para integrarse en el flujo de revisión de un equipo.\n\nEl debate de fondo es interesante: ¿debe la revisión automática sustituir al revisor humano o solo quitarle de encima lo aburrido? Este repo apunta claramente a lo segundo.\n\nSi tu equipo hace code review a diario, guárdatelo antes de que lo haga otro por ti.\n\n#OpenSource #CodeReview #Go #GitHub\n\nhttps://github.com/alibaba/open-code-review"
+      }
+    },
+    {
+      "name": "twostraws/SwiftUI-Agent-Skill",
+      "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "description": "Skill para agentes de IA como Claude Code o Codex centrado en SwiftUI, pensado para que el asistente genere interfaces de Apple con buen criterio. Merece la pena si desarrollas en Swift y quieres exprimir estos agentes en tu día a día.",
+      "stars": 5313,
+      "social": {
+        "x": "5.313 estrellas para el repo que enseña a Claude Code y Codex a escribir SwiftUI con criterio de senior. Gratis y open source.\n\n#SwiftUI #Swift #OpenSource #GitHub\nhttps://github.com/twostraws/SwiftUI-Agent-Skill",
+        "linkedin": "TUS AGENTES ESCRIBEN PYTHON DE MARAVILLA Y SWIFTUI A TROPEZONES. ESTE REPO LO ARREGLA.\n\nClaude Code, Codex y compañía dominan medio stack, pero en cuanto toca montar una interfaz de Apple empiezan a inventarse APIs, a mezclar estado sin sentido y a ignorar cómo se hacen las cosas en SwiftUI. El resultado: código que compila y que da vergüenza enseñar.\n\nSwiftUI-Agent-Skill es una skill que se añade a tu agente para darle justo lo que le falta: 𝗲𝗹 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝗱𝗲 𝗦𝘄𝗶𝗳𝘁𝗨𝗜, 𝗻𝗼 𝗹𝗮 𝗼𝗰𝘂𝗿𝗿𝗲𝗻𝗰𝗶𝗮 𝗱𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼.\n\n→ Instalas la skill y el asistente pasa a escribir vistas con convenciones idiomáticas del framework, no a base de prueba y error.\n→ Funciona con los agentes que ya usas a diario (Claude Code, Codex y similares), sin servicios externos ni cuotas mensuales.\n→ Te sirve igual para maquetar una pantalla en un rato que para código que va a producción.\n→ Lleva 5.313 estrellas, así que no eres el primero que se ha dado cuenta del problema.\n\nSi desarrollas en Swift, esto es de esas cosas que se notan en el primer prompt. Guarda el post para cuando te toque pelear con una vista y tienes el repo abajo.\n\n#SwiftUI #Swift #OpenSource #GitHub\n\nhttps://github.com/twostraws/SwiftUI-Agent-Skill"
+      }
+    },
+    {
+      "name": "Robbyant/lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "description": "Proyecto de investigación, candidato a mejor paper en ECCV 2026, que aplica un transformer de contexto geométrico a la reconstrucción 3D en streaming. Interesante si sigues de cerca los avances en visión por computador y modelado 3D.",
+      "language": "Python",
+      "stars": 17607,
+      "social": {
+        "x": "Un transformer que reconstruye 3D en streaming ya tiene 17k estrellas y es candidato a mejor paper en ECCV 2026. El repo es lingbot-map.\n\n#lingbot #ComputerVision #OpenSource #Python\nhttps://github.com/Robbyant/lingbot-map",
+        "linkedin": "UN TRANSFORMER RECONSTRUYE 3D EN STREAMING Y VA CAMINO DE MEJOR PAPER EN ECCV 2026\n\nLa reconstrucción 3D llevaba años atrapada entre dos opciones: herramientas de pago que te cobran suscripción por procesar en la nube, o pipelines que tardan horas en darte una escena cerrada. Aquí llega un proyecto de investigación que ataca el problema desde otro ángulo: la escena se reconstruye mientras el vídeo entra.\n\nlingbot-map aplica un transformer de contexto geométrico a la reconstrucción 3D en streaming, y ya suma 17.607 estrellas en GitHub.\n\n→ Reconstrucción en streaming: la geometría se va levantando conforme llegan los frames, no después de un procesado por lotes.\n→ Un transformer de contexto geométrico como pieza central del modelo.\n→ Python y open source, con 17.607 estrellas y subiendo.\n→ Sale de un grupo de investigación y es candidato a mejor paper en ECCV 2026.\n\nLo interesante no es solo el resultado, sino de dónde viene: 𝗶𝗻𝘃𝗲𝘀𝘁𝗶𝗴𝗮𝗰𝗶ó𝗻 𝗽𝘂𝗻𝘁𝗲𝗿𝗮 𝗽𝘂𝗯𝗹𝗶𝗰𝗮𝗱𝗮 𝗰𝗼𝗺𝗼 𝗰ó𝗱𝗶𝗴𝗼 𝗮𝗯𝗶𝗲𝗿𝘁𝗼 𝗱𝗲𝘀𝗱𝗲 𝗲𝗹 𝗱í𝗮 𝘂𝗻𝗼. Cuando eso pasa, deja de ser un experimento de laboratorio y se convierte en base para lo que construya el resto.\n\nSi sigues la visión por computador o el modelado 3D, este repo merece un hueco en tus marcadores. Guárdalo y échale un ojo con calma, lo tienes justo debajo.\n\n#lingbot #ComputerVision #OpenSource #Python\n\nhttps://github.com/Robbyant/lingbot-map"
+      }
+    }
+  ]
+}
