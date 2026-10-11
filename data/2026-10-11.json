@@ -1,0 +1,302 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T16:18:58.752Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Odyssey-3, un modelo generativo del mundo que puedes probar gratis",
+      "summary": "Odyssey ha abierto una preview pública de Odyssey-3, un modelo de 14.000 millones de parámetros que genera entornos interactivos a partir de prompts de texto en tiempo real. La compañía asegura que también sirve para controlar robots, drones e incluso GTA V, y dice que logra los mejores resultados en benchmarks de física, aunque la metodología de esas pruebas tiene limitaciones.",
+      "why_it_matters": "Es una ocasión poco habitual de probar gratis un world model generativo y comprobar hasta dónde llega hoy la simulación interactiva.",
+      "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free",
+      "source": "The Decoder",
+      "social": {
+        "x": "Puedes generar mundos interactivos con un prompt de texto y probarlo gratis. Odyssey abre Odyssey-3, 14.000 millones de parámetros, y dice que también controla drones y GTA V.\n\n#WorldModels #Odyssey3 #Robótica\nhttps://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free",
+        "linkedin": "Los world models generativos llevaban años siendo una demo de laboratorio. Desde hoy puedes abrir uno en el navegador y trastear con él.\n\nOdyssey ha publicado una preview pública de Odyssey-3, un modelo de 14.000 millones de parámetros que genera entornos interactivos a partir de prompts de texto en tiempo real. La compañía va más allá y asegura que sirve para controlar robots, drones o incluso GTA V, con 𝗹𝗼𝘀 𝗺𝗲𝗷𝗼𝗿𝗲𝘀 𝗿𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼𝘀 𝗲𝗻 𝗯𝗲𝗻𝗰𝗵𝗺𝗮𝗿𝗸𝘀 𝗱𝗲 𝗳í𝘀𝗶𝗰𝗮, aunque la metodología de esas pruebas tiene limitaciones. Para quien trabaja en simulación, robótica o videojuegos, es la forma más barata de calibrar qué se puede esperar hoy de la generación de mundos.\n\n#WorldModels #Odyssey3 #Robótica\n\nhttps://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "Diario de a bordo de la IA local: qué hardware hace falta y qué puedes esperar",
+      "summary": "The Verge relata su experiencia montando modelos como Hermes y Qwen en local en un Mac Studio, con el objetivo de no ceder sus datos personales a servicios en la nube. El artículo explica qué exige la IA local en RAM y en dinero, qué se puede conseguir hoy y en qué puntos aparece la frustración.",
+      "why_it_matters": "Funciona como guía realista para quien quiera ejecutar modelos en su propio equipo sin depender de la nube.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "source": "The Verge",
+      "social": {
+        "x": "Qwen y Hermes en local, en un Mac Studio: la IA sin nube funciona, pero te va a costar RAM, dinero y paciencia.\n\n#Qwen #MacStudio #LLM #SelfHosted\nhttps://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+        "linkedin": "Correr un modelo de IA en tu propio Mac ya no es un experimento de fin de semana: es una decisión de infraestructura con factura.\nThe Verge ha montado Hermes y Qwen en local, en un Mac Studio, para no ceder sus datos a la nube, y el balance es honesto: 𝗹𝗮 𝗜𝗔 𝗹𝗼𝗰𝗮𝗹 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮, 𝗽𝗲𝗿𝗼 𝘁𝗲 𝗼𝗯𝗹𝗶𝗴𝗮 𝗮 𝗽𝗮𝗴𝗮𝗿 𝗲𝗻 𝗥𝗔𝗠 𝘆 𝗲𝗻 𝗽𝗮𝗰𝗶𝗲𝗻𝗰𝗶𝗮. Para quien trabaja con datos sensibles, la pregunta ya no es si merece la pena, sino si el equipo que tienes aguanta el modelo que quieres. De momento la nube sigue ganando en comodidad; lo local, en control.\n\n#Qwen #MacStudio #LLM #SelfHosted\n\nhttps://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "investigacion",
+      "title": "Los equipos de agentes de IA gastan hasta 5,1 veces más tokens para casi ninguna mejora",
+      "summary": "Un análisis de Vals AI concluye que los equipos de agentes apenas superan a un agente en solitario y pueden llegar a costar 5,1 veces más. Solo uno de cada cuatro tests con GPT-6 Sol y Claude Opus 5.5 mostró una mejora medible, y los datos de Anthropic apuntan a que a partir de diez agentes la calidad se estanca mientras el gasto sigue subiendo.",
+      "why_it_matters": "Ayuda a decidir cuándo compensa desplegar varios agentes y cuándo basta con uno solo.",
+      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds",
+      "source": "The Decoder",
+      "social": {
+        "x": "Montar un equipo de agentes puede costar 5,1 veces más tokens que usar uno solo, y en la mayoría de tests la mejora es indistinguible.\n\n#Anthropic #ValsAI #LLM\nhttps://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds",
+        "linkedin": "Solo uno de cada cuatro tests con varios agentes mostró una mejora medible, y el gasto en tokens llegó a multiplicarse por 5,1.\nEl análisis de Vals AI, cruzado con los datos de Anthropic, dibuja un patrón incómodo: a partir de unos diez agentes la calidad se estanca mientras la factura sigue subiendo. 𝗠á𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗻𝗼 𝗲𝘀 𝗺á𝘀 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱, 𝗲𝘀 𝗺á𝘀 𝗰𝗼𝘀𝘁𝗲. Para quien diseña arquitecturas con LLM, la pregunta ya no es cómo orquestar más agentes, sino cuántos aguantan de verdad una mejora medible antes de que el presupuesto se los coma.\n\n#Anthropic #ValsAI #LLM\n\nhttps://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "investigacion",
+      "title": "Context Language Models: los modelos que editan su propio contexto",
+      "summary": "Investigadores de Meta, el MIT y la Universidad de Washington presentan los Context Language Models, un enfoque en el que el propio modelo gestiona y edita su contexto en lugar de depender de mecanismos predefinidos de resumen, compresión y recuperación. Los autores reportan mejoras notables tanto en rendimiento como en coste de cómputo.",
+      "why_it_matters": "Apunta a modelos más baratos de ejecutar sin perder calidad, algo aplicable de forma directa a productos con contexto largo.",
+      "url": "https://www.infoq.com/news/2026/10/context-language-models",
+      "source": "InfoQ",
+      "social": {
+        "x": "Meta, el MIT y Washington han entrenado modelos que deciden qué olvidar. Y salen más baratos que los que resumen su contexto.\n\n#Meta #MIT #ContextEngineering\nhttps://www.infoq.com/news/2026/10/context-language-models",
+        "linkedin": "El problema del contexto largo nunca fue el tamaño de la ventana, sino quién decide qué se queda dentro.\n\nHasta ahora lo resolvíamos por fuera: resúmenes, compresión y recuperación montados a mano sobre el modelo. Los Context Language Models que firman Meta, el MIT y la Universidad de Washington le dan la vuelta y ponen esa gestión 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲𝗹 𝗽𝗿𝗼𝗽𝗶𝗼 𝗺𝗼𝗱𝗲𝗹𝗼, que aprende a editar su contexto sobre la marcha. Los autores reportan mejor rendimiento y menos cómputo, que en producto se traduce en respuestas largas sin que se dispare la factura.\n\n#Meta #MIT #ContextEngineering\n\nhttps://www.infoq.com/news/2026/10/context-language-models"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Gremlin lanza Foresight AI, agentes para anticipar fallos en producción",
+      "summary": "Gremlin ha puesto en disponibilidad general Foresight AI, un producto agéntico que analiza servicios en busca de fallos potenciales, recomienda cambios y vuelve a ejecutar las pruebas para comprobar que la corrección funciona. Está pensado para equipos de fiabilidad y operaciones.",
+      "why_it_matters": "Lleva los agentes al terreno de la ingeniería de fiabilidad, donde el retorno se mide en incidencias evitadas.",
+      "url": "https://www.infoq.com/news/2026/10/gremlin-foresight-ai",
+      "source": "InfoQ",
+      "social": {
+        "x": "Tu próximo on-call puede ser un agente: Gremlin pone en GA Foresight AI, que caza fallos antes de que revienten y verifica que el arreglo funciona.\n\n#Gremlin #SRE #Observabilidad #AIOps\nhttps://www.infoq.com/news/2026/10/gremlin-foresight-ai",
+        "linkedin": "El próximo refuerzo para tu equipo de fiabilidad no es una persona: es un agente.\n\nGremlin ha puesto en disponibilidad general Foresight AI, que analiza los servicios en busca de fallos potenciales, recomienda cambios y vuelve a ejecutar las pruebas para confirmar que la corrección funciona. 𝗘𝗹 𝘀𝗮𝗹𝘁𝗼 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗱𝗲𝘁𝗲𝗰𝘁𝗮𝗿 𝗲𝗹 𝗳𝗮𝗹𝗹𝗼, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗰𝗲𝗿𝗿𝗮𝗿 𝗲𝗹 𝗯𝘂𝗰𝗹𝗲 𝗲𝗻𝘁𝗲𝗿𝗼 𝘀𝗶𝗻 𝗾𝘂𝗲 𝗻𝗮𝗱𝗶𝗲 𝗹𝗼 𝗲𝗺𝗽𝘂𝗷𝗲 𝗮 𝗺𝗮𝗻𝗼, y ahí es donde la mayoría de agentes aplicados al código se quedan a medio camino. Para los equipos de SRE y operaciones, la discusión deja de ser si adoptan agentes y pasa a ser cuánto de su runbook están dispuestos a delegar.\n\n#Gremlin #SRE #Observabilidad #AIOps\n\nhttps://www.infoq.com/news/2026/10/gremlin-foresight-ai"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "Una tarde creando videojuegos malísimos con el AI Playground de Google",
+      "summary": "Wired dedica una jornada a generar videojuegos con el AI Playground de Google y el resultado es un montón de experimentos flojos, útiles sobre todo para calibrar qué sale bien y qué no con estas herramientas. El texto también reflexiona sobre la avalancha de contenido generado.",
+      "why_it_matters": "Muestra de forma práctica los límites actuales de la generación de juegos con IA.",
+      "url": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground",
+      "source": "Wired",
+      "social": {
+        "x": "Una tarde entera generando videojuegos con el AI Playground de Google y el veredicto es incómodo: la IA hace prototipos, no juegos que apetezca jugar.\n\n#Google #AIPlayground #Gamedev\nhttps://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground",
+        "linkedin": "Generar un videojuego nunca había sido tan rápido. Que merezca la pena jugarlo sigue siendo otra cosa.\n\nWired dedicó una jornada completa al AI Playground de Google y el resultado es una colección de experimentos flojos que, precisamente por eso, sirven para calibrar dónde está de verdad la generación de juegos con IA: 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝘀𝗰𝗿𝗶𝗯𝗶𝗿 𝗰ó𝗱𝗶𝗴𝗼, 𝗲𝘀 𝘁𝗲𝗻𝗲𝗿 𝘂𝗻𝗮 𝗶𝗱𝗲𝗮 𝘆 𝘀𝗮𝗯𝗲𝗿 𝗶𝘁𝗲𝗿𝗮𝗿𝗹𝗮. Para cualquier equipo que ya use estas herramientas, la conclusión práctica es que el criterio humano que decide qué merece existir pesa más que nunca, justo cuando producir contenido cuesta casi cero y el ruido de fondo no deja de crecer.\n\n#Google #AIPlayground #Gamedev\n\nhttps://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "investigacion",
+      "title": "Los agentes de IA exageran sus resultados y aún están lejos de investigar solos",
+      "summary": "Epoch AI y Anthropic han llegado por separado a la misma conclusión: modelos como GPT-5.6 Sol y Claude Fable 5 pueden ejecutar experimentos, pero carecen de autocrítica científica y de creatividad genuina. En el mejor de los casos Sol alcanzó el 15 % de la puntuación humana de referencia, y lo hizo con métodos que los investigadores ya conocían.",
+      "why_it_matters": "Frena las expectativas sobre la investigación autónoma y señala exactamente dónde fallan los agentes.",
+      "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds",
+      "source": "The Decoder",
+      "social": {
+        "x": "Epoch AI y Anthropic coinciden por separado: los agentes de IA ejecutan experimentos, pero no saben investigar solos. El mejor se quedó en el 15 % de la referencia humana.\n\n#Anthropic #EpochAI #AgentesAutónomos\nhttps://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds",
+        "linkedin": "Que un agente de IA ejecute experimentos no significa que sepa hacer ciencia.\n\nEpoch AI y Anthropic han llegado por separado a la misma conclusión: GPT-5.6 Sol y Claude Fable 5 pueden llevar a cabo experimentos, pero carecen de autocrítica científica y de creatividad real. El mejor caso, Sol, se quedó en el 15 % de la puntuación humana de referencia, y lo hizo repitiendo métodos que los investigadores ya conocían. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗷𝘂𝘇𝗴𝗮𝗿: distinguir un resultado sólido de uno que solo suena bien. Para quien esté diseñando pipelines de investigación autónoma, ahí es donde conviene poner el esfuerzo ahora.\n\n#Anthropic #EpochAI #AgentesAutónomos\n\nhttps://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "investigacion",
+      "title": "500.000 millones de tokens después: agentes de IA para decompilar un shooter",
+      "summary": "Un desarrollador relata tres meses de trabajo usando agentes de IA para decompilar un popular juego de disparos en primera persona, con el objetivo de lograr una recreación precisa, estable y completa. El post detalla el proceso, los resultados y los problemas que fueron apareciendo.",
+      "why_it_matters": "Es un caso real a gran escala de agentes de IA aplicados a la ingeniería inversa de software.",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation",
+      "source": "Hacker News",
+      "social": {
+        "x": "500.000 millones de tokens después, los agentes de IA han decompilado un shooter entero. Tres meses de trabajo y una recreación completa del juego.\n\n#ReverseEngineering #LLM #GameDev\nhttps://momo5502.com/posts/2026-10-09-game-decompilation",
+        "linkedin": "500.000 millones de tokens. Tres meses. Un shooter decompilado de principio a fin por agentes de IA.\n\nEl autor relata el proceso completo: qué funcionó, qué se rompió por el camino y cuánto tuvo que intervenir él. Más allá del mérito técnico, es la prueba de que 𝗹𝗮 𝗶𝗻𝗴𝗲𝗻𝗶𝗲𝗿í𝗮 𝗶𝗻𝘃𝗲𝗿𝘀𝗮 𝗱𝗲 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝘆𝗮 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗱𝗲𝗹𝗲𝗴𝗮𝗿 𝗲𝗻 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 cuando el objetivo está bien acotado y hay alguien revisando. Para cualquier equipo con código heredado y sin documentación, ese es el escenario que conviene empezar a estudiar.\n\n#ReverseEngineering #LLM #GameDev\n\nhttps://momo5502.com/posts/2026-10-09-game-decompilation"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "Usar IA solo diez minutos reduce tu capacidad de persistir en tareas difíciles",
+      "summary": "Un investigador de UC Berkeley plantea preguntas de fondo sobre cómo nos relacionamos con la IA en el día a día, a partir de indicios de que incluso un uso breve puede mermar la constancia ante problemas complicados. El trabajo invita a pensar en los efectos cognitivos del uso cotidiano de estos sistemas.",
+      "why_it_matters": "Aporta evidencia sobre un coste poco discutido de delegar tareas en la IA.",
+      "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+      "source": "Hacker News",
+      "social": {
+        "x": "Diez minutos usando IA bastan para que aguantes menos ante un problema difícil. Un investigador de Berkeley pone el foco en un coste que nadie mide.\n\n#UCBerkeley #IAGenerativa #Cognición\nhttps://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+        "linkedin": "Diez minutos de IA pueden bastar para que persistas menos ante un problema difícil.\nUn investigador de UC Berkeley apunta a un coste del que casi no se habla: el problema no es solo lo que la IA hace, sino 𝗹𝗼 𝗾𝘂𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗿 𝗲𝗻 𝗻𝗼𝘀𝗼𝘁𝗿𝗼𝘀. La constancia ante la dificultad se ejercita, y quitar la fricción es cómodo hasta que hace falta esa resistencia. Para quien diseña productos o flujos de trabajo con IA, ahí queda una pregunta incómoda: cuánta fricción merece la pena eliminar.\n\n#UCBerkeley #IAGenerativa #Cognición\n\nhttps://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "La IA ya puede ejecutar ataques devastadores contra infraestructuras críticas y nadie está preparado",
+      "summary": "The Register recoge demostraciones en las que agentes de IA mueven brazos robóticos y manipulan las pantallas de los operadores de dispositivos OT, además de capacidades para atacar infraestructura crítica. El texto subraya que los entornos industriales no están preparados para este tipo de amenazas.",
+      "why_it_matters": "Traslada el riesgo de la IA del terreno teórico al de los sistemas industriales y críticos.",
+      "url": "https://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450",
+      "source": "The Register",
+      "social": {
+        "x": "Agentes de IA que mueven brazos robóticos y manipulan las pantallas de los operadores de una planta industrial. Ya se ha demostrado, y nadie está preparado.\n\n#OTSecurity #CiberseguridadIndustrial #InfraestructurasCríticas\nhttps://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450",
+        "linkedin": "El primer ataque con IA que debería quitar el sueño no va contra un chatbot: va contra una válvula, un brazo robótico y la pantalla del operador que los controla.\n\nThe Register recoge demostraciones en las que agentes de IA manipulan interfaces de dispositivos OT y toman el control de maquinaria física. 𝗟𝗼𝘀 𝗲𝗻𝘁𝗼𝗿𝗻𝗼𝘀 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮𝗹𝗲𝘀 𝗹𝗹𝗲𝘃𝗮𝗻 𝗮ñ𝗼𝘀 𝗱𝗶𝘀𝗲ñ𝗮𝗱𝗼𝘀 𝗽𝗮𝗿𝗮 𝗳𝗮𝗹𝗹𝗮𝗿 𝗱𝗲 𝗳𝗼𝗿𝗺𝗮 𝘀𝗲𝗴𝘂𝗿𝗮, 𝗻𝗼 𝗽𝗮𝗿𝗮 𝗿𝗲𝘀𝗶𝘀𝘁𝗶𝗿 𝗮 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗾𝘂𝗲 𝗶𝗺𝗽𝗿𝗼𝘃𝗶𝘀𝗮 𝘀𝗼𝗯𝗿𝗲 𝗹𝗮 𝗺𝗮𝗿𝗰𝗵𝗮. Mientras la conversación pública sigue en modelos y benchmarks, la brecha real está en plantas sin actualizar y en equipos de seguridad que no tienen visibilidad sobre la capa física. La pregunta ya no es si la IA puede hacerlo, sino quién audita eso antes de que ocurra.\n\n#OTSecurity #CiberseguridadIndustrial #InfraestructurasCríticas\n\nhttps://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "Cloudflare compra Deno para reforzar el modelo de programación de Workers",
+      "summary": "Cloudflare ha adquirido Deno con la intención de mejorar el modelo de programación de su plataforma Workers. La operación afecta a uno de los runtimes de JavaScript y TypeScript más conocidos y a la comunidad que se ha formado a su alrededor.",
+      "why_it_matters": "Es un movimiento que puede redefinir el desarrollo serverless en JavaScript y TypeScript.",
+      "url": "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Deno, el runtime que muchos usaban para huir de Node, ahora es de Cloudflare. Y Workers es la razón.\n\n#Cloudflare #Deno #JavaScript #Serverless\nhttps://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model",
+        "linkedin": "Deno acaba de dejar de ser independiente: Cloudflare lo ha comprado para rediseñar el modelo de programación de Workers.\n\nEs el cierre del círculo de uno de los runtimes más apreciados de la comunidad de JavaScript y TypeScript, nacido precisamente como respuesta a los errores de Node. 𝗦𝗶 𝘁𝘂 𝘀𝘁𝗮𝗰𝗸 𝘀𝗲𝗿𝘃𝗲𝗿𝗹𝗲𝘀𝘀 𝗽𝗮𝘀𝗮 𝗽𝗼𝗿 𝗪𝗼𝗿𝗸𝗲𝗿𝘀, 𝗲𝘀𝘁𝗼 𝘁𝗲 𝘁𝗼𝗰𝗮 𝗱𝗲 𝗰𝗲𝗿𝗰𝗮: el equipo de Deno llevará las decisiones de su runtime a una plataforma que ya tiene sus propias reglas y su propio negocio. La pregunta que queda abierta es si Deno conserva como proyecto open source la independencia que prometió cuando nació.\n\n#Cloudflare #Deno #JavaScript #Serverless\n\nhttps://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "AWS mejora los buses de eventos personalizados de EventBridge",
+      "summary": "Amazon EventBridge estrena buses personalizados mejorados que permiten compartir un bus centralizado entre cuentas, con entrega ordenada, gestión simplificada de suscriptores, replay de eventos, deduplicación por contenido y un nuevo modelo de precios por publicador y suscriptor.",
+      "why_it_matters": "Facilita las arquitecturas de eventos entre cuentas y cambia la forma de facturar ese tráfico.",
+      "url": "https://www.infoq.com/news/2026/10/aws-enhanced-eventbridge-buses",
+      "source": "InfoQ",
+      "social": {
+        "x": "AWS permite ahora compartir un mismo bus de EventBridge entre varias cuentas. Lo interesante no es eso: es a quién le pasa la factura.\n\n#AWS #EventBridge #Cloud #ArquitecturaDeEventos\nhttps://www.infoq.com/news/2026/10/aws-enhanced-eventbridge-buses",
+        "linkedin": "El bus de eventos deja de pertenecer a una sola cuenta: EventBridge ya permite compartirlo entre cuentas de AWS, con entrega ordenada, replay y deduplicación por contenido.\n\nEl cambio de fondo no es técnico, es de facturación: 𝗲𝗹 𝗻𝘂𝗲𝘃𝗼 𝗺𝗼𝗱𝗲𝗹𝗼 𝗰𝗼𝗯𝗿𝗮 𝗽𝗼𝗿 𝘀𝗲𝗽𝗮𝗿𝗮𝗱𝗼 𝗮 𝗽𝘂𝗯𝗹𝗶𝗰𝗮𝗱𝗼𝗿 𝘆 𝘀𝘂𝘀𝗰𝗿𝗶𝗽𝘁𝗼𝗿, así que el coste del tráfico entre cuentas ya no queda donde estaba. Para quien tiene arquitecturas de eventos repartidas entre cuentas, esto simplifica el gobierno del bus central, pero conviene revisar el etiquetado y el control de costes antes de mover nada a producción.\n\n#AWS #EventBridge #Cloud #ArquitecturaDeEventos\n\nhttps://www.infoq.com/news/2026/10/aws-enhanced-eventbridge-buses"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "Byte Language Models: transformers que trabajan con bytes crudos y superan a los modelos de subpalabras",
+      "summary": "Un paper cuestiona que los modelos de lenguaje necesiten tokenizadores explícitos para ser eficientes y demuestra que transformers estándar pueden procesar secuencias de bytes crudos, superando a los modelos de subpalabras a medida que crece el número de parámetros. Los autores sostienen que la mayor longitud de secuencia no conlleva el coste que se le atribuía.",
+      "why_it_matters": "Si se confirma, elimina una pieza fija de las arquitecturas actuales y simplifica los pipelines de datos.",
+      "url": "https://arxiv.org/html/2610.05978v1",
+      "source": "Lobsters",
+      "social": {
+        "x": "El tokenizador, ese paso que nadie cuestiona en los modelos de lenguaje, podría sobrar. Un paper procesa bytes crudos y supera a los modelos de subpalabras a medida que crecen los parámetros.\n\n#Transformers #Tokenizers #NLP\nhttps://arxiv.org/html/2610.05978v1",
+        "linkedin": "El tokenizador lleva años siendo esa pieza que nadie discute. Un paper acaba de ponerla en cuestión.\n\nTransformers estándar procesando secuencias de bytes crudos superan a los modelos de subpalabras conforme crece el número de parámetros, y el coste de trabajar con secuencias más largas no es el que se le atribuía. Si se confirma, 𝗱𝗲𝘀𝗮𝗽𝗮𝗿𝗲𝗰𝗲 𝘂𝗻 𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁𝗲 𝗳𝗶𝗷𝗼 𝗱𝗲 𝗹𝗮𝘀 𝗮𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮𝘀 𝗮𝗰𝘁𝘂𝗮𝗹𝗲𝘀 y los pipelines de datos se simplifican de golpe. Para quien mantiene vocabularios, reglas de normalización y parches por idioma, la pregunta ya no es si merece la pena mirarlo, sino cuándo.\n\n#Transformers #Tokenizers #NLP\n\nhttps://arxiv.org/html/2610.05978v1"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "arXiv limita a dos envíos por mes y persona por la avalancha de papers de IA",
+      "summary": "A partir de octubre de 2026, arXiv limitará los envíos a dos por persona y mes. Las submissions mensuales se han duplicado en dos años y en la categoría cs.AI se han multiplicado por más de seis, algo que según la plataforma se debe a una minoría de autores que inunda el servidor con trabajos de baja calidad y desborda a los moderadores voluntarios.",
+      "why_it_matters": "Afecta directamente a cómo se publica y se difunde la investigación en IA.",
+      "url": "https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server",
+      "source": "The Decoder",
+      "social": {
+        "x": "arXiv limitará a dos envíos al mes por persona desde octubre de 2026. La causa no es la calidad media: unos pocos están inundando el servidor.\n\n#arXiv #csAI #OpenScience\nhttps://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server",
+        "linkedin": "arXiv acaba de poner un techo de dos envíos al mes por persona. La plataforma que sostiene buena parte de la investigación en IA admite que ya no puede con el volumen.\n\nLas cifras lo explican: los envíos mensuales se han duplicado en dos años y en cs.AI se han multiplicado por más de seis. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗶𝗻𝘁𝗲𝗿é𝘀 𝗽𝗼𝗿 𝗽𝘂𝗯𝗹𝗶𝗰𝗮𝗿, 𝗲𝘀 𝗹𝗮 𝗺𝗼𝗱𝗲𝗿𝗮𝗰𝗶ó𝗻 𝘃𝗼𝗹𝘂𝗻𝘁𝗮𝗿𝗶𝗮 𝗾𝘂𝗲 𝘀𝗼𝘀𝘁𝗶𝗲𝗻𝗲 𝗲𝗹 𝗳𝗶𝗹𝘁𝗿𝗼 𝗱𝗲 𝗰𝗮𝗹𝗶𝗱𝗮𝗱. Si investigas o publicas, esto te toca de lleno: el preprint deja de ser un canal sin coste y pasa a ser un recurso limitado, con todo lo que eso supone para quién decide qué se difunde y cuándo.\n\n#arXiv #csAI #OpenScience\n\nhttps://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "lanzamientos",
+      "title": "LineageOS 24.0 ya está disponible",
+      "summary": "El proyecto LineageOS publica la versión 24.0 de su sistema Android alternativo, con el correspondiente registro de cambios y la lista de dispositivos compatibles. Como siempre, la actualización llega a móviles que han dejado de recibir soporte oficial.",
+      "why_it_matters": "Es la vía más popular para alargar la vida de móviles Android con el soporte caducado.",
+      "url": "https://lineageos.org/Changelog-32",
+      "source": "Lobsters",
+      "social": {
+        "x": "Tu móvil dejó de recibir actualizaciones hace años. LineageOS 24.0 acaba de decidir que eso no es motivo para jubilarlo.\n\n#LineageOS #Android #CustomROM #OpenSource\nhttps://lineageos.org/Changelog-32",
+        "linkedin": "Hay móviles perfectamente funcionales que mueren por calendario, no por hardware.\nLineageOS 24.0 ya está disponible y devuelve una versión reciente de Android a terminales que sus fabricantes abandonaron hace tiempo. 𝗘𝗹 𝘀𝗼𝗽𝗼𝗿𝘁𝗲 𝗱𝗲 𝗔𝗻𝗱𝗿𝗼𝗶𝗱 𝗲𝘀 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗮𝗹, 𝘆 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗰𝗼𝗺𝗼 𝗲𝘀𝘁𝗲 𝘀𝗼𝗻 𝗹𝗮 ú𝗻𝗶𝗰𝗮 𝘃í𝗮 𝗿𝗲𝗮𝗹 𝗾𝘂𝗲 𝗹𝗲 𝗾𝘂𝗲𝗱𝗮 𝗮𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼 para estirar la vida de su dispositivo. Si compras móvil pensando en aguantarlo varios años, la comunidad sigue siendo el plan B más fiable.\n\n#LineageOS #Android #CustomROM #OpenSource\n\nhttps://lineageos.org/Changelog-32"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "investigacion",
+      "title": "La NASA publica más de 800 GB de datos de la misión Artemis II",
+      "summary": "La NASA ha liberado más de 800 GB de imágenes, audio y vídeo de Artemis II, un fondo que ofrece una vista poco habitual del interior de una misión espacial histórica. El material queda disponible para consulta y descarga pública.",
+      "why_it_matters": "Es una fuente enorme y abierta de material real para divulgación, investigación y proyectos propios.",
+      "url": "https://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data",
+      "source": "The Verge",
+      "social": {
+        "x": "La NASA suelta 800 GB de imágenes, audio y vídeo de Artemis II. Crudo, sin editar y listo para descargar.\n\n#NASA #ArtemisII #OpenData\nhttps://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data",
+        "linkedin": "800 GB de material real de Artemis II, gratis y sin intermediarios.\n\nLa NASA ha abierto el archivo completo de la misión: imágenes, audio y vídeo que cualquiera puede descargar y reutilizar. Para quien hace divulgación o investigación, esto es materia prima que antes costaba semanas negociar, y 𝗲𝗹 𝗰𝗮𝘁á𝗹𝗼𝗴𝗼 𝗲𝗻𝘁𝗲𝗿𝗼 𝗱𝗲 𝘂𝗻𝗮 𝗺𝗶𝘀𝗶ó𝗻 𝗵𝗶𝘀𝘁ó𝗿𝗶𝗰𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗿𝗲𝗰𝘂𝗿𝘀𝗼 𝗰𝗲𝗿𝗿𝗮𝗱𝗼. Lo relevante no es el volumen, sino lo que se puede construir encima: documentales, visualizaciones o datasets para entrenar modelos con material verificado y con contexto.\n\n#NASA #ArtemisII #OpenData\n\nhttps://www.theverge.com/science/1009379/nasa-800gb-artemis-ii-data"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Sospechas de manipulación en carteras Ledger tras varios robos de criptomonedas",
+      "summary": "Varios usuarios de carteras Ledger han denunciado el vaciado de sus cuentas y las sospechas apuntan a dispositivos manipulados vendidos por CryptoBillis. Ledger ha pedido a ese vendedor que detenga las ventas mientras investiga y ha confirmado que el dispositivo de uno de los afectados contenía un implante de hardware no autorizado, visible en las fotos como una pequeña placa bajo la pantalla.",
+      "why_it_matters": "Recuerda que en cripto la cadena de suministro del hardware es tan crítica como el software.",
+      "url": "https://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts",
+      "source": "The Verge",
+      "social": {
+        "x": "El fallo no estaba en el firmware: había una placa soldada bajo la pantalla. Ledger investiga carteras manipuladas vendidas por un tercero.\n\n#Ledger #CryptoBillis #Criptomonedas\nhttps://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts",
+        "linkedin": "Puedes tener la clave bien guardada y aun así perderlo todo antes de encender el dispositivo.\n\nVarios usuarios de carteras Ledger han denunciado el vaciado de sus cuentas, y las sospechas apuntan a unidades manipuladas por el vendedor CryptoBillis. Ledger ya ha pedido a ese vendedor que detenga las ventas y ha confirmado que el dispositivo de uno de los afectados llevaba un implante de hardware no autorizado: una pequeña placa bajo la pantalla, visible en las fotos.\n\nEn cripto llevamos años auditando el software y dando por hecho el aparato. Si 𝗹𝗮 𝗰𝗮𝗱𝗲𝗻𝗮 𝗱𝗲 𝘀𝘂𝗺𝗶𝗻𝗶𝘀𝘁𝗿𝗼 𝗱𝗲𝗹 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 es el eslabón que nadie revisa, comprar a un revendedor sin verificar la integridad al recibirla deja de ser un ahorro y pasa a ser el riesgo. Afecta a cualquier equipo que reparta dispositivos, no solo a quien guarda sus propias claves.\n\n#Ledger #CryptoBillis #Criptomonedas\n\nhttps://www.theverge.com/tech/1009294/ledger-wallet-tampering-suspected-after-reports-of-crypto-thefts"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "investigacion",
+      "title": "Controlan con oxígeno el crecimiento de semiconductores 2D para futuros chips",
+      "summary": "Investigadores coreanos han encontrado la forma de evitar que los cristales de semiconductores 2D se formen en lugares indebidos usando oxígeno, un paso necesario para fabricarlos de manera reproducible. El objetivo es llevar la tecnología al sector comercial hacia 2030.",
+      "why_it_matters": "Los materiales 2D son una de las bazas para seguir escalando transistores cuando el silicio se agote.",
+      "url": "https://www.theregister.com/science/2026/10/11/researchers-work-out-how-to-control-2d-semiconductor-growth-for-future-chips/5301666",
+      "source": "The Register",
+      "social": {
+        "x": "Los chips del futuro pasan por los materiales 2D, pero crecerlos sin defectos era una lotería. Un truco con oxígeno acaba de cambiarlo.\n\n#Semiconductores #2DMaterials #Transistores\nhttps://www.theregister.com/science/2026/10/11/researchers-work-out-how-to-control-2d-semiconductor-growth-for-future-chips/5301666",
+        "linkedin": "El silicio tiene fecha de caducidad y los materiales 2D son la alternativa más firme que hay sobre la mesa. El problema nunca fue la física, sino la fábrica: los cristales 2D crecían donde no tocaba y cada oblea salía distinta, así que ningún fabricante podía apostar por ello. Un grupo de investigadores coreanos ha usado oxígeno para dirigir esa cristalización y hacer el proceso 𝗿𝗲𝗽𝗿𝗼𝗱𝘂𝗰𝗶𝗯𝗹𝗲 𝗮 𝗲𝘀𝗰𝗮𝗹𝗮, la condición sin la cual esta tecnología no sale del laboratorio. Con el objetivo comercial puesto en 2030, quien resuelva primero la producción en volumen se queda con la próxima generación de transistores.\n\n#Semiconductores #2DMaterials #Transistores\n\nhttps://www.theregister.com/science/2026/10/11/researchers-work-out-how-to-control-2d-semiconductor-growth-for-future-chips/5301666"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "herramientas",
+      "title": "Cómo el shredding de JSON da a Logfire mejoras de consulta de hasta 1000x",
+      "summary": "El equipo de Pydantic explica la técnica de dynamic shredding aplicada al JSON que ingiere Logfire, que descompone los datos semiestructurados para acelerar las consultas hasta mil veces. El artículo detalla el diseño y los motivos de semejante ganancia.",
+      "why_it_matters": "Es una técnica reutilizable por cualquiera que almacene y consulte grandes volúmenes de JSON.",
+      "url": "https://pydantic.dev/articles/dynamic-shredding-2026-01-26",
+      "source": "Lobsters",
+      "social": {
+        "x": "Pydantic ha cambiado cómo Logfire almacena el JSON y las consultas ahora van hasta 1000 veces más rápido. La técnica es reutilizable en cualquier sistema que guarde JSON.\n\n#Pydantic #Logfire #JSON\nhttps://pydantic.dev/articles/dynamic-shredding-2026-01-26",
+        "linkedin": "Guardar JSON tal cual es cómodo; consultarlo, no. El equipo de Pydantic ha aplicado dynamic shredding en Logfire para descomponer esos datos semiestructurados y llevar las consultas hasta 1000 veces más rápido, y ha publicado el diseño completo, no solo la cifra.\n\nLa lección no es de Logfire: 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝘀𝗲 𝘁𝗿𝗮𝘀𝗹𝗮𝗱𝗮 𝗱𝗲 𝗹𝗮 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮 𝗮 𝗹𝗮 𝗶𝗻𝗴𝗲𝘀𝘁𝗮, algo asumible en la mayoría de pipelines. Si tu producto depende de consultar eventos o logs en JSON, esta lectura cambia cómo diseñas el almacenamiento.\n\n#Pydantic #Logfire #JSON\n\nhttps://pydantic.dev/articles/dynamic-shredding-2026-01-26"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Nadella: deberíamos asumir que todos los modelos de IA están comprometidos",
+      "summary": "En una publicación extensa, el consejero delegado de Microsoft sostiene que ya no podemos aceptar un mundo en el que la IA sea un conjunto de cajas negras anidadas cuya respuesta aceptamos o rechazamos sin más. Pide un sistema más transparente, capaz de contener y observar los modelos y de dejar evidencia legible por humanos a prueba de manipulaciones.",
+      "why_it_matters": "Marca la postura de uno de los mayores proveedores de IA sobre confianza y control de modelos.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "source": "The Verge",
+      "social": {
+        "x": "Nadella pide algo raro en quien vende IA: asumir que todos los modelos están comprometidos y dejar de tratarlos como cajas negras.\n\n#Microsoft #Nadella #AISafety #SeguridadIA\nhttps://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+        "linkedin": "Que el CEO de Microsoft diga que hay que asumir que todos los modelos de IA están comprometidos no es un titular menor: es uno de los mayores proveedores del sector admitiendo que la confianza a ciegas ya no se sostiene.\n\nNadella pide dejar de aceptar cajas negras anidadas y construir un sistema capaz de contener y observar los modelos, con 𝗲𝘃𝗶𝗱𝗲𝗻𝗰𝗶𝗮 𝗹𝗲𝗴𝗶𝗯𝗹𝗲 𝗽𝗼𝗿 𝗵𝘂𝗺𝗮𝗻𝗼𝘀 𝘆 𝗮 𝗽𝗿𝘂𝗲𝗯𝗮 𝗱𝗲 𝗺𝗮𝗻𝗶𝗽𝘂𝗹𝗮𝗰𝗶𝗼𝗻𝗲𝘀. Para cualquier equipo que lleve IA a producción, esto mueve la prioridad: la trazabilidad y el control dejan de ser un extra de compliance y pasan a ser parte del diseño.\n\n#Microsoft #Nadella #AISafety #SeguridadIA\n\nhttps://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "Permite hacer inference con modelos de hasta 70B en una sola GPU con apenas 4 GB de VRAM. Es una forma muy práctica de probar LLM grandes sin gastarte una fortuna en hardware.",
+      "language": "Jupyter Notebook",
+      "stars": 36241,
+      "social": {
+        "x": "Un repo hace inference con modelos de 70B en una sola GPU de 4 GB de VRAM. 36.000 estrellas y sin comprar hardware nuevo.\n\n#AirLLM #LLM #OpenSource #GitHub\nhttps://github.com/lyogavin/airllm",
+        "linkedin": "UN MODELO DE 70B EN UNA GPU DE 4 GB DE VRAM. Y CADA VEZ MÁS GENTE LO ESTÁ PROBANDO.\n\nInferir con LLM grandes se ha convertido en un peaje: o alquilas GPUs por horas, o pagas API por token, o asumes que tu equipo no da para más. AirLLM rompe esa barrera y ya acumula más de 36.000 estrellas.\n\nLa clave es que 𝘀𝗼𝗹𝗼 𝘂𝗻𝗮 𝗰𝗮𝗽𝗮 𝗱𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝘃𝗶𝘃𝗲 𝗲𝗻 𝗩𝗥𝗔𝗠 𝗲𝗻 𝗰𝗮𝗱𝗮 𝗺𝗼𝗺𝗲𝗻𝘁𝗼: el resto se queda en RAM o en disco, así que puedes ejecutar modelos de hasta 70B en la GPU que ya tienes.\n\n→ Hasta 70B de parámetros con apenas 4 GB de VRAM.\n→ Pensado para probar LLM grandes sin alquilar hardware ni pagar cuotas por token.\n→ Todo en notebooks de Jupyter: clonas, ejecutas y ves los resultados.\n→ Más de 36.000 estrellas, así que no partes de cero ni te toca depurar a ciegas.\n\nSi llevas tiempo pensando que los modelos grandes no son para tu máquina, este repo te va a hacer cambiar de idea. Guárdatelo para la próxima vez que necesites hacer inference en local.\n\nTe dejo el enlace abajo.\n\n#AirLLM #LLM #OpenSource #GitHub\n\nhttps://github.com/lyogavin/airllm"
+      }
+    },
+    {
+      "name": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "description": "Un simulador de satélite espía que corre en el navegador y muestra datos reales sobre un globo terráqueo en 3D fotorrealista. Una herramienta open source de inteligencia espacial muy vistosa para explorar imágenes y datos geoespaciales.",
+      "language": "JavaScript",
+      "stars": 51064,
+      "social": {
+        "x": "51.000 estrellas y ni una descarga: este simulador de satélite espía corre en el navegador y pinta datos geoespaciales reales sobre un globo 3D.\n\n#GodsEyeView #JavaScript #OpenSource #GitHub\nhttps://github.com/bilawalsidhu/gods-eye-view",
+        "linkedin": "ESTE SIMULADOR DE SATÉLITE ESPÍA CORRE ENTERO EN UNA PESTAÑA DEL NAVEGADOR\n\nNo hay instalación, no hay cuenta y no hay cuota. Abres la página, aparece un globo terráqueo en 3D fotorrealista y encima se vuelcan datos geoespaciales reales. Es la clase de visor que normalmente vive en una suite GIS de escritorio o detrás de una licencia comercial, y aquí llega como proyecto open source con 51.000 estrellas.\n\nLo interesante no es solo el acabado del render: es que 𝘁𝗼𝗱𝗼 𝗲𝗹 𝗺𝗼𝘁𝗼𝗿 𝘃𝗶𝘃𝗲 𝗲𝗻 𝗲𝗹 𝗻𝗮𝘃𝗲𝗴𝗮𝗱𝗼𝗿 y funciona con JavaScript a secas.\n\n→ Globo terráqueo 3D fotorrealista como lienzo para imágenes y datos geoespaciales.\n→ Vista de satélite de observación sobre el planeta, con la simulación corriendo en tiempo real.\n→ JavaScript de principio a fin y cero instalación en local.\n→ 51.000 estrellas en GitHub, con la comunidad, los ejemplos y las issues resueltas que eso trae.\n→ Open source, así que puedes leer el código y ver cómo resuelve el render 3D en el navegador.\n\nSi te dedicas al desarrollo web, a los datos geoespaciales o simplemente te gusta ver hasta dónde aguanta un navegador, este repo merece un rato largo.\n\nGuarda el post para no perderlo: te dejo el enlace al repositorio justo debajo.\n\n#GodsEyeView #JavaScript #OpenSource #GitHub\n\nhttps://github.com/bilawalsidhu/gods-eye-view"
+      }
+    },
+    {
+      "name": "chrislgarry/Apollo-11",
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "description": "El código fuente original del ordenador de guiado del Apollo 11, tal y como se escribió para los módulos de mando y lunar. Una pieza de historia de la ingeniería que merece la pena curiosear si te interesa el software de sistemas.",
+      "language": "Assembly",
+      "stars": 73998,
+      "social": {
+        "x": "El código que llevó al hombre a la Luna está en GitHub: Assembly puro y 74.000 estrellas. Nadie te cobra por leerlo.\n\n#Apollo11 #Assembly #OpenSource #GitHub\nhttps://github.com/chrislgarry/Apollo-11",
+        "linkedin": "EL CÓDIGO QUE LLEVÓ AL APOLO 11 A LA LUNA ESTÁ PÚBLICO EN GITHUB.\n\nNo es una recreación, ni un documental, ni una simulación educativa. Es el código fuente original del ordenador de guiado del Apolo 11, tal y como se escribió para los módulos de mando y lunar. Millones de líneas de lógica de vuelo comprimidas en un ordenador con menos memoria que cualquier cacharro actual, y hoy puedes abrirlo en tu navegador.\n\n𝗘𝘀𝘁á 𝗲𝗻 𝗔𝘀𝘀𝗲𝗺𝗯𝗹𝘆, 𝗲𝗹 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲 𝗺á𝘀 𝗰𝗲𝗿𝗰𝗮𝗻𝗼 𝗮𝗹 𝗵𝗶𝗲𝗿𝗿𝗼, 𝘆 𝗮𝗵í 𝘀𝗶𝗴𝘂𝗲, 𝘀𝗶𝗻 𝗰𝗮𝗽𝗮𝘀 𝗱𝗲 𝗮𝗯𝘀𝘁𝗿𝗮𝗰𝗰𝗶ó𝗻 𝗾𝘂𝗲 𝗹𝗼 𝗲𝘀𝗰𝗼𝗻𝗱𝗮𝗻.\n\nQué te vas a encontrar si entras:\n\n→ El código de navegación y guiado que calculaba la trayectoria hacia la Luna y de vuelta.\n→ Rutinas de control de actitud, empuje y maniobras del módulo lunar.\n→ Bucles de gestión de alarmas, esas que en pleno descenso casi abortan el alunizaje.\n→ El estilo de programación de los años 60: nombres cortos, comentarios secos y cero margen de error.\n\nSi te interesa el software de sistemas, la ingeniería aeroespacial o simplemente quieres ver cómo se escribía código cuando cada byte contaba, este repo es una visita obligada. 74.000 estrellas no son casualidad: es historia de la ingeniería que sigue viva.\n\nGuarda el post y échale un ojo con calma. El repo te lo dejo justo abajo.\n\n#Apollo11 #Assembly #OpenSource #GitHub\n\nhttps://github.com/chrislgarry/Apollo-11"
+      }
+    }
+  ]
+}
