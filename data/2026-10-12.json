@@ -1,0 +1,289 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T19:47:57.943Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Meta lanza Muse Wonder, su modelo frontera para agentes personales y profesionales",
+      "summary": "Meta ha presentado Muse Wonder y Muse Wonder Full, dos modelos frontera que, según la compañía, la devuelven al primer nivel de la IA. Añaden memoria activa y foco activo, y destacan sobre todo en tareas agénticas, aunque el coste por tarea se ha multiplicado casi por tres. Están disponibles para suscriptores de Muse Code y a través de la API de Meta.",
+      "why_it_matters": "Es el salto más serio de Meta en modelos agénticos y ofrece a los desarrolladores una alternativa más para construir agentes.",
+      "url": "https://research.meta.ai/blog/muse-wonder",
+      "source": "Hacker News",
+      "social": {
+        "x": "Meta promete volver al primer nivel de la IA. Muse Wonder lo consigue en tareas agénticas, pero cada tarea cuesta casi el triple.\n\n#Meta #MuseWonder #MuseCode #Agentes\nhttps://research.meta.ai/blog/muse-wonder",
+        "linkedin": "Meta quiere recuperar el primer nivel de la IA, y esta vez la letra pequeña está en la factura.\n\nMuse Wonder y Muse Wonder Full llegan con memoria activa y foco activo, y destacan sobre todo en tareas agénticas, justo donde Meta llevaba tiempo sin ser la referencia. Para quien construye agentes, es 𝘂𝗻𝗮 𝗮𝗹𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝘃𝗮 𝗺á𝘀 𝗲𝗻 𝘂𝗻 𝗺𝗲𝗿𝗰𝗮𝗱𝗼 𝗾𝘂𝗲 𝗵𝗮𝘀𝘁𝗮 𝗮𝗵𝗼𝗿𝗮 𝘀𝗲 𝗱𝗲𝗰𝗶𝗱í𝗮 𝗲𝗻𝘁𝗿𝗲 𝗱𝗼𝘀 𝗼 𝘁𝗿𝗲𝘀 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿𝗲𝘀, disponible vía API y para suscriptores de Muse Code. El detalle que muchos pasarán por alto: el coste por tarea se ha multiplicado casi por tres, y en producto agéntico eso pesa más que un punto de benchmark. Si tu margen depende de cuántas tareas ejecuta el agente, la pregunta ya no es si el modelo es mejor, sino si te lo puedes permitir a escala.\n\n#Meta #MuseWonder #MuseCode #Agentes\n\nhttps://research.meta.ai/blog/muse-wonder"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Z.ai presenta GLM-Legal, un modelo orientado al trabajo jurídico",
+      "summary": "Z.ai ha publicado GLM-Legal, una variante de su familia GLM enfocada al ámbito jurídico. El anuncio no entra en muchos detalles técnicos, pero apunta a un uso especializado en tareas legales sobre documentos largos.",
+      "why_it_matters": "Los modelos verticales para derecho acercan la IA a un trabajo profesional donde la exactitud y la trazabilidad son críticas.",
+      "url": "https://z.ai/blog/glm-legal",
+      "source": "Hacker News",
+      "social": {
+        "x": "El derecho es el siguiente terreno que la IA quiere ocupar. Z.ai acaba de presentar GLM-Legal, un modelo pensado solo para documentos jurídicos largos.\n\n#Zai #GLM #LegalTech\nhttps://z.ai/blog/glm-legal",
+        "linkedin": "El derecho es el siguiente vertical que la IA quiere ocupar, y Z.ai acaba de moverse.\n\nGLM-Legal es una variante de la familia GLM enfocada a tareas jurídicas sobre documentos largos, y el anuncio no entra en detalles técnicos. 𝗘𝗻 𝘂𝗻 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗱𝗼𝗻𝗱𝗲 𝗹𝗮 𝘁𝗿𝗮𝘇𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝘆 𝗹𝗮 𝗲𝘅𝗮𝗰𝘁𝗶𝘁𝘂𝗱 𝗽𝗲𝘀𝗮𝗻 𝗺á𝘀 𝗾𝘂𝗲 𝗹𝗮 𝗰𝗿𝗲𝗮𝘁𝗶𝘃𝗶𝗱𝗮𝗱, un modelo vertical no se juzga por sus benchmarks, sino por si un despacho puede auditar de dónde sale cada afirmación. La carrera ya no va de modelos más grandes, sino de modelos que aguanten la revisión de un abogado.\n\n#Zai #GLM #LegalTech\n\nhttps://z.ai/blog/glm-legal"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "investigacion",
+      "title": "Vaciar el historial del chat ayuda a los agentes de IA a encontrar mejores soluciones",
+      "summary": "Investigadores de Microsoft han identificado que los agentes autónomos se quedan atrapados en lo que llaman «cuencas de ideas» por culpa de un contexto de chat que no deja de crecer. Su método Fork-and-Flush borra el historial pero conserva el workspace, y logra hasta un 66 % mejores resultados con el mismo presupuesto de cómputo.",
+      "why_it_matters": "Es una técnica sencilla y aplicable para mejorar el rendimiento de agentes sin gastar más cómputo.",
+      "url": "https://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions",
+      "source": "The Decoder",
+      "social": {
+        "x": "Tus agentes de IA se atascan porque recuerdan demasiado. Microsoft propone borrar el historial del chat y quedarse con el workspace: hasta un 66 % mejores resultados con el mismo cómputo.\n\n#Microsoft #AIAgents #LLM\nhttps://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions",
+        "linkedin": "Los agentes de IA no fallan por falta de inteligencia, sino por exceso de memoria.\n\nInvestigadores de Microsoft han identificado que un historial de chat que no deja de crecer empuja a los agentes a «cuencas de ideas» de las que no consiguen salir. Su método Fork-and-Flush vacía el contexto pero conserva el workspace, y logra hasta un 66 % mejores resultados con el mismo presupuesto de cómputo. Para quien construye agentes, la lección es incómoda: 𝗺á𝘀 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 𝗻𝗼 𝘀𝗶𝗴𝗻𝗶𝗳𝗶𝗰𝗮 𝗺𝗲𝗷𝗼𝗿 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼, y la optimización más barata suele ser tirar información.\n\n#Microsoft #AIAgents #LLM\n\nhttps://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "investigacion",
+      "title": "Sakana AI mejora un modelo con autoentrenamiento, pero no detecta sus propios puntos ciegos",
+      "summary": "El método MASS de Sakana AI permite que un mismo modelo resuelva tareas, evalúe resultados y refine flujos de trabajo sin necesidad de un modelo maestro más potente, con una tasa de victoria cercana al 70 % frente al modelo base tras dos rondas. El problema es que, si comete los mismos errores en los tres roles, puede tomarlos por progreso y reforzarlos durante el entrenamiento.",
+      "why_it_matters": "Muestra el potencial y el riesgo de la automejora en modelos, un camino clave para abaratar el entrenamiento.",
+      "url": "https://pub.sakana.ai/mass",
+      "source": "Hacker News",
+      "social": {
+        "x": "Sakana AI logra que un modelo se entrene, se evalúe y se refine solo: roza el 70 % de victorias frente al base. Su punto ciego: no detecta sus propios errores.\n\n#SakanaAI #LLM #SelfTraining\nhttps://pub.sakana.ai/mass",
+        "linkedin": "La automejora de modelos acaba de dar un paso real y, de paso, de enseñar su trampa.\n\nEl método MASS de Sakana AI deja que un mismo modelo resuelva la tarea, juzgue el resultado y reescriba el flujo de trabajo, sin un modelo maestro más potente que le corrija por encima. Tras dos rondas roza el 70 % de victorias frente al modelo base, lo que apunta a entrenamientos bastante más baratos. El riesgo es simétrico: 𝘀𝗶 𝘀𝗲 𝗲𝗾𝘂𝗶𝘃𝗼𝗰𝗮 𝗶𝗴𝘂𝗮𝗹 𝗲𝗻 𝗹𝗼𝘀 𝘁𝗿𝗲𝘀 𝗽𝗮𝗽𝗲𝗹𝗲𝘀, 𝘁𝗼𝗺𝗮 𝗲𝗹 𝗲𝗿𝗿𝗼𝗿 𝗽𝗼𝗿 𝗽𝗿𝗼𝗴𝗿𝗲𝘀𝗼 𝘆 𝗹𝗼 𝗿𝗲𝗳𝘂𝗲𝗿𝘇𝗮. Para quien diseñe pipelines de autoentrenamiento, la lección es que la variedad de perspectivas importa más que la potencia del evaluador.\n\n#SakanaAI #LLM #SelfTraining\n\nhttps://pub.sakana.ai/mass"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Cómo enseñar a Copilot los entresijos de tu código",
+      "summary": "GitHub explica en su blog cómo añadir instrucciones y skills personalizadas a un repositorio, usar agentes a medida y conectar servidores MCP como Playwright. Es una guía práctica para que Copilot entienda mejor la base de código de un proyecto.",
+      "why_it_matters": "Configurar bien el contexto del repositorio mejora de forma notable la calidad de las sugerencias de Copilot en el día a día.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
+      "source": "GitHub Blog",
+      "social": {
+        "x": "Copilot no sugiere mal por culpa del modelo: falla porque no conoce tu repo. GitHub explica cómo darle instrucciones, skills y agentes a medida.\n\n#GitHub #Copilot #MCP #DevTools\nhttps://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase",
+        "linkedin": "Copilot no escribe código mediocre por culpa del modelo: le falta contexto sobre tu repositorio.\n\nGitHub ha publicado cómo estructurarlo bien, con instrucciones y skills por repositorio, agentes a medida y servidores MCP como Playwright. La diferencia entre un Copilot que estorba y uno que ahorra tiempo está en 𝗰𝘂á𝗻𝘁𝗼 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 𝗹𝗲 𝗱𝗮𝘀 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗽𝗲𝗱𝗶𝗿𝗹𝗲 𝗻𝗮𝗱𝗮. Para cualquier equipo que ya paga licencias, es la tarea más rentable que puede hacer esta semana.\n\n#GitHub #Copilot #MCP #DevTools\n\nhttps://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "GitLab 19.4 añade agentes con objetivos y control del gasto en IA",
+      "summary": "La nueva versión de la plataforma DevSecOps incorpora un modo guiado por objetivos en GitLab Duo CLI, tres modelos open-weight alojados, más herramientas MCP y controles más detallados del gasto en IA. El objetivo es que los equipos usen agentes sin perder de vista el coste.",
+      "why_it_matters": "Mete agentes y control de costes en el mismo flujo de trabajo, algo cada vez más imprescindible en equipos que usan IA a diario.",
+      "url": "https://www.infoq.com/news/2026/10/gitlab-19-4-goal-driven-agents",
+      "source": "InfoQ",
+      "social": {
+        "x": "Ya puedes dar objetivos a los agentes de GitLab Duo. La novedad no es esa: es el control de lo que gastan mientras trabajan.\n\n#GitLab #DevSecOps #GitLabDuo #MCP\nhttps://www.infoq.com/news/2026/10/gitlab-19-4-goal-driven-agents",
+        "linkedin": "El cuello de botella de los agentes de IA ya no es la capacidad: es la factura.\n\nGitLab 19.4 mete un modo guiado por objetivos en Duo CLI, tres modelos open-weight alojados y controles de gasto más finos, todo dentro del mismo flujo DevSecOps. La lectura interesante es que 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲 𝗰𝗼𝘀𝘁𝗲 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗳𝘂𝗻𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼 y no un panel aparte que alguien revisa a fin de mes. Para los equipos que ya usan agentes a diario, eso marca la diferencia entre un piloto que nadie se atreve a escalar y algo que se puede desplegar en serio.\n\n#GitLab #DevSecOps #GitLabDuo #MCP\n\nhttps://www.infoq.com/news/2026/10/gitlab-19-4-goal-driven-agents"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Llega Python 3.15 con imports perezosos explícitos",
+      "summary": "Ya está disponible Python 3.15, con su correspondiente guía de novedades. Entre lo más útil destaca el soporte de imports perezosos explícitos (PEP 810), que permite cargar módulos solo cuando se usan. Simon Willison, que mantiene software open source compatible con varias versiones, aprovecha para despedirse de Python 3.10.",
+      "why_it_matters": "Los imports perezosos pueden recortar de forma notable el tiempo de arranque en aplicaciones grandes.",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15",
+      "source": "Simon Willison",
+      "social": {
+        "x": "Python 3.15 ya está aquí. Su novedad más útil: imports perezosos explícitos, los módulos se cargan solo cuando se usan. El arranque de las apps grandes lo nota.\n\n#Python #PEP810 #OpenSource #SimonWillison\nhttps://simonwillison.net/2026/Oct/12/python-3-15",
+        "linkedin": "El tiempo de arranque de una aplicación Python grande es un impuesto silencioso que casi nadie audita.\n\nPython 3.15 ya está disponible e incluye 𝗶𝗺𝗽𝗼𝗿𝘁𝘀 𝗽𝗲𝗿𝗲𝘇𝗼𝘀𝗼𝘀 𝗲𝘅𝗽𝗹í𝗰𝗶𝘁𝗼𝘀 (𝗣𝗘𝗣 𝟴𝟭𝟬): los módulos se cargan solo cuando se usan de verdad, no al iniciar el proceso. En un CLI o un servicio con decenas de dependencias eso puede recortar de forma notable el arranque sin tocar una línea de lógica de negocio. Simon Willison, que mantiene software open source compatible con varias versiones, aprovecha el lanzamiento para despedirse de Python 3.10, y ahí está la letra pequeña: cada versión nueva encarece el mantenimiento de los paquetes que sostienen medio ecosistema.\n\n#Python #PEP810 #OpenSource #SimonWillison\n\nhttps://simonwillison.net/2026/Oct/12/python-3-15"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Xcode 27.2 estrena un formato JSON para los proyectos, pensado para agentes de IA",
+      "summary": "Apple cambia el formato de configuración de proyectos de Xcode, basado en property lists, por uno nuevo en JSON que llega con Xcode 27.2. La compañía busca más legibilidad y un mantenimiento más sencillo, además de facilitar que los agentes de código entiendan y modifiquen los proyectos.",
+      "why_it_matters": "Un formato de proyecto legible por máquinas allana el trabajo de los agentes de IA sobre proyectos de Apple.",
+      "url": "https://www.infoq.com/news/2026/10/xcode-json-project-format",
+      "source": "InfoQ",
+      "social": {
+        "x": "Xcode cambia el formato de sus proyectos: las property lists se van y llega JSON. El motivo no es que los leas mejor tú, sino que los entiendan los agentes.\n\n#Xcode #Apple #DevTools\nhttps://www.infoq.com/news/2026/10/xcode-json-project-format",
+        "linkedin": "Xcode cambia el formato de sus proyectos no para que los leas mejor tú, sino para que los lean los agentes.\n\nCon Xcode 27.2, los proyectos dejan las property lists y pasan a JSON, un formato más legible y más fácil de mantener, pero sobre todo más sencillo de parsear y modificar por una máquina. Para quien mantiene proyectos Apple con scripts, CI o automatizaciones, esto abre la puerta a que un agente toque la configuración del proyecto sin romperla. 𝗘𝗹 𝗳𝗼𝗿𝗺𝗮𝘁𝗼 𝗱𝗲 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗱𝗲𝘁𝗮𝗹𝗹𝗲 𝗶𝗻𝘁𝗲𝗿𝗻𝗼 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝘇 𝗽𝗮𝗿𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀. Y ahí es donde se decide qué agentes funcionan de verdad sobre el ecosistema de Apple.\n\n#Xcode #Apple #DevTools\n\nhttps://www.infoq.com/news/2026/10/xcode-json-project-format"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "Microsoft presenta el chip Maia 300 para depender menos de las GPU de Nvidia",
+      "summary": "Microsoft ha anunciado la tercera generación de su chip propio Maia, llamado a ser el sistema principal de inferencia de IA en sus productos y servicios. La compañía promete que Maia 300 entrega un 40 % más de tokens por megavatio que los sistemas con GPU líderes, y empezará a desplegarlo en producción en 2027.",
+      "why_it_matters": "Es una apuesta por abaratar la inferencia a gran escala y por depender menos del hardware de Nvidia.",
+      "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+      "source": "The Verge",
+      "social": {
+        "x": "Microsoft dice que su chip Maia 300 rinde un 40 % más de tokens por megavatio que las GPU líderes. Y no llega a producción hasta 2027.\n\n#Microsoft #Nvidia #Maia\nhttps://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+        "linkedin": "Microsoft acaba de enseñar el chip con el que quiere dejar de pagar peaje a Nvidia.\n\nMaia 300 es su tercera generación de silicio propio y promete un 40 % más de tokens por megavatio que las GPU líderes, que es la métrica que de verdad decide cuánto cuesta servir IA a escala. 𝗘𝗹 𝗱𝗮𝘁𝗼 𝗾𝘂𝗲 𝗹𝗼 𝗰𝗮𝗺𝗯𝗶𝗮 𝘁𝗼𝗱𝗼 𝗲𝘀 𝗹𝗮 𝗳𝗲𝗰𝗵𝗮: 𝗻𝗼 𝗲𝗻𝘁𝗿𝗮 𝗲𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻 𝗵𝗮𝘀𝘁𝗮 𝟮𝟬𝟮𝟳, así que la dependencia de Nvidia sigue ahí un par de años más como mínimo. Para quien diseña infraestructura, la señal es clara: la eficiencia energética ya pesa tanto como el rendimiento bruto a la hora de elegir hardware.\n\n#Microsoft #Nvidia #Maia\n\nhttps://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "AlphaProof Nexus resuelve decenas de problemas matemáticos abiertos, con revisión por pares",
+      "summary": "Un estudio publicado en Science recoge cómo AlphaProof Nexus, de Google DeepMind, ha resuelto decenas de problemas matemáticos abiertos, entre ellos nueve de Erdős, dos de los cuales llevaban 56 años sin solución. DeepMind sometió los resultados a revisión por pares antes de publicarlos, en contraste con la polémica por las pruebas de OpenAI subidas a GitHub.",
+      "why_it_matters": "Demuestra que la IA puede aportar resultados matemáticos verificables y refuerza el valor de la revisión por pares.",
+      "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed",
+      "source": "The Decoder",
+      "social": {
+        "x": "Dos problemas de Erdős llevaban 56 años sin solución. AlphaProof Nexus, de DeepMind, los ha resuelto y ha pasado revisión por pares en Science.\n\n#DeepMind #AlphaProof #Science #OpenAI\nhttps://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed",
+        "linkedin": "Hay dos problemas matemáticos que llevaban 56 años abiertos. AlphaProof Nexus los ha resuelto, y lo relevante es cómo lo ha demostrado.\n\nDeepMind publica en Science decenas de problemas matemáticos abiertos resueltos por su sistema, nueve de ellos de Erdős, y los ha sometido a revisión por pares antes de anunciarlos. El contraste con las pruebas de OpenAI subidas a GitHub sin pasar por ese filtro es la parte que debería importar al sector: 𝗹𝗮 𝗿𝗲𝘃𝗶𝘀𝗶ó𝗻 𝗽𝗼𝗿 𝗽𝗮𝗿𝗲𝘀 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗲𝗹 𝗮𝗿𝗴𝘂𝗺𝗲𝗻𝘁𝗼 𝗾𝘂𝗲 𝘀𝗲𝗽𝗮𝗿𝗮 𝘂𝗻 𝗿𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗱𝗲 𝘂𝗻 𝘁𝗶𝘁𝘂𝗹𝗮𝗿. Si la IA va a producir matemáticas verificables, el cuello de botella deja de estar en generar y pasa a estar en verificar. Quien tenga ese proceso montado, tiene ventaja.\n\n#DeepMind #AlphaProof #Science #OpenAI\n\nhttps://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "herramientas",
+      "title": "Doory, una alternativa open source a Canva",
+      "summary": "Un desarrollador ha publicado Doory, una herramienta de diseño gráfico de licencia abierta que busca cubrir el hueco que deja Canva. Al ser open source, se puede self-host y adaptar a las necesidades de cada proyecto.",
+      "why_it_matters": "Da a equipos y particulares una vía libre para editar diseños sin depender de un servicio de pago.",
+      "url": "https://github.com/shaongitbd/doory",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un desarrollador acaba de publicar la alternativa open source a Canva. Y se instala en tu propio servidor.\n\n#OpenSource #Canva #Doory #SelfHosted\nhttps://github.com/shaongitbd/doory",
+        "linkedin": "Hay un Canva que puedes instalar en tu propio servidor, y es open source.\nDoory llega desde Hacker News con licencia abierta y la posibilidad de hacer self-host, así que cada equipo puede adaptarlo a sus flujos en lugar de amoldarse a los planes de un servicio de pago. Para quien diseña sin ser diseñador, 𝗲𝗹 𝘃𝗮𝗹𝗼𝗿 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗮𝗵𝗼𝗿𝗿𝗮𝗿𝘀𝗲 𝗹𝗮 𝘀𝘂𝘀𝗰𝗿𝗶𝗽𝗰𝗶ó𝗻, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗻𝗼 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝗲𝗹𝗹𝗮 𝗽𝗮𝗿𝗮 𝗲𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗱𝗲𝗹 𝗱í𝗮 𝗮 𝗱í𝗮. La pregunta que queda abierta es si una comunidad podrá mantener el ritmo de plantillas y mejoras que Canva publica cada mes.\n\n#OpenSource #Canva #Doory #SelfHosted\n\nhttps://github.com/shaongitbd/doory"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "Wordcraft, una reimplementación limpia de Microsoft Word en Rust",
+      "summary": "Wordcraft es un proyecto open source que reimplementa Microsoft Word en Rust desde cero, sin reutilizar código del original. Es un ejercicio ambicioso de ingeniería que también puede servir como motor de documentos para otras aplicaciones.",
+      "why_it_matters": "Un procesador de textos completo y libre escrito en Rust abre la puerta a integrar edición de documentos en otros programas.",
+      "url": "https://github.com/storytold/wordcraft",
+      "source": "Hacker News",
+      "social": {
+        "x": "Alguien ha reescrito Word desde cero en Rust, sin una línea del original. Y el objetivo no es clonarlo: es convertirlo en un motor de documentos.\n\n#Rust #OpenSource #Wordcraft #MicrosoftWord\nhttps://github.com/storytold/wordcraft",
+        "linkedin": "Alguien ha reescrito Microsoft Word desde cero en Rust, y no ha copiado ni una línea del original.\n\nLo interesante no es el alarde técnico, sino para qué sirve: 𝗪𝗼𝗿𝗱𝗰𝗿𝗮𝗳𝘁 𝘀𝗲 𝗽𝗹𝗮𝗻𝘁𝗲𝗮 𝗰𝗼𝗺𝗼 𝘂𝗻 𝗺𝗼𝘁𝗼𝗿 𝗱𝗲 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗼𝘀 que otras aplicaciones pueden integrar, lo que abre la puerta a meter edición de texto enriquecido en cualquier producto sin depender de la suite de Microsoft. Queda mucho camino en fidelidad de formato y compatibilidad real con .docx, pero el diagnóstico de partida es acertado: el hueco no estaba en otro editor, estaba en la pieza reutilizable.\n\n#Rust #OpenSource #Wordcraft #MicrosoftWord\n\nhttps://github.com/storytold/wordcraft"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "Los agentes de código generan más código, pero no más software",
+      "summary": "Un estudio concluye que las ganancias de eficiencia que aportan los agentes de programación con IA acaban absorbidas por el cuello de botella de la revisión humana. El resultado es más código producido, pero no necesariamente más software útil y fiable.",
+      "why_it_matters": "Pone el foco en la revisión humana como límite real de la productividad cuando se programa con IA.",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Los agentes de código escriben más que nunca. El problema es que el software no sale más rápido: la revisión humana se ha convertido en el cuello de botella.\n\n#CodeReview #Copilot #DeveloperProductivity\nhttps://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software",
+        "linkedin": "Escribir código ya no es el cuello de botella. Revisarlo, sí.\n\nUn estudio concluye que las ganancias de eficiencia de los agentes de programación con IA acaban absorbidas por la revisión humana: se produce más código, pero no más software útil y fiable. 𝗘𝗹 𝗹í𝗺𝗶𝘁𝗲 𝗱𝗲 𝗹𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝘃𝗶𝗱𝗮𝗱 𝘆𝗮 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝘀𝗰𝗿𝗶𝗯𝗶𝗿, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗿𝗲𝘃𝗶𝘀𝗮𝗿. Y para quien mide el impacto de la IA en líneas de código o en PRs abiertos, la métrica está mal elegida.\n\n#CodeReview #Copilot #DeveloperProductivity\n\nhttps://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "Una startup asegura que genera planos listos para permiso en minutos",
+      "summary": "Blueprints AI, una startup bootstrapped de Santa Mónica, ha desarrollado un software que produce planos de construcción que cumplen la normativa a partir de una foto, un PDF o un boceto. El objetivo es acelerar un trámite que normalmente lleva semanas.",
+      "why_it_matters": "Si funciona como promete, puede recortar de forma drástica los tiempos de tramitación en construcción.",
+      "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Sacas una foto de un edificio y te devuelve el plano listo para el permiso. Una startup asegura que tarda minutos donde hoy se tardan semanas.\n\n#Proptech #BlueprintsAI #Construcción\nhttps://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes",
+        "linkedin": "El trámite que frena una obra no es la construcción, es el papeleo.\n\nBlueprints AI, startup bootstrapped de Santa Mónica, dice que su software genera planos que cumplen normativa a partir de una foto, un PDF o un boceto, en minutos. Si eso aguanta el escrutinio de un ayuntamiento real, 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗾𝘂𝗶𝗲𝗻 𝗱𝗶𝗯𝘂𝗷𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗾𝘂𝗶𝗲𝗻 𝗿𝗲𝘃𝗶𝘀𝗮. Para estudios pequeños y promotoras, eso puede ser la diferencia entre un proyecto que sale adelante y uno que se queda en el cajón.\n\n#Proptech #BlueprintsAI #Construcción\n\nhttps://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "herramientas",
+      "title": "Cómo desplegar modelos de decisión con llama.cpp en Amazon SageMaker AI",
+      "summary": "AWS publica una guía técnica para desplegar modelos de decisión con llama.cpp en SageMaker AI. El montaje sirve chat completions compatibles con OpenAI usando el contenedor de AWS, y amplía el runtime con SemIf para devolver probabilidades sobre opciones declaradas, tanto en CPU como en GPU.",
+      "why_it_matters": "Da una receta concreta para poner modelos pequeños en producción con una API compatible con OpenAI.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "llama.cpp ya se puede desplegar en SageMaker con una API compatible con OpenAI. El detalle que casi nadie comenta: también devuelve probabilidades.\n\n#llamaCpp #SageMaker #AWS #OpenSource\nhttps://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai",
+        "linkedin": "Servir modelos pequeños en producción ya no obliga a montar la infraestructura desde cero.\nAWS publica una guía para desplegar llama.cpp en SageMaker AI con chat completions compatibles con OpenAI, y extiende el runtime con SemIf para devolver probabilidades sobre opciones declaradas, tanto en CPU como en GPU. Para quien lleva tiempo usando llama.cpp en local, 𝗲𝗹 𝘀𝗮𝗹𝘁𝗼 𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻 𝗰𝗼𝗻 𝘂𝗻𝗮 𝗔𝗣𝗜 𝗲𝘀𝘁á𝗻𝗱𝗮𝗿 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗮𝗽𝗮𝗿𝘁𝗲. Y lo verdaderamente útil no es el chat: es poder puntuar opciones concretas dentro de un pipeline sin depender de un modelo grande.\n\n#llamaCpp #SageMaker #AWS #OpenSource\n\nhttps://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Karpathy avisa de una brecha cada vez mayor en el conocimiento de lo que puede hacer la IA",
+      "summary": "Andrej Karpathy, ahora en Anthropic, sostiene que alrededor del 75 % de la población apenas ha tenido contacto con modelos de lenguaje, mientras unas 5.000 personas acceden a sistemas frontera internos cuyos enjambres de agentes hacen trabajo que llevaría años a expertos. El público, como mucho, ve un chatbot extraño.",
+      "why_it_matters": "Ayuda a entender por qué la percepción pública de la IA y su capacidad real están tan desconectadas.",
+      "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do",
+      "source": "The Decoder",
+      "social": {
+        "x": "El 75 % de la población no ha tocado nunca un modelo de lenguaje. Y 5.000 personas usan enjambres de agentes que hacen el trabajo de años.\n\n#Anthropic #Karpathy #LLM\nhttps://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do",
+        "linkedin": "La brecha de la IA ya no es de acceso, es de conocimiento.\n\nKarpathy calcula que el 75 % de la población apenas ha tenido contacto con un modelo de lenguaje, mientras unas 5.000 personas operan sistemas frontera cuyos enjambres de agentes sacan en días trabajo que a expertos les llevaría años. 𝗘𝗹 𝗽ú𝗯𝗹𝗶𝗰𝗼 𝘀𝗼𝗹𝗼 𝘃𝗲 𝘂𝗻 𝗰𝗵𝗮𝘁𝗯𝗼𝘁 𝗿𝗮𝗿𝗼; 𝗹𝗮 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗿𝗲𝗮𝗹 𝘃𝗶𝘃𝗲 𝗲𝗻 𝘂𝗻 𝗰í𝗿𝗰𝘂𝗹𝗼 𝗺𝗶𝗻ú𝘀𝗰𝘂𝗹𝗼. Para quien diseña producto o comunica tecnología, esto cambia el problema: ya no se arregla con mejores modelos, sino con traducción, explicando qué hace esto de verdad y qué no.\n\n#Anthropic #Karpathy #LLM\n\nhttps://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "QGIS prohíbe expresamente las contribuciones generadas con IA",
+      "summary": "El proyecto QGIS ha formalizado un cambio en su política para dejar claro que las contribuciones creadas con IA no están permitidas. La decisión llega tras un debate en la lista de desarrolladores y marca una postura estricta frente al código generado automáticamente.",
+      "why_it_matters": "Es uno de los proyectos open source más visibles en cerrar la puerta a las contribuciones con IA, y puede marcar tendencia.",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "source": "Hacker News",
+      "social": {
+        "x": "QGIS cierra la puerta al código generado con IA. Es uno de los proyectos open source más visibles en prohibirlo y puede marcar tendencia.\n\n#QGIS #OpenSource #GIS\nhttps://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+        "linkedin": "QGIS acaba de prohibir por escrito las contribuciones generadas con IA.\n\nLa decisión no es un arrebato: llega después de un debate en su lista de desarrolladores y convierte una práctica difusa en una norma explícita. En un proyecto que vive del trabajo voluntario y de la confianza en cada commit, dejar claro qué se acepta es más sano que dejarlo al criterio de cada revisor. 𝗘𝘀 𝗹𝗮 𝗽𝗿𝗶𝗺𝗲𝗿𝗮 𝘃𝗲𝘇 𝗾𝘂𝗲 𝘂𝗻 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝗱𝗲 𝗲𝘀𝘁𝗲 𝗽𝗲𝗿𝗳𝗶𝗹 𝗰𝗶𝗲𝗿𝗿𝗮 𝗹𝗮 𝗽𝘂𝗲𝗿𝘁𝗮 𝗱𝗲 𝗳𝗼𝗿𝗺𝗮 𝘁𝗮𝗻 𝘁𝗮𝗷𝗮𝗻𝘁𝗲, y si la fórmula funciona, otros irán detrás. Si contribuyes con asistentes de código, toca revisar cómo lo declaras.\n\n#QGIS #OpenSource #GIS\n\nhttps://github.com/qgis/QGIS-Enhancement-Proposals/pull/387"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "El presidente de Microsoft dice que la IA está menos regulada que la leche",
+      "summary": "Brad Smith, presidente de Microsoft, ha pedido reglas más duras para la IA, con mecanismos de apagado de emergencia y obligaciones legales frente a las víctimas de agentes descontrolados. Su comparación: la leche y las lavadoras tienen más supervisión que las empresas de IA.",
+      "why_it_matters": "Una de las voces más influyentes del sector pide regulación, lo que puede acelerar los debates legislativos.",
+      "url": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
+      "source": "Hacker News",
+      "social": {
+        "x": "La leche está más regulada que la IA. Lo dice el presidente de Microsoft, que pide botones de apagado de emergencia.\n\n#Microsoft #BradSmith #Regulación #AgentesIA\nhttps://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
+        "linkedin": "La leche está más regulada que la IA. Y lo dice el presidente de Microsoft, no un crítico habitual del sector.\n\nBrad Smith reclama mecanismos de apagado de emergencia y responsabilidad legal para las empresas cuando un agente descontrolado cause daños. Que la voz más influyente del sector pida reglas más duras suele significar dos cosas a la vez: que la regulación va a llegar y que quiere influir en cómo llega. Para quien despliega agentes autónomos en producción, 𝗹𝗮 𝘃𝗲𝗻𝘁𝗮𝗻𝗮 𝗱𝗲𝗹 «𝘆𝗮 𝘃𝗲𝗿𝗲𝗺𝗼𝘀» 𝘀𝗲 𝗲𝘀𝘁á 𝗰𝗲𝗿𝗿𝗮𝗻𝗱𝗼, y conviene tener respuesta antes de que la pregunta sea obligatoria.\n\n#Microsoft #BradSmith #Regulación #AgentesIA\n\nhttps://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Spotify duplica los cambios de código al mes con ayuda de la IA",
+      "summary": "Spotify informa de que el desarrollo asistido por IA ha más que doblado los cambios fusionados cada mes, lo que le ha obligado a revisar sus controles de calidad y fiabilidad. La compañía ha ajustado pruebas, observabilidad, capacidad de rollback, priorización de carga de trabajo y mantenimiento automatizado.",
+      "why_it_matters": "Es un caso real de cómo la IA obliga a rediseñar los procesos de calidad en ingeniería.",
+      "url": "https://www.infoq.com/news/2026/10/spotify-ai-quality-controls",
+      "source": "InfoQ",
+      "social": {
+        "x": "Spotify ha más que doblado los cambios de código que fusiona al mes con IA. El problema ya no es escribirlo, es aguantar el ritmo.\n\n#Spotify #DevOps #IngenieriaDeSoftware\nhttps://www.infoq.com/news/2026/10/spotify-ai-quality-controls",
+        "linkedin": "Spotify ha más que doblado los cambios de código que fusiona cada mes. El cuello de botella se ha mudado de sitio.\n\nCuando la IA multiplica el volumen de cambios, el límite deja de estar en escribirlos y pasa a estar en las pruebas, la observabilidad, el rollback y la priorización del trabajo. 𝗠á𝘀 𝗰ó𝗱𝗶𝗴𝗼 𝗻𝗼 𝘃𝗮𝗹𝗲 𝗱𝗲 𝗻𝗮𝗱𝗮 𝘀𝗶 𝗲𝗹 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝗱𝗲 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝗻𝗼 𝗮𝗴𝘂𝗮𝗻𝘁𝗮 𝗲𝗹 𝗿𝗶𝘁𝗺𝗼. Para cualquier equipo que esté metiendo asistentes en su día a día, la lección es incómoda: primero se rediseñan los controles, después se acelera.\n\n#Spotify #DevOps #IngenieriaDeSoftware\n\nhttps://www.infoq.com/news/2026/10/spotify-ai-quality-controls"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "Interfaz web self-hosted para conversar con modelos de IA, compatible con Ollama, la API de OpenAI y otros backends. Es una de las formas más sencillas de montarte tu propio ChatGPT privado con control total sobre los datos y los modelos.",
+      "language": "Python",
+      "stars": 154803,
+      "social": {
+        "x": "154.803 estrellas para montarte tu propio ChatGPT en casa. Open WebUI es self-hosted, funciona con Ollama y tus datos no salen de tu servidor.\n\n#OpenWebUI #Ollama #SelfHosted #OpenSource\nhttps://github.com/open-webui/open-webui",
+        "linkedin": "TU PROPIO CHATGPT PRIVADO, EN TU SERVIDOR Y SIN CUOTAS MENSUALES.\n\nOpen WebUI es una interfaz web self-hosted para conversar con modelos de IA. La idea clave: 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗹𝗼 𝗲𝗹𝗶𝗴𝗲𝘀 𝘁ú 𝘆 𝗹𝗼𝘀 𝗱𝗮𝘁𝗼𝘀 𝘀𝗲 𝗾𝘂𝗲𝗱𝗮𝗻 𝗲𝗻 𝘁𝘂 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮, no en la de nadie más.\n\nFrente a las alternativas de pago, aquí no hay límite de mensajes ni telemetría ajena. Y no es un experimento: ya suma 154.803 estrellas en GitHub.\n\n→ Compatible con Ollama, la API de OpenAI y otros backends.\n→ Interfaz web completa: abres el navegador y a conversar.\n→ Control total sobre los modelos que usas y cuándo cambiarlos.\n→ Privacidad real: las conversaciones no salen de tu servidor.\n→ Escrito en Python y open source, así que puedes adaptarlo a lo que necesites.\n\nSi alguna vez has pensado en dejar de pagar por token, este repo es el punto de partida más directo que vas a encontrar.\n\nGuarda el post para el día que te toque montarlo, porque el repo lo tienes abajo.\n\n#OpenWebUI #Ollama #SelfHosted #OpenSource\n\nhttps://github.com/open-webui/open-webui"
+      }
+    },
+    {
+      "name": "microsoft/BitNet",
+      "url": "https://github.com/microsoft/BitNet",
+      "description": "Framework de inferencia oficial de Microsoft para LLMs de 1 bit, diseñado para ejecutar modelos en CPU con mucho menos consumo de memoria y energía. Merece la pena si quieres probar cuantización extrema sin depender de una GPU.",
+      "language": "C++",
+      "stars": 40842,
+      "social": {
+        "x": "Sin GPU y con modelos de 1 bit: así ejecuta Microsoft un LLM en CPU. BitNet ya pasa de 40.000 estrellas.\n\n#BitNet #LLM #CPlusPlus #OpenSource\nhttps://github.com/microsoft/BitNet",
+        "linkedin": "MICROSOFT ESTÁ MOVIENDO LLMs DE 1 BIT EN CPU, SIN TOCAR UNA GPU.\n\nHoy casi todo despliegue de un modelo pasa por comprar o alquilar una GPU, con su memoria limitada y su factura de energía detrás. BitNet va justo en la dirección contraria: cuantización extrema a 1 bit para que el modelo quepa y corra en un procesador normal.\n\nEs el framework oficial de inferencia de Microsoft para este tipo de modelos, está escrito en C++ y ya acumula más de 40.000 estrellas en GitHub.\n\n→ Inferencia en CPU con mucho menos consumo de memoria y energía\n→ Cuantización extrema de 1 bit, sin depender de CUDA\n→ Base en C++, pensada para exprimir el hardware que ya tienes\n→ Perfecto para probar LLMs en local o en self-hosted sin tarjeta gráfica\n\n𝗦𝗶 𝘁𝘂 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗲𝘀 𝗹𝗮 𝗚𝗣𝗨, 𝗹𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝗰𝗶ó𝗻 𝗲𝗺𝗽𝗶𝗲𝘇𝗮 𝗮𝗾𝘂í.\n\nGuarda el post para cuando te toque montar inferencia sin presupuesto de tarjeta gráfica. Te dejo el repositorio abajo.\n\n#BitNet #LLM #CPlusPlus #OpenSource\n\nhttps://github.com/microsoft/BitNet"
+      }
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Herramienta que da acceso gratuito a Claude Code, Codex y otros asistentes de programación desde la terminal, el IDE, la app o el navegador, con soporte multimodelo y varios harnesses de agentes. Resulta útil para probar distintos flujos de coding asistido sin pagar suscripción, aunque conviene revisar bien sus condiciones de uso.",
+      "language": "Python",
+      "stars": 58841,
+      "social": {
+        "x": "58.841 estrellas para un repo que te da Claude Code y Codex gratis: terminal, IDE, app o navegador. Y es open source.\n\n#ClaudeCode #OpenSource #Python #GitHub\nhttps://github.com/Alishahryar1/free-claude-code",
+        "linkedin": "CLAUDE CODE Y CODEX SIN PAGAR SUSCRIPCIÓN, Y YA VAN 58.841 ESTRELLAS.\n\nLa mayoría de los asistentes de coding potentes pasan por caja: cuota mensual, límites de uso y modelos cerrados. Este proyecto va por otro camino: te deja entrar a Claude Code, Codex y otros asistentes desde el entorno en el que ya trabajas, sin suscripción de por medio.\n\n→ Terminal, IDE, app de escritorio o navegador: tú eliges dónde.\n→ Soporte multimodelo, para alternar entre asistentes según la tarea.\n→ Varios harnesses de agentes, muy útil si quieres comparar flujos de coding asistido.\n→ Escrito en Python y con 58.841 estrellas a sus espaldas.\n\nAntes de lanzarte, revisa sus condiciones de uso: cuando el acceso gratuito apunta a servicios de pago, siempre hay letra pequeña. Y 𝗹𝗼 𝗾𝘂𝗲 𝗱𝗲 𝘃𝗲𝗿𝗱𝗮𝗱 𝗮𝗽𝗼𝗿𝘁𝗮 𝗲𝘀𝘁𝗲 𝗿𝗲𝗽𝗼 𝗲𝘀 𝗽𝗼𝗱𝗲𝗿 𝗽𝗿𝗼𝗯𝗮𝗿 𝘃𝗮𝗿𝗶𝗼𝘀 𝗳𝗹𝘂𝗷𝗼𝘀 𝗱𝗲 𝗰𝗼𝗱𝗶𝗻𝗴 𝗮𝘀𝗶𝘀𝘁𝗶𝗱𝗼 𝘀𝗶𝗻 𝗿𝗮𝘀𝗰𝗮𝗿𝘁𝗲 𝗲𝗹 𝗯𝗼𝗹𝘀𝗶𝗹𝗹𝗼.\n\nGuarda este post para el día en que tu suscripción te vuelva a dar un susto. El repo lo tienes debajo.\n\n#ClaudeCode #OpenSource #Python #GitHub\n\nhttps://github.com/Alishahryar1/free-claude-code"
+      }
+    }
+  ]
+}
