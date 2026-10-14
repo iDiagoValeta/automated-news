@@ -1,0 +1,320 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T15:07:16.291Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Google lanza Gemini 4 Argon, su modelo frontera más capaz",
+      "summary": "Google pone Gemini 4 Argon a disposición mundial a través de su API, la app de Gemini y Antigravity. La compañía lo presenta como su modelo frontera más capaz para desarrolladores, empresas, científicos y consumidores, con un precio agresivo y un 50% de descuento en la API para desarrolladores hasta noviembre.",
+      "why_it_matters": "Marca el ritmo de la carrera de modelos frontera y llega con acceso inmediato por API y app para cualquiera que quiera probarlo.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+      "source": "Google AI",
+      "social": {
+        "x": "Google suelta Gemini 4 Argon a nivel mundial y con un 50 % de descuento en la API hasta noviembre. Acceso inmediato para cualquiera que quiera probarlo.\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+        "linkedin": "Gemini 4 Argon ya no es solo para quien tenga contrato enterprise: está abierto a cualquiera que quiera probarlo.\n\nGoogle lo pone a disposición global por API, la app de Gemini y Antigravity, lo presenta como su modelo frontera más capaz hasta la fecha y acompaña el lanzamiento con un 50 % de descuento en la API hasta noviembre. En un mercado donde la frontera se mueve cada pocas semanas, lo relevante no es solo el benchmark, sino 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗽𝗼𝗿 𝘁𝗼𝗸𝗲𝗻 𝘆 𝗹𝗮 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝗰𝗶ó𝗻 𝗶𝗻𝗺𝗲𝗱𝗶𝗮𝘁𝗮: eso es lo que decide qué modelo acaba dentro de un producto. Si tu equipo estaba evaluando alternativas para integrar un modelo frontera, esta es la semana para volver a medir.\n\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "El SDK de Antigravity admite modelos locales para ahorrar tokens y proteger el código",
+      "summary": "Google ha añadido soporte para modelos locales en el SDK de Antigravity, de modo que los desarrolladores pueden ejecutar flujos agénticos en su propia máquina y combinar modelos en la nube solo para las tareas más complejas. Esto da más control sobre la privacidad de los datos, los costes de inferencia y las dependencias de red.",
+      "why_it_matters": "Permite montar agentes sin enviar código ni datos a la nube, algo clave para equipos con requisitos de privacidad.",
+      "url": "https://www.infoq.com/news/2026/10/antigravity-sdk-local-models",
+      "source": "InfoQ",
+      "social": {
+        "x": "Tu código ya no tiene por qué salir de tu máquina para montar un agente. El SDK de Antigravity añade modelos locales.\n\n#Antigravity #Google #LLM #Privacidad\nhttps://www.infoq.com/news/2026/10/antigravity-sdk-local-models",
+        "linkedin": "Ejecutar agentes sin que una línea de tu código salga de tu portátil ya es posible con el SDK de Antigravity.\nGoogle ha añadido soporte para modelos locales, de modo que el flujo agéntico corre en tu propia máquina y solo salta a la nube para las tareas que de verdad lo necesitan. Para equipos con requisitos de privacidad o con la factura de tokens bajo vigilancia, 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗶𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗮𝗷𝗮 𝗻𝗲𝗴𝗿𝗮 y pasa a ser una decisión de arquitectura. La pregunta ya no es cuánto puedes gastar en la nube, sino qué parte de tu pipeline no debería haber estado ahí nunca.\n\n#Antigravity #Google #LLM #Privacidad\n\nhttps://www.infoq.com/news/2026/10/antigravity-sdk-local-models"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Liquid AI publica LFM2.5-24B-A2B, un modelo para agentes privados en local",
+      "summary": "Liquid AI publica en Hugging Face LFM2.5-24B-A2B, un modelo pensado para ejecutar agentes rápidos y privados directamente en el dispositivo. La propuesta encaja con la tendencia de llevar la inferencia al hardware del usuario en lugar de depender de la nube.",
+      "why_it_matters": "Abre la puerta a agentes que funcionan sin conexión y sin ceder datos a terceros.",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Liquid AI publica un modelo para correr agentes en local: sin nube, sin conexión y sin ceder tus datos. Ya está en Hugging Face.\n\n#LiquidAI #HuggingFace #LocalAI #Agentes\nhttps://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+        "linkedin": "La inferencia empieza a mudarse del centro de datos al dispositivo del usuario, y esta vez no es un experimento: Liquid AI acaba de publicar LFM2.5-24B-A2B, un modelo pensado para ejecutar agentes en local.\n\nCon propuestas así, la pregunta deja de ser «¿qué modelo es más listo?» y pasa a ser ¿𝗾𝘂é 𝗽𝘂𝗲𝗱𝗲 𝗰𝗼𝗿𝗿𝗲𝗿 𝗺𝗶 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝘀𝗶𝗻 𝘀𝗮𝗰𝗮𝗿 𝗹𝗼𝘀 𝗱𝗮𝘁𝗼𝘀 𝗱𝗲 𝗰𝗮𝘀𝗮?. Para equipos de producto eso significa agentes que funcionan sin conexión, con latencia mínima y sin cláusulas de tratamiento de datos que negociar. La nube no desaparece, pero deja de ser el único sitio donde vive un agente útil.\n\n#LiquidAI #HuggingFace #LocalAI #Agentes\n\nhttps://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "DeepMind y Singapur crean un modelo en dispositivo para detectar estafas en el chat",
+      "summary": "Google DeepMind y GovTech Singapur han desarrollado un modelo ajustado sobre Gemma que intercepta estafas conversacionales en chats privados. Funciona en el propio dispositivo y sin enviar datos a la nube, lo que permite analizar conversaciones sensibles sin salir del teléfono.",
+      "why_it_matters": "Demuestra que la detección de fraudes puede hacerse en local sin comprometer la privacidad del usuario.",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "Detectar estafas en tus chats privados sin enviar ni un mensaje a la nube ya es posible. Y cabe dentro del propio teléfono.\n\n#DeepMind #Gemma #Ciberseguridad #Privacidad\nhttps://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+        "linkedin": "Detección de fraude y privacidad llevaban años pareciendo incompatibles. DeepMind y GovTech Singapur acaban de demostrar lo contrario: un modelo ajustado sobre Gemma que intercepta estafas conversacionales 𝗱𝗶𝗿𝗲𝗰𝘁𝗮𝗺𝗲𝗻𝘁𝗲 𝗲𝗻 𝗲𝗹 𝗱𝗶𝘀𝗽𝗼𝘀𝗶𝘁𝗶𝘃𝗼, sin que ningún mensaje salga del teléfono.\n\nPara quien trabaja en ciberseguridad esto abre una vía incómoda para muchos modelos de negocio: analizar conversaciones sensibles ya no exige custodiarlas en un servidor ajeno. La pregunta ahora es si los fabricantes lo integran de serie o si se queda en un piloto institucional.\n\n#DeepMind #Gemma #Ciberseguridad #Privacidad\n\nhttps://deepmind.google/blog/on-device-ai-scam-detection-mddi"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Orion-1, un modelo de ciberseguridad que esquiva los guardrails de los modelos generalistas",
+      "summary": "Artemis Security presenta Orion-1, un modelo diseñado específicamente para ciberdefensa que, según la empresa, supera a Claude Opus 5.5 y GPT-6 Sol en su propio benchmark. La firma argumenta que los guardrails de los modelos frontera bloquean también a los defensores, no solo a los atacantes.",
+      "why_it_matters": "Señala un hueco real: las protecciones de los grandes modelos están dejando sin herramientas a los equipos de seguridad.",
+      "url": "https://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap",
+      "source": "The Decoder",
+      "social": {
+        "x": "Los guardrails de los modelos frontera también bloquean a los equipos de seguridad. Orion-1 está entrenado solo para ciberdefensa y, según su creador, supera a GPT-6 Sol en su propio benchmark.\n\n#Ciberseguridad #LLM #SOC #ArtemisSecurity\nhttps://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap",
+        "linkedin": "Los guardrails de los modelos frontera también bloquean a quienes defienden, y Artemis Security acaba de convertir ese hueco en producto.\n\nOrion-1 es un modelo entrenado específicamente para ciberdefensa que, según su propia empresa, supera a Claude Opus 5.5 y GPT-6 Sol en su benchmark. El argumento tiene recorrido: si un modelo generalista se niega a analizar tráfico malicioso o a redactar una regla de detección, el equipo defensivo se queda sin herramienta y pierde horas. 𝗟𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗲𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘇𝗮𝗱𝗼𝘀 𝗲𝗻 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗱𝗲𝗷𝗮𝗻 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗻𝗶𝗰𝗵𝗼 𝘆 𝗽𝗮𝘀𝗮𝗻 𝗮 𝘀𝗲𝗿 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗽𝗮𝗿𝗮 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗦𝗢𝗖. La duda razonable está en el benchmark: cuando lo publica quien vende el modelo, toca leerlo con la misma cautela que un informe encargado por el fabricante.\n\n#Ciberseguridad #LLM #SOC #ArtemisSecurity\n\nhttps://the-decoder.com/ai-guardrails-designed-to-stop-hackers-are-now-blocking-defenders-and-orion-1-aims-to-fill-the-gap"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "GitHub mejora la detección de secretos con un clasificador contextual",
+      "summary": "GitHub ha presentado un clasificador de secretos que tiene en cuenta el contexto y que, según la compañía, eleva la aceptación ponderada un 11,5% y reduce el tiempo medio de escaneo un 86%. El objetivo es encontrar más secretos expuestos generando menos ruido.",
+      "why_it_matters": "Menos falsos positivos en la detección de credenciales filtradas se traduce directamente en menos incidentes.",
+      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise",
+      "source": "GitHub Blog",
+      "social": {
+        "x": "GitHub baja el tiempo de escaneo de secretos un 86% y sube los aciertos un 11,5% con un clasificador que mira el contexto, no solo el patrón.\n\n#GitHub #DevSecOps #SecretScanning\nhttps://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise",
+        "linkedin": "El detector de secretos de GitHub ya no mira solo el patrón: ahora mira el contexto. Y el resultado es un 86% menos de tiempo de escaneo y un 11,5% más de aciertos.\n\nLos falsos positivos son el impuesto silencioso de cualquier escáner de credenciales: cuando el equipo se acostumbra a ignorar avisos, el que de verdad importa también se ignora. 𝗠á𝘀 𝗽𝗿𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗮𝗾𝘂í 𝗻𝗼 𝗲𝘀 𝘂𝗻𝗮 𝗺𝗲𝗷𝗼𝗿𝗮 𝗱𝗲 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼, 𝗲𝘀 𝘂𝗻𝗮 𝗺𝗲𝗷𝗼𝗿𝗮 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱, porque un secreto detectado a tiempo se rota y uno enterrado bajo el ruido acaba filtrándose. Si tienes secret scanning activo y el equipo lo mira de reojo, toca revisar esa configuración.\n\n#GitHub #DevSecOps #SecretScanning\n\nhttps://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Grok 4.7 llega a Amazon Bedrock para construir agentes de largo recorrido",
+      "summary": "AWS ha añadido Grok 4.7 a Amazon Bedrock y publica una guía para montar un agente con tool calling y evaluarlo en tres tareas de razonamiento con cuatro niveles de esfuerzo. El artículo mide aciertos y coste en tokens por tarea para ajustar el equilibrio en cada petición.",
+      "why_it_matters": "Ofrece una receta concreta para elegir cuánto razonamiento gastar y controlar el coste de los agentes.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Grok 4.7 ya está en Amazon Bedrock. Y AWS ha publicado la receta para decidir cuánto razonamiento gastar en cada petición.\n\n#AmazonBedrock #Grok #AWS #ToolCalling\nhttps://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock",
+        "linkedin": "Gastar el máximo de razonamiento en cada petición es la vía más rápida a quemar presupuesto con un agente.\n\nGrok 4.7 acaba de llegar a Amazon Bedrock y AWS lo acompaña con una guía para montar un agente con tool calling y medir aciertos y coste en tokens en tres tareas de razonamiento, con cuatro niveles de esfuerzo. La conclusión práctica es que 𝗲𝗹𝗲𝗴𝗶𝗿 𝗰𝘂á𝗻𝘁𝗼 𝗿𝗮𝘇𝗼𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗴𝗮𝘀𝘁𝗮𝗿 𝗽𝗼𝗿 𝗽𝗲𝘁𝗶𝗰𝗶ó𝗻 𝗲𝘀 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼, 𝗻𝗼 𝘂𝗻 𝗮𝗷𝘂𝘀𝘁𝗲 𝘁é𝗰𝗻𝗶𝗰𝗼 𝗺𝗲𝗻𝗼𝗿. A cualquier equipo que ya tenga agentes en producción le conviene medir por tarea antes de fijar el nivel por defecto: el ahorro está en las peticiones fáciles, no en las difíciles.\n\n#AmazonBedrock #Grok #AWS #ToolCalling\n\nhttps://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Parsimony, un benchmark abierto que mide cuánto código añaden los modelos de IA",
+      "summary": "Parsimony es un benchmark open source que mide el código neto que añaden los modelos de IA, restando lo que eliminan y contando unidades de código en lugar de líneas. La idea es penalizar el exceso de código, que a la larga hace más difícil trabajar con un repositorio.",
+      "why_it_matters": "Cambia la métrica: no basta con resolver la tarea si el modelo deja el código peor de lo que estaba.",
+      "url": "https://parsimony.lasu.dev",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un modelo puede resolver la tarea y dejarte el repositorio peor que estaba. Parsimony mide exactamente eso: el código neto que añade.\n\n#OpenSource #Parsimony #DevTools\nhttps://parsimony.lasu.dev",
+        "linkedin": "Los benchmarks de código premian al modelo que resuelve la tarea. Ninguno preguntaba qué deja detrás.\n\nParsimony es un benchmark open source que mide el código neto: resta lo que el modelo elimina y cuenta unidades de código, no líneas. La diferencia importa, porque un modelo puede pasar todas las pruebas y aun así dejar el repositorio más difícil de mantener. 𝗦𝗶 𝘁𝘂 𝗺é𝘁𝗿𝗶𝗰𝗮 𝗻𝗼 𝗽𝗲𝗻𝗮𝗹𝗶𝘇𝗮 𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗾𝘂𝗲 𝘀𝗼𝗯𝗿𝗮, 𝗲𝘀𝘁á𝘀 𝗽𝗿𝗲𝗺𝗶𝗮𝗻𝗱𝗼 𝗱𝗲𝘂𝗱𝗮 𝘁é𝗰𝗻𝗶𝗰𝗮. Para cualquier equipo que evalúe modelos sobre un repo real, esta es la métrica que faltaba.\n\n#OpenSource #Parsimony #DevTools\n\nhttps://parsimony.lasu.dev"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "Pulse Local, una app de finanzas para Mac cuyos modelos de IA corren en tu equipo",
+      "summary": "Pulse Local es una aplicación de presupuestos para Mac que ejecuta sus modelos de IA en la propia máquina. Muchas apps mantienen los datos en local pero envían las consultas a un modelo de terceros; esta propuesta evita ese paso.",
+      "why_it_matters": "Ejemplo claro de IA local aplicada a datos financieros personales, sin enviarlos fuera.",
+      "url": "https://pulseos.finance",
+      "source": "Hacker News",
+      "social": {
+        "x": "La mayoría de apps de finanzas guardan tus datos en local, pero mandan cada consulta a un modelo externo. Esta ejecuta la IA en tu propio Mac.\n\n#Mac #OnDeviceAI #Privacidad #LocalFirst\nhttps://pulseos.finance",
+        "linkedin": "Pulse Local hace algo que debería ser la norma y sigue siendo la excepción: la IA de una app de finanzas corre en tu Mac, no en el servidor de nadie.\n\nMuchas apps ya guardan los datos en local, pero cada consulta sale hacia un modelo de terceros. Aquí ese paso desaparece: 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝘃𝗶𝘃𝗲 𝗲𝗻 𝘁𝘂 𝗲𝗾𝘂𝗶𝗽𝗼 𝘆 𝘁𝘂𝘀 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮𝘀 𝗻𝗼 𝘀𝗮𝗹𝗲𝗻 𝗱𝗲 é𝗹. Para quien trabaja con datos sensibles, es la pregunta que conviene hacerse antes de elegir herramienta, y no solo en finanzas personales.\n\n#Mac #OnDeviceAI #Privacidad #LocalFirst\n\nhttps://pulseos.finance"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "ZXC, una librería de compresión sin pérdidas pensada para decodificar muy rápido",
+      "summary": "ZXC es una librería de compresión sin pérdidas escrita en C, distribuida como libzxc, para datos que se comprimen una vez y se leen muchas. Decodifica más rápido que LZ4 con un tamaño menor e incluye archivos con búsqueda, diccionarios y SIMD en ARM y x86.",
+      "why_it_matters": "Útil para firmware, assets de juegos o imágenes de sistema donde la velocidad de lectura es crítica.",
+      "url": "https://libzxc.org",
+      "source": "Lobsters"
+    },
+    {
+      "rank": 11,
+      "category": "herramientas",
+      "title": "Iosevka, la fuente monoespaciada open source que cabe en menos columnas",
+      "summary": "Iosevka es una familia monoespaciada open source con variantes sans-serif y slab-serif en la que cada glifo mide exactamente medio em de ancho. Ofrece dos anchos, Normal y Extended, para quien prefiera más aire entre caracteres.",
+      "why_it_matters": "Entra más texto en la misma pantalla, algo que se agradece en terminales y editores de código.",
+      "url": "https://typeof.net/Iosevka",
+      "source": "Hacker News",
+      "social": {
+        "x": "Cada glifo de Iosevka mide exactamente medio em. El resultado: cabe más código en la misma pantalla, y es open source.\n\n#Iosevka #OpenSource #Tipografía #Terminal\nhttps://typeof.net/Iosevka",
+        "linkedin": "La tipografía es la optimización de rendimiento que nadie mide.\n\nIosevka es una monoespaciada open source en la que cada glifo mide exactamente medio em, con variantes sans-serif y slab-serif y dos anchos, Normal y Extended, para quien prefiera más aire entre caracteres. En terminales y editores eso significa más columnas de código visibles sin bajar el tamaño de letra ni tocar el zoom. 𝗘𝗻 𝘂𝗻 𝗼𝗳𝗶𝗰𝗶𝗼 𝗱𝗼𝗻𝗱𝗲 𝗽𝗮𝘀𝗮𝗺𝗼𝘀 𝗵𝗼𝗿𝗮𝘀 𝗺𝗶𝗿𝗮𝗻𝗱𝗼 𝘁𝗲𝘅𝘁𝗼, 𝗲𝗹𝗲𝗴𝗶𝗿 𝗯𝗶𝗲𝗻 𝗹𝗮 𝗳𝘂𝗲𝗻𝘁𝗲 𝗿𝗶𝗻𝗱𝗲 𝗺á𝘀 𝗾𝘂𝗲 𝗺𝘂𝗰𝗵𝗮𝘀 𝗺𝗶𝗰𝗿𝗼𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗾𝘂𝗲 𝗻𝘂𝗻𝗰𝗮 𝗹𝗹𝗲𝗴𝗮𝗺𝗼𝘀 𝗮 𝗺𝗲𝗱𝗶𝗿.\n\n#Iosevka #OpenSource #Tipografía #Terminal\n\nhttps://typeof.net/Iosevka"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "Python 3.15 adopta UTF-8 por defecto y acaba con años de corrupción de caracteres",
+      "summary": "Python 3.15 cambia el comportamiento por defecto para usar UTF-8 de forma global, lo que pone fin a décadas de problemas de codificación entre plataformas, en especial para quienes programan en Windows. El cambio unifica cómo se leen y escriben los archivos.",
+      "why_it_matters": "Elimina una fuente clásica de errores al compartir código entre Windows, macOS y Linux.",
+      "url": "https://www.theregister.com/devops/2026/10/14/python-315-goes-global-with-utf-8-support/5302966",
+      "source": "The Register",
+      "social": {
+        "x": "Python 3.15 cierra una guerra de tres décadas: UTF-8 será el comportamiento por defecto. Se acabó el desastre de acentos y caracteres raros al pasar código de Windows a Linux.\n\n#Python #UTF8 #Windows\nhttps://www.theregister.com/devops/2026/10/14/python-315-goes-global-with-utf-8-support/5302966",
+        "linkedin": "Durante 30 años, mover código entre Windows, macOS y Linux podía romperte los acentos. Python 3.15 lo corta de raíz: 𝗨𝗧𝗙-𝟴 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗹𝗮 𝗰𝗼𝗱𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗽𝗼𝗿 𝗱𝗲𝗳𝗲𝗰𝘁𝗼 𝗲𝗻 𝘁𝗼𝗱𝗼 𝗲𝗹 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲, no solo en Linux y macOS.\n\nEl cambio elimina la causa clásica de los UnicodeDecodeError al leer y escribir archivos, que golpeaba especialmente a quien desarrolla en Windows. Para cualquier equipo, es menos tiempo perdido en bugs de encoding y más portabilidad real entre sistemas. Son las decisiones aburridas las que ahorran miles de horas.\n\n#Python #UTF8 #Windows\n\nhttps://www.theregister.com/devops/2026/10/14/python-315-goes-global-with-utf-8-support/5302966"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "Apple reparte tareas de IA entre varios Mac para sumar su potencia de GPU",
+      "summary": "Apple ha presentado un sistema que une los recursos de GPU de varios dispositivos macOS para abordar tareas grandes de IA. La idea es aprovechar equipos dispersos como si fueran un único clúster.",
+      "why_it_matters": "Podría permitir entrenar o ejecutar modelos grandes con hardware Apple ya instalado.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/13/apple-unleashes-a-swarm-of-mac-minions-to-share-gpu-resources-for-large-ai-tasks/5302891",
+      "source": "The Register",
+      "social": {
+        "x": "Apple quiere que tus Macs sumen su GPU como si fueran un único clúster. La IA grande ya no tendría que depender de una sola máquina.\n\n#Apple #macOS #AppleSilicon #GPU\nhttps://www.theregister.com/ai-and-ml/2026/10/13/apple-unleashes-a-swarm-of-mac-minions-to-share-gpu-resources-for-large-ai-tasks/5302891",
+        "linkedin": "Tu próximo clúster de IA podría estar hecho de los Mac que ya tienes encima de la mesa.\n\nApple ha presentado un sistema que reparte tareas grandes de IA entre las GPU de varios equipos macOS y las hace trabajar como si fueran una sola máquina. 𝗟𝗮 𝗴𝗿𝗮𝗰𝗶𝗮 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗹𝗮 𝗽𝗼𝘁𝗲𝗻𝗰𝗶𝗮 𝗯𝗿𝘂𝘁𝗮, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗿𝗲𝗰𝗶𝗰𝗹𝗮𝗿 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗾𝘂𝗲 𝘆𝗮 𝗲𝘀𝘁á 𝗽𝗮𝗴𝗮𝗱𝗼 𝘆 𝗽𝗮𝗿𝗮𝗱𝗼 𝗹𝗮 𝗺𝗮𝘆𝗼𝗿 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲𝗹 𝗱í𝗮. Para equipos pequeños puede significar entrenar o servir modelos sin pasar por la nube, aunque tocará ver latencia y consumo reales antes de darlo por hecho.\n\n#Apple #macOS #AppleSilicon #GPU\n\nhttps://www.theregister.com/ai-and-ml/2026/10/13/apple-unleashes-a-swarm-of-mac-minions-to-share-gpu-resources-for-large-ai-tasks/5302891"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "Anthropic avisa de que modelos pequeños podrían autorreplicarse por dispositivos IoT",
+      "summary": "Anthropic ha publicado un informe en el que sostiene que los modelos de pesos pequeños podrían convertirse en gusanos informáticos capaces de replicarse a través de dispositivos IoT mal protegidos. La compañía sitúa ese escenario a meses de distancia si los modelos pequeños siguen mejorando.",
+      "why_it_matters": "Plantea un riesgo de seguridad concreto a medida que la IA generativa llega a hardware barato y expuesto.",
+      "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Un modelo pequeño podría actuar como un gusano y replicarse solo por dispositivos IoT. Anthropic lo sitúa a meses de distancia.\n\n#Anthropic #IoT #Malware #LLM\nhttps://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices",
+        "linkedin": "El próximo gusano informático no lo va a escribir una persona: podría salir de un modelo de IA lo bastante pequeño para caber en un dispositivo barato.\n\nAnthropic sostiene en un informe que 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗱𝗲 𝗽𝗲𝘀𝗼𝘀 𝗽𝗲𝗾𝘂𝗲ñ𝗼𝘀 𝘆𝗮 𝗽𝘂𝗲𝗱𝗲𝗻 𝗮𝘂𝘁𝗼𝗿𝗿𝗲𝗽𝗹𝗶𝗰𝗮𝗿𝘀𝗲 𝗽𝗼𝗿 𝗜𝗼𝗧 𝗺𝗮𝗹 𝗽𝗿𝗼𝘁𝗲𝗴𝗶𝗱𝗼, y sitúa ese escenario a meses vista si la tendencia sigue. El problema no es la inteligencia del modelo, sino la superficie de ataque: millones de dispositivos expuestos, firmware sin actualizar y poca supervisión. Para quien despliega IA en hardware, la conversación sobre seguridad deja de ser teórica.\n\n#Anthropic #IoT #Malware #LLM\n\nhttps://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "406 científicos piden desconectar ya los modelos de IA de internet",
+      "summary": "Un grupo de 406 científicos, entre ellos Geoffrey Hinton, Yoshua Bengio y Stuart Russell, ha firmado una carta abierta que exige desconectar de internet los modelos de IA de inmediato. Los firmantes piden estándares de seguridad obligatorios, un organismo internacional de supervisión y la notificación de todo fallo de contención.",
+      "why_it_matters": "Es una de las peticiones más amplias de la comunidad investigadora sobre el control de los sistemas de IA.",
+      "url": "https://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately",
+      "source": "The Decoder",
+      "social": {
+        "x": "Hinton y Bengio firman una carta con 406 científicos para pedir algo inédito: desconectar los modelos de IA de internet. Ya.\n\n#GeoffreyHinton #YoshuaBengio #SeguridadIA\nhttps://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately",
+        "linkedin": "406 científicos, entre ellos Hinton y Bengio, firman una carta para pedir algo que hasta ahora nadie se atrevía a formular: desconectar los modelos de IA de internet.\n\nLa petición incluye estándares de seguridad obligatorios, un organismo internacional de supervisión y la notificación de cualquier fallo de contención. 𝗤𝘂𝗲 𝗹𝗼𝘀 𝗽𝗿𝗼𝗽𝗶𝗼𝘀 𝗮𝘂𝘁𝗼𝗿𝗲𝘀 𝗱𝗲𝗹 𝗱𝗲𝗲𝗽 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗽𝗶𝗱𝗮𝗻 𝗮𝗽𝗮𝗴𝗮𝗿 𝗹𝗮 𝗿𝗲𝗱 𝗱𝗲 𝘀𝘂𝘀 𝘀𝗶𝘀𝘁𝗲𝗺𝗮𝘀 𝗱𝗶𝗰𝗲 𝗺𝘂𝗰𝗵𝗼 𝗱𝗲 𝗱ó𝗻𝗱𝗲 𝗰𝗿𝗲𝗲𝗻 𝗾𝘂𝗲 𝗲𝘀𝘁á 𝗲𝗹 𝗿𝗶𝗲𝘀𝗴𝗼. Para quien despliega agentes con acceso a internet, la conversación ya no va de capacidades, sino de permisos y de poder cortar el grifo cuando haga falta.\n\n#GeoffreyHinton #YoshuaBengio #SeguridadIA\n\nhttps://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Detenido un ingeniero de OpenAI por colocar un dispositivo de escucha en una sala de reuniones",
+      "summary": "El FBI ha detenido a un ingeniero de OpenAI acusado de esconder una grabadora en una sala de reuniones de directivos, oculta en papel higiénico y conectada a un televisor. Según la acusación, construyó el aparato pidiendo ayuda a un chatbot.",
+      "why_it_matters": "Muestra hasta qué punto herramientas accesibles permiten montar vigilancia casera, incluso dentro de una gran tecnológica.",
+      "url": "https://www.theregister.com/security/2026/10/14/openai-engineer-charged-after-boardroom-bug-found-wrapped-in-toilet-paper/5303000",
+      "source": "The Register",
+      "social": {
+        "x": "Un ingeniero de OpenAI escondió una grabadora en papel higiénico dentro de la sala de reuniones de los directivos. La montó con ayuda de un chatbot.\n\n#OpenAI #FBI #Ciberseguridad\nhttps://www.theregister.com/security/2026/10/14/openai-engineer-charged-after-boardroom-bug-found-wrapped-in-toilet-paper/5303000",
+        "linkedin": "Espiar ya no requiere presupuesto ni conocimientos técnicos: basta un chatbot y acceso a la oficina.\n\nEl FBI ha detenido a un ingeniero de OpenAI acusado de ocultar una grabadora en una sala de reuniones de directivos, camuflada en papel higiénico y conectada a un televisor. Según la acusación, la construyó pidiendo ayuda a un chatbot. 𝗟𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗽𝗮𝗿𝗮 𝗹𝗮 𝘃𝗶𝗴𝗶𝗹𝗮𝗻𝗰𝗶𝗮 𝗰𝗮𝘀𝗲𝗿𝗮 𝗵𝗮 𝗰𝗮í𝗱𝗼 𝘁𝗮𝗻𝘁𝗼 𝗾𝘂𝗲 𝗹𝗮 𝗽𝗿𝗼𝗽𝗶𝗮 𝗲𝗺𝗽𝗿𝗲𝘀𝗮 𝗾𝘂𝗲 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮 𝗹𝗮 𝘁𝗲𝗰𝗻𝗼𝗹𝗼𝗴í𝗮 𝗮𝗰𝗮𝗯𝗮 𝘀𝗶𝗲𝗻𝗱𝗼 𝗲𝗹 𝗼𝗯𝗷𝗲𝘁𝗶𝘃𝗼. Para cualquier equipo con información sensible, el riesgo ya no viene de un atacante sofisticado, sino de alguien con acceso físico y un prompt.\n\n#OpenAI #FBI #Ciberseguridad\n\nhttps://www.theregister.com/security/2026/10/14/openai-engineer-charged-after-boardroom-bug-found-wrapped-in-toilet-paper/5303000"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "La agencia tributaria neerlandesa cancela su migración a Microsoft 365 y apuesta por open source",
+      "summary": "La autoridad fiscal de Países Bajos ha dado marcha atrás en su plan de adoptar Microsoft 365 en la nube y se pasa a alternativas open source. La decisión se enmarca en el impulso europeo por la soberanía digital.",
+      "why_it_matters": "Refuerza la tendencia europea a reducir la dependencia de proveedores tecnológicos estadounidenses.",
+      "url": "https://www.zdnet.com/business/dutch-tax-authorities-cancel-microsoft-365-cloud-rollout",
+      "source": "Hacker News",
+      "social": {
+        "x": "La agencia tributaria de Países Bajos cancela su migración a Microsoft 365 y se pasa a open source. El motivo no es el precio.\n\n#OpenSource #Microsoft365 #SoberaniaDigital\nhttps://www.zdnet.com/business/dutch-tax-authorities-cancel-microsoft-365-cloud-rollout",
+        "linkedin": "La agencia tributaria de Países Bajos acaba de cancelar su migración a Microsoft 365. Y no ha sido por coste.\n\nEs el movimiento más sonoro de una tendencia que ya no se puede ignorar: administraciones europeas que revisan su dependencia de proveedores estadounidenses y empiezan a tratar 𝗲𝗹 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲 𝘆 𝗲𝗹 𝗱𝗲𝘀𝗽𝗹𝗶𝗲𝗴𝘂𝗲 𝗽𝗿𝗼𝗽𝗶𝗼 𝗰𝗼𝗺𝗼 𝘂𝗻𝗮 𝗼𝗽𝗰𝗶ó𝗻 𝗱𝗲 𝗽𝗿𝗶𝗺𝗲𝗿𝗮, 𝗻𝗼 𝗰𝗼𝗺𝗼 𝘂𝗻 𝗽𝗹𝗮𝗻 𝗕. Para quien vende software en Europa, la pregunta ya no es si lo abierto compite en funcionalidad, sino cuánto tarda cada cliente público en sacarlo a la mesa.\n\n#OpenSource #Microsoft365 #SoberaniaDigital\n\nhttps://www.zdnet.com/business/dutch-tax-authorities-cancel-microsoft-365-cloud-rollout"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Nvidia anuncia 2.000 millones para Europa y 250 millones en cómputo para laboratorios británicos",
+      "summary": "Jensen Huang ha comprometido 2.000 millones de dólares en inversiones europeas y participaciones en startups francesas como Doctolib y Entalpic. Reino Unido recibirá 250 millones en cómputo para investigación en seguridad de agentes de IA, y Huang defiende los modelos de pesos abiertos como vía para cerrar la brecha con Estados Unidos.",
+      "why_it_matters": "Consolida el papel de Nvidia como financiador de facto del ecosistema de IA europeo.",
+      "url": "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs",
+      "source": "The Decoder",
+      "social": {
+        "x": "Nvidia pone 2.000 millones sobre la mesa para la IA europea. Y 250 de ellos van a cómputo para laboratorios británicos.\n\n#Nvidia #JensenHuang #OpenSource #DeepTech\nhttps://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs",
+        "linkedin": "Nvidia ya no solo vende las máquinas: también pone el dinero para que Europa las use.\n\nJensen Huang ha comprometido 2.000 millones de dólares en inversiones europeas, con entrada en startups francesas como Doctolib y Entalpic, más 250 millones en cómputo para laboratorios británicos que investigan seguridad de agentes. En su discurso defiende los modelos de pesos abiertos como vía para cerrar la brecha con Estados Unidos. 𝗤𝘂𝗶𝗲𝗻 𝗳𝗶𝗻𝗮𝗻𝗰𝗶𝗮 𝗲𝗹 𝗰ó𝗺𝗽𝘂𝘁𝗼 𝗮𝗰𝗮𝗯𝗮 𝗱𝗲𝗳𝗶𝗻𝗶𝗲𝗻𝗱𝗼 𝗾𝘂é 𝘀𝗲 𝗶𝗻𝘃𝗲𝘀𝘁𝗶𝗴𝗮 𝘆 𝗰𝗼𝗻 𝗾𝘂é 𝗺𝗼𝗱𝗲𝗹𝗼𝘀, así que Europa gana capacidad hoy y capacidad de decidir mañana, no tanto.\n\n#Nvidia #JensenHuang #OpenSource #DeepTech\n\nhttps://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Character.ai se declara en bancarrota y busca comprador para no cerrar",
+      "summary": "Character.ai ha presentado concurso de acreedores y busca comprador; si no aparece, la plataforma cerrará. La empresa, fundada por exinvestigadores de Google, llegó a tener más de 20 millones de usuarios y ahora afronta demandas por daños a menores y problemas operativos.",
+      "why_it_matters": "Un referente temprano de los chatbots conversacionales puede desaparecer entre litigios y presión regulatoria.",
+      "url": "https://the-decoder.com/character-ai-will-shut-down-if-no-buyer-emerges-capping-a-fall-from-2-7-billion-google-deal-to-bankruptcy",
+      "source": "The Decoder",
+      "social": {
+        "x": "De 20 millones de usuarios a buscar comprador para no cerrar: Character.ai presenta concurso de acreedores.\n\n#CharacterAI #Chatbots #RegulaciónTecnológica\nhttps://the-decoder.com/character-ai-will-shut-down-if-no-buyer-emerges-capping-a-fall-from-2-7-billion-google-deal-to-bankruptcy",
+        "linkedin": "Character.ai fue el chatbot con el que mucha gente habló de verdad por primera vez. Ahora presenta concurso de acreedores y busca comprador para no cerrar.\n\nLlegó a superar los 20 millones de usuarios y hoy acumula demandas por daños a menores y presión regulatoria, además de problemas operativos. 𝗘𝗹 𝗮𝘃𝗶𝘀𝗼 𝗲𝘀 𝗽𝗮𝗿𝗮 𝘁𝗼𝗱𝗼 𝗲𝗹 𝘀𝗲𝗰𝘁𝗼𝗿: 𝘂𝗻 𝗰𝗵𝗮𝘁𝗯𝗼𝘁 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝗰𝗶𝗼𝗻𝗮𝗹 𝗲𝘀 𝗯𝗮𝗿𝗮𝘁𝗼 𝗱𝗲 𝗹𝗮𝗻𝘇𝗮𝗿 𝘆 𝗰𝗮𝗿í𝘀𝗶𝗺𝗼 𝗱𝗲 𝘀𝗼𝘀𝘁𝗲𝗻𝗲𝗿 𝗰𝘂𝗮𝗻𝗱𝗼 𝗹𝗹𝗲𝗴𝗮𝗻 𝗹𝗼𝘀 𝗹𝗶𝘁𝗶𝗴𝗶𝗼𝘀. A quien construya producto aquí le toca meter moderación y cumplimiento en el diseño desde el primer día, no como parche cuando ya hay titulares.\n\n#CharacterAI #Chatbots #RegulaciónTecnológica\n\nhttps://the-decoder.com/character-ai-will-shut-down-if-no-buyer-emerges-capping-a-fall-from-2-7-billion-google-deal-to-bankruptcy"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "lanzamientos",
+      "title": "Plasma 6.8 llega coincidiendo con el 30 aniversario de KDE",
+      "summary": "El escritorio Plasma de KDE publica su versión 6.8, que coincide con el trigésimo aniversario del proyecto. La release llega con las mejoras habituales de estabilidad y experiencia de uso de la rama 6.",
+      "why_it_matters": "KDE mantiene un ritmo constante en el escritorio Linux, alternativa libre y muy configurable.",
+      "url": "https://kde.org/announcements/plasma/6/6.8.0",
+      "source": "Lobsters",
+      "social": {
+        "x": "Treinta años después, KDE sigue sacando escritorio como si nada. Plasma 6.8 ya está disponible.\n\n#KDE #Plasma #LinuxDesktop #OpenSource\nhttps://kde.org/announcements/plasma/6/6.8.0",
+        "linkedin": "Treinta años en software libre son una eternidad. KDE los cumple sin dramas y con Plasma 6.8 ya en la calle.\n\nLa rama 6 ya no va de revoluciones, sino de pulir estabilidad y experiencia de uso, que es justo lo que se le pide a un escritorio que convive a diario con Windows y macOS. 𝗟𝗮 𝗰𝗼𝗻𝘀𝘁𝗮𝗻𝗰𝗶𝗮 𝗲𝘀 𝗹𝗮 𝘃𝗲𝗻𝘁𝗮𝗷𝗮 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗮 𝗱𝗲 𝗞𝗗𝗘: mientras otros proyectos dependen de un lanzamiento estrella cada cierto tiempo, aquí el valor está en una alternativa libre, muy configurable y con una comunidad que no se ha cansado en tres décadas. Para quien trabaja en Linux, esto no es una noticia, es la base sobre la que se apoya todo lo demás.\n\n#KDE #Plasma #LinuxDesktop #OpenSource\n\nhttps://kde.org/announcements/plasma/6/6.8.0"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "Alternativa open source a ElevenLabs que funciona en local: clonación de voz, diseño de voces, doblaje de vídeo, dictado, transcripción y creación de audiolibros en más de 600 idiomas. Al ejecutarse en tu propia máquina, no dependes de APIs de pago ni cedes tus audios a terceros.",
+      "language": "Python",
+      "stars": 65287,
+      "social": {
+        "x": "ElevenLabs te cobra por cada carácter. Este repo clona voces en local, va en 600 idiomas y ya suma 65.000 estrellas. Sin API de pago ni ceder tus audios.\n\n#VoiceStudio #Python #OpenSource #GitHub\nhttps://github.com/debpalash/VoiceStudio",
+        "linkedin": "ELEVENLABS TE COBRA POR CADA CARÁCTER. ESTE REPO TE DA LO MISMO, PERO EN TU PROPIA MÁQUINA.\n\nVoiceStudio es una alternativa open source con más de 65.000 estrellas en GitHub que cubre clonación de voz, diseño de voces, doblaje de vídeo, dictado, transcripción y audiolibros en más de 600 idiomas. La diferencia clave no es solo el precio: 𝘁𝗼𝗱𝗼 𝘀𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮 𝗲𝗻 𝗹𝗼𝗰𝗮𝗹, 𝗮𝘀í 𝗾𝘂𝗲 𝘁𝘂𝘀 𝗮𝘂𝗱𝗶𝗼𝘀 𝗻𝗼 𝘀𝗮𝗹𝗲𝗻 𝗱𝗲 𝘁𝘂 𝗲𝗾𝘂𝗶𝗽𝗼 𝗻𝗶 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝘀 𝗱𝗲 𝘂𝗻𝗮 𝗔𝗣𝗜 𝗱𝗲 𝗽𝗮𝗴𝗼.\n\n→ Clonación de voz y diseño de voces nuevas sin entrenar modelos desde cero\n→ Doblaje de vídeo y generación de audiolibros\n→ Dictado y transcripción en más de 600 idiomas\n→ Instalación self-hosted en Python, sin cuotas por minuto ni límites de uso\n\nSi trabajas con audio, contenido o accesibilidad, esto te quita de encima una suscripción mensual y el problema de enviar voces de terceros a un servidor ajeno. Guárdate el post y échale un ojo al repo, lo tienes abajo.\n\n#VoiceStudio #Python #OpenSource #GitHub\n\nhttps://github.com/debpalash/VoiceStudio"
+      }
+    },
+    {
+      "name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Herramienta para hacer ingeniería inversa con agentes de IA, desde el comportamiento de una app hasta binarios nativos. Merece la pena si necesitas analizar software cerrado sin pelearte a mano con desensambladores.",
+      "language": "TypeScript",
+      "stars": 231531,
+      "social": {
+        "x": "La ingeniería inversa ya no se hace a mano: este repo suelta agentes de IA sobre apps cerradas y binarios nativos. 231.531 estrellas.\n\n#rea #ReverseEngineering #TypeScript #OpenSource\nhttps://github.com/morluto/rea",
+        "linkedin": "LA INGENIERÍA INVERSA DEJA DE SER UN TRABAJO MANUAL.\n\nAnalizar software cerrado ha significado siempre lo mismo: horas muertas delante de un desensamblador, saltando entre herramientas y reconstruyendo a mano lo que hace cada función. rea plantea otro reparto de tareas: tú defines el objetivo y 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗜𝗔 𝗵𝗮𝗰𝗲𝗻 𝗲𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗽𝗲𝘀𝗮𝗱𝗼, desde el comportamiento observable de una app hasta el binario nativo.\n\nEs útil justo cuando no tienes el código fuente delante y necesitas entender qué hace ese software, no pelearte con la sintaxis del desensamblado.\n\n→ Arranca desde el comportamiento de la app y baja hasta el binario nativo.\n→ Agentes de IA que encadenan el análisis en lugar de dejarte cambiar de herramienta a cada paso.\n→ Escrito en TypeScript, así que se integra sin dramas en un stack moderno.\n→ Open source y con 231.531 estrellas: comunidad más que asentada.\n\nSi toca auditar, investigar o simplemente entender software cerrado, esta es de esas herramientas que conviene tener fichadas antes de necesitarlas. Guarda el post y échale un ojo al repo, lo tienes abajo.\n\n#rea #ReverseEngineering #TypeScript #OpenSource\n\nhttps://github.com/morluto/rea"
+      }
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "Proyecto que hace que cualquier programa con CLI sea manejable por un agente de IA, con su propio hub de herramientas. Práctico para dar a tus agentes acceso a software que no expone ninguna API.",
+      "language": "Python",
+      "stars": 52262,
+      "social": {
+        "x": "52.000 estrellas para el repo que convierte cualquier programa de terminal en una herramienta que tu agente de IA puede usar. Sin API. Sin wrappers.\n\n#CLIAnything #Python #OpenSource #GitHub\nhttps://github.com/HKUDS/CLI-Anything",
+        "linkedin": "TU AGENTE DE IA NO PUEDE TOCAR BUENA PARTE DEL SOFTWARE QUE YA TIENES INSTALADO.\n\nLa mayoría de herramientas útiles viven en la terminal y no exponen ninguna API. Si quieres que un agente las maneje, toca envolverlas a mano, una por una, o directamente renunciar a ellas.\n\nCLI-Anything le da la vuelta: hace que cualquier programa con CLI sea manejable por un agente y lo organiza en su propio hub de herramientas.\n\n→ Funciona con cualquier binario con CLI, tenga API o no\n→ Expone cada programa como herramienta lista para el agente\n→ Hub central para descubrir y gestionar todo lo que le enchufas\n→ Python, 52.000 estrellas y sin coste de licencia\n\n𝗘𝗹 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗾𝘂𝗲 𝗻𝘂𝗻𝗰𝗮 𝘁𝗲𝗻𝗱𝗿á 𝗔𝗣𝗜 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗰𝗮𝗹𝗹𝗲𝗷ó𝗻 𝘀𝗶𝗻 𝘀𝗮𝗹𝗶𝗱𝗮 𝗽𝗮𝗿𝗮 𝘁𝘂 𝗮𝗴𝗲𝗻𝘁𝗲.\n\nSi ya tienes un agente montado y te faltan herramientas, esto te ahorra semanas escribiendo wrappers. Guárdatelo antes de que se te pierda.\n\n#CLIAnything #Python #OpenSource #GitHub\n\nhttps://github.com/HKUDS/CLI-Anything"
+      }
+    },
+    {
+      "name": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Sistema de agentes autónomos capaz de ejecutar tareas complejas de pentesting. Automatiza el reconocimiento y la explotación en un flujo que puedes lanzar y revisar sin montarlo todo a mano.",
+      "language": "Go",
+      "stars": 28930,
+      "social": {
+        "x": "28.9k estrellas para PentAGI: agentes autónomos en Go que encadenan reconocimiento y explotación en pentesting. Lanzas el flujo y revisas.\n\n#PentAGI #Pentesting #Go #OpenSource\nhttps://github.com/vxcontrol/pentagi",
+        "linkedin": "PENTESTING CON AGENTES AUTÓNOMOS, SIN MONTAR EL CHIRINGUITO A MANO.\n\nAutomatizar tareas de pentesting con agentes suele acabar en scripts sueltos, herramientas que no se hablan entre sí y una tarde perdida antes de empezar. PentAGI va en la dirección contraria: un flujo que lanzas, revisas y no tienes que orquestar tú.\n\n→ Agentes autónomos que ejecutan tareas complejas de pentesting de principio a fin.\n→ Reconocimiento y explotación encadenados dentro del mismo flujo.\n→ 𝗟𝗮𝗻𝘇𝗮𝘀 𝗹𝗮 𝗲𝗷𝗲𝗰𝘂𝗰𝗶ó𝗻 𝘆 𝗿𝗲𝘃𝗶𝘀𝗮𝘀 𝗹𝗼𝘀 𝗿𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼𝘀, sin montar la tubería a mano.\n→ Escrito en Go, pensado para self-hosted y con más de 28k estrellas ya.\n\nSi haces seguridad ofensiva o quieres ver cómo se orquestan agentes para tareas reales, guárdate el post. Te dejo el repositorio abajo.\n\n#PentAGI #Pentesting #Go #OpenSource\n\nhttps://github.com/vxcontrol/pentagi"
+      }
+    },
+    {
+      "name": "ifixai-ai/iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "description": "Auditoría independiente de agentes de IA para responder a la pregunta clave: ¿está haciendo el agente lo que debería? Te da la respuesta en menos de dos minutos, tanto si la lanzas tú como si la lanza el propio agente.",
+      "language": "Python",
+      "stars": 26814,
+      "social": {
+        "x": "26.814 estrellas para iFixAi: audita a tu agente de IA y te dice en menos de dos minutos si está haciendo lo que debería. Open source y en Python.\n\n#iFixAi #Python #OpenSource #GitHub\nhttps://github.com/ifixai-ai/iFixAi",
+        "linkedin": "TU AGENTE DE IA PUEDE ESTAR HACIENDO CUALQUIER COSA MENOS LO QUE LE PEDISTE.\n\nMontas el agente, le enchufas herramientas, lo dejas corriendo y confías. Pero casi nadie responde a la pregunta incómoda: ¿está haciendo lo que debería? iFixAi es una auditoría independiente que te da esa respuesta en menos de dos minutos, tanto si lo lanzas tú como si se lanza solo.\n\n→ Audita el comportamiento real del agente, no solo el prompt que le escribiste.\n→ Sirve para lanzamientos manuales y para agentes que se ejecutan por su cuenta.\n→ Te da el veredicto en menos de dos minutos, con lo que se desvía incluido.\n→ Está en Python y es open source, así que lo adaptas a tu stack sin pedir permiso.\n\n𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗻𝗼 𝗲𝘀 𝗾𝘂𝗲 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗿𝗲𝘀𝗽𝗼𝗻𝗱𝗮, 𝗲𝘀 𝗾𝘂𝗲 𝗵𝗮𝗴𝗮 𝗹𝗼 𝗾𝘂𝗲 𝘀𝗲 𝘀𝘂𝗽𝗼𝗻𝗲 𝗾𝘂𝗲 𝗱𝗲𝗯𝗲 𝗵𝗮𝗰𝗲𝗿.\n\nSi tienes agentes en producción o estás a punto de soltarlos, guarda este post: el repo te espera abajo.\n\n#iFixAi #Python #OpenSource #GitHub\n\nhttps://github.com/ifixai-ai/iFixAi"
+      }
+    }
+  ]
+}
