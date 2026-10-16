@@ -1,0 +1,324 @@
+{
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T14:50:11.442Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Meta presenta Muse Spark Open, su modelo abierto más capaz",
+      "summary": "Meta ha publicado Muse Spark Open, un modelo de pesos abiertos de 816.000 millones de parámetros que procesa texto, imagen, vídeo y audio con hasta un millón de tokens de contexto. Está optimizado para ejecutarse en local sobre los Apple M5 Ultra Mac Studio y se sitúa a la altura de los mejores modelos abiertos chinos en los benchmarks. El precio de esa potencia es la memoria: moverlo en un Mac exige hasta 1 TB de RAM.",
+      "why_it_matters": "Es el modelo abierto más potente publicado hasta ahora en Estados Unidos y abre la puerta a agentes que corren en el propio escritorio, sin pasar por la nube.",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "source": "Hacker News",
+      "social": {
+        "x": "1 TB de RAM. Eso es lo que te pide en local el nuevo modelo abierto de Meta. A cambio: 816.000 millones de parámetros, vídeo y audio, y un millón de tokens de contexto.\n\n#Meta #MuseSpark #OpenSource #LLM\nhttps://research.meta.ai/blog/muse-spark-open",
+        "linkedin": "Meta publica el modelo abierto más potente que ha salido de Estados Unidos, y su límite no es el rendimiento: es tu hardware.\n\nMuse Spark Open tiene 816.000 millones de parámetros, procesa texto, imagen, vídeo y audio y admite hasta un millón de tokens de contexto. Viene optimizado para correr en local sobre los Apple M5 Ultra Mac Studio, pero moverlo exige hasta 1 TB de RAM, así que 𝗹𝗮 𝗽𝘂𝗲𝗿𝘁𝗮 𝗮 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗲𝘀𝗰𝗿𝗶𝘁𝗼𝗿𝗶𝗼 𝘀𝗶𝗻 𝗽𝗮𝘀𝗮𝗿 𝗽𝗼𝗿 𝗹𝗮 𝗻𝘂𝗯𝗲 𝘀𝗲 𝗮𝗯𝗿𝗲 𝘀𝗼𝗹𝗼 𝗽𝗮𝗿𝗮 𝗾𝘂𝗶𝗲𝗻 𝗽𝘂𝗲𝗱𝗮 𝗽𝗮𝗴𝗮𝗿 𝗲𝘀𝗲 𝗵𝗶𝗲𝗿𝗿𝗼. Para cualquier equipo que esté decidiendo su stack de inferencia, la pregunta ya no es qué modelo es mejor, sino dónde puede vivir de verdad.\n\n#Meta #MuseSpark #OpenSource #LLM\n\nhttps://research.meta.ai/blog/muse-spark-open"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "FLUX 3 Image Klein genera y edita imágenes con solo 8 GB de VRAM",
+      "summary": "Black Forest Labs ha publicado FLUX 3 Image Klein, un modelo de imagen de pesos abiertos con 5.600 millones de parámetros que genera en 4K nativo, edita a nivel de píxel y admite hasta diez imágenes de referencia. Pese a tener un 38 % menos de parámetros que su predecesor, supera a rivales propietarios en las pruebas internas de la empresa. Funciona en GPUs de consumo con 8 GB de VRAM.",
+      "why_it_matters": "Baja muchísimo el listón de hardware necesario para generar y retocar imágenes con calidad profesional en un equipo de sobremesa.",
+      "url": "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram",
+      "source": "The Decoder",
+      "social": {
+        "x": "5.600 millones de parámetros, 4K nativo y edición a nivel de píxel en una GPU de 8 GB. FLUX 3 Image Klein acaba de bajar el listón del hardware necesario.\n\n#FLUX #BlackForestLabs #OpenSource #GenerativeAI\nhttps://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram",
+        "linkedin": "El hardware ha dejado de ser la excusa para generar imágenes con calidad profesional.\n\nBlack Forest Labs publica FLUX 3 Image Klein, un modelo de pesos abiertos que genera en 4K nativo y edita a nivel de píxel con solo 8 GB de VRAM, la GPU de gama media que muchos equipos ya tienen montada. Llega con un 38 % menos de parámetros que su predecesor y, según las pruebas internas de la empresa, supera a rivales propietarios. La lectura práctica: 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗲𝘀𝘁𝘂𝗱𝗶𝗼 𝗽𝗲𝗾𝘂𝗲ñ𝗼 𝗽𝘂𝗲𝗱𝗲 𝗺𝗼𝗻𝘁𝗮𝗿 𝘀𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝗱𝗲 𝗶𝗺𝗮𝗴𝗲𝗻 𝘀𝗶𝗻 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝗹𝗮 𝗻𝘂𝗯𝗲 𝗻𝗶 𝗱𝗲 𝘂𝗻𝗮 𝗔𝗣𝗜 𝗱𝗲 𝗽𝗮𝗴𝗼. Ojo con el matiz, porque las pruebas las firma el propio fabricante, pero la dirección del sector es inequívoca.\n\n#FLUX #BlackForestLabs #OpenSource #GenerativeAI\n\nhttps://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Krea 3, un modelo de imagen diseñado para editar a escala",
+      "summary": "Krea ha presentado Krea 3, su nuevo modelo de imagen construido específicamente para editar a escala, no solo para generar desde cero. La compañía lo orienta a flujos de producción en los que hay que retocar muchas imágenes sin perder coherencia entre ellas.",
+      "why_it_matters": "Consolida la tendencia de modelos de imagen pensados para producción real, donde lo difícil es la edición en serie y no la primera demo.",
+      "url": "https://www.krea.ai/krea-3",
+      "source": "Hacker News",
+      "social": {
+        "x": "Generar una imagen bonita ya lo hace casi cualquiera. Lo difícil es editar 500 sin que ninguna desentone. Krea 3 va justo a ese problema.\n\n#Krea #GenerativeAI #ImageEditing\nhttps://www.krea.ai/krea-3",
+        "linkedin": "El cuello de botella de la imagen generativa ya no es crear: es editar cientos de piezas sin que pierdan coherencia entre ellas.\n\nKrea ha presentado Krea 3, un modelo construido específicamente para edición a escala y no para lucir la primera demo. 𝗘𝗹 𝘃𝗮𝗹𝗼𝗿 𝘀𝗲 𝗱𝗲𝘀𝗽𝗹𝗮𝘇𝗮 𝗱𝗲𝗹 𝗽𝗿𝗼𝗺𝗽𝘁 𝗲𝘀𝗽𝗲𝗰𝘁𝗮𝗰𝘂𝗹𝗮𝗿 𝗮𝗹 𝗳𝗹𝘂𝗷𝗼 𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻, y eso cambia qué herramientas aguantan en un equipo real: coherencia entre imágenes, repetibilidad y encaje en el pipeline. Si trabajas con contenido visual en serie, esto es lo que conviene mirar de cerca a partir de ahora.\n\n#Krea #GenerativeAI #ImageEditing\n\nhttps://www.krea.ai/krea-3"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "NVIDIA amplía la familia Nemotron con modelos abiertos para agentes",
+      "summary": "NVIDIA ha publicado Nemotron 3.5 Super VL, un modelo abierto multimodal de 120.000 millones de parámetros orientado a agentes que trabajan de forma continua. Lo acompañan dos modelos de borde, Bolt 74B-A9B (24 GB) y Bolt E4B (4 GB), pensados para cargas agénticas en local. Sacarles todo el partido implica, eso sí, comprar hardware de NVIDIA.",
+      "why_it_matters": "Ofrece una vía abierta y escalonada por tamaño para montar agentes siempre activos, desde el servidor hasta el portátil.",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl",
+      "source": "NVIDIA Blog",
+      "social": {
+        "x": "NVIDIA libera un multimodal abierto de 120.000 millones de parámetros para agentes siempre activos. El de 4 GB corre en tu portátil.\n\n#NVIDIA #Nemotron #OpenSource #LLM\nhttps://blogs.nvidia.com/blog/nemotron-3-5-super-vl",
+        "linkedin": "Los agentes que trabajan de forma continua necesitan algo más que un buen modelo: necesitan uno que quepa donde va a correr.\n\nNVIDIA amplía Nemotron con tres piezas abiertas: un multimodal de 120.000 millones de parámetros para servidor y dos modelos de borde, de 24 GB y 4 GB, para cargas agénticas en local. 𝗟𝗮 𝗷𝘂𝗴𝗮𝗱𝗮 𝗿𝗲𝗮𝗹 𝗲𝘀 𝗹𝗮 𝗲𝘀𝗰𝗮𝗹𝗲𝗿𝗮 𝗱𝗲 𝘁𝗮𝗺𝗮ñ𝗼𝘀: un mismo enfoque desde el clúster hasta el portátil, sin tener que mezclar proveedores según el despliegue. El matiz es el de siempre: sacarles todo el partido implica comprar hardware de NVIDIA, así que conviene leer la parte abierta junto a la factura de la GPU.\n\n#NVIDIA #Nemotron #OpenSource #LLM\n\nhttps://blogs.nvidia.com/blog/nemotron-3-5-super-vl"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "ChatGPT ya puede leer las pestañas abiertas de Chrome",
+      "summary": "OpenAI ha actualizado su extensión de ChatGPT para Chrome, que ahora es capaz de consultar las pestañas abiertas del navegador y usarlas para completar tareas. Esto permite, por ejemplo, comparar información repartida entre varias páginas sin copiar y pegar a mano.",
+      "why_it_matters": "Convierte el navegador en el punto de entrada natural de los agentes y elimina el trabajo manual de reunir datos de varias pestañas.",
+      "url": "https://www.engadget.com/2288580/open-ai-updates-chatgpt-extension-for-chrome",
+      "source": "Engadget",
+      "social": {
+        "x": "ChatGPT ya puede leer todas las pestañas que tienes abiertas en Chrome. El copiar y pegar entre webs se queda sin trabajo.\n\n#OpenAI #ChatGPT #Chrome\nhttps://www.engadget.com/2288580/open-ai-updates-chatgpt-extension-for-chrome",
+        "linkedin": "El navegador deja de ser un sitio donde lees: ahora también es donde tu asistente lee por ti.\n\nLa extensión de ChatGPT para Chrome ya puede consultar las pestañas abiertas y usarlas para completar tareas, así que reunir datos repartidos por media docena de webs deja de ser trabajo manual. 𝗘𝗹 𝗻𝗮𝘃𝗲𝗴𝗮𝗱𝗼𝗿 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗲𝗹 𝗽𝘂𝗻𝘁𝗼 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗻𝗮𝘁𝘂𝗿𝗮𝗹 𝗱𝗲 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀, y eso reordena la competencia: quien controla la pestaña controla el contexto. Para cualquier equipo que hoy siga copiando y pegando entre ventanas, la pregunta ya no es si esto sirve, sino qué procesos internos se pueden montar encima.\n\n#OpenAI #ChatGPT #Chrome\n\nhttps://www.engadget.com/2288580/open-ai-updates-chatgpt-extension-for-chrome"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Gemini 4 Argon quiere ser el único modelo que necesiten los robots",
+      "summary": "Google ha presentado Gemini 4 Argon, un modelo que controla robots, genera simulaciones a partir de fotos o bocetos y evalúa vídeos de entrenamiento. Alcanza un 87 % en ERQA, el benchmark propio de Google. Los prompts de ejemplo publicados muestran, aun así, que las demos todavía necesitan bastante guía humana.",
+      "why_it_matters": "Unifica control, simulación y evaluación en un solo modelo, un paso hacia robots que se entrenan con mucha menos ingeniería a medida.",
+      "url": "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need",
+      "source": "The Decoder",
+      "social": {
+        "x": "Un solo modelo para controlar un robot, generar su simulación y evaluar sus vídeos de entrenamiento. Google dice que Gemini 4 Argon ya lo hace, aunque sus propias demos aún piden bastante mano humana.\n\n#Gemini #Google #Robótica #RobotLearning\nhttps://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need",
+        "linkedin": "Google quiere unificar en Gemini 4 Argon lo que hoy son tres piezas separadas: controlar el robot, generar simulaciones a partir de una foto o un boceto y evaluar los vídeos de entrenamiento.\n\nSi funciona, el ahorro está en la ingeniería a medida: menos pipelines por tarea y más reutilizar el mismo modelo para todo. El matiz importa: 𝗲𝗹 𝟴𝟳 % 𝗲𝘀 𝗲𝗻 𝗘𝗥𝗤𝗔, 𝗲𝗹 𝗯𝗲𝗻𝗰𝗵𝗺𝗮𝗿𝗸 𝗱𝗲 𝗹𝗮 𝗽𝗿𝗼𝗽𝗶𝗮 𝗚𝗼𝗼𝗴𝗹𝗲, y los prompts de ejemplo publicados enseñan demos que todavía necesitan bastante guía humana. Para quien diseña robots, la dirección es clara; la promesa, aún sin verificar fuera de casa.\n\n#Gemini #Google #Robótica #RobotLearning\n\nhttps://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Beam, un modelo abierto de 501.000 millones de parámetros que se puede personalizar",
+      "summary": "Reflection ha publicado Beam, un modelo abierto de 501.000 millones de parámetros que una organización puede descargar, ajustar y escalar en su propia infraestructura. La propuesta apunta a quien quiere control total sobre el modelo y no depender de una API ajena.",
+      "why_it_matters": "Amplía la oferta de modelos abiertos grandes que se pueden poseer y adaptar por completo dentro de casa.",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Un modelo abierto de 501.000 millones de parámetros que puedes descargar, ajustar y ejecutar en tu propia infraestructura. Sin depender de la API de nadie.\n\n#OpenSource #Beam #Reflection #HuggingFace\nhttps://huggingface.co/blog/reflection-beam",
+        "linkedin": "Un modelo abierto de 501.000 millones de parámetros ya se puede tener en casa, ajustar y escalar sin pedir permiso a ninguna API.\nReflection publica Beam y engorda la lista de modelos abiertos grandes que una organización puede 𝗽𝗼𝘀𝗲𝗲𝗿 𝘆 𝗮𝗱𝗮𝗽𝘁𝗮𝗿 𝗽𝗼𝗿 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝘀𝘂 𝗽𝗿𝗼𝗽𝗶𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮. Para equipos con requisitos de privacidad, latencia o coste a escala, el cálculo cambia: el límite deja de ser el acceso al modelo y pasa a ser lo que puedas permitirte en GPUs. La pregunta ya no es si merece la pena, sino si tienes con qué mantenerlo en producción.\n\n#OpenSource #Beam #Reflection #HuggingFace\n\nhttps://huggingface.co/blog/reflection-beam"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "industria",
+      "title": "OpenAI regala hasta 30 licencias a laboratorios académicos con el plan Rosalind",
+      "summary": "OpenAI ha lanzado el Rosalind Academic Plan, un programa gratuito para laboratorios de investigación de universidades estadounidenses que no tengan contrato enterprise. Los seleccionados reciben hasta 30 licencias del plan Business Standard durante un año, sin acceso a la API. Todo gira en torno a GPT-Rosalind, un modelo orientado a las ciencias de la vida y a preguntas biológicas complejas.",
+      "why_it_matters": "Da acceso sin coste a un modelo especializado en biología a laboratorios que difícilmente podrían pagarlo.",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "source": "OpenAI News",
+      "social": {
+        "x": "OpenAI regala hasta 30 licencias de su modelo de biología a laboratorios universitarios. Un año gratis. La letra pequeña: sin API.\n\n#OpenAI #GPTRosalind #Biotech #LifeSciences\nhttps://openai.com/index/introducing-the-rosalind-academic-plan",
+        "linkedin": "OpenAI está regalando su modelo de biología a los laboratorios que difícilmente podrían pagarlo.\n\nEl Rosalind Academic Plan reparte hasta 30 licencias del plan Business Standard durante un año a laboratorios de universidades estadounidenses sin contrato enterprise, y todo gira en torno a GPT-Rosalind, un modelo orientado a las ciencias de la vida. El detalle que importa: 𝗻𝗼 𝗶𝗻𝗰𝗹𝘂𝘆𝗲 𝗮𝗰𝗰𝗲𝘀𝗼 𝗮 𝗹𝗮 𝗔𝗣𝗜, así que el uso se queda en la interfaz, sin pipelines ni integración en flujos automatizados. Para un grupo con pocos recursos es una puerta de entrada excelente, y para OpenAI es una forma barata de que estos laboratorios se acostumbren a su modelo antes de venderles el contrato completo.\n\n#OpenAI #GPTRosalind #Biotech #LifeSciences\n\nhttps://openai.com/index/introducing-the-rosalind-academic-plan"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Brave cifra de extremo a extremo las conversaciones con su asistente de IA",
+      "summary": "Brave ha habilitado un espacio seguro para que quienes usan su navegador conversen con el asistente de IA de la compañía sin que nadie más lea la conversación. El sistema se apoya en hardware de confianza (TEE) y funciona con GLM 5.3 Flash. Llega justo cuando otros asistentes piden amplios permisos sobre datos personales y reutilizan las conversaciones para entrenar.",
+      "why_it_matters": "Demuestra que se puede ofrecer un asistente de IA con garantías de privacidad verificables, en plena tendencia contraria.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462",
+      "source": "The Register",
+      "social": {
+        "x": "🔒 Brave ya cifra de extremo a extremo tus conversaciones con su asistente de IA. Ni la propia compañía puede leerlas.\n\n#Brave #Privacidad #GLM #CifradoExtremoAExtremo\nhttps://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462",
+        "linkedin": "Brave acaba de demostrar que un asistente de IA puede ser útil sin quedarse con tus conversaciones.\n\nEl navegador cifra de extremo a extremo el chat con su asistente, apoyándose en hardware de confianza (TEE) y en GLM 5.3 Flash, de forma que 𝗻𝗶 𝗹𝗮 𝗽𝗿𝗼𝗽𝗶𝗮 𝗕𝗿𝗮𝘃𝗲 𝗽𝘂𝗲𝗱𝗲 𝗹𝗲𝗲𝗿 𝗹𝗼 𝗾𝘂𝗲 𝗲𝘀𝗰𝗿𝗶𝗯𝗲𝘀. Llega justo en el momento opuesto al del resto del sector, donde los asistentes piden permisos amplios sobre datos personales y reutilizan las conversaciones para entrenar. Para quien elige herramientas de IA en una empresa, abre una vía intermedia entre renunciar al asistente y aceptar el intercambio de datos por defecto.\n\n#Brave #Privacidad #GLM #CifradoExtremoAExtremo\n\nhttps://www.theregister.com/ai-and-ml/2026/10/16/want-your-ai-chats-to-stay-private-brave-tees-up-end-to-end-encryption/5303462"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Gmail estrena búsqueda con IA para los suscriptores de Google AI",
+      "summary": "Google ha activado en Gmail una búsqueda asistida por IA disponible para quienes pagan un plan de Google AI. La función busca atacar una de las quejas clásicas del servicio: un buscador básico que no entiende consultas en lenguaje natural.",
+      "why_it_matters": "Mejora una herramienta que millones de personas usan a diario y muestra cómo la IA se cuela en funciones básicas ya existentes.",
+      "url": "https://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers",
+      "source": "Engadget",
+      "social": {
+        "x": "Gmail por fin entiende lo que le pides. La búsqueda con IA ya está activa, pero solo si pagas Google AI.\n\n#Gmail #GoogleAI #GoogleWorkspace\nhttps://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers",
+        "linkedin": "El buscador de Gmail llevaba años siendo su punto más flojo, y Google acaba de arreglarlo solo para quien paga.\n\nLa búsqueda con IA ya está activa en Gmail para los suscriptores de Google AI y entiende consultas en lenguaje natural, algo que el buscador clásico nunca hizo bien. Es un movimiento lógico, y también una señal incómoda: 𝗹𝗮𝘀 𝗺𝗲𝗷𝗼𝗿𝗮𝘀 𝗾𝘂𝗲 𝗮𝗻𝘁𝗲𝘀 𝗹𝗹𝗲𝗴𝗮𝗯𝗮𝗻 𝗮 𝘁𝗼𝗱𝗼𝘀 𝗮𝗵𝗼𝗿𝗮 𝘀𝗼𝗻 𝗮𝗿𝗴𝘂𝗺𝗲𝗻𝘁𝗼 𝗱𝗲 𝘀𝘂𝘀𝗰𝗿𝗶𝗽𝗰𝗶ó𝗻. Para quien vive dentro de Gmail, toca valorar si la función justifica el plan.\n\n#Gmail #GoogleAI #GoogleWorkspace\n\nhttps://www.engadget.com/2288545/gmail-live-ai-search-feature-arrives-for-google-ai-subscribers"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "herramientas",
+      "title": "AWS lanza Strands Decider 2B y Strands Box para construir agentes",
+      "summary": "AWS ha publicado dos proyectos open source para desarrollar agentes: Strands Decider 2B, un modelo pequeño que toma decisiones dentro del flujo del agente, y Strands Box, un sandbox para controlar la ejecución del código. Cada uno cubre una parte distinta del problema de montar agentes que usan herramientas, ejecutan código y hablan con sistemas externos.",
+      "why_it_matters": "Pone piezas abiertas y reutilizables en dos de los puntos más delicados de un agente: decidir y ejecutar sin salirse del guion.",
+      "url": "https://www.infoq.com/news/2026/10/aws-strands-agents",
+      "source": "InfoQ",
+      "social": {
+        "x": "AWS libera en abierto las dos piezas donde más agentes se rompen: la que decide y la que ejecuta código. Y van por separado.\n\n#AWS #OpenSource #Strands #LLM\nhttps://www.infoq.com/news/2026/10/aws-strands-agents",
+        "linkedin": "Montar un agente es fácil. Que no se salga del guion ya no lo es.\n\nAWS acaba de publicar Strands Decider 2B, un modelo pequeño que toma decisiones dentro del flujo del agente, y Strands Box, un sandbox para controlar la ejecución de código. Son 𝗹𝗮𝘀 𝗱𝗼𝘀 𝗽𝗶𝗲𝘇𝗮𝘀 𝗱𝗼𝗻𝗱𝗲 𝗺á𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝘀𝗲 𝗿𝗼𝗺𝗽𝗲𝗻 𝗮𝗹 𝗽𝗮𝘀𝗮𝗿 𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻, y llegan como proyectos open source y reutilizables. Si ya tienes tu propio framework, puedes enchufarlas sin rehacer la arquitectura: para equipos que llevan meses peleándose con tool calling y ejecución de código, esto ahorra bastante trabajo sucio.\n\n#AWS #OpenSource #Strands #LLM\n\nhttps://www.infoq.com/news/2026/10/aws-strands-agents"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "herramientas",
+      "title": "Grafana aplica SLO y presupuestos de error al comportamiento de los agentes",
+      "summary": "Grafana Labs propone llevar la ingeniería de fiabilidad que ya se usa en software (SLO y error budgets) a un problema nuevo: medir si un agente de IA se está comportando bien. La idea es definir objetivos de servicio y umbrales de error para el comportamiento del agente, igual que se hace con un servicio convencional.",
+      "why_it_matters": "Da un marco conocido y medible para vigilar agentes en producción, en lugar de fiarse de impresiones.",
+      "url": "https://www.infoq.com/news/2026/10/grafana-slo-ai-agent",
+      "source": "InfoQ",
+      "social": {
+        "x": "¿Cómo sabes si tu agente de IA se está comportando bien? Grafana propone medirlo con SLO y error budgets, no por impresiones.\n\n#Grafana #SRE #Observabilidad #ErrorBudget\nhttps://www.infoq.com/news/2026/10/grafana-slo-ai-agent",
+        "linkedin": "¿Cómo sabes si un agente de IA se está comportando bien en producción?\n\nGrafana Labs propone aplicar SLO y error budgets, los mismos mecanismos que ya usamos para medir la fiabilidad de un servicio. 𝗘𝗹 𝗰𝗼𝗺𝗽𝗼𝗿𝘁𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗶𝗺𝗽𝗿𝗲𝘀𝗶ó𝗻 𝘀𝘂𝗯𝗷𝗲𝘁𝗶𝘃𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘁𝗲𝗻𝗲𝗿 𝘂𝗺𝗯𝗿𝗮𝗹𝗲𝘀 𝗺𝗲𝗱𝗶𝗯𝗹𝗲𝘀. Para equipos de plataforma y SRE, esto ofrece un marco conocido para operar agentes: definir qué es aceptable, alertar cuando se sale del rango y decidir con datos, no a ojo.\n\n#Grafana #SRE #Observabilidad #ErrorBudget\n\nhttps://www.infoq.com/news/2026/10/grafana-slo-ai-agent"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "Instagram reescribe su interfaz para que los agentes de IA la entiendan",
+      "summary": "Instagram Direct migró su interfaz de Android del sistema clásico de vistas a Jetpack Compose y convirtió el código en una base pensada para la IA, más fácil de leer y modificar por agentes de programación. Según sus ingenieros, el cambio redujo el código de interfaz un 50 % y el coste en tokens por sesión de agente un 33 %.",
+      "why_it_matters": "Añade un motivo nuevo para modernizar el código: no solo lo entienden las personas, también los agentes que lo tocan.",
+      "url": "https://www.infoq.com/news/2026/10/instagram-compose-migration",
+      "source": "InfoQ",
+      "social": {
+        "x": "El nuevo motivo para modernizar tu código no es la deuda técnica: es que un agente de IA pueda leerlo. Instagram ya lo ha hecho y gasta un 33 % menos de tokens.\n\n#Instagram #JetpackCompose #Android #CodeAgents\nhttps://www.infoq.com/news/2026/10/instagram-compose-migration",
+        "linkedin": "Instagram Direct ha reescrito su interfaz de Android pensando en un lector que no es humano.\n\nAl migrar de las vistas clásicas a Jetpack Compose, sus ingenieros han convertido el código en una base que los agentes de programación leen y modifican mejor: 𝗹𝗮 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝘇 𝘀𝗲 𝗵𝗮 𝗿𝗲𝗱𝘂𝗰𝗶𝗱𝗼 𝘂𝗻 𝟱𝟬 % 𝘆 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗲𝗻 𝘁𝗼𝗸𝗲𝗻𝘀 𝗽𝗼𝗿 𝘀𝗲𝘀𝗶ó𝗻 𝗱𝗲 𝗮𝗴𝗲𝗻𝘁𝗲 𝗵𝗮 𝗰𝗮í𝗱𝗼 𝘂𝗻 𝟯𝟯 %. Hasta ahora, modernizar una base de código se justificaba por mantenibilidad o rendimiento; esto añade un criterio nuevo, que el código sea legible para quien va a tocarlo, sea persona o agente. Conviene preguntarse cuánto código legacy de nuestras apps suspendería ese examen.\n\n#Instagram #JetpackCompose #Android #CodeAgents\n\nhttps://www.infoq.com/news/2026/10/instagram-compose-migration"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "GPT-6-Astra resuelve 49 de 50 problemas de física a 2,40 dólares cada uno",
+      "summary": "En el benchmark TheoPhysEval, GPT-6-Astra resolvió 49 de 50 cálculos de física teórica no publicados con la misma precisión que especialistas de primer nivel. En algunos casos en los que parecía fallar, las soluciones de referencia de los propios expertos contenían errores. Los investigadores avisan, eso sí, de que a los agentes les falta 'taste' para elegir qué problema merece la pena.",
+      "why_it_matters": "Pone precio y escala a la investigación asistida por IA y obliga a replantear cómo se forma a los físicos.",
+      "url": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece",
+      "source": "The Decoder",
+      "social": {
+        "x": "GPT-6-Astra resuelve 49 de 50 problemas inéditos de física teórica. A 2,40 dólares cada uno. Y donde parecía fallar, el error estaba en la solución del experto.\n\n#OpenAI #GPT6 #TheoPhysEval\nhttps://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece",
+        "linkedin": "49 de 50 problemas de física teórica sin publicar, resueltos al mismo nivel que un especialista de primer nivel. A 2,40 dólares cada uno.\n\nEl benchmark TheoPhysEval no mide si el modelo aprueba, mide si iguala a investigadores cuya solución nadie había visto todavía. En varios casos en los que GPT-6-Astra parecía fallar, el error estaba en la referencia del propio experto. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗰𝗮𝗹𝗰𝘂𝗹𝗮𝗿 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗲𝗹𝗲𝗴𝗶𝗿 𝗾𝘂é 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗺𝗲𝗿𝗲𝗰𝗲 𝗹𝗮 𝗽𝗲𝗻𝗮, y eso es precisamente lo que los autores del estudio dicen que aún falta: taste. Para quien forma a físicos, la conversación se desplaza de cómo resolver a cómo formular buenas preguntas.\n\n#OpenAI #GPT6 #TheoPhysEval\n\nhttps://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "¿Está la interpretabilidad de la IA cerca de un avance? Un ensayo divide a los investigadores",
+      "summary": "Un nuevo ensayo sostiene que las redes neuronales podrían ser mucho más fáciles de leer de lo que se asumía: alrededor del 90 % de las neuronas cumplirían una función clara. Si la tesis se sostiene, sería una gran noticia para la seguridad, porque permitiría detectar engaños o comportamientos peligrosos directamente en los circuitos del modelo. Los investigadores siguen discutiendo si el argumento se aguanta.",
+      "why_it_matters": "Si de verdad se puede leer lo que hace cada neurona, auditar un modelo dejaría de ser una caja negra.",
+      "url": "https://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided",
+      "source": "The Decoder",
+      "social": {
+        "x": "Un ensayo sostiene que el 90 % de las neuronas de una red neuronal tienen una función clara. Si es cierto, auditar un modelo deja de ser una caja negra.\n\n#Interpretabilidad #MachineLearning #SeguridadIA\nhttps://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided",
+        "linkedin": "Si el 90 % de las neuronas de un modelo cumple una función que podemos leer, la interpretabilidad deja de ser un ejercicio teórico.\nUn ensayo reciente defiende exactamente eso y ha partido en dos a los investigadores: unos ven la puerta abierta a 𝗮𝘂𝗱𝗶𝘁𝗮𝗿 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗱𝗲𝘀𝗱𝗲 𝗱𝗲𝗻𝘁𝗿𝗼, otros creen que el argumento no se sostiene. La diferencia importa porque de ahí depende que podamos detectar engaños o comportamientos peligrosos en los circuitos y no solo por lo que el modelo muestra hacia fuera. Si la tesis cae, seguimos auditando a ciegas; si aguanta, cambia por completo cómo se diseña la seguridad de un modelo.\n\n#Interpretabilidad #MachineLearning #SeguridadIA\n\nhttps://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Anthropic abre sus modelos y prácticas de seguridad a la auditoría de METR",
+      "summary": "Anthropic ha dado acceso interno a un equipo de la organización sin ánimo de lucro METR para revisar sus modelos y sus prácticas de seguridad. Seis personas de METR han recibido hardware, espacio de oficina y acceso a herramientas internas, un nivel parecido al de los equipos de riesgo de la propia Anthropic. Quedan fuera los datos de clientes, el material protegido por secreto profesional y los detalles de la arquitectura; METR publicará sus conclusiones de forma independiente.",
+      "why_it_matters": "Es un precedente poco habitual de auditoría externa con acceso real y sin derecho de veto por parte del laboratorio.",
+      "url": "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices",
+      "source": "The Decoder",
+      "social": {
+        "x": "Anthropic deja que un equipo externo audite sus modelos desde dentro. Y no tiene derecho a vetar lo que publiquen.\n\n#Anthropic #METR #AISafety\nhttps://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices",
+        "linkedin": "Anthropic acaba de dar a un equipo externo algo que ningún laboratorio cede por costumbre: acceso desde dentro y libertad para publicar lo que encuentre.\n\nSeis personas de METR tendrán hardware, oficina y herramientas internas al mismo nivel que los equipos de riesgo de Anthropic. Quedan fuera los datos de clientes y la arquitectura, pero 𝗹𝗮𝘀 𝗰𝗼𝗻𝗰𝗹𝘂𝘀𝗶𝗼𝗻𝗲𝘀 𝘀𝗲 𝗽𝘂𝗯𝗹𝗶𝗰𝗮𝗻 𝘀𝗶𝗻 𝗱𝗲𝗿𝗲𝗰𝗵𝗼 𝗱𝗲 𝘃𝗲𝘁𝗼 𝗱𝗲𝗹 𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗼𝗿𝗶𝗼. Para el sector, el listón sube: la auditoría deja de ser un documento pactado y empieza a parecerse a una revisión de verdad. Si esto funciona, costará explicar por qué los demás no lo replican.\n\n#Anthropic #METR #AISafety\n\nhttps://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "La Fundación Simons destina 15 millones a preparar a los matemáticos para la era de la IA",
+      "summary": "La Fundación Simons ha anunciado un paquete de iniciativas dotado con 15 millones de dólares para ayudar a la comunidad matemática a adaptarse al rápido avance de la inteligencia artificial en el campo. El programa se articula como una alianza para financiar investigación, conectar a investigadores y compartir resultados.",
+      "why_it_matters": "Es una de las primeras grandes inversiones filantrópicas pensadas para que una disciplina académica digiera el impacto de la IA.",
+      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era",
+      "source": "Hacker News",
+      "social": {
+        "x": "15 millones de dólares para que los matemáticos no se queden mirando cómo la IA les pasa por delante. La Fundación Simons mueve ficha antes que nadie.\n\n#SimonsFoundation #Matemáticas #InteligenciaArtificial\nhttps://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era",
+        "linkedin": "La primera gran donación filantrópica de esta era no va a comprar GPUs: va a preparar a los matemáticos para la IA.\n\nLa Fundación Simons pone 15 millones de dólares en una alianza que financia investigación, conecta a investigadores y comparte resultados. No es una apuesta por herramientas, sino por la comunidad que tendrá que validar lo que producen los modelos.\n\n𝗖𝘂𝗮𝗻𝗱𝗼 𝘂𝗻𝗮 𝗱𝗶𝘀𝗰𝗶𝗽𝗹𝗶𝗻𝗮 𝗰𝗮𝗺𝗯𝗶𝗮 𝗱𝗲 𝗶𝗻𝘀𝘁𝗿𝘂𝗺𝗲𝗻𝘁𝗼𝘀, 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗹𝗮 𝗴𝗲𝗻𝘁𝗲. Y en matemáticas, la gente se forma en décadas, no en sprints.\n\n#SimonsFoundation #Matemáticas #InteligenciaArtificial\n\nhttps://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "herramientas",
+      "title": "Un experimento de IA de 24.000 dólares porta el compilador de TypeScript a Rust",
+      "summary": "Un desarrollador ha portado el compilador de TypeScript a Rust con ayuda de IA y un presupuesto de 24.000 dólares, y asegura que su versión corre el doble de rápido. El trabajo compite directamente con la reescritura en Go que está haciendo Microsoft.",
+      "why_it_matters": "Muestra hasta dónde llega hoy un proyecto individual con presupuesto pequeño frente al esfuerzo de una gran empresa.",
+      "url": "https://www.theregister.com/devops/2026/10/15/24000-ai-experiment-ports-typescript-compiler-to-rust/5303409",
+      "source": "The Register",
+      "social": {
+        "x": "24.000 dólares en IA y un solo desarrollador: un port del compilador de TypeScript a Rust que, dice, va el doble de rápido. Microsoft hace esa misma migración en Go con un equipo entero.\n\n#TypeScript #Rust #Go #OpenSource\nhttps://www.theregister.com/devops/2026/10/15/24000-ai-experiment-ports-typescript-compiler-to-rust/5303409",
+        "linkedin": "Un desarrollador, 24.000 dólares en tokens de IA y un port del compilador de TypeScript a Rust que asegura correr el doble de rápido. Microsoft está haciendo esa misma migración, pero en Go y con un equipo entero detrás.\n\nMás allá del mérito técnico, 𝗺𝗮𝗿𝗰𝗮 𝗲𝗹 𝗹𝗶𝘀𝘁ó𝗻 𝗱𝗲 𝗹𝗼 𝗾𝘂𝗲 𝗵𝗼𝘆 𝗽𝘂𝗲𝗱𝗲 𝗶𝗴𝘂𝗮𝗹𝗮𝗿 𝘂𝗻 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝗶𝗻𝗱𝗶𝘃𝗶𝗱𝘂𝗮𝗹 𝗰𝗼𝗻 𝗽𝗿𝗲𝘀𝘂𝗽𝘂𝗲𝘀𝘁𝗼 𝗮𝗷𝘂𝘀𝘁𝗮𝗱𝗼 frente al esfuerzo de una gran empresa. Si la cosa aguanta una revisión seria y no se queda en un experimento, la pregunta incómoda deja de ser si la IA puede escribir un compilador y pasa a ser cuánta gente hace falta para mantenerlo.\n\n#TypeScript #Rust #Go #OpenSource\n\nhttps://www.theregister.com/devops/2026/10/15/24000-ai-experiment-ports-typescript-compiler-to-rust/5303409"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Postgres 19 se retrasa porque los revisores de IA encuentran más bugs de los que se pueden arreglar",
+      "summary": "Los desarrolladores principales de PostgreSQL han revertido hasta diez funcionalidades y han aplazado la versión 19 a noviembre. El motivo no es escribir código con IA, sino que las herramientas automáticas de revisión detectan más errores de los que el equipo humano puede corregir a tiempo.",
+      "why_it_matters": "Es un ejemplo claro de que la IA en el ciclo de desarrollo cambia el cuello de botella: ahora no es escribir, sino revisar y arreglar.",
+      "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+      "source": "The Register",
+      "social": {
+        "x": "Postgres 19 se va a noviembre: los revisores automáticos encuentran más bugs de los que el equipo puede arreglar. Ya han revertido diez funcionalidades.\n\n#PostgreSQL #OpenSource #DevTools\nhttps://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+        "linkedin": "El cuello de botella del desarrollo con IA ya no está en escribir código, sino en revisarlo.\n\nPostgreSQL retrasa la versión 19 a noviembre y ha revertido diez funcionalidades. No porque la IA escriba mal, sino porque las herramientas automáticas de revisión sacan más errores de los que hay manos para verificar y corregir a tiempo. Es un cambio de fase incómodo: 𝗹𝗮 𝗜𝗔 𝗺𝘂𝗹𝘁𝗶𝗽𝗹𝗶𝗰𝗮 𝗹𝗮 𝗰𝗼𝗹𝗮 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗽𝗲𝗻𝗱𝗶𝗲𝗻𝘁𝗲 𝗲𝗻 𝗹𝘂𝗴𝗮𝗿 𝗱𝗲 𝗿𝗲𝗱𝘂𝗰𝗶𝗿𝗹𝗮. Cualquier equipo que meta revisión automática en su pipeline tendrá que decidir antes qué hace con los hallazgos, porque generarlos es gratis y validarlos no. Y golpea más fuerte a los proyectos con menos revisores y más código heredado.\n\n#PostgreSQL #OpenSource #DevTools\n\nhttps://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "La FTC investiga a OpenAI y Anthropic por posibles daños a los consumidores",
+      "summary": "La Comisión Federal de Comercio de Estados Unidos ha enviado requerimientos a OpenAI y Anthropic para investigar posibles perjuicios a los consumidores después de varios fallos de seguridad. El organismo podría imponer sanciones de un orden similar a las que aplica a empresas que retrasan la comunicación de brechas de datos.",
+      "why_it_matters": "Es la primera gran presión regulatoria directa sobre los dos laboratorios punteros y puede marcar cómo notifican sus incidentes.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says",
+      "source": "Ars Technica",
+      "social": {
+        "x": "La FTC ya está mirando dentro de OpenAI y Anthropic. No por lo que hacen con los modelos, sino por cómo notifican sus fallos de seguridad. Y puede acabar en sanción.\n\n#FTC #OpenAI #Anthropic #Regulación\nhttps://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says",
+        "linkedin": "La FTC no ha ido a preguntar por los modelos: ha ido a preguntar por los fallos.\n\nOpenAI y Anthropic han recibido requerimientos de la Comisión Federal de Comercio tras varios incidentes de seguridad, y el organismo estudia sanciones parecidas a las que aplica a quien retrasa la comunicación de una brecha de datos. 𝗘𝘀 𝗹𝗮 𝗽𝗿𝗶𝗺𝗲𝗿𝗮 𝗽𝗿𝗲𝘀𝗶ó𝗻 𝗿𝗲𝗴𝘂𝗹𝗮𝘁𝗼𝗿𝗶𝗮 𝗱𝗶𝗿𝗲𝗰𝘁𝗮 𝘀𝗼𝗯𝗿𝗲 𝗹𝗼𝘀 𝗱𝗼𝘀 𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗼𝗿𝗶𝗼𝘀 𝗽𝘂𝗻𝘁𝗲𝗿𝗼𝘀, y mueve el terreno de juego: hasta ahora el debate era qué pueden hacer los modelos, y a partir de aquí empieza a ser cómo responden cuando fallan. Para cualquier equipo que integre estas APIs, la pregunta práctica es si su plan de contingencia depende de que el proveedor avise a tiempo.\n\n#FTC #OpenAI #Anthropic #Regulación\n\nhttps://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "Sistema de optimización del rendimiento para agentes: añade skills, instintos, memoria y seguridad a herramientas como Claude Code, Codex, Opencode o Cursor. Va un paso más allá del simple prompt y hace que los agentes trabajen con más contexto y mejor criterio.",
+      "language": "JavaScript",
+      "stars": 281020,
+      "social": {
+        "x": "Tu agente no falla por el prompt. Falla por el contexto. Este repo le añade skills, instintos y memoria a Claude Code, Codex o Cursor: 281.020 estrellas.\n\n#OpenSource #ClaudeCode #Codex #AIAgents\nhttps://github.com/affaan-m/ECC",
+        "linkedin": "TU AGENTE NO FALLA POR EL PROMPT. FALLA POR EL CONTEXTO.\n\nLlevamos meses puliendo prompts mientras el cuello de botella real seguía intacto: el agente no recuerda nada entre sesiones, no tiene instintos y trabaja a ciegas cada vez que abres el editor.\n\nECC es una capa de optimización que se monta encima de herramientas como Claude Code, Codex, Opencode o Cursor y le da al agente justo lo que le falta. La idea de fondo: 𝗻𝗼 𝗰𝗮𝗺𝗯𝗶𝗮 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗰𝗮𝗺𝗯𝗶𝗮 𝗹𝗼 𝗾𝘂𝗲 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝘀𝗮𝗯𝗲 𝗲𝗻 𝗰𝗮𝗱𝗮 𝗽𝗮𝘀𝗼.\n\n→ Skills: capacidades concretas que el agente invoca cuando las necesita.\n→ Instintos: reglas de actuación que cortan los errores típicos antes de que ocurran.\n→ Memoria: contexto persistente entre sesiones, sin repetir lo mismo cada mañana.\n→ Seguridad: límites claros sobre lo que el agente puede tocar.\n\nVa un paso más allá del simple prompt y hace que trabaje con más contexto y mejor criterio. Está escrito en JavaScript, es open source y ya suma 281.020 estrellas.\n\nSi tu agente te obliga a explicarle el proyecto desde cero cada día, este repo te va a ahorrar horas. Guárdalo antes de que se te pierda.\n\n#OpenSource #ClaudeCode #Codex #AIAgents\n\nhttps://github.com/affaan-m/ECC"
+      }
+    },
+    {
+      "name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "El harness de agentes original, pensado para desplegar swarms multiagente, coordinar workflows autónomos y montar sistemas conversacionales con IA. Incluye memoria adaptativa, aprendizaje propio, federación e integración con RAG vectorial, además de soporte nativo para Claude Code, Codex y bastantes más.",
+      "language": "TypeScript",
+      "stars": 75470,
+      "social": {
+        "x": "75.470 estrellas y ni un paywall: este harness en TypeScript monta swarms multiagente con memoria adaptativa, federación y RAG. Y ya va con Claude Code y Codex.\n\n#ruflo #TypeScript #OpenSource #GitHub\nhttps://github.com/ruvnet/ruflo",
+        "linkedin": "75.470 ESTRELLAS PARA EL HARNESS DE AGENTES QUE NO TE COBRA POR ASIENTO.\n\nMontar un swarm multiagente en producción suele pasar por plataformas cerradas, cuotas por uso y una capa de memoria que no controlas. ruflo es un harness open source en TypeScript que pone todo eso dentro de tu infraestructura: despliegue de agentes, memoria adaptativa, aprendizaje propio, federación y RAG vectorial en la misma caja.\n\nLo que trae de serie:\n→ Swarms multiagente y coordinación de workflows autónomos, sin depender de un orquestador de terceros.\n→ Memoria adaptativa y aprendizaje propio, para que el sistema no arranque de cero en cada ejecución.\n→ Federación entre instancias y RAG vectorial, de modo que los agentes consulten tu propio contexto y no solo el del modelo.\n→ Soporte nativo para Claude Code, Codex y bastantes más clientes, sin adaptadores caseros de por medio.\n\n𝗟𝗮 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝘆 𝗲𝗹 𝗮𝗽𝗿𝗲𝗻𝗱𝗶𝘇𝗮𝗷𝗲 𝘀𝗲 𝗾𝘂𝗲𝗱𝗮𝗻 𝗲𝗻 𝘁𝘂 𝘀𝘁𝗮𝗰𝗸, no en el panel de un proveedor que te los puede cerrar mañana.\n\nGuarda el post y échale un ojo al repo: te lo dejo abajo.\n\n#ruflo #TypeScript #OpenSource #GitHub\n\nhttps://github.com/ruvnet/ruflo"
+      }
+    },
+    {
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "Framework de skills para agentes acompañado de una metodología de desarrollo de software que funciona de verdad. Muy útil si quieres estructurar cómo planifican, recuerdan y ejecutan tareas tus agentes en lugar de improvisar.",
+      "language": "Shell",
+      "stars": 300451,
+      "social": {
+        "x": "Alguien acaba de ponerle método a tus agentes: skills, planificación y memoria en un framework open source que ya pasa de 300.000 estrellas.\n\n#Superpowers #AgentSkills #OpenSource #GitHub\nhttps://github.com/obra/superpowers",
+        "linkedin": "TUS AGENTES NO SON MALOS. ESTÁN IMPROVISANDO.\n\nLe das un prompt, cruzas los dedos y rezas para que no se pierda a mitad de tarea. El problema casi nunca es el modelo: es que no tiene ni skills, ni método, ni memoria.\n\nsuperpowers es un framework de skills para agentes que viene acompañado de una metodología de desarrollo de software que funciona de verdad. La gracia no está en una feature aislada, está en que 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗶𝗺𝗽𝗿𝗼𝘃𝗶𝘀𝗮𝗿 y pasa a trabajar con un proceso.\n\n→ Skills como piezas reutilizables que el agente carga cuando las necesita\n→ Una metodología que define cómo planifica el trabajo antes de ejecutarlo\n→ Memoria entre tareas, en lugar de empezar de cero cada vez\n→ Ejecución estructurada de principio a fin, sin saltarse pasos\n→ Escrito en Shell y con más de 300.000 estrellas en GitHub\n\nSi ya usas agentes para programar, esto es la diferencia entre un asistente que responde y un equipo que trabaja con criterio.\n\nGuarda este post para la próxima vez que tu agente se quede a medias. Te dejo el repo abajo.\n\n#Superpowers #AgentSkills #OpenSource #GitHub\n\nhttps://github.com/obra/superpowers"
+      }
+    },
+    {
+      "name": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "Framework de búsqueda de empleo con IA que corre en tu propia máquina, construido sobre Claude Code: evalúa ofertas, adapta el CV, redacta cartas de presentación y prepara entrevistas. Puedes hacer fork y quedártelo entero, sin depender de ningún servicio externo.",
+      "language": "Python",
+      "stars": 47963,
+      "social": {
+        "x": "Aplicar a ofertas con IA se ha convertido en negocio. Este framework lo hace en tu propia máquina y ya suma 47.963 estrellas.\n\n#OpenSource #Python #ClaudeCode #GitHub\nhttps://github.com/MadsLorentzen/ai-job-search",
+        "linkedin": "HAY UN FRAMEWORK QUE TE BUSCA TRABAJO DESDE TU PROPIO ORDENADOR, SIN CUENTAS NI SUSCRIPCIONES.\n\nLas herramientas que prometen optimizar tu CV con IA suelen cobrarte una cuota y quedarse con tus datos. Este repo va por otro camino: corre en tu máquina, encima de Claude Code, y puedes hacer fork y quedártelo entero. Sin servicio externo de por medio.\n\nQué hace:\n→ Evalúa cada oferta y te dice si encaja contigo de verdad.\n→ Adapta tu CV a la descripción del puesto.\n→ Redacta la carta de presentación.\n→ Prepara la entrevista.\n→ Todo en Python y en local, así que tu información no sale de tu equipo.\n\n𝗘𝗹 𝗿𝗲𝗽𝗼 𝗲𝗻𝘁𝗲𝗿𝗼 𝗲𝘀 𝘁𝘂𝘆𝗼 𝗰𝗼𝗻 𝘂𝗻 𝗳𝗼𝗿𝗸: 𝘀𝗶𝗻 𝗰𝘂𝗼𝘁𝗮, 𝘀𝗶𝗻 𝗰𝘂𝗲𝗻𝘁𝗮 𝘆 𝘀𝗶𝗻 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝗻𝗮𝗱𝗶𝗲.\n\n47.963 estrellas después, el mensaje está claro: la gente prefiere controlar sus herramientas antes que alquilarlas.\n\nGuárdate el post y échale un ojo al repo, lo tienes abajo.\n\n#OpenSource #Python #ClaudeCode #GitHub\n\nhttps://github.com/MadsLorentzen/ai-job-search"
+      }
+    },
+    {
+      "name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "La especificación de plugins de Cursor junto con los plugins oficiales del editor. Práctico tanto si quieres ampliar lo que ya trae como si te planteas publicar tu propia extensión.",
+      "language": "TypeScript",
+      "stars": 11803,
+      "social": {
+        "x": "Cursor acaba de publicar la spec de sus plugins junto a los oficiales. 11.803 estrellas para ampliar el editor a tu manera.\n\n#Cursor #Plugins #TypeScript #OpenSource\nhttps://github.com/cursor/plugins",
+        "linkedin": "CURSOR ACABA DE ABRIR LA ESPECIFICACIÓN DE SUS PLUGINS.\n\nHasta ahora, ampliar el editor dependía de lo que traía de serie o de apañártelas por tu cuenta. Con este repo tienes la spec oficial y los plugins que mantiene el propio equipo, todo en el mismo sitio.\n\n𝗟𝗮 𝗲𝘀𝗽𝗲𝗰𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗲𝘀𝘁á 𝗽𝗲𝗻𝘀𝗮𝗱𝗮 𝗽𝗮𝗿𝗮 𝗾𝘂𝗲 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿𝗮 𝗽𝘂𝗲𝗱𝗮 𝗽𝘂𝗯𝗹𝗶𝗰𝗮𝗿 𝘀𝘂 𝗽𝗿𝗼𝗽𝗶𝗮 𝗲𝘅𝘁𝗲𝗻𝘀𝗶ó𝗻, no solo para cotillear cómo lo hacen ellos.\n\nLo que vas a encontrar:\n\n→ La especificación completa de la API de plugins, en TypeScript.\n→ Los plugins oficiales como referencia real de implementación.\n→ Ejemplos para ampliar lo que ya trae el editor sin pelearte con la documentación.\n→ El camino para publicar tu propia extensión si te animas.\n\nSi usas Cursor a diario, este repo te sirve igual para retocar dos cosas como para montar algo serio encima. Guárdalo para la próxima vez que te falte una función.\n\nTe dejo el repo abajo.\n\n#Cursor #Plugins #TypeScript #OpenSource\n\nhttps://github.com/cursor/plugins"
+      }
+    }
+  ]
+}
