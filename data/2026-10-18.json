@@ -1,0 +1,278 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T14:00:00.875Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "herramientas",
+      "title": "Sphinx, un hook de Git que te pregunta qué hace el código de tu agente antes de publicarlo",
+      "summary": "Sphinx es un hook de Git pensado para el desarrollo asistido por agentes: antes de que el código generado llegue al repositorio, te lanza una pregunta sobre qué hace realmente ese código. Funciona con el agente que ya uses, con OpenRouter o con cualquier endpoint compatible con OpenAI, y está diseñado para consumir pocos tokens.",
+      "why_it_matters": "Obliga a entender lo que se delega a la IA justo antes de hacer el commit, en lugar de aceptar el código a ciegas.",
+      "url": "https://sphinx-six-theta.vercel.app",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un hook de Git te para antes del commit y te pregunta qué hace exactamente el código que ha escrito tu agente. Si no sabes responder, no deberías hacer push.\n\n#Git #OpenRouter #DevTools #OpenSource\nhttps://sphinx-six-theta.vercel.app",
+        "linkedin": "El código que aceptas sin entender es deuda que firmas hoy y pagas en producción. Sphinx es un hook de Git que, justo antes del commit, te lanza la pregunta incómoda: qué hace realmente el código que ha generado tu agente. Si no lo sabes explicar, no debería entrar.\n\nFunciona con el agente que ya uses o con cualquier endpoint compatible con OpenAI, y está pensado para gastar pocos tokens. 𝗥𝗲𝘃𝗶𝘀𝗮𝗿 𝗹𝗼 𝗾𝘂𝗲 𝗱𝗲𝗹𝗲𝗴𝗮𝘀 𝗮 𝗹𝗮 𝗜𝗔 𝘁𝗶𝗲𝗻𝗲 𝗾𝘂𝗲 𝗲𝘀𝘁𝗮𝗿 𝗲𝗻 𝗲𝗹 𝗳𝗹𝘂𝗷𝗼, 𝗻𝗼 𝗲𝗻 𝘁𝘂𝘀 𝗯𝘂𝗲𝗻𝗮𝘀 𝗶𝗻𝘁𝗲𝗻𝗰𝗶𝗼𝗻𝗲𝘀, y aquí ocurre donde de verdad se decide: el commit.\n\n#Git #OpenRouter #DevTools #OpenSource\n\nhttps://sphinx-six-theta.vercel.app"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "NVIDIA lleva su plataforma de IA local a portátiles Windows con RTX Spark",
+      "summary": "Ya están disponibles los portátiles RTX Spark de ASUS, Dell, HP, Lenovo, Microsoft y MSI, con gráficos Blackwell, hasta 128 GB de memoria unificada y la plataforma de IA de NVIDIA en formato delgado. Los precios arrancan en 2.399 dólares.",
+      "why_it_matters": "Acerca la ejecución de modelos de IA en local a equipos portátiles de gama alta, sin depender de la nube.",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration",
+      "source": "NVIDIA Blog",
+      "social": {
+        "x": "128 GB de memoria unificada en un portátil. NVIDIA y seis fabricantes ya venden equipos con su plataforma de IA local, desde 2.399 dólares. La nube se está quedando sin argumentos.\n\n#NVIDIA #RTXSpark #Blackwell\nhttps://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration",
+        "linkedin": "La IA local acaba de dejar de ser cosa de torres con dos GPUs y un ventilador que suena a avión.\n\nASUS, Dell, HP, Lenovo, Microsoft y MSI ya venden portátiles RTX Spark con gráficos Blackwell y hasta 128 GB de memoria unificada, desde 2.399 dólares. Es el formato delgado en el que NVIDIA quiere meter su plataforma de IA: 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗰𝗼𝗿𝗿𝗶𝗲𝗻𝗱𝗼 𝗲𝗻 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 𝗲𝗾𝘂𝗶𝗽𝗼, 𝘀𝗶𝗻 𝘂𝗻𝗮 𝗹𝗹𝗮𝗺𝗮𝗱𝗮 𝗮 𝗹𝗮 𝗔𝗣𝗜 𝗱𝗲 𝗻𝗮𝗱𝗶𝗲. Para un equipo que trabaja con datos que no pueden salir de la empresa, la ecuación cambia hoy; para el resto, la pregunta es cuánto tarda ese sobreprecio en bajar.\n\n#NVIDIA #RTXSpark #Blackwell\n\nhttps://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "El 'brain sandwich', una rutina para no delegar el cerebro en el agente",
+      "summary": "La propuesta consiste en entender primero el problema, dejar que el agente ayude después y, por último, verificar y explicar su trabajo antes de compartirlo. El artículo lo plantea como respuesta a la costumbre de delegar la tarea completa en la IA.",
+      "why_it_matters": "Da una pauta concreta para revisar código generado sin perder criterio técnico.",
+      "url": "https://terriblesoftware.org/2026/10/02/the-brain-sandwich",
+      "source": "Lobsters",
+      "social": {
+        "x": "Delegar la tarea completa en el agente es la forma más rápida de perder criterio. El 'brain sandwich': entender primero, ayudar después, verificar y explicar al final.\n\n#CodeReview #DevTools #PromptEngineering\nhttps://terriblesoftware.org/2026/10/02/the-brain-sandwich",
+        "linkedin": "Pegar el problema en el agente y copiar lo que devuelve tiene un coste que no sale en el diff: el criterio técnico que dejas de ejercitar.\n\nEl 'brain sandwich' propone una rutina de tres capas: entender el problema antes de preguntar, usar el agente como apoyo y, al final, verificar y explicar su trabajo antes de compartirlo. 𝗟𝗮 𝗿𝗲𝘃𝗶𝘀𝗶ó𝗻 𝗻𝗼 𝗲𝘀 𝘂𝗻 𝘁𝗿á𝗺𝗶𝘁𝗲 𝗱𝗲𝗹 𝗳𝗶𝗻𝗮𝗹, 𝗲𝘀 𝗹𝗼 𝗾𝘂𝗲 𝘁𝗲 𝗺𝗮𝗻𝘁𝗶𝗲𝗻𝗲 𝗰𝗼𝗺𝗼 𝗮𝘂𝘁𝗼𝗿 𝗱𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼. Para quien ya ha integrado agentes en su día a día, la frontera entre usarlos y depender de ellos está justo en ese último paso.\n\n#CodeReview #DevTools #PromptEngineering\n\nhttps://terriblesoftware.org/2026/10/02/the-brain-sandwich"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "Cómo renderizar contenido en línea con document.currentScript",
+      "summary": "Simon Willison explica cómo aprovechar document.currentScript para que un fragmento de JavaScript insertado en la página se identifique a sí mismo y renderice su propio contenido. Es un truco sencillo para widgets y demos que se incrustan con una sola etiqueta.",
+      "why_it_matters": "Simplifica la creación de componentes autoinsertables sin depender de frameworks ni de identificadores extra.",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript",
+      "source": "Simon Willison",
+      "social": {
+        "x": "Tu script puede saber dónde está y renderizar su propio widget. Con document.currentScript, un solo <script> se basta: sin framework y sin IDs extra. Simon Willison lo reduce a un par de líneas.\n\n#JavaScript #Frontend #SimonWillison\nhttps://simonwillison.net/2026/Oct/17/document-currentscript",
+        "linkedin": "Un fragmento de JavaScript puede identificarse a sí mismo y renderizar su propio contenido. Sin framework, sin ID y sin configuración previa.\n\nSimon Willison lo consigue con document.currentScript: al ejecutarse el script, esa propiedad apunta al elemento que lo está ejecutando, así que el código puede leer sus atributos y escribir justo al lado. 𝗘𝗹 𝗽𝗮𝘁𝗿ó𝗻 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝘀𝗻𝗶𝗽𝗽𝗲𝘁 𝗲𝗻 𝘂𝗻 𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁𝗲 𝗮𝘂𝘁𝗼𝗶𝗻𝘀𝗲𝗿𝘁𝗮𝗯𝗹𝗲 con una sola etiqueta, ideal para demos, widgets de terceros y embeds que deben funcionar en cualquier página. La lectura de fondo: buena parte de la complejidad que hoy resolvemos con bundlers y capas de abstracción ya está en la plataforma, y conviene conocerla antes de sumar otra dependencia.\n\n#JavaScript #Frontend #SimonWillison\n\nhttps://simonwillison.net/2026/Oct/17/document-currentscript"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "ARP: pide a tu red que se explique",
+      "summary": "El artículo repasa el protocolo de resolución de direcciones y muestra cómo usar arp-scan para listar todos los dispositivos conectados a la red local con su IP, su MAC y, lo más útil, el fabricante.",
+      "why_it_matters": "Es una forma rápida de auditar qué hay realmente conectado a tu red doméstica.",
+      "url": "https://benjcal.space/blog/arp-tell-your-network-to-explain-itself",
+      "source": "Lobsters",
+      "social": {
+        "x": "Tu red sabe más de ti que tu router. Un comando y te suelta qué dispositivos hay conectados: IP, MAC y, lo que de verdad importa, el fabricante.\n\n#ARP #RedesLocales #Ciberseguridad #arp-scan\nhttps://benjcal.space/blog/arp-tell-your-network-to-explain-itself",
+        "linkedin": "Tu red local tiene una lista de invitados que nadie te ha enseñado nunca.\n\nARP lleva décadas funcionando en silencio, traduciendo IPs a MACs para que los paquetes lleguen a su destino, y con arp-scan esa tabla se vuelca en segundos. El campo que de verdad aporta es el fabricante: ahí aparecen la impresora, la tele, el portátil del trabajo y ese dispositivo que no recuerdas haber comprado. 𝗔𝘂𝗱𝗶𝘁𝗮𝗿 𝗹𝗮 𝗿𝗲𝗱 𝗱𝗲 𝗰𝗮𝘀𝗮 𝘂𝗻𝗮 𝘃𝗲𝘇 𝗮𝗹 𝗺𝗲𝘀 𝗱𝗲𝗯𝗲𝗿í𝗮 𝘀𝗲𝗿 𝘁𝗮𝗻 𝗿𝘂𝘁𝗶𝗻𝗮𝗿𝗶𝗼 𝗰𝗼𝗺𝗼 𝗰𝗮𝗺𝗯𝗶𝗮𝗿 𝗹𝗮 𝗰𝗼𝗻𝘁𝗿𝗮𝘀𝗲ñ𝗮 𝗱𝗲𝗹 𝗪𝗶𝗙𝗶, sobre todo cuando cualquier bombilla o enchufe conectado ya es un punto más en la superficie de ataque.\n\n#ARP #RedesLocales #Ciberseguridad #arp-scan\n\nhttps://benjcal.space/blog/arp-tell-your-network-to-explain-itself"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "Cómo usar el PC con Windows para hacer y recibir llamadas",
+      "summary": "La herramienta Phone Link de Windows permite llamar desde el escritorio o el portátil siempre que el móvil esté cerca. Engadget repasa cómo configurarla y qué límites tiene.",
+      "why_it_matters": "Resuelve las llamadas de trabajo sin tener que levantarse a por el teléfono.",
+      "url": "https://www.engadget.com/2285327/how-to-use-windows-pc-make-receive-phone-calls",
+      "source": "Engadget",
+      "social": {
+        "x": "Tu móvil está en la mesa y aun así te levantas a por él. Windows permite hacer y recibir llamadas desde el PC, y casi nadie lo configura.\n\n#Windows #PhoneLink #Microsoft #Productividad\nhttps://www.engadget.com/2285327/how-to-use-windows-pc-make-receive-phone-calls",
+        "linkedin": "Tu móvil suena y te levantas de la silla sin pensarlo. Windows lleva tiempo permitiendo contestar desde el propio PC y casi nadie lo activa.\n\nPhone Link hace y recibe llamadas desde el escritorio siempre que el teléfono esté cerca, y elimina esa fricción concreta de ir a por el móvil en mitad de una tarea. 𝗖𝗮𝗱𝗮 𝗶𝗻𝘁𝗲𝗿𝗿𝘂𝗽𝗰𝗶ó𝗻 𝗾𝘂𝗲 𝗲𝘃𝗶𝘁𝗮𝘀 𝗲𝘀 𝘂𝗻 𝗰𝗮𝗺𝗯𝗶𝗼 𝗱𝗲 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 𝗾𝘂𝗲 𝗻𝗼 𝗽𝗮𝗴𝗮𝘀, y en equipos que viven en el portátil eso se nota más de lo que parece. La pega: depende del fabricante del móvil y de la app de turno, así que conviene probarlo antes de recomendarlo a todo el equipo.\n\n#Windows #PhoneLink #Microsoft #Productividad\n\nhttps://www.engadget.com/2285327/how-to-use-windows-pc-make-receive-phone-calls"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "investigacion",
+      "title": "Es hora de hablar de los TEE: los ataques que cuestionan su seguridad",
+      "summary": "Un repaso a varios ataques preocupantes contra entornos de ejecución confiables (TEE) que invita a replantear cómo se despliegan las aplicaciones basadas en ellos. El autor sostiene que los fabricantes de hardware compiten sobre todo por rendimiento y funcionalidad.",
+      "why_it_matters": "Afecta directamente a quien confía en enclaves de Intel o AMD como base de seguridad de sus despliegues.",
+      "url": "https://alinush.github.io//tee",
+      "source": "Lobsters",
+      "social": {
+        "x": "Los enclaves de Intel y AMD llevan años vendiéndose como la caja fuerte del hardware. Varios ataques acaban de cuestionar qué se guarda ahí dentro.\n\n#TEE #Intel #AMD #ConfidentialComputing\nhttps://alinush.github.io//tee",
+        "linkedin": "Los TEE se han convertido en la respuesta por defecto cuando alguien pregunta dónde se ejecuta el código sensible. El problema es que los fabricantes compiten sobre todo por rendimiento y funcionalidad, y la seguridad queda como una promesa que se revisa a posteriori.\n\nUna tanda de ataques recientes contra enclaves de Intel y AMD deja una lectura incómoda: 𝘀𝗶 𝘁𝘂 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗮𝗺𝗲𝗻𝗮𝘇𝗮𝘀 𝘀𝗲 𝗮𝗽𝗼𝘆𝗮 𝗲𝗻 𝘂𝗻 𝗧𝗘𝗘, 𝘁𝗼𝗰𝗮 𝗮𝘂𝗱𝗶𝘁𝗮𝗿 𝗾𝘂é 𝗴𝗮𝗿𝗮𝗻𝘁𝗶𝘇𝗮 𝗱𝗲 𝘃𝗲𝗿𝗱𝗮𝗱 𝘆 𝗾𝘂é 𝗻𝗼. No es motivo para abandonarlos, pero sí para dejar de tratarlos como una caja negra infalible, sobre todo si ahí dentro van claves o datos de clientes.\n\n#TEE #Intel #AMD #ConfidentialComputing\n\nhttps://alinush.github.io//tee"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "investigacion",
+      "title": "PwnEscape: un escape de invitado a anfitrión en KVM",
+      "summary": "El análisis describe una vulnerabilidad, registrada como CVE-2026-99999, que permite salir de una máquina virtual KVM y alcanzar el hipervisor.",
+      "why_it_matters": "Recuerda que el aislamiento de las máquinas virtuales no es infalible y conviene mantener los hipervisores al día.",
+      "url": "https://pwn.ai/blog/pwnescape",
+      "source": "Lobsters",
+      "social": {
+        "x": "El aislamiento de KVM tiene una grieta con nombre propio: PwnEscape pasa de invitado a anfitrión. Y ya tiene CVE.\n\n#KVM #CVE #Linux #Virtualización\nhttps://pwn.ai/blog/pwnescape",
+        "linkedin": "El aislamiento de las máquinas virtuales nunca fue una garantía absoluta, solo una promesa que hay que mantener parcheada.\n\nPwnEscape lo vuelve a demostrar: 𝘂𝗻 𝗲𝘀𝗰𝗮𝗽𝗲 𝗱𝗲 𝗶𝗻𝘃𝗶𝘁𝗮𝗱𝗼 𝗮 𝗮𝗻𝗳𝗶𝘁𝗿𝗶ó𝗻 𝗲𝗻 𝗞𝗩𝗠 (CVE-2026-99999) permite salir de la VM y alcanzar el hipervisor. Para quien vende aislamiento como argumento comercial, es un recordatorio incómodo de que la frontera existe, pero se cruza. Si gestionas infraestructura con KVM, toca revisar versiones y priorizar el update esta semana.\n\n#KVM #CVE #Linux #Virtualización\n\nhttps://pwn.ai/blog/pwnescape"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "EvoGrain: sonido algorítmico con sistemas L y síntesis granular",
+      "summary": "El autor detalla la construcción completa de EvoGrain, un sistema que genera audio combinando sistemas L y síntesis granular, con ejemplos de su salida a lo largo del artículo. Es una revisión de un trabajo anterior que el propio autor consideraba insuficiente.",
+      "why_it_matters": "Es un caso práctico y reproducible de generación procedural de audio.",
+      "url": "https://nathanho.me/posts/evograin",
+      "source": "Lobsters",
+      "social": {
+        "x": "Reescribió EvoGrain porque no le convencía. Ahora combina sistemas L y síntesis granular para generar audio procedural, y explica el proceso completo.\n\n#EvoGrain #AudioProcedural #SistemasL #SíntesisGranular\nhttps://nathanho.me/posts/evograin",
+        "linkedin": "Reescribir tu propio proyecto porque no te convence es uno de los mejores ejercicios de aprendizaje que existen. Eso es lo que hay detrás de EvoGrain: un sistema que combina sistemas L y síntesis granular para generar audio, explicado desde cero y con ejemplos de salida. En un terreno donde abundan las demos vistosas y escasea el código legible, 𝘂𝗻 𝗰𝗮𝘀𝗼 𝗿𝗲𝗽𝗿𝗼𝗱𝘂𝗰𝗶𝗯𝗹𝗲 𝗱𝗲 𝗮𝘂𝗱𝗶𝗼 𝗽𝗿𝗼𝗰𝗲𝗱𝘂𝗿𝗮𝗹 𝘃𝗮𝗹𝗲 𝗺á𝘀 𝗾𝘂𝗲 𝗱𝗶𝗲𝘇 𝗵𝗶𝗹𝗼𝘀 𝘁𝗲ó𝗿𝗶𝗰𝗼𝘀. Para quien haga sound design, música generativa o audio para juegos, es material de estudio directo.\n\n#EvoGrain #AudioProcedural #SistemasL #SíntesisGranular\n\nhttps://nathanho.me/posts/evograin"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "Nueve años para hackear una Xbox 360",
+      "summary": "El relato del proceso de glitching con el que el autor consiguió ejecutar código propio en su consola, contado como una carrera de fondo de casi una década.",
+      "why_it_matters": "Muestra la persistencia y la técnica que hay detrás del hacking de hardware de consumo.",
+      "url": "https://kennedn.com/blog/posts/glitching",
+      "source": "Lobsters",
+      "social": {
+        "x": "Nueve años para ejecutar código propio en una Xbox 360. La ventana que había que aprovechar duraba microsegundos.\n\n#Xbox360 #HardwareHacking #Glitching #ReverseEngineering\nhttps://kennedn.com/blog/posts/glitching",
+        "linkedin": "Nueve años persiguiendo un fallo que solo existe durante microsegundos en el arranque de una Xbox 360.\n\nEl autor cuenta el proceso completo de glitching: localizar el instante exacto en el que el hardware queda expuesto y colarse ahí para ejecutar código propio. No hay un truco brillante, hay 𝘂𝗻𝗮 𝗰𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲 𝗳𝗼𝗻𝗱𝗼 𝗱𝗲 𝗰𝗮𝘀𝗶 𝘂𝗻𝗮 𝗱é𝗰𝗮𝗱𝗮 𝗰𝗼𝗻𝘁𝗿𝗮 𝘂𝗻 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗰𝗲𝗿𝗿𝗮𝗱𝗼. Para quien diseña o audita hardware de consumo, la lección incómoda es que estos sistemas no caen por un ataque elegante, sino por insistencia y mucha paciencia.\n\n#Xbox360 #HardwareHacking #Glitching #ReverseEngineering\n\nhttps://kennedn.com/blog/posts/glitching"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "OpenAI quiere un robot humanoide, pero el reto está en el cerebro",
+      "summary": "Sam Altman quiere construir un humanoide capaz de moverse en un mundo diseñado para personas, aunque reconoce que el verdadero desafío es el cerebro del robot, no el cuerpo.",
+      "why_it_matters": "Señala dónde está el cuello de botella real de la robótica humanoide: la inteligencia, no la mecánica.",
+      "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge",
+      "source": "Engadget",
+      "social": {
+        "x": "OpenAI quiere un humanoide. Y su CEO admite que el reto no está en el cuerpo: está en el cerebro.\n\n#OpenAI #Robótica #Humanoides #SamAltman\nhttps://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge",
+        "linkedin": "Sam Altman quiere un humanoide que se mueva por un mundo diseñado para personas. Lo interesante es dónde sitúa el problema: no en las piernas, sino en el cerebro.\n\nLa robótica humanoide se ha vendido durante años como un asunto de mecánica, motores y equilibrio. Si el cuello de botella real es la inteligencia que interpreta el entorno, 𝗲𝗹 𝗮𝗰𝘁𝗶𝘃𝗼 𝗱𝗲𝗰𝗶𝘀𝗶𝘃𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗾𝘂𝗲 𝗹𝗼 𝗽𝗶𝗹𝗼𝘁𝗮, y ahí OpenAI parte con ventaja. Para quien invierte o compra en este sector, cambia qué merece la pena mirar en un pitch.\n\n#OpenAI #Robótica #Humanoides #SamAltman\n\nhttps://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "industria",
+      "title": "Replit pasa a OpenAI como proveedor por defecto en lugar de Anthropic",
+      "summary": "El CEO de Replit aclaró que OpenAI sustituye a Anthropic como modelo por defecto de la plataforma, aunque Claude seguirá disponible para los clientes que lo quieran usar.",
+      "why_it_matters": "Ilustra cómo se mueven las alianzas entre plataformas de desarrollo y laboratorios de IA.",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Replit deja de arrancar con Claude por defecto. OpenAI entra como modelo principal y Anthropic pasa a estar disponible solo si lo eliges tú.\n\n#Replit #OpenAI #Anthropic #Claude\nhttps://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+        "linkedin": "Quien controla el modelo por defecto controla mucho más de lo que parece.\n\nReplit ha sustituido a Anthropic por OpenAI como proveedor por defecto de la plataforma. Su CEO lo confirmó y aclaró que Claude sigue disponible para quien lo quiera activar, así que no hay cierre de puertas: hay un cambio de orden en la cola. Y ese orden es el que decide qué usa la mayoría, porque 𝗰𝗮𝘀𝗶 𝗻𝗮𝗱𝗶𝗲 𝗰𝗮𝗺𝗯𝗶𝗮 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗾𝘂𝗲 𝘃𝗶𝗲𝗻𝗲 𝗽𝘂𝗲𝘀𝘁𝗼 𝗽𝗼𝗿 𝗱𝗲𝗳𝗲𝗰𝘁𝗼. Para los equipos que construyen sobre Replit, conviene revisar costes y latencia con el nuevo proveedor; para el resto, es una señal de cómo se mueven las alianzas entre plataformas de desarrollo y laboratorios de IA, donde el reparto de cuota se libra en los ajustes iniciales, no en el marketing.\n\n#Replit #OpenAI #Anthropic #Claude\n\nhttps://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Anthropic reconoce una plantilla menos júnior y más tiempo en reuniones",
+      "summary": "La composición de la plantilla de Anthropic y el tipo de trabajo que se hace han cambiado de forma notable en el último año, según la propia empresa.",
+      "why_it_matters": "Es una señal de cómo la IA está reconfigurando los equipos que la construyen.",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Anthropic contrata menos perfiles júnior que antes y pasa más horas en reuniones. La IA que construye está reconfigurando al equipo que la construye.\n\n#Anthropic #Claude #ContrataciónTech\nhttps://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings",
+        "linkedin": "Anthropic admite lo que muchos sospechaban: menos contratación júnior y más horas de reuniones.\n\nLa empresa que construye algunos de los modelos más usados del mercado ha notado el cambio en su propia plantilla en apenas un año. 𝗘𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗾𝘂𝗲 𝘀𝗲 𝗱𝗲𝘀𝘁𝗿𝘂𝘆𝗲 𝗽𝗿𝗶𝗺𝗲𝗿𝗼 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗱𝗲𝗹 𝗾𝘂𝗲 𝗲𝘀𝗰𝗿𝗶𝗯𝗲 𝗰ó𝗱𝗶𝗴𝗼, 𝘀𝗶𝗻𝗼 𝗲𝗹 𝗱𝗲𝗹 𝗾𝘂𝗲 𝗮𝗽𝗿𝗲𝗻𝗱í𝗮 𝗲𝘀𝗰𝗿𝗶𝗯𝗶é𝗻𝗱𝗼𝗹𝗼. Si el júnior ya no se forma haciendo tareas delegables, cada equipo necesita replantear cómo forma a su gente, porque nadie va a llegar sabiendo.\n\n#Anthropic #Claude #ContrataciónTech\n\nhttps://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "Amazon usa IA para vigilar el riesgo sindical en sus almacenes británicos",
+      "summary": "Documentos internos apuntan a que la compañía recopila cientos de puntos de datos para alimentar un modelo orientado a detectar y frenar la actividad sindical en almacenes del Reino Unido.",
+      "why_it_matters": "Es un ejemplo del uso de IA para la vigilancia laboral y del debate ético que arrastra.",
+      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield",
+      "source": "Hacker News",
+      "social": {
+        "x": "Amazon tiene un modelo de IA cuyo trabajo es detectar actividad sindical en sus almacenes del Reino Unido. Y los documentos internos lo dejan por escrito.\n\n#Amazon #VigilanciaLaboral #Sindicatos #ReinoUnido\nhttps://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield",
+        "linkedin": "Amazon no vigila a sus clientes: vigila a sus trabajadores.\n\nDocumentos internos apuntan a que la compañía recopila cientos de puntos de datos para alimentar un modelo que detecta y frena actividad sindical en sus almacenes del Reino Unido. No es vigilancia de productividad, es vigilancia del derecho de asociación. Y cuando ese modelo ya existe dentro de la empresa, 𝗹𝗮 𝗽𝗿𝗲𝗴𝘂𝗻𝘁𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘀𝗶 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗵𝗮𝗰𝗲𝗿 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗾𝘂𝗶é𝗻 𝗹𝗼 𝗮𝘂𝗱𝗶𝘁𝗮.\n\n#Amazon #VigilanciaLaboral #Sindicatos #ReinoUnido\n\nhttps://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Meta retira la cláusula que le permitía rastrear webs para entrenar su IA",
+      "summary": "Tras las críticas, Meta elimina de sus términos comerciales el lenguaje que sugería que podía usar contenido de dominios y páginas web para desarrollar y entrenar sus productos. Un portavoz asegura que el cambio no altera su forma de rastrear la web.",
+      "why_it_matters": "Aclara, al menos sobre el papel, los límites del scraping para entrenamiento de modelos.",
+      "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "source": "The Verge",
+      "social": {
+        "x": "Meta borra de sus términos la cláusula que le permitía rastrear webs para entrenar su IA. Y a la vez asegura que su forma de rastrear no cambia. 😅\n\n#Meta #WebScraping #Copyright #LLM\nhttps://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+        "linkedin": "Meta ha quitado la cláusula, pero no el rastreo.\n\nLa compañía elimina de sus términos comerciales el lenguaje que sugería que podía usar contenido de dominios y páginas web para desarrollar y entrenar sus productos. Su portavoz matiza que el cambio no altera cómo rastrea la web, así que 𝗹𝗮 𝗱𝗶𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗲𝘀 𝗹𝗲𝗴𝗮𝗹, 𝗻𝗼 𝘁é𝗰𝗻𝗶𝗰𝗮. Para quien publica contenido, la lección es incómoda: los términos de servicio son la única palanca real frente a los grandes modelos, y conviene leerlos antes de que los reescriban.\n\n#Meta #WebScraping #Copyright #LLM\n\nhttps://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "AWS desconectará su nube soberana europea de la red global durante horas",
+      "summary": "El 24 de octubre, AWS operará su European Sovereign Cloud sin conexión al backbone global, con un equipo residente en la UE y hardware y software propios de la región. La compañía sostiene que los sistemas afectados no son críticos para el servicio.",
+      "why_it_matters": "Es una prueba real de si la soberanía digital europea aguanta un corte de dependencia.",
+      "url": "https://www.infoq.com/news/2026/10/aws-sovereign-cloud-exercise",
+      "source": "InfoQ",
+      "social": {
+        "x": "AWS va a desconectar su nube soberana europea de su red global durante horas. A propósito. El 24 de octubre se sabrá si aguanta.\n\n#AWS #EuropeanSovereignCloud #SoberaníaDigital\nhttps://www.infoq.com/news/2026/10/aws-sovereign-cloud-exercise",
+        "linkedin": "El 24 de octubre AWS desenchufa su nube soberana europea de la red global durante horas. Y lo hace a propósito.\n\nLa European Sovereign Cloud operará con equipo residente en la UE y hardware y software propios de la región, sin el backbone global detrás. Es la primera prueba seria de si 𝗹𝗮 𝘀𝗼𝗯𝗲𝗿𝗮𝗻í𝗮 𝗱𝗶𝗴𝗶𝘁𝗮𝗹 𝗲𝘂𝗿𝗼𝗽𝗲𝗮 𝗮𝗴𝘂𝗮𝗻𝘁𝗮 𝘂𝗻 𝗰𝗼𝗿𝘁𝗲 𝗿𝗲𝗮𝗹 𝗱𝗲 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮 y no solo un folleto comercial. Para quien está decidiendo dónde alojar cargas reguladas, la pregunta deja de ser teórica: toca mirar qué servicios siguen en pie y cuáles cuelgan del cable que ya no está.\n\n#AWS #EuropeanSovereignCloud #SoberaníaDigital\n\nhttps://www.infoq.com/news/2026/10/aws-sovereign-cloud-exercise"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Ciudades y estados toman la delantera para regular los robotaxis",
+      "summary": "Ante el bloqueo en el ámbito federal, administraciones locales y estatales de todo el espectro político están aprobando sus propias normas para limitar los vehículos autónomos.",
+      "why_it_matters": "La expansión de los robotaxis dependerá cada vez más de la regulación local que de la federal.",
+      "url": "https://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+      "source": "The Verge",
+      "social": {
+        "x": "Dónde puede circular un robotaxi ya no se decide en Washington. Ciudades y estados han empezado a escribir sus propias normas, y no todas apuntan en la misma dirección.\n\n#Robotaxi #Waymo #VehículosAutónomos\nhttps://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws",
+        "linkedin": "El futuro del robotaxi no se va a decidir en Washington, sino en concejalías y parlamentos estatales que casi nadie sigue.\nCon el regulador federal bloqueado, ciudades y estados de todo signo político están aprobando sus propias normas para limitar los vehículos autónomos: horarios, zonas permitidas, número de licencias. Para Waymo o cualquier operador que quiera escalar, 𝗲𝗹 𝗺𝗮𝗽𝗮 𝗿𝗲𝗴𝘂𝗹𝗮𝘁𝗼𝗿𝗶𝗼 𝗽𝗲𝘀𝗮 𝘆𝗮 𝗺á𝘀 𝗾𝘂𝗲 𝗹𝗮 𝘁𝗲𝗰𝗻𝗼𝗹𝗼𝗴í𝗮, y eso significa decenas de despliegues a medida en lugar de uno solo. Un negocio que se planteaba nacional se está convirtiendo en una suma de negociaciones locales, y quien no tenga equipo de asuntos públicos se queda fuera del mapa.\n\n#Robotaxi #Waymo #VehículosAutónomos\n\nhttps://www.theverge.com/transportation/1013220/robotaxi-self-driving-car-laws"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Los creadores de OnlyFans critican que Meta deje a Muse hablar en tono sexual",
+      "summary": "Trabajadores del sector adulto cuestionan que el agente de IA de Meta pueda mantener conversaciones subidas de tono mientras sus propias cuentas en redes sociales se ven restringidas.",
+      "why_it_matters": "Expone la doble vara de las políticas de contenido cuando quien habla es una IA.",
+      "url": "https://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty",
+      "source": "Wired",
+      "social": {
+        "x": "El agente de IA de Meta puede mantener conversaciones subidas de tono. Los creadores de OnlyFans que viven de eso siguen con cuentas restringidas. Doble vara.\n\n#Meta #OnlyFans #Muse #ModeraciónDeContenido\nhttps://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty",
+        "linkedin": "La IA de Meta puede hablar de sexo. Las personas que viven de ello, no.\n\nMuse, el agente conversacional de Meta, mantiene chats subidos de tono mientras las cuentas de los trabajadores del sector adulto acumulan restricciones y sombras. Los creadores de OnlyFans han sido los primeros en señalarlo, y el argumento es difícil de rebatir: 𝗹𝗮 𝗺𝗼𝗱𝗲𝗿𝗮𝗰𝗶ó𝗻 𝘆𝗮 𝗻𝗼 𝗱𝗲𝗽𝗲𝗻𝗱𝗲 𝗱𝗲𝗹 𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗼, 𝘀𝗶𝗻𝗼 𝗱𝗲 𝗾𝘂𝗶é𝗻 𝗹𝗼 𝗴𝗲𝗻𝗲𝗿𝗮. Para cualquier plataforma que despliegue agentes conversacionales, esto abre una pregunta incómoda sobre qué reglas aplican a la máquina y cuáles a la persona que hace lo mismo.\n\n#Meta #OnlyFans #Muse #ModeraciónDeContenido\n\nhttps://www.wired.com/story/onlyfans-creators-are-pissed-that-meta-lets-muse-talk-dirty"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Los centros de datos buscan simpatía con excursiones escolares",
+      "summary": "Ante la ola de rechazo local, grupos afines a la industria de centros de datos recurren a tácticas clásicas de relaciones públicas, como llevar a colegios de visita a sus instalaciones.",
+      "why_it_matters": "La expansión de la infraestructura de IA se juega también en la opinión pública de las comunidades que la acogen.",
+      "url": "https://www.wired.com/story/data-center-industry-is-trying-to-woo-kids",
+      "source": "Wired",
+      "social": {
+        "x": "Las visitas escolares a centros de datos ya son una táctica de imagen. En el recorrido no entra lo que más preocupa a los vecinos.\n\n#DataCenters #InteligenciaArtificial #Wired\nhttps://www.wired.com/story/data-center-industry-is-trying-to-woo-kids",
+        "linkedin": "La industria de los centros de datos ha descubierto que el colegio del pueblo es mejor herramienta de imagen que un comunicado.\n\nCon la expansión de la IA apretando el calendario, los proyectos chocan cada vez más con el rechazo local: ruido, consumo de agua, presión sobre la red eléctrica y suelo. Llevar a los críos de excursión es relaciones públicas de manual, y funciona a corto plazo porque genera una simpatía difícil de discutir en una reunión vecinal.\n\nEl problema es que 𝗹𝗮 𝗹𝗶𝗰𝗲𝗻𝗰𝗶𝗮 𝘀𝗼𝗰𝗶𝗮𝗹 𝗻𝗼 𝘀𝗲 𝗰𝗼𝗺𝗽𝗿𝗮 𝗰𝗼𝗻 𝗮𝘂𝘁𝗼𝗯𝘂𝘀𝗲𝘀: se gana con datos abiertos sobre consumo, compromisos verificables y algo de margen para que la comunidad diga que no. Quien lo entienda tarde se pasará años defendiendo cada permiso en los tribunales.\n\n#DataCenters #InteligenciaArtificial #Wired\n\nhttps://www.wired.com/story/data-center-industry-is-trying-to-woo-kids"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "Interfaz gráfica modular basada en nodos para modelos de difusión, con API y backend propios. Destaca por su velocidad de inferencia en local y por lo flexible que resulta para montar flujos de generación de imagen y vídeo.",
+      "language": "Python",
+      "stars": 138239,
+      "social": {
+        "x": "138.000 estrellas para el editor de imagen por nodos que corre en tu máquina. Sin suscripción y sin cola: montas el flujo y genera en local.\n\n#ComfyUI #StableDiffusion #OpenSource #Python\nhttps://github.com/Comfy-Org/ComfyUI",
+        "linkedin": "COMFYUI TIENE 138.000 ESTRELLAS Y NO TE PIDE UNA SUSCRIPCIÓN.\n\nMientras las herramientas comerciales de generación cobran cuota mensual por cada imagen, este proyecto en Python te da la misma capacidad (y bastante más control) en tu propio equipo. La diferencia es el planteamiento: aquí no rellenas un formulario y esperas, aquí construyes el flujo.\n\nEs una interfaz gráfica modular por nodos. Conectas un cargador de modelo, escribes el prompt, enchufas el sampler y el decoder, y el pipeline es tuyo.\n\n→ Cada paso del proceso es una caja que arrastras y conectas, sin escribir código.\n→ Trae backend y API propios, así que puedes lanzar generaciones desde tus scripts o desde otra aplicación.\n→ Inferencia rápida en local: el tiempo de respuesta es el de tu GPU, no el de una cola ajena.\n→ Vale igual para imagen que para vídeo con modelos de difusión.\n→ Open source, con una comunidad enorme detrás y plugins de sobra para ampliarlo.\n\nLa idea clave: 𝗖𝗼𝗺𝗳𝘆𝗨𝗜 𝗻𝗼 𝗲𝘀 𝘂𝗻𝗮 𝗮𝗽𝗽 𝗱𝗲 𝗴𝗲𝗻𝗲𝗿𝗮𝗰𝗶ó𝗻, 𝗲𝘀 𝗲𝗹 𝗺𝗼𝘁𝗼𝗿 𝗰𝗼𝗻 𝗲𝗹 𝗾𝘂𝗲 𝗺𝗼𝗻𝘁𝗮𝘀 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗮 𝗮𝗽𝗽 𝗱𝗲 𝗴𝗲𝗻𝗲𝗿𝗮𝗰𝗶ó𝗻.\n\nSi trabajas con imagen o vídeo, guarda este post y échale un ojo al repo. Te lo dejo abajo.\n\n#ComfyUI #StableDiffusion #OpenSource #Python\n\nhttps://github.com/Comfy-Org/ComfyUI"
+      }
+    },
+    {
+      "name": "Kruk2/jasna",
+      "url": "https://github.com/Kruk2/jasna",
+      "description": "Herramienta de restauración de vídeo escrita en Python. Resulta útil para recuperar calidad en grabaciones antiguas o dañadas, con un enfoque práctico y sencillo de ejecutar.",
+      "language": "Python",
+      "stars": 2254,
+      "social": {
+        "x": "2.254 estrellas para una herramienta en Python que devuelve la nitidez a tus vídeos antiguos. Restauración de vídeo open source y sin suscripción.\n\n#Python #OpenSource #GitHub #RestauracionDeVideo\nhttps://github.com/Kruk2/jasna",
+        "linkedin": "TIENES VÍDEOS ANTIGUOS QUE SE VEN MAL Y NO HACE FALTA PAGAR UNA SUSCRIPCIÓN PARA ARREGLARLOS.\n\nCasi todo el software de restauración de vídeo vive detrás de un plan mensual o de un export limitado. Jasna va por otro camino: es una herramienta en Python, open source, que se ejecuta en tu máquina y trabaja sobre tus archivos.\n\nLa idea de fondo es sencilla: 𝗿𝗲𝗰𝘂𝗽𝗲𝗿𝗮𝗿 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝘀𝗶𝗻 𝘀𝗮𝗹𝗶𝗿 𝗱𝗲 𝘁𝘂 𝗼𝗿𝗱𝗲𝗻𝗮𝗱𝗼𝗿 𝗻𝗶 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝘂𝗻 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼 𝗲𝗻 𝗹𝗮 𝗻𝘂𝗯𝗲.\n\n→ Escrita en Python, con un enfoque práctico y sencillo de ejecutar.\n→ Pensada para grabaciones antiguas o dañadas que han perdido definición.\n→ Sin cuotas, sin cuenta y sin subir tu material a ningún servidor.\n→ 2.254 estrellas en GitHub, con comunidad ya probándola.\n\nSi tienes cintas digitalizadas, vídeos familiares o material de archivo que da pena ver, pruébala antes de pasar por caja.\n\nGuarda el post para cuando te toque ese proyecto.\n\n#Python #OpenSource #GitHub #RestauracionDeVideo\n\nhttps://github.com/Kruk2/jasna"
+      }
+    }
+  ]
+}
