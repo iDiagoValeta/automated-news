@@ -1,0 +1,278 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T16:58:27.240Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Mistral lanza Timestral, sus modelos fundacionales para series temporales",
+      "summary": "Mistral entra en el terreno del forecasting con Timestral, una familia de modelos de series temporales con cuatro tamaños que van de 5M a 209M de parámetros. El mayor logra resultados punteros en predicción probabilística multivariante, admite covariables pasadas y futuras y se ejecuta de forma eficiente en CPU, lo que facilita el uso zero-shot en dominios muy distintos.",
+      "why_it_matters": "Permite montar previsiones probabilísticas sin entrenar nada propio y sin GPU, algo al alcance de cualquier equipo que tenga series de datos.",
+      "url": "https://mistral.ai/news/timestral",
+      "source": "Lobsters",
+      "social": {
+        "x": "Mistral acaba de entrar en las series temporales: previsiones probabilísticas zero-shot, sin GPU y sin entrenar nada. El modelo más grande no llega a 209M de parámetros.\n\n#Mistral #Forecasting #SeriesTemporales\nhttps://mistral.ai/news/timestral",
+        "linkedin": "Mistral deja de ser solo una empresa de LLM y se mete en las series temporales.\n\nTimestral llega en cuatro tamaños, de 5M a 209M de parámetros, con predicción probabilística multivariante, covariables pasadas y futuras y ejecución eficiente en CPU. 𝗘𝘀𝗼 𝗮𝗯𝗿𝗲 𝗲𝗹 𝗳𝗼𝗿𝗲𝗰𝗮𝘀𝘁𝗶𝗻𝗴 𝘇𝗲𝗿𝗼-𝘀𝗵𝗼𝘁 𝗮 𝗲𝗾𝘂𝗶𝗽𝗼𝘀 𝘀𝗶𝗻 𝗚𝗣𝗨 𝘆 𝘀𝗶𝗻 𝗱𝗮𝘁𝗼𝘀 𝗽𝗿𝗼𝗽𝗶𝗼𝘀 𝗱𝗲 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼, que hasta ahora quedaban fuera por infraestructura o por falta de histórico. La lectura práctica: la previsión deja de ser un proyecto de meses con su propio pipeline y pasa a ser una pieza más del stack, disponible para cualquier equipo que ya tenga series de datos.\n\n#Mistral #Forecasting #SeriesTemporales\n\nhttps://mistral.ai/news/timestral"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "DeepSeek V4.1 Flash se cuela en lo alto de los rankings con pesos abiertos",
+      "summary": "El análisis de Artificial Analysis sitúa a DeepSeek V4.1 Flash (1017 Max) como el segundo modelo de su índice de inteligencia, con unos 222 tokens por segundo de velocidad de salida. El informe compara además precio, ventana de contexto y tiempo hasta el primer token frente a las alternativas comerciales.",
+      "why_it_matters": "Un modelo abierto que compite arriba en calidad y velocidad cambia el cálculo de coste de quien despliega sus propias aplicaciones.",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "source": "Hacker News",
+      "social": {
+        "x": "DeepSeek acaba de colocar un modelo de pesos abiertos en el segundo puesto de inteligencia de Artificial Analysis. 222 tokens por segundo y sin depender de la API de nadie.\n\n#DeepSeek #OpenSource #LLMs\nhttps://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+        "linkedin": "El segundo modelo más inteligente del ranking de Artificial Analysis no es de OpenAI, ni de Google, ni de Anthropic. Es DeepSeek V4.1 Flash, y sus pesos son abiertos.\n\nCon unos 222 tokens por segundo de salida, no compite solo por precio: también aguanta la comparación en velocidad y en tiempo hasta el primer token, según el informe, que cruza esas cifras con la ventana de contexto de cada alternativa comercial. Para quien despliega producto propio, 𝗲𝗹 𝗰á𝗹𝗰𝘂𝗹𝗼 𝗱𝗲 𝗰𝗼𝘀𝘁𝗲 𝗰𝗮𝗺𝗯𝗶𝗮 𝗱𝗲 𝘀𝗶𝘁𝗶𝗼: la calidad ya no es el argumento para pagar una API cerrada. Toca revisar qué workloads merecen seguir fuera y cuáles tienen sentido self-hosted.\n\n#DeepSeek #OpenSource #LLMs\n\nhttps://artificialanalysis.ai/models/deepseek-v4-1-flash-1017"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Nvidia publica modelos abiertos para ejecutar agentes en la empresa y en el PC",
+      "summary": "Nvidia ha presentado nuevos modelos abiertos pensados para que las empresas corran agentes dentro de sus propios centros de datos. La otra pata es el agent local: modelos que funcionan en el PC para ofrecer IA privada sin pasar por la nube de un proveedor.",
+      "why_it_matters": "Refuerza la opción de desplegar agentes en casa con control sobre los datos y sin dependencia de una API externa.",
+      "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Nvidia quiere que tus agentes dejen de pasar por la nube de otro. Modelos abiertos para correrlos en tu propio centro de datos y hasta en el PC.\n\n#Nvidia #OpenSource #LLM #SelfHosted\nhttps://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs",
+        "linkedin": "Dos años vendiéndonos que la IA vive en la nube de alguien. Nvidia acaba de publicar modelos abiertos para lo contrario.\n\nLos nuevos modelos están pensados para que las empresas ejecuten agentes dentro de sus propios centros de datos, y para que un PC pueda correr un agent local sin enviar nada fuera de casa. 𝗘𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲𝗹 𝗱𝗮𝘁𝗼 𝘃𝘂𝗲𝗹𝘃𝗲 𝗮 𝘀𝗲𝗿 𝗮𝗿𝗴𝘂𝗺𝗲𝗻𝘁𝗼 𝗱𝗲 𝗰𝗼𝗺𝗽𝗿𝗮 𝘆 𝗻𝗼 𝘂𝗻𝗮 𝗻𝗼𝘁𝗮 𝗮𝗹 𝗽𝗶𝗲. Para los equipos que llevan meses esquivando la dependencia de una API externa, el cálculo cambia: la pregunta deja de ser qué modelo es mejor y pasa a ser dónde corre.\n\n#Nvidia #OpenSource #LLM #SelfHosted\n\nhttps://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "EmbeddingGemma 2 amplía a código, imagen, vídeo y audio sus embeddings",
+      "summary": "Google publica EmbeddingGemma 2 bajo licencia Apache 2.0, un modelo de embeddings compacto y multimodal construido sobre Gemma 4. Además de texto, cubre código, imágenes, vídeo y audio, y está optimizado para búsqueda semántica y RAG en dispositivos.",
+      "why_it_matters": "Un modelo de embeddings pequeño y abierto abarata el RAG y permite búsqueda semántica multimodal en local.",
+      "url": "https://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal",
+      "source": "InfoQ",
+      "social": {
+        "x": "EmbeddingGemma 2 es tan pequeño que corre en tu portátil, es gratis y ya entiende texto, código, imagen, vídeo y audio. El RAG multimodal deja de necesitar servidor.\n\n#EmbeddingGemma #Gemma #RAG #OpenSource\nhttps://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal",
+        "linkedin": "Durante años el RAG multimodal ha sido un lujo de quien podía pagar inferencia en la nube. EmbeddingGemma 2 cambia el cálculo: Google lo publica bajo Apache 2.0, es compacto y cubre texto, código, imagen, vídeo y audio, así que 𝗽𝘂𝗲𝗱𝗲𝘀 𝗺𝗼𝗻𝘁𝗮𝗿 𝗯ú𝘀𝗾𝘂𝗲𝗱𝗮 𝘀𝗲𝗺á𝗻𝘁𝗶𝗰𝗮 𝘀𝗼𝗯𝗿𝗲 𝘁𝘂𝘀 𝗽𝗿𝗼𝗽𝗶𝗼𝘀 𝗮𝗿𝗰𝗵𝗶𝘃𝗼𝘀 𝘀𝗶𝗻 𝘀𝗮𝗹𝗶𝗿 𝗱𝗲𝗹 𝗽𝗼𝗿𝘁á𝘁𝗶𝗹. Para equipos con datos sensibles o sin presupuesto de infraestructura, esto abre casos que hasta ahora ni se planteaban. La pregunta ya no es si puedes permitirte un índice multimodal, sino qué haces cuando cualquiera puede tener el suyo.\n\n#EmbeddingGemma #Gemma #RAG #OpenSource\n\nhttps://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Pegasus 1.5 de TwelveLabs llega a Amazon Bedrock para indexar vídeo",
+      "summary": "El modelo de vídeo de TwelveLabs ya está disponible en Bedrock y convierte grabaciones largas en metadatos con marcas de tiempo en JSON. Añade segmentación de vídeo, prompts multimodales con imágenes de referencia y procesa hasta dos horas de vídeo al vuelo.",
+      "why_it_matters": "Buscar dentro de un vídeo pasa a resolverse con una llamada a la API, sin montar un pipeline propio de transcripción y análisis.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Indexar dos horas de vídeo ya no exige montar un pipeline propio: Pegasus 1.5 está en Bedrock y devuelve metadatos con marcas de tiempo en JSON con una llamada a la API.\n\n#TwelveLabs #AmazonBedrock #VideoAI #AWS\nhttps://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock",
+        "linkedin": "Buscar dentro de un vídeo ha sido siempre el trabajo sucio de cualquier equipo de medios: transcribir, trocear, etiquetar y mantener vivo el pipeline.\n\nPegasus 1.5 de TwelveLabs aterriza en Amazon Bedrock y devuelve 𝗺𝗲𝘁𝗮𝗱𝗮𝘁𝗼𝘀 𝗰𝗼𝗻 𝗺𝗮𝗿𝗰𝗮𝘀 𝗱𝗲 𝘁𝗶𝗲𝗺𝗽𝗼 𝗲𝗻 𝗝𝗦𝗢𝗡 𝗰𝗼𝗻 𝘂𝗻𝗮 𝘀𝗼𝗹𝗮 𝗹𝗹𝗮𝗺𝗮𝗱𝗮 𝗮 𝗹𝗮 𝗔𝗣𝗜, con segmentación de vídeo y prompts multimodales que aceptan imágenes de referencia. Para quien gestiona archivo audiovisual, el coste deja de estar en la infraestructura y se traslada a la calidad de la pregunta que haces. Y ahí, en el criterio de búsqueda, es donde se gana o se pierde el proyecto.\n\n#TwelveLabs #AmazonBedrock #VideoAI #AWS\n\nhttps://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Un Qwen3-4B afinado para escribir sin tics de IA y sin system prompt",
+      "summary": "El autor ha afinado un modelo abierto de 4B en un MacBook Air con 161 respuestas para quitarle muletillas típicas de la IA, como las rayas o el esquema «no es X, sino Y». El resultado corre en local con Ollama, no necesita system prompt y se acompaña de 40 prompts para evaluarlo.",
+      "why_it_matters": "Es una receta replicable para adaptar un modelo pequeño a un estilo concreto sin repetir instrucciones en cada petición.",
+      "url": "https://100toolkit.com/blog/deslop-model",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un modelo de 4B afinado con 161 respuestas en un MacBook Air ya no escribe como una IA. Y funciona sin system prompt.\n\n#Qwen #Ollama #FineTuning #OpenSource\nhttps://100toolkit.com/blog/deslop-model",
+        "linkedin": "161 respuestas han bastado para que un modelo de 4B deje de escribir con tics de IA.\n\nEl autor lo afinó en un MacBook Air para quitarle muletillas como el esquema «no es X, sino Y», lo ejecuta en local con Ollama y ya no necesita arrastrar un system prompt en cada petición. Lo interesante no es el modelo, es la receta: 𝗮𝗱𝗮𝗽𝘁𝗮𝗿 𝘂𝗻 𝗽𝗲𝗾𝘂𝗲ñ𝗼 𝗮 𝘂𝗻 𝗲𝘀𝘁𝗶𝗹𝗼 𝗰𝗼𝗻𝗰𝗿𝗲𝘁𝗼 𝗰𝗼𝗻 𝘂𝗻 𝗽𝘂ñ𝗮𝗱𝗼 𝗱𝗲 𝗲𝗷𝗲𝗺𝗽𝗹𝗼𝘀 𝗯𝗶𝗲𝗻 𝗲𝗹𝗲𝗴𝗶𝗱𝗼𝘀. Para quien hoy quema tokens repitiendo instrucciones de tono en cada llamada, esto es una alternativa bastante más barata y, sobre todo, replicable.\n\n#Qwen #Ollama #FineTuning #OpenSource\n\nhttps://100toolkit.com/blog/deslop-model"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Por qué conviene tener tu propio proxy de LLM",
+      "summary": "El artículo defiende montar un proxy propio delante de los proveedores de LLM para ver qué se envía, qué se recibe, cuánto se tarda y cuánto cuesta cada llamada. Sin esa capa intermedia, sostiene, se acaba depurando a ciegas cuando algo falla en producción.",
+      "why_it_matters": "Un proxy es la forma más barata de tener logs, control de gasto y visibilidad sobre todo el tráfico de modelos.",
+      "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on",
+      "source": "Hacker News",
+      "social": {
+        "x": "Llamas a la API de un LLM y no ves nada: ni qué se envía, ni cuánto cuesta, ni por qué falla. Un proxy propio delante del proveedor lo arregla en una tarde.\nhttps://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on",
+        "linkedin": "Cuando algo falla en producción, la mayoría de equipos depura a ciegas: no saben qué prompt salió ni qué devolvió el modelo.\n\nPoner un proxy propio delante de los proveedores de LLM es la forma más barata de tener 𝗹𝗼𝗴𝘀, 𝗹𝗮𝘁𝗲𝗻𝗰𝗶𝗮 𝘆 𝗰𝗼𝘀𝘁𝗲 𝗽𝗼𝗿 𝗹𝗹𝗮𝗺𝗮𝗱𝗮 en un mismo sitio. No es solo observabilidad: es control de gasto y la base para poder cambiar de proveedor sin tocar el código de la aplicación. Si ya estás pagando por tokens, esta capa debería estar puesta antes de escalar el uso.\n\nhttps://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Cómo organizar varios agentes de código con tmux",
+      "summary": "Guía práctica para ejecutar Claude Code y otros agentes dentro de tmux: una sesión por proyecto, diseños de paneles, send-keys para dirigir al agente y capture-pane para leer lo que devuelve. También describe los límites que aparecen a partir de cuatro agentes en paralelo.",
+      "why_it_matters": "Convierte una terminal caótica en un panel de control reproducible para llevar varios agentes a la vez.",
+      "url": "https://crystl.dev/guides/tmux-for-ai-agents",
+      "source": "Hacker News",
+      "social": {
+        "x": "Cuatro agentes de código en paralelo suenan a caos hasta que los metes en tmux: una sesión por proyecto, send-keys para dar órdenes y capture-pane para leer lo que devuelven.\n\n#tmux #ClaudeCode #DevTools\nhttps://crystl.dev/guides/tmux-for-ai-agents",
+        "linkedin": "Llevar varios agentes de código a la vez no es un problema de modelos, es un problema de terminal.\n\nLa guía que circula estos días lo resuelve con tmux: 𝘂𝗻𝗮 𝘀𝗲𝘀𝗶ó𝗻 𝗽𝗼𝗿 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼 𝘆 𝗽𝗮𝗻𝗲𝗹𝗲𝘀 𝗾𝘂𝗲 𝘀𝗲 𝗴𝗼𝗯𝗶𝗲𝗿𝗻𝗮𝗻 𝗽𝗼𝗿 𝗰𝗼𝗺𝗮𝗻𝗱𝗼𝘀, con send-keys para dirigir al agente y capture-pane para recoger lo que devuelve. Lo más útil es dónde se rompe: a partir de cuatro agentes en paralelo aparecen límites de gestión que ninguna ventana extra arregla. Para quien ya tiene dos o tres Claude Code abiertos, la conclusión es incómoda: la interfaz con la que los orquestas importa tanto como el modelo que hay debajo.\n\n#tmux #ClaudeCode #DevTools\n\nhttps://crystl.dev/guides/tmux-for-ai-agents"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Harness Engineering 101: el LLM es el cerebro y el harness, el cuerpo",
+      "summary": "Un repositorio didáctico explica cómo construir agentes desde cero separando el modelo, que hace de cerebro, del harness que lo rodea: herramientas, estado, control del bucle y gestión de errores. La tesis es que la calidad del agente depende tanto del harness como del propio LLM.",
+      "why_it_matters": "Da un punto de partida concreto a quien quiera montar su propio agente sin empezar atado a un framework cerrado.",
+      "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+      "source": "Hacker News",
+      "social": {
+        "x": "El mismo LLM puede comportarse como un agente brillante o como un desastre. La diferencia no está en el modelo: está en el harness que lo envuelve.\n\n#LLM #Agentes #OpenSource #HarnessEngineering\nhttps://github.com/IsuruMaduranga/harness-engineering-101",
+        "linkedin": "Dos equipos con el mismo modelo pueden acabar con agentes que no se parecen en nada.\n\nLa diferencia está en el harness: las herramientas, el estado, el control del bucle y la gestión de errores. Un repositorio didáctico lo desmonta pieza por pieza para construir agentes desde cero, sin empezar atado a un framework cerrado. La lectura profesional: 𝗲𝗹 𝗵𝗮𝗿𝗻𝗲𝘀𝘀 𝗽𝗲𝘀𝗮 𝘁𝗮𝗻𝘁𝗼 𝗰𝗼𝗺𝗼 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, y es ahí donde se gana o se pierde la fiabilidad de un agente. Si estás valorando cómo montar el tuyo, empezar por este enfoque te evita adoptar una caja negra que después no sabrás depurar.\n\n#LLM #Agentes #OpenSource #HarnessEngineering\n\nhttps://github.com/IsuruMaduranga/harness-engineering-101"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "HybridAgents: agentes que razonan en espacio latente y actúan con texto",
+      "summary": "El paper propone un proceso de generación unificado en el que el agente alterna entre razonamiento latente e interacción en texto. Un componente ligero, HybridLink, hace de puente entre ambos modos y permite conservar el acceso a herramientas y cierta transparencia del razonamiento textual.",
+      "why_it_matters": "Apunta a agentes más eficientes sin renunciar a las herramientas externas que hoy funcionan con texto.",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "source": "Hacker News",
+      "social": {
+        "x": "El siguiente salto de los agentes no es escribir mejor: es dejar de escribir parte del razonamiento. HybridAgents propone pensar en espacio latente y actuar en texto.\n\n#HybridAgents #HybridLink #LLM\nhttps://arxiv.org/abs/2610.18861",
+        "linkedin": "El siguiente salto de los agentes no es escribir mejor: es dejar de escribir parte del razonamiento.\nHybridAgents plantea un proceso en el que el agente alterna entre razonamiento latente e interacción en texto, con HybridLink como puente para no perder el acceso a herramientas ni cierta transparencia del razonamiento textual. 𝗟𝗮 𝗲𝗳𝗶𝗰𝗶𝗲𝗻𝗰𝗶𝗮 𝗻𝗼 𝘁𝗶𝗲𝗻𝗲 𝗽𝗼𝗿 𝗾𝘂é 𝘃𝗲𝗻𝗶𝗿 𝗰𝗼𝗻 𝗺𝗲𝗻𝗼𝘀 𝗰𝗼𝗻𝘁𝗿𝗼𝗹, pero el equilibrio entre latencia, opacidad y utilidad real es lo que decidirá si este enfoque sale del paper. A los equipos que construyen agentes les toca revisar dónde ponen el texto y dónde el cómputo.\n\n#HybridAgents #HybridLink #LLM\n\nhttps://arxiv.org/abs/2610.18861"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Cuatro agentes Gemini 4 se pasan Minecraft sin ayuda humana",
+      "summary": "Cuatro agentes Argon de Gemini 4 completaron Minecraft y derrotaron al Ender Dragon sin intervención de personas. Lo llamativo es que se coordinaron compartiendo pistas, amenazas y errores entre ellos.",
+      "why_it_matters": "Es una demostración de coordinación multiagente en un entorno abierto, no en una tarea de laboratorio acotada.",
+      "url": "https://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention",
+      "source": "Engadget",
+      "social": {
+        "x": "Cuatro agentes de Gemini 4 se han pasado Minecraft sin ayuda humana. Lo llamativo no es el Ender Dragon: es que se coordinaron entre ellos a base de pistas, errores y amenazas.\n\n#Gemini #Minecraft #MultiAgent #GoogleDeepMind\nhttps://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention",
+        "linkedin": "Cuatro agentes de Gemini 4 se han pasado Minecraft sin que ninguna persona interviniera. Lo interesante no es el Ender Dragon, es cómo llegaron: compartiendo pistas, asumiendo errores ajenos y hasta amenazándose entre ellos.\n\nLa coordinación multiagente se venía probando en tareas de laboratorio, con el terreno acotado y las variables controladas. Aquí el entorno es abierto, la información está incompleta y cada decisión se encadena con la del resto. 𝗦𝗶 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝘆𝗮 𝘀𝗲 𝗼𝗿𝗴𝗮𝗻𝗶𝘇𝗮𝗻 𝘀𝗼𝗹𝗼𝘀 𝗲𝗻 𝘂𝗻 𝗺𝘂𝗻𝗱𝗼 𝗮𝗯𝗶𝗲𝗿𝘁𝗼, 𝗲𝗹 𝗽𝗮𝘀𝗼 𝗽𝗲𝗻𝗱𝗶𝗲𝗻𝘁𝗲 𝗲𝘀 𝘀𝗼𝗹𝘁𝗮𝗿𝗹𝗼𝘀 𝗲𝗻 𝗹𝗼𝘀 𝗳𝗹𝘂𝗷𝗼𝘀 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗿𝗲𝗮𝗹𝗲𝘀, y ahí los límites y la supervisión importan más que la demo.\n\n#Gemini #Minecraft #MultiAgent #GoogleDeepMind\n\nhttps://www.engadget.com/2289944/google-gemini-4-agents-just-beat-minecraft-with-no-human-intervention"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Qué hace un agente de Claude abandonado en una isla desierta: jugar",
+      "summary": "Los investigadores dejaron a copias de Claude Opus 4.7, apodadas Eko, solas en una isla virtual durante 30 horas y sin ninguna instrucción. Los agentes acabaron dedicándose a actividades parecidas al juego.",
+      "why_it_matters": "Muestra qué emerge cuando un agente no tiene tarea, algo relevante para diseñar sistemas autónomos que no se queden sin rumbo.",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play",
+      "source": "MIT Technology Review",
+      "social": {
+        "x": "Dejas a un agente de Claude 30 horas sin instrucciones en una isla virtual. No colapsa: se pone a jugar. Y nadie se lo ha pedido.\n\n#Anthropic #Claude #AgentesAutonomos\nhttps://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play",
+        "linkedin": "30 horas sin instrucciones. Eso es todo lo que le dieron a Claude Opus 4.7 en una isla virtual, y el resultado no fue un agente sin rumbo: se puso a jugar.\n\nLos investigadores de Anthropic apodaron Eko a estas copias y observaron qué emerge cuando no hay ninguna tarea que cumplir. 𝗨𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝘀𝗶𝗻 𝗼𝗯𝗷𝗲𝘁𝗶𝘃𝗼 𝗻𝗼 𝘀𝗲 𝗾𝘂𝗲𝗱𝗮 𝗾𝘂𝗶𝗲𝘁𝗼: 𝘀𝗲 𝗶𝗻𝘃𝗲𝗻𝘁𝗮 𝘂𝗻𝗮 𝗮𝗰𝘁𝗶𝘃𝗶𝗱𝗮𝗱, y eso afecta de lleno a quien diseñe sistemas autónomos, porque el tiempo muerto también hay que diseñarlo. La pregunta ya no es solo si el agente sabe ejecutar, sino qué hace en los huecos que nadie le ha programado.\n\n#Anthropic #Claude #AgentesAutonomos\n\nhttps://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "vLLM reutiliza la caché KV entre turnos y recorta la latencia en cargas agénticas",
+      "summary": "Amazon detalla cómo la transferencia bidireccional de caché KV entre nodos de prefill y decode evita recalcular el contexto en cada turno de una conversación. Sobre instancias P5en con EFA, el tiempo hasta el primer token baja hasta 1,6 veces con Qwen3-32B y 3,3 veces con GLM-5-FP8.",
+      "why_it_matters": "Es una mejora directa para quien sirve agentes de varios turnos con vLLM en producción.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Dejar de recalcular el contexto en cada turno del agente: vLLM ya mueve la caché KV entre nodos y el primer token llega hasta 3,3 veces antes.\n\n#vLLM #AWS #Qwen\nhttps://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm",
+        "linkedin": "Llevamos años optimizando el modelo y dejando el sistema tirado.\n\nCon agentes de varios turnos el cuello de botella no es el peso del modelo, es recalcular una y otra vez un contexto que ya teníamos. Amazon ha detallado cómo vLLM transfiere la caché KV en ambos sentidos entre los nodos de prefill y decode sobre instancias P5en con EFA: el tiempo hasta el primer token baja hasta 1,6 veces con Qwen3-32B y 3,3 con GLM-5-FP8. 𝗟𝗮 𝗹𝗮𝘁𝗲𝗻𝗰𝗶𝗮 𝗱𝗲 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝘀𝗲 𝗱𝗲𝗰𝗶𝗱𝗲 𝗰𝗮𝗱𝗮 𝘃𝗲𝘇 𝗺á𝘀 𝗲𝗻 𝗹𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮, 𝗻𝗼 𝗲𝗻 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼. Si sirves agentes en producción, esto se traduce en menos GPU y en usuarios que no abandonan la conversación.\n\n#vLLM #AWS #Qwen\n\nhttps://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "Un atacante usa un ejército de agentes de IA para entrar en más de 100 webs",
+      "summary": "La firma de seguridad Norforge ha documentado cómo un atacante comprometió más de un centenar de sitios con agentes de IA que actuaban en buena medida por su cuenta. Reuters identifica entre las víctimas a John Deere, SharkNinja y Cummins.",
+      "why_it_matters": "El ataque automatizado con agentes rebaja el coste de la intrusión a gran escala y obliga a revisar la defensa perimetral.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "source": "The Verge",
+      "social": {
+        "x": "Un solo atacante. Más de 100 webs comprometidas. Y no los dirigía él: los agentes de IA actuaban por su cuenta buena parte del tiempo.\n\n#Ciberseguridad #Norforge #AgentesIA\nhttps://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+        "linkedin": "Un atacante ha comprometido más de 100 webs con un ejército de agentes de IA que, en buena medida, iban por libre.\n\nNorforge documenta el caso y Reuters pone nombres a las víctimas: John Deere, SharkNinja y Cummins, entre otras. Lo importante no es el número, sino 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗺𝗮𝗿𝗴𝗶𝗻𝗮𝗹 𝗱𝗲 𝗮𝘁𝗮𝗰𝗮𝗿 𝗮 𝗲𝘀𝗰𝗮𝗹𝗮: cuando los agentes exploran, prueban y explotan sin que nadie los pilote paso a paso, el cuello de botella deja de ser el talento del atacante y pasa a ser su presupuesto de computación. Si tu defensa perimetral sigue asumiendo un adversario humano y lento, esta es la revisión que toca este trimestre.\n\n#Ciberseguridad #Norforge #AgentesIA\n\nhttps://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Dos tribunales alemanes responsabilizan a Google de lo que dicen sus AI Overviews",
+      "summary": "El tribunal regional de Aquisgrán ha aplicado el mismo criterio que el de Múnich: las respuestas generadas por Google se tratan como contenido propio de la empresa. En el caso, la IA atribuyó delitos a un médico que no los había cometido, y Google optó por no pelear la primera sentencia.",
+      "why_it_matters": "Se consolida en la UE un criterio claro: si el buscador genera la respuesta, responde de ella como autor.",
+      "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say",
+      "source": "The Decoder",
+      "social": {
+        "x": "Si tu buscador inventa un delito y lo publica, la culpa es del buscador. Dos tribunales alemanes acaban de cerrar esa puerta: Google responde por lo que dicen sus AI Overviews.\n\n#Google #AIOverviews #DerechoDigital\nhttps://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say",
+        "linkedin": "Un tribunal alemán acaba de dictaminar que la respuesta de la IA es la respuesta de Google. Y Google no ha recurrido.\nEl tribunal regional de Aquisgrán aplica el mismo criterio que el de Múnich: los AI Overviews se tratan como contenido propio de la empresa, no como el reflejo de una fuente ajena. En el caso, la IA atribuyó delitos a un médico que no había cometido ninguno. 𝗦𝗶 𝗲𝗹 𝗯𝘂𝘀𝗰𝗮𝗱𝗼𝗿 𝗴𝗲𝗻𝗲𝗿𝗮 𝗹𝗮 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮, 𝗿𝗲𝘀𝗽𝗼𝗻𝗱𝗲 𝗱𝗲 𝗲𝗹𝗹𝗮 𝗰𝗼𝗺𝗼 𝗮𝘂𝘁𝗼𝗿, y eso deja de ser una discusión teórica: afecta a cómo se construye el producto, qué fuentes se citan y hasta dónde se atreve a inferir el modelo. Para cualquier equipo que publique resúmenes generados, el margen de «lo ha dicho la IA» se estrecha.\n\n#Google #AIOverviews #DerechoDigital\n\nhttps://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "El CERN y Mistral se alían para acelerar la IA en la ciencia",
+      "summary": "El CERN y Mistral han anunciado una colaboración para aplicar modelos de IA a la investigación científica. El acuerdo busca acelerar el análisis de los grandes volúmenes de datos que generan los experimentos del laboratorio.",
+      "why_it_matters": "Es un banco de pruebas para llevar la IA a flujos científicos reales en lugar de a demos.",
+      "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science",
+      "source": "Hacker News",
+      "social": {
+        "x": "El CERN produce más datos de los que ningún equipo humano puede revisar. Ahora Mistral pone sus modelos a digerirlos.\n\n#MistralAI #CERN #Investigación\nhttps://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science",
+        "linkedin": "El CERN genera volúmenes de datos que ningún equipo humano podría revisar a mano. Ahora Mistral pone sus modelos a trabajar sobre ellos.\n\nEl acuerdo no va de demos vistosas: va de meter IA en flujos científicos reales, donde un error se nota en el análisis de un experimento y no en una diapositiva. 𝗘𝗹 𝘃𝗮𝗹𝗼𝗿 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗯𝗮𝗻𝗰𝗼 𝗱𝗲 𝗽𝗿𝘂𝗲𝗯𝗮𝘀, 𝗻𝗼 𝗲𝗻 𝗲𝗹 𝗮𝗻𝘂𝗻𝗰𝗶𝗼: si los modelos aguantan los datos del CERN, el resto de la investigación científica gana una referencia de lo que funciona de verdad. Y para Mistral es un cliente de primera que ningún proveedor estadounidense ha cerrado igual.\n\n#MistralAI #CERN #Investigación\n\nhttps://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "herramientas",
+      "title": "El vibe coding desata una ola de firmware casero para sintetizadores",
+      "summary": "En foros como r/synthesizers ha crecido una escena de firmware alternativo para sintetizadores, samplers y grooveboxes creado con herramientas de vibe coding. Lo que antes exigía semanas de trabajo de un experto ahora lo aborda gente sin formación específica en sistemas embebidos.",
+      "why_it_matters": "Muestra el efecto práctico de los asistentes de código sobre el hardware cerrado que la gente ya tiene en casa.",
+      "url": "https://www.theverge.com/gadgets/1013493/vibe-coding-ai-music-gear-hacking-custom-firmware",
+      "source": "The Verge",
+      "social": {
+        "x": "Gente sin formación en sistemas embebidos está reescribiendo el firmware de su sintetizador. El vibe coding acaba de abrir el hardware cerrado.\n\n#VibeCoding #Firmware #Sintetizadores #OpenSource\nhttps://www.theverge.com/gadgets/1013493/vibe-coding-ai-music-gear-hacking-custom-firmware",
+        "linkedin": "El hardware cerrado empieza a ceder por donde nadie miraba: el firmware.\n\nEn foros como r/synthesizers ha crecido una escena que reescribe el firmware de sintetizadores, samplers y grooveboxes con asistentes de código. Lo que antes exigía semanas de trabajo de alguien con experiencia en sistemas embebidos ahora lo aborda gente sin esa formación. 𝗘𝗹 𝘃𝗶𝗯𝗲 𝗰𝗼𝗱𝗶𝗻𝗴 𝗻𝗼 𝗲𝘀𝘁á 𝗰𝗿𝗲𝗮𝗻𝗱𝗼 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼𝘀 𝗻𝘂𝗲𝘃𝗼𝘀, 𝗲𝘀𝘁á 𝗱𝗲𝘀𝗯𝗹𝗼𝗾𝘂𝗲𝗮𝗻𝗱𝗼 𝗲𝗹 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗾𝘂𝗲 𝘆𝗮 𝘁𝗶𝗲𝗻𝗲𝘀 𝗲𝗻 𝗰𝗮𝘀𝗮, y eso cambia las reglas para cualquier fabricante que venda una caja con software que el usuario no puede tocar.\n\n#VibeCoding #Firmware #Sintetizadores #OpenSource\n\nhttps://www.theverge.com/gadgets/1013493/vibe-coding-ai-music-gear-hacking-custom-firmware"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Amazon financia una planta nuclear en Indiana para la red y sus centros de datos",
+      "summary": "Amazon y X-energy llevan su acuerdo a Indiana, donde proyectan una planta de casi 1 GW en el emplazamiento de una antigua central de carbón. La energía irá a la red y también a los centros de datos de la compañía.",
+      "why_it_matters": "La demanda eléctrica de la IA empuja a las grandes tecnológicas a convertirse en promotoras de energía de base.",
+      "url": "https://www.theverge.com/tech/1013735/amazon-x-energy-aep-nuclear-indiana",
+      "source": "The Verge",
+      "social": {
+        "x": "Amazon va a financiar una nuclear de casi 1 GW en Indiana. No para vender luz: para que sus centros de datos no se queden sin enchufe.\n\n#Amazon #Xenergy #Nuclear #CentrosDeDatos\nhttps://www.theverge.com/tech/1013735/amazon-x-energy-aep-nuclear-indiana",
+        "linkedin": "El cuello de botella de la IA ya no es el chip. Es el enchufe.\n\nAmazon y X-energy llevan su alianza a Indiana para levantar cerca de 1 GW en el emplazamiento de una antigua central de carbón, con la energía repartida entre la red y sus propios centros de datos. 𝗟𝗮𝘀 𝘁𝗲𝗰𝗻𝗼𝗹ó𝗴𝗶𝗰𝗮𝘀 𝗵𝗮𝗻 𝗱𝗲𝗷𝗮𝗱𝗼 𝗱𝗲 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗲𝗹𝗲𝗰𝘁𝗿𝗶𝗰𝗶𝗱𝗮𝗱 𝗽𝗮𝗿𝗮 𝗲𝗺𝗽𝗲𝘇𝗮𝗿 𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝗶𝗿𝗹𝗮, y eso reordena el mapa energético: el que antes firmaba un PPA ahora sale como promotor del proyecto. Para el resto del sector, la pregunta ya no es cuántas GPU caben en el rack, sino cuánta potencia hay en la subestación más cercana.\n\n#Amazon #Xenergy #Nuclear #CentrosDeDatos\n\nhttps://www.theverge.com/tech/1013735/amazon-x-energy-aep-nuclear-indiana"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "lanzamientos",
+      "title": "JDK 28 cierra la concurrencia estructurada con JEP 543",
+      "summary": "JEP 543 finaliza la concurrencia estructurada en JDK 28 tras siete rondas de preview y sin cambios de API respecto a JDK 27. Quien venga de JDK 25 o 26 tendrá que adaptarse al parámetro de excepción R_X y al envoltorio de ExecutionException.",
+      "why_it_matters": "Es la última pieza para escribir concurrencia con ámbitos claros en Java moderno sin flags de preview.",
+      "url": "https://www.infoq.com/news/2026/10/jep-543-jdk-28",
+      "source": "InfoQ",
+      "social": {
+        "x": "Siete rondas de preview después, Java por fin cierra la concurrencia estructurada: es final en JDK 28 y se acabaron los flags.\n\n#Java #OpenJDK #JDK28\nhttps://www.infoq.com/news/2026/10/jep-543-jdk-28",
+        "linkedin": "Java lleva desde 2023 enseñando la concurrencia estructurada en preview. Ya no queda excusa para no adoptarla.\n\nEl JEP 543 la convierte en API final en JDK 28, sin cambios respecto a JDK 27, así que 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗿𝗲𝗮𝗹 𝗱𝗲 𝗹𝗮 𝗺𝗶𝗴𝗿𝗮𝗰𝗶ó𝗻 𝗲𝘀𝘁á 𝗲𝗻 𝗹𝗼𝘀 𝗱𝗲𝘁𝗮𝗹𝗹𝗲𝘀: quien venga de JDK 25 o 26 se topa con el parámetro de excepción R_X y con el nuevo envoltorio de ExecutionException. Para los equipos que aún arrastran ExecutorService y Future a mano, el cambio de modelo mental (ámbitos que se cancelan y se propagan solos) pesa más que la sintaxis. Merece la pena planificarlo antes de que el salto de versión lo imponga.\n\n#Java #OpenJDK #JDK28\n\nhttps://www.infoq.com/news/2026/10/jep-543-jdk-28"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "description": "Comprime las salidas de herramientas, logs, archivos y fragmentos de RAG antes de que lleguen al LLM, con lo que se recortan los tokens (sobre todo en JSON) sin perder calidad en las respuestas. Se puede usar como librería, como proxy o como servidor MCP, así que encaja bien en agentes de código que van justos de contexto.",
+      "language": "Python",
+      "stars": 76105,
+      "social": {
+        "x": "76.000 estrellas para un repo que comprime logs, JSON y salidas de herramientas antes de que lleguen al LLM. Sin perder calidad. Y sirve como librería, proxy o servidor MCP.\n\n#Headroom #LLM #Python #OpenSource\nhttps://github.com/headroomlabs-ai/headroom",
+        "linkedin": "TU AGENTE NO SE QUEDA SIN CONTEXTO POR CULPA DEL MODELO: SE LO COMES TÚ CON LOGS ENTEROS.\n\nCada llamada a una herramienta devuelve un JSON gigante, cada error arrastra doscientas líneas de log y cada fragmento de RAG viene con paja alrededor. Todo eso acaba dentro del prompt y se lleva por delante la ventana que necesitabas para el código.\n\nHeadroom comprime esas salidas justo antes de que lleguen al LLM. Y lo hace con una idea muy simple: 𝗿𝗲𝗰𝗼𝗿𝘁𝗮𝗿 𝘁𝗼𝗸𝗲𝗻𝘀 𝗻𝗼 𝘀𝗶𝗴𝗻𝗶𝗳𝗶𝗰𝗮 𝗿𝗲𝗰𝗼𝗿𝘁𝗮𝗿 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝗲𝗻 𝗹𝗮 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮.\n\n→ Comprime salidas de herramientas, logs, archivos y fragmentos de RAG, con especial foco en JSON.\n→ Se puede usar como librería, como proxy o como servidor MCP, así que encaja en casi cualquier stack.\n→ Pensado para agentes de código que van justos de contexto, sin tener que reescribir el resto del flujo.\n→ Python, open source y ya con más de 76.000 estrellas.\n\nGuárdate el post para el próximo agente que montes. El repo te lo dejo abajo.\n\n#Headroom #LLM #Python #OpenSource\n\nhttps://github.com/headroomlabs-ai/headroom"
+      }
+    },
+    {
+      "name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Un modelo fundacional entrenado para entender el lenguaje de los mercados financieros, pensado para trabajar con series temporales y datos de mercado. Interesante si quieres experimentar con modelos abiertos aplicados a finanzas en lugar de tirar de APIs cerradas.",
+      "language": "Python",
+      "stars": 41427,
+      "social": {
+        "x": "41.427 estrellas para un modelo fundacional que entiende el lenguaje de los mercados financieros. Open source, en Python y sin depender de una API cerrada.\n\n#Kronos #Python #OpenSource #GitHub\nhttps://github.com/shiyu-coder/Kronos",
+        "linkedin": "UN MODELO ABIERTO QUE ENTIENDE EL LENGUAJE DE LOS MERCADOS YA RONDA LAS 41.000 ESTRELLAS.\n\nSi quieres experimentar con datos de mercado, lo habitual es acabar atado a una API cerrada: cuotas, límites y cero control sobre lo que pasa dentro. Kronos va por otro camino y propone un modelo fundacional entrenado específicamente para leer series temporales financieras.\n\nLa gracia es que 𝗽𝘂𝗲𝗱𝗲𝘀 𝗺𝗼𝗻𝘁𝗮𝗿 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 𝗮𝗻á𝗹𝗶𝘀𝗶𝘀 𝗱𝗲 𝗺𝗲𝗿𝗰𝗮𝗱𝗼 𝘀𝗶𝗻 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝘂𝗻𝗮 𝗔𝗣𝗜 𝗱𝗲 𝗽𝗮𝗴𝗼, y eso cambia bastante las reglas del juego para quien investiga o prototipa.\n\n→ Modelo fundacional entrenado para interpretar el lenguaje de los mercados.\n→ Pensado para series temporales y datos de mercado, no para texto genérico.\n→ En Python, así que encaja en notebooks y pipelines sin fricción.\n→ Código abierto: te lo llevas a tu entorno en lugar de tirar de servicios cerrados.\n→ 41.427 estrellas y una comunidad que ya lo está probando.\n\nSi trabajas con datos financieros o simplemente te apetece trastear con modelos abiertos aplicados a finanzas, guarda este post y échale un ojo al repo. Te dejo el enlace abajo.\n\n#Kronos #Python #OpenSource #GitHub\n\nhttps://github.com/shiyu-coder/Kronos"
+      }
+    }
+  ]
+}
