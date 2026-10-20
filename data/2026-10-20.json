@@ -1,0 +1,324 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T15:03:30.971Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "DeepSeek libera DeepInfer, el motor de inferencia que usa en producción",
+      "summary": "DeepSeek ha publicado en GitHub DeepInfer, un framework de inferencia de alto rendimiento pensado para servir sus modelos a gran escala. Es el mismo motor que la compañía emplea en producción y llega como open source para que cualquiera pueda desplegarlo.",
+      "why_it_matters": "Abrir el motor de serving permite montar modelos de DeepSeek con el rendimiento del proveedor original y sin pasar por su API.",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "source": "Hacker News",
+      "social": {
+        "x": "DeepSeek libera en GitHub el motor de inferencia con el que sirve sus modelos. Ese mismo rendimiento, ahora, en tu propia infraestructura.\n\n#DeepSeek #OpenSource #LLM #DeepInfer\nhttps://github.com/deepseek-ai/DeepInfer",
+        "linkedin": "Servir un modelo grande a escala no es un problema de modelo, es un problema de motor.\n\nDeepSeek acaba de publicar en GitHub DeepInfer, el framework de inferencia con el que sirve sus propios modelos en producción. Lo relevante no es tanto el código como el hecho de que 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗲𝘀𝘁𝗮𝗿 𝗲𝗻 𝗲𝗹 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿 y se traslada a tu infraestructura. Para quien descartó modelos abiertos por latencia o coste por token, toca volver a hacer números frente a la API.\n\n#DeepSeek #OpenSource #LLM #DeepInfer\n\nhttps://github.com/deepseek-ai/DeepInfer"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Mercury 3, el LLM de difusión que genera a más de 1.000 tokens por segundo",
+      "summary": "Inception Labs presenta Mercury 3, que describe como el LLM de difusión más capaz publicado hasta la fecha. La compañía asegura que supera a GPT-6 Luna y Claude Haiku 5.5 y que genera entre 4 y 8 veces más rápido.",
+      "why_it_matters": "Los modelos de difusión de texto ya compiten en calidad y arrasan en latencia, lo que cambia qué modelo tiene sentido usar en aplicaciones en tiempo real.",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "source": "Hacker News",
+      "social": {
+        "x": "1.000 tokens por segundo: eso es lo que promete Mercury 3, un LLM de difusión que dice superar a GPT-6 Luna y Claude Haiku 5.5. La latencia deja de ser el cuello de botella.\n\n#Mercury3 #InceptionLabs #LLM\nhttps://www.inceptionlabs.ai/blog/introducing-mercury-3",
+        "linkedin": "1.000 tokens por segundo no es una mejora incremental: es otro régimen de uso.\nMercury 3, de Inception Labs, es un LLM de difusión y la compañía asegura que supera a GPT-6 Luna y Claude Haiku 5.5 generando entre 4 y 8 veces más rápido. Si la calidad aguanta el tipo, 𝗹𝗮 𝗹𝗮𝘁𝗲𝗻𝗰𝗶𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝗾𝘂𝗲 𝗱𝗲𝘀𝗰𝗮𝗿𝘁𝗮 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 y aplicaciones en tiempo real como agentes, autocompletado o voz pasan a jugar con otro abanico de opciones. La pregunta ya no es solo qué modelo responde mejor, sino cuál responde a tiempo.\n\n#Mercury3 #InceptionLabs #LLM\n\nhttps://www.inceptionlabs.ai/blog/introducing-mercury-3"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "El provider de IA de Airflow llega a la 1.0 con agentes y aprobación humana",
+      "summary": "Apache Airflow publica la versión 1.0 de su provider Common AI, compatible con Airflow 2.11 y con novedades en Airflow 3.3. Los agentes pueden esperar a que una persona apruebe la llamada a una tool, ejecutarse en sandboxes y dejar que el modelo decida si una tarea fallida se reintenta.",
+      "why_it_matters": "Mete agentes dentro de un orquestador que ya está en producción en miles de empresas, con permisos y reintentos en lugar de scripts sueltos.",
+      "url": "https://airflow.apache.org/blog/common-ai-provider-1.0",
+      "source": "Lobsters",
+      "social": {
+        "x": "Airflow ya deja que un agente decida si una tarea fallida se reintenta. Y que se quede parado esperando a que apruebes la llamada a una tool.\n\n#ApacheAirflow #Airflow #AgentesIA #OpenSource\nhttps://airflow.apache.org/blog/common-ai-provider-1.0",
+        "linkedin": "Los agentes acaban de entrar en el orquestador que ya tienes en producción. Y entran con permisos, no con scripts sueltos.\n\nEl provider Common AI de Apache Airflow llega a la 1.0 con 𝗮𝗽𝗿𝗼𝗯𝗮𝗰𝗶ó𝗻 𝗵𝘂𝗺𝗮𝗻𝗮 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿 𝘂𝗻𝗮 𝘁𝗼𝗼𝗹, sandboxes para el código del agente y reintentos que decide el propio modelo. Para un equipo con DAGs en producción la diferencia es grande: el agente pasa a ser una tarea más, con sus credenciales, sus logs y su trazabilidad. La aprobación humana es la pieza que más va a mover el debate, porque ahí se decide si esto aguanta un entorno real o se queda en una demo bonita.\n\n#ApacheAirflow #Airflow #AgentesIA #OpenSource\n\nhttps://airflow.apache.org/blog/common-ai-provider-1.0"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Cloudflare presenta Clairic, un modelo que extrae datos de documentos más rápido y barato que un LLM",
+      "summary": "Cloudflare ha publicado Clairic, un modelo especializado en sacar información estructurada de documentos. La compañía afirma que es más rápido y más económico que usar un LLM general para esa misma tarea.",
+      "why_it_matters": "Para extracción de datos a granel, un modelo pequeño y específico puede sustituir a un LLM caro sin perder precisión.",
+      "url": "https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms",
+      "source": "The Decoder",
+      "social": {
+        "x": "Cloudflare acaba de demostrar que para sacar datos de un documento no hace falta un LLM gigante. Su modelo Clairic lo hace más rápido y más barato.\n\n#Cloudflare #LLM #DataExtraction\nhttps://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms",
+        "linkedin": "Estamos pagando modelos gigantes para tareas que caben en uno pequeño.\n\nCloudflare ha publicado Clairic, un modelo especializado en extraer información estructurada de documentos, y asegura que es más rápido y más barato que un LLM general haciendo lo mismo. En extracción a granel, 𝗹𝗮 𝗲𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗽𝗲𝘀𝗮 𝗺á𝘀 𝗾𝘂𝗲 𝗲𝗹 𝘁𝗮𝗺𝗮ñ𝗼: una tarea acotada no necesita razonamiento general, y a escala la diferencia se nota en la factura. La pregunta ya no es qué modelo es mejor, sino cuál es el más pequeño que resuelve tu caso.\n\n#Cloudflare #LLM #DataExtraction\n\nhttps://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "MiniMax M3.1 Flash aprieta aún más la guerra de precios de la IA china",
+      "summary": "MiniMax lanza M3.1 Flash, que sube 13 puntos frente a su predecesor hasta 42 en el índice de Artificial Analysis manteniendo la mitad del coste. En el benchmark de código DeepSWE v1.1 alcanza el 73,7 % por menos de 0,30 dólares por tarea.",
+      "why_it_matters": "Iguala a DeepSeek V4.1 Flash en rendimiento y precio, señal de que el coste por token sigue cayendo y conviene revisar qué modelo usar en producción.",
+      "url": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight",
+      "source": "The Decoder",
+      "social": {
+        "x": "MiniMax M3.1 Flash sube 13 puntos en Artificial Analysis sin mover el precio. Y en código llega al 73,7 % por menos de 0,30 dólares por tarea.\n\n#MiniMax #DeepSeek #LLM #APIs\nhttps://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight",
+        "linkedin": "MiniMax M3.1 Flash acaba de empatar con DeepSeek V4.1 Flash en rendimiento y en precio. Un empate que dice más del mercado que de los propios modelos.\n\nSube 13 puntos en el índice de Artificial Analysis y alcanza el 73,7 % en DeepSWE v1.1 por menos de 0,30 dólares por tarea, manteniendo 𝗹𝗮 𝗺𝗶𝘁𝗮𝗱 𝗱𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝘀𝘂 𝗽𝗿𝗲𝗱𝗲𝗰𝗲𝘀𝗼𝗿. Cuando dos laboratorios convergen en cifras y en tarifa, elegir modelo deja de ser una decisión técnica y pasa a ser de producto: cuál aguanta tu caso de uso real. Si hace seis meses descartaste una opción por precio, toca volver a medir.\n\n#MiniMax #DeepSeek #LLM #APIs\n\nhttps://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Kling 4.0 añade audio estéreo, lip sync multilingüe y una variante Flash",
+      "summary": "Kling AI lanza la versión 4.0 de su generador de vídeo, con clips de hasta 30 segundos, diez imágenes de referencia como keyframes y comprensión de prompts de hasta 8.000 tokens. También estrena una variante Flash más ligera.",
+      "why_it_matters": "El vídeo generativo se acerca a lo usable en producción, aunque las comparaciones con Wan 3.0 y Seedance 2.5 sugieren que la mejora empieza a aplanarse.",
+      "url": "https://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant",
+      "source": "The Decoder",
+      "social": {
+        "x": "Kling 4.0 ya genera clips de 30 segundos con audio estéreo y lip sync en varios idiomas. La mejora, eso sí, empieza a aplanarse frente a Wan y Seedance.\n\n#KlingAI #VideoGenerativo #Seedance #Wan\nhttps://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant",
+        "linkedin": "Kling 4.0 ya entrega clips de 30 segundos con audio estéreo y lip sync en varios idiomas.\nLa nueva versión del generador de Kling AI sube el listón técnico: hasta diez imágenes de referencia como keyframes, comprensión de prompts de 8.000 tokens y una variante Flash más ligera para iterar rápido. Pero lo relevante no es el salto, sino el techo: 𝗹𝗮𝘀 𝗰𝗼𝗺𝗽𝗮𝗿𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗰𝗼𝗻 𝗪𝗮𝗻 𝟯.𝟬 𝘆 𝗦𝗲𝗲𝗱𝗮𝗻𝗰𝗲 𝟮.𝟱 𝗮𝗽𝘂𝗻𝘁𝗮𝗻 𝗮 𝗾𝘂𝗲 𝗹𝗮 𝗰𝘂𝗿𝘃𝗮 𝗱𝗲 𝗺𝗲𝗷𝗼𝗿𝗮 𝗲𝗺𝗽𝗶𝗲𝘇𝗮 𝗮 𝗮𝗽𝗹𝗮𝗻𝗮𝗿𝘀𝗲. Para quien ya produce con vídeo generativo, la pregunta deja de ser qué modelo genera mejor y pasa a ser cuál encaja en tu flujo de trabajo y a qué coste por clip.\n\n#KlingAI #VideoGenerativo #Seedance #Wan\n\nhttps://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Amazon Bedrock ya devuelve JSON validado de los modelos Claude",
+      "summary": "Bedrock incorpora structured outputs para todos los modelos de Anthropic Claude, tanto en el endpoint bedrock-runtime como en bedrock-mantle. El modelo devuelve JSON que cumple el esquema definido, sin parseo propio ni lógica de reintento.",
+      "why_it_matters": "Elimina una de las fuentes de fragilidad más típicas al integrar un LLM en una aplicación: la respuesta con formato impredecible.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "El bloque de código que todos escribimos para arreglar el JSON de Claude ya sobra: Bedrock lo devuelve validado contra tu esquema.\n\n#AmazonBedrock #Claude #Anthropic #StructuredOutputs\nhttps://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
+        "linkedin": "La parte más frágil de cualquier integración con un LLM no es el modelo: es el JSON.parse de después.\n\nBedrock acaba de cerrar ese hueco con structured outputs para todos los modelos Claude: defines el esquema y la respuesta lo cumple, sin parseo propio ni lógica de reintento. 𝗘𝗹 𝗰𝗮𝗺𝗯𝗶𝗼 𝗻𝗼 𝗲𝘀 𝗱𝗲 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼, 𝗲𝘀 𝗱𝗲 𝗳𝗶𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱: desaparecen el try/catch, el validador y el segundo intento con eso de «devuelve solo JSON». Para quien tiene pipelines en producción, es la clase de mejora aburrida que evita más incidentes que un salto de versión del modelo.\n\n#AmazonBedrock #Claude #Anthropic #StructuredOutputs\n\nhttps://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "AnyLanguageModel 1.0, una capa común para modelos locales en iOS y macOS",
+      "summary": "La librería AnyLanguageModel cumple su primer año y alcanza la versión 1.0 como capa unificada para ejecutar modelos de lenguaje en plataformas Apple. El mismo código sirve para distintos backends de modelos locales.",
+      "why_it_matters": "Correr el modelo en el dispositivo evita costes de API y problemas de privacidad, y una API única ahorra mantener una integración por cada modelo.",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Cambiar de modelo local en iOS ya no obliga a reescribir la integración. AnyLanguageModel llega a 1.0 con una sola API para todos los backends.\n\n#Apple #iOS #OpenSource #Swift\nhttps://huggingface.co/blog/anylanguagemodel-1-0",
+        "linkedin": "Cambiar de modelo local en una app de iOS ya no significa reescribir la capa de integración.\n\nAnyLanguageModel alcanza la 1.0 y unifica en una única API los distintos backends de modelos que corren en el dispositivo, con el mismo código para todos. Para quien mantiene varias apps o cambia de modelo cada pocos meses, 𝗲𝗹 𝗮𝗵𝗼𝗿𝗿𝗼 𝗱𝗲 𝘃𝗲𝗿𝗱𝗮𝗱 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗾𝘂𝗲 𝗱𝗲𝗷𝗮𝘀 𝗱𝗲 𝗲𝘀𝗰𝗿𝗶𝗯𝗶𝗿, no en la librería en sí. Y si la inferencia se queda en el dispositivo, los costes de API y el envío de datos a terceros salen de la ecuación.\n\n#Apple #iOS #OpenSource #Swift\n\nhttps://huggingface.co/blog/anylanguagemodel-1-0"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "Amazon planta cara a Nvidia con TorchNeuron, su herramienta para PyTorch",
+      "summary": "Amazon presenta TorchNeuron, una herramienta de desarrollo que busca llevar los proyectos hechos con PyTorch a sus propios chips sin reescribir el código. La ofensiva apunta a romper la dependencia de Nvidia en el stack de entrenamiento e inferencia.",
+      "why_it_matters": "Si portar PyTorch a Trainium resulta trivial, el coste de cambiar de acelerador baja y la competencia en hardware de IA se vuelve real.",
+      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Amazon quiere que mover tu código de PyTorch a sus chips cueste cero. Si funciona, el candado de Nvidia deja de ser el hardware.\n\n#Nvidia #PyTorch #AWS #Trainium\nhttps://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool",
+        "linkedin": "El candado de Nvidia nunca fue el silicio: fue el software.\n\nTorchNeuron lleva proyectos de PyTorch a los chips Trainium de AWS sin reescribir el código, y ahí está la jugada real: 𝘀𝗶 𝗽𝗼𝗿𝘁𝗮𝗿 𝗰𝘂𝗲𝘀𝘁𝗮 𝗽𝗼𝗰𝗼, 𝗲𝗹𝗲𝗴𝗶𝗿 𝗮𝗰𝗲𝗹𝗲𝗿𝗮𝗱𝗼𝗿 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗶𝗿𝗿𝗲𝘃𝗲𝗿𝘀𝗶𝗯𝗹𝗲. Para los equipos de ML, eso convierte la cuota de Nvidia en una palanca de negociación y no en un peaje fijo; para Nvidia, el foso de CUDA empieza a tener grietas. La duda es si el rendimiento en Trainium aguanta la comparación cuando el código ya corre sin fricción.\n\n#Nvidia #PyTorch #AWS #Trainium\n\nhttps://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "OpenAI dice que sus modelos ya traducen COBOL para migraciones bancarias",
+      "summary": "OpenAI asegura que sus modelos han mejorado en el manejo de COBOL y pueden ayudar a los bancos a migrar sus sistemas heredados. La propuesta se apoya en el enorme volumen de código antiguo que sigue sosteniendo la banca.",
+      "why_it_matters": "Modernizar COBOL es uno de los trabajos más atascados del sector; si un LLM lo acelera, el cuello de botella se mueve de sitio.",
+      "url": "https://www.engadget.com/2291457/openai-says-its-models-can-translate-cobol",
+      "source": "Engadget",
+      "social": {
+        "x": "El COBOL que sostiene la banca lleva décadas sin migrarse. OpenAI dice que sus modelos ya lo traducen, y el cuello de botella se acaba de mover de sitio.\n\n#OpenAI #COBOL #Mainframe\nhttps://www.engadget.com/2291457/openai-says-its-models-can-translate-cobol",
+        "linkedin": "Media banca occidental sigue corriendo sobre código que casi nadie sabe leer, y no es por falta de ganas de migrarlo.\n\nOpenAI asegura que sus modelos han mejorado lo suficiente en COBOL como para traducirlo en procesos de migración reales. Si eso se sostiene, 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻: ningún equipo va a mover un core bancario porque un LLM diga que la traducción está bien. Ahí es donde se abre negocio, en las herramientas que verifican ese output y en los perfiles que saben auditar lo que el modelo escupe.\n\n#OpenAI #COBOL #Mainframe\n\nhttps://www.engadget.com/2291457/openai-says-its-models-can-translate-cobol"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "Yelp estrena funciones de IA que llaman al restaurante por ti",
+      "summary": "Yelp ha integrado varias funciones de IA en su app, entre ellas una que llama al restaurante para consultar el tiempo de espera. También añade recomendaciones personalizadas que recuerdan las preferencias del usuario.",
+      "why_it_matters": "Es un ejemplo claro de agente que actúa en el mundo real por el usuario, con el teléfono como interfaz en lugar de un formulario.",
+      "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Yelp ya llama al restaurante por ti. Su IA marca, pregunta por el tiempo de espera y te lo devuelve sin que tengas que coger el teléfono.\n\n#Yelp #AgentesIA #Voz\nhttps://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant",
+        "linkedin": "El teléfono vuelve a ser la interfaz. Yelp ha metido en su app una IA que llama al restaurante por ti para preguntar cuánto se tarda en conseguir mesa, y de paso añade recomendaciones que recuerdan tus preferencias.\n\nDurante años los agentes han vivido cómodos en el mundo de las APIs: reservas, formularios, integraciones. El problema es que la mayoría de bares y restaurantes de barrio nunca ha tenido una. Con esta función, 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝘀𝗮𝗹𝘁𝗮 𝗹𝗮 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗰𝗶ó𝗻 𝘆 𝘂𝘀𝗮 𝗲𝗹 𝗺𝗶𝘀𝗺𝗼 𝗰𝗮𝗻𝗮𝗹 𝗾𝘂𝗲 𝘂𝘀𝗮𝗺𝗼𝘀 𝗻𝗼𝘀𝗼𝘁𝗿𝗼𝘀: una llamada de voz. Para quien construye producto, la lectura es clara: si tu negocio no tiene API pero sí teléfono, ya estás dentro del circuito de los agentes. Y eso reabre un debate incómodo sobre a quién beneficia que una máquina llame en tu nombre.\n\n#Yelp #AgentesIA #Voz\n\nhttps://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "Alexa+ deja de ser de pago y llega gratis a todos los miembros de Prime",
+      "summary": "Amazon abre Alexa+, su asistente con IA generativa, a todos los miembros de Prime sin coste adicional. Se puede usar desde los Echo Show y Dot, las tablets, la app y la web.",
+      "why_it_matters": "Amazon mete un asistente con LLM en casa de millones de personas sin pedir un euro más, lo que presiona al resto de asistentes.",
+      "url": "https://www.engadget.com/2288734/amazon-prime-alexa-upgrade-you-should-know-about",
+      "source": "Engadget",
+      "social": {
+        "x": "Alexa+ ya no se paga: Amazon lo incluye gratis para todos los miembros de Prime. El resto de asistentes con IA se queda con un problema de precio.\n\n#Amazon #Alexa #Prime\nhttps://www.engadget.com/2288734/amazon-prime-alexa-upgrade-you-should-know-about",
+        "linkedin": "Alexa+ ha dejado de ser un extra de pago. Amazon lo incluye ahora en Prime sin coste adicional, y eso reordena la economía del asistente doméstico.\n\nMeter un LLM en casa de decenas de millones de personas sin cobrar un euro más no es una promoción: es fijar el precio de referencia en cero. 𝗤𝘂𝗶𝗲𝗻 𝗰𝗼𝗺𝗽𝗶𝘁𝗮 𝗲𝗻 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲𝘀 𝘁𝗲𝗻𝗱𝗿á 𝗾𝘂𝗲 𝗷𝘂𝘀𝘁𝗶𝗳𝗶𝗰𝗮𝗿 𝘀𝘂 𝘀𝘂𝘀𝗰𝗿𝗶𝗽𝗰𝗶ó𝗻 𝗰𝗼𝗻 𝗮𝗹𝗴𝗼 𝗾𝘂𝗲 𝗔𝗺𝗮𝘇𝗼𝗻 𝗻𝗼 𝗽𝘂𝗲𝗱𝗮 𝗿𝗲𝗴𝗮𝗹𝗮𝗿, y hoy ese algo no está nada claro. Para los equipos que construyen producto sobre voz, el listón acaba de subir sin que nadie haya lanzado una función nueva.\n\n#Amazon #Alexa #Prime\n\nhttps://www.engadget.com/2288734/amazon-prime-alexa-upgrade-you-should-know-about"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "Lightroom móvil abre los ojos cerrados de una foto con un toque",
+      "summary": "Adobe ha añadido a Lightroom para móvil una acción rápida con IA que abre los ojos cerrados en las fotos con un solo toque. Se suma a las herramientas generativas que la app ya incluía.",
+      "why_it_matters": "Es el tipo de retoque que antes exigía Photoshop y paciencia, ahora resuelto en el móvil y en un gesto.",
+      "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
+      "source": "The Verge",
+      "social": {
+        "x": "Lightroom ya abre los ojos cerrados de una foto con un solo toque. Lo que antes pedía Photoshop y bastante paciencia se resuelve ahora en el móvil.\n\n#Adobe #Lightroom #Fotografía\nhttps://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
+        "linkedin": "Durante años, salvar una foto con los ojos cerrados significaba abrir Photoshop y pelearse con el tampón de clonar.\n\nAdobe acaba de convertir eso en una acción rápida dentro de Lightroom para móvil: un toque y los ojos abiertos, sin capas ni máscaras. 𝗘𝗹 𝗿𝗲𝘁𝗼𝗾𝘂𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻 𝗯𝗼𝘁ó𝗻, y eso obliga a preguntarse dónde queda el valor del fotógrafo: cada vez menos en el arreglo posterior y más en la decisión de la toma. Para quien trabaja con clientes o cubre eventos, es tiempo recuperado; para el resto, una foto menos que descartar.\n\n#Adobe #Lightroom #Fotografía\n\nhttps://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "Mover la caché KV sin penalizar el tiempo hasta el primer token en vLLM",
+      "summary": "Un nuevo conector push-based para vLLM saca la coordinación de la transferencia de la ruta crítica en la inferencia desagregada. En pruebas sobre instancias EC2 P5en con EFA, el tiempo hasta el primer token mejora hasta 3 veces y el TPOT un 30 %.",
+      "why_it_matters": "Son mejoras de infraestructura que se traducen directamente en latencia y coste para quien sirve modelos, sin tocar el modelo.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "El primer token llega hasta 3 veces antes. No por un modelo mejor, sino por dónde se mueve la caché KV en vLLM.\n\n#vLLM #KVcache #AWS\nhttps://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm",
+        "linkedin": "En inferencia desagregada, mover la caché KV es la parte que nadie quiere tocar: cada milisegundo de coordinación se paga en el tiempo hasta el primer token.\n\nUn conector push-based para vLLM saca esa coordinación de la ruta crítica y, sobre instancias EC2 P5en con EFA, consigue que 𝗲𝗹 𝗧𝗧𝗙𝗧 𝗺𝗲𝗷𝗼𝗿𝗲 𝗵𝗮𝘀𝘁𝗮 𝟯 𝘃𝗲𝗰𝗲𝘀 𝘆 𝗲𝗹 𝗧𝗣𝗢𝗧 𝘂𝗻 𝟯𝟬 % sin cambiar una línea del modelo. Para quien sirve modelos a escala, esto es latencia y coste que bajan por la vía de la infraestructura, la más aburrida y la que más rinde. Si tu equipo sigue optimizando prompts mientras la capa de serving pierde milisegundos, la prioridad está al revés.\n\n#vLLM #KVcache #AWS\n\nhttps://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "El texto de 26.000 palabras de Goodfire que ha sacudido la investigación en IA",
+      "summary": "Nick Cammarata, investigador de Goodfire, ha publicado un ensayo sobre la naturaleza de las redes neuronales que ha dividido al sector entre el entusiasmo y el escepticismo. La discusión se centra en qué implica su tesis para la forma de entender y entrenar modelos.",
+      "why_it_matters": "Si la interpretación de las redes cambia, cambia también cómo se evalúa y se depura un modelo, no solo la teoría.",
+      "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world",
+      "source": "MIT Technology Review",
+      "social": {
+        "x": "26.000 palabras sobre cómo funcionan por dentro las redes neuronales tienen al sector discutiendo. No es teoría: si la tesis se sostiene, cambia cómo se evalúa y se depura un modelo.\n\n#Goodfire #Interpretabilidad #MachineLearning\nhttps://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world",
+        "linkedin": "26.000 palabras sobre cómo funcionan por dentro las redes neuronales y el sector lleva días discutiendo. Nick Cammarata, investigador de Goodfire, ha publicado un ensayo que no propone un modelo nuevo, sino otra forma de interpretar los que ya existen. Eso importa más de lo que parece: 𝗱𝗲 𝗰ó𝗺𝗼 𝗹𝗲𝗲𝗺𝗼𝘀 𝘂𝗻𝗮 𝗿𝗲𝗱 𝗱𝗲𝗽𝗲𝗻𝗱𝗲 𝗰ó𝗺𝗼 𝗹𝗮 𝗲𝘃𝗮𝗹𝘂𝗮𝗺𝗼𝘀 𝘆 𝗰ó𝗺𝗼 𝗹𝗮 𝗱𝗲𝗽𝘂𝗿𝗮𝗺𝗼𝘀. Si su tesis se sostiene, buena parte de las herramientas de interpretabilidad y de los criterios de evaluación tendrían que revisarse; si no, sigue siendo un debate útil que conviene leer con escepticismo y no como dogma.\n\n#Goodfire #Interpretabilidad #MachineLearning\n\nhttps://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "WhatsApp tenía instrucciones ocultas para su chatbot: no recomendar reguladores ni citar el GDPR",
+      "summary": "Una investigación muestra que unas 80 páginas de ayuda de WhatsApp contenían instrucciones internas para el chatbot de Meta, incluidas órdenes de no recomendar un regulador y de no citar el GDPR o la CCPA cuando aparecía un abogado. Meta atribuye la exposición a un bug y ha retirado las notas.",
+      "why_it_matters": "Demuestra que el comportamiento de un asistente se puede condicionar con texto que el usuario nunca ve, y que ese texto acaba saliendo a la luz.",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "source": "Hacker News",
+      "social": {
+        "x": "WhatsApp le decía a su chatbot, en notas que nadie veía: no menciones al regulador, no cites el GDPR. Un bug las ha dejado a la vista.\n\n#WhatsApp #Meta #GDPR #Privacidad\nhttps://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+        "linkedin": "El comportamiento de un asistente no lo define solo su modelo: lo define el texto que el usuario nunca ve.\n\nUna investigación ha encontrado unas 80 páginas de ayuda de WhatsApp con instrucciones internas para el chatbot de Meta, entre ellas no recomendar ningún regulador y no citar el GDPR o la CCPA cuando aparecía un abogado. Meta lo atribuye a un bug y ya ha retirado las notas. Para cualquier equipo que despliegue un asistente, 𝗲𝗹 𝗽𝗿𝗼𝗺𝗽𝘁 𝗱𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗲𝘀 𝘀𝘂𝗽𝗲𝗿𝗳𝗶𝗰𝗶𝗲 𝗱𝗲 𝗿𝗶𝗲𝘀𝗴𝗼: se filtra, se archiva y acaba leyéndose en voz alta en un despacho o en un juzgado. Tratarlo como código que algún día se publica es la única higiene que funciona.\n\n#WhatsApp #Meta #GDPR #Privacidad\n\nhttps://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "EE. UU. prohíbe DeepSeek en todas las agencias civiles federales",
+      "summary": "El Departamento de Seguridad Nacional ha ordenado a las agencias civiles federales retirar los productos de DeepSeek y los servicios de terceros construidos con su tecnología, alegando seguridad nacional. La orden llega días después del lanzamiento del último modelo de la compañía china.",
+      "why_it_matters": "Marca un precedente de veto por origen nacional a un modelo abierto, justo cuando ese modelo se puede descargar y ejecutar en cualquier sitio.",
+      "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19",
+      "source": "Hacker News",
+      "social": {
+        "x": "Prohibir DeepSeek en las agencias federales es fácil. Lo difícil es lo otro: es un modelo abierto que cualquiera puede descargar y ejecutar en su propio servidor.\n\n#DeepSeek #OpenSource #DHS #Geopolitica\nhttps://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19",
+        "linkedin": "EE. UU. veta DeepSeek por su origen, no por lo que hace su código. Y ese matiz lo cambia todo.\n\nEl Departamento de Seguridad Nacional ha ordenado a las agencias civiles federales retirar los productos de DeepSeek y también los servicios de terceros construidos con su tecnología, alegando seguridad nacional. La orden llega días después del lanzamiento del último modelo de la compañía china. 𝗘𝗹 𝗽𝗿𝗲𝗰𝗲𝗱𝗲𝗻𝘁𝗲 𝗲𝘀 𝗲𝗹 𝘃𝗲𝘁𝗼 𝗽𝗼𝗿 𝗻𝗮𝗰𝗶𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗻𝗼 𝗽𝗼𝗿 𝘀𝘂 𝗰𝗼𝗺𝗽𝗼𝗿𝘁𝗮𝗺𝗶𝗲𝗻𝘁𝗼, y marca una vara que cualquier equipo con proveedores chinos en su stack tendrá que medir. Si trabajas con modelos abiertos self-hosted, la pregunta ya no es solo qué hace el modelo, sino de dónde viene.\n\n#DeepSeek #OpenSource #DHS #Geopolitica\n\nhttps://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "El CERN y Mistral firman un acuerdo para acelerar la IA en la ciencia",
+      "summary": "El CERN y Mistral AI han firmado una declaración de intenciones para establecer una colaboración estratégica centrada en aplicar IA a la investigación científica. El acuerdo todavía debe concretarse en proyectos.",
+      "why_it_matters": "Junta datos y problemas científicos de primer nivel con un laboratorio europeo de modelos, una vía para que Europa no dependa solo de LLM estadounidenses.",
+      "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science",
+      "source": "Hacker News",
+      "social": {
+        "x": "Mistral y el CERN firman una declaración de intenciones. De momento, papel. Pero el papel dice qué IA quiere Europa para su ciencia.\n\n#CERN #MistralAI #LLM #Europa\nhttps://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science",
+        "linkedin": "El CERN no busca el mejor modelo del mundo. Busca uno que Europa pueda controlar.\n\nEl laboratorio y Mistral AI han firmado una declaración de intenciones para aplicar IA a la investigación científica. Todavía no hay proyectos concretos, solo el marco: datos de primer nivel por un lado y un laboratorio europeo de modelos por el otro. 𝗟𝗮 𝗷𝘂𝗴𝗮𝗱𝗮 𝗻𝗼 𝗲𝘀 𝘁é𝗰𝗻𝗶𝗰𝗮, 𝗲𝘀 𝗱𝗲 𝘀𝗼𝗯𝗲𝗿𝗮𝗻í𝗮: si la física de partículas se resuelve con modelos a los que Europa tiene acceso pleno, el continente deja de depender de decisiones tomadas en California. Lo interesante llegará cuando esto se traduzca en papers y no en notas de prensa.\n\n#CERN #MistralAI #LLM #Europa\n\nhttps://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Un fallo de suministro eléctrico tumba la zona de Londres de Google Cloud",
+      "summary": "Google Cloud ha confirmado que un evento eléctrico en la zona europe-west2-b dejó fuera de servicio a clientes como HSBC, Lloyds, Revolut o Royal Mail durante la mañana. La recuperación se anunció de forma tentativa para primera hora de la tarde.",
+      "why_it_matters": "Recuerda que la resiliencia multi-zona no es opcional: un solo fallo físico en un datacenter puede tumbar la banca británica.",
+      "url": "https://www.theregister.com/paas-and-iaas/2026/10/20/google-cloud-says-a-power-event-caused-todays-outage/5304160",
+      "source": "The Register",
+      "social": {
+        "x": "Una avería eléctrica en un datacenter de Google Cloud en Londres deja sin servicio a HSBC, Lloyds, Revolut y Royal Mail. Toda la banca británica, colgada de una sola zona.\nhttps://www.theregister.com/paas-and-iaas/2026/10/20/google-cloud-says-a-power-event-caused-todays-outage/5304160",
+        "linkedin": "La banca británica entera dependía de la misma zona de Google Cloud. Y esa zona se quedó sin luz.\n\nUn evento eléctrico en europe-west2-b dejó fuera de servicio durante toda la mañana a clientes como HSBC, Lloyds, Revolut o Royal Mail, y la recuperación no se anunció hasta primera hora de la tarde. No fue un ataque ni un bug: fue un fallo físico en un datacenter concreto. Para quien diseña infraestructura, la lección es incómoda: 𝗹𝗮 𝗿𝗲𝘀𝗶𝗹𝗶𝗲𝗻𝗰𝗶𝗮 𝗺𝘂𝗹𝘁𝗶-𝘇𝗼𝗻𝗮 𝗻𝗼 𝗲𝘀 𝘂𝗻 𝗲𝘅𝘁𝗿𝗮, 𝗲𝘀 𝗲𝗹 𝗿𝗲𝗾𝘂𝗶𝘀𝗶𝘁𝗼 𝗺í𝗻𝗶𝗺𝗼 y solo funciona si de verdad has distribuido la carga. Merece la pena revisar de qué depende tu servicio cuando la región que creías redundante resulta que era la única.\n\nhttps://www.theregister.com/paas-and-iaas/2026/10/20/google-cloud-says-a-power-event-caused-todays-outage/5304160"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "lanzamientos",
+      "title": "ReactOS ya puede instalarse sobre una partición NTFS",
+      "summary": "ReactOS, el sistema operativo libre compatible con binarios de Windows, ha dado un paso importante al añadir soporte para instalarse sobre NTFS gracias a un nuevo driver. Hasta ahora la instalación requería otros sistemas de ficheros.",
+      "why_it_matters": "Acerca la promesa de un Windows libre y compatible a un uso real, sin renunciar al sistema de ficheros que usa casi todo el mundo.",
+      "url": "https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support",
+      "source": "Ars Technica",
+      "social": {
+        "x": "El «Windows libre» acaba de poder instalarse sobre NTFS. Ese detalle es lo que separa un experimento de un sistema que puedes usar a diario.\n\n#ReactOS #NTFS #OpenSource #Windows\nhttps://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support",
+        "linkedin": "ReactOS ya puede instalarse sobre NTFS. Y eso cambia más de lo que parece a primera vista.\n\nDurante años, el sistema operativo libre compatible con binarios de Windows obligaba a instalar sobre FAT32 u otros sistemas de ficheros, lo que en la práctica lo condenaba a máquinas de pruebas y a entornos muy controlados. Con un driver NTFS propio, 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗲𝘀𝘁𝗮𝗿 𝗿𝗲ñ𝗶𝗱𝗼 𝗰𝗼𝗻 𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗱𝗲 𝗳𝗶𝗰𝗵𝗲𝗿𝗼𝘀 𝗾𝘂𝗲 𝘂𝘀𝗮 𝗰𝗮𝘀𝗶 𝘁𝗼𝗱𝗼 𝗲𝗹 𝗺𝘂𝗻𝗱𝗼. Para quien mantiene parques de equipos con software antiguo o depende de aplicaciones de Windows sin querer pasar por licencias, la conversación deja de ser teórica. Queda mucho recorrido por delante, pero el listón de «usable de verdad» se acaba de mover.\n\n#ReactOS #NTFS #OpenSource #Windows\n\nhttps://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "deepseek-ai/DeepInfer",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "description": "Framework de inferencia a gran escala de DeepSeek para servir sus propios modelos con buen rendimiento. Merece la pena si quieres montar un backend de inferencia serio sin empezar desde cero.",
+      "language": "Python",
+      "stars": 9082,
+      "social": {
+        "x": "DeepSeek usa este framework para servir sus propios modelos. Es open source, suma 9k estrellas y te evita montar el backend de inferencia desde cero.\n\n#DeepInfer #DeepSeek #Python #OpenSource\nhttps://github.com/deepseek-ai/DeepInfer",
+        "linkedin": "DEEPSEEK TIENE ABIERTO EL FRAMEWORK CON EL QUE SIRVE SUS PROPIOS MODELOS.\n\nMontar un backend de inferencia desde cero es una de esas tareas que parecen simples hasta que toca lidiar con rendimiento, GPU y despliegue. DeepInfer es el framework de DeepSeek para servir sus modelos a gran escala, en Python y con 9k estrellas. La gracia es que 𝗻𝗼 𝗲𝗺𝗽𝗶𝗲𝘇𝗮𝘀 𝗱𝗲𝘀𝗱𝗲 𝗰𝗲𝗿𝗼.\n\n→ Framework de inferencia a gran escala, escrito en Python.\n→ Pensado para servir los modelos de DeepSeek con buen rendimiento.\n→ Te ahorra partir de cero: la base para un backend serio.\n→ 9k estrellas en GitHub y código abierto.\n\nSi tienes que montar inferencia self-hosted, guárdate este post y échale un ojo al repo.\n\n#DeepInfer #DeepSeek #Python #OpenSource\n\nhttps://github.com/deepseek-ai/DeepInfer"
+      }
+    },
+    {
+      "name": "feder-cr/git-ai",
+      "url": "https://github.com/feder-cr/git-ai",
+      "description": "Un Git diseñado para agentes de IA, con las operaciones que necesitan los flujos automáticos en lugar de las que usa una persona. Útil si estás montando agentes que tocan código y necesitan control de versiones fiable.",
+      "language": "Go",
+      "stars": 2906,
+      "social": {
+        "x": "Git se diseñó para que lo uses tú. Este repo lo rediseña para que lo use un agente de IA: solo las operaciones que necesita un flujo automático. 2.9k estrellas.\n\n#Git #Go #OpenSource #AgentesIA\nhttps://github.com/feder-cr/git-ai",
+        "linkedin": "GIT SE DISEÑÓ PARA PERSONAS. ESTE REPO LO REDISEÑA PARA AGENTES DE IA.\n\nGit arrastra décadas de decisiones pensadas para manos humanas: confirmaciones interactivas, estados que alguien tiene que revisar a ojo, comandos que asumen que hay una persona delante decidiendo. Cuando el que toca el código es un agente, todo eso estorba.\n\ngit-ai parte de otra premisa: 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲 𝘃𝗲𝗿𝘀𝗶𝗼𝗻𝗲𝘀 𝘁𝗮𝗹 𝘆 𝗰𝗼𝗺𝗼 𝗹𝗼 𝗻𝗲𝗰𝗲𝘀𝗶𝘁𝗮 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲, no como lo necesita una persona.\n\n→ Operaciones acotadas a lo que pide un flujo automático, sin la parafernalia de la CLI de siempre\n→ Pensado para agentes que escriben y modifican código y necesitan un historial fiable\n→ Escrito en Go, así que se integra sin dramas en tus pipelines\n→ 2.9k estrellas: hay bastante gente montando agentes que ya se lo ha mirado\n\nSi estás construyendo agentes que tocan repos, guárdatelo. Te va a ahorrar más de un dolor de cabeza cuando el que hace commit no sea humano.\n\nTe dejo el repo abajo.\n\n#Git #Go #OpenSource #AgentesIA\n\nhttps://github.com/feder-cr/git-ai"
+      }
+    },
+    {
+      "name": "mistralai/timestral",
+      "url": "https://github.com/mistralai/timestral",
+      "description": "El modelo fundacional de series temporales de Mistral AI, publicado con su código para hacer predicciones sobre datos secuenciales. Interesante si trabajas con forecasting y quieres una alternativa open source a los servicios cerrados.",
+      "language": "Python",
+      "stars": 642,
+      "social": {
+        "x": "Mistral AI acaba de publicar su modelo fundacional de series temporales con código abierto. 642 estrellas y una alternativa real a los servicios cerrados de forecasting.\n\n#TimeSeries #Forecasting #Mistral #OpenSource\nhttps://github.com/mistralai/timestral",
+        "linkedin": "MISTRAL ACABA DE DEJAR EN GITHUB SU MODELO DE SERIES TEMPORALES.\n\nHasta ahora, si querías forecasting serio, lo normal era pasar por una API cerrada: cuota mensual, datos fuera de casa y poca visibilidad de lo que ocurre dentro del modelo. timestral rompe esa dinámica: es el modelo fundacional de series temporales de Mistral AI, publicado con su código en Python.\n\n→ Predicción sobre datos secuenciales con un modelo fundacional, no con un algoritmo artesanal por proyecto.\n→ Código abierto, así que puedes leer qué hace y adaptarlo a tu caso en vez de fiarte de una caja negra.\n→ Alternativa directa a los servicios cerrados de forecasting cuando el self-hosted o el control del dato pesan en la decisión.\n→ Solo 642 estrellas: todavía es pronto, y eso significa que llegas antes que la mayoría.\n\n𝗹𝗮 𝗰𝗹𝗮𝘃𝗲 𝗲𝘀𝘁á 𝗲𝗻 𝗾𝘂𝗲 𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗲𝘀 𝗽ú𝗯𝗹𝗶𝗰𝗼, 𝗻𝗼 𝘀𝗼𝗹𝗼 𝗲𝗹 𝗮𝗻𝘂𝗻𝗰𝗶𝗼: puedes evaluarlo con tus propios datos antes de comprometerte con nada.\n\nSi trabajas con demanda, precios, sensores o métricas de producto, este repo merece diez minutos. Guarda el post para no perderlo, que el enlace al repositorio va justo abajo.\n\n#TimeSeries #Forecasting #Mistral #OpenSource\n\nhttps://github.com/mistralai/timestral"
+      }
+    },
+    {
+      "name": "OpenMOSS/MOSS-Image",
+      "url": "https://github.com/OpenMOSS/MOSS-Image",
+      "description": "Modelo base DiT de 5.000 millones de parámetros para generar imágenes, con buen renderizado de texto, generación de layouts y fine-tuning ligero. Destaca porque el texto dentro de las imágenes sigue siendo el punto flojo de casi todos los modelos.",
+      "language": "Python",
+      "stars": 1125,
+      "social": {
+        "x": "Generar imágenes ya lo hace cualquiera. Escribir texto dentro de ellas, casi nadie. Este modelo open source de 5B parámetros sí. Y admite fine-tuning ligero.\n\n#MOSSImage #OpenSource #GitHub #Python\nhttps://github.com/OpenMOSS/MOSS-Image",
+        "linkedin": "EL TEXTO DENTRO DE LAS IMÁGENES SIGUE SIENDO EL PUNTO FLOJO DE CASI TODOS LOS MODELOS. ESTE REPO OPEN SOURCE LO ATACA DE FRENTE.\n\nLlevamos dos años viendo imágenes espectaculares con carteles ilegibles, logos deformados y tipografías que parecen escritas por un alien. Casi todos los modelos resuelven la estética y dejan el texto para el final, como si fuera un detalle menor. MOSS-Image pone ese problema en el centro.\n\nEs un modelo base DiT de 5.000 millones de parámetros, publicado en abierto y en Python. Y lo interesante no es solo el tamaño: es que trata el texto y la composición como parte del problema, no como un accesorio.\n\n→ 5.000 millones de parámetros sobre arquitectura DiT\n→ Renderizado de texto legible dentro de la imagen, el detalle que casi nadie cuida\n→ Generación de layouts: organiza la escena antes de pintarla\n→ Fine-tuning ligero, sin montar media granja de GPUs para adaptarlo a tu estilo\n→ Open source y con 1.125 estrellas, todavía fuera del radar de muchos\n\nLa idea clave: 𝗲𝗹 𝘁𝗲𝘅𝘁𝗼 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝗹𝗮 𝗶𝗺𝗮𝗴𝗲𝗻 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗽𝗮𝗿𝗰𝗵𝗲 𝗳𝗶𝗻𝗮𝗹 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲𝗹 𝗱𝗶𝘀𝗲ñ𝗼.\n\nSi trabajas con generación de imágenes, guarda este post. Te dejo el repo abajo.\n\n#MOSSImage #OpenSource #GitHub #Python\n\nhttps://github.com/OpenMOSS/MOSS-Image"
+      }
+    },
+    {
+      "name": "LiCinCan/blender-ai-mcp-addon",
+      "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+      "description": "Addon de Blender que conecta un asistente de IA por MCP para trabajar con la escena, scripting de bpy y flujos multiagente desde el propio programa. Funciona con OpenAI, Claude, Gemini, Ollama y otros, así que puedes usar el modelo que ya tengas.",
+      "language": "Python",
+      "stars": 934,
+      "social": {
+        "x": "Alguien ha metido Claude, GPT y Ollama dentro de Blender vía MCP: la IA toca la escena y escribe el script de bpy por ti. 934 estrellas.\n\n#Blender #MCP #Python #OpenSource\nhttps://github.com/LiCinCan/blender-ai-mcp-addon",
+        "linkedin": "BLENDER YA TIENE UN ASISTENTE DE IA DENTRO, Y NO HACE FALTA QUE PAGUES OTRA SUSCRIPCIÓN.\n\nHasta ahora el flujo era copiar el prompt en el chat, pegar el script en el editor de texto y rezar para que no rompiera la escena. Este addon se salta ese ida y vuelta: conecta Blender con un asistente por MCP y le deja trabajar directamente sobre tu proyecto.\n\n→ Compatible con OpenAI, Claude, Gemini, Ollama y otros, así que usas el modelo que ya tengas (o uno en local).\n→ El asistente consulta y modifica la escena, no se limita a escupir código suelto.\n→ Scripting de bpy integrado en el flujo, sin salir de Blender.\n→ Soporta flujos multiagente desde el propio programa.\n→ Está en Python, así que puedes leer el addon y adaptarlo a cómo trabajas.\n\n𝗟𝗮 𝗱𝗶𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗻𝗼 𝗲𝘀 𝗾𝘂𝗲 𝗴𝗲𝗻𝗲𝗿𝗲 𝘀𝗰𝗿𝗶𝗽𝘁𝘀, 𝗲𝘀 𝗾𝘂𝗲 𝗹𝗼𝘀 𝗮𝗽𝗹𝗶𝗰𝗮 𝘀𝗼𝗯𝗿𝗲 𝗹𝗮 𝗲𝘀𝗰𝗲𝗻𝗮 𝗾𝘂𝗲 𝘁𝗶𝗲𝗻𝗲𝘀 𝗱𝗲𝗹𝗮𝗻𝘁𝗲.\n\n934 estrellas y open source. Guárdatelo para la próxima vez que te pelees con la API de bpy.\n\n#Blender #MCP #Python #OpenSource\n\nhttps://github.com/LiCinCan/blender-ai-mcp-addon"
+      }
+    }
+  ]
+}
