@@ -2,6 +2,10 @@ version: 2
 
 # Lo que toca el bot: el árbol npm de la raíz (Eleventy, ajv, rss-parser) y las
 # Actions de .github/workflows. No hay ningún otro ecosistema aquí.
+
+# Qué se mergea solo: parches, menores y Actions, cuando el check requerido de
+# main está en verde (auto-merge-dependabot.yml). Los mayores esperan a una
+# persona: cambian una API y eso es una decisión de release.
 updates:
   - package-ecosystem: npm
     directory: /
