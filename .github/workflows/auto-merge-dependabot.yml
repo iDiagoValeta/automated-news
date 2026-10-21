@@ -1,0 +1,41 @@
+name: Auto-merge de Dependabot
+
+# El bot abre el PR y escribe el salto; mergearlo es cosa nuestra. Esto pide a
+# GitHub que lo mergee cuando el check requerido de main esté en verde, nunca
+# antes, y el repositorio borra la rama al mergear.
+#
+# Qué puede entrar solo: parches, menores y las actualizaciones de Actions. Los
+# mayores no: cambian una API, y eso es una decisión de release, así que se
+# quedan abiertos para una persona.
+
+on:
+  pull_request:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  auto-merge:
+    name: Auto-merge
+    if: >-
+      github.event.pull_request.user.login == 'dependabot[bot]'
+      && github.repository == 'iDiagoValeta/automated-news'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Leer los metadatos del salto
+        id: meta
+        uses: dependabot/fetch-metadata@v3
+
+      - name: Activar el auto-merge
+        # Un update-type vacío es metadato que la acción no ha sabido leer: no se
+        # mergea, porque aquí nadie sabe qué es el salto.
+        if: >-
+          steps.meta.outputs.update-type != ''
+          && (steps.meta.outputs.package-ecosystem == 'github_actions'
+          || steps.meta.outputs.update-type == 'version-update:semver-patch'
+          || steps.meta.outputs.update-type == 'version-update:semver-minor')
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge --auto --squash --delete-branch "$PR_URL"
