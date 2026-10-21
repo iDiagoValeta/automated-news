@@ -150,6 +150,21 @@ test("el interruptor de tema cambia data-theme", async () => {
   await contexto.close();
 });
 
+test("copiar el texto social de X deja en el portapapeles el de la primera noticia", async () => {
+  // Se lee de la edición más reciente (la que publica la portada) en vez de copiarlo literal.
+  const ultima = fs.readdirSync(path.join(aqui, "../data")).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().pop();
+  const esperado = JSON.parse(fs.readFileSync(path.join(aqui, "../data", ultima), "utf8")).items[0].social.x;
+  assert.ok(esperado, "la primera noticia no tiene texto social de X");
+  const { contexto, pagina, problemas } = await abrir("", { permissions: ["clipboard-read", "clipboard-write"] });
+  const tarjeta = pagina.locator(".share").first();
+  await tarjeta.locator("summary").click();
+  await tarjeta.locator('.share__copy[data-red="X"]').click();
+  await pagina.locator(".share__copy.is-copied").waitFor({ state: "attached" }); // el menú se cierra al copiar
+  assert.equal(await pagina.evaluate(() => navigator.clipboard.readText()), esperado);
+  assert.deepEqual(problemas, []);
+  await contexto.close();
+});
+
 // Eficiencia en móvil emulado. Los presupuestos viven en presupuesto.json.
 const presupuesto = JSON.parse(fs.readFileSync(path.join(aqui, "presupuesto.json"), "utf8"));
 const medidas = {};
