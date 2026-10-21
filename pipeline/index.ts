@@ -5,7 +5,8 @@ import { collectAll } from "./sources/index.ts";
 import { collectGithubTrending } from "./sources/github.ts";
 import { normalize } from "./normalize.ts";
 import { enrich } from "./enrich.ts";
-import { curate, providerCredentialPresent, resolveProviderName } from "./curate/index.ts";
+import { curate } from "./curate/index.ts";
+import { providerCredentialPresent, resolveProviderChain, resolveProviderName } from "./providers.ts";
 import type { ReposInput } from "./curate/index.ts";
 import { excludeRecentRepos, loadRecentRepoNames } from "./curate/repos.ts";
 import { error, log } from "./log.ts";
@@ -87,7 +88,7 @@ async function main(): Promise<void> {
     repos = { trending: fresh, pick: cfg.github_trending.pick };
   }
 
-  const digest = await curate(items, { date, generated_at: generatedAt, provider }, repos);
+  const digest = await curate(items, { date, generated_at: generatedAt, provider }, repos, resolveProviderChain(provider));
 
   mkdirSync(dataDir, { recursive: true });
   writeFileSync(outPath, JSON.stringify(digest, null, 2) + "\n", "utf8");

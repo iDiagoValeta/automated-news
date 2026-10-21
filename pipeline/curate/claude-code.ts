@@ -1,7 +1,7 @@
 import { spawn } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { readFileSync } from "node:fs";
-import type { Provider } from "./index.ts";
+import type { Provider } from "../ports.ts";
 
 const SCHEMA_PATH = fileURLToPath(new URL("../../schema/digest.schema.json", import.meta.url));
 
