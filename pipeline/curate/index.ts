@@ -32,7 +32,7 @@ type CurateOutcome = { ok: true; digest: Digest } | { ok: false; errors: string[
  * agota los intentos, se prueba el alternativo cuando su credencial está
  * presente. Lanza si tras toda la cadena sigue sin validar.
  *
- * `providers` llega ya resuelto desde la raíz de composición (providers.ts),
+ * `chain` llega ya resuelta desde la raíz de composición (providers.ts),
  * de modo que el caso de uso no conoce ningún adaptador concreto.
  */
 export async function curate(

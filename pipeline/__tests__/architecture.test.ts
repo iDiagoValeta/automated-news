@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -52,8 +52,13 @@ export function violations(files: Record<string, string>, cfg: HexConfig): strin
 const cfg = JSON.parse(readFileSync(join(ROOT, ".hexagonal.json"), "utf8")) as HexConfig;
 
 test("el núcleo y los puertos no importan adaptadores ni raíz de composición", () => {
+  const listed = [...cfg.core, ...cfg.ports];
+  // Evita un falso verde: sin ficheros que leer, no habría nada que comprobar.
+  assert.notEqual(listed.length, 0, "core/ports resuelve a una lista vacía");
+  const missing = listed.filter((f) => !existsSync(join(ROOT, f)));
+  assert.deepEqual(missing, [], "ficheros de .hexagonal.json que no existen");
   const files: Record<string, string> = {};
-  for (const f of [...cfg.core, ...cfg.ports]) files[f] = readFileSync(join(ROOT, f), "utf8");
+  for (const f of listed) files[f] = readFileSync(join(ROOT, f), "utf8");
   assert.deepEqual(violations(files, cfg), []);
 });
 
@@ -68,5 +73,8 @@ test("la regla muerde: paquetes prohibidos y adaptadores hermanos se detectan", 
   const synthetic = {
     "pipeline/normalize.ts": 'import Parser from "rss-parser";\nexport { x } from "./curate/deepseek.ts";\n',
   };
-  assert.equal(violations(synthetic, cfg).length, 2);
+  const found = violations(synthetic, cfg);
+  assert.equal(found.length, 2);
+  assert.match(found[0], /rss-parser/);
+  assert.match(found[1], /\.\/curate\/deepseek\.ts/);
 });
