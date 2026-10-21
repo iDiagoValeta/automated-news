@@ -1,0 +1,32 @@
+name: Fallo
+description: Algo funciona mal hoy.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: que-pasa
+    attributes:
+      label: Qué pasa
+      description: Descripción breve del síntoma.
+    validations:
+      required: true
+  - type: textarea
+    id: reproducir
+    attributes:
+      label: Cómo reproducirlo
+      description: Pasos exactos, o enlace al run/log de Actions si es del pipeline diario.
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Qué debería pasar
+      description: Comportamiento esperado.
+    validations:
+      required: true
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: Evidencia
+      description: Logs, extractos de data/*.json o capturas.
+    validations:
+      required: false

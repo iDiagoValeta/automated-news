@@ -1,0 +1,45 @@
+name: Fuente nueva
+description: Proponer un RSS o API como fuente.
+labels: ["fuente-nueva"]
+body:
+  - type: input
+    id: nombre
+    attributes:
+      label: Nombre
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL del feed
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo
+      options:
+        - RSS
+        - Atom
+        - API
+    validations:
+      required: true
+  - type: textarea
+    id: encaje
+    attributes:
+      label: Por qué encaja
+      description: Qué aporta según la línea editorial, con la IA como eje y prioridad a lo práctico y aplicable.
+    validations:
+      required: true
+  - type: checkboxes
+    id: verificacion
+    attributes:
+      label: Verificación hecha
+      description: Los blogs semanales son válidos.
+      options:
+        - label: El feed responde 200.
+          required: true
+        - label: Es XML válido.
+          required: true
+        - label: Publica con suficiente frecuencia.
+          required: true
