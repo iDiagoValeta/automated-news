@@ -32,3 +32,10 @@ jobs:
 
       - name: Build
         run: pnpm run build
+
+      # Chromium para el test web; el test lo localiza en ~/.cache/ms-playwright.
+      - name: Instalar Chromium
+        run: pnpm exec playwright-core install --with-deps chromium
+
+      - name: Test web (funcionalidad y eficiencia)
+        run: node --test site-tests/web.spec.mjs

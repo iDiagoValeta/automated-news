@@ -3,3 +3,4 @@ _site/
 *.log
 .DS_Store
 .env
+site-tests/.metricas.json
