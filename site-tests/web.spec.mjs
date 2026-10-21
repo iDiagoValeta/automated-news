@@ -50,16 +50,22 @@ function crearServidor() {
   });
 }
 
-// En CI se pasa CHROMIUM_PATH; en local se usa el Chromium más reciente de ms-playwright.
+// Orden: CHROMIUM_PATH, la ruta que deja `playwright-core install chromium`
+// (chromium.executablePath()) y, si no existe, un escaneo de ~/.cache/ms-playwright
+// (Chromium completo o headless shell).
 function ejecutableChromium() {
   if (process.env.CHROMIUM_PATH) return process.env.CHROMIUM_PATH;
+  const oficial = chromium.executablePath();
+  if (oficial && fs.existsSync(oficial)) return oficial;
   const cache = path.join(os.homedir(), ".cache/ms-playwright");
   const versiones = fs.existsSync(cache)
-    ? fs.readdirSync(cache).filter((d) => /^chromium-\d+$/.test(d))
-        .sort((a, b) => Number(b.split("-")[1]) - Number(a.split("-")[1]))
+    ? fs.readdirSync(cache).filter((d) => /^chromium(_headless_shell)?-\d+$/.test(d))
+        .sort((a, b) => Number(b.split("-")[1]) - Number(a.split("-")[1])
+          || a.length - b.length)
     : [];
   for (const v of versiones) {
-    for (const sub of ["chrome-linux64/chrome", "chrome-linux/chrome"]) {
+    for (const sub of ["chrome-linux64/chrome", "chrome-linux/chrome",
+      "chrome-headless-shell-linux64/chrome-headless-shell", "chrome-headless-shell-linux/chrome-headless-shell"]) {
       const p = path.join(cache, v, sub);
       if (fs.existsSync(p)) return p;
     }
@@ -77,6 +83,7 @@ before(async () => {
 
 after(async () => {
   await navegador?.close();
+  servidor?.closeAllConnections();
   await new Promise((r) => (servidor ? servidor.close(r) : r()));
 });
 
@@ -106,13 +113,15 @@ test("portada: título, noticias y sin errores", async () => {
 
 test("navegación de secciones", async () => {
   for (const seccion of ["repositorios", "semana", "archivo"]) {
-    const { contexto, pagina } = await abrir("");
+    const { contexto, pagina, problemas } = await abrir("");
     const [resp] = await Promise.all([
       pagina.waitForNavigation(),
       pagina.locator(`.masthead__nav a[href$="/${seccion}/"]`).first().click(),
     ]);
     assert.equal(resp.status(), 200);
     assert.ok(resp.url().endsWith(`${PREFIJO}${seccion}/`), `URL inesperada ${resp.url()}`);
+    await pagina.waitForLoadState("load");
+    assert.deepEqual(problemas, [], `errores en ${seccion}`);
     assert.ok((await pagina.locator("main").innerText()).trim().length > 50, `${seccion} sin contenido`);
     await contexto.close();
   }
@@ -180,7 +189,9 @@ for (const [nombre, ruta] of [["portada", ""], ["repositorios", "repositorios/"]
   });
 }
 
+// Solo se escribe cuando están todas las medidas, para no dejar datos parciales.
 after(() => {
+  if (Object.keys(medidas).length < 2) return;
   const salida = JSON.stringify(medidas, null, 2);
   fs.writeFileSync(path.join(aqui, ".metricas.json"), salida + "\n");
   console.log(`Métricas:\n${salida}`);
