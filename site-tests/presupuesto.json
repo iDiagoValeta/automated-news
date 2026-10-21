@@ -1,4 +1,4 @@
 {
-  "portada": { "bytes": 49470, "nodos": 954, "peticiones": 8, "fcpMs": 1500, "lcpMs": 1500, "loadMs": 3000 },
-  "repositorios": { "bytes": 32090, "nodos": 349, "peticiones": 8, "fcpMs": 1500, "lcpMs": 1500, "loadMs": 3000 }
+  "portada": { "bytes": 41822, "nodos": 954, "peticiones": 8, "fcpMs": 1500, "lcpMs": 1500, "loadMs": 3000 },
+  "repositorios": { "bytes": 29353, "nodos": 349, "peticiones": 8, "fcpMs": 1500, "lcpMs": 1500, "loadMs": 3000 }
 }
