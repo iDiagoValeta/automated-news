@@ -13,7 +13,7 @@
           <svg width="15" height="15" aria-hidden="true"><use href="#ico-x"/></svg>
           <span>Publicar en X</span>
         </a>
-        <button class="share__item share__copy" type="button" data-red="X" data-copy="{{ s.x.text }}">
+        <button class="share__item share__copy" type="button" data-red="X">
           <svg width="15" height="15" aria-hidden="true"><use href="#ico-copiar"/></svg>
           <span>Copiar texto para X</span>
         </button>
@@ -23,7 +23,7 @@
           <svg width="15" height="15" aria-hidden="true"><use href="#ico-linkedin"/></svg>
           <span>Publicar en LinkedIn</span>
         </a>
-        <button class="share__item share__copy" type="button" data-red="LinkedIn" data-copy="{{ s.linkedin.text }}">
+        <button class="share__item share__copy" type="button" data-red="LinkedIn">
           <svg width="15" height="15" aria-hidden="true"><use href="#ico-copiar"/></svg>
           <span>Copiar texto para LinkedIn</span>
         </button>
@@ -31,7 +31,7 @@
       </div>
     </details>
     {# Móvil: el mismo botón abre la hoja de compartir del sistema (compartir.js). #}
-    <button class="share__btn share__nativo" type="button" aria-label="Compartir" title="Compartir" data-share-text="{{ s.x.text if s.x else s.linkedin.text }}" hidden>
+    <button class="share__btn share__nativo" type="button" aria-label="Compartir" title="Compartir" hidden>
       <svg width="15" height="15" aria-hidden="true"><use href="#ico-subir"/></svg>
     </button>
   </div>
