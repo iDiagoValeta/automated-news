@@ -1,0 +1,27 @@
+version: 2
+
+# Lo que toca el bot: el árbol npm de la raíz (Eleventy, ajv, rss-parser) y las
+# Actions de .github/workflows. No hay ningún otro ecosistema aquí.
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    # Los parches y los menores viajan juntos para que la revisión sea una
+    # pasada de CI y no cinco. Los mayores van sueltos: son los que hay que leer.
+    groups:
+      menor:
+        patterns: ["*"]
+        update-types: [minor, patch]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 3
+    groups:
+      actions:
+        patterns: ["*"]
