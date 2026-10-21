@@ -1,12 +1,18 @@
 name: Auto-merge de Dependabot
 
-# El bot abre el PR y escribe el salto; mergearlo es cosa nuestra. Esto pide a
-# GitHub que lo mergee cuando el check requerido de main esté en verde, nunca
-# antes, y el repositorio borra la rama al mergear.
+# El bot abre el PR y escribe el salto; mergearlo es cosa nuestra. Este workflow
+# espera a que el check `verificar` esté en verde, mergea por squash y deja que
+# el repositorio borre la rama.
+#
+# Se espera aquí y no con `gh pr merge --auto` a propósito: `--auto` sólo espera
+# a los checks REQUERIDOS, y main no puede exigirlos porque daily.yml empuja la
+# edición del día directamente a main (un push directo a una rama protegida con
+# checks requeridos se rechaza). En un repositorio personal, además, un ruleset
+# no puede dar bypass a la integración de Actions. Así que la espera vive en el
+# workflow y la protección de main no se toca.
 #
 # Qué puede entrar solo: parches, menores y las actualizaciones de Actions. Los
-# mayores no: cambian una API, y eso es una decisión de release, así que se
-# quedan abiertos para una persona.
+# mayores no: cambian una API, y eso es una decisión de release.
 
 on:
   pull_request:
@@ -22,12 +28,15 @@ jobs:
       github.event.pull_request.user.login == 'dependabot[bot]'
       && github.repository == 'iDiagoValeta/automated-news'
     runs-on: ubuntu-latest
+    # Un check colgado no puede quedarse con el runner: pasado el tope, el job
+    # muere y el PR sigue abierto, que es el estado seguro.
+    timeout-minutes: 20
     steps:
       - name: Leer los metadatos del salto
         id: meta
         uses: dependabot/fetch-metadata@v3
 
-      - name: Activar el auto-merge
+      - name: Esperar a que el check esté en verde
         # Un update-type vacío es metadato que la acción no ha sabido leer: no se
         # mergea, porque aquí nadie sabe qué es el salto.
         if: >-
@@ -38,4 +47,25 @@ jobs:
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh pr merge --auto --squash --delete-branch "$PR_URL"
+        run: |
+          # Los checks tardan unos segundos en aparecer y --watch falla si la
+          # lista aún está vacía: primero se espera a que exista alguno.
+          for _ in $(seq 1 30); do
+            total=$(gh pr checks "$PR_URL" --json bucket -q 'length' 2>/dev/null || echo 0)
+            [ "$total" != "0" ] && break
+            sleep 10
+          done
+          # --fail-fast corta en cuanto un check falla, así que el paso siguiente
+          # no llega a ejecutarse con el CI en rojo.
+          gh pr checks "$PR_URL" --watch --fail-fast --interval 15
+
+      - name: Mergear y borrar la rama
+        if: >-
+          steps.meta.outputs.update-type != ''
+          && (steps.meta.outputs.package-ecosystem == 'github_actions'
+          || steps.meta.outputs.update-type == 'version-update:semver-patch'
+          || steps.meta.outputs.update-type == 'version-update:semver-minor')
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh pr merge "$PR_URL" --squash --delete-branch
