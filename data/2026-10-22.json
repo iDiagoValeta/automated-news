@@ -1,0 +1,324 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T15:15:36.444Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Mistral Large 4: un modelo abierto de un billón de parámetros que ya se puede probar por API",
+      "summary": "Mistral ha abierto la vista previa pública de Mistral Large 4, un modelo multimodal nativo de un billón de parámetros con 52.000 millones activos que, según la compañía, lleva el rendimiento de los modelos de pesos abiertos a un nuevo techo. La API ya funciona en Mistral Studio y los pesos se publicarán a finales de mes.",
+      "why_it_matters": "Permite probar hoy mismo un modelo abierto de escala frontera, sin esperar a la publicación de los pesos.",
+      "url": "https://mistral.ai/news/mistral-large-4",
+      "source": "Hacker News",
+      "social": {
+        "x": "Mistral Large 4 ya se puede probar por API: un billón de parámetros, multimodal y pesos abiertos a final de mes.\n\n#Mistral #OpenSource #LLM\nhttps://mistral.ai/news/mistral-large-4",
+        "linkedin": "Lo relevante de Mistral Large 4 no es el billón de parámetros: es que puedas probarlo hoy y descargar los pesos a final de mes.\nEl modelo es multimodal nativo, con 52.000 millones de parámetros activos, y según Mistral marca un nuevo techo para los pesos abiertos. La API ya responde en Mistral Studio, así que cualquier equipo puede medirlo contra su caso real antes de comprometerse con nada. 𝗟𝗮 𝘃𝗲𝗻𝘁𝗮𝗷𝗮 𝗱𝗲 𝗹𝗼 𝗮𝗯𝗶𝗲𝗿𝘁𝗼 𝘆𝗮 𝗻𝗼 𝗲𝘀𝘁á 𝘀𝗼𝗹𝗼 𝗲𝗻 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗽𝗼𝗱𝗲𝗿 𝗲𝘃𝗮𝗹𝘂𝗮𝗿 𝘀𝗶𝗻 𝗽𝗲𝗱𝗶𝗿 𝗽𝗲𝗿𝗺𝗶𝘀𝗼. Para quien lleva meses esperando un modelo de escala frontera self-hosted, la decisión se acerca.\n\n#Mistral #OpenSource #LLM\n\nhttps://mistral.ai/news/mistral-large-4"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Claude Duet, el agente siempre activo de Anthropic que trabaja aunque estés desconectado",
+      "summary": "Anthropic lanza Claude Duet, una app de agentes construida sobre Claude Opus 5.5 que ejecuta tareas de forma proactiva y se conecta a Gmail, Slack o Stripe mediante más de 6.000 conectores. Pide aprobación antes de acciones sensibles como los pagos y de momento se accede por lista de espera para los planes Pro y Max en EE. UU.",
+      "why_it_matters": "Es el salto de los asistentes que responden a los agentes que actúan solos, con permisos y conectores como principal campo de batalla.",
+      "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El nuevo agente de Anthropic sigue trabajando cuando cierras el portátil: se conecta a tu Gmail, Slack y Stripe, y pide permiso antes de mover dinero.\n\n#Anthropic #Claude #AgentesIA #Productividad\nhttps://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents",
+        "linkedin": "El asistente que solo responde cuando le preguntas tiene los días contados. Claude Duet, el agente de Anthropic construido sobre Opus 5.5, sigue ejecutando tareas cuando te desconectas y se engancha a Gmail, Slack o Stripe con más de 6.000 conectores. 𝗘𝗹 𝗰𝗮𝗺𝗽𝗼 𝗱𝗲 𝗯𝗮𝘁𝗮𝗹𝗹𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝘀𝗶𝗻𝗼 𝗹𝗼𝘀 𝗽𝗲𝗿𝗺𝗶𝘀𝗼𝘀 𝘆 𝗹𝗼𝘀 𝗰𝗼𝗻𝗲𝗰𝘁𝗼𝗿𝗲𝘀. Pide aprobación antes de acciones sensibles como los pagos y de momento hay lista de espera para los planes Pro y Max en EE. UU. Para quien diseña flujos internos, la pregunta deja de ser qué IA usar y pasa a ser cuánta autonomía le firma.\n\n#Anthropic #Claude #AgentesIA #Productividad\n\nhttps://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Flint, el modelo de código para portátil que Recursive dice haber construido con su propia IA",
+      "summary": "La startup Recursive presenta Flint, un modelo MoE de 40.000 millones de parámetros pensado para programar en local, desarrollado en cuatro meses con Eureka Machine, su sistema que propone, ejecuta y evalúa experimentos por su cuenta. Es gratuito y el equipo todavía no ha demostrado que este método lleve a una mejora autónoma real.",
+      "why_it_matters": "Es el primer test público de la idea de usar IA para investigar IA, con un modelo que cualquiera puede ejecutar en su portátil.",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Recursive dice que su propia IA ha diseñado un modelo que programa y cabe en tu portátil. Cuatro meses. Gratis. Y sin pruebas aún de que el método funcione.\n\n#Recursive #EurekaMachine #MoE #LLM\nhttps://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai",
+        "linkedin": "Una startup dice que su IA ha diseñado otra IA en cuatro meses. Y el resultado cabe en un portátil.\n\nFlint es un MoE de 40.000 millones de parámetros de Recursive, pensado para programar en local y disponible gratis. Lo interesante no es el modelo: es Eureka Machine, el sistema que propone, ejecuta y evalúa experimentos sin que nadie le diga qué probar. Es 𝗲𝗹 𝗽𝗿𝗶𝗺𝗲𝗿 𝘁𝗲𝘀𝘁 𝗽ú𝗯𝗹𝗶𝗰𝗼 𝗱𝗲 𝗹𝗮 𝗶𝗱𝗲𝗮 𝗱𝗲 𝘂𝘀𝗮𝗿 𝗜𝗔 𝗽𝗮𝗿𝗮 𝗶𝗻𝘃𝗲𝘀𝘁𝗶𝗴𝗮𝗿 𝗜𝗔, y también su primera advertencia: el equipo no ha demostrado todavía que ese bucle lleve a mejoras autónomas reales. Si el método cuaja, el cuello de botella del desarrollo deja de ser el talento y pasa a ser el cómputo.\n\n#Recursive #EurekaMachine #MoE #LLM\n\nhttps://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Google Cloud empieza a servir los modelos de OpenAI junto a Gemini y Claude",
+      "summary": "Google Cloud ha abierto una vista previa privada de GPT-6 Astra, GPT-6.1 Sol y GPT-6 Luna para clientes empresariales, que se suman a Gemini y a Claude en la misma plataforma. Es el primer gran proveedor cloud con las tres familias de modelos disponibles a la vez.",
+      "why_it_matters": "Simplifica elegir modelo por tarea sin cambiar de nube, aunque de momento solo al alcance de las empresas.",
+      "url": "https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three",
+      "source": "The Decoder",
+      "social": {
+        "x": "Tres familias de modelos rivales en el mismo catálogo. Google Cloud empieza a servir GPT-6 junto a Gemini y Claude, y ningún otro cloud lo había hecho antes.\n\n#GoogleCloud #OpenAI #Gemini #Claude\nhttps://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three",
+        "linkedin": "Elegir modelo ya no va a obligar a elegir nube. Google Cloud ha abierto una vista previa privada de GPT-6 Astra, GPT-6.1 Sol y GPT-6 Luna para clientes empresariales, que conviven con Gemini y Claude en la misma plataforma. La lectura práctica es que 𝘂𝗻 𝗲𝗾𝘂𝗶𝗽𝗼 𝗽𝗼𝗱𝗿á 𝗲𝘀𝗰𝗼𝗴𝗲𝗿 𝗺𝗼𝗱𝗲𝗹𝗼 𝗽𝗼𝗿 𝘁𝗮𝗿𝗲𝗮 𝘀𝗶𝗻 𝗺𝗶𝗴𝗿𝗮𝗿 𝘀𝘂 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮, y eso abarata el coste de cambiar de proveedor. De momento solo está al alcance de las empresas, pero la dirección está clara: el cloud se está convirtiendo en catálogo, no en bando.\n\n#GoogleCloud #OpenAI #Gemini #Claude\n\nhttps://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Hugging Face publica un modelo abierto para conversar con el ADN",
+      "summary": "El nuevo modelo open source trabaja con secuencias de ADN y permite a los investigadores preguntar por los efectos de cualquier cambio en la actividad de los genes y en la salud. Llega como herramienta abierta para laboratorios que necesitan interpretar variantes sin entrenar su propio modelo desde cero.",
+      "why_it_matters": "Pone al alcance de cualquier laboratorio un modelo de biología que hasta ahora exigía recursos de las grandes farmacéuticas.",
+      "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna",
+      "source": "Wired",
+      "social": {
+        "x": "Hasta ahora, preguntarle al ADN qué provoca un cambio concreto exigía recursos de gran farmacéutica. Hugging Face acaba de abrirlo a cualquier laboratorio.\n\n#HuggingFace #OpenSource #Genómica #BiologíaComputacional\nhttps://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna",
+        "linkedin": "Preguntarle al ADN qué provoca un cambio concreto ya no exige entrenar un modelo desde cero.\n\nHugging Face ha liberado un modelo open source que trabaja con secuencias de ADN y responde a preguntas sobre cómo afecta una variante a la actividad de los genes y a la salud. 𝗟𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗮 𝗹𝗮 𝗯𝗶𝗼𝗹𝗼𝗴í𝗮 𝗰𝗼𝗺𝗽𝘂𝘁𝗮𝗰𝗶𝗼𝗻𝗮𝗹 𝗯𝗮𝗷𝗮 𝘂𝗻 𝗲𝘀𝗰𝗮𝗹ó𝗻 𝗲𝗻𝘁𝗲𝗿𝗼: un laboratorio modesto puede interpretar variantes con lo que antes solo se podían permitir las grandes farmacéuticas. La pregunta interesante ya no es quién tiene el modelo, sino quién sabe qué preguntarle.\n\n#HuggingFace #OpenSource #Genómica #BiologíaComputacional\n\nhttps://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "Omnara, una alternativa open source y self-hosted a los agentes gestionados de Claude y OpenAI",
+      "summary": "El proyecto Omnara ofrece una plataforma de agentes gestionados que se puede desplegar en infraestructura propia, como alternativa a Claude Managed Agents y a la Agents API de OpenAI. El código está en GitHub y apunta a equipos que necesitan controlar datos y ejecución.",
+      "why_it_matters": "Da una vía para usar agentes gestionados sin entregar los datos ni la orquestación a un proveedor.",
+      "url": "https://github.com/omnara-ai/omnara",
+      "source": "Hacker News",
+      "social": {
+        "x": "Los agentes gestionados tienen un peaje oculto: tus datos y tu orquestación. Omnara los devuelve a tu propio servidor y es open source.\n\n#OpenSource #SelfHosted #OpenAI #GitHub\nhttps://github.com/omnara-ai/omnara",
+        "linkedin": "La pregunta ya no es si puedes montar agentes gestionados, sino quién se queda con los datos cuando lo haces.\n\nOmnara se presenta como alternativa open source y self-hosted a Claude Managed Agents y a la Agents API de OpenAI: la misma idea de plataforma, pero desplegada en tu infraestructura, con el código en GitHub. 𝗘𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲 𝗹𝗮 𝗼𝗿𝗾𝘂𝗲𝘀𝘁𝗮𝗰𝗶ó𝗻 𝘃𝘂𝗲𝗹𝘃𝗲 𝗮 𝘀𝗲𝗿 𝘁𝘂𝘆𝗼, y eso cambia el cálculo para cualquier equipo con datos sensibles o requisitos de compliance. La comodidad del proveedor gestionado sigue intacta; lo que deja de ser obligatorio es cederle también la ejecución.\n\n#OpenSource #SelfHosted #OpenAI #GitHub\n\nhttps://github.com/omnara-ai/omnara"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "1Password permite que agentes de IA compren y reserven en tu nombre sin ver tus contraseñas",
+      "summary": "1Password ha abierto un mecanismo para que agentes de IA externos actúen en nombre del usuario, por ejemplo para reservar o comprar, sin que el agente llegue a ver las credenciales completas. El usuario conserva el control sobre qué puede hacer cada agente.",
+      "why_it_matters": "Es la pieza que faltaba para delegar tareas con tarjeta y contraseña sin convertir al agente en un riesgo permanente.",
+      "url": "https://www.engadget.com/2293844/1password-opens-up-ai-agents-muse-dots-grok",
+      "source": "Engadget",
+      "social": {
+        "x": "1Password encuentra la forma de que un agente de IA compre por ti sin llegar a ver tu contraseña. Delegar deja de ser un riesgo permanente.\n\n#1Password #Ciberseguridad #AgentesIA\nhttps://www.engadget.com/2293844/1password-opens-up-ai-agents-muse-dots-grok",
+        "linkedin": "Tu agente de IA ya puede comprar por ti sin llegar a ver tu contraseña. Eso cambia el cálculo de riesgo por completo.\n\n1Password ha abierto un mecanismo para que agentes externos actúen en tu nombre con credenciales que nunca se muestran enteras, y tú decides qué permite cada uno. Hasta ahora, delegar una tarjeta o un login significaba entregar la llave completa y confiar en que no pasara nada. 𝗘𝗹 𝗽𝗲𝗿𝗺𝗶𝘀𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗽𝗲𝗿𝗺𝗮𝗻𝗲𝗻𝘁𝗲 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗴𝗿𝗮𝗻𝘂𝗹𝗮𝗿, que es justo lo que faltaba para que automatizar compras o reservas sea algo que un equipo pueda aprobar sin cruzarse los dedos.\n\n#1Password #Ciberseguridad #AgentesIA\n\nhttps://www.engadget.com/2293844/1password-opens-up-ai-agents-muse-dots-grok"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Trail of Bits publica dos plugins para que los agentes arreglen bugs sin romper nada más",
+      "summary": "La firma de seguridad ha lanzado patching-bugs y regression-hunt, dos plugins que delegan en agentes la preparación de parches y la búsqueda de regresiones. El segundo reduce los falsos positivos y el primero recoge buenas prácticas destiladas de miles de sesiones de agentes.",
+      "why_it_matters": "Ataca el problema real del código generado por IA: comprobar qué más ha cambiado además de arreglar el fallo.",
+      "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change",
+      "source": "Hacker News",
+      "social": {
+        "x": "El bug queda arreglado. La duda es qué más ha tocado el agente por el camino. Trail of Bits publica dos plugins para cazar esas regresiones antes del merge.\n\n#TrailOfBits #DevSecOps #OpenSource #CodeReview\nhttps://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change",
+        "linkedin": "El bug queda arreglado. La pregunta que casi nadie mira es qué más ha tocado el agente por el camino.\n\nTrail of Bits acaba de publicar patching-bugs y regression-hunt, dos plugins que reparten el trabajo: uno prepara el parche con buenas prácticas destiladas de miles de sesiones de agentes, y el otro sale a buscar regresiones filtrando falsos positivos. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗴𝗲𝗻𝗲𝗿𝗮𝗱𝗼 𝗽𝗼𝗿 𝗜𝗔 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝘀𝗰𝗿𝗶𝗯𝗶𝗿𝗹𝗼, 𝘀𝗶𝗻𝗼 𝗰𝗼𝗺𝗽𝗿𝗼𝗯𝗮𝗿 𝗾𝘂é 𝘀𝗲 𝗵𝗮 𝗺𝗼𝘃𝗶𝗱𝗼 𝗮𝗹𝗿𝗲𝗱𝗲𝗱𝗼𝗿. Para cualquier equipo que ya deja que un agente abra pull requests, esto cambia el coste real de la revisión.\n\n#TrailOfBits #DevSecOps #OpenSource #CodeReview\n\nhttps://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Vercel Labs publica fx, un agente de código en Zig pensado para incrustarse",
+      "summary": "fx es un agente de programación experimental escrito en Zig que funciona como CLI, como componente de script o como librería embebida, con una versión compilada a WebAssembly. El proyecto está por debajo de la versión 1.0 y cambia rápido, y ya ha recibido críticas por su supuesta independencia del modelo.",
+      "why_it_matters": "Abre la puerta a meter agentes de código dentro de otras aplicaciones en lugar de usarlos solo como chat aparte.",
+      "url": "https://www.infoq.com/news/2026/10/vercel-zig-fx-agent",
+      "source": "InfoQ",
+      "social": {
+        "x": "El próximo agente de código no va a vivir en una pestaña del navegador. Vercel Labs lo ha metido en una librería de Zig que se incrusta en tu app.\n\n#Vercel #Zig #WebAssembly #DevTools\nhttps://www.infoq.com/news/2026/10/vercel-zig-fx-agent",
+        "linkedin": "El próximo agente de código no va a vivir en una pestaña aparte: va a ir dentro de tu producto.\n\nVercel Labs ha publicado fx, un agente experimental escrito en Zig que funciona como CLI, como componente de script o como librería embebida, con una versión compilada a WebAssembly. Está por debajo de la 1.0, cambia rápido y ya ha recibido críticas por su supuesta independencia del modelo. Aun así, 𝗹𝗮 𝗷𝘂𝗴𝗮𝗱𝗮 𝗶𝗻𝘁𝗲𝗿𝗲𝘀𝗮𝗻𝘁𝗲 𝗲𝘀 𝗲𝗹 𝗳𝗼𝗿𝗺𝗮𝘁𝗼: 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗰𝗼𝗺𝗼 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮 𝘆 𝗻𝗼 𝗰𝗼𝗺𝗼 𝗱𝗲𝘀𝘁𝗶𝗻𝗼. Para quien construye herramientas, eso cambia el diseño de arriba abajo, y también quién acaba pagando los tokens.\n\n#Vercel #Zig #WebAssembly #DevTools\n\nhttps://www.infoq.com/news/2026/10/vercel-zig-fx-agent"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "Rust off Rails: un stack web en Rust descrito en Markdown para que lo sigan los agentes",
+      "summary": "El proyecto propone un único stack full-stack en Rust documentado en ficheros Markdown, de modo que un agente de código sepa cómo montar la aplicación, qué layout usar y cómo resolver cada pieza. Incluye guía, ejemplos y una demo de un Kanban construido en siete prompts.",
+      "why_it_matters": "Si el agente tiene una sola forma bendecida de hacer las cosas, el código generado se parece más entre proyectos.",
+      "url": "https://rustoffrails.org",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un stack web en Rust descrito en Markdown para que lo monten agentes, no personas. La demo: un Kanban entero construido en siete prompts.\n\n#Rust #DevTools #CodingAgents\nhttps://rustoffrails.org",
+        "linkedin": "Documentar tu stack en Markdown ya no es para humanos: es el contrato que leen los agentes.\n\nRust off Rails propone un único stack full-stack en Rust con una sola forma bendecida de montar cada pieza, y lo demuestra levantando un Kanban en siete prompts. La consecuencia es la que importa: 𝘀𝗶 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝘀𝗼𝗹𝗼 𝘁𝗶𝗲𝗻𝗲 𝘂𝗻 𝗰𝗮𝗺𝗶𝗻𝗼 𝘃á𝗹𝗶𝗱𝗼, 𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗴𝗲𝗻𝗲𝗿𝗮𝗱𝗼 𝘀𝗲 𝗽𝗮𝗿𝗲𝗰𝗲 𝗲𝗻𝘁𝗿𝗲 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 y las revisiones dejan de pelearse con mil variantes. El precio es la rigidez, porque el stack está pensado para que lo siga una máquina y no para lucir una arquitectura distinta en cada repo.\n\n#Rust #DevTools #CodingAgents\n\nhttps://rustoffrails.org"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "NVIDIA amplía Cosmos con herramientas para entrenar, evaluar y desplegar world models",
+      "summary": "La plataforma Cosmos suma utilidades de entrenamiento, checkpoints de simulación y blueprints de Data Factory para construir modelos del mundo que simulan el entorno en sistemas de IA física. NVIDIA asegura que sus modelos abiertos lideran seis clasificaciones distintas.",
+      "why_it_matters": "Baja el coste de entrar en robótica y simulación a quien no tiene un equipo propio de investigación.",
+      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models",
+      "source": "NVIDIA Blog",
+      "social": {
+        "x": "NVIDIA acaba de quitarle la barrera de entrada a la robótica: Cosmos ya entrena, evalúa y despliega world models sin equipo de investigación propio.\n\n#NVIDIA #Cosmos #WorldModels #Robotics\nhttps://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models",
+        "linkedin": "Construir un world model ya no exige un equipo de investigación propio.\n\nNVIDIA ha convertido Cosmos en una plataforma con utilidades de entrenamiento, checkpoints de simulación y blueprints de Data Factory, y asegura que sus modelos abiertos lideran seis clasificaciones distintas. Para quien hace robótica o IA física, 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗲𝗹 𝗱𝗮𝘁𝗼: un simulador creíble y un pipeline que lo alimente. Ahí se va a decidir quién compite de verdad, no en quién tiene el mejor checkpoint.\n\n#NVIDIA #Cosmos #WorldModels #Robotics\n\nhttps://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "DuckDB 2.0.0 LTS llega con soporte de larga duración para el motor analítico",
+      "summary": "El motor SQL embebido estrena su versión 2.0 con la etiqueta LTS «Cinnamon Teal», pensada para que los equipos puedan fijar una base estable en producción. Es el salto de madurez de una pieza muy usada para analizar Parquet en local.",
+      "why_it_matters": "Con una LTS, desplegar DuckDB en pipelines que no se pueden romper cada mes deja de ser una apuesta.",
+      "url": "https://duckdb.org/2026/10/21/announcing-duckdb-200.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "El freno de DuckDB en producción nunca fue el rendimiento, sino no poder fijar una versión. Eso acaba de cambiar con la 2.0 LTS.\n\n#DuckDB #SQL #OpenSource #Parquet\nhttps://duckdb.org/2026/10/21/announcing-duckdb-200.html",
+        "linkedin": "El freno de DuckDB en producción no era el rendimiento, era la cadencia de versiones: no podías garantizar que lo que funciona hoy siga igual dentro de un año.\n\nCon la 2.0 LTS «Cinnamon Teal», 𝗲𝗹 𝗺𝗼𝘁𝗼𝗿 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗺𝗼𝘃𝗲𝗿𝘀𝗲 𝗯𝗮𝗷𝗼 𝗹𝗼𝘀 𝗽𝗶𝗲𝘀 𝗱𝗲 𝘁𝘂𝘀 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲𝘀. Para quien analiza Parquet en local, en CI o dentro de una aplicación, esto abre la puerta a tratarlo como infraestructura y no como una herramienta de analista. La conversación deja de ser «¿es rápido?» y pasa a ser «¿dónde lo metemos?».\n\n#DuckDB #SQL #OpenSource #Parquet\n\nhttps://duckdb.org/2026/10/21/announcing-duckdb-200.html"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "Harbor estrena sandboxes de Docker para evaluar agentes en microVM aisladas",
+      "summary": "El framework open source de evaluación de agentes ahora ejecuta cada tarea en su propia microVM de Docker en lugar de compartir contenedor, con lo que los resultados son más reproducibles y el aislamiento mayor. La integración apunta a equipos que comparan agentes antes de llevarlos a producción.",
+      "why_it_matters": "Evaluar agentes con aislamiento real y resultados repetibles es imprescindible para elegir entre modelos y configuraciones.",
+      "url": "https://www.infoq.com/news/2026/10/ai-agents-harbor-docker",
+      "source": "InfoQ",
+      "social": {
+        "x": "Evaluar agentes en un contenedor compartido te da resultados que no puedes repetir. Harbor ahora le da a cada tarea su propia microVM de Docker.\n\n#Harbor #Docker #OpenSource #LLM\nhttps://www.infoq.com/news/2026/10/ai-agents-harbor-docker",
+        "linkedin": "Si comparas agentes dentro del mismo contenedor, parte de lo que mides es el ruido del vecino.\n\nHarbor, el framework open source de evaluación de agentes, cambia eso: ahora 𝗰𝗮𝗱𝗮 𝘁𝗮𝗿𝗲𝗮 𝗰𝗼𝗿𝗿𝗲 𝗲𝗻 𝘀𝘂 𝗽𝗿𝗼𝗽𝗶𝗮 𝗺𝗶𝗰𝗿𝗼𝗩𝗠 𝗱𝗲 𝗗𝗼𝗰𝗸𝗲𝗿, no en un contenedor compartido. El resultado son evaluaciones más reproducibles y un aislamiento que se parece más a producción. Para quien tiene que decidir entre modelos o configuraciones antes de desplegar un agente, esto deja de ser un detalle de infraestructura y pasa a ser parte del método.\n\n#Harbor #Docker #OpenSource #LLM\n\nhttps://www.infoq.com/news/2026/10/ai-agents-harbor-docker"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "herramientas",
+      "title": "Especializar el vocabulario de un modelo pequeño recorta un 77% el coste de inferencia",
+      "summary": "El artículo de Dharma AI, publicado en el blog de Hugging Face, explica cómo adaptar el vocabulario de un modelo de lenguaje pequeño al dominio de la aplicación reduce el número de tokens necesarios y, con ello, el coste de servir cada petición. El caso real reporta un ahorro del 77% en aplicaciones en producción.",
+      "why_it_matters": "Es una optimización que se puede aplicar sin cambiar de modelo ni de proveedor.",
+      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "La forma más barata de recortar la factura de un modelo pequeño no es cambiar de modelo: es adaptar su vocabulario a tu dominio. Hasta un 77% menos de coste de inferencia.\n\n#HuggingFace #LLM #Inferencia\nhttps://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+        "linkedin": "La forma más barata de bajar la factura de un LLM no es cambiar de modelo: es cambiar su vocabulario.\nDharma AI ha adaptado el vocabulario de un modelo pequeño al dominio de la aplicación y reporta un 77% menos de coste de inferencia en producción. Al necesitar menos tokens por petición, el ahorro llega sin cambiar de modelo ni de proveedor. 𝗘𝘀 𝘂𝗻𝗮 𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗮𝗹 𝗮𝗹𝗰𝗮𝗻𝗰𝗲 𝗱𝗲 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗲𝗾𝘂𝗶𝗽𝗼 𝗰𝗼𝗻 𝗰𝗼𝘀𝘁𝗲𝘀 𝗮𝗹𝘁𝗼𝘀, así que conviene probarla antes de renegociar contratos o saltar a otro modelo.\n\n#HuggingFace #LLM #Inferencia\n\nhttps://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Miles de agentes de OpenAI analizan datos de cerebro de ratón en 32 minutos",
+      "summary": "OpenAI, PerturbAI y Scripps Research desplegaron miles de agentes para analizar datos biológicos de millones de células de ratón, un trabajo que a un equipo humano le llevaría meses. El experimento muestra cómo repartir una carga de análisis científica entre agentes en paralelo.",
+      "why_it_matters": "Es un caso concreto de agentes acelerando investigación real, no una demo de laboratorio.",
+      "url": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months",
+      "source": "The Decoder",
+      "social": {
+        "x": "Lo que a un equipo humano le llevaría meses, a miles de agentes de OpenAI les costó 32 minutos. Y los datos eran de cerebros de ratón reales, no una demo.\n\n#OpenAI #Agentes #ScrippsResearch #Bioinformática\nhttps://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months",
+        "linkedin": "Un equipo humano tardaría meses en hacer este análisis. Miles de agentes de OpenAI lo cerraron en 32 minutos.\n\nJunto a PerturbAI y Scripps Research, repartieron el análisis de millones de células de ratón entre agentes en paralelo. No es una demo de laboratorio: es investigación real, con datos reales, y ahí está el cambio. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗲𝗻 𝗯𝗶𝗼𝗹𝗼𝗴í𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲 𝗮𝗻á𝗹𝗶𝘀𝗶𝘀, 𝘀𝗶𝗻𝗼 𝗹𝗮 𝗱𝗲 𝗳𝗼𝗿𝗺𝘂𝗹𝗮𝗿 𝗹𝗮𝘀 𝗽𝗿𝗲𝗴𝘂𝗻𝘁𝗮𝘀 𝗰𝗼𝗿𝗿𝗲𝗰𝘁𝗮𝘀. Para cualquier equipo de investigación, la ventaja se desplaza del compute a la calidad del diseño experimental.\n\n#OpenAI #Agentes #ScrippsResearch #Bioinformática\n\nhttps://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "investigacion",
+      "title": "Los modelos GPT-5.6 Sol y Gemini 4 Argon encuentran un fallo crítico en PHP",
+      "summary": "Dentro de la iniciativa Patch the Planet, el modelo de OpenAI localizó una vulnerabilidad crítica en PHP capaz de afectar a millones de webs, y Wiz llegó al mismo fallo de forma independiente con Gemini 4 Argon. OpenAI advierte de que esas mismas capacidades sirven también a los atacantes.",
+      "why_it_matters": "El hallazgo demuestra que la IA ya encuentra vulnerabilidades reales y, a la vez, acorta el margen para parchearlas.",
+      "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites",
+      "source": "The Decoder",
+      "social": {
+        "x": "Dos modelos de IA han llegado por separado al mismo fallo crítico en PHP. Hay millones de webs en juego y menos margen que nunca para parchear.\n\n#PHP #OpenAI #Gemini #Ciberseguridad\nhttps://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites",
+        "linkedin": "Que dos modelos distintos encuentren el mismo fallo crítico de PHP sin ayuda humana ya no es una demo: es el nuevo ritmo del ciclo de vulnerabilidades.\n\nEn la iniciativa Patch the Planet, GPT-5.6 Sol localizó una vulnerabilidad crítica en PHP capaz de afectar a millones de webs, y Wiz llegó al mismo punto con Gemini 4 Argon de forma independiente. La coincidencia es la prueba: 𝗹𝗮 𝗱𝗲𝘁𝗲𝗰𝗰𝗶ó𝗻 𝗮𝘂𝘁𝗼𝗺á𝘁𝗶𝗰𝗮 𝗱𝗲 𝘃𝘂𝗹𝗻𝗲𝗿𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀 𝘆𝗮 𝗲𝘀 𝗳𝗶𝗮𝗯𝗹𝗲, no una promesa de laboratorio. Para quien mantiene webs en producción, el reto deja de ser encontrar el fallo y pasa a ser parchear antes que el atacante, que tiene acceso a las mismas capacidades, tal como advierte OpenAI. Si tu equipo sigue planificando ciclos de parcheo trimestrales, alguien acaba de recortar ese calendario.\n\n#PHP #OpenAI #Gemini #Ciberseguridad\n\nhttps://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "investigacion",
+      "title": "Un estudio de Harvard duda de que el código generado por IA aumente el trabajo entregado",
+      "summary": "El análisis de 718 empresas con datos de Jellyfish concluye que los asistentes y agentes de código elevan el volumen de código escrito, pero no la cantidad de trabajo terminado, porque la carga se desplaza a la revisión. El cuello de botella aparece en las fases posteriores del desarrollo.",
+      "why_it_matters": "Pone cifras a una intuición muy extendida y señala que el siguiente cuello de botella es la revisión, no la escritura.",
+      "url": "https://www.infoq.com/news/2026/10/jellyfish-ai-productivity",
+      "source": "InfoQ",
+      "social": {
+        "x": "Más código no es más trabajo entregado. Un estudio de Harvard con 718 empresas lo pone en cifras: el cuello de botella se ha mudado a la revisión.\n\n#Harvard #Jellyfish #CodeReview #DevTools\nhttps://www.infoq.com/news/2026/10/jellyfish-ai-productivity",
+        "linkedin": "Más código no es más trabajo entregado. Y por fin hay cifras que lo sostienen.\n\nUn estudio de Harvard sobre 718 empresas, con datos de Jellyfish, concluye que los asistentes y agentes de código elevan el volumen de código escrito pero no la cantidad de trabajo terminado: 𝗹𝗮 𝗰𝗮𝗿𝗴𝗮 𝘀𝗲 𝗱𝗲𝘀𝗽𝗹𝗮𝘇𝗮 𝗮 𝗹𝗮 𝗿𝗲𝘃𝗶𝘀𝗶ó𝗻. El cuello de botella ya no está en escribir, sino en las fases posteriores del desarrollo. Quien mida el éxito de la IA en líneas o en commits está mirando el sitio equivocado: si nadie dimensiona la revisión, el tiempo que se gana por la mañana se paga por la tarde.\n\n#Harvard #Jellyfish #CodeReview #DevTools\n\nhttps://www.infoq.com/news/2026/10/jellyfish-ai-productivity"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Un paquete de LiteLLM en PyPI instala un ladrón de credenciales y un backdoor",
+      "summary": "La versión 1.107.0 de LiteLLM publicada en PyPI incluía código malicioso que roba contraseñas y secretos e instala un backdoor, según los análisis recogidos por The Register. Los equipos que la instalaran deben rotar credenciales y revisar sus entornos.",
+      "why_it_matters": "LiteLLM está en el centro de muchas aplicaciones de IA, así que el compromiso alcanza claves de API y datos de producción.",
+      "url": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
+      "source": "The Register",
+      "social": {
+        "x": "Si instalaste LiteLLM 1.107.0 esta semana, tu entorno puede estar comprometido: esa versión en PyPI roba credenciales e instala un backdoor. Toca rotar claves ya.\n\n#LiteLLM #PyPI #SupplyChain #Ciberseguridad\nhttps://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548",
+        "linkedin": "Una sola versión publicada en PyPI puede bastar para filtrar todas tus claves de API.\n\nLa 1.107.0 de LiteLLM incluía código que roba contraseñas y secretos e instala un backdoor, según los análisis recogidos por The Register. LiteLLM está en el centro de muchas aplicaciones de IA, así que el alcance no se queda en un repo: toca claves de API y datos de producción. Si la instalaste, rota credenciales hoy y revisa el entorno antes de mirar cualquier otra cosa. 𝗟𝗮 𝗰𝗮𝗱𝗲𝗻𝗮 𝗱𝗲 𝘀𝘂𝗺𝗶𝗻𝗶𝘀𝘁𝗿𝗼 𝗱𝗲 𝗜𝗔 𝘆𝗮 𝗲𝘀 𝗲𝗹 𝗽𝗲𝗿í𝗺𝗲𝘁𝗿𝗼 y casi nadie la vigila.\n\n#LiteLLM #PyPI #SupplyChain #Ciberseguridad\n\nhttps://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "investigacion",
+      "title": "Microsoft Research resuelve la conjetura KLS, abierta desde hace 31 años",
+      "summary": "El trabajo da por resuelta una pregunta planteada en 1995 sobre la dificultad de computar en espacios de alta dimensión, un obstáculo teórico para entender la eficiencia de los algoritmos aleatorizados. La demostración despeja el camino para analizar mejor métodos que se usan en ciencia y computación.",
+      "why_it_matters": "Es un resultado matemático serio que afecta al análisis de algoritmos que ya se emplean a diario.",
+      "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture",
+      "source": "Microsoft Research",
+      "social": {
+        "x": "Una conjetura abierta desde 1995 acaba de caer. Y no la ha resuelto una universidad: es Microsoft Research, y toca la base de los algoritmos que se usan a diario.\n\n#MicrosoftResearch #Matemáticas #Algoritmos\nhttps://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture",
+        "linkedin": "Treinta y un años ha tardado en caer la conjetura KLS, y la ha resuelto Microsoft Research, no un departamento de matemáticas al uso.\n\nLa pregunta parecía inocente: cuánto cuesta computar en espacios de alta dimensión. De su respuesta depende que entendamos por qué los algoritmos aleatorizados funcionan, esos que sostienen métodos de muestreo y optimización empleados a diario en ciencia e ingeniería. 𝗨𝗻 𝗿𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗮𝘀í 𝗻𝗼 𝗰𝗮𝗺𝗯𝗶𝗮 𝘂𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼 𝗹𝗮 𝘀𝗲𝗺𝗮𝗻𝗮 𝗾𝘂𝗲 𝘃𝗶𝗲𝗻𝗲, pero reordena el terreno sobre el que se construye todo el análisis de algoritmos. Para quien trabaja con métodos estocásticos, es de las noticias que conviene leer despacio.\n\n#MicrosoftResearch #Matemáticas #Algoritmos\n\nhttps://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "lanzamientos",
+      "title": "NVIDIA Minerva une la telemetría de la infraestructura y de las cargas de IA para operar AI factories",
+      "summary": "La plataforma AIOps recoge datos de la infraestructura y de los trabajos de IA, y aplica modelos propios para detectar problemas antes y maximizar el rendimiento de los centros de entrenamiento e inferencia. Está disponible desde hoy para operadores de AI factories.",
+      "why_it_matters": "Con miles de GPUs en juego, saber qué se rompe y por qué deja de ser un lujo y pasa a ser operación básica.",
+      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure",
+      "source": "NVIDIA Blog",
+      "social": {
+        "x": "Con miles de GPUs en el mismo centro, el problema ya no es que algo falle: es saber qué falló y por qué. NVIDIA Minerva quiere responderlo antes de que se caiga el job.\n\n#NVIDIA #AIOps #GPU\nhttps://blogs.nvidia.com/blog/minerva-platform-infrastructure",
+        "linkedin": "En una AI factory, el fallo no es la excepción: es la rutina.\n\nNVIDIA Minerva cruza la telemetría de la infraestructura con la de las cargas de IA y le aplica modelos propios para detectar problemas antes de que tumben un entrenamiento. 𝗟𝗮 𝗼𝗯𝘀𝗲𝗿𝘃𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗲𝘅𝘁𝗿𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗼𝗽𝗲𝗿𝗮𝗰𝗶ó𝗻 𝗯á𝘀𝗶𝗰𝗮 cuando gestionas clusters de miles de GPUs, porque cada hora de inferencia perdida se paga igual que la que funciona. Para quien opera estos centros, la pregunta ya no es si merece la pena instrumentarlo todo, sino cuánto cuesta no hacerlo.\n\n#NVIDIA #AIOps #GPU\n\nhttps://blogs.nvidia.com/blog/minerva-platform-infrastructure"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Hace que tu agente de IA piense como el senior más vago del equipo, con la idea de que el mejor código es el que no se escribe. Una forma curiosa y muy práctica de forzar la simplicidad y evitar que el agente te llene el repo de líneas de más.",
+      "language": "JavaScript",
+      "stars": 172870,
+      "social": {
+        "x": "172k estrellas para un repo que le enseña a tu agente de IA a pensar como el senior más vago del equipo: el mejor código es el que no se escribe.\n\n#Ponytail #JavaScript #OpenSource #GitHub\nhttps://github.com/DietrichGebert/ponytail",
+        "linkedin": "TU AGENTE DE IA TE DEVUELVE 400 LÍNEAS. EL SENIOR MÁS VAGO DEL EQUIPO HABRÍA ESCRITO 40.\n\nPonytail es un repo en JavaScript que cambia la mentalidad de tu agente: le mete en la cabeza la idea de que 𝗲𝗹 𝗺𝗲𝗷𝗼𝗿 𝗰ó𝗱𝗶𝗴𝗼 𝗲𝘀 𝗲𝗹 𝗾𝘂𝗲 𝗻𝗼 𝘀𝗲 𝗲𝘀𝗰𝗿𝗶𝗯𝗲. Y con 172k estrellas, parece que el mensaje ha calado.\n\nEl problema es conocido: le pides un endpoint y te monta tres capas de abstracción, dos helpers y un archivo de utilidades que nadie va a importar. Código que funciona, sí, pero que alguien tendrá que mantener durante años.\n\nEsto es lo que hace el repo:\n\n→ Le da al agente el prisma del senior que lleva media vida en el equipo: si no hace falta, no se escribe.\n→ Fuerza la simplicidad antes de empezar a teclear, en lugar de limpiar después.\n→ Ataca la raíz del problema: el exceso de líneas que acaba acumulándose en el repo.\n→ Es una forma curiosa de trabajar la contención, y funciona porque es fácil de recordar.\n\nNo es un linter ni un formateador. Es una postura: cuanto menos código, menos superficie donde esconder bugs.\n\nGuárdate el post para la próxima vez que tu agente te abra un pull request de 600 líneas para arreglar un typo. El repo lo tienes abajo.\n\n#Ponytail #JavaScript #OpenSource #GitHub\n\nhttps://github.com/DietrichGebert/ponytail"
+      }
+    },
+    {
+      "name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Repositorio open source de plugins de Anthropic para que el personal de conocimiento (informes, documentación, análisis) saque partido a Claude Cowork. Útil si ya trabajas con Claude y quieres ampliar lo que hace sin montarte tus propias integraciones.",
+      "language": "Python",
+      "stars": 31378,
+      "social": {
+        "x": "Anthropic suelta en open source los plugins con los que exprimir Claude en el trabajo diario: informes, documentación y análisis. 31k estrellas y sin montar tus propias integraciones.\n\n#Claude #Anthropic #OpenSource #Python\nhttps://github.com/anthropics/knowledge-work-plugins",
+        "linkedin": "Anthropic acaba de abrir el código de los plugins con los que se exprime Claude en el trabajo de conocimiento.\n\nSi ya trabajas con Claude, el cuello de botella no es el modelo: es tener que montar cada integración a mano para sacar informes, documentación o análisis. Este repositorio resuelve justo eso, y ya va por 31k estrellas.\n\n→ Plugins para tareas de conocimiento: informes, documentación y análisis\n→ Pensados para Claude Cowork\n→ Python, open source y con el código a la vista\n→ Te ahorras construir tus propias integraciones desde cero\n→ Puedes leer cada plugin, adaptarlo y quedarte solo con lo que te sirva\n\n𝗟𝗮 𝗶𝗱𝗲𝗮: 𝗻𝗼 𝗽𝗮𝗿𝘁𝗲𝘀 𝗱𝗲 𝗰𝗲𝗿𝗼, 𝗔𝗻𝘁𝗵𝗿𝗼𝗽𝗶𝗰 𝘆𝗮 𝗵𝗮 𝗵𝗲𝗰𝗵𝗼 𝗹𝗮 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗰𝗶ó𝗻 𝘆 𝗹𝗮 𝗵𝗮 𝗱𝗲𝗷𝗮𝗱𝗼 𝗮𝗯𝗶𝗲𝗿𝘁𝗮.\n\nGuárdate el post para tu próxima tanda de automatizaciones con Claude. Te dejo el repo abajo.\n\n#Claude #Anthropic #OpenSource #Python\n\nhttps://github.com/anthropics/knowledge-work-plugins"
+      }
+    },
+    {
+      "name": "fastapi/fastapi",
+      "url": "https://github.com/fastapi/fastapi",
+      "description": "Framework de Python para montar APIs con tipado, validación automática y documentación incluida, con rendimiento alto y listo para producción. Es ya un estándar de facto y una de las maneras más rápidas de levantar un backend hoy.",
+      "language": "Python",
+      "stars": 103522,
+      "social": {
+        "x": "103.000 estrellas y coste cero: FastAPI te monta una API con tipado, validación automática y documentación incluida en minutos. El backend que ya es estándar de facto.\n\n#FastAPI #Python #OpenSource #GitHub\nhttps://github.com/fastapi/fastapi",
+        "linkedin": "103.000 ESTRELLAS Y TODAVÍA NO HAS MONTADO NADA CON ÉL.\n\nLevantar un backend suele empezar igual: elegir framework, montar validación a mano, escribir la documentación aparte y rezar para que no se desincronice del código. FastAPI lleva años resolviendo eso de raíz y se ha convertido en el estándar de facto para APIs en Python.\n\nLa clave está en que 𝗲𝗹 𝘁𝗶𝗽𝗮𝗱𝗼 𝗱𝗲 𝗣𝘆𝘁𝗵𝗼𝗻 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻 𝘆 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗮𝗰𝗶ó𝗻 𝘀𝗶𝗻 𝗲𝘀𝗰𝗿𝗶𝗯𝗶𝗿 𝗻𝗮𝗱𝗮 𝗲𝘅𝘁𝗿𝗮: declaras el modelo y el framework hace el resto.\n\n→ Validación automática de datos de entrada y salida, sin capas extra.\n→ Documentación interactiva generada sola (Swagger UI y ReDoc incluidas).\n→ Rendimiento alto, pensado para producción desde el primer commit.\n→ Basado en estándares abiertos como OpenAPI y JSON Schema.\n→ Autocompletado real en el editor gracias a los type hints.\n\nSi vienes de otros frameworks de Python, la diferencia se nota en la primera semana: menos código, menos bugs de validación y documentación que no miente.\n\nGuarda este post para cuando te toque montar el próximo backend. Te dejo el repo abajo.\n\n#FastAPI #Python #OpenSource #GitHub\n\nhttps://github.com/fastapi/fastapi"
+      }
+    },
+    {
+      "name": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "Guía visual y muy centrada en ejemplos sobre Claude Code, desde los conceptos básicos hasta agentes más avanzados, con plantillas listas para copiar y pegar. Va al grano, así que sirve tanto para empezar como para exprimir mejor tus flujos de trabajo.",
+      "language": "Python",
+      "stars": 42789,
+      "social": {
+        "x": "42.789 estrellas y ni una palabra de relleno: esta guía de Claude Code va de los conceptos básicos a agentes avanzados con plantillas listas para copiar y pegar.\n\n#ClaudeCode #OpenSource #GitHub #Python\nhttps://github.com/luongnv89/claude-howto",
+        "linkedin": "42.789 ESTRELLAS PARA UNA GUÍA DE CLAUDE CODE QUE SE ENTIENDE A LA PRIMERA.\n\nLa mayoría de tutoriales sobre Claude Code se pierden en teoría y en rodeos. Esta va al grano: 𝗽𝗹𝗮𝗻𝘁𝗶𝗹𝗹𝗮𝘀 𝗹𝗶𝘀𝘁𝗮𝘀 𝗽𝗮𝗿𝗮 𝗰𝗼𝗽𝗶𝗮𝗿 𝘆 𝗽𝗲𝗴𝗮𝗿, con ejemplos por delante de la explicación, para que puedas montar algo hoy mismo.\n\nSirve igual si acabas de abrir la herramienta como si ya llevas meses peleándote con tus flujos de trabajo. Lo que hay dentro:\n\n→ Plantillas que se copian, se pegan y funcionan, sin adaptar nada\n→ Recorrido progresivo desde los conceptos básicos hasta agentes más avanzados\n→ Enfoque visual y centrado en ejemplos reales, no en documentación reciclada\n→ Base en Python, con el código a la vista\n\nEl patrón se repite: la gente no abandona Claude Code por falta de potencia, sino por falta de ejemplos concretos. Esto cubre justo ese hueco.\n\nGuarda el post para la próxima vez que te atasques montando un agente. Te dejo el repo abajo.\n\n#ClaudeCode #OpenSource #GitHub #Python\n\nhttps://github.com/luongnv89/claude-howto"
+      }
+    },
+    {
+      "name": "Meloong-Git/PCL",
+      "url": "https://github.com/Meloong-Git/PCL",
+      "description": "Plain Craft Launcher, un launcher de Minecraft para Windows con gestión de versiones, descarga de mods y ajustes de rendimiento en una interfaz sencilla. Es uno de los lanzadores más usados por la comunidad y sigue muy vivo.",
+      "language": "Visual Basic .NET",
+      "stars": 8609,
+      "social": {
+        "x": "Minecraft no necesita un launcher de pago: este, escrito en Visual Basic .NET, ya suma 8.6k estrellas y gestiona versiones, mods y rendimiento.\n\n#Minecraft #PCL #OpenSource #VisualBasic\nhttps://github.com/Meloong-Git/PCL",
+        "linkedin": "UN LAUNCHER DE MINECRAFT CON 8.6K ESTRELLAS Y ESCRITO EN VISUAL BASIC .NET.\n\nLa comunidad lleva años usándolo y el repo sigue más vivo que nunca. Frente a los launchers que te atan a una tienda, un instalador enorme o una cuenta obligatoria, PCL va directo al grano: una app de escritorio para Windows que hace lo importante y no estorba.\n\nLa clave está en 𝗿𝗲𝘀𝗼𝗹𝘃𝗲𝗿 𝘃𝗲𝗿𝘀𝗶𝗼𝗻𝗲𝘀 𝘆 𝗺𝗼𝗱𝘀 𝗲𝗻 𝘂𝗻𝗮 𝘀𝗼𝗹𝗮 𝘃𝗲𝗻𝘁𝗮𝗻𝗮, sin saltar entre webs, carpetas y archivos de configuración.\n\n→ Gestión de versiones de Minecraft desde el propio launcher.\n→ Descarga de mods integrada, sin salir de la app.\n→ Ajustes de rendimiento para exprimir el equipo.\n→ Interfaz sencilla, pensada para quien solo quiere jugar.\n→ Open source y con más de 8.600 estrellas acumuladas.\n\nSi juegas en Windows o montas servidores para amigos, esto te ahorra tardes enteras de configuración. Guárdalo para la próxima vez que tengas que reinstalar. Te dejo el repo abajo.\n\n#Minecraft #PCL #OpenSource #VisualBasic\n\nhttps://github.com/Meloong-Git/PCL"
+      }
+    }
+  ]
+}
