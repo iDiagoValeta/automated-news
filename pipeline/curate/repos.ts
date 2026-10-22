@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { log, warn } from "../log.ts";
 import type { Digest, Repo, RepoRaw } from "../types.ts";
-import type { Provider } from "./index.ts";
+import type { Provider } from "../ports.ts";
 
 const REPOS_PROMPT_PATH = fileURLToPath(new URL("../../prompts/repos.md", import.meta.url));
 

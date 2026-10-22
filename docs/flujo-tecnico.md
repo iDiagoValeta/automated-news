@@ -146,11 +146,11 @@ Ficheros: `pipeline/index.ts`, `eleventy.config.mjs`, `site/_data/editions.js`, 
 
 ## 11. Proveedores de modelo
 
-Ficheros: `pipeline/curate/index.ts`, `pipeline/curate/deepseek.ts`, `pipeline/curate/claude-code.ts`.
+Ficheros: `pipeline/ports.ts`, `pipeline/providers.ts`, `pipeline/curate/deepseek.ts`, `pipeline/curate/claude-code.ts`.
 
 - **DeepSeek** (por defecto): endpoint compatible con el formato de OpenAI, JSON mode, `temperature` 0.3 y timeout amplio (Flash razona por defecto y puede tardar). Modelo configurable con `DEEPSEEK_MODEL`; por defecto, `deepseek-v4-flash`.
 - **claude-code** (alternativo): invoca el CLI de Claude Code en modo headless vía suscripción. No probado end to end.
-- La interfaz común es `Provider.generate(systemPrompt, userPrompt): Promise<string>`. `resolveProviderName()` elige según `LLM_PROVIDER`, y `providerCredentialPresent()` permite saltar sin fallar si no hay credencial.
+- La interfaz común (puerto) es `Provider.generate(systemPrompt, userPrompt): Promise<string>`, definida en `pipeline/ports.ts`. `pipeline/providers.ts` es la raíz de composición: `resolveProviderName()` elige según `LLM_PROVIDER`, `providerCredentialPresent()` permite saltar sin fallar si no hay credencial y `resolveProviderChain()` construye la cadena con failover que `pipeline/index.ts` pasa a `curate()`. El caso de uso no importa adaptadores; `pipeline/__tests__/architecture.test.ts` lo vigila con `.hexagonal.json`.
 
 ## 12. Esquema de datos y tipos
 

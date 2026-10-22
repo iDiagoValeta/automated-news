@@ -1,4 +1,4 @@
-import type { Provider } from "./index.ts";
+import type { Provider } from "../ports.ts";
 
 const ENDPOINT = "https://api.deepseek.com/chat/completions";
 

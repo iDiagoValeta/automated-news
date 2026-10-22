@@ -1,6 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { curate, type Provider } from "../curate/index.ts";
+import { curate } from "../curate/index.ts";
+import type { Provider } from "../ports.ts";
 import type { NewsItem, ProviderName } from "../types.ts";
 
 const URLS = Array.from({ length: 8 }, (_, i) => `https://src.example/n${i + 1}`);

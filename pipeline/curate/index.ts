@@ -1,10 +1,9 @@
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { log, warn } from "../log.ts";
+import type { Provider } from "../ports.ts";
 import { dropInventedUrlItems, validateDigest } from "../validate.ts";
 import type { Digest, NewsItem, ProviderName, RepoRaw } from "../types.ts";
-import { deepseekProvider } from "./deepseek.ts";
-import { claudeCodeProvider } from "./claude-code.ts";
 import { attachRepoSocial, attachSocial } from "./social.ts";
 import { attachRepos } from "./repos.ts";
 
@@ -17,47 +16,10 @@ export interface ReposInput {
 const PROMPT_PATH = fileURLToPath(new URL("../../prompts/curacion.md", import.meta.url));
 const MAX_ATTEMPTS = 3; // 1 intento + hasta 2 reintentos
 
-export interface Provider {
-  name: ProviderName;
-  generate(systemPrompt: string, userPrompt: string): Promise<string>;
-}
-
 export interface CurateMeta {
   date: string;
   generated_at: string;
   provider: ProviderName;
-}
-
-export function resolveProviderName(): ProviderName {
-  const raw = (process.env.LLM_PROVIDER ?? "deepseek").toLowerCase();
-  if (raw === "claude-code") return "claude-code";
-  return "deepseek";
-}
-
-/** ¿Está presente la credencial del proveedor? Permite saltar sin fallar. */
-export function providerCredentialPresent(name: ProviderName): boolean {
-  if (name === "claude-code") return Boolean(process.env.CLAUDE_CODE_OAUTH_TOKEN);
-  return Boolean(process.env.DEEPSEEK_API_KEY);
-}
-
-function getProvider(name: ProviderName): Provider {
-  return name === "claude-code" ? claudeCodeProvider() : deepseekProvider();
-}
-
-/** El otro proveedor del par deepseek / claude-code. */
-export function alternateProviderName(name: ProviderName): ProviderName {
-  return name === "deepseek" ? "claude-code" : "deepseek";
-}
-
-/**
- * Cadena de proveedores: el principal y, si hay credencial, el alternativo
- * para failover automático.
- */
-export function resolveProviderChain(primary: ProviderName): Provider[] {
-  const chain: Provider[] = [getProvider(primary)];
-  const alt = alternateProviderName(primary);
-  if (providerCredentialPresent(alt)) chain.push(getProvider(alt));
-  return chain;
 }
 
 type CurateOutcome = { ok: true; digest: Digest } | { ok: false; errors: string[] };
@@ -70,16 +32,15 @@ type CurateOutcome = { ok: true; digest: Digest } | { ok: false; errors: string[
  * agota los intentos, se prueba el alternativo cuando su credencial está
  * presente. Lanza si tras toda la cadena sigue sin validar.
  *
- * `providers` permite inyectar mocks en tests; si se omite, se resuelve
- * desde el entorno.
+ * `chain` llega ya resuelta desde la raíz de composición (providers.ts),
+ * de modo que el caso de uso no conoce ningún adaptador concreto.
  */
 export async function curate(
   items: NewsItem[],
   meta: CurateMeta,
-  repos?: ReposInput,
-  providers?: Provider[],
+  repos: ReposInput | undefined,
+  chain: Provider[],
 ): Promise<Digest> {
-  const chain = providers ?? resolveProviderChain(meta.provider);
   if (chain.length === 0) {
     throw new Error("No hay proveedores LLM disponibles para curar.");
   }
