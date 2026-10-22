@@ -55,70 +55,21 @@ Antes de abrir uno, busca si ya existe otro igual. Un issue trata un único tema
 
 ### Plantillas
 
-Copia la plantilla que corresponda en el cuerpo del issue y rellénala.
-
-Bug:
-
-```markdown
-### Qué pasa
-Descripción breve del síntoma.
-
-### Cómo reproducirlo
-Pasos exactos, o enlace al run/log de Actions si es del pipeline diario.
-
-### Qué debería pasar
-Comportamiento esperado.
-
-### Evidencia
-Logs, extractos de data/*.json o capturas.
-```
-
-Propuesta de fuente:
-
-```markdown
-### Fuente
-- Nombre:
-- URL del feed:
-- Tipo: RSS / Atom / API
-
-### Por qué encaja
-Qué aporta según la línea editorial: IA como eje, prioridad a lo práctico y aplicable.
-
-### Verificación hecha
-Confirma que has comprobado: el feed responde 200, es XML válido y publica con suficiente frecuencia (los blogs semanales son válidos).
-```
-
-Mejora:
-
-```markdown
-### Problema u oportunidad
-Qué necesidad real atiende.
-
-### Propuesta
-Cómo lo implementarías, con qué alcance mínimo.
-
-### Criterio de aceptación
-Cómo sabremos que está hecho y verificado.
-```
+Al abrir un issue, elige el formulario que corresponda (Fallo, Fuente nueva o Mejora) en [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/). Cada uno aplica su etiqueta y los issues en blanco están desactivados.
 
 ## Pull requests
 
 ### Flujo
 
-1. Rama nueva desde `main` actualizado. Nombres en kebab-case con prefijo de tipo: `feat/...`, `fix/...`, `docs/...`, `chore/...`.
+1. Rama nueva desde `main` actualizado. Nombres en kebab-case con prefijo de tipo: `feat/...`, `fix/...`, `docs/...`, `chore/...`, `refactor/...`, `perf/...`.
 2. Un PR, un propósito. Si necesitas dos cambios no relacionados, dos PRs.
 3. Commits en español, estilo del historial: frase corta que describa el cambio ("Añade fuentes RSS de laboratorios", "Corrige el guardián horario"). Referencias durables a issues cuando aplique (`#123`); nunca referencias a pasos internos de un plan.
-4. PR hacia `main`. En la descripción: qué cambia, por qué, y cómo se ha verificado (comandos ejecutados y resultado).
+4. PR hacia `main`. Se rellena la plantilla [`pull_request_template.md`](.github/pull_request_template.md). En la descripción: qué cambia, por qué, y cómo se ha verificado (comandos ejecutados y resultado).
 5. Merge por squash para mantener el historial lineal, y borrado de la rama tras integrar.
 
 ### Checklist antes de abrir
 
-- [ ] `pnpm test`, `pnpm run typecheck` y `pnpm run build` pasan en local (el CI las repetirá).
-- [ ] Si toca fuentes o recogida: `--collect-only` ejecutado y resultados revisados.
-- [ ] El diff no toca `data/` salvo ediciones reales generadas por el pipeline.
-- [ ] Textos nuevos en español de España, sin rayas ni guiones medios.
-- [ ] Sin secretos ni credenciales en el diff.
-- [ ] La descripción explica qué, por qué y cómo se ha verificado.
+La checklist previa al PR vive solo en [`.github/pull_request_template.md`](.github/pull_request_template.md), que es su única copia.
 
 ### Qué se revisa
 

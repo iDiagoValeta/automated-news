@@ -1,0 +1,25 @@
+name: Mejora
+description: Funcionalidad nueva o cambio de comportamiento.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema u oportunidad
+      description: Qué necesidad real atiende.
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Propuesta
+      description: Cómo lo implementarías, con qué alcance mínimo.
+    validations:
+      required: true
+  - type: textarea
+    id: aceptacion
+    attributes:
+      label: Criterio de aceptación
+      description: Cómo sabremos que está hecho y verificado.
+    validations:
+      required: true
