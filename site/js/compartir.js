@@ -18,11 +18,22 @@ function notificar(msg) {
   toastT = setTimeout(() => toast.classList.remove("is-visible"), 1800);
 }
 
+// El texto social vive una sola vez, codificado en el parámetro `text` del
+// enlace de web intent; así el HTML no lo repite en atributos data-*.
+function textoDe(enlace) {
+  try {
+    return new URL(enlace.href).searchParams.get("text") || "";
+  } catch {
+    return "";
+  }
+}
+
 // Copia al portapapeles el texto social (fallback si el intent no precarga).
 document.addEventListener("click", async (e) => {
   const btn = e.target.closest(".share__copy");
   if (!btn) return;
-  const text = btn.getAttribute("data-copy");
+  // El enlace de la misma red es el hermano justo anterior del botón.
+  const text = textoDe(btn.previousElementSibling);
   if (!text) return;
   const aviso = `Texto para ${btn.dataset.red} copiado`;
   btn.closest("details")?.removeAttribute("open");
@@ -67,7 +78,7 @@ document.addEventListener("click", async (e) => {
   const art = btn.closest("article");
   const enlace = art?.querySelector("h2 a, h3 a");
   try {
-    const text = btn.dataset.shareText || "";
+    const text = textoDe(btn.closest(".share").querySelector("a.share__item"));
     const datos = { title: enlace?.textContent?.trim(), text };
     // Si el texto ya lleva el enlace, no duplicarlo.
     if (enlace && !text.includes(enlace.href)) datos.url = enlace.href;

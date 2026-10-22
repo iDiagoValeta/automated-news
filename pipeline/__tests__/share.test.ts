@@ -85,8 +85,10 @@ test("la plantilla share usa shareModel y no asume las dos redes", () => {
   assert.match(TPL, /Publicar en X/);
   assert.match(TPL, /Publicar en LinkedIn/);
   assert.match(TPL, /share__copy/);
-  assert.match(TPL, /data-copy="\{\{ s\.x\.text \}\}"/);
-  assert.match(TPL, /data-copy="\{\{ s\.linkedin\.text \}\}"/);
+  // El texto no se duplica en data-*: compartir.js lo lee del `text` del href.
+  assert.doesNotMatch(TPL, /data-copy|data-share-text/);
+  assert.match(TPL, /data-red="X"/);
+  assert.match(TPL, /data-red="LinkedIn"/);
   assert.match(TPL, /target="_blank"/);
   assert.match(TPL, /rel="noopener noreferrer"/);
 });

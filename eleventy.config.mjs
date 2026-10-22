@@ -23,6 +23,18 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "site/img": "img" });
   eleventyConfig.addPassthroughCopy({ "site/_11ty/search.js": "js/search.js" });
 
+  // Minificación ligera del HTML: la indentación de las plantillas entre
+  // etiquetas pesa sin aportar nada. Se deja un espacio (no nada) para no
+  // juntar elementos en línea, y se respetan los bloques donde el espacio
+  // importa o es contenido (pre, textarea, script, style).
+  eleventyConfig.addTransform("minificaHtml", function (contenido) {
+    if (!this.page.outputPath?.endsWith(".html")) return contenido;
+    return contenido
+      .split(/(<(?:pre|textarea|script|style)\b[\s\S]*?<\/(?:pre|textarea|script|style)>)/i)
+      .map((trozo, i) => (i % 2 ? trozo : trozo.replace(/>\s+</g, "> <")))
+      .join("");
+  });
+
   // "2026-07-18" -> "sábado, 18 de julio de 2026"
   eleventyConfig.addFilter("fechaLarga", (s) => {
     const d = new Date(`${s}T12:00:00Z`);
