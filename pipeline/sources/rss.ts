@@ -53,13 +53,21 @@ export function mapFeedItems(
   return items;
 }
 
-/** Descarga un feed RSS/Atom y devuelve sus ítems dentro de la ventana. */
-export async function collectRss(src: RssSource, cfg: SourcesConfig): Promise<NewsItem[]> {
+/**
+ * Descarga un feed RSS/Atom y devuelve sus ítems dentro de la ventana.
+ * `windowHours` permite que secciones con otra caducidad (Lecturas) reutilicen
+ * el mismo adaptador sin heredar la ventana de noticias.
+ */
+export async function collectRss(
+  src: RssSource,
+  cfg: SourcesConfig,
+  windowHours: number = cfg.window_hours,
+): Promise<NewsItem[]> {
   const xml = await fetchText(src.url, cfg.timeout_ms, cfg.user_agent);
   const feed = await parser.parseString(xml);
-  const items = mapFeedItems(feed.items ?? [], src.name, cfg.window_hours * 3600_000, Date.now());
+  const items = mapFeedItems(feed.items ?? [], src.name, windowHours * 3600_000, Date.now());
   if (items.length === 0) {
-    warn(`Fuente "${src.name}" sin ítems en la ventana de ${cfg.window_hours}h`);
+    warn(`Fuente "${src.name}" sin ítems en la ventana de ${windowHours}h`);
   }
   return items;
 }

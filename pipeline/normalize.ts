@@ -24,6 +24,18 @@ export function isBlockedHost(host: string, blocked: string[]): boolean {
 }
 
 /**
+ * Dominios de Medium y publicaciones con dominio propio que siguen sirviendo
+ * por Medium. El parámetro `source` lo añade su RSS, no el artículo.
+ */
+const MEDIUM_HOSTS = ["medium.com", "towardsdatascience.com", "netflixtechblog.com"];
+
+/** ¿El host es Medium (o una publicación alojada en Medium)? */
+export function isMediumHost(host: string): boolean {
+  if (!host) return false;
+  return MEDIUM_HOSTS.some((domain) => host === domain || host.endsWith(`.${domain}`));
+}
+
+/**
  * Canonicaliza una URL para deduplicar: quita el fragmento (#...), los
  * parámetros de tracking (utm_*, ref, fbclid) y la barra final. Es una
  * deduplicación "básica" por URL.
@@ -33,6 +45,9 @@ export function canonicalUrl(raw: string): string {
     const u = new URL(raw.trim());
     u.hash = "";
     const drop: string[] = [];
+    // `?source=rss-...` es tracking del feed de Medium y hace que la misma
+    // lectura llegue con una URL distinta cada vez.
+    if (isMediumHost(u.hostname.toLowerCase())) drop.push("source");
     u.searchParams.forEach((_, key) => {
       if (/^utm_/i.test(key) || key === "ref" || key === "fbclid") drop.push(key);
     });

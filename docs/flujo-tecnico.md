@@ -1,6 +1,6 @@
 # Flujo técnico de creación de las noticias
 
-Documento técnico del proceso que convierte fuentes RSS, la API de Hacker News y las tendencias de GitHub en la edición diaria publicada. Describe cada paso, el archivo que lo implementa y las decisiones de diseño relevantes.
+Documento técnico del proceso que convierte fuentes RSS, la API de Hacker News, las tendencias de GitHub y los feeds de lecturas en la edición diaria publicada. Describe cada paso, el archivo que lo implementa y las decisiones de diseño relevantes.
 
 ## 1. Visión general
 
@@ -20,11 +20,15 @@ flowchart TD
     G -- ok --> H[5. Posts sociales LLM, 1 por noticia]
     H --> I[6. Repos hot: filtro 7 días + LLM]
     I --> S[7. Posts sociales de repos]
-    S --> J[Escribir data/YYYY-MM-DD.json]
+    S --> T[8. Lecturas: selección + resumen LLM]
+    T --> J[Escribir data/YYYY-MM-DD.json]
     J --> K[Eleventy build]
     K --> L[Commit de data/ + deploy en Pages]
     C -. paralelo .-> R[GitHub trending]
+    C -. paralelo .-> M[Lecturas: feeds con ventana propia]
     R --> I
+    M --> N[Excluir publicadas en 30 días]
+    N --> T
 ```
 
 ## 2. Disparo y planificación
@@ -51,7 +55,7 @@ Ficheros: `config/sources.json` y `pipeline/config.ts`.
 | `timeout_ms`, `enrich_timeout_ms` | Timeouts de red. |
 | `user_agent` | User-Agent identificable en todas las peticiones. |
 
-Cada fuente RSS tiene `enabled` y `fragile`. Una fuente frágil que falla se registra con un aviso más suave y se omite, sin bloquear por sí sola la edición. Los bloques `hackernews`, `huggingface_trending` (desactivado) y `github_trending` configuran las fuentes que no son RSS.
+Cada fuente RSS tiene `enabled` y `fragile`. Una fuente frágil que falla se registra con un aviso más suave y se omite, sin bloquear por sí sola la edición. Los bloques `hackernews`, `huggingface_trending` (desactivado), `github_trending` y `lecturas` configuran las fuentes que no son RSS. La sección `lecturas` es opcional y define su propia ventana, cap, número de lecturas, días de exclusión y feeds (ver la sección de Lecturas).
 
 ## 4. Paso 1: Recogida
 
@@ -129,7 +133,18 @@ Sección independiente de las noticias, también **best effort**.
 - **Ventana sin repeticiones**: antes de la curación, `loadRecentRepoNames()` lee los repos publicados en las siete ediciones naturales anteriores y `excludeRecentRepos()` los elimina de los candidatos. Un repositorio puede volver a aparecer a partir del octavo día.
 - **Selección y descripción** (`attachRepos`): una tercera llamada al modelo (prompt `prompts/repos.md`) que elige los repos más interesantes para el diario (IA y herramientas prácticas primero) y los describe en castellano. Los datos duros (nombre, URL, lenguaje, estrellas) se toman **siempre** del repo recogido, no de la respuesta del modelo; del modelo solo se usa la descripción. El resultado se guarda en `digest.repos`.
 
-## 10. Paso 7: Render y publicación
+## 10. Sección Lecturas
+
+Ficheros: `pipeline/sources/lecturas.ts`, `pipeline/curate/lecturas.ts`, `prompts/lecturas.md`, `pipeline/index.ts`.
+
+Sección independiente de las noticias y también **best effort**: aporta seis lecturas atemporales (tutoriales, ensayos, guías de ingeniería, IA, web, datos, diseño) de Medium y blogs técnicos, elegidas y resumidas por el modelo. No compite con las noticias en la curación principal.
+
+- **Recogida** (`collectLecturas`): reutiliza `collectRss` con la ventana propia de `lecturas.window_hours` (168 h), en paralelo y con `Promise.allSettled`. Un feed que falla se registra y se omite; si fallan todos, la lista queda vacía. Normaliza con las mismas reglas que las noticias (`candidate_cap` y `blocked_domains`). En las URL de Medium y de sus dominios propios (`towardsdatascience.com`, `netflixtechblog.com`) se quita el parámetro `source` que añade su RSS.
+- **Sin repeticiones** (`loadRecentLecturaUrls`, `excludeRecentLecturas`): se descartan las URL ya publicadas en `lecturas` en las ediciones de los `lookback_days` días previos (30 por defecto), igual que los repos en su ventana de siete días.
+- **Curación** (`attachLecturas`): una llamada al modelo después de la curación principal, con el contenido de entrada delimitado por `untrustedBlock` como material no confiable. El modelo devuelve `{ lecturas: [{ url, title, summary, tema }] }`; la URL debe estar en la entrada (si no, se descarta) y `source` sale siempre del candidato. `title` se recorta a 200 y `summary` a 600 caracteres (dos o tres frases sobre qué aprende quien lo lee), y `tema` debe pertenecer a `programacion | ia | web | datos | arquitectura | diseno | carrera`. Lo inválido se descarta con un aviso y, si falla todo, la edición se publica sin la sección.
+- El resultado se guarda en `digest.lecturas` y lo valida `schema/digest.schema.json`. La web todavía no lo renderiza; ese cambio va aparte.
+
+## 11. Paso 7: Render y publicación
 
 Ficheros: `pipeline/index.ts`, `eleventy.config.mjs`, `site/_data/editions.js`, `site/_includes/`, `site/*.njk`.
 
@@ -144,7 +159,7 @@ Ficheros: `pipeline/index.ts`, `eleventy.config.mjs`, `site/_data/editions.js`, 
 - **Distribución.** Eleventy genera `/feed.xml` (RSS 2.0), `/atom.xml`, `/sitemap.xml` y `/robots.txt`. La plantilla base incluye canonical, Open Graph y `rel=alternate` a los feeds.
 - **Publicación.** El workflow hace `git add data/`, crea el commit de la edición solo si hay cambios, reintegra los cambios remotos con `git pull --rebase` para no perder la edición ante un push concurrente, y despliega `_site` en GitHub Pages.
 
-## 11. Proveedores de modelo
+## 12. Proveedores de modelo
 
 Ficheros: `pipeline/ports.ts`, `pipeline/providers.ts`, `pipeline/curate/deepseek.ts`, `pipeline/curate/claude-code.ts`.
 
@@ -152,13 +167,13 @@ Ficheros: `pipeline/ports.ts`, `pipeline/providers.ts`, `pipeline/curate/deepsee
 - **claude-code** (alternativo): invoca el CLI de Claude Code en modo headless vía suscripción. No probado end to end.
 - La interfaz común (puerto) es `Provider.generate(systemPrompt, userPrompt): Promise<string>`, definida en `pipeline/ports.ts`. `pipeline/providers.ts` es la raíz de composición: `resolveProviderName()` elige según `LLM_PROVIDER`, `providerCredentialPresent()` permite saltar sin fallar si no hay credencial y `resolveProviderChain()` construye la cadena con failover que `pipeline/index.ts` pasa a `curate()`. El caso de uso no importa adaptadores; `pipeline/__tests__/architecture.test.ts` lo vigila con `.hexagonal.json`.
 
-## 12. Esquema de datos y tipos
+## 13. Esquema de datos y tipos
 
 Ficheros: `schema/digest.schema.json`, `pipeline/types.ts`.
 
-El digest tiene `date`, `generated_at`, `provider`, un array `items` (de 8 a 20 noticias, con `rank`, `category`, `title`, `summary`, `why_it_matters`, `url`, `source` y `social` opcional) y un array opcional `repos`. Los campos `social` y `repos` se rellenan **después** de la validación del schema, igual que se documenta para las noticias.
+El digest tiene `date`, `generated_at`, `provider`, un array `items` (de 8 a 20 noticias, con `rank`, `category`, `title`, `summary`, `why_it_matters`, `url`, `source` y `social` opcional), un array opcional `repos` y un array opcional `lecturas` (máximo 10, con `title`, `url`, `source`, `summary` y `tema`). Los campos `social`, `repos` y `lecturas` se rellenan **después** de la validación del schema, igual que se documenta para las noticias.
 
-## 13. Tolerancia a fallos
+## 14. Tolerancia a fallos
 
 | Situación | Comportamiento |
 |---|---|
@@ -170,16 +185,17 @@ El digest tiene `date`, `generated_at`, `provider`, un array `items` (de 8 a 20 
 | GitHub Trending parsea < umbral con HTTP 200 | Aviso; se combinan los repos del scraping y los de la Search API (dedupe por `name`) hasta `limit`. Con 0 repos parseados el issue automático se abre siempre; con parseo parcial, solo si la combinación no llega al umbral. |
 | Posts sociales fallan | La edición se publica sin posts. |
 | Repos hot fallan (scraping y API) | La edición se publica sin la sección. |
+| Lecturas fallan (todos los feeds o el modelo) | La edición se publica sin la sección. |
 | Sin credencial del proveedor | No se genera edición nueva; se conserva la última. |
 | Ya existe la edición de hoy escrita entera | No se hace nada (idempotencia). Si está truncada, se regenera. |
 
-## 14. Ejecución local
+## 15. Ejecución local
 
 ```bash
 corepack enable
 pnpm install --frozen-lockfile
 pnpm run pipeline -- --collect-only   # imprime los ítems normalizados, sin llamar al modelo
-pnpm test                             # normalización, validación, trending, deduplicación de repos y posts
+pnpm test                             # normalización, validación, trending, deduplicación de repos, lecturas y posts
 pnpm run typecheck                    # tsc --noEmit
 pnpm run build                        # genera _site/
 pnpm run dev                          # servidor local

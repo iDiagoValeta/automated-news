@@ -55,5 +55,41 @@
     "limit": 25,
     "pick": 5,
     "min_parse_alert": 5
+  },
+  "lecturas": {
+    "enabled": true,
+    "window_hours": 168,
+    "candidate_cap": 120,
+    "pick": 6,
+    "lookback_days": 30,
+    "feeds": [
+      { "id": "medium-programming", "name": "Medium: Programming", "url": "https://medium.com/feed/tag/programming", "enabled": true, "fragile": false },
+      { "id": "medium-software-engineering", "name": "Medium: Software Engineering", "url": "https://medium.com/feed/tag/software-engineering", "enabled": true, "fragile": false },
+      { "id": "medium-ai", "name": "Medium: Artificial Intelligence", "url": "https://medium.com/feed/tag/artificial-intelligence", "enabled": true, "fragile": false },
+      { "id": "medium-web-development", "name": "Medium: Web Development", "url": "https://medium.com/feed/tag/web-development", "enabled": true, "fragile": false },
+      { "id": "medium-data-science", "name": "Medium: Data Science", "url": "https://medium.com/feed/tag/data-science", "enabled": true, "fragile": false },
+      { "id": "medium-ux", "name": "Medium: UX", "url": "https://medium.com/feed/tag/ux", "enabled": true, "fragile": false },
+      { "id": "towards-data-science", "name": "Towards Data Science", "url": "https://towardsdatascience.com/feed", "enabled": true, "fragile": false },
+      { "id": "netflix-tech", "name": "Netflix Tech Blog", "url": "https://netflixtechblog.com/feed", "enabled": true, "fragile": false },
+      { "id": "smashing", "name": "Smashing Magazine", "url": "https://www.smashingmagazine.com/feed/", "enabled": true, "fragile": false },
+      { "id": "martin-fowler", "name": "Martin Fowler", "url": "https://martinfowler.com/feed.atom", "enabled": true, "fragile": false },
+      { "id": "freecodecamp", "name": "freeCodeCamp", "url": "https://www.freecodecamp.org/news/rss/", "enabled": true, "fragile": false },
+      { "id": "a-list-apart", "name": "A List Apart", "url": "https://alistapart.com/main/feed/", "enabled": true, "fragile": false },
+      { "id": "julia-evans", "name": "Julia Evans", "url": "https://jvns.ca/atom.xml", "enabled": true, "fragile": false },
+      { "id": "dan-luu", "name": "Dan Luu", "url": "https://danluu.com/atom.xml", "enabled": true, "fragile": false },
+      { "id": "pragmatic-engineer", "name": "The Pragmatic Engineer", "url": "https://newsletter.pragmaticengineer.com/feed", "enabled": true, "fragile": false },
+      { "id": "lilian-weng", "name": "Lil'Log (Lilian Weng)", "url": "https://lilianweng.github.io/index.xml", "enabled": true, "fragile": false },
+      { "id": "eugene-yan", "name": "Eugene Yan", "url": "https://eugeneyan.com/rss/", "enabled": true, "fragile": false },
+      { "id": "ahead-of-ai", "name": "Ahead of AI (Sebastian Raschka)", "url": "https://magazine.sebastianraschka.com/feed", "enabled": true, "fragile": false },
+      { "id": "bytebytego", "name": "ByteByteGo", "url": "https://blog.bytebytego.com/feed", "enabled": true, "fragile": false },
+      { "id": "cloudflare-blog", "name": "Cloudflare Blog", "url": "https://blog.cloudflare.com/rss/", "enabled": true, "fragile": false },
+      { "id": "josh-comeau", "name": "Josh W. Comeau", "url": "https://www.joshwcomeau.com/rss.xml", "enabled": true, "fragile": false },
+      { "id": "overreacted", "name": "Overreacted", "url": "https://overreacted.io/rss.xml", "enabled": true, "fragile": false },
+      { "id": "stackoverflow-blog", "name": "Stack Overflow Blog", "url": "https://stackoverflow.blog/feed/", "enabled": true, "fragile": false },
+      { "id": "lethain", "name": "Irrational Exuberance (Will Larson)", "url": "https://lethain.com/feeds.xml", "enabled": true, "fragile": false },
+      { "id": "latent-space", "name": "Latent Space", "url": "https://www.latent.space/feed", "enabled": true, "fragile": false },
+      { "id": "mdn-blog", "name": "MDN Blog", "url": "https://developer.mozilla.org/en-US/blog/rss.xml", "enabled": true, "fragile": false },
+      { "id": "web-dev", "name": "web.dev", "url": "https://web.dev/static/blog/feed.xml", "enabled": true, "fragile": false }
+    ]
   }
 }
