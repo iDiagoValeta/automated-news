@@ -11,6 +11,7 @@ import { providerCredentialPresent, resolveProviderChain, resolveProviderName } 
 import type { ReposInput } from "./curate/index.ts";
 import { excludeRecentRepos, loadRecentRepoNames } from "./curate/repos.ts";
 import { error, log, warn } from "./log.ts";
+import { MIN_ITEMS } from "./validate.ts";
 
 /** Fecha de la edición en zona Europe/Madrid, formato YYYY-MM-DD. */
 function madridDate(now: Date): string {
@@ -130,8 +131,10 @@ async function main(): Promise<void> {
     return;
   }
 
-  if (items.length < 8) {
-    throw new Error(`Solo ${items.length} ítems normalizados; se necesitan al menos 8. No se publica.`);
+  if (items.length < MIN_ITEMS) {
+    throw new Error(
+      `Solo ${items.length} ítems normalizados; se necesitan al menos ${MIN_ITEMS}. No se publica.`,
+    );
   }
 
   // Enriquecimiento: leer el artículo real de los candidatos con más señal.

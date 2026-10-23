@@ -12,6 +12,13 @@ const ajv = new Ajv({ allErrors: true, strict: false });
 addFormats(ajv);
 const validateSchema = ajv.compile(schema);
 
+/**
+ * Mínimo de noticias por edición. Vive aquí, junto al esquema que lo aplica,
+ * para que el umbral del pipeline y el prompt no diverjan de `minItems` en
+ * silencio (un 8 en tres sitios son tres oportunidades de desincronizarse).
+ */
+export const MIN_ITEMS = 8;
+
 export interface ValidationResult {
   ok: boolean;
   errors: string[];

@@ -34,3 +34,15 @@ test("un entero no positivo falla nombrando el campo", () => {
   cfg.window_hours = 0;
   assert.throws(() => validateSourcesConfig(cfg), /window_hours/);
 });
+
+test("hackernews ausente falla nombrando la sección", () => {
+  const cfg = validConfig();
+  delete cfg.hackernews;
+  assert.throws(() => validateSourcesConfig(cfg), /hackernews/);
+});
+
+test("enabled no booleano en hackernews falla nombrando sección y campo", () => {
+  const cfg = validConfig();
+  (cfg.hackernews as Record<string, unknown>).enabled = "false";
+  assert.throws(() => validateSourcesConfig(cfg), /hackernews\/enabled/);
+});

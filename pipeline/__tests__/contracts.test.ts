@@ -2,6 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
+import { MIN_ITEMS } from "../validate.ts";
 
 // Contrato editorial compartido: el prompt y el esquema no pueden divergir.
 const PROMPT = readFileSync(
@@ -30,10 +31,12 @@ const SCHEMA = JSON.parse(
   };
 };
 
-test("el mínimo de ítems del prompt coincide con minItems del esquema", () => {
+test("el mínimo de ítems del prompt, del esquema y del pipeline coincide", () => {
   const match = PROMPT.match(/mínimo de (\d+)/);
   assert.ok(match, "el prompt debe declarar un mínimo explícito");
   assert.equal(Number(match[1]), SCHEMA.properties.items.minItems);
+  assert.equal(MIN_ITEMS, SCHEMA.properties.items.minItems);
+  assert.equal(Number(match[1]), MIN_ITEMS);
   assert.equal(SCHEMA.properties.items.minItems, 8);
 });
 

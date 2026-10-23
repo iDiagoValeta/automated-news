@@ -9,11 +9,62 @@ const Ajv = require("ajv");
 const ajv = new Ajv({ allErrors: true, strict: false });
 
 /**
- * Mini-esquema de los campos que el pipeline consume de verdad. No cierra el
- * objeto (`additionalProperties`) porque sources.json irá creciendo con más
- * secciones; el contrato es no dejar pasar un tipo que cambie el
- * comportamiento en silencio (un `enrich_top: "8"` enriquece 0 ítems).
+ * Mini-esquema de los campos que el pipeline consume de verdad. La raíz no se
+ * cierra (`additionalProperties`) porque sources.json irá creciendo con más
+ * secciones, pero las que el pipeline lee sí se exigen y se tipan: el contrato
+ * es no dejar pasar un tipo que cambie el comportamiento en silencio (un
+ * `enrich_top: "8"` enriquece 0 ítems, un `"enabled": "false"` no desactiva
+ * nada). Mismo motivo dentro de `rss`: un `url` ausente deja la fuente rota.
  */
+const RSS_ITEM_SCHEMA = {
+  type: "object",
+  required: ["id", "name", "url", "enabled", "fragile"],
+  properties: {
+    id: { type: "string" },
+    name: { type: "string" },
+    url: { type: "string", minLength: 1 },
+    enabled: { type: "boolean" },
+    fragile: { type: "boolean" },
+  },
+};
+
+const HACKERNEWS_SCHEMA = {
+  type: "object",
+  required: ["id", "name", "enabled", "min_points", "queries"],
+  properties: {
+    id: { type: "string" },
+    name: { type: "string" },
+    enabled: { type: "boolean" },
+    min_points: { type: "integer", minimum: 0 },
+    queries: { type: "array", items: { type: "string" } },
+  },
+};
+
+const HUGGINGFACE_TRENDING_SCHEMA = {
+  type: "object",
+  required: ["id", "name", "enabled", "limit"],
+  properties: {
+    id: { type: "string" },
+    name: { type: "string" },
+    enabled: { type: "boolean" },
+    limit: { type: "integer", minimum: 1 },
+  },
+};
+
+const GITHUB_TRENDING_SCHEMA = {
+  type: "object",
+  required: ["id", "name", "enabled", "since", "limit", "pick"],
+  properties: {
+    id: { type: "string" },
+    name: { type: "string" },
+    enabled: { type: "boolean" },
+    since: { type: "string", enum: ["daily", "weekly", "monthly"] },
+    limit: { type: "integer", minimum: 1 },
+    pick: { type: "integer", minimum: 1 },
+    min_parse_alert: { type: "integer", minimum: 1 },
+  },
+};
+
 const CONFIG_SCHEMA = {
   type: "object",
   required: [
@@ -23,6 +74,9 @@ const CONFIG_SCHEMA = {
     "enrich_top",
     "enrich_timeout_ms",
     "rss",
+    "hackernews",
+    "huggingface_trending",
+    "github_trending",
   ],
   properties: {
     timeout_ms: { type: "integer", minimum: 1 },
@@ -30,7 +84,10 @@ const CONFIG_SCHEMA = {
     candidate_cap: { type: "integer", minimum: 1 },
     enrich_top: { type: "integer", minimum: 1 },
     enrich_timeout_ms: { type: "integer", minimum: 1 },
-    rss: { type: "array" },
+    rss: { type: "array", items: RSS_ITEM_SCHEMA },
+    hackernews: HACKERNEWS_SCHEMA,
+    huggingface_trending: HUGGINGFACE_TRENDING_SCHEMA,
+    github_trending: GITHUB_TRENDING_SCHEMA,
     blocked_domains: { type: "array", items: { type: "string" } },
   },
   additionalProperties: true,
