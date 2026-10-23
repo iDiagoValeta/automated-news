@@ -167,7 +167,7 @@ El digest tiene `date`, `generated_at`, `provider`, un array `items` (de 8 a 20 
 | Menos de 8 ítems normalizados (`MIN_ITEMS`) | Aborta sin publicar. |
 | No se enriquece ningún artículo | Aviso; se usan los snippets. |
 | Curación no valida o cae la red | Reintenta (3, con backoff de 2 s y 4 s si el error es reintentable) y, si hay credencial, prueba el otro proveedor. Si ambos fallan, aborta con exit 1. |
-| GitHub Trending parsea < umbral con HTTP 200 | Aviso + issue automático; se sigue con lo parseado o el fallback. |
+| GitHub Trending parsea < umbral con HTTP 200 | Aviso; se intenta la Search API y se usa si da más repos. Solo si no rescata la sección se abre el issue automático y se publica lo parseado. |
 | Posts sociales fallan | La edición se publica sin posts. |
 | Repos hot fallan (scraping y API) | La edición se publica sin la sección. |
 | Sin credencial del proveedor | No se genera edición nueva; se conserva la última. |

@@ -6,11 +6,12 @@ import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   chooseTrendingResult,
+  collectGithubTrending,
   flagTrendingParseAlert,
   parseTrending,
   trendingParseLooksBroken,
 } from "../sources/github.ts";
-import type { RepoRaw } from "../types.ts";
+import type { GithubTrendingConfig, RepoRaw, SourcesConfig } from "../types.ts";
 
 const html = readFileSync(fileURLToPath(new URL("./fixtures/github-trending.html", import.meta.url)), "utf8");
 
@@ -155,6 +156,168 @@ test("flagTrendingParseAlert escribe GITHUB_OUTPUT cuando existe", () => {
   } finally {
     if (prev === undefined) delete process.env.GITHUB_OUTPUT;
     else process.env.GITHUB_OUTPUT = prev;
+  }
+});
+
+// ---- Flujo completo de collectGithubTrending, sin red real ----
+
+const trendingSnapshotHtml = readFileSync(
+  fileURLToPath(new URL("./fixtures/github-trending.snapshot.html", import.meta.url)),
+  "utf8",
+);
+
+// Primeros dos <article class="Box-row"> con repo del snapshot: parseo parcial
+// (2 < umbral 5). El comentario inicial del fixture contiene la misma cadena,
+// así que se descartan los bloques sin <h2> antes de recortar.
+function partialTrendingHtml(): string {
+  const blocks = trendingSnapshotHtml
+    .split('<article class="Box-row">')
+    .slice(1)
+    .map((b) => b.slice(0, b.indexOf("</article>")))
+    .filter((b) => /<h2[^>]*>[\s\S]*?href="\//.test(b))
+    .slice(0, 2);
+  return blocks.map((b) => `<article class="Box-row">${b}</article>`).join("\n");
+}
+
+// El flujo solo usa user_agent y timeout_ms; el resto de SourcesConfig no aplica.
+const sourcesCfg = { user_agent: "test-agent", timeout_ms: 1000 } as SourcesConfig;
+const githubCfg: GithubTrendingConfig = {
+  id: "github_trending",
+  name: "GitHub Trending",
+  enabled: true,
+  since: "daily",
+  limit: 10,
+  pick: 3,
+  min_parse_alert: 5,
+};
+
+function searchItems(count: number): unknown[] {
+  return Array.from({ length: count }, (_, i) => ({
+    full_name: `api/repo-${i + 1}`,
+    html_url: `https://github.com/api/repo-${i + 1}`,
+    description: `Repositorio de prueba ${i + 1}`,
+    language: "TypeScript",
+    stargazers_count: 1000 - i,
+  }));
+}
+
+function htmlResponse(body: string): Response {
+  return new Response(body, { status: 200, headers: { "Content-Type": "text/html" } });
+}
+
+function jsonResponse(body: unknown, status = 200): Response {
+  return new Response(JSON.stringify(body), {
+    status,
+    headers: { "Content-Type": "application/json" },
+  });
+}
+
+interface FetchStub {
+  calls: string[];
+  restore: () => void;
+}
+
+// Sustituye el fetch global solo durante el test; restore() lo devuelve al original.
+function stubFetch(respond: (url: string) => Response): FetchStub {
+  const realFetch = globalThis.fetch;
+  const calls: string[] = [];
+  globalThis.fetch = (async (input: string | URL | Request, _init?: RequestInit) => {
+    const url = typeof input === "string" ? input : input instanceof URL ? input.href : input.url;
+    calls.push(url);
+    return respond(url);
+  }) as typeof fetch;
+  return {
+    calls,
+    restore: () => {
+      globalThis.fetch = realFetch;
+    },
+  };
+}
+
+// Prepara un GITHUB_OUTPUT temporal, ejecuta el flujo y devuelve lo escrito.
+async function withGithubOutput(run: () => Promise<void>): Promise<string> {
+  const dir = mkdtempSync(join(tmpdir(), "trending-flow-"));
+  const out = join(dir, "github-output");
+  appendFileSync(out, "");
+  const prev = process.env.GITHUB_OUTPUT;
+  process.env.GITHUB_OUTPUT = out;
+  try {
+    await run();
+    return readFileSync(out, "utf8");
+  } finally {
+    if (prev === undefined) delete process.env.GITHUB_OUTPUT;
+    else process.env.GITHUB_OUTPUT = prev;
+  }
+}
+
+test("collectGithubTrending no alerta si la Search API rescata el parseo parcial", async () => {
+  const stub = stubFetch((url) => {
+    if (url.includes("github.com/trending")) return htmlResponse(partialTrendingHtml());
+    if (url.includes("api.github.com/search/repositories")) {
+      return jsonResponse({ items: searchItems(10) });
+    }
+    throw new Error(`URL inesperada: ${url}`);
+  });
+  try {
+    const body = await withGithubOutput(async () => {
+      const repos = await collectGithubTrending(sourcesCfg, githubCfg);
+      assert.equal(repos.length, 10);
+      assert.equal(repos[0].name, "api/repo-1");
+      assert.equal(repos[9].name, "api/repo-10");
+      // La Search API no da estrellas del periodo.
+      assert.equal(repos[0].stars_today, 0);
+    });
+
+    assert.equal(stub.calls.length, 2);
+    assert.match(stub.calls[0], /github\.com\/trending/);
+    assert.match(stub.calls[1], /api\.github\.com\/search\/repositories/);
+    assert.doesNotMatch(body, /trending_parse_alert=true/);
+  } finally {
+    stub.restore();
+  }
+});
+
+test("collectGithubTrending alerta si la Search API falla y quedan los parciales", async () => {
+  const stub = stubFetch((url) => {
+    if (url.includes("github.com/trending")) return htmlResponse(partialTrendingHtml());
+    if (url.includes("api.github.com/search/repositories")) {
+      return jsonResponse({ message: "boom" }, 500);
+    }
+    throw new Error(`URL inesperada: ${url}`);
+  });
+  try {
+    const body = await withGithubOutput(async () => {
+      const repos = await collectGithubTrending(sourcesCfg, githubCfg);
+      assert.equal(repos.length, 2);
+      assert.deepEqual(
+        repos.map((r) => r.name),
+        ["cloudflare/security-audit-skill", "anthropics/claude-code"],
+      );
+    });
+
+    assert.equal(stub.calls.length, 2);
+    assert.match(body, /trending_parse_alert=true/);
+  } finally {
+    stub.restore();
+  }
+});
+
+test("collectGithubTrending no llama a la Search API ni alerta con un scraping sano", async () => {
+  const stub = stubFetch((url) => {
+    if (url.includes("github.com/trending")) return htmlResponse(trendingSnapshotHtml);
+    throw new Error(`llamada inesperada a ${url}`);
+  });
+  try {
+    const body = await withGithubOutput(async () => {
+      const repos = await collectGithubTrending(sourcesCfg, githubCfg);
+      assert.ok(repos.length >= 5, `esperaba ≥5 repos, obtuve ${repos.length}`);
+    });
+
+    assert.equal(stub.calls.length, 1);
+    assert.match(stub.calls[0], /github\.com\/trending/);
+    assert.doesNotMatch(body, /trending_parse_alert=true/);
+  } finally {
+    stub.restore();
   }
 });
 

@@ -177,13 +177,12 @@ export async function collectGithubTrending(
 
   const looksBroken = trendingParseLooksBroken(parsed.length, minAlert);
   // fetchText solo devuelve el cuerpo si el status fue 200 (u otro 2xx), así
-  // que una alerta aquí significa markup posiblemente cambiado, no un fallo de red.
+  // que un aviso aquí significa markup posiblemente cambiado, no un fallo de red.
   if (!scrapeFailed && looksBroken) {
     warn(
       `GitHub trending: HTML 200 pero solo ${parsed.length} repos parseados ` +
         `(umbral ${minAlert}). El markup puede haber cambiado.`,
     );
-    flagTrendingParseAlert();
   }
 
   const choice = await chooseTrendingResult(parsed, minAlert, async () => {
@@ -200,7 +199,13 @@ export async function collectGithubTrending(
     }
   });
 
-  if (choice.source === "search-api") {
+  // La alerta (issue automático) solo cuando la Search API no rescató la
+  // sección: si la rescata, la edición sale bien y el issue sería ruido.
+  if (!scrapeFailed && looksBroken && choice.source !== "search-api") flagTrendingParseAlert();
+
+  if (choice.source === "none") {
+    warn("GitHub trending: ni el scraping ni la Search API dieron repos; la edición irá sin sección.");
+  } else if (choice.source === "search-api") {
     log(
       `GitHub trending: se usan ${choice.repos.length} repos de la Search API ` +
         `(el scraping dio ${parsed.length}).`,
