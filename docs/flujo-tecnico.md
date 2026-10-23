@@ -33,7 +33,7 @@ Fichero: `.github/workflows/daily.yml`.
 
 - **Crons.** GitHub solo entiende UTC y puede retrasar u omitir ejecuciones cuando tiene carga. El workflow programa cinco intentos horarios, de `10:15` a `14:15` UTC (12:15–16:15 en verano, 11:15–15:15 en invierno), ya en tarifa valle de DeepSeek (fuera de 01:00–04:00 y 06:00–10:00 UTC). El guardián y la idempotencia hacen que solo el primero válido publique.
 - **Guardián de hora.** El paso `guard` usa la hora UTC y solo deja continuar el `schedule` (`run=true`) si son las 10:00 o más, para no generar en pico aunque GitHub dispare pronto. Un disparo manual (`workflow_dispatch`) se ejecuta sin comprobar la hora. A esa hora, la fecha civil en `Europe/Madrid` es siempre el día que toca.
-- **Idempotencia.** El orquestador aborta pronto si ya existe `data/<hoy>.json` (fecha en Madrid; ver la sección de curación). El commit de la edición solo se crea si hay cambios en `data/`, así que dos crons el mismo día no publican dos veces.
+- **Idempotencia.** El orquestador aborta pronto si ya existe `data/<hoy>.json` escrito entero (fecha en Madrid; ver la sección de curación). El commit de la edición solo se crea si hay cambios en `data/`, así que dos crons el mismo día no publican dos veces.
 - **Entrada manual `skip_pipeline`.** Reconstruye y despliega el sitio sin regenerar la edición (salta el paso del pipeline y va directo al build).
 - **Permisos y concurrencia.** El job pide `contents: write`, `pages: write`, `id-token: write` e `issues: write`, y usa un grupo de `concurrency` para no solaparse consigo mismo. Si algún paso falla, un paso final abre un issue con enlace al run.
 
@@ -116,7 +116,7 @@ Tras una curación válida, `attachSocial()` genera el texto para X y LinkedIn d
 - **Una llamada por noticia o repositorio**, en paralelo acotado (lotes de 5, `mapPool`). El fallo es granular: si un elemento falla, los demás igual obtienen sus posts.
 - El modelo devuelve, por noticia, `hook_x`, `hook_linkedin` y `hashtags`. El gancho va como primera línea (lo que frena el scroll).
 - **Ensamblado para X** (`assembleX`): texto plano (las letras Unicode en negrita cuentan doble en X). El gancho es el post; si no cabe en 280 contando la URL como 23, primero se sueltan los hashtags y luego se recorta el gancho.
-- **Ensamblado para LinkedIn** (`assembleLinkedIn`): tope de 3000 caracteres, el máximo del schema (X admite 600 en el schema, aunque el ensamblado real recorta a 280 contando la URL como 23). El gancho abre y la idea clave marcada por el modelo con `**...**` se convierte a negrita Unicode (`applyBold`, `boldSans`), porque LinkedIn no renderiza markdown. Si el post resultante supera los 3000, se omite el bloque `social` de esa noticia o repo y se registra un aviso, para no publicar un JSON inválido.
+- **Ensamblado para LinkedIn** (`assembleLinkedIn`): tope de 3000 caracteres, el máximo del schema. X recorta a 280 contando la URL como 23 y el schema admite 600 caracteres reales; si una URL muy larga lo supera, se omite el bloque `social` igual que con LinkedIn. El gancho abre y la idea clave marcada por el modelo con `**...**` se convierte a negrita Unicode (`applyBold`, `boldSans`), porque LinkedIn no renderiza markdown. Si el post resultante supera los 3000, se omite el bloque `social` de esa noticia o repo y se registra un aviso, para no publicar un JSON inválido.
 - El texto se guarda en `item.social` / `repo.social`. La web lo abre con web intents; no se publica por API.
 
 ## 9. Paso 6: Repositorios hot
@@ -133,7 +133,7 @@ Sección independiente de las noticias, también **best effort**.
 
 Ficheros: `pipeline/index.ts`, `eleventy.config.mjs`, `site/_data/editions.js`, `site/_includes/`, `site/*.njk`.
 
-- El orquestador escribe `data/YYYY-MM-DD.json` con `writeFileSync`.
+- El orquestador escribe `data/YYYY-MM-DD.json` de forma atómica (`writeFileAtomic`: temporal y `rename`).
 - **Eleventy** (`pnpm run build`) lee todas las ediciones vía `site/_data/editions.js`, que ordena los ítems de cada edición por `rank`, ordena las ediciones de más reciente a más antigua y calcula número, rutas y vecinos.
 - Las plantillas Nunjucks renderizan el sitio. `site/_includes/edicion.njk` compone la edición de noticias (el destacado `items[0]` más la rejilla de noticias) y `archivo.njk` el histórico de ediciones. `eleventy.config.mjs` aporta los filtros de fecha en español, el separador de miles y `shareModel` (web intents).
 - **Web intents.** Donde ya se muestran los posts (`share.njk` en noticias y repos), X abre `https://x.com/intent/post?text=...` y LinkedIn el compositor del feed (`shareActive` + `text`). LinkedIn no documenta un intent con cuerpo arbitrario (su `share-offsite` solo admite URL); el botón de copiar deja pegar el texto si el feed no lo precarga. Sin texto social no se pintan botones.
@@ -171,7 +171,7 @@ El digest tiene `date`, `generated_at`, `provider`, un array `items` (de 8 a 20 
 | Posts sociales fallan | La edición se publica sin posts. |
 | Repos hot fallan (scraping y API) | La edición se publica sin la sección. |
 | Sin credencial del proveedor | No se genera edición nueva; se conserva la última. |
-| Ya existe la edición de hoy | No se hace nada (idempotencia). |
+| Ya existe la edición de hoy escrita entera | No se hace nada (idempotencia). Si está truncada, se regenera. |
 
 ## 14. Ejecución local
 

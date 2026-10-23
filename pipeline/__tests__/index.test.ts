@@ -43,7 +43,7 @@ test("checkExistingDigest rechaza un JSON truncado y permite regenerar", () => {
   assert.match(status.reason, /JSON/i);
 });
 
-test("checkExistingDigest rechaza un JSON completo que no pasa el schema", () => {
+test("checkExistingDigest rechaza un JSON completo sin ítems", () => {
   const path = join(tempDir(), "2026-10-24.json");
   writeFileSync(
     path,

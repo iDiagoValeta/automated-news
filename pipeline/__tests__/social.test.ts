@@ -128,3 +128,11 @@ test("attachRepoSocial omite el repo si el post de LinkedIn pasa de 3000 caracte
   await attachRepoSocial(socialProvider("L".repeat(3100)), digest);
   assert.equal(repos[0].social, undefined);
 });
+
+test("attachSocial omite la noticia si X pasa de 600 caracteres reales por una URL muy larga", async () => {
+  // assembleX cuenta la URL como 23: con una URL enorme el post cabe en X pero no en el schema.
+  const digest = newsDigest();
+  digest.items[0].url = `https://example.com/${"a".repeat(700)}`;
+  await attachSocial(socialProvider("Gancho breve."), digest);
+  assert.equal(digest.items[0].social, undefined);
+});

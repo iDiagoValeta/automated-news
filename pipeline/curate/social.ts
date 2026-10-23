@@ -9,6 +9,9 @@ const REPOS_SOCIAL_PROMPT_PATH = fileURLToPath(new URL("../../prompts/repos-soci
 const X_LIMIT = 280;
 const URL_WEIGHT = 23; // X cuenta cualquier enlace como 23 caracteres (t.co).
 const LINKEDIN_LIMIT = 3000; // Tope del schema: sin él, un post enorme acaba en data/ y en la web.
+// Tope del schema para X en caracteres reales: assembleX cuenta la URL como 23,
+// así que una URL muy larga puede pasarlo aunque el post quepa en X.
+const X_SCHEMA_LIMIT = 600;
 const POOL = 5; // Llamadas al modelo en paralelo (una por noticia / repo).
 
 /** Convierte ASCII (letras y dígitos) a su variante Unicode "sans-serif bold". */
@@ -133,18 +136,14 @@ export async function attachSocial(provider: Provider, digest: Digest): Promise<
       const hookX = (typeof p.hook_x === "string" ? p.hook_x : item.why_it_matters).trim();
       const hookLi = (typeof p.hook_linkedin === "string" ? p.hook_linkedin : item.summary).trim();
       const linkedin = assembleLinkedIn(hookLi, hashtags, item.url);
-      // El schema exige x y linkedin juntos: si el de LinkedIn no cabe, se
-      // omite el social entero de esa noticia en vez de publicar un JSON inválido.
-      if (cpLen(linkedin) > LINKEDIN_LIMIT) {
-        warn(
-          `Posts sociales: LinkedIn del rank ${item.rank} supera ${LINKEDIN_LIMIT} caracteres; se omite.`,
-        );
+      const x = assembleX(hookX, hashtags, item.url);
+      // El schema exige x y linkedin juntos: si alguno no cabe, se omite el
+      // social entero de esa noticia en vez de publicar un JSON inválido.
+      if (cpLen(linkedin) > LINKEDIN_LIMIT || cpLen(x) > X_SCHEMA_LIMIT) {
+        warn(`Posts sociales: el rank ${item.rank} supera el tope del schema en X o LinkedIn; se omite.`);
         return;
       }
-      item.social = {
-        x: assembleX(hookX, hashtags, item.url),
-        linkedin,
-      };
+      item.social = { x, linkedin };
       count++;
     } catch (e) {
       warn(`Posts sociales: falló la noticia rank ${item.rank}; se omite.`, String(e));
@@ -173,16 +172,12 @@ export async function attachRepoSocial(provider: Provider, digest: Digest): Prom
       const hookX = (typeof p.hook_x === "string" ? p.hook_x : repo.description).trim();
       const hookLi = (typeof p.hook_linkedin === "string" ? p.hook_linkedin : repo.description).trim();
       const linkedin = assembleLinkedIn(hookLi, hashtags, repo.url);
-      if (cpLen(linkedin) > LINKEDIN_LIMIT) {
-        warn(
-          `Posts sociales (repo): LinkedIn de ${repo.name} supera ${LINKEDIN_LIMIT} caracteres; se omite.`,
-        );
+      const x = assembleX(hookX, hashtags, repo.url);
+      if (cpLen(linkedin) > LINKEDIN_LIMIT || cpLen(x) > X_SCHEMA_LIMIT) {
+        warn(`Posts sociales (repo): ${repo.name} supera el tope del schema en X o LinkedIn; se omite.`);
         return;
       }
-      repo.social = {
-        x: assembleX(hookX, hashtags, repo.url),
-        linkedin,
-      };
+      repo.social = { x, linkedin };
       count++;
     } catch (e) {
       warn(`Posts sociales (repo): falló ${repo.name}; se omite.`, String(e));
