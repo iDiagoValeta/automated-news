@@ -11,8 +11,15 @@ name: Auto-merge de Dependabot
 # no puede dar bypass a la integración de Actions. Así que la espera vive en el
 # workflow y la protección de main no se toca.
 #
-# Qué puede entrar solo: parches, menores y las actualizaciones de Actions. Los
-# mayores no: cambian una API, y eso es una decisión de release.
+# Qué puede entrar solo: parches y menores, sea npm o Actions. Los mayores no:
+# cambian una API, y eso es una decisión de release.
+#
+# Ojo con las Actions que solo usa daily.yml (github-script, configure-pages,
+# upload-pages-artifact y deploy-pages): el check `verificar` no las ejecuta, así
+# que un salto suyo que rompa algo no lo vería el CI. Aun así sus parches y
+# menores se mergean solos, igual que los del resto: el riesgo se acepta porque
+# si rompen, la edición diaria falla y abre issue, que es el aviso que hace
+# falta. Sus mayores esperan a una persona, como los de cualquier dependencia.
 
 on:
   pull_request:
@@ -20,6 +27,11 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  # `gh pr checks` consulta el statusCheckRollup por GraphQL, y esa consulta
+  # resuelve checkSuites, statuses y el workflowRun de cada check.
+  checks: read
+  statuses: read
+  actions: read
 
 jobs:
   auto-merge:
@@ -28,43 +40,66 @@ jobs:
       github.event.pull_request.user.login == 'dependabot[bot]'
       && github.repository == 'iDiagoValeta/automated-news'
     runs-on: ubuntu-latest
-    # Un check colgado no puede quedarse con el runner: pasado el tope, el job
-    # muere y el PR sigue abierto, que es el estado seguro.
-    timeout-minutes: 20
+    # Tope de seguridad del job, no del paso de espera: el bucle de abajo sale en
+    # rojo mucho antes si `verificar` no llega a verde, y el PR queda abierto.
+    timeout-minutes: 25
     steps:
       - name: Leer los metadatos del salto
         id: meta
         uses: dependabot/fetch-metadata@v3
 
       - name: Esperar a que el check esté en verde
-        # Un update-type vacío es metadato que la acción no ha sabido leer: no se
-        # mergea, porque aquí nadie sabe qué es el salto.
+        # Un update-type vacío no coincide con ninguna de las dos ramas: es
+        # metadato que la acción no ha sabido leer, y aquí nadie sabe qué salto es.
         if: >-
-          steps.meta.outputs.update-type != ''
-          && (steps.meta.outputs.package-ecosystem == 'github_actions'
-          || steps.meta.outputs.update-type == 'version-update:semver-patch'
-          || steps.meta.outputs.update-type == 'version-update:semver-minor')
+          steps.meta.outputs.update-type == 'version-update:semver-patch'
+          || steps.meta.outputs.update-type == 'version-update:semver-minor'
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Los checks tardan unos segundos en aparecer y --watch falla si la
-          # lista aún está vacía: primero se espera a que exista alguno.
-          for _ in $(seq 1 30); do
-            total=$(gh pr checks "$PR_URL" --json bucket -q 'length' 2>/dev/null || echo 0)
-            [ "$total" != "0" ] && break
-            sleep 10
+          # Sólo el check `verificar` de ci.yml. Esperar a todos con --watch se
+          # bloquea, porque este mismo job es un check del PR y no puede acabar
+          # mientras espera.
+          #
+          # 60 vueltas de 15 s son 15 min: queda margen bajo el tope de 25 min
+          # del job para las llamadas a gh y el arranque del runner, y falla con
+          # un mensaje propio en vez de morir por timeout.
+          for _ in $(seq 1 60); do
+            # Sin silenciar stderr: si gh falla (permisos, red), el log lo dice
+            # en vez de hacerlo pasar por «el check aún no aparece».
+            estado=$(gh pr checks "$PR_URL" --json name,bucket \
+              -q '.[] | select(.name == "verificar") | .bucket' || true)
+            # Un re-run deja varios check runs `verificar`: manda el peor estado.
+            if printf '%s\n' "$estado" | grep -qE '^(fail|cancel|skipping)$'; then
+              estado=$(printf '%s\n' "$estado" | grep -m1 -E '^(fail|cancel|skipping)$')
+            elif printf '%s\n' "$estado" | grep -qx pending; then
+              estado=pending
+            elif printf '%s\n' "$estado" | grep -qx pass; then
+              estado=pass
+            fi
+            case "$estado" in
+              pass)
+                echo "El check verificar está en verde."
+                exit 0
+                ;;
+              fail|cancel|skipping)
+                echo "El check verificar no está en verde ($estado)."
+                exit 1
+                ;;
+              *)
+                echo "Esperando al check verificar (estado: ${estado:-aún no aparece})."
+                sleep 15
+                ;;
+            esac
           done
-          # --fail-fast corta en cuanto un check falla, así que el paso siguiente
-          # no llega a ejecutarse con el CI en rojo.
-          gh pr checks "$PR_URL" --watch --fail-fast --interval 15
+          echo "El check verificar no ha llegado a verde en 15 min."
+          exit 1
 
       - name: Mergear y borrar la rama
         if: >-
-          steps.meta.outputs.update-type != ''
-          && (steps.meta.outputs.package-ecosystem == 'github_actions'
-          || steps.meta.outputs.update-type == 'version-update:semver-patch'
-          || steps.meta.outputs.update-type == 'version-update:semver-minor')
+          steps.meta.outputs.update-type == 'version-update:semver-patch'
+          || steps.meta.outputs.update-type == 'version-update:semver-minor'
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
