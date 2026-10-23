@@ -86,6 +86,44 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: pnpm run pipeline
 
+      # Se publica solo si el contenido del repo no coincide con el del sitio.
+      #
+      # Mirar si cambió data/ no bastaba: un deploy que falla después del
+      # commit deja el sitio atrás para siempre, porque los crons siguientes
+      # encuentran data/ limpio y no reintentan; un cambio de la web mergeado a
+      # main no toca data/ y no se publicaría nunca; y un pipeline sin
+      # credencial sale en verde sin escribir data/, así que tampoco publicaría.
+      # La huella es del contenido del árbol, no de los commits, así que
+      # commitear la edición no la altera: solo difiere cuando el sitio
+      # publicado está realmente atrás. Un cron encolado que llega tarde
+      # encuentra la huella igual y no reconstruye; el primer run que llega tras
+      # un deploy fallido ve la diferencia y reintenta de verdad.
+      - name: ¿Está el sitio al día?
+        id: despliegue
+        if: steps.guard.outputs.run == 'true'
+        run: |
+          set -euo pipefail
+          # Solo ficheros presentes: ls-files -c lista el índice, y un versionado
+          # borrado del disco haría fallar sha256sum y, con pipefail, el paso.
+          huella=$(git ls-files -z -co --exclude-standard | sort -z \
+            | while IFS= read -r -d '' f; do [ -f "$f" ] && printf '%s\0' "$f"; done \
+            | xargs -0 sha256sum | sha256sum | cut -c1-16)
+          publicada=""
+          if publicada=$(curl -sfL --max-time 20 "https://idiagovaleta.github.io/automated-news/version.txt"); then
+            publicada=$(printf '%s' "$publicada" | tr -d '[:space:]')
+          else
+            echo "No se pudo leer version.txt del sitio (aún no existe o no responde): se trata como distinto."
+            publicada=""
+          fi
+          echo "huella=$huella" >> "$GITHUB_OUTPUT"
+          if [ "$huella" != "$publicada" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "hacer=true" >> "$GITHUB_OUTPUT"
+            echo "Contenido $huella, publicado ${publicada:-nada}: toca construir y desplegar."
+          else
+            echo "hacer=false" >> "$GITHUB_OUTPUT"
+            echo "Contenido $huella, publicado $publicada: el sitio ya está al día."
+          fi
+
       - name: Alerta si el parseo de GitHub Trending se rompe
         if: steps.guard.outputs.run == 'true' && steps.pipeline.outputs.trending_parse_alert == 'true'
         uses: actions/github-script@v9
@@ -120,11 +158,26 @@ jobs:
             });
 
       - name: Construir sitio (Eleventy)
-        if: steps.guard.outputs.run == 'true'
+        if: >-
+          steps.guard.outputs.run == 'true'
+          && steps.despliegue.outputs.hacer == 'true'
         run: pnpm run build
 
+      - name: Escribir la huella en el sitio
+        if: >-
+          steps.guard.outputs.run == 'true'
+          && steps.despliegue.outputs.hacer == 'true'
+        env:
+          HUELLA: ${{ steps.despliegue.outputs.huella }}
+        run: |
+          # version.txt viaja en el artefacto y es lo que lee el run siguiente
+          # para saber si el sitio publicado ya coincide con el repo.
+          printf '%s\n' "$HUELLA" > _site/version.txt
+
       - name: Commit de la edición del día
-        if: steps.guard.outputs.run == 'true'
+        if: >-
+          steps.guard.outputs.run == 'true'
+          && steps.despliegue.outputs.hacer == 'true'
         run: |
           git config user.name "deepseek-v4"
           git config user.email "actions@users.noreply.github.com"
@@ -140,18 +193,24 @@ jobs:
           fi
 
       - name: Configurar Pages
-        if: steps.guard.outputs.run == 'true'
+        if: >-
+          steps.guard.outputs.run == 'true'
+          && steps.despliegue.outputs.hacer == 'true'
         uses: actions/configure-pages@v6
 
       - name: Subir artefacto de Pages
-        if: steps.guard.outputs.run == 'true'
+        if: >-
+          steps.guard.outputs.run == 'true'
+          && steps.despliegue.outputs.hacer == 'true'
         uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
       - name: Desplegar en GitHub Pages
         id: deploy
-        if: steps.guard.outputs.run == 'true'
+        if: >-
+          steps.guard.outputs.run == 'true'
+          && steps.despliegue.outputs.hacer == 'true'
         uses: actions/deploy-pages@v5
 
       - name: Abrir issue si el workflow falla
@@ -159,11 +218,36 @@ jobs:
         uses: actions/github-script@v9
         with:
           script: |
+            // Fecha civil de Madrid, la misma con la que se fecha la edición: la
+            // UTC puede ir un día por delante o por detrás y duplicaría el issue
+            // en un fallo cerca de medianoche.
+            const fecha = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Madrid" }).format(new Date());
+            const title = `Fallo en la edición diaria (${fecha})`;
             const run = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            // Los cinco crons comparten fecha: un fallo persistente abriría un
+            // issue por reintento. Se abre uno y los siguientes dejan el enlace.
+            const { data: open } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              labels: "fallo-automatico",
+              per_page: 50,
+            });
+            const existente = open.find((i) => i.title === title);
+            if (existente) {
+              console.log("Ya hay un issue abierto para este fallo; se añade el run como comentario.");
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existente.number,
+                body: `Nuevo run fallido: ${run}`,
+              });
+              return;
+            }
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `Fallo en la edición diaria (${new Date().toISOString().slice(0,10)})`,
+              title,
               body: [
                 "El workflow **Edición diaria** ha fallado y no se ha publicado una edición nueva.",
                 "",

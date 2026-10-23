@@ -67,6 +67,10 @@ Al abrir un issue, elige el formulario que corresponda (Fallo, Fuente nueva o Me
 4. PR hacia `main`. Se rellena la plantilla [`pull_request_template.md`](.github/pull_request_template.md). En la descripción: qué cambia, por qué, y cómo se ha verificado (comandos ejecutados y resultado).
 5. Merge por squash para mantener el historial lineal, y borrado de la rama tras integrar.
 
+### Despliegue
+
+Mergear no publica al instante: el workflow diario construye y despliega cuando el contenido del repo no coincide con el que ya está publicado (lo comprueba con una huella). Un cambio mergeado a `main` aparece en el sitio en el siguiente cron del diario, o lanzando a mano el workflow diario con la opción «Solo reconstruir y desplegar».
+
 ### Checklist antes de abrir
 
 La checklist previa al PR vive solo en [`.github/pull_request_template.md`](.github/pull_request_template.md), que es su única copia.

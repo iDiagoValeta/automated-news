@@ -3,9 +3,12 @@ version: 2
 # Lo que toca el bot: el árbol npm de la raíz (Eleventy, ajv, rss-parser) y las
 # Actions de .github/workflows. No hay ningún otro ecosistema aquí.
 
-# Qué se mergea solo: parches, menores y Actions, cuando el check requerido de
-# main está en verde (auto-merge-dependabot.yml). Los mayores esperan a una
-# persona: cambian una API y eso es una decisión de release.
+# Qué se mergea solo: parches y menores, sea npm o Actions, cuando el check
+# `verificar` del PR está en verde. La espera la hace auto-merge-dependabot.yml
+# sobre el PR: main no tiene checks requeridos, porque daily.yml empuja la
+# edición del día directamente a main y un push así se rechazaría con ellos.
+# Los mayores esperan a una persona: cambian una API y eso es una decisión de
+# release.
 updates:
   - package-ecosystem: npm
     directory: /
@@ -26,6 +29,10 @@ updates:
       interval: weekly
       day: monday
     open-pull-requests-limit: 3
+    # Mismo reparto que en npm: sólo se agrupan menores y parches, que son los
+    # que el auto-merge puede dejar pasar. Los mayores llegan sueltos porque el
+    # grupo no los cubre y el workflow no los mergea.
     groups:
       actions:
         patterns: ["*"]
+        update-types: [minor, patch]
