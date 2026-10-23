@@ -23,7 +23,7 @@ permalink: "/semana/index.html"
             <a href="{{ row.path | url }}">
               <span class="archivo__fecha">{{ row.date | fechaCorta }}</span>
               <span class="archivo__lead">{{ row.item.title }}</span>
-              <span class="archivo__count">{{ row.item.category }}</span>
+              <span class="archivo__count">{{ row.item.category | categoria }}</span>
             </a>
           </li>
         {% endfor %}
