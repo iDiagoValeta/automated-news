@@ -4,6 +4,7 @@ import { searchDocs } from "./search.js";
 
 const base = new URL(import.meta.url).pathname.replace(/\/js\/paleta\.js.*$/, "");
 let index = null;
+let enCurso = null; // carga en vuelo, compartida entre llamadas concurrentes
 let dlg, input, lista, activo = 0, items = [];
 
 function fecha(ymd) {
@@ -12,15 +13,32 @@ function fecha(ymd) {
   return `${d} ${m[mm - 1]} ${y}`;
 }
 
+/**
+ * Carga el índice una sola vez. Las llamadas concurrentes comparten una única
+ * promesa: así una no puede fallar después de que otra haya cacheado el índice
+ * y pintar un error que ya no corresponde.
+ * Si falla devuelve `error: true` y NO cachea el fallo: el siguiente uso
+ * reintenta. Solo se cachea un array; cualquier otra cosa es error de carga.
+ */
 async function cargar() {
-  if (index) return index;
-  try {
-    const r = await fetch(`${base}/search-index.json`);
-    index = r.ok ? await r.json() : [];
-  } catch {
-    index = [];
+  if (index) return { docs: index, error: false };
+  if (!enCurso) {
+    enCurso = (async () => {
+      try {
+        const r = await fetch(`${base}/search-index.json`);
+        if (!r.ok) throw new Error(String(r.status));
+        const docs = await r.json();
+        if (!Array.isArray(docs)) throw new Error("el índice no es un array");
+        index = docs;
+        return { docs, error: false };
+      } catch {
+        return { docs: null, error: true };
+      } finally {
+        enCurso = null;
+      }
+    })();
   }
-  return index;
+  return enCurso;
 }
 
 function marcar(i) {
@@ -37,14 +55,22 @@ async function buscar() {
   if (!index && q.trim()) {
     lista.innerHTML = '<li class="paleta__esqueleto"></li>'.repeat(3);
   }
-  const res = searchDocs(await cargar(), q).slice(0, 8);
+  const { docs, error } = await cargar();
+  // La búsqueda más reciente manda: si el usuario escribió mientras llegaba el
+  // índice, esta respuesta ya no describe el contenido del input.
+  if (q !== input.value) return;
   lista.innerHTML = "";
   items = [];
   input.removeAttribute("aria-activedescendant");
+  if (error) {
+    lista.innerHTML = '<li class="paleta__vacio">No se pudo cargar el índice de búsqueda.</li>';
+    return;
+  }
   if (!q.trim()) {
     lista.innerHTML = '<li class="paleta__vacio">Escribe para buscar en el archivo.</li>';
     return;
   }
+  const res = searchDocs(docs, q).slice(0, 8);
   if (!res.length) {
     lista.innerHTML = `<li class="paleta__vacio">Sin resultados.</li>`;
     return;

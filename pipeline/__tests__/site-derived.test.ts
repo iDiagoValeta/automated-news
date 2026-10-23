@@ -8,6 +8,7 @@ import {
   buildRss,
   buildSitemap,
   escapeXml,
+  rfc822,
   staticPagePaths,
 } from "../../site/_11ty/feeds.js";
 import { addDays, buildWeek } from "../../site/_11ty/semana.js";
@@ -86,6 +87,36 @@ test("RSS y Atom son XML bien formados y parseables", async () => {
   assert.ok((rssFeed.items[0]?.contentSnippet || rssFeed.items[0]?.content || "").includes("Titular"));
 });
 
+test("el Atom declara author a nivel de feed (RFC 4287)", () => {
+  const atom = buildAtom({ site, editions: [edition("2026-09-18")] });
+  assert.match(atom, /<author><name>La Terminal<\/name><\/author>/);
+  // A nivel de feed basta para todas las entradas; repetirlo por entrada sobra.
+  assert.equal(atom.match(/<author>/g)?.length, 1);
+});
+
+test("rfc822 cae a un fallback determinista, nunca al reloj del build", () => {
+  const fallback = "2026-09-18T12:00:00Z";
+  const rota = rfc822("no-es-una-fecha", fallback);
+  assert.equal(rota, rfc822(undefined, fallback));
+  assert.equal(rota, "Fri, 18 Sep 2026 12:00:00 GMT");
+});
+
+test("rfc822 no convierte null en 1970 y usa el fallback", () => {
+  assert.equal(rfc822(null, "2026-09-18T12:00:00Z"), "Fri, 18 Sep 2026 12:00:00 GMT");
+});
+
+test("rfc822 lanza si ni la fecha ni el fallback parsean", () => {
+  assert.throws(() => rfc822("no-es-una-fecha", "tambien-malo"), /fecha no válida/);
+});
+
+test("el pubDate del RSS no cambia entre builds si falta generated_at", () => {
+  const sinGeneratedAt = [edition("2026-09-18", { generated_at: undefined })];
+  const primera = buildRss({ site, editions: sinGeneratedAt });
+  const segunda = buildRss({ site, editions: sinGeneratedAt });
+  assert.match(primera, /<pubDate>Fri, 18 Sep 2026 12:00:00 GMT<\/pubDate>/);
+  assert.equal(primera, segunda);
+});
+
 test("sitemap y robots apuntan a la URL de GitHub Pages", () => {
   const editions = [edition("2026-09-18")];
   const xml = buildSitemap(site.url, staticPagePaths(editions));
@@ -155,4 +186,11 @@ test("searchDocs no confunde code con Codex y prioriza el titular reciente", () 
   const hits = searchDocs(index, "Claude Code");
   assert.equal(hits.length, 1);
   assert.equal(hits[0].date, "2026-09-18");
+});
+
+test("Atom: <updated> de feed y entradas es ISO 8601 aunque falte o se corrompa generated_at", () => {
+  const editions = [{ date: "2026-09-18", generated_at: "no-es-fecha", path: "/2026/09/18/", items: [] }];
+  const xml = buildAtom({ site, editions });
+  const fechas = [...xml.matchAll(/<updated>([^<]+)<\/updated>/g)].map((m) => m[1]);
+  assert.deepEqual(fechas, ["2026-09-18T12:00:00.000Z", "2026-09-18T12:00:00.000Z"]);
 });

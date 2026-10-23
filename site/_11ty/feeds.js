@@ -21,10 +21,31 @@ export function absoluteUrl(siteUrl, pageUrl) {
   return `${base}${path}`;
 }
 
-function rfc822(iso) {
-  const d = new Date(iso);
-  if (Number.isNaN(d.getTime())) return new Date().toUTCString();
-  return d.toUTCString();
+/**
+ * Fecha en RFC 822. Solo una cadena no vacía cuenta como fecha candidata: así
+ * `null` cae al fallback en vez de convertirse en la época Unix (1970).
+ * Si `iso` no parsea se usa `fallback` (otra fecha ISO), no el reloj del build:
+ * dos builds del mismo dato deben dar el mismo pubDate. Si el fallback tampoco
+ * parsea se lanza, porque escribir "Invalid Date" publica un feed roto.
+ */
+export function rfc822(iso, fallback) {
+  return fechaDeFeed(iso, fallback).toUTCString();
+}
+
+/** Lo mismo en ISO 8601, que es lo que exige el <updated> de Atom. */
+export function isoDate(iso, fallback) {
+  return fechaDeFeed(iso, fallback).toISOString();
+}
+
+function fechaDeFeed(iso, fallback) {
+  const valida = (v) => typeof v === "string" && v.trim() !== "";
+  const d = valida(iso) ? new Date(iso) : new Date(NaN);
+  if (!Number.isNaN(d.getTime())) return d;
+  const ref = valida(fallback) ? new Date(fallback) : new Date(NaN);
+  if (Number.isNaN(ref.getTime())) {
+    throw new Error(`fecha no válida: ${String(iso)} (fallback: ${String(fallback)})`);
+  }
+  return ref;
 }
 
 function editionBody(edition) {
@@ -49,7 +70,7 @@ export function buildRss({ site, editions, limit = 14 }) {
       const link = absoluteUrl(site.url, e.path);
       const title = `Edición ${e.date}`;
       const desc = editionBody(e);
-      const pub = rfc822(e.generated_at || `${e.date}T12:00:00Z`);
+      const pub = rfc822(e.generated_at, `${e.date}T12:00:00Z`);
       return [
         "    <item>",
         `      <title>${escapeXml(title)}</title>`,
@@ -83,13 +104,16 @@ export function buildAtom({ site, editions, limit = 14 }) {
   const origin = siteOrigin(site.url);
   const self = `${origin}/atom.xml`;
   const items = (editions || []).slice(0, limit);
-  const updated = items[0]?.generated_at || items[0]?.date || new Date().toISOString();
+  // Sin ediciones no hay fecha de dato; es un sitio vacío y no un caso real.
+  const updated = items[0]
+    ? isoDate(items[0].generated_at, `${items[0].date}T12:00:00Z`)
+    : new Date().toISOString();
   const entryXml = items
     .map((e) => {
       const link = absoluteUrl(site.url, e.path);
       const title = `Edición ${e.date}`;
       const desc = editionBody(e);
-      const when = e.generated_at || `${e.date}T12:00:00Z`;
+      const when = isoDate(e.generated_at, `${e.date}T12:00:00Z`);
       return [
         "  <entry>",
         `    <title>${escapeXml(title)}</title>`,
@@ -110,6 +134,8 @@ export function buildAtom({ site, editions, limit = 14 }) {
     `  <link href="${escapeXml(origin + "/")}" rel="alternate"/>`,
     `  <link href="${escapeXml(self)}" rel="self"/>`,
     `  <id>${escapeXml(origin + "/")}</id>`,
+    // RFC 4287 exige autor por entrada o a nivel de feed; aquí cubre todas.
+    `  <author><name>${escapeXml(site.title)}</name></author>`,
     `  <updated>${escapeXml(updated)}</updated>`,
     entryXml,
     "</feed>",
