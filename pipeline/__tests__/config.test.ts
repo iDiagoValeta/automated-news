@@ -76,3 +76,9 @@ test("lecturas con un tipo equivocado falla nombrando sección y campo", () => {
   (cfg.lecturas as Record<string, unknown>).pick = "6";
   assert.throws(() => validateSourcesConfig(cfg), /lecturas\/pick/);
 });
+
+test("lecturas no admite un pick mayor que el máximo del schema", () => {
+  const cfg = validConfig();
+  (cfg.lecturas as Record<string, unknown>).pick = 11;
+  assert.throws(() => validateSourcesConfig(cfg), /lecturas\/pick/);
+});

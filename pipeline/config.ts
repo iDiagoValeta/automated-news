@@ -76,7 +76,9 @@ const LECTURAS_SCHEMA = {
     enabled: { type: "boolean" },
     window_hours: { type: "integer", minimum: 1 },
     candidate_cap: { type: "integer", minimum: 1 },
-    pick: { type: "integer", minimum: 1 },
+    // El schema del digest admite como máximo 10 lecturas: un pick mayor
+    // publicaría un JSON que el contrato rechaza.
+    pick: { type: "integer", minimum: 1, maximum: 10 },
     lookback_days: { type: "integer", minimum: 0 },
     feeds: { type: "array", items: RSS_ITEM_SCHEMA },
   },

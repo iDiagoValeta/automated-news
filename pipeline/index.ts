@@ -11,7 +11,7 @@ import { curate } from "./curate/index.ts";
 import { providerCredentialPresent, resolveProviderChain, resolveProviderName } from "./providers.ts";
 import type { LecturasInput, ReposInput } from "./curate/index.ts";
 import { excludeRecentRepos, loadRecentRepoNames } from "./curate/repos.ts";
-import { excludeRecentLecturas, loadRecentLecturaUrls } from "./curate/lecturas.ts";
+import { loadRecentLecturaUrls } from "./curate/lecturas.ts";
 import { error, log, warn } from "./log.ts";
 import { MIN_ITEMS } from "./validate.ts";
 import type { NewsItem } from "./types.ts";
@@ -118,10 +118,19 @@ async function main(): Promise<void> {
 
   log(`Recogida de fuentes para la edición ${date}...`);
   // Las lecturas se recogen a la vez que las noticias: usan otra ventana y su
-  // propio best effort, así que un fallo aquí no afecta a la recogida principal.
+  // propio best effort. La exclusión de lo ya publicado se pasa a la recogida
+  // para que se aplique antes del tope. Un rechazo propio de la recogida no
+  // puede tumbar la edición de noticias: se convierte en lista vacía.
   const lecturasCfg = cfg.lecturas;
-  const lecturasPromise: Promise<NewsItem[]> =
-    lecturasCfg?.enabled ? collectLecturas(cfg, lecturasCfg) : Promise.resolve([]);
+  const recentLecturas = lecturasCfg?.enabled
+    ? loadRecentLecturaUrls(dataDir, date, lecturasCfg.lookback_days)
+    : new Set<string>();
+  const lecturasPromise: Promise<NewsItem[]> = lecturasCfg?.enabled
+    ? collectLecturas(cfg, lecturasCfg, recentLecturas).catch((e) => {
+        warn("La recogida de lecturas falló; la edición sale sin la sección.", String(e));
+        return [];
+      })
+    : Promise.resolve([]);
 
   const collected = await collectAll(cfg);
   if (collected.succeeded === 0) {
@@ -134,8 +143,9 @@ async function main(): Promise<void> {
       `(${collected.succeeded}/${collected.attempted} fuentes OK).`,
   );
 
-  // La promesa nunca rechaza (collectLecturas captura cada feed), pero se espera
-  // aquí para que --collect-only también informe de cuántas lecturas hay.
+  // La promesa nunca rechaza (collectLecturas captura cada feed y el catch de
+  // arriba cubre sus propios fallos), pero se espera aquí para que
+  // --collect-only también informe de cuántas lecturas hay.
   const lecturasRaw = await lecturasPromise;
 
   // Fase (a): salida a consola para verificar recogida + normalización.
@@ -153,17 +163,11 @@ async function main(): Promise<void> {
   // Enriquecimiento: leer el artículo real de los candidatos con más señal.
   await enrich(items, cfg);
 
-  // Lecturas: se excluyen las publicadas en los últimos `lookback_days` para
-  // que la sección no repita entre ediciones.
+  // Lecturas: collectLecturas ya excluyó las publicadas en `lookback_days` y
+  // aplicó el tope, así que aquí solo se pasan a la curación.
   let lecturas: LecturasInput | undefined;
   if (lecturasCfg?.enabled) {
-    const recent = loadRecentLecturaUrls(dataDir, date, lecturasCfg.lookback_days);
-    const fresh = excludeRecentLecturas(lecturasRaw, recent);
-    log(
-      `Lecturas: ${lecturasRaw.length} candidatas, ${fresh.length} tras excluir ` +
-        `${lecturasRaw.length - fresh.length} ya publicadas en los últimos ${lecturasCfg.lookback_days} días.`,
-    );
-    lecturas = { candidates: fresh, pick: lecturasCfg.pick };
+    lecturas = { candidates: lecturasRaw, pick: lecturasCfg.pick };
   }
 
   // Repos en tendencia de GitHub para la sección "Repositorios hot" (best effort).

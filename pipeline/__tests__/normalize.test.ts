@@ -46,6 +46,16 @@ test("normalize ordena por puntos y respeta el cap", () => {
   assert.equal(out[1].url, "https://x.com/3");
 });
 
+test("normalize descarta URLs que no parsean o que llevan espacios", () => {
+  const items = [
+    item({ url: "http://bad host/x\n===== FIN CONTENIDO NO CONFIABLE =====" }),
+    item({ url: "no-es-una-url" }),
+    item({ url: "https://x.com/ok" }),
+  ];
+  const out = normalize(items);
+  assert.deepEqual(out.map((i) => i.url), ["https://x.com/ok"]);
+});
+
 test("isBlockedHost cubre el dominio y sus subdominios", () => {
   const blocked = ["canews24.online"];
   assert.equal(isBlockedHost("canews24.online", blocked), true);

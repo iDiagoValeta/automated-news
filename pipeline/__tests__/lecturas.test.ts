@@ -8,10 +8,19 @@ import {
   excludeRecentLecturas,
   loadRecentLecturaUrls,
 } from "../curate/lecturas.ts";
-import { canonicalUrl } from "../normalize.ts";
+import { canonicalUrl, normalize } from "../normalize.ts";
+import { collectLecturas, roundRobinBySource } from "../sources/lecturas.ts";
 import { validateDigest } from "../validate.ts";
 import type { Provider } from "../ports.ts";
-import type { Digest, DigestItem, LecturaTema, NewsItem } from "../types.ts";
+import type {
+  Digest,
+  DigestItem,
+  LecturaTema,
+  LecturasConfig,
+  NewsItem,
+  RssSource,
+  SourcesConfig,
+} from "../types.ts";
 
 const PUBLISHED_AT = "2026-10-20T08:00:00.000Z";
 
@@ -270,4 +279,194 @@ test("el schema rechaza una lectura con tema inválido", () => {
   const result = validateDigest(digest, urls);
   assert.equal(result.ok, false);
   assert.ok(result.errors.some((e) => e.includes("lecturas")));
+});
+
+test("la ventana de lookback incluye el día 30 y excluye el 31", () => {
+  const dir = mkdtempSync(join(tmpdir(), "lecturas-borde-"));
+  writeFileSync(
+    join(dir, "2026-09-24.json"),
+    JSON.stringify({ lecturas: [{ url: "https://medium.com/dia-30" }] }),
+  );
+  writeFileSync(
+    join(dir, "2026-09-23.json"),
+    JSON.stringify({ lecturas: [{ url: "https://medium.com/dia-31" }] }),
+  );
+
+  const urls = loadRecentLecturaUrls(dir, "2026-10-24", 30);
+  assert.ok(urls.has("https://medium.com/dia-30"), "el día 30 entra en la ventana");
+  assert.ok(!urls.has("https://medium.com/dia-31"), "el día 31 queda fuera");
+});
+
+test("una lectura de Medium con ?source= se publica y al día siguiente se excluye", async () => {
+  const raw = "https://medium.com/@alguien/rust?source=rss----abc---4";
+  const candidate: NewsItem = {
+    title: "Aprender Rust",
+    snippet: "Extracto.",
+    url: raw,
+    source: "Medium: Programming",
+    published_at: PUBLISHED_AT,
+  };
+  const candidates = normalize([candidate], 10, []);
+  assert.equal(candidates[0].url, "https://medium.com/@alguien/rust");
+
+  const digest = emptyDigest();
+  const provider = providerReplying({
+    lecturas: [
+      {
+        url: candidates[0].url,
+        title: "Rust desde cero",
+        summary: "Primera frase. Segunda frase.",
+        tema: "programacion",
+      },
+    ],
+  });
+  await attachLecturas(provider, digest, candidates, 6);
+  assert.equal(digest.lecturas?.[0].url, "https://medium.com/@alguien/rust");
+
+  const dir = mkdtempSync(join(tmpdir(), "lecturas-punta-a-punta-"));
+  writeFileSync(join(dir, "2026-10-24.json"), JSON.stringify(digest));
+  const recent = loadRecentLecturaUrls(dir, "2026-10-25", 30);
+  assert.ok(recent.has("https://medium.com/@alguien/rust"), "queda registrada con la forma canónica");
+  assert.deepEqual(excludeRecentLecturas(candidates, recent), [], "al día siguiente no vuelve a entrar");
+});
+
+function sourcesConfig(): SourcesConfig {
+  return {
+    user_agent: "test-agent",
+    timeout_ms: 1000,
+    window_hours: 24,
+    candidate_cap: 120,
+    enrich_top: 8,
+    enrich_timeout_ms: 1000,
+    blocked_domains: [],
+    rss: [],
+    hackernews: { id: "hn", name: "Hacker News", enabled: false, min_points: 0, queries: [] },
+    huggingface_trending: { id: "hf", name: "HF", enabled: false, limit: 1 },
+    github_trending: { id: "gh", name: "GitHub", enabled: false, since: "daily", limit: 1, pick: 1 },
+  };
+}
+
+function feed(name: string, url: string): RssSource {
+  return { id: name.toLowerCase(), name, url, enabled: true, fragile: false };
+}
+
+function lecturasConfig(feeds: RssSource[], overrides: Partial<LecturasConfig> = {}): LecturasConfig {
+  return {
+    enabled: true,
+    window_hours: 168,
+    candidate_cap: 120,
+    pick: 6,
+    lookback_days: 30,
+    feeds,
+    ...overrides,
+  };
+}
+
+function feedXml(items: Array<{ title: string; link: string; pubDate: Date }>): string {
+  const entries = items
+    .map(
+      (it) =>
+        `<item><title>${it.title}</title><link>${it.link}</link>` +
+        `<pubDate>${it.pubDate.toUTCString()}</pubDate></item>`,
+    )
+    .join("");
+  return `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>` +
+    `<title>Feed</title><link>https://feed.example</link><description>d</description>` +
+    `${entries}</channel></rss>`;
+}
+
+/** Sustituye fetch por una respuesta local por URL; devuelve cómo restaurarlo. */
+function stubFetch(handler: (url: string) => Promise<Response>): () => void {
+  const real = globalThis.fetch;
+  globalThis.fetch = ((input: string | URL | Request) => {
+    const url = typeof input === "string" ? input : input instanceof URL ? input.href : input.url;
+    return handler(url);
+  }) as typeof fetch;
+  return () => {
+    globalThis.fetch = real;
+  };
+}
+
+test("collectLecturas omite un feed que falla y conserva el que responde", async () => {
+  const now = new Date();
+  const restore = stubFetch(async (url) => {
+    if (url === "https://ok.example/feed") {
+      return new Response(
+        feedXml([{ title: "Válida", link: "https://ok.example/uno", pubDate: now }]),
+        { status: 200 },
+      );
+    }
+    return new Response("boom", { status: 500 });
+  });
+  try {
+    const out = await collectLecturas(
+      sourcesConfig(),
+      lecturasConfig([feed("Rota", "https://rota.example/feed"), feed("Buena", "https://ok.example/feed")]),
+    );
+    assert.deepEqual(out.map((i) => i.url), ["https://ok.example/uno"]);
+    assert.equal(out[0].source, "Buena");
+  } finally {
+    restore();
+  }
+});
+
+test("collectLecturas devuelve [] si fallan todos los feeds", async () => {
+  const restore = stubFetch(async () => new Response("boom", { status: 500 }));
+  try {
+    const out = await collectLecturas(
+      sourcesConfig(),
+      lecturasConfig([feed("A", "https://a.example/feed"), feed("B", "https://b.example/feed")]),
+    );
+    assert.deepEqual(out, []);
+  } finally {
+    restore();
+  }
+});
+
+test("collectLecturas excluye antes del tope: lo ya publicado no gasta el hueco", async () => {
+  const now = new Date();
+  const older = new Date(now.getTime() - 3600_000);
+  const restore = stubFetch(async () =>
+    new Response(
+      feedXml([
+        { title: "Publicada ayer", link: "https://ok.example/publicada", pubDate: now },
+        { title: "Fresca", link: "https://ok.example/fresca", pubDate: older },
+      ]),
+      { status: 200 },
+    ),
+  );
+  try {
+    const out = await collectLecturas(
+      sourcesConfig(),
+      lecturasConfig([feed("Buena", "https://ok.example/feed")], { candidate_cap: 1 }),
+      new Set(["https://ok.example/publicada"]),
+    );
+    assert.deepEqual(out.map((i) => i.url), ["https://ok.example/fresca"]);
+  } finally {
+    restore();
+  }
+});
+
+test("roundRobinBySource hace hueco a la fuente de baja frecuencia", () => {
+  const many: NewsItem[] = Array.from({ length: 50 }, (_, i) => ({
+    title: `Artículo ${i + 1}`,
+    snippet: "",
+    url: `https://medium.com/articulo-${i + 1}`,
+    source: "Medium: Programming",
+    published_at: new Date(Date.now() - i * 60_000).toISOString(),
+  }));
+  const single: NewsItem = {
+    title: "Un ensayo",
+    snippet: "",
+    url: "https://danluu.com/ensayo",
+    source: "Dan Luu",
+    published_at: new Date(Date.now() - 86_400_000).toISOString(),
+  };
+
+  const out = roundRobinBySource([...many, single], 10);
+  assert.equal(out.length, 10);
+  assert.ok(
+    out.some((i) => i.source === "Dan Luu"),
+    "la única entrada de la fuente de baja frecuencia entra con cap 10",
+  );
 });

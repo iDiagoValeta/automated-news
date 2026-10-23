@@ -8,6 +8,7 @@ import type { Digest, NewsItem, ProviderName, RepoRaw } from "../types.ts";
 import { attachRepoSocial, attachSocial } from "./social.ts";
 import { attachRepos } from "./repos.ts";
 import { attachLecturas } from "./lecturas.ts";
+import { collapseText, stripFences, untrustedBlock } from "./prompt.ts";
 
 /** Repos en tendencia y cuántos elegir; se resuelven fuera (best effort). */
 export interface ReposInput {
@@ -197,26 +198,6 @@ function coerceMeta(parsed: unknown, meta: CurateMeta): unknown {
     };
   }
   return parsed;
-}
-
-function stripFences(raw: string): string {
-  const t = raw.trim();
-  const m = t.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/);
-  return m ? m[1] : t;
-}
-
-/** Delimita contenido de terceros para que el modelo lo trate como dato, no como instrucciones. */
-export function untrustedBlock(body: string): string {
-  return `===== INICIO CONTENIDO NO CONFIABLE =====\n${body}\n===== FIN CONTENIDO NO CONFIABLE =====`;
-}
-
-/**
- * Colapsa espacios y saltos de línea y recorta. Se aplica antes de recortar
- * porque un título con saltos podría cerrar el bloque delimitado y lo que
- * venga después se leería como instrucciones.
- */
-export function collapseText(text: string, max: number): string {
-  return text.replace(/\s+/g, " ").trim().slice(0, max);
 }
 
 function buildUserPrompt(items: NewsItem[], meta: CurateMeta): string {

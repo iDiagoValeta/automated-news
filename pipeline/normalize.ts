@@ -61,6 +61,22 @@ export function canonicalUrl(raw: string): string {
 }
 
 /**
+ * ¿La URL parsea y no trae espacios en blanco? Un enlace con un espacio o un
+ * salto de línea puede cerrar el bloque del contenido no confiable del prompt,
+ * y `canonicalUrl` devolvería el texto tal cual porque no parsea. Se descarta
+ * antes de que llegue al modelo o al digest.
+ */
+function isUsableUrl(raw: string): boolean {
+  if (/\s/.test(raw)) return false;
+  try {
+    new URL(raw.trim());
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/**
  * Deduplica por URL canónica y ordena por señal (puntos de HN primero, luego
  * fecha). Cuando dos ítems colisionan, se conserva el primero pero se hereda
  * la mayor puntuación disponible. Limita el total para acotar el prompt.
@@ -71,6 +87,10 @@ export function normalize(items: NewsItem[], cap = 120, blocked: string[] = []):
   const byUrl = new Map<string, NewsItem>();
 
   for (const item of items) {
+    if (!isUsableUrl(item.url)) {
+      warn("Normalización: descartada una URL inválida", item.url);
+      continue;
+    }
     const host = hostnameOf(item.url);
     if (item.source === "Hacker News" && host) {
       hnDest.set(host, (hnDest.get(host) ?? 0) + 1);

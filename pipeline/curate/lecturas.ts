@@ -5,7 +5,7 @@ import { log, warn } from "../log.ts";
 import type { Digest, Lectura, LecturaTema, NewsItem } from "../types.ts";
 import type { Provider } from "../ports.ts";
 import { previousEditionDates } from "./repos.ts";
-import { collapseText, untrustedBlock } from "./index.ts";
+import { collapseText, stripFences, untrustedBlock } from "./prompt.ts";
 
 const LECTURAS_PROMPT_PATH = fileURLToPath(new URL("../../prompts/lecturas.md", import.meta.url));
 
@@ -25,12 +25,6 @@ interface PickedLectura {
   title?: unknown;
   summary?: unknown;
   tema?: unknown;
-}
-
-function stripFences(raw: string): string {
-  const t = raw.trim();
-  const m = t.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/);
-  return m ? m[1] : t;
 }
 
 /**
