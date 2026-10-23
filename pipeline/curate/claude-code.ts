@@ -39,23 +39,49 @@ export function claudeCodeProvider(): Provider {
   };
 }
 
-function runClaude(prompt: string, schemaJson: string): Promise<string> {
+const CLAUDE_TIMEOUT_MS = 300_000;
+
+export interface RunClaudeOptions {
+  /** Binario a ejecutar; por defecto, el CLI `claude` del PATH. */
+  bin?: string;
+  /** Argumentos; por defecto, los flags headless del CLI. */
+  args?: string[];
+  /** Tiempo máximo antes de matar al hijo. Parametrizable para los tests. */
+  timeoutMs?: number;
+}
+
+export function runClaude(prompt: string, schemaJson: string, options: RunClaudeOptions = {}): Promise<string> {
+  const timeoutMs = options.timeoutMs ?? CLAUDE_TIMEOUT_MS;
+  const bin = options.bin ?? (process.platform === "win32" ? "claude.cmd" : "claude");
+  const args = options.args ?? ["-p", "--output-format", "json", "--json-schema", schemaJson];
+
   return new Promise((resolve, reject) => {
-    const bin = process.platform === "win32" ? "claude.cmd" : "claude";
-    const child = spawn(
-      bin,
-      ["-p", "--output-format", "json", "--json-schema", schemaJson],
-      { stdio: ["pipe", "pipe", "pipe"] },
-    );
+    const child = spawn(bin, args, { stdio: ["pipe", "pipe", "pipe"] });
     let out = "";
     let err = "";
+    // El CLI puede quedarse esperando auth, red o una actualización: sin este
+    // timer la curación no terminaría nunca (issue #45).
+    const timer = setTimeout(() => {
+      child.kill();
+      reject(new Error(`claude CLI expiró tras ${timeoutMs} ms y se mató el proceso`));
+    }, timeoutMs);
+    const settle = (action: () => void) => {
+      clearTimeout(timer);
+      action();
+    };
     child.stdout.on("data", (d) => (out += d.toString()));
     child.stderr.on("data", (d) => (err += d.toString()));
-    child.on("error", reject);
+    child.on("error", (e) => settle(() => reject(e)));
     child.on("close", (code) => {
-      if (code === 0) resolve(out);
-      else reject(new Error(`claude CLI salió con código ${code}: ${err.slice(0, 500)}`));
+      settle(() => {
+        if (code === 0) resolve(out);
+        else reject(new Error(`claude CLI salió con código ${code}: ${err.slice(0, 500)}`));
+      });
     });
+    // Si el hijo muere (timeout, flags inválidos) antes de leer todo el prompt,
+    // la escritura da EPIPE; sin listener, Node lo lanza como excepción no
+    // capturada y tumba el pipeline entero en vez de rechazar esta promesa.
+    child.stdin.on("error", () => {});
     child.stdin.write(prompt);
     child.stdin.end();
   });

@@ -6,9 +6,16 @@ import { claudeCodeProvider } from "./curate/claude-code.ts";
 // Raíz de composición de los adaptadores LLM: único módulo que los conoce.
 
 export function resolveProviderName(): ProviderName {
-  const raw = (process.env.LLM_PROVIDER ?? "deepseek").toLowerCase();
-  if (raw === "claude-code") return "claude-code";
-  return "deepseek";
+  const raw = (process.env.LLM_PROVIDER ?? "").toLowerCase();
+  // Vacío o sin definir conserva el proveedor por defecto.
+  if (raw === "") return "deepseek";
+  if (raw === "deepseek" || raw === "claude-code") return raw;
+  // Un typo no puede caer en deepseek en silencio: el pipeline publicaría una
+  // edición con el proveedor equivocado o se saltaría por falta de credencial.
+  throw new Error(
+    `LLM_PROVIDER="${process.env.LLM_PROVIDER}" no es válido. ` +
+      `Valores válidos: deepseek, claude-code.`,
+  );
 }
 
 /** ¿Está presente la credencial del proveedor? Permite saltar sin fallar. */

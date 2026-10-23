@@ -1,5 +1,5 @@
 import { appendFileSync } from "node:fs";
-import { fetchText } from "../http.ts";
+import { fetchText, fetchWithTimeout } from "../http.ts";
 import { warn } from "../log.ts";
 import type { GithubTrendingConfig, RepoRaw, SourcesConfig } from "../types.ts";
 
@@ -90,7 +90,10 @@ interface SearchRepo {
  * última semana ordenados por estrellas. Usa GITHUB_TOKEN si está disponible
  * (mayor límite de peticiones en GitHub Actions).
  */
-async function searchApiFallback(cfg: SourcesConfig, gh: GithubTrendingConfig): Promise<RepoRaw[]> {
+export async function searchApiFallback(
+  cfg: Pick<SourcesConfig, "user_agent" | "timeout_ms">,
+  gh: Pick<GithubTrendingConfig, "limit">,
+): Promise<RepoRaw[]> {
   const since = new Date(Date.now() - 7 * 24 * 3600 * 1000).toISOString().slice(0, 10);
   const url =
     `https://api.github.com/search/repositories?q=created:>${since}` +
@@ -103,25 +106,28 @@ async function searchApiFallback(cfg: SourcesConfig, gh: GithubTrendingConfig): 
   const token = process.env.GITHUB_TOKEN;
   if (token) headers.Authorization = `Bearer ${token}`;
 
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), cfg.timeout_ms);
-  try {
-    const res = await fetch(url, { headers, signal: controller.signal });
-    if (!res.ok) throw new Error(`Search API HTTP ${res.status}`);
-    const data = (await res.json()) as { items?: SearchRepo[] };
-    return (data.items ?? [])
-      .filter((r): r is SearchRepo & { full_name: string } => typeof r.full_name === "string")
-      .map((r) => ({
-        name: r.full_name,
-        url: r.html_url ?? `https://github.com/${r.full_name}`,
-        description: r.description ?? "",
-        language: r.language ?? "",
-        stars: r.stargazers_count ?? 0,
-        stars_today: 0,
-      }));
-  } finally {
-    clearTimeout(timer);
-  }
+  // El cuerpo se lee dentro de fetchWithTimeout; si no, la Search API podría
+  // dejar la recogida colgada después de mandar las cabeceras.
+  const data = await fetchWithTimeout(
+    url,
+    cfg.timeout_ms,
+    { headers },
+    async (res) => {
+      if (!res.ok) throw new Error(`Search API HTTP ${res.status}`);
+      return (await res.json()) as { items?: SearchRepo[] };
+    },
+  );
+
+  return (data.items ?? [])
+    .filter((r): r is SearchRepo & { full_name: string } => typeof r.full_name === "string")
+    .map((r) => ({
+      name: r.full_name,
+      url: r.html_url ?? `https://github.com/${r.full_name}`,
+      description: r.description ?? "",
+      language: r.language ?? "",
+      stars: r.stargazers_count ?? 0,
+      stars_today: 0,
+    }));
 }
 
 /**
