@@ -84,6 +84,9 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL || 'deepseek-v4-flash' }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          # La Search API de GitHub (fallback de Trending) sin token comparte un
+          # límite muy bajo entre todos los runners; con él usa el del repositorio.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: pnpm run pipeline
 
       # Se publica solo si el contenido del repo no coincide con el del sitio.
