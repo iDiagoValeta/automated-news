@@ -7,7 +7,7 @@ import { checkExistingDigest, writeFileAtomic } from "../index.ts";
 import type { Digest, DigestItem } from "../types.ts";
 
 function validDigest(): Digest {
-  const items: DigestItem[] = Array.from({ length: 6 }, (_, i) => ({
+  const items: DigestItem[] = Array.from({ length: 8 }, (_, i) => ({
     rank: i + 1,
     category: "lanzamientos",
     title: `Titular ${i + 1}`,
@@ -43,7 +43,7 @@ test("checkExistingDigest rechaza un JSON truncado y permite regenerar", () => {
   assert.match(status.reason, /JSON/i);
 });
 
-test("checkExistingDigest rechaza un JSON completo que no pasa el schema", () => {
+test("checkExistingDigest rechaza un JSON completo sin ítems", () => {
   const path = join(tempDir(), "2026-10-24.json");
   writeFileSync(
     path,

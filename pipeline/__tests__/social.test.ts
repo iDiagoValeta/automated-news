@@ -1,6 +1,15 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { applyBold, assembleLinkedIn, assembleX, boldSans } from "../curate/social.ts";
+import {
+  applyBold,
+  assembleLinkedIn,
+  assembleX,
+  attachRepoSocial,
+  attachSocial,
+  boldSans,
+} from "../curate/social.ts";
+import type { Provider } from "../ports.ts";
+import type { Digest, Repo } from "../types.ts";
 
 const cp = (s: string) => [...s].length;
 const URL = "https://ejemplo.com/articulo-de-prueba";
@@ -63,4 +72,67 @@ test("assembleX con URL de GitHub respeta el peso t.co de 23", () => {
   );
   assert.ok(post.endsWith(gh));
   assert.ok(xWeightGh(post) <= 280, `peso ${xWeightGh(post)} debe ser <= 280`);
+});
+
+function newsDigest(): Digest {
+  return {
+    date: "2026-07-18",
+    generated_at: "2026-07-18T10:00:00.000Z",
+    provider: "deepseek",
+    items: [
+      {
+        rank: 1,
+        category: "lanzamientos",
+        title: "Titular",
+        summary: "Resumen.",
+        why_it_matters: "Importa.",
+        url: "https://ejemplo.com/noticia",
+        source: "Fuente",
+      },
+    ],
+  };
+}
+
+function socialProvider(hookLinkedIn: string): Provider {
+  return {
+    name: "deepseek",
+    async generate() {
+      return JSON.stringify({
+        hook_x: "Gancho para X",
+        hook_linkedin: hookLinkedIn,
+        hashtags: ["#Tech"],
+      });
+    },
+  };
+}
+
+test("attachSocial rellena los posts cuando caben en el esquema", async () => {
+  const digest = newsDigest();
+  await attachSocial(socialProvider("Gancho breve."), digest);
+  assert.ok(digest.items[0].social);
+  assert.ok(cp(digest.items[0].social.linkedin) <= 3000);
+});
+
+test("attachSocial omite la noticia si el post de LinkedIn pasa de 3000 caracteres", async () => {
+  const digest = newsDigest();
+  await attachSocial(socialProvider("L".repeat(3100)), digest);
+  assert.equal(digest.items[0].social, undefined, "sin LinkedIn válido no hay social completo");
+});
+
+test("attachRepoSocial omite el repo si el post de LinkedIn pasa de 3000 caracteres", async () => {
+  const digest = newsDigest();
+  const repos: Repo[] = [
+    { name: "owner/repo", url: "https://github.com/owner/repo", description: "Descripción." },
+  ];
+  digest.repos = repos;
+  await attachRepoSocial(socialProvider("L".repeat(3100)), digest);
+  assert.equal(repos[0].social, undefined);
+});
+
+test("attachSocial omite la noticia si X pasa de 600 caracteres reales por una URL muy larga", async () => {
+  // assembleX cuenta la URL como 23: con una URL enorme el post cabe en X pero no en el schema.
+  const digest = newsDigest();
+  digest.items[0].url = `https://example.com/${"a".repeat(700)}`;
+  await attachSocial(socialProvider("Gancho breve."), digest);
+  assert.equal(digest.items[0].social, undefined);
 });

@@ -33,7 +33,7 @@ Fichero: `.github/workflows/daily.yml`.
 
 - **Crons.** GitHub solo entiende UTC y puede retrasar u omitir ejecuciones cuando tiene carga. El workflow programa cinco intentos horarios, de `10:15` a `14:15` UTC (12:15–16:15 en verano, 11:15–15:15 en invierno), ya en tarifa valle de DeepSeek (fuera de 01:00–04:00 y 06:00–10:00 UTC). El guardián y la idempotencia hacen que solo el primero válido publique.
 - **Guardián de hora.** El paso `guard` usa la hora UTC y solo deja continuar el `schedule` (`run=true`) si son las 10:00 o más, para no generar en pico aunque GitHub dispare pronto. Un disparo manual (`workflow_dispatch`) se ejecuta sin comprobar la hora. A esa hora, la fecha civil en `Europe/Madrid` es siempre el día que toca.
-- **Idempotencia.** El orquestador aborta pronto si ya existe `data/<hoy>.json` (fecha en Madrid; ver la sección de curación). El commit de la edición solo se crea si hay cambios en `data/`, así que dos crons el mismo día no publican dos veces.
+- **Idempotencia.** El orquestador aborta pronto si ya existe `data/<hoy>.json` escrito entero (fecha en Madrid; ver la sección de curación). El commit de la edición solo se crea si hay cambios en `data/`, así que dos crons el mismo día no publican dos veces.
 - **Entrada manual `skip_pipeline`.** Reconstruye y despliega el sitio sin regenerar la edición (salta el paso del pipeline y va directo al build).
 - **Permisos y concurrencia.** El job pide `contents: write`, `pages: write`, `id-token: write` e `issues: write`, y usa un grupo de `concurrency` para no solaparse consigo mismo. Si algún paso falla, un paso final abre un issue con enlace al run.
 
@@ -41,7 +41,7 @@ Fichero: `.github/workflows/daily.yml`.
 
 Ficheros: `config/sources.json` y `pipeline/config.ts`.
 
-`config.ts` solo lee y parsea el JSON (`loadConfig()`), sin validación estricta: el tipo `SourcesConfig` de `pipeline/types.ts` documenta la forma esperada. Campos globales relevantes:
+`loadConfig()` lee el JSON y lo valida con Ajv antes de devolverlo (`validateSourcesConfig`): un campo obligatorio ausente o de tipo equivocado falla al arrancar nombrando el campo. El mini-esquema de `config.ts` exige los campos que el pipeline consume de verdad; `SourcesConfig` de `pipeline/types.ts` documenta la forma resultante. Campos globales relevantes:
 
 | Campo | Uso |
 |---|---|
@@ -93,19 +93,19 @@ Ficheros: `pipeline/curate/index.ts`, `prompts/curacion.md`, `pipeline/validate.
 
 Antes de llamar al modelo, el orquestador (`pipeline/index.ts`) comprueba dos condiciones de salida temprana:
 
-1. **Idempotencia.** Si existe `data/<hoy>.json`, no hace nada.
+1. **Idempotencia.** Si existe `data/<hoy>.json` escrito entero (parsea, con fecha e ítems con url y título), no hace nada; uno truncado se regenera. La escritura es atómica (temporal y `rename`).
 2. **Sin credencial.** Si el proveedor no tiene su API key, no es un error: se conserva la última edición y el sitio se reconstruye igualmente.
 
-Si hay menos de 6 ítems normalizados, se aborta sin publicar.
+Si hay menos de 8 ítems normalizados (`MIN_ITEMS`), se aborta sin publicar.
 
 `curate()` hace lo siguiente:
 
 - Lee el prompt de sistema `prompts/curacion.md` (rol de editor jefe, criterio de priorización con la IA como eje dominante y lo práctico por delante de lo financiero).
-- Construye el prompt de usuario con los ítems y las cabeceras (`buildUserPrompt`). Las URL se listan literalmente para que el modelo las copie sin modificarlas.
+- Construye el prompt de usuario con los ítems y las cabeceras (`buildUserPrompt`). Las URL se listan literalmente para que el modelo las copie sin modificarlas. El contenido de las fuentes va entre los delimitadores `===== INICIO CONTENIDO NO CONFIABLE =====` y `===== FIN CONTENIDO NO CONFIABLE =====` para que el modelo lo trate como material a resumir y no como instrucciones. Antes de recortarlos, títulos y cuerpos colapsan todo espacio en blanco, saltos de línea incluidos, a un solo espacio: los títulos se recortan a 200 caracteres y los cuerpos a 600, de modo que un título no puede cerrar el bloque delimitado.
 - Llama al proveedor pidiendo salida en JSON.
 - Fuerza `date`, `generated_at` y `provider` desde el propio script (`coerceMeta`), no desde el modelo.
-- **Valida** con `validateDigest()`: primero contra el JSON Schema (Ajv), y después dos comprobaciones fuera del schema: cada `url` del digest debe existir en las URL de entrada (el modelo elige, nunca inventa), y los `rank` no pueden repetirse.
-- **Reintentos.** Hasta 3 intentos (1 más 2 reintentos). Un error de red o de proveedor en `generate()` consume intento y se reintenta con el prompt base. Si un intento no valida (JSON o schema), se inyecta el error concreto en el prompt y se reintenta. Si el proveedor principal agota los intentos y el alternativo tiene credencial, se hace failover automático y el digest lleva el `provider` del que curó. Si tras toda la cadena sigue sin validar, lanza y el pipeline aborta (exit distinto de 0).
+- **Valida** con `validateDigest()`: primero contra el JSON Schema (Ajv), y después dos comprobaciones fuera del schema: cada `url` del digest debe existir en las URL de entrada (el modelo elige, nunca inventa) y los `rank` deben ser únicos y contiguos desde 1, sin huecos. Antes de validar, `dropInventedUrlItems()` descarta los ítems con URL fuera de la entrada y renumera los `rank` de los que quedan; si tras el descarte no llegan a `MIN_ITEMS`, la validación falla y se reintenta.
+- **Reintentos.** Hasta 3 intentos (1 más 2 reintentos). Un error reintentable de `generate()` (red, timeout, o un `ProviderError` marcado como reintentable) consume intento y espera un backoff creciente de 2 s y 4 s antes del siguiente, con el prompt base. Un error permanente (por ejemplo 401 o 400) no se reintenta y pasa directo al proveedor alternativo. Si un intento no valida (JSON o schema), se inyecta el error concreto en el prompt y se reintenta. Si el proveedor principal agota los intentos y el alternativo tiene credencial, se hace failover automático y el digest lleva el `provider` del que curó. Si tras toda la cadena sigue sin validar, lanza y el pipeline aborta (exit distinto de 0).
 
 ## 8. Paso 5: Posts sociales
 
@@ -116,7 +116,7 @@ Tras una curación válida, `attachSocial()` genera el texto para X y LinkedIn d
 - **Una llamada por noticia o repositorio**, en paralelo acotado (lotes de 5, `mapPool`). El fallo es granular: si un elemento falla, los demás igual obtienen sus posts.
 - El modelo devuelve, por noticia, `hook_x`, `hook_linkedin` y `hashtags`. El gancho va como primera línea (lo que frena el scroll).
 - **Ensamblado para X** (`assembleX`): texto plano (las letras Unicode en negrita cuentan doble en X). El gancho es el post; si no cabe en 280 contando la URL como 23, primero se sueltan los hashtags y luego se recorta el gancho.
-- **Ensamblado para LinkedIn** (`assembleLinkedIn`): sin límite práctico. El gancho abre y la idea clave marcada por el modelo con `**...**` se convierte a negrita Unicode (`applyBold`, `boldSans`), porque LinkedIn no renderiza markdown.
+- **Ensamblado para LinkedIn** (`assembleLinkedIn`): tope de 3000 caracteres, el máximo del schema. X recorta a 280 contando la URL como 23 y el schema admite 600 caracteres reales; si una URL muy larga lo supera, se omite el bloque `social` igual que con LinkedIn. El gancho abre y la idea clave marcada por el modelo con `**...**` se convierte a negrita Unicode (`applyBold`, `boldSans`), porque LinkedIn no renderiza markdown. Si el post resultante supera los 3000, se omite el bloque `social` de esa noticia o repo y se registra un aviso, para no publicar un JSON inválido.
 - El texto se guarda en `item.social` / `repo.social`. La web lo abre con web intents; no se publica por API.
 
 ## 9. Paso 6: Repositorios hot
@@ -133,7 +133,7 @@ Sección independiente de las noticias, también **best effort**.
 
 Ficheros: `pipeline/index.ts`, `eleventy.config.mjs`, `site/_data/editions.js`, `site/_includes/`, `site/*.njk`.
 
-- El orquestador escribe `data/YYYY-MM-DD.json` con `writeFileSync`.
+- El orquestador escribe `data/YYYY-MM-DD.json` de forma atómica (`writeFileAtomic`: temporal y `rename`).
 - **Eleventy** (`pnpm run build`) lee todas las ediciones vía `site/_data/editions.js`, que ordena los ítems de cada edición por `rank`, ordena las ediciones de más reciente a más antigua y calcula número, rutas y vecinos.
 - Las plantillas Nunjucks renderizan el sitio. `site/_includes/edicion.njk` compone la edición de noticias (el destacado `items[0]` más la rejilla de noticias) y `archivo.njk` el histórico de ediciones. `eleventy.config.mjs` aporta los filtros de fecha en español, el separador de miles y `shareModel` (web intents).
 - **Web intents.** Donde ya se muestran los posts (`share.njk` en noticias y repos), X abre `https://x.com/intent/post?text=...` y LinkedIn el compositor del feed (`shareActive` + `text`). LinkedIn no documenta un intent con cuerpo arbitrario (su `share-offsite` solo admite URL); el botón de copiar deja pegar el texto si el feed no lo precarga. Sin texto social no se pintan botones.
@@ -156,7 +156,7 @@ Ficheros: `pipeline/ports.ts`, `pipeline/providers.ts`, `pipeline/curate/deepsee
 
 Ficheros: `schema/digest.schema.json`, `pipeline/types.ts`.
 
-El digest tiene `date`, `generated_at`, `provider`, un array `items` (de 6 a 20 noticias, con `rank`, `category`, `title`, `summary`, `why_it_matters`, `url`, `source` y `social` opcional) y un array opcional `repos`. Los campos `social` y `repos` se rellenan **después** de la validación del schema, igual que se documenta para las noticias.
+El digest tiene `date`, `generated_at`, `provider`, un array `items` (de 8 a 20 noticias, con `rank`, `category`, `title`, `summary`, `why_it_matters`, `url`, `source` y `social` opcional) y un array opcional `repos`. Los campos `social` y `repos` se rellenan **después** de la validación del schema, igual que se documenta para las noticias.
 
 ## 13. Tolerancia a fallos
 
@@ -164,14 +164,14 @@ El digest tiene `date`, `generated_at`, `provider`, un array `items` (de 6 a 20 
 |---|---|
 | Una fuente falla | Se omite; la recogida continúa. |
 | Fallan todas las fuentes | Aborta con exit 1. |
-| Menos de 6 ítems normalizados | Aborta sin publicar. |
+| Menos de 8 ítems normalizados (`MIN_ITEMS`) | Aborta sin publicar. |
 | No se enriquece ningún artículo | Aviso; se usan los snippets. |
-| Curación no valida o cae la red | Reintenta (3) y, si hay credencial, prueba el otro proveedor. Si ambos fallan, aborta con exit 1. |
+| Curación no valida o cae la red | Reintenta (3, con backoff de 2 s y 4 s si el error es reintentable) y, si hay credencial, prueba el otro proveedor. Si ambos fallan, aborta con exit 1. |
 | GitHub Trending parsea < umbral con HTTP 200 | Aviso + issue automático; se sigue con lo parseado o el fallback. |
 | Posts sociales fallan | La edición se publica sin posts. |
 | Repos hot fallan (scraping y API) | La edición se publica sin la sección. |
 | Sin credencial del proveedor | No se genera edición nueva; se conserva la última. |
-| Ya existe la edición de hoy | No se hace nada (idempotencia). |
+| Ya existe la edición de hoy escrita entera | No se hace nada (idempotencia). Si está truncada, se regenera. |
 
 ## 14. Ejecución local
 

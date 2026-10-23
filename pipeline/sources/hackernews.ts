@@ -2,7 +2,7 @@ import { fetchJson } from "../http.ts";
 import { warn } from "../log.ts";
 import type { HackerNewsConfig, NewsItem, SourcesConfig } from "../types.ts";
 
-interface AlgoliaHit {
+export interface AlgoliaHit {
   title?: string;
   url?: string;
   points?: number;
@@ -12,6 +12,27 @@ interface AlgoliaHit {
 
 interface AlgoliaResponse {
   hits?: AlgoliaHit[];
+}
+
+/**
+ * Convierte un hit de Algolia en NewsItem, o null si no es publicable.
+ * Función pura para probar el saneado sin red. Un hit sin titular se descarta:
+ * si entrara con el hueco, el modelo podría inventarse el titular.
+ */
+export function hitToNewsItem(hit: AlgoliaHit): NewsItem | null {
+  const link = (hit.url ?? "").trim();
+  if (!link || !/^https?:\/\//.test(link)) return null; // ignora Ask/Show HN sin URL externa
+  // Mismo tope de 200 que el schema y rss.ts: el titular acaba en el prompt.
+  const title = (hit.title ?? "").trim().slice(0, 200);
+  if (!title) return null;
+  return {
+    title,
+    snippet: "",
+    url: link,
+    source: "Hacker News",
+    published_at: new Date((hit.created_at_i ?? 0) * 1000).toISOString(),
+    points: hit.points ?? 0,
+  };
 }
 
 /**
@@ -37,21 +58,14 @@ export async function collectHackerNews(
     try {
       const data = await fetchJson<AlgoliaResponse>(url, cfg.timeout_ms, cfg.user_agent);
       for (const hit of data.hits ?? []) {
-        const link = (hit.url ?? "").trim();
-        if (!link || !/^https?:\/\//.test(link)) continue; // ignora Ask/Show HN sin URL externa
-        const existing = byUrl.get(link);
+        const item = hitToNewsItem(hit);
+        if (!item) continue;
+        const existing = byUrl.get(item.url);
         if (existing) {
-          if ((hit.points ?? 0) > (existing.points ?? 0)) existing.points = hit.points;
+          if ((item.points ?? 0) > (existing.points ?? 0)) existing.points = item.points;
           continue;
         }
-        byUrl.set(link, {
-          title: (hit.title ?? "").trim(),
-          snippet: "",
-          url: link,
-          source: "Hacker News",
-          published_at: new Date((hit.created_at_i ?? 0) * 1000).toISOString(),
-          points: hit.points ?? 0,
-        });
+        byUrl.set(item.url, item);
       }
     } catch (e) {
       // Una query fallida no invalida la fuente completa.
