@@ -1,8 +1,8 @@
 {
-  "core": ["pipeline/curate/index.ts", "pipeline/curate/repos.ts", "pipeline/curate/social.ts", "pipeline/normalize.ts", "pipeline/validate.ts", "pipeline/types.ts"],
+  "core": ["pipeline/curate/index.ts", "pipeline/curate/repos.ts", "pipeline/curate/social.ts", "pipeline/normalize.ts", "pipeline/validate.ts", "pipeline/types.ts", "pipeline/log.ts"],
   "ports": ["pipeline/ports.ts"],
   "driving_adapters": ["pipeline/index.ts"],
-  "driven_adapters": ["pipeline/curate/deepseek.ts", "pipeline/curate/claude-code.ts", "pipeline/sources", "pipeline/http.ts", "pipeline/enrich.ts"],
+  "driven_adapters": ["pipeline/curate/deepseek.ts", "pipeline/curate/claude-code.ts", "pipeline/sources", "pipeline/http.ts", "pipeline/enrich.ts", "pipeline/config.ts"],
   "composition_root": ["pipeline/index.ts", "pipeline/providers.ts"],
   "forbidden_in_core": ["node:child_process", "rss-parser", "../http.ts", "./http.ts", "./deepseek.ts", "./claude-code.ts", "../sources"]
 }

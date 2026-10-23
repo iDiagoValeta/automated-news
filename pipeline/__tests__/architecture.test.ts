@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -10,6 +10,7 @@ import { fileURLToPath } from "node:url";
 export interface HexConfig {
   core: string[];
   ports: string[];
+  driving_adapters: string[];
   driven_adapters: string[];
   composition_root: string[];
   forbidden_in_core: string[];
@@ -50,6 +51,32 @@ export function violations(files: Record<string, string>, cfg: HexConfig): strin
 }
 
 const cfg = JSON.parse(readFileSync(join(ROOT, ".hexagonal.json"), "utf8")) as HexConfig;
+
+/** Todos los ficheros fuente del pipeline salvo los tests, como rutas relativas a la raíz. */
+const FUENTE_RE = /\.[cm]?[jt]s$/;
+// Las declaraciones no generan código: no se clasifican ni se les aplican reglas.
+const DECLARACION_RE = /\.d\.[cm]?ts$/;
+
+function fuentesPipeline(dir = "pipeline"): string[] {
+  const out: string[] = [];
+  for (const entrada of readdirSync(join(ROOT, dir), { withFileTypes: true })) {
+    const rel = `${dir}/${entrada.name}`;
+    if (entrada.name === "__tests__") continue;
+    if (entrada.isDirectory()) out.push(...fuentesPipeline(rel));
+    else if (FUENTE_RE.test(entrada.name) && !DECLARACION_RE.test(entrada.name)) out.push(rel);
+  }
+  return out;
+}
+
+const roles = [...cfg.core, ...cfg.ports, ...cfg.driving_adapters, ...cfg.driven_adapters, ...cfg.composition_root];
+
+test("todo fichero fuente del pipeline está clasificado en un rol", () => {
+  const fuentes = fuentesPipeline();
+  // Evita un falso verde si el recorrido dejara de encontrar ficheros.
+  assert.ok(fuentes.length > 0, "no se encontró ningún fichero fuente en pipeline/");
+  const huerfanos = fuentes.filter((f) => !inside(f, roles));
+  assert.deepEqual(huerfanos, [], "ficheros sin rol en .hexagonal.json");
+});
 
 test("el núcleo y los puertos no importan adaptadores ni raíz de composición", () => {
   const listed = [...cfg.core, ...cfg.ports];

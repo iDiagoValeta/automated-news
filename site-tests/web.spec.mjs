@@ -11,10 +11,30 @@ import zlib from "node:zlib";
 import { fileURLToPath } from "node:url";
 import { chromium } from "playwright-core";
 import { hasShareText } from "../site/_11ty/share.js";
+import site from "../site/_data/site.js";
+import { tokenize } from "../site/_11ty/search.js";
+import configurarEleventy from "../eleventy.config.mjs";
 
 const aqui = path.dirname(fileURLToPath(import.meta.url));
 const RAIZ = path.resolve(aqui, "../_site");
 const PREFIJO = "/automated-news/";
+
+// pathPrefix real del build: se saca de la configuración de Eleventy, no de
+// site.url, para que un site.url sin prefijo no pase por bueno.
+function pathPrefixEleventy() {
+  // Doble de la API de Eleventy: cualquier método que use el config (también
+  // addCollection o addShortcode) existe y no hace nada, para que el suite no
+  // reviente al importar por una función que aquí no interesa.
+  const config = new Proxy({}, { get: () => () => {} });
+  const { pathPrefix } = configurarEleventy(config);
+  assert.ok(typeof pathPrefix === "string" && pathPrefix.startsWith("/") && pathPrefix.endsWith("/"),
+    `pathPrefix inesperado en eleventy.config.mjs: ${pathPrefix}`);
+  return pathPrefix;
+}
+
+// Origen público del build: origen de site.url más el pathPrefix. Los XML
+// deben usar esta base, no la que salga de site.url a solas.
+const BASE = `${new URL(site.url).origin}${pathPrefixEleventy()}`;
 const TIPOS = {
   ".html": "text/html; charset=utf-8", ".css": "text/css; charset=utf-8",
   ".js": "text/javascript; charset=utf-8", ".json": "application/json; charset=utf-8",
@@ -89,24 +109,118 @@ after(async () => {
 });
 
 // Abre una página recogiendo errores de consola y respuestas fallidas del mismo origen.
-async function abrir(ruta, opciones = {}) {
+// `preparar` corre antes de navegar (p. ej. para interceptar una petición).
+async function abrir(ruta, opciones = {}, preparar) {
   const contexto = await navegador.newContext({ viewport: { width: 1280, height: 800 }, ...opciones });
   const pagina = await contexto.newPage();
   const problemas = [];
-  pagina.on("console", (m) => m.type() === "error" && problemas.push(`consola: ${m.text()}`));
+  pagina.on("console", (m) => {
+    if (m.type() !== "error") return;
+    // La ubicación del mensaje lleva la URL del recurso que falló; sin ella no
+    // se puede distinguir el índice bloqueado de cualquier otro recurso caído.
+    const url = m.location().url;
+    problemas.push(url ? `consola: ${m.text()} (${url})` : `consola: ${m.text()}`);
+  });
   pagina.on("pageerror", (e) => problemas.push(`excepción: ${e.message}`));
   pagina.on("requestfailed", (r) => problemas.push(`fallo: ${r.url()}`));
   pagina.on("response", (r) => {
     if (r.url().startsWith(origen) && r.status() >= 400) problemas.push(`${r.status()} ${r.url()}`);
   });
+  if (preparar) await preparar(pagina);
   const resp = await pagina.goto(`${origen}${PREFIJO}${ruta}`, { waitUntil: "load" });
   return { contexto, pagina, problemas, resp };
+}
+
+// Fechas de las ediciones de data/, de la más reciente a la más antigua.
+function edicionesData() {
+  const dir = path.join(aqui, "../data");
+  return fs.readdirSync(dir)
+    .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
+    .map((f) => f.replace(/\.json$/, ""))
+    .sort()
+    .reverse();
+}
+
+// "2026-10-23" -> "2026/10/23/"
+function rutaEdicion(fecha) {
+  return `${fecha.replaceAll("-", "/")}/`;
+}
+
+// Tope de resultados que pinta site/js/buscar.js (results.slice(0, 80)).
+const TOPE = 80;
+
+// Mismo formato de fecha que pinta site/js/buscar.js, para casar cada resultado
+// visible con su documento del índice aunque el título se repita en varias fechas.
+const MESES_CORTOS = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
+function fechaWeb(ymd) {
+  const [y, m, d] = String(ymd).split("-").map(Number);
+  return `${d} ${MESES_CORTOS[m - 1]} ${y}`;
+}
+
+// Aciertos de una consulta de un solo token, calculados desde el índice con el
+// mismo tokenizador que usa el buscador, sin llamar a searchDocs: así el test no
+// hereda el fallo que vigila.
+function documentosCon(indice, termino) {
+  return indice.filter((doc) =>
+    [doc.title, doc.summary, doc.source].some((campo) => tokenize(campo).includes(termino)));
+}
+
+// Token del índice que aparece en más documentos (título o resumen), que es el
+// que puede superar el tope de resultados.
+function tokenFrecuente(indice) {
+  const cuenta = new Map();
+  for (const doc of indice) {
+    for (const t of new Set(tokenize(`${doc.title} ${doc.summary}`))) {
+      cuenta.set(t, (cuenta.get(t) || 0) + 1);
+    }
+  }
+  let mejor = null;
+  for (const [t, n] of cuenta) {
+    if (!mejor || n > mejor[1]) mejor = [t, n];
+  }
+  assert.ok(mejor, "no hay tokens en search-index.json");
+  return mejor[0];
+}
+
+// Comprueba los resultados pintados contra el índice: el enlace debe ser la ruta
+// de la fecha del documento que muestran el título, la fuente y la fecha, y ese
+// documento debe contener el término en su título o resumen. No usa searchDocs:
+// un buscador que ignore la consulta no puede satisfacer ambas cosas.
+async function comprobarResultados(pagina, indice, termino, total, pintados) {
+  const items = await pagina.locator(".buscar-resultados__item").evaluateAll((lis) =>
+    lis.map((li) => ({
+      href: li.querySelector("a")?.getAttribute("href") ?? "",
+      fecha: li.querySelector(".archivo__fecha")?.textContent.trim() ?? "",
+      titulo: li.querySelector(".archivo__lead")?.textContent.trim() ?? "",
+      fuente: li.querySelector(".archivo__count")?.textContent.trim() ?? "",
+    })));
+  assert.equal(items.length, pintados,
+    `se pintaron ${items.length} de ${total} aciertos, se esperaban ${pintados}`);
+  for (const item of items) {
+    const doc = indice.find((d) =>
+      d.title === item.titulo && d.source === item.fuente && fechaWeb(d.date) === item.fecha);
+    assert.ok(doc, `resultado sin documento en el índice: ${item.titulo} (${item.fecha}, ${item.fuente})`);
+    assert.ok(tokenize(doc.title).includes(termino) || tokenize(doc.summary).includes(termino),
+      `"${termino}" no aparece en el título ni el resumen de "${doc.title}"`);
+    assert.equal(item.href, `${PREFIJO}${rutaEdicion(doc.date)}`,
+      `"${doc.title}" enlaza con ${item.href} y su fecha es ${doc.date}`);
+    assert.ok(fs.existsSync(path.join(RAIZ, item.href.slice(PREFIJO.length), "index.html")),
+      `resultado que apunta a una página inexistente: ${item.href}`);
+  }
+}
+
+// Edición más reciente del build, indexada igual que la portada (por rank).
+function edicionReciente() {
+  const fichero = `${edicionesData()[0]}.json`;
+  const datos = JSON.parse(fs.readFileSync(path.join(aqui, "../data", fichero), "utf8"));
+  datos.items = datos.items.slice().sort((a, b) => a.rank - b.rank);
+  return datos;
 }
 
 test("portada: título, noticias y sin errores", async () => {
   const { contexto, pagina, problemas } = await abrir("");
   const titulo = await pagina.title();
-  assert.match(titulo, /La Terminal/i);
+  assert.ok(titulo.includes(site.title), `el título "${titulo}" no contiene "${site.title}"`);
   assert.ok((await pagina.locator("article.story").count()) >= 6, "menos de 6 article.story");
   assert.deepEqual(problemas, []);
   await contexto.close();
@@ -128,9 +242,148 @@ test("navegación de secciones", async () => {
   }
 });
 
+test("página de edición: titular del rank 1 y navegación temporal", async () => {
+  const edicion = edicionReciente();
+  const fechas = edicionesData();
+  assert.ok(fechas.length >= 2, "hacen falta al menos dos ediciones para validar la navegación");
+  const ruta = rutaEdicion(edicion.date);
+  const { contexto, pagina, problemas, resp } = await abrir(ruta);
+  assert.equal(resp.status(), 200);
+  const titular = (await pagina.locator(".lead__title").innerText()).trim();
+  assert.ok(titular.includes(edicion.items[0].title), `el lead "${titular}" no es el rank 1`);
+  const nav = pagina.locator('nav.edicion-nav[aria-label="Navegación entre días"]');
+  await nav.waitFor();
+  const flechas = await nav.locator("a.edicion-nav__flecha").evaluateAll((as) =>
+    as.map((a) => ({ texto: a.textContent.trim(), href: a.getAttribute("href") })));
+  // En la edición más reciente solo hay flecha «Anterior» y debe apuntar a la
+  // edición inmediatamente anterior en data/, no a cualquier edición existente.
+  // Se mira el texto de la flecha: si olderPath y newerPath se intercambian, el
+  // enlace sigue apuntando al día correcto pero con la flecha «Siguiente».
+  const anterior = `${PREFIJO}${rutaEdicion(fechas[1])}`;
+  assert.equal(flechas.length, 1,
+    `la edición más reciente debería tener una sola flecha y tiene ${flechas.length}`);
+  assert.match(flechas[0].texto, /anterior/i, `la flecha dice "${flechas[0].texto}"`);
+  assert.doesNotMatch(flechas[0].texto, /siguiente/i, `la flecha dice "${flechas[0].texto}"`);
+  assert.equal(flechas[0].href, anterior,
+    `la flecha «Anterior» debería enlazar con ${anterior} y enlaza con ${flechas[0].href}`);
+  assert.deepEqual(problemas, []);
+  await contexto.close();
+});
+
+test("buscar: resultados para un titular real", async () => {
+  const indice = JSON.parse(fs.readFileSync(path.join(RAIZ, "search-index.json"), "utf8"));
+  assert.ok(indice.length > 0, "search-index.json vacío");
+  // Mismo tokenizador que usa el buscador: un titular con guiones o puntos se
+  // parte igual en el índice y en la consulta.
+  const termino = tokenize(indice[0].title).sort((a, b) => b.length - a.length)[0];
+  assert.ok(termino, "no hay término útil en el primer titular");
+  // Los aciertos se cuentan desde el índice, no con searchDocs: si la búsqueda
+  // ignora la consulta, la expectativa no se rompe con ella.
+  const aciertos = documentosCon(indice, termino);
+  assert.ok(aciertos.length > 0, `el índice no encuentra "${termino}"`);
+  // El estado cuenta todos los aciertos; la lista pinta como mucho TOPE.
+  const texto = aciertos.length === 1 ? "1 resultado." : `${aciertos.length} resultados.`;
+  const pintados = Math.min(aciertos.length, TOPE);
+  let esperaIndice;
+  const { contexto, pagina, problemas } = await abrir("archivo/buscar/", {}, (p) => {
+    esperaIndice = p.waitForResponse((r) => r.url().includes("search-index.json") && r.ok());
+  });
+  // El listener de `input` se registra al terminar de cargar el índice: hay que
+  // esperar a esa respuesta o el primer evento se pierde.
+  await esperaIndice;
+  await pagina.locator("#q").fill(termino);
+  await pagina.locator(".buscar-resultados__item").first().waitFor();
+  assert.equal((await pagina.locator("#buscar-estado").innerText()).trim(), texto);
+  await comprobarResultados(pagina, indice, termino, aciertos.length, pintados);
+
+  // Segunda consulta con el token que aparece en más documentos: supera el tope
+  // y ejercita de verdad la rama results.slice(0, TOPE) de buscar.js.
+  const frecuente = tokenFrecuente(indice);
+  const totalFrecuente = documentosCon(indice, frecuente).length;
+  assert.ok(totalFrecuente > TOPE,
+    `el token más frecuente "${frecuente}" solo tiene ${totalFrecuente} aciertos y no supera el tope ${TOPE}`);
+  const textoFrecuente = `${totalFrecuente} resultados.`;
+  const itemsAntes = await pagina.locator(".buscar-resultados__item").count();
+  await pagina.locator("#q").fill(frecuente);
+  // Se espera a que la interfaz refleje la consulta nueva sin dormir un tiempo
+  // fijo: cambia el estado o el número de resultados pintados.
+  await pagina.waitForFunction(([estadoPrevio, itemsPrevios]) => {
+    const estado = document.querySelector("#buscar-estado")?.textContent.trim() ?? "";
+    const items = document.querySelectorAll(".buscar-resultados__item").length;
+    return estado !== estadoPrevio || items !== itemsPrevios;
+  }, [texto, itemsAntes]);
+  assert.equal((await pagina.locator("#buscar-estado").innerText()).trim(), textoFrecuente);
+  await comprobarResultados(pagina, indice, frecuente, totalFrecuente, TOPE);
+  assert.deepEqual(problemas, []);
+  await contexto.close();
+});
+
+test("buscar: estado de error si el índice no carga", async () => {
+  const { contexto, pagina, problemas } = await abrir("archivo/buscar/", {}, (p) =>
+    p.route("**/search-index.json", (ruta) => ruta.abort()));
+  const estado = pagina.locator("#buscar-estado");
+  await estado.waitFor();
+  assert.equal((await estado.innerText()).trim(), "No se pudo cargar el índice de búsqueda.");
+  assert.equal(await pagina.locator(".buscar-resultados__item").count(), 0);
+  // El único fallo esperado es el índice que hemos bloqueado. El error de
+  // consola de Chromium lleva la URL del recurso en su ubicación, así que se
+  // descarta solo lo que nombre esa URL y no cualquier recurso caído.
+  assert.ok(problemas.some((p) => p.includes("search-index.json")), "la petición del índice no se bloqueó");
+  const inesperados = problemas.filter((p) => !p.includes("search-index.json"));
+  assert.deepEqual(inesperados, []);
+  await contexto.close();
+});
+
+test("feeds: XML válido y URLs absolutas con el pathPrefix", async () => {
+  // site.url debe coincidir con el origen más el pathPrefix de Eleventy: si
+  // pierde el prefijo, los XML apuntan fuera del sitio aunque BASE no cambie.
+  assert.equal(site.url.replace(/\/$/, ""), BASE.replace(/\/$/, ""),
+    "site.url no coincide con el origen más el pathPrefix de Eleventy");
+  const { contexto, pagina, problemas } = await abrir("");
+  const xml = await pagina.evaluate(async (rutas) => {
+    const salida = {};
+    for (const ruta of rutas) {
+      const texto = await (await fetch(ruta)).text();
+      const doc = new DOMParser().parseFromString(texto, "application/xml");
+      const error = doc.querySelector("parsererror");
+      const urls = [];
+      for (const el of doc.getElementsByTagName("*")) {
+        const nombre = el.localName;
+        if (!["loc", "link", "guid", "id"].includes(nombre)) continue;
+        const valor = (nombre === "link" ? el.getAttribute("href") || el.textContent : el.textContent).trim();
+        if (valor) urls.push(valor);
+      }
+      salida[ruta] = { error: error?.textContent ?? null, raiz: doc.documentElement.localName, urls };
+    }
+    return salida;
+  }, ["feed.xml", "atom.xml", "sitemap.xml"]);
+  for (const [ruta, raiz] of [["feed.xml", "rss"], ["atom.xml", "feed"], ["sitemap.xml", "urlset"]]) {
+    const { error, raiz: real, urls } = xml[ruta];
+    assert.equal(error, null, `${ruta} no parsea como XML: ${error}`);
+    assert.equal(real, raiz, `${ruta} tiene raíz <${real}>`);
+    assert.ok(urls.length > 0, `${ruta} no declara ninguna URL`);
+    const fuera = urls.filter((u) => !u.startsWith(BASE));
+    assert.deepEqual(fuera, [], `${ruta}: URLs fuera de ${BASE}`);
+  }
+  // No basta con que haya alguna URL: feed y atom deben listar la edición más
+  // reciente y el sitemap todas las ediciones de data/.
+  const fechas = edicionesData();
+  assert.ok(fechas.length > 0, "no hay ediciones en data/");
+  const urlDe = (fecha) => `${BASE}${rutaEdicion(fecha)}`;
+  for (const nombre of ["feed.xml", "atom.xml"]) {
+    assert.ok(xml[nombre].urls.includes(urlDe(fechas[0])),
+      `${nombre} no incluye la edición más reciente ${urlDe(fechas[0])}`);
+  }
+  const faltan = fechas.map(urlDe).filter((u) => !xml["sitemap.xml"].urls.includes(u));
+  assert.deepEqual(faltan, [], "sitemap.xml no incluye todas las ediciones de data/");
+  assert.deepEqual(problemas, []);
+  await contexto.close();
+});
+
 test("paleta de búsqueda devuelve resultados", async () => {
   const indice = JSON.parse(fs.readFileSync(path.join(RAIZ, "search-index.json"), "utf8"));
-  const termino = indice[0].title.split(/\s+/).sort((a, b) => b.length - a.length)[0].replace(/[^\p{L}\p{N}]/gu, "");
+  const termino = tokenize(indice[0].title).sort((a, b) => b.length - a.length)[0];
+  assert.ok(termino, "no hay término útil en el primer titular");
   const { contexto, pagina, problemas } = await abrir("");
   await pagina.keyboard.press("Control+k");
   await pagina.locator("dialog.paleta[open]").waitFor();
