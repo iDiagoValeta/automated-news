@@ -10,6 +10,7 @@ import os from "node:os";
 import zlib from "node:zlib";
 import { fileURLToPath } from "node:url";
 import { chromium } from "playwright-core";
+import { hasShareText } from "../site/_11ty/share.js";
 
 const aqui = path.dirname(fileURLToPath(import.meta.url));
 const RAIZ = path.resolve(aqui, "../_site");
@@ -150,13 +151,16 @@ test("el interruptor de tema cambia data-theme", async () => {
   await contexto.close();
 });
 
-test("copiar el texto social de X deja en el portapapeles el de la primera noticia", async () => {
+test("copiar el texto social de X deja en el portapapeles el de la primera tarjeta con X", async () => {
   // Se lee de la edición más reciente (la que publica la portada) en vez de copiarlo literal.
+  // La web ordena por rank y solo pinta el botón de X donde hay texto para X (los posts son
+  // best effort): la primera tarjeta con X es la de menor rank que lo tiene, no items[0].
   const ultima = fs.readdirSync(path.join(aqui, "../data")).filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort().pop();
-  const esperado = JSON.parse(fs.readFileSync(path.join(aqui, "../data", ultima), "utf8")).items[0].social.x;
-  assert.ok(esperado, "la primera noticia no tiene texto social de X");
+  const items = JSON.parse(fs.readFileSync(path.join(aqui, "../data", ultima), "utf8")).items;
+  const esperado = items.slice().sort((a, b) => a.rank - b.rank).find((it) => hasShareText(it.social?.x))?.social.x;
+  assert.ok(esperado, "ninguna noticia de la portada tiene texto de X");
   const { contexto, pagina, problemas } = await abrir("", { permissions: ["clipboard-read", "clipboard-write"] });
-  const tarjeta = pagina.locator(".share").first();
+  const tarjeta = pagina.locator(".share").filter({ has: pagina.locator('.share__copy[data-red="X"]') }).first();
   await tarjeta.locator("summary").click();
   await tarjeta.locator('.share__copy[data-red="X"]').click();
   await pagina.locator(".share__copy.is-copied").waitFor({ state: "attached" }); // el menú se cierra al copiar
