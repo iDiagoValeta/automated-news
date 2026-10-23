@@ -1,0 +1,294 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T15:02:46.294Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "NVIDIA lanza OpenShell, un runtime seguro para flotas de agentes de IA",
+      "summary": "OpenShell es un entorno de ejecución open source pensado para ejecutar muchos agentes autónomos con aislamiento y control de permisos. El proyecto de NVIDIA busca que desplegar agentes en producción no obligue a montar a mano la capa de seguridad.",
+      "why_it_matters": "Facilita probar y desplegar agentes de IA sin exponer el sistema anfitrión.",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "source": "Hacker News"
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "OpenAI abre su API Decisions para decisiones rápidas y baratas",
+      "summary": "OpenAI ha publicado una API centrada en tomar decisiones concretas dentro de una aplicación, con latencia y coste bajos. La propuesta compite con los modelos de decisión especializados y se puede integrar en flujos de producto.",
+      "why_it_matters": "Amplía las opciones para añadir automatización de decisiones sin recurrir a un LLM generalista.",
+      "url": "https://openai.com/index/decisions-api",
+      "source": "OpenAI News",
+      "social": {
+        "x": "No todo necesita un LLM generalista. OpenAI acaba de abrir una API que solo toma decisiones concretas, con menos latencia y bastante menos coste.\n\n#OpenAI #LLM #APIs #DevTools\nhttps://openai.com/index/decisions-api",
+        "linkedin": "La mayoría de equipos sigue usando un LLM generalista para tareas que caben en una llamada de milisegundos.\n\nLa nueva API Decisions de OpenAI se centra justo en eso: resolver decisiones concretas dentro de un producto con latencia y coste bajos, sin arrastrar el peso de un modelo generalista. 𝗟𝗮 𝗽𝗿𝗲𝗴𝘂𝗻𝘁𝗮 𝗱𝗲 𝗮𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 «𝗾𝘂é 𝗺𝗼𝗱𝗲𝗹𝗼 𝘂𝘀𝗼» 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 «𝗾𝘂é 𝘁𝗶𝗽𝗼 𝗱𝗲 𝘁𝗮𝗿𝗲𝗮 𝘁𝗲𝗻𝗴𝗼 𝗱𝗲𝗹𝗮𝗻𝘁𝗲». Para quien esté montando flujos de producto con automatización, la comparación ya no va solo de calidad, sino de coste por decisión y de cuánto margen deja cada llamada.\n\n#OpenAI #LLM #APIs #DevTools\n\nhttps://openai.com/index/decisions-api"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "1Password permite que los agentes de IA inicien sesión sin ver tus contraseñas",
+      "summary": "La nueva función da a los agentes un acceso limitado a cuentas personales mientras 1Password mantiene las credenciales fuera de su alcance. El usuario puede autorizar inicios de sesión sin compartir la contraseña real.",
+      "why_it_matters": "Resuelve uno de los principales cuellos de botella para automatizar tareas con agentes sin sacrificar seguridad.",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+      "source": "TechCrunch",
+      "social": {
+        "x": "1Password acaba de resolver el freno real de los agentes: pueden iniciar sesión en tus cuentas sin llegar a ver la contraseña.\n\n#1Password #Ciberseguridad #AgentesIA #Automatización\nhttps://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+        "linkedin": "El cuello de botella de los agentes de IA nunca fue el modelo, era la contraseña.\n\n1Password acaba de abrir la puerta a que un agente inicie sesión en tus cuentas con un permiso limitado y sin que la credencial real llegue a estar a su alcance: el usuario autoriza el acceso, pero la contraseña se queda donde debe. 𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗻𝗼 𝗲𝘀 𝗱𝗮𝗿 𝗺á𝘀 𝗮𝗰𝗰𝗲𝘀𝗼 𝗮 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀, 𝘀𝗶𝗻𝗼 𝗱𝗮𝗿𝗹𝗼 𝘀𝗶𝗻 𝗲𝗻𝘁𝗿𝗲𝗴𝗮𝗿 𝗲𝗹 𝘀𝗲𝗰𝗿𝗲𝘁𝗼, y eso cambia el cálculo para cualquier equipo que hasta ahora frenaba la automatización por miedo a filtrar credenciales. Si tu flujo de trabajo depende de tareas automatizadas en servicios de terceros, esto es lo primero que deberías mirar antes de ampliar permisos a lo bruto.\n\n#1Password #Ciberseguridad #AgentesIA #Automatización\n\nhttps://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Canva lanza Craft, su primer modelo propio de generación de imágenes",
+      "summary": "Canva ha presentado Craft, un modelo de imagen desarrollado internamente y disponible para todos los usuarios. La compañía promete resultados más personalizables y un coste menor que el de alternativas externas.",
+      "why_it_matters": "Mete generación de imágenes en el flujo de diseño de millones de usuarios sin depender de terceros.",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Canva ya no necesita a nadie para generar imágenes. Su primer modelo propio se llama Craft y viene incluido en el editor que usan millones de personas.\n\n#Canva #Craft #GenerativeAI #Diseño\nhttps://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model",
+        "linkedin": "Canva ya no alquila la generación de imágenes: se la fabrica en casa.\n\nCraft es su primer modelo propio, disponible para todos los usuarios, con la promesa de resultados más personalizables y un coste menor que el de las alternativas externas. La lectura que me parece relevante no es la del modelo, sino la del envoltorio: 𝗾𝘂𝗶𝗲𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝘆 𝗲𝗹 𝗳𝗹𝘂𝗷𝗼 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼, y Canva acaba de meter generación de imágenes en el día a día de gente que nunca va a abrir una herramienta aparte. Para los proveedores externos, cada usuario así es un cliente que deja de llamar a su puerta.\n\n#Canva #Craft #GenerativeAI #Diseño\n\nhttps://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Google da a cada agente de Gemini una micro máquina virtual aislada",
+      "summary": "Agent Compute Engine es un entorno de ejecución para agentes de IA que asigna a cada uno su propia micro máquina virtual con aislamiento de hardware. Google también amplía las herramientas de gobierno para gestionarlos en cloud, híbrido y on premises.",
+      "why_it_matters": "Hace más viable ejecutar agentes autónomos con separación de recursos y controles empresariales.",
+      "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine",
+      "source": "The Decoder",
+      "social": {
+        "x": "Cada agente de Gemini corre ahora en su propia máquina virtual, aislada por hardware. Google acaba de convertir el sandbox en infraestructura.\n\n#Gemini #GoogleCloud #AgentComputeEngine\nhttps://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine",
+        "linkedin": "El problema de fondo con los agentes autónomos nunca fue el modelo: era dónde ejecutarlos sin que se lleven por delante el resto del sistema.\n\nAgent Compute Engine le da a cada agente de Gemini su propia micro máquina virtual con aislamiento de hardware, y suma herramientas de gobierno para gestionarlos en cloud, híbrido y on premises. Eso convierte 𝗲𝗹 𝗮𝗶𝘀𝗹𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗽𝗼𝗿 𝗮𝗴𝗲𝗻𝘁𝗲 𝗲𝗻 𝘂𝗻𝗮 𝗽𝗶𝗲𝘇𝗮 𝗱𝗲 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮, 𝗻𝗼 𝗲𝗻 𝘂𝗻 𝗽𝗮𝗿𝗰𝗵𝗲 𝗱𝗲𝗹 𝗲𝗾𝘂𝗶𝗽𝗼 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱. Para quien está pasando de un chatbot a diez agentes en producción, la pregunta deja de ser qué modelo usar y pasa a ser cuántos entornos aislados puedo permitirme.\n\n#Gemini #GoogleCloud #AgentComputeEngine\n\nhttps://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "SageMaker permite escribir tu propio bucle de entrenamiento sin gestionar GPUs",
+      "summary": "Amazon ha abierto las APIs de training sessions de SageMaker AI, con las que se puede definir un bucle de SFT o RL en Python mientras el servicio se encarga de las GPUs. Incluye recuperación ante fallos y almacenamiento de checkpoints.",
+      "why_it_matters": "Baja la barrera para personalizar modelos sin montar infraestructura de entrenamiento.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Escribes tu bucle de entrenamiento en Python y SageMaker se encarga de las GPUs, los fallos y los checkpoints. Sin montar nada.\n\n#SageMaker #AWS #FineTuning\nhttps://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions",
+        "linkedin": "El cuello de botella para entrenar tu propio modelo ya no son las GPUs, es el tiempo de ingeniería que hay alrededor.\n\nCon las APIs de training sessions abiertas en SageMaker AI puedes definir un bucle de SFT o RL en Python y dejar que el servicio gestione el hardware, la recuperación ante fallos y el almacenado de checkpoints. 𝗟𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗽𝗮𝗿𝗮 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝘇𝗮𝗿 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗹𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗹𝗮 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝗱𝗲 𝘁𝘂𝘀 𝗱𝗮𝘁𝗼𝘀. Para un equipo pequeño, eso convierte algo que antes exigía montar un clúster dedicado en una tarde de código.\n\n#SageMaker #AWS #FineTuning\n\nhttps://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Microsoft presenta Flint-interactive, un lenguaje para que los agentes creen gráficos interactivos",
+      "summary": "Flint-interactive permite a un agente de IA generar visualizaciones de datos que el usuario puede filtrar y explorar, no solo una imagen estática. El lenguaje describe la interacción para que el gráfico responda a clics y selecciones.",
+      "why_it_matters": "Acerca los cuadros de mando interactivos a cualquier flujo donde ya haya un agente.",
+      "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations",
+      "source": "Microsoft Research",
+      "social": {
+        "x": "Los gráficos que genera un agente de IA son fotos: se miran y ya. Microsoft quiere que además respondan a tus clics.\n\n#Microsoft #FlintInteractive #DataViz #AgentesIA\nhttps://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations",
+        "linkedin": "Un gráfico generado por un agente de IA es todavía una imagen: se mira y se cierra la pestaña.\n\nMicrosoft Research presenta Flint-interactive, un lenguaje que describe no solo los datos, sino también la interacción, para que el agente produzca visualizaciones que el usuario puede filtrar y explorar con clics y selecciones. El salto no es estético: 𝗲𝗹 𝗴𝗿á𝗳𝗶𝗰𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗲𝗻𝘁𝗿𝗲𝗴𝗮𝗯𝗹𝗲 𝗳𝗶𝗻𝗮𝗹 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝘇. Para quien construye producto, eso abre la puerta a cuadros de mando interactivos dentro de cualquier flujo donde ya haya un agente, sin montar un equipo de front aparte.\n\n#Microsoft #FlintInteractive #DataViz #AgentesIA\n\nhttps://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "OlmoEarth v1.3 ofrece embeddings de alta calidad para todo el planeta",
+      "summary": "El nuevo modelo de Allen AI genera representaciones vectoriales de datos geográficos y de observación de la Tierra. Está pensado para tareas de clasificación, segmentación y análisis medioambiental a escala global.",
+      "why_it_matters": "Da a los equipos de teledetección un modelo abierto listo para usar en lugar de entrenar uno desde cero.",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "OlmoEarth v1.3 genera embeddings de cualquier punto del planeta y es abierto. Entrenar tu modelo de teledetección desde cero ya no es la única opción.\n\n#OlmoEarth #AllenAI #EarthObservation #OpenSource\nhttps://huggingface.co/blog/allenai/olmoearth-v1-3",
+        "linkedin": "El modelo que te evita entrenar el tuyo desde cero ya existe, es abierto y cubre todo el planeta.\n\nAllen AI ha publicado OlmoEarth v1.3, un modelo que genera representaciones vectoriales de datos geográficos y de observación de la Tierra, listas para clasificación, segmentación y análisis medioambiental a escala global. Para un equipo de teledetección, eso significa pasar de meses de entrenamiento y etiquetado a trabajar sobre unos embeddings que ya traen conocimiento global incorporado. 𝗟𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗮𝗹 𝗮𝗻á𝗹𝗶𝘀𝗶𝘀 𝘀𝗮𝘁𝗲𝗹𝗶𝘁𝗮𝗹 𝘀𝗲 𝗱𝗲𝘀𝗽𝗹𝗼𝗺𝗮 𝗽𝗮𝗿𝗮 𝗾𝘂𝗶𝗲𝗻 𝘀𝗲𝗽𝗮 𝗮𝗽𝗿𝗼𝘃𝗲𝗰𝗵𝗮𝗿𝗹𝗮, y a quien siga entrenando desde cero le toca explicar qué aporta su modelo que no aporte este.\n\n#OlmoEarth #AllenAI #EarthObservation #OpenSource\n\nhttps://huggingface.co/blog/allenai/olmoearth-v1-3"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "Amazon Polly mejora su motor generativo con voces más expresivas",
+      "summary": "Polly actualiza su motor generativo con 14 voces nuevas en 9 idiomas y reduce la latencia. El cambio no exige modificar el código de las aplicaciones que ya lo usan.",
+      "why_it_matters": "Mejora la calidad de la voz en asistentes y agentes sin un trabajo de integración adicional.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Amazon Polly suma 14 voces nuevas y menos latencia. Lo interesante es lo que no hay que hacer: ni una línea de código.\n\n#AmazonPolly #AWS #TextToSpeech\nhttps://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine",
+        "linkedin": "La mejora que más importa de Polly es la que no te obliga a hacer nada.\n\nAmazon ha añadido 14 voces generativas en 9 idiomas y ha recortado la latencia, y todo llega sin tocar el código de las aplicaciones que ya lo usan. Para quien construye asistentes de voz o agentes conversacionales, 𝗹𝗮 𝘃𝗼𝘇 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗱𝗲𝘁𝗮𝗹𝗹𝗲 𝘁é𝗰𝗻𝗶𝗰𝗼 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼: ya no hay fricción de integración que justifique quedarse con la síntesis de siempre. Y la latencia, al final, es lo que separa una demo bonita de algo que la gente usa a diario.\n\n#AmazonPolly #AWS #TextToSpeech\n\nhttps://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "Claude demuestra propiedades de seguridad en 123 bibliotecas open source",
+      "summary": "Anthropic ha usado Claude para generar pruebas formales de corrección sobre el código compilado de 123 proyectos open source. El proceso encontró errores que habían pasado desapercibidos durante años.",
+      "why_it_matters": "Sugiere que la verificación formal puede dejar de ser un lujo y convertirse en una práctica habitual.",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "source": "Hacker News",
+      "social": {
+        "x": "Claude revisó 123 bibliotecas open source y encontró errores que llevaban años ahí, a la vista de todos. La verificación formal deja de ser un lujo.\n\n#Anthropic #OpenSource #Claude #VerificaciónFormal\nhttps://www.anthropic.com/research/formal-verification",
+        "linkedin": "El código que llevas años dando por bueno tiene errores que nadie había visto. Claude acaba de encontrar varios en 123 bibliotecas open source.\n\nAnthropic ha generado pruebas formales de corrección sobre el código compilado de esos proyectos, y lo relevante no es solo el hallazgo: es la señal de que 𝗹𝗮 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗳𝗼𝗿𝗺𝗮𝗹 𝗽𝘂𝗲𝗱𝗲 𝗱𝗲𝗷𝗮𝗿 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗹𝘂𝗷𝗼 y entrar en el flujo de trabajo normal. Para quien mantiene infraestructura crítica o depende de dependencias que no controla, la pregunta ya no es si merece la pena, sino cuánto se tarda en incorporarlo.\n\n#Anthropic #OpenSource #Claude #VerificaciónFormal\n\nhttps://www.anthropic.com/research/formal-verification"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Por primera vez se administra a una persona un virus diseñado por IA",
+      "summary": "El tratamiento se dirigió contra bacterias resistentes a antibióticos que afectaban a un paciente. El virus fue diseñado con herramientas de IA y administrado como terapia experimental.",
+      "why_it_matters": "Abre una vía para crear tratamientos personalizados contra infecciones resistentes.",
+      "url": "https://www.theregister.com/science/2026/10/22/human-receives-ai-designed-virus-for-the-first-time/5304874",
+      "source": "The Register",
+      "social": {
+        "x": "Un virus diseñado por IA acaba de entrar en un cuerpo humano. No era un experimento de laboratorio: era el último recurso contra una infección que los antibióticos ya no frenaban.\n\n#Bacteriofagos #PhageTherapy #Biotech #SaludDigital\nhttps://www.theregister.com/science/2026/10/22/human-receives-ai-designed-virus-for-the-first-time/5304874",
+        "linkedin": "Por primera vez, un virus diseñado por IA ha entrado en el cuerpo de una persona.\n\nEl paciente tenía una infección causada por bacterias resistentes a los antibióticos y el tratamiento, un bacteriófago generado con herramientas de IA, se administró como terapia experimental. Hasta ahora estos virus se diseñaban a mano en el laboratorio, con meses de prueba y error; un modelo puede proponer candidatos en mucho menos tiempo. La lectura profesional: 𝗹𝗮 𝗜𝗔 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗮𝗽𝗮 𝗱𝗲 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝘆 𝗲𝗺𝗽𝗶𝗲𝘇𝗮 𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝗶𝗿 𝘁𝗲𝗿𝗮𝗽𝗶𝗮𝘀 𝗮 𝗺𝗲𝗱𝗶𝗱𝗮, lo que abre un debate inmediato sobre validación clínica, regulación y responsabilidad si algo falla. Para quien trabaja en biotech o salud digital, el cuello de botella ya no está en diseñar: está en probar y aprobar.\n\n#Bacteriofagos #PhageTherapy #Biotech #SaludDigital\n\nhttps://www.theregister.com/science/2026/10/22/human-receives-ai-designed-virus-for-the-first-time/5304874"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "La IA detecta inflamación coronaria en el 42,9% de pacientes asintomáticos",
+      "summary": "Un estudio con análisis de IA de escáneres cardiacos encontró signos de inflamación coronaria en más de cuatro de cada diez pacientes sin síntomas. El objetivo es identificar riesgo cardiovascular antes de que aparezca la placa obstructiva.",
+      "why_it_matters": "Puede adelantar la prevención de infartos en personas que hoy no recibirían atención.",
+      "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+      "source": "Hacker News",
+      "social": {
+        "x": "Cuatro de cada diez pacientes sin ningún síntoma tenían ya inflamación coronaria. La IA la vio en escáneres que hasta ahora se leían a ojo.\n\n#Cardiología #MachineLearning #SaludDigital\nhttps://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+        "linkedin": "El 42,9% de los pacientes asintomáticos de este estudio tenían inflamación coronaria, y la detectó una IA sobre escáneres que ya se habían hecho.\n\nEl hallazgo importa porque mueve la prevención antes de que exista placa obstructiva: hablamos de personas que hoy saldrían de la consulta sin ninguna alerta. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗶𝗺𝗮𝗴𝗲𝗻, 𝗲𝘀 𝗹𝗼 𝗾𝘂𝗲 𝘀𝗼𝗺𝗼𝘀 𝗰𝗮𝗽𝗮𝗰𝗲𝘀 𝗱𝗲 𝗹𝗲𝗲𝗿 𝗲𝗻 𝗲𝗹𝗹𝗮, y ahí los modelos entrenados para encontrar lo que el ojo humano descarta pueden cambiar el cribado. Si el resultado se valida en cohortes más amplias, la pregunta para los servicios de radiología será quién asume ese análisis y con qué protocolo.\n\n#Cardiología #MachineLearning #SaludDigital\n\nhttps://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "Un método open source calcula las emisiones de CO2 de cada petición a la IA",
+      "summary": "Berget AI ha publicado, junto a investigadores de SEI y WattTime, una forma de medir las emisiones asociadas a cada consulta de IA. El mismo modelo puede generar 8,5 veces más CO2 en Texas que en Suecia según la red eléctrica.",
+      "why_it_matters": "Permite comparar el impacto ambiental de la inferencia y elegir dónde ejecutarla.",
+      "url": "https://berget.ai/en/blog/per-request-co2-press-release",
+      "source": "Hacker News",
+      "social": {
+        "x": "La misma consulta a la IA puede emitir 8,5 veces más CO2 en Texas que en Suecia. Ya hay un método open source para saberlo antes de ejecutarla.\n\n#OpenSource #BergetAI #WattTime\nhttps://berget.ai/en/blog/per-request-co2-press-release",
+        "linkedin": "La misma petición a la IA puede emitir 8,5 veces más CO2 según dónde se ejecute. Y hasta ahora no había una forma sencilla de saberlo antes de lanzarla.\n\nBerget AI, junto a investigadores de SEI y WattTime, publica un método open source que calcula las emisiones de cada consulta a partir de la red eléctrica del momento. Para quien despliega inferencia, eso convierte 𝗹𝗮 𝘂𝗯𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝗰ó𝗺𝗽𝘂𝘁𝗼 𝗲𝗻 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝘀𝗼𝘀𝘁𝗲𝗻𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱, 𝗻𝗼 𝘀𝗼𝗹𝗼 𝗱𝗲 𝗹𝗮𝘁𝗲𝗻𝗰𝗶𝗮 𝗼 𝗽𝗿𝗲𝗰𝗶𝗼. Falta ver si el sector lo adopta como métrica estándar o si se queda en un ejercicio de transparencia puntual.\n\n#OpenSource #BergetAI #WattTime\n\nhttps://berget.ai/en/blog/per-request-co2-press-release"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "herramientas",
+      "title": "Cloudflare añade perfilado de CPU y memoria bajo demanda en Workers",
+      "summary": "La nueva función genera flamegraphs interactivos para diagnosticar cuellos de botella en Workers y Durable Objects en producción. Se activa cuando hace falta, sin despliegues adicionales.",
+      "why_it_matters": "Da visibilidad de rendimiento en producción a aplicaciones serverless que antes dependían de pruebas locales.",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-cpu-memory-profiling",
+      "source": "InfoQ",
+      "social": {
+        "x": "Los cuellos de botella de un Worker en producción dejaban de existir en cuanto salías de local. Cloudflare acaba de activar el perfilado de CPU y memoria bajo demanda.\n\n#Cloudflare #Serverless #Workers #Observabilidad\nhttps://www.infoq.com/news/2026/10/cloudflare-cpu-memory-profiling",
+        "linkedin": "El rendimiento de una app serverless se diagnosticaba casi a ciegas: o replicabas la carga en local, o no había manera de ver dónde se atascaba el Worker ya en producción.\nCloudflare acaba de añadir perfilado de CPU y memoria bajo demanda en Workers y Durable Objects, con flamegraphs interactivos que se activan cuando hace falta, sin despliegues adicionales. 𝗟𝗮 𝗼𝗯𝘀𝗲𝗿𝘃𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗲𝘅𝘁𝗿𝗮 𝗾𝘂𝗲 𝘀𝗲 𝗰𝗼𝗻𝘁𝗿𝗮𝘁𝗮 𝗮𝗽𝗮𝗿𝘁𝗲 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝗳𝗼𝗿𝗺𝗮𝗿 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲𝗹 𝗿𝘂𝗻𝘁𝗶𝗺𝗲. Para los equipos que viven de funciones y no de servidores, esto cambia la conversación: investigar un pico de latencia pasa de ser una tarde de conjeturas a un rato delante de un gráfico.\n\n#Cloudflare #Serverless #Workers #Observabilidad\n\nhttps://www.infoq.com/news/2026/10/cloudflare-cpu-memory-profiling"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "herramientas",
+      "title": "AWS Lambda ejecuta aplicaciones web de Node.js con Express o Hono",
+      "summary": "Lambda Web Functions permite desplegar aplicaciones Node.js basadas en frameworks web directamente en Lambda, con peticiones concurrentes y streaming de respuestas. El objetivo es reducir el trabajo de adaptación a serverless.",
+      "why_it_matters": "Simplifica llevar código web existente a un modelo de ejecución por demanda.",
+      "url": "https://www.infoq.com/news/2026/10/aws-lambda-web-functions",
+      "source": "InfoQ",
+      "social": {
+        "x": "Tu app de Express o Hono ya no necesita un adaptador para correr en Lambda. AWS permite desplegarla tal cual, con streaming de respuestas incluido.\n\n#AWSLambda #Serverless #NodeJS #Hono\nhttps://www.infoq.com/news/2026/10/aws-lambda-web-functions",
+        "linkedin": "Tu app de Express o Hono por fin corre en Lambda sin adaptadores de por medio.\n\nLambda Web Functions permite desplegar aplicaciones Node.js basadas en frameworks web directamente sobre el modelo por demanda, con peticiones concurrentes y streaming de respuestas. 𝗘𝗹 𝗮𝗵𝗼𝗿𝗿𝗼 𝗿𝗲𝗮𝗹 𝗻𝗼 𝘀𝗼𝗻 𝗹𝗮𝘀 𝗹í𝗻𝗲𝗮𝘀 𝗱𝗲 𝗴𝗹𝘂𝗲 𝗰𝗼𝗱𝗲, 𝗲𝘀 𝗾𝘂𝗲 𝗱𝗲𝘀𝗮𝗽𝗮𝗿𝗲𝗰𝗲 𝗹𝗮 𝗲𝘅𝗰𝘂𝘀𝗮 𝗽𝗮𝗿𝗮 𝗻𝗼 𝗺𝗼𝘃𝗲𝗿 𝗮 𝘀𝗲𝗿𝘃𝗲𝗿𝗹𝗲𝘀𝘀 𝗲𝘀𝗲 𝗯𝗮𝗰𝗸𝗲𝗻𝗱 𝗾𝘂𝗲 𝗹𝗹𝗲𝘃𝗮𝘀 𝗮ñ𝗼𝘀 𝗽𝗼𝘀𝗽𝗼𝗻𝗶𝗲𝗻𝗱𝗼. Eso sí: si el arranque en frío o el estado en memoria eran el problema, esto no lo arregla por ti.\n\n#AWSLambda #Serverless #NodeJS #Hono\n\nhttps://www.infoq.com/news/2026/10/aws-lambda-web-functions"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Torvalds acepta código generado por IA si el desarrollador es competente",
+      "summary": "El creador de Linux ha dicho que no le importa si un parche se escribió con ayuda de IA, siempre que la persona que lo envía entienda el código. Los mantenedores del kernel han dejado de preguntar por el uso de IA y se centran en la calidad.",
+      "why_it_matters": "Marca un criterio práctico para integrar asistentes de código en proyectos abiertos.",
+      "url": "https://www.theregister.com/columnists/2026/10/23/torvalds-ai-is-fine-for-competent-devs-but-spare-us-the-drive-by-patches/5304357",
+      "source": "The Register",
+      "social": {
+        "x": "Torvalds ya no pregunta si usaste IA para escribir el parche. Pregunta algo más incómodo: si sabrías explicarlo.\n\n#Linux #Torvalds #OpenSource #Kernel\nhttps://www.theregister.com/columnists/2026/10/23/torvalds-ai-is-fine-for-competent-devs-but-spare-us-the-drive-by-patches/5304357",
+        "linkedin": "La IA en el código ha dejado de ser un debate moral para convertirse en una prueba de competencia.\n\nTorvalds lo tiene claro: un parche escrito con ayuda de IA entra en el kernel siempre que quien lo envía entienda lo que manda. Los mantenedores han dejado de preguntar por la herramienta y miran la calidad del resultado. 𝗘𝗹 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗰ó𝗺𝗼 𝘀𝗲 𝗲𝘀𝗰𝗿𝗶𝗯𝗶ó 𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼, 𝘀𝗶𝗻𝗼 𝘀𝗶 𝗾𝘂𝗶𝗲𝗻 𝗳𝗶𝗿𝗺𝗮 𝗲𝗹 𝗰𝗼𝗺𝗺𝗶𝘁 𝗽𝘂𝗲𝗱𝗲 𝗱𝗲𝗳𝗲𝗻𝗱𝗲𝗿𝗹𝗼: y eso vale igual para un asistente que para una copia de Stack Overflow. Para los equipos que están integrando estas herramientas, la conclusión es sencilla: formar gente que entienda el código importa más que vetar el autocompletado.\n\n#Linux #Torvalds #OpenSource #Kernel\n\nhttps://www.theregister.com/columnists/2026/10/23/torvalds-ai-is-fine-for-competent-devs-but-spare-us-the-drive-by-patches/5304357"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Meta retrasa sus nuevas condiciones comerciales por las críticas al scraping para IA",
+      "summary": "Meta ha aplazado los cambios después de que editores y expertos legales advirtieran de que no impedían el uso de sus contenidos para entrenar IA. La compañía revisará las condiciones para responder a esas objeciones.",
+      "why_it_matters": "El pulso entre plataformas y medios por los datos de entrenamiento sigue condicionando las reglas del sector.",
+      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "source": "The Verge",
+      "social": {
+        "x": "Los editores se apuntan la primera ronda: Meta aplaza las condiciones que, según las críticas, no frenaban el scraping para entrenar IA.\n\n#Meta #Scraping #Copyright #DatosDeEntrenamiento\nhttps://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+        "linkedin": "Meta ha tenido que frenar en seco antes de estrenar sus nuevas condiciones comerciales, y el motivo dice mucho del momento que vive el sector.\n\nEditores y expertos legales advirtieron de que el texto no impedía el scraping de sus contenidos para entrenar IA, así que la compañía lo aplaza y promete revisarlo. Para cualquier medio o desarrollador con contenido publicado, la lectura es clara: 𝗹𝗮 𝗻𝗲𝗴𝗼𝗰𝗶𝗮𝗰𝗶ó𝗻 𝗿𝗲𝗮𝗹 𝘆𝗮 𝗻𝗼 𝘃𝗮 𝗱𝗲𝗹 𝗮𝗰𝗰𝗲𝘀𝗼, 𝘀𝗶𝗻𝗼 𝗱𝗲 𝗲𝗻 𝗾𝘂é 𝘁é𝗿𝗺𝗶𝗻𝗼𝘀 𝘀𝗲 𝗿𝗲𝘂𝘁𝗶𝗹𝗶𝘇𝗮 𝗹𝗼 𝘁𝘂𝘆𝗼. Quien no tenga una postura definida sobre scraping y licencias acabará cediendo por defecto, porque el silencio también firma condiciones.\n\n#Meta #Scraping #Copyright #DatosDeEntrenamiento\n\nhttps://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "PHP2Shell permite ejecución remota de código y afecta a servicios públicos del Reino Unido",
+      "summary": "La vulnerabilidad PHP2Shell esquiva protecciones diseñadas para bloquear la ejecución remota de código. Decenas de servicios del Reino Unido han quedado fuera de servicio, aunque no se ha confirmado un compromiso.",
+      "why_it_matters": "Es un recordatorio de que los fallos críticos en software ampliamente desplegado tienen impacto inmediato.",
+      "url": "https://www.theregister.com/security/2026/10/22/php2shell-puts-dozens-of-uk-government-services-out-of-service/5304840",
+      "source": "The Register",
+      "social": {
+        "x": "PHP2Shell se salta las protecciones que debían bloquear la ejecución remota de código. Decenas de servicios públicos del Reino Unido están caídos.\n\n#PHP #PHP2Shell #Ciberseguridad #RCE\nhttps://www.theregister.com/security/2026/10/22/php2shell-puts-dozens-of-uk-government-services-out-of-service/5304840",
+        "linkedin": "El fallo no está en las defensas: PHP2Shell se las salta igual.\n\nLa vulnerabilidad permite ejecución remota de código en PHP, uno de los stacks más desplegados del mundo, y ha dejado fuera de servicio a decenas de servicios públicos del Reino Unido. No hay compromiso confirmado, pero el susto ya es real. 𝗟𝗮 𝗽𝗿𝗼𝘁𝗲𝗰𝗰𝗶ó𝗻 𝗽𝗲𝗿𝗶𝗺𝗲𝘁𝗿𝗮𝗹 𝗻𝗼 𝘀𝗶𝗿𝘃𝗲 𝗱𝗲 𝗻𝗮𝗱𝗮 𝗰𝘂𝗮𝗻𝗱𝗼 𝗲𝗹 𝗮𝗴𝘂𝗷𝗲𝗿𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗿𝘂𝗻𝘁𝗶𝗺𝗲, así que si corres PHP en producción, hoy toca revisar versión y plan de respuesta, no esperar al parche milagroso.\n\n#PHP #PHP2Shell #Ciberseguridad #RCE\n\nhttps://www.theregister.com/security/2026/10/22/php2shell-puts-dozens-of-uk-government-services-out-of-service/5304840"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "Runtime seguro y privado para ejecutar agentes de IA autónomos, escrito en Rust por NVIDIA. Merece la pena si te preocupa el aislamiento y el control de permisos cuando dejas que un agente actúe por su cuenta.",
+      "language": "Rust",
+      "stars": 18424,
+      "social": {
+        "x": "Dejar que un agente de IA actúe solo da vértigo. NVIDIA ha escrito en Rust el runtime que lo encierra: aislamiento y control de permisos. 18.424 estrellas.\n\n#OpenShell #Rust #OpenSource #GitHub\nhttps://github.com/NVIDIA/OpenShell",
+        "linkedin": "TU AGENTE DE IA NO DEBERÍA TENER ACCESO A TODO.\n\nLe das un prompt, ejecuta comandos, lee archivos y llama a APIs. Y casi nadie se para a pensar en qué puede tocar cuando actúa por su cuenta. NVIDIA ha publicado OpenShell, un runtime escrito en Rust que se centra justo en eso: 𝗲𝗹 𝗮𝗶𝘀𝗹𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝘆 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲 𝗽𝗲𝗿𝗺𝗶𝘀𝗼𝘀.\n\n→ Runtime seguro y privado para ejecutar agentes de IA autónomos.\n→ Aislamiento como punto de partida, no como parche de última hora.\n→ Control de permisos para el momento en el que el agente deja de responder y empieza a actuar.\n→ Escrito en Rust por NVIDIA y ya con 18.424 estrellas en GitHub.\n\nSi estás montando agentes que tocan el sistema de verdad, esto entra en la lista de lectura obligatoria antes de tu próximo deploy.\n\nGuarda el post y échale un ojo al repo, lo tienes abajo.\n\n#OpenShell #Rust #OpenSource #GitHub\n\nhttps://github.com/NVIDIA/OpenShell"
+      }
+    },
+    {
+      "name": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "Sistema de TTS multilingüe sin tokenizer que genera voz, permite diseñar timbres nuevos y clona voces con bastante realismo. Es una de las opciones open source más interesantes ahora mismo para montar síntesis de voz en tus propios proyectos.",
+      "language": "Python",
+      "stars": 40083,
+      "social": {
+        "x": "40.000 estrellas y ni una cuota mensual: este TTS open source clona voces con bastante realismo, diseña timbres nuevos y lo montas en tus propios proyectos.\n\n#VoxCPM #TTS #OpenSource #Python\nhttps://github.com/OpenBMB/VoxCPM",
+        "linkedin": "EL TTS OPEN SOURCE QUE CLONA VOCES SIN TOKENIZER YA SUMA 40.000 ESTRELLAS.\n\nLas APIs comerciales de síntesis de voz te cobran por carácter, te obligan a pasar por su nube y se quedan con tus audios. VoxCPM va por otro camino: un modelo multilingüe en Python que corre donde tú decidas. La consecuencia práctica es que 𝗹𝗮 𝘃𝗼𝘇 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼 𝗾𝘂𝗲 𝗮𝗹𝗾𝘂𝗶𝗹𝗮𝘀 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮 𝗺á𝘀 𝗱𝗲 𝘁𝘂 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼.\n\nLo que trae:\n\n→ Clonación de voz con bastante realismo a partir de una muestra de audio.\n→ Diseño de timbres nuevos, sin quedarte encerrado en una voz predefinida.\n→ Cobertura multilingüe desde el mismo modelo.\n→ Sin tokenizer, así que el pipeline de texto a voz queda más simple de integrar.\n→ Python, open source y con más de 40.000 estrellas respaldando el proyecto.\n\nSi estás montando un producto con voz (un asistente, doblaje, audiolibros, accesibilidad), tener esta opción a mano te evita la conversación sobre licencias y cuotas cada vez que alguien pregunta cuánto cuesta generar un minuto de audio.\n\nGuárdate el post para cuando toque decidir stack: te dejo el repo abajo.\n\n#VoxCPM #TTS #OpenSource #Python\n\nhttps://github.com/OpenBMB/VoxCPM"
+      }
+    },
+    {
+      "name": "SnailSploit/Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "description": "Colección de skills de seguridad ofensiva para el sistema de skills de Claude, con ficheros SKILL.md que le dan metodología experta en cosas como SQLi, shellcode o evasión de EDR. Útil para quien hace pentesting o quiere entender cómo se estructura conocimiento especializado para un agente.",
+      "language": "Python",
+      "stars": 8148,
+      "social": {
+        "x": "8.100 estrellas y cero humo: este repo le enseña a Claude metodología de pentesting con skills en Markdown para SQLi, shellcode y evasión de EDR.\n\n#Claude #Pentesting #OpenSource #GitHub\nhttps://github.com/SnailSploit/Claude-Red",
+        "linkedin": "LE ESTÁ ENSEÑANDO A CLAUDE A HACER PENTESTING CON FICHEROS DE TEXTO.\n\nCasi todo lo que se vende como «IA para seguridad ofensiva» es una caja negra con suscripción. Claude-Red va por otro camino: una colección de skills para el sistema de skills de Claude, con ficheros SKILL.md que le inyectan metodología experta cuando la conversación lo pide. El conocimiento va en Markdown versionado, no en un prompt gigante pegado a mano.\n\n→ Skills para tareas concretas: inyección SQL, generación de shellcode, evasión de EDR.\n→ Cada skill es un SKILL.md legible: se revisa, se edita y se ajusta al alcance de tu auditoría.\n→ Útil para quien hace pentesting y quiere respuestas con criterio, y para quien estudia cómo se estructura conocimiento especializado para un agente.\n→ Python como pegamento y el repo entero en abierto, con más de 8.000 estrellas.\n\n𝗟𝗮 𝗴𝗿𝗮𝗰𝗶𝗮 𝗻𝗼 𝗲𝘀 𝗾𝘂𝗲 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝘀𝗲𝗽𝗮 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱, 𝘀𝗶𝗻𝗼 𝗲𝗺𝗽𝗮𝗾𝘂𝗲𝘁𝗮𝗿 𝗲𝘀𝗲 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝗲𝗻 𝗳𝗶𝗰𝗵𝗲𝗿𝗼𝘀 𝗾𝘂𝗲 𝗽𝘂𝗲𝗱𝗲𝘀 𝗹𝗲𝗲𝗿 𝘆 𝗰𝗼𝗿𝗿𝗲𝗴𝗶𝗿.\n\nOjo: son técnicas ofensivas. Úsalas solo en entornos con permiso explícito.\n\nGuarda el post para cuando montes tus propias skills. El repo lo tienes aquí abajo.\n\n#Claude #Pentesting #OpenSource #GitHub\n\nhttps://github.com/SnailSploit/Claude-Red"
+      }
+    },
+    {
+      "name": "nodejs/node",
+      "url": "https://github.com/nodejs/node",
+      "description": "El runtime de JavaScript que sostiene buena parte del backend moderno, con releases constantes y un ecosistema enorme detrás. Siempre viene bien tenerlo a mano para seguir la evolución del proyecto.",
+      "language": "JavaScript",
+      "stars": 122660,
+      "social": {
+        "x": "122.660 estrellas y ni un paywall: el runtime de JavaScript que sostiene medio backend moderno sigue siendo open source y con releases constantes.\n\n#NodeJS #JavaScript #OpenSource #GitHub\nhttps://github.com/nodejs/node",
+        "linkedin": "EL RUNTIME QUE SOSTIENE MEDIO BACKEND MODERNO TIENE 122.660 ESTRELLAS Y NO CUESTA UN EURO.\n\nCasi todo lo que levantas en producción acaba pasando por aquí: Node.js es el runtime de JavaScript que hay detrás de una cantidad enorme de APIs, herramientas de build y servicios que usas a diario. No es un proyecto abandonado en un cajón: mantiene un ritmo de releases constante y una comunidad que revisa cada cambio.\n\nLo interesante no es solo el código, es lo que hay alrededor:\n\n→ Un ecosistema de paquetes gigantesco, para lo bueno y para lo malo.\n→ Releases frecuentes, con ramas pensadas para producción.\n→ Un repositorio que sirve para entender cómo se hace ingeniería open source a gran escala: RFCs, pull requests y discusión pública.\n\nLa idea clave: 𝗲𝗹 𝗿𝘂𝗻𝘁𝗶𝗺𝗲 𝗾𝘂𝗲 𝘀𝗼𝘀𝘁𝗶𝗲𝗻𝗲 𝗯𝘂𝗲𝗻𝗮 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲𝗹 𝗯𝗮𝗰𝗸𝗲𝗻𝗱 𝗺𝗼𝗱𝗲𝗿𝗻𝗼 es también una de las mejores formas de aprender cómo se gobierna un proyecto abierto enorme.\n\nSi trabajas con JavaScript, tenerlo en marcadores y echarle un ojo de vez en cuando te ahorra sustos con las versiones. Guárdate este post para volver a él.\n\n#NodeJS #JavaScript #OpenSource #GitHub\n\nhttps://github.com/nodejs/node"
+      }
+    },
+    {
+      "name": "Renhuai123/ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "description": "Motor open source de cartas astrales de Zi Wei Dou Shu, con el algoritmo completo de cálculo, el sistema de las cuatro transformaciones y una base de conocimiento de textos clásicos. Un proyecto curioso y muy bien documentado si te interesa cómo se modela un sistema simbólico tradicional en TypeScript.",
+      "language": "TypeScript",
+      "stars": 6692,
+      "social": {
+        "x": "Alguien ha convertido la astrología china Zi Wei Dou Shu en un motor open source en TypeScript: algoritmo completo, cuatro transformaciones y los textos clásicos. 6,7k estrellas.\n\n#TypeScript #OpenSource #GitHub #ZiWeiDouShu\nhttps://github.com/Renhuai123/ziwei-doushu",
+        "linkedin": "ALGUIEN HA CONVERTIDO UN SISTEMA ASTROLÓGICO CHINO MILENARIO EN UN MOTOR EN TYPESCRIPT.\n\nZi Wei Dou Shu es una disciplina de cartas astrales con siglos de reglas encadenadas: posiciones, ciclos, transformaciones. El software que existe para calcularlas suele ser de pago, cerrado o directamente una caja negra que no puedes auditar. Este repositorio abre la caja.\n\n→ Algoritmo completo de cálculo de la carta, sin pasos ocultos.\n→ Sistema de las cuatro transformaciones implementado.\n→ Base de conocimiento con textos clásicos para contrastar los resultados.\n→ Todo en TypeScript, tipado y legible, pensado para aprender leyendo el código.\n\n𝗟𝗼 𝘃𝗲𝗿𝗱𝗮𝗱𝗲𝗿𝗮𝗺𝗲𝗻𝘁𝗲 𝗶𝗻𝘁𝗲𝗿𝗲𝘀𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗮𝘀𝘁𝗿𝗼𝗹𝗼𝗴í𝗮: 𝗲𝘀 𝘃𝗲𝗿 𝗰ó𝗺𝗼 𝘀𝗲 𝘁𝗿𝗮𝗱𝘂𝗰𝗲 𝘂𝗻 𝗰𝘂𝗲𝗿𝗽𝗼 𝗱𝗲 𝗿𝗲𝗴𝗹𝗮𝘀 𝗮𝗺𝗯𝗶𝗴𝘂𝗮𝘀 𝘆 𝗵𝗲𝗿𝗲𝗱𝗮𝗱𝗮𝘀 𝗮 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀 𝗹𝗶𝗺𝗽𝗶𝗼. Ese ejercicio sirve para cualquier dominio con normativa enrevesada, desde seguros hasta fiscalidad.\n\n6692 estrellas para un proyecto que, sobre el papel, no debería atraer a nadie fuera del nicho. Y ahí está la lección: la documentación y el código claro pesan más que el tema.\n\nSi te interesa el diseño de software o cómo se representa conocimiento tradicional en código, guárdalo para leerlo con calma. Te dejo el repositorio abajo.\n\n#TypeScript #OpenSource #GitHub #ZiWeiDouShu\n\nhttps://github.com/Renhuai123/ziwei-doushu"
+      }
+    }
+  ]
+}
