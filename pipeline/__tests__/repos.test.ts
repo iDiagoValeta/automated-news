@@ -4,12 +4,14 @@ import { mkdtempSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import {
+  attachRepos,
   excludeRecentRepos,
   loadRecentRepoNames,
   previousEditionDates,
   REPO_LOOKBACK_DAYS,
 } from "../curate/repos.ts";
-import type { RepoRaw } from "../types.ts";
+import type { Digest, RepoRaw } from "../types.ts";
+import type { Provider } from "../ports.ts";
 
 test("previousEditionDates lista los N días previos sin incluir la fecha", () => {
   assert.deepEqual(previousEditionDates("2026-07-22", 3), [
@@ -55,5 +57,81 @@ test("excludeRecentRepos quita los ya publicados y deja el resto", () => {
   assert.deepEqual(
     fresh.map((r) => r.name),
     ["nuevo/a", "nuevo/b"],
+  );
+});
+
+test("attachRepos descarta repos sin descripción del modelo en vez de publicar la original en inglés", async () => {
+  const trending: RepoRaw[] = [
+    {
+      name: "acme/agente-ia",
+      url: "https://github.com/acme/agente-ia",
+      description: "An open-source AI agent framework for building tools.",
+      language: "Python",
+      stars: 12532,
+      stars_today: 827,
+    },
+    {
+      name: "foo/mini-tool",
+      url: "https://github.com/foo/mini-tool",
+      description: "A tiny CLI tool.",
+      language: "",
+      stars: 340,
+      stars_today: 0,
+    },
+    {
+      name: "bar/sin-descripcion",
+      url: "https://github.com/bar/sin-descripcion",
+      description: "Original English description.",
+      language: "TypeScript",
+      stars: 10,
+      stars_today: 0,
+    },
+  ];
+  const digest: Digest = {
+    date: "2026-07-22",
+    generated_at: "2026-07-22T06:00:00Z",
+    provider: "deepseek",
+    items: [],
+  };
+  const provider: Provider = {
+    name: "deepseek",
+    async generate() {
+      return JSON.stringify({
+        repos: [
+          { name: "acme/agente-ia", url: "https://github.com/acme/agente-ia", description: "Agente de IA para construir herramientas." },
+          { name: "foo/mini-tool", url: "https://github.com/foo/mini-tool", description: "   " },
+          { name: "bar/sin-descripcion", url: "https://github.com/bar/sin-descripcion" },
+        ],
+      });
+    },
+  };
+
+  const logged: string[] = [];
+  const originalError = console.error;
+  console.error = (...args: unknown[]) => {
+    logged.push(args.map((a) => String(a)).join(" "));
+  };
+  try {
+    await attachRepos(provider, digest, trending, 3);
+  } finally {
+    console.error = originalError;
+  }
+
+  assert.deepEqual(
+    digest.repos?.map((r) => r.name),
+    ["acme/agente-ia"],
+  );
+  assert.equal(digest.repos?.[0].description, "Agente de IA para construir herramientas.");
+  assert.ok(
+    logged.some((line) => line.includes("foo/mini-tool")),
+    "el aviso debe nombrar el repo descartado foo/mini-tool",
+  );
+  assert.ok(
+    logged.some((line) => line.includes("bar/sin-descripcion")),
+    "el aviso debe nombrar el repo descartado bar/sin-descripcion",
+  );
+  assert.ok(
+    !digest.repos?.some((r) => r.description === "Original English description."),
+    "no debe publicarse la descripción original de GitHub",
   );
 });

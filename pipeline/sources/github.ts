@@ -1,6 +1,6 @@
 import { appendFileSync } from "node:fs";
 import { fetchText, fetchWithTimeout } from "../http.ts";
-import { warn } from "../log.ts";
+import { log, warn } from "../log.ts";
 import type { GithubTrendingConfig, RepoRaw, SourcesConfig } from "../types.ts";
 
 /** Umbral por defecto: por debajo, el HTML 200 se considera markup roto. */
@@ -131,6 +131,30 @@ export async function searchApiFallback(
 }
 
 /**
+ * Decide si se publican los repos del scraping o los de la Search API.
+ * `fallback` se inyecta como función para poder probar la decisión sin red.
+ * Con un parseo sano no se llama al fallback; con parseo parcial o vacío se
+ * prefiere el fallback solo si devuelve más repos que el scraping, porque unos
+ * parciales siguen siendo mejor que ninguno.
+ */
+export async function chooseTrendingResult(
+  parsed: RepoRaw[],
+  minAlert: number,
+  fallback: () => Promise<RepoRaw[]>,
+): Promise<{ repos: RepoRaw[]; source: "scraping" | "search-api" | "none" }> {
+  if (!trendingParseLooksBroken(parsed.length, minAlert)) {
+    return { repos: parsed, source: "scraping" };
+  }
+  try {
+    const fromApi = await fallback();
+    if (fromApi.length > parsed.length) return { repos: fromApi, source: "search-api" };
+  } catch {
+    // El failover es best effort: si falla, se mantiene lo que dio el scraping.
+  }
+  return { repos: parsed, source: parsed.length > 0 ? "scraping" : "none" };
+}
+
+/**
  * Recoge repositorios en tendencia de GitHub. Best effort: intenta el scraping
  * de la página de trending y, si falla, cae a la Search API oficial. Si todo
  * falla devuelve una lista vacía (la sección simplemente no aparece).
@@ -141,26 +165,48 @@ export async function collectGithubTrending(
 ): Promise<RepoRaw[]> {
   const url = `https://github.com/trending?since=${gh.since}`;
   const minAlert = gh.min_parse_alert ?? TRENDING_PARSE_ALERT_MIN;
+  let parsed: RepoRaw[] = [];
+  let scrapeFailed = false;
   try {
     const html = await fetchText(url, cfg.timeout_ms, cfg.user_agent);
-    const repos = parseTrending(html, gh.limit);
-    // fetchText solo devuelve el cuerpo si el status fue 200 (u otro 2xx).
-    if (trendingParseLooksBroken(repos.length, minAlert)) {
-      warn(
-        `GitHub trending: HTML 200 pero solo ${repos.length} repos parseados ` +
-          `(umbral ${minAlert}). El markup puede haber cambiado.`,
-      );
-      flagTrendingParseAlert();
-    }
-    if (repos.length > 0) return repos;
-    throw new Error("trending sin resultados parseables");
+    parsed = parseTrending(html, gh.limit);
   } catch (e) {
+    scrapeFailed = true;
     warn("GitHub trending (scraping) falló; se intenta la Search API.", String(e));
+  }
+
+  const looksBroken = trendingParseLooksBroken(parsed.length, minAlert);
+  // fetchText solo devuelve el cuerpo si el status fue 200 (u otro 2xx), así
+  // que una alerta aquí significa markup posiblemente cambiado, no un fallo de red.
+  if (!scrapeFailed && looksBroken) {
+    warn(
+      `GitHub trending: HTML 200 pero solo ${parsed.length} repos parseados ` +
+        `(umbral ${minAlert}). El markup puede haber cambiado.`,
+    );
+    flagTrendingParseAlert();
+  }
+
+  const choice = await chooseTrendingResult(parsed, minAlert, async () => {
     try {
       return await searchApiFallback(cfg, gh);
-    } catch (e2) {
-      warn("GitHub Search API también falló; la edición irá sin repos.", String(e2));
-      return [];
+    } catch (e) {
+      warn(
+        parsed.length > 0
+          ? "GitHub Search API también falló; se usan los repos parciales del scraping."
+          : "GitHub Search API también falló; la edición irá sin repos.",
+        String(e),
+      );
+      throw e;
     }
+  });
+
+  if (choice.source === "search-api") {
+    log(
+      `GitHub trending: se usan ${choice.repos.length} repos de la Search API ` +
+        `(el scraping dio ${parsed.length}).`,
+    );
+  } else if (looksBroken && choice.source === "scraping") {
+    log(`GitHub trending: se mantienen ${choice.repos.length} repos parciales del scraping.`);
   }
+  return choice.repos;
 }

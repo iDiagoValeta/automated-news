@@ -5,10 +5,12 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
+  chooseTrendingResult,
   flagTrendingParseAlert,
   parseTrending,
   trendingParseLooksBroken,
 } from "../sources/github.ts";
+import type { RepoRaw } from "../types.ts";
 
 const html = readFileSync(fileURLToPath(new URL("./fixtures/github-trending.html", import.meta.url)), "utf8");
 
@@ -57,6 +59,87 @@ test("trendingParseLooksBroken avisa por debajo del umbral", () => {
   assert.equal(trendingParseLooksBroken(4), true);
   assert.equal(trendingParseLooksBroken(5), false);
   assert.equal(trendingParseLooksBroken(17), false);
+});
+
+function repo(name: string): RepoRaw {
+  return { name, url: `https://github.com/${name}`, description: "", language: "", stars: 1, stars_today: 1 };
+}
+
+test("chooseTrendingResult prefiere el fallback cuando da más repos que el scraping parcial", async () => {
+  const parsed = [repo("scraping/uno"), repo("scraping/dos")];
+  const fallback = [repo("api/uno"), repo("api/dos"), repo("api/tres")];
+  let calls = 0;
+
+  const choice = await chooseTrendingResult(parsed, 5, async () => {
+    calls++;
+    return fallback;
+  });
+
+  assert.equal(calls, 1);
+  assert.equal(choice.source, "search-api");
+  assert.deepEqual(
+    choice.repos.map((r) => r.name),
+    ["api/uno", "api/dos", "api/tres"],
+  );
+});
+
+test("chooseTrendingResult mantiene los parciales si el fallback falla", async () => {
+  const parsed = [repo("scraping/uno"), repo("scraping/dos")];
+
+  const choice = await chooseTrendingResult(parsed, 5, async () => {
+    throw new Error("Search API HTTP 403");
+  });
+
+  assert.equal(choice.source, "scraping");
+  assert.deepEqual(
+    choice.repos.map((r) => r.name),
+    ["scraping/uno", "scraping/dos"],
+  );
+});
+
+test("chooseTrendingResult mantiene los parciales si el fallback devuelve menos", async () => {
+  const parsed = [repo("scraping/uno"), repo("scraping/dos")];
+
+  const choice = await chooseTrendingResult(parsed, 5, async () => [repo("api/uno")]);
+
+  assert.equal(choice.source, "scraping");
+  assert.deepEqual(
+    choice.repos.map((r) => r.name),
+    ["scraping/uno", "scraping/dos"],
+  );
+});
+
+test("chooseTrendingResult no llama al fallback si el parseo es sano", async () => {
+  const parsed = [repo("a/uno"), repo("a/dos"), repo("a/tres"), repo("a/cuatro"), repo("a/cinco")];
+  let calls = 0;
+
+  const choice = await chooseTrendingResult(parsed, 5, async () => {
+    calls++;
+    return [repo("api/uno")];
+  });
+
+  assert.equal(calls, 0);
+  assert.equal(choice.source, "scraping");
+  assert.equal(choice.repos, parsed);
+});
+
+test("chooseTrendingResult usa el fallback cuando el scraping no devuelve repos", async () => {
+  const choice = await chooseTrendingResult([], 5, async () => [repo("api/uno")]);
+
+  assert.equal(choice.source, "search-api");
+  assert.deepEqual(
+    choice.repos.map((r) => r.name),
+    ["api/uno"],
+  );
+});
+
+test("chooseTrendingResult devuelve vacío si no hay scraping ni fallback", async () => {
+  const choice = await chooseTrendingResult([], 5, async () => {
+    throw new Error("Search API HTTP 500");
+  });
+
+  assert.equal(choice.source, "none");
+  assert.deepEqual(choice.repos, []);
 });
 
 test("flagTrendingParseAlert escribe GITHUB_OUTPUT cuando existe", () => {

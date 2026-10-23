@@ -80,7 +80,8 @@ function buildReposPrompt(trending: RepoRaw[], pick: number): string {
  * elige los más interesantes y los describe en español. Rellena `digest.repos`.
  * Los datos duros (name, url, language, stars) se toman SIEMPRE del repo recogido,
  * no de la respuesta del modelo, para no aceptar URLs ni cifras inventadas; del
- * modelo solo se usa la descripción. Si falla, la edición se publica sin sección.
+ * modelo solo se usa la descripción, y un repo sin descripción se descarta.
+ * Si falla, la edición se publica sin sección.
  */
 export async function attachRepos(
   provider: Provider,
@@ -101,8 +102,13 @@ export async function attachRepos(
       if (typeof p.name !== "string") continue;
       const src = byName.get(p.name);
       if (!src) continue; // el modelo no puede introducir repos ausentes de la entrada
-      const description = (typeof p.description === "string" && p.description.trim() ? p.description : src.description).trim();
-      if (!description) continue;
+      const description = typeof p.description === "string" ? p.description.trim() : "";
+      if (!description) {
+        // Sin descripción en castellano no se publica la original en inglés:
+        // mezclaría idiomas en la sección y ocultaría que el modelo falló.
+        warn(`Repo hot descartado: el modelo no dio descripción para ${src.name}.`);
+        continue;
+      }
       repos.push({
         name: src.name,
         url: src.url,
