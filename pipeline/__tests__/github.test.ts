@@ -5,8 +5,8 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
-  chooseTrendingResult,
   collectGithubTrending,
+  combineTrendingResult,
   flagTrendingParseAlert,
   parseTrending,
   trendingParseLooksBroken,
@@ -66,81 +66,87 @@ function repo(name: string): RepoRaw {
   return { name, url: `https://github.com/${name}`, description: "", language: "", stars: 1, stars_today: 1 };
 }
 
-test("chooseTrendingResult prefiere el fallback cuando da más repos que el scraping parcial", async () => {
+test("combineTrendingResult combina scraping y API, deduplica por nombre y respeta el límite", async () => {
   const parsed = [repo("scraping/uno"), repo("scraping/dos")];
-  const fallback = [repo("api/uno"), repo("api/dos"), repo("api/tres")];
+  // La API repite scraping/uno: no debe entrar dos veces.
+  const fallback = [repo("scraping/uno"), repo("api/uno"), repo("api/dos")];
   let calls = 0;
 
-  const choice = await chooseTrendingResult(parsed, 5, async () => {
+  const choice = await combineTrendingResult(parsed, 5, 3, async () => {
     calls++;
     return fallback;
   });
 
   assert.equal(calls, 1);
-  assert.equal(choice.source, "search-api");
   assert.deepEqual(
     choice.repos.map((r) => r.name),
-    ["api/uno", "api/dos", "api/tres"],
+    ["scraping/uno", "scraping/dos", "api/uno"],
   );
+  assert.equal(choice.parsedCount, 2);
+  assert.equal(choice.apiCount, 1);
 });
 
-test("chooseTrendingResult mantiene los parciales si el fallback falla", async () => {
+test("combineTrendingResult mantiene los parciales si el fallback falla", async () => {
   const parsed = [repo("scraping/uno"), repo("scraping/dos")];
 
-  const choice = await chooseTrendingResult(parsed, 5, async () => {
+  const choice = await combineTrendingResult(parsed, 5, 5, async () => {
     throw new Error("Search API HTTP 403");
   });
 
-  assert.equal(choice.source, "scraping");
   assert.deepEqual(
     choice.repos.map((r) => r.name),
     ["scraping/uno", "scraping/dos"],
   );
+  assert.equal(choice.parsedCount, 2);
+  assert.equal(choice.apiCount, 0);
 });
 
-test("chooseTrendingResult mantiene los parciales si el fallback devuelve menos", async () => {
+test("combineTrendingResult añade el fallback aunque dé menos repos que el scraping", async () => {
   const parsed = [repo("scraping/uno"), repo("scraping/dos")];
 
-  const choice = await chooseTrendingResult(parsed, 5, async () => [repo("api/uno")]);
+  const choice = await combineTrendingResult(parsed, 5, 5, async () => [repo("api/uno")]);
 
-  assert.equal(choice.source, "scraping");
   assert.deepEqual(
     choice.repos.map((r) => r.name),
-    ["scraping/uno", "scraping/dos"],
+    ["scraping/uno", "scraping/dos", "api/uno"],
   );
+  assert.equal(choice.parsedCount, 2);
+  assert.equal(choice.apiCount, 1);
 });
 
-test("chooseTrendingResult no llama al fallback si el parseo es sano", async () => {
+test("combineTrendingResult no llama al fallback si el parseo es sano", async () => {
   const parsed = [repo("a/uno"), repo("a/dos"), repo("a/tres"), repo("a/cuatro"), repo("a/cinco")];
   let calls = 0;
 
-  const choice = await chooseTrendingResult(parsed, 5, async () => {
+  const choice = await combineTrendingResult(parsed, 5, 5, async () => {
     calls++;
     return [repo("api/uno")];
   });
 
   assert.equal(calls, 0);
-  assert.equal(choice.source, "scraping");
   assert.equal(choice.repos, parsed);
+  assert.equal(choice.apiCount, 0);
 });
 
-test("chooseTrendingResult usa el fallback cuando el scraping no devuelve repos", async () => {
-  const choice = await chooseTrendingResult([], 5, async () => [repo("api/uno")]);
+test("combineTrendingResult usa el fallback cuando el scraping no devuelve repos", async () => {
+  const choice = await combineTrendingResult([], 5, 5, async () => [repo("api/uno")]);
 
-  assert.equal(choice.source, "search-api");
   assert.deepEqual(
     choice.repos.map((r) => r.name),
     ["api/uno"],
   );
+  assert.equal(choice.parsedCount, 0);
+  assert.equal(choice.apiCount, 1);
 });
 
-test("chooseTrendingResult devuelve vacío si no hay scraping ni fallback", async () => {
-  const choice = await chooseTrendingResult([], 5, async () => {
+test("combineTrendingResult devuelve vacío si no hay scraping ni fallback", async () => {
+  const choice = await combineTrendingResult([], 5, 5, async () => {
     throw new Error("Search API HTTP 500");
   });
 
-  assert.equal(choice.source, "none");
   assert.deepEqual(choice.repos, []);
+  assert.equal(choice.parsedCount, 0);
+  assert.equal(choice.apiCount, 0);
 });
 
 test("flagTrendingParseAlert escribe GITHUB_OUTPUT cuando existe", () => {
@@ -250,22 +256,35 @@ async function withGithubOutput(run: () => Promise<void>): Promise<string> {
   }
 }
 
-test("collectGithubTrending no alerta si la Search API rescata el parseo parcial", async () => {
+test("collectGithubTrending combina scraping y API sin duplicados y sin alerta", async () => {
+  // La API repite un repo del scraping: debe descartarse y dejar hueco a otro.
+  const duplicated = {
+    full_name: "cloudflare/security-audit-skill",
+    html_url: "https://github.com/cloudflare/security-audit-skill",
+    description: "Duplicado del scraping",
+    language: "TypeScript",
+    stargazers_count: 2000,
+  };
   const stub = stubFetch((url) => {
     if (url.includes("github.com/trending")) return htmlResponse(partialTrendingHtml());
     if (url.includes("api.github.com/search/repositories")) {
-      return jsonResponse({ items: searchItems(10) });
+      return jsonResponse({ items: [duplicated, ...searchItems(9)] });
     }
     throw new Error(`URL inesperada: ${url}`);
   });
   try {
     const body = await withGithubOutput(async () => {
       const repos = await collectGithubTrending(sourcesCfg, githubCfg);
+      const names = repos.map((r) => r.name);
       assert.equal(repos.length, 10);
-      assert.equal(repos[0].name, "api/repo-1");
-      assert.equal(repos[9].name, "api/repo-10");
+      assert.deepEqual(names, [
+        "cloudflare/security-audit-skill",
+        "anthropics/claude-code",
+        ...Array.from({ length: 8 }, (_, i) => `api/repo-${i + 1}`),
+      ]);
+      assert.equal(new Set(names).size, names.length);
       // La Search API no da estrellas del periodo.
-      assert.equal(repos[0].stars_today, 0);
+      assert.equal(repos[9].stars_today, 0);
     });
 
     assert.equal(stub.calls.length, 2);
@@ -315,6 +334,52 @@ test("collectGithubTrending no llama a la Search API ni alerta con un scraping s
 
     assert.equal(stub.calls.length, 1);
     assert.match(stub.calls[0], /github\.com\/trending/);
+    assert.doesNotMatch(body, /trending_parse_alert=true/);
+  } finally {
+    stub.restore();
+  }
+});
+
+test("collectGithubTrending alerta si el HTML 200 no parsea ningún repo aunque la API rescate", async () => {
+  const stub = stubFetch((url) => {
+    if (url.includes("github.com/trending")) return htmlResponse("<html><body>markup nuevo</body></html>");
+    if (url.includes("api.github.com/search/repositories")) {
+      return jsonResponse({ items: searchItems(10) });
+    }
+    throw new Error(`URL inesperada: ${url}`);
+  });
+  try {
+    const body = await withGithubOutput(async () => {
+      const repos = await collectGithubTrending(sourcesCfg, githubCfg);
+      assert.equal(repos.length, 10);
+      assert.equal(repos[0].name, "api/repo-1");
+    });
+
+    assert.equal(stub.calls.length, 2);
+    // 0 repos de un HTML 200 es markup roto, no un día flojo: se avisa siempre.
+    assert.match(body, /trending_parse_alert=true/);
+  } finally {
+    stub.restore();
+  }
+});
+
+test("collectGithubTrending sin alerta si el scraping cae y la Search API devuelve repos", async () => {
+  const stub = stubFetch((url) => {
+    if (url.includes("github.com/trending")) throw new Error("ECONNRESET");
+    if (url.includes("api.github.com/search/repositories")) {
+      return jsonResponse({ items: searchItems(10) });
+    }
+    throw new Error(`URL inesperada: ${url}`);
+  });
+  try {
+    const body = await withGithubOutput(async () => {
+      const repos = await collectGithubTrending(sourcesCfg, githubCfg);
+      assert.equal(repos.length, 10);
+      assert.equal(repos[0].name, "api/repo-1");
+    });
+
+    assert.equal(stub.calls.length, 2);
+    // Un fallo de red no dice nada del parser: no hay alerta de parseo.
     assert.doesNotMatch(body, /trending_parse_alert=true/);
   } finally {
     stub.restore();

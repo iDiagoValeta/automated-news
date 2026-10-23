@@ -130,28 +130,47 @@ export async function searchApiFallback(
     }));
 }
 
+export interface TrendingSelection {
+  repos: RepoRaw[];
+  /** Cuántos de los repos finales vienen del scraping. */
+  parsedCount: number;
+  /** Cuántos de los repos finales vienen de la Search API. */
+  apiCount: number;
+}
+
 /**
- * Decide si se publican los repos del scraping o los de la Search API.
- * `fallback` se inyecta como función para poder probar la decisión sin red.
- * Con un parseo sano no se llama al fallback; con parseo parcial o vacío se
- * prefiere el fallback solo si devuelve más repos que el scraping, porque unos
- * parciales siguen siendo mejor que ninguno.
+ * Con un parseo por debajo del umbral no se elige una vía: se combinan, primero
+ * los del scraping y después los de la API que no estén ya (dedupe por `name`),
+ * hasta `limit`. Elegir por recuento bruto antes de `excludeRecentRepos` podía
+ * dejar la sección vacía: la ventana de la API coincide con la de exclusión y
+ * devuelve repos ya publicados, mientras que los parciales del scraping son
+ * frescos. `fallback` se inyecta como función para probar la decisión sin red.
  */
-export async function chooseTrendingResult(
+export async function combineTrendingResult(
   parsed: RepoRaw[],
   minAlert: number,
+  limit: number,
   fallback: () => Promise<RepoRaw[]>,
-): Promise<{ repos: RepoRaw[]; source: "scraping" | "search-api" | "none" }> {
+): Promise<TrendingSelection> {
   if (!trendingParseLooksBroken(parsed.length, minAlert)) {
-    return { repos: parsed, source: "scraping" };
+    return { repos: parsed, parsedCount: parsed.length, apiCount: 0 };
   }
+
+  const repos = parsed.slice(0, limit);
+  const seen = new Set(repos.map((r) => r.name));
+  let apiCount = 0;
   try {
-    const fromApi = await fallback();
-    if (fromApi.length > parsed.length) return { repos: fromApi, source: "search-api" };
+    for (const r of await fallback()) {
+      if (repos.length >= limit) break;
+      if (seen.has(r.name)) continue;
+      seen.add(r.name);
+      repos.push(r);
+      apiCount++;
+    }
   } catch {
     // El failover es best effort: si falla, se mantiene lo que dio el scraping.
   }
-  return { repos: parsed, source: parsed.length > 0 ? "scraping" : "none" };
+  return { repos, parsedCount: repos.length - apiCount, apiCount };
 }
 
 /**
@@ -185,7 +204,7 @@ export async function collectGithubTrending(
     );
   }
 
-  const choice = await chooseTrendingResult(parsed, minAlert, async () => {
+  const selection = await combineTrendingResult(parsed, minAlert, gh.limit, async () => {
     try {
       return await searchApiFallback(cfg, gh);
     } catch (e) {
@@ -199,19 +218,24 @@ export async function collectGithubTrending(
     }
   });
 
-  // La alerta (issue automático) solo cuando la Search API no rescató la
-  // sección: si la rescata, la edición sale bien y el issue sería ruido.
-  if (!scrapeFailed && looksBroken && choice.source !== "search-api") flagTrendingParseAlert();
-
-  if (choice.source === "none") {
-    warn("GitHub trending: ni el scraping ni la Search API dieron repos; la edición irá sin sección.");
-  } else if (choice.source === "search-api") {
-    log(
-      `GitHub trending: se usan ${choice.repos.length} repos de la Search API ` +
-        `(el scraping dio ${parsed.length}).`,
-    );
-  } else if (looksBroken && choice.source === "scraping") {
-    log(`GitHub trending: se mantienen ${choice.repos.length} repos parciales del scraping.`);
+  // Con HTML 200 y cero repos el parser está roto aunque la API rescate la
+  // sección, así que se avisa siempre. Con parseo parcial solo se avisa si la
+  // combinación final no llega al umbral. Un fallo de red no dice nada del
+  // parser y no abre issue de parseo.
+  if (
+    !scrapeFailed &&
+    (parsed.length === 0 || (looksBroken && selection.repos.length < minAlert))
+  ) {
+    flagTrendingParseAlert();
   }
-  return choice.repos;
+
+  if (selection.repos.length === 0) {
+    warn("GitHub trending: ni el scraping ni la Search API dieron repos; la edición irá sin sección.");
+  } else if (looksBroken) {
+    log(
+      `GitHub trending: ${selection.repos.length} repos ` +
+        `(${selection.parsedCount} del scraping, ${selection.apiCount} de la Search API).`,
+    );
+  }
+  return selection.repos;
 }

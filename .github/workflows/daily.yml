@@ -147,8 +147,8 @@ jobs:
               repo: context.repo.repo,
               title: `${titlePrefix} (${new Date().toISOString().slice(0, 10)})`,
               body: [
-                "El scraping de `github.com/trending` devolvió HTML 200 pero parseó menos repositorios de los esperados.",
-                "La edición del día puede haberse publicado con el fallback de la Search API o sin sección de repos.",
+                "El scraping de `github.com/trending` devolvió HTML 200 pero parseó menos repositorios de los esperados: el parser puede estar roto o la página trajo pocos repos.",
+                "La sección pudo completarse con la Search API o salir incompleta.",
                 "",
                 `- Run: ${run}`,
                 "- Revisa `pipeline/sources/github.ts` (`parseTrending`) y el fixture `pipeline/__tests__/fixtures/github-trending.snapshot.html`.",
