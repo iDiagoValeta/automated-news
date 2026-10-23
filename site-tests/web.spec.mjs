@@ -12,7 +12,7 @@ import { fileURLToPath } from "node:url";
 import { chromium } from "playwright-core";
 import { hasShareText } from "../site/_11ty/share.js";
 import site from "../site/_data/site.js";
-import { searchDocs, tokenize } from "../site/_11ty/search.js";
+import { tokenize } from "../site/_11ty/search.js";
 import configurarEleventy from "../eleventy.config.mjs";
 
 const aqui = path.dirname(fileURLToPath(import.meta.url));
@@ -22,11 +22,10 @@ const PREFIJO = "/automated-news/";
 // pathPrefix real del build: se saca de la configuración de Eleventy, no de
 // site.url, para que un site.url sin prefijo no pase por bueno.
 function pathPrefixEleventy() {
-  const config = {
-    addPassthroughCopy() {},
-    addTransform() {},
-    addFilter() {},
-  };
+  // Doble de la API de Eleventy: cualquier método que use el config (también
+  // addCollection o addShortcode) existe y no hace nada, para que el suite no
+  // reviente al importar por una función que aquí no interesa.
+  const config = new Proxy({}, { get: () => () => {} });
   const { pathPrefix } = configurarEleventy(config);
   assert.ok(typeof pathPrefix === "string" && pathPrefix.startsWith("/") && pathPrefix.endsWith("/"),
     `pathPrefix inesperado en eleventy.config.mjs: ${pathPrefix}`);
@@ -115,7 +114,13 @@ async function abrir(ruta, opciones = {}, preparar) {
   const contexto = await navegador.newContext({ viewport: { width: 1280, height: 800 }, ...opciones });
   const pagina = await contexto.newPage();
   const problemas = [];
-  pagina.on("console", (m) => m.type() === "error" && problemas.push(`consola: ${m.text()}`));
+  pagina.on("console", (m) => {
+    if (m.type() !== "error") return;
+    // La ubicación del mensaje lleva la URL del recurso que falló; sin ella no
+    // se puede distinguir el índice bloqueado de cualquier otro recurso caído.
+    const url = m.location().url;
+    problemas.push(url ? `consola: ${m.text()} (${url})` : `consola: ${m.text()}`);
+  });
   pagina.on("pageerror", (e) => problemas.push(`excepción: ${e.message}`));
   pagina.on("requestfailed", (r) => problemas.push(`fallo: ${r.url()}`));
   pagina.on("response", (r) => {
@@ -139,6 +144,69 @@ function edicionesData() {
 // "2026-10-23" -> "2026/10/23/"
 function rutaEdicion(fecha) {
   return `${fecha.replaceAll("-", "/")}/`;
+}
+
+// Tope de resultados que pinta site/js/buscar.js (results.slice(0, 80)).
+const TOPE = 80;
+
+// Mismo formato de fecha que pinta site/js/buscar.js, para casar cada resultado
+// visible con su documento del índice aunque el título se repita en varias fechas.
+const MESES_CORTOS = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
+function fechaWeb(ymd) {
+  const [y, m, d] = String(ymd).split("-").map(Number);
+  return `${d} ${MESES_CORTOS[m - 1]} ${y}`;
+}
+
+// Aciertos de una consulta de un solo token, calculados desde el índice con el
+// mismo tokenizador que usa el buscador, sin llamar a searchDocs: así el test no
+// hereda el fallo que vigila.
+function documentosCon(indice, termino) {
+  return indice.filter((doc) =>
+    [doc.title, doc.summary, doc.source].some((campo) => tokenize(campo).includes(termino)));
+}
+
+// Token del índice que aparece en más documentos (título o resumen), que es el
+// que puede superar el tope de resultados.
+function tokenFrecuente(indice) {
+  const cuenta = new Map();
+  for (const doc of indice) {
+    for (const t of new Set(tokenize(`${doc.title} ${doc.summary}`))) {
+      cuenta.set(t, (cuenta.get(t) || 0) + 1);
+    }
+  }
+  let mejor = null;
+  for (const [t, n] of cuenta) {
+    if (!mejor || n > mejor[1]) mejor = [t, n];
+  }
+  assert.ok(mejor, "no hay tokens en search-index.json");
+  return mejor[0];
+}
+
+// Comprueba los resultados pintados contra el índice: el enlace debe ser la ruta
+// de la fecha del documento que muestran el título, la fuente y la fecha, y ese
+// documento debe contener el término en su título o resumen. No usa searchDocs:
+// un buscador que ignore la consulta no puede satisfacer ambas cosas.
+async function comprobarResultados(pagina, indice, termino, total, pintados) {
+  const items = await pagina.locator(".buscar-resultados__item").evaluateAll((lis) =>
+    lis.map((li) => ({
+      href: li.querySelector("a")?.getAttribute("href") ?? "",
+      fecha: li.querySelector(".archivo__fecha")?.textContent.trim() ?? "",
+      titulo: li.querySelector(".archivo__lead")?.textContent.trim() ?? "",
+      fuente: li.querySelector(".archivo__count")?.textContent.trim() ?? "",
+    })));
+  assert.equal(items.length, pintados,
+    `se pintaron ${items.length} de ${total} aciertos, se esperaban ${pintados}`);
+  for (const item of items) {
+    const doc = indice.find((d) =>
+      d.title === item.titulo && d.source === item.fuente && fechaWeb(d.date) === item.fecha);
+    assert.ok(doc, `resultado sin documento en el índice: ${item.titulo} (${item.fecha}, ${item.fuente})`);
+    assert.ok(tokenize(doc.title).includes(termino) || tokenize(doc.summary).includes(termino),
+      `"${termino}" no aparece en el título ni el resumen de "${doc.title}"`);
+    assert.equal(item.href, `${PREFIJO}${rutaEdicion(doc.date)}`,
+      `"${doc.title}" enlaza con ${item.href} y su fecha es ${doc.date}`);
+    assert.ok(fs.existsSync(path.join(RAIZ, item.href.slice(PREFIJO.length), "index.html")),
+      `resultado que apunta a una página inexistente: ${item.href}`);
+  }
 }
 
 // Edición más reciente del build, indexada igual que la portada (por rank).
@@ -185,13 +253,19 @@ test("página de edición: titular del rank 1 y navegación temporal", async () 
   assert.ok(titular.includes(edicion.items[0].title), `el lead "${titular}" no es el rank 1`);
   const nav = pagina.locator('nav.edicion-nav[aria-label="Navegación entre días"]');
   await nav.waitFor();
-  const enlaces = await nav.locator("a.edicion-nav__flecha").evaluateAll((as) =>
-    as.map((a) => a.getAttribute("href")));
+  const flechas = await nav.locator("a.edicion-nav__flecha").evaluateAll((as) =>
+    as.map((a) => ({ texto: a.textContent.trim(), href: a.getAttribute("href") })));
   // En la edición más reciente solo hay flecha «Anterior» y debe apuntar a la
   // edición inmediatamente anterior en data/, no a cualquier edición existente.
+  // Se mira el texto de la flecha: si olderPath y newerPath se intercambian, el
+  // enlace sigue apuntando al día correcto pero con la flecha «Siguiente».
   const anterior = `${PREFIJO}${rutaEdicion(fechas[1])}`;
-  assert.deepEqual(enlaces, [anterior],
-    `la navegación temporal debería enlazar solo con ${anterior}`);
+  assert.equal(flechas.length, 1,
+    `la edición más reciente debería tener una sola flecha y tiene ${flechas.length}`);
+  assert.match(flechas[0].texto, /anterior/i, `la flecha dice "${flechas[0].texto}"`);
+  assert.doesNotMatch(flechas[0].texto, /siguiente/i, `la flecha dice "${flechas[0].texto}"`);
+  assert.equal(flechas[0].href, anterior,
+    `la flecha «Anterior» debería enlazar con ${anterior} y enlaza con ${flechas[0].href}`);
   assert.deepEqual(problemas, []);
   await contexto.close();
 });
@@ -203,11 +277,13 @@ test("buscar: resultados para un titular real", async () => {
   // parte igual en el índice y en la consulta.
   const termino = tokenize(indice[0].title).sort((a, b) => b.length - a.length)[0];
   assert.ok(termino, "no hay término útil en el primer titular");
-  const esperados = searchDocs(indice, termino);
-  assert.ok(esperados.length > 0, `el índice no encuentra "${termino}"`);
-  // El estado cuenta todos los aciertos; la lista pinta como mucho 80.
-  const texto = esperados.length === 1 ? "1 resultado." : `${esperados.length} resultados.`;
-  const pintados = Math.min(esperados.length, 80);
+  // Los aciertos se cuentan desde el índice, no con searchDocs: si la búsqueda
+  // ignora la consulta, la expectativa no se rompe con ella.
+  const aciertos = documentosCon(indice, termino);
+  assert.ok(aciertos.length > 0, `el índice no encuentra "${termino}"`);
+  // El estado cuenta todos los aciertos; la lista pinta como mucho TOPE.
+  const texto = aciertos.length === 1 ? "1 resultado." : `${aciertos.length} resultados.`;
+  const pintados = Math.min(aciertos.length, TOPE);
   let esperaIndice;
   const { contexto, pagina, problemas } = await abrir("archivo/buscar/", {}, (p) => {
     esperaIndice = p.waitForResponse((r) => r.url().includes("search-index.json") && r.ok());
@@ -218,16 +294,26 @@ test("buscar: resultados para un titular real", async () => {
   await pagina.locator("#q").fill(termino);
   await pagina.locator(".buscar-resultados__item").first().waitFor();
   assert.equal((await pagina.locator("#buscar-estado").innerText()).trim(), texto);
-  const items = await pagina.locator(".buscar-resultados__item").count();
-  assert.equal(items, pintados, `se pintaron ${items} resultados y el estado anuncia ${esperados.length}`);
-  const destinos = await pagina.locator(".buscar-resultados__item a").evaluateAll((as) =>
-    as.map((a) => a.getAttribute("href")));
-  assert.ok(destinos.length >= 1);
-  for (const href of destinos) {
-    assert.ok(href.startsWith(PREFIJO), `resultado fuera del pathPrefix: ${href}`);
-    assert.ok(fs.existsSync(path.join(RAIZ, href.slice(PREFIJO.length), "index.html")),
-      `resultado que apunta a una página inexistente: ${href}`);
-  }
+  await comprobarResultados(pagina, indice, termino, aciertos.length, pintados);
+
+  // Segunda consulta con el token que aparece en más documentos: supera el tope
+  // y ejercita de verdad la rama results.slice(0, TOPE) de buscar.js.
+  const frecuente = tokenFrecuente(indice);
+  const totalFrecuente = documentosCon(indice, frecuente).length;
+  assert.ok(totalFrecuente > TOPE,
+    `el token más frecuente "${frecuente}" solo tiene ${totalFrecuente} aciertos y no supera el tope ${TOPE}`);
+  const textoFrecuente = `${totalFrecuente} resultados.`;
+  const itemsAntes = await pagina.locator(".buscar-resultados__item").count();
+  await pagina.locator("#q").fill(frecuente);
+  // Se espera a que la interfaz refleje la consulta nueva sin dormir un tiempo
+  // fijo: cambia el estado o el número de resultados pintados.
+  await pagina.waitForFunction(([estadoPrevio, itemsPrevios]) => {
+    const estado = document.querySelector("#buscar-estado")?.textContent.trim() ?? "";
+    const items = document.querySelectorAll(".buscar-resultados__item").length;
+    return estado !== estadoPrevio || items !== itemsPrevios;
+  }, [texto, itemsAntes]);
+  assert.equal((await pagina.locator("#buscar-estado").innerText()).trim(), textoFrecuente);
+  await comprobarResultados(pagina, indice, frecuente, totalFrecuente, TOPE);
   assert.deepEqual(problemas, []);
   await contexto.close();
 });
@@ -239,11 +325,11 @@ test("buscar: estado de error si el índice no carga", async () => {
   await estado.waitFor();
   assert.equal((await estado.innerText()).trim(), "No se pudo cargar el índice de búsqueda.");
   assert.equal(await pagina.locator(".buscar-resultados__item").count(), 0);
-  // El único fallo esperado es el índice que hemos bloqueado. Chromium lo apunta
-  // además como error de consola genérico, sin la URL; cualquier otra cosa falla.
+  // El único fallo esperado es el índice que hemos bloqueado. El error de
+  // consola de Chromium lleva la URL del recurso en su ubicación, así que se
+  // descarta solo lo que nombre esa URL y no cualquier recurso caído.
   assert.ok(problemas.some((p) => p.includes("search-index.json")), "la petición del índice no se bloqueó");
-  const inesperados = problemas.filter((p) =>
-    !p.includes("search-index.json") && !p.startsWith("consola: Failed to load resource"));
+  const inesperados = problemas.filter((p) => !p.includes("search-index.json"));
   assert.deepEqual(inesperados, []);
   await contexto.close();
 });
