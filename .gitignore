@@ -4,3 +4,5 @@ _site/
 .DS_Store
 .env
 site-tests/.metricas.json
+# Temporal de la escritura atómica de data/ si el proceso muere antes del rename.
+*.tmp
