@@ -22,7 +22,7 @@
     },
     "items": {
       "type": "array",
-      "minItems": 6,
+      "minItems": 8,
       "maxItems": 20,
       "items": {
         "type": "object",
@@ -67,8 +67,8 @@
             "additionalProperties": false,
             "required": ["x", "linkedin"],
             "properties": {
-              "x": { "type": "string", "minLength": 1 },
-              "linkedin": { "type": "string", "minLength": 1 }
+              "x": { "type": "string", "minLength": 1, "maxLength": 600 },
+              "linkedin": { "type": "string", "minLength": 1, "maxLength": 3000 }
             }
           }
         }
@@ -93,8 +93,8 @@
             "additionalProperties": false,
             "required": ["x", "linkedin"],
             "properties": {
-              "x": { "type": "string", "minLength": 1 },
-              "linkedin": { "type": "string", "minLength": 1 }
+              "x": { "type": "string", "minLength": 1, "maxLength": 600 },
+              "linkedin": { "type": "string", "minLength": 1, "maxLength": 3000 }
             }
           }
         }

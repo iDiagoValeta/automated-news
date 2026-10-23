@@ -7,7 +7,7 @@ import { checkExistingDigest, writeFileAtomic } from "../index.ts";
 import type { Digest, DigestItem } from "../types.ts";
 
 function validDigest(): Digest {
-  const items: DigestItem[] = Array.from({ length: 6 }, (_, i) => ({
+  const items: DigestItem[] = Array.from({ length: 8 }, (_, i) => ({
     rank: i + 1,
     category: "lanzamientos",
     title: `Titular ${i + 1}`,

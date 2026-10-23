@@ -39,7 +39,9 @@ export function mapFeedItems(
     // Descartar solo si tiene fecha válida y es anterior a la ventana.
     if (!Number.isNaN(ts) && ts < cutoff) continue;
 
-    const title = (it.title ?? "").trim();
+    // El titular entra en el prompt y en el JSON final: 200 caracteres es el
+    // mismo tope que aplica el schema a los titulares curados.
+    const title = (it.title ?? "").trim().slice(0, 200);
     if (!title) continue;
 
     const snippet = (it.contentSnippet ?? it.content ?? "").trim().slice(0, 500);

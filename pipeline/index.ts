@@ -130,8 +130,8 @@ async function main(): Promise<void> {
     return;
   }
 
-  if (items.length < 6) {
-    throw new Error(`Solo ${items.length} ítems normalizados; se necesitan al menos 6. No se publica.`);
+  if (items.length < 8) {
+    throw new Error(`Solo ${items.length} ítems normalizados; se necesitan al menos 8. No se publica.`);
   }
 
   // Enriquecimiento: leer el artículo real de los candidatos con más señal.
@@ -151,7 +151,12 @@ async function main(): Promise<void> {
     repos = { trending: fresh, pick: cfg.github_trending.pick };
   }
 
-  const digest = await curate(items, { date, generated_at: generatedAt, provider }, repos, resolveProviderChain(provider));
+  const digest = await curate(
+    items,
+    { date, generated_at: generatedAt, provider, window_hours: cfg.window_hours },
+    repos,
+    resolveProviderChain(provider),
+  );
 
   mkdirSync(dataDir, { recursive: true });
   writeFileAtomic(outPath, JSON.stringify(digest, null, 2) + "\n");

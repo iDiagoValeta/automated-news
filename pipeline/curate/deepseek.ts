@@ -1,3 +1,4 @@
+import { ProviderError } from "../ports.ts";
 import type { Provider } from "../ports.ts";
 
 const ENDPOINT = "https://api.deepseek.com/chat/completions";
@@ -43,12 +44,24 @@ export function deepseekProvider(): Provider {
         });
         if (!res.ok) {
           const body = await res.text().catch(() => "");
-          throw new Error(`DeepSeek HTTP ${res.status}: ${body.slice(0, 300)}`);
+          // 429 y 5xx son transitorios; el resto de 4xx (400, 401, 404) no
+          // mejora al repetir, así que el bucle debe pasar al siguiente proveedor.
+          const retryable = res.status === 429 || res.status >= 500;
+          throw new ProviderError(
+            `DeepSeek HTTP ${res.status}: ${body.slice(0, 300)}`,
+            retryable,
+            res.status,
+          );
         }
         const data = (await res.json()) as ChatResponse;
         const content = data.choices?.[0]?.message?.content;
-        if (!content) throw new Error("DeepSeek devolvió una respuesta vacía");
+        if (!content) throw new ProviderError("DeepSeek devolvió una respuesta vacía", true);
         return content;
+      } catch (e) {
+        if (e instanceof ProviderError) throw e;
+        // fetch lanza TypeError en fallos de red y AbortError al vencer el
+        // timeout: ambos son transitorios.
+        throw new ProviderError(`DeepSeek: error de red o timeout: ${String(e)}`, true);
       } finally {
         clearTimeout(timer);
       }

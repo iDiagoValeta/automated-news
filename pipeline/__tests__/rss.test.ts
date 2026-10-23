@@ -25,6 +25,32 @@ test("feed real (Anthropic): parsea y mapea con ventana amplia", async () => {
   }
 });
 
+test("recorta el titular a 200 caracteres", () => {
+  const long = "T".repeat(250);
+  const items = mapFeedItems(
+    [{ title: long, link: "https://example.com/largo" }],
+    "Synthetic",
+    WINDOW,
+    NOW,
+  );
+  assert.equal(items.length, 1);
+  assert.equal(items[0].title.length, 200);
+  assert.equal(items[0].title, "T".repeat(200));
+});
+
+test("descarta un ítem sin titular", () => {
+  const items = mapFeedItems(
+    [
+      { title: "   ", link: "https://example.com/sin-titulo" },
+      { link: "https://example.com/tampoco" },
+    ],
+    "Synthetic",
+    WINDOW,
+    NOW,
+  );
+  assert.deepEqual(items, []);
+});
+
 test("guid como respaldo de link, ventana y saneado (fixture sintético)", async () => {
   const feed = await parser.parseString(fixture("synthetic.xml"));
   const items = mapFeedItems(feed.items ?? [], "Synthetic", WINDOW, NOW);
