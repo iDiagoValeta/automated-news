@@ -207,7 +207,9 @@ function buildUserPrompt(items: NewsItem[], meta: CurateMeta): string {
       const pts = it.points !== undefined ? ` (${it.points} pts)` : "";
       const text = (it.content || it.snippet).replace(/\s+/g, " ").slice(0, 600);
       const snip = text ? `\n   ${text}` : "";
-      const title = it.title.slice(0, 200);
+      // Igual que el cuerpo: si el título conserva saltos de línea, puede cerrar
+      // el bloque delimitado y lo que venga después se lee como instrucciones.
+      const title = it.title.replace(/\s+/g, " ").slice(0, 200);
       return `${i + 1}. [${it.source}]${pts} ${title}${snip}\n   URL: ${it.url}`;
     })
     .join("\n\n");

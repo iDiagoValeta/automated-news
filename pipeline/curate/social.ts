@@ -51,7 +51,7 @@ export function assembleX(hook: string, hashtags: string[], url: string): string
   return `${body}\n${url}`;
 }
 
-/** Post para LinkedIn: sin límite práctico. El gancho abre; la idea clave marcada con `**` va en negrita. */
+/** Post para LinkedIn: tope de 3000 caracteres del schema. El gancho abre; la idea clave marcada con `**` va en negrita. */
 export function assembleLinkedIn(hook: string, hashtags: string[], url: string): string {
   const tags = hashtags.join(" ");
   const parts = [applyBold(hook)];

@@ -68,17 +68,20 @@ const GITHUB_TRENDING_SCHEMA = {
 const CONFIG_SCHEMA = {
   type: "object",
   required: [
+    "user_agent",
     "timeout_ms",
     "window_hours",
     "candidate_cap",
     "enrich_top",
     "enrich_timeout_ms",
+    "blocked_domains",
     "rss",
     "hackernews",
     "huggingface_trending",
     "github_trending",
   ],
   properties: {
+    user_agent: { type: "string", minLength: 1 },
     timeout_ms: { type: "integer", minimum: 1 },
     window_hours: { type: "integer", minimum: 1 },
     candidate_cap: { type: "integer", minimum: 1 },

@@ -17,6 +17,24 @@ test("el config/sources.json actual valida", () => {
   assert.ok(Array.isArray(cfg.rss));
 });
 
+test("user_agent ausente falla nombrando el campo", () => {
+  const cfg = validConfig();
+  delete cfg.user_agent;
+  assert.throws(() => validateSourcesConfig(cfg), /user_agent/);
+});
+
+test("user_agent no string falla nombrando el campo", () => {
+  const cfg = validConfig();
+  cfg.user_agent = 42;
+  assert.throws(() => validateSourcesConfig(cfg), /user_agent/);
+});
+
+test("blocked_domains ausente falla nombrando el campo", () => {
+  const cfg = validConfig();
+  delete cfg.blocked_domains;
+  assert.throws(() => validateSourcesConfig(cfg), /blocked_domains/);
+});
+
 test("candidate_cap ausente falla nombrando el campo", () => {
   const cfg = validConfig();
   delete cfg.candidate_cap;
