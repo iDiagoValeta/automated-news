@@ -2,6 +2,7 @@
 // las ediciones de data/*.json vía site/_data/editions.js.
 
 import { shareModel } from "./site/_11ty/share.js";
+import { temaLabel } from "./site/_11ty/lecturas.js";
 
 const MESES = [
   "enero", "febrero", "marzo", "abril", "mayo", "junio",
@@ -22,6 +23,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "site/js": "js" });
   eleventyConfig.addPassthroughCopy({ "site/img": "img" });
   eleventyConfig.addPassthroughCopy({ "site/_11ty/search.js": "js/search.js" });
+  // search.js corre en el navegador y ahora importa este helper: sin copiarlo,
+  // el índice de búsqueda pide un módulo que no existe.
+  eleventyConfig.addPassthroughCopy({ "site/_11ty/lecturas.js": "js/lecturas.js" });
 
   // Minificación ligera del HTML: la indentación de las plantillas entre
   // etiquetas pesa sin aportar nada. Se deja un espacio (no nada) para no
@@ -76,6 +80,9 @@ export default function (eleventyConfig) {
   // pantalla se muestran con su ortografía.
   const CATEGORIAS = { investigacion: "investigación" };
   eleventyConfig.addFilter("categoria", (c) => CATEGORIAS[c] || c);
+
+  // Temas de las lecturas: mismos identificadores sin tilde, misma traducción.
+  eleventyConfig.addFilter("tema", temaLabel);
 
   // Agrupa ediciones (ya ordenadas desc) por año-mes para el archivo.
   eleventyConfig.addFilter("agrupaPorMes", (editions) => {

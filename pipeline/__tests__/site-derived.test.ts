@@ -13,6 +13,7 @@ import {
 } from "../../site/_11ty/feeds.js";
 import { addDays, buildWeek } from "../../site/_11ty/semana.js";
 import { buildSearchIndex, searchDocs } from "../../site/_11ty/search.js";
+import { lecturasPagePath, temaLabel } from "../../site/_11ty/lecturas.js";
 
 const site = {
   title: "La Terminal",
@@ -129,6 +130,46 @@ test("sitemap y robots apuntan a la URL de GitHub Pages", () => {
   assert.match(robots, /Sitemap: https:\/\/idiagovaleta.github.io\/automated-news\/sitemap.xml/);
 });
 
+test("temaLabel traduce todos los temas del esquema y deja pasar uno desconocido", () => {
+  const esperado: Record<string, string> = {
+    programacion: "Programación",
+    ia: "IA",
+    web: "Web",
+    datos: "Datos",
+    arquitectura: "Arquitectura",
+    diseno: "Diseño",
+    carrera: "Carrera",
+  };
+  for (const [id, label] of Object.entries(esperado)) {
+    assert.equal(temaLabel(id), label);
+  }
+  // El filtro no debe romper el build si el esquema cambia antes que la web.
+  assert.equal(temaLabel("otro"), "otro");
+});
+
+test("lecturasPagePath sigue el patrón de rutas de la sección", () => {
+  assert.equal(lecturasPagePath("2026-10-24"), "/lecturas/2026/10/24/");
+});
+
+test("el sitemap incluye la sección Lecturas y solo los días con lecturas", () => {
+  const conLecturas = edition("2026-09-18", {
+    lecturas: [
+      {
+        title: "Rust desde cero",
+        url: "https://example.com/rust",
+        source: "Medium: Programming",
+        summary: "Primera frase.",
+        tema: "programacion",
+      },
+    ],
+  });
+  const paths = staticPagePaths([conLecturas, edition("2026-09-17")]);
+  assert.ok(paths.includes("/lecturas/"));
+  assert.ok(paths.includes("/lecturas/2026/09/18/"));
+  // Una edición sin lecturas no genera página: el filtro de la sección es la lista.
+  assert.ok(!paths.includes("/lecturas/2026/09/17/"));
+});
+
 test("buildWeek toma la ventana de 7 días y el rank 1 de cada día", () => {
   assert.equal(addDays("2026-03-01", -1), "2026-02-28");
   const editions = [
@@ -186,6 +227,30 @@ test("searchDocs no confunde code con Codex y prioriza el titular reciente", () 
   const hits = searchDocs(index, "Claude Code");
   assert.equal(hits.length, 1);
   assert.equal(hits[0].date, "2026-09-18");
+});
+
+test("el índice de búsqueda incluye las lecturas con la ruta de su sección", () => {
+  const lecturas = [
+    {
+      title: "Rust sin miedo",
+      url: "https://example.com/rust",
+      source: "Medium: Programming",
+      summary: "Aprender Rust con calma.",
+      tema: "programacion",
+    },
+  ];
+  const index = buildSearchIndex([edition("2026-09-18", { lecturas })]);
+  const lectura = index.find((d) => d.title === "Rust sin miedo");
+  assert.ok(lectura, "la lectura no está en el índice");
+  // Misma forma que una noticia, pero enlaza a la sección donde se lee.
+  assert.deepEqual(lectura, {
+    title: "Rust sin miedo",
+    summary: "Aprender Rust con calma.",
+    source: "Medium: Programming",
+    category: "programacion",
+    date: "2026-09-18",
+    path: "/lecturas/2026/09/18/",
+  });
 });
 
 test("Atom: <updated> de feed y entradas es ISO 8601 aunque falte o se corrompa generated_at", () => {

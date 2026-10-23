@@ -1,0 +1,17 @@
+---
+layout: base.njk
+title: Lecturas
+description: Artículos atemporales sobre programación, IA y oficio, seleccionados en La Terminal.
+permalink: "/lecturas/index.html"
+---
+{% if lecturasEditions.length %}
+  {% set ed = lecturasEditions[0] %}
+  {% set lecturas = ed.lecturas %}
+  {% include "lecturas-lista.njk" %}
+
+  {% set olderPath = ed.lecturasOlderPath %}
+  {% set newerPath = ed.lecturasNewerPath %}
+  {% include "nav-temporal.njk" %}
+{% else %}
+  <p class="empty">Aún no hay lecturas publicadas. Vuelve mañana a mediodía.</p>
+{% endif %}

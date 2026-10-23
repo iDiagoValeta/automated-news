@@ -183,9 +183,10 @@ function tokenFrecuente(indice) {
 }
 
 // Comprueba los resultados pintados contra el índice: el enlace debe ser la ruta
-// de la fecha del documento que muestran el título, la fuente y la fecha, y ese
-// documento debe contener el término en su título o resumen. No usa searchDocs:
-// un buscador que ignore la consulta no puede satisfacer ambas cosas.
+// que anuncia el documento (la edición o su página de lecturas) con el título,
+// la fuente y la fecha que se ven, y ese documento debe contener el término en
+// su título o resumen. No usa searchDocs: un buscador que ignore la consulta no
+// puede satisfacer ambas cosas.
 async function comprobarResultados(pagina, indice, termino, total, pintados) {
   const items = await pagina.locator(".buscar-resultados__item").evaluateAll((lis) =>
     lis.map((li) => ({
@@ -202,8 +203,11 @@ async function comprobarResultados(pagina, indice, termino, total, pintados) {
     assert.ok(doc, `resultado sin documento en el índice: ${item.titulo} (${item.fecha}, ${item.fuente})`);
     assert.ok(tokenize(doc.title).includes(termino) || tokenize(doc.summary).includes(termino),
       `"${termino}" no aparece en el título ni el resumen de "${doc.title}"`);
-    assert.equal(item.href, `${PREFIJO}${rutaEdicion(doc.date)}`,
-      `"${doc.title}" enlaza con ${item.href} y su fecha es ${doc.date}`);
+    // doc.path lleva barra inicial y PREFIJO termina en barra: unirlos a pelo
+    // produce doble barra y el navegador la normaliza en el href.
+    const esperado = `${PREFIJO}${doc.path.replace(/^\//, "")}`;
+    assert.equal(item.href, esperado,
+      `"${doc.title}" enlaza con ${item.href} y su ruta es ${doc.path}`);
     assert.ok(fs.existsSync(path.join(RAIZ, item.href.slice(PREFIJO.length), "index.html")),
       `resultado que apunta a una página inexistente: ${item.href}`);
   }
@@ -227,7 +231,9 @@ test("portada: título, noticias y sin errores", async () => {
 });
 
 test("navegación de secciones", async () => {
-  for (const seccion of ["repositorios", "semana", "archivo"]) {
+  // Lecturas incluida aunque data/ no traiga ninguna: la sección siempre existe,
+  // con su lista o con el vacío.
+  for (const seccion of ["repositorios", "lecturas", "semana", "archivo"]) {
     const { contexto, pagina, problemas } = await abrir("");
     const [resp] = await Promise.all([
       pagina.waitForNavigation(),
