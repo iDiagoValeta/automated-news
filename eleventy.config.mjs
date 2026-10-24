@@ -3,6 +3,8 @@
 
 import { shareModel } from "./site/_11ty/share.js";
 import { temaLabel } from "./site/_11ty/lecturas.js";
+import { searchIndexConNotas, sitemapPathsConNotas } from "./site/_11ty/editorial.js";
+import { buildSitemap } from "./site/_11ty/feeds.js";
 
 const MESES = [
   "enero", "febrero", "marzo", "abril", "mayo", "junio",
@@ -16,6 +18,16 @@ function parseYMD(s) {
 
 function capitalizar(s) {
   return s.charAt(0).toUpperCase() + s.slice(1);
+}
+
+// Recorta un texto para meta description / Open Graph. Exportada para que el
+// test e2e compare contra el mismo recorte que aplica base.njk.
+export function metaDesc(s, max = 200) {
+  const t = String(s || "").replace(/\s+/g, " ").trim();
+  if (t.length <= max) return t;
+  const cut = t.slice(0, max - 1);
+  const sp = cut.lastIndexOf(" ");
+  return `${(sp > 80 ? cut.slice(0, sp) : cut).trimEnd()}…`;
 }
 
 export default function (eleventyConfig) {
@@ -32,7 +44,9 @@ export default function (eleventyConfig) {
   // juntar elementos en línea, y se respetan los bloques donde el espacio
   // importa o es contenido (pre, textarea, script, style).
   eleventyConfig.addTransform("minificaHtml", function (contenido) {
-    if (!this.page.outputPath?.endsWith(".html")) return contenido;
+    // Un permalink: false (borrador) deja outputPath en false, no en cadena.
+    const salida = this.page.outputPath;
+    if (typeof salida !== "string" || !salida.endsWith(".html")) return contenido;
     return contenido
       .split(/(<(?:pre|textarea|script|style)\b[\s\S]*?<\/(?:pre|textarea|script|style)>)/i)
       .map((trozo, i) => (i % 2 ? trozo : trozo.replace(/>\s+</g, "> <")))
@@ -64,14 +78,7 @@ export default function (eleventyConfig) {
     new Intl.NumberFormat("es-ES", { useGrouping: "always" }).format(Number(n)),
   );
 
-  // Recorta un texto para meta description / Open Graph.
-  eleventyConfig.addFilter("metaDesc", (s, max = 200) => {
-    const t = String(s || "").replace(/\s+/g, " ").trim();
-    if (t.length <= max) return t;
-    const cut = t.slice(0, max - 1);
-    const sp = cut.lastIndexOf(" ");
-    return `${(sp > 80 ? cut.slice(0, sp) : cut).trimEnd()}…`;
-  });
+  eleventyConfig.addFilter("metaDesc", metaDesc);
 
   // Convierte item.social en hrefs de web intent (vacío si falta el texto).
   eleventyConfig.addFilter("shareModel", shareModel);
@@ -83,6 +90,16 @@ export default function (eleventyConfig) {
 
   // Temas de las lecturas: mismos identificadores sin tilde, misma traducción.
   eleventyConfig.addFilter("tema", temaLabel);
+
+  // Las notas son una colección, y las colecciones no existen cuando se
+  // calculan los datos globales. Por eso el sitemap y el índice se completan
+  // al renderizar sus plantillas, no en site/_data/derived.js.
+  eleventyConfig.addFilter("sitemapConNotas", (paths, notas, siteUrl) =>
+    buildSitemap(siteUrl, sitemapPathsConNotas(paths, notas)),
+  );
+  eleventyConfig.addFilter("indiceConNotas", (baseJson, notas) =>
+    JSON.stringify(searchIndexConNotas(JSON.parse(baseJson), notas)),
+  );
 
   // Agrupa ediciones (ya ordenadas desc) por año-mes para el archivo.
   eleventyConfig.addFilter("agrupaPorMes", (editions) => {

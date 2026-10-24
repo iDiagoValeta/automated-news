@@ -712,6 +712,137 @@ html.cursor-retro dialog {
   white-space: nowrap;
 }
 
+/* ---------- Editorial ---------- */
+
+.editorial__lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 760px;
+}
+.editorial__item {
+  padding: 1.2rem 0;
+  border-bottom: 1px solid var(--faint);
+}
+.editorial__enlace {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 1.2rem;
+  text-decoration: none;
+}
+.editorial__enlace:hover .editorial__titulo {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 3px;
+}
+.editorial__titulo {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  line-height: 1.25;
+}
+.editorial__resumen {
+  margin: 0.5rem 0 0;
+  max-width: 65ch;
+  color: var(--muted);
+}
+
+.nota {
+  max-width: 68ch;
+  margin: 0 auto;
+}
+.nota__cabecera {
+  margin-bottom: 2.2rem;
+}
+.nota__title {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: clamp(2rem, 5vw, 3.1rem);
+  line-height: 1.08;
+  margin: 0 0 1rem;
+}
+.nota__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.2rem;
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+/* Prosa Markdown: solo lo que puede salir de una nota, con los tokens del
+   diario para que el modo oscuro no necesite reglas propias. */
+.prosa {
+  font-family: var(--serif);
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+.prosa > * + * {
+  margin-top: 1.2em;
+}
+.prosa h2,
+.prosa h3 {
+  line-height: 1.2;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+.prosa h2 {
+  font-size: 1.6rem;
+}
+.prosa h3 {
+  font-size: 1.25rem;
+}
+.prosa ul,
+.prosa ol {
+  padding-left: 1.4em;
+}
+.prosa li + li {
+  margin-top: 0.4em;
+}
+.prosa a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--link) 45%, transparent);
+  text-underline-offset: 3px;
+}
+.prosa a:hover {
+  text-decoration-color: var(--accent);
+}
+.prosa blockquote {
+  margin: 1.6rem 0;
+  padding: 0.2rem 0 0.2rem 1rem;
+  border-left: 2px solid color-mix(in srgb, var(--accent) 55%, var(--faint));
+  color: color-mix(in srgb, var(--ink) 78%, var(--muted));
+  font-style: italic;
+}
+.prosa code {
+  font-family: var(--mono);
+  font-size: 0.86em;
+  padding: 0.1em 0.35em;
+  border: 1px solid var(--faint);
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--ink) 6%, var(--paper-bright));
+}
+.prosa pre {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--faint);
+  border-radius: 8px;
+  background: var(--paper-deep);
+  overflow-x: auto;
+}
+.prosa pre code {
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 0.86rem;
+}
+.prosa img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* ---------- Pie ---------- */
 
 .pie {

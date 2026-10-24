@@ -1,0 +1,27 @@
+---
+layout: base.njk
+title: Editorial
+description: Notas propias del editor sobre tecnología y oficio.
+permalink: "/editorial/index.html"
+---
+<div class="editorial">
+  <h1 class="archivo__title">Editorial</h1>
+  <p class="archivo__intro">Notas propias, sin la urgencia del día.</p>
+
+  {% if collections.notas.length %}
+    <ol class="editorial__lista">
+      {# Eleventy ordena las colecciones de más antigua a más nueva. #}
+      {% for nota in collections.notas | reverse %}
+        <li class="editorial__item">
+          <a class="editorial__enlace" href="{{ nota.url | url }}">
+            <span class="archivo__fecha">{{ nota.data.fechaISO | fechaLarga }}</span>
+            <span class="editorial__titulo">{{ nota.data.title }}</span>
+          </a>
+          <p class="editorial__resumen">{{ nota.data.resumen }}</p>
+        </li>
+      {% endfor %}
+    </ol>
+  {% else %}
+    <p class="empty">Aún no hay notas editoriales.</p>
+  {% endif %}
+</div>

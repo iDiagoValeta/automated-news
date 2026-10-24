@@ -149,6 +149,30 @@ También admite ejecución manual y una opción `skip_pipeline` para reconstruir
 
 El `pathPrefix` de Eleventy está configurado como `/automated-news/`. Si despliegas un fork con otro nombre, actualízalo en [`eleventy.config.mjs`](eleventy.config.mjs).
 
+## Publicar una nota editorial
+
+Las notas propias viven en `site/editorial/`, un fichero Markdown por nota. El nombre del fichero es el slug de la URL: `site/editorial/mi-nota.md` se publica en `/automated-news/editorial/mi-nota/`. Escribe cada valor del front matter en una sola línea.
+
+```markdown
+---
+title: "Por qué escribo esto a mano"
+date: 2026-10-24
+resumen: "Una frase que aparece en el índice y en la meta description."
+---
+
+El cuerpo de la nota, en Markdown.
+```
+
+`title`, `date` y `resumen` son obligatorios. La fecha manda el orden del índice: de la más nueva a la más antigua. Para dejar una nota a medias sin publicarla, añade `draft: true`; el fichero sigue en el repo pero no genera página, no entra en la navegación, ni en el sitemap, ni en el buscador.
+
+Para previsualizarla, arranca el sitio en local y abre `/automated-news/editorial/`, que es la ruta con el `pathPrefix` del sitio:
+
+```bash
+pnpm run dev
+```
+
+Una nota con `draft: true` no genera página, así que para verla en local hay que quitar `draft` (o ponerlo en `false`) sin commitear ese cambio. Cuando esté lista, haz commit del `.md` con la nota publicada en `main`. Mergear no la publica al instante: aparece en el siguiente cron del diario o al lanzar a mano el workflow «Edición diaria» con la opción «Solo reconstruir y desplegar», como explica [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Estructura
 
 ```text
