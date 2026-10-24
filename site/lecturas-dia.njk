@@ -1,0 +1,17 @@
+---
+pagination:
+  data: lecturasEditions
+  size: 1
+  alias: ed
+layout: base.njk
+permalink: "{{ ed.lecturasPath }}"
+eleventyComputed:
+  title: "Lecturas {{ ed.date | fechaCorta }} {{ ed.year }}"
+---
+<h1 class="archivo__title">{{ ed.date | fechaLarga }}</h1>
+{% set lecturas = ed.lecturas %}
+{% include "lecturas-lista.njk" %}
+
+{% set olderPath = ed.lecturasOlderPath %}
+{% set newerPath = ed.lecturasNewerPath %}
+{% include "nav-temporal.njk" %}

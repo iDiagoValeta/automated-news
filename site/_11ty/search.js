@@ -1,5 +1,7 @@
 /** Índice y búsqueda client-side sobre título, resumen y fuente. */
 
+import { lecturasPagePath } from "./lecturas.js";
+
 export function buildSearchIndex(editions) {
   const out = [];
   for (const e of editions || []) {
@@ -11,6 +13,18 @@ export function buildSearchIndex(editions) {
         category: it.category || "",
         date: e.date,
         path: e.path,
+      });
+    }
+    // La lectura no se lee en la edición del día sino en la sección Lecturas,
+    // así que el resultado apunta a su página, no a la portada de la fecha.
+    for (const l of e.lecturas || []) {
+      out.push({
+        title: l.title || "",
+        summary: l.summary || "",
+        source: l.source || "",
+        category: l.tema || "",
+        date: e.date,
+        path: lecturasPagePath(e.date),
       });
     }
   }

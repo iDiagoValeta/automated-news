@@ -1,5 +1,7 @@
 /** Helpers de XML y URLs absolutas para feeds, sitemap y robots. */
 
+import { lecturasPagePath } from "./lecturas.js";
+
 export function escapeXml(value) {
   return String(value)
     .replace(/&/g, "&amp;")
@@ -147,6 +149,7 @@ export function staticPagePaths(editions = []) {
   const pages = [
     "/",
     "/repositorios/",
+    "/lecturas/",
     "/semana/",
     "/archivo/",
     "/archivo/noticias/",
@@ -157,6 +160,9 @@ export function staticPagePaths(editions = []) {
     if (e.path) pages.push(e.path);
     if (Array.isArray(e.repos) && e.repos.length > 0 && e.year) {
       pages.push(`/repositorios/${e.year}/${e.month}/${e.day}/`);
+    }
+    if (Array.isArray(e.lecturas) && e.lecturas.length > 0 && e.year) {
+      pages.push(lecturasPagePath(e.date));
     }
   }
   return [...new Set(pages)];

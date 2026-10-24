@@ -74,20 +74,26 @@
       {% set esBuscar = "/archivo/buscar/" in u %}
       {% set esArchivo = ("/archivo/" in u) and not esBuscar %}
       {% set esRepos = ("/repositorios/" in u) and not esArchivo %}
+      {% set esLecturas = "/lecturas/" in u %}
       {% set esSemana = "/semana/" in u %}
-      {% set esNoticias = not esArchivo and not esBuscar and not esRepos and not esSemana %}
+      {% set esNoticias = not esArchivo and not esBuscar and not esRepos and not esLecturas and not esSemana %}
       {# El calendario vive en la cabecera: se elige su fuente de fechas según la sección. #}
       {% if esRepos and reposEditions.length %}
         {% set fechas = reposEditions %}
         {% set fechaAttr = "reposPath" %}
         {% set fechaActual = ed.date if ed else reposEditions[0].date %}
+      {% elif esLecturas and lecturasEditions.length %}
+        {# Solo los días con lecturas: son los únicos con página en la sección. #}
+        {% set fechas = lecturasEditions %}
+        {% set fechaAttr = "lecturasPath" %}
+        {% set fechaActual = ed.date if ed else lecturasEditions[0].date %}
       {% elif esNoticias and editions.length and (edition or u == "/") %}
         {% set fechas = editions %}
         {% set fechaAttr = "path" %}
         {% set fechaActual = edition.date if edition else editions[0].date %}
       {% endif %}
       <div class="herramientas">
-        {# En móvil, Buscar sale del menú (no cabe) y pasa aquí como icono. #}
+        {# En móvil, Buscar sale del menú y pasa aquí como icono. #}
         <a class="herramienta herramienta--buscar{% if esBuscar %} is-active{% endif %}" href="{{ '/archivo/buscar/' | url }}"{% if esBuscar %} aria-current="page"{% endif %} data-paleta aria-label="Buscar" title="Buscar">
           <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></g></svg>
         </a>
@@ -117,6 +123,7 @@
       <nav class="masthead__nav" aria-label="Secciones">
         <a href="{{ '/' | url }}"{% if esNoticias %} class="is-active" aria-current="page"{% endif %}>Noticias</a>
         <a href="{{ '/repositorios/' | url }}"{% if esRepos %} class="is-active" aria-current="page"{% endif %}>Repositorios</a>
+        <a href="{{ '/lecturas/' | url }}"{% if esLecturas %} class="is-active" aria-current="{% if ed %}true{% else %}page{% endif %}"{% endif %}>Lecturas</a>
         <a href="{{ '/semana/' | url }}"{% if esSemana %} class="is-active" aria-current="page"{% endif %}>Semana</a>
         <a href="{{ '/archivo/' | url }}"{% if esArchivo %} class="is-active" aria-current="page"{% endif %}>Archivo</a>
         <a class="masthead__buscar{% if esBuscar %} is-active{% endif %}" href="{{ '/archivo/buscar/' | url }}"{% if esBuscar %} aria-current="page"{% endif %} data-paleta aria-keyshortcuts="Control+K Meta+K /">Buscar <kbd>⌘K</kbd></a>

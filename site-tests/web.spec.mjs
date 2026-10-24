@@ -132,6 +132,18 @@ async function abrir(ruta, opciones = {}, preparar) {
 }
 
 // Fechas de las ediciones de data/, de la más reciente a la más antigua.
+// «fecha|título» de cada lectura publicada en data/, para saber qué sección le
+// toca a un resultado de búsqueda sin fiarse del índice que se está probando.
+function lecturasPublicadas() {
+  const dir = path.join(aqui, "../data");
+  const claves = new Set();
+  for (const fecha of edicionesData()) {
+    const ed = JSON.parse(fs.readFileSync(path.join(dir, `${fecha}.json`), "utf8"));
+    for (const l of ed.lecturas || []) claves.add(`${ed.date}|${l.title}`);
+  }
+  return claves;
+}
+
 function edicionesData() {
   const dir = path.join(aqui, "../data");
   return fs.readdirSync(dir)
@@ -183,9 +195,10 @@ function tokenFrecuente(indice) {
 }
 
 // Comprueba los resultados pintados contra el índice: el enlace debe ser la ruta
-// de la fecha del documento que muestran el título, la fuente y la fecha, y ese
-// documento debe contener el término en su título o resumen. No usa searchDocs:
-// un buscador que ignore la consulta no puede satisfacer ambas cosas.
+// que anuncia el documento (la edición o su página de lecturas) con el título,
+// la fuente y la fecha que se ven, y ese documento debe contener el término en
+// su título o resumen. No usa searchDocs: un buscador que ignore la consulta no
+// puede satisfacer ambas cosas.
 async function comprobarResultados(pagina, indice, termino, total, pintados) {
   const items = await pagina.locator(".buscar-resultados__item").evaluateAll((lis) =>
     lis.map((li) => ({
@@ -202,8 +215,15 @@ async function comprobarResultados(pagina, indice, termino, total, pintados) {
     assert.ok(doc, `resultado sin documento en el índice: ${item.titulo} (${item.fecha}, ${item.fuente})`);
     assert.ok(tokenize(doc.title).includes(termino) || tokenize(doc.summary).includes(termino),
       `"${termino}" no aparece en el título ni el resumen de "${doc.title}"`);
-    assert.equal(item.href, `${PREFIJO}${rutaEdicion(doc.date)}`,
-      `"${doc.title}" enlaza con ${item.href} y su fecha es ${doc.date}`);
+    // El destino se deriva de data/ (si ese día publicó esta lectura) y de la
+    // fecha, no de doc.path, del que buscar.js construye el href: las noticias
+    // llevan a la edición del día y las lecturas a su página de esa fecha.
+    const destino = lecturasPublicadas().has(`${doc.date}|${doc.title}`)
+      ? `lecturas/${rutaEdicion(doc.date)}`
+      : rutaEdicion(doc.date);
+    const esperado = `${PREFIJO}${destino}`;
+    assert.equal(item.href, esperado,
+      `"${doc.title}" (${doc.date}) enlaza con ${item.href}; se esperaba ${esperado}`);
     assert.ok(fs.existsSync(path.join(RAIZ, item.href.slice(PREFIJO.length), "index.html")),
       `resultado que apunta a una página inexistente: ${item.href}`);
   }
@@ -227,7 +247,9 @@ test("portada: título, noticias y sin errores", async () => {
 });
 
 test("navegación de secciones", async () => {
-  for (const seccion of ["repositorios", "semana", "archivo"]) {
+  // Lecturas incluida aunque data/ no traiga ninguna: la sección siempre existe,
+  // con su lista o con el vacío.
+  for (const seccion of ["repositorios", "lecturas", "semana", "archivo"]) {
     const { contexto, pagina, problemas } = await abrir("");
     const [resp] = await Promise.all([
       pagina.waitForNavigation(),
@@ -238,6 +260,46 @@ test("navegación de secciones", async () => {
     await pagina.waitForLoadState("load");
     assert.deepEqual(problemas, [], `errores en ${seccion}`);
     assert.ok((await pagina.locator("main").innerText()).trim().length > 50, `${seccion} sin contenido`);
+    await contexto.close();
+  }
+});
+
+test("menú móvil: cabe a 375 px con seis secciones y la activa se ve", async () => {
+  // Editorial existirá entre Semana y Archivo cuando haya notas: se inyecta
+  // para medir el caso de siete enlaces sin depender de que data/ las traiga.
+  for (const [ruta, activa] of [["", "Noticias"], ["archivo/", "Archivo"]]) {
+    const { contexto, pagina, problemas } = await abrir(ruta, {
+      viewport: { width: 375, height: 812 }, isMobile: true, hasTouch: true, deviceScaleFactor: 2,
+    });
+    const medida = await pagina.evaluate((prefijo) => {
+      const nav = document.querySelector(".masthead__nav");
+      const editorial = document.createElement("a");
+      editorial.href = `${prefijo}editorial/`;
+      editorial.textContent = "Editorial";
+      const archivo = [...nav.querySelectorAll("a")].find((a) => a.textContent.trim() === "Archivo");
+      nav.insertBefore(editorial, archivo);
+      const caja = nav.getBoundingClientRect();
+      const enlaceActivo = nav.querySelector("a.is-active");
+      const cajaActiva = enlaceActivo?.getBoundingClientRect();
+      return {
+        scrollWidth: nav.scrollWidth,
+        clientWidth: nav.clientWidth,
+        activa: enlaceActivo?.textContent.trim() ?? "",
+        activaVisible: !!cajaActiva
+          && cajaActiva.width > 0
+          && cajaActiva.left >= caja.left - 0.5
+          && cajaActiva.right <= caja.right + 0.5
+          && cajaActiva.top >= caja.top - 0.5
+          && cajaActiva.bottom <= caja.bottom + 0.5,
+        enlaces: nav.querySelectorAll("a").length,
+      };
+    }, PREFIJO);
+    assert.equal(medida.enlaces, 7, `${ruta || "portada"}: el menú no quedó con siete enlaces`);
+    assert.equal(medida.activa, activa, `${ruta || "portada"}: la pestaña activa es "${medida.activa}"`);
+    assert.ok(medida.scrollWidth <= medida.clientWidth,
+      `${ruta || "portada"}: el menú mide ${medida.scrollWidth} px y su hueco ${medida.clientWidth} px`);
+    assert.ok(medida.activaVisible, `${ruta || "portada"}: la pestaña activa no se ve entera`);
+    assert.deepEqual(problemas, []);
     await contexto.close();
   }
 });
@@ -426,7 +488,7 @@ test("copiar el texto social de X deja en el portapapeles el de la primera tarje
 const presupuesto = JSON.parse(fs.readFileSync(path.join(aqui, "presupuesto.json"), "utf8"));
 const medidas = {};
 
-for (const [nombre, ruta] of [["portada", ""], ["repositorios", "repositorios/"]]) {
+for (const [nombre, ruta] of [["portada", ""], ["repositorios", "repositorios/"], ["lecturas", "lecturas/"]]) {
   test(`eficiencia (móvil): ${nombre}`, async () => {
     trafico.bytes = 0; trafico.peticiones = 0;
     const contexto = await navegador.newContext({
@@ -463,7 +525,7 @@ for (const [nombre, ruta] of [["portada", ""], ["repositorios", "repositorios/"]
 
 // Solo se escribe cuando están todas las medidas, para no dejar datos parciales.
 after(() => {
-  if (Object.keys(medidas).length < 2) return;
+  if (Object.keys(medidas).length < Object.keys(presupuesto).length) return;
   const salida = JSON.stringify(medidas, null, 2);
   fs.writeFileSync(path.join(aqui, ".metricas.json"), salida + "\n");
   console.log(`Métricas:\n${salida}`);
