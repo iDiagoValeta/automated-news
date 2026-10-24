@@ -1571,20 +1571,16 @@ html.is-cambiando-tema * {
     gap: 0.25rem;
   }
 
-  /* Menú en una sola fila deslizable. */
+  /* Menú en varias filas centradas: con seis secciones (y Editorial en
+     cuanto haya notas) no cabe en una sola fila a 375 px. */
   .masthead__nav {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    gap: 1.4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 1.1rem;
     margin: 1rem -1rem 0;
     padding: 0.8rem 1rem 0.7rem;
-    overflow-x: auto;
-    scrollbar-width: none;
     font-size: 0.76rem;
-    letter-spacing: 0.1em;
-  }
-  .masthead__nav::-webkit-scrollbar {
-    display: none;
+    letter-spacing: 0.06em;
   }
   .masthead__nav a {
     flex: 0 0 auto;
@@ -1708,17 +1704,12 @@ html.is-cambiando-tema * {
   display: none;
 }
 @media (max-width: 600px) {
-  /* Buscar pasa a icono en la barra: el menú cabe entero sin desplazarse. */
+  /* Buscar pasa a icono en la barra y el menú se reparte en varias filas. */
   .herramienta--buscar {
     display: inline-flex;
   }
   .masthead__nav .masthead__buscar {
     display: none;
-  }
-  .masthead__nav {
-    justify-content: space-between;
-    gap: 0.75rem;
-    letter-spacing: 0.06em;
   }
   .masthead__nav a {
     padding: 0.7rem 0 0.6rem;

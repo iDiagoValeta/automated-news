@@ -8,6 +8,7 @@ permalink: "{{ ed.lecturasPath }}"
 eleventyComputed:
   title: "Lecturas {{ ed.date | fechaCorta }} {{ ed.year }}"
 ---
+<h1 class="archivo__title">{{ ed.date | fechaLarga }}</h1>
 {% set lecturas = ed.lecturas %}
 {% include "lecturas-lista.njk" %}
 

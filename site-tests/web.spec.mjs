@@ -203,11 +203,15 @@ async function comprobarResultados(pagina, indice, termino, total, pintados) {
     assert.ok(doc, `resultado sin documento en el índice: ${item.titulo} (${item.fecha}, ${item.fuente})`);
     assert.ok(tokenize(doc.title).includes(termino) || tokenize(doc.summary).includes(termino),
       `"${termino}" no aparece en el título ni el resumen de "${doc.title}"`);
-    // doc.path lleva barra inicial y PREFIJO termina en barra: unirlos a pelo
-    // produce doble barra y el navegador la normaliza en el href.
-    const esperado = `${PREFIJO}${doc.path.replace(/^\//, "")}`;
+    // El destino se deriva de la fecha que muestra el resultado, no de
+    // doc.path (del que buscar.js construye el href): las noticias llevan a la
+    // edición del día y las lecturas a la página de lecturas de esa fecha.
+    const destino = doc.path.startsWith("/lecturas/")
+      ? `lecturas/${rutaEdicion(doc.date)}`
+      : rutaEdicion(doc.date);
+    const esperado = `${PREFIJO}${destino}`;
     assert.equal(item.href, esperado,
-      `"${doc.title}" enlaza con ${item.href} y su ruta es ${doc.path}`);
+      `"${doc.title}" (${doc.date}) enlaza con ${item.href}; se esperaba ${esperado}`);
     assert.ok(fs.existsSync(path.join(RAIZ, item.href.slice(PREFIJO.length), "index.html")),
       `resultado que apunta a una página inexistente: ${item.href}`);
   }
@@ -244,6 +248,46 @@ test("navegación de secciones", async () => {
     await pagina.waitForLoadState("load");
     assert.deepEqual(problemas, [], `errores en ${seccion}`);
     assert.ok((await pagina.locator("main").innerText()).trim().length > 50, `${seccion} sin contenido`);
+    await contexto.close();
+  }
+});
+
+test("menú móvil: cabe a 375 px con seis secciones y la activa se ve", async () => {
+  // Editorial existirá entre Semana y Archivo cuando haya notas: se inyecta
+  // para medir el caso de siete enlaces sin depender de que data/ las traiga.
+  for (const [ruta, activa] of [["", "Noticias"], ["archivo/", "Archivo"]]) {
+    const { contexto, pagina, problemas } = await abrir(ruta, {
+      viewport: { width: 375, height: 812 }, isMobile: true, hasTouch: true, deviceScaleFactor: 2,
+    });
+    const medida = await pagina.evaluate((prefijo) => {
+      const nav = document.querySelector(".masthead__nav");
+      const editorial = document.createElement("a");
+      editorial.href = `${prefijo}editorial/`;
+      editorial.textContent = "Editorial";
+      const archivo = [...nav.querySelectorAll("a")].find((a) => a.textContent.trim() === "Archivo");
+      nav.insertBefore(editorial, archivo);
+      const caja = nav.getBoundingClientRect();
+      const enlaceActivo = nav.querySelector("a.is-active");
+      const cajaActiva = enlaceActivo?.getBoundingClientRect();
+      return {
+        scrollWidth: nav.scrollWidth,
+        clientWidth: nav.clientWidth,
+        activa: enlaceActivo?.textContent.trim() ?? "",
+        activaVisible: !!cajaActiva
+          && cajaActiva.width > 0
+          && cajaActiva.left >= caja.left - 0.5
+          && cajaActiva.right <= caja.right + 0.5
+          && cajaActiva.top >= caja.top - 0.5
+          && cajaActiva.bottom <= caja.bottom + 0.5,
+        enlaces: nav.querySelectorAll("a").length,
+      };
+    }, PREFIJO);
+    assert.equal(medida.enlaces, 7, `${ruta || "portada"}: el menú no quedó con siete enlaces`);
+    assert.equal(medida.activa, activa, `${ruta || "portada"}: la pestaña activa es "${medida.activa}"`);
+    assert.ok(medida.scrollWidth <= medida.clientWidth,
+      `${ruta || "portada"}: el menú mide ${medida.scrollWidth} px y su hueco ${medida.clientWidth} px`);
+    assert.ok(medida.activaVisible, `${ruta || "portada"}: la pestaña activa no se ve entera`);
+    assert.deepEqual(problemas, []);
     await contexto.close();
   }
 });
@@ -432,7 +476,7 @@ test("copiar el texto social de X deja en el portapapeles el de la primera tarje
 const presupuesto = JSON.parse(fs.readFileSync(path.join(aqui, "presupuesto.json"), "utf8"));
 const medidas = {};
 
-for (const [nombre, ruta] of [["portada", ""], ["repositorios", "repositorios/"]]) {
+for (const [nombre, ruta] of [["portada", ""], ["repositorios", "repositorios/"], ["lecturas", "lecturas/"]]) {
   test(`eficiencia (móvil): ${nombre}`, async () => {
     trafico.bytes = 0; trafico.peticiones = 0;
     const contexto = await navegador.newContext({
