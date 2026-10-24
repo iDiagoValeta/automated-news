@@ -20,6 +20,16 @@ function capitalizar(s) {
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
+// Recorta un texto para meta description / Open Graph. Exportada para que el
+// test e2e compare contra el mismo recorte que aplica base.njk.
+export function metaDesc(s, max = 200) {
+  const t = String(s || "").replace(/\s+/g, " ").trim();
+  if (t.length <= max) return t;
+  const cut = t.slice(0, max - 1);
+  const sp = cut.lastIndexOf(" ");
+  return `${(sp > 80 ? cut.slice(0, sp) : cut).trimEnd()}…`;
+}
+
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "site/css": "css" });
   eleventyConfig.addPassthroughCopy({ "site/js": "js" });
@@ -68,14 +78,7 @@ export default function (eleventyConfig) {
     new Intl.NumberFormat("es-ES", { useGrouping: "always" }).format(Number(n)),
   );
 
-  // Recorta un texto para meta description / Open Graph.
-  eleventyConfig.addFilter("metaDesc", (s, max = 200) => {
-    const t = String(s || "").replace(/\s+/g, " ").trim();
-    if (t.length <= max) return t;
-    const cut = t.slice(0, max - 1);
-    const sp = cut.lastIndexOf(" ");
-    return `${(sp > 80 ? cut.slice(0, sp) : cut).trimEnd()}…`;
-  });
+  eleventyConfig.addFilter("metaDesc", metaDesc);
 
   // Convierte item.social en hrefs de web intent (vacío si falta el texto).
   eleventyConfig.addFilter("shareModel", shareModel);

@@ -165,13 +165,13 @@ El cuerpo de la nota, en Markdown.
 
 `title`, `date` y `resumen` son obligatorios. La fecha manda el orden del índice: de la más nueva a la más antigua. Para dejar una nota a medias sin publicarla, añade `draft: true`; el fichero sigue en el repo pero no genera página, no entra en la navegación, ni en el sitemap, ni en el buscador.
 
-Para previsualizarla, arranca el sitio en local y abre `/editorial/`:
+Para previsualizarla, arranca el sitio en local y abre `/automated-news/editorial/`, que es la ruta con el `pathPrefix` del sitio:
 
 ```bash
 pnpm run dev
 ```
 
-Cuando esté lista, quita `draft` o ponlo en `false`, haz commit del `.md` en `main` y deja que el despliegue publique el sitio.
+Una nota con `draft: true` no genera página, así que para verla en local hay que quitar `draft` (o ponerlo en `false`) sin commitear ese cambio. Cuando esté lista, haz commit del `.md` con la nota publicada en `main`. Mergear no la publica al instante: aparece en el siguiente cron del diario o al lanzar a mano el workflow «Edición diaria» con la opción «Solo reconstruir y desplegar», como explica [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Estructura
 

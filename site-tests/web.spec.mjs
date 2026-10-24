@@ -13,7 +13,7 @@ import { chromium } from "playwright-core";
 import { hasShareText } from "../site/_11ty/share.js";
 import site from "../site/_data/site.js";
 import { tokenize } from "../site/_11ty/search.js";
-import configurarEleventy from "../eleventy.config.mjs";
+import configurarEleventy, { metaDesc } from "../eleventy.config.mjs";
 
 const aqui = path.dirname(fileURLToPath(import.meta.url));
 const RAIZ = path.resolve(aqui, "../_site");
@@ -134,6 +134,20 @@ async function abrir(ruta, opciones = {}, preparar) {
 // Fechas de las ediciones de data/, de la más reciente a la más antigua.
 // «fecha|título» de cada lectura publicada en data/, para saber qué sección le
 // toca a un resultado de búsqueda sin fiarse del índice que se está probando.
+// Título -> slug de las notas publicadas (sin draft: true) de site/editorial/,
+// leídos del front matter crudo para no depender del índice que se prueba.
+function notasDelRepo() {
+  const dir = path.join(aqui, "../site/editorial");
+  const notas = new Map();
+  for (const f of fs.readdirSync(dir).filter((n) => n.endsWith(".md"))) {
+    const fm = fs.readFileSync(path.join(dir, f), "utf8").match(/^---\r?\n([\s\S]*?)\r?\n---/)?.[1] ?? "";
+    if (/^draft:\s*true\s*$/m.test(fm)) continue;
+    const titulo = fm.match(/^title:\s*(.*)$/m)?.[1].trim().replace(/^(["'])(.*)\1$/, "$2");
+    if (titulo) notas.set(titulo, f.replace(/\.md$/, ""));
+  }
+  return notas;
+}
+
 function lecturasPublicadas() {
   const dir = path.join(aqui, "../data");
   const claves = new Set();
@@ -218,9 +232,13 @@ async function comprobarResultados(pagina, indice, termino, total, pintados) {
     // El destino se deriva de data/ (si ese día publicó esta lectura) y de la
     // fecha, no de doc.path, del que buscar.js construye el href: las noticias
     // llevan a la edición del día y las lecturas a su página de esa fecha.
-    const destino = lecturasPublicadas().has(`${doc.date}|${doc.title}`)
-      ? `lecturas/${rutaEdicion(doc.date)}`
-      : rutaEdicion(doc.date);
+    // Las notas editoriales salen de site/editorial/: el slug es el nombre del fichero.
+    const slugNota = notasDelRepo().get(doc.title);
+    const destino = slugNota
+      ? `editorial/${slugNota}/`
+      : lecturasPublicadas().has(`${doc.date}|${doc.title}`)
+        ? `lecturas/${rutaEdicion(doc.date)}`
+        : rutaEdicion(doc.date);
     const esperado = `${PREFIJO}${destino}`;
     assert.equal(item.href, esperado,
       `"${doc.title}" (${doc.date}) enlaza con ${item.href}; se esperaba ${esperado}`);
@@ -330,10 +348,6 @@ test("editorial: índice, notas, navegación, sitemap y búsqueda", async () => 
       })));
     assert.equal(filas.length, publicadas.length, "la portada no lista todas las notas publicadas");
     assert.deepEqual(filas.map((f) => f.titulo), publicadas.map((n) => n.title));
-    // De la más nueva a la más antigua: la fecha visible no puede crecer.
-    for (let i = 1; i < publicadas.length; i += 1) {
-      assert.ok(publicadas[i - 1].date >= publicadas[i].date, "las notas no van de nueva a antigua");
-    }
 
     for (const [i, nota] of publicadas.entries()) {
       assert.equal(filas[i].href, `${PREFIJO}editorial/${nota.slug}/`);
@@ -342,7 +356,8 @@ test("editorial: índice, notas, navegación, sitemap y búsqueda", async () => 
       assert.equal(notaPagina.resp.status(), 200, `falta ${nota.slug}`);
       assert.equal((await notaPagina.pagina.locator("h1.nota__title").innerText()).trim(), nota.title);
       const meta = await notaPagina.pagina.locator('meta[name="description"]').getAttribute("content");
-      assert.equal(meta, nota.resumen, "la meta description debe ser el resumen, escapado una sola vez");
+      assert.equal(meta, metaDesc(nota.resumen),
+        "la meta description debe ser el resumen con el recorte de base.njk");
       assert.match(await notaPagina.pagina.locator(".nota__meta").innerText(), new RegExp(site.autor.nombre));
       assert.equal(await notaPagina.pagina.locator("time").first().getAttribute("datetime"), nota.date);
       assert.deepEqual(notaPagina.problemas, [], `errores en ${nota.slug}`);

@@ -1,6 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
+  fechaFrontMatter,
   fechaISO,
   fechaNota,
   notaPath,
@@ -8,6 +9,7 @@ import {
   notasPublicadas,
   searchIndexConNotas,
   sitemapPathsConNotas,
+  textoObligatorio,
 } from "../../site/_11ty/editorial.js";
 import { buildSitemap } from "../../site/_11ty/feeds.js";
 import { searchDocs } from "../../site/_11ty/search.js";
@@ -47,6 +49,26 @@ test("fechaNota exige una fecha real y nombra el fichero culpable", () => {
     () => fechaNota("2026-13-40", "site/editorial/mi-nota.md"),
     /site\/editorial\/mi-nota\.md.*2026-13-40/,
   );
+});
+
+test("fechaFrontMatter lee el día crudo y rechaza el que YAML normalizaría", () => {
+  const fichero = "site/editorial/mi-nota.md";
+  const md = (fecha: string) => `---\ntitle: "Mi nota"\ndate: ${fecha}\nresumen: "Resumen."\n---\n\nCuerpo.\n`;
+  for (const fecha of ["2026-10-24", '"2026-10-24"', "'2026-10-24'"]) {
+    assert.equal(fechaFrontMatter(md(fecha), fichero), "2026-10-24");
+  }
+  for (const fecha of ["2026-02-30", "2026-13-40", "2026-04-31"]) {
+    assert.throws(() => fechaFrontMatter(md(fecha), fichero), new RegExp(`${fichero}.*${fecha}`));
+  }
+  assert.throws(() => fechaFrontMatter("---\ntitle: Sin fecha\n---\n", fichero), /mi-nota\.md.*date/);
+});
+
+test("textoObligatorio exige texto no vacío y nombra fichero y campo", () => {
+  const fichero = "site/editorial/mi-nota.md";
+  assert.equal(textoObligatorio("Mi nota", "title", fichero), "Mi nota");
+  for (const valor of [undefined, "", "   ", 42]) {
+    assert.throws(() => textoObligatorio(valor, "resumen", fichero), /mi-nota\.md.*resumen/);
+  }
 });
 
 test("notasPublicadas descarta borradores y ordena de nueva a antigua", () => {

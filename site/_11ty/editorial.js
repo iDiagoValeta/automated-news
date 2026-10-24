@@ -35,6 +35,40 @@ export function fechaNota(valor, fichero = "la nota") {
   return fecha;
 }
 
+/**
+ * Fecha de una nota a partir del front matter crudo. YAML convierte una fecha
+ * imposible en un Date ya normalizado (2026-02-30 -> 2026-03-02), así que el
+ * único sitio donde sigue estando el día escrito es el texto del fichero.
+ * Acepta el valor con o sin comillas.
+ */
+export function fechaFrontMatter(texto, fichero = "la nota") {
+  const bloque = String(texto || "").match(/^---\r?\n([\s\S]*?)\r?\n---/);
+  const linea = bloque && bloque[1].match(/^date:[ \t]*(.*)$/m);
+  if (!linea) {
+    throw new Error(`${fichero}: falta "date" o no es YYYY-MM-DD`);
+  }
+  let valor = linea[1].trim();
+  if (
+    (valor.startsWith('"') && valor.endsWith('"'))
+    || (valor.startsWith("'") && valor.endsWith("'"))
+  ) {
+    valor = valor.slice(1, -1);
+  }
+  return fechaNota(valor, fichero);
+}
+
+/**
+ * Texto obligatorio de una nota (title, resumen). Falla nombrando fichero y
+ * campo: sin esto, la nota se publica vacía y el error aparece más tarde en
+ * una plantilla o en el test.
+ */
+export function textoObligatorio(valor, campo, fichero = "la nota") {
+  if (typeof valor !== "string" || !valor.trim()) {
+    throw new Error(`${fichero}: falta "${campo}" o está vacío`);
+  }
+  return valor;
+}
+
 /** Ruta pública de una nota. */
 export function notaPath(slug) {
   return `/editorial/${slug}/`;
