@@ -1,5 +1,6 @@
 // Interacciones de la interfaz, inspiradas en bloques de Bencho (bencho.dev):
-// interruptor de tema (LiquidToggle), indicador deslizante del menú (GooTabs),
+// interruptor de tema (LiquidToggle), menú con «Más» y panel lateral,
+// indicador deslizante del menú (GooTabs),
 // progreso de lectura por marcas (ProgressTicks), selector de tipografía y
 // cursor retro pixelado.
 // Todo es mejora progresiva: sin JS la página funciona igual.
@@ -44,22 +45,29 @@ function initTema() {
 function initIndicador() {
   const nav = document.querySelector(".masthead__nav");
   if (!nav) return;
-  const enlaces = [...nav.querySelectorAll("a")];
+  // Solo los elementos de la fila: los enlaces dentro de «Más» se marcan en
+  // su botón, no donde están dentro del desplegable.
+  const mas = nav.querySelector(".masthead__mas-boton");
+  const enlaces = [...nav.querySelectorAll(":scope > a"), mas].filter(Boolean);
   const ind = document.createElement("span");
   ind.className = "masthead__indicador";
   ind.setAttribute("aria-hidden", "true");
   nav.append(ind);
   nav.classList.add("has-indicador");
 
-  const activo = () => nav.querySelector("a.is-active");
+  const activo = () => enlaces.find((a) => a.classList.contains("is-active") && !a.hidden);
   function mover(a) {
-    if (!a) {
+    if (!a || a.hidden) {
       ind.style.opacity = "0";
       return;
     }
+    // Por rectángulos y no por offsetLeft: el botón de «Más» vive en un
+    // contenedor posicionado y su offset no sería relativo al menú.
+    const n = nav.getBoundingClientRect();
+    const r = a.getBoundingClientRect();
     ind.style.opacity = "1";
-    ind.style.width = `${a.offsetWidth}px`;
-    ind.style.transform = `translate(${a.offsetLeft}px, ${a.offsetTop + a.offsetHeight + 4}px)`;
+    ind.style.width = `${r.width}px`;
+    ind.style.transform = `translate(${r.left - n.left - nav.clientLeft}px, ${r.bottom - n.top - nav.clientTop + 4}px)`;
   }
 
   mover(activo());
@@ -77,6 +85,66 @@ function initIndicador() {
   addEventListener("resize", () => mover(activo()));
   // Las fuentes pueden cambiar el ancho de los enlaces tras cargar.
   document.fonts?.ready.then(() => mover(activo()));
+}
+
+/* ---------- Menú: «Más» en escritorio, panel lateral en móvil ---------- */
+
+function initMenu() {
+  const nav = document.querySelector(".masthead__nav");
+  const mas = nav?.querySelector(".masthead__mas");
+  const masBoton = mas?.querySelector(".masthead__mas-boton");
+  const abrir = document.querySelector(".menu-boton");
+  const cerrar = nav?.querySelector(".menu-cerrar");
+  if (!nav || !mas || !masBoton || !abrir || !cerrar) return;
+  const html = document.documentElement;
+  const movil = matchMedia("(max-width: 600px)");
+
+  nav.classList.add("has-menu");
+  for (const b of [masBoton, abrir, cerrar]) b.hidden = false;
+
+  function desplegar(si) {
+    masBoton.setAttribute("aria-expanded", String(si));
+    mas.classList.toggle("is-abierto", si);
+  }
+  masBoton.addEventListener("click", () => desplegar(masBoton.getAttribute("aria-expanded") !== "true"));
+  document.addEventListener("click", (e) => {
+    if (!mas.contains(e.target)) desplegar(false);
+  });
+  mas.addEventListener("focusout", (e) => {
+    if (!mas.contains(e.relatedTarget)) desplegar(false);
+  });
+
+  const fondo = document.createElement("div");
+  fondo.className = "menu-fondo";
+  nav.before(fondo);
+
+  function panel(si) {
+    html.classList.toggle("menu-abierto", si);
+    abrir.setAttribute("aria-expanded", String(si));
+    if (si) cerrar.focus();
+  }
+  abrir.addEventListener("click", () => panel(true));
+  cerrar.addEventListener("click", () => {
+    panel(false);
+    abrir.focus();
+  });
+  fondo.addEventListener("click", () => panel(false));
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    if (html.classList.contains("menu-abierto")) {
+      panel(false);
+      abrir.focus();
+    } else if (mas.classList.contains("is-abierto")) {
+      desplegar(false);
+      masBoton.focus();
+    }
+  });
+  // Al cruzar el corte de móvil, nada se queda abierto en el otro diseño.
+  movil.addEventListener("change", () => {
+    panel(false);
+    desplegar(false);
+  });
 }
 
 /* ---------- Progreso de lectura por marcas ---------- */
@@ -239,6 +307,7 @@ function initCursor() {
 
 initTema();
 initTipografia();
+initMenu();
 initIndicador();
 initProgreso();
 initCursor();

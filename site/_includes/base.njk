@@ -123,16 +123,29 @@
       </div>
       <a class="masthead__name" href="{{ '/' | url }}">{{ site.title }}</a>
       <p class="masthead__tagline">{{ site.tagline }}</p>
-      <nav class="masthead__nav" aria-label="Secciones">
+      {# Sin JS el menú se ve entero. Con JS, Semana, Editorial y Archivo se
+         recogen en «Más» y, en móvil, todo el menú pasa a un panel lateral. #}
+      <button class="herramienta menu-boton" type="button" aria-controls="secciones" aria-expanded="false" aria-label="Abrir el menú" title="Secciones" hidden>
+        <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <nav class="masthead__nav" id="secciones" aria-label="Secciones">
+        <button class="herramienta menu-cerrar" type="button" aria-label="Cerrar el menú" hidden>
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
         <a href="{{ '/' | url }}"{% if esNoticias %} class="is-active" aria-current="page"{% endif %}>Noticias</a>
         <a href="{{ '/repositorios/' | url }}"{% if esRepos %} class="is-active" aria-current="page"{% endif %}>Repositorios</a>
         <a href="{{ '/lecturas/' | url }}"{% if esLecturas %} class="is-active" aria-current="{% if ed %}true{% else %}page{% endif %}"{% endif %}>Lecturas</a>
-        <a href="{{ '/semana/' | url }}"{% if esSemana %} class="is-active" aria-current="page"{% endif %}>Semana</a>
-        {# Una sección sin notas no se anuncia: el enlace aparece con la primera. #}
-        {% if collections.notas.length %}
-          <a href="{{ '/editorial/' | url }}"{% if esEditorial %} class="is-active" aria-current="page"{% endif %}>Editorial</a>
-        {% endif %}
-        <a href="{{ '/archivo/' | url }}"{% if esArchivo %} class="is-active" aria-current="page"{% endif %}>Archivo</a>
+        <div class="masthead__mas">
+          <button class="masthead__mas-boton{% if esSemana or esEditorial or esArchivo %} is-active{% endif %}" type="button" aria-expanded="false" aria-controls="secciones-mas" hidden>Más</button>
+          <div class="masthead__mas-panel" id="secciones-mas">
+            <a href="{{ '/semana/' | url }}"{% if esSemana %} class="is-active" aria-current="page"{% endif %}>Semana</a>
+            {# Una sección sin notas no se anuncia: el enlace aparece con la primera. #}
+            {% if collections.notas.length %}
+              <a href="{{ '/editorial/' | url }}"{% if esEditorial %} class="is-active" aria-current="page"{% endif %}>Editorial</a>
+            {% endif %}
+            <a href="{{ '/archivo/' | url }}"{% if esArchivo %} class="is-active" aria-current="page"{% endif %}>Archivo</a>
+          </div>
+        </div>
         <a class="masthead__buscar{% if esBuscar %} is-active{% endif %}" href="{{ '/archivo/buscar/' | url }}"{% if esBuscar %} aria-current="page"{% endif %} data-paleta aria-keyshortcuts="Control+K Meta+K /">Buscar <kbd>⌘K</kbd></a>
       </nav>
     </header>
