@@ -140,3 +140,8 @@ test("buildSitemap produce la URL absoluta de una nota editorial", () => {
   assert.match(xml, /<loc>https:\/\/idiagovaleta.github.io\/automated-news\/editorial\/<\/loc>/);
   assert.match(xml, /<loc>https:\/\/idiagovaleta.github.io\/automated-news\/editorial\/mi-nota\/<\/loc>/);
 });
+
+test("fechaFrontMatter acepta un comentario YAML tras la fecha, con o sin comillas", () => {
+  assert.equal(fechaFrontMatter('---\ndate: "2026-10-24" # publicación\n---\n', "n.md"), "2026-10-24");
+  assert.equal(fechaFrontMatter("---\ndate: 2026-10-24 # publicación\n---\n", "n.md"), "2026-10-24");
+});

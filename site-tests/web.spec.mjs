@@ -134,18 +134,10 @@ async function abrir(ruta, opciones = {}, preparar) {
 // Fechas de las ediciones de data/, de la más reciente a la más antigua.
 // «fecha|título» de cada lectura publicada en data/, para saber qué sección le
 // toca a un resultado de búsqueda sin fiarse del índice que se está probando.
-// Título -> slug de las notas publicadas (sin draft: true) de site/editorial/,
-// leídos del front matter crudo para no depender del índice que se prueba.
+// Título -> slug de las notas publicadas de site/editorial/, con el mismo
+// lector de front matter que el test de Editorial.
 function notasDelRepo() {
-  const dir = path.join(aqui, "../site/editorial");
-  const notas = new Map();
-  for (const f of fs.readdirSync(dir).filter((n) => n.endsWith(".md"))) {
-    const fm = fs.readFileSync(path.join(dir, f), "utf8").match(/^---\r?\n([\s\S]*?)\r?\n---/)?.[1] ?? "";
-    if (/^draft:\s*true\s*$/m.test(fm)) continue;
-    const titulo = fm.match(/^title:\s*(.*)$/m)?.[1].trim().replace(/^(["'])(.*)\1$/, "$2");
-    if (titulo) notas.set(titulo, f.replace(/\.md$/, ""));
-  }
-  return notas;
+  return new Map(notasEditorial().filter((n) => !n.draft && n.title).map((n) => [n.title, n.slug]));
 }
 
 function lecturasPublicadas() {
@@ -233,7 +225,7 @@ async function comprobarResultados(pagina, indice, termino, total, pintados) {
     // fecha, no de doc.path, del que buscar.js construye el href: las noticias
     // llevan a la edición del día y las lecturas a su página de esa fecha.
     // Las notas editoriales salen de site/editorial/: el slug es el nombre del fichero.
-    const slugNota = notasDelRepo().get(doc.title);
+    const slugNota = doc.source === "Editorial" ? notasDelRepo().get(doc.title) : undefined;
     const destino = slugNota
       ? `editorial/${slugNota}/`
       : lecturasPublicadas().has(`${doc.date}|${doc.title}`)
@@ -298,12 +290,12 @@ function notasEditorial() {
     for (const linea of bloque[1].split(/\r?\n/)) {
       const par = linea.match(/^([A-Za-z_][\w-]*):\s*(.*)$/);
       if (!par) continue;
-      let valor = par[2].trim();
-      if ((valor.startsWith('"') && valor.endsWith('"')) || (valor.startsWith("'") && valor.endsWith("'"))) {
-        valor = valor.slice(1, -1);
-      }
-      if (valor === "true") valor = true;
-      else if (valor === "false") valor = false;
+      // Entre comillas manda lo de dentro; sin comillas, un « #» abre comentario.
+      const crudo = par[2].trim();
+      const citado = crudo.match(/^(["'])(.*)\1(?:\s+#.*)?$/);
+      let valor = citado ? citado[2] : crudo.replace(/\s+#.*$/, "");
+      if (!citado && /^true$/i.test(valor)) valor = true;
+      else if (!citado && /^false$/i.test(valor)) valor = false;
       datos[par[1]] = valor;
     }
     salida.push({
@@ -321,7 +313,8 @@ test("editorial: índice, notas, navegación, sitemap y búsqueda", async () => 
   const todas = notasEditorial();
   const publicadas = todas
     .filter((n) => !n.draft && typeof n.title === "string" && typeof n.date === "string")
-    .sort((a, b) => b.date.localeCompare(a.date));
+    // Eleventy ordena por fecha y, a igual fecha, por fichero; la portada lo invierte.
+    .sort((a, b) => b.date.localeCompare(a.date) || b.slug.localeCompare(a.slug));
 
   const { contexto, pagina, problemas, resp } = await abrir("editorial/");
   assert.equal(resp.status(), 200, "falta la portada de Editorial");

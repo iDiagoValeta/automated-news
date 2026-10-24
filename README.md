@@ -151,7 +151,7 @@ El `pathPrefix` de Eleventy está configurado como `/automated-news/`. Si despli
 
 ## Publicar una nota editorial
 
-Las notas propias viven en `site/editorial/`, un fichero Markdown por nota. El nombre del fichero es el slug de la URL: `site/editorial/mi-nota.md` se publica en `/editorial/mi-nota/`.
+Las notas propias viven en `site/editorial/`, un fichero Markdown por nota. El nombre del fichero es el slug de la URL: `site/editorial/mi-nota.md` se publica en `/automated-news/editorial/mi-nota/`. Escribe cada valor del front matter en una sola línea.
 
 ```markdown
 ---
