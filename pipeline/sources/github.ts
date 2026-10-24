@@ -1,6 +1,6 @@
 import { appendFileSync } from "node:fs";
 import { fetchText, fetchWithTimeout } from "../http.ts";
-import { warn } from "../log.ts";
+import { log, warn } from "../log.ts";
 import type { GithubTrendingConfig, RepoRaw, SourcesConfig } from "../types.ts";
 
 /** Umbral por defecto: por debajo, el HTML 200 se considera markup roto. */
@@ -130,6 +130,49 @@ export async function searchApiFallback(
     }));
 }
 
+export interface TrendingSelection {
+  repos: RepoRaw[];
+  /** Cuántos de los repos finales vienen del scraping. */
+  parsedCount: number;
+  /** Cuántos de los repos finales vienen de la Search API. */
+  apiCount: number;
+}
+
+/**
+ * Con un parseo por debajo del umbral no se elige una vía: se combinan, primero
+ * los del scraping y después los de la API que no estén ya (dedupe por `name`),
+ * hasta `limit`. Elegir por recuento bruto antes de `excludeRecentRepos` podía
+ * dejar la sección vacía: la ventana de la API coincide con la de exclusión y
+ * devuelve repos ya publicados, mientras que los parciales del scraping son
+ * frescos. `fallback` se inyecta como función para probar la decisión sin red.
+ */
+export async function combineTrendingResult(
+  parsed: RepoRaw[],
+  minAlert: number,
+  limit: number,
+  fallback: () => Promise<RepoRaw[]>,
+): Promise<TrendingSelection> {
+  if (!trendingParseLooksBroken(parsed.length, minAlert)) {
+    return { repos: parsed, parsedCount: parsed.length, apiCount: 0 };
+  }
+
+  const repos = parsed.slice(0, limit);
+  const seen = new Set(repos.map((r) => r.name));
+  let apiCount = 0;
+  try {
+    for (const r of await fallback()) {
+      if (repos.length >= limit) break;
+      if (seen.has(r.name)) continue;
+      seen.add(r.name);
+      repos.push(r);
+      apiCount++;
+    }
+  } catch {
+    // El failover es best effort: si falla, se mantiene lo que dio el scraping.
+  }
+  return { repos, parsedCount: repos.length - apiCount, apiCount };
+}
+
 /**
  * Recoge repositorios en tendencia de GitHub. Best effort: intenta el scraping
  * de la página de trending y, si falla, cae a la Search API oficial. Si todo
@@ -141,26 +184,58 @@ export async function collectGithubTrending(
 ): Promise<RepoRaw[]> {
   const url = `https://github.com/trending?since=${gh.since}`;
   const minAlert = gh.min_parse_alert ?? TRENDING_PARSE_ALERT_MIN;
+  let parsed: RepoRaw[] = [];
+  let scrapeFailed = false;
   try {
     const html = await fetchText(url, cfg.timeout_ms, cfg.user_agent);
-    const repos = parseTrending(html, gh.limit);
-    // fetchText solo devuelve el cuerpo si el status fue 200 (u otro 2xx).
-    if (trendingParseLooksBroken(repos.length, minAlert)) {
-      warn(
-        `GitHub trending: HTML 200 pero solo ${repos.length} repos parseados ` +
-          `(umbral ${minAlert}). El markup puede haber cambiado.`,
-      );
-      flagTrendingParseAlert();
-    }
-    if (repos.length > 0) return repos;
-    throw new Error("trending sin resultados parseables");
+    parsed = parseTrending(html, gh.limit);
   } catch (e) {
+    scrapeFailed = true;
     warn("GitHub trending (scraping) falló; se intenta la Search API.", String(e));
+  }
+
+  const looksBroken = trendingParseLooksBroken(parsed.length, minAlert);
+  // fetchText solo devuelve el cuerpo si el status fue 200 (u otro 2xx), así
+  // que un aviso aquí significa markup posiblemente cambiado, no un fallo de red.
+  if (!scrapeFailed && looksBroken) {
+    warn(
+      `GitHub trending: HTML 200 pero solo ${parsed.length} repos parseados ` +
+        `(umbral ${minAlert}). El markup puede haber cambiado.`,
+    );
+  }
+
+  const selection = await combineTrendingResult(parsed, minAlert, gh.limit, async () => {
     try {
       return await searchApiFallback(cfg, gh);
-    } catch (e2) {
-      warn("GitHub Search API también falló; la edición irá sin repos.", String(e2));
-      return [];
+    } catch (e) {
+      warn(
+        parsed.length > 0
+          ? "GitHub Search API también falló; se usan los repos parciales del scraping."
+          : "GitHub Search API también falló; la edición irá sin repos.",
+        String(e),
+      );
+      throw e;
     }
+  });
+
+  // Con HTML 200 y cero repos el parser está roto aunque la API rescate la
+  // sección, así que se avisa siempre. Con parseo parcial solo se avisa si la
+  // combinación final no llega al umbral. Un fallo de red no dice nada del
+  // parser y no abre issue de parseo.
+  if (
+    !scrapeFailed &&
+    (parsed.length === 0 || (looksBroken && selection.repos.length < minAlert))
+  ) {
+    flagTrendingParseAlert();
   }
+
+  if (selection.repos.length === 0) {
+    warn("GitHub trending: ni el scraping ni la Search API dieron repos; la edición irá sin sección.");
+  } else if (looksBroken) {
+    log(
+      `GitHub trending: ${selection.repos.length} repos ` +
+        `(${selection.parsedCount} del scraping, ${selection.apiCount} de la Search API).`,
+    );
+  }
+  return selection.repos;
 }
