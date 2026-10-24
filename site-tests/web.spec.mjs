@@ -132,6 +132,18 @@ async function abrir(ruta, opciones = {}, preparar) {
 }
 
 // Fechas de las ediciones de data/, de la más reciente a la más antigua.
+// «fecha|título» de cada lectura publicada en data/, para saber qué sección le
+// toca a un resultado de búsqueda sin fiarse del índice que se está probando.
+function lecturasPublicadas() {
+  const dir = path.join(aqui, "../data");
+  const claves = new Set();
+  for (const fecha of edicionesData()) {
+    const ed = JSON.parse(fs.readFileSync(path.join(dir, `${fecha}.json`), "utf8"));
+    for (const l of ed.lecturas || []) claves.add(`${ed.date}|${l.title}`);
+  }
+  return claves;
+}
+
 function edicionesData() {
   const dir = path.join(aqui, "../data");
   return fs.readdirSync(dir)
@@ -203,10 +215,10 @@ async function comprobarResultados(pagina, indice, termino, total, pintados) {
     assert.ok(doc, `resultado sin documento en el índice: ${item.titulo} (${item.fecha}, ${item.fuente})`);
     assert.ok(tokenize(doc.title).includes(termino) || tokenize(doc.summary).includes(termino),
       `"${termino}" no aparece en el título ni el resumen de "${doc.title}"`);
-    // El destino se deriva de la fecha que muestra el resultado, no de
-    // doc.path (del que buscar.js construye el href): las noticias llevan a la
-    // edición del día y las lecturas a la página de lecturas de esa fecha.
-    const destino = doc.path.startsWith("/lecturas/")
+    // El destino se deriva de data/ (si ese día publicó esta lectura) y de la
+    // fecha, no de doc.path, del que buscar.js construye el href: las noticias
+    // llevan a la edición del día y las lecturas a su página de esa fecha.
+    const destino = lecturasPublicadas().has(`${doc.date}|${doc.title}`)
       ? `lecturas/${rutaEdicion(doc.date)}`
       : rutaEdicion(doc.date);
     const esperado = `${PREFIJO}${destino}`;
@@ -513,7 +525,7 @@ for (const [nombre, ruta] of [["portada", ""], ["repositorios", "repositorios/"]
 
 // Solo se escribe cuando están todas las medidas, para no dejar datos parciales.
 after(() => {
-  if (Object.keys(medidas).length < 2) return;
+  if (Object.keys(medidas).length < Object.keys(presupuesto).length) return;
   const salida = JSON.stringify(medidas, null, 2);
   fs.writeFileSync(path.join(aqui, ".metricas.json"), salida + "\n");
   console.log(`Métricas:\n${salida}`);

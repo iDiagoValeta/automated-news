@@ -4,9 +4,9 @@
     {% for lectura in lecturas %}
     <li class="lectura">
       <p class="kicker">{{ lectura.tema | tema }}</p>
-      <h3 class="lectura__title">
+      <h2 class="lectura__title">
         <a href="{{ lectura.url }}" target="_blank" rel="noopener">{{ lectura.title }}</a>
-      </h3>
+      </h2>
       <p class="lectura__summary">{{ lectura.summary }}</p>
       <p class="lectura__fuente">{{ lectura.source }}</p>
     </li>

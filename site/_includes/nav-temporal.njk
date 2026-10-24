@@ -1,6 +1,8 @@
 {# Barra de navegación secuencial de una sección (día anterior / siguiente).
    El salto a una fecha concreta se hace con el calendario de arriba.
    Igual en noticias y repos: solo cambian los destinos. Espera olderPath, newerPath. #}
+{# Sin vecinos no se pinta: un landmark de navegación vacío confunde al lector de pantalla. #}
+{% if olderPath or newerPath %}
 <nav class="edicion-nav" aria-label="Navegación entre días">
   {% if olderPath %}
     <a class="edicion-nav__flecha" href="{{ olderPath | url }}">← Anterior</a>
@@ -9,3 +11,4 @@
     <a class="edicion-nav__flecha" href="{{ newerPath | url }}">Siguiente →</a>
   {% else %}<span class="edicion-nav__flecha"></span>{% endif %}
 </nav>
+{% endif %}
