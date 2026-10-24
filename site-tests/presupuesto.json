@@ -1,5 +1,5 @@
 {
   "portada": { "bytes": 41822, "nodos": 964, "peticiones": 8, "fcpMs": 1500, "lcpMs": 1500, "loadMs": 3000 },
-  "repositorios": { "bytes": 29353, "nodos": 359, "peticiones": 8, "fcpMs": 1500, "lcpMs": 1500, "loadMs": 3000 },
+  "repositorios": { "bytes": 31000, "nodos": 359, "peticiones": 8, "fcpMs": 1500, "lcpMs": 1500, "loadMs": 3000 },
   "lecturas": { "bytes": 28000, "nodos": 240, "peticiones": 8, "fcpMs": 1500, "lcpMs": 1500, "loadMs": 3000 }
 }
