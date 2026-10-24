@@ -1,15 +1,40 @@
-{# Lista de lecturas. Espera `lecturas` (array). #}
+{# Lista de lecturas. Espera `lecturas` (array). Misma composición que las
+   noticias: la primera como destacada y el resto en rejilla. #}
+{% set primera = lecturas[0] %}
 <section class="lecturas" aria-label="Lecturas">
-  <ol class="lecturas__lista">
-    {% for lectura in lecturas %}
-    <li class="lectura">
-      <p class="kicker">{{ lectura.tema | tema }}</p>
-      <h2 class="lectura__title">
-        <a href="{{ lectura.url }}" target="_blank" rel="noopener">{{ lectura.title }}</a>
+  {% if primera %}
+    <article class="lead">
+      <span class="kicker">{{ primera.tema | tema }}</span>
+      <h2 class="lead__title">
+        <a href="{{ primera.url }}" target="_blank" rel="noopener">{{ primera.title }}</a>
       </h2>
-      <p class="lectura__summary">{{ lectura.summary }}</p>
-      <p class="lectura__fuente">{{ lectura.source }}</p>
-    </li>
-    {% endfor %}
-  </ol>
+      <p class="lead__summary">{{ primera.summary }}</p>
+      <div class="item-pie">
+        <p class="source">
+          <a href="{{ primera.url }}" target="_blank" rel="noopener">{{ primera.source }}</a>
+        </p>
+      </div>
+    </article>
+  {% endif %}
+
+  {% if lecturas.length > 1 %}
+    <div class="stories">
+      {% for lectura in lecturas %}
+        {% if loop.index0 > 0 %}
+        <article class="story" style="--i: {{ loop.index0 }}">
+          <span class="kicker">{{ lectura.tema | tema }}</span>
+          <h3 class="story__title">
+            <a href="{{ lectura.url }}" target="_blank" rel="noopener">{{ lectura.title }}</a>
+          </h3>
+          <p class="story__summary">{{ lectura.summary }}</p>
+          <div class="item-pie">
+            <p class="source">
+              <a href="{{ lectura.url }}" target="_blank" rel="noopener">{{ lectura.source }}</a>
+            </p>
+          </div>
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
 </section>
