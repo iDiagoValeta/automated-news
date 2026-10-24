@@ -75,6 +75,7 @@ La recogida de tendencias de GitHub es una llamada aparte, no forma parte de `co
 
 Fichero: `pipeline/normalize.ts`.
 
+- **Descarte de URL inválida.** `normalize()` calcula la URL canónica y descarta el ítem si no parsea o si la canónica conserva espacios en blanco (podrían cerrar el bloque del contenido no confiable del prompt). La comprobación va sobre la canónica, no sobre la URL cruda: un espacio en el fragmento o en un parámetro de tracking desaparece al canonicalizar y no debe tirar la noticia.
 - **`canonicalUrl()`** canonicaliza cada URL para deduplicar: quita el fragmento `#...`, los parámetros de tracking (`utm_*`, `ref`, `fbclid`) y la barra final.
 - **Blocklist de dominios.** `blocked_domains` en `config/sources.json` descarta agregadores y rehosts (el host exacto y cualquier subdominio) antes de deduplicar. Los ítems de Hacker News registran el dominio de destino para alimentar esa lista.
 - **Deduplicación.** Se agrupa por URL canónica en un `Map`. En una colisión se conserva el primer ítem, pero hereda la mayor puntuación disponible y el `snippet` si le faltaba.

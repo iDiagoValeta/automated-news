@@ -3,6 +3,7 @@ import { fileURLToPath } from "node:url";
 import { log, warn } from "../log.ts";
 import type { Digest, Repo } from "../types.ts";
 import type { Provider } from "../ports.ts";
+import { stripFences } from "./prompt.ts";
 
 const SOCIAL_PROMPT_PATH = fileURLToPath(new URL("../../prompts/social.md", import.meta.url));
 const REPOS_SOCIAL_PROMPT_PATH = fileURLToPath(new URL("../../prompts/repos-social.md", import.meta.url));
@@ -67,12 +68,6 @@ interface SocialPost {
   hook_x?: string;
   hook_linkedin?: string;
   hashtags?: unknown;
-}
-
-function stripFences(raw: string): string {
-  const t = raw.trim();
-  const m = t.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/);
-  return m ? m[1] : t;
 }
 
 function buildSocialPrompt(item: Digest["items"][number]): string {

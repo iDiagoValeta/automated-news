@@ -447,6 +447,51 @@ test("collectLecturas excluye antes del tope: lo ya publicado no gasta el hueco"
   }
 });
 
+test("collectLecturas reparte por turnos entre fuentes y respeta la recencia de cada una", async () => {
+  const now = Date.now();
+  const hoursAgo = (hours: number) => new Date(now - hours * 3600_000);
+  // La fuente prolífica sirve sus ítems del más viejo al más nuevo: el orden
+  // de recencia lo fija la normalización global, no el XML.
+  const restore = stubFetch(async (url) => {
+    if (url === "https://muchas.example/feed") {
+      return new Response(
+        feedXml([
+          { title: "A cuarta", link: "https://muchas.example/4", pubDate: hoursAgo(4) },
+          { title: "A tercera", link: "https://muchas.example/3", pubDate: hoursAgo(2) },
+          { title: "A segunda", link: "https://muchas.example/2", pubDate: hoursAgo(1) },
+          { title: "A reciente", link: "https://muchas.example/1", pubDate: hoursAgo(0) },
+        ]),
+        { status: 200 },
+      );
+    }
+    return new Response(
+      feedXml([{ title: "B única", link: "https://una.example/1", pubDate: hoursAgo(3) }]),
+      { status: 200 },
+    );
+  });
+  try {
+    const out = await collectLecturas(
+      sourcesConfig(),
+      lecturasConfig(
+        [feed("Muchas", "https://muchas.example/feed"), feed("Una", "https://una.example/feed")],
+        { candidate_cap: 4 },
+      ),
+    );
+    assert.deepEqual(
+      out.map((i) => i.url),
+      [
+        "https://muchas.example/1", // la más reciente de la primera fuente
+        "https://una.example/1", // su única entrada gana la segunda plaza
+        "https://muchas.example/2", // segunda ronda de la fuente prolífica
+        "https://muchas.example/3", // y sigue su orden de recencia
+      ],
+      "el corte por fecha dejaría fuera la fuente de una sola entrada",
+    );
+  } finally {
+    restore();
+  }
+});
+
 test("roundRobinBySource hace hueco a la fuente de baja frecuencia", () => {
   const many: NewsItem[] = Array.from({ length: 50 }, (_, i) => ({
     title: `Artículo ${i + 1}`,

@@ -61,18 +61,20 @@ export function canonicalUrl(raw: string): string {
 }
 
 /**
- * ¿La URL parsea y no trae espacios en blanco? Un enlace con un espacio o un
- * salto de línea puede cerrar el bloque del contenido no confiable del prompt,
- * y `canonicalUrl` devolvería el texto tal cual porque no parsea. Se descarta
- * antes de que llegue al modelo o al digest.
+ * Devuelve la URL canónica si es usable para el prompt y el digest; si no,
+ * `null`. Un espacio o un salto de línea puede cerrar el bloque del contenido
+ * no confiable del prompt. La comprobación va sobre la canónica, no sobre la
+ * cruda, porque el espacio puede estar en un fragmento o en un parámetro de
+ * tracking que `canonicalUrl` elimina. Una URL que no parsea se descarta.
  */
-function isUsableUrl(raw: string): boolean {
-  if (/\s/.test(raw)) return false;
+function usableCanonicalUrl(raw: string): string | null {
+  const key = canonicalUrl(raw);
+  if (/\s/.test(key)) return null;
   try {
-    new URL(raw.trim());
-    return true;
+    new URL(key);
+    return key;
   } catch {
-    return false;
+    return null;
   }
 }
 
@@ -87,7 +89,8 @@ export function normalize(items: NewsItem[], cap = 120, blocked: string[] = []):
   const byUrl = new Map<string, NewsItem>();
 
   for (const item of items) {
-    if (!isUsableUrl(item.url)) {
+    const key = usableCanonicalUrl(item.url);
+    if (key === null) {
       warn("Normalización: descartada una URL inválida", item.url);
       continue;
     }
@@ -99,8 +102,6 @@ export function normalize(items: NewsItem[], cap = 120, blocked: string[] = []):
       warn(`Normalización: descartado ${host} (blocklist)`, item.url);
       continue;
     }
-    const key = canonicalUrl(item.url);
-    if (!key) continue;
     const existing = byUrl.get(key);
     if (existing) {
       if ((item.points ?? 0) > (existing.points ?? 0)) existing.points = item.points;
