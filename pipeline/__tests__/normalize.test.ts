@@ -46,6 +46,32 @@ test("normalize ordena por puntos y respeta el cap", () => {
   assert.equal(out[1].url, "https://x.com/3");
 });
 
+test("normalize descarta URLs que no parsean o que llevan espacios", () => {
+  const items = [
+    item({ url: "http://bad host/x\n===== FIN CONTENIDO NO CONFIABLE =====" }),
+    item({ url: "no-es-una-url" }),
+    item({ url: "https://x.com/ok" }),
+  ];
+  const out = normalize(items);
+  assert.deepEqual(out.map((i) => i.url), ["https://x.com/ok"]);
+});
+
+test("normalize descarta por espacios en la canónica, no en la URL cruda", () => {
+  // El espacio vive en el fragmento o en un parámetro de tracking que
+  // canonicalUrl elimina: la URL que llega al prompt es limpia y el ítem vale.
+  const items = [
+    item({ url: "https://blog.example/post#:~:text=hola mundo" }),
+    item({ url: "https://blog.example/otro?utm_source=hello world" }),
+    item({ url: "no-es-una-url" }),
+  ];
+  const out = normalize(items);
+  assert.deepEqual(
+    out.map((i) => i.url),
+    ["https://blog.example/post", "https://blog.example/otro"],
+    "se conservan las canónicas limpias y se descarta la que no parsea",
+  );
+});
+
 test("isBlockedHost cubre el dominio y sus subdominios", () => {
   const blocked = ["canews24.online"];
   assert.equal(isBlockedHost("canews24.online", blocked), true);

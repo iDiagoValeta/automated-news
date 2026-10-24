@@ -2,7 +2,7 @@
 
 Diario estático de noticias de tecnología en español, publicado cada día en GitHub Pages.
 
-[La Terminal](https://idiagovaleta.github.io/automated-news/) reúne las noticias tecnológicas más relevantes y los repositorios open source que están ganando tracción. El pipeline recoge las fuentes, elimina duplicados, amplía el contexto, selecciona lo importante con un LLM y publica una edición navegable en GitHub Pages.
+[La Terminal](https://idiagovaleta.github.io/automated-news/) reúne las noticias tecnológicas más relevantes, los repositorios open source que están ganando tracción y seis lecturas atemporales para seguir aprendiendo. El pipeline recoge las fuentes, elimina duplicados, amplía el contexto, selecciona lo importante con un LLM y publica una edición navegable en GitHub Pages.
 
 No necesita servidor ni base de datos: cada edición queda guardada como JSON dentro del propio repositorio.
 
@@ -10,7 +10,8 @@ No necesita servidor ni base de datos: cada edición queda guardada como JSON de
 
 - Hasta 20 noticias diarias, resumidas en español y enlazadas a la fuente original.
 - Repositorios trending de GitHub seleccionados por utilidad, con prioridad para IA y herramientas prácticas.
-- Una ventana de siete días que evita repetir repositorios publicados recientemente.
+- Seis lecturas atemporales por edición (tutoriales, ensayos, guías de ingeniería, IA, web, datos, diseño), elegidas y resumidas en español.
+- Una ventana de siete días que evita repetir repositorios publicados recientemente, y de treinta días para las lecturas.
 - Posts para X y LinkedIn en cada noticia y repositorio: botones de web intent que abren el compositor con el texto listo, más copiar por si LinkedIn no precarga el cuerpo.
 - Archivo por fechas, calendario, resumen semanal y búsqueda en el navegador.
 - Feeds RSS y Atom, sitemap y etiquetas Open Graph.
@@ -22,7 +23,7 @@ No necesita servidor ni base de datos: cada edición queda guardada como JSON de
 ## Cómo funciona
 
 ```text
-RSS + Hacker News + GitHub Trending
+RSS + Hacker News + GitHub Trending + lecturas
                   │
                   ▼
         normalización y deduplicación
@@ -33,10 +34,10 @@ RSS + Hacker News + GitHub Trending
                   ▼
        curación y validación con LLM
                   │
-          ┌───────┴────────┐
-          ▼                ▼
-    posts sociales    repositorios hot
-          └───────┬────────┘
+        ┌─────────┼──────────┐
+        ▼         ▼          ▼
+ posts sociales  repos hot  lecturas
+        └─────────┼──────────┘
                   ▼
           data/YYYY-MM-DD.json
                   │
@@ -120,6 +121,7 @@ Las fuentes y límites se definen en [config/sources.json](config/sources.json):
 - `rss`: fuentes RSS o Atom activables individualmente.
 - `hackernews`: consultas y puntuación mínima.
 - `github_trending`: periodo, candidatos recogidos y repositorios seleccionados.
+- `lecturas`: feeds de Medium y blogs técnicos, ventana propia, candidatos, número de lecturas y días sin repetir.
 
 Variables de entorno:
 
@@ -155,15 +157,15 @@ data/                   ediciones publicadas
 docs/                   documentación técnica
 pipeline/               recogida, curación y validación
   __tests__/             tests y fixtures
-  curate/                proveedores, prompts sociales y repos
-  sources/               RSS, Hacker News, GitHub y fuente opcional de Hugging Face
+  curate/                proveedores, prompts sociales, repos y lecturas
+  sources/               RSS, Hacker News, GitHub, lecturas y fuente opcional de Hugging Face
 prompts/                 instrucciones editoriales para el LLM
 schema/                  JSON Schema del digest
 site/                    plantillas, estilos y JavaScript
 .github/workflows/       generación diaria, CI de PRs y despliegue
 ```
 
-Los JSON históricos forman parte del producto: alimentan el archivo público, la navegación y el filtro que evita repetir repositorios durante siete días.
+Los JSON históricos forman parte del producto: alimentan el archivo público, la navegación y el filtro que evita repetir repositorios durante siete días y lecturas durante treinta.
 
 ## Decisiones de diseño
 

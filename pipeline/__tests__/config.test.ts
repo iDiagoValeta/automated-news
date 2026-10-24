@@ -64,3 +64,21 @@ test("enabled no booleano en hackernews falla nombrando sección y campo", () =>
   (cfg.hackernews as Record<string, unknown>).enabled = "false";
   assert.throws(() => validateSourcesConfig(cfg), /hackernews\/enabled/);
 });
+
+test("la sección lecturas es opcional", () => {
+  const cfg = validConfig();
+  delete cfg.lecturas;
+  assert.doesNotThrow(() => validateSourcesConfig(cfg));
+});
+
+test("lecturas con un tipo equivocado falla nombrando sección y campo", () => {
+  const cfg = validConfig();
+  (cfg.lecturas as Record<string, unknown>).pick = "6";
+  assert.throws(() => validateSourcesConfig(cfg), /lecturas\/pick/);
+});
+
+test("lecturas no admite un pick mayor que el máximo del schema", () => {
+  const cfg = validConfig();
+  (cfg.lecturas as Record<string, unknown>).pick = 11;
+  assert.throws(() => validateSourcesConfig(cfg), /lecturas\/pick/);
+});

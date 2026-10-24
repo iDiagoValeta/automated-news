@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import { log, warn } from "../log.ts";
 import type { Digest, Repo, RepoRaw } from "../types.ts";
 import type { Provider } from "../ports.ts";
+import { stripFences } from "./prompt.ts";
 
 const REPOS_PROMPT_PATH = fileURLToPath(new URL("../../prompts/repos.md", import.meta.url));
 
@@ -14,12 +15,6 @@ interface PickedRepo {
   name?: string;
   url?: string;
   description?: string;
-}
-
-function stripFences(raw: string): string {
-  const t = raw.trim();
-  const m = t.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/);
-  return m ? m[1] : t;
 }
 
 /**

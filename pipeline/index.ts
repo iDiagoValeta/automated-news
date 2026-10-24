@@ -4,14 +4,17 @@ import { pathToFileURL } from "node:url";
 import { ROOT, loadConfig } from "./config.ts";
 import { collectAll } from "./sources/index.ts";
 import { collectGithubTrending } from "./sources/github.ts";
+import { collectLecturas } from "./sources/lecturas.ts";
 import { normalize } from "./normalize.ts";
 import { enrich } from "./enrich.ts";
 import { curate } from "./curate/index.ts";
 import { providerCredentialPresent, resolveProviderChain, resolveProviderName } from "./providers.ts";
-import type { ReposInput } from "./curate/index.ts";
+import type { LecturasInput, ReposInput } from "./curate/index.ts";
 import { excludeRecentRepos, loadRecentRepoNames } from "./curate/repos.ts";
+import { loadRecentLecturaUrls } from "./curate/lecturas.ts";
 import { error, log, warn } from "./log.ts";
 import { MIN_ITEMS } from "./validate.ts";
+import type { NewsItem } from "./types.ts";
 
 /** Fecha de la edición en zona Europe/Madrid, formato YYYY-MM-DD. */
 function madridDate(now: Date): string {
@@ -114,6 +117,21 @@ async function main(): Promise<void> {
   }
 
   log(`Recogida de fuentes para la edición ${date}...`);
+  // Las lecturas se recogen a la vez que las noticias: usan otra ventana y su
+  // propio best effort. La exclusión de lo ya publicado se pasa a la recogida
+  // para que se aplique antes del tope. Un rechazo propio de la recogida no
+  // puede tumbar la edición de noticias: se convierte en lista vacía.
+  const lecturasCfg = cfg.lecturas;
+  const recentLecturas = lecturasCfg?.enabled
+    ? loadRecentLecturaUrls(dataDir, date, lecturasCfg.lookback_days)
+    : new Set<string>();
+  const lecturasPromise: Promise<NewsItem[]> = lecturasCfg?.enabled
+    ? collectLecturas(cfg, lecturasCfg, recentLecturas).catch((e) => {
+        warn("La recogida de lecturas falló; la edición sale sin la sección.", String(e));
+        return [];
+      })
+    : Promise.resolve([]);
+
   const collected = await collectAll(cfg);
   if (collected.succeeded === 0) {
     throw new Error(`Todas las fuentes fallaron (${collected.failures.join(", ")}). Se aborta sin publicar.`);
@@ -124,6 +142,11 @@ async function main(): Promise<void> {
     `Normalizados ${items.length} ítems únicos de ${collected.items.length} recogidos ` +
       `(${collected.succeeded}/${collected.attempted} fuentes OK).`,
   );
+
+  // La promesa nunca rechaza (collectLecturas captura cada feed y el catch de
+  // arriba cubre sus propios fallos), pero se espera aquí para que
+  // --collect-only también informe de cuántas lecturas hay.
+  const lecturasRaw = await lecturasPromise;
 
   // Fase (a): salida a consola para verificar recogida + normalización.
   if (collectOnly) {
@@ -139,6 +162,13 @@ async function main(): Promise<void> {
 
   // Enriquecimiento: leer el artículo real de los candidatos con más señal.
   await enrich(items, cfg);
+
+  // Lecturas: collectLecturas ya excluyó las publicadas en `lookback_days` y
+  // aplicó el tope, así que aquí solo se pasan a la curación.
+  let lecturas: LecturasInput | undefined;
+  if (lecturasCfg?.enabled) {
+    lecturas = { candidates: lecturasRaw, pick: lecturasCfg.pick };
+  }
 
   // Repos en tendencia de GitHub para la sección "Repositorios hot" (best effort).
   // Se excluyen los publicados en los 7 días previos para no repetir entre ediciones.
@@ -159,6 +189,8 @@ async function main(): Promise<void> {
     { date, generated_at: generatedAt, provider, window_hours: cfg.window_hours },
     repos,
     resolveProviderChain(provider),
+    undefined,
+    lecturas,
   );
 
   mkdirSync(dataDir, { recursive: true });

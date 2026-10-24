@@ -65,6 +65,25 @@ const GITHUB_TRENDING_SCHEMA = {
   },
 };
 
+/**
+ * Sección "Lecturas". La ventana es propia porque estas fuentes publican
+ * material atemporal que en 24 h dejaría la lista casi vacía.
+ */
+const LECTURAS_SCHEMA = {
+  type: "object",
+  required: ["enabled", "window_hours", "candidate_cap", "pick", "lookback_days", "feeds"],
+  properties: {
+    enabled: { type: "boolean" },
+    window_hours: { type: "integer", minimum: 1 },
+    candidate_cap: { type: "integer", minimum: 1 },
+    // El schema del digest admite como máximo 10 lecturas: un pick mayor
+    // publicaría un JSON que el contrato rechaza.
+    pick: { type: "integer", minimum: 1, maximum: 10 },
+    lookback_days: { type: "integer", minimum: 0 },
+    feeds: { type: "array", items: RSS_ITEM_SCHEMA },
+  },
+};
+
 const CONFIG_SCHEMA = {
   type: "object",
   required: [
@@ -91,6 +110,7 @@ const CONFIG_SCHEMA = {
     hackernews: HACKERNEWS_SCHEMA,
     huggingface_trending: HUGGINGFACE_TRENDING_SCHEMA,
     github_trending: GITHUB_TRENDING_SCHEMA,
+    lecturas: LECTURAS_SCHEMA,
     blocked_domains: { type: "array", items: { type: "string" } },
   },
   additionalProperties: true,

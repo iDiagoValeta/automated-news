@@ -236,3 +236,41 @@ test("el prompt recorta los títulos a 200 caracteres", async () => {
   assert.ok(!userPrompt.includes(long), "el titular completo no debe entrar");
   assert.ok(userPrompt.includes("A".repeat(200)), "se conserva el prefijo de 200");
 });
+
+test("curate pasa las lecturas y las adjunta al digest", async () => {
+  const candidate: NewsItem = {
+    title: "Aprender Rust",
+    snippet: "Extracto.",
+    url: "https://medium.com/@alguien/rust",
+    source: "Medium: Programming",
+    published_at: "2026-07-18T08:00:00.000Z",
+  };
+  let lecturasPrompt = "";
+  const provider = mockProvider("deepseek", async (_system, prompt) => {
+    if (prompt.startsWith("Elige las ")) {
+      lecturasPrompt = prompt;
+      return JSON.stringify({
+        lecturas: [
+          {
+            url: candidate.url,
+            title: "Rust desde cero",
+            summary: "Primera frase. Segunda frase.",
+            tema: "programacion",
+          },
+        ],
+      });
+    }
+    if (prompt.includes("Candidato 1")) return JSON.stringify(payload());
+    return JSON.stringify({});
+  });
+
+  const digest = await curate(items(), meta, undefined, [provider], noSleep, {
+    candidates: [candidate],
+    pick: 6,
+  });
+
+  assert.ok(lecturasPrompt.includes(candidate.url), "la candidata llega al prompt de lecturas");
+  assert.equal(digest.lecturas?.length, 1);
+  assert.equal(digest.lecturas?.[0].url, candidate.url);
+  assert.equal(digest.lecturas?.[0].source, "Medium: Programming");
+});

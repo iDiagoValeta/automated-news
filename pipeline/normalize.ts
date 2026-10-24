@@ -24,6 +24,18 @@ export function isBlockedHost(host: string, blocked: string[]): boolean {
 }
 
 /**
+ * Dominios de Medium y publicaciones con dominio propio que siguen sirviendo
+ * por Medium. El parámetro `source` lo añade su RSS, no el artículo.
+ */
+const MEDIUM_HOSTS = ["medium.com", "towardsdatascience.com", "netflixtechblog.com"];
+
+/** ¿El host es Medium (o una publicación alojada en Medium)? */
+export function isMediumHost(host: string): boolean {
+  if (!host) return false;
+  return MEDIUM_HOSTS.some((domain) => host === domain || host.endsWith(`.${domain}`));
+}
+
+/**
  * Canonicaliza una URL para deduplicar: quita el fragmento (#...), los
  * parámetros de tracking (utm_*, ref, fbclid) y la barra final. Es una
  * deduplicación "básica" por URL.
@@ -33,6 +45,9 @@ export function canonicalUrl(raw: string): string {
     const u = new URL(raw.trim());
     u.hash = "";
     const drop: string[] = [];
+    // `?source=rss-...` es tracking del feed de Medium y hace que la misma
+    // lectura llegue con una URL distinta cada vez.
+    if (isMediumHost(u.hostname.toLowerCase())) drop.push("source");
     u.searchParams.forEach((_, key) => {
       if (/^utm_/i.test(key) || key === "ref" || key === "fbclid") drop.push(key);
     });
@@ -42,6 +57,24 @@ export function canonicalUrl(raw: string): string {
     return s;
   } catch {
     return raw.trim();
+  }
+}
+
+/**
+ * Devuelve la URL canónica si es usable para el prompt y el digest; si no,
+ * `null`. Un espacio o un salto de línea puede cerrar el bloque del contenido
+ * no confiable del prompt. La comprobación va sobre la canónica, no sobre la
+ * cruda, porque el espacio puede estar en un fragmento o en un parámetro de
+ * tracking que `canonicalUrl` elimina. Una URL que no parsea se descarta.
+ */
+function usableCanonicalUrl(raw: string): string | null {
+  const key = canonicalUrl(raw);
+  if (/\s/.test(key)) return null;
+  try {
+    new URL(key);
+    return key;
+  } catch {
+    return null;
   }
 }
 
@@ -56,6 +89,11 @@ export function normalize(items: NewsItem[], cap = 120, blocked: string[] = []):
   const byUrl = new Map<string, NewsItem>();
 
   for (const item of items) {
+    const key = usableCanonicalUrl(item.url);
+    if (key === null) {
+      warn("Normalización: descartada una URL inválida", item.url);
+      continue;
+    }
     const host = hostnameOf(item.url);
     if (item.source === "Hacker News" && host) {
       hnDest.set(host, (hnDest.get(host) ?? 0) + 1);
@@ -64,8 +102,6 @@ export function normalize(items: NewsItem[], cap = 120, blocked: string[] = []):
       warn(`Normalización: descartado ${host} (blocklist)`, item.url);
       continue;
     }
-    const key = canonicalUrl(item.url);
-    if (!key) continue;
     const existing = byUrl.get(key);
     if (existing) {
       if ((item.points ?? 0) > (existing.points ?? 0)) existing.points = item.points;

@@ -73,6 +73,28 @@ export interface Digest {
   items: DigestItem[];
   /** Sección "Repositorios hot"; se rellena en una tercera llamada al LLM (best effort). */
   repos?: Repo[];
+  /** Sección "Lecturas"; se rellena en una llamada aparte al LLM (best effort). */
+  lecturas?: Lectura[];
+}
+
+/** Temas de la sección Lecturas. Identificadores sin tilde, como las categorías. */
+export type LecturaTema =
+  | "programacion"
+  | "ia"
+  | "web"
+  | "datos"
+  | "arquitectura"
+  | "diseno"
+  | "carrera";
+
+/** Lectura atemporal ya curada, con resumen en español. */
+export interface Lectura {
+  title: string;
+  url: string;
+  source: string;
+  /** Dos o tres frases sobre qué aprende quien lo lee. */
+  summary: string;
+  tema: LecturaTema;
 }
 
 // ---- Configuración (config/sources.json) ----
@@ -117,6 +139,19 @@ export interface GithubTrendingConfig {
   min_parse_alert?: number;
 }
 
+export interface LecturasConfig {
+  enabled: boolean;
+  /** Ventana de recogida propia: una lectura atemporal no caduca en 24 h. */
+  window_hours: number;
+  /** Máximo de candidatos que pasan a la curación de lecturas. */
+  candidate_cap: number;
+  /** Cuántas lecturas elige el modelo por edición. */
+  pick: number;
+  /** Días previos en los que una lectura publicada no puede repetirse. */
+  lookback_days: number;
+  feeds: RssSource[];
+}
+
 export interface SourcesConfig {
   user_agent: string;
   timeout_ms: number;
@@ -135,4 +170,6 @@ export interface SourcesConfig {
   hackernews: HackerNewsConfig;
   huggingface_trending: HfTrendingConfig;
   github_trending: GithubTrendingConfig;
+  /** Sección "Lecturas"; opcional para no romper configuraciones antiguas. */
+  lecturas?: LecturasConfig;
 }

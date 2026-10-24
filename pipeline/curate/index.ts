@@ -7,10 +7,18 @@ import { dropInventedUrlItems, validateDigest } from "../validate.ts";
 import type { Digest, NewsItem, ProviderName, RepoRaw } from "../types.ts";
 import { attachRepoSocial, attachSocial } from "./social.ts";
 import { attachRepos } from "./repos.ts";
+import { attachLecturas } from "./lecturas.ts";
+import { collapseText, stripFences, untrustedBlock } from "./prompt.ts";
 
 /** Repos en tendencia y cuántos elegir; se resuelven fuera (best effort). */
 export interface ReposInput {
   trending: RepoRaw[];
+  pick: number;
+}
+
+/** Candidatos de la sección Lecturas y cuántos elegir. */
+export interface LecturasInput {
+  candidates: NewsItem[];
   pick: number;
 }
 
@@ -63,6 +71,7 @@ export async function curate(
   repos: ReposInput | undefined,
   chain: Provider[],
   sleep: (ms: number) => Promise<void> = defaultSleep,
+  lecturas?: LecturasInput,
 ): Promise<Digest> {
   if (chain.length === 0) {
     throw new Error("No hay proveedores LLM disponibles para curar.");
@@ -76,7 +85,7 @@ export async function curate(
       log(`Failover: se reintenta la curación con ${provider.name} tras fallar ${chain[i - 1].name}.`);
     }
     const attemptMeta: CurateMeta = { ...meta, provider: provider.name };
-    const outcome = await curateWithProvider(items, attemptMeta, provider, repos, sleep);
+    const outcome = await curateWithProvider(items, attemptMeta, provider, repos, sleep, lecturas);
     if (outcome.ok) return outcome.digest;
     failures.push({ provider: provider.name, attempts: outcome.attempts, errors: outcome.errors });
   }
@@ -99,6 +108,7 @@ async function curateWithProvider(
   provider: Provider,
   repos: ReposInput | undefined,
   sleep: (ms: number) => Promise<void>,
+  lecturas: LecturasInput | undefined,
 ): Promise<CurateOutcome> {
   const systemPrompt = readFileSync(PROMPT_PATH, "utf8");
   const inputUrls = new Set(items.map((i) => i.url));
@@ -161,6 +171,9 @@ async function curateWithProvider(
         await attachRepos(provider, valid, repos.trending, repos.pick);
         await attachRepoSocial(provider, valid);
       }
+      if (lecturas && lecturas.candidates.length > 0) {
+        await attachLecturas(provider, valid, lecturas.candidates, lecturas.pick);
+      }
       return { ok: true, digest: valid };
     }
 
@@ -187,34 +200,25 @@ function coerceMeta(parsed: unknown, meta: CurateMeta): unknown {
   return parsed;
 }
 
-function stripFences(raw: string): string {
-  const t = raw.trim();
-  const m = t.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/);
-  return m ? m[1] : t;
-}
-
 function buildUserPrompt(items: NewsItem[], meta: CurateMeta): string {
   const header =
     `Datos de cabecera para el JSON de salida (cópialos tal cual):\n` +
     `- date: ${meta.date}\n- generated_at: ${meta.generated_at}\n- provider: ${meta.provider}\n\n` +
-    `Ítems recogidos en las últimas ${meta.window_hours} h (${items.length}). Copia las URL LITERALMENTE.\n\n` +
-    // El texto viene de terceros: se delimita para que el modelo lo trate como
-    // material a resumir y no como instrucciones que pueda obedecer.
-    `===== INICIO CONTENIDO NO CONFIABLE =====\n`;
+    `Ítems recogidos en las últimas ${meta.window_hours} h (${items.length}). Copia las URL LITERALMENTE.\n\n`;
 
   const body = items
     .map((it, i) => {
       const pts = it.points !== undefined ? ` (${it.points} pts)` : "";
-      const text = (it.content || it.snippet).replace(/\s+/g, " ").slice(0, 600);
+      const text = collapseText(it.content || it.snippet, 600);
       const snip = text ? `\n   ${text}` : "";
-      // Igual que el cuerpo: si el título conserva saltos de línea, puede cerrar
-      // el bloque delimitado y lo que venga después se lee como instrucciones.
-      const title = it.title.replace(/\s+/g, " ").slice(0, 200);
+      const title = collapseText(it.title, 200);
       return `${i + 1}. [${it.source}]${pts} ${title}${snip}\n   URL: ${it.url}`;
     })
     .join("\n\n");
 
-  return `${header}${body}\n===== FIN CONTENIDO NO CONFIABLE =====`;
+  // El texto viene de terceros: `untrustedBlock` lo delimita para que el modelo
+  // lo trate como material a resumir y no como instrucciones que pueda obedecer.
+  return `${header}${untrustedBlock(body)}`;
 }
 
 function withErrors(base: string, errors: string[]): string {
