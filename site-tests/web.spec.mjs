@@ -261,10 +261,10 @@ test("navegación de secciones", async () => {
   // con su lista o con el vacío.
   for (const seccion of ["repositorios", "lecturas", "semana", "archivo"]) {
     const { contexto, pagina, problemas } = await abrir("");
-    const [resp] = await Promise.all([
-      pagina.waitForNavigation(),
-      pagina.locator(`.masthead__nav a[href$="/${seccion}/"]`).first().click(),
-    ]);
+    const enlace = pagina.locator(`.masthead__nav a[href$="/${seccion}/"]`).first();
+    // Semana y Archivo viven en el desplegable «Más»: se llega a ellos como una persona.
+    if (!(await enlace.isVisible())) await pagina.locator(".masthead__mas-boton").click();
+    const [resp] = await Promise.all([pagina.waitForNavigation(), enlace.click()]);
     assert.equal(resp.status(), 200);
     assert.ok(resp.url().endsWith(`${PREFIJO}${seccion}/`), `URL inesperada ${resp.url()}`);
     await pagina.waitForLoadState("load");
@@ -332,12 +332,13 @@ test("editorial: índice, notas, navegación, sitemap y búsqueda", async () => 
     assert.equal(await navEditorial.count(), 1, "con notas, Editorial debe estar en el menú");
     assert.ok(await navEditorial.first().evaluate((a) => a.classList.contains("is-active")),
       "la pestaña Editorial debe marcarse activa en su sección");
-    const filas = await pagina.locator(".editorial__item").evaluateAll((lis) =>
-      lis.map((li) => ({
-        href: li.querySelector("a")?.getAttribute("href") ?? "",
-        fecha: li.querySelector(".archivo__fecha")?.textContent.trim() ?? "",
-        titulo: li.querySelector(".editorial__titulo")?.textContent.trim() ?? "",
-        resumen: li.querySelector(".editorial__resumen")?.textContent.trim() ?? "",
+    // Misma composición que Noticias: la más nueva en .lead, el resto en .story.
+    const filas = await pagina.locator(".editorial :is(.lead, .story)").evaluateAll((arts) =>
+      arts.map((art) => ({
+        href: art.querySelector(":is(h2, h3) a")?.getAttribute("href") ?? "",
+        fecha: art.querySelector("time")?.getAttribute("datetime") ?? "",
+        titulo: art.querySelector(":is(h2, h3) a")?.textContent.trim() ?? "",
+        resumen: art.querySelector(".lead__summary, .story__summary")?.textContent.trim() ?? "",
       })));
     assert.equal(filas.length, publicadas.length, "la portada no lista todas las notas publicadas");
     assert.deepEqual(filas.map((f) => f.titulo), publicadas.map((n) => n.title));
@@ -345,6 +346,7 @@ test("editorial: índice, notas, navegación, sitemap y búsqueda", async () => 
     for (const [i, nota] of publicadas.entries()) {
       assert.equal(filas[i].href, `${PREFIJO}editorial/${nota.slug}/`);
       assert.equal(filas[i].resumen, nota.resumen);
+      assert.equal(filas[i].fecha, nota.date);
       const notaPagina = await abrir(`editorial/${nota.slug}/`);
       assert.equal(notaPagina.resp.status(), 200, `falta ${nota.slug}`);
       assert.equal((await notaPagina.pagina.locator("h1.nota__title").innerText()).trim(), nota.title);
@@ -375,13 +377,17 @@ test("editorial: índice, notas, navegación, sitemap y búsqueda", async () => 
   await contexto.close();
 });
 
-test("menú móvil: cabe a 375 px con siete enlaces y la activa se ve", async () => {
+test("menú móvil: el panel lateral cabe a 375 px con siete enlaces y la activa se ve", async () => {
   // Con notas publicadas Editorial ya viene en la plantilla; sin ellas se
-  // inyecta para medir igualmente el peor caso de siete enlaces.
+  // inyecta para medir igualmente el peor caso de siete enlaces. El menú
+  // solo se ve con el panel abierto: se abre con su botón, como una persona.
   for (const [ruta, activa] of [["", "Noticias"], ["archivo/", "Archivo"]]) {
     const { contexto, pagina, problemas } = await abrir(ruta, {
       viewport: { width: 375, height: 812 }, isMobile: true, hasTouch: true, deviceScaleFactor: 2,
     });
+    await pagina.locator(".menu-boton").click();
+    await pagina.locator(".masthead__nav").evaluate((nav) =>
+      Promise.all(nav.getAnimations().map((a) => a.finished)));
     const medida = await pagina.evaluate((prefijo) => {
       const nav = document.querySelector(".masthead__nav");
       const hayEditorial = [...nav.querySelectorAll("a")].some((a) => a.textContent.trim() === "Editorial");
@@ -390,7 +396,7 @@ test("menú móvil: cabe a 375 px con siete enlaces y la activa se ve", async ()
         editorial.href = `${prefijo}editorial/`;
         editorial.textContent = "Editorial";
         const archivo = [...nav.querySelectorAll("a")].find((a) => a.textContent.trim() === "Archivo");
-        nav.insertBefore(editorial, archivo);
+        archivo.before(editorial);
       }
       const caja = nav.getBoundingClientRect();
       const enlaceActivo = nav.querySelector("a.is-active");
@@ -406,6 +412,7 @@ test("menú móvil: cabe a 375 px con siete enlaces y la activa se ve", async ()
           && cajaActiva.top >= caja.top - 0.5
           && cajaActiva.bottom <= caja.bottom + 0.5,
         enlaces: nav.querySelectorAll("a").length,
+        dentroDePantalla: caja.left >= -0.5 && caja.right <= innerWidth + 0.5,
       };
     }, PREFIJO);
     assert.equal(medida.enlaces, 7, `${ruta || "portada"}: el menú no quedó con siete enlaces`);
@@ -413,6 +420,7 @@ test("menú móvil: cabe a 375 px con siete enlaces y la activa se ve", async ()
     assert.ok(medida.scrollWidth <= medida.clientWidth,
       `${ruta || "portada"}: el menú mide ${medida.scrollWidth} px y su hueco ${medida.clientWidth} px`);
     assert.ok(medida.activaVisible, `${ruta || "portada"}: la pestaña activa no se ve entera`);
+    assert.ok(medida.dentroDePantalla, `${ruta || "portada"}: el panel abierto se sale de la pantalla`);
     assert.deepEqual(problemas, []);
     await contexto.close();
   }
