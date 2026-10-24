@@ -3,6 +3,8 @@
 
 import { shareModel } from "./site/_11ty/share.js";
 import { temaLabel } from "./site/_11ty/lecturas.js";
+import { searchIndexConNotas, sitemapPathsConNotas } from "./site/_11ty/editorial.js";
+import { buildSitemap } from "./site/_11ty/feeds.js";
 
 const MESES = [
   "enero", "febrero", "marzo", "abril", "mayo", "junio",
@@ -32,7 +34,9 @@ export default function (eleventyConfig) {
   // juntar elementos en línea, y se respetan los bloques donde el espacio
   // importa o es contenido (pre, textarea, script, style).
   eleventyConfig.addTransform("minificaHtml", function (contenido) {
-    if (!this.page.outputPath?.endsWith(".html")) return contenido;
+    // Un permalink: false (borrador) deja outputPath en false, no en cadena.
+    const salida = this.page.outputPath;
+    if (typeof salida !== "string" || !salida.endsWith(".html")) return contenido;
     return contenido
       .split(/(<(?:pre|textarea|script|style)\b[\s\S]*?<\/(?:pre|textarea|script|style)>)/i)
       .map((trozo, i) => (i % 2 ? trozo : trozo.replace(/>\s+</g, "> <")))
@@ -83,6 +87,16 @@ export default function (eleventyConfig) {
 
   // Temas de las lecturas: mismos identificadores sin tilde, misma traducción.
   eleventyConfig.addFilter("tema", temaLabel);
+
+  // Las notas son una colección, y las colecciones no existen cuando se
+  // calculan los datos globales. Por eso el sitemap y el índice se completan
+  // al renderizar sus plantillas, no en site/_data/derived.js.
+  eleventyConfig.addFilter("sitemapConNotas", (paths, notas, siteUrl) =>
+    buildSitemap(siteUrl, sitemapPathsConNotas(paths, notas)),
+  );
+  eleventyConfig.addFilter("indiceConNotas", (baseJson, notas) =>
+    JSON.stringify(searchIndexConNotas(JSON.parse(baseJson), notas)),
+  );
 
   // Agrupa ediciones (ya ordenadas desc) por año-mes para el archivo.
   eleventyConfig.addFilter("agrupaPorMes", (editions) => {

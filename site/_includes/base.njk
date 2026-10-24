@@ -70,13 +70,16 @@
     <a class="skip" href="#contenido">Saltar al contenido</a>
 
     <header class="masthead">
-      {% set u = page.url %}
+      {# Un permalink: false (los borradores) deja page.url en false: se
+         normaliza para que los filtros `in` no reciban un booleano. #}
+      {% set u = page.url or "" %}
       {% set esBuscar = "/archivo/buscar/" in u %}
       {% set esArchivo = ("/archivo/" in u) and not esBuscar %}
       {% set esRepos = ("/repositorios/" in u) and not esArchivo %}
       {% set esLecturas = "/lecturas/" in u %}
       {% set esSemana = "/semana/" in u %}
-      {% set esNoticias = not esArchivo and not esBuscar and not esRepos and not esLecturas and not esSemana %}
+      {% set esEditorial = "/editorial/" in u %}
+      {% set esNoticias = not esArchivo and not esBuscar and not esRepos and not esLecturas and not esSemana and not esEditorial %}
       {# El calendario vive en la cabecera: se elige su fuente de fechas según la sección. #}
       {% if esRepos and reposEditions.length %}
         {% set fechas = reposEditions %}
@@ -125,6 +128,10 @@
         <a href="{{ '/repositorios/' | url }}"{% if esRepos %} class="is-active" aria-current="page"{% endif %}>Repositorios</a>
         <a href="{{ '/lecturas/' | url }}"{% if esLecturas %} class="is-active" aria-current="{% if ed %}true{% else %}page{% endif %}"{% endif %}>Lecturas</a>
         <a href="{{ '/semana/' | url }}"{% if esSemana %} class="is-active" aria-current="page"{% endif %}>Semana</a>
+        {# Una sección sin notas no se anuncia: el enlace aparece con la primera. #}
+        {% if collections.notas.length %}
+          <a href="{{ '/editorial/' | url }}"{% if esEditorial %} class="is-active" aria-current="page"{% endif %}>Editorial</a>
+        {% endif %}
         <a href="{{ '/archivo/' | url }}"{% if esArchivo %} class="is-active" aria-current="page"{% endif %}>Archivo</a>
         <a class="masthead__buscar{% if esBuscar %} is-active{% endif %}" href="{{ '/archivo/buscar/' | url }}"{% if esBuscar %} aria-current="page"{% endif %} data-paleta aria-keyshortcuts="Control+K Meta+K /">Buscar <kbd>⌘K</kbd></a>
       </nav>

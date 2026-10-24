@@ -2,4 +2,4 @@
 permalink: /search-index.json
 eleventyExcludeFromCollections: true
 ---
-{{ derived.searchIndex | safe }}
+{{ derived.searchIndex | indiceConNotas(collections.notas) | safe }}

@@ -2,4 +2,4 @@
 permalink: /sitemap.xml
 eleventyExcludeFromCollections: true
 ---
-{{ derived.sitemap | safe }}
+{{ derived.sitemapPaths | sitemapConNotas(collections.notas, site.url) | safe }}

@@ -264,20 +264,126 @@ test("navegación de secciones", async () => {
   }
 });
 
-test("menú móvil: cabe a 375 px con seis secciones y la activa se ve", async () => {
-  // Editorial existirá entre Semana y Archivo cuando haya notas: se inyecta
-  // para medir el caso de siete enlaces sin depender de que data/ las traiga.
+// Notas del árbol de fuentes. El repo no trae ninguna de ejemplo: el test
+// comprueba el vacío hoy y, cuando el editor publique la primera, la lista, la
+// página, la meta description y la navegación. Solo entiende valores de una
+// línea, que es todo lo que acepta el front matter de una nota.
+function notasEditorial() {
+  const dir = path.join(aqui, "../site/editorial");
+  if (!fs.existsSync(dir)) return [];
+  const salida = [];
+  for (const fichero of fs.readdirSync(dir).filter((f) => f.endsWith(".md"))) {
+    const texto = fs.readFileSync(path.join(dir, fichero), "utf8");
+    const bloque = texto.match(/^---\r?\n([\s\S]*?)\r?\n---/);
+    if (!bloque) continue;
+    const datos = {};
+    for (const linea of bloque[1].split(/\r?\n/)) {
+      const par = linea.match(/^([A-Za-z_][\w-]*):\s*(.*)$/);
+      if (!par) continue;
+      let valor = par[2].trim();
+      if ((valor.startsWith('"') && valor.endsWith('"')) || (valor.startsWith("'") && valor.endsWith("'"))) {
+        valor = valor.slice(1, -1);
+      }
+      if (valor === "true") valor = true;
+      else if (valor === "false") valor = false;
+      datos[par[1]] = valor;
+    }
+    salida.push({
+      slug: fichero.replace(/\.md$/, ""),
+      title: datos.title,
+      date: datos.date,
+      resumen: datos.resumen,
+      draft: datos.draft === true,
+    });
+  }
+  return salida;
+}
+
+test("editorial: índice, notas, navegación, sitemap y búsqueda", async () => {
+  const todas = notasEditorial();
+  const publicadas = todas
+    .filter((n) => !n.draft && typeof n.title === "string" && typeof n.date === "string")
+    .sort((a, b) => b.date.localeCompare(a.date));
+
+  const { contexto, pagina, problemas, resp } = await abrir("editorial/");
+  assert.equal(resp.status(), 200, "falta la portada de Editorial");
+  const navEditorial = pagina.locator('.masthead__nav a[href$="/editorial/"]');
+  const indice = JSON.parse(fs.readFileSync(path.join(RAIZ, "search-index.json"), "utf8"));
+  const sitemap = fs.readFileSync(path.join(RAIZ, "sitemap.xml"), "utf8");
+
+  if (publicadas.length === 0) {
+    assert.match((await pagina.locator("main").innerText()).toLowerCase(), /no hay notas/);
+    assert.equal(await navEditorial.count(), 0, "una sección vacía no debe aparecer en el menú");
+    assert.ok(!sitemap.includes(`${BASE}editorial/`), "una sección vacía no debe entrar en el sitemap");
+    assert.equal(indice.some((d) => d.source === "Editorial"), false,
+      "sin notas no debe haber entradas editoriales en el índice");
+  } else {
+    assert.equal(await navEditorial.count(), 1, "con notas, Editorial debe estar en el menú");
+    assert.ok(await navEditorial.first().evaluate((a) => a.classList.contains("is-active")),
+      "la pestaña Editorial debe marcarse activa en su sección");
+    const filas = await pagina.locator(".editorial__item").evaluateAll((lis) =>
+      lis.map((li) => ({
+        href: li.querySelector("a")?.getAttribute("href") ?? "",
+        fecha: li.querySelector(".archivo__fecha")?.textContent.trim() ?? "",
+        titulo: li.querySelector(".editorial__titulo")?.textContent.trim() ?? "",
+        resumen: li.querySelector(".editorial__resumen")?.textContent.trim() ?? "",
+      })));
+    assert.equal(filas.length, publicadas.length, "la portada no lista todas las notas publicadas");
+    assert.deepEqual(filas.map((f) => f.titulo), publicadas.map((n) => n.title));
+    // De la más nueva a la más antigua: la fecha visible no puede crecer.
+    for (let i = 1; i < publicadas.length; i += 1) {
+      assert.ok(publicadas[i - 1].date >= publicadas[i].date, "las notas no van de nueva a antigua");
+    }
+
+    for (const [i, nota] of publicadas.entries()) {
+      assert.equal(filas[i].href, `${PREFIJO}editorial/${nota.slug}/`);
+      assert.equal(filas[i].resumen, nota.resumen);
+      const notaPagina = await abrir(`editorial/${nota.slug}/`);
+      assert.equal(notaPagina.resp.status(), 200, `falta ${nota.slug}`);
+      assert.equal((await notaPagina.pagina.locator("h1.nota__title").innerText()).trim(), nota.title);
+      const meta = await notaPagina.pagina.locator('meta[name="description"]').getAttribute("content");
+      assert.equal(meta, nota.resumen, "la meta description debe ser el resumen, escapado una sola vez");
+      assert.match(await notaPagina.pagina.locator(".nota__meta").innerText(), new RegExp(site.autor.nombre));
+      assert.equal(await notaPagina.pagina.locator("time").first().getAttribute("datetime"), nota.date);
+      assert.deepEqual(notaPagina.problemas, [], `errores en ${nota.slug}`);
+      await notaPagina.contexto.close();
+
+      assert.ok(sitemap.includes(`${BASE}editorial/${nota.slug}/`), `sitemap sin ${nota.slug}`);
+      const doc = indice.find((d) => d.source === "Editorial" && d.path === `/editorial/${nota.slug}/`);
+      assert.ok(doc, `índice de búsqueda sin ${nota.slug}`);
+      assert.equal(doc.title, nota.title);
+      assert.equal(doc.summary, nota.resumen);
+      assert.equal(doc.date, nota.date);
+    }
+    const borradores = todas.filter((n) => n.draft);
+    for (const borrador of borradores) {
+      assert.ok(!sitemap.includes(`${BASE}editorial/${borrador.slug}/`), `borrador en el sitemap: ${borrador.slug}`);
+      assert.equal(indice.some((d) => d.path === `/editorial/${borrador.slug}/`), false,
+        `borrador en el índice: ${borrador.slug}`);
+    }
+  }
+
+  assert.deepEqual(problemas, []);
+  await contexto.close();
+});
+
+test("menú móvil: cabe a 375 px con siete enlaces y la activa se ve", async () => {
+  // Con notas publicadas Editorial ya viene en la plantilla; sin ellas se
+  // inyecta para medir igualmente el peor caso de siete enlaces.
   for (const [ruta, activa] of [["", "Noticias"], ["archivo/", "Archivo"]]) {
     const { contexto, pagina, problemas } = await abrir(ruta, {
       viewport: { width: 375, height: 812 }, isMobile: true, hasTouch: true, deviceScaleFactor: 2,
     });
     const medida = await pagina.evaluate((prefijo) => {
       const nav = document.querySelector(".masthead__nav");
-      const editorial = document.createElement("a");
-      editorial.href = `${prefijo}editorial/`;
-      editorial.textContent = "Editorial";
-      const archivo = [...nav.querySelectorAll("a")].find((a) => a.textContent.trim() === "Archivo");
-      nav.insertBefore(editorial, archivo);
+      const hayEditorial = [...nav.querySelectorAll("a")].some((a) => a.textContent.trim() === "Editorial");
+      if (!hayEditorial) {
+        const editorial = document.createElement("a");
+        editorial.href = `${prefijo}editorial/`;
+        editorial.textContent = "Editorial";
+        const archivo = [...nav.querySelectorAll("a")].find((a) => a.textContent.trim() === "Archivo");
+        nav.insertBefore(editorial, archivo);
+      }
       const caja = nav.getBoundingClientRect();
       const enlaceActivo = nav.querySelector("a.is-active");
       const cajaActiva = enlaceActivo?.getBoundingClientRect();
