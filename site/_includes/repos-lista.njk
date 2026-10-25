@@ -1,18 +1,18 @@
-{# Lista de repositorios hot. Espera `repos` (array) y `fecha` (YYYY-MM-DD). #}
+{# Lista de repositorios hot. Espera `repos` (array) y `fecha` (YYYY-MM-DD).
+   Misma anatomía que noticias y lecturas: etiqueta (el lenguaje), título,
+   resumen y pie con los metadatos. #}
 {% from "share.njk" import share %}
 <section class="repos" aria-label="Repositorios hot">
-  <div class="repos__grid">
+  <div class="stories">
     {% for repo in repos %}
-    <article class="repo" style="--i: {{ loop.index0 }}">
-      <h3 class="repo__name">
+    <article class="story" style="--i: {{ loop.index0 }}">
+      {% if repo.language %}<span class="kicker">{{ repo.language }}</span>{% endif %}
+      <h3 class="story__title">
         <a href="{{ repo.url }}" target="_blank" rel="noopener">{{ repo.name }}</a>
       </h3>
-      <p class="repo__desc">{{ repo.description }}</p>
+      <p class="story__summary">{{ repo.description }}</p>
       <div class="item-pie">
-        <p class="repo__meta">
-          {% if repo.language %}<span class="repo__lang">{{ repo.language }}</span>{% endif %}
-          {% if repo.stars %}<span class="repo__stars">{{ repo.stars | miles }} ★</span>{% endif %}
-        </p>
+        <p class="source">{% if repo.stars %}{{ repo.stars | miles }} ★{% endif %}</p>
         {{ share(repo.social) }}
       </div>
     </article>

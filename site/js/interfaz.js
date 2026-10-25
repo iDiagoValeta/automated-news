@@ -150,7 +150,7 @@ function initMenu() {
 /* ---------- Progreso de lectura por marcas ---------- */
 
 function initProgreso() {
-  const lista = () => [...document.querySelectorAll(".lead, .story, .repo")];
+  const lista = () => [...document.querySelectorAll(".lead, .story")];
   if (lista().length < 3) return;
 
   const barra = document.createElement("div");
