@@ -24,4 +24,5 @@ export default {
   paleta: hash("js/paleta.js"),
   interfaz: hash("js/interfaz.js"),
   musica: hash("js/musica.js"),
+  og: hash("img/og.png"),
 };

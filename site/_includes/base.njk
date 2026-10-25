@@ -40,7 +40,8 @@
     {% else %}
       {% set canon = site.url + "/" %}
     {% endif %}
-    {% set ogImage = site.url + "/img/og.png" %}
+    {# Con el hash, quien cachea vistas previas pide la imagen nueva al cambiarla. #}
+    {% set ogImage = site.url + "/img/og.png?v=" + assets.og %}
     <title>{% if title %}{{ title }}, {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ pageDesc | metaDesc }}" />
     <meta name="keywords" content="{{ site.keywords | join(', ') }}" />
