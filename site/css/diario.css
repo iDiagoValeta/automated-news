@@ -142,6 +142,16 @@ body {
     linear-gradient(180deg, var(--paper-deep) 0%, var(--paper) 18%, var(--paper-bright) 72%, var(--paper-deep) 100%);
 }
 
+/* Fondo de hebras fijo (initFondo en interfaz.js): por debajo del contenido y sin recibir clics. */
+.fondo {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+
 /* Grano de papel fijo: da textura sin interferir con el scroll ni el clic. */
 body::before {
   content: "";
@@ -1198,13 +1208,16 @@ kbd {
   }
 }
 
+/* La posición y el ancho los fija paleta.js a partir del botón que la abre. */
 .paleta {
-  width: min(640px, calc(100vw - 2rem));
+  position: fixed;
+  inset: 12vh auto auto 50%;
+  width: min(560px, calc(100vw - 24px));
   max-height: min(70vh, 560px);
-  margin: 12vh auto auto;
+  margin: 0;
   padding: 0;
   border: 1px solid var(--faint);
-  border-radius: 12px;
+  border-radius: var(--radius);
   background: var(--paper-bright);
   color: var(--ink);
   box-shadow: 0 24px 60px var(--shadow-deep);
@@ -1213,17 +1226,10 @@ kbd {
 .paleta[open] {
   display: flex;
   flex-direction: column;
-  animation: paleta-in 0.18s ease-out;
 }
 .paleta::backdrop {
-  background: color-mix(in srgb, var(--ink) 35%, transparent);
-  backdrop-filter: blur(3px);
-}
-@keyframes paleta-in {
-  from {
-    opacity: 0;
-    transform: translateY(-8px) scale(0.98);
-  }
+  background: color-mix(in srgb, var(--ink) 18%, transparent);
+  backdrop-filter: blur(2px);
 }
 .paleta__caja {
   display: flex;
@@ -1281,6 +1287,19 @@ kbd {
   display: flex;
   gap: 0.3rem;
   align-items: center;
+}
+
+/* ---------- Sonidos ---------- */
+
+/* Sin JS (o sin Web Audio) el botón no aparece. Apagado: altavoz tachado.
+   Encendido: con ondas y en tinta plena. */
+.sonido[hidden],
+.sonido[aria-pressed="false"] .sonido__ondas,
+.sonido[aria-pressed="true"] .sonido__mudo {
+  display: none;
+}
+.sonido[aria-pressed="true"] {
+  color: var(--ink);
 }
 
 /* ---------- Interruptor de tema (LiquidToggle) ---------- */
