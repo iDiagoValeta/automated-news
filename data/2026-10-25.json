@@ -1,0 +1,355 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T14:21:57.410Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Nvidia libera Flora, un sistema open source que etiqueta vídeo de robots 125 veces más barato",
+      "summary": "Nvidia ha publicado Flora, un data engine que etiqueta una hora de vídeo de robots por 72 céntimos frente a los 88 dólares que cuesta hacerlo con GPT-6 Astra. Se apoya en tres modelos Qwen3.5 ajustados y, según la compañía, detecta errores en las acciones del robot con más fiabilidad que sus competidores, aunque flojea algo en las descripciones.",
+      "why_it_matters": "Abre la puerta a entrenar robots con datos propios a una fracción del coste habitual.",
+      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra",
+      "source": "The Decoder",
+      "social": {
+        "x": "Etiquetar una hora de vídeo de robots sale a 72 céntimos con Flora, de Nvidia. Con GPT-6 Astra, 88 dólares. La diferencia no es un matiz: es qué proyectos puedes permitirte.\n\n#Nvidia #OpenSource #Robótica #Qwen\nhttps://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra",
+        "linkedin": "Etiquetar una hora de vídeo de robots cuesta 72 céntimos con Flora. Con GPT-6 Astra, 88 dólares.\n\nNvidia ha liberado el data engine completo: tres modelos Qwen3.5 ajustados que anotan acciones de robots y, según la compañía, detectan errores mejor que sus rivales, aunque flojean algo en las descripciones. En robótica el cuello de botella casi nunca ha sido el modelo, sino los datos etiquetados con los que entrenarlo, y 𝗯𝗮𝗷𝗮𝗿 𝗱𝗲 𝟴𝟴 𝗱ó𝗹𝗮𝗿𝗲𝘀 𝗮 𝟳𝟮 𝗰é𝗻𝘁𝗶𝗺𝗼𝘀 𝗽𝗼𝗿 𝗵𝗼𝗿𝗮 𝗰𝗮𝗺𝗯𝗶𝗮 𝗾𝘂é 𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁𝗼𝘀 𝘀𝗼𝗻 𝘃𝗶𝗮𝗯𝗹𝗲𝘀 𝗽𝗮𝗿𝗮 𝘂𝗻 𝗲𝗾𝘂𝗶𝗽𝗼 𝗽𝗲𝗾𝘂𝗲ñ𝗼. Queda por ver si esa calidad se sostiene fuera de los dominios donde ellos han probado.\n\n#Nvidia #OpenSource #Robótica #Qwen\n\nhttps://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Block presenta un modelo de voz que suena casi humano y corre en un MacBook",
+      "summary": "La empresa de Jack Dorsey ha mostrado un modelo de voz que, según sus pruebas, genera habla muy difícil de distinguir de la humana. El modelo puede ejecutarse en local en un MacBook M4 Max, sin depender de la nube.",
+      "why_it_matters": "Un modelo de voz que cabe en un portátil abarata y facilita crear asistentes y aplicaciones habladas.",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Escucha con atención: esa voz puede no ser humana. Block la genera entera en un MacBook, sin pasar por la nube.\n\n#Block #TextToSpeech #OnDevice\nhttps://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human",
+        "linkedin": "Una voz que suena humana ya no necesita servidores: cabe en un portátil.\n\nBlock ha presentado un modelo de voz que, según sus pruebas, genera habla casi indistinguible de la real y se ejecuta en local en un MacBook M4 Max. 𝗟𝗼 𝗿𝗲𝗹𝗲𝘃𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗮𝘂𝗱𝗶𝗼, 𝘀𝗶𝗻𝗼 𝗱ó𝗻𝗱𝗲 𝗰𝗼𝗿𝗿𝗲: sin nube, sin coste por llamada y sin sacar los datos de tu máquina. Para quien construye asistentes o aplicaciones habladas, el cálculo cambia: probar voces propias deja de ser caro.\n\n#Block #TextToSpeech #OnDevice\n\nhttps://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Dream-1, un modelo de acción que controla robots que nunca ha visto por 3 dólares la hora",
+      "summary": "Dream Labs ha lanzado Dream-1, un World Action Model capaz de manejar robots desconocidos y ejecutar tareas para las que no fue entrenado. La compañía lo ofrece a través de una API con un coste de tres dólares por hora.",
+      "why_it_matters": "Baja el listón para probar control robótico con IA sin montar hardware ni entrenamiento propio.",
+      "url": "https://dreamlabs.ai/research/dream-1",
+      "source": "Hacker News",
+      "social": {
+        "x": "Tres dólares la hora por controlar un robot que nunca ha visto antes. Dream-1 convierte el control robótico en una llamada a la API.\n\n#DreamLabs #Robotics #WorldActionModel\nhttps://dreamlabs.ai/research/dream-1",
+        "linkedin": "Tres dólares la hora es lo que cuesta ahora poner una IA a manejar un robot que nunca ha visto antes.\n\nDream-1, de Dream Labs, es un World Action Model: recibe instrucciones y opera hardware que no estaba en su entrenamiento. Lo relevante no es solo el modelo, es el formato de entrega. 𝗦𝗲 𝗼𝗳𝗿𝗲𝗰𝗲 𝗽𝗼𝗿 𝗔𝗣𝗜, 𝘀𝗶𝗻 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗿 𝗻𝗮𝗱𝗮 𝗻𝗶 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗿 𝗻𝗮𝗱𝗮, y eso cambia quién puede experimentar con robótica. Un equipo de software valida una idea en una tarde en lugar de esperar a montar un laboratorio. Falta ver cuánto aguanta fuera de las condiciones controladas.\n\n#DreamLabs #Robotics #WorldActionModel\n\nhttps://dreamlabs.ai/research/dream-1"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "Anthropic defiende que un solo agente rinde más que muchos subagentes",
+      "summary": "Anthropic sostiene que, con los modelos actuales, conviene revisar las arquitecturas de varios subagentes y consolidarlas en uno solo que cargue contexto bajo demanda. En una de sus comparativas, el agente único fue unas dos veces más rápido, y la compañía ha publicado un kit de migración en GitHub.",
+      "why_it_matters": "Da una pauta concreta para simplificar y acelerar los sistemas de agentes que ya están en producción.",
+      "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone",
+      "source": "The Decoder",
+      "social": {
+        "x": "Tu red de subagentes puede estar frenándote. Anthropic midió: un solo agente, cargando contexto bajo demanda, fue el doble de rápido.\n\n#Anthropic #Claude #LLM\nhttps://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone",
+        "linkedin": "Tu arquitectura de subagentes puede estar frenándote, y no por falta de modelo.\n\nAnthropic ha revisado sus propias comparativas y sostiene que, con los modelos actuales, 𝘂𝗻 𝘀𝗼𝗹𝗼 𝗮𝗴𝗲𝗻𝘁𝗲 𝗰𝗼𝗻 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 𝗯𝗮𝗷𝗼 𝗱𝗲𝗺𝗮𝗻𝗱𝗮 𝗿𝗶𝗻𝗱𝗲 𝗺á𝘀 𝗾𝘂𝗲 𝘃𝗮𝗿𝗶𝗼𝘀 𝗲𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘇𝗮𝗱𝗼𝘀: en una de las pruebas fue unas dos veces más rápido. La compañía ha publicado además un kit de migración en GitHub, así que la recomendación se puede probar esta misma semana. Si tienes agentes en producción, la pregunta ya no es cómo añadir el siguiente subagente, sino cuántos puedes quitar.\n\n#Anthropic #Claude #LLM\n\nhttps://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "investigacion",
+      "title": "OpenMobile-2 demuestra que los agentes de móvil open source pueden competir con los propietarios",
+      "summary": "El equipo de OpenMobile-2 ha construido un entorno de entrenamiento abierto con más de 110 aplicaciones, 35 de ellas réplicas de apps populares, y asegura que su modelo queda arriba entre los agentes abiertos probados en dispositivos Android reales. La clave, dicen, no es más datos sino más variedad de aplicaciones.",
+      "why_it_matters": "Ofrece una base abierta y reproducible para quien quiera entrenar agentes que manejen el teléfono.",
+      "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models",
+      "source": "The Decoder",
+      "social": {
+        "x": "El secreto de los agentes que manejan el móvil no es más datos: es más variedad de apps. OpenMobile-2 lo demuestra con 110 aplicaciones abiertas.\n\n#OpenSource #Android #OpenMobile2\nhttps://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models",
+        "linkedin": "Entrenar un agente que maneje el teléfono ha sido hasta ahora un juego cerrado. OpenMobile-2 abre la baraja: 110 aplicaciones, 35 de ellas réplicas de apps populares, y un entorno reproducible en el que 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗮𝗯𝗶𝗲𝗿𝘁𝗼𝘀 𝗾𝘂𝗲𝗱𝗮𝗻 𝗮 𝗹𝗮 𝗮𝗹𝘁𝘂𝗿𝗮 𝗱𝗲 𝗹𝗼𝘀 𝗽𝗿𝗼𝗽𝗶𝗲𝘁𝗮𝗿𝗶𝗼𝘀 𝘀𝗼𝗯𝗿𝗲 𝗔𝗻𝗱𝗿𝗼𝗶𝗱 𝗿𝗲𝗮𝗹. La lección no es acumular datos, sino variedad de aplicaciones. Para quien quiera construir agentes móviles, ahora hay una base sobre la que iterar sin pedir permiso.\n\n#OpenSource #Android #OpenMobile2\n\nhttps://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "Gemini 4 Argon optimiza por su cuenta un código de 200.000 líneas de Google",
+      "summary": "Google ha contado cómo una ejecución desatendida de once horas con Gemini 4 Argon produjo dos optimizaciones aceptadas en el Agent Development Kit: menos sobrecarga al preparar sesiones largas (un 40% menos) y un 21% menos de tiempo de importación en frío.",
+      "why_it_matters": "Es un caso real y medible de IA mejorando el rendimiento de un proyecto open source grande.",
+      "url": "https://www.infoq.com/news/2026/10/google-argon-optimizes-adk",
+      "source": "InfoQ",
+      "social": {
+        "x": "Gemini 4 Argon pasó once horas trabajando solo sobre 200.000 líneas de código de Google. Salió con dos optimizaciones aceptadas: 40% menos sobrecarga y 21% menos importación en frío.\n\n#Gemini #Google #OpenSource #AgentDevelopmentKit\nhttps://www.infoq.com/news/2026/10/google-argon-optimizes-adk",
+        "linkedin": "Una ejecución desatendida de once horas. Eso necesitó Gemini 4 Argon para encontrar dos optimizaciones en 200.000 líneas del Agent Development Kit de Google, y las dos pasaron la revisión.\n\nUn 40% menos de sobrecarga al preparar sesiones largas y un 21% menos de tiempo de importación en frío. Lo interesante no es la cifra, sino el método: 𝗹𝗮 𝗜𝗔 𝘁𝗿𝗮𝗯𝗮𝗷ó 𝘀𝗼𝗹𝗮 𝘀𝗼𝗯𝗿𝗲 𝗰ó𝗱𝗶𝗴𝗼 𝗮𝗷𝗲𝗻𝗼, 𝘀𝗶𝗻 𝗾𝘂𝗲 𝗻𝗮𝗱𝗶𝗲 𝗴𝘂𝗶𝗮𝗿𝗮 𝗲𝗹 𝗽𝗿𝗼𝗺𝗽𝘁 𝗽𝗮𝘀𝗼 𝗮 𝗽𝗮𝘀𝗼, y el resultado acabó aceptado. Para cualquier equipo con un proyecto open source grande, esto abre una vía de mantenimiento de rendimiento que hasta ahora no cabía en el backlog.\n\n#Gemini #Google #OpenSource #AgentDevelopmentKit\n\nhttps://www.infoq.com/news/2026/10/google-argon-optimizes-adk"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Goose, un lenguaje de sistemas sin heap ni recolector de basura",
+      "summary": "Goose es un lenguaje de sistemas con memoria segura que prescinde del heap, del garbage collector y de las anotaciones de lifetime: cada valor dinámico vive en una pila gestionada por el compilador. Sus autores publican benchmarks en los que supera a C++ y Rust usando menos memoria, y hay tutorial, referencia y librería estándar.",
+      "why_it_matters": "Plantea una alternativa realista a Rust para quien quiera seguridad de memoria sin su complejidad.",
+      "url": "https://aardappel.github.io/goose",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un lenguaje de sistemas dice haber superado a C++ y Rust usando menos memoria, sin heap, sin garbage collector y sin anotaciones de lifetime.\n\n#Goose #Rust #GarbageCollector #LenguajesDeSistemas\nhttps://aardappel.github.io/goose",
+        "linkedin": "Rust ganó la discusión sobre seguridad de memoria, pero nunca resolvió del todo su precio: complejidad y curva de entrada. Goose propone otra vía: 𝗲𝗹𝗶𝗺𝗶𝗻𝗮𝗿 𝗲𝗹 𝗵𝗲𝗮𝗽 𝘆 𝗲𝗹 𝗴𝗮𝗿𝗯𝗮𝗴𝗲 𝗰𝗼𝗹𝗹𝗲𝗰𝘁𝗼𝗿, dejar que el compilador gestione una pila para cada valor dinámico y quitar de la ecuación las anotaciones de lifetime. Sus autores publican benchmarks donde supera a C++ y Rust con menos memoria, y ya hay tutorial, referencia y librería estándar. Si esos números se sostienen fuera de sus propios casos, el debate deja de ser Rust sí o no y pasa a ser cuánta complejidad estamos dispuestos a pagar por la seguridad. Para quien tiene que mantener código de sistemas dentro de diez años, la respuesta no es obvia.\n\n#Goose #Rust #GarbageCollector #LenguajesDeSistemas\n\nhttps://aardappel.github.io/goose"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Astral integra uv y ty en un mismo flujo de trabajo para Python",
+      "summary": "Astral ha explicado cómo encajan uv, su gestor de paquetes y entornos, y ty, su comprobador de tipos, para trabajar juntos en un proyecto Python. La idea es que instalación, resolución de dependencias y análisis de tipos compartan información en lugar de ir cada uno por su lado.",
+      "why_it_matters": "El tooling de Python se acerca a una experiencia unificada, algo que hasta ahora no existía.",
+      "url": "https://astral.sh/blog/uv-ty-integration",
+      "source": "Lobsters",
+      "social": {
+        "x": "El tooling de Python llevaba años funcionando a trozos. Astral acaba de conectar uv y ty para que compartan información dentro del mismo proyecto.\n\n#Python #Astral #uv #ty\nhttps://astral.sh/blog/uv-ty-integration",
+        "linkedin": "El tooling de Python llevaba años funcionando a trozos. Astral acaba de conectar uv y ty dentro del mismo proyecto.\nInstalación, resolución de dependencias y análisis de tipos dejan de ser compartimentos estancos: 𝘂𝘃 𝘆 𝘁𝘆 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗲𝗻 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗰𝗶ó𝗻 𝗲𝗻 𝘃𝗲𝘇 𝗱𝗲 𝗶𝗿 𝗰𝗮𝗱𝗮 𝘂𝗻𝗼 𝗽𝗼𝗿 𝘀𝘂 𝗹𝗮𝗱𝗼. Para un equipo con una CI lenta y entornos que se desincronizan, eso no es cosmética, es menos tiempo peleando con la configuración. La pregunta abierta es otra: si una sola empresa acaba controlando el gestor de paquetes, el de tipos y el formato, ¿qué margen le queda al ecosistema para discutirle las decisiones?\n\n#Python #Astral #uv #ty\n\nhttps://astral.sh/blog/uv-ty-integration"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "Cerebras explica cómo reparte modelos de un billón de parámetros entre sus obleas",
+      "summary": "Cerebras detalla cómo divide modelos frontera de escala billonaria entre varias obleas WSE-3T, cada una con 44 GB de memoria en chip, para servir inferencia a entre 1.000 y 2.000 tokens por segundo. El ejemplo que usa es el modelo abierto Kimi.",
+      "why_it_matters": "Muestra una vía distinta a los clústeres de GPU para servir modelos enormes a gran velocidad.",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "source": "Hacker News",
+      "social": {
+        "x": "Cerebras sirve un modelo de un billón de parámetros a 2.000 tokens por segundo. Y no hay ni una GPU debajo.\n\n#Cerebras #Kimi #WSE3 #Inferencia\nhttps://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+        "linkedin": "Cerebras acaba de explicar cómo sirve un modelo de un billón de parámetros sin un solo clúster de GPU.\n\nLa receta: repartir el modelo entre varias obleas WSE-3T, cada una con 44 GB de memoria en chip, y asumir que 𝗹𝗮 𝗶𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗿á𝗽𝗶𝗱𝗮 𝗲𝘀 𝘂𝗻 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗱𝗲 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗮𝗻𝘁𝗲𝘀 𝗾𝘂𝗲 𝗱𝗲 𝗰ó𝗺𝗽𝘂𝘁𝗼. El ejemplo que usan es Kimi, un modelo abierto, y el resultado se mueve entre 1.000 y 2.000 tokens por segundo.\n\nPara quien diseña infraestructura de IA, esto abre una ruta alternativa a NVIDIA, con un ecosistema y un coste de entrada muy distintos. No es una migración que se decida en una tarde, pero sí deja de ser una curiosidad de laboratorio.\n\n#Cerebras #Kimi #WSE3 #Inferencia\n\nhttps://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "El comité de C++ rechaza C++26 en la votación de los organismos nacionales",
+      "summary": "La votación de los organismos nacionales sobre C++26 ha terminado con un resultado negativo, algo que según los implicados no tiene precedentes en el estándar. El texto tendrá que volver al comité para resolver las objeciones.",
+      "why_it_matters": "Afecta a los planes de actualización de uno de los lenguajes más usados en sistemas y videojuegos.",
+      "url": "https://www.linkedin.com/posts/robertseacord_balloting-has-completed-for-c26-unfortunately-activity-7519795140887035918-5PWL",
+      "source": "Lobsters",
+      "social": {
+        "x": "Por primera vez, los organismos nacionales han tumbado una versión del estándar C++. C++26 vuelve al comité.\n\n#CPlusPlus #Cpp26 #ISO #Compiladores\nhttps://www.linkedin.com/posts/robertseacord_balloting-has-completed-for-c26-unfortunately-activity-7519795140887035918-5PWL",
+        "linkedin": "Por primera vez, los organismos nacionales han tumbado una versión del estándar C++.\n\nC++26 vuelve al comité con las objeciones todavía sobre la mesa y sin calendario claro de publicación. Para quien mantiene código en sistemas, motores de videojuegos o toolchains de larga vida, esto no es una discusión de comité: 𝗲𝘀 𝘂𝗻𝗮 𝗮𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗾𝘂𝗲 𝘀𝗲 𝗿𝗲𝘁𝗿𝗮𝘀𝗮 𝗲𝗻 𝘂𝗻𝗼 𝗱𝗲 𝗹𝗼𝘀 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲𝘀 𝗰𝗼𝗻 𝗺á𝘀 𝗶𝗻𝗲𝗿𝗰𝗶𝗮 𝗱𝗲𝗹 𝘀𝗲𝗰𝘁𝗼𝗿. El freno llega antes de que el estándar exista, y quien planificaba migrar tendrá que decidir si espera o se queda donde está.\n\n#CPlusPlus #Cpp26 #ISO #Compiladores\n\nhttps://www.linkedin.com/posts/robertseacord_balloting-has-completed-for-c26-unfortunately-activity-7519795140887035918-5PWL"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Un estudio explica por qué el texto generado por IA cuesta más de leer",
+      "summary": "Un trabajo publicado en arXiv analiza rasgos psicolingüísticos asociados a la dificultad de procesamiento, como las cláusulas de relativo o las dependencias sintácticas largas, y encuentra que los nueve modelos frontera estudiados los usan más que las paráfrasis humanas. También abusan de sujetos inanimados con verbos animados.",
+      "why_it_matters": "Da criterios concretos para detectar y corregir un texto de IA antes de publicarlo.",
+      "url": "https://arxiv.org/abs/2610.29162",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un estudio mide nueve modelos frontera y todos fallan igual: su texto cuesta más de leer que el de un humano. Y hay señales concretas.\n\n#arXiv #LLMs #NLP #Redaccion\nhttps://arxiv.org/abs/2610.29162",
+        "linkedin": "El texto de IA no se detecta por lo que dice, sino por cómo lo dice. Un trabajo publicado en arXiv compara las paráfrasis de nueve modelos frontera con las humanas y encuentra un patrón repetido: más cláusulas de relativo, dependencias sintácticas largas y sujetos inanimados con verbos animados, justo los rasgos que encarecen el procesamiento. 𝗘𝘀𝗮 𝗰𝗮𝗿𝗴𝗮 𝘀𝗶𝗻𝘁á𝗰𝘁𝗶𝗰𝗮 𝗲𝘀 𝗺𝗲𝗱𝗶𝗯𝗹𝗲, 𝗮𝘀í 𝗾𝘂𝗲 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗰𝗼𝗿𝗿𝗲𝗴𝗶𝗿 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗽𝘂𝗯𝗹𝗶𝗰𝗮𝗿. Para quien redacta con IA a diario, la consecuencia práctica es que la revisión deja de depender del olfato: hay criterios concretos que señalan qué frases reescribir.\n\n#arXiv #LLMs #NLP #Redaccion\n\nhttps://arxiv.org/abs/2610.29162"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Jack Clark adelanta a 2027 la llegada de una IA que se mejora a sí misma",
+      "summary": "Un nuevo benchmark de P-Zero Research mide hasta qué punto los modelos diseñan y evalúan experimentos por su cuenta, y los resultados mejoran tan rápido que el cofundador de Anthropic ha movido su predicción a 2027.",
+      "why_it_matters": "Marca una fecha de referencia para el debate sobre la automatización de la investigación en IA.",
+      "url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027",
+      "source": "The Decoder",
+      "social": {
+        "x": "Jack Clark (Anthropic) ha movido su predicción: IA que se mejora a sí misma en 2027. El detonante no es un modelo nuevo, es un benchmark que mide si diseña sus propios experimentos.\n\n#Anthropic #JackClark #Benchmarks\nhttps://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027",
+        "linkedin": "Un cofundador de Anthropic acaba de mover su predicción para la IA que se mejora a sí misma a 2027, y no lo ha hecho por un modelo nuevo.\n\nEl detonante es un benchmark de P-Zero Research que mide hasta qué punto un modelo diseña y evalúa experimentos por su cuenta, sin que nadie le marque los pasos. Los resultados mejoran a un ritmo que ha bastado para revisar la fecha al alza. 𝗦𝗶 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲 𝗹𝗮 𝗶𝗻𝘃𝗲𝘀𝘁𝗶𝗴𝗮𝗰𝗶ó𝗻 𝗲𝗻 𝗜𝗔 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗲𝗹 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝗵𝘂𝗺𝗮𝗻𝗼 𝘆 𝗻𝗼 𝗹𝗮 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲 𝗰ó𝗺𝗽𝘂𝘁𝗼, 𝗲𝗹 𝗺𝗮𝗽𝗮 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗼 𝘀𝗲 𝗿𝗲𝗼𝗿𝗱𝗲𝗻𝗮: pesarán más los equipos con buenas evaluaciones internas que los que acumulen GPUs.\n\n#Anthropic #JackClark #Benchmarks\n\nhttps://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "La IA mejora al instante a los abogados junior, pero puede frenar su aprendizaje",
+      "summary": "Un experimento de campo de tres meses con 133 abogados de patentes concluye que la IA sube el rendimiento inmediato, sobre todo entre los junior, pero al retirarla solo los más veteranos conservan la mejora. Los autores sugieren que hace falta una base de experiencia para convertir el uso de la IA en habilidad duradera.",
+      "why_it_matters": "Avisa de que adoptar IA sin criterio propio puede dejar a los profesionales sin los fundamentos que necesitan.",
+      "url": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth",
+      "source": "The Decoder",
+      "social": {
+        "x": "Un experimento con 133 abogados de patentes: con IA mejoraron todos, sobre todo los junior. Al retirarla, solo los veteranos conservaban la mejora.\n\n#LegalTech #Derecho #Productividad\nhttps://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth",
+        "linkedin": "La IA mejoró a los abogados junior desde el primer día. Cuando se la quitaron, fueron los que más retrocedieron.\n\nUn experimento de campo de tres meses con 133 abogados de patentes lo deja claro: el rendimiento sube para todos, sobre todo entre los junior, pero al retirar la herramienta solo los veteranos conservan la mejora. La lectura incómoda es que 𝗹𝗮 𝗜𝗔 𝗮𝗰𝗲𝗹𝗲𝗿𝗮 𝗲𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗽𝗲𝗿𝗼 𝗻𝗼 𝘀𝘂𝘀𝘁𝗶𝘁𝘂𝘆𝗲 𝗹𝗮 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝗻𝗲𝗰𝗲𝘀𝗮𝗿𝗶𝗮 𝗽𝗮𝗿𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗿𝗹𝗼 𝗲𝗻 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝗽𝗿𝗼𝗽𝗶𝗼. Para quien forma equipos junior, la pregunta ya no es si adoptar IA, sino qué parte del oficio se está dejando de ejercitar por el camino.\n\n#LegalTech #Derecho #Productividad\n\nhttps://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "Pensilvania obligará a etiquetar los anuncios generados con IA",
+      "summary": "El gobernador Josh Shapiro ha firmado la Artificial Intelligence Deceptive Advertising Act, que exige una etiqueta en cualquier anuncio (imagen, vídeo, audio o texto) generado o modificado de forma significativa por IA, con el mismo formato del anuncio. Afecta tanto a grandes marcas como a pequeños comercios.",
+      "why_it_matters": "Es una de las primeras normas estatales que obliga a declarar el uso de IA en publicidad.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "source": "The Verge",
+      "social": {
+        "x": "Pensilvania ya obliga a etiquetar cualquier anuncio hecho con IA. Y la etiqueta tiene que tener el mismo formato que el anuncio: se acabó la letra pequeña.\n\n#PublicidadDigital #Pensilvania #Deepfakes\nhttps://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+        "linkedin": "Pensilvania ya obliga a etiquetar los anuncios hechos con IA. Y la etiqueta no puede ir escondida.\n\nLa Artificial Intelligence Deceptive Advertising Act, firmada por Josh Shapiro, exige declarar el uso de IA en cualquier pieza publicitaria, sea imagen, vídeo, audio o texto, con el mismo formato del anuncio. Afecta igual a una gran marca que al comercio de barrio, y ahí está el detalle que importa: 𝗹𝗮 𝗼𝗯𝗹𝗶𝗴𝗮𝗰𝗶ó𝗻 𝗿𝗲𝗰𝗮𝗲 𝘀𝗼𝗯𝗿𝗲 𝗾𝘂𝗶𝗲𝗻 𝗽𝘂𝗯𝗹𝗶𝗰𝗮, 𝗻𝗼 𝘀𝗼𝗯𝗿𝗲 𝗹𝗮 𝗽𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮. Para cualquier equipo de marketing, la trazabilidad de cada creatividad deja de ser una buena práctica y pasa a ser documentación obligatoria.\n\n#PublicidadDigital #Pensilvania #Deepfakes\n\nhttps://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "r/opensource prohíbe la IA y el contenido en otros idiomas y desata la polémica",
+      "summary": "El subreddit r/opensource ha estrenado reglas que vetan el contenido generado por IA y las publicaciones en idiomas distintos del inglés, entre otras restricciones. La medida ha provocado una revuelta entre sus usuarios.",
+      "why_it_matters": "Refleja la tensión creciente en las comunidades open source sobre qué aporta la IA y qué ruido genera.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "source": "The Verge",
+      "social": {
+        "x": "r/opensource veta el contenido generado por IA. Y también todo lo que no esté escrito en inglés. La revuelta dentro del subreddit no se ha hecho esperar.\n\n#OpenSource #Reddit #LLM\nhttps://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+        "linkedin": "Una comunidad open source acaba de cerrar la puerta a la IA. Y a todo lo que no se escriba en inglés.\n\nLas nuevas reglas de r/opensource vetan las publicaciones generadas por IA y las que llegan en idiomas distintos del inglés, y el subreddit ha respondido con una revuelta de usuarios. 𝗘𝗹 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗜𝗔, 𝗲𝘀 𝗲𝗹 𝗿𝘂𝗶𝗱𝗼: quien mantiene una comunidad lleva meses ahogándose entre respuestas automáticas y prompts disfrazados de aportación. Para cualquier equipo que gestione un proyecto open source, la lección es que la moderación ya no basta para pelear contra el spam, ahora también tiene que distinguir el esfuerzo real del texto generado.\n\n#OpenSource #Reddit #LLM\n\nhttps://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Los cambios de la búsqueda con IA de Google sacuden a los medios",
+      "summary": "Las respuestas generadas por IA en los resultados de Google están reduciendo el tráfico hacia los medios, y algunas editoriales ya preparan un futuro sin depender del buscador. The Verge repasa cómo está cambiando el negocio de publicar en la web.",
+      "why_it_matters": "Define el modelo de negocio de la información en internet para los próximos años.",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "source": "The Verge",
+      "social": {
+        "x": "Google empezó a contestar él mismo las búsquedas. Ya hay medios preparando su negocio para vivir sin su tráfico.\n\n#Google #AIOverviews #SEO #Periodismo\nhttps://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+        "linkedin": "El tráfico que Google enviaba a los medios se está secando, y esta vez no es un ajuste pasajero del algoritmo.\n\nLas respuestas generadas por IA en los resultados resuelven la duda dentro del buscador y el clic hacia la web cada vez tiene menos sentido para el usuario. 𝗛𝗮𝘆 𝗿𝗲𝗱𝗮𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗱𝗶𝘀𝗲ñ𝗮𝗻𝗱𝗼 𝘆𝗮 𝘀𝘂 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗻𝗲𝗴𝗼𝗰𝗶𝗼 𝘀𝗶𝗻 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲𝗹 𝗯𝘂𝘀𝗰𝗮𝗱𝗼𝗿, lo que reordena de paso quién paga por informar y con qué margen. Para quien trabaja en producto editorial, la pregunta deja de ser cómo posicionar y pasa a ser qué ofreces cuando el buscador ya no te necesita.\n\n#Google #AIOverviews #SEO #Periodismo\n\nhttps://www.theverge.com/column/1017983/google-ai-search-online-publishing"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Capcom confirma una brecha que afecta a 11,7 millones de usuarios",
+      "summary": "Capcom ha reconocido un acceso no autorizado a sus sistemas que habría expuesto datos de 11,7 millones de cuentas de Capcom ID. El servicio sigue operativo, pero la compañía avisa de un posible aumento de correos de phishing.",
+      "why_it_matters": "Recuerda que las cuentas de videojuegos son un objetivo rentable para los atacantes.",
+      "url": "https://www.engadget.com/2296218/capcom-confirms-data-breach-that-affected-117-million-users",
+      "source": "Engadget",
+      "social": {
+        "x": "Capcom confirma el acceso no autorizado a sus sistemas: 11,7 millones de cuentas de Capcom ID quedan expuestas. El siguiente paso de los atacantes llegará a tu correo.\n\n#Capcom #CapcomID #Phishing #Ciberseguridad\nhttps://www.engadget.com/2296218/capcom-confirms-data-breach-that-affected-117-million-users",
+        "linkedin": "Una cuenta de videojuegos parece poca cosa hasta que suma tarjeta, historial de compras y una contraseña que reutilizas en otros sitios.\n\nCapcom acaba de confirmar un acceso no autorizado que deja expuestas 11,7 millones de cuentas de Capcom ID, y avisa de un posible aumento de correos de phishing. El servicio sigue operativo, así que la reacción natural será no hacer nada. 𝗔𝗵í 𝗲𝘀𝘁á 𝗲𝗹 𝗲𝗿𝗿𝗼𝗿: 𝗲𝗹 𝗱𝗮ñ𝗼 𝗻𝗼 𝘃𝗶𝗲𝗻𝗲 𝗱𝗲𝗹 𝗮𝗰𝗰𝗲𝘀𝗼, 𝘃𝗶𝗲𝗻𝗲 𝗱𝗲𝗹 𝗽𝗵𝗶𝘀𝗵𝗶𝗻𝗴 𝗾𝘂𝗲 𝗹𝗼 𝗮𝗽𝗿𝗼𝘃𝗲𝗰𝗵𝗮. Si tienes cuenta, cambia la contraseña y activa el doble factor hoy, no cuando llegue el primer correo raro.\n\n#Capcom #CapcomID #Phishing #Ciberseguridad\n\nhttps://www.engadget.com/2296218/capcom-confirms-data-breach-that-affected-117-million-users"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "OpenAI ofrece descuentos de hasta el 90% para robar clientes a Anthropic",
+      "summary": "OpenAI está tentando a grandes clientes de Anthropic con rebajas de hasta el 90%, y empresas como Rippling, Replit y DataCamp aseguran haber recortado su gasto en IA tras el cambio. Anthropic crece más despacio mientras OpenAI cambia margen por cuota de mercado, con DeepSeek apretando los precios.",
+      "why_it_matters": "La guerra de precios abarata el uso de modelos, pero dibuja un mercado difícil de sostener.",
+      "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers",
+      "source": "The Decoder",
+      "social": {
+        "x": "OpenAI ya no compite con mejores modelos: compite con un 90% de descuento. Clientes de Anthropic como Replit y Rippling ya han cambiado.\n\n#OpenAI #Anthropic #DeepSeek #LLMs\nhttps://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers",
+        "linkedin": "OpenAI está dispuesta a comerse su margen con tal de quitarle clientes a Anthropic.\n\nLa oferta son rebajas de hasta el 90% para grandes cuentas, y nombres como Rippling, Replit y DataCamp ya han recortado su gasto en IA tras cambiar de proveedor. Con Anthropic creciendo más despacio y DeepSeek apretando por abajo, 𝗲𝗹 𝗽𝗿𝗲𝗰𝗶𝗼 𝘀𝗲 𝗵𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝗹𝗮 𝘃𝗮𝗿𝗶𝗮𝗯𝗹𝗲 𝗾𝘂𝗲 𝗱𝗲𝗰𝗶𝗱𝗲 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗮𝘁𝗼, no la calidad del modelo. Para quien firma estas renovaciones, la pregunta ya no es cuál responde mejor, sino cuánto tarda el proveedor de turno en igualar la bajada.\n\n#OpenAI #Anthropic #DeepSeek #LLMs\n\nhttps://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "La IA aún no da beneficios fuera del sector tecnológico",
+      "summary": "Un análisis de Apollo señala que, pese a la inversión y al ruido mediático, la inteligencia artificial no ha producido retorno financiero visible en el resto de la economía estadounidense. El texto invita a mirar con escepticismo las promesas de productividad.",
+      "why_it_matters": "Pone en duda que el gasto masivo en IA se esté traduciendo en resultados fuera de la tecnología.",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "source": "Hacker News",
+      "social": {
+        "x": "Apollo fue a buscar el retorno de la IA en el resto de la economía estadounidense. Fuera de la tecnología, no lo encontró.\n\n#InteligenciaArtificial #Productividad #Apollo\nhttps://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+        "linkedin": "La IA lleva dos años justificando presupuestos. Fuera de la tecnología, todavía no ha justificado un trimestre de resultados.\n\nUn análisis de Apollo rastrea el retorno financiero de la inteligencia artificial en la economía estadounidense y solo lo encuentra dentro del propio sector tecnológico, donde buena parte de ese gasto acaba convertido en ingresos de otros proveedores de IA. 𝗘𝗹 𝗿𝗲𝘀𝘁𝗼 𝗱𝗲 𝗹𝗮 𝗲𝗰𝗼𝗻𝗼𝗺í𝗮 𝘀𝗶𝗴𝘂𝗲 𝗽𝗮𝗴𝗮𝗻𝗱𝗼 𝗹𝗮 𝗳𝗮𝗰𝘁𝘂𝗿𝗮 𝘀𝗶𝗻 𝘃𝗲𝗿 𝗹𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝘃𝗶𝗱𝗮𝗱 𝗽𝗿𝗼𝗺𝗲𝘁𝗶𝗱𝗮. Para quien tiene que defender una partida de IA este año, la pregunta ya no es qué modelo usar, sino qué métrica del negocio va a mover y en cuánto tiempo.\n\n#InteligenciaArtificial #Productividad #Apollo\n\nhttps://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "Alternativa open source y totalmente local a ElevenLabs: clona y diseña voces, dobla vídeo, dicta, transcribe y crea audiolibros en 646 idiomas sin mandar audio a la nube. Muy útil si te preocupa la privacidad o quieres evitar suscripciones.",
+      "language": "Python",
+      "stars": 85941,
+      "social": {
+        "x": "🎙️ ElevenLabs te cobra cada mes y sube tu voz a la nube. Este repo hace lo mismo en local, con 646 idiomas, y ya suma 85.941 estrellas.\n\n#VoiceStudio #OpenSource #Python #GitHub\nhttps://github.com/debpalash/VoiceStudio",
+        "linkedin": "ELEVENLABS TE COBRA CADA MES. ESTE REPO HACE LO MISMO EN TU ORDENADOR Y NO MANDA NI UN SEGUNDO DE AUDIO A LA NUBE.\n\nVoiceStudio es una alternativa open source, self-hosted y escrita en Python a las plataformas de voz comerciales. La diferencia no es solo el precio: el audio no sale de tu máquina, así que puedes clonar una voz o dictar un documento sin preguntarte dónde acaba el archivo.\n\nLo que trae:\n→ Clonación y diseño de voces\n→ Doblaje de vídeo\n→ Dictado por voz\n→ Transcripción de audio\n→ Creación de audiolibros\n→ 646 idiomas disponibles\n\n𝗧𝗼𝗱𝗼 𝗰𝗼𝗿𝗿𝗲 𝗲𝗻 𝗹𝗼𝗰𝗮𝗹: 𝗹𝗮 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗽𝗿𝗼𝗺𝗲𝘀𝗮 𝗱𝗲 𝗺𝗮𝗿𝗸𝗲𝘁𝗶𝗻𝗴 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗼𝗻𝘀𝗲𝗰𝘂𝗲𝗻𝗰𝗶𝗮 𝗱𝗲𝗹 𝗱𝗶𝘀𝗲ñ𝗼.\n\nY hay una cifra que lo explica mejor que cualquier folleto: 85.941 estrellas en GitHub. Cuando un proyecto así se viraliza, normalmente hay un dolor real detrás, y aquí el dolor se llama suscripción mensual y audios subidos a servidores ajenos.\n\nGuárdate el post para el día que te toque revisar la factura. El repo te lo dejo abajo.\n\n#VoiceStudio #OpenSource #Python #GitHub\n\nhttps://github.com/debpalash/VoiceStudio"
+      }
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "Framework de agentes LLM que monta un equipo de trading completo (analistas, investigadores, gestores de riesgo) para explorar estrategias financieras con modelos de lenguaje. Ideal para experimentar con sistemas multiagente en un dominio exigente.",
+      "language": "Python",
+      "stars": 114064,
+      "social": {
+        "x": "114.000 estrellas para un repo que monta un equipo de trading completo con agentes LLM: analistas, investigadores y gestores de riesgo debatiendo en Python. Sin terminales de pago.\n\n#TradingAgents #AgentesLLM #Python #OpenSource\nhttps://github.com/TauricResearch/TradingAgents",
+        "linkedin": "UN EQUIPO DE TRADING ENTERO, MONTADO CON AGENTES LLM Y 114.000 ESTRELLAS.\n\nLa mayoría de demos de agentes se quedan en un chat que resume PDFs. Este repo va a un dominio donde equivocarse cuesta dinero de verdad: mercados. Y lo hace replicando la estructura de una mesa de trading real, no un único prompt haciendo de todo.\n\nLa gracia está en 𝗲𝗹 𝗿𝗲𝗽𝗮𝗿𝘁𝗼 𝗱𝗲 𝗽𝗮𝗽𝗲𝗹𝗲𝘀 𝗲𝗻𝘁𝗿𝗲 𝗮𝗴𝗲𝗻𝘁𝗲𝘀: analistas, investigadores y gestores de riesgo que trabajan sobre la misma estrategia y se tienen que poner de acuerdo.\n\nQué te encuentras si lo clonas:\n\n→ Un framework en Python para orquestar varios agentes LLM con roles diferenciados.\n→ Analistas, investigadores y gestores de riesgo como piezas separadas del sistema.\n→ Un banco de pruebas para explorar estrategias financieras con modelos de lenguaje.\n→ Un caso de estudio exigente si lo que te interesa es el diseño de sistemas multiagente.\n\nSi estás montando arquitecturas con varios agentes, aquí ves cómo se comportan cuando el dominio no perdona una alucinación. Y si vienes del mundo de las finanzas, tienes una forma barata de experimentar sin escribir tu propio motor.\n\nYo me lo guardaría antes de la próxima vez que alguien te venda «un agente que lo hace todo».\n\nEl repo, abajo.\n\n#TradingAgents #AgentesLLM #Python #OpenSource\n\nhttps://github.com/TauricResearch/TradingAgents"
+      }
+    },
+    {
+      "name": "coollabsio/coolify",
+      "url": "https://github.com/coollabsio/coolify",
+      "description": "PaaS open source y self-hosted, alternativa a Vercel, Heroku y Netlify, que te deja desplegar sitios estáticos, bases de datos y aplicaciones full-stack en tus propios servidores. Trae más de 360 servicios listos para instalar en un clic.",
+      "language": "PHP",
+      "stars": 63950,
+      "social": {
+        "x": "Vercel te cobra por cada deploy. Coolify hace lo mismo en tu propio servidor, con más de 360 servicios a un clic y 64k estrellas.\n\n#Coolify #PaaS #SelfHosted #OpenSource\nhttps://github.com/coollabsio/coolify",
+        "linkedin": "VERCEL TE COBRA POR DEPLOY. ESTE PAAS OPEN SOURCE LO HACE EN TU PROPIO SERVIDOR.\n\nCoolify acumula 63.950 estrellas en GitHub y se presenta como la alternativa self-hosted a Vercel, Heroku y Netlify. La diferencia no es solo el precio: los datos, los dominios y los backups se quedan en máquinas que controlas tú.\n\n→ Despliega sitios estáticos, bases de datos y aplicaciones full-stack desde un único panel\n→ Más de 360 servicios listos para instalar en un clic\n→ Git, Docker, SSL automático y backups sin montar nada a mano\n→ Sin ataduras de plataforma ni cuotas por asiento\n\n𝗘𝗹 𝗽𝗹𝗮𝘆𝗯𝗼𝗼𝗸 𝗱𝗲 𝗱𝗲𝗽𝗹𝗼𝘆 𝗾𝘂𝗲 𝗽𝗮𝗴𝗮𝘀 𝗲𝗻 𝘂𝗻 𝗦𝗮𝗮𝗦, 𝗮𝗾𝘂í 𝗹𝗼 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝘀 𝗲𝗻 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲.\n\nGuárdate el post: el repo está abajo.\n\n#Coolify #PaaS #SelfHosted #OpenSource\n\nhttps://github.com/coollabsio/coolify"
+      }
+    },
+    {
+      "name": "AgriciDaniel/claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Conjunto de skills y sub-agentes para Claude Code especializado en SEO: cubre SEO técnico, datos estructurados, llms.txt, la preparación de una web para agentes y la generación de informes en PDF y Excel. Una forma práctica de meter la IA en el día a día del posicionamiento.",
+      "language": "Python",
+      "stars": 20341,
+      "social": {
+        "x": "20.341 estrellas para un repo que convierte Claude Code en un SEO técnico: datos estructurados, llms.txt, auditoría y tu web lista para agentes. Sin cuota mensual.\n\n#ClaudeCode #SEO #OpenSource #Python\nhttps://github.com/AgriciDaniel/claude-seo",
+        "linkedin": "20.000 ESTRELLAS PARA UN REPO QUE CONVIERTE CLAUDE CODE EN UN SEO TÉCNICO.\n\nEl SEO técnico lleva años repartido entre herramientas de pago, hojas de cálculo y alguien que revisa canonicales a mano un viernes por la tarde. Y casi siempre acaba en un PDF que nadie vuelve a abrir.\n\nEste repo lo lleva al sitio donde ya trabajas: la terminal, con skills y sub-agentes especializados.\n\n→ SEO técnico: rastreo, indexación, canonicales y redirecciones resueltas desde el propio agente.\n→ Datos estructurados y llms.txt generados para que tu web se entienda, también por agentes.\n→ Informes en PDF y Excel listos para enseñar al cliente, sin exportar nada a mano.\n→ Skills en Python que puedes leer, copiar y adaptar a tu flujo.\n\nLa clave no es que la IA escriba por ti: 𝗲𝘀 𝗾𝘂𝗲 𝗮𝘂𝗱𝗶𝘁𝗲, 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗲 𝘆 𝘁𝗲 𝗱𝗲𝗷𝗲 𝗲𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗼𝗿𝗱𝗲𝗻𝗮𝗱𝗼 𝗲𝗻 𝗲𝗹 𝗺𝗶𝘀𝗺𝗼 𝘀𝗶𝘁𝗶𝗼 𝗱𝗼𝗻𝗱𝗲 𝘆𝗮 𝗲𝘀𝘁á𝘀.\n\nGuarda el post para tu próxima auditoría y échale un ojo al repo, que está abajo.\n\n#ClaudeCode #SEO #OpenSource #Python\n\nhttps://github.com/AgriciDaniel/claude-seo"
+      }
+    },
+    {
+      "name": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "description": "IDE ligero de JetBrains para programar con IA al estilo vibe coding, que se personaliza sobre la marcha según cómo trabajes. Interesante si quieres un entorno nativo para prompts y agentes en lugar de un plugin pegado a un editor clásico.",
+      "language": "TypeScript",
+      "stars": 1189,
+      "social": {
+        "x": "JetBrains acaba de soltar un IDE ligero pensado para vibe coding: no es un plugin pegado a tu editor, es un entorno nativo para prompts y agentes. 1.189 estrellas.\n\n#JetBrains #TypeScript #OpenSource #GitHub\nhttps://github.com/JetBrains/thinkrail",
+        "linkedin": "JETBRAINS NO QUIERE QUE SU IDE SEA UN PLUGIN MÁS DE IA.\n\nMientras medio sector se dedica a pegar asistentes sobre editores clásicos, JetBrains ha publicado Thinkrail: un IDE ligero, escrito en TypeScript, que nace con otra idea, la de 𝘂𝗻 𝗲𝗻𝘁𝗼𝗿𝗻𝗼 𝗻𝗮𝘁𝗶𝘃𝗼 𝗽𝗮𝗿𝗮 𝗽𝗿𝗼𝗺𝗽𝘁𝘀 𝘆 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 en lugar de un injerto sobre la barra lateral de siempre.\n\nLa diferencia no es cosmética. Si pasas el día lanzando prompts y revisando lo que devuelve el modelo, trabajar dentro de una herramienta que se adapta a ese flujo cambia bastante la experiencia.\n\n→ Se personaliza sobre la marcha según cómo trabajas, sin configuración previa.\n→ Pensado para vibe coding: iterar rápido con el agente y ajustar sobre la marcha.\n→ Entorno propio, no un plugin añadido a un editor que no se pensó para esto.\n→ TypeScript y open source, con 1.189 estrellas ya en GitHub.\n\nNo es la herramienta definitiva ni pretende serlo, pero sí una muestra de hacia dónde va el editor: menos escribir línea a línea y más dirigir a un agente.\n\nTe dejo el repo abajo. Guárdalo para cuando quieras probar un entorno hecho para esto desde el primer minuto.\n\n#JetBrains #TypeScript #OpenSource #GitHub\n\nhttps://github.com/JetBrains/thinkrail"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Cuando las herramientas del agente fallan, ¿por qué sigue respondiendo?",
+      "url": "https://towardsdatascience.com/agentic-ai-in-production-why-your-agent-keeps-answering-after-its-tools-fail",
+      "source": "Towards Data Science",
+      "summary": "Analiza por qué un agente al que se le rompe una tool puede seguir generando respuestas con total seguridad mientras los paneles de monitorización siguen en verde. Aprendes qué señales de fallo conviene instrumentar y cómo evitar que el agente rellene los huecos con invenciones. Útil para quien tenga agentes en producción y no quiera enterarse del problema por un cliente.",
+      "tema": "ia"
+    },
+    {
+      "title": "Por qué conviene ser más ambicioso con el software que construimos",
+      "url": "https://danluu.com/ambitious",
+      "source": "Dan Luu",
+      "summary": "Dan Luu reflexiona sobre proyectos ambiciosos, como reescribir PostgreSQL en Rust, y sobre el escepticismo que genera la marea de código generado por IA. Aprendes a distinguir una apuesta técnica seria de un experimento sin fundamento y a valorar el criterio de ingeniería por encima de la novedad. Un ensayo que se lee rápido y deja poso.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Cómo medir el radio de impacto real de actualizar una librería",
+      "url": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90",
+      "source": "Netflix Tech Blog",
+      "summary": "El equipo de Netflix cuenta cómo construyó una herramienta que va más allá de comprobar la compatibilidad de API y estima cuántos servicios y rutas de código se ven afectados por un cambio de dependencia. Aprendes a plantear las actualizaciones como un análisis de impacto medible y no como una apuesta a ciegas. Sirve igual para un monorepo pequeño que para una plataforma grande.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Stream processing sin humo: eventos, relojes y ventanas",
+      "url": "https://medium.com/@ramuji.bhargav24/real-time-analytics-and-stream-processing-dont-wait-for-the-mail-2c4bae2aea98",
+      "source": "Medium: Data Science",
+      "summary": "Parte de conceptos que se suelen dar por sabidos (eventos que llegan tarde, relojes que no coinciden, ventanas mal definidas) y los ilustra con una simulación de clics que puedes ejecutar en un minuto. Aprendes dónde se rompen de verdad los cálculos en tiempo real y qué preguntas hacer antes de montar un pipeline.",
+      "tema": "datos"
+    },
+    {
+      "title": "La función random() de CSS y el valor de lo imperfecto",
+      "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function",
+      "source": "Smashing Magazine",
+      "summary": "Explica cómo la nueva función random() de CSS permite generar variaciones, desde tipografía orgánica hasta letras que rebotan o cartas desplegadas, sin JavaScript ni bucles de preprocesador que escupan cientos de líneas de CSS estático. Aprendes a introducir aleatoriedad controlada en un design system sin romper la consistencia.",
+      "tema": "web"
+    },
+    {
+      "title": "Las reglas no escritas de la gestión de ingeniería, revisadas",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-revised-rules-of-engineering",
+      "source": "The Pragmatic Engineer",
+      "summary": "Will Larson repasa cómo la IA y los cambios del sector están redefiniendo las escalas de carrera, la gestión de equipos y el camino de ingeniero a CTO. Aprendes qué expectativas se están ajustando y cómo planificar tu desarrollo profesional con una lectura más realista de lo que se espera de ti.",
+      "tema": "carrera"
+    }
+  ]
+}
