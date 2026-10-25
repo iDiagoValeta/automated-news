@@ -8,12 +8,6 @@ permalink: "/semana/index.html"
   <h1 class="archivo__title">Esta semana</h1>
   {% set w = derived.semana %}
   {% if w.editions.length %}
-    <p class="archivo__intro">
-      Del {{ w.from | fechaCorta }} al {{ w.to | fechaCorta }}.
-      {{ w.editions.length }} edición{% if w.editions.length != 1 %}es{% endif %}
-      a partir de los JSON publicados, sin llamada al modelo.
-    </p>
-
     <section class="semana__bloque" aria-labelledby="semana-destacadas">
       <h2 id="semana-destacadas" class="semana__h2">Destacadas</h2>
       <p class="semana__ayuda">La noticia de rank 1 de cada día.</p>

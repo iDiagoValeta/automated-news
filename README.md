@@ -157,13 +157,14 @@ Las notas propias viven en `site/editorial/`, un fichero Markdown por nota. El n
 ---
 title: "Por qué escribo esto a mano"
 date: 2026-10-24
+tema: carrera
 resumen: "Una frase que aparece en el índice y en la meta description."
 ---
 
 El cuerpo de la nota, en Markdown.
 ```
 
-`title`, `date` y `resumen` son obligatorios. La fecha manda el orden del índice: de la más nueva a la más antigua. Para dejar una nota a medias sin publicarla, añade `draft: true`; el fichero sigue en el repo pero no genera página, no entra en la navegación, ni en el sitemap, ni en el buscador.
+`title`, `date` y `resumen` son obligatorios. La fecha manda el orden del índice: de la más nueva a la más antigua. `tema` es opcional y usa los mismos temas que Lecturas (`programacion`, `ia`, `web`, `datos`, `arquitectura`, `diseno`, `carrera`); es la etiqueta de la nota en el índice, y sin él la etiqueta dice «Editorial». Para dejar una nota a medias sin publicarla, añade `draft: true`; el fichero sigue en el repo pero no genera página, no entra en la navegación, ni en el sitemap, ni en el buscador.
 
 Para previsualizarla, arranca el sitio en local y abre `/automated-news/editorial/`, que es la ruta con el `pathPrefix` del sitio:
 

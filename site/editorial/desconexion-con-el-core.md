@@ -1,6 +1,7 @@
 ---
 title: "La desconexión con el core"
 date: 2026-10-24
+tema: carrera
 resumen: "Producir al ritmo de los LLM sin entender del todo lo que se produce deja una sensación incómoda, y no es solo cuestión de productividad."
 ---
 

@@ -1,31 +1,33 @@
-/* La Terminal. Estética de diario, tinta sobre papel. La separación la hace el
-   espacio, no las líneas; el color se reserva a lo interactivo. Modo claro y
-   oscuro vía prefers-color-scheme o el interruptor de tema. Textura: grano de papel + lavados tonales. */
+/* La Terminal. Estética de diario en grafito: monocromo, tinta sobre papel neutro.
+   La separación la hace el espacio, no las líneas, y lo interactivo se distingue
+   por subrayado, peso y contraste, no por color. Modo claro y oscuro vía
+   prefers-color-scheme o el interruptor de tema. Esquinas casi rectas (--radius). */
 
 :root {
-  --paper: #f7f4ec;
-  --paper-bright: #fcfaf4;
-  --paper-deep: #efe9dc;
-  --ink: #1c1a17;
-  --muted: #6c675e;
-  --faint: #ddd6c8;
-  --accent: #96650a;
+  --paper: #fafafa;
+  --paper-bright: #ffffff;
+  --paper-deep: #f0f0f0;
+  --ink: #171717;
+  --muted: #6b6b6b;
+  --faint: #e0e0e0;
+  --accent: #171717;
   --link: var(--ink);
-  --shadow: rgba(40, 32, 18, 0.1);
-  --shadow-deep: rgba(40, 32, 18, 0.18);
-  --shadow-card: rgba(40, 32, 18, 0.05);
-  --highlight: rgba(255, 252, 245, 0.7);
-  --highlight-strong: rgba(255, 252, 245, 0.85);
-  --highlight-mid: rgba(255, 252, 245, 0.55);
-  --highlight-soft: rgba(255, 252, 245, 0.65);
-  --surface-glow: rgba(255, 252, 245, 0.55);
-  --surface-glow-strong: rgba(255, 252, 245, 0.75);
-  --text-shadow-light: rgba(40, 32, 18, 0.12);
-  --vignette: rgba(40, 32, 18, 0.055);
-  --wash-cool: rgba(51, 82, 110, 0.045);
-  --wash-warm: rgba(120, 88, 48, 0.05);
-  --grain-opacity: 0.35;
-  --on-accent: #f7f4ec;
+  --shadow: rgba(0, 0, 0, 0.08);
+  --shadow-deep: rgba(0, 0, 0, 0.16);
+  --shadow-card: rgba(0, 0, 0, 0.04);
+  --highlight: rgba(255, 255, 255, 0.7);
+  --highlight-strong: rgba(255, 255, 255, 0.85);
+  --highlight-mid: rgba(255, 255, 255, 0.55);
+  --highlight-soft: rgba(255, 255, 255, 0.65);
+  --surface-glow: rgba(255, 255, 255, 0.55);
+  --surface-glow-strong: rgba(255, 255, 255, 0.75);
+  --text-shadow-light: rgba(0, 0, 0, 0.1);
+  --vignette: rgba(0, 0, 0, 0.04);
+  --wash-cool: transparent;
+  --wash-warm: transparent;
+  --grain-opacity: 0.15;
+  --on-accent: #fafafa;
+  --radius: 2px;
 
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -38,13 +40,13 @@
    forzado con el interruptor (data-theme en <html>, ver base.njk). */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #1a1814;
-    --paper-bright: #221f1a;
-    --paper-deep: #141210;
-    --ink: #e8e4dc;
-    --muted: #9a9488;
-    --faint: #3a3530;
-    --accent: #f2b705;
+    --paper: #1c1c1e;
+    --paper-bright: #242426;
+    --paper-deep: #161618;
+    --ink: #ececec;
+    --muted: #9a9a9e;
+    --faint: #333336;
+    --accent: #ececec;
     --link: var(--ink);
     --shadow: rgba(0, 0, 0, 0.28);
     --shadow-deep: rgba(0, 0, 0, 0.45);
@@ -56,11 +58,11 @@
     --surface-glow: rgba(255, 255, 255, 0.04);
     --surface-glow-strong: rgba(255, 255, 255, 0.07);
     --text-shadow-light: rgba(0, 0, 0, 0.35);
-    --vignette: rgba(0, 0, 0, 0.32);
-    --wash-cool: rgba(51, 82, 110, 0.14);
-    --wash-warm: rgba(120, 88, 48, 0.1);
-    --grain-opacity: 0.14;
-    --on-accent: #141210;
+    --vignette: rgba(0, 0, 0, 0.15);
+    --wash-cool: transparent;
+    --wash-warm: transparent;
+    --grain-opacity: 0.1;
+    --on-accent: #1c1c1e;
   }
 }
 :root[data-fuente="fraunces"] {
@@ -82,13 +84,13 @@
 }
 
 :root[data-theme="dark"] {
-  --paper: #1a1814;
-  --paper-bright: #221f1a;
-  --paper-deep: #141210;
-  --ink: #e8e4dc;
-  --muted: #9a9488;
-  --faint: #3a3530;
-  --accent: #f2b705;
+  --paper: #1c1c1e;
+  --paper-bright: #242426;
+  --paper-deep: #161618;
+  --ink: #ececec;
+  --muted: #9a9a9e;
+  --faint: #333336;
+  --accent: #ececec;
   --link: var(--ink);
   --shadow: rgba(0, 0, 0, 0.28);
   --shadow-deep: rgba(0, 0, 0, 0.45);
@@ -100,11 +102,11 @@
   --surface-glow: rgba(255, 255, 255, 0.04);
   --surface-glow-strong: rgba(255, 255, 255, 0.07);
   --text-shadow-light: rgba(0, 0, 0, 0.35);
-  --vignette: rgba(0, 0, 0, 0.32);
-  --wash-cool: rgba(51, 82, 110, 0.14);
-  --wash-warm: rgba(120, 88, 48, 0.1);
-  --grain-opacity: 0.14;
-  --on-accent: #141210;
+  --vignette: rgba(0, 0, 0, 0.15);
+  --wash-cool: transparent;
+  --wash-warm: transparent;
+  --grain-opacity: 0.1;
+  --on-accent: #1c1c1e;
 }
 :root[data-theme="light"] {
   color-scheme: light;
@@ -140,6 +142,16 @@ body {
     linear-gradient(180deg, var(--paper-deep) 0%, var(--paper) 18%, var(--paper-bright) 72%, var(--paper-deep) 100%);
 }
 
+/* Fondo de hebras fijo (initFondo en interfaz.js): por debajo del contenido y sin recibir clics. */
+.fondo {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+}
+
 /* Grano de papel fijo: da textura sin interferir con el scroll ni el clic. */
 body::before {
   content: "";
@@ -152,7 +164,7 @@ body::before {
   z-index: -1;
   pointer-events: none;
   opacity: var(--grain-opacity);
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.12 0 0 0 0 0.1 0 0 0 0 0.07 0 0 0 0.55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.1 0 0 0 0 0.1 0 0 0 0 0.1 0 0 0 0.55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-repeat: repeat;
   background-size: 180px 180px;
 }
@@ -213,7 +225,7 @@ html.cursor-retro dialog {
   margin-bottom: 0.75rem;
   padding: 0.22rem 0.55rem;
   border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--faint));
-  border-radius: 4px;
+  border-radius: var(--radius);
   background: color-mix(in srgb, var(--accent) 8%, var(--paper-bright));
   box-shadow: inset 0 1px 0 var(--highlight);
 }
@@ -439,52 +451,6 @@ html.cursor-retro dialog {
   margin: 0 0 1rem;
 }
 
-/* ---------- Repositorios hot ---------- */
-
-.repos__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 1.6rem 2rem;
-}
-.repo {
-  min-width: 0;
-  padding: 1.1rem 1.2rem;
-  border: 1px solid var(--faint);
-  border-radius: 8px;
-  background: color-mix(in srgb, var(--paper-bright) 70%, transparent);
-}
-.repo__name {
-  font-family: var(--mono);
-  font-size: 0.92rem;
-  margin: 0 0 0.6rem;
-  word-break: break-word;
-}
-.repo__name a {
-  color: var(--link);
-  text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, var(--link) 45%, transparent);
-  text-underline-offset: 3px;
-}
-.repo__name a:hover {
-  color: var(--accent);
-  text-decoration-color: var(--accent);
-}
-.repo__desc {
-  margin: 0 0 0.7rem;
-  font-size: 0.98rem;
-  line-height: 1.5;
-}
-.repo__meta {
-  display: flex;
-  gap: 0.9rem;
-  margin: 0;
-  font-family: var(--mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
 /* ---------- Navegación entre ediciones ---------- */
 
 .edicion-nav {
@@ -530,7 +496,7 @@ html.cursor-retro dialog {
   background:
     linear-gradient(180deg, var(--paper-bright), var(--paper));
   border: 1px solid var(--faint);
-  border-radius: 10px;
+  border-radius: var(--radius);
   padding: 1rem;
   box-shadow:
     inset 0 1px 0 var(--highlight-strong),
@@ -558,7 +524,7 @@ html.cursor-retro dialog {
   width: 30px;
   height: 30px;
   border: 1px solid var(--faint);
-  border-radius: 6px;
+  border-radius: var(--radius);
   background: transparent;
   color: var(--muted);
   font-size: 1.05rem;
@@ -594,7 +560,7 @@ html.cursor-retro dialog {
   justify-content: center;
   font-family: var(--mono);
   font-size: 0.76rem;
-  border-radius: 6px;
+  border-radius: var(--radius);
 }
 .calendario__celda--off {
   color: var(--faint);
@@ -745,13 +711,13 @@ html.cursor-retro dialog {
   font-size: 0.86em;
   padding: 0.1em 0.35em;
   border: 1px solid var(--faint);
-  border-radius: 4px;
+  border-radius: var(--radius);
   background: color-mix(in srgb, var(--ink) 6%, var(--paper-bright));
 }
 .prosa pre {
   padding: 1rem 1.1rem;
   border: 1px solid var(--faint);
-  border-radius: 8px;
+  border-radius: var(--radius);
   background: var(--paper-deep);
   overflow-x: auto;
 }
@@ -835,7 +801,7 @@ html.cursor-retro dialog {
 
 /* ---------- Botones de compartir ---------- */
 
-/* Pie de tarjeta: fuente (o lenguaje y estrellas) y un único botón de compartir. */
+/* Pie de tarjeta: fuente (o estrellas, o fecha) y un único botón de compartir. */
 .item-pie {
   display: flex;
   align-items: center;
@@ -860,7 +826,7 @@ html.cursor-retro dialog {
   height: 34px;
   padding: 0;
   border: 1px solid transparent;
-  border-radius: 999px;
+  border-radius: var(--radius);
   background: none;
   color: var(--muted);
   cursor: pointer;
@@ -885,7 +851,7 @@ html.cursor-retro dialog {
   min-width: 15rem;
   padding: 0.35rem;
   border: 1px solid var(--faint);
-  border-radius: 10px;
+  border-radius: var(--radius);
   background: linear-gradient(180deg, var(--paper-bright), var(--paper));
   box-shadow:
     inset 0 1px 0 var(--highlight-strong),
@@ -899,7 +865,7 @@ html.cursor-retro dialog {
   min-height: 38px;
   padding: 0 0.7rem;
   border: 0;
-  border-radius: 6px;
+  border-radius: var(--radius);
   background: none;
   color: var(--ink);
   font: inherit;
@@ -935,7 +901,7 @@ html.cursor-retro dialog {
   display: block;
   padding: 1.2rem 1.4rem;
   border: 1px solid var(--faint);
-  border-radius: 8px;
+  border-radius: var(--radius);
   text-decoration: none;
   color: inherit;
   background:
@@ -1051,7 +1017,7 @@ html.cursor-retro dialog {
   font-size: 1.15rem;
   padding: 0.65rem 0.85rem;
   border: 1px solid var(--faint);
-  border-radius: 6px;
+  border-radius: var(--radius);
   background: var(--paper-bright);
   color: var(--ink);
 }
@@ -1062,7 +1028,7 @@ html.cursor-retro dialog {
   text-transform: uppercase;
   padding: 0.65rem 1rem;
   border: 1px solid var(--accent);
-  border-radius: 6px;
+  border-radius: var(--radius);
   background: var(--accent);
   color: var(--on-accent);
   cursor: pointer;
@@ -1106,9 +1072,6 @@ html.cursor-retro dialog {
     grid-template-columns: 1fr;
     gap: 2.6rem;
   }
-  .repos__grid {
-    grid-template-columns: 1fr;
-  }
   .archivo__item a,
   .buscar-resultados__item a {
     grid-template-columns: 4.5rem 1fr;
@@ -1135,7 +1098,7 @@ html.cursor-retro dialog {
   min-height: 44px;
   padding: 0 1rem;
   border: 1px solid var(--faint);
-  border-radius: 999px;
+  border-radius: var(--radius);
   background: color-mix(in srgb, var(--paper-bright) 65%, transparent);
   box-shadow: inset 0 1px 0 var(--highlight);
   transition: color 0.15s, border-color 0.15s, background-color 0.15s;
@@ -1167,13 +1130,11 @@ html.cursor-retro dialog {
   text-wrap: balance;
 }
 .lead__summary,
-.story__summary,
-.repo__desc {
+.story__summary {
   text-wrap: pretty;
 }
 .lead__title a,
 .story__title a,
-.repo__name a,
 .source a {
   transition: color 0.15s, text-decoration-color 0.15s;
 }
@@ -1204,7 +1165,7 @@ html.cursor-retro dialog {
   bottom: 1.5rem;
   z-index: 50;
   padding: 0.6rem 1rem;
-  border-radius: 999px;
+  border-radius: var(--radius);
   background: var(--ink);
   color: var(--paper);
   font-family: var(--mono);
@@ -1229,7 +1190,7 @@ kbd {
   padding: 0.05rem 0.35rem;
   border: 1px solid var(--faint);
   border-bottom-width: 2px;
-  border-radius: 4px;
+  border-radius: var(--radius);
   font-family: var(--mono);
   font-size: 0.68em;
   line-height: 1.4;
@@ -1247,13 +1208,16 @@ kbd {
   }
 }
 
+/* La posición y el ancho los fija paleta.js a partir del botón que la abre. */
 .paleta {
-  width: min(640px, calc(100vw - 2rem));
+  position: fixed;
+  inset: 12vh auto auto 50%;
+  width: min(560px, calc(100vw - 24px));
   max-height: min(70vh, 560px);
-  margin: 12vh auto auto;
+  margin: 0;
   padding: 0;
   border: 1px solid var(--faint);
-  border-radius: 12px;
+  border-radius: var(--radius);
   background: var(--paper-bright);
   color: var(--ink);
   box-shadow: 0 24px 60px var(--shadow-deep);
@@ -1262,17 +1226,10 @@ kbd {
 .paleta[open] {
   display: flex;
   flex-direction: column;
-  animation: paleta-in 0.18s ease-out;
 }
 .paleta::backdrop {
-  background: color-mix(in srgb, var(--ink) 35%, transparent);
-  backdrop-filter: blur(3px);
-}
-@keyframes paleta-in {
-  from {
-    opacity: 0;
-    transform: translateY(-8px) scale(0.98);
-  }
+  background: color-mix(in srgb, var(--ink) 18%, transparent);
+  backdrop-filter: blur(2px);
 }
 .paleta__caja {
   display: flex;
@@ -1302,7 +1259,7 @@ kbd {
   flex-direction: column;
   gap: 0.15rem;
   padding: 0.6rem 0.75rem;
-  border-radius: 8px;
+  border-radius: var(--radius);
   text-decoration: none;
 }
 .paleta__lista [aria-selected="true"] a {
@@ -1332,6 +1289,19 @@ kbd {
   align-items: center;
 }
 
+/* ---------- Sonidos ---------- */
+
+/* Sin JS (o sin Web Audio) el botón no aparece. Apagado: altavoz tachado.
+   Encendido: con ondas y en tinta plena. */
+.sonido[hidden],
+.sonido[aria-pressed="false"] .sonido__ondas,
+.sonido[aria-pressed="true"] .sonido__mudo {
+  display: none;
+}
+.sonido[aria-pressed="true"] {
+  color: var(--ink);
+}
+
 /* ---------- Interruptor de tema (LiquidToggle) ---------- */
 
 .masthead {
@@ -1355,7 +1325,7 @@ kbd {
   width: 34px;
   height: 34px;
   border: 1px solid var(--faint);
-  border-radius: 999px;
+  border-radius: var(--radius);
   background: color-mix(in srgb, var(--paper-bright) 70%, transparent);
   color: var(--muted);
   font-family: var(--serif);
@@ -1382,7 +1352,7 @@ kbd {
   min-width: 11rem;
   padding: 0.35rem;
   border: 1px solid var(--faint);
-  border-radius: 10px;
+  border-radius: var(--radius);
   background: linear-gradient(180deg, var(--paper-bright), var(--paper));
   box-shadow:
     inset 0 1px 0 var(--highlight-strong),
@@ -1393,7 +1363,7 @@ kbd {
   min-height: 40px;
   padding: 0 0.8rem;
   border: 0;
-  border-radius: 6px;
+  border-radius: var(--radius);
   background: none;
   color: var(--ink);
   font-size: 1.05rem;
@@ -1412,7 +1382,7 @@ kbd {
   border: 0;
   background: none;
   cursor: pointer;
-  border-radius: 999px;
+  border-radius: var(--radius);
 }
 .tema__pista {
   position: relative;
@@ -1423,7 +1393,7 @@ kbd {
   height: 30px;
   padding: 0 8px;
   border: 1px solid var(--faint);
-  border-radius: 999px;
+  border-radius: var(--radius);
   background: color-mix(in srgb, var(--paper-bright) 70%, transparent);
   box-shadow: inset 0 1px 3px var(--shadow);
   color: var(--muted);
@@ -1443,7 +1413,7 @@ kbd {
   left: 3px;
   width: 22px;
   height: 22px;
-  border-radius: 999px;
+  border-radius: var(--radius);
   background: var(--accent);
   box-shadow: 0 1px 3px var(--shadow-deep), inset 0 1px 0 rgba(255, 255, 255, 0.35);
   /* Efecto líquido: la bola se estira mientras viaja y recupera su forma. */
@@ -1493,7 +1463,7 @@ html.is-cambiando-tema * {
   top: 0;
   left: 0;
   height: 2px;
-  border-radius: 2px;
+  border-radius: var(--radius);
   background: var(--accent);
   pointer-events: none;
 }
@@ -1527,7 +1497,7 @@ html.is-cambiando-tema * {
 .progreso__marca {
   flex: 1;
   height: 3px;
-  border-radius: 3px;
+  border-radius: var(--radius);
   background: color-mix(in srgb, var(--muted) 25%, transparent);
   transition: background-color 0.3s, transform 0.3s cubic-bezier(0.3, 1.6, 0.5, 1);
 }
@@ -1548,8 +1518,7 @@ html.is-cambiando-tema * {
   }
 }
 .lead,
-.story,
-.repo {
+.story {
   animation: entrada 0.55s cubic-bezier(0.2, 0.8, 0.3, 1) backwards;
   animation-delay: calc(min(var(--i, 0), 10) * 60ms);
 }
@@ -1559,7 +1528,7 @@ html.is-cambiando-tema * {
 .paleta__esqueleto {
   height: 3.1rem;
   margin: 0.3rem 0.35rem;
-  border-radius: 8px;
+  border-radius: var(--radius);
   background: linear-gradient(
     90deg,
     color-mix(in srgb, var(--faint) 55%, transparent) 25%,
@@ -1585,7 +1554,6 @@ html.is-cambiando-tema * {
 @media (prefers-reduced-motion: reduce) {
   .lead,
   .story,
-  .repo,
   .paleta__esqueleto {
     animation: none;
   }
@@ -1873,7 +1841,7 @@ html.is-cambiando-tema * {
   padding: 0.35rem;
   transform: translateX(-50%);
   border: 1px solid var(--faint);
-  border-radius: 10px;
+  border-radius: var(--radius);
   background: linear-gradient(180deg, var(--paper-bright), var(--paper));
   box-shadow:
     inset 0 1px 0 var(--highlight-strong),
@@ -1890,7 +1858,7 @@ html.is-cambiando-tema * {
   min-height: 40px;
   padding: 0 0.8rem;
   border-bottom: 0;
-  border-radius: 6px;
+  border-radius: var(--radius);
   color: var(--ink);
 }
 .has-menu .masthead__mas-panel a:hover {

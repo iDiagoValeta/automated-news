@@ -1,11 +1,12 @@
 // Paleta de búsqueda (⌘K / Ctrl+K / "/"): busca en todo el archivo desde
-// cualquier página, con navegación por teclado. Inspirada en CommandBar de Bencho.
+// cualquier página, con navegación por teclado. Inspirada en CommandBar y Seek de Bencho.
 import { searchDocs } from "./search.js";
 
 const base = new URL(import.meta.url).pathname.replace(/\/js\/paleta\.js.*$/, "");
 let index = null;
 let enCurso = null; // carga en vuelo, compartida entre llamadas concurrentes
 let dlg, input, lista, activo = 0, items = [];
+const reducido = matchMedia("(prefers-reduced-motion: reduce)");
 
 function fecha(ymd) {
   const m = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
@@ -125,10 +126,50 @@ function crear() {
   dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
 }
 
-function abrir() {
+// El botón de buscar visible que hace de origen cuando se abre con teclado.
+function origenVisible() {
+  return [...document.querySelectorAll("[data-paleta]")].find((el) => el.getClientRects().length);
+}
+
+// La caja nace donde está el botón y se despliega desde él, como un único
+// objeto (Seek de Bencho): primero el campo, hacia el lado con sitio, y luego
+// los resultados hacia abajo.
+function colocar(origen) {
+  const margen = 12;
+  const ancho = Math.min(560, innerWidth - margen * 2);
+  const r = origen?.getBoundingClientRect();
+  if (!r || !r.width) {
+    dlg.style.left = `${(innerWidth - ancho) / 2}px`;
+    dlg.style.top = "12vh";
+    dlg.style.width = `${ancho}px`;
+    return null;
+  }
+  const izquierda = r.left + r.width / 2 > innerWidth / 2
+    ? Math.max(margen, r.right - ancho)
+    : Math.min(innerWidth - margen - ancho, Math.max(margen, r.left));
+  dlg.style.left = `${izquierda}px`;
+  dlg.style.top = `${Math.max(margen, r.top - 6)}px`;
+  dlg.style.width = `${ancho}px`;
+  return r;
+}
+
+function desplegar(r) {
+  if (!r || reducido.matches || !dlg.animate) return;
+  const d = dlg.getBoundingClientRect();
+  const recorte = (v) => `${Math.max(0, v)}px`;
+  const desde = `inset(${recorte(r.top - d.top)} ${recorte(d.right - r.right)} ${recorte(d.bottom - r.bottom)} ${recorte(r.left - d.left)})`;
+  dlg.animate(
+    [{ clipPath: desde, opacity: 0.4 }, { clipPath: "inset(0 0 0 0)", opacity: 1 }],
+    { duration: 380, easing: "cubic-bezier(0.2, 0.9, 0.25, 1)" },
+  );
+}
+
+function abrir(origen = origenVisible()) {
   if (!dlg) crear();
   if (dlg.open) return;
+  const r = colocar(origen);
   dlg.showModal();
+  desplegar(r);
   input.select();
   buscar();
 }
@@ -140,5 +181,6 @@ document.addEventListener("keydown", (e) => {
   else if (e.key === "/" && !escribiendo) { e.preventDefault(); abrir(); }
 });
 document.addEventListener("click", (e) => {
-  if (e.target.closest("[data-paleta]")) { e.preventDefault(); abrir(); }
+  const origen = e.target.closest("[data-paleta]");
+  if (origen) { e.preventDefault(); abrir(origen); }
 });

@@ -588,6 +588,35 @@ test("el interruptor de tema cambia data-theme", async () => {
   await contexto.close();
 });
 
+test("la búsqueda se despliega desde el botón que la abre", async () => {
+  const { contexto, pagina, problemas } = await abrir("");
+  const boton = pagina.locator(".masthead__nav .masthead__buscar");
+  const b = await boton.boundingBox();
+  await boton.click();
+  await pagina.locator("dialog.paleta[open]").waitFor();
+  const d = await pagina.locator("dialog.paleta").boundingBox();
+  // Anclada al botón: a su altura y, al estar en la mitad derecha, alineada por su borde derecho.
+  assert.ok(Math.abs(d.y - (b.y - 6)) <= 1, `la caja no nace a la altura del botón (${d.y} frente a ${b.y})`);
+  assert.ok(Math.abs(d.x + d.width - (b.x + b.width)) <= 1, "la caja no se alinea con el borde derecho del botón");
+  assert.deepEqual(problemas, []);
+  await contexto.close();
+});
+
+test("sonidos: apagados por defecto, el botón los enciende, carga la música y se recuerda", async () => {
+  const { contexto, pagina, problemas } = await abrir("");
+  const boton = pagina.locator(".sonido");
+  assert.equal(await boton.getAttribute("aria-pressed"), "false");
+  // La música solo se descarga al encender el sonido.
+  const musica = pagina.waitForResponse((r) => r.url().includes("/js/musica.js"));
+  await boton.click();
+  assert.equal((await musica).status(), 200);
+  assert.equal(await boton.getAttribute("aria-pressed"), "true");
+  await pagina.reload();
+  assert.equal(await pagina.locator(".sonido").getAttribute("aria-pressed"), "true");
+  assert.deepEqual(problemas, []);
+  await contexto.close();
+});
+
 test("copiar el texto social de X deja en el portapapeles el de la primera tarjeta con X", async () => {
   // Se lee de la edición más reciente (la que publica la portada) en vez de copiarlo literal.
   // La web ordena por rank y solo pinta el botón de X donde hay texto para X (los posts son

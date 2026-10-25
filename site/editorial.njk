@@ -13,16 +13,22 @@ permalink: "/editorial/index.html"
     {% for nota in notas %}
       {% if loop.first %}
         <article class="lead">
-          <span class="kicker"><time datetime="{{ nota.data.fechaISO }}">{{ nota.data.fechaISO | fechaLarga }}</time></span>
+          <span class="kicker">{{ nota.data.tema | tema if nota.data.tema else "Editorial" }}</span>
           <h2 class="lead__title"><a href="{{ nota.url | url }}">{{ nota.data.title }}</a></h2>
           <p class="lead__summary">{{ nota.data.resumen }}</p>
+          <div class="item-pie">
+            <p class="source"><time datetime="{{ nota.data.fechaISO }}">{{ nota.data.fechaISO | fechaLarga }}</time></p>
+          </div>
         </article>
         {% if notas.length > 1 %}<div class="stories">{% endif %}
       {% else %}
         <article class="story" style="--i: {{ loop.index0 }}">
-          <span class="kicker"><time datetime="{{ nota.data.fechaISO }}">{{ nota.data.fechaISO | fechaLarga }}</time></span>
+          <span class="kicker">{{ nota.data.tema | tema if nota.data.tema else "Editorial" }}</span>
           <h3 class="story__title"><a href="{{ nota.url | url }}">{{ nota.data.title }}</a></h3>
           <p class="story__summary">{{ nota.data.resumen }}</p>
+          <div class="item-pie">
+            <p class="source"><time datetime="{{ nota.data.fechaISO }}">{{ nota.data.fechaISO | fechaLarga }}</time></p>
+          </div>
         </article>
         {% if loop.last %}</div>{% endif %}
       {% endif %}

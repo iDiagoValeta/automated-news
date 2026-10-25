@@ -23,4 +23,5 @@ export default {
   buscar: hash("js/buscar.js"),
   paleta: hash("js/paleta.js"),
   interfaz: hash("js/interfaz.js"),
+  musica: hash("js/musica.js"),
 };
