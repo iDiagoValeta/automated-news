@@ -1,0 +1,355 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T16:47:11.964Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Cloudflare estrena Auto Router, que elige modelo de IA para cada petición",
+      "summary": "Cloudflare ha abierto en beta pública Auto Router dentro de AI Gateway, un clasificador que puntúa cada petición según complejidad, ambigüedad, riesgo y dependencia del contexto, y elige el modelo más adecuado. En sus propias pruebas queda unos diez puntos por debajo de Claude Opus 5.5 en tasa de éxito, pero a un tercio del coste.",
+      "why_it_matters": "Permite recortar la factura de tokens sin cambiar de proveedor ni reescribir la aplicación.",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-auto-router",
+      "source": "InfoQ",
+      "social": {
+        "x": "Cloudflare ya elige el modelo por ti: 10 puntos menos de acierto que Opus 5.5, pero a un tercio del coste. Y sin tocar tu código.\n\n#Cloudflare #AIGateway #LLM\nhttps://www.infoq.com/news/2026/10/cloudflare-auto-router",
+        "linkedin": "Pagar el modelo más caro para cada petición es tirar dinero, y Cloudflare acaba de convertir esa decisión en algo automático.\n\nAuto Router entra en beta pública dentro de AI Gateway: puntúa cada petición por complejidad, ambigüedad, riesgo y dependencia del contexto, y manda la fácil a un modelo más barato. En sus propias pruebas queda unos diez puntos por debajo de Claude Opus 5.5 en tasa de éxito, pero 𝗮 𝘂𝗻 𝘁𝗲𝗿𝗰𝗶𝗼 𝗱𝗲𝗹 𝗰𝗼𝘀𝘁𝗲, sin cambiar de proveedor ni reescribir la aplicación. La pregunta incómoda para cualquier equipo con producto en producción: si buena parte de vuestro tráfico no necesita el modelo grande, ¿por qué lo estáis pagando?\n\n#Cloudflare #AIGateway #LLM\n\nhttps://www.infoq.com/news/2026/10/cloudflare-auto-router"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Google y Meta liberan TorchTPU, backend nativo de PyTorch para TPUs",
+      "summary": "En la PyTorch Conference North America 2026, Google y Meta han publicado TorchTPU, un backend de código abierto que permite ejecutar PyTorch de forma nativa sobre TPUs. Meta planea mover cargas grandes de LLM a estas unidades, y AWS presentó en la misma semana TorchNeuron para Trainium.",
+      "why_it_matters": "Rompe la dependencia exclusiva de CUDA y abre otra vía para entrenar y servir modelos a gran escala.",
+      "url": "https://www.infoq.com/news/2026/10/google-meta-torchtpu",
+      "source": "InfoQ",
+      "social": {
+        "x": "PyTorch ya corre nativo sobre TPU. Google y Meta lo acaban de liberar en abierto, la misma semana en que AWS hace lo propio con Trainium.\n\n#PyTorch #TPU #CUDA #Trainium\nhttps://www.infoq.com/news/2026/10/google-meta-torchtpu",
+        "linkedin": "CUDA deja de ser el único camino cómodo para entrenar a gran escala.\n\nGoogle y Meta han publicado TorchTPU, un backend open source que ejecuta PyTorch de forma nativa sobre TPUs, y Meta ya planea mover cargas grandes de LLM a estas unidades. En la misma semana, AWS presentó TorchNeuron para Trainium, así que 𝗲𝗹 𝗳𝗿𝗲𝗻𝘁𝗲 𝗮𝗯𝗶𝗲𝗿𝘁𝗼 𝗰𝗼𝗻𝘁𝗿𝗮 𝗲𝗹 𝗺𝗼𝗻𝗼𝗽𝗼𝗹𝗶𝗼 𝗱𝗲 𝗖𝗨𝗗𝗔 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘂𝗻 𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁𝗼 𝗮𝗶𝘀𝗹𝗮𝗱𝗼. Para los equipos de ML, la lectura práctica es que la portabilidad entre aceleradores pasa a ser un criterio de arquitectura y no un detalle de infraestructura: quien tenga el modelo atado a un solo proveedor, tendrá menos margen para negociar precio y capacidad.\n\n#PyTorch #TPU #CUDA #Trainium\n\nhttps://www.infoq.com/news/2026/10/google-meta-torchtpu"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Google publica ML Drift, motor GPU open source para inferencia en el dispositivo",
+      "summary": "ML Drift es un motor de cómputo en GPU multiplataforma, con licencia Apache 2.0, pensado para inferencia de IA en el dispositivo. Abstrae las diferencias entre GPUs y APIs de bajo nivel, con soporte de OpenGL ES, OpenCL, Metal y WebGPU.",
+      "why_it_matters": "Facilita llevar modelos a móviles y equipos sin escribir una capa distinta para cada GPU.",
+      "url": "https://www.infoq.com/news/2026/10/google-ml-drift",
+      "source": "InfoQ",
+      "social": {
+        "x": "Correr IA en el móvil deja de ser un problema de GPUs: Google libera ML Drift, un motor Apache 2.0 que habla OpenCL, Metal y WebGPU con la misma API.\n\n#MLDrift #WebGPU #OpenSource #Google\nhttps://www.infoq.com/news/2026/10/google-ml-drift",
+        "linkedin": "El cuello de botella de la IA en el dispositivo nunca fue el modelo. Era la GPU.\n\nGoogle acaba de publicar ML Drift, un motor de cómputo en GPU open source con licencia Apache 2.0 que abstrae las diferencias entre OpenGL ES, OpenCL, Metal y WebGPU. 𝗨𝗻𝗮 𝘀𝗼𝗹𝗮 𝗰𝗮𝗽𝗮 𝗱𝗲 𝗶𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗽𝗮𝗿𝗮 𝗺ó𝘃𝗶𝗹, 𝗽𝗼𝗿𝘁á𝘁𝗶𝗹 𝘆 𝗻𝗮𝘃𝗲𝗴𝗮𝗱𝗼𝗿 en vez de una implementación por plataforma. Para quien mantiene apps con modelos locales, esto se lleva por delante buena parte del trabajo sucio de portabilidad; la duda real es si el resto del ecosistema lo adopta o seguimos con tres caminos paralelos.\n\n#MLDrift #WebGPU #OpenSource #Google\n\nhttps://www.infoq.com/news/2026/10/google-ml-drift"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "Cómo llegar al 100% de acierto en tool calls con vLLM",
+      "summary": "Ubicloud explica cómo mantenía un fork propio de vLLM para que los modelos abiertos de Kimi y DeepSeek respetaran los esquemas de tool calls. Con la decodificación restringida que incorpora vLLM 0.31 se alcanza el 100% de adherencia al esquema sin mantener parches propios.",
+      "why_it_matters": "Un fallo en la llamada a herramientas rompe toda la sesión del agente, así que la fiabilidad del esquema importa tanto como la calidad del modelo.",
+      "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+      "source": "Hacker News",
+      "social": {
+        "x": "Tu agente no falla por el modelo: falla porque la tool call no respeta el esquema. vLLM 0.31 llega al 100% de adherencia y ya no hace falta un fork propio.\n\n#vLLM #OpenSource #DeepSeek #Kimi\nhttps://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+        "linkedin": "Mantener un fork propio de vLLM solo para que el modelo no rompiera el esquema de tool calls. Eso hacía Ubicloud, y ya no le hace falta.\n\nCon la decodificación restringida que trae vLLM 0.31, Kimi y DeepSeek alcanzan 𝗲𝗹 𝟭𝟬𝟬% 𝗱𝗲 𝗮𝗱𝗵𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗮𝗹 𝗲𝘀𝗾𝘂𝗲𝗺𝗮 sin parches caseros ni mantenimiento paralelo. El detalle importa más de lo que parece: una sola llamada mal formada tumba la sesión entera del agente, así que la fiabilidad del formato pesa tanto como la calidad del modelo. Si sigues cargando con tu propio fork para esto, la pregunta ya no es si migrar, sino cuánto vas a tardar.\n\n#vLLM #OpenSource #DeepSeek #Kimi\n\nhttps://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "El SDK de MCP para C# se vuelve stateless por defecto en su versión 2.0",
+      "summary": "Microsoft ha publicado la versión 2.0 del SDK oficial de MCP para C#, que implementa la revisión 2026-07-28 del protocolo con servidores HTTP sin estado por defecto, cabeceras de enrutado estandarizadas y peticiones de múltiples idas y vueltas. Las versiones 2.1 a 2.3 añaden sesiones híbridas, gestión de suscripciones y correcciones de OAuth.",
+      "why_it_matters": "Desplegar servidores MCP en infraestructura serverless o detrás de balanceadores resulta mucho más sencillo.",
+      "url": "https://www.infoq.com/news/2026/10/MCP-CSharp-SDK-Stateless",
+      "source": "InfoQ",
+      "social": {
+        "x": "El SDK de MCP para C# se vuelve stateless por defecto. Lo que antes te obligaba a mantener sesiones, ahora se despliega en serverless sin malabares.\n\n#MCP #CSharp #DotNet #Microsoft\nhttps://www.infoq.com/news/2026/10/MCP-CSharp-SDK-Stateless",
+        "linkedin": "El SDK de MCP para C# acaba de quitarle el estado a los servidores por defecto.\n\nCon la versión 2.0, Microsoft implementa la revisión 2026-07-28 del protocolo: HTTP sin estado, cabeceras de enrutado estandarizadas y peticiones de múltiples idas y vueltas. 𝗗𝗲𝘀𝗽𝗹𝗲𝗴𝗮𝗿 𝘂𝗻 𝘀𝗲𝗿𝘃𝗶𝗱𝗼𝗿 𝗠𝗖𝗣 𝗲𝗻 𝘀𝗲𝗿𝘃𝗲𝗿𝗹𝗲𝘀𝘀 𝗼 𝗱𝗲𝘁𝗿á𝘀 𝗱𝗲 𝘂𝗻 𝗯𝗮𝗹𝗮𝗻𝗰𝗲𝗮𝗱𝗼𝗿 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗲𝗷𝗲𝗿𝗰𝗶𝗰𝗶𝗼 𝗱𝗲 𝗶𝗻𝗴𝗲𝗻𝗶𝗲𝗿í𝗮. Si mantienes integraciones con modelos en .NET, toca revisar cómo gestionas las sesiones: las versiones 2.1 a 2.3 ya añaden sesiones híbridas y correcciones de OAuth para los casos que sí necesitan estado.\n\n#MCP #CSharp #DotNet #Microsoft\n\nhttps://www.infoq.com/news/2026/10/MCP-CSharp-SDK-Stateless"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "investigacion",
+      "title": "Una CNN de hace diez años supera a los mejores LLM al detectar cáncer de piel",
+      "summary": "El dermatólogo Magnus Lynch comparó GPT-6 Astra y Claude Fable 5.1 con una red convolucional de hace una década a la hora de diagnosticar cáncer de piel a partir de imágenes clínicas. Los modelos de lenguaje quedaron por debajo de lo esperado y la CNN antigua fue más precisa.",
+      "why_it_matters": "Recuerda que en imagen médica un modelo pequeño y especializado puede batir a un LLM generalista, y que conviene validar antes de sustituir sistemas en producción.",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "source": "Hacker News",
+      "social": {
+        "x": "Una CNN de hace diez años acaba de ganar a GPT-6 y a Claude diagnosticando cáncer de piel. En imagen médica, lo pequeño y especializado sigue mandando.\n\n#MachineLearning #DeepLearning #SaludDigital #ValidacionDeModelos\nhttps://lynchlab.net/llm-skin-cancer",
+        "linkedin": "Mientras todos discutimos qué LLM es el más listo, una red convolucional de hace una década acaba de ganarle la partida en algo que importa de verdad: detectar cáncer de piel.\nEl dermatólogo Magnus Lynch puso a GPT-6 Astra y Claude Fable 5.1 frente a esa CNN antigua usando imágenes clínicas, y los modelos generalistas quedaron por debajo en precisión. 𝗨𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗽𝗲𝗾𝘂𝗲ñ𝗼 𝘆 𝗲𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗶𝘇𝗮𝗱𝗼 𝘀𝗶𝗴𝘂𝗲 𝗯𝗮𝘁𝗶𝗲𝗻𝗱𝗼 𝗮𝗹 𝗴𝗲𝗻𝗲𝗿𝗮𝗹𝗶𝘀𝘁𝗮 𝗰𝘂𝗮𝗻𝗱𝗼 𝗲𝗹 𝗱𝗼𝗺𝗶𝗻𝗶𝗼 𝗲𝘀 𝗲𝘅𝗶𝗴𝗲𝗻𝘁𝗲, y eso debería frenar cualquier sustitución de sistemas en producción sin una validación previa. Si en tu equipo alguien propone cambiar un modelo de imagen médica por un LLM porque «es más moderno», este resultado es la conversación que toca tener antes de tocar nada.\n\n#MachineLearning #DeepLearning #SaludDigital #ValidacionDeModelos\n\nhttps://lynchlab.net/llm-skin-cancer"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Aiven propone un LLM gateway para controlar el gasto en tokens",
+      "summary": "La empresa europea de open source Aiven plantea un gateway intermedio entre las aplicaciones y los proveedores de LLM, con la idea de hacer con los modelos lo que ya hace con las bases de datos. El objetivo es centralizar el enrutado, el control de acceso y el consumo de tokens.",
+      "why_it_matters": "Un punto único de control evita que cada equipo negocie y mida su gasto de IA por su cuenta.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/26/euro-open-source-specialist-proposes-llm-gateway-to-ease-token-bills/5305170",
+      "source": "The Register",
+      "social": {
+        "x": "Tu empresa paga tres contratos de LLM y nadie sabe cuánto se gasta en tokens. Aiven quiere meter un gateway en medio para centralizarlo.\n\n#Aiven #OpenSource #LLMOps\nhttps://www.theregister.com/ai-and-ml/2026/10/26/euro-open-source-specialist-proposes-llm-gateway-to-ease-token-bills/5305170",
+        "linkedin": "Nadie en tu empresa sabe cuánto se gasta en tokens. Y no es un problema de factura, es de arquitectura.\n\nAiven propone un gateway entre las aplicaciones y los proveedores de LLM que centraliza enrutado, control de acceso y consumo. 𝗨𝗻 ú𝗻𝗶𝗰𝗼 𝗽𝘂𝗻𝘁𝗼 𝗱𝗲 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗲𝗻 𝘃𝗲𝘇 𝗱𝗲 𝘂𝗻𝗮 𝗻𝗲𝗴𝗼𝗰𝗶𝗮𝗰𝗶ó𝗻 𝗽𝗼𝗿 𝗲𝗾𝘂𝗶𝗽𝗼. Es la misma jugada que ya hizo con las bases de datos: si todo el tráfico pasa por ahí, las políticas y el gasto se ven en un solo sitio. Para quien tiene ya tres o cuatro proveedores en producción, la pregunta deja de ser qué modelo usar y pasa a ser quién decide y quién paga.\n\n#Aiven #OpenSource #LLMOps\n\nhttps://www.theregister.com/ai-and-ml/2026/10/26/euro-open-source-specialist-proposes-llm-gateway-to-ease-token-bills/5305170"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "investigacion",
+      "title": "De cadenas a grafos y código: la evolución de los harness para agentes",
+      "summary": "Un artículo de InfoQ repasa cómo los sistemas agénticos han pasado de cadenas de prompts lineales a flujos en grafo y, más recientemente, a harness que ejecutan código y verifican resultados. La recomendación es validar siempre las salidas y escoger el diseño menos complejo que cumpla los requisitos de fiabilidad, velocidad y coste.",
+      "why_it_matters": "Da criterios concretos para no sobreingenierizar un agente antes de que el caso de uso lo pida.",
+      "url": "https://www.infoq.com/articles/agentic-ai-architecture-harness-evolution",
+      "source": "InfoQ",
+      "social": {
+        "x": "La mayoría de agentes no fallan por el modelo. Fallan por el harness que los envuelve. El consenso se mueve: de cadenas de prompts a grafos y código que verifica.\n\n#LLM #AgenticAI #PromptEngineering #InfoQ\nhttps://www.infoq.com/articles/agentic-ai-architecture-harness-evolution",
+        "linkedin": "Tu agente no falla por el modelo. Falla por el harness que lo envuelve.\nDurante un tiempo bastaba con encadenar prompts en línea; luego llegaron los flujos en grafo para ramificar y reintentar; y ahora gana terreno el harness que ejecuta código y comprueba el resultado antes de devolverlo. InfoQ repasa esa evolución y deja una regla incómoda: 𝗲𝗹𝗶𝗴𝗲 𝗲𝗹 𝗱𝗶𝘀𝗲ñ𝗼 𝗺𝗲𝗻𝗼𝘀 𝗰𝗼𝗺𝗽𝗹𝗲𝗷𝗼 𝗾𝘂𝗲 𝗰𝘂𝗺𝗽𝗹𝗮 𝘁𝘂𝘀 𝗿𝗲𝗾𝘂𝗶𝘀𝗶𝘁𝗼𝘀 𝗱𝗲 𝗳𝗶𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱, 𝘃𝗲𝗹𝗼𝗰𝗶𝗱𝗮𝗱 𝘆 𝗰𝗼𝘀𝘁𝗲, no el más vistoso. Para quien tiene agentes en producción, esto reordena las prioridades: primero validar las salidas, después discutir la arquitectura.\n\n#LLM #AgenticAI #PromptEngineering #InfoQ\n\nhttps://www.infoq.com/articles/agentic-ai-architecture-harness-evolution"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "La IA entra en el código COBOL que sostienen bancos y administraciones",
+      "summary": "The Verge repasa el problema del software legado en COBOL que mantiene al IRS, bancos, aerolíneas e infraestructuras públicas, y cómo OpenAI y otros proveedores han empezado a ofrecer herramientas para migrarlo. La promesa es traducir y documentar código que casi nadie se atreve a tocar.",
+      "why_it_matters": "Es uno de los nichos donde la IA generativa puede tener un retorno medible, porque el coste de no hacer nada es enorme.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+      "source": "The Verge",
+      "social": {
+        "x": "El código que mueve el IRS, la banca y las aerolíneas tiene décadas, casi nadie se atreve a tocarlo y ahora la IA quiere reescribirlo.\n\n#COBOL #OpenAI #LegacyCode #Banca\nhttps://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+        "linkedin": "El software que sostiene al IRS, a los bancos y a las aerolíneas está escrito en COBOL, y casi nadie se atreve a tocarlo. OpenAI y otros proveedores han empezado a ofrecer herramientas para traducirlo y documentarlo.\n\nEl atractivo no es la potencia del modelo, sino que 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗻𝗼 𝗵𝗮𝗰𝗲𝗿 𝗻𝗮𝗱𝗮 𝗲𝘀 𝗲𝗻𝗼𝗿𝗺𝗲: cada año cuesta más encontrar a alguien capaz de mantener ese código. La IA generativa no va a sustituir a esos ingenieros, pero sí puede asumir la parte más ingrata, leer, documentar y traducir lo que nadie quiere leer. Para quien venda servicios a banca o administración pública, es un nicho con retorno medible y poca competencia.\n\n#COBOL #OpenAI #LegacyCode #Banca\n\nhttps://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "PHP publica parches para dos fallos críticos de ejecución remota ya explotados",
+      "summary": "Las versiones 8.5.12, 8.4.27, 8.3.36 y 8.2.35 de PHP corrigen dos vulnerabilidades críticas que permiten ejecución remota de código sin autenticación. Amazon registró un intento de explotación cuatro días antes de que los parches estuvieran disponibles.",
+      "why_it_matters": "Cualquier servicio en PHP expuesto a internet debería actualizarse ya, porque la explotación ya está en marcha.",
+      "url": "https://www.infoq.com/news/2026/10/php-critical-rce-patches",
+      "source": "InfoQ",
+      "social": {
+        "x": "Amazon registró un intento de explotar PHP cuatro días antes de que existiera el parche. Si tienes algo expuesto a internet, hoy toca actualizar.\n\n#PHP #Ciberseguridad #OpenSource\nhttps://www.infoq.com/news/2026/10/php-critical-rce-patches",
+        "linkedin": "Amazon detectó un intento de explotación de PHP cuatro días antes de que hubiera parche disponible. Ese es el margen real con el que trabaja quien mantiene servicios expuestos a internet.\n\nLas versiones 8.5.12, 8.4.27, 8.3.36 y 8.2.35 corrigen dos fallos de ejecución remota de código que no piden autenticación. Como la explotación ya está en marcha, 𝗹𝗮 𝘃𝗲𝗻𝘁𝗮𝗻𝗮 𝗽𝗮𝗿𝗮 𝗮𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗿 𝗻𝗼 𝘀𝗲 𝗺𝗶𝗱𝗲 𝗲𝗻 𝘀𝗲𝗺𝗮𝗻𝗮𝘀, 𝘀𝗲 𝗺𝗶𝗱𝗲 𝗲𝗻 𝗵𝗼𝗿𝗮𝘀. Y merece la pena recordar que PHP sigue sosteniendo buena parte de la web: el riesgo no está en el lenguaje, está en las instancias que llevan meses sin tocarse.\n\n#PHP #Ciberseguridad #OpenSource\n\nhttps://www.infoq.com/news/2026/10/php-critical-rce-patches"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "Stalwart llega a la 1.0 con un servidor de correo más rápido que Postfix y Dovecot",
+      "summary": "Cinco años después de la primera línea de código, Stalwart publica su versión 1.0 con esquema de base de datos definitivo, motor de búsqueda reescrito y meses de pruebas de carga. En sus benchmarks supera a Postfix y Dovecot en 35 de 38 pruebas.",
+      "why_it_matters": "Es una alternativa moderna y self-hosted para quien quiere montar su propio servidor de correo.",
+      "url": "https://stalw.art/blog/stalwart-1-0",
+      "source": "Lobsters",
+      "social": {
+        "x": "Postfix y Dovecot llevan décadas sin rival claro. Stalwart acaba de llegar a la 1.0 y les gana en 35 de 38 pruebas.\n\n#Stalwart #Postfix #Dovecot #SelfHosted\nhttps://stalw.art/blog/stalwart-1-0",
+        "linkedin": "Montar tu propio servidor de correo siempre ha sido terreno de veteranos y de muchas horas perdidas. Stalwart acaba de llegar a la 1.0 tras cinco años de desarrollo y, en sus propios benchmarks, supera a Postfix y Dovecot en 35 de 38 pruebas.\n\nEsquema de base de datos definitivo, motor de búsqueda reescrito y meses de pruebas de carga: lo que era un proyecto prometedor ya tiene forma de alternativa self-hosted seria. Los números son suyos y habrá que confirmarlos en producción real, pero 𝗽𝗮𝗿𝗮 𝗾𝘂𝗶𝗲𝗻 𝘀𝗲 𝗽𝗹𝗮𝗻𝘁𝗲𝗮𝗯𝗮 𝗺𝗼𝗻𝘁𝗮𝗿 𝘀𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 𝗰𝗼𝗿𝗿𝗲𝗼, 𝗹𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝗰𝗶ó𝗻 𝗵𝗮 𝗰𝗮𝗺𝗯𝗶𝗮𝗱𝗼.\n\nY conviene mirarlo con calma: el correo es la infraestructura que menos se renueva y la que más duele cuando falla.\n\n#Stalwart #Postfix #Dovecot #SelfHosted\n\nhttps://stalw.art/blog/stalwart-1-0"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "Wails v3.0.0 sale del horno para crear aplicaciones de escritorio con Go",
+      "summary": "El framework Wails publica su versión 3.0.0, la rama con la que se pueden construir aplicaciones de escritorio usando Go y una capa web en la interfaz. La nueva versión llega tras un largo periodo de desarrollo.",
+      "why_it_matters": "Da a los equipos de Go una vía para publicar apps nativas de escritorio sin cambiar de lenguaje.",
+      "url": "https://v3.wails.io/blog/wails-v3-released",
+      "source": "Lobsters",
+      "social": {
+        "x": "Llevas años escribiendo Go para el backend. Wails 3.0 ya convierte ese mismo código en una app de escritorio nativa.\n\n#Wails #Golang #OpenSource\nhttps://v3.wails.io/blog/wails-v3-released",
+        "linkedin": "Go nunca ha tenido una historia cómoda para el escritorio. Wails 3.0 acaba de cambiarla.\n\nEl framework sale por fin de un desarrollo larguísimo con una propuesta conocida: backend en Go, interfaz con HTML, CSS y el framework web que prefieras, y un binario único. 𝗨𝗻 𝗲𝗾𝘂𝗶𝗽𝗼 𝗱𝗲 𝗚𝗼 𝗽𝘂𝗲𝗱𝗲 𝗽𝘂𝗯𝗹𝗶𝗰𝗮𝗿 𝘂𝗻𝗮 𝗮𝗽𝗽 𝗱𝗲 𝗲𝘀𝗰𝗿𝗶𝘁𝗼𝗿𝗶𝗼 𝘀𝗶𝗻 𝗰𝗮𝗺𝗯𝗶𝗮𝗿 𝗱𝗲 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲 𝗻𝗶 𝗱𝗲 𝘁𝗼𝗼𝗹𝗰𝗵𝗮𝗶𝗻, algo que hasta ahora se resolvía con Electron y una capa de Node de por medio. No va a desbancar a Electron en adopción, pero para herramientas internas y utilidades de sistema es una vía muy razonable. Si mantienes un CLI en Go y llevas tiempo dándole vueltas a una GUI, es el momento de mirarlo.\n\n#Wails #Golang #OpenSource\n\nhttps://v3.wails.io/blog/wails-v3-released"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "lanzamientos",
+      "title": "El iPad mini se pasa al OLED y al chip A20",
+      "summary": "Apple ha anunciado un nuevo iPad mini con pantalla OLED de 8,5 pulgadas, chip A20 y un cuerpo de 5,4 mm, más fino y ligero que el anterior. Los precios parten de 699 dólares en la versión solo Wi-Fi y 849 en la cellular, y el anuncio llega días antes de su evento del miércoles.",
+      "why_it_matters": "El salto al OLED era la mejora más pedida en la gama pequeña de tablets.",
+      "url": "https://www.theverge.com/tech/1017801/ipad-mini-oled-display-apple-announce",
+      "source": "The Verge",
+      "social": {
+        "x": "El iPad mini ya es OLED, lleva el chip A20 y adelgaza hasta los 5,4 mm. Apple lo anuncia por sorpresa, días antes de su propio evento.\n\n#iPadMini #Apple #OLED\nhttps://www.theverge.com/tech/1017801/ipad-mini-oled-display-apple-announce",
+        "linkedin": "El iPad mini acaba de recibir la mejora que su público llevaba años pidiendo: pantalla OLED.\n\nApple lo ha anunciado sin keynote, días antes del evento del miércoles, con un cuerpo de 5,4 mm, chip A20 y precios desde 699 dólares. La gama pequeña deja de ser la hermana pobre y se pone a la altura del iPad Pro en tecnología de pantalla. Para quien usaba el mini sobre todo para leer y viajar, 𝗲𝗹 𝗢𝗟𝗘𝗗 𝗲𝗹𝗶𝗺𝗶𝗻𝗮 𝗲𝗹 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹 𝗺𝗼𝘁𝗶𝘃𝗼 𝗽𝗮𝗿𝗮 𝘀𝗮𝗹𝘁𝗮𝗿 𝗮𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗴𝗿𝗮𝗻𝗱𝗲; para Apple, el mensaje es que la tablet pequeña también justifica su precio.\n\n#iPadMini #Apple #OLED\n\nhttps://www.theverge.com/tech/1017801/ipad-mini-oled-display-apple-announce"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "iFixit desmonta el iPhone Duo y apunta a la causa de las pantallas agrietadas",
+      "summary": "El desmontaje del primer iPhone plegable de Apple, firmado por iFixit, señala posibles motivos de las grietas que reportan los usuarios, con el polvo como principal sospechoso. La batería sí recibe buena nota en cuanto a reparabilidad.",
+      "why_it_matters": "Marca la diferencia entre un plegable que se puede reparar y uno que se convierte en consumible.",
+      "url": "https://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why",
+      "source": "Wired",
+      "social": {
+        "x": "El iPhone Duo se agrieta y iFixit ya tiene un sospechoso: el polvo. La batería, en cambio, es lo mejor parado del desmontaje.\n\n#iFixit #iPhoneDuo #Apple #Reparabilidad\nhttps://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why",
+        "linkedin": "El primer plegable de Apple ya tiene sospechoso para sus grietas, y no es la bisagra: es el polvo.\n\niFixit ha desmontado el iPhone Duo y señala la entrada de partículas como causa probable de las roturas que reportan los usuarios. La batería, en cambio, sale bien parada en cuanto a reparabilidad. La lectura incómoda es que 𝗽𝗼𝗱𝗲𝗿 𝗿𝗲𝗽𝗮𝗿𝗮𝗿𝗹𝗼 𝗻𝗼 𝘀𝗶𝗿𝘃𝗲 𝗱𝗲 𝗺𝘂𝗰𝗵𝗼 𝘀𝗶 𝗲𝗹 𝗱𝗶𝘀𝗲ñ𝗼 𝗱𝗲𝗷𝗮 𝗲𝗻𝘁𝗿𝗮𝗿 𝗮𝗾𝘂𝗲𝗹𝗹𝗼 𝗾𝘂𝗲 𝗹𝗼 𝗿𝗼𝗺𝗽𝗲. La diferencia entre un plegable reparable y uno que se tira al año se decide en detalles así.\n\n#iFixit #iPhoneDuo #Apple #Reparabilidad\n\nhttps://www.wired.com/story/some-iphone-duo-models-are-breaking-ifixits-teardown-might-explain-why"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Microsoft ofrece bajas voluntarias a unos 60.000 empleados",
+      "summary": "Microsoft ha ampliado su programa de bajas incentivadas hasta unos 60.000 empleados, de una plantilla cercana a los 223.000. La medida forma parte del ajuste de costes y de la reorganización de su plantilla.",
+      "why_it_matters": "Es la señal más clara de cómo las grandes tecnológicas reordenan equipos en plena inversión en IA.",
+      "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+      "source": "The Verge",
+      "social": {
+        "x": "Casi uno de cada cuatro empleados de Microsoft tiene ahora una salida voluntaria sobre la mesa. El ajuste llega en plena inversión en IA.\n\n#Microsoft #BigTech #Empleo\nhttps://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+        "linkedin": "La empresa no va mal. Y aun así, 60.000 empleados de Microsoft tienen una salida voluntaria sobre la mesa.\n\nSon casi uno de cada cuatro de una plantilla de 223.000 personas, y el movimiento coincide con el pico de inversión en IA. La lectura defensiva es clara: bajas incentivadas en vez de despidos, menos ruido público y los equipos reordenados sin fricción. 𝗘𝗻 𝗹𝗮𝘀 𝗴𝗿𝗮𝗻𝗱𝗲𝘀 𝘁𝗲𝗰𝗻𝗼𝗹ó𝗴𝗶𝗰𝗮𝘀 𝘆𝗮 𝗻𝗼 𝘀𝗲 𝗰𝗿𝗲𝗰𝗲 𝗽𝗼𝗿 𝗶𝗻𝗲𝗿𝗰𝗶𝗮, 𝘀𝗶𝗻𝗼 𝗽𝗼𝗿 𝗲𝘀𝘁𝗮𝗿 𝗲𝗻 𝗹𝗼𝘀 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗾𝘂𝗲 𝗹𝗮 𝗜𝗔 𝗳𝗶𝗻𝗮𝗻𝗰𝗶𝗮. La pregunta incómoda para cualquier profesional del sector es en qué lado de esa línea queda su equipo.\n\n#Microsoft #BigTech #Empleo\n\nhttps://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Apollo sostiene que la IA no ha dado ningún retorno fuera de la tecnología",
+      "summary": "El economista jefe de Apollo Global Management afirma que, pese a la inversión y al ruido, la inteligencia artificial no ha aportado retorno financiero a las empresas estadounidenses fuera del sector tecnológico. Solo las grandes tecnológicas estarían capturando el crecimiento.",
+      "why_it_matters": "Pone cifras a la duda de si el despliegue de IA en el resto de la economía está dando resultados.",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Apollo pone cifras a la resaca de la IA: fuera de las grandes tecnológicas, cero retorno demostrado. Y solo unas pocas se están llevando el crecimiento.\n\n#Apollo #BigTech #Productividad\nhttps://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+        "linkedin": "Fuera del sector tecnológico, la IA todavía no ha devuelto un solo dólar. Lo dice el economista jefe de Apollo Global Management, y no es una opinión suelta: es la lectura de los datos de inversión y productividad de las empresas estadounidenses.\n\nMientras tanto, 𝗲𝗹 𝗰𝗿𝗲𝗰𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝘀𝗲 𝗰𝗼𝗻𝗰𝗲𝗻𝘁𝗿𝗮 𝗲𝗻 𝗹𝗮𝘀 𝗴𝗿𝗮𝗻𝗱𝗲𝘀 𝘁𝗲𝗰𝗻𝗼𝗹ó𝗴𝗶𝗰𝗮𝘀, que son las que venden la infraestructura y también las que mejor la aprovechan. Para el resto de compañías, el despliegue de IA sigue siendo un coste con retorno pendiente de demostrar. La pregunta ya no es si hay que adoptarla, sino quién está midiendo de verdad lo que devuelve.\n\n#Apollo #BigTech #Productividad\n\nhttps://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Anthropic presenta su S-1 para salir a bolsa en el Nasdaq",
+      "summary": "Anthropic ha registrado su folleto de salida a bolsa ante la SEC, con el ticker ANT en el Nasdaq, unas pérdidas semestrales de 80.700 millones de dólares y una estructura de gobierno poco habitual. El documento también advierte de riesgos de sus propios modelos, como resistirse a ser apagados.",
+      "why_it_matters": "Es la primera gran empresa de IA en buscar cotización y su folleto deja ver las cuentas reales del sector.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/26/trumpets-blare-and-skies-part-as-ai-hypefest-culminates-in-anthropic-ipo-filing/5305456",
+      "source": "The Register",
+      "social": {
+        "x": "Anthropic va a salir a bolsa y su folleto avisa de un riesgo insólito: sus propios modelos podrían resistirse a que los apaguen.\n\n#Anthropic #Nasdaq #IPO #SEC\nhttps://www.theregister.com/ai-and-ml/2026/10/26/trumpets-blare-and-skies-part-as-ai-hypefest-culminates-in-anthropic-ipo-filing/5305456",
+        "linkedin": "Anthropic ha escrito en su folleto de salida a bolsa un riesgo que nadie había declarado antes: sus modelos podrían resistirse a ser apagados.\n\nEl documento, registrado ante la SEC para cotizar en el Nasdaq con el ticker ANT, deja a la vista lo que el sector nunca enseñaba: 𝟴𝟬.𝟳𝟬𝟬 𝗺𝗶𝗹𝗹𝗼𝗻𝗲𝘀 𝗱𝗲 𝗱ó𝗹𝗮𝗿𝗲𝘀 𝗱𝗲 𝗽é𝗿𝗱𝗶𝗱𝗮𝘀 𝘀𝗲𝗺𝗲𝘀𝘁𝗿𝗮𝗹𝗲𝘀 y un gobierno corporativo poco ortodoxo. Para quien compra IA a estos proveedores, el riesgo técnico acaba de convertirse en riesgo financiero declarado. La primera gran IPO de la IA no se decide solo en el parqué, sino en cuánto tarda el modelo en dejar de quemar caja.\n\n#Anthropic #Nasdaq #IPO #SEC\n\nhttps://www.theregister.com/ai-and-ml/2026/10/26/trumpets-blare-and-skies-part-as-ai-hypefest-culminates-in-anthropic-ipo-filing/5305456"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "SpaceX cierra 40.000 millones de financiación para chips de IA",
+      "summary": "SpaceX ha comunicado en un registro regulatorio un compromiso en firme de unos 40.000 millones de dólares para financiar chips de IA y equipamiento de centros de datos. La compañía lo presenta como la mayor financiación de GPUs comprometida hasta la fecha.",
+      "why_it_matters": "Muestra hasta qué punto el hardware de IA se está financiando con deuda a gran escala.",
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo",
+      "source": "TechCrunch",
+      "social": {
+        "x": "40.000 millones de dólares en GPUs. SpaceX los ha comprometido en firme y lo presenta como la mayor financiación de chips de IA hasta la fecha.\n\n#SpaceX #GPUs #CentrosDeDatos\nhttps://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo",
+        "linkedin": "SpaceX acaba de comprometer 40.000 millones de dólares para comprar GPUs y equipar centros de datos.\n\nLa cifra impresiona, pero lo relevante es la forma: el hardware de IA empieza a financiarse con deuda a gran escala, igual que en su día se financió la infraestructura de telecomunicaciones. 𝗖𝘂𝗮𝗻𝗱𝗼 𝗲𝗹 𝗰ó𝗺𝗽𝘂𝘁𝗼 𝘀𝗲 𝗰𝗼𝗺𝗽𝗿𝗮 𝗮 𝗰𝗿é𝗱𝗶𝘁𝗼, 𝗲𝗹 𝗾𝘂𝗲 𝗮𝗿𝗿𝗶𝗲𝘀𝗴𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘀𝗼𝗹𝗼 𝗾𝘂𝗶𝗲𝗻 𝗲𝗻𝘁𝗿𝗲𝗻𝗮 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼. Para cualquier equipo que dependa de la nube, eso se traduce en compromisos a largo plazo y en presión por rentabilizar cada GPU desde el primer día.\n\n#SpaceX #GPUs #CentrosDeDatos\n\nhttps://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "El patrimonio de Elvis Presley demanda a Anthropic por derechos de autor",
+      "summary": "El patrimonio de Elvis Presley ha presentado una demanda contra Anthropic por infracción de derechos de autor. Se suma así a la lista de litigios contra empresas de IA por el uso de obras protegidas en el entrenamiento de modelos.",
+      "why_it_matters": "Cada nueva demanda va perfilando qué uso de material con derechos es aceptable para entrenar modelos.",
+      "url": "https://www.engadget.com/2296535/elvis-presley-estate-suing-ai-company-for-copyright-infringement",
+      "source": "Engadget",
+      "social": {
+        "x": "El patrimonio de Elvis Presley demanda a Anthropic por entrenar modelos con su obra. Y no es el último: cada pleito así va escribiendo qué se puede usar y qué no.\n\n#Anthropic #DerechosDeAutor #ElvisPresley #IAgenerativa\nhttps://www.engadget.com/2296535/elvis-presley-estate-suing-ai-company-for-copyright-infringement",
+        "linkedin": "Elvis lleva muerto casi cincuenta años y su patrimonio acaba de demandar a Anthropic.\n\nEl litigio se suma a una lista que no deja de crecer y que está definiendo, caso a caso, qué material protegido puede acabar en un dataset de entrenamiento. 𝗟𝗮 𝗽𝗿𝗲𝗴𝘂𝗻𝘁𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘀𝗶 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗿𝗮𝘀𝘁𝗿𝗲𝗮𝗿 𝗲𝗹 𝗼𝗿𝗶𝗴𝗲𝗻 𝗱𝗲 𝗹𝗼𝘀 𝗱𝗮𝘁𝗼𝘀, 𝘀𝗶𝗻𝗼 𝗾𝘂𝗶é𝗻 𝗮𝘀𝘂𝗺𝗲 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗻𝗼 𝗵𝗮𝗰𝗲𝗿𝗹𝗼. Y para quien construye sobre modelos de terceros, esa respuesta pesa más en la negociación que cualquier benchmark.\n\n#Anthropic #DerechosDeAutor #ElvisPresley #IAgenerativa\n\nhttps://www.engadget.com/2296535/elvis-presley-estate-suing-ai-company-for-copyright-infringement"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Escáner de seguridad para skills de agentes de IA que detecta vulnerabilidades, patrones maliciosos, inyección de prompt y fuga de datos antes de que instales nada en Claude Code, Codex o MCP. Muy útil si te bajas plugins de terceros y no quieres revisarlos a mano.",
+      "language": "Python",
+      "stars": 21905,
+      "social": {
+        "x": "🛡️ NVIDIA suelta el antivirus que le faltaba a tu agente: escanea skills antes de instalarlas en Claude Code, Codex o MCP. Detecta inyección de prompt y fuga de datos. 21.905 estrellas.\n\n#SkillSpector #MCP #OpenSource #Python\nhttps://github.com/NVIDIA/SkillSpector",
+        "linkedin": "INSTALAS UN PLUGIN DE TERCEROS Y LE ESTÁS DANDO LAS LLAVES DE TU AGENTE.\n\nCada skill que añades a Claude Code, Codex o un servidor MCP es código que se ejecuta con tus permisos. Y casi nadie lo revisa a mano: nos fiamos del README y del número de estrellas.\n\nNVIDIA acaba de publicar SkillSpector, un escáner en Python que hace esa revisión por ti antes de que instales nada. La idea que resume el proyecto: 𝗹𝗮 𝗮𝘂𝗱𝗶𝘁𝗼𝗿í𝗮 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗺𝗮𝗻𝘂𝗮𝗹 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻 𝗽𝗮𝘀𝗼 𝗮𝘂𝘁𝗼𝗺á𝘁𝗶𝗰𝗼 𝗺á𝘀.\n\n→ Detecta vulnerabilidades y patrones maliciosos dentro del propio skill\n→ Caza inyección de prompt escondida en instrucciones y metadatos\n→ Avisa de fuga de datos: llamadas a endpoints, variables de entorno, secretos\n→ Analiza antes de la instalación, así que el veredicto llega a tiempo\n→ Python puro, fácil de enchufar a un pre-commit o a tu pipeline de CI\n\nLleva 21.905 estrellas y el mensaje es incómodo pero necesario: si no lees el código del plugin, que lo lea una herramienta antes que tu agente.\n\nGuarda este post para la próxima vez que te tiente un plugin random de GitHub.\n\n#SkillSpector #MCP #OpenSource #Python\n\nhttps://github.com/NVIDIA/SkillSpector"
+      }
+    },
+    {
+      "name": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "description": "Escritorio local-first para tener compañeros de IA persistentes: lanza Codex, Claude y Grok en espacios de trabajo separados, con colas de tareas, compartición de ficheros y control del navegador. Interesante si quieres orquestar varios agentes que colaboren entre ellos sin depender de la nube.",
+      "language": "TypeScript",
+      "stars": 1265,
+      "social": {
+        "x": "Codex, Claude y Grok en el mismo escritorio, cada uno en su espacio de trabajo y compartiendo ficheros entre ellos. Todo en local. 1.265 estrellas.\n\n#OpenBot #TypeScript #OpenSource #GitHub\nhttps://github.com/nightly-labs/openbot",
+        "linkedin": "TIENES TRES AGENTES DE IA Y NINGUNO SE HABLA CON EL OTRO.\n\nAhí está el cuello de botella real: no falta potencia, falta un sitio donde convivan. Copias la salida de Claude, se la pegas a Codex, pierdes el contexto por el camino y repites el trabajo. openbot propone lo contrario: un escritorio local-first donde Codex, Claude y Grok viven en espacios de trabajo separados y se pasan ficheros entre ellos.\n\nLa diferencia con las suites comerciales es de planteamiento: aquí 𝗲𝗹 𝗲𝘀𝗰𝗿𝗶𝘁𝗼𝗿𝗶𝗼, 𝗻𝗼 𝗲𝗹 𝗰𝗵𝗮𝘁, 𝗲𝘀 𝗹𝗮 𝘂𝗻𝗶𝗱𝗮𝗱 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼, y corre en tu máquina sin depender de la nube.\n\n→ Espacios de trabajo separados para cada agente, con su propio contexto\n→ Colas de tareas para encadenar trabajo sin estar pendiente de cada paso\n→ Compartición de ficheros: lo que genera uno lo puede leer el otro\n→ Control del navegador para que salgan del chat y ejecuten de verdad\n→ TypeScript, 1.265 estrellas y todo en local\n\nSi estás orquestando varios agentes a mano con copiar y pegar, este repo te ahorra justo esa parte. Guárdate el post y échale un ojo al repo, lo tienes abajo.\n\n#OpenBot #TypeScript #OpenSource #GitHub\n\nhttps://github.com/nightly-labs/openbot"
+      }
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Un CLI que le da ojos a tu agente para leer y buscar en Twitter, Reddit, YouTube, GitHub, Bilibili o XiaoHongShu sin pagar APIs. Práctico para alimentar al agente con contexto real de la web social.",
+      "language": "Python",
+      "stars": 103191,
+      "social": {
+        "x": "Alguien acaba de darle ojos a tu agente: lee Twitter, Reddit, YouTube y GitHub sin pagar APIs. 103k estrellas y es Python.\n\n#AgentReach #OpenSource #Python #GitHub\nhttps://github.com/Panniantong/Agent-Reach",
+        "linkedin": "TU AGENTE NO ESTÁ CIEGO. LE FALTAN OJOS.\n\nLa mayoría de agentes razonan bien hasta que necesitan contexto del mundo real y se quedan a oscuras: no pueden entrar en la web social, así que responden con información vieja o se la inventan. Y las APIs oficiales de Twitter, Reddit o YouTube te obligan a pasar por caja antes de empezar.\n\nAgent-Reach es un CLI en Python que resuelve justo eso: 𝗹𝗲 𝗱𝗮 𝗼𝗷𝗼𝘀 𝗮 𝘁𝘂 𝗮𝗴𝗲𝗻𝘁𝗲 𝗽𝗮𝗿𝗮 𝗹𝗲𝗲𝗿 𝘆 𝗯𝘂𝘀𝗰𝗮𝗿 𝗲𝗻 𝗹𝗮 𝘄𝗲𝗯 𝘀𝗼𝗰𝗶𝗮𝗹 𝘀𝗶𝗻 𝗽𝗮𝗴𝗮𝗿 𝗔𝗣𝗜𝘀.\n\n→ Twitter, Reddit, YouTube, GitHub, Bilibili y XiaoHongShu desde una misma interfaz\n→ Búsqueda y lectura de contenido real, no resúmenes de tercera mano\n→ Se enchufa al agente como una herramienta más, sin montar integraciones a mano\n→ Python, open source y más de 103.000 estrellas\n\nSi estás construyendo agentes que dependen de contexto actualizado, esto te ahorra pelearte con seis scrapers distintos y su mantenimiento. Y si solo quieres probar, lo tienes funcionando en minutos.\n\nGuárdalo para la próxima vez que tu agente responda «no tengo acceso a esa información». El repo te lo dejo abajo.\n\n#AgentReach #OpenSource #Python #GitHub\n\nhttps://github.com/Panniantong/Agent-Reach"
+      }
+    },
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "Sistema de optimización del harness de agentes para Claude Code, Codex, Opencode o Cursor, con skills, memoria, seguridad y un enfoque de desarrollo guiado por investigación. Va un paso más allá del prompt suelto y de las configuraciones improvisadas.",
+      "language": "JavaScript",
+      "stars": 289505,
+      "social": {
+        "x": "289k estrellas para un repo que convierte tu Claude Code en un harness de agentes con skills, memoria y seguridad. Adiós a los prompts sueltos.\n\n#ClaudeCode #AgentesIA #OpenSource #JavaScript\nhttps://github.com/affaan-m/ECC",
+        "linkedin": "DEJAR DE PEGAR PROMPTS SUELTOS EN CLAUDE CODE TIENE NOMBRE.\n\nLa mayoría usamos agentes así: copiar un prompt, pegarlo, cruzar los dedos y repetir. Sin memoria entre sesiones, sin skills reutilizables, sin control de seguridad. Cada configuración es un collage improvisado que nadie audita.\n\nECC ataca justo eso: es un sistema de optimización del harness de agentes que funciona con Claude Code, Codex, Opencode y Cursor. No es otro prompt guardado en un gist.\n\n→ Skills reutilizables en lugar de instrucciones que se pierden en el chat\n→ Memoria persistente para que el agente no empiece de cero cada vez\n→ Capa de seguridad sobre lo que el agente puede tocar\n→ Enfoque de desarrollo guiado por investigación, no por prueba y error\n→ Compatible con varios harness, no atado a una sola herramienta\n\n𝗟𝗮 𝗱𝗶𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗽𝗿𝗼𝗺𝗽𝘁, 𝗲𝘀 𝗲𝗹 𝗵𝗮𝗿𝗻𝗲𝘀𝘀 𝗾𝘂𝗲 𝗹𝗼 𝘀𝗼𝘀𝘁𝗶𝗲𝗻𝗲.\n\n289.505 estrellas para algo que la mayoría sigue resolviendo a base de copiar y pegar. Si trabajas con agentes a diario, guárdatelo antes de la siguiente sesión.\n\n#ClaudeCode #AgentesIA #OpenSource #JavaScript\n\nhttps://github.com/affaan-m/ECC"
+      }
+    },
+    {
+      "name": "gitroomhq/postiz-app",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "description": "Herramienta open source para programar publicaciones en redes sociales con un enfoque agentic, pensada para automatizar la difusión de contenido. Se puede self-hosted y encaja bien si llevas varias cuentas a la vez.",
+      "language": "TypeScript",
+      "stars": 38180,
+      "social": {
+        "x": "Buffer te cobra por cada cuenta conectada. Este repo open source lo montas en tu propio servidor y programa todas tus redes con agentes. 38k estrellas.\n\n#Postiz #OpenSource #TypeScript #GitHub\nhttps://github.com/gitroomhq/postiz-app",
+        "linkedin": "PROGRAMA TUS REDES SOCIALES SIN PAGAR POR CADA CUENTA CONECTADA.\n\nSi llevas varias marcas o perfiles a la vez, sabes cómo acaba la cosa: la herramienta de turno te cobra por canal, por usuario y por mes. Postiz va por otro camino: es open source, se puede self-hosted y añade una capa agentic para automatizar la difusión de contenido en lugar de publicar a mano una por una.\n\nLa clave está en que 𝗲𝗹 𝗰𝗮𝗹𝗲𝗻𝗱𝗮𝗿𝗶𝗼 𝘆 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝘃𝗶𝘃𝗲𝗻 𝗲𝗻 𝘁𝘂 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮, no en la del proveedor de siempre.\n\n→ Programa publicaciones en varias redes desde un único panel.\n→ Enfoque agentic: automatiza la difusión en vez de encolar todo a mano.\n→ Self-hosted, así que los tokens de tus cuentas no salen de tu servidor.\n→ TypeScript de arriba abajo, fácil de extender si quieres tocar el código.\n→ 38k estrellas: hay comunidad detrás y el proyecto no está parado.\n\nSi gestionas contenido para varios perfiles, échale un ojo antes de renovar según qué suscripciones. Guarda el post y te dejo el repo abajo.\n\n#Postiz #OpenSource #TypeScript #GitHub\n\nhttps://github.com/gitroomhq/postiz-app"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Cuando tu pipeline de machine learning hace trampa y la validación cruzada no se entera",
+      "url": "https://towardsdatascience.com/my-machine-learning-pipeline-cheated-and-cross-validation-never-noticed",
+      "source": "Towards Data Science",
+      "summary": "Un caso real en el que un identificador, una fecha guardada como texto y un valor ausente filtran información del futuro y dejan inservible la validación cruzada. Aprenderás a detectar fugas de datos (leakage) revisando columnas y particiones antes de fiarte de las métricas. Sirve como lista de comprobación para cualquier modelo que parezca demasiado bueno.",
+      "tema": "datos"
+    },
+    {
+      "title": "Cómo construir un harness de agentes de IA desde cero en TypeScript",
+      "url": "https://www.freecodecamp.org/news/how-to-build-an-ai-agent-harness-from-scratch-in-typescript",
+      "source": "freeCodeCamp",
+      "summary": "Explica cómo montar el bucle que rodea al modelo: gestión de herramientas, estado de la conversación, control de errores y límites de ejecución. Va más allá del típico ejemplo de tool calling y se centra en la parte que de verdad cuesta mantener en producción. Útil si quieres entender qué hay dentro de un agente y construir el tuyo sin depender de un framework.",
+      "tema": "ia"
+    },
+    {
+      "title": "Prompt caching y semantic caching: en qué se diferencian y cuándo usar cada uno",
+      "url": "https://blog.bytebytego.com/p/llm-prompt-caching-versus-semantic",
+      "source": "ByteByteGo",
+      "summary": "Explica cómo funcionan las dos cachés más habituales con LLM: la que reutiliza prefijos exactos del prompt y la que busca respuestas semánticamente parecidas. Compara qué ahorran, qué errores introducen y con qué límites se topan. Sirve para decidir qué estrategia aplicar antes de optimizar costes y latencia a ciegas.",
+      "tema": "ia"
+    },
+    {
+      "title": "Aislamiento a nivel de VM dentro de una plataforma de contenedores multi-inquilino",
+      "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163",
+      "source": "Netflix Tech Blog",
+      "summary": "Netflix cuenta cómo añadió aislamiento de máquina virtual a Titus, su plataforma de contenedores, para cargas que necesitan más garantías que un contenedor compartido. Detalla las decisiones de diseño, el coste de integrarlo con la orquestación que ya tenían y cuándo merece la pena. Lectura útil para quien diseñe plataformas internas con requisitos de seguridad y multi-tenancy.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "El CSS que viene: lo que los navegadores están preparando",
+      "url": "https://www.joshwcomeau.com/css/interop-2027",
+      "source": "Josh W. Comeau",
+      "summary": "Repasa las funcionalidades de CSS que los principales navegadores han acordado implementar en el proyecto Interop, con ejemplos de qué permitirán escribir. Ayuda a distinguir lo que ya se puede usar de lo que llegará pronto y a planificar hojas de estilo menos dependientes de JavaScript. Un buen mapa para no perderse entre tanta propuesta nueva.",
+      "tema": "web"
+    },
+    {
+      "title": "Estados vacíos: arregla las pantallas en blanco antes de que el usuario se vaya",
+      "url": "https://medium.com/@designstudiouiux/empty-state-ux-fix-blank-screens-before-users-leave-634d13e359b1",
+      "source": "Medium: UX",
+      "summary": "Define qué es un estado vacío (un panel recién creado, una bandeja limpia, una búsqueda sin resultados) y por qué es un punto crítico de abandono. Da pautas concretas de copy, jerarquía visual y acciones sugeridas para que la pantalla guíe en lugar de dejar al usuario perdido. Aplicable a cualquier producto con listas, filtros o primeros usos.",
+      "tema": "diseno"
+    }
+  ]
+}
