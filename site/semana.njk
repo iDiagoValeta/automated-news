@@ -29,7 +29,7 @@ permalink: "/semana/index.html"
       <ul class="semana__temas">
         {% for cat in w.categories %}
           <li>
-            <span class="kicker">{{ cat.label }}</span>
+            <span class="semana__tema">{{ cat.label }}</span>
             <span class="semana__tema-n">{{ cat.count }} noticia{% if cat.count != 1 %}s{% endif %}</span>
           </li>
         {% endfor %}

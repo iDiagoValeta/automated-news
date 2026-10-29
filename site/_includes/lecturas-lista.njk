@@ -4,7 +4,6 @@
 <section class="lecturas" aria-label="Lecturas">
   {% if primera %}
     <article class="lead">
-      <span class="kicker">{{ primera.tema | tema }}</span>
       <h2 class="lead__title">
         <a href="{{ primera.url }}" target="_blank" rel="noopener">{{ primera.title }}</a>
       </h2>
@@ -12,6 +11,7 @@
       <div class="item-pie">
         <p class="source">
           <a href="{{ primera.url }}" target="_blank" rel="noopener">{{ primera.source }}</a>
+          <span class="source__tag">{{ primera.tema | tema }}</span>
         </p>
       </div>
     </article>
@@ -22,7 +22,6 @@
       {% for lectura in lecturas %}
         {% if loop.index0 > 0 %}
         <article class="story" style="--i: {{ loop.index0 }}">
-          <span class="kicker">{{ lectura.tema | tema }}</span>
           <h3 class="story__title">
             <a href="{{ lectura.url }}" target="_blank" rel="noopener">{{ lectura.title }}</a>
           </h3>
@@ -30,6 +29,7 @@
           <div class="item-pie">
             <p class="source">
               <a href="{{ lectura.url }}" target="_blank" rel="noopener">{{ lectura.source }}</a>
+          <span class="source__tag">{{ lectura.tema | tema }}</span>
             </p>
           </div>
         </article>

@@ -91,6 +91,23 @@ export default function (eleventyConfig) {
   // Temas de las lecturas: mismos identificadores sin tilde, misma traducción.
   eleventyConfig.addFilter("tema", temaLabel);
 
+  // «Por qué importa» ya no lleva etiqueta ni barra: la frase arranca con una
+  // cuña en negrita (hasta la primera coma si llega pronto, si no las primeras
+  // palabras) y sigue como prosa. Escapa el texto porque el filtro devuelve HTML.
+  eleventyConfig.addFilter("cuna", (texto) => {
+    const esc = (t) =>
+      t.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    const t = String(texto ?? "").trim();
+    const palabras = t.split(/\s+/);
+    if (palabras.length < 8) return esc(t);
+    const coma = t.indexOf(",");
+    const corte =
+      coma > 0 && t.slice(0, coma).split(/\s+/).length <= 7
+        ? coma
+        : palabras.slice(0, 4).join(" ").length;
+    return `<strong>${esc(t.slice(0, corte))}</strong>${esc(t.slice(corte))}`;
+  });
+
   // Las notas son una colección, y las colecciones no existen cuando se
   // calculan los datos globales. Por eso el sitemap y el índice se completan
   // al renderizar sus plantillas, no en site/_data/derived.js.

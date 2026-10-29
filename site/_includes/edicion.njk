@@ -4,15 +4,15 @@
 <article class="edicion">
   {% if lead %}
     <article class="lead">
-      <span class="kicker">{{ lead.category | categoria }}</span>
       <h2 class="lead__title">
         <a href="{{ lead.url }}" target="_blank" rel="noopener">{{ lead.title }}</a>
       </h2>
       <p class="lead__summary">{{ lead.summary }}</p>
-      <p class="why"><span class="why__label">Por qué importa</span>{{ lead.why_it_matters }}</p>
+      <p class="why">{{ lead.why_it_matters | cuna | safe }}</p>
       <div class="item-pie">
         <p class="source">
           <a href="{{ lead.url }}" target="_blank" rel="noopener">{{ lead.source }}</a>
+          <span class="source__tag">{{ lead.category | categoria }}</span>
         </p>
         {{ share(lead.social) }}
       </div>
@@ -24,15 +24,15 @@
       {% for item in edition.items %}
         {% if loop.index0 > 0 %}
         <article class="story" style="--i: {{ loop.index0 }}">
-          <span class="kicker">{{ item.category | categoria }}</span>
           <h3 class="story__title">
             <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
           </h3>
           <p class="story__summary">{{ item.summary }}</p>
-          <p class="why"><span class="why__label">Por qué importa</span>{{ item.why_it_matters }}</p>
+          <p class="why">{{ item.why_it_matters | cuna | safe }}</p>
           <div class="item-pie">
             <p class="source">
               <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.source }}</a>
+          <span class="source__tag">{{ item.category | categoria }}</span>
             </p>
             {{ share(item.social) }}
           </div>
