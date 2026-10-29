@@ -12,7 +12,7 @@
       <div class="item-pie">
         <p class="source">
           <a href="{{ lead.url }}" target="_blank" rel="noopener">{{ lead.source }}</a>
-          <span class="source__tag">{{ lead.category | categoria }}</span>
+          <span class="cat">{{ lead.category | categoria }}</span>
         </p>
         {{ share(lead.social) }}
       </div>
@@ -32,7 +32,7 @@
           <div class="item-pie">
             <p class="source">
               <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.source }}</a>
-          <span class="source__tag">{{ item.category | categoria }}</span>
+          <span class="cat">{{ item.category | categoria }}</span>
             </p>
             {{ share(item.social) }}
           </div>

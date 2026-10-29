@@ -337,11 +337,11 @@ html.cursor-retro dialog {
   margin: 1rem 0 0;
 }
 /* Categoría o tema: metadato en la línea de fuente, no una pieza aparte. */
-.source__tag::before {
+.cat::before {
   content: " / ";
   white-space: pre;
 }
-.source__tag {
+.cat {
   text-transform: capitalize;
 }
 .source a {
