@@ -379,6 +379,7 @@ function initSonido() {
   const btn = document.querySelector(".sonido");
   if (!btn || !window.AudioContext) return;
   let ctx = null;
+  let bus = null;
   let musica = null;
   let activo = false;
   try {
@@ -404,9 +405,9 @@ function initSonido() {
     cerrar: () => ({ notas: [[988, 0, 0.06], [659, 0.045, 0.09]], onda: "triangle", vol: 0.1 }),
     claro: () => ({ notas: [[784, 0, 0.08], [1175, 0.06, 0.08], [1568, 0.12, 0.14]], onda: "sine", vol: 0.13 }),
     oscuro: () => ({ notas: [[1568, 0, 0.08], [1175, 0.06, 0.08], [784, 0.12, 0.16]], onda: "sine", vol: 0.13 }),
-    fuente: (i) => ({ notas: [[NOTAS[2 + i], 0, 0.06], [NOTAS[4 + i], 0.04, 0.08]], onda: "square", vol: 0.04 }),
+    fuente: (i) => ({ notas: [[NOTAS[2 + i], 0, 0.06], [NOTAS[4 + i], 0.04, 0.08]], onda: "triangle", vol: 0.05 }),
     pagina: (dir) => ({ notas: [[dir > 0 ? 880 : 1047, 0, 0.04], [dir > 0 ? 1047 : 880, 0.035, 0.05]], onda: "triangle", vol: 0.1 }),
-    tecla: () => ({ notas: [[azar(NOTAS.slice(7)), 0, 0.025]], onda: "square", vol: 0.025 }),
+    tecla: () => ({ notas: [[azar(NOTAS.slice(7)), 0, 0.025]], onda: "triangle", vol: 0.03 }),
     hecho: () => ({ notas: [[1047, 0, 0.06], [1319, 0.06, 0.06], [1568, 0.12, 0.16]], onda: "sine", vol: 0.12 }),
     encender: () => ({ notas: [[523, 0, 0.1], [659, 0.08, 0.1], [784, 0.16, 0.1], [1047, 0.24, 0.22]], onda: "sine", vol: 0.12 }),
     apagar: () => ({ notas: [[1047, 0, 0.08], [784, 0.07, 0.08], [523, 0.14, 0.18]], onda: "sine", vol: 0.1 }),
@@ -414,9 +415,24 @@ function initSonido() {
 
   // El contexto se crea y se despierta en el primer gesto: así el primer
   // sonido no llega tarde y la música puede arrancar.
+  // Un contexto y un limitador: sin él, varias notas a la vez saturan y
+  // "petardean" en el móvil; la latencia "playback" evita cortes con CPU justa.
+  function contexto() {
+    if (ctx) return ctx;
+    ctx = new AudioContext({ latencyHint: "playback" });
+    const limitador = ctx.createDynamicsCompressor();
+    limitador.threshold.value = -14;
+    limitador.knee.value = 12;
+    limitador.ratio.value = 8;
+    limitador.attack.value = 0.003;
+    limitador.release.value = 0.15;
+    limitador.connect(ctx.destination);
+    bus = limitador;
+    return ctx;
+  }
   function despertar() {
     if (!activo) return;
-    ctx ??= new AudioContext();
+    contexto();
     if (ctx.state === "suspended") ctx.resume();
     if (!musica) arrancarMusica();
   }
@@ -425,7 +441,7 @@ function initSonido() {
 
   function sonar(nombre, arg, forzar = false) {
     if ((!activo && !forzar) || !SONIDOS[nombre]) return;
-    ctx ??= new AudioContext();
+    contexto();
     if (ctx.state === "suspended") ctx.resume();
     const s = SONIDOS[nombre](arg);
     const desafinar = 1 + (Math.random() - 0.5) * 0.03;
@@ -435,13 +451,15 @@ function initSonido() {
       const gan = ctx.createGain();
       osc.type = s.onda;
       osc.frequency.value = f * desafinar;
-      // Ataque rápido y caída exponencial: suena a clic, no a pitido.
-      gan.gain.setValueAtTime(0.0001, t0 + inicio);
-      gan.gain.exponentialRampToValueAtTime(s.vol * VOLUMEN, t0 + inicio + 0.005);
-      gan.gain.exponentialRampToValueAtTime(0.0001, t0 + inicio + dur);
-      osc.connect(gan).connect(ctx.destination);
+      // Arranca y acaba en cero absoluto: un salto de nivel al empezar o
+      // parar es lo que suena a chasquido. Ataque de 8 ms y cola suave.
+      gan.gain.setValueAtTime(0, t0 + inicio);
+      gan.gain.linearRampToValueAtTime(s.vol * VOLUMEN, t0 + inicio + 0.008);
+      gan.gain.setTargetAtTime(0, t0 + inicio + 0.008, dur / 4);
+      gan.gain.setValueAtTime(0, t0 + inicio + dur + 0.04);
+      osc.connect(gan).connect(bus);
       osc.start(t0 + inicio);
-      osc.stop(t0 + inicio + dur + 0.02);
+      osc.stop(t0 + inicio + dur + 0.05);
     }
   }
 
@@ -450,7 +468,7 @@ function initSonido() {
   function arrancarMusica() {
     musica = import(btn.dataset.musica)
       .then((m) => {
-        m.iniciar(ctx);
+        m.iniciar(ctx, bus);
         return m;
       })
       .catch(() => null);
