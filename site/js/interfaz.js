@@ -415,25 +415,20 @@ function initSonido() {
 
   // El contexto se crea y se despierta en el primer gesto: así el primer
   // sonido no llega tarde y la música puede arrancar.
-  // Un contexto y un limitador: sin él, varias notas a la vez saturan y
-  // "petardean" en el móvil; la latencia "playback" evita cortes con CPU justa.
+  // Limitador y latencia "playback": sin ellos el móvil petardea.
   function contexto() {
-    if (ctx) return ctx;
-    ctx = new AudioContext({ latencyHint: "playback" });
-    const limitador = ctx.createDynamicsCompressor();
-    limitador.threshold.value = -14;
-    limitador.knee.value = 12;
-    limitador.ratio.value = 8;
-    limitador.attack.value = 0.003;
-    limitador.release.value = 0.15;
-    limitador.connect(ctx.destination);
-    bus = limitador;
-    return ctx;
+    if (!ctx) {
+      ctx = new AudioContext({ latencyHint: "playback" });
+      bus = ctx.createDynamicsCompressor();
+      bus.threshold.value = -14;
+      bus.ratio.value = 8;
+      bus.connect(ctx.destination);
+    }
+    if (ctx.state === "suspended") ctx.resume();
   }
   function despertar() {
     if (!activo) return;
     contexto();
-    if (ctx.state === "suspended") ctx.resume();
     if (!musica) arrancarMusica();
   }
   document.addEventListener("pointerdown", despertar, true);
@@ -442,7 +437,6 @@ function initSonido() {
   function sonar(nombre, arg, forzar = false) {
     if ((!activo && !forzar) || !SONIDOS[nombre]) return;
     contexto();
-    if (ctx.state === "suspended") ctx.resume();
     const s = SONIDOS[nombre](arg);
     const desafinar = 1 + (Math.random() - 0.5) * 0.03;
     const t0 = ctx.currentTime + 0.005;
@@ -451,12 +445,10 @@ function initSonido() {
       const gan = ctx.createGain();
       osc.type = s.onda;
       osc.frequency.value = f * desafinar;
-      // Arranca y acaba en cero absoluto: un salto de nivel al empezar o
-      // parar es lo que suena a chasquido. Ataque de 8 ms y cola suave.
+      // Empieza y acaba en cero: un salto de nivel suena a chasquido.
       gan.gain.setValueAtTime(0, t0 + inicio);
       gan.gain.linearRampToValueAtTime(s.vol * VOLUMEN, t0 + inicio + 0.008);
-      gan.gain.setTargetAtTime(0, t0 + inicio + 0.008, dur / 4);
-      gan.gain.setValueAtTime(0, t0 + inicio + dur + 0.04);
+      gan.gain.setTargetAtTime(0, t0 + inicio + 0.008, dur / 6);
       osc.connect(gan).connect(bus);
       osc.start(t0 + inicio);
       osc.stop(t0 + inicio + dur + 0.05);
