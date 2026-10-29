@@ -24,13 +24,13 @@ let siguiente = 0;
 let indice = 5;
 let acordeActual = -1;
 
-// Reverberación sintética: ruido que decae en unos 4 s, distinto en cada canal.
+// Reverberación sintética: ruido que decae en unos 2,5 s (más corto pesa menos en CPUs de móvil), distinto en cada canal.
 function reverberacion() {
-  const largo = ctx.sampleRate * 4;
+  const largo = Math.floor(ctx.sampleRate * 2.5);
   const impulso = ctx.createBuffer(2, largo, ctx.sampleRate);
   for (let c = 0; c < 2; c++) {
     const datos = impulso.getChannelData(c);
-    for (let i = 0; i < largo; i++) datos[i] = (Math.random() * 2 - 1) * (1 - i / largo) ** 3;
+    for (let i = 0; i < largo; i++) datos[i] = (Math.random() * 2 - 1) * (1 - i / largo) ** 2.5;
   }
   const conv = ctx.createConvolver();
   conv.buffer = impulso;
@@ -44,12 +44,13 @@ function piano(f, t, vol) {
     const osc = ctx.createOscillator();
     const gan = ctx.createGain();
     osc.frequency.value = f * mult;
-    gan.gain.setValueAtTime(0.0001, t);
-    gan.gain.exponentialRampToValueAtTime(vol * peso, t + 0.01);
-    gan.gain.exponentialRampToValueAtTime(0.0001, t + caida);
+    gan.gain.setValueAtTime(0, t);
+    gan.gain.linearRampToValueAtTime(vol * peso, t + 0.015);
+    gan.gain.setTargetAtTime(0, t + 0.015, caida / 4);
+    gan.gain.setValueAtTime(0, t + caida + 0.1);
     osc.connect(gan).connect(salida);
     osc.start(t);
-    osc.stop(t + caida + 0.05);
+    osc.stop(t + caida + 0.12);
   }
 }
 
@@ -61,9 +62,9 @@ function colchon(acorde, t) {
     osc.type = "triangle";
     osc.frequency.value = f;
     osc.detune.value = (Math.random() - 0.5) * 8;
-    gan.gain.setValueAtTime(0.0001, t);
+    gan.gain.setValueAtTime(0, t);
     gan.gain.linearRampToValueAtTime(0.012, t + 3);
-    gan.gain.linearRampToValueAtTime(0.0001, t + DURACION_ACORDE + 3);
+    gan.gain.linearRampToValueAtTime(0, t + DURACION_ACORDE + 3);
     osc.connect(gan).connect(salida);
     osc.start(t);
     osc.stop(t + DURACION_ACORDE + 3.1);
@@ -93,7 +94,7 @@ function programar() {
   }
 }
 
-export function iniciar(contexto) {
+export function iniciar(contexto, destino) {
   if (reloj || !contexto) return;
   ctx = contexto;
   maestro = ctx.createGain();
@@ -105,7 +106,7 @@ export function iniciar(contexto) {
   humedo.gain.value = 0.9;
   filtro.connect(maestro);
   filtro.connect(rev).connect(humedo).connect(maestro);
-  maestro.connect(ctx.destination);
+  maestro.connect(destino ?? ctx.destination);
   maestro.gain.setValueAtTime(0.0001, ctx.currentTime);
   maestro.gain.exponentialRampToValueAtTime(VOLUMEN, ctx.currentTime + 3);
   salida = filtro;
