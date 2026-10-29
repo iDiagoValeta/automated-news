@@ -6,13 +6,12 @@
   <div class="stories">
     {% for repo in repos %}
     <article class="story" style="--i: {{ loop.index0 }}">
-      {% if repo.language %}<span class="kicker">{{ repo.language }}</span>{% endif %}
       <h3 class="story__title">
         <a href="{{ repo.url }}" target="_blank" rel="noopener">{{ repo.name }}</a>
       </h3>
       <p class="story__summary">{{ repo.description }}</p>
       <div class="item-pie">
-        <p class="source">{% if repo.stars %}{{ repo.stars | miles }} ★{% endif %}</p>
+        <p class="source">{% if repo.language %}{{ repo.language }}{% endif %}{% if repo.language and repo.stars %}<span class="source__sep" aria-hidden="true"> / </span>{% endif %}{% if repo.stars %}{{ repo.stars | miles }} ★{% endif %}</p>
         {{ share(repo.social) }}
       </div>
     </article>
