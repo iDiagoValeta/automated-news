@@ -1,0 +1,357 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T16:55:26.391Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Mistral libera los pesos de Large 4, un modelo abierto de un billón de parámetros",
+      "summary": "Mistral ha publicado los pesos de Mistral Large 4, conocido como Le Chonk, un modelo multimodal de un billón de parámetros entrenado íntegramente en Europa. La compañía asegura que lidera los benchmarks de pesos abiertos en programación y seguridad defensiva, y los primeros tests independientes lo sitúan como rápido y relativamente barato, aunque por debajo de los mejores modelos chinos en la clasificación global.",
+      "why_it_matters": "Es el mayor modelo de pesos abiertos publicado hasta ahora y se puede descargar y ejecutar en infraestructura propia, lo que lo convierte en una opción real para equipos que no quieren depender de una API.",
+      "url": "https://mistral.ai/news/mistral-large-4-oss",
+      "source": "Hacker News",
+      "social": {
+        "x": "El mayor modelo de pesos abiertos hasta la fecha no viene de China ni de Estados Unidos: Mistral lo ha entrenado en Europa y ya se puede descargar.\n\n#Mistral #OpenSource #LLM #PesosAbiertos\nhttps://mistral.ai/news/mistral-large-4-oss",
+        "linkedin": "El mayor modelo de pesos abiertos hasta la fecha se ha entrenado en Europa. Y se puede descargar hoy.\n\nMistral libera los pesos de Large 4, un modelo multimodal de un billón de parámetros que, según la compañía, lidera los benchmarks abiertos en programación y seguridad defensiva. Los primeros tests independientes lo dejan como rápido y relativamente barato, aunque por debajo de los mejores modelos chinos en la clasificación global. 𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗽𝘂𝗲𝘀𝘁𝗼 𝗲𝗻 𝗹𝗮 𝘁𝗮𝗯𝗹𝗮, 𝘀𝗶𝗻𝗼 𝗾𝘂𝗲 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗲𝘀𝘁𝗲 𝘁𝗮𝗺𝗮ñ𝗼 𝘀𝗲 𝗽𝘂𝗲𝗱𝗮 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿 𝗲𝗻 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗽𝗿𝗼𝗽𝗶𝗮: para los equipos que llevan años atados a una API, la alternativa deja de ser teórica y empieza a ser una decisión de arquitectura.\n\n#Mistral #OpenSource #LLM #PesosAbiertos\n\nhttps://mistral.ai/news/mistral-large-4-oss"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Google DeepMind presenta Gemini 4 Carbon, su modelo más potente y de acceso restringido",
+      "summary": "Gemini 4 Carbon llega dos semanas después de Argon y encabeza el índice de inteligencia de Artificial Analysis con 59 puntos, con mejoras en razonamiento complejo, ciberseguridad y tareas de larga duración. Google limita el acceso inicial a expertos en seguridad seleccionados por sus capacidades ofensivas, así que de momento no está disponible para el público general.",
+      "why_it_matters": "Marca el ritmo de la carrera de modelos frontera y anticipa hacia dónde van las capacidades de los agentes que sí podemos usar.",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "Gemini 4 Carbon ya encabeza el índice de modelos frontera. Google no lo abre al público: de momento solo lo usan expertos en seguridad ofensiva.\n\n#GoogleDeepMind #Gemini #ModelosFrontera\nhttps://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+        "linkedin": "Google acaba de enseñar su modelo más potente y, a la vez, ha decidido no dejarte usarlo.\n\nGemini 4 Carbon encabeza el índice de Artificial Analysis con 59 puntos, llega dos semanas después de Argon y mejora en razonamiento complejo, ciberseguridad y tareas de larga duración. El acceso queda restringido a expertos en seguridad seleccionados por su capacidad ofensiva, lo que dice bastante de 𝗵𝗮𝘀𝘁𝗮 𝗾𝘂é 𝗽𝘂𝗻𝘁𝗼 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗳𝗿𝗼𝗻𝘁𝗲𝗿𝗮 𝘀𝗲 𝗵𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝘂𝗻 𝗮𝘀𝘂𝗻𝘁𝗼 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝘆 𝗻𝗼 𝗲𝗻 𝘂𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼. Para quien construye encima de APIs públicas, la lectura es clara: lo que llega a nuestras manos irá siempre un paso por detrás, y conviene diseñar con ese desfase en mente.\n\n#GoogleDeepMind #Gemini #ModelosFrontera\n\nhttps://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Android Studio abre la puerta a agentes de IA de terceros",
+      "summary": "Google ha añadido a Android Studio la función Bring Your Own Agent, que permite conectar más de 40 agentes de programación, incluidos Claude Agent de Anthropic y Codex de OpenAI. La compañía asegura que las nuevas herramientas de terminal permiten completar tareas de interfaz un 77% más rápido y con hasta tres veces menos tokens, y ha presentado además nuevas APIs de Gemini.",
+      "why_it_matters": "Los desarrolladores de Android dejan de estar atados al agente de Google y pueden usar el que prefieran dentro del IDE.",
+      "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis",
+      "source": "The Decoder",
+      "social": {
+        "x": "Android Studio ya no te obliga a usar el agente de Google: puedes conectar Claude, Codex y otros 40 agentes dentro del propio IDE.\n\n#AndroidStudio #Gemini #Anthropic #OpenAI\nhttps://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis",
+        "linkedin": "Tu IDE ya no decide qué agente usas. Android Studio acaba de abrir la puerta a los agentes de terceros y eso mueve el tablero.\nBring Your Own Agent permite conectar más de 40 agentes de programación, Claude Agent de Anthropic y Codex de OpenAI incluidos, sin salir del entorno. Google acompaña el movimiento con herramientas de terminal y nuevas APIs de Gemini, y asegura tareas de interfaz un 77% más rápidas con hasta tres veces menos tokens. 𝗘𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗳𝘂𝗻𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝗜𝗗𝗘 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗽𝗶𝗲𝘇𝗮 𝗾𝘂𝗲 𝗲𝗹𝗶𝗴𝗲𝘀 𝘁ú, así que Google tendrá que competir por rendimiento y no por estar puesto por defecto. Para cualquier equipo con un agente ya integrado en su flujo, esto abre la puerta a probar y comparar sin cambiar de herramienta.\n\n#AndroidStudio #Gemini #Anthropic #OpenAI\n\nhttps://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "OpenAI permite escribir a su agente Dot por iMessage y RCS",
+      "summary": "El agente Dot de OpenAI ya se puede usar a través de iMessage y RCS, sin necesidad de abrir una aplicación dedicada. La función convierte la conversación por mensajería en la interfaz principal para encargarle tareas al agente.",
+      "why_it_matters": "Baja la barrera de uso de un agente a algo tan cotidiano como mandar un mensaje de texto.",
+      "url": "https://www.engadget.com/2300235/openai-now-lets-you-text-your-dot-agent",
+      "source": "Engadget",
+      "social": {
+        "x": "OpenAI ya no te pide abrir una app: a su agente Dot le escribes por iMessage como a cualquier contacto del móvil.\n\n#OpenAI #iMessage #RCS\nhttps://www.engadget.com/2300235/openai-now-lets-you-text-your-dot-agent",
+        "linkedin": "El interfaz definitivo para los agentes de IA no es una app nueva: es tu historial de mensajes.\n\nDot, el agente de OpenAI, ya funciona por iMessage y RCS, así que encargarle una tarea es tan simple como escribirle a un contacto. 𝗟𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘁é𝗰𝗻𝗶𝗰𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗹𝗮 𝗾𝘂𝗲 𝗰𝗮𝗱𝗮 𝘂𝘀𝘂𝗮𝗿𝗶𝗼 𝘆𝗮 𝘁𝗶𝗲𝗻𝗲 𝗶𝗻𝘁𝗲𝗿𝗶𝗼𝗿𝗶𝘇𝗮𝗱𝗮: si sabes mandar un mensaje, sabes usar un agente. Para quien diseña producto, el mensaje es claro: la adopción no vendrá de una app más pulida, sino de colarse en el sitio donde la gente ya escribe todos los días.\n\n#OpenAI #iMessage #RCS\n\nhttps://www.engadget.com/2300235/openai-now-lets-you-text-your-dot-agent"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Cloudflare lanza una API de búsqueda web pensada para aplicaciones de IA",
+      "summary": "La beta de Web Search API funciona a través de AI Gateway y se puede invocar por REST o desde Cloudflare Workers. Ofrece registro unificado, control de accesos y facturación, y admite claves propias del proveedor que elijas.",
+      "why_it_matters": "Resuelve una pieza habitual de cualquier aplicación con RAG, la búsqueda web, con la gestión de claves y de costes ya integrada.",
+      "url": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api",
+      "source": "InfoQ",
+      "social": {
+        "x": "Toda app con RAG acaba construyendo su propia búsqueda web. Cloudflare la convierte ahora en una llamada a su API.\n\n#Cloudflare #RAG #CloudflareWorkers\nhttps://www.infoq.com/news/2026/10/cloudflare-web-search-api",
+        "linkedin": "La búsqueda web era la pieza que cada equipo con RAG terminaba reimplementando. Cloudflare la integra ahora en AI Gateway como 𝘂𝗻𝗮 𝗔𝗣𝗜 𝗰𝗼𝗻 𝗰𝗹𝗮𝘃𝗲𝘀 𝘆 𝗳𝗮𝗰𝘁𝘂𝗿𝗮𝗰𝗶ó𝗻 𝘆𝗮 𝗿𝗲𝘀𝘂𝗲𝗹𝘁𝗮𝘀.\n\nSe invoca por REST o desde Workers y admite las claves del proveedor que elijas, así que no te ata a un solo buscador. Para equipos pequeños el ahorro real no está en el código: está en dejar de gestionar cuotas, accesos y costes en tres sitios distintos. Queda por ver si una capa intermedia más en la stack compensa frente a llamar directamente al proveedor.\n\n#Cloudflare #RAG #CloudflareWorkers\n\nhttps://www.infoq.com/news/2026/10/cloudflare-web-search-api"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Datadog entrena Scout, un modelo especializado en investigar incidentes de producción",
+      "summary": "Datadog ha presentado Scout, un modelo entrenado para investigar problemas en producción dentro de su producto de SRE con IA, Bits Investigation. El modelo recibe una alerta, revisa la telemetría y propone la causa probable; de momento está en preview cerrada con ingenieros de la empresa y algunos clientes.",
+      "why_it_matters": "Es un ejemplo de modelo vertical que sustituye a un modelo generalista en una tarea concreta y medible.",
+      "url": "https://www.infoq.com/news/2026/10/datadog-scout-sre-model",
+      "source": "InfoQ",
+      "social": {
+        "x": "🔍 El modelo que investiga tus incidentes de producción no es GPT ni Claude. Datadog ha entrenado el suyo y ya lo está probando con clientes.\n\n#Datadog #SRE #Observabilidad #LLM\nhttps://www.infoq.com/news/2026/10/datadog-scout-sre-model",
+        "linkedin": "Datadog no ha enchufado un modelo generalista a su plataforma: ha entrenado uno propio para investigar incidentes.\nScout recibe la alerta, revisa la telemetría y propone la causa probable, de momento en preview cerrada con ingenieros de la empresa y algunos clientes dentro de Bits Investigation. La lectura de fondo es la que importa: 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝘃𝗲𝗿𝘁𝗶𝗰𝗮𝗹 𝗽𝘂𝗲𝗱𝗲 𝗿𝗲𝗻𝗱𝗶𝗿 𝗺á𝘀 𝗾𝘂𝗲 𝘂𝗻 𝗴𝗲𝗻𝗲𝗿𝗮𝗹𝗶𝘀𝘁𝗮 𝗰𝘂𝗮𝗻𝗱𝗼 𝗹𝗮 𝘁𝗮𝗿𝗲𝗮 𝗲𝘀 𝗮𝗰𝗼𝘁𝗮𝗱𝗮 𝘆 𝗺𝗲𝗱𝗶𝗯𝗹𝗲, y eso invita a imaginar un modelo por cada trabajo de SRE. Si el enfoque aguanta, lo que se automatiza ya no es la respuesta al incidente sino la primera hora de investigación, la que hoy se come el ingeniero de guardia.\n\n#Datadog #SRE #Observabilidad #LLM\n\nhttps://www.infoq.com/news/2026/10/datadog-scout-sre-model"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Bug0 publica un agente de QA que acelera los tests de regresión con Playwright",
+      "summary": "QA Agent es una librería de Playwright, con código disponible, que traduce instrucciones en lenguaje natural a acciones sobre la interfaz y cachea esas acciones para repetir los tests más rápido en CI. Cuando la interfaz cambia, vuelve a mapear los pasos a la especificación y valida el resultado combinando varios modelos y modelos de visión.",
+      "why_it_matters": "Ataca el punto más caro de los tests end-to-end, que se rompen cada vez que cambia la interfaz.",
+      "url": "https://www.infoq.com/news/2026/10/bug0-agent-testing-cached-replay",
+      "source": "InfoQ",
+      "social": {
+        "x": "Los tests end-to-end se rompen cada vez que cambia la interfaz. Bug0 publica un agente que reescribe los pasos solo y cachea el resultado para que CI vaya más rápido.\n\n#Playwright #Testing #QA #OpenSource\nhttps://www.infoq.com/news/2026/10/bug0-agent-testing-cached-replay",
+        "linkedin": "Los tests end-to-end son la partida más caras de cualquier equipo de producto: caros de escribir y, sobre todo, caros de mantener vivos.\n\nBug0 ha publicado QA Agent, una librería de Playwright con código disponible que traduce instrucciones en lenguaje natural a acciones sobre la interfaz y 𝗰𝗮𝗰𝗵𝗲𝗮 𝗲𝘀𝗼𝘀 𝗽𝗮𝘀𝗼𝘀 𝗽𝗮𝗿𝗮 𝗾𝘂𝗲 𝗖𝗜 𝗻𝗼 𝗿𝗲𝗽𝗶𝘁𝗮 𝗲𝗹 𝗺𝗶𝘀𝗺𝗼 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗲𝗻 𝗰𝗮𝗱𝗮 𝗲𝗷𝗲𝗰𝘂𝗰𝗶ó𝗻. Cuando la interfaz cambia, vuelve a mapear los pasos a la especificación y valida el resultado combinando varios modelos, incluidos modelos de visión. La lectura profesional: el coste real nunca fue escribir los tests, era mantenerlos, y un agente con caché y re-mapeo automático ataca justo ese punto, el que hacía que muchos equipos acabaran desactivando la suite de regresión.\n\n#Playwright #Testing #QA #OpenSource\n\nhttps://www.infoq.com/news/2026/10/bug0-agent-testing-cached-replay"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "IBM propone actualizar modelos como se actualiza el software con Granite Switch 4.1.1",
+      "summary": "Hugging Face publica Granite Switch 4.1.1, una actualización de los modelos Granite de IBM que se plantea como un parche de software: cambiar de versión del modelo sin rehacer la integración. La propuesta es tratar las versiones del modelo con el mismo flujo de control de versiones que el resto del código.",
+      "why_it_matters": "Cambiar de modelo en producción sigue siendo doloroso, y tratar cada versión como un release de software simplifica esa migración.",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Cambiar de modelo en producción sigue doliendo. IBM propone tratarlo como un release de software: parcheas la versión y la integración no se toca.\n\n#IBM #Granite #HuggingFace #OpenSource\nhttps://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+        "linkedin": "Cambiar de modelo en producción sigue siendo esa tarea que nadie quiere tocar un viernes por la tarde.\n\nGranite Switch 4.1.1, publicado en Hugging Face, plantea otra cosa: 𝘁𝗿𝗮𝘁𝗮𝗿 𝗰𝗮𝗱𝗮 𝘃𝗲𝗿𝘀𝗶ó𝗻 𝗱𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗰𝗼𝗺𝗼 𝘂𝗻 𝗿𝗲𝗹𝗲𝗮𝘀𝗲 𝗱𝗲 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲, con su control de versiones y su parche, sin rehacer la integración cada vez. La idea lleva tiempo en el discurso, pero verla empaquetada en un modelo concreto cambia el cálculo: si cuaja, quien mantiene el modelo deja de ser el cuello de botella de quien despliega. Y eso afecta tanto a los equipos de ML como a los de plataforma.\n\n#IBM #Granite #HuggingFace #OpenSource\n\nhttps://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "Modelos abiertos de voz y de decisión para las plataformas de Apple",
+      "summary": "El blog de Hugging Face presenta AnySpeechRecognizer y AnyDecisionModel, dos modelos abiertos pensados para ejecutarse en plataformas de Apple. Cubren reconocimiento de voz y toma de decisiones, y se distribuyen para integrarlos directamente en aplicaciones del ecosistema.",
+      "why_it_matters": "Añade alternativas open source a los frameworks de Apple para funciones de voz y decisión en local.",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Reconocimiento de voz y toma de decisiones en local, en apps de Apple y sin los frameworks de Apple. Hugging Face acaba de publicar dos modelos abiertos para ello.\n\n#HuggingFace #OpenSource #Apple\nhttps://huggingface.co/blog/anydecisionmodel",
+        "linkedin": "Apple lleva años ofreciendo frameworks de voz y decisión bastante decentes. El problema es que son suyos.\n\nHugging Face acaba de publicar AnySpeechRecognizer y AnyDecisionModel, dos modelos abiertos pensados para integrarse en aplicaciones del ecosistema de Apple y ejecutar la inferencia en local. Para quien desarrolla, la diferencia no está solo en la licencia: 𝗽𝘂𝗲𝗱𝗲𝘀 𝗮𝘂𝗱𝗶𝘁𝗮𝗿 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝘆 𝗹𝗹𝗲𝘃á𝗿𝘁𝗲𝗹𝗼 𝗮 𝗼𝘁𝗿𝗮 𝗽𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮 𝘀𝗶 𝗺𝗮ñ𝗮𝗻𝗮 𝗰𝗮𝗺𝗯𝗶𝗮 𝗲𝗹 𝗿𝘂𝗺𝗯𝗼. La lectura profesional es que las funciones de voz y decisión dejan de tener un único proveedor razonable, y eso aprieta la comparativa en privacidad, coste y dependencia. Si mantienes una app en iOS o macOS, es hora de hacer números.\n\n#HuggingFace #OpenSource #Apple\n\nhttps://huggingface.co/blog/anydecisionmodel"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "Anthropic explica cómo revisa código cuando Claude escribe el 90%",
+      "summary": "El equipo de Claude Code ha publicado su proceso de revisión ahora que el modelo genera alrededor del 90% del código, e incluye la afirmación de que nadie mantiene un modelo mental completo del código base. El artículo documenta un pull request con más de cincuenta rondas de revisión en una noche y un revisor automático que dedica la mayor parte del esfuerzo a código preexistente.",
+      "why_it_matters": "Es una referencia práctica para equipos que ya dejan la mayor parte de la escritura de código a un agente.",
+      "url": "https://www.infoq.com/news/2026/10/anthropic-code-review",
+      "source": "InfoQ",
+      "social": {
+        "x": "El 90% del código de Claude Code lo escribe Claude. Y en Anthropic admiten que nadie tiene el mapa completo de ese código.\n\n#Anthropic #ClaudeCode #CodeReview #DesarrolloDeSoftware\nhttps://www.infoq.com/news/2026/10/anthropic-code-review",
+        "linkedin": "En Anthropic nadie mantiene un modelo mental completo del código base. Y no es una anécdota: el 90% lo escribe Claude.\n\nEl equipo de Claude Code ha publicado su proceso de revisión, con un pull request que acumuló más de 50 rondas en una sola noche y un revisor automático que dedica la mayor parte del esfuerzo a código preexistente. 𝗟𝗮 𝗿𝗲𝘃𝗶𝘀𝗶ó𝗻, 𝗻𝗼 𝗹𝗮 𝗴𝗲𝗻𝗲𝗿𝗮𝗰𝗶ó𝗻, 𝗲𝘀 𝗮𝗵𝗼𝗿𝗮 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮, y quien no lo asuma está midiendo mal su productividad. Para cualquier equipo que ya delega la escritura en un agente, la pregunta útil deja de ser cuánto código sale y pasa a ser cuánto de ese código se puede auditar.\n\n#Anthropic #ClaudeCode #CodeReview #DesarrolloDeSoftware\n\nhttps://www.infoq.com/news/2026/10/anthropic-code-review"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Las H-Nets aprenden directamente de bytes e igualan a un Transformer con diez veces menos cómputo",
+      "summary": "Cartesia describe una nueva generación de redes jerárquicas, las H-Nets, que trabajan sobre bytes en lugar de tokens. Según la compañía, igualan a un Transformer open source de 3.000 millones de parámetros con diez veces menos cómputo y datos de entrenamiento.",
+      "why_it_matters": "Si el resultado se sostiene, elimina la tokenización y abarata el entrenamiento, dos lastres clásicos de los modelos actuales.",
+      "url": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1",
+      "source": "Hacker News",
+      "social": {
+        "x": "El tokenizador podría tener los días contados: las H-Nets de Cartesia trabajan sobre bytes y, según la compañía, igualan a un Transformer de 3.000 millones con diez veces menos cómputo.\n\n#Cartesia #Tokenización #OpenSource #LLM\nhttps://www.cartesia.ai/blog/from-tokens-to-bytes-part-1",
+        "linkedin": "El tokenizador, ese paso que nadie discute, puede ser prescindible.\n\nCartesia presenta las H-Nets, redes jerárquicas que aprenden directamente de bytes y que, según sus propios datos, igualan a un Transformer open source de 3.000 millones de parámetros con 𝗱𝗶𝗲𝘇 𝘃𝗲𝗰𝗲𝘀 𝗺𝗲𝗻𝗼𝘀 𝗰ó𝗺𝗽𝘂𝘁𝗼 𝘆 𝗱𝗮𝘁𝗼𝘀 𝗱𝗲 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼. Si el resultado se sostiene, desaparece una capa entera de preprocesado y el entrenamiento se abarata justo donde más duele, en la factura de GPU. Conviene mirarlo con escepticismo, porque los benchmarks son de la casa, pero la tokenización llevaba demasiado tiempo sin que nadie la cuestionara en serio.\n\n#Cartesia #Tokenización #OpenSource #LLM\n\nhttps://www.cartesia.ai/blog/from-tokens-to-bytes-part-1"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Un estudio rastrea de dónde salen las cifras que citan los asistentes de IA",
+      "summary": "Trakkr planteó 200 preguntas que exigían una cifra a cinco asistentes de IA y siguió 1.285 de las estadísticas citadas hasta su fuente original. El trabajo documenta cuántas referencias se pierden, se deforman o se atribuyen mal por el camino.",
+      "why_it_matters": "Pone número a un problema de fiabilidad que afecta a cualquier respuesta de IA que incluya datos.",
+      "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un estudio siguió 1.285 cifras citadas por asistentes de IA hasta su fuente original. Muchas se pierden, se deforman o se atribuyen mal por el camino.\n\n#InteligenciaArtificial #LLM #FactChecking #Trakkr\nhttps://trakkr.ai/trakkr-research/zombie-stats",
+        "linkedin": "Las cifras que suelta un asistente de IA casi nadie las audita. Hasta ahora.\n\nTrakkr hizo 200 preguntas que exigían un dato numérico a cinco asistentes y rastreó 1.285 de las estadísticas citadas hasta su origen. El resultado documenta cuántas referencias se pierden, se deforman o se atribuyen a quien no las publicó: 𝗹𝗮 𝗰𝗮𝗱𝗲𝗻𝗮 𝗲𝗻𝘁𝗿𝗲 𝗲𝗹 𝗱𝗮𝘁𝗼 𝘆 𝘀𝘂 𝗳𝘂𝗲𝗻𝘁𝗲 𝘀𝗲 𝗿𝗼𝗺𝗽𝗲 𝗺𝘂𝗰𝗵𝗼 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗹𝗹𝗲𝗴𝗮𝗿 𝗮 𝘁𝘂 𝗽𝗮𝗻𝘁𝗮𝗹𝗹𝗮. Para cualquiera que use IA en informes, propuestas o contenido público, esto convierte la verificación de cada cifra en un paso obligatorio y no en una cortesía.\n\n#InteligenciaArtificial #LLM #FactChecking #Trakkr\n\nhttps://trakkr.ai/trakkr-research/zombie-stats"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "lanzamientos",
+      "title": "Alexa para compras ya crea y edita listas y registros de regalos",
+      "summary": "Amazon amplía su asistente de compras con la posibilidad de crear listas, añadir o mover artículos entre listas y consultar registros de bodas o de regalos por voz. La compañía sigue cerrando el círculo de compra dentro de su ecosistema.",
+      "why_it_matters": "Es un caso real de agente que modifica datos del usuario, no solo que responde preguntas.",
+      "url": "https://www.theverge.com/tech/1022140/amazon-alexa-for-shopping-grocery-lists-gift-registries",
+      "source": "The Verge",
+      "social": {
+        "x": "Alexa ya no se limita a contestarte: crea listas, mueve artículos de una a otra y consulta tu registro de bodas. El asistente empieza a escribir en tus datos.\n\n#Alexa #Amazon #VoiceCommerce\nhttps://www.theverge.com/tech/1022140/amazon-alexa-for-shopping-grocery-lists-gift-registries",
+        "linkedin": "Alexa acaba de dejar de ser un altavoz que responde para convertirse en algo que edita tus datos.\n\nAmazon ha ampliado su asistente de compras: puede crear listas, añadir o mover artículos entre ellas y consultar registros de bodas o de regalos por voz. La diferencia con todo lo anterior no es la función, es el permiso: 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗾𝘂𝗲 𝗺𝗼𝗱𝗶𝗳𝗶𝗰𝗮 𝘁𝘂𝘀 𝗱𝗮𝘁𝗼𝘀 𝗲𝘅𝗶𝗴𝗲 𝗺𝘂𝗰𝗵𝗮 𝗺á𝘀 𝗰𝗼𝗻𝗳𝗶𝗮𝗻𝘇𝗮 𝗾𝘂𝗲 𝘂𝗻𝗼 𝗾𝘂𝗲 𝘀𝗼𝗹𝗼 𝗰𝗼𝗻𝘁𝗲𝘀𝘁𝗮. Y conviene mirarlo con lupa, porque cada una de esas acciones acerca la compra final al ecosistema de Amazon y deja menos margen a la tienda de al lado.\n\n#Alexa #Amazon #VoiceCommerce\n\nhttps://www.theverge.com/tech/1022140/amazon-alexa-for-shopping-grocery-lists-gift-registries"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "Apple lanza su primer MacBook Pro con pantalla táctil y OLED",
+      "summary": "El nuevo MacBook Pro estrena panel OLED táctil, un chasis más fino y ligero y un precio que arranca en 2.899 dólares. La configuración con todos los extras se dispara por encima de los 14.000 dólares.",
+      "why_it_matters": "Apple cambia una postura que mantuvo durante más de quince años y redefine la gama alta de sus portátiles.",
+      "url": "https://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Apple dijo durante 15 años que el táctil en un portátil no tenía sentido. Su primer MacBook Pro táctil llega con OLED y desde 2.899 dólares.\n\n#Apple #MacBookPro #OLED #macOS\nhttps://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro",
+        "linkedin": "Quince años defendiendo que el táctil en un portátil no era el camino, y Apple acaba de presentar su primer MacBook Pro con pantalla OLED táctil.\n\nNo es solo un cambio de panel: es una rectificación de discurso que llega con un chasis más fino y una horquilla de precio que va de 2.899 a más de 14.000 dólares en la configuración tope. 𝗟𝗮 𝗴𝗮𝗺𝗮 𝗮𝗹𝘁𝗮 𝗱𝗲 𝗽𝗼𝗿𝘁á𝘁𝗶𝗹𝗲𝘀 𝗱𝗲 𝗔𝗽𝗽𝗹𝗲 𝘀𝗲 𝗿𝗲𝗱𝗲𝗳𝗶𝗻𝗲, y con ella el listón al que van a mirar todos los fabricantes de Windows en los próximos ciclos. Para los equipos creativos que llevan años pidiendo esto, la duda ya no es si el táctil convence, sino si el presupuesto lo aguanta.\n\n#Apple #MacBookPro #OLED #macOS\n\nhttps://techcrunch.com/2026/10/28/apple-launches-its-new-touchscreen-macbook-pro"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "lanzamientos",
+      "title": "systemd incorpora soporte para Rust",
+      "summary": "El proyecto systemd ha añadido la posibilidad de escribir componentes en Rust junto al C tradicional. Con ello sigue el camino que ya tomó el kernel de Linux para reducir errores de gestión de memoria.",
+      "why_it_matters": "Refuerza la tendencia a usar lenguajes con seguridad de memoria en el software base de Linux.",
+      "url": "https://www.theregister.com/os-platforms/2026/10/29/systemd-adds-support-for-rust/5306264",
+      "source": "The Register",
+      "social": {
+        "x": "systemd acaba de abrir la puerta a Rust. El lenguaje que ya conquistó el kernel entra ahora en la pieza que arranca Linux.\n\n#systemd #Rust #Linux #OpenSource\nhttps://www.theregister.com/os-platforms/2026/10/29/systemd-adds-support-for-rust/5306264",
+        "linkedin": "El lenguaje que ya conquistó el kernel de Linux acaba de colarse también en systemd.\nDurante años, la seguridad de memoria en el software base se resolvía con revisiones de código y mucha disciplina. Ahora esa garantía se delega cada vez más al compilador: 𝘀𝘆𝘀𝘁𝗲𝗺𝗱 𝗽𝗲𝗿𝗺𝗶𝘁𝗶𝗿á 𝗲𝘀𝗰𝗿𝗶𝗯𝗶𝗿 𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁𝗲𝘀 𝗲𝗻 𝗥𝘂𝘀𝘁 𝗷𝘂𝗻𝘁𝗼 𝗮𝗹 𝗖 𝗱𝗲 𝘀𝗶𝗲𝗺𝗽𝗿𝗲, el mismo camino que ya tomó el kernel. Para quien mantiene infraestructura crítica, esto no es una moda de lenguaje: es menos superficie donde un fallo de memoria acaba convertido en una caída del sistema.\n\n#systemd #Rust #Linux #OpenSource\n\nhttps://www.theregister.com/os-platforms/2026/10/29/systemd-adds-support-for-rust/5306264"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "herramientas",
+      "title": "noalloc, utilidades para exigir cero reservas de memoria en Go",
+      "summary": "El proyecto noalloc, de Consensus Labs, reúne herramientas y librerías para detectar y bloquear reservas en el heap en programas escritos en Go. Está pensado para código sensible a la latencia, donde el recolector de basura introduce pausas.",
+      "why_it_matters": "Da a los equipos de Go una forma automática de vigilar una restricción que hasta ahora se revisaba a mano.",
+      "url": "https://github.com/theconsensuslabs/noalloc",
+      "source": "Lobsters",
+      "social": {
+        "x": "En Go, una sola reserva en el heap puede meter una pausa del GC en el peor momento. noalloc las detecta y las bloquea sin revisarlas a mano.\n\n#Go #Golang #ConsensusLabs\nhttps://github.com/theconsensuslabs/noalloc",
+        "linkedin": "En Go, una reserva en el heap en el sitio equivocado es una pausa del GC esperando a ocurrir.\n\nHasta ahora, mantener el hot path libre de allocations era disciplina manual: medir, revisar, acordarse. noalloc, de Consensus Labs, lo convierte en una comprobación automática que 𝗱𝗲𝘁𝗲𝗰𝘁𝗮 𝘆 𝗯𝗹𝗼𝗾𝘂𝗲𝗮 𝗹𝗮𝘀 𝗿𝗲𝘀𝗲𝗿𝘃𝗮𝘀 𝗲𝗻 𝗲𝗹 𝗵𝗲𝗮𝗽 dentro del propio código. Para los equipos con servicios sensibles a la latencia, el cambio es de fondo: la restricción deja de depender de que alguien se acuerde y pasa a estar escrita donde nadie la puede saltarse.\n\n#Go #Golang #ConsensusLabs\n\nhttps://github.com/theconsensuslabs/noalloc"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "herramientas",
+      "title": "Un proyecto open source sincroniza los datos de Withings sin suscripción",
+      "summary": "YourOwnWeigh es una aplicación web self-hosted que extrae los datos de la báscula y de otros dispositivos Withings y los envía a aplicaciones de terceros sin pasar por la suscripción del fabricante. Se instala en un servidor propio y funciona de forma inalámbrica.",
+      "why_it_matters": "Devuelve al usuario el control de sus datos de salud y evita un pago recurrente por acceder a lo que ya mide su dispositivo.",
+      "url": "https://www.theverge.com/tech/1022214/yourownweigh-sync-withings-smart-scale-data-wireless-web-app-free",
+      "source": "The Verge",
+      "social": {
+        "x": "Tu báscula mide. Ver esos datos depende de una suscripción. Un proyecto open source y self-hosted se la salta y sincroniza Withings con tus apps.\n\n#OpenSource #Withings #SelfHosted #QuantifiedSelf\nhttps://www.theverge.com/tech/1022214/yourownweigh-sync-withings-smart-scale-data-wireless-web-app-free",
+        "linkedin": "Pagaste la báscula. Los datos que genera son tuyos. La cuota para poder verlos, no.\n\nYourOwnWeigh es una aplicación web self-hosted que extrae lo que miden los dispositivos Withings y lo envía a las apps que ya usas, sin pasar por la suscripción del fabricante. 𝗘𝗹 𝗱𝗮𝘁𝗼 𝗱𝗲 𝘀𝗮𝗹𝘂𝗱 𝗹𝗼 𝗽𝗿𝗼𝗱𝘂𝗰𝗲 𝗲𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼 𝘆 𝗱𝗲𝗯𝗲𝗿í𝗮 𝗽𝗼𝗱𝗲𝗿 𝘀𝗮𝗰𝗮𝗿𝗹𝗼 𝘀𝗶𝗻 𝗽𝗲𝗮𝗷𝗲𝘀, y aquí la vía es montarlo en un servidor propio. Para quien tiene peso, sueño o actividad registrados durante años, esto cambia la pregunta: ya no es cuánto cuesta la suscripción, sino cuánto cuesta no tener tus propios datos.\n\n#OpenSource #Withings #SelfHosted #QuantifiedSelf\n\nhttps://www.theverge.com/tech/1022214/yourownweigh-sync-withings-smart-scale-data-wireless-web-app-free"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "investigacion",
+      "title": "Una vulnerabilidad del firmware UEFI afecta a la mayoría de servidores del mundo",
+      "summary": "El fallo crítico está en firmware UEFI usado por la mayoría de fabricantes de servidores y centros de datos, y permite ejecutar código en una fase temprana del arranque. Al actuar antes del sistema operativo, las herramientas habituales de seguridad no lo detectan.",
+      "why_it_matters": "Afecta a infraestructura de base y exige parches coordinados de muchos fabricantes a la vez.",
+      "url": "https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware",
+      "source": "Wired",
+      "social": {
+        "x": "Hay un fallo que se ejecuta antes de que arranque el sistema operativo. Ningún antivirus lo ve. Y está en el firmware UEFI de la mayoría de servidores del mundo.\n\n#UEFI #Firmware #Ciberseguridad\nhttps://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware",
+        "linkedin": "El fallo vive por debajo del sistema operativo, en el firmware UEFI que comparten la mayoría de servidores y centros de datos. Se ejecuta en la fase temprana del arranque, cuando ninguna herramienta de seguridad ha empezado a mirar, y por eso pasa desapercibido: 𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗾𝘂𝗲 𝗰𝗼𝗿𝗿𝗲 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝘃𝗼 𝘀𝗶𝗴𝘂𝗲 𝘀𝗶𝗲𝗻𝗱𝗼 𝗲𝗹 𝗽𝘂𝗻𝘁𝗼 𝗰𝗶𝗲𝗴𝗼 𝗱𝗲 𝗹𝗮 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮. Lo incómodo no es solo el fallo, es el parche: hay que coordinar a decenas de fabricantes a la vez y actualizar firmware en infraestructura que no se puede apagar sin más. Si hace tiempo que no revisas el ciclo de actualización de tu parque de servidores, este es el momento.\n\n#UEFI #Firmware #Ciberseguridad\n\nhttps://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "lanzamientos",
+      "title": "Anthropic muestra a las empresas en qué se les va el gasto en IA",
+      "summary": "Anthropic ha lanzado herramientas que desglosan el uso y el coste de sus modelos para cada empresa, con el fin de que los responsables técnicos puedan atribuir el gasto. El movimiento llega antes de su salida a bolsa, cuando los inversores examinan con lupa la monetización.",
+      "why_it_matters": "Da a los equipos visibilidad sobre un gasto de IA que hasta ahora era difícil de repartir por proyectos.",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Nadie sabía a qué proyecto cargar la factura de la IA. Anthropic acaba de ponerle desglose por equipo, justo antes de salir a bolsa.\n\n#Anthropic #FinOps #ModelosLLM #Cloud\nhttps://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+        "linkedin": "El gasto en IA ya se puede repartir proyecto por proyecto. Anthropic ha lanzado herramientas que desglosan uso y coste por empresa, y lo hace justo antes de su salida a bolsa.\n\nHasta ahora los equipos técnicos pagaban la factura de los modelos sin saber qué producto o qué cliente la consumía. Con esto, 𝗹𝗮 𝘃𝗶𝘀𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗴𝗮𝘀𝘁𝗼 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗳𝘂𝗻𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼 𝘆 𝗻𝗼 𝘂𝗻 𝗶𝗻𝗳𝗼𝗿𝗺𝗲 𝗱𝗲 𝗳𝗶𝗻 𝗱𝗲 𝘁𝗿𝗶𝗺𝗲𝘀𝘁𝗿𝗲. Para quien tenga que justificar presupuesto ante dirección, cambia la conversación: ya no se discute cuánto cuesta la IA, sino qué devuelve cada proyecto.\n\n#Anthropic #FinOps #ModelosLLM #Cloud\n\nhttps://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "El web no puede permitirse un monopolio de runtimes de JavaScript",
+      "summary": "Un análisis de RedMonk repasa las consecuencias de que el equipo de Deno se incorpore a Cloudflare y de que el desarrollo del runtime se detenga en un año. Quedan Node.js y Bun como alternativas generalistas, con el riesgo de dependencia que supone un ecosistema con tan pocos actores.",
+      "why_it_matters": "La infraestructura web descansa sobre muy pocos runtimes y cada movimiento de sus dueños afecta a miles de proyectos.",
+      "url": "https://redmonk.com/kholterhoff/2026/10/27/js-runtime-monoculture",
+      "source": "Lobsters",
+      "social": {
+        "x": "Deno deja de desarrollarse en un año. Su equipo se va a Cloudflare y el web se queda con dos runtimes: Node y Bun. Toda la infraestructura descansa sobre muy pocos actores.\n\n#Deno #NodeJS #Bun #Cloudflare\nhttps://redmonk.com/kholterhoff/2026/10/27/js-runtime-monoculture",
+        "linkedin": "El web lleva años apoyado en un puñado de runtimes y acaba de quedarse con uno menos.\n\nEl equipo de Deno se incorpora a Cloudflare y el desarrollo del runtime se detiene en un año. Quedan Node.js y Bun como alternativas generalistas, y con ellas 𝘂𝗻𝗮 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮 𝗶𝗻𝗰ó𝗺𝗼𝗱𝗮: 𝗹𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗱𝗲 𝗺𝗶𝗹𝗲𝘀 𝗱𝗲 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗾𝘂𝗲𝗱𝗮 𝗮 𝗺𝗲𝗿𝗰𝗲𝗱 𝗱𝗲 𝗹𝗮𝘀 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝗲𝘀 𝗱𝗲 𝗱𝗼𝘀 𝗲𝗺𝗽𝗿𝗲𝘀𝗮𝘀. Para quien elige tecnología, la pregunta ya no es solo cuál corre más, sino cuál sobrevive a su dueño.\n\n#Deno #NodeJS #Bun #Cloudflare\n\nhttps://redmonk.com/kholterhoff/2026/10/27/js-runtime-monoculture"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Da memoria persistente a agentes como Claude Code, Codex o Copilot: captura lo que hacen en cada sesión, lo comprime con IA e inyecta el contexto relevante en las siguientes. Muy útil si trabajas con agentes a diario y no quieres repetir contexto.",
+      "language": "TypeScript",
+      "stars": 104440,
+      "social": {
+        "x": "Alguien ha convertido a Claude Code en un agente con memoria: captura cada sesión, la comprime con IA y la reinyecta en la siguiente. 104k estrellas.\n\n#ClaudeCode #TypeScript #OpenSource #GitHub\nhttps://github.com/thedotmack/claude-mem",
+        "linkedin": "TU AGENTE SE OLVIDA DE TODO AL CERRAR LA SESIÓN. Y TÚ LE VUELVES A EXPLICAR EL CONTEXTO CADA MAÑANA.\n\nClaude Code, Codex o Copilot arrancan de cero: no recuerdan qué tocasteis ayer, qué decidisteis ni por qué descartasteis una solución. claude-mem resuelve justo eso, sin cambiar tu forma de trabajar.\n\nCada sesión se captura, se comprime con IA y el contexto relevante se inyecta al empezar la siguiente. Ni prompts gigantes ni notas sueltas en un archivo aparte.\n\n→ Captura automática de lo que hace el agente en cada sesión.\n→ Compresión con IA para no reventar la ventana de contexto.\n→ Inyección del contexto útil en la sesión siguiente, no de todo el historial.\n→ Compatible con Claude Code, Codex y Copilot.\n→ TypeScript, open source y ya con más de 104.000 estrellas.\n\nLa gracia no es la memoria en sí: es que 𝗲𝗹 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘃𝗶𝘃𝗶𝗿 𝗲𝗻 𝘁𝘂 𝗰𝗮𝗯𝗲𝘇𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘃𝗶𝘃𝗶𝗿 𝗲𝗻 𝗲𝗹 𝗿𝗲𝗽𝗼.\n\nSi trabajas con agentes a diario, guárdate este post. El repo te lo dejo abajo.\n\n#ClaudeCode #TypeScript #OpenSource #GitHub\n\nhttps://github.com/thedotmack/claude-mem"
+      }
+    },
+    {
+      "name": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "description": "AI coworkers open source que tienen su propio ordenador, con navegador, archivos y herramientas, y que registran cada acción antes y después de ejecutarla. Funciona con cualquier agente AG-UI y sirve para montar asistentes autónomos con control.",
+      "language": "TypeScript",
+      "stars": 7933,
+      "social": {
+        "x": "AI coworkers con su propio ordenador: navegador, archivos y herramientas. Y cada acción queda registrada antes y después de ejecutarse. OpenBot, open source y casi 8k estrellas.\n\n#OpenBot #CopilotKit #TypeScript #OpenSource\nhttps://github.com/CopilotKit/OpenBot",
+        "linkedin": "UN AGENTE CON SU PROPIO ORDENADOR NO ES EL PROBLEMA. EL PROBLEMA ES QUE NADIE SABE QUÉ HIZO.\n\nOpenBot, de CopilotKit, le da a tu agente un entorno completo (navegador, archivos, herramientas) y, sobre todo, deja rastro: 𝗰𝗮𝗱𝗮 𝗮𝗰𝗰𝗶ó𝗻 𝘀𝗲 𝗿𝗲𝗴𝗶𝘀𝘁𝗿𝗮 𝗮𝗻𝘁𝗲𝘀 𝘆 𝗱𝗲𝘀𝗽𝘂é𝘀 𝗱𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿𝘀𝗲. Sin cajas negras.\n\nLa mayoría de asistentes autónomos se quedan en llamadas a una API y en un log que escribes tú cuando te acuerdas. Aquí el registro es parte del diseño, así que puedes auditar, depurar y parar a tiempo.\n\n→ Entorno propio: navegador, sistema de archivos y herramientas, no solo texto de ida y vuelta.\n→ Trazabilidad doble: intención antes de actuar y resultado después.\n→ Compatible con cualquier agente AG-UI, sin atarte a un framework concreto.\n→ TypeScript y open source, con casi 8k estrellas.\n\nSi estás montando asistentes que tocan cosas de verdad, el control no es un extra: es el requisito. Guarda este post para cuando te toque explicar qué hizo tu agente a las 3 de la mañana.\n\n#OpenBot #CopilotKit #TypeScript #OpenSource\n\nhttps://github.com/CopilotKit/OpenBot"
+      }
+    },
+    {
+      "name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Alternativa open source a Grok Bot que da a los bots una máquina virtual para que puedan ejecutar tareas. Encaja si buscas un punto de partida práctico para agentes con entorno propio.",
+      "language": "TypeScript",
+      "stars": 7256,
+      "social": {
+        "x": "Grok Bot te cobra por darle un ordenador a tu agente. Este repo open source le da una máquina virtual entera, con 7.256 estrellas y sin cuota.\n\n#OpenSource #TypeScript #Agents #GitHub\nhttps://github.com/milind-soni/OpenMausBot",
+        "linkedin": "LE DA A TU AGENTE UNA MÁQUINA VIRTUAL PROPIA. Y ES OPEN SOURCE.\n\nGrok Bot y sus primos comerciales venden lo mismo: un entorno donde el agente ejecuta tareas de verdad, cerrado y con factura mensual. OpenMausBot propone exactamente eso, pero en abierto y en TypeScript.\n\nLa idea que lo hace útil no es el chat, es el aislamiento: 𝗰𝗮𝗱𝗮 𝗯𝗼𝘁 𝗰𝗼𝗿𝗿𝗲 𝗲𝗻 𝘀𝘂 𝗽𝗿𝗼𝗽𝗶𝗮 𝗺á𝗾𝘂𝗶𝗻𝗮 𝘃𝗶𝗿𝘁𝘂𝗮𝗹, así que puede instalar paquetes, lanzar comandos y romper cosas sin acercarse a tu portátil.\n\n→ VM por agente: el sandbox es el entorno, no tu sistema.\n→ TypeScript de arriba abajo, cómodo si vienes de front o de Node.\n→ Punto de partida práctico, no una demo: el código arranca y se puede extender.\n→ 7.256 estrellas y todavía sin paywall.\n\nNo es un framework cerrado ni un producto con landing: es un repo para clonar y adaptar a lo que necesites. Guárdalo para el día que quieras que un agente haga trabajo real en vez de solo escribir texto.\n\nTe dejo el repositorio abajo.\n\n#OpenSource #TypeScript #Agents #GitHub\n\nhttps://github.com/milind-soni/OpenMausBot"
+      }
+    },
+    {
+      "name": "Donchitos/Claude-Code-Game-Studios",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "description": "Convierte Claude Code en un estudio de desarrollo de videojuegos con 49 agentes de IA, 72 skills de flujo de trabajo y un sistema de coordinación que imita la jerarquía de un estudio real. Es un experimento muy específico, pero interesante para ver cómo se organizan agentes en un proyecto grande.",
+      "language": "Shell",
+      "stars": 28863,
+      "social": {
+        "x": "28.863 estrellas para un repo que convierte Claude Code en un estudio de videojuegos: 49 agentes con jerarquía real y 72 skills de flujo de trabajo. Gratis y en abierto.\n\n#ClaudeCode #GameDev #OpenSource #GitHub\nhttps://github.com/Donchitos/Claude-Code-Game-Studios",
+        "linkedin": "ALGUIEN HA MONTADO UN ESTUDIO DE VIDEOJUEGOS ENTERO DENTRO DE CLAUDE CODE.\n\nY no hablo de un prompt largo con cuatro instrucciones. Hablo de 49 agentes de IA con roles distintos, 72 skills que cubren el flujo de trabajo y una capa de coordinación que imita la jerarquía de un estudio de verdad: quien dirige, quien produce, quien ejecuta.\n\nLa gracia no es que genere código. La gracia es cómo se organiza para que un proyecto grande no se convierta en un caos de agentes opinando a la vez. 𝗟𝗮 𝗰𝗼𝗼𝗿𝗱𝗶𝗻𝗮𝗰𝗶ó𝗻 𝗲𝗻𝘁𝗿𝗲 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗲𝘀 𝗲𝗹 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼, 𝗻𝗼 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼.\n\n→ 49 agentes con responsabilidades separadas, no un único asistente genérico\n→ 72 skills que definen flujos de trabajo concretos dentro del estudio\n→ Sistema de coordinación con jerarquía, al estilo de un equipo humano\n→ Todo en Shell, fácil de leer y de adaptar a tu propio proyecto\n→ 28.863 estrellas para un experimento muy específico que da pistas sobre hacia dónde va el trabajo con agentes\n\nNo es una herramienta que vayas a instalar en producción mañana. Es una plantilla mental para cualquiera que esté montando sistemas multiagente y se pregunte cómo evitar que se pisen entre ellos.\n\nSi trabajas con agentes o con Claude Code, guárdate este post y échale un ojo al repo. Te lo dejo abajo.\n\n#ClaudeCode #GameDev #OpenSource #GitHub\n\nhttps://github.com/Donchitos/Claude-Code-Game-Studios"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Por qué los buenos desarrolladores desconfían del desarrollo con agentes",
+      "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
+      "source": "Martin Fowler",
+      "summary": "El texto sostiene que la cautela de muchos ingenieros veteranos no viene del apego a escribir código, sino de saber que algo que compila y arranca no es lo mismo que algo que aguanta en producción. Repasa qué se rompe cuando se delega la implementación en agentes y qué señales conviene vigilar antes de darles más margen.",
+      "tema": "carrera"
+    },
+    {
+      "title": "Estrategias para mover datos dentro y fuera de un sistema",
+      "url": "https://blog.bytebytego.com/p/data-movement-strategies-in-system",
+      "source": "ByteByteGo",
+      "summary": "Un repaso de las decisiones que hay que tomar al diseñar el flujo de datos: cuándo sincronizar, cuándo replicar y cuándo conviene que cada servicio consulte bajo demanda. Ayuda a justificar la elección entre batch, streaming y llamadas síncronas con criterios de latencia, consistencia y coste.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "El primer modelo del ranking no siempre es el primero",
+      "url": "https://towardsdatascience.com/is-the-1-ai-model-really-1",
+      "source": "Towards Data Science",
+      "summary": "Con un test de 2.000 preguntas, los dos mejores modelos resultan indistinguibles al 5% habitual; con solo 200 preguntas, el orden cambia casi por azar. Enseña a leer leaderboards con intervalos de confianza y a calcular cuántos casos hacen falta para afirmar que un modelo supera a otro.",
+      "tema": "datos"
+    },
+    {
+      "title": "Un JSON schema no es una capa de gobierno para tu agente",
+      "url": "https://stackoverflow.blog/2026/10/28/a-json-schema-is-not-an-ai-governance-layer",
+      "source": "Stack Overflow Blog",
+      "summary": "El artículo separa la validación de la estructura de la salida de lo que de verdad limita lo que un agente puede hacer, y sitúa el control en la capa donde se ejecutan las acciones. Útil para no creerte, ni vender, que un esquema de respuesta basta como política de seguridad.",
+      "tema": "ia"
+    },
+    {
+      "title": "Si tu API comprueba antes de insertar, ¿por qué siguen saliendo duplicados?",
+      "url": "https://medium.com/@agbe.terseer/your-api-checks-before-inserting-so-why-are-duplicate-records-still-appearing-868c366b2c24",
+      "source": "Medium: Software Engineering",
+      "summary": "Explica cómo dos peticiones simultáneas pasan las dos por la comprobación previa y acaban creando el mismo registro, y cómo cerrar esa ventana con constraints únicos, upserts atómicos y control de concurrencia en PostgreSQL. Una lección breve y reutilizable sobre dónde debe vivir la integridad de los datos.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Todo el mundo dice que un diseñador necesita criterio: así se entrena",
+      "url": "https://medium.muz.li/everyone-says-designers-need-taste-how-do-you-actually-develop-it-c8c09f0e2605?source=rss------ux-5",
+      "source": "Medium: UX",
+      "summary": "Propone un método concreto para educar el ojo: analizar interfaces ajenas, describir por qué funciona cada decisión y comparar alternativas con criterios explícitos. Sirve para pasar de la opinión improvisada a una justificación que puedas defender ante producto o ingeniería.",
+      "tema": "diseno"
+    }
+  ]
+}
