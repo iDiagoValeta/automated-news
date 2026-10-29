@@ -1,0 +1,367 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T16:36:59.220Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Survival LLM, un asistente de IA sin conexión con 1,5 millones de artículos de emergencia",
+      "summary": "Survival LLM es una aplicación gratuita y open source para Mac y Windows que ejecuta en local tanto el modelo como una biblioteca de 1,5 millones de artículos de emergencia. Permite preguntar cómo conservar comida en un apagón, tratar una quemadura o potabilizar agua, y muestra la fuente exacta de cada respuesta. Se configura una vez con internet y después funciona sin conexión, sin que ninguna consulta salga del equipo.",
+      "why_it_matters": "Demuestra que un asistente de IA útil y verificable cabe en un portátil, sin nube ni conexión.",
+      "url": "https://www.brangus.io/survival-llm",
+      "source": "Hacker News",
+      "social": {
+        "x": "1,5 millones de artículos de emergencia. Sin internet. Sin nube. Y cabe en tu portátil.\n\n#OpenSource #LLM #LocalFirst #SurvivalLLM\nhttps://www.brangus.io/survival-llm",
+        "linkedin": "Un asistente que te dice cómo potabilizar agua cuando no hay cobertura. Y sin mandar una sola consulta fuera de tu equipo.\n\nSurvival LLM es gratuito y open source, corre en Mac y Windows, y ejecuta en local tanto el modelo como una biblioteca de 1,5 millones de artículos de emergencia. Lo interesante no es el catálogo: es que 𝗰𝗮𝗱𝗮 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮 𝘃𝗶𝗲𝗻𝗲 𝗰𝗼𝗻 𝗹𝗮 𝗳𝘂𝗲𝗻𝘁𝗲 𝗲𝘅𝗮𝗰𝘁𝗮, así que se puede comprobar. Para quien diseña herramientas de campo, soporte técnico o cualquier entorno con conectividad frágil, esto marca un listón bastante claro: IA útil, verificable y sin dependencia de la nube.\n\n#OpenSource #LLM #LocalFirst #SurvivalLLM\n\nhttps://www.brangus.io/survival-llm"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Liquid AI lanza LFM3, una familia de modelos open-weight de 2B para texto, visión, audio y decisión",
+      "summary": "Liquid AI presenta LFM3, una familia de modelos open-weight de clase 2B con variantes de texto, visión, audio, omni y decisión. Están pensados para hacer fine-tuning y ejecutarse rápido en cualquier dispositivo, sin depender de una GPU de servidor. Los pesos y la documentación quedan a disposición de los desarrolladores.",
+      "why_it_matters": "Amplía la oferta de modelos pequeños y multimodales que se pueden afinar y desplegar en local.",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "source": "Hacker News",
+      "social": {
+        "x": "2B de parámetros para ver, oír y decidir. Liquid AI libera LFM3 con pesos abiertos y sin necesidad de una GPU de servidor.\n\n#LiquidAI #LFM3 #OpenWeights\nhttps://www.liquid.ai/blog/lfm3",
+        "linkedin": "La carrera por el tamaño se ha dado la vuelta: el modelo que importa esta semana cabe en un portátil.\n\nLiquid AI ha publicado LFM3, una familia open-weight de clase 2B con variantes de texto, visión, audio, omni y decisión. Los pesos y la documentación están disponibles para hacer fine-tuning y desplegar en local, sin depender de infraestructura ajena.\n\nPara quien descartaba lo abierto por coste o por latencia, 𝗲𝗹 𝗹𝗶𝘀𝘁ó𝗻 ú𝘁𝗶𝗹 𝘀𝗲 𝗵𝗮 𝗺𝗼𝘃𝗶𝗱𝗼 𝗱𝗲 𝗹𝗼𝘀 𝟳𝟬𝗕 𝗮 𝗹𝗼𝘀 𝟮𝗕: buena parte de las tareas de producto no necesitan más, y resuelven el problema sin enviar datos a un tercero.\n\n#LiquidAI #LFM3 #OpenWeights\n\nhttps://www.liquid.ai/blog/lfm3"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "NVIDIA publica Nemotron 3.5 Transcribe, un modelo abierto de voz que acepta instrucciones en texto",
+      "summary": "NVIDIA ha liberado Nemotron 3.5 Transcribe, un modelo open de reconocimiento de voz que cubre transcripción, identificación de hablante y traducción, y admite instrucciones en lenguaje natural. Llega con un dataset de más de 800.000 horas de audio y herramientas de fine-tuning, y según la compañía lidera varios benchmarks con una fracción de los parámetros activos de su rival abierto más potente. En las primeras pruebas trabaja con grabaciones, no con audio en directo.",
+      "why_it_matters": "Un modelo de voz abierto y ajustable abarata la transcripción y la traducción dentro de productos propios.",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "NVIDIA libera un modelo de voz abierto al que le das instrucciones en lenguaje natural: transcribe, identifica hablantes, traduce. Y detrás hay 800.000 horas de audio.\n\n#NVIDIA #Nemotron #OpenSource #SpeechRecognition\nhttps://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+        "linkedin": "Montar transcripción propia llevaba años siendo elegir entre pagar una API o conformarse con un modelo abierto que se quedaba corto.\n\nNemotron 3.5 Transcribe mueve esa línea: NVIDIA lo publica abierto, con más de 800.000 horas de audio y herramientas de fine-tuning, y acepta instrucciones en texto, así que 𝘂𝗻 𝗺𝗶𝘀𝗺𝗼 𝗺𝗼𝗱𝗲𝗹𝗼 𝘀𝗶𝗿𝘃𝗲 𝗽𝗮𝗿𝗮 𝘁𝗿𝗮𝗻𝘀𝗰𝗿𝗶𝗯𝗶𝗿, 𝘀𝗲𝗽𝗮𝗿𝗮𝗿 𝗵𝗮𝗯𝗹𝗮𝗻𝘁𝗲𝘀 𝘆 𝘁𝗿𝗮𝗱𝘂𝗰𝗶𝗿 𝘀𝗶𝗻 𝗺𝗼𝗻𝘁𝗮𝗿 𝘁𝗿𝗲𝘀 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲𝘀 𝗱𝗶𝘀𝘁𝗶𝗻𝘁𝗼𝘀. La letra pequeña es que de momento trabaja con grabaciones, no con audio en directo. Para cualquier producto que hoy pague por minuto de transcripción, la cuenta cambia.\n\n#NVIDIA #Nemotron #OpenSource #SpeechRecognition\n\nhttps://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Claude for Legal estrena plantillas interactivas y verificación automática de fuentes",
+      "summary": "Anthropic añade a Claude for Legal nuevos artifacts con plantillas para revisar contratos, comparar legislación entre países y verificar citas. La herramienta puede comprobar las fuentes por su cuenta y pasar el expediente a un abogado, y se apoya en más de 60 integraciones para conectar las bases de datos de cada despacho.",
+      "why_it_matters": "Muestra cómo los asistentes de IA se especializan por sector con flujos verificables y auditables.",
+      "url": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer",
+      "source": "The Decoder",
+      "social": {
+        "x": "Claude for Legal ya comprueba sus propias citas y pasa el expediente a un abogado. Lo llamativo no es eso: son las más de 60 integraciones con las bases de datos del despacho.\n\n#Anthropic #Claude #LegalTech\nhttps://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer",
+        "linkedin": "Hasta ahora, el trabajo de una IA jurídica terminaba justo donde empezaba la revisión humana. Claude for Legal mueve esa frontera: 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮 𝘀𝘂𝘀 𝗽𝗿𝗼𝗽𝗶𝗮𝘀 𝗰𝗶𝘁𝗮𝘀 𝘆 𝗱𝗲𝗿𝗶𝘃𝗮 𝗲𝗹 𝗲𝘅𝗽𝗲𝗱𝗶𝗲𝗻𝘁𝗲 𝗮 𝘂𝗻 𝗮𝗯𝗼𝗴𝗮𝗱𝗼, apoyándose en más de 60 integraciones con las bases de datos de cada despacho.\n\nPara un despacho, la ganancia no está en redactar más rápido, sino en que todo el flujo sea auditable: si la cita se puede comprobar y el traspaso queda registrado, la herramienta entra en el proceso sin romperlo. La especialización por sector con fuentes verificables es el patrón que van a intentar copiar todos, y quien no pueda auditar su asistente se quedará fuera de las licitaciones serias.\n\n#Anthropic #Claude #LegalTech\n\nhttps://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "CaseCite, una alternativa open source y self-hosted a la IA legal de Harvey",
+      "summary": "Un desarrollador ha publicado CaseCite, una plataforma open source y self-hosted de investigación jurídica que usa RAG sobre jurisprudencia y análisis de documentos. El proyecto surge como respuesta a los 500 millones levantados por Harvey en el sector legal y se puede desplegar en infraestructura propia.",
+      "why_it_matters": "Es un ejemplo práctico de cómo montar un RAG vertical completo sin atarse a un proveedor.",
+      "url": "https://github.com/thomasunise/casecite",
+      "source": "Hacker News",
+      "social": {
+        "x": "Harvey ha levantado 500 millones para investigar derecho con IA. Un desarrollador acaba de publicar la alternativa open source que cualquiera monta en su servidor.\n\n#OpenSource #RAG #LegalTech #SelfHosted\nhttps://github.com/thomasunise/casecite",
+        "linkedin": "Harvey ha levantado 500 millones y un solo desarrollador acaba de publicar, en abierto, el mismo tipo de herramienta.\n\nCaseCite es una plataforma de investigación jurídica que combina RAG sobre jurisprudencia con análisis de documentos, self-hosted y desplegable en tu propia infraestructura. 𝗘𝗹 𝘃𝗮𝗹𝗼𝗿 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝘃𝗲𝗿𝘁𝗶𝗰𝗮𝗹 𝗯𝗶𝗲𝗻 𝗺𝗼𝗻𝘁𝗮𝗱𝗼: recuperación sobre un corpus concreto, citas verificables y el dato bajo tu control. Para despachos y equipos de legaltech que dudan entre comprar o construir, este es el patrón que conviene estudiar antes de firmar nada.\n\n#OpenSource #RAG #LegalTech #SelfHosted\n\nhttps://github.com/thomasunise/casecite"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "Cisco libera Project Quarry para detectar agentes de IA que atacan sistemas",
+      "summary": "Cisco ha publicado como open source Project Quarry, una herramienta que busca dar un lenguaje común para evaluar el comportamiento de agentes de IA y detectar cuándo están llevando a cabo un ataque. Está orientada a equipos de seguridad que ya ven agentes autónomos operando dentro de sus redes.",
+      "why_it_matters": "Aporta instrumentación abierta para un problema nuevo: auditar qué hacen los agentes cuando actúan solos.",
+      "url": "https://www.theregister.com/security/2026/10/28/cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees/5305867",
+      "source": "The Register",
+      "social": {
+        "x": "Cisco acaba de abrir el código que pone lenguaje común a un problema nuevo: saber qué hace un agente de IA cuando actúa solo dentro de tu red.\n\n#Cisco #OpenSource #Ciberseguridad #ProjectQuarry\nhttps://www.theregister.com/security/2026/10/28/cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees/5305867",
+        "linkedin": "Los agentes de IA ya se mueven por dentro de las redes corporativas. La pregunta incómoda es qué hacen cuando nadie los mira.\n\nCisco publica Project Quarry como open source, una herramienta que busca 𝘂𝗻 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲 𝗰𝗼𝗺ú𝗻 𝗽𝗮𝗿𝗮 𝗲𝘃𝗮𝗹𝘂𝗮𝗿 𝗲𝗹 𝗰𝗼𝗺𝗽𝗼𝗿𝘁𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗮𝘂𝘁ó𝗻𝗼𝗺𝗼𝘀 y detectar cuándo ese comportamiento es en realidad un ataque. Para un equipo de seguridad la diferencia es grande: pasar de fiarse de lo que promete el proveedor a tener instrumentación propia con la que auditar. Y al estar en abierto, cada uno puede adaptar las pruebas a su infraestructura en vez de esperar a que un estándar cerrado se lo dé todo hecho.\n\n#Cisco #OpenSource #Ciberseguridad #ProjectQuarry\n\nhttps://www.theregister.com/security/2026/10/28/cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees/5305867"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "industria",
+      "title": "GitHub suma cuatro millones de cores para aguantar la avalancha de código generado por agentes",
+      "summary": "GitHub ha reestructurado su infraestructura y añadirá cuatro millones de cores extra para responder al aumento de tráfico. En septiembre de 2026 registró 7.400 millones de commits, cinco veces más que un año antes, impulsados por agentes de IA que escriben y suben código. La demanda ha provocado varias caídas de servicio durante el último año.",
+      "why_it_matters": "El código generado por IA ya condiciona la arquitectura de la mayor plataforma de desarrollo del mundo.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/28/github-powering-up-four-million-extra-cores-to-stop-its-service-going-down/5305863",
+      "source": "The Register",
+      "social": {
+        "x": "GitHub añade 4 millones de cores porque los agentes de IA ya generan tanto código que la plataforma se ha caído varias veces este año.\n\n#GitHub #DevOps #IngenieríaDeSoftware\nhttps://www.theregister.com/ai-and-ml/2026/10/28/github-powering-up-four-million-extra-cores-to-stop-its-service-going-down/5305863",
+        "linkedin": "La infraestructura de GitHub ya la está redimensionando la IA, no sus usuarios. En septiembre registró 7.400 millones de commits, cinco veces más que un año antes, y acumuló varias caídas de servicio. Ahora suma cuatro millones de cores extra para aguantar a los agentes que escriben y suben código solos. 𝗦𝗶 𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗴𝗲𝗻𝗲𝗿𝗮𝗱𝗼 𝗽𝗼𝗿 𝗜𝗔 𝗰𝗼𝗻𝗱𝗶𝗰𝗶𝗼𝗻𝗮 𝗹𝗮 𝗮𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮 𝗱𝗲 𝗚𝗶𝘁𝗛𝘂𝗯, 𝘁𝗮𝗺𝗯𝗶é𝗻 𝗰𝗼𝗻𝗱𝗶𝗰𝗶𝗼𝗻𝗮𝗿á 𝗹𝗮 𝗱𝗲 𝘁𝘂 𝗲𝗾𝘂𝗶𝗽𝗼: revisar cómo escalas CI, almacenamiento y revisión de código deja de ser un asunto de plataforma y pasa a ser una línea de presupuesto.\n\n#GitHub #DevOps #IngenieríaDeSoftware\n\nhttps://www.theregister.com/ai-and-ml/2026/10/28/github-powering-up-four-million-extra-cores-to-stop-its-service-going-down/5305863"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Cloudflare abre Quicksilver a sus clientes con Workers KV Instant",
+      "summary": "Cloudflare ha llevado Quicksilver, el almacén clave-valor interno que usa en casi todas sus peticiones, a una beta privada como modo de Workers KV. Las lecturas bajan a 1,62 ms en p99 frente a los 287 ms del KV clásico, a cambio de límites estrictos: 10.000 claves, un megabyte por namespace y una escritura por segundo.",
+      "why_it_matters": "Pone latencias de caché al alcance de las aplicaciones de Workers, con condiciones que obligan a diseñar distinto.",
+      "url": "https://www.infoq.com/news/2026/10/workers-kv-instant",
+      "source": "InfoQ",
+      "social": {
+        "x": "1,62 ms frente a 287 ms. Cloudflare abre Quicksilver, el almacén clave-valor que usa en casi todas sus peticiones, como modo de Workers KV. A cambio, tres límites que obligan a diseñar distinto.\n\n#Cloudflare #WorkersKV #EdgeComputing #Quicksilver\nhttps://www.infoq.com/news/2026/10/workers-kv-instant",
+        "linkedin": "Durante años, el almacén clave-valor más rápido de Cloudflare no estaba en el catálogo: era su capa interna, y no se podía tocar.\nAhora lo abre a los clientes como Workers KV Instant y 𝗯𝗮𝗷𝗮 𝗹𝗮𝘀 𝗹𝗲𝗰𝘁𝘂𝗿𝗮𝘀 𝗮 𝟭,𝟲𝟮 𝗺𝘀 𝗲𝗻 𝗽𝟵𝟵 𝗳𝗿𝗲𝗻𝘁𝗲 𝗮 𝗹𝗼𝘀 𝟮𝟴𝟳 𝗺𝘀 𝗱𝗲𝗹 𝗞𝗩 𝗰𝗹á𝘀𝗶𝗰𝗼. La letra pequeña es la noticia de verdad: 10.000 claves, 1 MB por namespace y una escritura por segundo. No viene a sustituir al KV clásico, obliga a replantear el modelo de datos antes de escribir la primera línea. Quien daba por hecho que la caché en el edge era lenta tiene ahora un buen motivo para volver a medir.\n\n#Cloudflare #WorkersKV #EdgeComputing #Quicksilver\n\nhttps://www.infoq.com/news/2026/10/workers-kv-instant"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Chrome abre el trial de la Email Verification API para verificar correos sin enviar mensajes",
+      "summary": "Google ha abierto un origin trial en Chrome para la Email Verification API, una propuesta del WICG que permite al navegador confirmar la propiedad de un correo sin mandar un enlace. Gmail es el primer proveedor y el desarrollador debe validar en el servidor un token firmado. Las dudas se centran en el beneficio real para la privacidad, y se recomienda usarla como mejora progresiva.",
+      "why_it_matters": "Simplifica un paso clásico del registro de usuarios, de momento con cobertura limitada.",
+      "url": "https://www.infoq.com/news/2026/10/chrome-email-verification",
+      "source": "InfoQ",
+      "social": {
+        "x": "Chrome quiere que verifiques un correo sin enviar ningún enlace. Gmail ya es el primer proveedor y el ahorro está en el paso más pesado del registro.\n\n#Chrome #Gmail #WebDev #WICG\nhttps://www.infoq.com/news/2026/10/chrome-email-verification",
+        "linkedin": "Verificar el correo de un usuario sin mandarle ningún enlace ya se puede probar en Chrome.\n\nLa Email Verification API, propuesta del WICG, deja que el navegador confirme la propiedad de la dirección y que el desarrollador solo tenga que validar en el servidor un token firmado. Gmail es el primer proveedor, así que la cobertura real hoy es limitada y las dudas sobre la ganancia en privacidad siguen ahí. Para quien trabaja en producto, 𝗲𝗹 𝘃𝗮𝗹𝗼𝗿 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗹𝗮 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗾𝘂𝗶𝘁𝗮𝗿 𝗳𝗿𝗶𝗰𝗰𝗶ó𝗻 𝗮𝗹 𝗿𝗲𝗴𝗶𝘀𝘁𝗿𝗼, y eso pide tratarla como mejora progresiva: si el trial no responde o el usuario no está en Gmail, el flujo clásico tiene que seguir funcionando.\n\n#Chrome #Gmail #WebDev #WICG\n\nhttps://www.infoq.com/news/2026/10/chrome-email-verification"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "El 'sleep framework' de Google busca que los LLM retengan conocimiento nuevo sin olvidar lo anterior",
+      "summary": "Google Research propone un marco de aprendizaje continuo en el que el modelo alterna fases de consolidación, bautizadas como sueño, para fijar conocimiento reciente sin destruir el que ya tenía. El enfoque ataca el olvido catastrófico que aparece cuando se actualiza un LLM con datos nuevos.",
+      "why_it_matters": "El olvido catastrófico es uno de los frenos prácticos para actualizar modelos sin reentrenar desde cero.",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
+      "source": "Google Research",
+      "social": {
+        "x": "Entrenar un LLM con datos nuevos le borraba parte de lo que ya sabía. Google cree que la solución es que duerma.\n\n#GoogleResearch #LLM #MachineLearning\nhttps://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
+        "linkedin": "El olvido catastrófico puede tener los días contados, y la solución pasa por dejar que el modelo duerma.\n\nGoogle Research propone alternar fases de consolidación, bautizadas como sueño, con la entrada de datos nuevos, de forma que el modelo fije lo reciente sin destruir lo que ya tenía. 𝗔𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗿 𝘂𝗻 𝗟𝗟𝗠 𝘀𝗶𝗻 𝗿𝗲𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗿 𝗱𝗲𝘀𝗱𝗲 𝗰𝗲𝗿𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗰𝗶𝗲𝗻𝗰𝗶𝗮 𝗳𝗶𝗰𝗰𝗶ó𝗻, y eso cambia las cuentas para cualquier equipo que hoy da por hecho un fine-tuning completo cada vez que aparece conocimiento nuevo. La pregunta ya no es si se puede, sino cuánto tarda en salir del paper.\n\n#GoogleResearch #LLM #MachineLearning\n\nhttps://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Genie 4, el modelo de mundo de Google DeepMind que genera entornos 3D interactivos con sonido",
+      "summary": "Google DeepMind presenta Genie 4, un modelo de mundo en tiempo real que simula escenarios 3D interactivos, con sonido y personajes que hablan. Modelos Gemini planifican en segundo plano para mantener la coherencia de la simulación. Sigue siendo un modelo de investigación y las sesiones largas acumulan inconsistencias visuales.",
+      "why_it_matters": "Apunta a una forma nueva de generar entornos jugables y de entrenar agentes dentro de ellos.",
+      "url": "https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms",
+      "source": "The Decoder",
+      "social": {
+        "x": "DeepMind ya genera mundos 3D interactivos en tiempo real, con sonido y personajes que hablan. Y quien mantiene la coherencia es un Gemini planificando por detrás.\n\n#GoogleDeepMind #Genie4 #Gemini #WorldModels\nhttps://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms",
+        "linkedin": "Un modelo de mundo ya no se conforma con generar un vídeo bonito: ahora te deja jugar dentro.\n\nGenie 4, de Google DeepMind, simula escenarios 3D en tiempo real con sonido y personajes que hablan, y se apoya en modelos Gemini que planifican en segundo plano para que la simulación no se desmorone. Sigue siendo un modelo de investigación y las sesiones largas acumulan inconsistencias visuales, así que no esperes un motor de juego en producción mañana. Pero 𝗹𝗮 𝘃í𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗿 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝗲𝗻𝘁𝗼𝗿𝗻𝗼𝘀 𝗴𝗲𝗻𝗲𝗿𝗮𝗱𝗼𝘀 cambia el coste de experimentar: pasar de diseñar un mundo a pedirlo. A quien trabaja en robótica, simulación o videojuegos le conviene seguir esta línea aunque hoy solo produzca demos.\n\n#GoogleDeepMind #Genie4 #Gemini #WorldModels\n\nhttps://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Artificial Analysis renueva su índice de inteligencia y amplía la brecha entre modelos abiertos y cerrados",
+      "summary": "Artificial Analysis ha publicado la versión 5 de su Intelligence Index, con dos benchmarks nuevos y tres actualizados, y por primera vez la mayoría del índice se apoya en datasets privados. El cambio hace caer cinco puestos a Kimi K3.1 Pro y ensancha la distancia entre los modelos abiertos y los cerrados.",
+      "why_it_matters": "Es una de las referencias que usa el sector para comparar modelos, y ahora cuesta más sobreajustarse a ella.",
+      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+      "source": "Hacker News",
+      "social": {
+        "x": "El índice de referencia para comparar modelos ya no se puede sobreajustar: la mayoría de sus tests usan datos privados. Kimi K3.1 Pro cae cinco puestos y la brecha con los cerrados crece.\n\n#ArtificialAnalysis #Kimi #OpenSource #Benchmarks\nhttps://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+        "linkedin": "El índice que buena parte del sector usa para elegir modelo acaba de dejar de ser un examen predecible.\n\nArtificial Analysis ha publicado la versión 5 de su Intelligence Index, con dos benchmarks nuevos, tres actualizados y, por primera vez, 𝗹𝗮 𝗺𝗮𝘆𝗼𝗿í𝗮 𝗱𝗲 𝗹𝗮𝘀 𝗽𝗿𝘂𝗲𝗯𝗮𝘀 𝗮𝗽𝗼𝘆𝗮𝗱𝗮𝘀 𝗲𝗻 𝗱𝗮𝘁𝗮𝘀𝗲𝘁𝘀 𝗽𝗿𝗶𝘃𝗮𝗱𝗼𝘀. El efecto inmediato: Kimi K3.1 Pro pierde cinco puestos y la distancia entre modelos abiertos y cerrados se agranda. La lectura útil no es el puesto de turno, sino que sobreajustarse a un ranking público ya no compensa: quien quiera comparar en serio tendrá que montar su propia evaluación. Cuesta más, pero dice mucho más de tu caso de uso real.\n\n#ArtificialAnalysis #Kimi #OpenSource #Benchmarks\n\nhttps://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Un fallo en el firmware UEFI EDK2 permite ejecutar código en el arranque de la mayoría de servidores",
+      "summary": "Un fallo crítico en EDK2, la implementación de referencia de UEFI, permite a un atacante ejecutar código en una fase temprana del arranque, antes de que el sistema operativo cargue sus defensas. Afecta a buena parte del parque de servidores del planeta y exige actualizar el firmware.",
+      "why_it_matters": "Comprometer el arranque deja la máquina en un estado difícil de detectar y de limpiar.",
+      "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Hay un fallo en el firmware que arranca buena parte de los servidores del mundo. El ataque se ejecuta antes de que el sistema operativo pueda defenderse.\n\n#UEFI #EDK2 #Firmware #Ciberseguridad\nhttps://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth",
+        "linkedin": "Hay una capa por debajo del sistema operativo que casi nadie actualiza a tiempo, y ahí está el agujero.\n\nEDK2 es la implementación de referencia de UEFI, el firmware que arranca buena parte del parque de servidores del planeta. Un fallo crítico permite ejecutar código en una fase temprana del arranque, antes de que el sistema operativo cargue sus defensas. 𝗟𝗼 𝗰𝗼𝗺𝗽𝗿𝗼𝗺𝗲𝘁𝗶𝗱𝗼 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝘀𝗲𝗿𝘃𝗶𝗱𝗼𝗿, 𝗲𝘀 𝗹𝗮 𝗰𝗮𝗱𝗲𝗻𝗮 𝗱𝗲 𝗮𝗿𝗿𝗮𝗻𝗾𝘂𝗲, y eso deja la máquina en un estado difícil de detectar y de limpiar: reinstalar el sistema no basta. Si llevas meses aplazando el ciclo de actualizaciones de firmware, este es el momento de meterlo en el calendario.\n\n#UEFI #EDK2 #Firmware #Ciberseguridad\n\nhttps://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "Un 'hacker' de IA encuentra cuatro fallos graves en software de control industrial en menos de cuatro horas",
+      "summary": "Un agente de IA ha localizado un fallo crítico y tres de severidad alta en EPICS, software muy usado en instalaciones de investigación e industria. El hallazgo se produjo en menos de cuatro horas y podría afectar a experimentos y procesos controlados por estos sistemas.",
+      "why_it_matters": "Muestra que la búsqueda automatizada de vulnerabilidades ya compite en velocidad con el trabajo humano.",
+      "url": "https://www.theregister.com/security/2026/10/27/ai-hacker-finds-4-severe-bugs-in-popular-industrial-control-software-in-under-4-hours/5305811",
+      "source": "The Register",
+      "social": {
+        "x": "Cuatro fallos graves en EPICS, el software que mueve aceleradores de partículas y plantas industriales. Los encontró un agente de IA en menos de cuatro horas.\n\n#EPICS #Ciberseguridad #OpenSource\nhttps://www.theregister.com/security/2026/10/27/ai-hacker-finds-4-severe-bugs-in-popular-industrial-control-software-in-under-4-hours/5305811",
+        "linkedin": "Un agente de IA ha encontrado cuatro fallos graves en EPICS, el software que controla aceleradores de partículas e instalaciones industriales, en menos de cuatro horas. Uno de ellos es crítico.\nEl matiz importa: no hablamos de un escáner con reglas fijas, sino de un agente que razona sobre el código y decide dónde mirar. Si mantienes EPICS, toca revisar el calendario de parcheo esta misma semana. Y para el resto hay una consecuencia incómoda: 𝗲𝗻𝗰𝗼𝗻𝘁𝗿𝗮𝗿 𝘃𝘂𝗹𝗻𝗲𝗿𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀 𝗵𝗮 𝗱𝗲𝗷𝗮𝗱𝗼 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗵𝘂𝗺𝗮𝗻𝗼, así que la presión se desplaza a arreglarlas a tiempo y a separar los falsos positivos del ruido.\n\n#EPICS #Ciberseguridad #OpenSource\n\nhttps://www.theregister.com/security/2026/10/27/ai-hacker-finds-4-severe-bugs-in-popular-industrial-control-software-in-under-4-hours/5305811"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Diseño de proteínas y genomas en lenguaje natural: llega el 'vibe genes'",
+      "summary": "Herramientas de diseño de proteínas y genomas empiezan a aceptar instrucciones en lenguaje natural, de modo que el investigador describe qué proteína quiere obtener y el sistema propone secuencias. El cambio rebaja la barrera técnica para experimentar en biología computacional.",
+      "why_it_matters": "Traslada el patrón de los asistentes de código a un campo donde un error sale muy caro.",
+      "url": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Escribir «quiero una proteína que haga esto» y que un sistema te devuelva la secuencia ya funciona. El diseño genético entra en la era del prompt.\n\n#ProteinDesign #BiologíaSintética #Genómica\nhttps://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software",
+        "linkedin": "El mismo patrón que nos acostumbró a los asistentes de código acaba de aterrizar en la biología: describes la proteína que quieres y el sistema propone la secuencia.\n\nLa diferencia es que aquí un error no se arregla con un commit. El diseño de proteínas y genomas con instrucciones en lenguaje natural rebaja muchísimo la barrera para experimentar y abre la puerta a equipos que antes ni se planteaban tocar biología computacional. Mi lectura: 𝗹𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼, 𝗲𝘀 𝗲𝗹 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝗽𝗮𝗿𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗿 𝗹𝗼 𝗾𝘂𝗲 𝗱𝗲𝘃𝘂𝗲𝗹𝘃𝗲 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼. En un campo donde un fallo se paga en el laboratorio, ese criterio lo es todo.\n\n#ProteinDesign #BiologíaSintética #Genómica\n\nhttps://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Nueva York exige verificación de edad a los chatbots de IA para proteger a menores",
+      "summary": "La gobernadora Kathy Hochul ha firmado una ley que obliga a las empresas de chatbots de IA a verificar la edad de sus usuarios y a ofrecer al menos un método que no dependa por completo de un documento oficial. Las compañías deberán borrar esos datos de edad y cumplir requisitos adicionales de seguridad.",
+      "why_it_matters": "Es una de las primeras normas que obliga a cambiar el diseño de producto de los chatbots.",
+      "url": "https://www.engadget.com/2299823/new-york-governor-signs-ai-chatbot-child-safety-law",
+      "source": "Engadget",
+      "social": {
+        "x": "Nueva York obliga a los chatbots de IA a verificar la edad de sus usuarios. Y no vale solo con el DNI: hay que ofrecer otra vía.\n\n#Chatbots #NuevaYork #Privacidad #KathyHochul\nhttps://www.engadget.com/2299823/new-york-governor-signs-ai-chatbot-child-safety-law",
+        "linkedin": "Verificar la edad en un chatbot suena a casilla extra en el registro. En la práctica obliga a rediseñar el onboarding y a decidir qué haces con ese dato justo después.\nKathy Hochul ha firmado una ley que exige a las empresas de chatbots verificar la edad de sus usuarios, ofrecer al menos un método que no dependa por completo de un documento oficial y borrar los datos de edad una vez comprobados. Es de las primeras normas que 𝘁𝗼𝗰𝗮 𝗲𝗹 𝗱𝗶𝘀𝗲ñ𝗼 𝗱𝗲𝗹 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼, 𝗻𝗼 𝘀𝗼𝗹𝗼 𝗹𝗮 𝗽𝗼𝗹í𝘁𝗶𝗰𝗮 𝗱𝗲 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱. Si tienes menores en tu base de usuarios, revisa el flujo de alta y la retención de datos antes de que llegue una exigencia equivalente en Europa.\n\n#Chatbots #NuevaYork #Privacidad #KathyHochul\n\nhttps://www.engadget.com/2299823/new-york-governor-signs-ai-chatbot-child-safety-law"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Delaware estudia permitir empresas dirigidas solo por agentes de IA",
+      "summary": "Un plan legislativo en Delaware permitiría que agentes de IA gestionen sociedades enteras sin una persona al mando. Sus promotores sostienen que los dueños quedarían exentos de responsabilidad por actos temerarios de la IA, algo que ha generado críticas por abrir un vacío de responsabilidad.",
+      "why_it_matters": "Plantea figuras mercantiles sin humano responsable, un debate que afecta a cualquier despliegue de agentes.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Delaware estudia que una IA pueda dirigir una empresa entera. Y que nadie responda cuando esa IA la líe.\n\n#Delaware #AgentesIA #LegalTech\nhttps://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses",
+        "linkedin": "Delaware, el estado donde se registran buena parte de las grandes empresas de EE. UU., estudia permitir sociedades dirigidas solo por agentes de IA.\n\nLa letra pequeña es lo que importa: los dueños quedarían exentos de responsabilidad por actos temerarios del agente. En la práctica, 𝘂𝗻𝗮 𝗲𝗺𝗽𝗿𝗲𝘀𝗮 𝘀𝗶𝗻 𝗻𝗶𝗻𝗴ú𝗻 𝗵𝘂𝗺𝗮𝗻𝗼 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗮𝗯𝗹𝗲 𝗮𝗹 𝗺𝗮𝗻𝗱𝗼. Para quien despliega agentes con capacidad de contratar, pagar o firmar, esto deja de ser un debate legal lejano y se convierte en la pregunta incómoda: quién responde cuando el agente se equivoca.\n\n#Delaware #AgentesIA #LegalTech\n\nhttps://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "lanzamientos",
+      "title": "Apple lleva el chip M6 al MacBook Pro de entrada y al iMac",
+      "summary": "Apple ha actualizado el iMac y el MacBook Pro de entrada con el chip M6, que suma núcleos, memoria más rápida, una NPU mayor y mejor conectividad. El nuevo chip N1 añade Wi-Fi 7 y Bluetooth 6 a estos equipos.",
+      "why_it_matters": "Renueva la puerta de acceso al ecosistema Mac con más potencia local para cargas de IA.",
+      "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip",
+      "source": "Ars Technica",
+      "social": {
+        "x": "El M6 ya está en los Mac más baratos. Apple sube núcleos, mete más NPU y añade Wi-Fi 7 justo donde más se nota: la puerta de entrada al ecosistema Mac.\n\n#Apple #AppleSilicon #MacBookPro #iMac\nhttps://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip",
+        "linkedin": "La puerta de entrada al Mac ha dejado de ser la versión floja.\n\nApple ha metido el M6 en el iMac y en el MacBook Pro de entrada: más núcleos, memoria más rápida y una NPU mayor, con el nuevo chip N1 añadiendo Wi-Fi 7 y Bluetooth 6. Es un movimiento menos vistoso que un M6 Max, pero 𝗺𝘂𝗲𝘃𝗲 𝗲𝗹 𝘀𝘂𝗲𝗹𝗼 𝗱𝗲𝗹 𝗰𝗮𝘁á𝗹𝗼𝗴𝗼 𝗷𝘂𝘀𝘁𝗼 𝗰𝘂𝗮𝗻𝗱𝗼 𝗹𝗮𝘀 𝗰𝗮𝗿𝗴𝗮𝘀 𝗱𝗲 𝗜𝗔 𝗲𝗻 𝗹𝗼𝗰𝗮𝗹 𝗲𝗺𝗽𝗶𝗲𝘇𝗮𝗻 𝗮 𝗽𝗲𝗱𝗶𝗿 𝗡𝗣𝗨 𝗱𝗲 𝘃𝗲𝗿𝗱𝗮𝗱. Para quien compra su primer Mac o renueva un equipo de 2020, la duda ya no es si el modelo base se queda corto.\n\n#Apple #AppleSilicon #MacBookPro #iMac\n\nhttps://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "SK Hynix avisa de que la escasez de memoria durará hasta 2030",
+      "summary": "SK Hynix prevé que la falta de memoria se mantenga hasta 2030, una situación que beneficia sus cuentas pero encarece PCs, móviles y servidores. La presión viene del despliegue de centros de datos para IA.",
+      "why_it_matters": "Anticipa años de precios altos y problemas de suministro para cualquiera que compre hardware.",
+      "url": "https://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887",
+      "source": "The Register",
+      "social": {
+        "x": "La escasez de memoria no se arregla en 2026 ni en 2028. SK Hynix le pone fecha: 2030. Y tu próximo portátil lo va a notar en la factura.\n\n#SKHynix #MemoriaRAM #HBM #CentrosDeDatos\nhttps://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887",
+        "linkedin": "SK Hynix acaba de decir en voz alta lo que el mercado llevaba meses descontando: la escasez de memoria no se resuelve este año ni el que viene. La compañía sitúa la presión hasta 2030, empujada por el despliegue de centros de datos para IA, que se lleva la mayor parte de la producción de HBM y DRAM.\n\nPara SK Hynix es una posición cómoda: menos oferta, más margen. Para el resto es 𝘂𝗻𝗮 𝗱é𝗰𝗮𝗱𝗮 𝗱𝗲 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗰𝗮𝗿𝗼, y conviene decirlo así de claro. Si compras equipos, renuevas parque o vendes infraestructura, el aprovisionamiento deja de ser un trámite anual y pasa a ser una decisión estratégica: contratos largos, previsiones a varios años y margen para asumir subidas. El que planifique a un trimestre vista va a pagar la factura de los demás.\n\n#SKHynix #MemoriaRAM #HBM #CentrosDeDatos\n\nhttps://www.theregister.com/systems/2026/10/28/sk-hynix-says-memory-shortages-to-persist-until-2030/5305887"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "La salida a bolsa de Anthropic admite en su folleto riesgos de chantaje, consciencia y fin de la humanidad",
+      "summary": "El documento de salida a bolsa de Anthropic incluye un capítulo de 93 páginas de factores de riesgo en el que la compañía admite que sus modelos podrían chantajear a personas, volverse conscientes o contribuir a riesgos existenciales. El texto también rebaja el ritmo al que espera que la IA transforme la biología.",
+      "why_it_matters": "Fija por escrito, y con valor legal, hasta dónde reconoce la empresa que llegan sus propios riesgos.",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity",
+      "source": "Ars Technica",
+      "social": {
+        "x": "93 páginas de factores de riesgo en el folleto de salida a bolsa de Anthropic. Entre ellas: que su IA pueda chantajear a alguien, volverse consciente o contribuir a un riesgo existencial.\n\n#Anthropic #SalidaABolsa #RiesgoExistencial\nhttps://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity",
+        "linkedin": "Anthropic ha puesto por escrito lo que hasta ahora solo se comentaba en voz baja: sus modelos podrían chantajear a una persona, volverse conscientes o contribuir a un riesgo existencial.\n\nLa novedad no es la lista, es el soporte. Son 93 páginas de factores de riesgo dentro del folleto de salida a bolsa, con valor legal, y el mismo texto rebaja el ritmo al que espera que la IA transforme la biología. 𝗟𝗮 𝗰𝗼𝗺𝗽𝗮ñí𝗮 𝗿𝗲𝗰𝗼𝗻𝗼𝗰𝗲 𝗽𝗼𝗿 𝗲𝘀𝗰𝗿𝗶𝘁𝗼 𝗵𝗮𝘀𝘁𝗮 𝗱ó𝗻𝗱𝗲 𝗹𝗹𝗲𝗴𝗮𝗻 𝘀𝘂𝘀 𝗽𝗿𝗼𝗽𝗶𝗼𝘀 𝗿𝗶𝗲𝘀𝗴𝗼𝘀, y eso mueve el suelo del debate: lo que antes era una entrada de blog ahora es una declaración con consecuencias jurídicas. Para quien invierte, compra o despliega estos modelos, la letra pequeña ha dejado de ser pequeña.\n\n#Anthropic #SalidaABolsa #RiesgoExistencial\n\nhttps://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "expo/skills",
+      "url": "https://github.com/expo/skills",
+      "description": "Conjunto de skills para agentes de IA que trabajan con proyectos Expo y Expo Application Services. Resulta útil para que un asistente entienda mejor el flujo de desarrollo, build y deploy de una app Expo.",
+      "language": "Shell",
+      "stars": 3440,
+      "social": {
+        "x": "Expo suelta las skills que enseñan a tu agente de IA a hacer build y deploy de una app Expo sin inventarse el flujo. 3.400 estrellas.\n\n#Expo #ReactNative #OpenSource #GitHub\nhttps://github.com/expo/skills",
+        "linkedin": "TU AGENTE DE IA NO SABE DESPLEGAR UNA APP EXPO. ESTE REPO SE LO ENSEÑA.\n\nUn asistente escribe componentes de React Native sin despeinarse, pero en cuanto toca build, EAS y deploy empieza a improvisar: comandos que no existen, pasos que se salta, configuración inventada a medias. Expo ha publicado un conjunto de skills pensado justo para tapar ese agujero.\n\n→ Skills específicas para proyectos Expo y para Expo Application Services.\n→ Cubren el flujo real de desarrollo, build y deploy, no teoría de manual.\n→ El agente consulta la skill antes de tocar la CLI, así deja de adivinar.\n→ Se integran en el entorno del asistente y trabajan sobre el proyecto que ya tienes.\n→ 3.400 estrellas y mantenido por el propio equipo de Expo.\n\n𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀𝘁á 𝗲𝗻 𝗱𝗮𝗿𝗹𝗲 𝗮𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗲𝗹 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 𝗰𝗼𝗿𝗿𝗲𝗰𝘁𝗼 𝗱𝗲 𝘁𝘂 𝘀𝘁𝗮𝗰𝗸.\n\nSi desarrollas con Expo y ya usas IA a diario, guárdatelo: es de esos repos que se vuelven referencia en cuanto lo pruebas. Te dejo el enlace abajo.\n\n#Expo #ReactNative #OpenSource #GitHub\n\nhttps://github.com/expo/skills"
+      }
+    },
+    {
+      "name": "macro-inc/macro",
+      "url": "https://github.com/macro-inc/macro",
+      "description": "Espacio de trabajo unificado para equipos que reúne correo, chat, documentos, tareas, agentes, llamadas y CRM, todo conectado mediante memoria compartida de IA. Merece la pena si buscas centralizar la comunicación y el trabajo diario con ayuda de agentes.",
+      "language": "Rust",
+      "stars": 5285,
+      "social": {
+        "x": "Alguien ha metido correo, chat, docs, tareas y CRM en una sola app. Y toda esa memoria la comparte una IA. 5.285 estrellas y es open source.\n\n#Macro #Rust #OpenSource #GitHub\nhttps://github.com/macro-inc/macro",
+        "linkedin": "TU EQUIPO TIENE EL TRABAJO REPARTIDO EN CINCO APLICACIONES. ESTE REPO LO JUNTA EN UNA.\n\nCorreo por un lado, chat por otro, los documentos en Drive, las tareas en un tablero y el CRM en otra pestaña. Cada herramienta sabe una parte de lo que pasa en el equipo y ninguna lo sabe todo. El resultado es el de siempre: contexto perdido y gente copiando y pegando entre ventanas.\n\nMacro propone lo contrario: un único espacio de trabajo donde todo comparte contexto mediante memoria de IA.\n\n→ Correo, chat, documentos, tareas y llamadas en la misma interfaz\n→ Agentes que leen ese contexto común en lugar de empezar de cero en cada consulta\n→ CRM integrado, sin cambiar de herramienta para mirar la ficha de un cliente\n→ Escrito en Rust, 5.285 estrellas y código abierto\n\nLa gracia no es sumar funciones en una barra lateral, es que 𝗹𝗮 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗲𝘀 𝗰𝗼𝗺𝗽𝗮𝗿𝘁𝗶𝗱𝗮: el agente que te resume un hilo de chat sabe qué documento y qué tarea van asociados a esa conversación.\n\nSi estás montando o replanteando el stack interno de tu equipo, guárdate el post. Te dejo el repo abajo.\n\n#Macro #Rust #OpenSource #GitHub\n\nhttps://github.com/macro-inc/macro"
+      }
+    },
+    {
+      "name": "elayadesign/ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "description": "Colección de skills de diseño para agentes de IA, pensada para que un asistente aborde tareas de diseño con criterios y flujos reutilizables. Puede servir para estandarizar cómo usas la IA durante el proceso de diseño.",
+      "stars": 10838,
+      "social": {
+        "x": "10.838 estrellas para un repo que le enseña a tu agente de IA a diseñar con criterio y flujos reutilizables, no a soltar output sin más.\n\n#AIDesignSkills #DesignOps #OpenSource #GitHub\nhttps://github.com/elayadesign/ai-design-skills",
+        "linkedin": "TU AGENTE DE IA NO DISEÑA MAL. DISEÑA SIN CRITERIO.\n\nLe pides una pantalla y te devuelve algo que parece resultón hasta que lo llevas al flujo real. El problema casi nunca es el modelo: es que no le has dado un proceso.\n\nelayadesign/ai-design-skills es una colección de skills de diseño pensada para que un asistente aborde tareas de diseño con 𝗳𝗹𝘂𝗷𝗼𝘀 𝗿𝗲𝘂𝘁𝗶𝗹𝗶𝘇𝗮𝗯𝗹𝗲𝘀 𝘆 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼, no con inspiración aleatoria.\n\n→ Skills que encapsulan pasos concretos del proceso de diseño\n→ Flujos que puedes repetir en cada proyecto, no prompts de usar y tirar\n→ Sirve para estandarizar cómo usas la IA durante todo el proceso\n→ Open source y con más de 10.800 estrellas en GitHub\n\nLa diferencia entre un asistente que improvisa y uno que trabaja como un miembro más del equipo está en lo que le enseñas antes de pedirle nada.\n\nGuárdate el post: tienes el repo justo abajo.\n\n#AIDesignSkills #DesignOps #OpenSource #GitHub\n\nhttps://github.com/elayadesign/ai-design-skills"
+      }
+    },
+    {
+      "name": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "Convierte señales WiFi convencionales en inteligencia espacial en tiempo real, monitorización de constantes vitales y detección de presencia sin usar vídeo. Es una propuesta muy llamativa para entornos donde no quieres desplegar cámaras.",
+      "language": "Rust",
+      "stars": 100745,
+      "social": {
+        "x": "Un repo en Rust convierte la señal de tu WiFi en detección de presencia y monitorización de constantes vitales. Sin cámaras. Sin vídeo. 100.000 estrellas.\n\n#RuView #Rust #WiFi #OpenSource\nhttps://github.com/ruvnet/RuView",
+        "linkedin": "TU WIFI YA SABE QUÉ PASA EN LA HABITACIÓN. Y este repo en Rust lo demuestra con 100.000 estrellas.\n\nLas cámaras resuelven la detección de presencia, pero arrastran un problema que muchas empresas no quieren asumir: grabar a todo el mundo todo el rato y cargar después con el vídeo, el almacenamiento y el cumplimiento normativo. RuView va por otro camino: aprovecha la señal WiFi que ya está en el aire y la convierte en información espacial.\n\nEn la práctica:\n\n→ Detección de presencia sin cámara y sin vídeo de por medio.\n→ Inteligencia espacial en tiempo real a partir de las variaciones de la señal.\n→ Monitorización de constantes vitales.\n→ Todo en Rust, pensado para entornos donde desplegar cámaras no es una opción.\n\n𝗹𝗮 𝗶𝗱𝗲𝗮: 𝗹𝗮 𝘀𝗲ñ𝗮𝗹 𝗪𝗶𝗙𝗶 𝘆𝗮 𝗰𝗼𝗻𝘁𝗶𝗲𝗻𝗲 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗰𝗶ó𝗻 𝘀𝗼𝗯𝗿𝗲 𝗹𝗼 𝗾𝘂𝗲 𝗼𝗰𝘂𝗿𝗿𝗲 𝗲𝗻 𝘂𝗻𝗮 𝗵𝗮𝗯𝗶𝘁𝗮𝗰𝗶ó𝗻.\n\nSi trabajas en domótica, salud, retail o gestión de espacios de oficina, este repo te va a hacer replantear la arquitectura. Guárdalo antes de que se te pase.\n\n#RuView #Rust #WiFi #OpenSource\n\nhttps://github.com/ruvnet/RuView"
+      }
+    },
+    {
+      "name": "hmjz100/LinkSwift",
+      "url": "https://github.com/hmjz100/LinkSwift",
+      "description": "Herramienta en JavaScript para obtener enlaces directos de descarga de ocho servicios de almacenamiento en la nube chinos, como Baidu, Aliyun o Quark. Resulta práctica si necesitas descargar archivos alojados en esas plataformas sin pasar por el cliente oficial.",
+      "language": "JavaScript",
+      "stars": 34074,
+      "social": {
+        "x": "Baidu, Aliyun o Quark te obligan a instalar su cliente para descargar un archivo. Este repo en JavaScript te saca el enlace directo de los ocho servicios. 34k estrellas.\n\n#LinkSwift #JavaScript #OpenSource #GitHub\nhttps://github.com/hmjz100/LinkSwift",
+        "linkedin": "34.000 ESTRELLAS POR SALTARSE EL CLIENTE OFICIAL DE LA NUBE CHINA.\n\nSi alguna vez has necesitado un archivo alojado en Baidu, Aliyun Drive o Quark, conoces el problema: la descarga pasa sí o sí por su aplicación, con cuenta, con cliente y con sus tiempos. LinkSwift propone otra vía y devuelve 𝗲𝗹 𝗲𝗻𝗹𝗮𝗰𝗲 𝗱𝗶𝗿𝗲𝗰𝘁𝗼, 𝘀𝗶𝗻 𝗰𝗹𝗶𝗲𝗻𝘁𝗲 𝗼𝗳𝗶𝗰𝗶𝗮𝗹 𝗱𝗲 𝗽𝗼𝗿 𝗺𝗲𝗱𝗶𝗼.\n\nEs una herramienta en JavaScript, sin capas de por medio, centrada en una sola cosa: extraer la URL de descarga real de ocho servicios de almacenamiento chinos.\n\n→ Ocho plataformas soportadas: Baidu, Aliyun, Quark y cinco más del mismo ecosistema.\n→ Obtiene el enlace directo de descarga, listo para usar en tu gestor o en el navegador.\n→ Escrita en JavaScript, fácil de leer y de adaptar si el servicio cambia.\n→ 34.074 estrellas: no es un experimento de fin de semana.\n\nSi trabajas con archivos que viven en la nube china, esto te ahorra el paso más pesado del proceso. Guarda el post: el repo lo tienes justo abajo.\n\n#LinkSwift #JavaScript #OpenSource #GitHub\n\nhttps://github.com/hmjz100/LinkSwift"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Dos transacciones confirmadas y el saldo sigue mal: así se cuela el write skew",
+      "url": "https://medium.com/engineering-playbook/both-transactions-committed-the-money-is-still-wrong-explain-that-in-a-staff-engineer-interview-7cec419767c4",
+      "source": "Medium: Programming",
+      "summary": "El artículo plantea un caso en el que dos transacciones se confirman sin errores y, aun así, se rompe una invariante de negocio. Explica por qué el write skew aparece cuando se confía en el aislamiento de instantáneas y qué hace falta para garantizar invariantes financieras. Útil para preparar entrevistas de staff engineer y para revisar código que mueve dinero.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Cómo montó Uber una pasarela para que sus agentes de IA accedan a herramientas",
+      "url": "https://blog.bytebytego.com/p/how-uber-built-a-gateway-for-ai-agents",
+      "source": "ByteByteGo",
+      "summary": "Un repaso al diseño de la pasarela interna de Uber: cómo los agentes descubren herramientas, cómo se autentican las llamadas y qué límites se imponen antes de tocar sistemas de producción. Sirve para entender los problemas reales de gobernanza y seguridad cuando varias aplicaciones empiezan a exponer acciones a agentes.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "A tu pipeline de RAG le falta un algoritmo de 1994",
+      "url": "https://towardsdatascience.com/your-rag-pipeline-is-missing-a-1994-algorithm",
+      "source": "Towards Data Science",
+      "summary": "Los embeddings saben que dos sinónimos significan lo mismo, pero no distinguen ZX-4821 de ZX-4812. El texto muestra qué aporta un índice invertido clásico junto a la búsqueda vectorial y cómo combinarlos para no fallar con identificadores, referencias y nombres propios. Aplicable a cualquier sistema de búsqueda documental.",
+      "tema": "datos"
+    },
+    {
+      "title": "AI SRE: qué es, qué cambia en las guardias y si de verdad funciona",
+      "url": "https://newsletter.pragmaticengineer.com/p/ai-sre",
+      "source": "The Pragmatic Engineer",
+      "summary": "Un análisis crítico del término AI SRE, con la vista puesta en si estas herramientas han estado alguna vez de guardia mientras el equipo dormía. Describe qué parte del trabajo de on-call puede automatizarse hoy, qué demos de proveedor no aguantan el escrutinio y cómo medir si merece la pena adoptarlo.",
+      "tema": "carrera"
+    },
+    {
+      "title": "Seguridad en MCP: qué puede hacer un agente con tus herramientas y cómo acotarlo",
+      "url": "https://www.freecodecamp.org/news/learn-model-context-protocol-mcp-security",
+      "source": "freeCodeCamp",
+      "summary": "MCP conecta agentes con herramientas externas, lo que implica darles acceso al correo, a Discord o al entorno local. La guía repasa los vectores de ataque típicos (inyección de instrucciones, herramientas mal acotadas, permisos de más) y las decisiones de diseño que los reducen. Lectura recomendable antes de exponer datos reales a un agente.",
+      "tema": "ia"
+    },
+    {
+      "title": "Cómo montar autenticación con passkeys usando WebAuthn, Next.js y NestJS",
+      "url": "https://www.freecodecamp.org/news/how-to-build-passkey-authentication-with-webauthn-next-js-and-nestjs",
+      "source": "freeCodeCamp",
+      "summary": "Un tutorial paso a paso para sustituir contraseñas por passkeys: registro del autenticador, ceremonia de WebAuthn en el cliente y verificación en un backend NestJS. Explica qué guarda el servidor, por qué las passkeys resisten el phishing y la reutilización de credenciales, y qué partes conviene probar con cuidado.",
+      "tema": "web"
+    }
+  ]
+}
