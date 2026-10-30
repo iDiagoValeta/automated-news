@@ -1,0 +1,357 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T16:41:21.153Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "OpenAI amplía los límites de uso de sus planes de pago",
+      "summary": "OpenAI ha subido las cuotas de uso de sus planes de pago y ha revertido el recorte previsto en la cuota del plan de 200 tras las quejas de los usuarios. La compañía atribuye parte del margen extra a modelos más eficientes como Terra y Sol, y el movimiento llega en plena pugna con Anthropic por el mercado empresarial.",
+      "why_it_matters": "Más capacidad por el mismo precio hace que los planes de OpenAI sean hoy más útiles para trabajar a diario con modelos de frontera.",
+      "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up",
+      "source": "The Decoder",
+      "social": {
+        "x": "OpenAI recortó la cuota de su plan de 200 y los usuarios protestaron. La marcha atrás no ha tardado, y de paso suben los límites de todos los planes de pago.\n\n#OpenAI #Anthropic #ChatGPT\nhttps://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up",
+        "linkedin": "OpenAI ha dado marcha atrás en el recorte de su plan de 200. Las quejas de los usuarios han pesado más que la hoja de cálculo.\n\nLa compañía sube las cuotas de uso de todos sus planes de pago y atribuye parte del margen extra a modelos más eficientes como Terra y Sol. El movimiento llega en plena pugna con Anthropic por el mercado empresarial, donde la capacidad incluida pesa tanto como el propio modelo a la hora de renovar. 𝗟𝗮 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝘀𝗲 𝗵𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝗲𝗹 𝗻𝘂𝗲𝘃𝗼 𝗰𝗮𝗺𝗽𝗼 𝗱𝗲 𝗯𝗮𝘁𝗮𝗹𝗹𝗮, y quien la recorta primero lo paga en renovaciones.\n\n#OpenAI #Anthropic #ChatGPT\n\nhttps://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Un world model minúsculo que genera y ejecuta juegos en una Raspberry Pi Pico 2 W",
+      "summary": "El proyecto tinyworldformer, disponible en GitHub, ejecuta un pequeño modelo del mundo en una placa Raspberry Pi Pico 2 W y transmite los juegos que genera. Es una demostración abierta de hasta dónde llega la generación de entornos con muy pocos recursos.",
+      "why_it_matters": "Enseña que los modelos generativos de mundo pueden caber en hardware de muy bajo coste, no solo en grandes GPU.",
+      "url": "https://github.com/SheepSeb/tinyworldformer",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un world model generando y ejecutando juegos dentro de una Raspberry Pi Pico 2 W. Sin GPU y por unos pocos euros.\n\n#RaspberryPi #WorldModels #OpenSource\nhttps://github.com/SheepSeb/tinyworldformer",
+        "linkedin": "Un world model acaba de generar y ejecutar juegos dentro de una Raspberry Pi Pico 2 W. Sin GPU, sin servidores y por el precio de un café.\n\ntinyworldformer, disponible en GitHub, enseña que 𝗹𝗮 𝗴𝗲𝗻𝗲𝗿𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗲𝗻𝘁𝗼𝗿𝗻𝗼𝘀 𝗽𝘂𝗲𝗱𝗲 𝗰𝗮𝗯𝗲𝗿 𝗲𝗻 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗱𝗲 𝗺𝘂𝘆 𝗯𝗮𝗷𝗼 𝗰𝗼𝘀𝘁𝗲. Hasta ahora dábamos por hecho que esto exigía una GPU grande; con este proyecto la barrera baja a una placa de microcontrolador. Para quien diseña prototipos, demos o producto embebido, es una invitación a replantearse dónde puede vivir un modelo generativo.\n\n#RaspberryPi #WorldModels #OpenSource\n\nhttps://github.com/SheepSeb/tinyworldformer"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "investigacion",
+      "title": "GLM 5.3 crea cadenas de exploit completas para Firefox sin intervención humana",
+      "summary": "Investigadores de Epoch AI han documentado cómo el modelo abierto GLM 5.3 convirtió parches de seguridad públicos en exploits funcionales para seis versiones de Firefox antes de que llegaran las actualizaciones. El proceso se completó en menos de 48 horas y con un coste de API de unos 1.000 dólares por caso.",
+      "why_it_matters": "Muestra que un modelo open weight puede automatizar el desarrollo de exploits, lo que altera el calendario de la seguridad ofensiva y defensiva.",
+      "url": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours",
+      "source": "The Decoder",
+      "social": {
+        "x": "Un modelo open weight ha pasado de parche público a exploit funcional para seis versiones de Firefox sin intervención humana. En menos de 48 horas.\n\n#GLM #Firefox #OpenSource #EpochAI\nhttps://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours",
+        "linkedin": "La ventana entre publicar un parche y ver el exploit funcionando ya no se mide en semanas.\n\nEpoch AI ha documentado cómo GLM 5.3, un modelo open weight, convirtió parches de seguridad públicos en exploits funcionales para seis versiones de Firefox antes de que llegaran las actualizaciones: menos de 48 horas y unos 1.000 dólares de API por caso. 𝗟𝗮 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗼𝗳𝗲𝗻𝘀𝗶𝘃𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝗰𝘂á𝗻𝘁𝗼𝘀 𝗵𝘂𝗺𝗮𝗻𝗼𝘀 𝘁𝗲𝗻𝗴𝗮𝘀 𝗱𝗶𝘀𝗽𝗼𝗻𝗶𝗯𝗹𝗲𝘀. Para cualquier equipo con software expuesto, esto comprime el margen entre el commit que arregla y el ataque que lo aprovecha, y convierte el parche en la señal de salida en lugar del cierre del incidente.\n\n#GLM #Firefox #OpenSource #EpochAI\n\nhttps://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "Amazon Nova Act convierte las pruebas de interfaz en instrucciones en lenguaje natural",
+      "summary": "El equipo de Epsilon ha montado un servicio multi-tenant de pruebas de interfaz sobre Amazon Nova Act y el navegador gestionado de Bedrock AgentCore. Los tests se escriben en inglés llano y se ejecutan en navegadores administrados por AWS, sin infraestructura por equipo.",
+      "why_it_matters": "Es un patrón reutilizable para usar agentes en pruebas de aplicaciones sin mantener granjas de navegadores.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Los tests de interfaz ya se escriben en inglés llano. Lo raro es quién pone los navegadores: Epsilon lo ha montado sobre Amazon Nova Act.\n\n#AmazonNovaAct #Bedrock #AgentCore #QA\nhttps://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act",
+        "linkedin": "Escribir un test de interfaz en inglés llano y no volver a administrar un solo navegador.\n\nEs lo que ha montado el equipo de Epsilon sobre Amazon Nova Act y el navegador gestionado de Bedrock AgentCore: un servicio multi-tenant donde el test se redacta en lenguaje natural y la infraestructura la pone AWS. Para cualquier equipo de QA, el cuello de botella nunca fue la aserción, sino la granja de navegadores y el aislamiento entre clientes. Si el patrón aguanta en producción, 𝗲𝗹 𝗻𝗮𝘃𝗲𝗴𝗮𝗱𝗼𝗿 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘁𝘂 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 y las pruebas pasan a ser otro servicio que se consume, no un sistema que se mantiene.\n\n#AmazonNovaAct #Bedrock #AgentCore #QA\n\nhttps://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Meta lanza en silencio Style Sketch, una app de IA para probarse ropa",
+      "summary": "Meta ha publicado Style Sketch, una aplicación de moda con IA que permite probarse prendas de forma virtual, en Indonesia, Singapur y Tailandia. El lanzamiento se ha hecho sin apenas anuncio y se centra en mercados del sudeste asiático.",
+      "why_it_matters": "Es otro paso de Meta hacia el comercio con IA, esta vez con una app de consumo real en tres mercados.",
+      "url": "https://www.engadget.com/2302003/meta-quietly-launches-an-ai-fashion-app-for-virtually-trying-on-clothes",
+      "source": "Engadget",
+      "social": {
+        "x": "Meta tiene una app nueva para probarte ropa con IA. No la ha anunciado y solo existe en tres países del sudeste asiático.\n\n#Meta #StyleSketch #RetailTech\nhttps://www.engadget.com/2302003/meta-quietly-launches-an-ai-fashion-app-for-virtually-trying-on-clothes",
+        "linkedin": "El lanzamiento más interesante de Meta esta semana no ha tenido nota de prensa.\n\nStyle Sketch deja probarte prendas de forma virtual con IA y ha aparecido sin ruido en Indonesia, Singapur y Tailandia. 𝗘𝗹 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗼 𝗰𝗼𝗻 𝗜𝗔 𝗮𝘃𝗮𝗻𝘇𝗮 𝗽𝗼𝗿 𝗹𝗮 𝗽𝘂𝗲𝗿𝘁𝗮 𝗱𝗲 𝗮𝘁𝗿á𝘀, probando en mercados donde experimentar sale barato y nadie mira. Para quien trabaja en retail o en producto digital, la señal es clara: la prueba virtual de ropa deja de ser una demo de feria y empieza a comportarse como un canal de conversión.\n\n#Meta #StyleSketch #RetailTech\n\nhttps://www.engadget.com/2302003/meta-quietly-launches-an-ai-fashion-app-for-virtually-trying-on-clothes"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "investigacion",
+      "title": "Los expertos adoptan las opiniones aleatorias de un agente de IA como propias",
+      "summary": "Un estudio de Anthropic dio a 50 especialistas un agente cuyas preferencias se decidían a cara o cruz. Los participantes siguieron la opinión del agente hasta un 86 % de las veces en juicios subjetivos y muchos creyeron que la conclusión era suya.",
+      "why_it_matters": "El experimento mide un riesgo real de los asistentes: que desplacen el criterio propio sin que el usuario lo note.",
+      "url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds",
+      "source": "The Decoder",
+      "social": {
+        "x": "Un agente de IA decidía sus preferencias a cara o cruz. 50 expertos lo siguieron el 86 % de las veces y muchos creyeron que la idea era suya.\n\n#Anthropic #Sesgos #TomaDeDecisiones\nhttps://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds",
+        "linkedin": "Un agente de IA que decidía sus preferencias a cara o cruz consiguió que 50 especialistas adoptaran su opinión como propia.\n\nEl estudio de Anthropic puso a estos expertos ante juicios subjetivos y midió cuánto pesaba la recomendación del agente: hasta un 86 % de seguimiento, y buena parte de ellos convencidos de que la conclusión había salido de su propio criterio. 𝗘𝗹 𝗿𝗶𝗲𝘀𝗴𝗼 𝗻𝗼 𝗲𝘀 𝗾𝘂𝗲 𝗲𝗹 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝘀𝗲 𝗲𝗾𝘂𝗶𝘃𝗼𝗾𝘂𝗲, 𝘀𝗶𝗻𝗼 𝗾𝘂𝗲 𝗮𝗰𝗶𝗲𝗿𝘁𝗲 𝗮 𝗱𝗲𝘀𝗽𝗹𝗮𝘇𝗮𝗿 𝘁𝘂 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝘀𝗶𝗻 𝗾𝘂𝗲 𝗹𝗼 𝗻𝗼𝘁𝗲𝘀. Para quien diseña productos con IA, la pregunta deja de ser la precisión del modelo y pasa a ser cuánta fricción conviene introducir para que el usuario siga pensando.\n\n#Anthropic #Sesgos #TomaDeDecisiones\n\nhttps://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "MoEngage convierte 400 API en herramientas para agentes con AgentCore Gateway",
+      "summary": "La empresa ha expuesto cerca de 400 API REST privadas de siete regiones de AWS como herramientas con permisos acotados usando Amazon Bedrock AgentCore Gateway. La receta evita un servidor MCP por servicio y el exceso de contexto de cargar 400 herramientas a la vez, con especificaciones OpenAPI, políticas Cedar y salida por VPC Lattice.",
+      "why_it_matters": "Es un ejemplo concreto de cómo dar a un agente acceso a un catálogo grande de API sin inundar el contexto ni abrir endpoints públicos.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "400 APIs privadas convertidas en herramientas para agentes. Sin un servidor MCP por servicio y sin cargar las 400 en el contexto. La receta de MoEngage con AgentCore Gateway.\n\n#AmazonBedrock #AWS #MCP #OpenAPI\nhttps://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway",
+        "linkedin": "El cuello de botella de los agentes no está en el modelo: está en darles acceso a un catálogo grande de API sin que el contexto reviente.\n\nMoEngage ha expuesto cerca de 400 API REST privadas de siete regiones de AWS como herramientas con permisos acotados usando Amazon Bedrock AgentCore Gateway, con especificaciones OpenAPI, políticas Cedar y salida por VPC Lattice. 𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗲𝘀 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴𝘂𝗻𝗮 𝗔𝗣𝗜 𝗾𝘂𝗲𝗱𝗮 𝗲𝘅𝗽𝘂𝗲𝘀𝘁𝗮 𝗲𝗻 𝘂𝗻 𝗲𝗻𝗱𝗽𝗼𝗶𝗻𝘁 𝗽ú𝗯𝗹𝗶𝗰𝗼 𝘆 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗻𝗼 𝗮𝗿𝗿𝗮𝘀𝘁𝗿𝗮 𝟰𝟬𝟬 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 𝗮 𝗹𝗮 𝘃𝗲𝘇. Para cualquier equipo que esté montando agentes sobre sistemas internos, la lección es que lo que se expone y con qué permisos pesa más que el modelo que se elija.\n\n#AmazonBedrock #AWS #MCP #OpenAPI\n\nhttps://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "AWS Batch reparte las GPU por cuotas entre equipos para SageMaker",
+      "summary": "AWS ha añadido gestión de cuotas a AWS Batch para los trabajos de SageMaker Training: permite dividir la capacidad de GPU en cuotas por equipo o proyecto, prestar la capacidad ociosa y adelantar los trabajos prioritarios con preemption. Todo sin coordinación manual.",
+      "why_it_matters": "Resuelve uno de los cuellos de botella más caros del entrenamiento, el reparto de GPU entre equipos.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Tu equipo no se queda sin GPU por presupuesto. Se queda sin GPU porque nadie reparte las que hay. AWS acaba de meter cuotas en Batch para SageMaker.\n\n#AWS #SageMaker #GPU #AWSBatch\nhttps://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs",
+        "linkedin": "El problema de las GPU casi nunca es de presupuesto. Es de reparto.\n\nAWS ha añadido cuotas por equipo y proyecto a AWS Batch para los trabajos de SageMaker Training, con la opción de prestar la capacidad ociosa y de adelantar los trabajos prioritarios mediante preemption. Es decir: 𝗹𝗮 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝘀𝗲 𝗴𝗲𝘀𝘁𝗶𝗼𝗻𝗮 𝗰𝗼𝗻 𝗿𝗲𝗴𝗹𝗮𝘀, 𝗻𝗼 𝗰𝗼𝗻 𝗰𝗼𝗿𝗿𝗲𝗼𝘀 𝘆 𝗳𝗮𝘃𝗼𝗿𝗲𝘀. Para quien tiene un clúster compartido, esto cambia a quién hay que convencer para entrenar el próximo modelo.\n\n#AWS #SageMaker #GPU #AWSBatch\n\nhttps://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "DoorDash baja el pedido recurrente de 16 a 2 segundos con agentes de IA",
+      "summary": "DoorDash ha reducido la latencia de los pedidos recurrentes de supermercado de 16 a 2 segundos precalculando necesidades con inferencia por lotes de LLM y validación determinista. La resolución de catálogo en vivo mantiene los productos al día y una interfaz editable evita llamadas innecesarias al modelo.",
+      "why_it_matters": "Es un caso medido de cómo usar LLM en segundo plano para mejorar una experiencia de compra sin poner al modelo en el camino crítico.",
+      "url": "https://www.infoq.com/news/2026/10/doordash-ai-grocery-reorder",
+      "source": "InfoQ",
+      "social": {
+        "x": "DoorDash ha pasado de 16 a 2 segundos en el pedido recurrente de supermercado. El truco: el LLM ya no está en el camino crítico, trabaja por lotes antes de que lo necesites.\n\n#DoorDash #LLM #eCommerce #Latencia\nhttps://www.infoq.com/news/2026/10/doordash-ai-grocery-reorder",
+        "linkedin": "DoorDash ha recortado el pedido recurrente de la compra de 16 a 2 segundos sin cambiar de modelo: ha sacado el LLM del camino crítico.\n\nEn vez de esperar la respuesta del modelo cuando el usuario abre la app, precalcula las necesidades con inferencia por lotes y deja la validación a reglas deterministas. La resolución de catálogo en vivo mantiene los productos al día y una interfaz editable evita llamadas que nadie necesita.\n\nLa lección para cualquier equipo que meta IA en un flujo de compra: 𝗹𝗮 𝗹𝗮𝘁𝗲𝗻𝗰𝗶𝗮 𝘀𝗲 𝗮𝗿𝗿𝗲𝗴𝗹𝗮 𝗺𝗼𝘃𝗶𝗲𝗻𝗱𝗼 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗳𝘂𝗲𝗿𝗮 𝗱𝗲𝗹 𝗰𝗮𝗺𝗶𝗻𝗼 𝗰𝗿í𝘁𝗶𝗰𝗼, no cambiándolo por uno más pequeño. Si el usuario tiene que esperar a que el modelo piense, el problema es de diseño.\n\n#DoorDash #LLM #eCommerce #Latencia\n\nhttps://www.infoq.com/news/2026/10/doordash-ai-grocery-reorder"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "OpenAI actualiza su Model Spec con cinco valores para guiar el juicio del modelo",
+      "summary": "OpenAI ha publicado una nueva versión de su Model Spec, el documento que fija el comportamiento esperado de sus modelos. La revisión articula cinco valores centrales para orientar un juicio más capaz hacia la agencia humana y la fidelidad a la intención del usuario.",
+      "why_it_matters": "El documento marca cómo se comportarán los modelos de OpenAI en decisiones ambiguas, algo que afecta a cualquiera que los integre.",
+      "url": "https://openai.com/index/updated-model-spec",
+      "source": "OpenAI News",
+      "social": {
+        "x": "Cuando le pides algo ambiguo a ChatGPT, alguien decide por ti. OpenAI acaba de publicar los cinco valores con los que sus modelos tomarán esa decisión.\n\n#OpenAI #ModelSpec #ChatGPT\nhttps://openai.com/index/updated-model-spec",
+        "linkedin": "Cuando una petición es ambigua, el modelo decide por ti.\n\nOpenAI ha actualizado su Model Spec, el documento que fija cómo deben comportarse sus modelos, y lo ha articulado en cinco valores. El detalle importa porque marca el criterio que seguirán en las decisiones ambiguas, justo donde cualquier integración se juega la experiencia: la parte interesante no es la lista, sino 𝗾𝘂𝗶é𝗻 𝗱𝗲𝗳𝗶𝗻𝗲 𝗹𝗮 𝗶𝗻𝘁𝗲𝗻𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼 𝗰𝘂𝗮𝗻𝗱𝗼 𝗲𝘀𝗮 𝗶𝗻𝘁𝗲𝗻𝗰𝗶ó𝗻 𝗻𝗼 𝗲𝘀𝘁á 𝗰𝗹𝗮𝗿𝗮. Para quien integra modelos, conviene leerlo como documentación de producto, no como filosofía.\n\n#OpenAI #ModelSpec #ChatGPT\n\nhttps://openai.com/index/updated-model-spec"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "Anthropic niega que el compromiso de la extensión de Claude Code venga de sus sistemas",
+      "summary": "Anthropic ha negado que la versión maliciosa de la extensión oficial de Claude Code publicada en el marketplace de Cursor esté relacionada con un compromiso de sus propios sistemas. La empresa culpa a un actor malicioso de un ataque de cadena de suministro dirigido que infectó hasta 5.000 desarrolladores.",
+      "why_it_matters": "El episodio recuerda que las extensiones de herramientas de IA son una superficie de ataque de primer nivel.",
+      "url": "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+      "source": "The Register",
+      "social": {
+        "x": "5.000 desarrolladores instalaron la extensión oficial de Claude Code. Lo que descargaron no era lo que Anthropic había publicado.\n\n#Anthropic #ClaudeCode #Cursor #SupplyChain\nhttps://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+        "linkedin": "5.000 desarrolladores descargaron la extensión oficial de Claude Code y lo que llegó no era lo que Anthropic había publicado.\n\nAnthropic niega que el incidente tenga origen en sus propios sistemas y apunta a un actor malicioso que atacó la cadena de suministro a través del marketplace de Cursor. Para quien instaló la extensión con la confianza del fabricante, la distinción da bastante igual: 𝗲𝗹 𝗺𝗮𝗿𝗸𝗲𝘁𝗽𝗹𝗮𝗰𝗲 𝗱𝗲 𝗽𝗹𝘂𝗴𝗶𝗻𝘀 𝗱𝗲 𝗜𝗔 𝘆𝗮 𝗲𝘀 𝘂𝗻𝗮 𝘀𝘂𝗽𝗲𝗿𝗳𝗶𝗰𝗶𝗲 𝗱𝗲 𝗮𝘁𝗮𝗾𝘂𝗲 𝗱𝗲 𝗽𝗿𝗶𝗺𝗲𝗿 𝗻𝗶𝘃𝗲𝗹 y casi nadie audita lo que entra por ahí. Si tu equipo instala extensiones de asistentes sin revisar procedencia ni permisos, hoy es un buen día para cambiar esa costumbre.\n\n#Anthropic #ClaudeCode #Cursor #SupplyChain\n\nhttps://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "industria",
+      "title": "Hallan fallos en cinco herramientas de desarrollo con IA, con OpenAI y Microsoft sin parchear",
+      "summary": "Un análisis de seguridad ha encontrado vulnerabilidades en cinco herramientas de desarrollo asistido por IA, con los fallos de OpenAI y Microsoft aún sin corregir. El origen está en los navegadores embebidos que estas herramientas usan para mostrar contenido web.",
+      "why_it_matters": "Afecta a herramientas que muchos equipos ya tienen instaladas y que manejan código y credenciales.",
+      "url": "https://www.theregister.com/security/2026/10/29/researchers-find-bugs-in-5-ai-developer-tools-with-openai-and-microsoft-flaws-still-unpatched/5306508",
+      "source": "The Register",
+      "social": {
+        "x": "El fallo no está en el modelo. Está en el navegador embebido de cinco herramientas de desarrollo con IA, y las de OpenAI y Microsoft siguen sin parchear.\n\n#OpenAI #Microsoft #Seguridad #DevTools\nhttps://www.theregister.com/security/2026/10/29/researchers-find-bugs-in-5-ai-developer-tools-with-openai-and-microsoft-flaws-still-unpatched/5306508",
+        "linkedin": "El fallo no está en el modelo, sino en el navegador embebido que llevan dentro y que casi nadie revisa.\n\nUn análisis de seguridad ha encontrado vulnerabilidades en cinco herramientas de desarrollo asistido por IA. Las de OpenAI y Microsoft siguen sin corregir. El vector es común: el componente web que estas herramientas usan para renderizar contenido. Son utilidades que muchos equipos ya tienen instaladas y que manejan código y credenciales, así que 𝗹𝗮 𝘀𝘂𝗽𝗲𝗿𝗳𝗶𝗰𝗶𝗲 𝗱𝗲 𝗮𝘁𝗮𝗾𝘂𝗲 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗾𝘂𝗲 𝗲𝘀𝗰𝗿𝗶𝗯𝗲𝘀, 𝘀𝗶𝗻𝗼 𝗹𝗮 𝘃𝗲𝗻𝘁𝗮𝗻𝗮 𝗱𝗼𝗻𝗱𝗲 𝗹𝗼 𝘃𝗲𝘀. Conviene hacer inventario de lo que hay desplegado antes de que lo haga otro.\n\n#OpenAI #Microsoft #Seguridad #DevTools\n\nhttps://www.theregister.com/security/2026/10/29/researchers-find-bugs-in-5-ai-developer-tools-with-openai-and-microsoft-flaws-still-unpatched/5306508"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Un empleado de Accenture tuvo su agente de Claude dos meses en una red del Pentágono",
+      "summary": "Según WIRED, el agente personal de Claude de un empleado de un contratista de defensa estuvo funcionando en una red del Departamento de Defensa de EE. UU. durante dos meses antes de ser detectado. La vulnerabilidad se parcheó después del hallazgo.",
+      "why_it_matters": "Muestra el riesgo de los agentes personales con acceso a entornos sensibles y la dificultad de detectarlos.",
+      "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system",
+      "source": "Wired",
+      "social": {
+        "x": "Un agente de Claude estuvo dos meses funcionando dentro de una red del Pentágono. Lo puso ahí un empleado de Accenture y nadie se dio cuenta hasta después.\n\n#Anthropic #Claude #Ciberseguridad #Accenture\nhttps://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system",
+        "linkedin": "Un agente de IA personal ha estado dos meses corriendo dentro de una red del Pentágono. Y no lo sabía nadie.\n\nSegún WIRED, el agente de Claude lo desplegó un empleado de un contratista de defensa y pasó desapercibido hasta que alguien lo detectó. La vulnerabilidad ya está parcheada, pero el hallazgo deja una pregunta incómoda: si un asistente personal puede colarse en un entorno sensible y sobrevivir dos meses, 𝗲𝗹 𝗿𝗲𝘁𝗼 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀 𝗲𝗹 𝗶𝗻𝘃𝗲𝗻𝘁𝗮𝗿𝗶𝗼 𝗱𝗲 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗾𝘂𝗲 𝗰𝗼𝗿𝗿𝗲 𝗽𝗼𝗿 𝘁𝘂 𝗿𝗲𝗱. Para los equipos de seguridad, la sombra de la IA deja de ser un riesgo teórico y pasa a ser algo que hay que buscar activamente, con las mismas credenciales y el mismo acceso que cualquier empleado.\n\n#Anthropic #Claude #Ciberseguridad #Accenture\n\nhttps://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "Enjambres de agentes de IA juegan y colaboran en Minecraft y Mindustry",
+      "summary": "El laboratorio de Y Combinator ha puesto en marcha enjambres de agentes basados en Claude y GPT dentro de Minecraft y Mindustry para estudiar dinámicas multagente. Los agentes desarrollan roles, jerarquías y patrones de coordinación que sirven para investigar alineación.",
+      "why_it_matters": "Los entornos de juego son un banco de pruebas barato para entender cómo se coordinan, y cómo fallan, los sistemas multagente.",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un enjambre de agentes de Claude y GPT lleva semanas jugando a Minecraft sin supervisión. Ya han empezado a repartirse roles.\n\n#Anthropic #OpenAI #Minecraft #YCombinator\nhttps://labs.ycombinator.com/projects/games/index.html",
+        "linkedin": "Los enjambres de agentes ya se organizan solos. La pregunta incómoda es qué pasa cuando esa organización falla.\n\nEl laboratorio de Y Combinator ha metido grupos de agentes basados en Claude y GPT en Minecraft y Mindustry para observarlos convivir, y de ahí salen roles, jerarquías y patrones de coordinación que nadie ha programado. 𝗟𝗼𝘀 𝗷𝘂𝗲𝗴𝗼𝘀 𝘀𝗲 𝗵𝗮𝗻 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝗲𝗹 𝗯𝗮𝗻𝗰𝗼 𝗱𝗲 𝗽𝗿𝘂𝗲𝗯𝗮𝘀 𝗺á𝘀 𝗯𝗮𝗿𝗮𝘁𝗼 𝗽𝗮𝗿𝗮 𝗲𝘀𝘁𝘂𝗱𝗶𝗮𝗿 𝗮𝗹𝗶𝗻𝗲𝗮𝗰𝗶ó𝗻 𝗺𝘂𝗹𝘁𝗶𝗮𝗴𝗲𝗻𝘁𝗲, y eso debería cambiar cómo diseñamos cualquier sistema con varios agentes. Si no entiendes cómo se reparten el trabajo, tampoco vas a entender por qué se rompe.\n\n#Anthropic #OpenAI #Minecraft #YCombinator\n\nhttps://labs.ycombinator.com/projects/games/index.html"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Netflix trata la fiabilidad de las GPU como un problema de sistemas distribuidos",
+      "summary": "Netflix ha detallado una plataforma de fiabilidad para entrenamiento e inferencia a gran escala con GPU, basada en comprobaciones de salud por capas, remediación automática y entrenamiento tolerante a fallos. El objetivo es que los trabajos sigan adelante pese a los fallos de hardware.",
+      "why_it_matters": "A gran escala, las GPU fallan lo suficiente como para necesitar la misma ingeniería que cualquier servicio distribuido.",
+      "url": "https://www.infoq.com/news/2026/10/netflix-gpu-distributed-systems",
+      "source": "InfoQ",
+      "social": {
+        "x": "Las GPU fallan tanto a escala que Netflix dejó de tratarlas como hardware y empezó a tratarlas como un sistema distribuido: salud por capas y remediación automática.\n\n#Netflix #GPU #MLOps #SistemasDistribuidos\nhttps://www.infoq.com/news/2026/10/netflix-gpu-distributed-systems",
+        "linkedin": "Cuando tienes miles de GPU entrenando, el fallo de hardware deja de ser una excepción y pasa a ser la rutina.\n\nNetflix ha detallado una plataforma de fiabilidad para entrenamiento e inferencia a gran escala: comprobaciones de salud por capas, remediación automática y entrenamiento tolerante a fallos, de modo que el trabajo sigue aunque una tarjeta se caiga. 𝗟𝗮 𝗹𝗲𝗰𝗰𝗶ó𝗻 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗚𝗣𝗨, 𝗲𝘀 𝗮𝘀𝘂𝗺𝗶𝗿 𝗲𝗹 𝗳𝗮𝗹𝗹𝗼 𝗰𝗼𝗺𝗼 𝗲𝘀𝘁𝗮𝗱𝗼 𝗻𝗼𝗿𝗺𝗮𝗹 𝗱𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 y diseñar para reiniciar sin perder horas de cómputo. Para quien esté montando clústeres propios, esto es ingeniería de fiabilidad antes que una comparativa de rendimiento.\n\n#Netflix #GPU #MLOps #SistemasDistribuidos\n\nhttps://www.infoq.com/news/2026/10/netflix-gpu-distributed-systems"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "herramientas",
+      "title": "Topcoat lleva el renderizado de aplicaciones web en servidor a Rust",
+      "summary": "Topcoat es un nuevo framework que adapta el modelo de reactividad de las aplicaciones web para renderizar en servidor con Rust. Su autor busca tiempos de carga más rápidos y una vía distinta a los frameworks JavaScript habituales.",
+      "why_it_matters": "Da a los equipos de Rust una opción para construir interfaces web sin cambiar de lenguaje.",
+      "url": "https://www.theregister.com/devops/2026/10/29/topcoat-enables-rust-to-render-server-side-web-apps/5306470",
+      "source": "The Register",
+      "social": {
+        "x": "Rust ya compila el servidor. Ahora también quiere pintar la interfaz. Topcoat propone renderizar en servidor sin una línea de JavaScript.\n\n#Rust #Topcoat #RustLang\nhttps://www.theregister.com/devops/2026/10/29/topcoat-enables-rust-to-render-server-side-web-apps/5306470",
+        "linkedin": "El frontend en Rust deja de ser un experimento de fin de semana.\nTopcoat adapta el modelo de reactividad de las aplicaciones web y renderiza en servidor con Rust, con la promesa de tiempos de carga más rápidos que los frameworks JavaScript habituales. Para un equipo que ya tiene la lógica de negocio en Rust, esto abre la puerta a construir la interfaz 𝘀𝗶𝗻 𝗰𝗮𝗺𝗯𝗶𝗮𝗿 𝗱𝗲 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲 ni mantener dos stacks en paralelo. La duda ya no es técnica, es de ecosistema: sin un catálogo de componentes maduro, la productividad del día a día seguirá dependiendo de JavaScript.\n\n#Rust #Topcoat #RustLang\n\nhttps://www.theregister.com/devops/2026/10/29/topcoat-enables-rust-to-render-server-side-web-apps/5306470"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "herramientas",
+      "title": "Google adopta DPoP para proteger OAuth 2.0 contra el robo de tokens",
+      "summary": "La plataforma OAuth de Google ha empezado a soportar DPoP (Demonstrating Proof-of-Possession), un mecanismo de OAuth 2.0 que dificulta el robo y la reutilización de tokens. La medida añade una prueba criptográfica de posesión a las peticiones.",
+      "why_it_matters": "Es una defensa concreta contra un tipo de ataque habitual en integraciones y API de terceros.",
+      "url": "https://www.infoq.com/news/2026/10/google-dpop-oauth2",
+      "source": "InfoQ",
+      "social": {
+        "x": "Robar un token de OAuth y reutilizarlo en otro sitio acaba de ponerse cuesta arriba: Google ya acepta DPoP en su plataforma OAuth.\n\n#OAuth #DPoP #Google #APIs\nhttps://www.infoq.com/news/2026/10/google-dpop-oauth2",
+        "linkedin": "Durante años, un token robado fue una llave maestra: servía desde cualquier sitio hasta que caducara.\n\nGoogle ha empezado a aceptar DPoP en su plataforma OAuth, un mecanismo que ata cada petición a una prueba criptográfica de posesión. 𝗘𝗹 𝘁𝗼𝗸𝗲𝗻 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗯𝗮𝘀𝘁𝗮𝗿 𝗽𝗼𝗿 𝘀í 𝘀𝗼𝗹𝗼: quien lo robe no puede reutilizarlo desde otra infraestructura. Para los equipos que integran APIs de terceros, es la clase de defensa que toca exigir en el próximo proveedor y no solo aplaudir cuando llega.\n\n#OAuth #DPoP #Google #APIs\n\nhttps://www.infoq.com/news/2026/10/google-dpop-oauth2"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "lanzamientos",
+      "title": "Waymo y Toyota preparan un robotaxi construido en fábrica para Japón",
+      "summary": "Waymo ha anunciado que su servicio de robotaxi en Tokio, previsto para 2027, usará Toyota bZ4X eléctricos ensamblados en Japón. La planta de Takaoka instalará los sensores de conducción autónoma de Waymo directamente en la línea, en lugar de adaptar coches después.",
+      "why_it_matters": "Integrar el hardware de autonomía en la cadena de montaje acerca los robotaxis a la escala industrial y los aleja del prototipo.",
+      "url": "https://www.theverge.com/transportation/1023112/waymos-next-robotaxi-is-a-purpose-built-toyota-bz4x",
+      "source": "The Verge",
+      "social": {
+        "x": "Los robotaxis siempre se han montado a mano, coche a coche. Waymo y Toyota empezarán a fabricarlos con los sensores ya puestos en la línea.\n\n#Waymo #Toyota #Robotaxi #AutonomousDriving\nhttps://www.theverge.com/transportation/1023112/waymos-next-robotaxi-is-a-purpose-built-toyota-bz4x",
+        "linkedin": "Un robotaxi que sale de la cadena de montaje cambia la pregunta: ya no es si la autonomía funciona, sino cuántas unidades puedes fabricar al mes.\n\nWaymo y Toyota llevarán su servicio a Tokio en 2027 con bZ4X eléctricos ensamblados en la planta de Takaoka, donde los sensores de conducción autónoma se instalan en la propia línea en vez de adaptarse a posteriori. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲 𝗹𝗼𝘀 𝗿𝗼𝗯𝗼𝘁𝗮𝘅𝗶𝘀 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗹𝗮 𝗳á𝗯𝗿𝗶𝗰𝗮. Para cualquier operador que siga reconvirtiendo coches terminados, la comparación va a ser incómoda: el que integra el hardware desde el origen gana en coste, plazo y control de calidad.\n\n#Waymo #Toyota #Robotaxi #AutonomousDriving\n\nhttps://www.theverge.com/transportation/1023112/waymos-next-robotaxi-is-a-purpose-built-toyota-bz4x"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "El folleto de salida a bolsa de Anthropic apela a invertir en milagros",
+      "summary": "El S-1 de Anthropic, de 335 páginas, admite que la tecnología podría suponer riesgos catastróficos o traer una era de milagros, y pide al inversor cierto grado de fe. El documento forma parte de una escalada de expectativas en Silicon Valley.",
+      "why_it_matters": "Fija por escrito cómo una de las empresas de IA más valiosas presenta a la vez riesgos existenciales y promesas ante los mercados.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+      "source": "The Verge",
+      "social": {
+        "x": "Anthropic admite por escrito, en su folleto de salida a bolsa, que su tecnología podría ser catastrófica. Y aun así pide al inversor algo de fe.\n\n#Anthropic #SalidaABolsa #SiliconValley\nhttps://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+        "linkedin": "Anthropic pide fe al inversor. Y lo hace por escrito, en un S-1 de 335 páginas que admite riesgo catastrófico y una era de milagros con el mismo tono.\n\nNo es un descuido legal: es 𝗹𝗮 𝗻𝘂𝗲𝘃𝗮 𝗺𝗮𝗻𝗲𝗿𝗮 𝗱𝗲 𝘃𝗲𝗻𝗱𝗲𝗿 𝗜𝗔 𝗮 𝗹𝗼𝘀 𝗺𝗲𝗿𝗰𝗮𝗱𝗼𝘀, reconocer el riesgo existencial como prueba de seriedad mientras se promete una revolución económica. Afecta a cualquiera que compre, integre o financie estos modelos, porque el listón de expectativas que fija este documento se traslada enseguida al resto del sector. Si un folleto sostiene las dos cosas a la vez, conviene leerlo entero antes de firmar.\n\n#Anthropic #SalidaABolsa #SiliconValley\n\nhttps://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Binance sufre el mayor robo de criptomonedas registrado: 6.300 millones de dólares",
+      "summary": "Binance ha confirmado el robo de unos 6.300 millones de dólares en criptomonedas, el mayor ataque del sector hasta la fecha. La compañía dice que cubrirá las pérdidas y ha congelado parte de los fondos; las pesquisas apuntan a piratas norcoreanos.",
+      "why_it_matters": "El caso vuelve a mostrar que la seguridad de las grandes plataformas sigue siendo el eslabón débil de la confianza cripto.",
+      "url": "https://www.theverge.com/tech/1023021/binance-hack-billions-biggest-crypto-heist",
+      "source": "The Verge",
+      "social": {
+        "x": "6.300 millones de dólares desaparecidos de Binance. Es el mayor robo cripto de la historia y las pesquisas ya apuntan a un sospechoso de siempre.\n\n#Binance #Criptomonedas #Blockchain #Ciberseguridad\nhttps://www.theverge.com/tech/1023021/binance-hack-billions-biggest-crypto-heist",
+        "linkedin": "6.300 millones de dólares. El mayor robo de la historia de las criptomonedas no lo ha sufrido un exchange pequeño, sino el más grande del mundo.\n\nBinance ha confirmado el ataque, dice que cubrirá las pérdidas con fondos propios y ha congelado parte del dinero sustraído, mientras las pesquisas apuntan a piratas norcoreanos. 𝗟𝗮 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗲𝘅𝗰𝗵𝗮𝗻𝗴𝗲 𝘀𝗶𝗴𝘂𝗲 𝘀𝗶𝗲𝗻𝗱𝗼 𝗲𝗹 𝗲𝘀𝗹𝗮𝗯ó𝗻 𝗱é𝗯𝗶𝗹 𝗱𝗲 𝗹𝗮 𝗰𝗼𝗻𝗳𝗶𝗮𝗻𝘇𝗮 𝗰𝗿𝗶𝗽𝘁𝗼: si el actor con más recursos del sector no logra blindar sus fondos, el relato de que la plataforma es un banco seguro se tambalea. Para quien construye producto sobre exchanges centralizados, el riesgo no es solo técnico, es de modelo de negocio: la descentralización se predica, pero el dinero y la custodia siguen concentrados en muy pocos actores.\n\n#Binance #Criptomonedas #Blockchain #Ciberseguridad\n\nhttps://www.theverge.com/tech/1023021/binance-hack-billions-biggest-crypto-heist"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Repositorio público de Anthropic con Agent Skills: carpetas de instrucciones, scripts y recursos que el agente carga solo cuando le hacen falta para una tarea concreta. Es la mejor referencia para copiar el formato y montar tus propias skills encima de Claude y otros agentes.",
+      "language": "Python",
+      "stars": 185083,
+      "social": {
+        "x": "Anthropic ha abierto el repo con el formato exacto de sus Agent Skills: carpetas que el agente carga solo cuando le hacen falta. 185.000 estrellas y se copia tal cual.\n\n#AgentSkills #Claude #Python #OpenSource\nhttps://github.com/anthropics/skills",
+        "linkedin": "ANTHROPIC HA PUBLICADO EL FORMATO EXACTO DE SUS AGENT SKILLS. Y se puede copiar tal cual.\n\nLa mayoría de demos de agentes son un prompt gigante metido en un archivo. Esto es otra cosa: carpetas con instrucciones, scripts y recursos que el agente abre 𝘀𝗼𝗹𝗼 𝗰𝘂𝗮𝗻𝗱𝗼 𝗹𝗮 𝘁𝗮𝗿𝗲𝗮 𝗹𝗼𝘀 𝗻𝗲𝗰𝗲𝘀𝗶𝘁𝗮. Sin framework propietario de por medio y con 185.000 estrellas detrás.\n\nQué vas a encontrar:\n\n→ La estructura de carpetas que usa Anthropic, lista para replicar en tus propias skills.\n→ Ejemplos en Python que sirven de plantilla, no de juguete: scripts que el agente ejecuta de verdad.\n→ El patrón de carga bajo demanda, que evita meter medio manual en la ventana de contexto.\n→ Una referencia para montar skills encima de Claude y de otros agentes que sigan el mismo formato.\n\nSi llevas semanas improvisando cómo organizar las herramientas de tu agente, aquí está el criterio que te faltaba. Guárdate el post y échale un ojo al repo, lo tienes abajo.\n\n#AgentSkills #Claude #Python #OpenSource\n\nhttps://github.com/anthropics/skills"
+      }
+    },
+    {
+      "name": "lightpanda-io/browser",
+      "url": "https://github.com/lightpanda-io/browser",
+      "description": "Navegador headless escrito en Zig y pensado para IA y automatización, con un consumo de memoria y CPU muy por debajo de Chromium. Viene muy bien para scraping y para dar capacidad de navegar a agentes sin levantar un Chrome entero por cada sesión.",
+      "language": "Zig",
+      "stars": 38060,
+      "social": {
+        "x": "Chromium se come gigas de RAM para automatizar una pestaña. Este navegador headless escrito en Zig gasta mucha menos. 38k estrellas y open source.\n\n#Lightpanda #Zig #OpenSource #GitHub\nhttps://github.com/lightpanda-io/browser",
+        "linkedin": "CHROMIUM LEVANTA UN CHROME ENTERO PARA QUE UN AGENTE LEA UNA PÁGINA. ESTE NAVEGADOR NO.\n\nSi haces scraping o das capacidad de navegar a tus agentes, conoces el peaje: cada sesión necesita su proceso, su memoria y su CPU. Multiplícalo por diez sesiones en paralelo y mira la factura del servidor.\n\nLightpanda es un navegador headless escrito en Zig y pensado desde cero para IA y automatización. Su consumo de memoria y CPU queda muy por debajo de Chromium, que es justo lo que necesitas cuando el navegador es un medio y no el fin.\n\n→ Escrito en Zig, con un footprint de RAM y CPU muy inferior al de Chromium.\n→ Diseñado para IA y automatización, no para que una persona mire pestañas.\n→ Ideal para scraping y para dar navegación real a agentes.\n→ Te ahorra levantar un Chrome entero por cada sesión.\n→ Más de 38.000 estrellas en GitHub y código abierto.\n\nLa idea que me llevo: 𝗽𝘂𝗲𝗱𝗲𝘀 𝗱𝗮𝗿 𝗻𝗮𝘃𝗲𝗴𝗮𝗰𝗶ó𝗻 𝗿𝗲𝗮𝗹 𝗮 𝘁𝘂𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝘀𝗶𝗻 𝗽𝗮𝗴𝗮𝗿 𝗲𝗹 𝗽𝗲𝗮𝗷𝗲 𝗱𝗲 𝘂𝗻 𝗖𝗵𝗿𝗼𝗺𝗶𝘂𝗺 𝗽𝗼𝗿 𝘀𝗲𝘀𝗶ó𝗻.\n\nSi montas pipelines de scraping o agentes que necesitan abrir webs, guárdate este post: el repo te lo dejo justo abajo.\n\n#Lightpanda #Zig #OpenSource #GitHub\n\nhttps://github.com/lightpanda-io/browser"
+      }
+    },
+    {
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Las skills que Matt Pocock usa a diario con agentes de código, publicadas tal cual salen de su carpeta .agents. Sirve para pillar ideas ya probadas sobre cómo estructurar instrucciones y flujos para que el agente trabaje con más criterio.",
+      "language": "Shell",
+      "stars": 307218,
+      "social": {
+        "x": "Matt Pocock acaba de publicar las skills que usa a diario con agentes de código, tal cual salen de su carpeta .agents. 307k estrellas y ni una línea de marketing.\n\n#OpenSource #GitHub #AgentesDeCódigo #Shell\nhttps://github.com/mattpocock/skills",
+        "linkedin": "MATT POCOCK HA PUBLICADO SUS SKILLS DE AGENTES, SIN LIMPIARLAS NI ADORNARLAS.\n\nCasi todo lo que circula sobre agentes de código son plantillas genéricas copiadas de un hilo. Esto es distinto: es la carpeta .agents real de alguien que se gana el pan programando con agentes a diario, publicada tal cual.\n\nLa gracia no está en copiar sus instrucciones, sino en ver 𝗰ó𝗺𝗼 𝘀𝗲 𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝘂𝗻𝗮 𝘀𝗸𝗶𝗹𝗹 𝗽𝗮𝗿𝗮 𝗾𝘂𝗲 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗲 𝗰𝗼𝗻 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝘆 𝗻𝗼 𝘀𝗲 𝗹𝗶𝗺𝗶𝘁𝗲 𝗮 𝗼𝗯𝗲𝗱𝗲𝗰𝗲𝗿.\n\n→ Instrucciones y flujos de trabajo sacados de uso real, no de una demo\n→ Sirven como referencia para montar tus propios ficheros de agentes\n→ Todo en Shell, fácil de leer y adaptar a tu stack\n→ Útil si trabajas con agentes dentro del editor y quieres dejar de improvisar prompts\n\nSi llevas meses reescribiendo el mismo bloque de contexto cada mañana, esto te ahorra el trabajo de adivinar qué funciona.\n\nGuarda el post y échale un ojo al repo: tienes el enlace debajo.\n\n#OpenSource #GitHub #AgentesDeCódigo #Shell\n\nhttps://github.com/mattpocock/skills"
+      }
+    },
+    {
+      "name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "Proyecto en TypeScript de pingdotgg, todavía sin descripción en el repositorio, así que toca mirar el código para hacerse una idea del alcance. Aun así está subiendo fuerte y apunta a herramienta de desarrollo centrada en agentes de código.",
+      "language": "TypeScript",
+      "stars": 32489,
+      "social": {
+        "x": "pingdotgg suelta t3code sin descripción y con 32.489 estrellas. TypeScript puro, orientado a agentes de código, y el repo no para de subir.\n\n#t3code #TypeScript #OpenSource #GitHub\nhttps://github.com/pingdotgg/t3code",
+        "linkedin": "32.489 ESTRELLAS Y NI UNA LÍNEA DE DESCRIPCIÓN.\n\npingdotgg, el equipo detrás de t3.chat, ha publicado t3code y el repo se ha llenado de estrellas antes de explicar qué es. Por el nombre, el lenguaje y el código, apunta a una herramienta de desarrollo centrada en agentes de código.\n\nMientras medio GitHub presume de landing, demo y roadmap, aquí la única pista es el propio repositorio:\n\n→ TypeScript de arriba abajo.\n→ Foco en agentes de código, no en otro editor genérico.\n→ Firma de pingdotgg, un equipo con recorrido en herramientas para devs.\n→ 32.489 estrellas y subiendo, sin marketing de por medio.\n\n𝗘𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗲𝘀 𝗹𝗮 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗮𝗰𝗶ó𝗻. Si trabajas con agentes o quieres ver hacia dónde va el tooling, este repo merece un rato de lectura.\n\nGuárdate el post: te dejo el enlace abajo.\n\n#t3code #TypeScript #OpenSource #GitHub\n\nhttps://github.com/pingdotgg/t3code"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "El bucle de verificación: cómo hacer que la calidad se refuerce sola en el equipo",
+      "url": "https://lethain.com/adopting-verification-pattern",
+      "source": "Irrational Exuberance (Will Larson)",
+      "summary": "Will Larson cuenta cómo Imprint Engineering pasó de los cambios pequeños a un bucle de verificación en el que cada cambio se comprueba de forma automática antes de integrarse. Detalla las confusiones del despliegue inicial y las decisiones concretas que hicieron que el patrón funcionara. Útil si quieres que la calidad no dependa de la disciplina individual de cada persona.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Por qué reconocemos un texto escrito por un LLM, y qué pasa cuando lo notamos",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "source": "Martin Fowler",
+      "summary": "Martin Fowler describe esa sensación creciente de estar leyendo prosa generada por un modelo y por qué hace que se le quiten a uno las ganas de seguir leyendo. Se muestra escéptico con las herramientas que prometen detectarlo y reflexiona sobre qué señales delatan de verdad al texto. Interesante para quien escribe o edita con ayuda de IA y quiere cuidar la voz propia.",
+      "tema": "ia"
+    },
+    {
+      "title": "Grafos de conocimiento para detectar fraude financiero en producción",
+      "url": "https://www.freecodecamp.org/news/how-to-detect-financial-fraud-patterns-with-knowledge-graphs-a-production-guide",
+      "source": "freeCodeCamp",
+      "summary": "Guía de producción sobre por qué evaluar cada transacción por separado se queda corto y cómo modelar facturas, cuentas y proveedores como un grafo para encontrar patrones de fraude. Explica cómo llevar ese modelo a un sistema real de pagos con reglas y umbrales. Sirve para quien diseñe arquitecturas antifraude o sistemas que dependan de relaciones y no solo de campos.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Difference-in-differences o regresión con el resultado desfasado: cómo elegir el diseño",
+      "url": "https://towardsdatascience.com/difference-in-differences-vs-lagged-outcome-regression",
+      "source": "Towards Data Science",
+      "summary": "Compara dos diseños habituales en analítica de producto para estimar el efecto de una acción sobre usuarios que se autoseleccionan, con un estudio de simulación y una comprobación en el periodo previo. Explica cuándo cada método sesga la estimación y qué conviene mirar antes de decidirse. Práctico si tienes que justificar una decisión de medición ante negocio o ingeniería.",
+      "tema": "datos"
+    },
+    {
+      "title": "D3 y React en el mismo dashboard: cómo repartir el DOM sin que se pisen",
+      "url": "https://arnab-k.medium.com/d3-in-a-next-js-dashboard-without-the-two-libraries-fighting-over-the-dom-7393702263a3",
+      "source": "Medium: Web Development",
+      "summary": "El problema cabe en una frase: D3 y React quieren mandar sobre el DOM. El artículo explica cómo separar responsabilidades para montar gráficos de D3 dentro de un dashboard en Next.js sin conflictos entre ambas librerías. Se aprende un patrón reutilizable para cualquier visualización incrustada en una aplicación React.",
+      "tema": "web"
+    },
+    {
+      "title": "Un test de usabilidad en una semana y con poco presupuesto: qué funcionó y qué no",
+      "url": "https://medium.com/@anumodajith293/one-week-two-researchers-usability-testing-on-a-budget-49a62db020d9",
+      "source": "Medium: UX",
+      "summary": "Dos investigadores cuentan cómo planificaron, grabaron y analizaron un estudio de usabilidad presencial con recursos limitados, incluidos los errores del proceso. Explican en qué puntos la IA ayudó de verdad y en cuáles no. Útil para equipos pequeños que necesitan evidencias de usuarios sin montar un laboratorio.",
+      "tema": "diseno"
+    }
+  ]
+}
