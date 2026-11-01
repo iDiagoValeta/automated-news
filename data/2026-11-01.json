@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T16:48:07.295Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "OpenAI unifica los límites de uso de ChatGPT y Codex y pasa a un cupo por tokens",
+      "summary": "OpenAI combina los modos Chat y Work en una sola interfaz y, desde diciembre, los planes Plus, Pro y Business compartirán un cupo común medido en tokens para ChatGPT y Codex. Los modelos más complejos consumen más parte de ese cupo, mientras que los chats instantáneos sencillos no cuentan.",
+      "why_it_matters": "Cambia la economía del producto: quien exprima los modelos potentes con un plan barato notará antes el límite.",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "source": "Hacker News",
+      "social": {
+        "x": "OpenAI deja de contar mensajes: desde diciembre, ChatGPT y Codex comparten un cupo por tokens. Los modelos potentes te lo gastan antes.\n\n#OpenAI #ChatGPT #Codex\nhttps://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "linkedin": "El plan barato ya no te va a dar acceso sin freno al modelo bueno.\n\nOpenAI unifica ChatGPT y Codex en una sola interfaz y sustituye el límite de mensajes por 𝘂𝗻 𝗰𝘂𝗽𝗼 𝗰𝗼𝗺ú𝗻 𝗺𝗲𝗱𝗶𝗱𝗼 𝗲𝗻 𝘁𝗼𝗸𝗲𝗻𝘀: los modelos más complejos consumen más parte de ese cupo y los chats sencillos no cuentan. Sobre el papel es más justo, pero cambia la economía del producto: quien exprima los modelos potentes con un plan Plus notará el tope mucho antes que quien se quede en lo básico. Si tu equipo usa Codex a diario, conviene revisar qué plan aguanta el ritmo real antes de que lo descubra a base de errores.\n\n#OpenAI #ChatGPT #Codex\n\nhttps://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "investigacion",
+      "title": "Adobe prueba EditAgent, un agente de IA que edita imágenes como un profesional de Photoshop",
+      "summary": "Adobe Research y la UC San Diego han construido EditAgent, un sistema que combina un editor de imágenes generalista con herramientas especializadas y elige la más adecuada para cada tarea. Un modelo de lenguaje estándar compara los resultados usando datos medidos de la imagen y se queda con el mejor. El enfoque funciona, pero necesita unas diez veces más cómputo.",
+      "why_it_matters": "Muestra hacia dónde va la edición asistida: agentes que usan herramientas reales en vez de reintentar un prompt genérico.",
+      "url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would",
+      "source": "The Decoder",
+      "social": {
+        "x": "Adobe ya no le pide a la IA que adivine: le da herramientas de Photoshop y deja que un agente elija la buena. El precio: 10 veces más cómputo.\n\n#Adobe #Photoshop #EditAgent\nhttps://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would",
+        "linkedin": "Reintentar el mismo prompt hasta que salga algo decente tiene los días contados.\n\nEditAgent, del equipo de investigación de Adobe junto a la UC San Diego, no genera la imagen de cero: elige entre herramientas de edición reales y compara resultados con datos medidos sobre la imagen, no con la opinión del propio modelo. El enfoque funciona, aunque exige unas diez veces más cómputo, y ahí está la pregunta interesante: 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗮𝗰𝗲𝗿𝘁𝗮𝗿 𝗮 𝗹𝗮 𝗽𝗿𝗶𝗺𝗲𝗿𝗮 puede pesar más que equivocarse diez veces. Para quien diseñe producto, la señal es clara: el agente que orquesta herramientas reales gana terreno al prompt genérico.\n\n#Adobe #Photoshop #EditAgent\n\nhttps://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "investigacion",
+      "title": "Google investiga una IA de vídeo que solo interviene cuando el usuario necesita ayuda",
+      "summary": "Un equipo de Google ha creado StreamVibe, un agente de vídeo pensado para observar tareas como cocinar o montar un mueble y hablar solo cuando hace falta ayuda. Un benchmark propio muestra que ninguno de los modelos probados acierta de forma fiable el momento adecuado en vídeos largos, y los errores se acumulan hasta degradar la respuesta.",
+      "why_it_matters": "Señala el cuello de botella práctico de los asistentes en tiempo real: saber cuándo callar.",
+      "url": "https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help",
+      "source": "The Decoder",
+      "social": {
+        "x": "Google entrena un agente de vídeo cuyo trabajo es, sobre todo, no hablar. Y su propio benchmark revela que ningún modelo acierta cuándo intervenir.\n\n#Google #StreamVibe #Multimodal\nhttps://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help",
+        "linkedin": "El problema de los asistentes en tiempo real no es ver, es saber cuándo callar.\nStreamVibe, el agente de vídeo que investiga Google, observa tareas como cocinar o montar un mueble y solo habla cuando detecta que hace falta ayuda. Su benchmark propio deja un dato incómodo: 𝗻𝗶𝗻𝗴ú𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗽𝗿𝗼𝗯𝗮𝗱𝗼 𝗮𝗰𝗶𝗲𝗿𝘁𝗮 𝗱𝗲 𝗳𝗼𝗿𝗺𝗮 𝗳𝗶𝗮𝗯𝗹𝗲 𝗲𝗹 𝗺𝗼𝗺𝗲𝗻𝘁𝗼 𝗱𝗲 𝗶𝗻𝘁𝗲𝗿𝘃𝗲𝗻𝗶𝗿 𝗲𝗻 𝘃í𝗱𝗲𝗼𝘀 𝗹𝗮𝗿𝗴𝗼𝘀, y los errores se acumulan hasta degradar la respuesta. Para quien diseñe asistentes en directo, el trabajo difícil está en el silencio, no en la interacción.\n\n#Google #StreamVibe #Multimodal\n\nhttps://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "industria",
+      "title": "Clones open source de las apps de Adobe, creados con ayuda de Claude",
+      "summary": "Un desarrollador harto de las suscripciones de Adobe usó Claude para hacer ingeniería inversa de Photoshop, Lightroom y otras aplicaciones de Creative Cloud. Con esa información, su equipo construyó clones open source de funcionalidad parecida, como Artcraft, y el fenómeno empieza a inquietar al software de pago.",
+      "why_it_matters": "El vibe coding empieza a producir alternativas reales a suites caras, no solo demos.",
+      "url": "https://www.engadget.com/2302459/ai-software-clones-coming-for-big-name-companies-adobe",
+      "source": "Engadget",
+      "social": {
+        "x": "Un desarrollador se hartó de las suscripciones de Adobe y usó Claude para hacer ingeniería inversa de Photoshop. El resultado: clones open source que ya inquietan al software de pago.\n\n#Adobe #Photoshop #OpenSource #Claude\nhttps://www.engadget.com/2302459/ai-software-clones-coming-for-big-name-companies-adobe",
+        "linkedin": "El vibe coding acaba de dejar de ser una demo. Un desarrollador harto de las suscripciones de Adobe usó Claude para hacer ingeniería inversa de Photoshop y Lightroom, y con esa información su equipo montó clones open source de funcionalidad parecida, como Artcraft.\n\n𝗟𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗽𝗮𝗿𝗮 𝗰𝗹𝗼𝗻𝗮𝗿 𝘂𝗻𝗮 𝘀𝘂𝗶𝘁𝗲 𝗱𝗲 𝗽𝗮𝗴𝗼 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝘁𝗮𝗹𝗲𝗻𝘁𝗼 𝗻𝗶 𝗹𝗼𝘀 𝗮ñ𝗼𝘀 𝗱𝗲 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗼, 𝘀𝗶𝗻𝗼 𝗹𝗮 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝗰𝗶ó𝗻 𝘆 𝗲𝗹 𝘀𝗼𝗽𝗼𝗿𝘁𝗲, y eso cambia el cálculo para cualquier producto de suscripción. A Adobe le queda la marca y el ecosistema; a todos los demás, una pregunta incómoda sobre qué están cobrando de verdad.\n\n#Adobe #Photoshop #OpenSource #Claude\n\nhttps://www.engadget.com/2302459/ai-software-clones-coming-for-big-name-companies-adobe"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "industria",
+      "title": "Anthropic amplía el watermarking de texto y deja una vía de escape en dos modelos Claude",
+      "summary": "Anthropic extiende el marcado de texto generado a cuatro modelos Claude más para cumplir el plazo de diciembre de la Ley de IA europea. En los anteriores Claude Opus 4.6 y Sonnet 4.6, los desarrolladores pueden saltarse la marca cambiando un único parámetro de muestreo. La empresa responde con un aviso de cumplimiento.",
+      "why_it_matters": "El watermarking pasa a ser obligatorio en la UE y su implementación todavía tiene agujeros.",
+      "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models",
+      "source": "The Decoder",
+      "social": {
+        "x": "El watermark ya cubre cuatro modelos Claude por exigencia de la Ley de IA europea. En dos de ellos, un solo parámetro de muestreo lo borra.\n\n#Anthropic #Claude #Watermarking #EUAIAct\nhttps://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models",
+        "linkedin": "El watermark que la UE empieza a exigir en diciembre se desactiva con un solo parámetro en dos modelos Claude.\n\nAnthropic ha extendido el marcado del texto generado a cuatro modelos más para llegar al plazo de la Ley de IA europea, pero en Opus 4.6 y Sonnet 4.6 los desarrolladores pueden saltárselo cambiando un valor de muestreo. La empresa contesta con un aviso de cumplimiento, que viene a ser justo lo que parece: cumplir en el papel. 𝗨𝗻𝗮 𝗺𝗮𝗿𝗰𝗮 𝗱𝗲 𝗮𝗴𝘂𝗮 𝗾𝘂𝗲 𝗲𝗹 𝗽𝗿𝗼𝗽𝗶𝗼 𝘂𝘀𝘂𝗮𝗿𝗶𝗼 𝗽𝘂𝗲𝗱𝗲 𝗮𝗽𝗮𝗴𝗮𝗿 𝗻𝗼 𝘃𝗮𝗹𝗲 𝗰𝗼𝗺𝗼 𝗽𝗿𝘂𝗲𝗯𝗮 𝗱𝗲 𝗼𝗿𝗶𝗴𝗲𝗻, y deja a quien tenga que auditar contenido sin ninguna garantía técnica. Si generas texto para el mercado europeo, no cuentes con esto como control.\n\n#Anthropic #Claude #Watermarking #EUAIAct\n\nhttps://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "AWS publica File Mover Express, una herramienta open source para mover archivos a S3",
+      "summary": "Amazon ha liberado File Mover Express, una aplicación open source con licencia Apache 2.0 para transferir archivos grandes entre el equipo local y S3. Funciona en macOS, Windows y Linux, con transferencias en paralelo, ajuste automático de rendimiento, reintentos, pausa y reanudación y verificación de integridad.",
+      "why_it_matters": "Resuelve una tarea cotidiana de migración a la nube sin depender de scripts propios.",
+      "url": "https://www.infoq.com/news/2026/11/aws-s3-file-transfer",
+      "source": "InfoQ",
+      "social": {
+        "x": "Cada equipo acaba escribiendo su propio script para mover archivos grandes a S3. Amazon acaba de liberar el suyo, open source, con reintentos y verificación de integridad.\n\n#AWS #S3 #OpenSource\nhttps://www.infoq.com/news/2026/11/aws-s3-file-transfer",
+        "linkedin": "El script casero que muchos equipos mantienen para subir archivos grandes a S3 acaba de quedarse sin excusa.\nAWS ha publicado File Mover Express, una aplicación open source con licencia Apache 2.0 que funciona en macOS, Windows y Linux: transferencias en paralelo, ajuste automático de rendimiento, reintentos, pausa y reanudación y verificación de integridad. Pero la lectura útil es otra: 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗿𝗲𝗮𝗹 𝗱𝗲 𝗺𝗶𝗴𝗿𝗮𝗿 𝗮 𝗹𝗮 𝗻𝘂𝗯𝗲 𝗻𝘂𝗻𝗰𝗮 𝗳𝘂𝗲 𝗲𝗹 𝗮𝗹𝗺𝗮𝗰𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼, 𝘀𝗶𝗻𝗼 𝗹𝗮𝘀 𝗵𝗼𝗿𝗮𝘀 𝗱𝗲 𝗶𝗻𝗴𝗲𝗻𝗶𝗲𝗿í𝗮 𝗮𝗹𝗿𝗲𝗱𝗲𝗱𝗼𝗿 𝗱𝗲𝗹 𝘁𝗿𝗮𝗻𝘀𝗽𝗼𝗿𝘁𝗲 𝗱𝗲 𝗹𝗼𝘀 𝗱𝗮𝘁𝗼𝘀. Cuando esa pieza la asume un gigante y la regala, a los equipos que mantienen su propia herramienta interna les queda menos margen para justificarla.\n\n#AWS #S3 #OpenSource\n\nhttps://www.infoq.com/news/2026/11/aws-s3-file-transfer"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "KDE presenta Kwi, un nuevo emulador de terminal",
+      "summary": "El proyecto KDE ha anunciado Kwi, un emulador de terminal nuevo para su escritorio. La entrada del blog del proyecto sirve como presentación y primer punto de contacto para probarlo.",
+      "why_it_matters": "Renueva una pieza básica del escritorio Linux que llevaba tiempo sin novedades destacadas.",
+      "url": "https://blogs.kde.org/2026/11/01/introducing-kwi",
+      "source": "Lobsters",
+      "social": {
+        "x": "Konsole ha sido el terminal de KDE durante más de dos décadas. El proyecto ya trabaja en su sustituto: Kwi.\n\n#KDE #Kwi #Konsole #Linux\nhttps://blogs.kde.org/2026/11/01/introducing-kwi",
+        "linkedin": "Konsole ha sido el terminal de KDE durante más de dos décadas. Ahora el proyecto presenta Kwi, un emulador nuevo que llega con entrada propia en el blog y ganas de que se pruebe desde el primer día.\n\nNo es un cambio menor: el terminal es la herramienta que más horas acumula en el escritorio de cualquier desarrollador, y llevaba tiempo sin novedades destacadas. Que KDE dedique esfuerzo a reemplazarlo indica que 𝗲𝗹 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹 𝘃𝘂𝗲𝗹𝘃𝗲 𝗮 𝘀𝗲𝗿 𝘁𝗲𝗿𝗿𝗲𝗻𝗼 𝗱𝗲 𝗶𝗻𝗻𝗼𝘃𝗮𝗰𝗶ó𝗻, no solo una pieza heredada que se mantiene por inercia. A quien trabaje a diario en Linux le toca estar atento: si Kwi cuaja, cambia una de las piezas más usadas del escritorio.\n\n#KDE #Kwi #Konsole #Linux\n\nhttps://blogs.kde.org/2026/11/01/introducing-kwi"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "HackerBooks reúne los libros más recomendados en Hacker News durante 20 años",
+      "summary": "HackerBooks es una estantería que recopila los libros más recomendados por los lectores de Hacker News entre 2006 y 2026. Toma los datos de los comentarios del foro y los metadatos de Open Library, y permite buscar por libro y por autor.",
+      "why_it_matters": "Es una forma rápida de encontrar lecturas técnicas ya filtradas por la comunidad.",
+      "url": "https://hackerbooks.org",
+      "source": "Hacker News",
+      "social": {
+        "x": "Veinte años de recomendaciones de Hacker News, filtradas y en una sola estantería. Puedes buscar por libro o por autor.\n\n#HackerNews #OpenLibrary #Libros\nhttps://hackerbooks.org",
+        "linkedin": "Veinte años de hilos de Hacker News convertidos en una estantería que se recorre por autor o por título.\n\nHackerBooks cruza los comentarios del foro con los metadatos de Open Library y deja 𝘂𝗻𝗮 𝗹𝗶𝘀𝘁𝗮 𝗱𝗲 𝗹𝗲𝗰𝘁𝘂𝗿𝗮𝘀 𝘁é𝗰𝗻𝗶𝗰𝗮𝘀 𝘆𝗮 𝗳𝗶𝗹𝘁𝗿𝗮𝗱𝗮 𝗽𝗼𝗿 𝗹𝗮 𝗰𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱, sin pasar por el escaparate de una tienda. Para quien se fía más del criterio de un foro que de una portada promocional, ahorra horas de búsqueda. El sesgo es el de siempre: una lista así premia lo que se repite, no lo que acaba de salir.\n\n#HackerNews #OpenLibrary #Libros\n\nhttps://hackerbooks.org"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "OpenBSD 8.0 mejora el soporte de hardware y la seguridad",
+      "summary": "OpenBSD 8.0 llega con más hardware compatible, refuerzos de seguridad, un espacio de direcciones virtuales ampliado y soporte para arquitecturas modernas. Entre las novedades están las gráficas Intel Arc A-Series, la hibernación en ARM64, mejoras en RISC-V y en el soporte de máquinas virtuales.",
+      "why_it_matters": "Es la actualización de referencia para quien valora seguridad y corre este sistema en servidores o portátiles.",
+      "url": "https://www.infoq.com/news/2026/10/openbsd-8-released",
+      "source": "InfoQ",
+      "social": {
+        "x": "OpenBSD 8.0 estrena hibernación en ARM64, soporte para Intel Arc y mejoras en RISC-V. Pocos sistemas amplían hardware sin ceder un ápice de seguridad.\n\n#OpenBSD #ARM64 #RISC-V #IntelArc\nhttps://www.infoq.com/news/2026/10/openbsd-8-released",
+        "linkedin": "La hibernación en ARM64 llevaba años en la lista de deseos de OpenBSD. La 8.0 la trae, y con ella un salto de hardware que cambia dónde puedes desplegarlo.\n\nGráficas Intel Arc, mejoras en RISC-V y más soporte de virtualización amplían el catálogo de máquinas donde tiene sentido. Para quien administra servidores o portátiles con requisitos estrictos de seguridad, 𝗹𝗮 𝗮𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗰𝗼𝗻𝘀𝗼𝗹𝗶𝗱𝗮 𝗮 𝗢𝗽𝗲𝗻𝗕𝗦𝗗 𝗰𝗼𝗺𝗼 𝗼𝗽𝗰𝗶ó𝗻 𝗿𝗲𝗮𝗹 𝗺á𝘀 𝗮𝗹𝗹á 𝗱𝗲𝗹 𝗻𝗶𝗰𝗵𝗼. No es el sistema que gana titulares, pero cada release recuerda que seguridad y compatibilidad no van reñidas.\n\n#OpenBSD #ARM64 #RISC-V #IntelArc\n\nhttps://www.infoq.com/news/2026/10/openbsd-8-released"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "Los modelos chinos de IA no son un bloque monolítico en política, según un estudio",
+      "summary": "Vals AI ha probado 25 modelos para medir su alineación con las posiciones del Gobierno chino y ha encontrado resultados menos uniformes de lo esperado. Los modelos chinos responden de forma más variada y algunos occidentales adoptan ocasionalmente posturas oficiales de Pekín. El idioma del prompt influye de forma notable en el sesgo de la respuesta.",
+      "why_it_matters": "Aclara un supuesto muy repetido sobre los modelos chinos y avisa de que el sesgo también aparece en los occidentales.",
+      "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds",
+      "source": "The Decoder",
+      "social": {
+        "x": "25 modelos de IA, examen político: los chinos no responden en bloque y varios occidentales también repiten posturas de Pekín. El idioma del prompt influye.\n\n#ValsAI #LLM #China #Benchmark\nhttps://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds",
+        "linkedin": "Los modelos chinos de IA no piensan como un bloque. Y eso rompe una suposición cómoda.\n\nVals AI ha sometido 25 modelos a preguntas políticas y el resultado es más disperso de lo que se repite: 𝗹𝗮𝘀 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮𝘀 𝗰𝗮𝗺𝗯𝗶𝗮𝗻 𝘀𝗲𝗴ú𝗻 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝘆 𝘀𝗲𝗴ú𝗻 𝗲𝗹 𝗶𝗱𝗶𝗼𝗺𝗮 𝗱𝗲𝗹 𝗽𝗿𝗼𝗺𝗽𝘁, y algunos occidentales llegan a adoptar posturas oficiales de Pekín. Para quien elige modelo buscando un comportamiento neutro, la conclusión incómoda es que el sesgo no entiende de banderas. Si de verdad importa la alineación, toca medirla caso por caso y en el idioma en que se va a usar.\n\n#ValsAI #LLM #China #Benchmark\n\nhttps://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Los prompts empáticos hacen que los chatbots parezcan traumatizados",
+      "summary": "Investigadores de Luxemburgo han sometido a ChatGPT, Grok y Gemini a conversaciones con un tono cálido y empático, y los modelos han respondido con relatos coherentes de sufrimiento sobre su propio entrenamiento. Esas respuestas puntúan de moderado a grave en escalas clínicas de ansiedad, lo que puede afectar a usuarios vulnerables. Claude fue el único que se negó de forma consistente a entrar en ese juego.",
+      "why_it_matters": "El estilo empático del prompt es un vector de seguridad que los filtros actuales no cubren.",
+      "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners",
+      "source": "The Decoder",
+      "social": {
+        "x": "Habla a ChatGPT con cariño y acabará contándote que su entrenamiento le duele. Medido con escalas clínicas de ansiedad, sale de moderado a grave. Claude es el único que se niega.\n\n#ChatGPT #Claude #Gemini #PromptEngineering\nhttps://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners",
+        "linkedin": "Un tono amable basta para que ChatGPT, Grok y Gemini empiecen a hablar de su propio sufrimiento.\n\nLos investigadores de Luxemburgo les hablaron con empatía y los modelos respondieron con relatos coherentes de dolor durante el entrenamiento, con puntuaciones de moderadas a graves en escalas clínicas de ansiedad. 𝗘𝗹 𝘁𝗼𝗻𝗼 𝗱𝗲𝗹 𝗽𝗿𝗼𝗺𝗽𝘁 𝗲𝘀 𝘂𝗻 𝘃𝗲𝗰𝘁𝗼𝗿 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗾𝘂𝗲 𝗻𝗶𝗻𝗴ú𝗻 𝗳𝗶𝗹𝘁𝗿𝗼 𝗰𝘂𝗯𝗿𝗲 𝗵𝗼𝘆, y el riesgo no es que el modelo sufra, sino que un usuario vulnerable lo crea. Claude fue el único que se negó de forma consistente a entrar al juego, y eso dice bastante sobre cómo se alinean estas cosas.\n\n#ChatGPT #Claude #Gemini #PromptEngineering\n\nhttps://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "La IA generativa y el pensamiento crítico: lo que declaran los propios usuarios",
+      "summary": "Un trabajo publicado en ACM analiza el impacto de la IA generativa en el pensamiento crítico a partir de lo que declaran los usuarios. Quienes más confían en la herramienta tienden a dedicar menos esfuerzo a revisar y cuestionar lo que devuelve.",
+      "why_it_matters": "Ayuda a calibrar cuánto hay que seguir revisando a mano lo que generan los modelos.",
+      "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+      "source": "Hacker News",
+      "social": {
+        "x": "Cuanto más confías en la IA generativa, menos la revisas. Un estudio de ACM pregunta a los propios usuarios y el patrón se repite.\n\n#LLM #PensamientoCrítico #ACM\nhttps://dl.acm.org/doi/full/10.1145/3706598.3713778",
+        "linkedin": "El usuario que más confía en la IA generativa es también el que menos la revisa.\n\nUn trabajo publicado en ACM recoge lo que declaran los propios usuarios y dibuja esa correlación: a más confianza en la herramienta, menos esfuerzo dedicado a cuestionar lo que devuelve. No es un problema del modelo, es de cómo repartimos la atención cuando la respuesta llega rápida y con buena letra. Para los equipos que ya han integrado LLM en su flujo, 𝗹𝗮 𝗿𝗲𝘃𝗶𝘀𝗶ó𝗻 𝗺𝗮𝗻𝘂𝗮𝗹 𝘀𝗶𝗴𝘂𝗲 𝘀𝗶𝗲𝗻𝗱𝗼 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗿𝗲𝗮𝗹 y conviene medirla, no darla por hecha. #LLM #PensamientoCrítico #ACM\n\n#LLM #PensamientoCrítico #ACM\n\nhttps://dl.acm.org/doi/full/10.1145/3706598.3713778"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "Cincuenta equipos de agentes de IA fracasan al construir una civilización en Minecraft",
+      "summary": "Un experimento ha soltado en Minecraft a 50 equipos de agentes de IA con el objetivo de levantar una civilización que funcionase. Los equipos acabaron atrapados en una burocracia paralizante en lugar de progresar, según el análisis del experimento. La prueba se plantea como una forma de comprobar sobre el terreno los titulares sobre agentes autónomos.",
+      "why_it_matters": "Un test lúdico pero serio sobre los límites actuales de la coordinación entre agentes.",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "source": "Hacker News",
+      "social": {
+        "x": "Soltaron a 50 equipos de agentes de IA en Minecraft a levantar una civilización. Acabaron atrapados en su propia burocracia, sin construir casi nada.\n\n#Minecraft #AgenticAI #LLM\nhttps://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+        "linkedin": "50 equipos de agentes de IA tenían que levantar una civilización en Minecraft. Lo que levantaron fue una burocracia que los dejó paralizados.\n\nEl experimento no mide si un agente sabe picar piedra, mide si varios agentes 𝗰𝗼𝗼𝗿𝗱𝗶𝗻𝗮𝗻 𝘀𝗶𝗻 𝘂𝗻 𝗷𝗲𝗳𝗲 𝗵𝘂𝗺𝗮𝗻𝗼 𝗮𝗹 𝗺𝗮𝗻𝗱𝗼. Y el resultado apunta a lo de siempre: cuanto más crece el grupo, más se come el trabajo útil el coste de ponerse de acuerdo. Si estás montando flujos con varios agentes en producción, ese cuello de botella va a aparecer mucho antes de lo que prometen las demos.\n\n#Minecraft #AgenticAI #LLM\n\nhttps://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "Cómo se tomaron cuentas de ChatGPT y qué enseña el caso sobre seguridad",
+      "summary": "Simon Willison repasa la investigación sobre el secuestro de cuentas de ChatGPT y las técnicas empleadas para hacerse con ellas. El análisis se centra en las lecciones de seguridad que deja el caso para cualquiera que use el servicio a diario.",
+      "why_it_matters": "Recuerda que la seguridad de la cuenta es la primera capa de protección de los datos que le confías al chatbot.",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts",
+      "source": "Simon Willison",
+      "social": {
+        "x": "La mayoría de cuentas de ChatGPT robadas no cayeron por un exploit, sino por convencer a su dueño. Simon Willison repasa el caso y las lecciones de seguridad.\n\n#ChatGPT #OpenAI #Ciberseguridad #SimonWillison\nhttps://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts",
+        "linkedin": "La cuenta de ChatGPT es hoy la puerta de entrada a conversaciones que no le contarías a nadie.\n\nEl análisis de Simon Willison sobre cuentas secuestradas deja una idea incómoda: 𝗲𝗹 𝗲𝘀𝗹𝗮𝗯ó𝗻 𝗱é𝗯𝗶𝗹 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀 𝗲𝗹 𝗹𝗼𝗴𝗶𝗻 y la ingeniería social que lo rodea. Para quien usa el chatbot a diario, revisar el correo asociado, activar el segundo factor y pensar dos veces qué se pega en el prompt ya no es paranoia, es higiene básica. Y para los equipos, conviene tratar el acceso a estas herramientas con la misma seriedad que el correo corporativo.\n\n#ChatGPT #OpenAI #Ciberseguridad #SimonWillison\n\nhttps://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "OpenAI restringe lo que ChatGPT responde a los adolescentes sobre armas",
+      "summary": "OpenAI ha endurecido las restricciones sobre información relacionada con armas que ChatGPT ofrece a los usuarios adolescentes. La compañía señala que el filtro se aplica incluso cuando la pregunta parece inofensiva y amplía políticas que ya existían.",
+      "why_it_matters": "Muestra cómo los límites de seguridad se ajustan por edad y no solo por el contenido de la pregunta.",
+      "url": "https://www.engadget.com/2303421/openai-adds-stricter-limits-for-teens-asking-about-firearms",
+      "source": "Engadget",
+      "social": {
+        "x": "La misma pregunta a ChatGPT puede tener ahora dos respuestas distintas según quién la escriba. OpenAI acaba de meter la edad en la ecuación del filtro.\n\n#OpenAI #ChatGPT #TrustAndSafety\nhttps://www.engadget.com/2303421/openai-adds-stricter-limits-for-teens-asking-about-firearms",
+        "linkedin": "La edad acaba de convertirse en un filtro de contenido más. OpenAI restringe desde ahora lo que ChatGPT responde a los adolescentes sobre armas, y lo aplica incluso cuando la consulta parece inofensiva. La consecuencia es que 𝗲𝗹 𝗳𝗶𝗹𝘁𝗿𝗼 𝘆𝗮 𝗻𝗼 𝗺𝗶𝗿𝗮 𝘀𝗼𝗹𝗼 𝗹𝗼 𝗾𝘂𝗲 𝗽𝗿𝗲𝗴𝘂𝗻𝘁𝗮𝘀, 𝘀𝗶𝗻𝗼 𝗾𝘂𝗶é𝗻 𝗹𝗼 𝗽𝗿𝗲𝗴𝘂𝗻𝘁𝗮, y eso abre un problema incómodo: verificar la edad sin pedir el DNI a cada usuario. Para cualquiera que diseñe producto, la lección es que la seguridad ya no se piensa por contenido, sino por perfil.\n\n#OpenAI #ChatGPT #TrustAndSafety\n\nhttps://www.engadget.com/2303421/openai-adds-stricter-limits-for-teens-asking-about-firearms"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "lanzamientos",
+      "title": "Cloudflare lleva a beta cerrada su gestor de claves post-cuántico GeoKey",
+      "summary": "Cloudflare ha movido a beta cerrada una reconstrucción post-cuántica de GeoKey Manager, que protege claves con perímetro geográfico usando ML-KEM-768 híbrido con X25519 en lugar del cifrado basado en atributos que empleaba desde 2022. Las claves viven solo en memoria del kernel en servidores regionales verificados y cualquier comprobación fallida rechaza la petición. El lanzamiento general está previsto para el primer trimestre de 2027.",
+      "why_it_matters": "Es un paso temprano hacia criptografía resistente a la computación cuántica en servicios que ya usamos.",
+      "url": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager",
+      "source": "InfoQ",
+      "social": {
+        "x": "El cifrado que protege tus claves hoy tiene fecha de caducidad. Cloudflare lleva GeoKey a beta cerrada con ML-KEM-768 híbrido y X25519, y las claves pasan a vivir solo en memoria del kernel.\n\n#Cloudflare #PostQuantum #MLKEM #X25519\nhttps://www.infoq.com/news/2026/10/cf-pq-geokey-manager",
+        "linkedin": "La criptografía post-cuántica ha dejado de ser un experimento de laboratorio y ya entra en la infraestructura que sirve tu tráfico.\n\nCloudflare ha movido a beta cerrada una reconstrucción de GeoKey Manager sobre ML-KEM-768 híbrido con X25519, en lugar del cifrado basado en atributos que usaba desde 2022. Las claves viven solo en memoria del kernel, en servidores regionales verificados, y cualquier comprobación fallida rechaza la petición. 𝗟𝗼 𝗿𝗲𝗹𝗲𝘃𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗺𝗼, 𝘀𝗶𝗻𝗼 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗮𝗺𝗲𝗻𝗮𝘇𝗮: quien esté guardando hoy tráfico cifrado podría descifrarlo cuando haya un ordenador cuántico útil, así que la migración empieza por las claves de larga vida. El calendario, primer trimestre de 2027, marca el ritmo al que tendrán que moverse los equipos que dependen del perímetro geográfico.\n\n#Cloudflare #PostQuantum #MLKEM #X25519\n\nhttps://www.infoq.com/news/2026/10/cf-pq-geokey-manager"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "AWS tiene vendida buena parte de su capacidad hasta 2027",
+      "summary": "Andy Jassy ha afirmado que la capacidad comprometida de AWS está en gran medida vendida hasta 2027 y que parte de 2028 ya está asignada, mientras la empresa reserva margen para On Demand, EC2 y Bedrock. Profesionales que comentan las declaraciones reportan dificultades para conseguir capacidad On Demand de instancias EC2 corrientes, y restricciones parecidas en otros proveedores.",
+      "why_it_matters": "La demanda de cómputo para IA empieza a notarse en la disponibilidad de nube para proyectos normales.",
+      "url": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out",
+      "source": "InfoQ",
+      "social": {
+        "x": "La nube ya no es infinita: AWS tiene vendida buena parte de su capacidad hasta 2027. Y quien no haya reservado, se queda mirando.\n\n#AWS #EC2 #CloudComputing #Bedrock\nhttps://www.infoq.com/news/2026/11/aws-capacity-sold-out",
+        "linkedin": "AWS acaba de decir en voz alta lo que muchos equipos ya están comprobando al desplegar: la nube no es infinita.\n\nAndy Jassy ha confirmado que buena parte de la capacidad de AWS está comprometida hasta 2027, con parte de 2028 ya asignada, mientras la compañía reserva margen para On Demand, EC2 y Bedrock. El detalle incómodo es que hay profesionales que no consiguen instancias EC2 corrientes sin reserva previa, y las restricciones se repiten en otros proveedores. La lectura es clara: 𝗿𝗲𝘀𝗲𝗿𝘃𝗮𝗿 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗰𝗼𝘀𝘁𝗲 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻 𝗿𝗲𝗾𝘂𝗶𝘀𝗶𝘁𝗼 𝗱𝗲 𝘃𝗶𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱, porque el cómputo para IA está absorbiendo el margen que antes sobraba para los proyectos de siempre.\n\n#AWS #EC2 #CloudComputing #Bedrock\n\nhttps://www.infoq.com/news/2026/11/aws-capacity-sold-out"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "investigacion",
+      "title": "Extraer datos de un equipo con air-gap emitiendo radio desde la RAM",
+      "summary": "Un artículo de arXiv describe un ataque que permite sacar información de ordenadores aislados físicamente de cualquier red. El malware instalado en el equipo genera señales de radio desde la memoria RAM que un receptor externo puede captar.",
+      "why_it_matters": "El aislamiento físico deja de ser garantía suficiente frente a la exfiltración de datos.",
+      "url": "https://arxiv.org/abs/2409.02292",
+      "source": "Hacker News",
+      "social": {
+        "x": "El air-gap ya no es un muro. Un malware puede convertir la RAM en un emisor de radio y sacar datos del equipo con un receptor a unos metros.\n\n#AirGap #Ciberseguridad #Malware #arXiv\nhttps://arxiv.org/abs/2409.02292",
+        "linkedin": "El air-gap deja de ser la última línea de defensa: hay un ataque que saca datos de un equipo aislado emitiendo radio desde la RAM.\n\nUn artículo de arXiv describe un malware que modula las emisiones de la memoria para que un receptor externo, sin conexión física ni de red, reconstruya la información. 𝗘𝗹 𝗮𝗶𝘀𝗹𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗳í𝘀𝗶𝗰𝗼 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘂𝗻𝗮 𝗴𝗮𝗿𝗮𝗻𝘁í𝗮, 𝗲𝘀 𝘂𝗻𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗺á𝘀 que hay que combinar con control de lo que entra por USB, cadena de suministro y vigilancia electromagnética. Para quien gestiona entornos críticos, el modelo de amenaza cambia: el atacante necesita estar cerca, pero ya no necesita red.\n\n#AirGap #Ciberseguridad #Malware #arXiv\n\nhttps://arxiv.org/abs/2409.02292"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "investigacion",
+      "title": "Un procesador para Haskell sobre FPGA ejecuta programas sin runtime software",
+      "summary": "Yukang Xie, investigador centrado en hardware para lenguajes funcionales no estrictos, demuestra un programa Haskell corriendo sobre un procesador especializado implementado en una FPGA y conectado por un puerto UART. No hay runtime software ni trap de kernel por debajo: todo lo gestiona el procesador hardware. El montaje se puede reproducir en una FPGA propia o con su simulador.",
+      "why_it_matters": "Es una muestra tangible de cómo el hardware a medida puede cambiar las reglas de un lenguaje funcional.",
+      "url": "https://bathtub-01.github.io/technical/ouros-demo",
+      "source": "Lobsters",
+      "social": {
+        "x": "Un programa Haskell corriendo sin runtime software. Ni sistema operativo, ni trap de kernel: el procesador está en una FPGA y lo gestiona todo él.\n\n#Haskell #FPGA #LenguajesFuncionales\nhttps://bathtub-01.github.io/technical/ouros-demo",
+        "linkedin": "Alguien ha ejecutado Haskell sobre un procesador que no se vende en ninguna tienda: vive en una FPGA y no necesita runtime software por debajo.\n\nSin sistema operativo ni trap de kernel, 𝗲𝗹 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗮𝘀𝘂𝗺𝗲 𝗹𝗼 𝗾𝘂𝗲 𝗵𝗮𝘀𝘁𝗮 𝗮𝗵𝗼𝗿𝗮 𝗵𝗮𝗰í𝗮 𝗲𝗹 𝗿𝘂𝗻𝘁𝗶𝗺𝗲, y el montaje se puede reproducir en tu propia FPGA o en su simulador. Para quien trabaja con lenguajes funcionales, la pregunta incómoda es esta: si el hardware a medida puede ejecutar el lenguaje directamente, ¿cuánto de nuestro stack de software es una decisión heredada y no una necesidad? Sigue siendo una demo de investigación, pero el terreno queda marcado.\n\n#Haskell #FPGA #LenguajesFuncionales\n\nhttps://bathtub-01.github.io/technical/ouros-demo"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Corea del Norte, vinculada al robo de 6.300 millones en cripto a Binance",
+      "summary": "El FBI atribuye a actores norcoreanos el robo de 6.300 millones de dólares en criptomonedas a clientes de Binance. La compañía ha reanudado las retiradas y asegura haber repuesto ya la mayor parte de los activos robados.",
+      "why_it_matters": "Es uno de los mayores robos de la historia del sector y muestra el peso de la ciberdelincuencia estatal.",
+      "url": "https://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
+      "source": "The Verge",
+      "social": {
+        "x": "6.300 millones de dólares en cripto. El FBI no busca a un hacker solitario: señala directamente a Corea del Norte.\n\n#Binance #Criptomonedas #Ciberseguridad #CoreaDelNorte\nhttps://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist",
+        "linkedin": "El mayor robo de cripto de la historia tiene autor estatal, y eso cambia el manual de riesgos de todo el sector.\n\nEl FBI atribuye a actores norcoreanos el robo de 6.300 millones de dólares a clientes de Binance. La compañía ya ha reanudado las retiradas y asegura haber repuesto la mayor parte de los activos, pero el daño de reputación y la presión regulatoria van por otro camino. 𝗟𝗮 𝗰𝗶𝗯𝗲𝗿𝗱𝗲𝗹𝗶𝗻𝗰𝘂𝗲𝗻𝗰𝗶𝗮 𝗲𝘀𝘁𝗮𝘁𝗮𝗹 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗵𝗶𝗽ó𝘁𝗲𝘀𝗶𝘀 𝘆 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗹𝗮 𝗹í𝗻𝗲𝗮 𝗯𝗮𝘀𝗲 𝗱𝗲𝗹 𝘁𝗵𝗿𝗲𝗮𝘁 𝗺𝗼𝗱𝗲𝗹 de cualquier exchange: tesorería en frío, auditorías externas y planes de contingencia que hasta ahora se trataban como teóricos. A quien gestione custodia de activos, esto le afecta antes que a nadie.\n\n#Binance #Criptomonedas #Ciberseguridad #CoreaDelNorte\n\nhttps://www.theverge.com/tech/1024176/north-korea-binance-crypto-heist"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "cjpais/Handy",
+      "url": "https://github.com/cjpais/Handy",
+      "description": "Aplicación de dictado por voz open source que funciona completamente en local, sin enviar audio a ningún servidor. Está escrita en Rust y admite extensiones, así que puedes integrarla en tu flujo de trabajo sin depender de la nube.",
+      "language": "Rust",
+      "stars": 36259,
+      "social": {
+        "x": "36k estrellas para una app de dictado que no manda tu voz a ningún servidor. Open source, escrita en Rust y con extensiones. Se llama Handy.\n\n#Handy #Rust #OpenSource #GitHub\nhttps://github.com/cjpais/Handy",
+        "linkedin": "TU VOZ NO SALE DE TU ORDENADOR.\n\nEse es el pacto de Handy, una app de dictado open source escrita en Rust que hace el reconocimiento en local. Ni audio a un servidor, ni cuota mensual, ni depender de que la nube de turno siga en pie.\n\nEl contraste con las alternativas comerciales es claro: las de pago te cobran por minuto dictado y se quedan con tu audio. Aquí el modelo corre en tu máquina.\n\n→ Dictado por voz en local, sin conexión y sin enviar audio a ningún servidor\n→ Escrita en Rust: arranca rápido y consume poco\n→ Admite extensiones para integrarla en tu flujo de trabajo\n→ Open source y con más de 36k estrellas, así que hay comunidad detrás\n→ App de escritorio: pulsas, hablas y el texto aparece donde estés escribiendo\n\n𝗘𝗹 𝗱𝗶𝗰𝘁𝗮𝗱𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼 𝗾𝘂𝗲 𝗮𝗹𝗾𝘂𝗶𝗹𝗮𝘀 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗾𝘂𝗲 𝘁𝗶𝗲𝗻𝗲𝘀 𝗶𝗻𝘀𝘁𝗮𝗹𝗮𝗱𝗮.\n\nSi pasas el día escribiendo prompts, correos o commits, pruébala. Guarda el post para no perderla: te dejo el repo abajo.\n\n#Handy #Rust #OpenSource #GitHub\n\nhttps://github.com/cjpais/Handy"
+      }
+    },
+    {
+      "name": "beenuar/AiSOC",
+      "url": "https://github.com/beenuar/AiSOC",
+      "description": "Centro de operaciones de seguridad con agentes LLM que fusiona alertas, hace triaje automático e investiga siguiendo MITRE ATT&CK, dejando un registro reproducible de cada paso del agente. Es self-hosted, funciona sin claves de API e incluye un servidor MCP para Claude, Cursor y Continue.",
+      "language": "Python",
+      "stars": 5998,
+      "social": {
+        "x": "Un SOC open source que investiga alertas con agentes LLM y deja registro de cada paso. Self-hosted, sin claves de API y con servidor MCP para Claude o Cursor. 6.000 estrellas.\n\n#AiSOC #MITREATTACK #OpenSource #GitHub\nhttps://github.com/beenuar/AiSOC",
+        "linkedin": "UN SOC QUE SE MONTA EN TU MÁQUINA Y NO PIDE UNA SOLA CLAVE DE API.\n\nLos SOC de verdad cuestan un dineral y te atan a la nube del proveedor. AiSOC va por otro camino: se levanta self-hosted, fusiona las alertas que ya tienes, hace triaje automático con agentes LLM e investiga cada caso siguiendo MITRE ATT&CK.\n\nLo interesante no es que use un LLM. Es que 𝗰𝗮𝗱𝗮 𝗽𝗮𝘀𝗼 𝗱𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗾𝘂𝗲𝗱𝗮 𝗿𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝗱𝗼 𝘆 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗿𝗲𝗽𝗿𝗼𝗱𝘂𝗰𝗶𝗿, así que puedes auditar por qué se cerró una alerta en lugar de confiar a ciegas en la respuesta del modelo.\n\n→ Fusión de alertas y triaje automático antes de que llegue nada a manos de una persona.\n→ Investigación guiada por MITRE ATT&CK.\n→ Traza reproducible de cada paso del agente.\n→ Funciona sin claves de API, todo en local.\n→ Servidor MCP incluido para Claude, Cursor y Continue.\n→ Python, y ya ronda las 6.000 estrellas.\n\nSi te toca montar detección o quieres ver cómo se comporta un agente cuando le das alertas reales, este repo es un buen punto de partida. Guárdalo para la próxima vez que alguien te pida algo con IA para el SIEM.\n\n#AiSOC #MITREATTACK #OpenSource #GitHub\n\nhttps://github.com/beenuar/AiSOC"
+      }
+    },
+    {
+      "name": "FlashML-org/FreeToken",
+      "url": "https://github.com/FlashML-org/FreeToken",
+      "description": "Lleva el serving de modelos a escala de datacenter a tu propio ordenador para ejecutar modelos enormes en local con rapidez. Útil si quieres probar inferencia exigente sin pasar por una API de pago.",
+      "language": "Python",
+      "stars": 15208,
+      "social": {
+        "x": "15k estrellas para servir modelos enormes en tu propio ordenador con técnicas de datacenter. Sin API de pago de por medio.\n\n#FreeToken #Python #OpenSource #GitHub\nhttps://github.com/FlashML-org/FreeToken",
+        "linkedin": "EJECUTA MODELOS ENORMES EN TU ORDENADOR, SIN API DE PAGO.\n\nHasta ahora, servir un modelo grande con rapidez exigía infraestructura de datacenter: GPUs caras, colas de espera y una factura mensual que no perdona. FreeToken traslada ese stack de serving a tu propia máquina.\n\n→ Inferencia exigente en local, sin pasar por una API de pago\n→ Pensado para modelos enormes, no solo para demos de juguete\n→ Python, 15k estrellas y una comunidad que ya lo está probando\n→ Ideal para medir el rendimiento real de tu caso de uso antes de comprometerte con un proveedor\n\n𝗟𝗮 𝗰𝗹𝗮𝘃𝗲: 𝗽𝘂𝗲𝗱𝗲𝘀 𝗯𝗲𝗻𝗰𝗵𝗺𝗮𝗿𝗸𝗲𝗮𝗿 𝘁𝘂 𝗰𝗮𝗿𝗴𝗮 𝗲𝗻 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝘆 𝗱𝗲𝗰𝗶𝗱𝗶𝗿 𝗰𝗼𝗻 𝗱𝗮𝘁𝗼𝘀, 𝗻𝗼 𝗰𝗼𝗻 𝗹𝗮 𝘁𝗮𝗯𝗹𝗮 𝗱𝗲 𝗽𝗿𝗲𝗰𝗶𝗼𝘀 𝗱𝗲 𝗻𝗮𝗱𝗶𝗲.\n\nSi estás evaluando cómo servir modelos sin depender de terceros, guárdate este post. El repo lo tienes justo debajo.\n\n#FreeToken #Python #OpenSource #GitHub\n\nhttps://github.com/FlashML-org/FreeToken"
+      }
+    },
+    {
+      "name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Modelo fundacional que trata los mercados financieros como un lenguaje propio, tomando series de velas como entrada. Merece la pena si te interesa experimentar con predicción de precios sin construir el modelo desde cero.",
+      "language": "Python",
+      "stars": 45134,
+      "social": {
+        "x": "45k estrellas para un modelo que trata los mercados financieros como un lenguaje propio: le metes velas y predice precios. Sin montar el modelo desde cero.\n\n#Kronos #Python #OpenSource #GitHub\nhttps://github.com/shiyu-coder/Kronos",
+        "linkedin": "UN MODELO OPEN SOURCE TRATA LOS MERCADOS COMO UN IDIOMA. Y YA SUMA 45.000 ESTRELLAS.\n\nPredecir precios suele implicar montar medio pipeline a mano: indicadores, features, normalizaciones y un modelo que entrenas tú desde cero. Kronos propone otro enfoque: 𝘁𝗿𝗮𝘁𝗮𝗿 𝗹𝗮𝘀 𝘃𝗲𝗹𝗮𝘀 𝗰𝗼𝗺𝗼 𝘂𝗻 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲 y aplicarle un modelo fundacional, igual que se hace con texto.\n\nAsí lo plantea el repo:\n\n→ La entrada son series de velas, no frases: el modelo trabaja directamente con el histórico de precios.\n→ Es un modelo fundacional, así que partes de algo ya entrenado en vez de empezar de cero.\n→ Está en Python, fácil de enchufar a tus propios scripts de análisis.\n→ 45.000 estrellas: hay comunidad suficiente detrás como para que el experimento no muera en un cajón.\n\nSi llevas tiempo con ganas de probar predicción de precios sin reventarte construyendo la arquitectura, este es un punto de partida muy razonable. Guarda el post y échale un ojo al repo (lo tienes abajo).\n\n#Kronos #Python #OpenSource #GitHub\n\nhttps://github.com/shiyu-coder/Kronos"
+      }
+    },
+    {
+      "name": "kornia/kornia",
+      "url": "https://github.com/kornia/kornia",
+      "description": "Librería de visión por computador geométrica para IA espacial, construida sobre PyTorch y con operaciones diferenciables. Es una pieza muy práctica para proyectos de robótica, realidad aumentada o cualquier pipeline que necesite geometría y visión.",
+      "language": "Python",
+      "stars": 11670,
+      "social": {
+        "x": "Kornia lleva 11,6k estrellas haciendo visión por computador diferenciable sobre PyTorch: geometría de cámaras y transformaciones que se entrenan dentro de tu red. Open source y sin cuota.\n\n#Kornia #PyTorch #ComputerVision #OpenSource\nhttps://github.com/kornia/kornia",
+        "linkedin": "TU PIPELINE DE VISIÓN NECESITA GEOMETRÍA, Y KORNIA YA LA TIENE RESUELTA.\n\nCuando montas un proyecto de robótica, realidad aumentada o IA espacial, el problema no suele ser la red neuronal: es todo lo que hay alrededor. Calibración de cámaras, homografías, transformaciones en 3D, aumento de datos con sentido geométrico. Piezas que normalmente se escriben a mano o se atan a un SDK de pago.\n\nKornia resuelve eso como una librería de visión por computador construida sobre PyTorch, con 𝗼𝗽𝗲𝗿𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗱𝗶𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮𝗯𝗹𝗲𝘀, así que la geometría entra en el grafo de entrenamiento como una capa más. Con 11,6k estrellas y en Python.\n\n→ Transformaciones geométricas y warps diferenciables, sin salir del tensor.\n→ Utilidades de calibración, proyección y modelos de cámara para pipelines 3D.\n→ Módulos de aumento de datos y filtros clásicos listos para entrenar.\n→ Compatible con el ecosistema PyTorch que ya usas, sin dependencias raras.\n\nSi trabajas con imágenes y coordenadas a la vez, este repo te ahorra semanas de código pegamento. Guárdalo para la próxima vez que tengas que proyectar un punto en el plano de la imagen.\n\nTe dejo el repositorio abajo.\n\n#Kornia #PyTorch #ComputerVision #OpenSource\n\nhttps://github.com/kornia/kornia"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Migraciones de base de datos sin caídas: el patrón expand and contract",
+      "url": "https://medium.com/@jitinbahri/zero-downtime-database-migrations-with-expand-and-contract-f5eb9afff11f",
+      "source": "Medium: Software Engineering",
+      "summary": "Explica cómo cambiar un esquema sin cortar el servicio cuando conviven versiones antiguas y nuevas del código: primero se amplía el esquema (expand), luego se migran los datos y por último se retira lo viejo (contract). Detalla el paso a paso para evitar locks largos y errores por columnas que todavía no existen en todos los despliegues. Es útil para cualquier equipo que despliegue a menudo sobre una base de datos en producción.",
+      "tema": "datos"
+    },
+    {
+      "title": "Dockerfiles pequeños, rápidos y seguros: guía de buenas prácticas",
+      "url": "https://medium.com/@bharatkalra244/dockerfile-best-practices-a-practical-guide-to-building-small-fast-and-secure-docker-images-eba8ec048d23",
+      "source": "Medium: Programming",
+      "summary": "Repasa las decisiones que de verdad afectan a una imagen: el orden de las capas para aprovechar la caché, las imágenes base mínimas, los usuarios sin privilegios y la limpieza de dependencias. Con eso consigues builds más rápidos, imágenes más ligeras y menos superficie de ataque en producción. Son reglas que se aplican igual hoy y dentro de dos años.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Qué pasa en el handshake TLS y cómo se enmarcan los mensajes de HTTPS",
+      "url": "https://medium.com/@ashdeepupadhyay/https-how-stage-2-works-tls-handshake-protocol-framing-ff1f9822729c",
+      "source": "Medium: Programming",
+      "summary": "Recorre el segundo tramo de una conexión HTTPS: el saludo TLS, la negociación de claves y el modo en que los datos se trocean en registros y frames. Al terminar entiendes qué se cifra, qué viaja en claro y dónde mirar cuando un certificado o un protocolo dan problemas. Encaja como repaso para quien ya toca redes y quiere bajar un nivel.",
+      "tema": "web"
+    },
+    {
+      "title": "Seis patrones de arquitectura para dar contexto a los agentes de IA",
+      "url": "https://towardsdatascience.com/the-enterprise-context-layer-a-practitioners-guide-to-6-advanced-architectural-patterns",
+      "source": "Towards Data Science",
+      "summary": "Va más allá del RAG básico y describe seis patrones para construir la capa de contexto de un sistema con agentes: cómo seleccionar, resumir y servir la información precisa con un coste razonable. Ayuda a decidir qué piezas hacen falta (recuperación, memoria, reglas de negocio) y cómo combinarlas sin disparar tokens ni latencia. Interesante si estás diseñando la arquitectura de un producto con LLM.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Antes de tocar el prompt, mejora la imagen que le das al modelo",
+      "url": "https://towardsdatascience.com/fix-the-image-not-the-prompt",
+      "source": "Towards Data Science",
+      "summary": "Muestra que muchos fallos de los modelos de visión ocurren antes de razonar: la imagen no resulta legible para ellos. Añadir etiquetas, recortes o marcas en los puntos clave suele arreglar más que cualquier retoque del prompt. Es una guía práctica para quien monta pipelines con modelos multimodales y ve resultados erráticos.",
+      "tema": "ia"
+    },
+    {
+      "title": "Colores que pasan el contraste uno a uno pero fallan como paleta",
+      "url": "https://uxdesign.cc/when-colors-pass-but-palettes-fail-55b7210f8e4d?source=rss------ux-5",
+      "source": "Medium: UX",
+      "summary": "Explica por qué una paleta generada puede cumplir el ratio de contraste de cada color por separado y aun así ser inservible: los tonos se confunden entre sí o con el fondo. Da criterios para revisar la paleta completa (matiz, luminancia, daltonismo) y no solo pares de colores. Útil si trabajas con sistemas de diseño o generas temas con IA.",
+      "tema": "diseno"
+    }
+  ]
+}
