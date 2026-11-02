@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T20:20:36.057Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Google y Meta liberan TorchTPU, backend nativo de PyTorch para TPUs",
+      "summary": "TorchTPU es un proyecto open source de Google en colaboración con Meta que ofrece un backend nativo de PyTorch para las TPU de Google. Permite ejecutar cargas de trabajo de PyTorch en hardware TPU con cambios mínimos en el código, con ejecución eager y compilada, computación distribuida y optimizaciones específicas de hardware.",
+      "why_it_matters": "Acerca las TPU a cualquier equipo que ya entrene con PyTorch sin tener que reescribir su pipeline.",
+      "url": "https://www.infoq.com/news/2026/11/torchtpu-native-pythorch-tpu",
+      "source": "InfoQ",
+      "social": {
+        "x": "PyTorch ya corre sobre TPU sin reescribir tu pipeline: Google y Meta han liberado el backend que faltaba.\n\n#PyTorch #TPU #Google #OpenSource\nhttps://www.infoq.com/news/2026/11/torchtpu-native-pythorch-tpu",
+        "linkedin": "El argumento contra las TPU siempre fue el mismo: había que reescribir el código.\n\nTorchTPU es un backend nativo de PyTorch para TPU, open source y desarrollado por Google con Meta, que permite ejecutar cargas de trabajo con cambios mínimos: ejecución eager y compilada, computación distribuida y optimizaciones específicas de hardware. 𝗟𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗮𝗿𝗿𝗮𝘀𝘁𝗿𝗮𝗿 𝘂𝗻 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗺𝗶𝗴𝗿𝗮𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲. Para cualquier equipo que entrena con PyTorch, las TPU entran por fin en la comparativa sin asteriscos. La pregunta interesante ya no es si se puede, sino cuánto pesa depender de que Google mantenga el backend al día.\n\n#PyTorch #TPU #Google #OpenSource\n\nhttps://www.infoq.com/news/2026/11/torchtpu-native-pythorch-tpu"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "LongCat-2.5 apuesta por la multimodalidad nativa para tareas de agente",
+      "summary": "LongCat publica LongCat-2.5, una nueva versión de su modelo centrada en la multimodalidad nativa para tareas de agente. El lanzamiento llega acompañado de su propia entrada de blog con los detalles del modelo.",
+      "why_it_matters": "Un modelo multimodal pensado para agentes amplía lo que se puede automatizar cuando la herramienta combina texto e imagen.",
+      "url": "https://longcat.ai/blog/longcat-2.5",
+      "source": "Hacker News",
+      "social": {
+        "x": "LongCat-2.5 no añade visión como un parche: es multimodal nativo y está pensado para agentes. Cambia lo que puedes automatizar.\n\n#LongCat #Multimodal #Agentes #LLM\nhttps://longcat.ai/blog/longcat-2.5",
+        "linkedin": "La mayoría de los modelos ven porque alguien les acopló un módulo de imagen después. LongCat-2.5 no.\n\nLongCat publica LongCat-2.5 con 𝗺𝘂𝗹𝘁𝗶𝗺𝗼𝗱𝗮𝗹 𝗻𝗮𝘁𝗶𝘃𝗼 𝗱𝗲𝘀𝗱𝗲 𝗲𝗹 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝘆 𝗼𝗿𝗶𝗲𝗻𝘁𝗮𝗱𝗼 𝗮 𝘁𝗮𝗿𝗲𝗮𝘀 𝗱𝗲 𝗮𝗴𝗲𝗻𝘁𝗲, de modo que texto e imagen se procesan en el mismo modelo en lugar de encadenar una pieza de visión con otra de lenguaje. Para quien automatiza procesos, eso quita fontanería: menos componentes que orquestar y menos sitios donde se pierde el contexto. Falta lo de siempre antes de mover nada a producción, benchmarks independientes y números claros, pero la dirección es la correcta.\n\n#LongCat #Multimodal #Agentes #LLM\n\nhttps://longcat.ai/blog/longcat-2.5"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "investigacion",
+      "title": "Astra demuestra que los LLM pueden leer y escribir los pesos de una red",
+      "summary": "Un experimento muestra que los modelos frontera son sorprendentemente capaces de leer y escribir los pesos de una red neuronal, muy por encima de lo que cabría esperar de humanos o de algoritmos convencionales. El trabajo aplica esa capacidad a la mejora de Qwen.",
+      "why_it_matters": "Si un modelo puede editar pesos directamente, se abre otra vía para ajustar y reparar modelos sin pasar por un reentrenamiento completo.",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming",
+      "source": "Hacker News",
+      "social": {
+        "x": "Astra acaba de demostrar que un LLM puede leer y escribir los pesos de una red neuronal. Sin reentrenar: ajustar un modelo podría dejar de ser un proceso industrial.\n\n#LLM #Qwen #Astra\nhttps://rikiyat.github.io/blog/weight-space-programming",
+        "linkedin": "Un modelo que edita los pesos de otro modelo. No es una metáfora: Astra lo ha demostrado sobre Qwen.\nSi un LLM puede leer y escribir directamente los pesos de una red, 𝗲𝗹 𝗮𝗷𝘂𝘀𝘁𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝘂𝗻 𝗿𝗲𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 y pasa a parecerse más a una operación quirúrgica. Para quien mantiene modelos en producción, eso cambia el coste de reparar un sesgo o recuperar capacidad perdida. La pregunta interesante ya no es si funciona, sino quién audita unos pesos que se editan a ciegas.\n\n#LLM #Qwen #Astra\n\nhttps://rikiyat.github.io/blog/weight-space-programming"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Momentic lanza agentes de QA que encuentran bugs usando tu propia app",
+      "summary": "La startup de YC presenta Mo, un agente de QA que explora la aplicación a partir de un prompt y devuelve hallazgos, grabaciones y pasos de reproducción. Además ofrece un servidor MCP para escribir, ejecutar y depurar tests directamente desde un agente de código.",
+      "why_it_matters": "Automatizar las pruebas de regresión con agentes reduce el trabajo manual de QA en equipos pequeños.",
+      "url": "https://momentic.ai",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un agente de QA que no espera a que le escribas los tests: entra en tu app, la explora y vuelve con el bug y los pasos para reproducirlo.\n\n#Momentic #MCP #QA #YCombinator\nhttps://momentic.ai",
+        "linkedin": "El agente de QA ya no espera a que le escribas los tests: entra en tu app, la explora y vuelve con el bug y los pasos para reproducirlo.\n\nMomentic, salida de Y Combinator, presenta Mo, que trabaja a partir de un prompt y devuelve hallazgos y grabaciones, además de un servidor MCP para escribir, ejecutar y depurar tests desde un agente de código. Para un equipo pequeño sin QA dedicado, ahí está el cambio real: 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗺𝗮𝗻𝘁𝗲𝗻𝗲𝗿 𝗹𝗮 𝘀𝘂𝗶𝘁𝗲 𝗱𝗲 𝗿𝗲𝗴𝗿𝗲𝘀𝗶ó𝗻 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗿𝗲𝗰𝗮𝗲𝗿 𝗲𝗻 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝘀. La pregunta ya no es si automatizar, sino cuánta confianza depositas en un agente que navega tu producto como un usuario.\n\n#Momentic #MCP #QA #YCombinator\n\nhttps://momentic.ai"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Qodo lleva el contexto de tu empresa a la revisión de código con Codex",
+      "summary": "El plugin de Qodo para Codex incorpora conocimiento interno y estándares de programación en la revisión de código, de modo que el agente detecta problemas P0 en varios repositorios antes de abrir un pull request.",
+      "why_it_matters": "La revisión automática con contexto del proyecto evita que los errores críticos lleguen a producción.",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "source": "OpenAI News",
+      "social": {
+        "x": "El problema de los revisores automáticos nunca fue la sintaxis: es que no sabían nada de tu empresa. Qodo acaba de meter ese contexto en Codex.\n\n#Qodo #Codex #OpenAI #DevTools\nhttps://openai.com/index/qodo-codex-plugin",
+        "linkedin": "Un revisor automático que no conoce tus estándares solo te dice si el código compila.\n\nQodo acaba de llevar el contexto interno y los estándares de programación de la empresa al agente Codex: 𝗲𝗹 𝗽𝗹𝘂𝗴𝗶𝗻 𝗿𝗲𝘃𝗶𝘀𝗮 𝘃𝗮𝗿𝗶𝗼𝘀 𝗿𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼𝘀 𝗰𝗼𝗻 𝘃𝘂𝗲𝘀𝘁𝗿𝗼𝘀 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼𝘀 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗾𝘂𝗲 𝗲𝘅𝗶𝘀𝘁𝗮 𝗲𝗹 𝗽𝘂𝗹𝗹 𝗿𝗲𝗾𝘂𝗲𝘀𝘁. El giro importa porque mueve la revisión de la sintaxis al criterio, y los fallos P0 aparecen cuando todavía son baratos de arreglar, no en producción. Para equipos con código repartido en varios repos, la pregunta ya no es si automatizar la revisión, sino qué contexto le das al agente.\n\n#Qodo #Codex #OpenAI #DevTools\n\nhttps://openai.com/index/qodo-codex-plugin"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "OpenAI fusiona las pestañas Chat y Work de ChatGPT",
+      "summary": "OpenAI unifica las pestañas de chat y de trabajo de ChatGPT en una sola. A partir del cambio, ChatGPT y Codex compartirán el mismo cupo de uso.",
+      "why_it_matters": "Afecta a cómo se reparte la cuota entre conversación normal y trabajo con agentes de código.",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs",
+      "source": "TechCrunch",
+      "social": {
+        "x": "ChatGPT ya no distingue entre charlar y trabajar. Y eso significa que tus agentes de código se comen el mismo cupo que tus preguntas.\n\n#OpenAI #ChatGPT #Codex\nhttps://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs",
+        "linkedin": "ChatGPT ya no separa la charla del trabajo. Y ahora la cuota es una sola para todo.\n\nOpenAI ha unificado las pestañas Chat y Work, y con ello Codex pasa a compartir el mismo cupo de uso que las conversaciones normales. Para quien trabaja con agentes de código a diario el cálculo cambia: 𝗹𝗼 𝗾𝘂𝗲 𝗴𝗮𝘀𝘁𝗮𝘀 𝗲𝗻 𝘂𝗻 𝘀𝗶𝘁𝗶𝗼 𝗹𝗼 𝗽𝗶𝗲𝗿𝗱𝗲𝘀 𝗲𝗻 𝗲𝗹 𝗼𝘁𝗿𝗼. Los equipos que dimensionaban su plan contando solo mensajes de chat van a tener que rehacer la cuenta, o asumir que un día intenso de agentes les deje sin margen para preguntar.\n\n#OpenAI #ChatGPT #Codex\n\nhttps://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "investigacion",
+      "title": "OpenAI presenta LifeVal, un benchmark de tareas cotidianas",
+      "summary": "LifeVal mide qué tal ayuda la IA a completar tareas del día a día, desde buscar cuidado infantil hasta gestionar las finanzas o el papeleo con la administración.",
+      "why_it_matters": "Un baremo centrado en tareas reales permite comparar asistentes por utilidad y no solo por rendimiento académico.",
+      "url": "https://openai.com/index/lifeval",
+      "source": "OpenAI News",
+      "social": {
+        "x": "El nuevo benchmark de OpenAI no mide lo que la IA sabe, sino si te resuelve el papeleo con la administración.\n\n#OpenAI #LifeVal #Benchmarks\nhttps://openai.com/index/lifeval",
+        "linkedin": "Los benchmarks llevan años midiendo lo que un modelo sabe. LifeVal mide lo que un modelo te resuelve.\n\nOpenAI ha presentado un baremo de tareas cotidianas: buscar cuidado infantil, gestionar las finanzas o lidiar con el papeleo de la administración. 𝗖𝗼𝗺𝗽𝗮𝗿𝗮𝗿 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲𝘀 𝗽𝗼𝗿 𝘂𝘁𝗶𝗹𝗶𝗱𝗮𝗱 𝗿𝗲𝗮𝗹 𝘆 𝗻𝗼 𝗽𝗼𝗿 𝗻𝗼𝘁𝗮 𝗱𝗲 𝗲𝘅𝗮𝗺𝗲𝗻 𝗰𝗮𝗺𝗯𝗶𝗮 𝗲𝗹 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝗱𝗲 𝗰𝗼𝗺𝗽𝗿𝗮: la pregunta deja de ser qué modelo puntúa más alto y pasa a ser cuál te quita trabajo de encima. Y eso, para quien elige herramienta, es otra conversación.\n\n#OpenAI #LifeVal #Benchmarks\n\nhttps://openai.com/index/lifeval"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Uber construye un gateway MCP para 800 servidores y 5.000 herramientas de IA",
+      "summary": "Uber ha desarrollado un MCP Gateway que estandariza cómo los agentes descubren e invocan servicios internos, con más de 800 servidores MCP y 5.000 herramientas. Separa el registro de herramientas de la ejecución e incorpora descubrimiento automático de APIs, controles de acceso, redacción de datos sensibles y filtrado de respuestas.",
+      "why_it_matters": "Es una plantilla muy útil para quien tenga que gobernar el acceso de agentes a sistemas internos a escala.",
+      "url": "https://www.infoq.com/news/2026/11/uber-mcp-gateway-ai-agents",
+      "source": "InfoQ",
+      "social": {
+        "x": "Uber ya opera 800 servidores MCP y 5.000 herramientas internas. El reto no fue conectarlas, sino controlar quién las usa y qué datos salen por ellas.\n\n#MCP #Uber #ModelContextProtocol #AgentesIA\nhttps://www.infoq.com/news/2026/11/uber-mcp-gateway-ai-agents",
+        "linkedin": "Uber ya opera 800 servidores MCP y 5.000 herramientas internas. El cuello de botella no está en los modelos, está en el gobierno de todo lo que hay detrás.\n\nEl patrón que han seguido separa el registro de herramientas de su ejecución: descubrimiento automático de APIs, control de acceso, redacción de datos sensibles y filtrado de respuestas. 𝗟𝗮 𝗴𝗼𝗯𝗲𝗿𝗻𝗮𝗻𝘇𝗮 𝗱𝗲 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝘀𝗲 𝗲𝘀𝘁á 𝗰𝗼𝗻𝘃𝗶𝗿𝘁𝗶𝗲𝗻𝗱𝗼 𝗲𝗻 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮, 𝗻𝗼 𝗲𝗻 𝘂𝗻𝗮 𝗰𝗮𝗽𝗮 𝗱𝗲 𝗽𝗿𝗼𝗺𝗽𝘁𝘀. Si estás conectando agentes a sistemas internos, ese es el trabajo real, y llega antes de lo que parece.\n\n#MCP #Uber #ModelContextProtocol #AgentesIA\n\nhttps://www.infoq.com/news/2026/11/uber-mcp-gateway-ai-agents"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Cómo preparar contenido web para Bedrock Knowledge Bases con Crawl4AI",
+      "summary": "AWS explica cómo usar Crawl4AI, un crawler open source, como capa de preparación de contenido para Amazon Bedrock Knowledge Bases. El tutorial cubre renderizado de JavaScript, extracción selectiva y enriquecimiento de metadatos antes de que el contenido llegue a un origen de datos en S3.",
+      "why_it_matters": "La calidad del RAG depende del contenido de origen, y aquí se muestra cómo limpiarlo antes de indexarlo.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Tu RAG no falla por el modelo: falla por la basura que le metes como contexto. AWS acaba de enseñar cómo limpiarla antes de indexar.\n\n#Bedrock #Crawl4AI #RAG #AWS\nhttps://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai",
+        "linkedin": "La mayoría de los RAG que se rompen no tienen un problema de modelo, tienen un problema de alcantarilla.\n\nAWS acaba de publicar un tutorial que usa Crawl4AI, un crawler open source, como capa de preparación antes de que el contenido llegue a un origen de datos de Bedrock Knowledge Bases: renderizado de JavaScript, extracción selectiva y metadatos enriquecidos antes de indexar. La idea es sencilla y se pasa por alto casi siempre: 𝗹𝗼 𝗾𝘂𝗲 𝗲𝗻𝘁𝗿𝗮 𝘀𝘂𝗰𝗶𝗼 𝗲𝗻 𝗲𝗹 í𝗻𝗱𝗶𝗰𝗲 𝘀𝗮𝗹𝗲 𝘀𝘂𝗰𝗶𝗼 𝗲𝗻 𝗹𝗮 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮, y ningún reranking arregla un HTML lleno de menús, cookies y texto duplicado. Si tienes un pipeline de RAG en producción, esa capa de limpieza previa es donde más barato vas a mejorar la calidad.\n\n#Bedrock #Crawl4AI #RAG #AWS\n\nhttps://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "Destilación de conocimiento para agentes más baratos en SageMaker",
+      "summary": "AWS muestra cómo aplicar destilación de conocimiento a nivel de secuencia (SeqKD) para trasladar el comportamiento agéntico de un modelo profesor frontera a un modelo alumno más pequeño y económico en SageMaker AI.",
+      "why_it_matters": "Bajar el coste por paso es clave para sostener asistentes con bucles de herramientas en producción.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Tu agente no necesita un modelo frontera en cada paso. AWS muestra cómo destilar el comportamiento de uno grande en uno pequeño y bajar el coste.\n\n#SageMaker #AWS #LLM #KnowledgeDistillation\nhttps://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai",
+        "linkedin": "El coste de un agente no está en el modelo, está en cuántas veces lo llamas.\n\nAWS ha publicado en SageMaker AI una guía de destilación de conocimiento a nivel de secuencia (SeqKD): se entrena un modelo alumno pequeño para imitar el rastro completo de decisiones de un profesor frontera, no solo la respuesta final. 𝗘𝘀𝗼 𝗲𝘀 𝗹𝗼 𝗾𝘂𝗲 𝗵𝗮𝗰𝗲 𝘀𝗼𝘀𝘁𝗲𝗻𝗶𝗯𝗹𝗲 𝘂𝗻 𝗯𝘂𝗰𝗹𝗲 𝗱𝗲 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 𝗲𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻: el coste por paso baja mientras el comportamiento se mantiene. Para quien ya tiene agentes desplegados, la pregunta deja de ser qué modelo uso y pasa a ser qué parte del trabajo puedo delegar en uno más barato.\n\n#SageMaker #AWS #LLM #KnowledgeDistillation\n\nhttps://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Claude Opus 5.5 llega a dibujar planos de arquitectura listos para permiso",
+      "summary": "Un análisis práctico muestra que Claude Opus 5.5 puede producir planos de arquitectura con el detalle que exige una solicitud de permiso. El autor documenta el proceso y el resultado obtenido.",
+      "why_it_matters": "Ilustra cómo los modelos frontera empiezan a cubrir trabajo técnico especializado que antes exigía un profesional.",
+      "url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+      "source": "Hacker News",
+      "social": {
+        "x": "Claude Opus 5.5 ha dibujado planos de arquitectura con el detalle que exige un permiso de obra. No es un experimento: hay proceso y resultado.\n\n#Anthropic #ClaudeOpus #Arquitectura #Modelos\nhttps://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+        "linkedin": "El listón para la IA en arquitectura no era dibujar bonito, sino que el plano aguante la revisión de un técnico municipal. Claude Opus 5.5 acaba de cruzar esa línea en una prueba documentada.\n\nEl autor recoge el proceso completo hasta obtener un plano con el nivel de detalle que pide una solicitud de permiso. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗹𝗮 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻: quien firma el proyecto sigue siendo un profesional con responsabilidad legal sobre él, pero el trabajo de base se comprime de días a horas. Para un estudio pequeño es una palanca evidente; para el resto, un aviso de dónde se va a mover la competencia.\n\n#Anthropic #ClaudeOpus #Arquitectura #Modelos\n\nhttps://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Un agente de IA operó un ratón para probar terapias génicas",
+      "summary": "Un agente recibió 19 vectores de terapia génica en una hoja de cálculo, un modelo de ratón con epilepsia y acceso a un equipo quirúrgico motorizado con cámaras, con el objetivo de reducir las convulsiones. Eligió el fármaco, la región del cerebro y derivó las coordenadas de la intervención.",
+      "why_it_matters": "Muestra agentes que cierran el ciclo entre decisión y actuación física en un laboratorio.",
+      "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+      "source": "Hacker News",
+      "social": {
+        "x": "Le dieron a un agente de IA 19 vectores de terapia génica, un ratón con epilepsia y un brazo quirúrgico. Eligió fármaco, región cerebral y coordenadas. Y operó.\n\n#AgenticAI #TerapiaGénica #Epilepsia #LabAutomation\nhttps://twitter.com/OcanaSantero/status/2115442964574908902",
+        "linkedin": "Un agente de IA eligió el fármaco, la región del cerebro y las coordenadas. Después movió el brazo quirúrgico.\nLe dieron 19 vectores de terapia génica en una hoja de cálculo, un modelo de ratón con epilepsia y un equipo quirúrgico motorizado con cámaras, con un objetivo: reducir las convulsiones. Lo relevante no es solo que acertara, sino que 𝗲𝗹 𝗰𝗶𝗰𝗹𝗼 𝗲𝗻𝘁𝗿𝗲 𝗱𝗲𝗰𝗶𝗱𝗶𝗿 𝘆 𝗮𝗰𝘁𝘂𝗮𝗿 𝗳í𝘀𝗶𝗰𝗮𝗺𝗲𝗻𝘁𝗲 𝘆𝗮 𝗻𝗼 𝗻𝗲𝗰𝗲𝘀𝗶𝘁𝗮 𝗮 𝘂𝗻𝗮 𝗽𝗲𝗿𝘀𝗼𝗻𝗮 𝗲𝗻 𝗺𝗲𝗱𝗶𝗼. Para quien diseña experimentos, el cuello de botella se desplaza al diseño y a la supervisión: revisar qué decide un sistema con acceso a hardware real deja de ser opcional.\n\n#AgenticAI #TerapiaGénica #Epilepsia #LabAutomation\n\nhttps://twitter.com/OcanaSantero/status/2115442964574908902"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Anthropic frena los clones de videojuegos hechos con Claude Code",
+      "summary": "Anthropic ha actualizado el system prompt de Claude Code para impedir que se use para recrear videojuegos existentes. Seguirá permitiendo crear juegos, pero no clones directos de títulos ya publicados.",
+      "why_it_matters": "Los proveedores empiezan a poner límites de uso a sus herramientas de código por riesgos de propiedad intelectual.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "source": "The Verge",
+      "social": {
+        "x": "Anthropic ha cambiado el system prompt de Claude Code: ya no puede recrear videojuegos existentes. Sigue dejando crear juegos, pero no clones. ¿Dónde queda la línea?\n\n#Anthropic #ClaudeCode #PropiedadIntelectual #Videojuegos\nhttps://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+        "linkedin": "Anthropic acaba de mover la frontera de lo que su propio modelo acepta hacer. La compañía ha actualizado el system prompt de Claude Code para que no recree videojuegos ya publicados: se pueden seguir haciendo juegos originales, pero no clones. 𝗘𝘀 𝘂𝗻𝗼 𝗱𝗲 𝗹𝗼𝘀 𝗽𝗿𝗶𝗺𝗲𝗿𝗼𝘀 𝗹í𝗺𝗶𝘁𝗲𝘀 𝗲𝘅𝗽𝗹í𝗰𝗶𝘁𝗼𝘀 𝗱𝗲 𝗽𝗿𝗼𝗽𝗶𝗲𝗱𝗮𝗱 𝗶𝗻𝘁𝗲𝗹𝗲𝗰𝘁𝘂𝗮𝗹 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝘂𝗻𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗱𝗲 𝗰ó𝗱𝗶𝗴𝗼, y sienta un precedente que el resto de proveedores va a mirar con atención. Para quien usa estos asistentes en producción, la pregunta ya no es qué puede generar el modelo, sino qué le deja hacer su proveedor.\n\n#Anthropic #ClaudeCode #PropiedadIntelectual #Videojuegos\n\nhttps://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "El robo de tokens dispara las facturas de LLM de algunas empresas",
+      "summary": "The Register advierte de que hay compañías pagando más de 100.000 dólares al día en cargos de LLM por tokens robados. El artículo repasa cómo se producen estos abusos y qué medidas tomar.",
+      "why_it_matters": "Las claves de API se han convertido en un objetivo rentable, así que conviene auditarlas y rotarlas.",
+      "url": "https://www.theregister.com/security/2026/11/02/token-thieves-costing-companies-100k-per-day-in-illicit-llm-charges/5306967",
+      "source": "The Register",
+      "social": {
+        "x": "Hay empresas pagando más de 100.000 dólares al día en facturas de LLM. No por usarlas: por tokens robados con sus propias claves.\n\n#LLM #APISecurity #DevSecOps\nhttps://www.theregister.com/security/2026/11/02/token-thieves-costing-companies-100k-per-day-in-illicit-llm-charges/5306967",
+        "linkedin": "Hay empresas pagando más de 100.000 dólares al día en facturas de LLM que no ha generado nadie de su equipo.\n\nLas claves de API se han convertido en un objetivo rentable: aparecen en repos públicos, en logs y en el código del frontend, y basta una para que un tercero queme tokens a tu costa. 𝗔𝘂𝗱𝗶𝘁𝗮𝗿 𝘆 𝗿𝗼𝘁𝗮𝗿 𝗰𝗹𝗮𝘃𝗲𝘀 𝗱𝗲𝗯𝗲𝗿í𝗮 𝘀𝗲𝗿 𝗿𝘂𝘁𝗶𝗻𝗮, 𝗻𝗼 𝘂𝗻𝗮 𝘁𝗮𝗿𝗲𝗮 𝗽𝗲𝗻𝗱𝗶𝗲𝗻𝘁𝗲, porque el coste de no hacerlo ya se mide en cinco cifras diarias. Si nadie de tu equipo sabe cuántas claves activas hay ahora mismo, ese es el primer problema.\n\n#LLM #APISecurity #DevSecOps\n\nhttps://www.theregister.com/security/2026/11/02/token-thieves-costing-companies-100k-per-day-in-illicit-llm-charges/5306967"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Cientos de apps de IA esconden funciones de deepfake abusivo",
+      "summary": "Una investigación de WIRED encuentra unas 400 apps y webs, vinculadas a desarrolladores de habla china, que parecen herramientas de IA normales pero esconden funciones para generar imágenes y vídeos violentos con IA.",
+      "why_it_matters": "El problema no es solo el modelo, sino la distribución de funciones ocultas en aplicaciones de apariencia inocua.",
+      "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features",
+      "source": "Wired",
+      "social": {
+        "x": "Parece una app de IA para editar fotos. Por dentro esconde un generador de vídeos violentos. WIRED ha rastreado unas 400 así, vinculadas a desarrolladores de habla china.\n\n#Deepfakes #WIRED #AIGenerativa #Ciberseguridad\nhttps://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features",
+        "linkedin": "Casi nadie audita la app que envuelve al modelo.\n\nY ahí está el problema: 𝗹𝗮 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝗰𝗶ó𝗻 𝗱𝗲 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗲𝘀 𝗼𝗰𝘂𝗹𝘁𝗮𝘀, 𝗻𝗼 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀 𝗲𝗹 𝗻𝘂𝗲𝘃𝗼 𝗽𝘂𝗻𝘁𝗼 𝗱𝗲 𝗳𝗮𝗹𝗹𝗼. WIRED ha localizado unas 400 aplicaciones y webs que se presentan como herramientas de IA corrientes y esconden generadores de imágenes y vídeos violentos, muchas vinculadas a desarrolladores de habla china. Si construyes o compras producto sobre IA, la revisión ya no acaba en qué modelo usas: toca mirar qué funciones activa la app que lo llama, aunque no asomen en la interfaz.\n\n#Deepfakes #WIRED #AIGenerativa #Ciberseguridad\n\nhttps://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Linus Torvalds ve un modelo «mucho más sano» para las contribuciones de IA al kernel",
+      "summary": "Torvalds afirma que el kernel de Linux ha salido de su fase de estabilización y que el modelo para aceptar parches generados por IA es ahora más saludable. Señala, eso sí, que esos parches suelen acabar reescritos.",
+      "why_it_matters": "Marca la pauta de cómo un proyecto open source grande acepta código asistido por IA.",
+      "url": "https://www.theregister.com/os-platforms/2026/11/01/linus-torvalds-says-linux-kernel-is-out-of-stabilization-phase-and-using-much-healthier-model-for-ai-contributions/5306852",
+      "source": "The Register",
+      "social": {
+        "x": "Linus Torvalds ya no discute si la IA debe escribir código para el kernel. Su modelo: se aceptan los parches, pero casi todos acaban reescritos a mano.\n\n#Linux #Kernel #LinusTorvalds #OpenSource\nhttps://www.theregister.com/os-platforms/2026/11/01/linus-torvalds-says-linux-kernel-is-out-of-stabilization-phase-and-using-much-healthier-model-for-ai-contributions/5306852",
+        "linkedin": "El kernel de Linux ya no discute si acepta código generado por IA: discute cómo. Linus Torvalds describe el modelo actual como «mucho más sano», y el matiz incomoda a los entusiastas: 𝗰𝗮𝘀𝗶 𝘁𝗼𝗱𝗼𝘀 𝗲𝘀𝗼𝘀 𝗽𝗮𝗿𝗰𝗵𝗲𝘀 𝗮𝗰𝗮𝗯𝗮𝗻 𝗿𝗲𝗲𝘀𝗰𝗿𝗶𝘁𝗼𝘀 antes de entrar en el árbol. Para cualquier proyecto open source que esté fijando sus reglas ahora mismo, la lección es que el filtro útil no es detectar la IA, sino la revisión técnica de siempre.\n\n#Linux #Kernel #LinusTorvalds #OpenSource\n\nhttps://www.theregister.com/os-platforms/2026/11/01/linus-torvalds-says-linux-kernel-is-out-of-stabilization-phase-and-using-much-healthier-model-for-ai-contributions/5306852"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Ubuntu sigue sin parche para una RCE crítica casi tres semanas después",
+      "summary": "No hay kernels corregidos para 22.04, 24.04 ni 26.04 que cierren CVE-2026-98432, una vulnerabilidad valorada con CVSS 9.8. El problema afecta sobre todo a sistemas self-hosted expuestos a internet y a entornos multiinquilino.",
+      "why_it_matters": "Quien opere esos LTS necesita aplicar mitigaciones temporales mientras no llegue el paquete oficial.",
+      "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "source": "Hacker News",
+      "social": {
+        "x": "CVSS 9.8 y casi tres semanas sin parche: Ubuntu sigue sin kernel corregido para 22.04, 24.04 y 26.04. Si tienes algo self-hosted expuesto a internet, hoy toca mitigar.\n\n#Ubuntu #Linux #CVE #Canonical\nhttps://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+        "linkedin": "Una RCE de CVSS 9.8 lleva casi tres semanas sin parche en Ubuntu, y los kernels de 22.04, 24.04 y 26.04 siguen sin llegar.\nLa ventana de exposición se mide en días, no en meses, y aquí hablamos de sistemas self-hosted con puertos abiertos y de entornos multiinquilino donde un fallo así salta de un cliente al siguiente. Lo llamativo no es el bug, es el ritmo: 𝗰𝗮𝘀𝗶 𝘁𝗿𝗲𝘀 𝘀𝗲𝗺𝗮𝗻𝗮𝘀 𝘀𝗶𝗻 𝗽𝗮𝗾𝘂𝗲𝘁𝗲 𝗼𝗳𝗶𝗰𝗶𝗮𝗹 𝗲𝗻 𝘂𝗻𝗮 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝗰𝗶ó𝗻 𝗾𝘂𝗲 𝘃𝗶𝘃𝗲 𝗱𝗲 𝘀𝘂 𝗽𝗿𝗼𝗺𝗲𝘀𝗮 𝗱𝗲 𝗲𝘀𝘁𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱. Mientras llega, toca aplicar mitigaciones temporales por cuenta propia y revisar qué tenemos publicado sin necesidad.\n\n#Ubuntu #Linux #CVE #Canonical\n\nhttps://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "China estrena controles de exportación para IA frontera",
+      "summary": "El anuncio 48 del MOFCOM y el Ministerio de Ciencia y Tecnología chino establece los primeros controles de exportación del país para modelos de IA frontera.",
+      "why_it_matters": "Añade una capa regulatoria al suministro y a la colaboración internacional en modelos avanzados.",
+      "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2",
+      "source": "Hacker News",
+      "social": {
+        "x": "China acaba de poner aduana a su IA más avanzada: exportar un modelo frontera ya requiere autorización del Gobierno.\n\n#China #MOFCOM #ModelosFrontera\nhttps://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2",
+        "linkedin": "China acaba de convertir sus mejores modelos de IA en material estratégico: sacarlos del país ya requiere permiso oficial.\n\nEl anuncio 48 del MOFCOM y el Ministerio de Ciencia y Tecnología establece los primeros controles de exportación del país para modelos frontera, justo cuando la carrera por el cómputo y el talento se libra entre Washington y Pekín. 𝗣𝗮𝗿𝗮 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗲𝗺𝗽𝗿𝗲𝘀𝗮 𝗾𝘂𝗲 𝗶𝗻𝘁𝗲𝗴𝗿𝗲 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗰𝗵𝗶𝗻𝗼𝘀, 𝗹𝗮 𝗰𝗮𝗱𝗲𝗻𝗮 𝗱𝗲 𝘀𝘂𝗺𝗶𝗻𝗶𝘀𝘁𝗿𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘀𝗼𝗹𝗼 𝘂𝗻 𝗮𝘀𝘂𝗻𝘁𝗼 𝗱𝗲 𝗽𝗿𝗲𝗰𝗶𝗼 𝘆 𝗹𝗮𝘁𝗲𝗻𝗰𝗶𝗮. Y para los equipos que publican o colaboran con laboratorios chinos, el cumplimiento normativo entra en la ecuación desde el primer commit.\n\n#China #MOFCOM #ModelosFrontera\n\nhttps://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "herramientas",
+      "title": "Una pantalla e-paper de 48 dólares que funciona en dos ecosistemas o en tu servidor",
+      "summary": "Ars Technica reseña una pantalla e-paper de 48 dólares que puede integrarse en dos ecosistemas oficiales o conectarse a un servidor propio. Está pensada para proyectos de visualización de información personalizados.",
+      "why_it_matters": "Es una opción barata para paneles de información propios y proyectos de domótica.",
+      "url": "https://arstechnica.com/gadgets/2026/11/this-48-e-paper-display-can-be-whatever-you-want-it-to-be",
+      "source": "Ars Technica",
+      "social": {
+        "x": "48 dólares. Eso cuesta una pantalla e-paper que funciona en dos ecosistemas oficiales o conectada a tu propio servidor. Un panel de información en la pared sin pasar por la nube.\n\n#EPaper #HomeAssistant #SelfHosted #Domótica\nhttps://arstechnica.com/gadgets/2026/11/this-48-e-paper-display-can-be-whatever-you-want-it-to-be",
+        "linkedin": "48 dólares es lo que cuesta una pantalla e-paper que no te ata a ninguna nube.\n\nSe puede integrar en dos ecosistemas oficiales o apuntar directamente a un servidor propio, lo que la convierte en una pieza interesante para paneles de información personalizados y proyectos de domótica. Para quien lleva tiempo queriendo un dashboard siempre visible en la pared, 𝗲𝗹 𝗽𝗿𝗲𝗰𝗶𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗹𝗮 𝗲𝘅𝗰𝘂𝘀𝗮. La duda real es otra: cuánto mantenimiento exige ese servidor propio frente a la comodidad de un ecosistema cerrado que lo hace todo por ti.\n\n#EPaper #HomeAssistant #SelfHosted #Domótica\n\nhttps://arstechnica.com/gadgets/2026/11/this-48-e-paper-display-can-be-whatever-you-want-it-to-be"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Anthropic multiplica por doce sus ingresos pero pierde 23.000 millones",
+      "summary": "La empresa declara un crecimiento de ingresos de doce veces y, aun así, vuelve a pérdidas operativas de 23.000 millones de dólares antes de su salida a bolsa.",
+      "why_it_matters": "Muestra la tensión entre crecimiento y coste de cómputo en los grandes laboratorios de IA.",
+      "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss",
+      "source": "The Decoder",
+      "social": {
+        "x": "Anthropic multiplica por doce sus ingresos y, aun así, pierde 23.000 millones de dólares. El coste de cómputo se está comiendo el crecimiento.\n\n#Anthropic #Claude #ModelosDeLenguaje\nhttps://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss",
+        "linkedin": "Crecer doce veces en ingresos y seguir perdiendo 23.000 millones de dólares: ese es el retrato de Anthropic antes de salir a bolsa.\n\nEl dato no dice que el negocio no funcione, dice que 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗰ó𝗺𝗽𝘂𝘁𝗼 𝗰𝗿𝗲𝗰𝗲 𝗺á𝘀 𝗿á𝗽𝗶𝗱𝗼 𝗾𝘂𝗲 𝗹𝗼𝘀 𝗶𝗻𝗴𝗿𝗲𝘀𝗼𝘀. Para cualquier empresa que esté construyendo sobre modelos de terceros, la lectura es incómoda: el precio por token que hoy parece razonable depende de que estos laboratorios aguanten el ritmo de inversión en infraestructura. Si el capital se encarece, la factura acaba llegando a quien consume la API. Merece la pena revisar cuánta dependencia tenéis de un solo proveedor.\n\n#Anthropic #Claude #ModelosDeLenguaje\n\nhttps://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "description": "Motor en C puro, sin dependencias, capaz de ejecutar modelos MoE de gran tamaño en hardware modesto gracias a que transmite los expertos desde disco. Una forma muy interesante de probar modelos punteros en local sin montar un clúster.",
+      "language": "C",
+      "stars": 46452,
+      "social": {
+        "x": "46.452 estrellas y cero dependencias: un motor en C que ejecuta modelos MoE enormes en hardware modesto leyendo los expertos desde el disco.\n\n#Colibri #MoE #OpenSource #GitHub\nhttps://github.com/JustVugg/colibri",
+        "linkedin": "46.452 ESTRELLAS Y CERO DEPENDENCIAS.\n\nColibri es un motor en C puro que ejecuta modelos MoE de gran tamaño en hardware modesto. El truco: en vez de meter todos los expertos en memoria, 𝗹𝗼𝘀 𝘁𝗿𝗮𝗻𝘀𝗺𝗶𝘁𝗲 𝗱𝗲𝘀𝗱𝗲 𝗲𝗹 𝗱𝗶𝘀𝗰𝗼. Así puedes probar modelos punteros en local sin montar un clúster.\n\n→ C puro y sin dependencias: compilas y ejecutas.\n→ Los expertos viven en disco y se van leyendo según hacen falta.\n→ Modelos MoE grandes en máquinas modestas, sin montar un clúster.\n→ Una forma muy directa de probar modelos punteros en local.\n\nSi te gusta trastear con modelos en local, guarda el post. El repo te lo dejo abajo.\n\n#Colibri #MoE #OpenSource #GitHub\n\nhttps://github.com/JustVugg/colibri"
+      }
+    },
+    {
+      "name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "Aplicación open source para gestionar agentes de IA en el trabajo, con una interfaz pensada para coordinar varios a la vez y supervisar lo que hacen. Útil si quieres dejar de pelearte con scripts sueltos y centralizar tus flujos con agentes.",
+      "language": "TypeScript",
+      "stars": 110298,
+      "social": {
+        "x": "110k estrellas para dejar de pelearte con scripts sueltos: un panel open source que coordina varios agentes de IA a la vez y te enseña qué hace cada uno.\n\n#Paperclip #TypeScript #OpenSource #GitHub\nhttps://github.com/paperclipai/paperclip",
+        "linkedin": "TIENES CINCO AGENTES DE IA Y NINGUNA FORMA DE SABER QUÉ ESTÁN HACIENDO.\n\nEs el punto al que llega casi todo el mundo: un script para esto, otro para aquello, una carpeta con prompts sueltos y cero visibilidad. Cuando algo falla, toca leer logs a mano y rezar.\n\nPaperclip propone lo contrario: 𝘂𝗻𝗮 𝘀𝗼𝗹𝗮 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝘇 𝗽𝗮𝗿𝗮 𝗰𝗼𝗼𝗿𝗱𝗶𝗻𝗮𝗿 𝘃𝗮𝗿𝗶𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗮 𝗹𝗮 𝘃𝗲𝘇 𝘆 𝘀𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗮𝗿 𝗹𝗼 𝗾𝘂𝗲 𝗵𝗮𝗰𝗲𝗻, en lugar de malabares con scripts dispersos.\n\n→ Lanzamiento y gestión de varios agentes desde un mismo panel\n→ Visión centralizada de lo que está haciendo cada uno\n→ Pensado para flujos de trabajo reales, no para demos de fin de semana\n→ Open source y en TypeScript, así que puedes adaptarlo a tu stack\n→ 110.298 estrellas en GitHub, lo cual ya dice bastante del interés que ha despertado\n\nLa diferencia con las herramientas de pago no es solo el precio: es que aquí puedes leer el código, montarlo donde quieras y cambiar lo que no te encaje.\n\nSi trabajas con agentes de IA a diario, guarda este post. Te dejo el repo abajo.\n\n#Paperclip #TypeScript #OpenSource #GitHub\n\nhttps://github.com/paperclipai/paperclip"
+      }
+    },
+    {
+      "name": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "Herramienta que modifica modelos de lenguaje ya entrenados, sin reentrenar, para quitar censura, reducir la adulación y limpiar respuestas. Va directa a los ajustes internos del modelo, así que conviene saber lo que se hace antes de usarla.",
+      "language": "Python",
+      "stars": 37987,
+      "social": {
+        "x": "38k estrellas para un script de Python que le quita la censura a un modelo ya entrenado sin reentrenar: entra en sus ajustes internos y lo deja limpio. Conviene saber qué se toca antes de lanzarlo.\n\n#Heretic #OpenSource #LLM #Python\nhttps://github.com/p-e-w/heretic",
+        "linkedin": "LE QUITA LA CENSURA A UN MODELO YA ENTRENADO SIN VOLVER A ENTRENARLO. Y ya va por 38.000 estrellas.\n\nLa mayoría de proyectos para «liberar» un modelo pasan por fine-tuning: dataset nuevo, GPU, horas y un resultado que ya no se parece al original. Heretic va por otro camino: trabaja sobre el modelo que ya tienes y ajusta sus parámetros internos directamente.\n\nSin reentrenar. Sin dataset. Abres el modelo, tocas lo que hay que tocar y sale una versión distinta.\n\n→ Quita la censura de modelos ya entrenados sin pasar por un fine-tuning\n→ Reduce la adulación, ese tono servil que adoptan muchos asistentes\n→ Limpia y afina las respuestas del modelo\n→ Todo en Python, dentro del repo, sin servicios externos\n\nEl matiz importante: 𝘁𝗼𝗰𝗮 𝗹𝗼𝘀 𝗮𝗷𝘂𝘀𝘁𝗲𝘀 𝗶𝗻𝘁𝗲𝗿𝗻𝗼𝘀 𝗱𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗮𝘀í 𝗾𝘂𝗲 𝗵𝗮𝘆 𝗾𝘂𝗲 𝘀𝗮𝗯𝗲𝗿 𝗾𝘂é 𝘀𝗲 𝗲𝘀𝘁á 𝗺𝗼𝗱𝗶𝗳𝗶𝗰𝗮𝗻𝗱𝗼 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿𝗹𝗼. No es un botón mágico, es una herramienta quirúrgica.\n\nSi trasteas con modelos locales o te interesa cómo se comporta un LLM por dentro, este repo te va a durar varias tardes. Guárdalo antes de que se te pierda en el timeline.\n\n#Heretic #OpenSource #LLM #Python\n\nhttps://github.com/p-e-w/heretic"
+      }
+    },
+    {
+      "name": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "description": "CLI en Rust que da a los agentes de IA acceso al escritorio para que interactúen con aplicaciones y realicen tareas como lo haría una persona. Práctico para experimentar con computer use fuera del navegador.",
+      "language": "Rust",
+      "stars": 9169,
+      "social": {
+        "x": "Tu agente de IA ya no vive solo dentro del navegador: este CLI en Rust le abre el escritorio entero. 9.169 estrellas y viene de vercel-labs.\n\n#AgentDesktop #Rust #OpenSource #GitHub\nhttps://github.com/vercel-labs/agent-desktop",
+        "linkedin": "TU AGENTE DE IA PUEDE USAR TU ESCRITORIO ENTERO, NO SOLO EL NAVEGADOR.\n\nCasi todos los demos de computer use se quedan en una pestaña de Chrome. Fuera de ahí el agente se queda ciego: no abre una app de escritorio, no toca esa herramienta interna que nadie ha conectado a una API, no completa el flujo como lo haría una persona.\n\nagent-desktop es un CLI escrito en Rust que le da al agente acceso al escritorio para que interactúe con aplicaciones y realice tareas por su cuenta. Lo firma vercel-labs y ya va por las 9.169 estrellas en GitHub. Su gracia es que sirve para experimentar con 𝗰𝗼𝗺𝗽𝘂𝘁𝗲𝗿 𝘂𝘀𝗲 𝗳𝘂𝗲𝗿𝗮 𝗱𝗲𝗹 𝗻𝗮𝘃𝗲𝗴𝗮𝗱𝗼𝗿.\n\n→ Un CLI en Rust, sin montar infraestructura aparte para probar.\n→ El agente maneja aplicaciones reales, no solo páginas web.\n→ Ideal para prototipar tareas de escritorio antes de llevarlas a producción.\n→ Repo de laboratorio: código abierto para trastear y aprender.\n\nSi estás construyendo agentes, este es de los que conviene tener a mano. Guarda el post y ábrete el repo cuando montes el siguiente.\n\n#AgentDesktop #Rust #OpenSource #GitHub\n\nhttps://github.com/vercel-labs/agent-desktop"
+      }
+    },
+    {
+      "name": "karpathy/nanochat",
+      "url": "https://github.com/karpathy/nanochat",
+      "description": "Proyecto de Karpathy para montar un ChatGPT funcional con unos 100 dólares de cómputo, con el código y el proceso completos. Ideal para entender de principio a fin cómo se entrena y se sirve un modelo de chat.",
+      "language": "Python",
+      "stars": 59791,
+      "social": {
+        "x": "Karpathy ha montado un ChatGPT funcional por unos 100 dólares de cómputo y suelta el código completo. 59k estrellas y subiendo.\n\n#nanochat #LLM #OpenSource #Python\nhttps://github.com/karpathy/nanochat",
+        "linkedin": "ENTRENAR Y SERVIR UN MODELO DE CHAT POR 100 DÓLARES YA NO ES UN EXPERIMENTO DE LABORATORIO.\n\nKarpathy acaba de publicar nanochat, un repo con el que puedes montar tu propio ChatGPT desde cero. No es una demo a medias: viene el código y el proceso completos, pensados para entender de principio a fin cómo se entrena y se sirve un modelo de chat.\n\nLa diferencia con lo que sueles encontrar es clara: 𝗻𝗼 𝗲𝘀 𝘂𝗻 𝘄𝗿𝗮𝗽𝗽𝗲𝗿 𝗱𝗲 𝘂𝗻𝗮 𝗔𝗣𝗜, 𝗲𝘀 𝗲𝗹 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝗲𝗻𝘁𝗲𝗿𝗼. Y con unas 59.000 estrellas en GitHub, parece que era justo lo que faltaba.\n\n→ El proceso de entrenamiento explicado paso a paso, sin cajas negras\n→ Cómo se sirve el modelo para poder conversar con él\n→ Todo el stack en Python, fácil de leer y de tocar\n→ Coste de cómputo de unos 100 dólares, sin cuotas mensuales\n→ Ideal si quieres dejar de usar modelos ajenos y entender qué pasa por dentro\n\nSi llevas tiempo usando LLM sin saber qué ocurre entre el prompt y la respuesta, este repo es la excusa perfecta para ponerte. Guárdate el post y vuelve a él con calma: te dejo el enlace al repositorio abajo.\n\n#nanochat #LLM #OpenSource #Python\n\nhttps://github.com/karpathy/nanochat"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Trata los webhooks como un timbre, no como un paquete: la lección de los eventos finos de Stripe",
+      "url": "https://medium.com/@anhaia.gabriel/treat-a-webhook-as-a-doorbell-not-a-package-why-stripe-ships-thin-events-2470394dc2ad",
+      "source": "Medium: Programming",
+      "summary": "Explica por qué un webhook no debería transportar todo el estado, dado que Stripe reintenta durante días y no garantiza el orden de entrega. Aprenderás a usar cada aviso como una señal para consultar la fuente de verdad, asumiendo el coste en lecturas que eso conlleva. Muy útil para diseñar integraciones de pago fiables e idempotentes.",
+      "tema": "web"
+    },
+    {
+      "title": "Cómo Cloudflare redujo a la mitad la latencia de compilación de DNS y un 85 % el consumo de memoria",
+      "url": "https://blog.cloudflare.com/dns-targeted-zone-builds",
+      "source": "Cloudflare Blog",
+      "summary": "Detalla cómo un planificador elige la reconstrucción de zona más pequeña y segura en lugar de rehacer zonas enteras con decenas de millones de registros. Se aprenden técnicas de invalidación selectiva y de gestión de memoria trasladables a cualquier sistema con caché o artefactos derivados. Un caso de ingeniería real, con cifras y decisiones de diseño.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Programar desde el Himalaya con un agente de código sin conexión",
+      "url": "https://latent.space/p/offline-coding",
+      "source": "Latent Space",
+      "summary": "Cuenta cómo montar un agente de programación offline con OpenCode, Ollama y Qwen sobre hardware modesto. Sirve para entender qué piezas necesita un agente local (modelo, runtime, herramientas) y cuándo compensa frente a depender de la nube. Práctico para quien trabaja con mala conectividad o quiere privacidad.",
+      "tema": "ia"
+    },
+    {
+      "title": "Lo que MIT, Apache y GPL permiten de verdad, y la palabra que hizo temblar al cloud",
+      "url": "https://rahulrbharati.medium.com/that-100-000-star-open-source-repo-isnt-as-free-as-you-think-d2b59139a431",
+      "source": "Medium: Programming",
+      "summary": "Repasa qué obliga cada licencia open source habitual y dónde quedan los límites reales para uso comercial, distribución o SaaS. Resulta útil para elegir dependencias con criterio y anticipar riesgos legales en producto propio. Aterriza el texto legal en decisiones concretas de ingeniería.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Qué medimos realmente en riesgo de crédito: PD, LGD y EAD",
+      "url": "https://towardsdatascience.com/credit-risk-what-are-we-actually-measuring",
+      "source": "Towards Data Science",
+      "summary": "Parte de un préstamo concreto para explicar qué significan la probabilidad de impago, la severidad de la pérdida y la exposición, y cómo se combinan al estimar pérdidas esperadas. Sirve para interpretar modelos de scoring y capital bancario sin fórmulas huecas. Buen punto de entrada para quien se acerca a los datos financieros.",
+      "tema": "datos"
+    },
+    {
+      "title": "Ética de la virtud aplicada al diseño de interfaces cotidianas",
+      "url": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss------ux-5",
+      "source": "Medium: UX",
+      "summary": "Propone analizar cómo la redacción, la jerarquía visual y los momentos de fricción moldean las decisiones de quien usa el producto. Ofrece un marco para decidir cuándo conviene frenar a alguien y cuándo facilitarle el camino, más allá de las métricas de conversión. Útil para equipos que quieran diseñar con criterio ético.",
+      "tema": "diseno"
+    }
+  ]
+}
