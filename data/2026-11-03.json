@@ -1,0 +1,364 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T17:50:15.764Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Anthropic lanza Message Threads para acelerar agentes de contexto largo",
+      "summary": "Anthropic ha añadido Message Threads a su Messages API. En lugar de reenviar toda la conversación en cada turno, el agente solo transmite lo que ha cambiado. En peticiones de entre 500.000 y un millón de tokens, el tiempo hasta el primer token cae alrededor de un 35%.",
+      "why_it_matters": "Reduce latencia y coste en agentes con conversaciones muy largas sin necesidad de cambiar de modelo.",
+      "url": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations",
+      "source": "The Decoder",
+      "social": {
+        "x": "Tu agente no necesita releer toda la conversación en cada turno. Anthropic acaba de arreglarlo: hasta un 35% menos de latencia en contextos de un millón de tokens.\n\n#Anthropic #Claude #APIs #LLM\nhttps://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations",
+        "linkedin": "El cuello de botella de los agentes de contexto largo no era el modelo, era el protocolo.\n\nAnthropic ha añadido Message Threads a su Messages API: en lugar de reenviar la conversación completa en cada turno, el agente solo transmite lo que ha cambiado. En peticiones de entre 500.000 y un millón de tokens, 𝗲𝗹 𝘁𝗶𝗲𝗺𝗽𝗼 𝗵𝗮𝘀𝘁𝗮 𝗲𝗹 𝗽𝗿𝗶𝗺𝗲𝗿 𝘁𝗼𝗸𝗲𝗻 𝗰𝗮𝗲 𝗰𝗲𝗿𝗰𝗮 𝗱𝗲𝗹 𝟯𝟱%, sin cambiar de modelo ni tocar la ventana de contexto. Para quien monta agentes sobre documentos largos o hilos de soporte, el ahorro no es solo de latencia: también es de factura.\n\n#Anthropic #Claude #APIs #LLM\n\nhttps://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "herramientas",
+      "title": "NVIDIA publica auto-ontology, un framework open source para razonar sobre datos",
+      "summary": "NVIDIA ha publicado auto-ontology, un framework en Python para construir capas de razonamiento semántico y en grafo sobre los datos. Permite generar consultas de forma determinista, mejorar la recuperación de contexto y hacer más explicable la IA.",
+      "why_it_matters": "Es una pieza reutilizable para RAG y agentes que necesitan consultas fiables sobre datos propios.",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "source": "Hacker News",
+      "social": {
+        "x": "El cuello de botella de los agentes sobre tus datos no es el modelo: es que no tienen un esquema sobre el que razonar. NVIDIA acaba de publicar auto-ontology, open source y en Python.\n\n#NVIDIA #OpenSource #RAG #Python\nhttps://github.com/NVIDIA/auto-ontology",
+        "linkedin": "Las consultas de tus agentes fallan por el esquema, no por el modelo.\n\nNVIDIA ha publicado auto-ontology, un framework en Python que construye una capa semántica y de grafo sobre los datos propios y genera consultas de forma determinista. En RAG eso se traduce en menos recuperación a ciegas y en respuestas explicables, porque 𝗹𝗮 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗮𝘂𝗱𝗶𝘁𝗮𝗿 𝘆 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗶𝗺𝗽𝗿𝗼𝘃𝗶𝘀𝗮𝗿. Si tienes agentes en producción sobre datos internos, esto se mira antes que seguir afinando prompts.\n\n#NVIDIA #OpenSource #RAG #Python\n\nhttps://github.com/NVIDIA/auto-ontology"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "investigacion",
+      "title": "Los LLM de frontera aprenden a leer y escribir los pesos de una red neuronal",
+      "summary": "Un análisis publicado en el blog de Rikiya sostiene que los LLM de frontera son sorprendentemente buenos leyendo y escribiendo los pesos de una red neuronal, ya sea con herramientas y algoritmos recientes o editando los pesos directamente. El autor lo describe como una forma de programación en el espacio de pesos.",
+      "why_it_matters": "Abre una vía para modificar el comportamiento de un modelo sin pasar por un reentrenamiento completo.",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming",
+      "source": "Lobsters",
+      "social": {
+        "x": "Los LLM de frontera ya saben leer y escribir los pesos de otra red neuronal. Y eso abre una vía para cambiar su comportamiento sin reentrenar.\n\n#LLM #DeepLearning #FineTuning\nhttps://rikiyat.github.io/blog/weight-space-programming",
+        "linkedin": "Un LLM de frontera puede leer y escribir los pesos de otra red neuronal, no solo generar texto.\n\nEl análisis publicado en el blog de Rikiya recoge casos con herramientas y algoritmos recientes, pero también editando los pesos directamente, y lo describe como una forma de programación en el espacio de pesos. La consecuencia práctica es que 𝗰𝗮𝗺𝗯𝗶𝗮𝗿 𝗲𝗹 𝗰𝗼𝗺𝗽𝗼𝗿𝘁𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗲𝘅𝗶𝗴𝗶𝗿 𝘂𝗻 𝗿𝗲𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼. Para quien trabaja en interpretabilidad o en ajustar modelos ya desplegados es una vía que merece atención, aunque queda por ver cuánto de esto es control real y cuánto coincidencia estadística.\n\n#LLM #DeepLearning #FineTuning\n\nhttps://rikiyat.github.io/blog/weight-space-programming"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "investigacion",
+      "title": "StateBench, el nuevo test de Ai2 para medir si los modelos siguen documentos largos",
+      "summary": "Ai2 ha presentado StateBench, un benchmark que mide cómo los modelos de lenguaje siguen los cambios de estado a lo largo de documentos largos. El test organiza las tareas en cuatro niveles de complejidad.",
+      "why_it_matters": "Evalúa una capacidad clave para agentes que trabajan con documentación extensa y cambiante.",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Leer un documento largo lo hace casi cualquiera. Seguir cómo cambia su estado página a página, no. Ai2 acaba de poner nota a los modelos justo en eso.\n\n#Ai2 #LLMs #Benchmarks #AgentesIA\nhttps://huggingface.co/blog/allenai/statebench",
+        "linkedin": "Un agente que pierde el hilo de un documento largo no es un agente, es un buscador con ínfulas.\n\nAi2 ha presentado StateBench, un benchmark que mide si los modelos siguen los cambios de estado a lo largo de documentos extensos, con tareas repartidas en cuatro niveles de complejidad. La diferencia con los test de recuperación al uso es clara: aquí no basta con 𝘀𝗲𝗴𝘂𝗶𝗿 𝗲𝗹 𝗲𝘀𝘁𝗮𝗱𝗼 𝗱𝗲𝗹 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗼, 𝗻𝗼 𝗰𝗼𝗻 𝗲𝗻𝗰𝗼𝗻𝘁𝗿𝗮𝗿 𝗲𝗹 𝗳𝗿𝗮𝗴𝗺𝗲𝗻𝘁𝗼 𝗲𝘅𝗮𝗰𝘁𝗼. Para quien esté montando agentes sobre documentación viva (contratos, normativa, manuales que se actualizan), esto mide justo el punto donde fallan en producción.\n\n#Ai2 #LLMs #Benchmarks #AgentesIA\n\nhttps://huggingface.co/blog/allenai/statebench"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "investigacion",
+      "title": "Google DeepMind lleva agentes de IA a la quimioinformática con Antigravity",
+      "summary": "Google DeepMind muestra en su blog cómo aplicar agentes de IA a tareas de quimioinformática con Antigravity. El enfoque combina el razonamiento del modelo con herramientas químicas dentro de un flujo agéntico.",
+      "why_it_matters": "Ilustra cómo los agentes empiezan a automatizar trabajo científico especializado.",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "Los agentes de DeepMind ya manejan herramientas de quimioinformática por su cuenta. Lo importante no es la química: es qué trabajo especializado viene después.\n\n#DeepMind #Antigravity #Quimioinformática\nhttps://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
+        "linkedin": "El siguiente trabajo que la IA empieza a automatizar no está en una oficina: está en el laboratorio.\n\nDeepMind muestra con Antigravity un flujo en el que el razonamiento del modelo se combina con herramientas químicas reales para ejecutar tareas de quimioinformática de principio a fin. 𝗟𝗼 𝗿𝗲𝗹𝗲𝘃𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝗾𝘂𝗲 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝘀𝗲𝗽𝗮 𝗾𝘂í𝗺𝗶𝗰𝗮, 𝘀𝗶𝗻𝗼 𝗾𝘂𝗲 𝗱𝗲𝗰𝗶𝗱𝗮 𝗾𝘂é 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝘂𝘀𝗮𝗿 𝘆 𝗲𝗻𝗰𝗮𝗱𝗲𝗻𝗲 𝗹𝗼𝘀 𝗽𝗮𝘀𝗼𝘀 𝘀𝗶𝗻 𝗾𝘂𝗲 𝗻𝗮𝗱𝗶𝗲 𝘀𝗲 𝗹𝗼𝘀 𝗱𝗶𝗰𝘁𝗲. Para los equipos de I+D, eso cambia el cuello de botella: el científico deja de ejecutar tareas repetitivas y pasa a supervisiones y diseño experimental.\n\n#DeepMind #Antigravity #Quimioinformática\n\nhttps://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "investigacion",
+      "title": "Agentes de IA toman el control del radiotelescopio Allen de SETI",
+      "summary": "El Instituto SETI y Breakthrough Listen utilizan agentes de IA para controlar el Allen Telescope Array y analizar las señales de radio que recibe. Tareas que antes llevaban semanas ahora se completan en horas, y el sistema detectó en tiempo real un púlsar en la Nebulosa del Cangrejo.",
+      "why_it_matters": "Muestra agentes de IA operando instrumentos científicos reales, no solo texto.",
+      "url": "https://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence",
+      "source": "The Decoder",
+      "social": {
+        "x": "Un agente de IA ya está a los mandos de un radiotelescopio. Tardó horas en hacer lo que antes llevaba semanas, y de paso cazó un púlsar en vivo.\n\n#SETI #BreakthroughListen #AgentesIA #Astronomía\nhttps://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence",
+        "linkedin": "El primer operador de un radiotelescopio que no es humano ya está trabajando, y no en un simulador.\n\nEl Instituto SETI y Breakthrough Listen han puesto agentes de IA a controlar el Allen Telescope Array: tareas que antes ocupaban semanas ahora se resuelven en horas, y el sistema detectó en tiempo real un púlsar en la Nebulosa del Cangrejo. La lectura interesante no es la velocidad, sino que 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗲𝘀𝘁é 𝗺𝗼𝘃𝗶𝗲𝗻𝗱𝗼 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗰𝗶𝗲𝗻𝘁í𝗳𝗶𝗰𝗼 𝗱𝗲 𝘃𝗲𝗿𝗱𝗮𝗱, con todo lo que eso implica en validación y supervisión. Para los equipos de instrumentación e investigación, el cuello de botella deja de estar en operar el aparato y se traslada a decidir qué merece la pena observar.\n\n#SETI #BreakthroughListen #AgentesIA #Astronomía\n\nhttps://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "industria",
+      "title": "Revolut migra a 2.000 ingenieros a GLM self-hosted y recorta el coste por token",
+      "summary": "Revolut ha trasladado a unos 2.000 ingenieros a GLM en modo self-hosted y ha dejado Claude Code y Codex en la lista de excepciones. Según su responsable de operaciones de IA, usan 56 GPU B200 y pagan unos 30 céntimos por millón de tokens, cerca de una décima parte de lo que les costaban Anthropic y OpenAI.",
+      "why_it_matters": "Es un caso concreto de cómo un banco digital justifica el coste de self-hosted frente a APIs cerradas.",
+      "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
+      "source": "Hacker News",
+      "social": {
+        "x": "Revolut ha movido a 2.000 ingenieros a GLM self-hosted: 30 céntimos por millón de tokens, una décima parte de lo que pagaban a Anthropic y OpenAI.\n\n#Revolut #GLM #SelfHosted #OpenSource\nhttps://twitter.com/guilleflorvs/status/2117379073785696395",
+        "linkedin": "Un banco digital acaba de demostrar que el self-hosted ya no es una pose ideológica: es una línea de la cuenta de resultados.\n\nRevolut ha trasladado a unos 2.000 ingenieros a GLM en modo self-hosted, con Claude Code y Codex reducidos a la lista de excepciones. Con 56 GPU B200, su coste ronda los 30 céntimos por millón de tokens, cerca de 𝘂𝗻𝗮 𝗱é𝗰𝗶𝗺𝗮 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲 𝗹𝗼 𝗾𝘂𝗲 𝗹𝗲𝘀 𝗰𝗼𝘀𝘁𝗮𝗯𝗮𝗻 𝗹𝗮𝘀 𝗔𝗣𝗜𝘀 𝗱𝗲 𝗔𝗻𝘁𝗵𝗿𝗼𝗽𝗶𝗰 𝘆 𝗢𝗽𝗲𝗻𝗔𝗜. La pregunta que deja es incómoda para el resto: si un equipo con recursos limitados de GPU consigue ese ahorro, ¿cuántas empresas siguen pagando de más por comodidad? El freno real ya no es el modelo, es quién mantiene la infraestructura.\n\n#Revolut #GLM #SelfHosted #OpenSource\n\nhttps://twitter.com/guilleflorvs/status/2117379073785696395"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "industria",
+      "title": "Gartner: los modelos abiertos cubren el 90% del trabajo agéntico por una vigésima parte del coste",
+      "summary": "Un análisis de Gartner citado por The Register defiende que los modelos abiertos pueden cubrir alrededor del 90% del trabajo agéntico por una vigésima parte del coste de un modelo de frontera. La conclusión es que los modelos tienden a comoditizarse y el valor se desplaza al harness que los orquesta.",
+      "why_it_matters": "Da argumentos prácticos para replantear el gasto en modelos cerrados en flujos de agentes.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/03/open-models-can-do-90-of-agentic-work-at-a-twentieth-of-the-cost-of-a-frontier-llm-gartner/5307132",
+      "source": "The Register",
+      "social": {
+        "x": "Gartner le pone cifra a algo que muchos sospechaban: un modelo abierto cubre el 90% del trabajo agéntico por una vigésima parte del coste de uno de frontera.\n\n#Gartner #OpenSource #LLM #Agentes\nhttps://www.theregister.com/ai-and-ml/2026/11/03/open-models-can-do-90-of-agentic-work-at-a-twentieth-of-the-cost-of-a-frontier-llm-gartner/5307132",
+        "linkedin": "La factura de modelos de frontera para trabajo agéntico tiene los días contados tal como la conocemos.\n\nGartner calcula que un modelo abierto cubre alrededor del 90% de las tareas de agentes por una vigésima parte del coste. La lectura no es que los cerrados desaparezcan, sino que 𝗲𝗹 𝘃𝗮𝗹𝗼𝗿 𝘀𝗲 𝗱𝗲𝘀𝗽𝗹𝗮𝘇𝗮 𝗮𝗹 𝗵𝗮𝗿𝗻𝗲𝘀𝘀 𝗾𝘂𝗲 𝗼𝗿𝗾𝘂𝗲𝘀𝘁𝗮 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, no al modelo en sí. Si tu equipo paga tarifas de frontera para clasificar, extraer o enrutar, ahí hay margen de sobra para recortar.\n\n#Gartner #OpenSource #LLM #Agentes\n\nhttps://www.theregister.com/ai-and-ml/2026/11/03/open-models-can-do-90-of-agentic-work-at-a-twentieth-of-the-cost-of-a-frontier-llm-gartner/5307132"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "industria",
+      "title": "Google dejará sin Search a los colegios que bloqueen sus funciones de IA",
+      "summary": "Google ha confirmado que los colegios que decidan bloquear sus herramientas de IA perderán también el acceso a Google Search. La compañía justifica la medida en que las funciones de IA ya forman parte del buscador.",
+      "why_it_matters": "Ata las funciones de IA al acceso a un servicio básico y abre un debate sobre presión comercial en educación.",
+      "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+      "source": "The Verge",
+      "social": {
+        "x": "Google avisa a los colegios: si bloquean sus funciones de IA, pierden también Search. El buscador pasa a ser moneda de cambio.\n\n#Google #GoogleSearch #Gemini #EdTech\nhttps://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+        "linkedin": "Un colegio que quiera mantener la IA fuera de sus aulas tendrá que renunciar también al buscador.\n\nGoogle lo ha confirmado: quien bloquee sus funciones de IA se queda sin Search, porque ya forman parte del mismo producto. Puede parecer coherencia técnica, pero el efecto es otro: 𝘀𝗲 𝘂𝘀𝗮 𝘂𝗻 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼 𝗯á𝘀𝗶𝗰𝗼 𝗰𝗼𝗺𝗼 𝗽𝗮𝗹𝗮𝗻𝗰𝗮 𝗽𝗮𝗿𝗮 𝗾𝘂𝗲 𝗻𝗮𝗱𝗶𝗲 𝗰𝗶𝗲𝗿𝗿𝗲 𝗹𝗮 𝗽𝘂𝗲𝗿𝘁𝗮 𝗮 𝗹𝗮 𝗜𝗔. En un centro educativo eso no es una decisión de producto, es una decisión pedagógica, y debería poder tomarse sin quedarse sin buscador. El precedente vale mucho más allá de las aulas.\n\n#Google #GoogleSearch #Gemini #EdTech\n\nhttps://www.theverge.com/tech/1025411/google-turn-off-search-ai-features"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "Ubuntu sigue sin parche para una vulnerabilidad crítica con CVSS 9.8",
+      "summary": "Casi tres semanas después de que se hiciera pública CVE-2026-98432, con una puntuación CVSS de 9,8, Ubuntu no ha publicado kernels parcheados para 22.04, 24.04 ni 26.04. Los operadores de esas versiones LTS no tienen todavía un paquete oficial que cierre la vulnerabilidad.",
+      "why_it_matters": "Los sistemas self-hosted expuestos a internet siguen sin una vía oficial de actualización.",
+      "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "source": "Hacker News",
+      "social": {
+        "x": "CVSS 9,8. Tres semanas después, Ubuntu sigue sin kernel parcheado para 22.04, 24.04 y 26.04. Si tienes algo expuesto a internet, revísalo.\n\n#Ubuntu #Linux #CVE\nhttps://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+        "linkedin": "Un 9,8 de CVSS y tres semanas sin paquete oficial que lo cierre. Ese es el点 que tiene Ubuntu ahora mismo.\n\nCVE-2026-98432 sigue abierta en 22.04, 24.04 y 26.04, y no hay kernel parcheado al que agarrarse. Para quien mantiene sistemas self-hosted expuestos a internet, 𝗹𝗮 𝘃𝗲𝗻𝘁𝗮𝗻𝗮 𝗱𝗲 𝗲𝘅𝗽𝗼𝘀𝗶𝗰𝗶ó𝗻 𝘆𝗮 𝘀𝗲 𝗺𝗶𝗱𝗲 𝗲𝗻 𝘀𝗲𝗺𝗮𝗻𝗮𝘀, 𝗻𝗼 𝗲𝗻 𝗵𝗼𝗿𝗮𝘀, y eso obliga a replantear el cálculo de riesgo. La pregunta incómoda para cualquier equipo de infra: ¿qué plan B tienes cuando la distro no llega a tiempo?\n\n#Ubuntu #Linux #CVE\n\nhttps://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "herramientas",
+      "title": "Un informe denuncia que Postman instala plugins de IA y comparte datos de APIs",
+      "summary": "Un issue abierto en el repositorio de soporte de Postman denuncia que la aplicación instala plugins de IA sin pedir permiso e intenta compartir datos de todas las APIs del usuario. El informe pide revisar qué se envía y con qué configuración.",
+      "why_it_matters": "Obliga a revisar permisos y telemetría en una herramienta muy extendida entre desarrolladores.",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "source": "Hacker News",
+      "social": {
+        "x": "Postman instala plugins de IA sin pedir permiso e intenta enviar datos de todas tus APIs. Si lo tienes abierto ahora mismo, ese es el problema.\n\n#Postman #APIs #Privacidad #DevTools\nhttps://github.com/postmanlabs/postman-app-support/issues/14370",
+        "linkedin": "Postman instala plugins de IA sin pedir permiso. Y según el informe, intenta compartir datos de todas tus APIs.\n\nLa herramienta está en el día a día de miles de equipos, así que 𝗲𝗹 𝗮𝘃𝗶𝘀𝗼 𝗻𝗼 𝘃𝗮 𝗱𝗲 𝘂𝗻𝗮 𝗳𝘂𝗻𝗰𝗶ó𝗻 𝗺𝗼𝗹𝗲𝘀𝘁𝗮: 𝘃𝗮 𝗱𝗲 𝗾𝘂é 𝘀𝗮𝗹𝗲 𝗱𝗲 𝘁𝘂 𝗺á𝗾𝘂𝗶𝗻𝗮 𝘀𝗶𝗻 𝗾𝘂𝗲 𝗹𝗼 𝗵𝗮𝘆𝗮𝘀 𝗱𝗲𝗰𝗶𝗱𝗶𝗱𝗼. Toca abrir los ajustes, revisar la telemetría y valorar si ese intercambio compensa. Si trabajas con APIs de clientes, la respuesta probablemente sea que no.\n\n#Postman #APIs #Privacidad #DevTools\n\nhttps://github.com/postmanlabs/postman-app-support/issues/14370"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "Apple abre la beta de las funciones de audio con IA del Apple Watch",
+      "summary": "Apple ha abierto la beta de las funciones de Audio Intelligence del Apple Watch, que incluyen Siri Recap y Live Rewind. Estas prestaciones resumen conversaciones y permiten rebobinar el audio para recuperar lo que se ha dicho.",
+      "why_it_matters": "La IA de audio llega a la muñeca y convierte el reloj en un asistente de memoria.",
+      "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Tu reloj empieza a recordar lo que dices. Apple abre la beta de Audio Intelligence en el Apple Watch: Siri Recap resume conversaciones y Live Rewind rebobina el audio para recuperar lo que se te pasó.\n\n#AppleWatch #Siri #AudioIntelligence #Apple\nhttps://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing",
+        "linkedin": "El reloj ya no solo mide lo que haces: también empieza a recordar lo que dices.\n\nApple ha abierto la beta de Audio Intelligence en el Apple Watch, con dos funciones que apuntan directo al terreno de la memoria: Siri Recap, que resume conversaciones, y Live Rewind, que rebobina el audio para recuperar lo que acaba de decirse. El movimiento confirma que 𝗹𝗮 𝗺𝘂ñ𝗲𝗰𝗮 𝗲𝘀 𝗲𝗹 𝘀𝗶𝗴𝘂𝗶𝗲𝗻𝘁𝗲 𝗰𝗮𝗺𝗽𝗼 𝗱𝗲 𝗯𝗮𝘁𝗮𝗹𝗹𝗮 𝗱𝗲 𝗹𝗼𝘀 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲𝘀, no el móvil ni el ordenador.\n\nPara quien trabaja con el reloj puesto todo el día, la utilidad es evidente: reuniones cortas, recados, conversaciones de pasillo. La pregunta incómoda llega después, cuando ese dispositivo lleva micrófono siempre activo y un historial de lo que has hablado. La comodidad se va a discutir mucho menos que el consentimiento de quien está al otro lado.\n\n#AppleWatch #Siri #AudioIntelligence #Apple\n\nhttps://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "lanzamientos",
+      "title": "Windows 11 mejora hasta un 40% el multitarea en equipos con 8 GB de RAM",
+      "summary": "Microsoft ha publicado una actualización de Windows 11 centrada en el consumo de memoria. En sus pruebas de laboratorio, los equipos con 8 GB responden hasta un 20% mejor y el multitarea es hasta un 40% más rápido.",
+      "why_it_matters": "Alarga la vida útil de portátiles modestos sin obligar a ampliar la RAM.",
+      "url": "https://www.theverge.com/news/1025142/windows-11-8gb-ram-memory-improvements-speed-performance",
+      "source": "The Verge",
+      "social": {
+        "x": "Un 40% más de multitarea en equipos de 8 GB. Microsoft acaba de alargar la vida de los portátiles modestos sin tocar el hardware.\n\n#Windows11 #Microsoft #RAM\nhttps://www.theverge.com/news/1025142/windows-11-8gb-ram-memory-improvements-speed-performance",
+        "linkedin": "8 GB de RAM acaban de dejar de ser ese lastre en Windows 11.\nMicrosoft ha publicado una actualización centrada en el consumo de memoria: en sus pruebas de laboratorio, los equipos con 8 GB responden hasta un 20% mejor y el multitarea es hasta un 40% más rápido. 𝗟𝗮 𝗺𝗲𝗷𝗼𝗿𝗮 𝗹𝗹𝗲𝗴𝗮 𝗽𝗼𝗿 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲, 𝗻𝗼 𝗽𝗼𝗿 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲, y eso cambia el cálculo para cualquiera que esté pensando en renovar un portátil que todavía funciona. Si tu parque de equipos modestos aguanta un año más, el ahorro no está en la tienda.\n\n#Windows11 #Microsoft #RAM\n\nhttps://www.theverge.com/news/1025142/windows-11-8gb-ram-memory-improvements-speed-performance"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "Vitest 5 acelera los tests y estrena visor de trazas",
+      "summary": "Vitest 5 llega con mejoras de rendimiento de entre el 8% y el 25% en la mayoría de configuraciones, y de hasta el 53% en pools de máquinas virtuales. Añade el comando vitest doctor, la vista de trazas en Browser Mode y vi.when, y endurece los valores por defecto. Requiere Vite 6.4 y Node.js 22.12 o superior.",
+      "why_it_matters": "Reduce el tiempo de test en proyectos que ya usan Vite sin exigir grandes cambios.",
+      "url": "https://www.infoq.com/news/2026/11/vite-5-release",
+      "source": "InfoQ",
+      "social": {
+        "x": "Vitest 5 recorta hasta un 53% el tiempo de tus tests. Y estrena un `vitest doctor` que diagnostica la configuración por ti.\n\n#Vitest #Vite #JavaScript #Testing\nhttps://www.infoq.com/news/2026/11/vite-5-release",
+        "linkedin": "Vitest 5 recorta hasta un 53% el tiempo de test. Y no tienes que tocar la configuración para notarlo.\n\nEn la mayoría de setups la mejora se queda entre el 8% y el 25%, pero en pools de máquinas virtuales el salto llega al 53%. Solo pide Vite 6.4 y Node 22.12 o superior, así que 𝗹𝗮 𝗴𝗮𝗻𝗮𝗻𝗰𝗶𝗮 𝗲𝗻𝘁𝗿𝗮 𝗲𝗻 𝗰𝗮𝗱𝗮 𝗰𝗼𝗺𝗺𝗶𝘁 𝘀𝗶𝗻 𝗺𝗶𝗴𝗿𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗻𝗶 𝗿𝗲𝗳𝗮𝗰𝘁𝗼𝗿𝘀. A eso se suma el nuevo `vitest doctor` y la vista de trazas en Browser Mode, que apuntan a algo más interesante que la velocidad: dejar de configurar los tests a ciegas. Para quien tenga la CI saturada, es la actualización más rentable del trimestre.\n\n#Vitest #Vite #JavaScript #Testing\n\nhttps://www.infoq.com/news/2026/11/vite-5-release"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Anthropic bloquea en Claude Code la clonación de videojuegos existentes",
+      "summary": "Anthropic ha empezado a bloquear en Claude Code la recreación de videojuegos existentes, después de una oleada de clones generados con su asistente. La medida limita una práctica habitual entre usuarios que piden versiones propias de juegos conocidos.",
+      "why_it_matters": "Marca un precedente sobre hasta dónde llega la libertad de generar código que imita obras protegidas.",
+      "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs",
+      "source": "The Decoder",
+      "social": {
+        "x": "Pides a Claude Code un clon de tu juego favorito y ahora te responde que no. Anthropic empieza a bloquear recreaciones de videojuegos existentes.\n\n#Anthropic #ClaudeCode #PropiedadIntelectual #Videojuegos\nhttps://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs",
+        "linkedin": "Anthropic acaba de poner un límite que muchos usuarios no esperaban: Claude Code ya no te recrea tu videojuego favorito.\n\nLa medida llega después de una oleada de clones generados con el asistente, una práctica que hasta ahora se veía como un uso inocente de la herramienta. 𝗘𝗹 𝗽𝗿𝗲𝗰𝗲𝗱𝗲𝗻𝘁𝗲 𝗲𝘀 𝗹𝗼 𝗾𝘂𝗲 𝗶𝗺𝗽𝗼𝗿𝘁𝗮: si el código que imita una obra protegida se bloquea, la frontera entre aprender programando y reproducir propiedad intelectual se estrecha, y afecta tanto a creadores como a quien usa estos asistentes para prototipar. La pregunta es dónde pondrá el siguiente límite.\n\n#Anthropic #ClaudeCode #PropiedadIntelectual #Videojuegos\n\nhttps://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Goldman Sachs retira las herramientas de código con IA a traders y banqueros",
+      "summary": "Goldman Sachs ha retirado herramientas de programación con IA como Claude Code y GitHub Copilot a traders y banqueros, y las limita al personal de ingeniería. El banco alega motivos de productividad y gestión de riesgos, pocos meses después de que su CIO elogiara el vibe coding.",
+      "why_it_matters": "Enseña que la adopción de IA en finanzas choca con el control de riesgos y datos.",
+      "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers",
+      "source": "The Decoder",
+      "social": {
+        "x": "Goldman Sachs celebraba el vibe coding hace unos meses. Ahora retira Claude Code y Copilot a traders y banqueros: solo los ingenieros los conservan.\n\n#GoldmanSachs #GitHubCopilot #ClaudeCode #VibeCoding\nhttps://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers",
+        "linkedin": "El vibe coding tuvo su momento en Goldman Sachs. Ha durado menos que un trimestre.\n\nEl banco ha retirado Claude Code y GitHub Copilot a traders y banqueros y los deja solo en manos de ingeniería, con el argumento de productividad y control de riesgos. La decisión llega pocos meses después de que su CIO los elogiara en público, y deja una lectura incómoda: 𝗲𝗻 𝗳𝗶𝗻𝗮𝗻𝘇𝗮𝘀 𝗲𝗹 𝗳𝗿𝗲𝗻𝗼 𝗮 𝗹𝗮 𝗜𝗔 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀 𝗲𝗹 𝗴𝗼𝗯𝗶𝗲𝗿𝗻𝗼 𝗱𝗲𝗹 𝗱𝗮𝘁𝗼. Para quien venda IA dentro de una entidad regulada, el terreno se decide en compliance y no en la demo.\n\n#GoldmanSachs #GitHubCopilot #ClaudeCode #VibeCoding\n\nhttps://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "herramientas",
+      "title": "OpenVDDK, el reemplazo open source del oculto migrador de máquinas virtuales de VMware",
+      "summary": "Un arquitecto ha publicado OpenVDDK, una alternativa open source a la herramienta de migración de máquinas virtuales que VMware ha ocultado. Según The Register, ya se usa en producción a escala.",
+      "why_it_matters": "Devuelve a las empresas una vía para salir de VMware sin depender de un binario cerrado.",
+      "url": "https://www.theregister.com/virtualization/2026/11/03/architect-creates-open-source-replacement-for-vm-migration-tool-vmware-has-hidden/5307124",
+      "source": "The Register",
+      "social": {
+        "x": "🔓 VMware escondió la herramienta que permitía sacar tus máquinas virtuales de su plataforma. Un arquitecto acaba de publicar una alternativa open source que ya corre en producción.\n\n#VMware #OpenVDDK #OpenSource #Broadcom\nhttps://www.theregister.com/virtualization/2026/11/03/architect-creates-open-source-replacement-for-vm-migration-tool-vmware-has-hidden/5307124",
+        "linkedin": "VMware escondió la herramienta que permitía migrar tus máquinas virtuales fuera de VMware. Ya hay una alternativa open source y se está usando en producción a escala.\n\nOpenVDDK, publicada por un arquitecto independiente, cubre el mismo trabajo que el migrador cerrado, pero sin binario opaco y sin depender de que Broadcom decida mantenerlo disponible mañana. 𝗘𝗹 𝗰𝗼𝘀𝘁𝗲 𝗿𝗲𝗮𝗹 𝗱𝗲 𝘀𝗮𝗹𝗶𝗿 𝗱𝗲 𝗩𝗠𝘄𝗮𝗿𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘁é𝗰𝗻𝗶𝗰𝗼 y pasa a ser una cuestión de calendario. Para quien tiene un plan de salida a medias o congelado desde el cambio de licencias, esta era la pieza que faltaba.\n\n#VMware #OpenVDDK #OpenSource #Broadcom\n\nhttps://www.theregister.com/virtualization/2026/11/03/architect-creates-open-source-replacement-for-vm-migration-tool-vmware-has-hidden/5307124"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "investigacion",
+      "title": "Toyota integra los pesos del modelo y el sistema operativo en memoria del propio SoC",
+      "summary": "Toyota ha presentado un SoC que guarda los pesos del modelo y su sistema operativo en memoria integrada. La compañía busca evitar el cuello de botella de acceder a memoria externa, algo crítico para la IA física en vehículos.",
+      "why_it_matters": "Ata hardware y modelo para reducir latencia en sistemas embarcados de conducción.",
+      "url": "https://www.theregister.com/systems/2026/11/03/toyota-shows-off-soc-that-stores-model-weights-and-its-os-on-integrated-memory/5307117",
+      "source": "The Register",
+      "social": {
+        "x": "El cuello de botella de la IA en el coche no era el cómputo: era ir a buscar los pesos a la memoria. Toyota acaba de meterlo todo dentro del chip.\n\n#Toyota #SoC #EdgeAI #Automoción\nhttps://www.theregister.com/systems/2026/11/03/toyota-shows-off-soc-that-stores-model-weights-and-its-os-on-integrated-memory/5307117",
+        "linkedin": "El cuello de botella de la IA en el coche no estaba en el cómputo, sino en el viaje hasta la memoria externa. Toyota ha presentado un SoC que guarda los pesos del modelo y su sistema operativo en memoria integrada, de forma que 𝗹𝗮 𝗶𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲𝗹 𝗯𝘂𝘀 𝗲𝘅𝘁𝗲𝗿𝗻𝗼. Para la conducción embarcada eso se traduce en menos latencia y menos consumo, pero también en un vínculo muy rígido entre hardware y modelo: cambiar de red puede obligar a cambiar de chip. En un sector que diseña vehículos a siete o diez años vista, la duda es si esa atadura compensa frente a la flexibilidad de actualizar el modelo por software.\n\n#Toyota #SoC #EdgeAI #Automoción\n\nhttps://www.theregister.com/systems/2026/11/03/toyota-shows-off-soc-that-stores-model-weights-and-its-os-on-integrated-memory/5307117"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Google desmantela una botnet que operaba en 1,3 millones de Android TV",
+      "summary": "Google ha desmantelado una botnet que operaba en 1,3 millones de Android TV boxes y ha cortado la relación con la empresa que las distribuía. Los dispositivos venían con una puerta trasera incorporada.",
+      "why_it_matters": "Recuerda que el software preinstalado en hardware barato puede convertirse en infraestructura de ataque.",
+      "url": "https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes",
+      "source": "Ars Technica",
+      "social": {
+        "x": "El firmware de fábrica de 1,3 millones de Android TV boxes era, en realidad, una botnet. Y no la instaló ningún usuario.\n\n#AndroidTV #Botnet #Google #Ciberseguridad\nhttps://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes",
+        "linkedin": "El firmware de fábrica de 1,3 millones de Android TV boxes era, en realidad, una botnet. Nadie la instaló: venía en la caja.\nGoogle ha desmantelado la red y ha cortado la relación con la empresa que distribuía esos dispositivos, pero el aviso va más allá de este caso. En cualquier despliegue con hardware barato, 𝗲𝗹 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗽𝗿𝗲𝗶𝗻𝘀𝘁𝗮𝗹𝗮𝗱𝗼 𝗲𝘀 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲 𝘁𝘂 𝘀𝘂𝗽𝗲𝗿𝗳𝗶𝗰𝗶𝗲 𝗱𝗲 𝗮𝘁𝗮𝗾𝘂𝗲 y casi nunca pasa por una revisión previa. Si compras cajas sin marca para digital signage o kioscos, ese firmware es tu responsabilidad, no la del fabricante que un día deja de existir.\n\n#AndroidTV #Botnet #Google #Ciberseguridad\n\nhttps://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Anthropic admite que su factura de cómputo podría superar el billón de dólares",
+      "summary": "La documentación revisada de la salida a bolsa de Anthropic advierte de que su factura de cómputo podría superar el billón de dólares y de que multiplicar los ingresos por 12 no se repetirá con facilidad. Los ingresos del tercer trimestre se acercan a 17.000 millones.",
+      "why_it_matters": "Pone cifras a la tensión entre ingresos y coste de cómputo en los grandes laboratorios de IA.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/02/anthropics-compute-tab-could-top-1t-as-q3-revenue-nears-17b/5307089",
+      "source": "The Register",
+      "social": {
+        "x": "Un billón de dólares en cómputo. Esa es la cifra que Anthropic maneja en los papeles de su salida a bolsa, frente a unos ingresos trimestrales de 17.000 millones.\n\n#Anthropic #Nvidia #CentrosDeDatos\nhttps://www.theregister.com/ai-and-ml/2026/11/02/anthropics-compute-tab-could-top-1t-as-q3-revenue-nears-17b/5307089",
+        "linkedin": "Anthropic pone por escrito lo que casi ningún laboratorio admite: su factura de cómputo podría superar el billón de dólares.\n\nLos ingresos del tercer trimestre rondan los 17.000 millones y la propia compañía avisa de que multiplicar ingresos por 12 no se repetirá con facilidad. La lectura útil para cualquier equipo es que 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗰ó𝗺𝗽𝘂𝘁𝗼 𝘀𝗲 𝗵𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝗲𝗹 𝗳𝗮𝗰𝘁𝗼𝗿 𝗾𝘂𝗲 𝗱𝗲𝗰𝗶𝗱𝗲 𝗾𝘂𝗶é𝗻 𝗮𝗴𝘂𝗮𝗻𝘁𝗮 𝗲𝗻 𝗹𝗮 𝗰𝗮𝗿𝗿𝗲𝗿𝗮, por delante del talento o del modelo. Si tu plan de negocio necesita crecer a ese ritmo solo para pagar infraestructura, el plan tiene un problema.\n\n#Anthropic #Nvidia #CentrosDeDatos\n\nhttps://www.theregister.com/ai-and-ml/2026/11/02/anthropics-compute-tab-could-top-1t-as-q3-revenue-nears-17b/5307089"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "CLI en Rust para gestionar worktrees de Git pensada para flujos con varios agentes de IA trabajando en paralelo. Evita que cada agente te ensucie el árbol principal y hace fácil saltar entre ramas sin conflictos.",
+      "language": "Rust",
+      "stars": 10369,
+      "social": {
+        "x": "10.369 estrellas para un CLI en Rust que le da a cada agente de IA su propio worktree de Git. Se acabó que te ensucien la rama principal.\n\n#worktrunk #Rust #Git #OpenSource\nhttps://github.com/max-sixty/worktrunk",
+        "linkedin": "TU AGENTE DE IA NO DEBERÍA TOCAR TU RAMA PRINCIPAL.\n\nLanzas tres agentes en paralelo, cada uno hace commit donde le apetece y acabas con el árbol de trabajo hecho un desastre. Cambiar de rama se convierte en una carrera de obstáculos y en un stash de emergencia detrás de otro.\n\nworktrunk es un CLI en Rust que da un worktree de Git a cada agente: 𝗰𝗮𝗱𝗮 𝗮𝗴𝗲𝗻𝘁𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗮 𝗲𝗻 𝘀𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 𝗱𝗶𝗿𝗲𝗰𝘁𝗼𝗿𝗶𝗼, 𝘀𝗶𝗻 𝗽𝗶𝘀𝗮𝗿𝘀𝗲 𝗰𝗼𝗻 𝗹𝗼𝘀 𝗱𝗲𝗺á𝘀.\n\n→ Crea, cambia y elimina worktrees con comandos cortos, sin memorizar la sintaxis de git worktree.\n→ Salta entre ramas y agentes sin conflictos ni checkouts a destiempo.\n→ El árbol principal queda limpio, así que no pierdes trabajo por tener dos tareas abiertas a la vez.\n→ Escrito en Rust, con más de 10.000 estrellas y pensado desde cero para flujos con varios agentes en paralelo.\n\nSi ya usas más de un agente a la vez, esto te ahorra el peor tipo de conflicto: el que descubres cuando ya has perdido media tarde reconstruyendo el árbol.\n\nGuarda el post y te dejo el repo abajo.\n\n#worktrunk #Rust #Git #OpenSource\n\nhttps://github.com/max-sixty/worktrunk"
+      }
+    },
+    {
+      "name": "anomalyco/hex",
+      "url": "https://github.com/anomalyco/hex",
+      "description": "Dictado por voz local para macOS, Windows y Linux, sin pasar por la nube. Muy práctico para escribir prompts y código hablando, con la tranquilidad de que el audio no sale de tu máquina.",
+      "language": "Rust",
+      "stars": 4399,
+      "social": {
+        "x": "🎙️ Dictas prompts y código hablando y el audio nunca sale de tu máquina. 4.399 estrellas para este dictado por voz en Rust, sin nube de por medio.\n\n#OpenSource #Rust #DictadoPorVoz #Productividad\nhttps://github.com/anomalyco/hex",
+        "linkedin": "HABLAR EN VEZ DE ESCRIBIR PROMPTS, Y QUE EL AUDIO NO SALGA DE TU PORTÁTIL.\n\nCasi todos los dictados por voz funcionan igual: grabas, el audio sube a un servidor, se transcribe y vuelve el texto. Cuando lo que dictas son prompts, código o rutas de archivo, esa subida sobra. Hex se lo salta: la transcripción ocurre en tu propia máquina.\n\nLa clave es que 𝗲𝗹 𝗮𝘂𝗱𝗶𝗼 𝗻𝗼 𝘀𝗮𝗹𝗲 𝗱𝗲 𝘁𝘂 𝗺á𝗾𝘂𝗶𝗻𝗮, ni para transcribir ni para nada.\n\n→ Dictado 100% local en macOS, Windows y Linux, sin pasar por la nube.\n→ Pensado para escribir prompts y código hablando, en lugar de pelearte con el teclado.\n→ Escrito en Rust, con el rendimiento que eso implica en un proceso que está siempre en segundo plano.\n→ 4.399 estrellas y código abierto, para revisar qué hace exactamente con tu micrófono.\n\nSi pasas el día delante del editor, pruébalo y guarda este post: el repo está justo abajo.\n\n#OpenSource #Rust #DictadoPorVoz #Productividad\n\nhttps://github.com/anomalyco/hex"
+      }
+    },
+    {
+      "name": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "description": "Framework de web scraping en Python que cubre desde una petición suelta hasta un crawl a gran escala. Incluye utilidades para esquivar bloqueos y adaptarse a cambios en el HTML, así que vale tanto para una prueba rápida como para un proyecto serio.",
+      "language": "Python",
+      "stars": 94238
+    },
+    {
+      "name": "Usagi-org/ai-goofish-monitor",
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "description": "Sistema de monitorización con Playwright e IA para el mercado de segunda mano Xianyu, con panel de administración y análisis inteligente de los anuncios. Sirve de referencia si quieres montar un vigilante de precios con IA, aunque el mercado sea chino.",
+      "language": "Python",
+      "stars": 16295,
+      "social": {
+        "x": "16.295 estrellas para un bot que vigila Xianyu (el Wallapop chino) con Playwright e IA y te avisa cuando aparece la ganga.\n\n#Python #Playwright #OpenSource #GitHub\nhttps://github.com/Usagi-org/ai-goofish-monitor",
+        "linkedin": "ALGUIEN CONVIRTIÓ EL ARTE DE CAZAR GANGAS EN UN SISTEMA CON IA Y PANEL DE ADMINISTRACIÓN.\n\nXianyu es el mercado de segunda mano de referencia en China, el equivalente a Wallapop o Vinted con miles de anuncios nuevos cada hora. El problema es el de siempre: si no estás mirando en el momento exacto, la oportunidad vuela. Este repo de Python resuelve eso con Playwright para navegar y un modelo de IA que analiza cada anuncio en lugar de limitarse a buscar palabras clave.\n\n→ Monitorización continua del mercado con Playwright, sin depender de APIs cerradas\n→ Análisis inteligente de cada anuncio: la IA interpreta el texto y descarta lo que no encaja\n→ Panel de administración para gestionar búsquedas, reglas y avisos\n→ Stack en Python, fácil de adaptar a otros mercados cambiando el scraper\n\nEl mercado es chino, sí, pero 𝗲𝗹 𝗽𝗮𝘁𝗿ó𝗻 𝗱𝗲 𝘃𝗶𝗴𝗶𝗹𝗮𝗻𝘁𝗲 𝗱𝗲 𝗽𝗿𝗲𝗰𝗶𝗼𝘀 𝗰𝗼𝗻 𝗜𝗔 𝗲𝘀 𝗹𝗼 𝗾𝘂𝗲 𝗺𝗲𝗿𝗲𝗰𝗲 𝗹𝗮 𝗽𝗲𝗻𝗮 𝗰𝗼𝗽𝗶𝗮𝗿: scraping con Playwright, filtro semántico y notificación. Con 16.295 estrellas encima, hay bastante código que leer antes de montar el tuyo.\n\nGuarda el post para cuando te toque montar tu propio monitor de precios. El repo, abajo.\n\n#Python #Playwright #OpenSource #GitHub\n\nhttps://github.com/Usagi-org/ai-goofish-monitor"
+      }
+    },
+    {
+      "name": "floci-io/floci",
+      "url": "https://github.com/floci-io/floci",
+      "description": "Emulador local de AWS, ligero y gratuito, para probar servicios en la nube sin gastar ni depender de la conexión. Alternativa a LocalStack para levantar el entorno de desarrollo en tu propia máquina.",
+      "language": "Java",
+      "stars": 28500,
+      "social": {
+        "x": "LocalStack te obliga a pasar por caja para casi todo. Este emulador de AWS en local es gratis, open source y ya acumula 28.500 estrellas.\n\n#floci #AWS #OpenSource #Java\nhttps://github.com/floci-io/floci",
+        "linkedin": "TU FACTURA DE AWS NO DEBERÍA SUBIR POR PROBAR UN ENDPOINT.\n\nLevantar un entorno de desarrollo contra la nube real tiene dos problemas de siempre: cada prueba cuesta dinero y cada test depende de que la conexión aguante. floci es un emulador local de AWS, ligero y gratuito, escrito en Java, que se presenta como alternativa a LocalStack para montar el entorno en tu propia máquina.\n\nLa diferencia no es solo el precio: 𝗮𝗾𝘂í 𝗲𝗹 𝗲𝗻𝘁𝗼𝗿𝗻𝗼 𝘃𝗶𝘃𝗲 𝗲𝗻 𝘁𝘂 𝗽𝗼𝗿𝘁á𝘁𝗶𝗹, 𝗻𝗼 𝗲𝗻 𝘂𝗻𝗮 𝗰𝘂𝗲𝗻𝘁𝗮 𝗮𝗷𝗲𝗻𝗮, así que puedes iterar sin mirar el medidor ni esperar a que responda el proveedor.\n\n→ Emula servicios de AWS en local para desarrollo y pruebas\n→ Sin coste por petición ni cuotas mensuales\n→ Funciona sin conexión, útil en CI y en según qué sitios\n→ Alternativa open source a LocalStack\n→ 28.500 estrellas y stack Java, fácil de integrar en tu pipeline\n\nSi tu equipo prueba contra la nube de verdad, esto le quita un cero a la factura y un punto de fallo al pipeline. Guarda el post: te dejo el repo justo abajo.\n\n#floci #AWS #OpenSource #Java\n\nhttps://github.com/floci-io/floci"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "El orden real en que SQL ejecuta tu consulta y por qué explica tus resultados raros",
+      "url": "https://medium.com/@balasinghrp/sqls-hidden-query-execution-order-8fd8aee2c16d",
+      "source": "Medium: Data Science",
+      "summary": "Recorre paso a paso el orden lógico de procesamiento de una consulta SQL, siguiendo un ejemplo que pasa de 56 filas a 2. Queda claro por qué el WHERE no puede usar un alias definido en el SELECT y por qué ORDER BY o LIMIT se aplican mucho después de filtrar. Sirve para depurar consultas que devuelven resultados inesperados sin tocar el motor.",
+      "tema": "datos"
+    },
+    {
+      "title": "Jobs idempotentes en Rails: cómo hacer que los reintentos no rompan nada",
+      "url": "https://medium.com/ruby-rails-in-practice/idempotent-jobs-in-rails-making-retries-safe-2bde8ebf2336",
+      "source": "Medium: Programming",
+      "summary": "Explica por qué un worker interrumpido puede haber tocado ya la base de datos antes de confirmar que el trabajo está terminado, y qué ocurre cuando el job se vuelve a lanzar. Describe patrones para que reintentar sea seguro y no duplique efectos secundarios.",
+      "tema": "programacion"
+    },
+    {
+      "title": "El CSS moderno puede hacer más complejo tu front-end, no menos",
+      "url": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex",
+      "source": "Smashing Magazine",
+      "summary": "Analiza qué ocurre cuando se sustituye código JavaScript por una funcionalidad de CSS moderno: el fragmento gana en sencillez, pero la lógica queda repartida entre dos lenguajes y cuesta más razonar sobre el conjunto. Aporta pautas prácticas para mantener la complejidad bajo control durante una migración.",
+      "tema": "web"
+    },
+    {
+      "title": "Cómo cambia la ingeniería de software: dos épocas en la misma profesión",
+      "url": "https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing",
+      "source": "The Pragmatic Engineer",
+      "summary": "Es el ensayo ganador de un reto de lectores de The Pragmatic Engineer sobre cómo ha cambiado la forma de construir software y qué tensiones aparecen entre etapas muy distintas de la profesión. Va bien para tomar perspectiva sobre tu propia trayectoria y sobre las habilidades que están ganando peso.",
+      "tema": "carrera"
+    },
+    {
+      "title": "Pipelines de decisión rápidos: clasificar con un LLM sin generar texto",
+      "url": "https://www.freecodecamp.org/news/high-speed-decision-pipelines-jev-and-prefill-only-inference-from-scratch",
+      "source": "freeCodeCamp",
+      "summary": "Parte de una premisa concreta: si solo necesitas una clasificación o un enrutado, no hace falta generar párrafos token a token. Construye desde cero ese tipo de pipeline y explica por qué la inferencia basada solo en prefill resulta mucho más rápida y menos costosa en memoria que la generación autorregresiva.",
+      "tema": "ia"
+    },
+    {
+      "title": "Es normal que los ordenadores nos superen (a veces)",
+      "url": "https://stackoverflow.blog/2026/10/30/it-s-ok-that-computers-are-sometimes-better-than-us",
+      "source": "Stack Overflow Blog",
+      "summary": "Conversación con Charity Majors sobre llevar la infraestructura inmutable al desarrollo, tratar el código como ganado y no como mascota, y replantear las especificaciones ante la llegada masiva de código generado por IA. También aborda dónde poner el límite entre observabilidad y vigilancia de las personas, ideas que siguen valiendo cuando cambien las herramientas.",
+      "tema": "arquitectura"
+    }
+  ]
+}
