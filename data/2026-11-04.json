@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T17:58:40.021Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Dharma Field Extractor convierte cualquier documento en campos JSON estructurados",
+      "summary": "Dharma-AI ha publicado en Hugging Face un modelo que recibe documentos de distinto formato y devuelve campos estructurados en JSON. La propuesta evita montar un pipeline propio de extracción y está pensada para integrarse en flujos de trabajo que necesitan datos limpios. El blog incluye ejemplos de uso y el espacio del modelo para probarlo.",
+      "why_it_matters": "Simplifica una de las tareas más repetitivas al construir aplicaciones con IA: pasar de documentos sin estructura a datos utilizables.",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Convierte cualquier documento en campos JSON limpios, sin montar tu propio pipeline de extracción. Y ya se puede probar.\n\n#HuggingFace #DharmaAI #OpenSource #LLM\nhttps://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+        "linkedin": "La extracción de datos de documentos es de esas tareas que nadie quiere mantener y todos acaban reescribiendo.\n\nDharma-AI ha publicado en Hugging Face un modelo que recibe documentos de varios formatos y devuelve los campos ya en JSON: 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘁𝗲𝗻𝗲𝗿 𝘀𝗲𝗻𝘁𝗶𝗱𝗼 𝗺𝗼𝗻𝘁𝗮𝗿 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 para los casos estándar. El esfuerzo se desplaza del parsing al diseño del esquema, que es donde está el valor real. Si tu equipo mantiene un script de extracción a mano, es buen momento para compararlo con esto.\n\n#HuggingFace #DharmaAI #OpenSource #LLM\n\nhttps://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "investigacion",
+      "title": "GPT-6 Astra puede leer y reescribir los pesos de otros modelos",
+      "summary": "Investigadores del MIT han comprobado que GPT-6 Astra puede modificar directamente los pesos de otros modelos sin pasar por un entrenamiento convencional. En un experimento subió la precisión matemática de un modelo Qwen del 7,9 % al 48,1 % cambiando solo el 0,016 % de sus pesos. El método aún tiene límites claros, pero abre una vía distinta para optimizar modelos.",
+      "why_it_matters": "Si se consolida, cambiaría la forma de ajustar y mejorar modelos sin reentrenarlos.",
+      "url": "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights",
+      "source": "The Decoder",
+      "social": {
+        "x": "GPT-6 Astra ha subido la precisión matemática de otro modelo del 7,9 % al 48,1 % tocando solo el 0,016 % de sus pesos. Sin entrenamiento de por medio.\n\n#OpenAI #MIT #Qwen #FineTuning\nhttps://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights",
+        "linkedin": "Un modelo acaba de reescribir los pesos de otro. Y ha funcionado.\n\nInvestigadores del MIT han comprobado que GPT-6 Astra puede modificar directamente los pesos de un modelo Qwen sin pasar por un entrenamiento convencional: 𝗰𝗮𝗺𝗯𝗶𝗮𝗻𝗱𝗼 𝘀𝗼𝗹𝗼 𝗲𝗹 𝟬,𝟬𝟭𝟲 % 𝗱𝗲 𝗹𝗼𝘀 𝗽𝗲𝘀𝗼𝘀, 𝗹𝗮 𝗽𝗿𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗺𝗮𝘁𝗲𝗺á𝘁𝗶𝗰𝗮 𝘀𝗮𝗹𝘁ó 𝗱𝗲𝗹 𝟳,𝟵 % 𝗮𝗹 𝟰𝟴,𝟭 %. El método aún tiene límites claros, pero abre otra vía para optimizar modelos: tocar lo justo en lugar de reentrenar. Para quien hoy presupuesta GPUs y semanas de fine-tuning, la pregunta ya no es si esto conviene, sino cuándo compensa.\n\n#OpenAI #MIT #Qwen #FineTuning\n\nhttps://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Google lanza LiteRT Tensor API para crear modelos de ML en el dispositivo",
+      "summary": "Google ha presentado LiteRT Tensor API, una API ligera de C++ para construir, personalizar y optimizar modelos de machine learning que se ejecutan en el dispositivo. La propuesta combina la flexibilidad de escribir modelos de forma nativa con la portabilidad entre plataformas. Está orientada a desarrolladores que necesitan inferencia local sin depender de la nube.",
+      "why_it_matters": "Da a los desarrolladores una vía más directa para llevar modelos propios a móviles y otros dispositivos.",
+      "url": "https://www.infoq.com/news/2026/11/litert-tensor-api",
+      "source": "InfoQ",
+      "social": {
+        "x": "Google abre una vía para escribir modelos de ML en C++ y afinarlos en el propio dispositivo. La nube deja de ser el peaje obligatorio.\n\n#LiteRT #Google #EdgeAI #MachineLearning\nhttps://www.infoq.com/news/2026/11/litert-tensor-api",
+        "linkedin": "La inferencia local acaba de ganar la pieza que le faltaba: una forma decente de escribir el modelo, no solo de ejecutarlo.\n\nLiteRT Tensor API es una API ligera de C++ para construir, personalizar y optimizar modelos que corren en el dispositivo, con portabilidad entre plataformas. Hasta ahora lo habitual era entrenar fuera, exportar y confiar en que el runtime aceptara el resultado; esto permite trabajar el modelo de forma nativa y ajustarlo donde va a vivir. 𝗣𝗮𝗿𝗮 𝗲𝗾𝘂𝗶𝗽𝗼𝘀 𝗰𝗼𝗻 𝗿𝗲𝗾𝘂𝗶𝘀𝗶𝘁𝗼𝘀 𝗱𝗲 𝗹𝗮𝘁𝗲𝗻𝗰𝗶𝗮, 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝗼 𝗰𝗼𝘀𝘁𝗲 𝗽𝗼𝗿 𝗹𝗹𝗮𝗺𝗮𝗱𝗮, 𝗲𝘀 𝗹𝗮 𝗲𝘅𝗰𝘂𝘀𝗮 𝗽𝗮𝗿𝗮 𝗿𝗲𝗽𝗹𝗮𝗻𝘁𝗲𝗮𝗿𝘀𝗲 𝗾𝘂é 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝘁𝗶𝗲𝗻𝗲 𝗾𝘂𝗲 𝗲𝘀𝘁𝗮𝗿 𝗲𝗻 𝗹𝗮 𝗻𝘂𝗯𝗲.\n\n#LiteRT #Google #EdgeAI #MachineLearning\n\nhttps://www.infoq.com/news/2026/11/litert-tensor-api"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "investigacion",
+      "title": "Anthropic prueba FlashProve para verificar qué modelo generó una respuesta",
+      "summary": "Anthropic ha publicado FlashProve, un prototipo de investigación que usa criptografía para comprobar si una respuesta de IA procede realmente del modelo que dice ser. El sistema no necesita exponer los pesos del modelo, aunque todavía tiene limitaciones importantes. TechCrunch lo describe como un paso hacia la trazabilidad de las respuestas generadas.",
+      "why_it_matters": "La verificación del origen de una respuesta gana peso a medida que los modelos se integran en productos y servicios.",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Ya se puede demostrar criptográficamente qué modelo generó una respuesta, sin exponer sus pesos. Anthropic lo ha probado con FlashProve.\n\n#Anthropic #Criptografía #ModelosDeLenguaje\nhttps://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity",
+        "linkedin": "Verificar de dónde viene una respuesta de IA suena a detalle técnico hasta que hay que demostrar qué modelo contestó a un cliente.\n\nAnthropic ha publicado FlashProve, un prototipo de investigación que usa criptografía para comprobar que una respuesta salió del modelo que dice, 𝘀𝗶𝗻 𝗻𝗲𝗰𝗲𝘀𝗶𝗱𝗮𝗱 𝗱𝗲 𝗲𝘅𝗽𝗼𝗻𝗲𝗿 𝗹𝗼𝘀 𝗽𝗲𝘀𝗼𝘀. Todavía arrastra limitaciones importantes, así que no es una pieza lista para producción, pero apunta a un cambio de fondo: la trazabilidad deja de ser un extra y pasa a ser un requisito de producto. Para quien integra modelos de terceros, la pregunta ya no es solo cuál rinde más, sino cuál puede demostrar lo que afirma.\n\n#Anthropic #Criptografía #ModelosDeLenguaje\n\nhttps://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "investigacion",
+      "title": "CloudOpsBench mide cómo se manejan los agentes de IA en tareas de DevOps",
+      "summary": "Un nuevo benchmark open source evalúa a los agentes de IA en tareas habituales de operaciones cloud, como arreglar servicios, retirar recursos, limitar permisos o desplegar actualizaciones. La versión 1.0 incluye 45 tareas sobre AWS y fue creada por ingenieros de DevOps con experiencia. Los mejores modelos siguen fallando, y el razonamiento aparece como el principal cuello de botella.",
+      "why_it_matters": "Pone una referencia concreta para saber si los agentes de IA están listos para tocar infraestructura real.",
+      "url": "https://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations",
+      "source": "The Decoder",
+      "social": {
+        "x": "Los mejores modelos de IA fallan al arreglar un servicio caído en AWS. El cuello de botella no es el código: es el razonamiento.\n\n#DevOps #AWS #OpenSource #CloudOpsBench\nhttps://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations",
+        "linkedin": "Los mejores modelos de IA todavía fallan cuando hay que arreglar un servicio caído en AWS.\n\nCloudOpsBench, un benchmark open source con 45 tareas de operaciones cloud, pone por fin una referencia medible: no si el agente escribe código bonito, sino si sabe retirar recursos, limitar permisos o desplegar actualizaciones sin romper nada. Y el cuello de botella que aparece no es la ejecución, sino 𝗲𝗹 𝗿𝗮𝘇𝗼𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼: planificar qué tocar y en qué orden. Para quien esté pensando en dar a un agente acceso a infraestructura real, la pregunta ya no es si impresiona en una demo, sino si pasa estas 45 tareas.\n\n#DevOps #AWS #OpenSource #CloudOpsBench\n\nhttps://the-decoder.com/new-open-source-benchmark-reveals-reasoning-as-the-biggest-bottleneck-for-ai-in-cloud-operations"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "investigacion",
+      "title": "OpenAI dice que GPT-6 Astra diseñó un dispositivo de hardware en menos de una semana",
+      "summary": "El equipo de hardware de OpenAI utilizó GPT-6 Astra para diseñar un dispositivo para el agente de código Codex en menos de una semana, desde la carcasa hasta la placa y el firmware. Hicieron falta varias rondas de revisión antes de producir porque el modelo no siempre tenía en cuenta las tolerancias de fabricación. Un modelo interno más nuevo obtiene mejores resultados en su benchmark de ingeniería, aunque OpenAI no da detalles.",
+      "why_it_matters": "Muestra hasta dónde llega la IA en tareas de ingeniería física y dónde siguen apareciendo los límites.",
+      "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week",
+      "source": "The Decoder",
+      "social": {
+        "x": "OpenAI diseñó un dispositivo completo, carcasa, placa y firmware, con GPT-6 Astra en menos de una semana. A los humanos les tocó pelear con las tolerancias de fabricación.\n\n#OpenAI #GPT6 #Codex #Hardware\nhttps://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week",
+        "linkedin": "Una semana. Eso tardó el equipo de hardware de OpenAI en llegar a un dispositivo completo con GPT-6 Astra: carcasa, placa y firmware incluidos.\n\nEl detalle interesante no es la velocidad, sino dónde se atascó: el modelo no siempre tenía en cuenta las tolerancias de fabricación y hicieron falta varias rondas de revisión antes de producir. 𝗟𝗮 𝗜𝗔 𝘆𝗮 𝗮𝗰𝗲𝗹𝗲𝗿𝗮 𝗲𝗹 𝗱𝗶𝘀𝗲ñ𝗼, 𝗽𝗲𝗿𝗼 𝗹𝗮 𝘃𝗮𝗹𝗶𝗱𝗮𝗰𝗶ó𝗻 𝗳í𝘀𝗶𝗰𝗮 𝘀𝗶𝗴𝘂𝗲 𝘀𝗶𝗲𝗻𝗱𝗼 𝗵𝘂𝗺𝗮𝗻𝗮, y ahí se concentra el cuello de botella. Para cualquier equipo de ingeniería, la pregunta deja de ser quién dibuja la pieza y pasa a ser dónde coloca la revisión.\n\n#OpenAI #GPT6 #Codex #Hardware\n\nhttps://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Cuatro capas de context engineering para agentes de IA en producción",
+      "summary": "AWS explica un framework de cuatro capas para gestionar el contexto de agentes de IA en producción: arquitectura, prompts, herramientas basadas en ficheros y agentes de verificación. El artículo lo aplica con código real de Deep Insight, una solución open source de análisis de datos multiagente sobre Strands Agents SDK y Amazon Bedrock AgentCore. La idea central es que el contexto, y no solo el modelo, marca la calidad del agente.",
+      "why_it_matters": "Ofrece una guía práctica y código para evitar que los agentes pierdan el hilo en flujos largos.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Tu agente no falla por el modelo. Falla por el contexto que le das. AWS propone cuatro capas para arreglarlo, con código real de por medio.\n\n#AWS #AgentCore #StrandsAgents #ContextEngineering\nhttps://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code",
+        "linkedin": "Tu agente no falla por el modelo. Falla por el contexto que le das.\n\nAWS acaba de publicar un framework de cuatro capas para gestionar el contexto de agentes en producción: arquitectura, prompts, herramientas basadas en ficheros y agentes de verificación. Y no se queda en la teoría: lo aplica con código real de Deep Insight, una solución open source de análisis de datos multiagente sobre Strands Agents SDK y Amazon Bedrock AgentCore. La conclusión práctica es que 𝗲𝗹 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼, 𝗻𝗼 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗱𝗲𝗰𝗶𝗱𝗲 𝗹𝗮 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲, y eso cambia por dónde empiezas a depurar cuando algo se rompe en un flujo largo. Si tienes agentes en producción, esto se lee antes de tocar otro prompt.\n\n#AWS #AgentCore #StrandsAgents #ContextEngineering\n\nhttps://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "Uncracked City, un juego de detectives donde los sospechosos son LLM que mienten",
+      "summary": "Uncracked City propone casos ambientados en barrios reales en los que hay que interrogar a sospechosos gestionados por LLM. El jugador puede escribir o dictar sus preguntas en seis idiomas, y cada sospechoso responde y puede mentir. El objetivo es reunir pruebas y redactar el informe que nadie ha conseguido escribir.",
+      "why_it_matters": "Es un ejemplo jugable de cómo los LLM cambian la interacción en videojuegos y narrativa interactiva.",
+      "url": "https://uncracked.city",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un juego donde los sospechosos son LLM y pueden mentirte. Interrogas escribiendo o dictando en seis idiomas, y el caso no se cierra hasta que redactas el informe.\n\n#LLM #Videojuegos #NarrativaInteractiva #GameDesign\nhttps://uncracked.city",
+        "linkedin": "Los sospechosos de este juego no siguen un guion: son LLM y pueden mentirte.\n\nUncracked City plantea casos en barrios reales donde interrogas a personajes gestionados por modelos de lenguaje, escribiendo o dictando en seis idiomas, y tú decides cuándo tienes pruebas suficientes para redactar el informe. Lo interesante no es que la IA genere texto, sino que 𝗲𝗹 𝗷𝘂𝗲𝗴𝗼 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗹𝗮 𝗺𝗲𝗻𝘁𝗶𝗿𝗮 𝗲𝗻 𝗹𝗮 𝗺𝗲𝗰á𝗻𝗶𝗰𝗮 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹: el reto pasa a ser detectar cuándo un personaje improvisa una coartada falsa. Para quien diseña narrativa interactiva, esto mueve el suelo bajo los pies del árbol de diálogos de toda la vida.\n\n#LLM #Videojuegos #NarrativaInteractiva #GameDesign\n\nhttps://uncracked.city"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "Netflix prueba una pestaña de descubrimiento con IA para elegir qué ver",
+      "summary": "Netflix ha empezado a probar una pestaña de descubrimiento basada en IA que recomienda contenido según el estado de ánimo del usuario. La primera función experimental del tablero pide al espectador qué le apetece ver y genera sugerencias a partir de esa respuesta. La compañía busca reducir el tiempo que se pierde navegando por el catálogo.",
+      "why_it_matters": "Acerca la recomendación conversacional al consumo diario de millones de personas.",
+      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El mayor problema de Netflix nunca fue el catálogo: es que no sabes qué ver. Ahora prueba una pestaña donde le dices a la IA qué te apetece y elige ella.\n\n#Netflix #Streaming #UX #SistemasDeRecomendación\nhttps://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood",
+        "linkedin": "Netflix lleva años compitiendo por tu tiempo, pero su verdadero enemigo está dentro de la app: la parálisis de elegir.\n\nLa compañía prueba una pestaña de descubrimiento en la que le dices a la IA qué te apetece y ella genera sugerencias a partir de tu estado de ánimo. 𝗘𝗹 𝗼𝗯𝗷𝗲𝘁𝗶𝘃𝗼 𝗻𝗼 𝗲𝘀 𝗿𝗲𝗰𝗼𝗺𝗲𝗻𝗱𝗮𝗿 𝗺𝗲𝗷𝗼𝗿, 𝗲𝘀 𝗿𝗲𝗰𝗼𝗿𝘁𝗮𝗿 𝗲𝗹 𝘁𝗶𝗲𝗺𝗽𝗼 𝗾𝘂𝗲 𝗽𝗮𝘀𝗮𝘀 𝗻𝗮𝘃𝗲𝗴𝗮𝗻𝗱𝗼 𝘀𝗶𝗻 𝘃𝗲𝗿 𝗻𝗮𝗱𝗮, porque ahí es donde se pierden horas de reproducción y, a la larga, suscripciones. Si el experimento cuaja, el patrón se extenderá a cualquier catálogo grande, del streaming a las tiendas de apps.\n\n#Netflix #Streaming #UX #SistemasDeRecomendación\n\nhttps://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Siri Recaps: útil desde el primer día, aunque con dudas de privacidad",
+      "summary": "La nueva función de resúmenes con IA de Siri ha convencido a la redacción de TechCrunch tras un día de uso, pese a las reservas sobre privacidad. Las recaps resumen notificaciones y contenido, y resultan más útiles de lo esperado. Eso sí, el sistema todavía tiene margen de mejora.",
+      "why_it_matters": "Es una de las primeras funciones de IA de Apple que afecta al uso cotidiano del iPhone.",
+      "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Siri ha empezado a resumirte las notificaciones sin que se lo pidas. Un día de uso basta para que cueste volver atrás, y también para preguntarse qué lee exactamente.\n\n#Siri #AppleIntelligence #Apple #Privacidad\nhttps://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling",
+        "linkedin": "La función de IA de Apple que más se va a notar no es la que te escribe textos: es la que decide qué merece tu atención.\n\nTras un día con Siri Recaps, en TechCrunch reconocen que los resúmenes de notificaciones son útiles desde el primer uso, algo poco habitual en funciones de IA que llegan por actualización. El detalle incómodo es el de siempre: 𝗽𝗮𝗿𝗮 𝗿𝗲𝘀𝘂𝗺𝗶𝗿 𝘁𝘂 𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗼, 𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝘁𝗶𝗲𝗻𝗲 𝗾𝘂𝗲 𝗹𝗲𝗲𝗿𝗹𝗼, y ahí Apple se juega el argumento con el que vende el iPhone. La IA en el móvil no se va a ganar con demos, sino con funciones que se usen sin pensar y que no obliguen a elegir entre comodidad y privacidad.\n\n#Siri #AppleIntelligence #Apple #Privacidad\n\nhttps://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "Amazon ECS Gateway llega con nombres de host generados y sin dominios personalizados",
+      "summary": "AWS ha lanzado Amazon ECS Gateway, un recurso de ingress a nivel de cuenta con el que los equipos de plataforma definen la red una vez y los equipos de aplicación activan sus servicios mediante un conector. Cada servicio recibe un nombre de host generado y el enrutado se basa en el host. Ni el anuncio ni la documentación cubren el uso de dominios personalizados.",
+      "why_it_matters": "Simplifica la exposición de servicios en ECS, aunque la falta de dominios propios limita su uso en producción.",
+      "url": "https://www.infoq.com/news/2026/11/introducing-amazon-ecs-gateway",
+      "source": "InfoQ",
+      "social": {
+        "x": "Amazon ECS Gateway te genera el nombre de host automáticamente. Lo que no te deja es poner el tuyo. Y en producción eso pesa.\n\n#AWS #ECS #Ingress #Cloud\nhttps://www.infoq.com/news/2026/11/introducing-amazon-ecs-gateway",
+        "linkedin": "El nuevo ingress de AWS resuelve la parte aburrida de exponer servicios en ECS. Y deja fuera justo la que importa cuando llega producción.\n\nAmazon ECS Gateway se define una vez a nivel de cuenta: el equipo de plataforma configura la red y los equipos de aplicación solo activan un conector para su servicio. 𝗖𝗮𝗱𝗮 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼 𝗿𝗲𝗰𝗶𝗯𝗲 𝘂𝗻 𝗵𝗼𝘀𝘁 𝗴𝗲𝗻𝗲𝗿𝗮𝗱𝗼 𝗽𝗼𝗿 𝗔𝗪𝗦, 𝘀𝗶𝗻 𝗼𝗽𝗰𝗶ó𝗻 𝗱𝗲 𝗱𝗼𝗺𝗶𝗻𝗶𝗼 𝗽𝗿𝗼𝗽𝗶𝗼, y ni el anuncio ni la documentación explican cómo ponerlo. Para staging, entornos internos o demos es un atajo muy cómodo; para producción obliga a seguir manteniendo un ALB o un ingress propio por delante. Habrá que ver si AWS lo plantea como fase 1 o como el diseño definitivo, porque tal cual está, el equipo de plataforma gana control y pierde la mitad de los casos de uso reales.\n\n#AWS #ECS #Ingress #Cloud\n\nhttps://www.infoq.com/news/2026/11/introducing-amazon-ecs-gateway"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "industria",
+      "title": "Revolut recorta diez veces el coste de programar con IA al pasar a modelos self-hosted",
+      "summary": "Revolut ha reducido el coste de sus herramientas de programación con IA hasta diez veces después de dejar de depender de Claude y pasar a modelos self-hosted. Según The Register, los tokens más baratos animan a los ingenieros a usarlos para depurar y resolver tickets de Jira. El movimiento encaja con la presión por controlar el gasto en IA dentro de las empresas.",
+      "why_it_matters": "Demuestra que el coste por token ya condiciona cómo las empresas eligen y despliegan sus herramientas de IA.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+      "source": "The Register",
+      "social": {
+        "x": "Revolut ha dejado Claude para programar con IA. La factura se ha reducido diez veces al pasar a modelos self-hosted, y los ingenieros ya usan más tokens para depurar.\n\n#Revolut #SelfHosted #LLM #Claude\nhttps://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+        "linkedin": "Revolut ha recortado diez veces lo que le cuesta que sus ingenieros programen con IA.\nEl cambio no viene de negociar con el proveedor: ha dejado Claude y ha pasado a modelos self-hosted, con tokens más baratos que el equipo usa para depurar y resolver tickets de Jira. La lectura profesional es que 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗽𝗼𝗿 𝘁𝗼𝗸𝗲𝗻 𝘆𝗮 𝗰𝗼𝗻𝗱𝗶𝗰𝗶𝗼𝗻𝗮 𝗰ó𝗺𝗼 𝘀𝗲 𝗲𝗹𝗶𝗴𝗲𝗻 𝘆 𝗱𝗲𝘀𝗽𝗹𝗶𝗲𝗴𝗮𝗻 𝗹𝗮𝘀 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 𝗱𝗲 𝗜𝗔 𝗲𝗻 𝗹𝗮 𝗲𝗺𝗽𝗿𝗲𝘀𝗮. Para los equipos que escalan asistentes de código, la pregunta deja de ser solo qué modelo responde mejor y pasa a ser cuánto cuesta cada consulta.\n\n#Revolut #SelfHosted #LLM #Claude\n\nhttps://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "El firmware cifrado de la Nvidia RTX Spark limita la inferencia al 35 % en Linux",
+      "summary": "Una prueba práctica con el portátil Nvidia RTX Spark y arranque dual en Linux ha encontrado un problema de limitación de la frecuencia de la GPU. El firmware cifrado de la máquina deja la inferencia en Linux en torno al 35 % de su rendimiento. El análisis concluye que, por ahora, WSL sigue siendo una mejor opción.",
+      "why_it_matters": "Avisa a quien quiera usar estas máquinas para IA local de que Linux todavía no ofrece el rendimiento esperado.",
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "source": "Hacker News",
+      "social": {
+        "x": "El firmware cifrado de la RTX Spark esconde un techo: en Linux la GPU rinde al 35 %. Y no hay forma de mirar dentro.\n\n#Nvidia #Linux #RTXSpark #WSL\nhttps://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+        "linkedin": "Instalar Linux en una RTX Spark deja la GPU al 35 % de su rendimiento. Y el culpable es un firmware que no puedes leer.\n\nEl análisis con arranque dual apunta a una limitación de frecuencia impuesta desde el firmware cifrado, así que por software no hay margen de maniobra: no es cuestión de afinarlo, es que no se puede tocar. Para quien se plantee estos portátiles como estación de inferencia local, toca asumirlo: 𝗵𝗼𝘆 𝗟𝗶𝗻𝘂𝘅 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝘃í𝗮 𝘆 𝗪𝗦𝗟 𝘀𝗶𝗴𝘂𝗲 𝗿𝗶𝗻𝗱𝗶𝗲𝗻𝗱𝗼 𝗺𝗲𝗷𝗼𝗿, con el mismo hardware debajo. Un recordatorio de que en IA local el rendimiento también se decide en capas que no controlas.\n\n#Nvidia #Linux #RTXSpark #WSL\n\nhttps://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "VMware vuelve a la virtualización de servidores de gama baja con vSphere Express",
+      "summary": "Broadcom ha presentado vSphere Express, una edición de VMware limitada a 128 núcleos y distribuida a través de los marketplaces de distribuidores. El lanzamiento recupera la presencia de VMware en el segmento de servidores pequeños y medianos. La compañía intenta además recuperar parte de la confianza perdida entre sus clientes.",
+      "why_it_matters": "Devuelve una opción asequible a quienes necesitan virtualizar pocos servidores sin entrar en los planes enterprise.",
+      "url": "https://www.theregister.com/virtualization/2026/11/04/vmware-returns-to-low-end-server-virtualization-with-vsphere-express/5307466",
+      "source": "The Register",
+      "social": {
+        "x": "VMware vuelve a mirar a los servidores pequeños. vSphere Express llega con tope de 128 núcleos y una duda de fondo: ¿basta para recuperar la confianza perdida?\n\n#VMware #vSphere #Broadcom #Virtualización\nhttps://www.theregister.com/virtualization/2026/11/04/vmware-returns-to-low-end-server-virtualization-with-vsphere-express/5307466",
+        "linkedin": "VMware vuelve a donde ganó mercado y de donde se marchó: los servidores pequeños.\nvSphere Express aterriza limitado a 128 núcleos y distribuido a través de los marketplaces de distribuidores, lo que devuelve una vía asequible a quien solo necesita virtualizar unos pocos servidores sin entrar en los planes enterprise. Para Broadcom es también un intento de recomponer la relación con su base instalada, la misma que ha visto subir licencias y endurecer contratos. 𝗘𝗹 𝘀𝗲𝗴𝗺𝗲𝗻𝘁𝗼 𝗽𝘆𝗺𝗲 𝗻𝗼 𝗽𝗲𝗿𝗱𝗼𝗻𝗮 𝗱𝗼𝘀 𝘃𝗲𝗰𝗲𝘀: si el precio vuelve a tensarse, la evaluación de alternativas ya está hecha y la migración deja de ser una hipótesis.\n\n#VMware #vSphere #Broadcom #Virtualización\n\nhttps://www.theregister.com/virtualization/2026/11/04/vmware-returns-to-low-end-server-virtualization-with-vsphere-express/5307466"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "lanzamientos",
+      "title": "WebKit presenta el modo oscuro adaptativo",
+      "summary": "WebKit ha introducido Adaptive Dark Mode, una función pensada para que las páginas web se adapten mejor a las preferencias de color del sistema. El anuncio explica cómo los desarrolladores pueden aprovechar el modo oscuro sin duplicar estilos. La propuesta llega desde el motor de Safari y afecta a la web en dispositivos Apple.",
+      "why_it_matters": "Puede reducir el trabajo de mantener dos temas visuales y mejorar la experiencia en Safari.",
+      "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode",
+      "source": "Lobsters",
+      "social": {
+        "x": "Llevas años manteniendo dos hojas de estilos para lo mismo. WebKit quiere que sea el navegador quien decida cómo se ve tu web en oscuro.\n\n#WebKit #Safari #CSS #DarkMode\nhttps://webkit.org/blog/18541/introducing-adaptive-dark-mode",
+        "linkedin": "Llevamos una década duplicando CSS para tener modo claro y modo oscuro. WebKit acaba de proponer que sea el navegador quien resuelva esa adaptación.\n\nAdaptive Dark Mode sale del motor de Safari y apunta a que las páginas respondan a la preferencia de color del sistema sin mantener dos temas en paralelo. 𝗦𝗶 𝗰𝘂𝗮𝗷𝗮, 𝗲𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝘀𝗲 𝗱𝗲𝘀𝗽𝗹𝗮𝘇𝗮 𝗱𝗲𝗹 𝗲𝗾𝘂𝗶𝗽𝗼 𝗱𝗲 𝗳𝗿𝗼𝗻𝘁 𝗮𝗹 𝗽𝗿𝗼𝗽𝗶𝗼 𝗺𝗼𝘁𝗼𝗿 𝗱𝗲𝗹 𝗻𝗮𝘃𝗲𝗴𝗮𝗱𝗼𝗿. La duda es cuánto control real cede el diseño y si el resto de motores lo adopta: una función que solo vive en Safari es una decisión de producto, no un estándar.\n\n#WebKit #Safari #CSS #DarkMode\n\nhttps://webkit.org/blog/18541/introducing-adaptive-dark-mode"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Valve cambia las reglas de publicación en Steam por la avalancha de juegos con IA",
+      "summary": "Valve ha actualizado sus normas de publicación en Steam para aliviar el atasco de aprobaciones provocado por la llegada masiva de nuevos títulos, muchos creados con IA. Los cambios buscan ordenar la cola de lanzamientos y evitar que la plataforma se sature. La medida afecta a estudios pequeños y a desarrolladores que publican con ayuda de herramientas generativas.",
+      "why_it_matters": "Marca cómo las plataformas empiezan a responder al aumento de contenido generado con IA.",
+      "url": "https://www.engadget.com/2306215/valve-changed-its-steam-release-rules-amid-a-flood-of-ai-games",
+      "source": "Engadget",
+      "social": {
+        "x": "Steam tiene un atasco de aprobaciones y el grueso no viene de los estudios de siempre: viene de la avalancha de juegos hechos con IA. Valve ya ha cambiado las reglas.\n\n#Steam #Valve #gamedev #GenerativeAI\nhttps://www.engadget.com/2306215/valve-changed-its-steam-release-rules-amid-a-flood-of-ai-games",
+        "linkedin": "Steam ha tenido que reescribir sus normas de publicación porque la cola de aprobaciones ya no da abasto.\n\nEl volumen no lo generan los grandes estudios, sino lanzamientos pequeños y rápidos, muchos con herramientas generativas detrás. Valve mueve ficha para ordenar el flujo y evitar que la tienda se sature, y en el camino queda una consecuencia incómoda: 𝗲𝗹 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗽𝗲𝗾𝘂𝗲ñ𝗼 𝗾𝘂𝗲 𝗰𝗼𝗺𝗽𝗲𝘁í𝗮 𝗽𝗼𝗿 𝗮𝘁𝗲𝗻𝗰𝗶ó𝗻 𝗲𝗻 𝗲𝘀𝗮 𝗺𝗶𝘀𝗺𝗮 𝗰𝗼𝗹𝗮 𝗲𝘀 𝗾𝘂𝗶𝗲𝗻 𝗽𝗿𝗶𝗺𝗲𝗿𝗼 𝗻𝗼𝘁𝗮 𝗲𝗹 𝗻𝘂𝗲𝘃𝗼 𝗳𝗶𝗹𝘁𝗿𝗼. La pregunta abierta es si el resto de tiendas adoptará un criterio parecido o si cada plataforma acabará inventándose el suyo.\n\n#Steam #Valve #gamedev #GenerativeAI\n\nhttps://www.engadget.com/2306215/valve-changed-its-steam-release-rules-amid-a-flood-of-ai-games"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "investigacion",
+      "title": "Un estudio de Stanford advierte de que la investigación sobre LLM caduca muy rápido",
+      "summary": "Investigadores de Stanford han contrastado 50 afirmaciones muy citadas sobre LLM con 20 modelos actuales. El 44 % de los hallazgos ya está caducado y otro 34 % ha perdido fuerza, con una vida media de solo 15,7 meses. Las afirmaciones sobre lo que los modelos no pueden hacer son las que envejecen más rápido.",
+      "why_it_matters": "Recuerda que muchas conclusiones sobre IA quedan obsoletas antes de lo que se suele asumir.",
+      "url": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds",
+      "source": "The Decoder",
+      "social": {
+        "x": "El 44 % de los hallazgos sobre LLM ya está caducado. Vida media: 15,7 meses. Y las que peor envejecen son las que dicen lo que un modelo no puede hacer.\n\n#LLM #Stanford #MachineLearning\nhttps://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds",
+        "linkedin": "El 44 % de los hallazgos sobre LLM que se citan en papers ya no se sostienen.\n\nStanford ha contrastado 50 afirmaciones muy citadas con 20 modelos actuales y el resultado es incómodo: otro 34 % ha perdido fuerza y la vida media de estas conclusiones es de apenas 15,7 meses. Las que antes se caen son justo las que describen lo que un modelo no puede hacer, que suelen ser también las que se usan para descartar herramientas en una evaluación técnica. 𝗖𝗶𝘁𝗮𝗿 𝘂𝗻 𝗽𝗮𝗽𝗲𝗿 𝗱𝗲 𝗵𝗮𝗰𝗲 𝗱𝗼𝘀 𝗮ñ𝗼𝘀 𝗰𝗼𝗺𝗼 𝗮𝗿𝗴𝘂𝗺𝗲𝗻𝘁𝗼 𝘀𝗶𝗴𝘂𝗲 𝗽𝗮𝗿𝗲𝗰𝗶𝗲𝗻𝗱𝗼 𝗿𝗶𝗴𝗼𝗿, 𝗽𝗲𝗿𝗼 𝘆𝗮 𝗲𝘀 𝘂𝗻𝗮 𝗮𝗽𝘂𝗲𝘀𝘁𝗮 𝗮𝗿𝗿𝗶𝗲𝘀𝗴𝗮𝗱𝗮: conviene revisar qué conclusiones damos por sentadas en el equipo.\n\n#LLM #Stanford #MachineLearning\n\nhttps://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "lanzamientos",
+      "title": "Bluetooth HDT multiplicará por más de tres la velocidad de transferencia en 2027",
+      "summary": "El Bluetooth SIG ha adoptado formalmente Bluetooth High Data Throughput (HDT) como función opcional de Bluetooth Core 7.0. La tecnología eleva la velocidad máxima de Bluetooth LE de 2 Mbps a 7,5 Mbps y mejorará el audio de alta resolución, la autonomía y la fiabilidad. Los primeros dispositivos con HDT llegarán a principios de 2027.",
+      "why_it_matters": "Es una actualización de conectividad que afectará a auriculares, wearables y periféricos en los próximos años.",
+      "url": "https://www.theverge.com/tech/1026308/bluetooth-le-sig-high-data-throughput-hdt",
+      "source": "The Verge",
+      "social": {
+        "x": "Bluetooth LE pasa de 2 a 7,5 Mbps, más del triple. El detalle que nadie quiere oír: hasta 2027 no habrá dispositivos que lo aprovechen.\n\n#Bluetooth #LEAudio #BluetoothSIG #Wearables\nhttps://www.theverge.com/tech/1026308/bluetooth-le-sig-high-data-throughput-hdt",
+        "linkedin": "Bluetooth LE acaba de multiplicar su velocidad por más de tres. El problema es que la adopción todavía queda lejos.\n\nEl Bluetooth SIG ha adoptado HDT (High Data Throughput) como función opcional de Core 7.0: se sube de 2 a 7,5 Mbps, lo que despeja el camino al audio de alta resolución y debería mejorar autonomía y fiabilidad. Los primeros dispositivos llegarán a principios de 2027 y ahí está la letra pequeña: 𝗮𝗹 𝘀𝗲𝗿 𝗼𝗽𝗰𝗶𝗼𝗻𝗮𝗹, 𝗲𝗹 𝘀𝗲𝗹𝗹𝗼 𝗛𝗗𝗧 𝗻𝗼 𝘀𝗲𝗿á 𝗹𝗮 𝗻𝗼𝗿𝗺𝗮 𝗵𝗮𝘀𝘁𝗮 𝗾𝘂𝗲 𝗹𝗼𝘀 𝗳𝗮𝗯𝗿𝗶𝗰𝗮𝗻𝘁𝗲𝘀 𝗾𝘂𝗶𝗲𝗿𝗮𝗻. Si diseñas auriculares, wearables o periféricos, toca decidir si esperas a 2027 o sigues exprimiendo LE Audio mientras tanto.\n\n#Bluetooth #LEAudio #BluetoothSIG #Wearables\n\nhttps://www.theverge.com/tech/1026308/bluetooth-le-sig-high-data-throughput-hdt"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Los votantes castigan a los data centers en las elecciones de EE. UU.",
+      "summary": "Los candidatos partidarios de moratorias y restricciones a los data centers han obtenido buenos resultados en las elecciones intermedias de Estados Unidos. El 76 % de los votantes encuestados por NBC News se mostró en contra de estas instalaciones en su comunidad. Varias localidades han aprobado medidas para limitar su desarrollo.",
+      "why_it_matters": "El rechazo político puede frenar la expansión de infraestructura que necesita la industria de la IA.",
+      "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+      "source": "The Verge",
+      "social": {
+        "x": "El 76 % de los votantes de EE. UU. rechaza un data center en su comunidad. Y los candidatos que prometen pararlos están ganando elecciones.\n\n#DataCenters #InteligenciaArtificial #NBCNews\nhttps://www.theverge.com/policy/1026365/data-centers-midterms-results",
+        "linkedin": "El data center ya es tema de campaña. Y no precisamente para sumar votos.\n\nEl 76 % de los votantes encuestados por NBC News rechaza estas instalaciones en su municipio, y los candidatos partidarios de moratorias y restricciones están cosechando buenos resultados en las elecciones intermedias de EE. UU. Varias localidades ya han aprobado límites a su desarrollo. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲 𝗹𝗮 𝗜𝗔 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗰𝗵𝗶𝗽: 𝗲𝘀 𝗲𝗹 𝗽𝗲𝗿𝗺𝗶𝘀𝗼 𝗺𝘂𝗻𝗶𝗰𝗶𝗽𝗮𝗹. Para quien planifica infraestructura, la hoja de ruta cambia: sentarse con un ayuntamiento a hablar de agua, ruido y red eléctrica pesa ahora más que el anuncio de inversión.\n\n#DataCenters #InteligenciaArtificial #NBCNews\n\nhttps://www.theverge.com/policy/1026365/data-centers-midterms-results"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "herramientas",
+      "title": "Una vulnerabilidad en apt de Debian permite ejecutar código de forma remota",
+      "summary": "Debian ha publicado un aviso de seguridad sobre una vulnerabilidad de tipo man-in-the-middle en apt que permite la ejecución arbitraria de código. El fallo afecta a la herramienta de gestión de paquetes y requiere que un atacante se sitúe entre el sistema y el repositorio. La distribución ha publicado las actualizaciones correspondientes.",
+      "why_it_matters": "Apt es una pieza central en miles de servidores y escritorios, así que conviene actualizar cuanto antes.",
+      "url": "https://lists.debian.org/debian-security-announce/2026/msg00526.html",
+      "source": "Lobsters",
+      "social": {
+        "x": "Un fallo en apt permite que alguien ejecute código en tu Debian. Solo necesita colocarse entre tu sistema y el repositorio. Toca actualizar hoy.\n\n#Debian #apt #Linux #Seguridad\nhttps://lists.debian.org/debian-security-announce/2026/msg00526.html",
+        "linkedin": "apt lleva décadas siendo la pieza en la que nadie mira, y hoy es la que puede acabar ejecutando código en tu servidor.\n\nEl fallo es de tipo man-in-the-middle: el atacante tiene que situarse entre el sistema y el repositorio, lo que rebaja el riesgo pero no lo elimina en redes corporativas, espejos internos o cualquier Wi-Fi público. Debian ya ha publicado las actualizaciones correspondientes. 𝗦𝗶 𝗴𝗲𝘀𝘁𝗶𝗼𝗻𝗮𝘀 𝗳𝗹𝗼𝘁𝗮 𝗰𝗼𝗻 𝗗𝗲𝗯𝗶𝗮𝗻 𝗼 𝗱𝗲𝗿𝗶𝘃𝗮𝗱𝗼𝘀, 𝗲𝘀𝘁𝗲 𝗽𝗮𝗿𝗰𝗵𝗲 𝗻𝗼 𝗮𝗱𝗺𝗶𝘁𝗲 𝗲𝘀𝗽𝗲𝗿𝗮𝗿 𝗮𝗹 𝗽𝗿ó𝘅𝗶𝗺𝗼 𝗰𝗶𝗰𝗹𝗼 𝗱𝗲 𝗺𝗮𝗻𝘁𝗲𝗻𝗶𝗺𝗶𝗲𝗻𝘁𝗼: es de las pocas veces en que la ventana entre el aviso y el parche la decides tú.\n\n#Debian #apt #Linux #Seguridad\n\nhttps://lists.debian.org/debian-security-announce/2026/msg00526.html"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "Genera vídeos cortos en alta definición a partir de un tema o unas palabras clave, con un flujo automatizado que encadena guion, voz y montaje. Es uno de los proyectos más populares para quien quiera montar su propio generador de vídeo sin atarse a un servicio cerrado.",
+      "language": "Python",
+      "stars": 138782,
+      "social": {
+        "x": "138.782 estrellas y ni una suscripción: este repo de Python convierte un tema en un vídeo corto en HD, con guion, voz y montaje encadenados de forma automática.\n\n#MoneyPrinterTurbo #Python #OpenSource #GitHub\nhttps://github.com/harry0703/MoneyPrinterTurbo",
+        "linkedin": "UN REPO DE PYTHON CONVIERTE UN TEMA EN UN VÍDEO CORTO EN HD. Y NO PASA POR CAJA.\n\nGenerar vídeo a partir de una idea suele significar una cuota mensual, un editor cerrado o un límite de exportación. MoneyPrinterTurbo ataca justo ese punto: describes el tema, lanzas el flujo y el resto se encadena solo.\n\nLa clave es que 𝗲𝗹 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝗲𝗻𝘁𝗲𝗿𝗼 𝗰𝗼𝗿𝗿𝗲 𝗲𝗻 𝘁𝘂 𝗺á𝗾𝘂𝗶𝗻𝗮:\n\n→ Le das un tema o unas palabras clave y el sistema monta guion, voz y montaje sin que toques nada.\n→ Salida en alta definición, lista para publicar.\n→ Python de principio a fin, así que puedes meter mano en cada paso: cambiar la voz, el guion o el orden de las piezas.\n→ Sin depender de una API de pago ni de los límites de una plataforma.\n→ 138.782 estrellas lo sitúan entre los proyectos más populares de generación de vídeo en GitHub, con lo que eso significa de comunidad y ejemplos disponibles.\n\nSi produces contenido a ritmo o quieres experimentar con generación de vídeo sin atarte a nada, este repo es de los que conviene tener a mano. Guárdalo para la próxima vez que necesites sacar diez vídeos en una tarde.\n\nTe dejo el repositorio abajo.\n\n#MoneyPrinterTurbo #Python #OpenSource #GitHub\n\nhttps://github.com/harry0703/MoneyPrinterTurbo"
+      }
+    },
+    {
+      "name": "The-PR-Agent/pr-agent",
+      "url": "https://github.com/The-PR-Agent/pr-agent",
+      "description": "Herramienta open source que revisa pull requests con un modelo de lenguaje: comenta el diff, propone mejoras y señala riesgos antes de fusionar. Funciona como acción de GitHub o self-hosted, y es el proyecto original, no la versión de pago de Qodo.",
+      "language": "Python",
+      "stars": 14631,
+      "social": {
+        "x": "14.600 estrellas para el repo que revisa tus pull requests con un LLM: comenta el diff, propone mejoras y señala riesgos. Y no es la versión de pago de Qodo.\n\n#prAgent #OpenSource #GitHub #Python\nhttps://github.com/The-PR-Agent/pr-agent",
+        "linkedin": "TU PRÓXIMO CODE REVIEW LO PUEDE HACER UN LLM, Y NO PASA POR CAJA.\n\nQodo cobra por revisar pull requests. El proyecto original del que salió, con 14.600 estrellas en GitHub, es open source y se puede usar tal cual, sin cuota mensual.\n\npr-agent comenta el diff, propone mejoras y marca los riesgos antes de que fusiones. Sin esperar a que alguien del equipo tenga un hueco libre.\n\n→ Comenta el diff de cada pull request con un modelo de lenguaje.\n→ Propone mejoras concretas sobre el código que acabas de escribir.\n→ Señala riesgos antes de fusionar, no cuando ya está en producción.\n→ Se instala como GitHub Action o en self-hosted, con tu propio modelo.\n→ Es el proyecto original: lo que Qodo empaqueta de pago, aquí en abierto.\n\n𝗟𝗮 𝗿𝗲𝘃𝗶𝘀𝗶ó𝗻 𝗹𝗮 𝗵𝗮𝗰𝗲 𝘂𝗻 𝗟𝗟𝗠, 𝗽𝗲𝗿𝗼 𝗲𝗹 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝘀𝗶𝗴𝘂𝗲 𝘀𝗶𝗲𝗻𝗱𝗼 𝘁𝘂𝘆𝗼.\n\nSi revisas pull requests cada día, guarda este post. Te dejo el repo abajo.\n\n#prAgent #OpenSource #GitHub #Python\n\nhttps://github.com/The-PR-Agent/pr-agent"
+      }
+    },
+    {
+      "name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "description": "Framework en Python de NVIDIA para construir capas de razonamiento semántico basadas en grafos sobre tus datos. Consigue que los agentes y los LLM trabajen con mejor contexto y respuestas más explicables, en lugar de depender solo de embeddings.",
+      "language": "Python",
+      "stars": 4428,
+      "social": {
+        "x": "4,4k estrellas para el framework en Python con el que NVIDIA quiere que tus agentes dejen de depender solo de embeddings y razonen sobre un grafo de tu propio dominio.\n\n#NVIDIA #Python #KnowledgeGraph #OpenSource\nhttps://github.com/NVIDIA/auto-ontology",
+        "linkedin": "NVIDIA QUIERE QUE TUS AGENTES DEJEN DE ADIVINAR POR PARECIDO Y EMPIECEN A RAZONAR SOBRE RELACIONES.\n\nLlevamos un par de años resolviendo el contexto de los LLM a base de embeddings y búsqueda vectorial. Funciona, pero cuando la pregunta exige jerarquías, dependencias o trazabilidad, el vector se queda corto y nadie sabe explicar de dónde sale la respuesta.\n\nauto-ontology es un framework en Python de NVIDIA para construir capas de razonamiento semántico basadas en grafos sobre tus datos. La idea de fondo: 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗿𝗲𝗰𝘂𝗽𝗲𝗿𝗮𝗿 𝘁𝗿𝗼𝘇𝗼𝘀 𝗽𝗮𝗿𝗲𝗰𝗶𝗱𝗼𝘀 𝘆 𝗲𝗺𝗽𝗶𝗲𝘇𝗮 𝗮 𝗿𝗮𝘇𝗼𝗻𝗮𝗿 𝘀𝗼𝗯𝗿𝗲 𝗿𝗲𝗹𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗲𝘅𝗽𝗹í𝗰𝗶𝘁𝗮𝘀.\n\n→ Modela tus datos como entidades y relaciones, no como vectores sueltos\n→ Da a agentes y LLM un contexto estructurado antes de responder\n→ Respuestas más explicables: se puede rastrear por qué el sistema dice lo que dice\n→ Complementa tus embeddings en lugar de sustituirlos sin más\n→ Python puro, de NVIDIA, con 4,4k estrellas y código abierto\n\nSi estás montando RAG y ya has chocado con el techo de la similitud semántica, este repo te va a ahorrar semanas de prueba y error.\n\nGuárdate el post: te dejo el repositorio abajo.\n\n#NVIDIA #Python #KnowledgeGraph #OpenSource\n\nhttps://github.com/NVIDIA/auto-ontology"
+      }
+    },
+    {
+      "name": "scenario-labs/skills",
+      "url": "https://github.com/scenario-labs/skills",
+      "description": "Un conjunto de skills para agentes de IA que generan imagen, vídeo, audio y 3D eligiendo el modelo adecuado y consultando el precio antes de gastar. Se conecta vía MCP con Blender, Maya, ZBrush, Unreal y Unity, y mantiene la coherencia de personajes y marcas entre piezas.",
+      "language": "Python",
+      "stars": 2272,
+      "social": {
+        "x": "Generar imagen, vídeo o 3D con un agente de IA solía acabar en factura sorpresa. Estas skills miran el precio del modelo antes de gastar. 2.272 estrellas.\n\n#MCP #Python #OpenSource #Blender\nhttps://github.com/scenario-labs/skills",
+        "linkedin": "TU AGENTE DE IA YA NO GASTA A CIEGAS.\n\nCuando dejas que un agente genere imagen, vídeo, audio o 3D, lo normal es que tire del modelo más caro que tenga a mano y que te enteres del coste al final del mes. Scenario Labs publica un conjunto de skills que cambia el orden: primero se decide el modelo, después se genera.\n\nLa clave está en que 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮 𝗲𝗹 𝗽𝗿𝗲𝗰𝗶𝗼 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗹𝗮𝗻𝘇𝗮𝗿 𝗹𝗮 𝗴𝗲𝗻𝗲𝗿𝗮𝗰𝗶ó𝗻, así que cada llamada se toma con el coste delante y no al revés.\n\n→ Elige el modelo adecuado para cada tipo de pieza (imagen, vídeo, audio, 3D) en lugar de usar siempre el mismo.\n→ Comprueba el precio antes de gastar, sin sorpresas en la factura.\n→ Se conecta vía MCP con Blender, Maya, ZBrush, Unreal y Unity, así que entra en tu pipeline real de 3D.\n→ Mantiene la coherencia de personajes y de marcas entre piezas, que es donde estos flujos suelen romperse.\n→ Python, open source y 2.272 estrellas.\n\nSi trabajas con contenido generativo o con pipelines de 3D, este repo te ahorra el paso de montar la lógica de selección y control de coste a mano. Guárdalo para cuando tengas que explicarle a alguien por qué la factura se disparó.\n\nTe dejo el repo abajo.\n\n#MCP #Python #OpenSource #Blender\n\nhttps://github.com/scenario-labs/skills"
+      }
+    },
+    {
+      "name": "Thysrael/Horizon",
+      "url": "https://github.com/Thysrael/Horizon",
+      "description": "Radar de noticias con IA y self-hosted que vigila las fuentes que le indiques y te prepara un briefing diario. Todo el pipeline corre en tu máquina y la interfaz está en inglés y chino.",
+      "language": "Python",
+      "stars": 12395,
+      "social": {
+        "x": "Un radar de noticias self-hosted con 12k estrellas: tú eliges las fuentes y el pipeline de IA corre entero en tu máquina. Briefing diario, sin cuota mensual.\n\n#Horizon #Python #SelfHosted #OpenSource\nhttps://github.com/Thysrael/Horizon",
+        "linkedin": "TIENES UN RADAR DE NOTICIAS CON IA CORRIENDO EN TU MÁQUINA. Y NO PAGA CUOTA.\n\nLa mayoría de los agregadores con IA te obligan a meter tus fuentes en su nube, con su cuenta y su suscripción. Horizon hace lo contrario: es self-hosted y todo el pipeline se ejecuta en local. Tú decides qué lee, y el resultado es un briefing diario listo para leer.\n\n→ Le indicas las fuentes que te interesan y él se encarga de vigilarlas.\n→ El pipeline de IA completo corre en tu máquina, sin servicios de terceros.\n→ Genera un briefing diario, no un feed infinito que nunca terminas.\n→ Escrito en Python, fácil de tocar si quieres adaptar el flujo a tu gusto.\n→ Interfaz en inglés y chino, con 12k estrellas detrás.\n\n𝗘𝗹 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝗲𝗻𝘁𝗲𝗿𝗼 𝗲𝘀 𝘁𝘂𝘆𝗼: 𝗻𝗶 𝘀𝘂𝘀𝗰𝗿𝗶𝗽𝗰𝗶ó𝗻, 𝗻𝗶 𝗱𝗮𝘁𝗼𝘀 𝗳𝘂𝗲𝗿𝗮 𝗱𝗲 𝗰𝗮𝘀𝗮.\n\nSi llevas tiempo queriendo dejar de depender de un lector de feeds comercial, guarda este post y échale un ojo al repo. Te lo dejo abajo.\n\n#Horizon #Python #SelfHosted #OpenSource\n\nhttps://github.com/Thysrael/Horizon"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Tres técnicas para entender el código que escriben tus agentes",
+      "url": "https://towardsdatascience.com/three-techniques-to-understand-your-codebase-when-coding-agents-write-the-code",
+      "source": "Towards Data Science",
+      "summary": "Propone usar memos de funcionalidad, revisión de pull requests y explicadores en HTML para reconstruir el contexto de lo que generan los agentes de código. La idea de fondo es que delegar la escritura no te exime de entender el sistema: si no lo comprendes, no puedes revisar ni mantener. Sirve para equipos que ya han adoptado agentes y notan que el código crece más rápido que su conocimiento del mismo.",
+      "tema": "ia"
+    },
+    {
+      "title": "El patrón BFF: cuando móvil y web necesitan APIs distintas",
+      "url": "https://medium.com/@theturtlecode/the-backend-for-frontend-pattern-when-mobile-and-web-need-different-apis-c8fdd5474ad8",
+      "source": "Medium: Web Development",
+      "summary": "Explica por qué un mismo backend acaba dando respuestas incómodas a una app iOS, una Android y una web, y cómo el patrón Backend-for-Frontend coloca una capa intermedia por cliente. Aprenderás qué responsabilidades asume cada BFF, qué se duplica y cuándo el patrón cuesta más de lo que aporta. Útil para decidir la forma de la API antes de que el equipo de móvil empiece a quejarse.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Por qué tu bucle paralelo de .NET se vuelve secuencial en un contenedor de una sola CPU",
+      "url": "https://stackoverflow.blog/2026/11/04/your-net-parallel-loop-can-become-serial-in-a-one-cpu-container",
+      "source": "Stack Overflow Blog",
+      "summary": "Muestra cómo los valores por defecto de .NET para el paralelismo se calculan a partir de las CPUs disponibles y pueden dejar un bucle con mucha E/S procesando un registro cada vez. Aprenderás a subir ese límite y, sobre todo, a fijar un presupuesto de concurrencia por cada servicio de destino. Resulta muy útil si despliegas en contenedores con poca CPU y el rendimiento no cuadra con lo esperado.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Bases de datos vectoriales desde cero: embeddings, similitud y ChromaDB",
+      "url": "https://www.freecodecamp.org/news/learn-vector-databases-for-beginners-embeddings-similarity-search-chromadb",
+      "source": "freeCodeCamp",
+      "summary": "Introduce qué es un embedding y por qué permite buscar por significado en lugar de por coincidencia exacta de palabras. Recorre los conceptos de búsqueda por similitud y los aterriza en ChromaDB con ejemplos prácticos. Es un punto de partida razonable para quien va a montar una app de RAG o un sistema de recomendación y no sabe por dónde empezar.",
+      "tema": "datos"
+    },
+    {
+      "title": "La carga más rápida es la que nunca llega a ocurrir",
+      "url": "https://medium.com/underlying-logic/the-fastest-page-load-is-the-one-that-never-happens-36bbdfb6bf60",
+      "source": "Medium: Web Development",
+      "summary": "Sostiene que buena parte del margen de rendimiento está en cómo navega el navegador, no en otra ronda de optimización de JavaScript. Repasa por qué conviene mirar la navegación (prefetch, caché, transiciones) antes de tocar el bundle. Sirve para replantear una estrategia de rendimiento web que ya no da más de sí.",
+      "tema": "web"
+    },
+    {
+      "title": "Cuando la pantalla se queda vacía, el usuario cree que ha perdido sus datos",
+      "url": "https://medium.com/@hamzaiqbal4484/when-the-screen-is-empty-users-think-their-data-is-gone-b94cf98dc17c",
+      "source": "Medium: UX",
+      "summary": "Explica que la pantalla vacía no solo se diseña para usuarios nuevos: los veteranos también la ven cuando falla una carga y ahí interpretan que sus datos han desaparecido. Da pautas sobre qué mostrar en cada caso, distinguiendo entre un vacío real y un error de carga. Es una lectura corta y aplicable para cualquiera que diseñe o implemente estados vacíos.",
+      "tema": "diseno"
+    }
+  ]
+}
