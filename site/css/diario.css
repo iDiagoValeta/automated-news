@@ -21,11 +21,6 @@
   --highlight-soft: rgba(255, 255, 255, 0.65);
   --surface-glow: rgba(255, 255, 255, 0.55);
   --surface-glow-strong: rgba(255, 255, 255, 0.75);
-  --text-shadow-light: rgba(0, 0, 0, 0.1);
-  --vignette: rgba(0, 0, 0, 0.04);
-  --wash-cool: transparent;
-  --wash-warm: transparent;
-  --grain-opacity: 0.15;
   --on-accent: #fafafa;
   --radius: 2px;
 
@@ -57,32 +52,9 @@
     --highlight-soft: rgba(255, 255, 255, 0.05);
     --surface-glow: rgba(255, 255, 255, 0.04);
     --surface-glow-strong: rgba(255, 255, 255, 0.07);
-    --text-shadow-light: rgba(0, 0, 0, 0.35);
-    --vignette: rgba(0, 0, 0, 0.15);
-    --wash-cool: transparent;
-    --wash-warm: transparent;
-    --grain-opacity: 0.1;
     --on-accent: #1c1c1e;
   }
 }
-:root[data-fuente="fraunces"] {
-  --serif: "Fraunces", Georgia, serif;
-  --sans: "Inter", system-ui, sans-serif;
-}
-:root[data-fuente="grotesk"] {
-  --serif: "Space Grotesk", system-ui, sans-serif;
-  --sans: "Space Grotesk", system-ui, sans-serif;
-}
-:root[data-fuente="plex"] {
-  --serif: "IBM Plex Mono", ui-monospace, monospace;
-  --sans: "IBM Plex Sans", system-ui, sans-serif;
-  --mono: "IBM Plex Mono", ui-monospace, monospace;
-}
-:root[data-fuente="playfair"] {
-  --serif: "Playfair Display", Georgia, serif;
-  --sans: "Source Serif 4", Georgia, serif;
-}
-
 :root[data-theme="dark"] {
   --paper: #1c1c1e;
   --paper-bright: #242426;
@@ -101,11 +73,6 @@
   --highlight-soft: rgba(255, 255, 255, 0.05);
   --surface-glow: rgba(255, 255, 255, 0.04);
   --surface-glow-strong: rgba(255, 255, 255, 0.07);
-  --text-shadow-light: rgba(0, 0, 0, 0.35);
-  --vignette: rgba(0, 0, 0, 0.15);
-  --wash-cool: transparent;
-  --wash-warm: transparent;
-  --grain-opacity: 0.1;
   --on-accent: #1c1c1e;
 }
 :root[data-theme="light"] {
@@ -135,82 +102,10 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   background-color: var(--paper);
-  background-image:
-    radial-gradient(ellipse 90% 55% at 50% -8%, var(--paper-bright) 0%, transparent 58%),
-    radial-gradient(ellipse 45% 35% at 0% 70%, var(--wash-cool) 0%, transparent 70%),
-    radial-gradient(ellipse 40% 30% at 100% 40%, var(--wash-warm) 0%, transparent 65%),
-    linear-gradient(180deg, var(--paper-deep) 0%, var(--paper) 18%, var(--paper-bright) 72%, var(--paper-deep) 100%);
-}
-
-/* Fondo de hebras fijo (initFondo en interfaz.js): por debajo del contenido y sin recibir clics. */
-.fondo {
-  position: fixed;
-  inset: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
-  pointer-events: none;
-}
-
-/* Grano de papel fijo: da textura sin interferir con el scroll ni el clic. */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  height: 100dvh;
-  z-index: -1;
-  pointer-events: none;
-  opacity: var(--grain-opacity);
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0.1 0 0 0 0 0.1 0 0 0 0 0.1 0 0 0 0.55 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  background-repeat: repeat;
-  background-size: 180px 180px;
-}
-
-/* Viñeta suave en los bordes: el centro respira, el marco se hunde un poco. */
-body::after {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  height: 100dvh;
-  z-index: -1;
-  pointer-events: none;
-  background: radial-gradient(ellipse 75% 65% at 50% 40%, transparent 50%, var(--vignette) 100%);
 }
 
 a {
   color: inherit;
-}
-
-/* Cursor retro pixelado (flecha y manita del Mac clásico), dibujado por
-   interfaz.js como un elemento que sigue al ratón. No se usa cursor: url()
-   porque Linux recorta los cursores a 32 px reales y, con la pantalla
-   escalada, la flecha se cortaba. Sobre campos de texto y la paleta (que
-   está en la capa superior y taparía el elemento) vuelve el del sistema. */
-html.cursor-retro,
-html.cursor-retro *:not(input, textarea, select, dialog, dialog *) {
-  cursor: none !important;
-}
-/* El cursor se hereda: sin esto, la paleta se quedaría sin ninguno. */
-html.cursor-retro dialog {
-  cursor: auto;
-}
-.cursor-retro__el {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2147483647;
-  pointer-events: none;
-  image-rendering: pixelated;
-  visibility: hidden;
-}
-.cursor-retro__el.is-visible {
-  visibility: visible;
 }
 
 .skip {
@@ -251,23 +146,7 @@ html.cursor-retro dialog {
   line-height: 1;
   letter-spacing: 0.005em;
   text-decoration: none;
-  /* Tinta que fluye hacia el ámbar y vuelve. Con var(--ink) en vez de negro
-     fijo: en modo oscuro la tinta es clara y el título sigue legible. */
-  background: linear-gradient(90deg, var(--ink) 0%, var(--accent) 25%, var(--ink) 50%, var(--accent) 75%, var(--ink) 100%) 0 0 / 200% 100%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: fluir 6s linear infinite;
-}
-@keyframes fluir {
-  to {
-    background-position: -200% 0;
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  .masthead__name {
-    animation: none;
-  }
+  color: var(--ink);
 }
 
 .masthead__tagline {
@@ -332,7 +211,7 @@ html.cursor-retro dialog {
 
 .source {
   font-family: var(--mono);
-  font-size: 0.74rem;
+  font-size: 0.8rem;
   color: var(--muted);
   margin: 1rem 0 0;
 }
@@ -378,7 +257,6 @@ html.cursor-retro dialog {
   letter-spacing: -0.012em;
   margin: 0 0 1rem;
   max-width: 22ch;
-  text-shadow: 0 1px 0 var(--highlight-mid);
 }
 .lead__title a {
   color: var(--link);
@@ -432,6 +310,136 @@ html.cursor-retro dialog {
   margin: 0 0 1rem;
 }
 
+/* ---------- Fecha de la edición ---------- */
+
+/* La fecha manda arriba, como en la cabecera de un diario; la cuenta y el
+   aviso son metadatos a su lado. */
+.fechario {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem 1rem;
+  margin: 0 0 2.2rem;
+}
+.fechario__fecha {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.fechario__cuenta {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+.fechario__aviso {
+  flex-basis: 100%;
+  margin: 0.2rem 0 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+/* ---------- Portada: principal, destacadas y secciones ---------- */
+
+/* La raya que antes cerraba la principal cierra ahora el bloque entero. */
+.portada {
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--faint);
+}
+.portada .lead {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 0;
+  box-shadow: none;
+}
+.destacadas {
+  display: grid;
+  gap: 2.6rem;
+  margin-top: 2.8rem;
+}
+/* Con sitio, las destacadas ocupan el hueco a la derecha de la principal. */
+@media (min-width: 960px) {
+  .portada {
+    display: grid;
+    grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr);
+    gap: 4rem;
+    align-items: start;
+  }
+  .destacadas {
+    margin-top: 0.4rem;
+  }
+}
+.story--destacada .story__title {
+  font-size: 1.3rem;
+}
+
+.seccion + .seccion {
+  margin-top: 3.4rem;
+}
+.seccion__titulo {
+  margin: 0 0 1.4rem;
+  font-family: var(--serif);
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-transform: capitalize;
+}
+.seccion__lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2.4rem 3rem;
+  align-items: start;
+}
+.story--breve .story__title {
+  font-size: 1.2rem;
+}
+.story--breve .story__summary {
+  font-size: 0.98rem;
+}
+
+/* «Por qué importa» fuera de la principal: se abre a demanda. */
+.porque > summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--muted);
+  cursor: pointer;
+  list-style: none;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--muted) 45%, transparent);
+  text-underline-offset: 3px;
+}
+.porque > summary::-webkit-details-marker {
+  display: none;
+}
+.porque > summary:hover,
+.porque[open] > summary {
+  color: var(--ink);
+}
+.porque .why {
+  margin-top: 0.3rem;
+}
+/* Resumen, «por qué» y pie forman un solo bloque: sin los huecos de una
+   tarjeta completa, cada noticia se lee como una pieza y la página encoge. */
+.story--destacada .story__summary,
+.story--breve .story__summary {
+  margin-bottom: 0.4rem;
+}
+.story--destacada .item-pie,
+.story--breve .item-pie {
+  margin-top: 0.2rem;
+}
+@media (pointer: coarse) {
+  .porque > summary {
+    min-height: 44px;
+  }
+}
+
 /* ---------- Navegación entre ediciones ---------- */
 
 .edicion-nav {
@@ -464,12 +472,10 @@ html.cursor-retro dialog {
 
 /* ---------- Calendario ---------- */
 
-.cal-menu,
-.tipo {
+.cal-menu {
   position: relative;
 }
-.cal-menu__panel,
-.tipo__panel {
+.cal-menu__panel {
   position: absolute;
   right: 0;
   top: calc(100% + 0.5rem);
@@ -875,29 +881,19 @@ html.cursor-retro dialog {
   margin: 0;
   padding: 0;
   display: grid;
-  gap: 1rem;
+  gap: 1.6rem;
   max-width: 640px;
 }
 .archivo-indice__item a {
   display: block;
-  padding: 1.2rem 1.4rem;
-  border: 1px solid var(--faint);
-  border-radius: var(--radius);
+  padding: 0.4rem 0;
   text-decoration: none;
   color: inherit;
-  background:
-    linear-gradient(165deg, var(--surface-glow) 0%, transparent 45%),
-    color-mix(in srgb, var(--paper-bright) 65%, transparent);
-  box-shadow:
-    inset 0 1px 0 var(--highlight),
-    0 1px 2px var(--shadow);
-  transition: border-color 0.15s, box-shadow 0.15s;
 }
-.archivo-indice__item a:hover {
-  border-color: var(--accent);
-  box-shadow:
-    inset 0 1px 0 var(--highlight-strong),
-    0 4px 14px var(--shadow);
+.archivo-indice__item a:hover .archivo-indice__nombre {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
 }
 .archivo-indice__nombre {
   display: block;
@@ -1064,6 +1060,10 @@ html.cursor-retro dialog {
   .archivo__count {
     display: none;
   }
+  /* En móvil el menú se recoge y la fecha quedaría pegada al lema. */
+  .fechario {
+    margin-top: 1.4rem;
+  }
   .edicion-nav {
     flex-direction: column;
     align-items: flex-start;
@@ -1112,7 +1112,8 @@ html.cursor-retro dialog {
   text-wrap: balance;
 }
 .lead__summary,
-.story__summary {
+.story__summary,
+.why {
   text-wrap: pretty;
 }
 .lead__title a,
@@ -1230,6 +1231,12 @@ kbd {
   font-family: var(--serif);
   font-size: 1.2rem;
 }
+/* La X azul del navegador es lo único con color de toda la página; el botón Buscar y Esc ya cubren lo suyo. */
+.paleta__input::-webkit-search-cancel-button,
+.buscar-form input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
 .paleta__lista {
   list-style: none;
   margin: 0;
@@ -1289,7 +1296,7 @@ kbd {
 .masthead {
   position: relative;
 }
-/* Barra de la cabecera: calendario, tipografía y tema, arriba a la derecha. */
+/* Barra de la cabecera: calendario, sonido y tema, arriba a la derecha. */
 .herramientas {
   position: absolute;
   top: 1rem;
@@ -1326,38 +1333,6 @@ kbd {
 [open] > .herramienta {
   color: var(--ink);
   border-color: var(--accent);
-}
-.tipo__panel {
-  top: calc(100% + 0.5rem);
-  z-index: 20;
-  display: grid;
-  min-width: 11rem;
-  padding: 0.35rem;
-  border: 1px solid var(--faint);
-  border-radius: var(--radius);
-  background: linear-gradient(180deg, var(--paper-bright), var(--paper));
-  box-shadow:
-    inset 0 1px 0 var(--highlight-strong),
-    0 4px 12px var(--shadow),
-    0 18px 40px var(--shadow-deep);
-}
-.tipo__op {
-  min-height: 40px;
-  padding: 0 0.8rem;
-  border: 0;
-  border-radius: var(--radius);
-  background: none;
-  color: var(--ink);
-  font-size: 1.05rem;
-  text-align: left;
-  cursor: pointer;
-}
-.tipo__op:hover {
-  background: color-mix(in srgb, var(--accent) 10%, transparent);
-}
-.tipo__op[aria-pressed="true"] {
-  background: var(--accent);
-  color: var(--on-accent);
 }
 .tema {
   padding: 0;
@@ -1489,20 +1464,6 @@ html.is-cambiando-tema * {
 .progreso__marca.is-actual {
   background: var(--accent);
   transform: scaleY(1.7);
-}
-
-/* ---------- Entrada escalonada de tarjetas ---------- */
-
-@keyframes entrada {
-  from {
-    opacity: 0;
-    transform: translateY(14px);
-  }
-}
-.lead,
-.story {
-  animation: entrada 0.55s cubic-bezier(0.2, 0.8, 0.3, 1) backwards;
-  animation-delay: calc(min(var(--i, 0), 10) * 60ms);
 }
 
 /* ---------- Esqueleto de carga en la paleta ---------- */
@@ -1637,7 +1598,6 @@ html.is-cambiando-tema * {
 .share__btn:active {
   scale: 0.94;
 }
-.tipo.is-abriendo .tipo__panel,
 .cal-menu.is-abriendo .cal-menu__panel {
   --desde: inset(0 0 calc(100% - 34px) calc(100% - 34px) round 17px);
   animation: brotar 0.34s cubic-bezier(0.22, 1, 0.36, 1);
@@ -1656,26 +1616,19 @@ html.is-cambiando-tema * {
     opacity: 1;
   }
 }
-.tipo.is-abriendo .tipo__op,
 .share__menu.is-abriendo .share__item,
 .cal-menu.is-abriendo .calendario {
   animation: asomar 0.24s cubic-bezier(0.22, 1, 0.36, 1) backwards;
   animation-delay: calc(0.08s + var(--n, 0) * 0.03s);
 }
-.tipo__op:nth-child(2),
 .share__item:nth-child(2) {
   --n: 1;
 }
-.tipo__op:nth-child(3),
 .share__item:nth-child(3) {
   --n: 2;
 }
-.tipo__op:nth-child(4),
 .share__item:nth-child(4) {
   --n: 3;
-}
-.tipo__op:nth-child(5) {
-  --n: 4;
 }
 @keyframes asomar {
   from {
@@ -1684,10 +1637,8 @@ html.is-cambiando-tema * {
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  .tipo.is-abriendo .tipo__panel,
   .cal-menu.is-abriendo .cal-menu__panel,
   .share__menu.is-abriendo .share__panel,
-  .tipo.is-abriendo .tipo__op,
   .share__menu.is-abriendo .share__item,
   .cal-menu.is-abriendo .calendario {
     animation: none;
@@ -1721,8 +1672,7 @@ html.is-cambiando-tema * {
 
   /* Los paneles se anclan a la barra entera y no al botón: así el
      calendario no se sale por la izquierda. */
-  .cal-menu,
-  .tipo {
+  .cal-menu {
     position: static;
   }
   .masthead__name {

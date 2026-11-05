@@ -9,6 +9,10 @@ eleventyComputed:
   title: "Repositorios {{ ed.date | fechaCorta }} {{ ed.year }}"
 ---
 {% set repos = ed.repos %}
+{% set fechaDia = ed.date %}
+{% set cuentaDia = repos.length + (" repositorio" if repos.length == 1 else " repositorios") %}
+{% set seccionDia = "Repositorios" %}
+{% include "fechario.njk" %}
 {% include "repos-lista.njk" %}
 
 {% set olderPath = ed.reposOlderPath %}

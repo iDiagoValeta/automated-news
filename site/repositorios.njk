@@ -6,6 +6,11 @@ permalink: "/repositorios/index.html"
 {% if reposEditions.length %}
   {% set ed = reposEditions[0] %}
   {% set repos = ed.repos %}
+  {% set fechaDia = ed.date %}
+  {% set cuentaDia = repos.length + (" repositorio" if repos.length == 1 else " repositorios") %}
+  {% set seccionDia = "Repositorios" %}
+  {% set ultimaDia = true %}
+  {% include "fechario.njk" %}
   {% include "repos-lista.njk" %}
 
   {% set olderPath = ed.reposOlderPath %}

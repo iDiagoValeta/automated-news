@@ -1,40 +1,42 @@
 {# Lista de lecturas. Espera `lecturas` (array). Misma composición que las
-   noticias: la primera como destacada y el resto en rejilla. #}
+   noticias: la primera destacada, dos más a su lado y el resto en rejilla. #}
+{% macro lectura(l, clase) %}
+  <article class="story {{ clase }}">
+    <h3 class="story__title">
+      <a href="{{ l.url }}" target="_blank" rel="noopener" aria-describedby="nueva-pestana">{{ l.title }}</a>
+    </h3>
+    <p class="story__summary">{{ l.summary }}</p>
+    <div class="item-pie">
+      <p class="source">{{ l.source }}<span class="cat">{{ l.tema | tema }}</span></p>
+    </div>
+  </article>
+{% endmacro %}
 {% set primera = lecturas[0] %}
+{% set destacadas = lecturas.slice(1, 3) %}
+{% set resto = lecturas.slice(3) %}
 <section class="lecturas" aria-label="Lecturas">
   {% if primera %}
-    <article class="lead">
-      <h2 class="lead__title">
-        <a href="{{ primera.url }}" target="_blank" rel="noopener">{{ primera.title }}</a>
-      </h2>
-      <p class="lead__summary">{{ primera.summary }}</p>
-      <div class="item-pie">
-        <p class="source">
-          <a href="{{ primera.url }}" target="_blank" rel="noopener">{{ primera.source }}</a>
-          <span class="cat">{{ primera.tema | tema }}</span>
-        </p>
-      </div>
-    </article>
+    <div class="portada">
+      <article class="lead">
+        <h2 class="lead__title">
+          <a href="{{ primera.url }}" target="_blank" rel="noopener" aria-describedby="nueva-pestana">{{ primera.title }}</a>
+        </h2>
+        <p class="lead__summary">{{ primera.summary }}</p>
+        <div class="item-pie">
+          <p class="source">{{ primera.source }}<span class="cat">{{ primera.tema | tema }}</span></p>
+        </div>
+      </article>
+      {% if destacadas.length %}
+        <div class="destacadas">
+          {% for l in destacadas %}{{ lectura(l, "story--destacada") }}{% endfor %}
+        </div>
+      {% endif %}
+    </div>
   {% endif %}
 
-  {% if lecturas.length > 1 %}
+  {% if resto.length %}
     <div class="stories">
-      {% for lectura in lecturas %}
-        {% if loop.index0 > 0 %}
-        <article class="story" style="--i: {{ loop.index0 }}">
-          <h3 class="story__title">
-            <a href="{{ lectura.url }}" target="_blank" rel="noopener">{{ lectura.title }}</a>
-          </h3>
-          <p class="story__summary">{{ lectura.summary }}</p>
-          <div class="item-pie">
-            <p class="source">
-              <a href="{{ lectura.url }}" target="_blank" rel="noopener">{{ lectura.source }}</a>
-          <span class="cat">{{ lectura.tema | tema }}</span>
-            </p>
-          </div>
-        </article>
-        {% endif %}
-      {% endfor %}
+      {% for l in resto %}{{ lectura(l, "") }}{% endfor %}
     </div>
   {% endif %}
 </section>

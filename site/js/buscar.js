@@ -30,7 +30,13 @@ function render(results, query, estado, lista) {
   }
   estado.hidden = false;
   if (results.length === 0) {
-    estado.textContent = `Ningún resultado para «${query}».`;
+    // Sin salida, quien no encuentra nada se queda delante de un muro: se le
+    // ofrece probar otra palabra o recorrer el archivo por fechas.
+    estado.textContent = `Ningún resultado para «${query}». Prueba con una sola palabra o recorre el `;
+    const archivo = document.createElement("a");
+    archivo.href = editionHref("/archivo/noticias/");
+    archivo.textContent = "archivo por fechas";
+    estado.append(archivo, ".");
     return;
   }
   estado.textContent =

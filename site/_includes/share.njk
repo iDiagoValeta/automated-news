@@ -1,10 +1,11 @@
-{% macro share(social) %}
+{# `titulo` distingue cada botón para el lector de pantalla: veinte «Compartir» iguales no dicen qué se comparte. #}
+{% macro share(social, titulo) %}
   {% set s = social | shareModel %}
   {% if s.x or s.linkedin %}
   {# Un único botón por tarjeta; las cuatro acciones viven en su menú. #}
   <div class="share">
     <details class="share__menu">
-      <summary class="share__btn" aria-label="Compartir" title="Compartir">
+      <summary class="share__btn" aria-label="Compartir: {{ titulo }}" title="Compartir">
         <svg width="15" height="15" aria-hidden="true"><use href="#ico-subir"/></svg>
       </summary>
       <div class="share__panel">
@@ -31,7 +32,7 @@
       </div>
     </details>
     {# Móvil: el mismo botón abre la hoja de compartir del sistema (compartir.js). #}
-    <button class="share__btn share__nativo" type="button" aria-label="Compartir" title="Compartir" hidden>
+    <button class="share__btn share__nativo" type="button" aria-label="Compartir: {{ titulo }}" title="Compartir" hidden>
       <svg width="15" height="15" aria-hidden="true"><use href="#ico-subir"/></svg>
     </button>
   </div>

@@ -1,0 +1,9 @@
+{# Fecha de la edición arriba, como la cabecera de un diario: es lo primero que
+   pregunta quien vuelve. Espera `fechaDia` (YYYY-MM-DD), `cuentaDia` (texto) y,
+   opcional, `seccionDia` (prefijo solo para lector de pantalla). Con
+   `ultimaDia`, interfaz.js avisa si la última edición ya no es de hoy ni de ayer. #}
+<header class="fechario"{% if ultimaDia %} data-ultima="{{ fechaDia }}"{% endif %}>
+  <h1 class="fechario__fecha">{% if seccionDia %}<span class="visually-hidden">{{ seccionDia }} del </span>{% endif %}<time datetime="{{ fechaDia }}">{{ fechaDia | fechaLarga }}</time></h1>
+  <p class="fechario__cuenta">{{ cuentaDia }}</p>
+  <p class="fechario__aviso" hidden></p>
+</header>

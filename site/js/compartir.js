@@ -98,7 +98,7 @@ document.addEventListener(
   true,
 );
 
-// Menús desplegables (compartir, calendario, tipografía): se cierran al pulsar
+// Menús desplegables (compartir, calendario): se cierran al pulsar
 // fuera, al elegir un enlace o con Escape, y solo hay uno abierto a la vez.
 document.addEventListener("click", (e) => {
   for (const d of document.querySelectorAll("details[open]")) {
