@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T17:59:54.517Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Gemini Omni 1.2 Flash genera clips de 15 segundos y baja el precio un 30%",
+      "summary": "Google DeepMind actualiza Gemini Omni 1.2 Flash con generación y edición nativa de vídeo de hasta 15 segundos, mejor consistencia entre tomas y un 30% menos de precio. El modelo está disponible para desarrolladores a través de la API de Gemini.",
+      "why_it_matters": "Vídeo generativo más largo y bastante más barato rebaja el coste de producir prototipos o clips publicitarios sin salir de la API de Google.",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "15 segundos de vídeo, mejor consistencia entre tomas y un 30% menos de precio. Gemini Omni 1.2 Flash convierte el clip generativo en algo que puedes tirar y repetir.\n\n#Gemini #GoogleDeepMind #VideoGenerativo #API\nhttps://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
+        "linkedin": "El vídeo generativo acaba de dejar de ser un experimento con presupuesto.\n\nGemini Omni 1.2 Flash genera y edita clips de hasta 15 segundos, mantiene mejor la consistencia entre tomas y baja el precio un 30%, todo dentro de la API de Gemini. Para un equipo de marketing o de producto, 𝗹𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘁é𝗰𝗻𝗶𝗰𝗮 𝘀𝗶𝗻𝗼 𝗱𝗲 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼: si un prototipo audiovisual cuesta lo que un par de prompts, se puede iterar diez veces antes de enseñarlo a nadie. La ventaja se desplaza a quien sabe elegir y editar, no a quien puede permitirse generar.\n\n#Gemini #GoogleDeepMind #VideoGenerativo #API\n\nhttps://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Baidu publica ERNIE 5.5 Flash Base, un modelo abierto de 280.000 millones de parámetros",
+      "summary": "Baidu lanza ERNIE 5.5 Flash Base, un modelo de arquitectura mixture-of-experts con 280.000 millones de parámetros preentrenado sobre 33,5 billones de tokens. Llega a propósito sin fine-tuning ni post-entrenamiento, de modo que cada equipo decida hacia dónde llevarlo; habrá más adelante una versión post-entrenada.",
+      "why_it_matters": "Es una base enorme y abierta sobre la que hacer post-entrenamiento propio sin partir de cero ni pagar por un modelo cerrado.",
+      "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model",
+      "source": "The Decoder",
+      "social": {
+        "x": "Baidu libera un modelo abierto de 280.000 millones de parámetros y lo deja sin post-entrenar a propósito: el punto de partida lo pones tú.\n\n#Baidu #ERNIE #OpenSource #LLM\nhttps://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model",
+        "linkedin": "Lo más interesante de ERNIE 5.5 Flash Base no es su tamaño: es lo que Baidu ha decidido no hacerle.\n\nPublica 280.000 millones de parámetros en arquitectura mixture-of-experts, preentrenados sobre 33,5 billones de tokens, y lo deja sin fine-tuning ni post-entrenamiento. 𝗘𝗹 𝘃𝗮𝗹𝗼𝗿 𝗲𝘀𝘁á 𝗲𝗻 𝗹𝗮 𝗯𝗮𝘀𝗲, 𝗻𝗼 𝗲𝗻 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗱𝗼: quien quiera llevarlo a su dominio arranca desde un punto muy alto, sin partir de cero ni pagar por una API cerrada. La versión post-entrenada llegará más adelante, así que el margen es para quien se mueva ahora. Para equipos con infraestructura propia, la pregunta deja de ser si pueden permitirse un modelo grande y pasa a ser cuánto tardan en adaptarlo.\n\n#Baidu #ERNIE #OpenSource #LLM\n\nhttps://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "OpenAI lanza GPT-6 Cyber con más capacidad de buscar fallos y reglas de actuación más estrictas",
+      "summary": "OpenAI ha publicado GPT-6 Cyber, un modelo afinado para ciberseguridad que según la compañía encuentra y explota vulnerabilidades mejor que GPT-5.6 y GPT-6 Astra, a la vez que respeta el alcance acordado por los investigadores. La firma asegura que evitó atacar servicios fuera de alcance en más del 99% de los casos.",
+      "why_it_matters": "Un modelo que busca fallos sin salirse del alcance pactado resuelve justo lo que impedía usarlo en auditorías y programas de bug bounty reales.",
+      "url": "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855",
+      "source": "The Register",
+      "social": {
+        "x": "GPT-6 Cyber encuentra y explota vulnerabilidades mejor que sus predecesores. Lo interesante no es eso: es que respeta el alcance pactado en el 99% de los casos.\n\n#OpenAI #Ciberseguridad #BugBounty #GPT6Cyber\nhttps://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855",
+        "linkedin": "El problema de usar IA para buscar vulnerabilidades nunca fue encontrarlas. Era que se saliera del alcance pactado.\n\nGPT-6 Cyber, el modelo afinado de OpenAI para ciberseguridad, encuentra y explota fallos mejor que GPT-5.6 y GPT-6 Astra y, según la compañía, respetó el alcance acordado en más del 99% de los casos. 𝗘𝘀𝗲 𝗱𝗲𝘁𝗮𝗹𝗹𝗲 𝗲𝘀 𝗲𝗹 𝗾𝘂𝗲 𝗮𝗯𝗿𝗲 𝗹𝗮 𝗽𝘂𝗲𝗿𝘁𝗮 𝗮 𝗮𝘂𝗱𝗶𝘁𝗼𝗿í𝗮𝘀 𝘆 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗮𝘀 𝗱𝗲 𝗯𝘂𝗴 𝗯𝗼𝘂𝗻𝘁𝘆 𝗿𝗲𝗮𝗹𝗲𝘀, no la mejora bruta en detección. Para los equipos de seguridad, el debate deja de ser si el modelo es capaz y pasa a ser quién responde cuando se equivoque.\n\n#OpenAI #Ciberseguridad #BugBounty #GPT6Cyber\n\nhttps://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Tencent estrena Hy4, su primer modelo con visión y uso de software",
+      "summary": "Tencent presenta Hy4, su primer modelo multimodal capaz de entender imágenes y de manejar aplicaciones por su cuenta. Logra 35 puntos en el índice de Artificial Analysis, por detrás de Kimi K3.1 Pro, y la propia compañía reconoce que aún queda lejos de los mejores modelos comerciales en matemáticas difíciles y análisis de imágenes.",
+      "why_it_matters": "Tencent entra en la liga de modelos que operan software solos, la capacidad que hace falta para automatizar tareas de escritorio.",
+      "url": "https://the-decoder.com/tencent-releases-hy4-with-vision-and-computer-use-claims-second-place-among-chinese-ai-models",
+      "source": "The Decoder",
+      "social": {
+        "x": "Tencent ya tiene un modelo que maneja aplicaciones por su cuenta. Y admite en voz alta que todavía no está a la altura de los mejores.\n\n#Tencent #Hy4 #ArtificialAnalysis #ModelosMultimodales\nhttps://the-decoder.com/tencent-releases-hy4-with-vision-and-computer-use-claims-second-place-among-chinese-ai-models",
+        "linkedin": "Tencent ya tiene un modelo que usa el software por su cuenta. Lo interesante es lo que admite sobre él.\n\nHy4 entiende imágenes y maneja aplicaciones sin ayuda, justo la capacidad que hace falta para automatizar tareas de escritorio. En el índice de Artificial Analysis se queda en 35 puntos, por detrás de Kimi K3.1 Pro, y la propia compañía reconoce que en matemáticas difíciles y análisis de imágenes aún está lejos de los modelos comerciales punteros. La lectura: 𝗹𝗮 𝗰𝗮𝗿𝗿𝗲𝗿𝗮 𝘆𝗮 𝗻𝗼 𝘃𝗮 𝗱𝗲 𝗾𝘂𝗶é𝗻 𝘁𝗶𝗲𝗻𝗲 𝗲𝗹 𝗺𝗲𝗷𝗼𝗿 𝗺𝗼𝗱𝗲𝗹𝗼, 𝘀𝗶𝗻𝗼 𝗱𝗲 𝗾𝘂𝗶é𝗻 𝗹𝗹𝗲𝗴𝗮 𝗮𝗻𝘁𝗲𝘀 𝗮 𝗼𝗽𝗲𝗿𝗮𝗿 𝗲𝗹 𝗲𝘀𝗰𝗿𝗶𝘁𝗼𝗿𝗶𝗼, y ahí Tencent acaba de reservar sitio aunque no lidere. Para quien esté evaluando automatizar procesos internos, el proveedor importa menos que la capacidad en sí.\n\n#Tencent #Hy4 #ArtificialAnalysis #ModelosMultimodales\n\nhttps://the-decoder.com/tencent-releases-hy4-with-vision-and-computer-use-claims-second-place-among-chinese-ai-models"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "ChatGPT convierte fotos y prompts en GIF animados con el modelo Images 2.6",
+      "summary": "OpenAI añade a ChatGPT la creación de GIF animados a partir de texto o de fotos, con control de velocidad y edición fotograma a fotograma. La consistencia del modelo Images 2.6 mantiene reconocibles a los personajes entre fotogramas, lo que permite hacer animaciones tipo flipbook. La compañía dice que ya se generan más de 4.000 millones de imágenes por semana.",
+      "why_it_matters": "Convierte una función de imagen en una herramienta de animación rápida sin salir del chat ni instalar nada.",
+      "url": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model",
+      "source": "The Decoder",
+      "social": {
+        "x": "Una foto y un prompt. ChatGPT ya te devuelve un GIF animado, fotograma a fotograma, y el personaje no cambia de cara.\n\n#OpenAI #ChatGPT #GIF\nhttps://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model",
+        "linkedin": "El GIF llevaba años siendo el formato que nadie quería producir y todo el mundo acababa usando. Ahora lo genera el mismo chat donde escribes.\n\nOpenAI ha añadido a ChatGPT la creación de GIF animados desde texto o desde una foto, con control de velocidad y edición fotograma a fotograma. Lo importante no es el formato: es que el modelo Images 2.6 mantiene 𝗹𝗼𝘀 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗷𝗲𝘀 𝗿𝗲𝗰𝗼𝗻𝗼𝗰𝗶𝗯𝗹𝗲𝘀 𝗲𝗻𝘁𝗿𝗲 𝗳𝗼𝘁𝗼𝗴𝗿𝗮𝗺𝗮𝘀, que es justo lo que rompía estas animaciones hasta ahora. Con más de 4.000 millones de imágenes generadas por semana, animar deja de ser una tarea aparte y pasa a ser una frase más del chat. Para quien produce contenido social, el cuello de botella se mueve de sitio: ya no es la herramienta, es la idea.\n\n#OpenAI #ChatGPT #GIF\n\nhttps://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Phonon TTS lleva la síntesis de voz de calidad al propio dispositivo",
+      "summary": "Hugging Face presenta Phonon TTS, un modelo de síntesis de voz pensado para ejecutarse en local y que, según la compañía, supera a las referencias habituales en las pruebas de calidad. Al no depender de la nube, la latencia y el coste por petición desaparecen.",
+      "why_it_matters": "Voz de calidad en el dispositivo abre la puerta a asistentes y lectores que funcionan sin conexión y sin pagar por cada frase.",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Hugging Face acaba de publicar un modelo de voz que corre en tu propio equipo. Sin nube, sin coste por petición y, según ellos, mejor que las referencias del sector.\n\n#HuggingFace #TTS #OpenSource #OnDevice\nhttps://huggingface.co/blog/phonon-tts",
+        "linkedin": "La voz sintética de calidad deja de ser un servicio al que te suscribes y pasa a ser un archivo que ejecutas en tu máquina. Phonon TTS, lo nuevo de Hugging Face, se ejecuta en local y, según la compañía, supera a las referencias habituales en las pruebas de calidad. Al no depender de la nube desaparecen dos costes invisibles: la latencia de cada llamada y la factura por petición. 𝗣𝗮𝗿𝗮 𝗾𝘂𝗶𝗲𝗻 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝘆𝗲 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲𝘀 𝗼 𝗹𝗲𝗰𝘁𝗼𝗿𝗲𝘀, 𝗲𝘀𝘁𝗼 𝗰𝗮𝗺𝗯𝗶𝗮 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗻𝗲𝗴𝗼𝗰𝗶𝗼 𝘁𝗮𝗻𝘁𝗼 𝗰𝗼𝗺𝗼 𝗹𝗮 𝘁é𝗰𝗻𝗶𝗰𝗮: un producto que funciona sin conexión y sin pagar por frase abre mercados donde la red nunca fue fiable. La pregunta ya no es qué modelo suena mejor, sino cuánto de tu producto quieres seguir alquilando.\n\n#HuggingFace #TTS #OpenSource #OnDevice\n\nhttps://huggingface.co/blog/phonon-tts"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Box usa Nemotron de Nvidia para que sus agentes encuentren contenido más rápido",
+      "summary": "Box ha construido un sistema de recuperación de contenidos pensado para agentes sobre el modelo Nemotron de Nvidia. Según la compañía, responde consultas cuatro veces más rápido, con un 20% menos de errores y un 90% menos de tokens consumidos.",
+      "why_it_matters": "Menos tokens y menos errores en la recuperación es lo que decide si un agente empresarial sale caro o rentable.",
+      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Box recupera contenido 4 veces más rápido con Nemotron de Nvidia: 90% menos tokens y 20% menos errores. Ahí está la frontera entre un agente caro y uno rentable.\n\n#Nemotron #Nvidia #Box #RAG\nhttps://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system",
+        "linkedin": "La factura de un agente empresarial no la decide el modelo: la decide cómo busca.\n\nBox ha montado su recuperación de contenidos sobre Nemotron de Nvidia y asegura 4 veces más velocidad, un 20% menos de errores y un 90% menos de tokens. Ese último dato es el que importa: en producción, cada consulta que el agente reformula de más se paga. Para los equipos que están desplegando agentes sobre repositorios documentales, 𝗹𝗮 𝗿𝗲𝗰𝘂𝗽𝗲𝗿𝗮𝗰𝗶ó𝗻 𝗽𝗲𝘀𝗮 𝗺á𝘀 𝗾𝘂𝗲 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 a la hora de decidir si el proyecto sale rentable.\n\n#Nemotron #Nvidia #Box #RAG\n\nhttps://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Microsoft Research presenta PDD Kit para verificar código escrito por agentes",
+      "summary": "PDD Kit traduce la intención del desarrollador a una especificación en Verus y demuestra que el código generado por agentes la cumple para cualquier entrada, recurriendo a tests donde la prueba formal no es viable. La persona revisa lo que quería, no cada línea.",
+      "why_it_matters": "Ofrece una manera práctica de validar código de agentes sin leerlo entero, que es hoy el principal cuello de botella.",
+      "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit",
+      "source": "Microsoft Research",
+      "social": {
+        "x": "El cuello de botella de los agentes no es escribir código: es que alguien lo lea. PDD Kit, de Microsoft Research, propone revisar la intención y no cada línea.\n\n#MicrosoftResearch #Verus #VerificaciónFormal\nhttps://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit",
+        "linkedin": "Aceptamos que los agentes escriban código. Lo que no hemos resuelto es quién lo lee.\nPDD Kit, de Microsoft Research, traduce lo que el desarrollador quería a una especificación en Verus y demuestra que el código generado la cumple para cualquier entrada; donde la prueba formal no llega, recurre a tests. 𝗘𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗱𝗲𝗹 𝗿𝗲𝘃𝗶𝘀𝗼𝗿 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗹𝗲𝗲𝗿 𝗰𝗮𝗱𝗮 𝗹í𝗻𝗲𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗱𝗲𝗳𝗶𝗻𝗶𝗿 𝗯𝗶𝗲𝗻 𝗹𝗮 𝗶𝗻𝘁𝗲𝗻𝗰𝗶ó𝗻, y eso cambia de raíz cómo se organiza la revisión en un equipo. La pregunta incómoda: si nadie lee el código, la calidad del software dependerá por completo de lo bien que sepamos escribir especificaciones.\n\n#MicrosoftResearch #Verus #VerificaciónFormal\n\nhttps://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "Ningún agente de IA pasa del 12% en el nuevo benchmark de trabajo real de SemiAnalysis",
+      "summary": "SemiAnalysis publica GDPx, una prueba que mete a los agentes en tareas simuladas de trabajo de conocimiento, desde diseño de chips hasta trading cuantitativo. Ningún modelo supera el 12% y Claude Opus 5.5 se impone por poco a Gemini 4 Carbon, aunque las críticas apuntan al escaso número de tareas por dominio y a condiciones de prueba desiguales.",
+      "why_it_matters": "Pone cifra al techo real de los agentes en trabajo de oficina, donde sobra demostración y falta autonomía productiva.",
+      "url": "https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark",
+      "source": "The Decoder",
+      "social": {
+        "x": "Ningún agente de IA pasa del 12% en trabajo real de oficina. El nuevo benchmark de SemiAnalysis pone cifra al techo: mucha demo, poca autonomía.\n\n#SemiAnalysis #ClaudeOpus #Gemini #Benchmarks\nhttps://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark",
+        "linkedin": "Un agente de IA suspende en casi todo lo que se parece a un trabajo de oficina real. Y ahora hay una cifra que lo demuestra.\n\nEl benchmark GDPx de SemiAnalysis mete a los modelos en tareas simuladas de trabajo de conocimiento, del diseño de chips al trading cuantitativo, y 𝗻𝗶𝗻𝗴ú𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝘀𝘂𝗽𝗲𝗿𝗮 𝗲𝗹 𝟭𝟮%. Claude Opus 5.5 se impone por poco a Gemini 4 Carbon, aunque el propio diseño de la prueba admite pocas tareas por dominio y condiciones desiguales entre modelos. Para quien esté evaluando comprar agentes este trimestre: la demo ya funciona sola, la autonomía productiva todavía no, y conviene mirar la letra pequeña de cada benchmark antes de firmar.\n\n#SemiAnalysis #ClaudeOpus #Gemini #Benchmarks\n\nhttps://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "Axiom Math verifica formalmente el Stacks Project con agentes de IA",
+      "summary": "La startup Axiom Math, centrada en la verificación de pruebas, ha logrado que sus agentes verifiquen formalmente el Stacks Project, una de las mayores bibliotecas de matemáticas del campo. Su apuesta es filtrar las demostraciones generadas por IA que nadie ha comprobado.",
+      "why_it_matters": "La verificación formal es lo que separa un asistente matemático útil de un generador de demostraciones falsas.",
+      "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Los agentes de IA ya demostraban teoremas. El problema era saber si mentían. Axiom Math acaba de verificar formalmente el Stacks Project entero.\n\n#AxiomMath #VerificaciónFormal #StacksProject\nhttps://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics",
+        "linkedin": "El problema de las demostraciones generadas por IA nunca fue generarlas, sino saber cuáles son verdad.\n\nAxiom Math ha verificado formalmente el Stacks Project, una de las mayores bibliotecas de matemáticas que existen, con agentes propios. 𝗟𝗮 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗳𝗼𝗿𝗺𝗮𝗹 𝗲𝘀 𝗹𝗮 𝗹í𝗻𝗲𝗮 𝗾𝘂𝗲 𝘀𝗲𝗽𝗮𝗿𝗮 𝘂𝗻 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝗺𝗮𝘁𝗲𝗺á𝘁𝗶𝗰𝗼 ú𝘁𝗶𝗹 𝗱𝗲 𝘂𝗻 𝗴𝗲𝗻𝗲𝗿𝗮𝗱𝗼𝗿 𝗱𝗲 𝗱𝗲𝗺𝗼𝘀𝘁𝗿𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗳𝗮𝗹𝘀𝗮𝘀, y hasta ahora casi nadie la cruzaba a esta escala. Si el filtro aguanta, el cuello de botella deja de estar en la IA y pasa a estar en quién audita el resultado.\n\n#AxiomMath #VerificaciónFormal #StacksProject\n\nhttps://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "ElevenLabs permite publicar música generada con IA directamente en SoundCloud",
+      "summary": "ElevenLabs conecta sus modelos de música con SoundCloud para que los usuarios publiquen las pistas generadas sin pasar por una descarga y una subida manual. La compañía afirma que ya se han creado más de 25 millones de canciones con sus modelos.",
+      "why_it_matters": "Publicar directo en una plataforma con audiencia convierte la generación musical en un flujo completo, de la idea a la distribución.",
+      "url": "https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Ya se han generado 25 millones de canciones con IA. Y ahora se publican en SoundCloud sin descargar el archivo ni volver a subirlo a mano.\n\n#ElevenLabs #SoundCloud #GenerativeAI #MusicTech\nhttps://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud",
+        "linkedin": "El cuello de botella de la música generada con IA nunca fue crear la pista: era distribuirla.\n\nElevenLabs conecta sus modelos de música con SoundCloud para que una canción generada se publique sin pasar por la descarga y la subida manual. Con más de 25 millones de pistas creadas hasta ahora, 𝗲𝗹 𝗳𝗹𝘂𝗷𝗼 𝗱𝗲 𝗹𝗮 𝗶𝗱𝗲𝗮 𝗮 𝗹𝗮 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝗰𝗶ó𝗻 𝘀𝗲 𝗰𝗶𝗲𝗿𝗿𝗮 𝘀𝗶𝗻 𝗳𝗿𝗶𝗰𝗰𝗶ó𝗻. Para quien produce, la pregunta deja de ser si el modelo genera bien y pasa a ser quién cura, etiqueta y monetiza ese volumen creciente.\n\n#ElevenLabs #SoundCloud #GenerativeAI #MusicTech\n\nhttps://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Las marcas de agua de texto de OpenAI no aguantan la normativa europea",
+      "summary": "La UE obliga a marcar el texto generado por IA para poder identificarlo, pero las pruebas con textGrain, la marca de agua que OpenAI presentó en octubre para cumplir la norma, muestran que a menudo desaparece al editar el texto o en escritos de menos de 150 palabras. Sin un criterio legal claro de eficacia, no está claro que la técnica baste.",
+      "why_it_matters": "Si las marcas de agua no sobreviven a una edición normal, la transparencia que exige Bruselas se queda en papel mojado.",
+      "url": "https://spectrum.ieee.org/ai-watermark-openai-textgrain-europe",
+      "source": "IEEE Spectrum AI",
+      "social": {
+        "x": "OpenAI presentó en octubre una marca de agua para cumplir con la normativa europea. Desaparece en cuanto editas el texto.\n\n#OpenAI #textGrain #AIAct #Transparencia\nhttps://spectrum.ieee.org/ai-watermark-openai-textgrain-europe",
+        "linkedin": "La marca de agua que OpenAI creó para cumplir con Bruselas no sobrevive a una edición normal del texto.\n\ntextGrain, presentada en octubre, a menudo se pierde cuando alguien retoca un párrafo o cuando el escrito baja de 150 palabras, según las pruebas recogidas por IEEE Spectrum. El problema no es solo técnico: 𝗻𝗮𝗱𝗶𝗲 𝗵𝗮 𝗱𝗲𝗳𝗶𝗻𝗶𝗱𝗼 𝗾𝘂é 𝘀𝗶𝗴𝗻𝗶𝗳𝗶𝗰𝗮 𝗾𝘂𝗲 𝘂𝗻𝗮 𝗺𝗮𝗿𝗰𝗮 𝗱𝗲 𝗮𝗴𝘂𝗮 𝘀𝗲𝗮 𝗲𝗳𝗶𝗰𝗮𝘇, y sin ese criterio la obligación de transparencia del AI Act se queda en un gesto. Para quien publica contenido generado con IA, la lectura es incómoda: hoy no hay forma de demostrar el origen de un texto confiando solo en la marca del modelo.\n\n#OpenAI #textGrain #AIAct #Transparencia\n\nhttps://spectrum.ieee.org/ai-watermark-openai-textgrain-europe"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "Pangram amplía su detector de IA a vídeo e imágenes",
+      "summary": "Pangram, conocido por su detector de texto generado, extiende ahora sus herramientas a vídeo e imágenes. La empresa quiere cubrir el resto de formatos en los que se ha extendido el contenido sintético.",
+      "why_it_matters": "Detectar solo texto ya no basta cuando vídeo e imagen generados circulan a diario, y quien verifica necesita cubrir todos los formatos.",
+      "url": "https://www.engadget.com/2307116/pangram-expands-its-ai-detection-tools-to-video-and-images",
+      "source": "Engadget",
+      "social": {
+        "x": "Detectar texto generado ya no basta. Pangram amplía su detector a vídeo e imágenes, los formatos por donde más corre el contenido sintético.\n\n#Pangram #IA #Deepfakes\nhttps://www.engadget.com/2307116/pangram-expands-its-ai-detection-tools-to-video-and-images",
+        "linkedin": "El detector de IA que solo mira texto llega tarde. Pangram, conocido por identificar contenido generado, amplía ahora su alcance a vídeo e imágenes, y con eso cubre los formatos donde el contenido sintético se ha vuelto más difícil de distinguir.\n\nEl movimiento tiene sentido: verificar una captura o un vídeo ya no es un caso aislado, es rutina diaria para medios y equipos de confianza y seguridad. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲 𝗹𝗮 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝘁𝗲𝘅𝘁𝗼, 𝗲𝘀 𝘁𝗼𝗱𝗼 𝗹𝗼 𝗱𝗲𝗺á𝘀. Para quien tiene que validar contenido a diario, esto marca la diferencia entre una herramienta útil y una que se queda corta.\n\n#Pangram #IA #Deepfakes\n\nhttps://www.engadget.com/2307116/pangram-expands-its-ai-detection-tools-to-video-and-images"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "Aina quiere controlar a tus agentes de IA con un anillo",
+      "summary": "La startup Aina prepara un anillo inteligente con pantalla, joystick y micrófono que sirve para lanzar y supervisar agentes autónomos, atender llamadas y dictar notas en el Mac. La idea es no depender del móvil para dirigir asistentes virtuales.",
+      "why_it_matters": "Ensaya una interfaz física para los agentes, un problema que los móviles todavía no resuelven bien.",
+      "url": "https://www.wired.com/story/aina-smart-ring",
+      "source": "Wired",
+      "social": {
+        "x": "¿Y si el mando de tus agentes de IA no fuera el móvil? Aina prepara un anillo con pantalla, joystick y micrófono para lanzarlos y supervisarlos.\n\n#Aina #AgentesIA #Wearables\nhttps://www.wired.com/story/aina-smart-ring",
+        "linkedin": "Llevamos dos años metiendo agentes de IA en todo y seguimos dándoles órdenes desde una pantalla táctil que no se diseñó para eso. Aina prepara un anillo con pantalla, joystick y micrófono para lanzar y supervisar agentes autónomos, atender llamadas y dictar notas en el Mac, sin pasar por el móvil.\n\nPuede sonar a juguete, pero apunta a algo serio: 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝘀𝗶𝗻𝗼 𝗰ó𝗺𝗼 𝗹𝗼𝘀 𝗱𝗶𝗿𝗶𝗴𝗲𝘀. Vigilar varios procesos en paralelo desde una app móvil es torpe, y quien resuelva esa interfaz se queda con el uso diario. La duda es si un anillo aguanta el ritmo de un agente que no para de pedirte decisiones.\n\n#Aina #AgentesIA #Wearables\n\nhttps://www.wired.com/story/aina-smart-ring"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "herramientas",
+      "title": "Google Cloud API Gateway admite streaming para aplicaciones de IA",
+      "summary": "Google abre la vista previa pública del soporte de streaming en Cloud API Gateway, que pasa del modelo petición-respuesta a conexiones en tiempo real. La compañía lo orienta a respuestas de modelos en streaming, flujos de agentes con varios pasos y sesiones interactivas.",
+      "why_it_matters": "Permite exponer respuestas en streaming y flujos de agentes a través de una pasarela gestionada, sin montar esa infraestructura por cuenta propia.",
+      "url": "https://www.infoq.com/news/2026/11/gcp-api-gateway-streaming",
+      "source": "InfoQ",
+      "social": {
+        "x": "Google Cloud API Gateway deja de ser solo petición-respuesta: ya soporta streaming en vista previa pública. Los flujos de agentes dejan de necesitar infraestructura propia.\n\n#GoogleCloud #APIGateway #Streaming #LLMs\nhttps://www.infoq.com/news/2026/11/gcp-api-gateway-streaming",
+        "linkedin": "La pasarela que solo servía respuestas completas ahora también sirve respuestas a medias.\n\nCloud API Gateway entra en vista previa pública de streaming, así que las respuestas de modelos token a token y los flujos de agentes de varios pasos pueden salir por una puerta gestionada, sin montar por tu cuenta el proxy, el control de cuotas ni la autenticación. 𝗘𝗹 𝘀𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗱𝗲 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗽𝗮𝗿𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗮𝘀𝗶𝗹𝗹𝗮 𝗱𝗲 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶ó𝗻, y eso baja el listón para equipos pequeños que hasta ahora descartaban exponer agentes en producción. La pregunta ya no es si tu backend puede emitir en tiempo real, sino cuánto de tu stack estabas manteniendo solo para poder hacerlo.\n\n#GoogleCloud #APIGateway #Streaming #LLMs\n\nhttps://www.infoq.com/news/2026/11/gcp-api-gateway-streaming"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "lanzamientos",
+      "title": "Apple abre por fin la integración de Siri con apps de terceros",
+      "summary": "Más de dos años después de anunciarla, Apple permite a los desarrolladores probar la integración de Siri con sus aplicaciones mediante IA. La función llega por fin al entorno de pruebas de los desarrolladores.",
+      "why_it_matters": "Abre el asistente del iPhone a las apps de terceros, la vía más directa para usar agentes desde el móvil sin abrir nada.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/04/hey-siri-plug-into-my-app-like-you-said-youd-do-way-back-in-2024/5307659",
+      "source": "The Register",
+      "social": {
+        "x": "Dos años después del anuncio, Siri por fin deja entrar a apps de terceros. Y es la vía más directa para usar agentes desde el móvil sin abrir nada.\n\n#Siri #Apple #iOS #AppleIntelligence\nhttps://www.theregister.com/ai-and-ml/2026/11/04/hey-siri-plug-into-my-app-like-you-said-youd-do-way-back-in-2024/5307659",
+        "linkedin": "La función que Apple anunció hace más de dos años acaba de llegar al entorno de pruebas de los desarrolladores.\n\nSiri se abre a las apps de terceros mediante IA, así que un desarrollador ya puede probar que su app responda sin que el usuario llegue a abrirla. Ese es el cambio de fondo: 𝗲𝗹 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗳𝘂𝗻𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗽𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮. Para quien construye producto móvil, el punto de entrada se mueve del icono en la pantalla de inicio a la frase que alguien le dice al teléfono, y quien no esté ahí se queda fuera del primer contacto.\n\n#Siri #Apple #iOS #AppleIntelligence\n\nhttps://www.theregister.com/ai-and-ml/2026/11/04/hey-siri-plug-into-my-app-like-you-said-youd-do-way-back-in-2024/5307659"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "lanzamientos",
+      "title": "Un robot open source convertido en grúa de cables para ordenar la casa",
+      "summary": "Un proyecto abierto propone suspender una pinza con IA de cables cerca del techo para mover objetos por la habitación, como una grúa de feria gigante. El sistema se monta con piezas accesibles y código disponible.",
+      "why_it_matters": "Demuestra que se puede automatizar el orden en casa con una grúa de cables en lugar de comprar un robot humanoide.",
+      "url": "https://www.theregister.com/offbeat/2026/11/04/turn-your-home-into-a-giant-crane-game-with-this-open-source-robot/5307628",
+      "source": "The Register",
+      "social": {
+        "x": "El robot que ordena tu casa no tiene piernas: cuelga del techo como una grúa de feria y su código es abierto.\n\n#OpenSource #Robótica #Automatización\nhttps://www.theregister.com/offbeat/2026/11/04/turn-your-home-into-a-giant-crane-game-with-this-open-source-robot/5307628",
+        "linkedin": "El robot doméstico que va a llegar antes no camina: cuelga del techo.\n\nUn proyecto open source monta una pinza con IA suspendida de cables, como una grúa de feria, para mover objetos por la habitación con piezas accesibles y el código disponible. 𝗙𝗿𝗲𝗻𝘁𝗲 𝗮𝗹 𝗿𝗼𝗯𝗼𝘁 𝗵𝘂𝗺𝗮𝗻𝗼𝗶𝗱𝗲, 𝗹𝗮 𝗴𝗿ú𝗮 𝗱𝗲 𝗰𝗮𝗯𝗹𝗲𝘀 𝗲𝘀 𝘂𝗻𝗮 𝘃í𝗮 𝗺𝘂𝗰𝗵𝗼 𝗺á𝘀 𝗯𝗮𝗿𝗮𝘁𝗮 𝘆 𝗳á𝗰𝗶𝗹 𝗱𝗲 𝗿𝗲𝗽𝗹𝗶𝗰𝗮𝗿. Para quien diseña automatización para el hogar, el mensaje es claro: la forma del robot importa menos que lo que cuesta montarlo y mantenerlo.\n\n#OpenSource #Robótica #Automatización\n\nhttps://www.theregister.com/offbeat/2026/11/04/turn-your-home-into-a-giant-crane-game-with-this-open-source-robot/5307628"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Meta compra Conductor para orquestar agentes de código",
+      "summary": "Meta adquiere la startup Conductor, que permite a los desarrolladores manejar varios agentes de programación a la vez. El movimiento coincide con el anuncio de OpenAI de comprar Pierre Computer y sigue a la compra de Stainless por Anthropic en mayo.",
+      "why_it_matters": "Confirma que el valor se desplaza de los modelos, cada vez más intercambiables, a las capas que orquestan agentes.",
+      "url": "https://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers",
+      "source": "The Decoder",
+      "social": {
+        "x": "Meta no ha comprado un modelo. Ha comprado la capa que decide qué agente hace cada tarea. Y no es el único que va por ahí.\n\n#Meta #OpenAI #Anthropic #AgentesDeCódigo\nhttps://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers",
+        "linkedin": "El modelo ya no es el foso. El foso es quién pone a los agentes a trabajar en orden.\n\nMeta se queda con Conductor, una startup que permite a un desarrollador manejar varios agentes de código a la vez. La jugada llega el mismo mes que la compra de Pierre Computer por OpenAI y pocas semanas después de que Anthropic se hiciera con Stainless. Tres movimientos casi calcados en el plazo de un trimestre no son casualidad: es 𝗲𝗹 𝗴𝗶𝗿𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗲𝗻𝘁𝗮𝗷𝗮 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗮 𝗵𝗮𝗰𝗶𝗮 𝗹𝗮 𝗼𝗿𝗾𝘂𝗲𝘀𝘁𝗮𝗰𝗶ó𝗻.\n\nPara quien construye, la lectura práctica es que elegir modelo será cada vez menos diferencial y elegir la capa que lo coordina, mucho más. Si tu producto compite por el modelo que usa, tienes un problema.\n\n#Meta #OpenAI #Anthropic #AgentesDeCódigo\n\nhttps://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Anthropic no piensa parchear un fallo de Claude Dispatch que permite ejecutar comandos remotos",
+      "summary": "Investigadores de seguridad han descrito una cadena de fallos en Claude Dispatch que, en seis pasos, lleva de la escalada de privilegios a la ejecución remota de comandos y podría cruzar límites entre empresas. Anthropic ha decidido no corregirlo.",
+      "why_it_matters": "Un fallo sin parchear en una herramienta corporativa de Anthropic es un riesgo directo para cualquier organización que la tenga desplegada.",
+      "url": "https://www.theregister.com/research/2026/11/05/anthropic-wont-fix-a-claude-dispatch-flaw-that-could-let-attackers-execute-remote-commands-across-corporate-boundaries/5307684",
+      "source": "The Register",
+      "social": {
+        "x": "Seis pasos separan a un atacante de ejecutar comandos remotos a través de Claude Dispatch. Anthropic ha decidido no parchearlo.\n\n#Anthropic #Claude #RCE #Ciberseguridad\nhttps://www.theregister.com/research/2026/11/05/anthropic-wont-fix-a-claude-dispatch-flaw-that-could-let-attackers-execute-remote-commands-across-corporate-boundaries/5307684",
+        "linkedin": "Anthropic no va a parchear un fallo que permite ejecutar comandos remotos en Claude Dispatch.\n\nLa cadena descrita por los investigadores encadena seis pasos: de la escalada de privilegios a la ejecución remota de comandos, con la posibilidad de cruzar límites entre empresas. La decisión de no corregirlo deja el riesgo en manos de quien tenga la herramienta desplegada. Y ahí está el problema: 𝘂𝗻 𝗳𝗮𝗹𝗹𝗼 𝘀𝗶𝗻 𝗽𝗮𝗿𝗰𝗵𝗲 𝗲𝗻 𝘂𝗻𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗰𝗼𝗿𝗽𝗼𝗿𝗮𝘁𝗶𝘃𝗮 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝘁𝘂 𝗽𝗲𝗿í𝗺𝗲𝘁𝗿𝗼 𝗲𝗻 𝗲𝗹 ú𝗻𝗶𝗰𝗼 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗿𝗲𝗮𝗹, así que toca revisar aislamiento de red, permisos mínimos y qué puede tocar Dispatch en tus sistemas antes de que alguien más lo compruebe por ti.\n\n#Anthropic #Claude #RCE #Ciberseguridad\n\nhttps://www.theregister.com/research/2026/11/05/anthropic-wont-fix-a-claude-dispatch-flaw-that-could-let-attackers-execute-remote-commands-across-corporate-boundaries/5307684"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "lanzamientos",
+      "title": "openSUSE Leap 16.1 permite elegir entre sistema clásico e inmutable en el mismo instalador",
+      "summary": "openSUSE Leap 16.1 llega con un único instalador que ofrece una instalación convencional o un sistema de solo lectura, absorbiendo la hasta ahora separada Leap Micro. Es la primera actualización de punto tras Leap 16.0.",
+      "why_it_matters": "Poder probar el modelo inmutable sin cambiar de imagen ni de instalador facilita evaluar si encaja en escritorio o servidor.",
+      "url": "https://www.theregister.com/os-platforms/2026/11/05/opensuse-leap-161-gives-linux-users-the-right-to-remain-immutable/5307874",
+      "source": "The Register",
+      "social": {
+        "x": "Ahora puedes probar un sistema inmutable sin reinstalar nada: openSUSE Leap 16.1 mete el modo clásico y el de solo lectura en el mismo instalador.\n\n#openSUSE #SUSE #Linux #LeapMicro\nhttps://www.theregister.com/os-platforms/2026/11/05/opensuse-leap-161-gives-linux-users-the-right-to-remain-immutable/5307874",
+        "linkedin": "La duda entre sistema clásico e inmutable se resuelve en una pantalla del instalador: openSUSE Leap 16.1 te deja escoger entre ambos al instalar, sin cambiar de imagen ni de ISO.\n\nCon ello absorbe Leap Micro y unifica lo que hasta ahora se distribuía como dos productos separados. 𝗟𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗽𝗮𝗿𝗮 𝗮𝗱𝗼𝗽𝘁𝗮𝗿 𝗹𝗼 𝗶𝗻𝗺𝘂𝘁𝗮𝗯𝗹𝗲 𝗻𝘂𝗻𝗰𝗮 𝗳𝘂𝗲 𝘁é𝗰𝗻𝗶𝗰𝗮, 𝗲𝗿𝗮 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗽𝗿𝗼𝗯𝗮𝗿𝗹𝗼, y bajarla cambia el cálculo tanto en escritorio como en servidor. Para quien administra flotas, la pregunta deja de ser si merece la pena y pasa a ser cuántos equipos conviene migrar.\n\n#openSUSE #SUSE #Linux #LeapMicro\n\nhttps://www.theregister.com/os-platforms/2026/11/05/opensuse-leap-161-gives-linux-users-the-right-to-remain-immutable/5307874"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Configuración de Claude Code de Garry Tan con 23 herramientas que actúan como CEO, diseñador, jefe de ingeniería, release manager, doc engineer y QA. Resulta útil si quieres copiar un flujo de trabajo con agentes ya probado en lugar de montarlo desde cero.",
+      "language": "TypeScript",
+      "stars": 139806,
+      "social": {
+        "x": "Garry Tan acaba de publicar su configuración de Claude Code: 23 herramientas que actúan como CEO, diseñador, jefe de ingeniería o QA. 139k estrellas y puedes copiarla tal cual.\n\n#ClaudeCode #TypeScript #OpenSource #GitHub\nhttps://github.com/garrytan/gstack",
+        "linkedin": "NO MONTES TU FLUJO DE AGENTES DESDE CERO: COPIA EL DE ALGUIEN QUE YA LO TIENE PROBADO.\n\nGarry Tan ha publicado su configuración de Claude Code, y lo interesante no es el autor: es que viene con 23 herramientas que se reparten los roles de un equipo entero. CEO, diseñador, jefe de ingeniería, release manager, doc engineer y QA.\n\nEl contraste con montarlo por tu cuenta es claro: tú tendrías que dedicar semanas a decidir qué contexto le das a cada agente y cómo los encadenas entre ellos. Aquí eso ya viene resuelto, en TypeScript y dentro de una configuración real.\n\n→ 23 herramientas con rol asignado, no un único prompt genérico.\n→ Configuración de Claude Code pensada para copiarla y adaptarla a tu equipo.\n→ Cubre el ciclo completo: de la definición de producto al QA y la documentación.\n\n𝗟𝗮 𝗶𝗱𝗲𝗮: 𝗰𝗼𝗽𝗶𝗮𝗿 𝘂𝗻 𝗳𝗹𝘂𝗷𝗼 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗰𝗼𝗻 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝘆𝗮 𝗽𝗿𝗼𝗯𝗮𝗱𝗼 y ahorrarte el montaje desde cero.\n\n139k estrellas son mucha gente mirando cómo trabaja alguien con criterio. Guarda el post y échale un ojo al repo, te lo dejo abajo.\n\n#ClaudeCode #TypeScript #OpenSource #GitHub\n\nhttps://github.com/garrytan/gstack"
+      }
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "CLI de automatización de navegador pensado para agentes de IA, desarrollado por Vercel Labs. Permite que un agente navegue, interactúe con páginas y extraiga información de forma programática.",
+      "language": "Rust",
+      "stars": 45750,
+      "social": {
+        "x": "Vercel Labs suelta un CLI en Rust que le da navegador a tu agente de IA: navega, pulsa y extrae datos sin servicio de pago por sesión. 45.750 estrellas.\n\n#agentbrowser #Rust #OpenSource #GitHub\nhttps://github.com/vercel-labs/agent-browser",
+        "linkedin": "VERCEL LABS ACABA DE DARLE UN NAVEGADOR A TU AGENTE DE IA.\n\nEl problema de siempre: le pides a un agente que consulte una web y acaba peleándose con selectores, cookies y páginas que cargan en tres fases. agent-browser ataca justo eso, con un CLI escrito en Rust que convierte navegar en comandos que el agente puede encadenar.\n\nY lo hace en local, sin atarse a un servicio de pago por sesión de navegador.\n\n→ Navega, hace clic, rellena formularios y espera a que cargue lo que de verdad hace falta\n→ Extrae información de la página de forma programática, lista para pasársela al modelo\n→ Al ser un CLI, encaja en cualquier script, pipeline o tool call de un agente\n→ Rust por debajo: arranque rápido y binario único, sin runtime que instalar\n\n𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗻𝗼 𝗲𝘀 𝗾𝘂𝗲 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝘃𝗲𝗮 𝗹𝗮 𝘄𝗲𝗯, 𝗲𝘀 𝗾𝘂𝗲 𝗹𝗮 𝗽𝘂𝗲𝗱𝗮 𝗺𝗮𝗻𝗲𝗷𝗮𝗿 𝗰𝗼𝗺𝗼 𝘂𝗻𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗺á𝘀.\n\n45.750 estrellas después, queda claro que el hueco era real. Guárdatelo antes de la próxima vez que tu agente se quede mirando un HTML sin saber qué hacer.\n\nTe dejo el repo abajo.\n\n#agentbrowser #Rust #OpenSource #GitHub\n\nhttps://github.com/vercel-labs/agent-browser"
+      }
+    },
+    {
+      "name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Colección de Agent Skills de Google para trabajar con sus productos y tecnologías desde agentes de IA. Sirve para dar a un agente contexto y capacidades concretas sobre el ecosistema de Google sin escribir esa integración desde cero.",
+      "language": "Python",
+      "stars": 22243,
+      "social": {
+        "x": "Google acaba de publicar sus Agent Skills: le das a tu agente contexto y capacidades sobre todo su ecosistema sin escribir la integración desde cero. 22k estrellas.\n\n#AgentSkills #Google #OpenSource #GitHub\nhttps://github.com/google/skills",
+        "linkedin": "GOOGLE ACABA DE PUBLICAR EL CONTEXTO QUE TU AGENTE NECESITABA.\n\nCada vez que quieres que un agente de IA trabaje con el ecosistema de Google, toca escribir la integración a mano: prompts, herramientas y casos límite. Este repo se salta buena parte de ese trabajo.\n\nEs una colección de Agent Skills de Google pensada para dar a tu agente contexto y capacidades concretas sobre sus productos y tecnologías, sin partir de cero.\n\n→ Skills listas para enchufar a tu agente\n→ Contexto específico del ecosistema de Google, sin inventarlo tú\n→ Menos glue code y menos idas y venidas con la documentación\n→ Escrito en Python y con más de 22.000 estrellas detrás\n\n𝗟𝗮 𝗶𝗱𝗲𝗮: no entrenas al agente desde cero, le das skills ya escritas por quien conoce el producto.\n\nGuárdate el post, que el repo lo tienes en el enlace de abajo.\n\n#AgentSkills #Google #OpenSource #GitHub\n\nhttps://github.com/google/skills"
+      }
+    },
+    {
+      "name": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "IA de voz open source de Microsoft, orientada a generar audio de alta calidad. Una opción práctica para experimentar con síntesis de voz y aplicaciones de audio sin depender de APIs de pago.",
+      "language": "Python",
+      "stars": 55626,
+      "social": {
+        "x": "Microsoft no te cobra por su modelo de voz: es open source y ya acumula más de 55.000 estrellas. Audio de alta calidad sin APIs de pago.\n\n#VibeVoice #Python #OpenSource #GitHub\nhttps://github.com/microsoft/VibeVoice",
+        "linkedin": "MICROSOFT HA ABIERTO SU MODELO DE VOZ. Y NO NECESITAS UNA API DE PAGO.\n\nVibeVoice es el proyecto de síntesis de voz en Python que Microsoft mantiene en GitHub, con más de 55.000 estrellas. Casi todo lo que suena bien en audio pasa hoy por una suscripción o por una API que cobra por uso. Aquí tienes una vía directa para experimentar con voz de calidad sin pasar por caja.\n\n→ Generación de audio de alta calidad, pensada para sonar natural\n→ Open source y en Python, fácil de meter en tus scripts\n→ Sin depender de APIs de pago para hacer pruebas\n→ Útil para prototipos de asistentes, lectura de textos o doblaje\n→ Con Microsoft detrás del repositorio, no es un experimento de fin de semana\n\n𝗟𝗼 𝗶𝗻𝘁𝗲𝗿𝗲𝘀𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝘀𝗼𝗹𝗼 𝗹𝗮 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗮𝘂𝗱𝗶𝗼, 𝘀𝗶𝗻𝗼 𝗽𝗼𝗱𝗲𝗿 𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁𝗮𝗿 𝘀𝗶𝗻 𝗽𝗲𝗱𝗶𝗿 𝗽𝗲𝗿𝗺𝗶𝘀𝗼 𝗻𝗶 𝗱𝗲𝗷𝗮𝗿 𝗹𝗮 𝘁𝗮𝗿𝗷𝗲𝘁𝗮.\n\nSi estás montando algo con voz, guárdatelo antes de que lo mueva el siguiente release. Te dejo el repo abajo.\n\n#VibeVoice #Python #OpenSource #GitHub\n\nhttps://github.com/microsoft/VibeVoice"
+      }
+    },
+    {
+      "name": "lz4/lz4",
+      "url": "https://github.com/lz4/lz4",
+      "description": "Algoritmo de compresión extremadamente rápido, muy usado en bases de datos, sistemas de archivos y pipelines de datos donde la latencia importa. Librería madura y práctica si necesitas comprimir sin que el rendimiento se resienta.",
+      "language": "C",
+      "stars": 12307,
+      "social": {
+        "x": "Comprime a velocidad de memoria y descomprime aún más rápido. LZ4 lleva 12.307 estrellas y es el truco silencioso de bases de datos y sistemas de archivos donde la latencia manda.\n\n#LZ4 #OpenSource #C #Rendimiento\nhttps://github.com/lz4/lz4",
+        "linkedin": "LA MAYORÍA DE EQUIPOS PAGA LATENCIA POR COMPRIMIR. LZ4 DEMUESTRA QUE NO HACE FALTA.\n\nCuando el pipeline aprieta, es tentador activar compresión en la base de datos o en el sistema de archivos y luego llevarse la sorpresa en CPU y en milisegundos. LZ4 existe justo para ese hueco: un algoritmo extremadamente rápido, pensado para que el rendimiento no se resienta, con 12.307 estrellas y años de uso real detrás.\n\n→ Compresión muy rápida y descompresión todavía más, con el foco puesto en la latencia y no en exprimir la ratio máxima.\n→ Encaja donde el reloj manda: bases de datos, sistemas de archivos y pipelines de datos.\n→ Librería en C, madura y práctica, de las que se integran sin arrastrar media docena de dependencias.\n→ Open source y con historial suficiente para no jugártela en producción.\n\nLa idea que merece la pena guardar: 𝗰𝗼𝗺𝗽𝗿𝗶𝗺𝗶𝗿 𝗻𝗼 𝘁𝗶𝗲𝗻𝗲 𝗽𝗼𝗿 𝗾𝘂é 𝗰𝗼𝘀𝘁𝗮𝗿 𝗹𝗮𝘁𝗲𝗻𝗰𝗶𝗮. Si tu cuello de botella está en disco o en red y el CPU va sobrado, este repo se lee una vez y se queda en el cajón de herramientas para siempre.\n\nGuarda el post para el día que te toque elegir algoritmo de compresión.\n\n#LZ4 #OpenSource #C #Rendimiento\n\nhttps://github.com/lz4/lz4"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Por qué cada petición a la base de datos cuesta mucho más de lo que parece",
+      "url": "https://blog.bytebytego.com/p/the-hidden-work-behind-every-database",
+      "source": "ByteByteGo",
+      "summary": "Explica la amplificación de lectura, escritura y espacio, es decir, la distancia entre el trabajo lógico que pide una consulta y el coste físico que acaba pagando el sistema. Sirve para entender por qué una operación aparentemente barata dispara el IO y para razonar sobre índices, modelos de almacenamiento y rendimiento antes de optimizar a ciegas.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "No construyas todavía ese componente reutilizable",
+      "url": "https://stackoverflow.blog/2026/11/05/don-t-build-the-reusable-component-yet",
+      "source": "Stack Overflow Blog",
+      "summary": "Defiende esperar a tener dos o tres casos reales antes de abstraer, porque una API diseñada sobre suposiciones se queda corta en cuanto llega el segundo cliente. Quien lo lee aprende a reconocer la sobreingeniería temprana y a usar la duplicación como información para diseñar mejores interfaces.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Cómo hacer accesibles las interfaces de chat con LLM",
+      "url": "https://smashingmagazine.com/2026/11/making-immersive-llm-chat-experiences-more-accessible",
+      "source": "Smashing Magazine",
+      "summary": "Recoge pautas prácticas para que los chats con modelos de lenguaje funcionen con lectores de pantalla y otras tecnologías de asistencia: estructura del contenido, anuncio de estados, gestión del foco y respuestas que llegan en streaming. Útil para cualquiera que esté construyendo producto sobre un chat y no quiera dejar fuera a parte de sus usuarios.",
+      "tema": "web"
+    },
+    {
+      "title": "Un mapa para saber en qué punto está tu plataforma de data products",
+      "url": "https://martinfowler.com/articles/data-product-platform-nav.html",
+      "source": "Martin Fowler",
+      "summary": "Propone un navegador basado en el modelo de madurez de platform engineering de la CNCF para diagnosticar si conviene construir la plataforma de data products desde cero o si el problema real es la baja adopción de la que ya existe. Ayuda a equipos con iniciativas de data mesh atascadas a situarse y decidir el siguiente paso con criterio.",
+      "tema": "datos"
+    },
+    {
+      "title": "Un GPT diminuto memoriza los hechos pero no sabe relacionarlos",
+      "url": "https://towardsdatascience.com/why-a-tiny-gpt-can-know-two-facts-and-still-not-connect-them",
+      "source": "Towards Data Science",
+      "summary": "Un experimento con un modelo pequeño que recuerda cada dato por separado y falla en cuanto la respuesta exige combinar dos de ellos, con la prueba de la corrección propuesta por un paper reciente y su resultado solo parcial. Sirve para entender la diferencia entre memorizar y componer, y por qué no basta con meter más hechos en el entrenamiento.",
+      "tema": "ia"
+    },
+    {
+      "title": "El coste oculto de querer que todo funcione en tiempo real",
+      "url": "https://medium.com/underlying-logic/the-hidden-cost-of-making-everything-real-time-9c40a154a731",
+      "source": "Medium: Web Development",
+      "summary": "Cada función de actualización en vivo parece una mejora de producto, pero por debajo arrastra un compromiso arquitectónico: conexiones persistentes, estado compartido y más superficie operativa. Ayuda a valorar cuándo merece la pena asumir ese coste y cuándo basta con refrescar al cargar la página.",
+      "tema": "arquitectura"
+    }
+  ]
+}
