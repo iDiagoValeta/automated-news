@@ -33,7 +33,9 @@
     caja.className = "calendario__caja";
     cal.appendChild(caja);
 
-    function render() {
+    // `foco` es la flecha pulsada: el repintado la sustituye, así que se
+    // devuelve el foco a la nueva para que el teclado no lo pierda.
+    function render(foco) {
       var cur = ym(year, month);
       caja.innerHTML = "";
 
@@ -47,7 +49,7 @@
       prev.textContent = "‹";
       prev.disabled = cur <= minYM;
       prev.addEventListener("click", function () {
-        month--; if (month < 1) { month = 12; year--; } render();
+        month--; if (month < 1) { month = 12; year--; } render("Mes anterior");
       });
 
       var titulo = document.createElement("span");
@@ -61,7 +63,7 @@
       next.textContent = "›";
       next.disabled = cur >= maxYM;
       next.addEventListener("click", function () {
-        month++; if (month > 12) { month = 1; year++; } render();
+        month++; if (month > 12) { month = 1; year++; } render("Mes siguiente");
       });
 
       head.appendChild(prev);
@@ -106,6 +108,11 @@
       }
 
       caja.appendChild(grid);
+
+      if (foco) {
+        var destino = foco === "Mes anterior" ? prev : next;
+        (destino.disabled ? (destino === prev ? next : prev) : destino).focus();
+      }
     }
 
     render();

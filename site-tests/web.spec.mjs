@@ -588,6 +588,20 @@ test("el interruptor de tema cambia data-theme", async () => {
   await contexto.close();
 });
 
+test("el calendario sigue abierto al cambiar de mes", async () => {
+  const { contexto, pagina, problemas } = await abrir("");
+  await pagina.locator(".cal-menu > summary").click();
+  // Cada flecha repinta la cabecera y saca de la página el botón pulsado.
+  await pagina.locator('.calendario__nav[aria-label="Mes anterior"]').click();
+  assert.ok(await pagina.locator(".cal-menu").evaluate((d) => d.open), "el calendario se cerró al ir al mes anterior");
+  await pagina.locator('.calendario__nav[aria-label="Mes siguiente"]').click();
+  assert.ok(await pagina.locator(".cal-menu").evaluate((d) => d.open), "el calendario se cerró al ir al mes siguiente");
+  // El foco sigue en una flecha para poder seguir con el teclado.
+  assert.ok(await pagina.evaluate(() => document.activeElement?.classList.contains("calendario__nav")), "el foco se perdió al repintar");
+  assert.deepEqual(problemas, []);
+  await contexto.close();
+});
+
 test("la búsqueda se despliega desde el botón que la abre", async () => {
   const { contexto, pagina, problemas } = await abrir("");
   const boton = pagina.locator(".masthead__nav .masthead__buscar");

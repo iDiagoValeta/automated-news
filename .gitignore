@@ -6,3 +6,6 @@ _site/
 site-tests/.metricas.json
 # Temporal de la escritura atómica de data/ si el proceso muere antes del rename.
 *.tmp
+# Local agent tooling (Claude Code settings, impeccable design notes)
+.claude/
+.impeccable/

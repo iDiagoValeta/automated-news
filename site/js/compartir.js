@@ -101,6 +101,9 @@ document.addEventListener(
 // Menús desplegables (compartir, calendario): se cierran al pulsar
 // fuera, al elegir un enlace o con Escape, y solo hay uno abierto a la vez.
 document.addEventListener("click", (e) => {
+  // Un objetivo que ya no está en la página lo quitó su propio menú al
+  // repintarse (las flechas del calendario): no es un clic fuera.
+  if (e.target instanceof Node && !e.target.isConnected) return;
   for (const d of document.querySelectorAll("details[open]")) {
     if (!d.contains(e.target) || e.target.closest(".share__item[href]")) d.removeAttribute("open");
   }
