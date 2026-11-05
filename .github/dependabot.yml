@@ -16,6 +16,12 @@ updates:
       interval: weekly
       day: monday
     open-pull-requests-limit: 5
+    # @types/node sigue al Node que corre la web (24 en ci.yml y daily.yml), no
+    # al último publicado: unos tipos más nuevos dejarían pasar en el typecheck
+    # APIs que en producción no existen. Su mayor se sube a mano con el runtime.
+    ignore:
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
     # Los parches y los menores viajan juntos para que la revisión sea una
     # pasada de CI y no cinco. Los mayores van sueltos: son los que hay que leer.
     groups:
