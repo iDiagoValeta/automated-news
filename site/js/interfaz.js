@@ -1,8 +1,7 @@
 // Interacciones de la interfaz, inspiradas en bloques de Bencho (bencho.dev):
 // interruptor de tema (LiquidToggle), menú con «Más» y panel lateral,
 // indicador deslizante del menú (GooTabs),
-// progreso de lectura por marcas (ProgressTicks), selector de tipografía,
-// cursor retro pixelado, fondo de hebras y sonidos de interfaz.
+// progreso de lectura por marcas (ProgressTicks) y sonidos de interfaz.
 // Todo es mejora progresiva: sin JS la página funciona igual.
 
 const reducirMovimiento = matchMedia("(prefers-reduced-motion: reduce)");
@@ -147,6 +146,31 @@ function initMenu() {
   });
 }
 
+/* ---------- Aviso de edición antigua ---------- */
+
+// El sitio es estático: solo el navegador sabe qué día es. La edición sale a
+// mediodía, así que la de ayer es normal por la mañana; a partir de dos días
+// sin edición nueva se avisa, para que nadie lea lo de la semana pasada como
+// si fuera de hoy. Se cuenta en la zona horaria de Madrid, la del pipeline.
+function initAviso() {
+  const cab = document.querySelector(".fechario[data-ultima]");
+  const aviso = cab?.querySelector(".fechario__aviso");
+  if (!aviso) return;
+  const hoy = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Madrid" }).format(new Date());
+  const dias = Math.round((Date.parse(hoy) - Date.parse(cab.dataset.ultima)) / 86400000);
+  if (!(dias >= 2)) return;
+  aviso.textContent = `No hay edición nueva desde hace ${dias} días.`;
+  aviso.hidden = false;
+}
+
+/* ---------- Atajo de búsqueda según el sistema ---------- */
+
+// ⌘ solo existe en el Mac; en Linux y Windows el atajo es Ctrl K.
+function initAtajo() {
+  const kbd = document.querySelector(".masthead__buscar kbd");
+  if (kbd && !/Mac|iPhone|iPad/.test(navigator.platform || navigator.userAgent)) kbd.textContent = "Ctrl K";
+}
+
 /* ---------- Progreso de lectura por marcas ---------- */
 
 function initProgreso() {
@@ -208,166 +232,6 @@ function initProgreso() {
   construir();
 }
 
-/* ---------- Tipografía ---------- */
-
-// Las fuentes y su carga están en el <head> (base.njk), para aplicarlas antes
-// de pintar; aquí solo se elige y se recuerda.
-function initTipografia() {
-  const menu = document.querySelector(".tipo");
-  if (!menu) return;
-  const ops = [...menu.querySelectorAll(".tipo__op")];
-  const html = document.documentElement;
-  const pintar = () => {
-    const actual = html.dataset.fuente || "clasica";
-    for (const o of ops) o.setAttribute("aria-pressed", String(o.dataset.fuente === actual));
-  };
-  pintar();
-  // Al abrir, se cargan todas para que cada opción se vea con su letra.
-  menu.addEventListener("toggle", () => {
-    if (menu.open) for (const f of Object.keys(window.FUENTES || {})) window.cargarFuente(f);
-  });
-  menu.addEventListener("click", (e) => {
-    const o = e.target.closest(".tipo__op");
-    if (!o) return;
-    const f = o.dataset.fuente;
-    if (f === "clasica") delete html.dataset.fuente;
-    else html.dataset.fuente = f;
-    try {
-      localStorage.setItem("fuente", f);
-    } catch {}
-    pintar();
-    menu.open = false;
-  });
-}
-
-/* ---------- Cursor retro ---------- */
-
-// La flecha (o la manita sobre lo pulsable) es un <img> que sigue al ratón.
-// Solo con ratón y sin preferencia de movimiento reducido; sin JS queda el
-// cursor del sistema.
-function initCursor() {
-  if (!matchMedia("(hover: hover) and (pointer: fine)").matches || reducirMovimiento.matches) return;
-  // Ruta de las imágenes a partir de la hoja propia (no la primera: si hay
-  // tipografía elegida, la de Google Fonts va antes).
-  const hoja = document.querySelector('link[href*="css/diario.css"]');
-  if (!hoja) return;
-  const base = new URL("../img/", hoja.href).href;
-  const crear = (nombre) => {
-    const img = document.createElement("img");
-    img.src = `${base}cursor-${nombre}.svg`;
-    img.alt = "";
-    img.className = "cursor-retro__el";
-    img.setAttribute("aria-hidden", "true");
-    document.body.append(img);
-    return img;
-  };
-  const flecha = crear("flecha");
-  const mano = crear("mano");
-  // Punta de cada dibujo: la flecha en su esquina, la manita en el dedo.
-  const punta = new Map([[flecha, [0, 0]], [mano, [11, 0]]]);
-  const pulsable = "a, button, summary, label, [role='button']";
-  const sistema = "input, textarea, select, dialog, dialog *";
-  let x = 0;
-  let y = 0;
-  let actual = null;
-  let pendiente = false;
-
-  function pintar() {
-    pendiente = false;
-    for (const el of [flecha, mano]) el.classList.toggle("is-visible", el === actual);
-    if (!actual) return;
-    const [dx, dy] = punta.get(actual);
-    actual.style.transform = `translate(${x - dx}px, ${y - dy}px)`;
-  }
-  document.addEventListener("pointermove", (e) => {
-    if (e.pointerType !== "mouse") return;
-    x = e.clientX;
-    y = e.clientY;
-    const t = e.target instanceof Element ? e.target : null;
-    actual = !t || t.closest(sistema) ? null : t.closest(pulsable) ? mano : flecha;
-    if (!pendiente) {
-      pendiente = true;
-      requestAnimationFrame(pintar);
-    }
-  });
-  // Fuera de la ventana no se dibuja nada.
-  document.documentElement.addEventListener("mouseleave", () => {
-    actual = null;
-    pintar();
-  });
-  // El cursor del sistema solo se oculta cuando los dos dibujos han cargado;
-  // si alguno falla, se queda el del sistema.
-  Promise.all([flecha.decode(), mano.decode()])
-    .then(() => document.documentElement.classList.add("cursor-retro"))
-    .catch(() => {
-      flecha.remove();
-      mano.remove();
-    });
-}
-
-/* ---------- Fondo de hebras ---------- */
-
-// Líneas finas que siguen un campo de ruido, dibujadas una sola vez y quietas.
-// Monocromo con la tinta del tema y tenues, para no competir con la lectura.
-// Se repinta solo al cambiar el tema o el ancho.
-function initFondo() {
-  const canvas = document.createElement("canvas");
-  canvas.className = "fondo";
-  canvas.setAttribute("aria-hidden", "true");
-  const ctx = canvas.getContext("2d");
-  if (!ctx) return;
-
-  // Ruido de valor suavizado con semilla fija: el dibujo es el mismo en cada visita.
-  const hash = (x, y) => { const s = Math.sin(x * 127.1 + y * 311.7) * 43758.5453; return s - Math.floor(s); };
-  const ruido = (x, y) => {
-    const xi = Math.floor(x), yi = Math.floor(y), xf = x - xi, yf = y - yi;
-    const u = xf * xf * (3 - 2 * xf), v = yf * yf * (3 - 2 * yf);
-    const a = hash(xi, yi), b = hash(xi + 1, yi), c = hash(xi, yi + 1), d = hash(xi + 1, yi + 1);
-    return a + (b - a) * u + (c - a) * v + (a - b - c + d) * u * v;
-  };
-
-  function pintar() {
-    const dpr = Math.min(devicePixelRatio || 1, 2);
-    const W = innerWidth, H = innerHeight;
-    canvas.width = W * dpr;
-    canvas.height = H * dpr;
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    // La tinta sale del CSS para seguir al tema sin duplicar la paleta aquí.
-    const m = getComputedStyle(document.documentElement).getPropertyValue("--ink").trim().match(/^#([0-9a-f]{6})$/i);
-    const n = m ? parseInt(m[1], 16) : 0;
-    ctx.strokeStyle = `rgba(${n >> 16},${(n >> 8) & 255},${n & 255},0.07)`;
-    ctx.lineWidth = 1;
-    ctx.beginPath();
-    // Pocas hebras por área: el fondo acompaña, no llena.
-    const total = Math.round((W * H) / 12000);
-    for (let i = 0; i < total; i++) {
-      let x = hash(i, 1) * W;
-      let y = hash(i, 2) * H;
-      ctx.moveTo(x, y);
-      for (let p = 0, largo = 80 + hash(i, 3) * 140; p < largo; p++) {
-        const ang = ruido(x * 0.0025, y * 0.0025) * Math.PI * 4;
-        x += Math.cos(ang) * 2;
-        y += Math.sin(ang) * 2;
-        ctx.lineTo(x, y);
-      }
-    }
-    ctx.stroke();
-  }
-
-  document.body.prepend(canvas);
-  pintar();
-  new MutationObserver(pintar).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
-  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", pintar);
-  // En móvil la barra de direcciones cambia el alto al hacer scroll: solo se
-  // repinta si cambia el ancho.
-  let ancho = innerWidth;
-  addEventListener("resize", () => {
-    if (innerWidth === ancho) return;
-    ancho = innerWidth;
-    pintar();
-  });
-}
-
 /* ---------- Sonidos ---------- */
 
 // Apagados por defecto: los enciende el botón del altavoz y se recuerda. Se
@@ -405,7 +269,6 @@ function initSonido() {
     cerrar: () => ({ notas: [[988, 0, 0.06], [659, 0.045, 0.09]], onda: "triangle", vol: 0.1 }),
     claro: () => ({ notas: [[784, 0, 0.08], [1175, 0.06, 0.08], [1568, 0.12, 0.14]], onda: "sine", vol: 0.13 }),
     oscuro: () => ({ notas: [[1568, 0, 0.08], [1175, 0.06, 0.08], [784, 0.12, 0.16]], onda: "sine", vol: 0.13 }),
-    fuente: (i) => ({ notas: [[NOTAS[2 + i], 0, 0.06], [NOTAS[4 + i], 0.04, 0.08]], onda: "triangle", vol: 0.05 }),
     pagina: (dir) => ({ notas: [[dir > 0 ? 880 : 1047, 0, 0.04], [dir > 0 ? 1047 : 880, 0.035, 0.05]], onda: "triangle", vol: 0.1 }),
     tecla: () => ({ notas: [[azar(NOTAS.slice(7)), 0, 0.025]], onda: "triangle", vol: 0.03 }),
     hecho: () => ({ notas: [[1047, 0, 0.06], [1319, 0.06, 0.06], [1568, 0.12, 0.16]], onda: "sine", vol: 0.12 }),
@@ -510,7 +373,6 @@ function initSonido() {
     && a.origin === location.origin && !(a.pathname === location.pathname && a.hash);
 
   const secciones = [...document.querySelectorAll(".masthead__nav a:not(.masthead__buscar)")];
-  const fuentes = [...document.querySelectorAll(".tipo__op")];
 
   // Va en burbuja, después de los manejadores de cada control: el tema ya ha
   // cambiado, los desplegables ya conocen su estado y la búsqueda ya ha
@@ -523,7 +385,6 @@ function initSonido() {
     if (t.closest(".tema")) sonar(document.documentElement.dataset.theme === "dark" ? "oscuro" : "claro");
     else if (t.closest("[data-paleta]")) sonar("abrir");
     else if (t.closest(".share__copy")) sonar("hecho");
-    else if (t.closest(".tipo__op")) sonar("fuente", fuentes.indexOf(t.closest(".tipo__op")));
     // El calendario repinta su cabecera al cambiar de mes: el botón ya no
     // está en la página, pero conserva su etiqueta.
     else if (t.closest(".calendario__nav")) sonar("pagina", t.closest(".calendario__nav").getAttribute("aria-label") === "Mes anterior" ? -1 : 1);
@@ -553,10 +414,9 @@ function initSonido() {
 }
 
 initTema();
-initTipografia();
+initAviso();
+initAtajo();
 initMenu();
 initIndicador();
 initProgreso();
-initCursor();
-initFondo();
 initSonido();

@@ -4,6 +4,7 @@ permalink: "/index.html"
 ---
 {% if editions.length %}
   {% set edition = editions[0] %}
+  {% set ultimaDia = true %}
   {% include "edicion.njk" %}
 {% else %}
   <p class="empty">Aún no hay ediciones publicadas. Vuelve mañana a mediodía.</p>

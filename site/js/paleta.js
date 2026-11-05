@@ -73,7 +73,7 @@ async function buscar() {
   }
   const res = searchDocs(docs, q).slice(0, 8);
   if (!res.length) {
-    lista.innerHTML = `<li class="paleta__vacio">Sin resultados.</li>`;
+    lista.innerHTML = `<li class="paleta__vacio">Sin resultados. Prueba con una sola palabra del titular o de la fuente.</li>`;
     return;
   }
   res.forEach((doc, n) => {

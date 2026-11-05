@@ -21,7 +21,7 @@ permalink: "/editorial/index.html"
         </article>
         {% if notas.length > 1 %}<div class="stories">{% endif %}
       {% else %}
-        <article class="story" style="--i: {{ loop.index0 }}">
+        <article class="story">
           <h3 class="story__title"><a href="{{ nota.url | url }}">{{ nota.data.title }}</a></h3>
           <p class="story__summary">{{ nota.data.resumen }}</p>
           <div class="item-pie">

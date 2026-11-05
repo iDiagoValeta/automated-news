@@ -1,46 +1,61 @@
 {% from "share.njk" import share %}
 
-{% set lead = edition.items[0] %}
-<article class="edicion">
-  {% if lead %}
-    <article class="lead">
-      <h2 class="lead__title">
-        <a href="{{ lead.url }}" target="_blank" rel="noopener">{{ lead.title }}</a>
-      </h2>
-      <p class="lead__summary">{{ lead.summary }}</p>
-      <p class="why">{{ lead.why_it_matters | cuna | safe }}</p>
-      <div class="item-pie">
-        <p class="source">
-          <a href="{{ lead.url }}" target="_blank" rel="noopener">{{ lead.source }}</a>
-          <span class="cat">{{ lead.category | categoria }}</span>
-        </p>
-        {{ share(lead.social) }}
-      </div>
-    </article>
-  {% endif %}
-
-  {% if edition.items.length > 1 %}
-    <div class="stories">
-      {% for item in edition.items %}
-        {% if loop.index0 > 0 %}
-        <article class="story" style="--i: {{ loop.index0 }}">
-          <h3 class="story__title">
-            <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
-          </h3>
-          <p class="story__summary">{{ item.summary }}</p>
-          <p class="why">{{ item.why_it_matters | cuna | safe }}</p>
-          <div class="item-pie">
-            <p class="source">
-              <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.source }}</a>
-          <span class="cat">{{ item.category | categoria }}</span>
-            </p>
-            {{ share(item.social) }}
-          </div>
-        </article>
-        {% endif %}
-      {% endfor %}
+{# Tres niveles: la principal, dos destacadas a su lado (tres la desbordaban) y el resto agrupado por
+   categoría. Fuera de la principal, el «por qué importa» se abre a demanda. #}
+{% macro noticia(item, clase) %}
+  <article class="story {{ clase }}">
+    <h3 class="story__title">
+      <a href="{{ item.url }}" target="_blank" rel="noopener" aria-describedby="nueva-pestana">{{ item.title }}</a>
+    </h3>
+    <p class="story__summary">{{ item.summary }}</p>
+    <details class="porque">
+      <summary>Por qué importa</summary>
+      <p class="why">{{ item.why_it_matters | cuna | safe }}</p>
+    </details>
+    <div class="item-pie">
+      <p class="source">{{ item.source }}<span class="cat">{{ item.category | categoria }}</span></p>
+      {{ share(item.social, item.title) }}
     </div>
-  {% endif %}
+  </article>
+{% endmacro %}
+
+{% set lead = edition.items[0] %}
+{% set destacadas = edition.items.slice(1, 3) %}
+{% set resto = edition.items.slice(3) %}
+<article class="edicion">
+  {% set fechaDia = edition.date %}
+  {% set cuentaDia = edition.items.length + (" noticia" if edition.items.length == 1 else " noticias") %}
+  {% include "fechario.njk" %}
+
+  <div class="portada">
+    {% if lead %}
+      <article class="lead">
+        <h2 class="lead__title">
+          <a href="{{ lead.url }}" target="_blank" rel="noopener" aria-describedby="nueva-pestana">{{ lead.title }}</a>
+        </h2>
+        <p class="lead__summary">{{ lead.summary }}</p>
+        <p class="why">{{ lead.why_it_matters | cuna | safe }}</p>
+        <div class="item-pie">
+          <p class="source">{{ lead.source }}<span class="cat">{{ lead.category | categoria }}</span></p>
+          {{ share(lead.social, lead.title) }}
+        </div>
+      </article>
+    {% endif %}
+    {% if destacadas.length %}
+      <div class="destacadas">
+        {% for item in destacadas %}{{ noticia(item, "story--destacada") }}{% endfor %}
+      </div>
+    {% endif %}
+  </div>
+
+  {% for cat, items in resto | groupby("category") %}
+    <section class="seccion" aria-labelledby="seccion-{{ cat }}">
+      <h2 class="seccion__titulo" id="seccion-{{ cat }}">{{ cat | categoria }}</h2>
+      <div class="seccion__lista">
+        {% for item in items %}{{ noticia(item, "story--breve") }}{% endfor %}
+      </div>
+    </section>
+  {% endfor %}
 
   {% set olderPath = edition.olderPath %}
   {% set newerPath = edition.newerPath %}

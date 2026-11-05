@@ -4,15 +4,20 @@ title: Lecturas
 description: Artículos atemporales sobre programación, IA y oficio, seleccionados en La Terminal.
 permalink: "/lecturas/index.html"
 ---
-<h1 class="visually-hidden">Lecturas</h1>
 {% if lecturasEditions.length %}
   {% set ed = lecturasEditions[0] %}
   {% set lecturas = ed.lecturas %}
+  {% set fechaDia = ed.date %}
+  {% set cuentaDia = lecturas.length + (" lectura" if lecturas.length == 1 else " lecturas") %}
+  {% set seccionDia = "Lecturas" %}
+  {% set ultimaDia = true %}
+  {% include "fechario.njk" %}
   {% include "lecturas-lista.njk" %}
 
   {% set olderPath = ed.lecturasOlderPath %}
   {% set newerPath = ed.lecturasNewerPath %}
   {% include "nav-temporal.njk" %}
 {% else %}
+  <h1 class="visually-hidden">Lecturas</h1>
   <p class="empty">Aún no hay lecturas publicadas. Vuelve mañana a mediodía.</p>
 {% endif %}
