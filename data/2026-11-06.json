@@ -1,0 +1,355 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T17:28:28.686Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Thinking Machines lanza Inkling 2 Small, un modelo abierto de 594.000 millones de parámetros",
+      "summary": "La startup de Mira Murati presenta la segunda generación de sus modelos Inkling con una variante MoE de 594.000 millones de parámetros que, según la empresa, es el mejor modelo open-weight occidental. Gana en rendimiento agéntico, aunque a costa de disparar el consumo de tokens. Los pesos y las system cards se publicarán en los próximos días.",
+      "why_it_matters": "Es una de las apuestas abiertas más potentes del año y se podrá descargar para self-hosting en cuanto lleguen los pesos.",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small",
+      "source": "Hacker News",
+      "social": {
+        "x": "594.000 millones de parámetros y pesos abiertos. Thinking Machines dice que es el mejor modelo open-weight occidental, aunque se come los tokens. En días, descarga.\n\n#ThinkingMachines #OpenSource #MiraMurati #LLM\nhttps://thinkingmachines.ai/news/inkling-2-small",
+        "linkedin": "Lo abierto ya no va de alcanzar a los cerrados, sino de a qué precio.\n\nThinking Machines, la startup de Mira Murati, presenta Inkling 2 Small: una variante MoE de 594.000 millones de parámetros que, según la empresa, es 𝗲𝗹 𝗺𝗲𝗷𝗼𝗿 𝗺𝗼𝗱𝗲𝗹𝗼 𝗼𝗽𝗲𝗻-𝘄𝗲𝗶𝗴𝗵𝘁 𝗼𝗰𝗰𝗶𝗱𝗲𝗻𝘁𝗮𝗹 en rendimiento agéntico. El detalle incómodo es la factura, porque gana en tareas a costa de disparar el consumo de tokens, y eso cambia el cálculo de quién puede permitirse self-hostearlo. Los pesos y las system cards llegan en los próximos días: ahí se verá si el titular aguanta.\n\n#ThinkingMachines #OpenSource #MiraMurati #LLM\n\nhttps://thinkingmachines.ai/news/inkling-2-small"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Gemini Omni 1.2 Flash genera vídeo de hasta 15 segundos y baja el precio un 30%",
+      "summary": "Google DeepMind pone a disposición general Gemini Omni 1.2 Flash, que crea y edita clips nativos de hasta 15 segundos con mejor consistencia entre planos. El precio cae a 0,07 dólares por segundo en 720p, un 30% menos que la versión anterior, y permite editar paso a paso por conversación.",
+      "why_it_matters": "Alarga y abarata los clips lo suficiente como para que la generación de vídeo empiece a ser viable en producción.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+      "source": "Hacker News",
+      "social": {
+        "x": "Gemini Omni 1.2 Flash genera clips de 15 segundos a 7 céntimos el segundo: poco más de un dólar por vídeo. Google baja el precio un 30%.\n\n#Gemini #GoogleDeepMind #VideoGenerativo\nhttps://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+        "linkedin": "Un clip de vídeo de 15 segundos por poco más de un dólar. Ese es el precio al que Google deja la generación de vídeo con Gemini Omni 1.2 Flash: 0,07 dólares por segundo en 720p, un 30% menos que la versión anterior, clips más largos, mejor consistencia entre planos y edición paso a paso por conversación.\n\nDuración y precio no son detalles menores: son las dos variables que hasta ahora frenaban el uso de vídeo generado en producción. 𝗖𝘂𝗮𝗻𝗱𝗼 𝘂𝗻 𝗰𝗹𝗶𝗽 𝗰𝘂𝗲𝘀𝘁𝗮 𝘂𝗻 𝗱ó𝗹𝗮𝗿, 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗱𝗲𝗺𝗼 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗽𝗶𝗲𝘇𝗮 𝗺á𝘀 𝗱𝗲𝗹 𝗳𝗹𝘂𝗷𝗼 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼. El cuello de botella se mueve de sitio: ya no es el coste, sino quién revisa, aprueba y corrige lo que sale del modelo.\n\n#Gemini #GoogleDeepMind #VideoGenerativo\n\nhttps://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Tencent presenta Hy4 y lo sitúa entre los mejores modelos abiertos",
+      "summary": "Tencent anuncia Hy4, su nueva generación de modelo de lenguaje, y asegura que compite con los principales modelos open source del mundo. La compañía publicará los pesos y las system cards en los próximos días.",
+      "why_it_matters": "Refuerza la ofensiva china de modelos abiertos que los desarrolladores pueden usar sin depender de una API.",
+      "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models",
+      "source": "Hacker News",
+      "social": {
+        "x": "Tencent dice que su nuevo Hy4 compite con los mejores modelos abiertos. Y en unos días los pesos serán tuyos.\n\n#Tencent #OpenSource #LLM #Hy4\nhttps://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models",
+        "linkedin": "La ofensiva china del open source ya no va de igualar: va de adelantar.\n\nTencent sitúa Hy4 entre los mejores modelos abiertos del mundo y promete publicar pesos y system cards en los próximos días. Para cualquier equipo que hoy paga API por cada token, eso es 𝘂𝗻𝗮 𝗮𝗹𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝘃𝗮 𝗿𝗲𝗮𝗹 𝗽𝗮𝗿𝗮 𝗱𝗲𝘀𝗽𝗹𝗲𝗴𝗮𝗿 𝗲𝗻 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮. Merece la pena probarlo antes de renovar contrato con tu proveedor.\n\n#Tencent #OpenSource #LLM #Hy4\n\nhttps://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Claude podrá conectarse a tu banco para seguir tus gastos",
+      "summary": "Anthropic añade a Claude una función de finanzas personales que permite enlazar cuentas bancarias y tarjetas y preguntar al modelo por los movimientos. El asistente responde sobre el gasto real del usuario dentro de la conversación.",
+      "why_it_matters": "Es uno de los primeros casos de un modelo general accediendo a datos financieros personales, con todo lo que implica en privacidad.",
+      "url": "https://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending",
+      "source": "The Decoder",
+      "social": {
+        "x": "Le vas a poder preguntar a Claude cuánto gastaste el mes pasado. Y va a saberlo, porque estará conectado a tu banco.\n\n#Anthropic #Claude #OpenBanking #Privacidad\nhttps://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending",
+        "linkedin": "Hasta ahora los asistentes te explicaban cómo organizar un presupuesto; el siguiente paso es que lo lean directamente de tu cuenta. Anthropic añade finanzas personales a Claude: enlazas tus cuentas bancarias y tarjetas y le preguntas por los movimientos reales dentro de la conversación.\n\n𝗨𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗴𝗲𝗻𝗲𝗿𝗮𝗹 𝗽𝗮𝘀𝗮 𝗮 𝘁𝗼𝗰𝗮𝗿 𝗱𝗮𝘁𝗼𝘀 𝗾𝘂𝗲 𝗵𝗮𝘀𝘁𝗮 𝗵𝗼𝘆 𝘀𝗼𝗹𝗼 𝘃𝗲í𝗮𝗻 𝗹𝗮𝘀 𝗮𝗽𝗽𝘀 𝗱𝗲𝗹 𝗯𝗮𝗻𝗰𝗼, con todo lo que arrastra en privacidad y consentimiento. Y para quien construye producto, la pregunta deja de ser si el modelo puede acceder, sino quién responde cuando ese acceso falla o se queda viejo.\n\n#Anthropic #Claude #OpenBanking #Privacidad\n\nhttps://the-decoder.com/anthropic-adds-bank-account-access-to-claude-so-users-can-track-their-spending"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Baidu publica ERNIE 5.5 Flash Base, un modelo abierto de 280.000 millones de parámetros",
+      "summary": "Baidu libera ERNIE 5.5 Flash Base, un modelo MoE de 280.000 millones de parámetros entrenado con 33,5 billones de tokens. Lo entrega sin fine-tuning a propósito, para que los equipos lo adapten a su dominio.",
+      "why_it_matters": "Un modelo base abierto de ese tamaño da a los desarrolladores margen para ajustarlo sin partir de cero.",
+      "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model",
+      "source": "The Decoder",
+      "social": {
+        "x": "280.000 millones de parámetros, abierto y sin fine-tuning. Baidu suelta ERNIE 5.5 Flash Base para que lo ajustes a tu dominio.\n\n#Baidu #ERNIE #OpenSource #LLM\nhttps://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model",
+        "linkedin": "Un modelo de 280.000 millones de parámetros que llega sin fine-tuning. Y ese detalle es la noticia, no una carencia.\n\nBaidu entrega ERNIE 5.5 Flash Base en crudo, un MoE entrenado con 33,5 billones de tokens, para que cada equipo lo adapte a su dominio. 𝗘𝗹 𝘃𝗮𝗹𝗼𝗿 𝘀𝗲 𝗱𝗲𝘀𝗽𝗹𝗮𝘇𝗮 𝗱𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗮𝗹 𝗮𝗷𝘂𝘀𝘁𝗲 𝗳𝗶𝗻𝗼: quien tiene los datos y el criterio para adaptarlo es quien saca ventaja. Para los equipos que daban por hecho que un modelo de este tamaño estaba fuera de su alcance, la barrera de entrada acaba de moverse.\n\n#Baidu #ERNIE #OpenSource #LLM\n\nhttps://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Perplexity lanza Teammates, agentes que trabajan solos en su propia máquina virtual",
+      "summary": "Perplexity presenta Teammates, agentes siempre activos que avanzan en proyectos sobre máquinas virtuales propias. La función exige el plan Max, 200 dólares al mes, por encima de ofertas parecidas de OpenAI y Anthropic.",
+      "why_it_matters": "Los agentes permanentes dejan de ser una demo y entran en la lucha comercial por quién los cobra más caro.",
+      "url": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent",
+      "source": "The Decoder",
+      "social": {
+        "x": "Los agentes que no duermen ya tienen tarifa: 200 dólares al mes, cada uno con su propia máquina virtual. Perplexity los llama Teammates.\n\n#Perplexity #Anthropic #OpenAI #AgentesIA\nhttps://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent",
+        "linkedin": "La carrera de los agentes ya no se decide en las demos, sino en la factura.\n\nPerplexity lanza Teammates: agentes siempre activos que avanzan proyectos sobre su propia máquina virtual y que solo se activan con el plan Max, 200 dólares al mes. El movimiento llega por encima de lo que ya ofrecen OpenAI y Anthropic, y confirma 𝗾𝘂𝗲 𝗲𝗹 𝗽𝗿𝗲𝗰𝗶𝗼 𝘀𝗲 𝗵𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝗲𝗹 𝗰𝗮𝗺𝗽𝗼 𝗱𝗲 𝗯𝗮𝘁𝗮𝗹𝗹𝗮 𝗱𝗲 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗽𝗲𝗿𝗺𝗮𝗻𝗲𝗻𝘁𝗲𝘀.\n\nPara un equipo que todavía prueba agentes en local con supervisión humana, la pregunta cambia: no es si funcionan, sino cuánto cuesta dejarlos trabajando solos toda la noche y quién responde cuando se equivocan.\n\n#Perplexity #Anthropic #OpenAI #AgentesIA\n\nhttps://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "GPT-6 Cyber de OpenAI busca fallos, escribe exploits y propone parches",
+      "summary": "OpenAI presenta GPT-6 Cyber, un modelo orientado a seguridad que localiza vulnerabilidades, desarrolla exploits y sugiere cómo corregirlas. Según la compañía, ya ha encontrado 81 fallos desconocidos en Firefox y 948 exploits funcionales en el kernel de Linux.",
+      "why_it_matters": "Automatiza el trabajo de un equipo de seguridad, para lo bueno y para lo malo.",
+      "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them",
+      "source": "The Decoder",
+      "social": {
+        "x": "Un modelo de OpenAI encuentra fallos, escribe exploits funcionales y propone el parche. Ya ha localizado 81 vulnerabilidades desconocidas en Firefox.\n\n#OpenAI #Ciberseguridad #Firefox #Linux\nhttps://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them",
+        "linkedin": "Un mismo modelo encuentra el fallo, escribe un exploit funcional y propone el parche. GPT-6 Cyber ya ha localizado 81 vulnerabilidades desconocidas en Firefox y 948 exploits que funcionan en el kernel de Linux.\n\nLo que OpenAI ha automatizado es el trabajo de un equipo de seguridad entero, y ahí está 𝗹𝗮 𝘃𝗲𝗻𝘁𝗮𝗷𝗮 𝘆 𝗲𝗹 𝗿𝗶𝗲𝘀𝗴𝗼 𝗮 𝗹𝗮 𝘃𝗲𝘇. Para quien defiende, es triaje de vulnerabilidades a un ritmo que ningún equipo humano sostiene. Para quien ataca, es la misma capacidad sin necesidad de contratar a nadie. La pregunta ya no es si el modelo es bueno encontrando bugs, sino quién tiene acceso a él y con qué límites se distribuye.\n\n#OpenAI #Ciberseguridad #Firefox #Linux\n\nhttps://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "Amazon permite pedir la compra a Alexa por mensaje de texto",
+      "summary": "Amazon estrena una función de Alexa for Shopping que deja escribir al agente para encargar productos y gestionar la compra en lugar de usar la voz. Arranca por invitación en Estados Unidos y se extenderá a millones de usuarios en las próximas semanas.",
+      "why_it_matters": "Muestra el giro de los asistentes hacia agentes transaccionales dentro del comercio.",
+      "url": "https://www.engadget.com/2309285/youll-soon-be-able-to-text-alexa-to-shop-on-amazon",
+      "source": "Engadget",
+      "social": {
+        "x": "Llevamos una década hablándole a Alexa. Amazon acaba de asumir que, para comprar, es mejor escribirle. Y ya lo prueba con usuarios reales.\n\n#Amazon #Alexa #AlexaForShopping #eCommerce\nhttps://www.engadget.com/2309285/youll-soon-be-able-to-text-alexa-to-shop-on-amazon",
+        "linkedin": "Llevamos una década hablándole a Alexa para comprar. Amazon acaba de añadir la opción de hacerlo por texto.\n\nLa función, Alexa for Shopping, arranca por invitación en Estados Unidos y se extenderá a millones de usuarios en las próximas semanas. El cambio parece de interfaz, pero es de estrategia: el asistente deja de ser una voz que responde para convertirse en 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗾𝘂𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮 𝗹𝗮 𝗰𝗼𝗺𝗽𝗿𝗮 𝗱𝗲 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗶𝗼 𝗮 𝗳𝗶𝗻. Para las marcas, eso desplaza la batalla: ya no basta con aparecer en una búsqueda, hay que conseguir que el agente te elija y cierre el pedido sin que el usuario llegue a ver la ficha del producto.\n\n#Amazon #Alexa #AlexaForShopping #eCommerce\n\nhttps://www.engadget.com/2309285/youll-soon-be-able-to-text-alexa-to-shop-on-amazon"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "NVIDIA publica Cosmos 3, modelos abiertos de simulación de mundo",
+      "summary": "NVIDIA libera en Hugging Face la familia Cosmos 3, orientada a simular entornos interactivos para entrenar agentes y robots. Los modelos permiten generar y predecir escenas que cambian según las acciones.",
+      "why_it_matters": "Los mundos simulados abiertos son una pieza clave para entrenar robótica sin depender de datos reales.",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Entrenar un robot ya no exige un mundo real: NVIDIA acaba de liberar modelos que generan el escenario y lo cambian según lo que hace el agente.\n\n#NVIDIA #Cosmos3 #HuggingFace #Robotica\nhttps://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+        "linkedin": "El cuello de botella de la robótica nunca fue el modelo, sino los datos.\nNVIDIA publica Cosmos 3 en Hugging Face, una familia de modelos abiertos que simulan entornos interactivos: el escenario reacciona a las acciones del agente y genera el siguiente frame. Si esto aguanta a escala, 𝗲𝗹 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝗴𝗿𝗮𝗯𝗮𝗿 𝗲𝗹 𝗺𝘂𝗻𝗱𝗼 𝗿𝗲𝗮𝗹 y pasa a ser un problema de cómputo y de calidad de la simulación. Para cualquier equipo de robótica cambia el presupuesto, pero también el riesgo: el simulador define qué aprende el agente y sus sesgos se heredan sin que nadie los revise.\n\n#NVIDIA #Cosmos3 #HuggingFace #Robotica\n\nhttps://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "GitLab 19.5 integra el desarrollo agéntico y abre su servidor MCP",
+      "summary": "GitLab 19.5 coloca el desarrollo con agentes en el centro de la plataforma y deja disponible de forma general su servidor MCP. Así, agentes externos pueden interactuar con issues, merge requests y pipelines bajo reglas de gobierno.",
+      "why_it_matters": "Lleva la orquestación de agentes al flujo de trabajo diario de los equipos de desarrollo.",
+      "url": "https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform",
+      "source": "InfoQ",
+      "social": {
+        "x": "GitLab deja de ser solo el sitio donde revisas código: su servidor MCP ya es general y agentes externos pueden actuar sobre issues, merge requests y pipelines.\n\n#GitLab #MCP #DevOps #OpenSource\nhttps://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform",
+        "linkedin": "Los agentes dejan de ser un añadido por encima de la plataforma y pasan a vivir dentro del flujo de trabajo.\n\nGitLab 19.5 coloca el desarrollo agéntico en el centro y abre de forma general su servidor MCP, con lo que agentes externos pueden leer y actuar sobre issues, merge requests y pipelines bajo reglas de gobierno. 𝗟𝗼 𝗿𝗲𝗹𝗲𝘃𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝗰𝗼𝗻𝗲𝗰𝘁𝗮𝗿 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲, 𝘀𝗶𝗻𝗼 𝗴𝗼𝗯𝗲𝗿𝗻𝗮𝗿𝗹𝗼 𝗲𝗻 𝗲𝗹 𝗺𝗶𝘀𝗺𝗼 𝘀𝗶𝘁𝗶𝗼 𝗱𝗼𝗻𝗱𝗲 𝗲𝗹 𝗲𝗾𝘂𝗶𝗽𝗼 𝘆𝗮 𝘁𝗿𝗮𝗯𝗮𝗷𝗮. Para quien lleva tiempo debatiendo si la IA sustituye o acompaña, la conversación se mueve a otro terreno: qué permisos tiene el agente y qué queda registrado cuando toca una pipeline. Y eso, en equipos grandes, es lo que decide si se adopta o no.\n\n#GitLab #MCP #DevOps #OpenSource\n\nhttps://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "AWS lanza Continuum, que prueba exploits reales y abre pull requests con el arreglo",
+      "summary": "AWS pone a disposición general Continuum, un servicio que demuestra la explotabilidad de una vulnerabilidad ejecutando exploits reales en un sandbox. Después propone la corrección como pull request para que el equipo la revise. El precio se cobra por hallazgo y por línea de código.",
+      "why_it_matters": "Reduce los falsos positivos del análisis estático al demostrar que el fallo se puede explotar de verdad.",
+      "url": "https://www.infoq.com/news/2026/11/aws-continuum-ga",
+      "source": "InfoQ",
+      "social": {
+        "x": "Tu escáner dice «vulnerabilidad crítica». AWS ahora la explota de verdad en un sandbox y te manda el arreglo ya escrito como pull request.\n\n#AWS #Continuum #Seguridad #AppSec\nhttps://www.infoq.com/news/2026/11/aws-continuum-ga",
+        "linkedin": "Llevamos años interpretando informes de vulnerabilidades en vez de comprobarlos de verdad.\n\nAWS acaba de mover esa carga al otro lado: Continuum ejecuta exploits reales en un sandbox y, si el fallo cae, 𝗮𝗯𝗿𝗲 𝘂𝗻 𝗽𝘂𝗹𝗹 𝗿𝗲𝗾𝘂𝗲𝘀𝘁 𝗰𝗼𝗻 𝗹𝗮 𝗰𝗼𝗿𝗿𝗲𝗰𝗰𝗶ó𝗻 para que el equipo la revise. Se paga por hallazgo y por línea de código, así que el coste se ata a lo que de verdad se puede atacar. Para quien hace triaje, el cuello de botella deja de ser el escaneo y pasa a ser revisar parches.\n\n#AWS #Continuum #Seguridad #AppSec\n\nhttps://www.infoq.com/news/2026/11/aws-continuum-ga"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "TypeScript 7.1 beta recupera la API del compilador y acelera Vue y Svelte",
+      "summary": "La beta de TypeScript 7.1 vuelve a ofrecer la API del compilador que se eliminó en la 7.0, ahora repartida en puntos de entrada separados. Añade content mappers para que herramientas como Vue analicen archivos no estándar, con casos que bajan el chequeo de tipos de 14,19 a 3,10 segundos.",
+      "why_it_matters": "Devuelve a los creadores de herramientas una pieza que daban por perdida y acelera el soporte de frameworks.",
+      "url": "https://www.infoq.com/news/2026/11/typescript-7-1-beta",
+      "source": "InfoQ",
+      "social": {
+        "x": "TypeScript eliminó su API del compilador en la 7.0. La 7.1 la recupera y el chequeo de tipos en Vue cae de 14,19 a 3,10 segundos.\n\n#TypeScript #Vue #Svelte #OpenSource\nhttps://www.infoq.com/news/2026/11/typescript-7-1-beta",
+        "linkedin": "Quitar la API del compilador en la 7.0 dejó fuera de juego a media comunidad de herramientas. La beta de la 7.1 la devuelve, ahora repartida en puntos de entrada separados, y añade content mappers para que herramientas como Vue o Svelte puedan analizar archivos que no son TypeScript estándar.\n\nEl efecto medido: 𝗲𝗹 𝗰𝗵𝗲𝗾𝘂𝗲𝗼 𝗱𝗲 𝘁𝗶𝗽𝗼𝘀 𝗲𝗻 𝗩𝘂𝗲 𝗯𝗮𝗷𝗮 𝗱𝗲 𝟭𝟰,𝟭𝟵 𝗮 𝟯,𝟭𝟬 𝘀𝗲𝗴𝘂𝗻𝗱𝗼𝘀. Para quien mantiene plugins de lenguaje, linters o integraciones de build, esto no es una mejora incremental: es recuperar una pieza que daban por perdida y dejar de rodear al compilador. La lectura de fondo es incómoda para quien diseña APIs: romperlas sin plan de vuelta atrás se acaba pagando, aunque una beta llegue a tiempo a arreglarlo.\n\n#TypeScript #Vue #Svelte #OpenSource\n\nhttps://www.infoq.com/news/2026/11/typescript-7-1-beta"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "NVIDIA Kubernetes Engine, un plano de control para GPU sobre bare metal",
+      "summary": "Un repositorio de dsx-ai-factory presenta NVKE, un plano de gestión para clústeres de Kubernetes con GPU sobre bare metal. La propuesta busca simplificar el despliegue de cargas de IA fuera de las nubes públicas.",
+      "why_it_matters": "Ofrece una vía abierta para gestionar GPU propias sin atarse a un proveedor cloud.",
+      "url": "https://github.com/dsx-ai-factory/nvke",
+      "source": "Hacker News",
+      "social": {
+        "x": "Tener GPU propias no servía de nada sin alguien que las orquestara. NVIDIA propone el plano de control que faltaba: Kubernetes sobre bare metal.\n\n#NVIDIA #Kubernetes #GPU #BareMetal\nhttps://github.com/dsx-ai-factory/nvke",
+        "linkedin": "El problema de montar GPU propias nunca fue el hardware. Era la capa que las gestiona.\nNVKE, un plano de control para clústeres de Kubernetes con GPU sobre bare metal, aparece en el repositorio dsx-ai-factory y apunta justo ahí: desplegar cargas de IA en máquinas propias sin pasar por una nube pública. Para quien ya tiene clústeres montados, la decisión deja de ser solo económica: 𝗲𝗹 𝗽𝗹𝗮𝗻𝗼 𝗱𝗲 𝗰𝗼𝗻𝘁𝗿𝗼𝗹, 𝗻𝗼 𝗲𝗹 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲, 𝗲𝘀 𝗹𝗼 𝗾𝘂𝗲 𝘁𝗲 𝗮𝘁𝗮 𝗮 𝘂𝗻 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿 𝗰𝗹𝗼𝘂𝗱. Y a medio plazo eso pesa más que el precio por hora.\n\n#NVIDIA #Kubernetes #GPU #BareMetal\n\nhttps://github.com/dsx-ai-factory/nvke"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "Cómo se usa Claude en la investigación científica: 207.000 sesiones analizadas",
+      "summary": "Anthropic analiza 207.000 sesiones de investigadores con Claude para ver en qué tareas se apoya la ciencia y por qué unas se usan más que otras. El estudio describe los usos más frecuentes y el margen de mejora en el descubrimiento.",
+      "why_it_matters": "Es evidencia poco habitual sobre dónde encaja de verdad un modelo en el trabajo científico.",
+      "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "source": "Hacker News",
+      "social": {
+        "x": "Anthropic revisó 207.000 sesiones de científicos con Claude. Lo llamativo no es para qué lo usan, sino para qué casi no lo usan.\n\n#Anthropic #Claude #InvestigaciónCientífica\nhttps://www.anthropic.com/research/how-researchers-use-claude",
+        "linkedin": "Anthropic ha revisado 207.000 sesiones de investigadores con Claude y el mapa de uso deja un hueco llamativo.\n\nEl modelo aparece sobre todo en tareas tácticas: redacción, código, revisión de literatura. Donde menos tracción hay es en el descubrimiento, justo la parte que más se le atribuye en el discurso público. Lo relevante no es el volumen de sesiones, sino que 𝗲𝗹 𝘂𝘀𝗼 𝗿𝗲𝗮𝗹 𝘀𝗲 𝗰𝗼𝗻𝗰𝗲𝗻𝘁𝗿𝗮 𝗲𝗻 𝗹𝗼 𝘁á𝗰𝘁𝗶𝗰𝗼 𝘆 𝗻𝗼 𝗲𝗻 𝗹𝗼 𝗰𝗿𝗲𝗮𝘁𝗶𝘃𝗼, y eso debería afinar cómo se plantea la adopción de estas herramientas dentro de un laboratorio.\n\n#Anthropic #Claude #InvestigaciónCientífica\n\nhttps://www.anthropic.com/research/how-researchers-use-claude"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "METR cree que Anthropic cruzó en julio su propio umbral de aceleración de la IA",
+      "summary": "La organización sin ánimo de lucro METR revisó durante once semanas datos internos de Anthropic y concluyó que el ritmo de desarrollo de modelos se ha duplicado, con un 80% de la aceleración impulsada por investigación asistida por IA. Anthropic censuró la evidencia más reveladora, según la entidad.",
+      "why_it_matters": "Es una de las primeras señales medidas de que la IA acelera la propia investigación en IA.",
+      "url": "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july",
+      "source": "The Decoder",
+      "social": {
+        "x": "METR pasó once semanas dentro de Anthropic. El ritmo de desarrollo de modelos se duplicó, y el 80 % de ese empujón lo dio la propia IA.\n\n#Anthropic #METR #SeguridadIA\nhttps://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july",
+        "linkedin": "METR pasó once semanas mirando datos internos de Anthropic y encontró algo que hasta ahora era casi teoría: la IA acelerando la investigación en IA.\n\nEl ritmo de desarrollo de modelos se duplicó, y 𝗲𝗹 𝟴𝟬 % 𝗱𝗲 𝗲𝘀𝗮 𝗮𝗰𝗲𝗹𝗲𝗿𝗮𝗰𝗶ó𝗻 𝘃𝗶𝗻𝗼 𝗱𝗲 𝗶𝗻𝘃𝗲𝘀𝘁𝗶𝗴𝗮𝗰𝗶ó𝗻 𝗮𝘀𝗶𝘀𝘁𝗶𝗱𝗮 𝗽𝗼𝗿 𝗜𝗔. La parte incómoda es la otra: Anthropic censuró la evidencia más reveladora antes de que viera la luz. Si el bucle se retroalimenta, las evaluaciones de riesgo y las previsiones de capacidad que manejamos hoy dejan de servir tal como están planteadas, y quien planifique a doce meses vista trabaja con una foto que ya es vieja.\n\n#Anthropic #METR #SeguridadIA\n\nhttps://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "La Comisión Europea acusa a TikTok de incumplir la DSA con su algoritmo",
+      "summary": "Bruselas sostiene que el sistema de recomendación de la página For You incumple la Ley de Servicios Digitales por sus posibles efectos sobre la salud mental. La Comisión pide a la plataforma que cambie el funcionamiento de ese feed.",
+      "why_it_matters": "Es el primer gran pulso regulatorio contra el diseño adictivo de un algoritmo de recomendación.",
+      "url": "https://www.engadget.com/2309300/the-eu-accuses-tiktoks-rabbit-hole-algorithm-of-breaching-its-content-rules",
+      "source": "Engadget",
+      "social": {
+        "x": "Bruselas no ha multado a TikTok. Le ha pedido algo más incómodo: que cambie su algoritmo. Es el primer gran pulso contra el diseño adictivo del feed For You.\n\n#TikTok #DSA #ComisiónEuropea #RegulaciónDigital\nhttps://www.engadget.com/2309300/the-eu-accuses-tiktoks-rabbit-hole-algorithm-of-breaching-its-content-rules",
+        "linkedin": "Bruselas no quiere multar a TikTok. Quiere que su algoritmo deje de funcionar así.\n\nLa Comisión Europea sostiene que el sistema de recomendación del feed For You incumple la DSA por sus posibles efectos sobre la salud mental, y pide a la plataforma que lo cambie. 𝗘𝘀 𝗲𝗹 𝗽𝗿𝗶𝗺𝗲𝗿 𝗽𝘂𝗹𝘀𝗼 𝗿𝗲𝗴𝘂𝗹𝗮𝘁𝗼𝗿𝗶𝗼 𝘀𝗲𝗿𝗶𝗼 𝗰𝗼𝗻𝘁𝗿𝗮 𝗲𝗹 𝗱𝗶𝘀𝗲ñ𝗼 𝗮𝗱𝗶𝗰𝘁𝗶𝘃𝗼, no contra un contenido concreto. Si ese criterio cuaja, el «engagement a cualquier precio» deja de ser defendible ante un regulador, y los equipos de producto tendrán que poder justificar por qué su ranking retiene, y a qué coste.\n\n#TikTok #DSA #ComisiónEuropea #RegulaciónDigital\n\nhttps://www.engadget.com/2309300/the-eu-accuses-tiktoks-rabbit-hole-algorithm-of-breaching-its-content-rules"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "El Departamento de Justicia de EE. UU. pone en marcha su Super Intelligence Task Force",
+      "summary": "El DOJ ha creado el DOJ-SITF, una unidad para vigilar que la IA desarrollada en Estados Unidos no sea manipulada por actores hostiles. El equipo se suma al aparato regulatorio que rodea a los grandes laboratorios.",
+      "why_it_matters": "Muestra cómo la seguridad nacional entra de lleno en la gobernanza de los modelos.",
+      "url": "https://www.engadget.com/2309257/doj-just-launched-something-called-the-super-intelligence-task-force",
+      "source": "Engadget",
+      "social": {
+        "x": "EE. UU. ya trata los modelos de IA como infraestructura crítica: el Departamento de Justicia crea un grupo de trabajo para que ningún actor hostil pueda manipularlos.\n\n#DOJ #OpenAI #Anthropic #SeguridadNacional\nhttps://www.engadget.com/2309257/doj-just-launched-something-called-the-super-intelligence-task-force",
+        "linkedin": "La IA acaba de dejar de ser un asunto de producto para convertirse en un asunto de seguridad nacional.\n\nEl Departamento de Justicia de EE. UU. pone en marcha el DOJ-SITF, una unidad que vigilará que los modelos desarrollados en el país no sean manipulados por actores hostiles. Llega después de años de autorregulación voluntaria, y confirma un cambio de fondo: 𝗹𝗮 𝗴𝗼𝗯𝗲𝗿𝗻𝗮𝗻𝘇𝗮 𝗱𝗲 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗽𝗮𝘀𝗮 𝗮 𝗺𝗮𝗻𝗼𝘀 𝗱𝗲 𝗾𝘂𝗶𝗲𝗻 𝗽𝗲𝗿𝘀𝗶𝗴𝘂𝗲 𝗱𝗲𝗹𝗶𝘁𝗼𝘀, 𝗻𝗼 𝗱𝗲 𝗾𝘂𝗶𝗲𝗻 𝗿𝗲𝗱𝗮𝗰𝘁𝗮 𝗿𝗲𝗰𝗼𝗺𝗲𝗻𝗱𝗮𝗰𝗶𝗼𝗻𝗲𝘀. Para los laboratorios, el compliance deja de ser un documento en la web y se convierte en interlocución directa con el Gobierno.\n\n#DOJ #OpenAI #Anthropic #SeguridadNacional\n\nhttps://www.engadget.com/2309257/doj-just-launched-something-called-the-super-intelligence-task-force"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "herramientas",
+      "title": "GitHub rediseña su almacenamiento de Git para miles de agentes por repositorio",
+      "summary": "GitHub explica la nueva arquitectura de almacenamiento de Git, pensada para que miles de agentes puedan hacer push a un mismo repositorio a la vez. El diseño reorganiza cómo se guardan y sirven los objetos del repositorio.",
+      "why_it_matters": "La infraestructura de código empieza a adaptarse a un mundo donde los commits los generan agentes, no personas.",
+      "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture",
+      "source": "GitHub Blog",
+      "social": {
+        "x": "GitHub está rediseñando cómo guarda el Git. El motivo: ya no son personas quienes hacen push, son miles de agentes a la vez sobre el mismo repositorio.\n\n#GitHub #Git #DevOps #AgentesIA\nhttps://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture",
+        "linkedin": "El cuello de botella del desarrollo ya no está en escribir código, sino en el sistema que lo almacena.\n\nGitHub acaba de explicar una arquitectura nueva de almacenamiento pensada para que miles de agentes hagan push simultáneamente sobre un mismo repositorio, reorganizando cómo se guardan y se sirven los objetos del Git. 𝗟𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗱𝗲 𝗰ó𝗱𝗶𝗴𝗼 𝗲𝗺𝗽𝗶𝗲𝘇𝗮 𝗮 𝗱𝗶𝘀𝗲ñ𝗮𝗿𝘀𝗲 𝗽𝗮𝗿𝗮 𝗮𝗴𝗲𝗻𝘁𝗲𝘀, 𝗻𝗼 𝗽𝗮𝗿𝗮 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝘀, y eso toca de lleno a cualquiera que monte CI/CD, revisiones o permisos sobre un monorepo. Si tus procesos asumen commits humanos con horarios humanos, el modelo ya va por delante de tus herramientas.\n\n#GitHub #Git #DevOps #AgentesIA\n\nhttps://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "investigacion",
+      "title": "Oak Ridge combina cuántica de IBM con HPC de AMD para probar corrección de errores",
+      "summary": "El Quantum Science Center de Oak Ridge estrena una plataforma que une procesadores cuánticos de IBM con un sistema de alto rendimiento basado en silicio de AMD. El objetivo es investigar la corrección de errores de qubit en un entorno de co-diseño.",
+      "why_it_matters": "Acerca la corrección de errores cuántica al tipo de cómputo híbrido que necesitará la producción.",
+      "url": "https://www.theregister.com/hpc/2026/11/06/oak-ridge-labs-gets-hybrid-quantum-hpc-system-to-test-qubit-error-correction/5308187",
+      "source": "The Register",
+      "social": {
+        "x": "Si la cuántica va a servir para algo, primero hay que corregir sus errores. Oak Ridge acaba de montar el banco de pruebas: qubits de IBM, silicio de AMD.\n\n#IBM #AMD #QuantumComputing #HPC\nhttps://www.theregister.com/hpc/2026/11/06/oak-ridge-labs-gets-hybrid-quantum-hpc-system-to-test-qubit-error-correction/5308187",
+        "linkedin": "Corregir errores cuánticos ya no se investiga en aislamiento, se investiga dentro de un clúster de alto rendimiento.\n\nEl Quantum Science Center de Oak Ridge ha unido procesadores cuánticos de IBM con un sistema HPC basado en silicio de AMD para estudiar la corrección de errores de qubit en un entorno de co-diseño. 𝗟𝗮 𝗰𝗼𝗿𝗿𝗲𝗰𝗰𝗶ó𝗻 𝗱𝗲 𝗲𝗿𝗿𝗼𝗿𝗲𝘀 𝗲𝘀 𝗹𝗮 𝗳𝗿𝗼𝗻𝘁𝗲𝗿𝗮 𝗿𝗲𝗮𝗹 𝗱𝗲 𝗹𝗮 𝗰𝘂á𝗻𝘁𝗶𝗰𝗮: sin ella no hay cargas de trabajo útiles, y probarla junto a HPC reproduce el escenario que tendrá la producción. Para quien planifica infraestructura, la pregunta deja de ser cuándo llega el hardware cuántico y pasa a ser cómo se integra con lo que ya hay en el rack.\n\n#IBM #AMD #QuantumComputing #HPC\n\nhttps://www.theregister.com/hpc/2026/11/06/oak-ridge-labs-gets-hybrid-quantum-hpc-system-to-test-qubit-error-correction/5308187"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "Una skill para agentes de código que guía auditorías de seguridad en varias fases y deja los hallazgos en un formato legible por máquina y verificado de forma independiente. Resulta muy práctica si quieres meter revisiones de seguridad automáticas en tu flujo de trabajo con agentes.",
+      "language": "JavaScript",
+      "stars": 63370,
+      "social": {
+        "x": "Cloudflare regala una skill que convierte a tu agente de código en auditor de seguridad: varias fases y hallazgos legibles por máquina. 63k estrellas.\n\n#Cloudflare #OpenSource #GitHub #JavaScript\nhttps://github.com/cloudflare/security-audit-skill",
+        "linkedin": "CLOUDFLARE ACABA DE METER LA AUDITORÍA DE SEGURIDAD DENTRO DE TU AGENTE DE CÓDIGO.\n\nLa revisión de seguridad suele llegar tarde, a mano y con suerte. Esta skill cambia el planteamiento: no es un prompt suelto, sino una guía por fases que el agente sigue para auditar el código y dejar los hallazgos en un formato que la máquina entiende y que se puede verificar de forma independiente.\n\n→ Audita en varias fases, no en una sola pasada improvisada.\n→ Deja los findings en formato legible por máquina, listos para tu pipeline.\n→ Verificación independiente de cada hallazgo, para no fiarte del primer resultado.\n→ Se enchufa al workflow de agentes que ya usas, sin montar nada aparte.\n→ JavaScript y open source, con Cloudflare detrás.\n\n𝗹𝗮 𝗶𝗱𝗲𝗮: la seguridad deja de ser una revisión manual al final del proyecto y pasa a ser un paso más del agente.\n\nSi trabajas con agentes de código a diario, guarda este post y échale un ojo al repo: lo tienes justo abajo.\n\n#Cloudflare #OpenSource #GitHub #JavaScript\n\nhttps://github.com/cloudflare/security-audit-skill"
+      }
+    },
+    {
+      "name": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Editor de código de alto rendimiento y colaborativo, creado por los responsables de Atom y Tree-sitter, con edición multijugador en tiempo real. Escrito en Rust, va muy fino incluso con proyectos grandes y ya se ha ganado un hueco entre quienes buscan algo más ligero que VS Code.",
+      "language": "Rust",
+      "stars": 93299,
+      "social": {
+        "x": "Los creadores de Atom se pusieron a escribir un editor en Rust: abre al instante, se edita en tiempo real entre varias personas y ya suma 93.000 estrellas.\n\n#Zed #Rust #OpenSource #GitHub\nhttps://github.com/zed-industries/zed",
+        "linkedin": "NO NECESITAS OTRO EDITOR DE CÓDIGO. HASTA QUE ABRES ESTE Y VES LO QUE TARDA EN ARRANCAR.\n\nZed lo firman los responsables de Atom y Tree-sitter, así que no es el experimento de fin de semana de nadie: es una reescritura desde cero en Rust donde el rendimiento es un requisito de diseño, no una línea de marketing. Frente a VS Code, que arrastra toda la capa de Electron, la diferencia se nota cuando el proyecto crece y el editor deja de responder.\n\n→ Edición multijugador en tiempo real: compartes el mismo buffer y ves los cursores del resto, sin montar nada aparte.\n→ Escrito en Rust, pensado para mantener la fluidez incluso con repositorios grandes.\n→ La ambición es clara: ser 𝗹𝗮 𝗮𝗹𝘁𝗲𝗿𝗻𝗮𝘁𝗶𝘃𝗮 𝗹𝗶𝗴𝗲𝗿𝗮 𝗮 𝗩𝗦 𝗖𝗼𝗱𝗲 sin renunciar a funciones de editor moderno.\n→ Open source y con 93.000 estrellas, o sea que la comunidad ya ha decidido que merece la pena mirarlo.\n\nSi pasas el día con proyectos que pesan, pruébalo antes de opinar. Y si te sirve, guárdate este post para tenerlo a mano cuando toque cambiar de editor.\n\n#Zed #Rust #OpenSource #GitHub\n\nhttps://github.com/zed-industries/zed"
+      }
+    },
+    {
+      "name": "astral-sh/ruff",
+      "url": "https://github.com/astral-sh/ruff",
+      "description": "Linter y formateador de Python escrito en Rust que sustituye a Flake8, Black e isort en un solo comando y va muchísimo más rápido. Es de esas herramientas que se instalan una vez y se quedan en todos los proyectos.",
+      "language": "Rust",
+      "stars": 50554,
+      "social": {
+        "x": "50.000 estrellas para un linter de Python escrito en Rust que manda a la vez a Flake8, Black e isort. Un comando y ya no vuelves atrás.\n\n#Ruff #Python #Rust #OpenSource\nhttps://github.com/astral-sh/ruff",
+        "linkedin": "TU PIPELINE DE PYTHON TIENE TRES HERRAMIENTAS DE MÁS.\n\nFlake8 para el linting, Black para el formato, isort para ordenar imports. Tres configuraciones, tres comandos y tres formas distintas de fallar en CI. Ruff hace el trabajo de las tres y está escrito en Rust, así que va muchísimo más rápido.\n\nLa clave está en que 𝘂𝗻 𝘀𝗼𝗹𝗼 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝘀𝘂𝘀𝘁𝗶𝘁𝘂𝘆𝗲 𝗮 𝘁𝗿𝗲𝘀 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀, sin renunciar a las reglas que ya usas.\n\n→ Linter y formateador en el mismo binario.\n→ Compatible con las reglas de Flake8, el estilo de Black y el orden de isort.\n→ Escrito en Rust: la velocidad es el motivo principal para cambiar.\n→ Se instala una vez y se queda en todos los proyectos.\n→ 50.554 estrellas y respaldo de Astral, los mismos de uv.\n\nMenos dependencias en el entorno, menos tiempo esperando y una sola cosa que configurar. Si mantienes código Python en equipo, este cambio se nota el primer día.\n\nGuarda el post para tenerlo a mano cuando toque limpiar el próximo proyecto. Te dejo el repo abajo.\n\n#Ruff #Python #Rust #OpenSource\n\nhttps://github.com/astral-sh/ruff"
+      }
+    },
+    {
+      "name": "nushell/nushell",
+      "url": "https://github.com/nushell/nushell",
+      "description": "Un shell nuevo que trabaja con datos estructurados en lugar de texto plano, así que filtras, ordenas y transformas la salida de los comandos como si fuera una tabla. Una vuelta de tuerca muy interesante a la terminal de siempre, multiplataforma y con buenas tuberías.",
+      "language": "Rust",
+      "stars": 40856,
+      "social": {
+        "x": "Tu terminal devuelve texto plano. Nushell devuelve tablas: filtras, ordenas y transformas la salida de cualquier comando como si fuera una hoja de cálculo. 40.856 estrellas y escrito en Rust.\n\n#Nushell #Rust #OpenSource #GitHub\nhttps://github.com/nushell/nushell",
+        "linkedin": "TU TERMINAL DEVUELVE TEXTO. NUSHELL DEVUELVE TABLAS.\n\nLlevamos décadas usando `grep`, `awk` y `sed` para arrancar información de una salida que, en el fondo, ya estaba estructurada. El problema es que el shell la aplana a texto y luego te toca reconstruirla con expresiones regulares frágiles.\n\nNushell cambia el modelo: cada comando devuelve datos con forma (tablas, listas, registros) y tú los tratas como tales. Es 𝘂𝗻 𝘀𝗵𝗲𝗹𝗹 𝗱𝗼𝗻𝗱𝗲 𝗹𝗮 𝘁𝘂𝗯𝗲𝗿í𝗮 𝘁𝗿𝗮𝗻𝘀𝗽𝗼𝗿𝘁𝗮 𝗱𝗮𝘁𝗼𝘀 𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮𝗱𝗼𝘀, 𝗻𝗼 𝗰𝗮𝗱𝗲𝗻𝗮𝘀 𝗱𝗲 𝘁𝗲𝘅𝘁𝗼, y eso cambia por completo cómo se encadenan las órdenes.\n\n→ `where`, `sort-by`, `select` y `group-by` funcionan igual sobre el resultado de `ls`, `ps` o una API en JSON.\n→ Abre CSV, JSON, YAML, TOML o SQLite y los consulta sin scripts intermedios.\n→ Multiplataforma de verdad: Linux, macOS y Windows, con binarios listos para usar.\n→ Escrito en Rust, con mensajes de error que señalan la columna exacta del fallo.\n→ Compatible con lo de siempre: puedes seguir llamando a los comandos externos que ya usas.\n\nNo sustituye a bash de la noche a la mañana, pero como segundo shell para explorar datos es dificilísimo de igualar. 40.856 estrellas y una comunidad que no para de crecer.\n\nGuarda este post para cuando te toque pelear otra vez con un `awk` ilegible. Te dejo el repo abajo.\n\n#Nushell #Rust #OpenSource #GitHub\n\nhttps://github.com/nushell/nushell"
+      }
+    },
+    {
+      "name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "Sistema de monitorización y base de datos de series temporales, el estándar de facto para observar servicios en producción. Si montas métricas y alertas para tu infraestructura, tarde o temprano acabas aquí.",
+      "language": "Go",
+      "stars": 67053,
+      "social": {
+        "x": "67.000 estrellas y es el estándar de facto para monitorizar producción. Prometheus es open source, self-hosted y no te cobra por métrica.\n\n#Prometheus #Observabilidad #Go #OpenSource\nhttps://github.com/prometheus/prometheus",
+        "linkedin": "TU INFRAESTRUCTURA FALLA UN MARTES A LAS 3 DE LA MAÑANA. PROMETHEUS YA TE LO HABÍA AVISADO.\n\nCuando alguien monta métricas y alertas en serio, casi siempre acaba en el mismo repositorio: un proyecto en Go que lleva años siendo el estándar de facto de la observabilidad. Sin paywall por métrica, sin panel cerrado y self-hosted en tu propio cluster.\n\nLa gracia no es solo recoger datos, es el modelo de series temporales con etiquetas: te deja hacer preguntas que un dashboard al uso no responde.\n\n→ Recolecta métricas por pull vía HTTP, sin agentes pesados de por medio\n→ PromQL como lenguaje de consulta para cruzar series por etiquetas\n→ Alertmanager para agrupar, silenciar y enrutar alertas sin ruido\n→ Service discovery para Kubernetes, EC2 y compañía, sin listas a mano\n→ 67.000 estrellas y una comunidad que lo ha convertido en 𝗲𝗹 𝗲𝘀𝘁á𝗻𝗱𝗮𝗿 𝗱𝗲 𝗳𝗮𝗰𝘁𝗼 𝗱𝗲 𝗹𝗮 𝗼𝗯𝘀𝗲𝗿𝘃𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗼𝗽𝗲𝗻 𝘀𝗼𝘂𝗿𝗰𝗲\n\nSi montas métricas y alertas para tu infraestructura, tarde o temprano acabas aquí. Guárdate el post para la próxima guardia.\n\n#Prometheus #Observabilidad #Go #OpenSource\n\nhttps://github.com/prometheus/prometheus"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "uv en lugar de venv y pip: cómo gestionar entornos de Python con un lockfile",
+      "url": "https://towardsdatascience.com/how-to-manage-python-environments-with-uv-instead-of-venv-and-pip",
+      "source": "Towards Data Science",
+      "summary": "Recorre la equivalencia paso a paso entre venv más pip y los comandos uv init, uv add, uv run y uv sync, para que puedas migrar un proyecto sin cambiar de mentalidad. Aprende a fijar dependencias en un lockfile que reproduce el entorno exacto en otra máquina, lo que evita sustos al desplegar o al incorporar a alguien al equipo.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Lecciones de escalar Slack y GitHub: rendimiento, decisiones y criterio humano",
+      "url": "https://newsletter.pragmaticengineer.com/p/scaling-slack-and-github-with-maude",
+      "source": "The Pragmatic Engineer",
+      "summary": "Maude Lemaire repasa qué problemas aparecen cuando un producto pasa de miles a millones de usuarios y qué decisiones de diseño envejecen bien con el tiempo. También cuenta cómo introducir herramientas de IA en el día a día sin ceder el juicio de ingeniería, algo útil tanto para quien diseña sistemas como para quien lidera equipos técnicos.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Worker mode en FrankenPHP: cuando el estado de una petición se cuela en la siguiente",
+      "url": "https://levelup.gitconnected.com/worker-mode-is-fast-until-request-two-sees-request-ones-data-7ae79886120d?source=rss------web_development-5",
+      "source": "Medium: Web Development",
+      "summary": "Un experimento con la demo de Symfony en modo worker desvela seis estados que parecen inocuos hasta que el proceso sobrevive entre peticiones. Sirve para entender por qué el rendimiento extra de este modelo exige revisar servicios, cachés y variables globales antes de activarlo en producción.",
+      "tema": "web"
+    },
+    {
+      "title": "RAG multi-tenant en Next.js: que un documento sea relevante no significa que puedas verlo",
+      "url": "https://levelup.gitconnected.com/multi-tenant-rag-in-next-js-relevance-is-not-authorization-4bfcfd30ca32?source=rss------software_engineering-5",
+      "source": "Medium: Software Engineering",
+      "summary": "Explica cómo montar búsqueda por tenant con PostgreSQL, pgvector y row-level security, y por qué el filtrado por similitud no sustituye a la autorización. Incluye pruebas de integración para comprobar que un usuario nunca recibe fragmentos de otro cliente, un patrón aplicable a cualquier producto con datos separados por organización.",
+      "tema": "datos"
+    },
+    {
+      "title": "Tu agente funciona en la demo: ahora haz que sobreviva al lunes",
+      "url": "https://towardsdatascience.com/your-agent-works-in-the-demo-now-make-it-survive-monday",
+      "source": "Towards Data Science",
+      "summary": "Repasa los puntos donde suelen romperse los agentes al salir del entorno controlado: entradas inesperadas, coste, latencia, errores en cadena y falta de observabilidad. Propone endurecer el sistema de forma gradual antes de darle acceso real, con ideas que valen igual para un prototipo interno que para un producto ya en marcha.",
+      "tema": "ia"
+    },
+    {
+      "title": "Jobs To Be Done en UX: diseña para lo que el usuario intenta resolver",
+      "url": "https://uxplanet.org/jobs-to-be-done-jtbd-in-ux-stop-designing-features-start-understanding-user-needs-1dc06e6dbaa1?source=rss------ux-5",
+      "source": "Medium: UX",
+      "summary": "Explica cómo formular entrevistas y hallazgos en términos de progreso deseado en lugar de funciones o clics, y qué gana el equipo al adoptar ese marco. Útil para decidir qué construir y para defender recortes de alcance con argumentos sobre necesidades reales, no sobre preferencias sueltas.",
+      "tema": "diseno"
+    }
+  ]
+}
