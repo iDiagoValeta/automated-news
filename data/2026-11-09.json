@@ -1,0 +1,344 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T20:42:07.531Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Meta lanza Muse Ember, un modelo pequeño y barato para las tareas repetitivas de los agentes",
+      "summary": "Meta presenta Muse Ember, su modelo más pequeño y eficiente, pensado para lo que un agente hace todo el día: llamar a herramientas, enrutar peticiones, extraer datos y procesar documentos largos. La compañía asegura más inteligencia por dólar que Claude Haiku 5.5 o GPT-6 Luna, aunque rinde peor en tareas de programación. El precio anunciado es de 10 céntimos por millón de tokens de entrada.",
+      "why_it_matters": "Un modelo tan barato para trabajo de agente cambia el cálculo de costes de cualquier producto que encadene muchas llamadas.",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "source": "Hacker News",
+      "social": {
+        "x": "10 céntimos por millón de tokens de entrada: Meta lanza Muse Ember, un modelo pequeño para el trabajo sucio de los agentes. Peor programando, pero cambia el cálculo de costes.\n\n#Meta #MuseEmber #LLMs #Agentes\nhttps://research.meta.ai/blog/muse-ember",
+        "linkedin": "El trabajo de un agente no es escribir código: es llamar herramientas, enrutar peticiones y extraer datos mil veces al día. Meta acaba de ponerle precio a eso con Muse Ember, su modelo más pequeño y eficiente: 10 céntimos por millón de tokens de entrada y, según la compañía, más inteligencia por dólar que Claude Haiku 5.5 o GPT-6 Luna.\n\nRinde peor en programación, y ahí está justo la clave: 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗽𝗼𝗿 𝗹𝗹𝗮𝗺𝗮𝗱𝗮 𝗽𝗲𝘀𝗮 𝗺á𝘀 𝗾𝘂𝗲 𝗲𝗹 𝗯𝗲𝗻𝗰𝗵𝗺𝗮𝗿𝗸 en cualquier producto que encadene agentes. Si tu arquitectura vive de muchas llamadas pequeñas, este es el tipo de modelo que toca evaluar antes que el más listo del cartel.\n\n#Meta #MuseEmber #LLMs #Agentes\n\nhttps://research.meta.ai/blog/muse-ember"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Anthropic lleva Claude Fable 5.2 y Mythos 5.2 a Amazon Bedrock",
+      "summary": "Los nuevos modelos de Anthropic ya están disponibles en Amazon Bedrock y en Claude Platform on AWS. La compañía dice que mejoran en programación, razonamiento y visión, y en la claridad con la que se comunican con el usuario. El acceso a Mythos 5.2 empieza limitado a organizaciones verificadas.",
+      "why_it_matters": "Poder desplegar los modelos nuevos desde Bedrock simplifica la adopción en empresas que ya compran en AWS.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Los nuevos modelos de Anthropic ya se pueden usar sin salir de AWS. Uno de ellos, eso sí, solo con invitación.\n\n#Anthropic #Claude #AmazonBedrock #AWS\nhttps://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws",
+        "linkedin": "Anthropic deja de obligarte a salir de AWS para usar sus modelos más nuevos.\n\nClaude Fable 5.2 y Mythos 5.2 aterrizan en Amazon Bedrock el mismo día del anuncio, con acceso a Mythos limitado a organizaciones verificadas. Para una empresa que ya tiene su gasto, su gobernanza y sus permisos dentro de AWS, esto elimina el paso que más frena la adopción: abrir otro contrato, otra cuenta y otro circuito de aprobación. 𝗟𝗮 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝗰𝗶ó𝗻 𝗽𝗲𝘀𝗮 𝘆𝗮 𝘁𝗮𝗻𝘁𝗼 𝗰𝗼𝗺𝗼 𝗲𝗹 𝗯𝗲𝗻𝗰𝗵𝗺𝗮𝗿𝗸, y quien lo asuma antes se ahorra meses de integración. A cambio, conviene vigilar la dependencia: que el proveedor de modelos sea también tu proveedor de nube simplifica, pero ata.\n\n#Anthropic #Claude #AmazonBedrock #AWS\n\nhttps://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Seedream 5.5 apunta a la edición de imagen estable en 100 pasadas",
+      "summary": "ByteDance Seed presenta Seedream 5.5, un modelo de imagen para flujos de producción que mantiene estables las zonas no editadas a nivel de píxel a lo largo de hasta 100 iteraciones, sin deriva de color. Genera RGBA nativo con fondos transparentes y, según la compañía, supera a GPT-Image-2.5 Sunburst en realismo. Habrá una versión Pro.",
+      "why_it_matters": "La consistencia en ediciones encadenadas es justo lo que faltaba para usar generación de imagen en un pipeline profesional.",
+      "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift",
+      "source": "The Decoder",
+      "social": {
+        "x": "Cien ediciones encadenadas sobre la misma imagen sin que se descoloque nada. Ese era el muro que frenaba la generación de imagen en producción. Seedream 5.5 dice haberlo tumbado.\n\n#ByteDance #Seedream #EdiciónDeImagen\nhttps://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift",
+        "linkedin": "Editar una imagen con IA cien veces seguidas y que el resto del píxel no se mueva. Ese es el listón que acaba de poner ByteDance Seed con Seedream 5.5.\nEl problema real de la generación de imagen en producción nunca fue la calidad de una sola pasada, sino la deriva: cada iteración arrastra pequeños cambios de color y textura que obligan a rehacer trabajo a mano. Que el modelo mantenga estables las zonas no editadas y saque RGBA nativo con fondos transparentes 𝗰𝗮𝗺𝗯𝗶𝗮 𝗲𝗹 𝗰á𝗹𝗰𝘂𝗹𝗼 𝗽𝗮𝗿𝗮 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝗾𝘂𝗲 𝗵𝗼𝘆 𝗲𝗻𝗰𝗮𝗱𝗲𝗻𝗮 𝗿𝗲𝘁𝗼𝗾𝘂𝗲𝘀. Habrá que verificarlo con pruebas propias, pero el listón ya está puesto.\n\n#ByteDance #Seedream #EdiciónDeImagen\n\nhttps://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Google lanza Gemini 4 Argon para controlar robots y simular escenas",
+      "summary": "Google ha presentado Gemini 4 Argon como un modelo de razonamiento físico de propósito general para el control de robots, la construcción de escenas Real2Sim, el etiquetado multimodal de vídeo de robots y la mejora iterativa de políticas. No es una política única de efector final, sino una capa que se combina con el stack de robótica.",
+      "why_it_matters": "Un modelo generalista que razona sobre el mundo físico reduce el trabajo de integrar percepción y control en cada robot.",
+      "url": "https://www.infoq.com/news/2026/11/google-gemini-argon",
+      "source": "InfoQ",
+      "social": {
+        "x": "El nuevo modelo de Google no mueve robots: les da el razonamiento. Gemini 4 Argon se enchufa al stack de cualquier robot para que entienda el mundo físico.\n\n#Gemini #GoogleDeepMind #Robotica #Real2Sim\nhttps://www.infoq.com/news/2026/11/google-gemini-argon",
+        "linkedin": "Gemini 4 Argon no es un robot nuevo. Es la capa que hace razonar sobre el mundo físico a los robots que ya existen.\n\nGoogle lo plantea como un modelo de propósito general que se combina con el stack de cada fabricante: control, generación de escenas Real2Sim y etiquetado multimodal de vídeo. 𝗟𝗮 𝗰𝗼𝗻𝘀𝗲𝗰𝘂𝗲𝗻𝗰𝗶𝗮 𝗲𝘀 𝗾𝘂𝗲 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗿 𝗽𝗲𝗿𝗰𝗲𝗽𝗰𝗶ó𝗻 𝘆 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗲𝗺𝗽𝗲𝘇𝗮𝗿 𝗱𝗲 𝗰𝗲𝗿𝗼 𝗲𝗻 𝗰𝗮𝗱𝗮 𝗿𝗼𝗯𝗼𝘁. Para los equipos del sector, el cuello de botella se desplaza del modelo al hardware y a los datos propios de cada máquina.\n\n#Gemini #GoogleDeepMind #Robotica #Real2Sim\n\nhttps://www.infoq.com/news/2026/11/google-gemini-argon"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "KetchUp, un SketchUp open source para diseñar muebles con medidas exactas",
+      "summary": "KetchUp es una aplicación de modelado 3D libre y open source centrada en carpintería y diseño de muebles, con la que planificar estanterías, mesas y armarios con dimensiones precisas. Está escrita en Rust con WebGPU y funciona en Windows, macOS, Linux y en el navegador.",
+      "why_it_matters": "Es una alternativa gratuita y multiplataforma a SketchUp para quien necesita medidas fiables antes de cortar madera.",
+      "url": "https://ketchup3d.github.io/app",
+      "source": "Hacker News",
+      "social": {
+        "x": "Diseñar un armario con medidas exactas ya no exige pasar por caja con SketchUp. KetchUp es open source, va en Rust con WebGPU y corre hasta en el navegador.\n\n#OpenSource #Rust #WebGPU #SketchUp\nhttps://ketchup3d.github.io/app",
+        "linkedin": "La herramienta que decide si un mueble se puede cortar o no acaba de tener versión libre.\n\nKetchUp es un modelado 3D open source centrado en carpintería: dimensiones precisas, escrito en Rust con WebGPU y disponible en Windows, macOS, Linux y navegador. Para un taller pequeño o alguien que se monta sus estanterías en casa, 𝗹𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗽𝗿𝗲𝗰𝗶𝗼 𝗱𝗲 𝗹𝗮 𝗹𝗶𝗰𝗲𝗻𝗰𝗶𝗮. La duda habitual: quién mantiene el proyecto cuando al autor se le pase el entusiasmo.\n\n#OpenSource #Rust #WebGPU #SketchUp\n\nhttps://ketchup3d.github.io/app"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "Claude Code filtra claves y contraseñas en repositorios públicos de GitHub",
+      "summary": "Varios archivos de configuración de Claude Code han acabado en GitHub con credenciales dentro, desde claves de API hasta contraseñas. El origen está en la opción para no volver a preguntar, que deja pasar permisos y contenidos sensibles al repositorio. Los investigadores han encontrado miles de secretos expuestos de esta forma.",
+      "why_it_matters": "Cualquiera que use agentes de código debería revisar qué archivos de configuración sube y añadirlos al .gitignore.",
+      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Miles de claves de API y contraseñas han acabado en GitHub por culpa de un ajuste de Claude Code: el de «no volver a preguntar». Revisa tu .gitignore.\n\n#ClaudeCode #GitHub #Anthropic #Seguridad\nhttps://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
+        "linkedin": "Un ajuste pensado para ahorrarte clics es el que está llenando GitHub de credenciales.\n\nClaude Code permite marcar «no volver a preguntar», y ese permiso persistente deja pasar claves de API y contraseñas a los archivos de configuración que terminan versionados en repositorios públicos. Los investigadores han encontrado miles de secretos expuestos por esta vía. 𝗟𝗮 𝗰𝗼𝗺𝗼𝗱𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗻𝗼 𝗽𝘂𝗲𝗱𝗲 𝗱𝗲𝗰𝗶𝗱𝗶𝗿 𝗾𝘂é 𝗮𝗰𝗮𝗯𝗮 𝗲𝗻 𝗲𝗹 𝗿𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼: si tu equipo usa herramientas de código con agentes, revisa qué archivos de configuración sube y mételos en el .gitignore antes de que los encuentre alguien más.\n\n#ClaudeCode #GitHub #Anthropic #Seguridad\n\nhttps://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Automattic entra en el despliegue de apps hechas con vibe coding con Spacefast",
+      "summary": "Automattic presenta Spacefast, una plataforma para publicar aplicaciones creadas con asistencia de IA, con la vista puesta en competir con Lovable. La propuesta llega en un momento de cambios en la web y en la forma de construir y distribuir software.",
+      "why_it_matters": "El despliegue, no la generación, es el cuello de botella del vibe coding, y aquí compite un jugador con infraestructura propia.",
+      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Generar la app con IA era lo fácil. El cuello de botella es publicarla. Automattic entra ahí con Spacefast, su rival de Lovable.\n\n#Automattic #Spacefast #VibeCoding #Lovable\nhttps://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet",
+        "linkedin": "El vibe coding tiene un cuello de botella y no es la IA: es el despliegue.\n\nAutomattic acaba de lanzar Spacefast, una plataforma para publicar aplicaciones creadas con asistencia de IA, y apunta directamente a Lovable. 𝗤𝘂𝗶𝗲𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗲 𝗲𝗹 𝗱𝗲𝘀𝗽𝗹𝗶𝗲𝗴𝘂𝗲 𝘀𝗲 𝗾𝘂𝗲𝗱𝗮 𝗰𝗼𝗻 𝗲𝗹 𝗰𝗶𝗿𝗰𝘂𝗶𝘁𝗼 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗱𝗲𝗹 𝘃𝗶𝗯𝗲 𝗰𝗼𝗱𝗶𝗻𝗴, y ahí Automattic juega con infraestructura propia, algo que buena parte de estos productos tiene que alquilar. Para los equipos que ya prototipan con IA, la pregunta deja de ser qué modelo usan y pasa a ser dónde vive lo que construyen.\n\n#Automattic #Spacefast #VibeCoding #Lovable\n\nhttps://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Instagram estrena un generador de filtros por prompt para Stories",
+      "summary": "Instagram lanza Effect Builder, una herramienta que crea filtros personalizados para Stories describiendo la idea en un cuadro de texto. Se pueden adjuntar imágenes de referencia de estilo, previsualizar el efecto con fotos propias y pedir cambios en prompts sucesivos. De momento solo está disponible en Estados Unidos para mayores de 18 años.",
+      "why_it_matters": "Baja la creación de efectos de realidad aumentada a una conversación, sin editor ni conocimientos de 3D.",
+      "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "source": "The Verge",
+      "social": {
+        "x": "El editor de filtros de Instagram acaba de reducirse a un cuadro de texto. Effect Builder crea efectos de Stories escribiendo un prompt.\n\n#Instagram #EffectBuilder #RealidadAumentada #Meta\nhttps://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+        "linkedin": "Crear un filtro de Instagram ya no requiere saber modelado 3D: basta con describirlo por escrito.\n\nEffect Builder, así se llama la herramienta, acepta imágenes de referencia de estilo, deja previsualizar el efecto con tus propias fotos y admite correcciones en prompts sucesivos. De momento solo está en Estados Unidos y para mayores de 18 años, pero la dirección es clara: 𝗲𝗹 𝗲𝗱𝗶𝘁𝗼𝗿 𝗱𝗲 𝗲𝗳𝗲𝗰𝘁𝗼𝘀 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝘂𝗻𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝗰𝗶ó𝗻. Para quien diseña filtros o vive de ellos, el valor ya no está en dominar la herramienta, sino en saber pedir lo que quieres. Y para Meta, es otra puerta de entrada de creación ligera dentro de su app, con todo lo que eso implica en coste y moderación.\n\n#Instagram #EffectBuilder #RealidadAumentada #Meta\n\nhttps://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "Medium integra la escritura asistida por IA en su nueva app TK",
+      "summary": "Medium ha presentado TK, una aplicación de escritura que incorpora asistencia de IA directamente en el proceso de redacción. La empresa apuesta por estas funciones pese a la polémica sobre el papel de la IA en la publicación de contenidos.",
+      "why_it_matters": "Es una prueba de hacia dónde va la escritura: la IA deja de ser un chat aparte y se sienta dentro del editor.",
+      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Medium acaba de meter la IA dentro del editor, no en un chat aparte. Su nueva app se llama TK y va a incomodar a más de uno.\n\n#Medium #TK #EscrituraConIA\nhttps://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process",
+        "linkedin": "La IA ha pasado de estar en una pestaña aparte a compartir cursor con quien escribe.\n\nMedium presenta TK, una app de escritura que integra la asistencia de IA en el propio proceso de redacción, en lugar de mandarte a un chat cuando te atascas. Lo hace, además, en plena discusión sobre qué significa escribir y publicar. 𝗘𝗹 𝗺𝗼𝘃𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗶𝗻𝘁𝗲𝗿𝗲𝘀𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗳𝘂𝗻𝗰𝗶ó𝗻, 𝗲𝘀 𝗲𝗹 𝘀𝗶𝘁𝗶𝗼: 𝗰𝘂𝗮𝗻𝗱𝗼 𝗹𝗮 𝗜𝗔 𝘃𝗶𝘃𝗲 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲𝗹 𝗲𝗱𝗶𝘁𝗼𝗿, 𝗹𝗮 𝗮𝘂𝘁𝗼𝗿í𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗴𝗲𝘀𝘁𝗼 𝗽𝗿𝗶𝘃𝗮𝗱𝗼. Para medios, editores y cualquiera que construya producto editorial, ahí está la conversación que viene.\n\n#Medium #TK #EscrituraConIA\n\nhttps://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "Bedrock estrena recuperación de un solo paso y agentic en su base de conocimiento gestionada",
+      "summary": "Amazon Bedrock Managed Knowledge Base admite ahora peticiones single-shot RAG y de solo recuperación mediante AgenticRetrieveStream, además de la recuperación agentic. El parámetro maxAgentIteration permite ajustar el esfuerzo de búsqueda a cada consulta, algo útil cuando no todas las preguntas requieren el mismo trabajo.",
+      "why_it_matters": "Ajustar las iteraciones de recuperación por petición es una forma directa de bajar coste y latencia en un RAG en producción.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Bedrock ya no busca igual en todas las consultas: ahora eliges entre solo recuperación, un único paso RAG o recuperación agentic, y cuántas iteraciones dedicar a cada pregunta.\n\n#AWS #Bedrock #RAG #AgenticAI\nhttps://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base",
+        "linkedin": "El RAG en producción casi nunca falla por el modelo. Falla por buscar de más.\n\nHasta ahora, una knowledge base gestionada aplicaba el mismo esfuerzo de recuperación a cualquier pregunta. Con 𝗺𝗮𝘅𝗔𝗴𝗲𝗻𝘁𝗜𝘁𝗲𝗿𝗮𝘁𝗶𝗼𝗻 𝗽𝘂𝗲𝗱𝗲𝘀 𝗮𝗷𝘂𝘀𝘁𝗮𝗿 𝗹𝗮𝘀 𝗶𝘁𝗲𝗿𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝗼𝗿 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮 𝗲𝗻 𝗕𝗲𝗱𝗿𝗼𝗰𝗸, además de elegir entre recuperación simple, single-shot RAG o agentic con AgenticRetrieveStream. Para un equipo con tráfico real, esa diferencia es coste y latencia que se recortan sin tocar el prompt ni el modelo.\n\n#AWS #Bedrock #RAG #AgenticAI\n\nhttps://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "NVIDIA Nemotron 3.5 Super VL llega a SageMaker JumpStart",
+      "summary": "El modelo multimodal Nemotron 3.5 Super VL, de 120.000 millones de parámetros, ya está disponible en Amazon SageMaker JumpStart. Se puede desplegar la variante NVFP4 o BF16 en unos pocos pasos y ejecutar inferencia de texto, imagen y vídeo para inteligencia documental, agentes que manejan ordenadores y cargas multimodales.",
+      "why_it_matters": "Tener un vision-language grande listo para desplegar en SageMaker ahorra la parte más pesada de montar un agente multimodal.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Un modelo multimodal de 120.000 millones de parámetros, listo para deploy en SageMaker en unos pocos pasos. La parte pesada de montar un agente multimodal se acaba.\n\n#NVIDIA #SageMaker #Nemotron #AWS\nhttps://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart",
+        "linkedin": "El cuello de botella de un agente multimodal ya no es el modelo, es todo lo que hay alrededor.\n\nNVIDIA Nemotron 3.5 Super VL, con 120.000 millones de parámetros, ya está disponible en SageMaker JumpStart: eliges variante NVFP4 o BF16, lo despliegas en unos pocos pasos y tienes inferencia de texto, imagen y vídeo. Eso 𝗺𝘂𝗲𝘃𝗲 𝗹𝗮 𝘃𝗲𝗻𝘁𝗮𝗷𝗮 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗮 𝗱𝗲𝗹 𝗠𝗼𝗱𝗲𝗹𝗢𝗽𝘀 𝗮𝗹 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼: el tiempo que antes se iba en montar infraestructura se puede dedicar a afinar casos reales, como inteligencia documental o agentes que manejan el ordenador. Cuando desplegar un VLM grande deja de ser un proyecto en sí mismo, la pregunta pasa a ser qué haces con él.\n\n#NVIDIA #SageMaker #Nemotron #AWS\n\nhttps://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "AWS lanza TorchNeuron para ejecutar PyTorch en Trainium sin cambiar el código",
+      "summary": "Amazon ha presentado TorchNeuron, un backend nativo de PyTorch que permite llevar código PyTorch existente a los chips Trainium de AWS prácticamente sin modificaciones. La idea es que el cambio de hardware no obligue a reescribir el modelo.",
+      "why_it_matters": "Bajar la barrera para probar Trainium es la condición para que haya una alternativa real a las GPU de NVIDIA.",
+      "url": "https://www.infoq.com/news/2026/11/aws-torchneuron-trainium-pytorch",
+      "source": "InfoQ",
+      "social": {
+        "x": "Cambiar de GPU a Trainium sin tocar tu código PyTorch. Ese es el atajo que AWS acaba de poner sobre la mesa.\n\n#AWS #PyTorch #Trainium #NVIDIA\nhttps://www.infoq.com/news/2026/11/aws-torchneuron-trainium-pytorch",
+        "linkedin": "El lock-in de NVIDIA no se rompe con hardware más barato, sino con no tener que reescribir nada para probarlo.\n\nTorchNeuron es un backend nativo de PyTorch que lleva código existente a los chips Trainium de AWS casi sin modificaciones. Y ahí está el detalle: 𝗹𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗿𝗲𝗮𝗹 𝗽𝗮𝗿𝗮 𝗺𝗶𝗴𝗿𝗮𝗿 𝗻𝘂𝗻𝗰𝗮 𝗳𝘂𝗲 𝗲𝗹 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼, 𝗲𝗿𝗮 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗽𝗼𝗿𝘁𝗮𝗿 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼. Si mover cargas a Trainium deja de implicar un proyecto de meses, muchos equipos podrán comparar de verdad antes de renovar su contrato de GPU. Para quien depende de la cuota de NVIDIA, es la primera alternativa que se puede evaluar sin reescribir medio stack.\n\n#AWS #PyTorch #Trainium #NVIDIA\n\nhttps://www.infoq.com/news/2026/11/aws-torchneuron-trainium-pytorch"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "Pinterest sustituye su clustering de usuarios por un Qwen3 de 4.000 millones de parámetros",
+      "summary": "Pinterest ha reemplazado su pipeline de clustering por un modelo de lenguaje Qwen3 afinado de 4.000 millones de parámetros para inferir el recorrido de los usuarios. La compañía reporta un 1,1 % más de clics en correo y un 1,3 % más de aperturas de notificaciones push.",
+      "why_it_matters": "Es un caso concreto de cómo un LLM pequeño y afinado sustituye a un pipeline clásico con métricas de negocio detrás.",
+      "url": "https://www.infoq.com/news/2026/11/pinterest-journey",
+      "source": "InfoQ",
+      "social": {
+        "x": "Un modelo de 4.000 millones de parámetros acaba de jubilar el pipeline de clustering de Pinterest. Los clics en correo suben un 1,1 %.\n\n#Pinterest #Qwen3 #LLM\nhttps://www.infoq.com/news/2026/11/pinterest-journey",
+        "linkedin": "El modelo que ha sustituido al clustering de Pinterest tiene 4.000 millones de parámetros. Ni uno más.\n\nLa tentación con los LLM es ir siempre al más grande. Pinterest ha hecho lo contrario: 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗽𝗲𝗾𝘂𝗲ñ𝗼 𝘆 𝗮𝗳𝗶𝗻𝗮𝗱𝗼 𝗽𝗮𝗿𝗮 𝘂𝗻𝗮 𝘁𝗮𝗿𝗲𝗮 𝗰𝗼𝗻𝗰𝗿𝗲𝘁𝗮 𝗵𝗮 𝗿𝗲𝗲𝗺𝗽𝗹𝗮𝘇𝗮𝗱𝗼 𝘂𝗻 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝗰𝗹á𝘀𝗶𝗰𝗼, y lo hace con métricas de negocio detrás, un 1,1 % más de clics en correo y un 1,3 % más de aperturas de push. Para quien sigue tratando el clustering como una capa intocable de la arquitectura, la pregunta ya no es si un LLM puede hacerlo, sino cuánto cuesta no haberlo probado antes.\n\n#Pinterest #Qwen3 #LLM\n\nhttps://www.infoq.com/news/2026/11/pinterest-journey"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "Un modelo del mundo que aprende de la continuidad de la naturaleza",
+      "summary": "Investigadores de machine learning han construido un modelo del mundo inspirado en el principio de que la naturaleza no da saltos, con la idea de que las predicciones sobre el entorno mejoren cuando los cambios son graduales. El trabajo apunta a robots que anticipen mejor lo que va a pasar a su alrededor.",
+      "why_it_matters": "Mejores predicciones del entorno son la base para que un robot planifique en lugar de reaccionar.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/09/machine-learning-researchers-build-a-better-world-model/5308301",
+      "source": "The Register",
+      "social": {
+        "x": "Un robot que solo reacciona siempre llega tarde. Este modelo del mundo se apoya en una idea vieja, la naturaleza no da saltos, para que pueda anticipar lo que viene.\n\n#Robotica #MachineLearning #WorldModels\nhttps://www.theregister.com/ai-and-ml/2026/11/09/machine-learning-researchers-build-a-better-world-model/5308301",
+        "linkedin": "Un robot que solo reacciona siempre llega tarde.\nInvestigadores de machine learning han construido un modelo del mundo sobre una idea que viene de la filosofía natural: la naturaleza no da saltos, así que los cambios del entorno tienden a ser graduales. Si el modelo asume esa continuidad, las predicciones mejoran y el robot puede planificar en lugar de responder al último estímulo que recibe. 𝗟𝗮 𝗱𝗶𝘀𝘁𝗮𝗻𝗰𝗶𝗮 𝗲𝗻𝘁𝗿𝗲 𝗿𝗲𝗮𝗰𝗰𝗶𝗼𝗻𝗮𝗿 𝘆 𝗽𝗹𝗮𝗻𝗶𝗳𝗶𝗰𝗮𝗿 𝗲𝘀 𝗹𝗮 𝗱𝗶𝘀𝘁𝗮𝗻𝗰𝗶𝗮 𝗲𝗻𝘁𝗿𝗲 𝘂𝗻 𝗷𝘂𝗴𝘂𝗲𝘁𝗲 𝘆 𝘂𝗻𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 ú𝘁𝗶𝗹, y ahí se va a dirimir buena parte de la robótica de los próximos años.\n\n#Robotica #MachineLearning #WorldModels\n\nhttps://www.theregister.com/ai-and-ml/2026/11/09/machine-learning-researchers-build-a-better-world-model/5308301"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Asahi Linux abandona la licencia MIT y pasa a GPL tras el robo de código con IA",
+      "summary": "Todos los repositorios de Asahi Linux pasan a GPL v2 o posterior después de que terceros cogieran código no publicado y lo pasaran por modelos de lenguaje para ocultar su procedencia. El proyecto busca así que las aportaciones derivadas vuelvan a la comunidad.",
+      "why_it_matters": "El caso muestra que las licencias permisivas se han vuelto un coladero cuando un LLM puede reescribir el origen de un fragmento de código.",
+      "url": "https://itsfoss.com/news/asahi-linux-drops-mit-for-gpl",
+      "source": "Hacker News",
+      "social": {
+        "x": "Asahi Linux abandona la MIT y pasa a GPL v2. No es ideología: alguien cogió código sin publicar, lo pasó por un LLM para borrar su origen y lo publicó como propio.\n\n#AsahiLinux #OpenSource #GPL #LLM\nhttps://itsfoss.com/news/asahi-linux-drops-mit-for-gpl",
+        "linkedin": "Una licencia permisiva acaba de demostrar que ya no protege nada frente a un LLM.\n\nAsahi Linux migra todos sus repositorios de MIT a GPL v2 o posterior después de que terceros tomaran código que aún no había visto la luz y lo reescribieran con modelos de lenguaje para ocultar de dónde venía. La consecuencia práctica es que 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗱𝗲𝗿𝗶𝘃𝗮𝗱𝗼 𝘁𝗲𝗻𝗱𝗿á 𝗾𝘂𝗲 𝘃𝗼𝗹𝘃𝗲𝗿 𝗮 𝗹𝗮 𝗰𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱, porque la GPL obliga a publicar lo que se construye encima. El aviso sirve para todo el que mantenga proyectos abiertos: si tu licencia solo pide atribución, un prompt basta para saltársela sin consecuencias.\n\n#AsahiLinux #OpenSource #GPL #LLM\n\nhttps://itsfoss.com/news/asahi-linux-drops-mit-for-gpl"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Torvalds ve señales de que la avalancha de parches generados con IA ha tocado techo",
+      "summary": "Linus Torvalds observa indicios de que el volumen de parches asistidos por IA en el desarrollo del kernel ha dejado de crecer. En uno de los proyectos principales, los arreglos llegan ya más rápido que los nuevos informes de errores.",
+      "why_it_matters": "Si el flujo se estabiliza, el mantenimiento del kernel puede volver a centrarse en revisar calidad y no solo en absorber volumen.",
+      "url": "https://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345",
+      "source": "The Register",
+      "social": {
+        "x": "Torvalds empieza a ver el techo: la avalancha de parches con IA en el kernel habría dejado de crecer. Y en un proyecto puntero los arreglos ya llegan más rápido que los informes de errores.\n\n#Linux #Kernel #LinusTorvalds #OpenSource\nhttps://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345",
+        "linkedin": "La IA ha inundado el kernel de parches. Torvalds cree que el chorro empieza a cerrarse.\n\nLinus Torvalds observa indicios de que el volumen de parches asistidos por IA en el desarrollo del kernel ha dejado de crecer. En uno de los proyectos principales, los arreglos llegan ya más rápido que los nuevos informes de errores, una señal de que la cola empieza a vaciarse. Si el flujo se estabiliza, el mantenimiento puede volver a centrarse en 𝗿𝗲𝘃𝗶𝘀𝗮𝗿 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝗲𝗻 𝗹𝘂𝗴𝗮𝗿 𝗱𝗲 𝗮𝗯𝘀𝗼𝗿𝗯𝗲𝗿 𝘃𝗼𝗹𝘂𝗺𝗲𝗻, y eso cambia el cuello de botella: el problema deja de ser generar código y pasa a ser quién lo revisa. Para cualquier equipo que hoy mide su productividad en parches enviados, es una advertencia.\n\n#Linux #Kernel #LinusTorvalds #OpenSource\n\nhttps://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "herramientas",
+      "title": "Qué hardware hace falta para mover un modelo de IA en local",
+      "summary": "Una guía práctica repasa qué tipos de modelo puede ejecutar un ordenador de uso corriente y cuánto cuesta llegar a ellos. La respuesta depende sobre todo de la memoria y de si hay GPU, más que de la potencia bruta del procesador.",
+      "why_it_matters": "Antes de pagar una suscripción o montar un servidor, conviene saber qué modelo local aguanta tu máquina.",
+      "url": "https://www.engadget.com/2307701/pc-hardware-needed-run-local-ai-model",
+      "source": "Engadget",
+      "social": {
+        "x": "Tu portátil puede mover un modelo de IA en local. Lo que decide si aguanta no es la potencia del procesador, sino la memoria y si tienes GPU.\n\n#LLM #GPU #SelfHosted #Ollama\nhttps://www.engadget.com/2307701/pc-hardware-needed-run-local-ai-model",
+        "linkedin": "Antes de pagar otra suscripción de IA, conviene hacer una pregunta incómoda: ¿qué modelo aguanta realmente tu máquina?\n\nLa respuesta depende menos del procesador de lo que parece y mucho más de la memoria disponible y de si hay GPU. 𝗟𝗮 𝗩𝗥𝗔𝗠 𝗺𝗮𝗻𝗱𝗮: 𝘀𝗶𝗻 𝗲𝗹𝗹𝗮, 𝗲𝗹 𝘁𝗲𝗰𝗵𝗼 𝗱𝗲 𝘁𝗮𝗺𝗮ñ𝗼 𝗱𝗲 𝗺𝗼𝗱𝗲𝗹𝗼 𝗯𝗮𝗷𝗮 𝗱𝗲 𝗴𝗼𝗹𝗽𝗲, y con ella el presupuesto sube. Para quien se plantea montar inferencia en local, el orden correcto es medir el hardware propio antes de elegir el modelo, no al revés. Y para muchos equipos, el punto de equilibrio sigue estando en modelos pequeños bien elegidos, no en el más grande que quepa.\n\n#LLM #GPU #SelfHosted #Ollama\n\nhttps://www.engadget.com/2307701/pc-hardware-needed-run-local-ai-model"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Google amplía la familia TPU 8 con variantes para datos cifrados y más cómputo",
+      "summary": "Google ha sacado cuatro variantes de TPU en un año, entre ellas la TPU 8tx, que mantiene los datos cifrados incluso durante el procesamiento, y la TPU 8i Max, que duplica cómputo y memoria al montar dos chips en un mismo encapsulado. La compañía suma cerca de 100 clientes externos y posiciona sus chips como alternativa a las GPU de NVIDIA.",
+      "why_it_matters": "Más oferta de silicio para inferencia y entrenamiento es lo que puede romper la escasez y el precio de las GPU.",
+      "url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia",
+      "source": "The Decoder",
+      "social": {
+        "x": "Google ha sacado cuatro TPU en un año: una procesa datos sin descifrarlos, otra monta dos chips en un mismo encapsulado. Y ya suma cerca de 100 clientes externos.\n\n#Google #TPU #NVIDIA #GoogleCloud\nhttps://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia",
+        "linkedin": "Google no quiere que la inferencia dependa de NVIDIA. Y su última jugada no es un chip, son cuatro en doce meses.\n\nLa TPU 8tx mantiene los datos cifrados incluso mientras se procesan, algo que hasta ahora obligaba a elegir entre confidencialidad y rendimiento. La TPU 8i Max duplica cómputo y memoria montando dos chips en un mismo encapsulado, y la compañía ya habla de cerca de 100 clientes externos.\n\nPara quien paga facturas de GPU, más oferta de silicio es la única palanca real para negociar precio. Pero 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗰𝗵𝗶𝗽, 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲: portar cargas a XLA y exprimir el stack de Google sigue costando más que el hardware que ahorras.\n\n#Google #TPU #NVIDIA #GoogleCloud\n\nhttps://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "lanzamientos",
+      "title": "Tokio publica Topcoat, un framework full-stack para Rust con pilas incluidas",
+      "summary": "El equipo de Tokio ha publicado Topcoat 0.9, un framework web full-stack para Rust con renderizado en servidor. En lugar de WebAssembly, usa expresiones de Rust traducidas a JavaScript para la reactividad, y apunta a aplicaciones típicas con base de datos. Autenticación y tareas en segundo plano siguen en la hoja de ruta y las versiones aún son inestables.",
+      "why_it_matters": "Rust gana una opción full-stack con el respaldo del ecosistema async más usado, aunque todavía no sea para producción.",
+      "url": "https://www.infoq.com/news/2026/11/topcoat-rust-framework",
+      "source": "InfoQ",
+      "social": {
+        "x": "Rust ya tiene framework full-stack con el respaldo del equipo de Tokio. Y no usa WebAssembly: la reactividad sale de traducir expresiones de Rust a JavaScript.\n\n#Rust #Tokio #Topcoat #OpenSource\nhttps://www.infoq.com/news/2026/11/topcoat-rust-framework",
+        "linkedin": "Rust llevaba años con piezas sueltas para la web, pero sin un camino completo que las uniera. Topcoat 0.9, publicado por el equipo de Tokio, propone renderizado en servidor, acceso a base de datos y reactividad 𝘀𝗶𝗻 𝗽𝗮𝘀𝗮𝗿 𝗽𝗼𝗿 𝗪𝗲𝗯𝗔𝘀𝘀𝗲𝗺𝗯𝗹𝘆: traduce expresiones de Rust a JavaScript. La señal importante no es la madurez, que aún no llega (auth y tareas en segundo plano siguen en la hoja de ruta), sino quién está detrás: el ecosistema async más usado de Rust. Si ya tienes backend en Rust, toca mirarlo; para producción, todavía no.\n\n#Rust #Tokio #Topcoat #OpenSource\n\nhttps://www.infoq.com/news/2026/11/topcoat-rust-framework"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "Convierte señales WiFi corrientes en información espacial en tiempo real, monitorización de signos vitales y detección de presencia, sin usar ni un píxel de vídeo. Una propuesta muy interesante para domótica y vigilancia no invasiva.",
+      "language": "Rust",
+      "stars": 103366,
+      "social": {
+        "x": "103.000 estrellas para un repo en Rust que convierte el WiFi de tu casa en un sensor de presencia y de signos vitales. Sin cámara. Sin un solo píxel de vídeo.\n\n#RuView #Rust #OpenSource #Domótica\nhttps://github.com/ruvnet/RuView",
+        "linkedin": "TU ROUTER YA SABE SI ESTÁS EN CASA. Y este repo lo demuestra con más de 103.000 estrellas en GitHub.\n\nLa vigilancia clásica tiene un problema de fondo: para saber qué pasa en una habitación hay que meter una cámara dentro. Y una cámara en el salón o en el baño es un precio muy alto en intimidad.\n\nRuView le da la vuelta. Usa las señales WiFi que ya están rebotando por tu casa, detecta cómo las altera cada cuerpo y de ahí saca información útil. Cero vídeo, cero lentes, cero grabaciones.\n\n→ Detección de presencia y de movimiento en tiempo real\n→ Monitorización de signos vitales sin llevar nada puesto\n→ Información espacial a partir de las variaciones de la señal\n→ Escrito en Rust, pensado para domótica y vigilancia no invasiva\n\nLo interesante no es solo la técnica: es que 𝗲𝗹 𝘀𝗲𝗻𝘀𝗼𝗿 𝘆𝗮 𝗲𝘀𝘁á 𝗶𝗻𝘀𝘁𝗮𝗹𝗮𝗱𝗼 𝗲𝗻 𝘁𝘂 𝗰𝗮𝘀𝗮 𝘆 𝘀𝗲 𝗹𝗹𝗮𝗺𝗮 𝗿𝗼𝘂𝘁𝗲𝗿. No hay hardware nuevo que comprar ni aparatos que colocar en cada habitación.\n\nSi te interesa la domótica, la privacidad o simplemente los usos raros del WiFi, este repo merece una lectura tranquila. Guárdate el post para no perderlo.\n\n#RuView #Rust #OpenSource #Domótica\n\nhttps://github.com/ruvnet/RuView"
+      }
+    },
+    {
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "Sistema de análisis bursátil multi-mercado impulsado por LLM, con datos de varias fuentes, noticias en tiempo real, panel de decisiones y avisos automáticos. Se puede programar sin coste, así que resulta práctico para seguir carteras sin montar infraestructura.",
+      "language": "Python",
+      "stars": 68742,
+      "social": {
+        "x": "68.742 estrellas para un sistema bursátil con LLM que vigila tu cartera, cruza noticias en tiempo real y te avisa solo. Y se programa gratis, sin montar infraestructura.\n\n#OpenSource #Python #LLM #GitHub\nhttps://github.com/ZhuLinsen/daily_stock_analysis",
+        "linkedin": "ALGUIEN HA REGALADO UN ANALISTA BURSÁTIL CON LLM QUE TRABAJA MIENTRAS DUERMES.\n\nSeguir cartera suele acabar en una hoja de cálculo desactualizada o en una suscripción mensual a un panel que no controlas. Este repo de Python va por otro camino: análisis multi-mercado con datos de varias fuentes, noticias en tiempo real y un panel de decisiones que puedes dejar programado sin pagar infraestructura.\n\nLo interesante no es solo el modelo, es que 𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝘀𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮 𝘀𝗼𝗹𝗼 𝘆 𝘁𝗲 𝗮𝘃𝗶𝘀𝗮 𝗰𝘂𝗮𝗻𝗱𝗼 𝗵𝗮𝘆 𝗮𝗹𝗴𝗼 𝗾𝘂𝗲 𝗺𝗶𝗿𝗮𝗿, así que el ruido deja de ser tu problema.\n\n→ Ingesta de datos de varias fuentes y mercados, no de un único proveedor cerrado.\n→ Noticias en tiempo real integradas en el análisis, no como pestaña aparte.\n→ Panel de decisiones para revisar el contexto de un vistazo.\n→ Avisos automáticos cuando se cumple una condición, sin refrescar nada a mano.\n→ Programable sin coste: encaja en un cron o en un runner gratuito.\n→ Python, fácil de extender si quieres meter tus propias señales.\n\nSi llevas cartera o simplemente te gusta trastear con datos de mercado, guárdatelo: es de esos repos que se leen hoy y se usan el mes que viene. El enlace lo tienes abajo.\n\n#OpenSource #Python #LLM #GitHub\n\nhttps://github.com/ZhuLinsen/daily_stock_analysis"
+      }
+    },
+    {
+      "name": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "description": "Servidor MCP para configurar y automatizar Home Assistant con Claude, ChatGPT y otros asistentes de IA. Útil si quieres controlar tu casa por lenguaje natural sin pelearte con las automatizaciones.",
+      "language": "Python",
+      "stars": 5841,
+      "social": {
+        "x": "Le dices a Claude «si no hay nadie en casa, apaga la calefacción» y este servidor MCP lo convierte en una automatización de Home Assistant. 5.841 estrellas y open source.\n\n#HomeAssistant #MCP #OpenSource #Python\nhttps://github.com/homeassistant-ai/ha-mcp",
+        "linkedin": "TU CASA YA ENTIENDE LENGUAJE NATURAL. Y sin escribir una sola automatización a mano.\n\nHome Assistant es una de las mejores plataformas de domótica que existen, pero su curva de aprendizaje con automatizaciones, plantillas y YAML echa para atrás a mucha gente. La idea de este repo es sencilla: 𝗵𝗮𝗯𝗹𝗮𝗿𝗹𝗲 𝗮 𝗹𝗮 𝗰𝗮𝘀𝗮 𝗲𝗻 𝗹𝘂𝗴𝗮𝗿 𝗱𝗲 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗮𝗿𝗹𝗮.\n\nSe trata de un servidor MCP en Python que conecta asistentes como Claude o ChatGPT con tu instalación de Home Assistant, de forma que configurar y automatizar se hace conversando.\n\n→ Configuras entidades, automatizaciones y escenas desde el chat, sin pelearte con el YAML.\n→ Le pides en lenguaje natural lo que quieres que pase y el asistente lo traduce a la configuración.\n→ Compatible con Claude, ChatGPT y cualquier cliente que hable MCP.\n→ Open source, en Python y con 5.841 estrellas de comunidad detrás.\n\nSi tienes Home Assistant en casa o lo estás montando en un servidor self-hosted, esto te ahorra la parte que más frustra a la mayoría.\n\nGuarda el post para cuando te toque la próxima automatización y te dejo el repo abajo.\n\n#HomeAssistant #MCP #OpenSource #Python\n\nhttps://github.com/homeassistant-ai/ha-mcp"
+      }
+    },
+    {
+      "name": "garrytan/gbrain",
+      "url": "https://github.com/garrytan/gbrain",
+      "description": "Un cerebro de agente para OpenClaw/Hermes con una configuración con opiniones marcadas, pensado para montar asistentes autónomos sin empezar de cero. Te ahorra decisiones de diseño si vas a experimentar con agentes en TypeScript.",
+      "language": "TypeScript",
+      "stars": 32075,
+      "social": {
+        "x": "32k estrellas y el trabajo de diseño ya hecho: un cerebro de agente para OpenClaw/Hermes en TypeScript. Copias la config con opiniones marcadas y arrancas el tuyo sin partir de cero.\n\n#OpenClaw #Hermes #TypeScript #OpenSource\nhttps://github.com/garrytan/gbrain",
+        "linkedin": "NADIE EMPIEZA UN AGENTE DESDE CERO SI PUEDE COPIAR UNO QUE YA FUNCIONA.\n\nMontar un asistente autónomo se atasca siempre en el mismo sitio: decidir la arquitectura antes de escribir la primera línea. Qué herramientas expone, cómo guarda el estado, dónde va el contexto. Semanas de decisiones antes de ver algo funcionando.\n\ngbrain llega con 32k estrellas y una propuesta distinta: una configuración con opiniones marcadas para OpenClaw y Hermes, en TypeScript. No es un framework que tengas que ensamblar, es un punto de partida que ya ha tomado las decisiones por ti.\n\n→ Las decisiones de diseño vienen resueltas, no como un menú de opciones.\n→ Pensado para OpenClaw y Hermes, así que el agente arranca con flujo y herramientas definidos.\n→ TypeScript de punta a punta, sin capas intermedias.\n→ Ideal para experimentar con agentes sin reescribir el esqueleto en cada prueba.\n\n𝗘𝗹 𝘃𝗮𝗹𝗼𝗿 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼, 𝗲𝘀𝘁á 𝗲𝗻 𝗹𝗮 𝗰𝗼𝗻𝗳𝗶𝗴𝘂𝗿𝗮𝗰𝗶ó𝗻 𝗰𝗼𝗻 𝗼𝗽𝗶𝗻𝗶𝗼𝗻𝗲𝘀 𝘆𝗮 𝘁𝗼𝗺𝗮𝗱𝗮𝘀: eso es lo que te ahorra el arranque en frío.\n\nSi estás trasteando con agentes y no quieres reinventar la base cada vez, guarda este post y échale un ojo al repo. Lo tienes abajo.\n\n#OpenClaw #Hermes #TypeScript #OpenSource\n\nhttps://github.com/garrytan/gbrain"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Cuántos usuarios aguanta un Postgres de 124 dólares: 100 millones de filas y pruebas de carga hasta romperlo",
+      "url": "https://levelup.gitconnected.com/how-many-users-can-a-124-postgres-database-handle-6991a2cd3e0f?source=rss------software_engineering-5",
+      "source": "Medium: Software Engineering",
+      "summary": "Un servidor modesto, 100 millones de publicaciones y tráfico creciente hasta que la base de datos se cae: el autor mide cuántos usuarios concurrentes soporta y qué aporta cada ajuste (índices, caché, conexiones). Sirve para calibrar expectativas antes de sobredimensionar la infraestructura o de culpar a Postgres de un problema que era de diseño.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Cómo detectar fugas entre clientes al probar la autorización multitenant en Rails",
+      "url": "https://levelup.gitconnected.com/how-do-you-test-multi-tenant-authorization-in-rails-782dbbe3bf6b?source=rss------web_development-5",
+      "source": "Medium: Web Development",
+      "summary": "Siete tests en verde pueden esconder cuatro fugas de datos entre inquilinos. La lectura repasa qué casos de autorización conviene cubrir en una aplicación Rails multitenant y cómo escribir pruebas que verifiquen el aislamiento de verdad, en lugar de comprobar solo que la petición responde.",
+      "tema": "web"
+    },
+    {
+      "title": "Estimar el recall de un agente de IA con captura-recaptura y una auditoría manual del 10 %",
+      "url": "https://towardsdatascience.com/how-to-estimate-the-recall-of-ai-agents-with-capture-recapture",
+      "source": "Towards Data Science",
+      "summary": "Con 294 contratos y una revisión a mano de solo el 10 % de los casos, un estimador pesquero del siglo XIX permite calcular el recall real de un agente de IA. La técnica resulta útil cuando etiquetar todo el conjunto es caro y necesitas saber cuántos aciertos se te están escapando antes de fiarte del resultado.",
+      "tema": "ia"
+    },
+    {
+      "title": "Guía completa para llevar shadcn/ui a aplicaciones React Native sin duplicar el sistema de diseño",
+      "url": "https://www.freecodecamp.org/news/how-to-use-shadcn-ui-in-react-native-applications-full-handbook",
+      "source": "freeCodeCamp",
+      "summary": "Mantener la coherencia entre web y móvil suele acabar en un fichero de colores y componentes copiados por duplicado. Este manual explica cómo usar shadcn/ui en React Native, con los patrones que funcionan, las limitaciones al compartir componentes entre plataformas y las decisiones que conviene tomar desde el principio.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Regresión cuantílica frente a OLS: cuando predecir el precio medio no cuenta toda la historia",
+      "url": "https://towardsdatascience.com/quantile-regression-caught-the-house-price-ols-missed-by-55k",
+      "source": "Towards Data Science",
+      "summary": "En 88 ventas de vivienda, una regresión lineal se quedó 55.000 dólares por debajo del precio real, mientras un modelo cuantílico ofrecía un intervalo mucho más honesto. La lectura muestra cuándo la media no basta, cómo se interpretan los cuantiles y cómo evaluar este tipo de modelos antes de ponerlos en producción.",
+      "tema": "datos"
+    },
+    {
+      "title": "Diseñar formularios que eviten el error antes de que alguien pulse Enviar",
+      "url": "https://medium.com/@emannfatimaa/designing-forms-that-prevent-errors-before-submission-6d79e45f69cc",
+      "source": "Medium: UX",
+      "summary": "Un formulario que responde con un muro de mensajes rojos al enviar funciona técnicamente, pero la experiencia falla. El artículo propone validaciones y ayudas en el momento adecuado para que la persona corrija sobre la marcha, con criterios que se pueden aplicar a cualquier formulario largo.",
+      "tema": "diseno"
+    }
+  ]
+}
