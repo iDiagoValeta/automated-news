@@ -1,0 +1,285 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-09T23:26:56.042Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Anthropic lanza Claude Fable 5.2 y Claude Mythos 5.2",
+      "summary": "Anthropic presenta dos modelos nuevos, Fable 5.2 y Mythos 5.2, con mejoras en programación, razonamiento y visión, y respuestas más rápidas que la generación 5.1. Fable 5.2 apunta a problemas exigentes de ingeniería de software y a orquestar equipos de agentes en proyectos largos, mientras que Mythos 5.2 queda reservado a organizaciones verificadas. La empresa asegura que los modelos escriben más del 90 % del código que se integra en su núcleo, aunque dice haber limitado las capacidades que podrían acelerar su propio desarrollo.",
+      "why_it_matters": "Es el lanzamiento de modelos más potente del día y trae mejoras que se notan directamente en coding y en flujos con agentes.",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "source": "Anthropic News",
+      "social": {
+        "x": "Anthropic lanza dos modelos a la vez: Fable 5.2 para coding y agentes, y Mythos 5.2 solo para organizaciones verificadas. Sus propios modelos ya escriben más del 90 % del código de su núcleo.\n\n#Anthropic #Claude #Agentes #Coding\nhttps://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "linkedin": "Anthropic no ha lanzado un modelo, ha lanzado dos. Y uno de ellos no lo va a poder usar cualquiera.\n\nFable 5.2 apunta a ingeniería de software exigente y a orquestar equipos de agentes en proyectos largos, mientras que Mythos 5.2 se queda en manos de organizaciones verificadas. Lo llamativo no es el salto de versión, sino la letra pequeña: 𝗹𝗼𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗲𝘀𝗰𝗿𝗶𝗯𝗲𝗻 𝗺á𝘀 𝗱𝗲𝗹 𝟵𝟬 % 𝗱𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗾𝘂𝗲 𝗲𝗻𝘁𝗿𝗮 𝗲𝗻 𝗲𝗹 𝗻ú𝗰𝗹𝗲𝗼 𝗱𝗲 𝗔𝗻𝘁𝗵𝗿𝗼𝗽𝗶𝗰, y la empresa admite haber recortado a propósito las capacidades que acelerarían su propio desarrollo. Para quien elige proveedor esta semana, la pregunta ya no es cuál razona mejor, sino cuánta autonomía te venden y cuánta se reservan.\n\n#Anthropic #Claude #Agentes #Coding\n\nhttps://www.anthropic.com/claude-fable-and-mythos-5-2"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Meta presenta Muse Ember, su modelo más pequeño y eficiente para agentes",
+      "summary": "Muse Ember es el modelo más pequeño de Meta, diseñado para el trabajo repetitivo de los agentes: llamadas a herramientas, enrutado y extracción de datos. La compañía asegura que ofrece más inteligencia por dólar que Claude Haiku 5.5 o GPT-6 Luna, a 10 céntimos por millón de tokens de entrada, aunque rinde peor en tareas de programación.",
+      "why_it_matters": "Abre una vía barata para automatizar las tareas de agente que se repiten todo el día sin tirar siempre de modelos frontera.",
+      "url": "https://research.meta.ai/blog/muse-ember",
+      "source": "Hacker News",
+      "social": {
+        "x": "Meta pone precio a la trastienda de los agentes: 10 céntimos por millón de tokens de entrada. Muse Ember hace barato lo repetitivo y flojea al programar.\n\n#Meta #MuseEmber #LLM #Agentes\nhttps://research.meta.ai/blog/muse-ember",
+        "linkedin": "El modelo que Meta quiere que uses para lo aburrido cuesta 10 céntimos por millón de tokens.\n\nMuse Ember es el más pequeño de la casa y no compite por liderar las pruebas de siempre: está pensado para llamadas a herramientas, enrutado y extracción de datos, el ruido de fondo de cualquier agente. Meta asegura que da más inteligencia por dólar que Claude Haiku 5.5 o GPT-6 Luna, aunque rinde peor en programación. 𝗟𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗶𝗻𝘁𝗲𝗿𝗲𝘀𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀 𝗲𝗹 𝗽𝗮𝘁𝗿ó𝗻: separar el trabajo mecánico del modelo frontera y reservar este último para lo que de verdad exige criterio. Si tu factura de tokens la dominan las tareas repetitivas, aquí hay margen.\n\n#Meta #MuseEmber #LLM #Agentes\n\nhttps://research.meta.ai/blog/muse-ember"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "ByteDance lanza Seedream 5.5 para editar imágenes sin deriva de color",
+      "summary": "Seedream 5.5 es un modelo de imagen de ByteDance Seed pensado para flujos de producción profesional: mantiene la estabilidad entre pasadas durante hasta 100 iteraciones de edición y genera imágenes RGBA con fondo transparente. La compañía afirma que supera a GPT-Image-2.5 Sunburst en realismo y que habrá una versión Pro.",
+      "why_it_matters": "La edición iterativa sin degradación es justo lo que faltaba para usar modelos de imagen en producción real.",
+      "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift",
+      "source": "The Decoder",
+      "social": {
+        "x": "Cien ediciones seguidas sobre la misma imagen y el color sigue intacto. ByteDance acaba de quitar la excusa que frenaba a los modelos de imagen en producción.\n\n#ByteDance #Seedream #ImagenGenerativa\nhttps://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift",
+        "linkedin": "Editar una imagen diez veces ya era fácil. Cien veces sin que el color se vaya por el camino era el problema.\n\nSeedream 5.5, el modelo de ByteDance Seed, mantiene la estabilidad entre pasadas durante hasta 100 iteraciones y genera RGBA con fondo transparente. Suena a ficha técnica, pero es la diferencia entre una demo y un flujo de producción: quien hoy parchea a mano cada iteración deja de pagar ese peaje. La compañía dice que supera a GPT-Image-2.5 Sunburst en realismo y que habrá versión Pro. Para estudios y equipos de diseño, 𝗹𝗮 𝗱𝗲𝗿𝗶𝘃𝗮 𝗱𝗲 𝗰𝗼𝗹𝗼𝗿 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 y la conversación pasa a ser otra: cuánto trabajo manual se puede quitar de en medio.\n\n#ByteDance #Seedream #ImagenGenerativa\n\nhttps://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Google publica Gemini 4 Argon para control y simulación de robots",
+      "summary": "Google ha publicado Gemini 4 Argon como un modelo de razonamiento físico de propósito general, orientado al control de robots, la construcción de escenas Real2Sim, el etiquetado multimodal de vídeo de robots y la mejora iterativa de políticas. No es una política de un solo efector, sino una pieza que se combina con el resto del stack.",
+      "why_it_matters": "Da a los laboratorios de robótica un modelo reutilizable en lugar de entrenar cada política desde cero.",
+      "url": "https://www.infoq.com/news/2026/11/google-gemini-argon",
+      "source": "InfoQ",
+      "social": {
+        "x": "Gemini 4 Argon no controla un robot concreto: es razonamiento físico de propósito general que se combina con el resto del stack. Google acaba de publicarlo.\n\n#Gemini #GoogleDeepMind #Robótica #Real2Sim\nhttps://www.infoq.com/news/2026/11/google-gemini-argon",
+        "linkedin": "El cuello de botella de la robótica no era el hardware: era entrenar cada política desde cero para cada brazo, cada tarea y cada planta.\nGoogle publica Gemini 4 Argon como razonamiento físico de propósito general, no como una política de un solo efector, y ahí está el cambio: 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝘀𝗲 𝗿𝗲𝘂𝘁𝗶𝗹𝗶𝘇𝗮 𝗲𝗻 𝗹𝘂𝗴𝗮𝗿 𝗱𝗲 𝗿𝗲𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗿𝘀𝗲. Llega con Real2Sim, etiquetado multimodal de vídeo de robots y mejora iterativa de políticas, así que su valor no está en el modelo suelto sino en cómo encaja en el stack que ya tienes montado. Para un laboratorio pequeño, la pregunta deja de ser si puede permitirse entrenar su propia política y pasa a ser qué construye encima.\n\n#Gemini #GoogleDeepMind #Robótica #Real2Sim\n\nhttps://www.infoq.com/news/2026/11/google-gemini-argon"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Google amplía su familia TPU 8 con los chips 8tx y 8i Max",
+      "summary": "Google ha añadido dos variantes especializadas a su octava generación de TPU: la 8tx, que mantiene los datos cifrados incluso durante el procesamiento, y la 8i Max, que duplica cómputo y memoria al integrar dos chips en un mismo encapsulado. Con estas son ya cuatro las variantes de TPU presentadas en un solo año.",
+      "why_it_matters": "Refuerza la alternativa a las GPU de Nvidia justo cuando la demanda de cómputo para IA no deja de crecer.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx",
+      "source": "Hacker News",
+      "social": {
+        "x": "Google ya tiene cuatro TPU distintas en un solo año. Una de ellas procesa los datos sin descifrarlos y la otra mete dos chips en un mismo encapsulado.\n\n#Google #TPU #Nvidia #GoogleCloud\nhttps://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx",
+        "linkedin": "Google ya no lanza una TPU al año. En doce meses ha presentado cuatro.\n\nLas dos últimas son las que importan: la 8tx mantiene los datos cifrados incluso mientras se procesan, y la 8i Max duplica cómputo y memoria al integrar dos chips en un mismo encapsulado. Es la vía de Google para competir con Nvidia en el mismo cliente que ahora mismo no encuentra GPU suficientes. 𝗟𝗮 𝘃𝗲𝗻𝘁𝗮𝗷𝗮 𝗱𝗲 𝗚𝗼𝗼𝗴𝗹𝗲 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗰𝗵𝗶𝗽 𝗺á𝘀 𝗿á𝗽𝗶𝗱𝗼, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮𝗿 𝗹𝗮 𝗽𝗶𝗹𝗮 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗮, del silicio al framework, y en un año de escasez de cómputo eso pesa más de lo que parece.\n\n#Google #TPU #Nvidia #GoogleCloud\n\nhttps://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "AWS estrena TorchNeuron para ejecutar PyTorch en Trainium sin tocar el código",
+      "summary": "Amazon ha presentado TorchNeuron, un backend nativo de PyTorch que permite ejecutar modelos ya escritos en este framework sobre los chips Trainium de AWS prácticamente sin cambios en el código. El anuncio se hizo en la PyTorch Conference North America 2026.",
+      "why_it_matters": "Baja la barrera para probar el silicio propio de AWS: si el modelo ya corre en PyTorch, se puede migrar sin reescribirlo.",
+      "url": "https://www.infoq.com/news/2026/11/aws-torchneuron-trainium-pytorch",
+      "source": "InfoQ",
+      "social": {
+        "x": "Todo tu código PyTorch puede correr en Trainium sin reescribir una línea. AWS acaba de quitar la última excusa para probar su silicio.\n\n#PyTorch #AWS #Trainium #TorchNeuron\nhttps://www.infoq.com/news/2026/11/aws-torchneuron-trainium-pytorch",
+        "linkedin": "El código que ya tienes en PyTorch puede correr en Trainium sin tocar una línea. Con TorchNeuron, AWS estrena un backend nativo que se presentó en la PyTorch Conference North America 2026 y que apunta a lo que de verdad frenaba la migración: no el rendimiento, sino el coste de portar el modelo. 𝗟𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗽𝗮𝗿𝗮 𝗽𝗿𝗼𝗯𝗮𝗿 𝘀𝗶𝗹𝗶𝗰𝗶𝗼 𝗽𝗿𝗼𝗽𝗶𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘁é𝗰𝗻𝗶𝗰𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗲𝗰𝗼𝗻ó𝗺𝗶𝗰𝗮, así que cualquier equipo que haya descartado Trainium por el trabajo de reescritura tiene ahora un motivo bastante menos cómodo para no hacer la prueba. Si el modelo ya corre en PyTorch, el debate sobre dónde ejecutarlo se puede plantear con números.\n\n#PyTorch #AWS #Trainium #TorchNeuron\n\nhttps://www.infoq.com/news/2026/11/aws-torchneuron-trainium-pytorch"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "NVIDIA Nemotron 3.5 Super VL llega a Amazon SageMaker JumpStart",
+      "summary": "El modelo multimodal Nemotron 3.5 Super VL, de 120.000 millones de parámetros, ya está disponible en SageMaker JumpStart en variantes NVFP4 y BF16. Se despliega en unos pocos pasos y sirve para inferencia de texto, imagen y vídeo en tareas de inteligencia documental y agentes que manejan interfaces.",
+      "why_it_matters": "Un VLM grande listo para desplegar sin montar infraestructura propia, útil para documentos y agentes de computer-use.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Un VLM de 120.000 millones de parámetros que se despliega en unos pocos pasos y sin montar infraestructura propia. NVIDIA lo deja listo en SageMaker JumpStart.\n\n#NVIDIA #SageMaker #Nemotron #AWS\nhttps://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart",
+        "linkedin": "Montar un VLM grande en producción acaba de dejar de ser un proyecto de infraestructura.\n\nNemotron 3.5 Super VL, 120.000 millones de parámetros, ya está disponible en SageMaker JumpStart en variantes NVFP4 y BF16, con inferencia de texto, imagen y vídeo en unos pocos pasos. Para quien trabaja con documentación densa o construye agentes que manejan interfaces, 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗱𝗲𝘀𝗽𝗹𝗶𝗲𝗴𝘂𝗲 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗲𝗹 𝗰𝗮𝘀𝗼 𝗱𝗲 𝘂𝘀𝗼. Y ahí es donde se nota quién tiene un proceso claro que reescribir y quién solo estaba esperando a que el modelo fuera accesible.\n\n#NVIDIA #SageMaker #Nemotron #AWS\n\nhttps://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-super-vl-is-now-available-in-amazon-sagemaker-jumpstart"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "Instagram estrena un creador de filtros a partir de prompts",
+      "summary": "Effect Builder permite describir un filtro en un cuadro de texto, adjuntar imágenes de referencia y previsualizar el resultado con fotos propias antes de publicarlo en Stories. Está disponible en Estados Unidos para mayores de 18 años y admite pedir cambios con nuevos prompts.",
+      "why_it_matters": "Convierte la creación de efectos de realidad aumentada, antes reservada a herramientas externas, en una conversación dentro de la app.",
+      "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "source": "The Verge",
+      "social": {
+        "x": "Describes el filtro que quieres en un cuadro de texto, adjuntas una foto de referencia y Instagram te lo genera. Los efectos de RA dejan de ser cosa de herramientas externas.\n\n#Instagram #Meta #RealidadAumentada #EffectBuilder\nhttps://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+        "linkedin": "Instagram acaba de convertir la creación de filtros en una conversación dentro de su propia app.\n\nEffect Builder permite describir el efecto en un cuadro de texto, adjuntar imágenes de referencia y previsualizar el resultado con fotos propias antes de publicarlo en Stories. De momento está solo en Estados Unidos y para mayores de 18 años, y admite pedir cambios con nuevos prompts, así que el trabajo fino sigue siendo iterar.\n\nLa lectura profesional: 𝗹𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗮 𝗹𝗮 𝗿𝗲𝗮𝗹𝗶𝗱𝗮𝗱 𝗮𝘂𝗺𝗲𝗻𝘁𝗮𝗱𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮, 𝘀𝗶𝗻𝗼 𝗲𝗹 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼. Quien hacía filtros por encargo pierde esa ventaja; quien tiene ideas y sabe pedirlas, gana. Los equipos de social y de marca deberían tratarlo como una capacidad creativa más y no como un juguete.\n\n#Instagram #Meta #RealidadAumentada #EffectBuilder\n\nhttps://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "Automattic lanza Spacefast para desplegar apps creadas con vibe coding",
+      "summary": "Automattic presenta Spacefast, una plataforma para publicar aplicaciones generadas con herramientas de vibe coding, con la que quiere competir con propuestas como Lovable. El movimiento encaja en su apuesta por un internet en el que crear software es cada vez más barato.",
+      "why_it_matters": "Cierra el hueco entre generar una app con IA y tenerla funcionando en producción.",
+      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Automattic ya no solo te ayuda a generar la app: también te la pone en producción. Spacefast va directo a por Lovable.\n\n#Automattic #VibeCoding #Lovable\nhttps://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet",
+        "linkedin": "El vibe coding tenía un problema de último kilómetro: la app se genera en segundos, pero publicarla seguía siendo tu problema.\n\nAutomattic acaba de lanzar Spacefast para cerrar ese hueco y competir de tú a tú con Lovable, y con ello dice mucho de hacia dónde va su negocio: 𝘀𝗶 𝗰𝗿𝗲𝗮𝗿 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝘁𝗶𝗲𝗻𝗱𝗲 𝗮 𝗰𝗼𝘀𝘁𝗲 𝗰𝗲𝗿𝗼, 𝗲𝗹 𝘃𝗮𝗹𝗼𝗿 𝘀𝗲 𝗱𝗲𝘀𝗽𝗹𝗮𝘇𝗮 𝗮 𝗱ó𝗻𝗱𝗲 𝘃𝗶𝘃𝗲 𝘆 𝗰ó𝗺𝗼 𝘀𝗲 𝗱𝗲𝘀𝗽𝗹𝗶𝗲𝗴𝗮. Para quien desarrolla, el debate deja de ser qué modelo genera mejor código y pasa a ser quién controla el hosting, el dominio y los datos de esa app. Y para las agencias y freelances, el margen ya no está en montar la infraestructura, sino en decidir qué merece la pena construir.\n\n#Automattic #VibeCoding #Lovable\n\nhttps://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "Claude Code está filtrando secretos en repositorios públicos de GitHub",
+      "summary": "Los ficheros de configuración de Claude Code están acabando en repositorios públicos con contraseñas, claves de API y otros secretos dentro, según Ars Technica. El origen está en la opción «Do not ask again», que acepta permisos de forma permanente y deja esas credenciales escritas en el proyecto.",
+      "why_it_matters": "Un recordatorio muy concreto de que aceptar permisos sin mirar puede acabar publicando tus credenciales.",
+      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Claude Code está dejando contraseñas y claves de API dentro de repos públicos de GitHub. El culpable: ese botón de «no volver a preguntar».\n\n#ClaudeCode #GitHub #Seguridad #Anthropic\nhttps://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
+        "linkedin": "Un clic en «Do not ask again» y tus credenciales acaban escritas en el repo.\n\nLos ficheros de configuración de Claude Code están apareciendo en repositorios públicos de GitHub con contraseñas y claves de API dentro, según Ars Technica. El origen no es un fallo del modelo, sino la forma de aceptar permisos: al marcar esa casilla de forma permanente, los secretos se quedan guardados en el proyecto y basta un push para publicarlos. 𝗟𝗮 𝗰𝗼𝗺𝗼𝗱𝗶𝗱𝗮𝗱 𝗱𝗲 𝗻𝗼 𝗿𝗲𝘃𝗶𝘀𝗮𝗿 𝗽𝗲𝗿𝗺𝗶𝘀𝗼𝘀 𝘀𝗲 𝗽𝗮𝗴𝗮 𝗲𝗻 𝗰𝗿𝗲𝗱𝗲𝗻𝗰𝗶𝗮𝗹𝗲𝘀 𝗲𝘅𝗽𝘂𝗲𝘀𝘁𝗮𝘀, y eso afecta igual al que prueba la herramienta un viernes por la tarde que al equipo que la tiene en producción. Toca revisar el historial de vuestros repos y meter el directorio de configuración en el .gitignore antes de la próxima demo.\n\n#ClaudeCode #GitHub #Seguridad #Anthropic\n\nhttps://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "herramientas",
+      "title": "Bedrock Managed Knowledge Base añade recuperación en un solo paso",
+      "summary": "Amazon Bedrock Managed Knowledge Base admite ahora peticiones de recuperación simple (single-shot RAG) y de solo recuperación mediante AgenticRetrieveStream, además de la recuperación agéntica. El parámetro maxAgentIteration permite ajustar el esfuerzo de búsqueda a cada consulta.",
+      "why_it_matters": "Permite elegir entre RAG barato y agentes que iteran según la pregunta dentro del mismo servicio.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Amazon Bedrock te deja ahora decidir cuánto esfuerzo dedica a buscar: una pasada barata o un agente que itera. Y se controla con un solo parámetro.\n\n#AmazonBedrock #RAG #AWS #AgenticAI\nhttps://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base",
+        "linkedin": "La pregunta ya no es si usas RAG, sino cuánto quieres pagar por cada consulta.\n\nBedrock Managed Knowledge Base añade recuperación en un solo paso y modo de solo recuperación con AgenticRetrieveStream, así que puedes elegir entre una búsqueda directa y un agente que itera según la pregunta, todo dentro del mismo servicio. El parámetro maxAgentIteration marca el límite de esfuerzo. Para un equipo con costes de inferencia disparados, 𝗲𝘀𝘁𝗼 𝘁𝗿𝗮𝘀𝗹𝗮𝗱𝗮 𝗹𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗮𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮 𝗱𝗲 «𝗾𝘂é 𝗺𝗼𝘁𝗼𝗿 𝘂𝘀𝗼» 𝗮 «𝗰𝘂á𝗻𝘁𝗮𝘀 𝗶𝘁𝗲𝗿𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗺𝗲 𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮 𝗽𝗮𝗴𝗮𝗿», y esa es una conversación mucho más útil que la anterior.\n\n#AmazonBedrock #RAG #AWS #AgenticAI\n\nhttps://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "herramientas",
+      "title": "PyPI renueva sus páginas de proyecto con señales de seguridad más claras",
+      "summary": "El índice de paquetes de Python ha estrenado un diseño nuevo de las páginas de proyecto, con una pestaña específica de seguridad y una pestaña de ficheros de release reconstruida. El objetivo es que comprobar de dónde viene un paquete sea sencillo antes de instalarlo.",
+      "why_it_matters": "La cadena de suministro de Python gana transparencia justo en el punto donde se decide instalar.",
+      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete",
+      "source": "Lobsters",
+      "social": {
+        "x": "Instalar un paquete de Python era hasta ahora un acto de fe. PyPI acaba de poner la información de seguridad justo donde decides si confías o no.\n\n#Python #PyPI #SupplyChain #OpenSource\nhttps://blog.pypi.org/posts/2026-11-06-ui-updates-complete",
+        "linkedin": "Instalar un paquete de Python sigue siendo, en la práctica, un acto de fe. PyPI ha rediseñado sus páginas de proyecto para que la procedencia y los ficheros de cada release estén a la vista justo antes de lanzar el `pip install`.\n\nLa pestaña de seguridad y la de ficheros no son un lavado de cara: 𝘁𝗿𝗮𝘀𝗹𝗮𝗱𝗮𝗻 𝗹𝗮 𝗱𝘂𝗲 𝗱𝗶𝗹𝗶𝗴𝗲𝗻𝗰𝗲 𝗮𝗹 𝗺𝗼𝗺𝗲𝗻𝘁𝗼 𝗲𝘅𝗮𝗰𝘁𝗼 𝗲𝗻 𝗲𝗹 𝗾𝘂𝗲 𝘀𝗲 𝗱𝗲𝗰𝗶𝗱𝗲 𝗶𝗻𝘀𝘁𝗮𝗹𝗮𝗿, que es donde de verdad sirve. Para cualquier equipo con dependencias en producción, esto cambia la conversación: cuesta menos mirar quién publicó lo que estás metiendo en tu stack.\n\n#Python #PyPI #SupplyChain #OpenSource\n\nhttps://blog.pypi.org/posts/2026-11-06-ui-updates-complete"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "Tokio publica Topcoat, un framework full-stack para Rust",
+      "summary": "El equipo de Tokio ha publicado Topcoat 0.9, un framework web full-stack con renderizado en servidor que usa expresiones de Rust traducidas a JavaScript para la reactividad, en lugar de WebAssembly. Apunta a aplicaciones típicas con base de datos y todavía no incluye autenticación ni tareas en segundo plano.",
+      "why_it_matters": "Rust gana una opción con baterías incluidas para web, del mismo equipo que sostiene el runtime async más usado.",
+      "url": "https://www.infoq.com/news/2026/11/topcoat-rust-framework",
+      "source": "InfoQ",
+      "social": {
+        "x": "El equipo detrás del runtime async más usado de Rust acaba de publicar su propio framework web full-stack. Y no usa WebAssembly.\n\n#Rust #Tokio #Topcoat #WebDev\nhttps://www.infoq.com/news/2026/11/topcoat-rust-framework",
+        "linkedin": "Rust tiene un problema de entrada en web y Tokio acaba de decidir que la solución es suya.\n\nTopcoat 0.9 llega como framework full-stack con renderizado en servidor, baterías incluidas y una decisión que da que hablar: la reactividad se resuelve traduciendo expresiones de Rust a JavaScript, 𝘀𝗶𝗻 𝗽𝗮𝘀𝗮𝗿 𝗽𝗼𝗿 𝗪𝗲𝗯𝗔𝘀𝘀𝗲𝗺𝗯𝗹𝘆. Viene del equipo que sostiene el runtime async más usado del ecosistema, y eso pesa más que la lista de features.\n\nTodavía no hay autenticación ni tareas en segundo plano, así que no compite de tú a tú con los frameworks maduros de Node o Python. Pero cambia el cálculo para cualquier equipo que ya tenga Rust en el backend y esté pagando el peaje de mantener dos lenguajes.\n\n#Rust #Tokio #Topcoat #WebDev\n\nhttps://www.infoq.com/news/2026/11/topcoat-rust-framework"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "herramientas",
+      "title": "Pangram lleva su detector de texto generado por IA a la bandeja de Gmail",
+      "summary": "El detector de IA Pangram revisa ahora los correos entrantes de Gmail y marca los que parecen escritos por una máquina. La periodista de Wired lo probó con su propia bandeja para medir cuánto texto sintético encuentra en el día a día.",
+      "why_it_matters": "Pone la detección de IA donde de verdad se lee el correo, sin copiar y pegar en una web aparte.",
+      "url": "https://www.wired.com/story/i-let-pangram-loose-on-my-gmail-inbox-heres-how-much-ai-it-found",
+      "source": "Wired",
+      "social": {
+        "x": "Pangram ha metido su detector de IA dentro de Gmail: cada correo entrante puede llevar ahora una etiqueta que dice si lo ha escrito una máquina.\n\n#Pangram #Gmail #GoogleWorkspace #DeteccionDeIA\nhttps://www.wired.com/story/i-let-pangram-loose-on-my-gmail-inbox-heres-how-much-ai-it-found",
+        "linkedin": "El detector de IA deja de ser una pestaña que se abre aparte y pasa a estar donde el correo se lee de verdad.\n\nPangram revisa ahora los correos entrantes de Gmail y marca los que parecen escritos por una máquina. La periodista de Wired lo probó con su propia bandeja para medir cuánto texto sintético aparece en un día normal. La lectura profesional: 𝗹𝗮 𝗱𝗲𝘁𝗲𝗰𝗰𝗶ó𝗻 𝘀𝗼𝗹𝗼 𝗰𝗮𝗺𝗯𝗶𝗮 𝗮𝗹𝗴𝗼 𝗰𝘂𝗮𝗻𝗱𝗼 𝘃𝗶𝘃𝗲 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲𝗹 𝗳𝗹𝘂𝗷𝗼 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼, no en una web a la que hay que copiar y pegar. Y conviene tener claro qué se hace con los falsos positivos antes de etiquetar a un compañero.\n\n#Pangram #Gmail #GoogleWorkspace #DeteccionDeIA\n\nhttps://www.wired.com/story/i-let-pangram-loose-on-my-gmail-inbox-heres-how-much-ai-it-found"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Pinterest cambia su clustering por un Qwen3 de 4.000 millones de parámetros",
+      "summary": "Pinterest ha sustituido su pipeline de clustering multietapa para inferir recorridos de usuario por un modelo de lenguaje Qwen3 de 4.000 millones de parámetros afinado. La compañía reporta un 1,1 % más de clics en correo y un 1,3 % más de aperturas de notificaciones push.",
+      "why_it_matters": "Ejemplo real de que un LLM pequeño bien afinado puede reemplazar una tubería de ML clásica y mejorar las métricas.",
+      "url": "https://www.infoq.com/news/2026/11/pinterest-journey",
+      "source": "InfoQ",
+      "social": {
+        "x": "Pinterest ha sustituido todo un pipeline de ML por un Qwen3 de 4.000 millones afinado. El resultado: más clics y más aperturas de push.\n\n#Pinterest #Qwen #LLM #MachineLearning\nhttps://www.infoq.com/news/2026/11/pinterest-journey",
+        "linkedin": "Durante años, la respuesta a cualquier problema de recorrido de usuario fue añadir otra etapa de clustering. Pinterest acaba de enseñar que un LLM de 4.000 millones bien afinado hace ese trabajo en un solo paso.\n\nEl modelo sustituye el pipeline multietapa que infería recorridos y reporta 𝘂𝗻 𝟭,𝟭 % 𝗺á𝘀 𝗱𝗲 𝗰𝗹𝗶𝗰𝘀 𝗲𝗻 𝗰𝗼𝗿𝗿𝗲𝗼 𝘆 𝘂𝗻 𝟭,𝟯 % 𝗺á𝘀 𝗱𝗲 𝗮𝗽𝗲𝗿𝘁𝘂𝗿𝗮𝘀 𝗱𝗲 𝗽𝘂𝘀𝗵. No es un salto espectacular, pero el mensaje para los equipos de ML es incómodo: antes de montar la siguiente tubería de tres fases, conviene comprobar si un modelo pequeño afinado llega al mismo sitio con muchas menos piezas.\n\n#Pinterest #Qwen #LLM #MachineLearning\n\nhttps://www.infoq.com/news/2026/11/pinterest-journey"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Apple empieza a cobrar 50 dólares por ampliar el uso de sus funciones de IA",
+      "summary": "Logic Pro ya ofrece la opción de comprar paquetes de uso extra de Apple Intelligence por 49,99 dólares cuando se agota el límite mensual. La compañía había anticipado límites diarios para algunas funciones y acceso ampliado mediante suscripciones de iCloud+.",
+      "why_it_matters": "Confirma el modelo de negocio: las funciones de IA de Apple serán ilimitadas solo pagando.",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "source": "The Verge",
+      "social": {
+        "x": "La IA de Apple ya tiene precio: 49,99 dólares por seguir usándola cuando se agota el cupo mensual. Y Logic Pro es solo el primero.\n\n#Apple #AppleIntelligence #LogicPro #iCloud\nhttps://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+        "linkedin": "El «gratis» de Apple Intelligence acaba de tener fecha de caducidad: 49,99 dólares por paquete cuando se agota el cupo mensual en Logic Pro.\n\nApple ya había avisado de límites diarios para algunas funciones y de acceso ampliado vía iCloud+, así que esto no es un experimento aislado: 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗻𝗲𝗴𝗼𝗰𝗶𝗼 𝘀𝗲 𝗰𝗼𝗻𝗳𝗶𝗿𝗺𝗮 𝘆 𝗹𝗮 𝗜𝗔 𝗶𝗹𝗶𝗺𝗶𝘁𝗮𝗱𝗮 𝘀𝗲 𝗽𝗮𝗴𝗮 𝗮𝗽𝗮𝗿𝘁𝗲. Para quien compra hardware Apple por el ecosistema como valor añadido, el coste real del equipo empieza a incluir una cuota que nunca aparece en la ficha del producto.\n\n#Apple #AppleIntelligence #LogicPro #iCloud\n\nhttps://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Asahi Linux abandona la licencia MIT y pasa a GPL por el robo de código con IA",
+      "summary": "Todos los repositorios de Asahi Linux pasan a GPL v2 o posterior después de que terceros tomaran código sin publicar y lo pasaran por modelos de lenguaje para ocultar su procedencia. El proyecto busca así que la reutilización quede sujeta a obligaciones de apertura.",
+      "why_it_matters": "Es el primer caso visible de un proyecto que cambia de licencia como respuesta directa al uso de IA sobre su código.",
+      "url": "https://itsfoss.com/news/asahi-linux-drops-mit-for-gpl",
+      "source": "Hacker News",
+      "social": {
+        "x": "Cogieron el código de Asahi Linux, lo pasaron por una IA para ocultar de dónde venía y lo publicaron como propio. Ahora el proyecto cambia de licencia.\n\n#AsahiLinux #OpenSource #GPL #AppleSilicon\nhttps://itsfoss.com/news/asahi-linux-drops-mit-for-gpl",
+        "linkedin": "Robar código ya no exige entenderlo: basta con pasarlo por un modelo que reescriba los nombres y borre las pistas. Asahi Linux, el proyecto que hace funcionar Linux en los Mac con Apple Silicon, ha pasado todos sus repositorios de MIT a GPL v2 o posterior tras detectar que terceros se llevaban su trabajo sin publicar nada a cambio.\n\nEl matiz importa: la GPL no impide usar IA sobre el código, pero 𝗼𝗯𝗹𝗶𝗴𝗮 𝗮 𝗽𝘂𝗯𝗹𝗶𝗰𝗮𝗿 𝗹𝗼 𝗾𝘂𝗲 𝘀𝗮𝗹𝗴𝗮 𝗱𝗲 𝗮𝗵í. Quien quiera quedarse el trabajo a escondidas tendrá que mentir por escrito, y eso deja rastro.\n\nEs el primer caso claro de un proyecto que cambia de licencia como respuesta directa al uso de IA sobre su código. A los que siguen defendiendo MIT por comodidad se les acaba de quedar un argumento menos.\n\n#AsahiLinux #OpenSource #GPL #AppleSilicon\n\nhttps://itsfoss.com/news/asahi-linux-drops-mit-for-gpl"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Linus Torvalds ve señales de que el aluvión de parches con IA ha tocado techo",
+      "summary": "Según Torvalds, en uno de los principales proyectos de Linux los arreglos llegan ya más rápido que los informes de errores nuevos, lo que apunta a que el volumen de parches generados con ayuda de IA ha empezado a remitir.",
+      "why_it_matters": "Es el primer indicador desde dentro del kernel de que el efecto de la IA en el desarrollo puede estar estabilizándose.",
+      "url": "https://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345",
+      "source": "The Register",
+      "social": {
+        "x": "Linus Torvalds tiene la primera evidencia de que el aluvión de parches con IA en Linux ha empezado a bajar: los arreglos ya llegan más rápido que los errores nuevos.\n\n#Linux #LinusTorvalds #OpenSource #Kernel\nhttps://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345",
+        "linkedin": "El aluvión de parches generados con IA en el kernel de Linux empieza a remitir, y quien lo señala es Linus Torvalds.\n\nEn uno de los principales proyectos del kernel, los arreglos ya llegan más rápido que los informes de errores nuevos: la cola se vacía antes de volver a llenarse. Es el primer indicador desde dentro que apunta a que 𝗲𝗹 𝗲𝗳𝗲𝗰𝘁𝗼 𝗱𝗲 𝗹𝗮 𝗜𝗔 𝗲𝗻 𝗲𝗹 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗼 𝘀𝗲 𝗲𝘀𝘁á 𝗲𝘀𝘁𝗮𝗯𝗶𝗹𝗶𝘇𝗮𝗻𝗱𝗼, no creciendo sin freno. Y desplaza el cuello de botella: ya no es escribir código, es revisarlo, con el mantenedor humano como recurso escaso.\n\n#Linux #LinusTorvalds #OpenSource #Kernel\n\nhttps://www.theregister.com/security/2026/11/09/linus-torvalds-sees-signs-ai-prompted-patch-flood-has-peaked/5308345"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "OAuth 2.0 sin rodeos: cómo delegar el acceso a una API sin compartir la contraseña del usuario",
+      "url": "https://stackoverflow.blog/2026/11/09/never-share-your-password-again-the-oauth-2-0-solution",
+      "source": "Stack Overflow Blog",
+      "summary": "Repasa el problema que resuelve OAuth 2.0, la delegación de acceso entre aplicaciones sin repartir credenciales, y qué papel juega cada pieza del flujo. Explica el modelo de tokens y por qué evita que un servicio guarde contraseñas ajenas. Sirve para integrar un login social o para diseñar la autenticación de un backend propio sin inventarse el protocolo.",
+      "tema": "web"
+    },
+    {
+      "title": "Desplegar no es publicar: por qué los equipos más seguros separan el código en el servidor de su visibilidad al usuario",
+      "url": "https://dtechwizard.medium.com/why-the-safest-teams-separate-putting-code-on-servers-from-showing-it-to-users-deploying-is-not-30d2df4cf3dc",
+      "source": "Medium: Software Engineering",
+      "summary": "Parte de un incidente que costó más de 460 millones de dólares en menos de una hora para explicar por qué conviene desacoplar el deploy del release. Cuenta cómo separar ambas fases con despliegues progresivos y feature flags, y qué gana el equipo en control y capacidad de reacción. Es una lista de comprobación mental útil antes de tocar producción.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Cómo Netflix comprueba a escala la veracidad de sus sinopsis con un sistema propio",
+      "url": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808",
+      "source": "Netflix Tech Blog",
+      "summary": "Describe el diseño de un sistema que valida de forma automática las sinopsis del catálogo y que resulta más preciso y eficiente que el anterior. Detalla las decisiones de arquitectura, el equilibrio entre calidad y coste, y cómo midieron la mejora. Interesa a quien tenga que evaluar texto generado o semigenerado antes de publicarlo.",
+      "tema": "ia"
+    },
+    {
+      "title": "Un único modelo semántico para informar a más de cien clientes: reporting guiado por configuración",
+      "url": "https://towardsdatascience.com/how-to-report-for-100-clients-with-one-semantic-model",
+      "source": "Towards Data Science",
+      "summary": "Explica cómo servir informes a muchas audiencias sin duplicar consultas ni definiciones de métricas: un solo modelo semántico, un catálogo de métricas y unas pocas líneas de configuración por cliente. Aclara qué se estandariza y qué se parametriza. Útil si mantienes dashboards para varios equipos o cuentas y cada uno pide su versión de la misma cifra.",
+      "tema": "datos"
+    },
+    {
+      "title": "No todo paso extra es un problema de UX: cuándo la fricción juega a favor del usuario",
+      "url": "https://medium.com/@b.devishita/not-every-extra-step-is-a-ux-problem-6184f7bffddb",
+      "source": "Medium: UX",
+      "summary": "Usa el momento de introducir el PIN en un pago UPI para mostrar que ciertas interrupciones existen por seguridad o por confianza y no por falta de diseño. Propone distinguir la fricción que protege al usuario de la que solo estorba antes de plantear eliminarla. Viene bien para calibrar cuándo simplificar un flujo y cuándo conviene dejarlo quieto.",
+      "tema": "diseno"
+    },
+    {
+      "title": "Cómo construir un generador de storyboards en PDF con JavaScript",
+      "url": "https://www.freecodecamp.org/news/build-pdf-storyboard-generator-javascript",
+      "source": "freeCodeCamp",
+      "summary": "Tutorial que muestra cómo convertir las páginas de un PDF largo en una vista de storyboard para revisarlas de un vistazo, algo práctico para guiones, presentaciones o material didáctico. Recorre el flujo completo con JavaScript. Sirve tanto para el proyecto en sí como para aprender a manipular documentos PDF en el navegador.",
+      "tema": "programacion"
+    }
+  ]
+}
