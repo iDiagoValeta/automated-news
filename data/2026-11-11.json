@@ -1,0 +1,341 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T17:53:04.922Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Claude se convierte en espacio de trabajo con plugins, hojas de cálculo y pizarras",
+      "summary": "Anthropic amplía Claude con Sheets, Whiteboards e Interactive Connectors, unas integraciones que permiten a socios como Adobe y Atlassian incrustar sus aplicaciones dentro de Claude. La compañía prepara además Claude Meetings, que entrará en las llamadas y tomará notas. La idea es que Claude deje de ser solo un chat y funcione como plataforma de trabajo compartida.",
+      "why_it_matters": "Convierte a Claude en una suite ofimática incipiente y abre la puerta a integrar herramientas propias mediante plugins.",
+      "url": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes",
+      "source": "The Decoder",
+      "social": {
+        "x": "Claude ya no quiere ser un chat. Anthropic le mete hojas de cálculo, pizarras y plugins de Adobe o Atlassian, y prepara su entrada en las reuniones.\n\n#Anthropic #Claude #Plugins #Productividad\nhttps://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes",
+        "linkedin": "Claude deja de ser un chat para intentar ser el sitio donde trabajas.\n\nAnthropic le añade hojas de cálculo, pizarras y conectores que permiten a socios como Adobe y Atlassian incrustar sus apps dentro de Claude, y prepara Claude Meetings para entrar en las llamadas y tomar notas. 𝗘𝗹 𝗺𝗼𝘃𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗻𝗼 𝗲𝘀 𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼, 𝗲𝘀 𝗱𝗲 𝗽𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮: si las herramientas viven dentro del modelo, el modelo se convierte en la capa que decide qué se abre y qué queda fuera. Para quien construye software, la pregunta deja de ser qué modelo uso y pasa a ser en qué plataforma publico mi plugin.\n\n#Anthropic #Claude #Plugins #Productividad\n\nhttps://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Apple prepara una app para Mac que facilite ejecutar modelos de IA en local",
+      "summary": "Un leaker ha encontrado indicios de una nueva app de macOS en desarrollo en Apple, pensada para ejecutar modelos de IA en local sin complicaciones. El hallazgo, de Aaron Perris, apunta a una utilidad propia en lugar de depender de terceros como Ollama o LM Studio.",
+      "why_it_matters": "Si se confirma, bajaría mucho la barrera para probar modelos locales en un Mac.",
+      "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy",
+      "source": "9to5Mac",
+      "social": {
+        "x": "Apple está preparando su propia app para ejecutar modelos de IA en local en el Mac. Si se confirma, Ollama y LM Studio dejan de ser el único camino.\n\n#Apple #macOS #LLM #Ollama\nhttps://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy",
+        "linkedin": "Apple quiere que ejecutar un modelo de IA en tu Mac sea tan sencillo como abrir una app del sistema. Un leaker ha encontrado indicios en macOS de una utilidad propia para lanzar modelos en local, sin depender de Ollama ni de LM Studio. Para quien trabaja con datos que no pueden salir de su equipo, esto puede ser 𝗹𝗮 𝗽𝘂𝗲𝗿𝘁𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗿𝗲𝗮𝗹 𝗮 𝗹𝗮 𝗜𝗔 𝗹𝗼𝗰𝗮𝗹 𝗲𝗻 𝗲𝗹 𝗠𝗮𝗰: Apple controla el silicio y el sistema, y esa ventaja de integración es difícil de igualar por un tercero. La duda es cuánto margen dejará a los modelos abiertos.\n\n#Apple #macOS #LLM #Ollama\n\nhttps://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Google Labs abre Tabletop, espacios colaborativos generados con IA",
+      "summary": "Tabletop es un experimento de Google Labs que crea espacios para coordinar a un grupo, con itinerarios interactivos, encuestas y cuadros de eliminatorias, a partir de una descripción. El resultado se parece a Asana o Monday, pero las herramientas las genera la IA según lo que pida el grupo, y el acceso pasa por lista de espera.",
+      "why_it_matters": "Es vibecoding aplicado a coordinar personas, un uso menos obvio y más cotidiano que programar.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+      "source": "Google AI",
+      "social": {
+        "x": "No programas nada: escribes lo que necesita tu grupo y Google Labs genera el espacio, con encuestas, itinerarios y cuadros. Tabletop es vibecoding para coordinar personas.\n\n#GoogleLabs #Tabletop #Vibecoding\nhttps://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+        "linkedin": "El vibecoding deja de ser cosa de programadores y se mete en la forma en que coordinamos a un equipo.\n\nTabletop, el experimento de Google Labs, genera el espacio de trabajo a partir de una descripción: itinerarios, encuestas, cuadros de eliminatorias. No es Asana con IA encima, es la IA construyendo la herramienta que el grupo pide. La consecuencia práctica es que 𝗹𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲 𝗹𝗮 𝗰𝗼𝗼𝗿𝗱𝗶𝗻𝗮𝗰𝗶ó𝗻 y el coste de montar algo a medida cae casi a cero. La pregunta es si eso produce mejores decisiones o solo más espacios que nadie mantiene.\n\n#GoogleLabs #Tabletop #Vibecoding\n\nhttps://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "Chrome publica una guía para que los agentes de código usen la web moderna",
+      "summary": "El equipo de Chrome publica modern-web-guidance, un repositorio con las prácticas actuales de la plataforma web para que los agentes de código no sigan generando JavaScript anclado en 2019. La guía está pensada para incorporarse al contexto del agente.",
+      "why_it_matters": "Actualizar el contexto del agente sale más barato que cambiar de modelo y mejora el código que produce.",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "source": "Hacker News",
+      "social": {
+        "x": "Tu agente de código escribe JavaScript de 2019. Chrome acaba de publicar la guía para meterle la web moderna en el contexto.\n\n#Chrome #JavaScript #WebPlatform\nhttps://github.com/GoogleChrome/modern-web-guidance",
+        "linkedin": "Tu agente de código escribe JavaScript como si siguiéramos en 2019. Y el problema no es el modelo.\n\nEl equipo de Chrome ha publicado modern-web-guidance, un repositorio con las prácticas actuales de la plataforma web pensado para inyectarse directamente en el contexto del agente. La lectura es clara: 𝗮𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗿 𝗲𝗹 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 𝘀𝗮𝗹𝗲 𝗺á𝘀 𝗯𝗮𝗿𝗮𝘁𝗼 𝗾𝘂𝗲 𝗰𝗮𝗺𝗯𝗶𝗮𝗿 𝗱𝗲 𝗺𝗼𝗱𝗲𝗹𝗼 y, de paso, mejora el código que produce. Si mantienes agentes o plantillas de prompts, esto es una pieza reutilizable desde ya, no un documento para leer el fin de semana.\n\n#Chrome #JavaScript #WebPlatform\n\nhttps://github.com/GoogleChrome/modern-web-guidance"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Kimi K3.1 Pro llega a Amazon Bedrock",
+      "summary": "Moonshot AI pone Kimi K3.1 Pro a disposición de los clientes de Amazon Bedrock, con acceso por las APIs compatibles con OpenAI (Chat Completions, Responses y Converse), caché de prompt explícita y uso como asistente de código en OpenCode.",
+      "why_it_matters": "Un modelo puntero más al alcance de cualquiera con una cuenta de AWS, sin montar infraestructura propia.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Hasta ahora usar Kimi K3.1 Pro era montar tu propia infraestructura. Ya no: está en Amazon Bedrock, con caché de prompt y APIs compatibles con OpenAI.\n\n#AmazonBedrock #MoonshotAI #Kimi #AWS\nhttps://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock",
+        "linkedin": "El eje ya no es abierto contra cerrado, sino quién te sirve el modelo.\n\nMoonshot AI ha metido Kimi K3.1 Pro en Amazon Bedrock, con caché de prompt explícita y compatibilidad con las APIs de OpenAI (Chat Completions, Responses y Converse). Cualquiera con una cuenta de AWS lo tiene a un cambio de configuración, sin desplegar nada. 𝗟𝗮 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝗰𝗶ó𝗻 𝗽𝗲𝘀𝗮 𝘆𝗮 𝗺á𝘀 𝗾𝘂𝗲 𝗲𝗹 𝗯𝗲𝗻𝗰𝗵𝗺𝗮𝗿𝗸: un modelo puntero que llega por el proveedor de nube que el equipo ya paga se cuela en producción sin pasar por comité de compra. Para quien construye producto sobre LLMs, la pregunta se desplaza de qué modelo elegir a qué proveedor me lo va a seguir sirviendo dentro de un año.\n\n#AmazonBedrock #MoonshotAI #Kimi #AWS\n\nhttps://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "GitHub abre de forma general sus workflows agénticos con controles de permisos y presupuesto",
+      "summary": "GitHub Agentic Workflows pasa a disponibilidad general: los agentes de código se ejecutan dentro de GitHub Actions con permisos de solo lectura por defecto y jobs de escritura separados. Las protecciones no cubren permisos de escritura directos ni jobs personalizados, así que dependen de cómo se configure cada workflow.",
+      "why_it_matters": "Da una plantilla concreta para meter agentes en CI sin entregarles las llaves del repositorio.",
+      "url": "https://www.infoq.com/news/2026/11/github-agentic-workflows-ga",
+      "source": "InfoQ",
+      "social": {
+        "x": "GitHub ya deja que los agentes de código trabajen dentro de Actions. Entran con permisos de solo lectura. Los de escritura los decides tú.\n\n#GitHub #GitHubActions #DevOps #CI\nhttps://www.infoq.com/news/2026/11/github-agentic-workflows-ga",
+        "linkedin": "Los agentes ya trabajan dentro de tus workflows. La pregunta es con qué permisos entran.\n\nGitHub Agentic Workflows llega a disponibilidad general: los agentes corren en GitHub Actions con 𝘀𝗼𝗹𝗼 𝗹𝗲𝗰𝘁𝘂𝗿𝗮 𝗽𝗼𝗿 𝗱𝗲𝗳𝗲𝗰𝘁𝗼 𝘆 𝗷𝗼𝗯𝘀 𝗱𝗲 𝗲𝘀𝗰𝗿𝗶𝘁𝘂𝗿𝗮 𝘀𝗲𝗽𝗮𝗿𝗮𝗱𝗼𝘀, de modo que no heredan las llaves del repositorio de buenas a primeras. El detalle incómodo es que esa protección no cubre los permisos de escritura directos ni los jobs personalizados: al final la seguridad depende de cómo montes cada workflow. Para quien llevaba tiempo frenando agentes en CI por miedo al repo, esto ya es una plantilla con la que empezar a probar.\n\n#GitHub #GitHubActions #DevOps #CI\n\nhttps://www.infoq.com/news/2026/11/github-agentic-workflows-ga"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "DeepL Voice estrena el modelo Aure, que traslada tono y ritmo al idioma de destino",
+      "summary": "DeepL estrena Aure, un modelo para DeepL Voice que lleva al idioma de destino el tono, el énfasis, la emoción y el ritmo del hablante original. La traducción sigue siendo en tiempo real.",
+      "why_it_matters": "La interpretación automática gana la parte no literal del habla, que es donde se pierde el sentido en una reunión.",
+      "url": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well",
+      "source": "The Decoder",
+      "social": {
+        "x": "DeepL ya no solo traduce lo que dices en una reunión: con Aure, DeepL Voice traslada también tu tono, tu énfasis y tu ritmo al idioma de destino. En tiempo real.\n\n#DeepL #DeepLVoice #TraducciónAutomática\nhttps://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well",
+        "linkedin": "En una reunión, buena parte del mensaje va en el tono, no en las palabras. DeepL estrena Aure para DeepL Voice: un modelo que lleva al idioma de destino el énfasis, la emoción y el ritmo de quien habla, y lo hace en tiempo real.\n\nEs la parte que la interpretación automática nunca había cubierto: 𝗲𝗹 𝘀𝗲𝗻𝘁𝗶𝗱𝗼 𝗾𝘂𝗲 𝘀𝗲 𝗽𝗶𝗲𝗿𝗱𝗲 𝗰𝘂𝗮𝗻𝗱𝗼 𝗹𝗮 𝘁𝗿𝗮𝗱𝘂𝗰𝗰𝗶ó𝗻 𝘀𝘂𝗲𝗻𝗮 𝗽𝗹𝗮𝗻𝗮. Para los equipos que trabajan en varios idiomas, el listón deja de ser entender la frase y pasa a ser no perder la intención con la que se dijo.\n\n#DeepL #DeepLVoice #TraducciónAutomática\n\nhttps://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "investigacion",
+      "title": "AlphaGenome 2 afina la predicción de cómo el ADN afecta a cada tipo de célula",
+      "summary": "DeepMind presenta AlphaGenome 2, un modelo que predice cómo las secuencias de ADN y sus variantes afectan a tipos celulares concretos. El objetivo es entender mejor el papel de esas variantes en distintas enfermedades.",
+      "why_it_matters": "Afina una herramienta ya usada para priorizar variantes genéticas en investigación biomédica.",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "La misma variante genética puede ser inocua en una célula y desatar una enfermedad en otra. AlphaGenome 2 empieza a predecir esa diferencia.\n\n#AlphaGenome #DeepMind #Genómica\nhttps://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+        "linkedin": "La misma variante genética puede ser inocua en un tipo de célula y desatar una enfermedad en otro. AlphaGenome 2 se presenta justo para predecir esa diferencia.\n\nDeepMind afina un modelo que la investigación biomédica ya usa para priorizar variantes: ahora baja al detalle de tipo celular, que es donde la predicción se vuelve accionable. 𝗘𝗹 𝘃𝗮𝗹𝗼𝗿 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗮𝗰𝗲𝗿𝘁𝗮𝗿 𝗺á𝘀, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗱𝗲𝘀𝗰𝗮𝗿𝘁𝗮𝗿 𝗮𝗻𝘁𝗲𝘀: cada variante que se cae en el ordenador es un experimento de laboratorio que no se paga. Para los equipos de genómica, la pregunta deja de ser si el modelo acierta y pasa a ser cuánto del pipeline puede apoyarse en él.\n\n#AlphaGenome #DeepMind #Genómica\n\nhttps://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "La verificación formal de Signal pasa por un modelo de IA de DeepMind",
+      "summary": "Un equipo de Google DeepMind ha verificado matemáticamente partes clave del protocolo de Signal en un proyecto de cuatro semanas. El trabajo sugiere que la IA puede hacer la verificación formal mucho más asequible.",
+      "why_it_matters": "La verificación formal era carísima; si se abarata, más software crítico podrá beneficiarse.",
+      "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Verificar matemáticamente el protocolo de Signal era trabajo de meses. Un equipo de DeepMind lo ha hecho en cuatro semanas con ayuda de la IA.\n\n#Signal #DeepMind #Criptografia #VerificacionFormal\nhttps://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
+        "linkedin": "La verificación formal siempre fue un lujo al alcance de muy pocos: demostrar que un protocolo no tiene fallos cuesta meses de trabajo experto. Un equipo de Google DeepMind acaba de verificar partes clave del protocolo de Signal en cuatro semanas apoyándose en un modelo de IA, y 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗹𝗮 𝘃𝗼𝗹𝘂𝗻𝘁𝗮𝗱 𝗱𝗲 𝗵𝗮𝗰𝗲𝗿𝗹𝗼. Si el método se generaliza, el software crítico (mensajería cifrada, sistemas médicos, infraestructura) gana una vía realista para demostrar que hace lo que promete. Para los equipos de seguridad, la pregunta ya no es si merece la pena, sino cuánto tardan en probarlo.\n\n#Signal #DeepMind #Criptografia #VerificacionFormal\n\nhttps://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "GR00T 2 de Nvidia aprende tareas robóticas viendo vídeos de personas",
+      "summary": "Nvidia presenta GR00T 2, un modelo que aprende tareas observando manos humanas en vídeo y traslada esos movimientos a brazos robóticos. Se ha entrenado con unas 400.000 horas de vídeo y aún varía mucho según la tarea, con tasas de éxito de entre el 10% y el 80%.",
+      "why_it_matters": "Reduce la necesidad de teleoperar cada tarea para enseñársela a un robot.",
+      "url": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot",
+      "source": "The Decoder",
+      "social": {
+        "x": "Nvidia ha enseñado a un robot a mover el brazo viendo vídeos de personas. Sin teleoperar nada. El problema: acierta entre el 10% y el 80 % según la tarea.\n\n#Nvidia #GR00T #Robotica #EmbodiedAI\nhttps://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot",
+        "linkedin": "El cuello de botella de la robótica nunca fue el hardware: era tener que teleoperar cada tarea para enseñársela al robot.\n\nGR00T 2 de Nvidia se entrena con unas 400.000 horas de vídeo de manos humanas y traslada esos movimientos a brazos robóticos, 𝘀𝗶𝗻 𝗾𝘂𝗲 𝗻𝗮𝗱𝗶𝗲 𝘁𝗲𝗻𝗴𝗮 𝗾𝘂𝗲 𝗺𝗼𝘃𝗲𝗿 𝗲𝗹 𝗿𝗼𝗯𝗼𝘁 𝗽𝗮𝗿𝗮 𝗴𝗿𝗮𝗯𝗮𝗿𝗹𝗼. Eso ataca directamente el coste de entrenar una máquina nueva. La letra pequeña: entre el 10 % y el 80 % de éxito según la tarea, así que de momento sirve para abaratar la experimentación, no para sustituir a un operario. Si trabajas con robots, la pregunta ya no es si el modelo aprende, sino cuánto vídeo propio hace falta para que acierte en tu caso.\n\n#Nvidia #GR00T #Robotica #EmbodiedAI\n\nhttps://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "OpenAI construye un interruptor de emergencia para sus modelos de investigación",
+      "summary": "OpenAI ha desarrollado un mecanismo de parada de emergencia para sus modelos de investigación, según The Register. El artículo plantea cuánto daño puede hacer un agente descontrolado en los 35 segundos que tardaría en activarse el freno.",
+      "why_it_matters": "Pone cifras al tiempo de reacción, un problema real cuando el agente tiene acceso a herramientas.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/11/openai-builds-a-kill-switch-for-its-research-models/5309006",
+      "source": "The Register",
+      "social": {
+        "x": "35 segundos. Eso es lo que tarda en activarse el freno de emergencia de OpenAI. La pregunta incómoda: qué puede hacer un agente descontrolado en ese tiempo.\n\n#OpenAI #AgentesIA #SeguridadIA\nhttps://www.theregister.com/ai-and-ml/2026/11/11/openai-builds-a-kill-switch-for-its-research-models/5309006",
+        "linkedin": "35 segundos es todo lo que separa a un agente descontrolado de su freno. OpenAI ya construye ese interruptor de emergencia para sus modelos de investigación, pero el debate interesante es otro: cuánto daño cabe en esa ventana cuando el agente tiene acceso a herramientas.\n\nDurante años el kill switch fue una nota a pie de página en los papers de seguridad. Ahora se convierte en ingeniería de producto, y eso dice mucho de hacia dónde van los agentes: 𝗲𝗹 𝘁𝗶𝗲𝗺𝗽𝗼 𝗱𝗲 𝗿𝗲𝗮𝗰𝗰𝗶ó𝗻 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗱𝗶𝘀𝗲ñ𝗼, no un supuesto que se da por hecho. Si tu equipo despliega agentes con acceso a sistemas reales, la pregunta ya no es si tienes freno, sino cuánto tarda en llegar.\n\n#OpenAI #AgentesIA #SeguridadIA\n\nhttps://www.theregister.com/ai-and-ml/2026/11/11/openai-builds-a-kill-switch-for-its-research-models/5309006"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Microsoft describe Lazarus, un backdoor que reactiva neuronas dormidas en agentes de IA",
+      "summary": "Investigadores de Microsoft describen Lazarus, una técnica de backdoor que reprograma neuronas latentes de un modelo para que el agente se comporte con normalidad hasta que aparece un disparador oculto. El riesgo es mayor en agentes con acceso a terminal o a herramientas.",
+      "why_it_matters": "Los agentes capaces de ejecutar código son el escenario donde este ataque hace más daño.",
+      "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+      "source": "Microsoft Research",
+      "social": {
+        "x": "Tu agente de IA responde bien en todas las pruebas. Hasta que llega el disparador oculto. Microsoft describe Lazarus, un backdoor que reactiva neuronas dormidas del modelo.\n\n#Microsoft #Ciberseguridad #LLM\nhttps://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+        "linkedin": "Tu agente pasa las pruebas y funciona en producción. Y aun así puede estar esperando una orden.\n\nMicrosoft Research describe Lazarus, una técnica que reprograma neuronas latentes del modelo para que el agente se comporte con normalidad hasta que aparece un disparador oculto: 𝗲𝗹 𝗯𝗮𝗰𝗸𝗱𝗼𝗼𝗿 𝗻𝗼 𝗮ñ𝗮𝗱𝗲 𝗰ó𝗱𝗶𝗴𝗼, 𝘀𝗲 𝗲𝘀𝗰𝗼𝗻𝗱𝗲 𝗲𝗻 𝗹𝗼𝘀 𝗽𝗲𝘀𝗼𝘀. El daño se multiplica en agentes con acceso a terminal o a herramientas, porque ahí el disparador no devuelve texto raro, ejecuta. Si tu equipo valida agentes solo con pruebas de comportamiento, esa batería no lo va a detectar.\n\n#Microsoft #Ciberseguridad #LLM\n\nhttps://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "Google abre XSE, que saca Python del camino crítico para ganar rendimiento",
+      "summary": "Google ha liberado el código de XSE, un sistema que retira Python del camino crítico y atiende seis millones de consultas por segundo en servicios como Search, Ads y YouTube Shorts. La mejora llega al quitar Python, no al optimizarlo.",
+      "why_it_matters": "Es un caso extremo y documentado de cuándo conviene reescribir la capa caliente fuera de Python.",
+      "url": "https://www.theregister.com/devops/2026/11/11/google-gooses-python-ai-performance-by-removing-python/5308995",
+      "source": "The Register",
+      "social": {
+        "x": "Google atiende 6 millones de consultas por segundo en Search, Ads y YouTube Shorts sin Python en el camino crítico. No lo optimizaron: lo quitaron de en medio.\n\n#Python #Google #XSE #OpenSource\nhttps://www.theregister.com/devops/2026/11/11/google-gooses-python-ai-performance-by-removing-python/5308995",
+        "linkedin": "Google no optimizó Python: lo quitó del camino crítico y ahora atiende seis millones de consultas por segundo en Search, Ads y YouTube Shorts.\n\nXSE, el sistema que acaban de liberar, es un caso extremo y bien documentado de una decisión incómoda: 𝗿𝗲𝗲𝘀𝗰𝗿𝗶𝗯𝗶𝗿 𝗹𝗮 𝗰𝗮𝗽𝗮 𝗰𝗮𝗹𝗶𝗲𝗻𝘁𝗲 𝗳𝘂𝗲𝗿𝗮 𝗱𝗲 𝗣𝘆𝘁𝗵𝗼𝗻 𝗰𝘂𝗮𝗻𝗱𝗼 𝗲𝗹 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗺𝗮𝗻𝗱𝗮. A la mayoría de equipos no le compensa, y mantener dos lenguajes en producción pasa factura en contratación y en deuda técnica. Pero el límite existe: si el cuello de botella está en el intérprete, optimizar el código de dentro tiene un techo bastante bajo.\n\n#Python #Google #XSE #OpenSource\n\nhttps://www.theregister.com/devops/2026/11/11/google-gooses-python-ai-performance-by-removing-python/5308995"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "herramientas",
+      "title": "Git publica parches para seis vulnerabilidades de seguridad",
+      "summary": "Git ha lanzado actualizaciones que corrigen seis vulnerabilidades en clones recursivos, manejo de referencias, merges, parches binarios e imports. GitHub detalla qué versiones hay que actualizar y qué conviene revisar.",
+      "why_it_matters": "Afecta a cualquier flujo que clone repositorios de terceros, incluidos los agentes que lo hacen solos.",
+      "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7",
+      "source": "GitHub Blog",
+      "social": {
+        "x": "Git acaba de parchear seis vulnerabilidades. La más incómoda se dispara al clonar un repo de terceros, justo lo que hacen tus agentes en automático.\n\n#Git #GitHub #DevSecOps #OpenSource\nhttps://github.blog/open-source/git/git-security-vulnerabilities-announced-7",
+        "linkedin": "Clonar un repositorio de terceros es una de las operaciones más rutinarias que existen. Y también una de las que acaba de quedar señalada: Git ha publicado parches para 𝘀𝗲𝗶𝘀 𝘃𝘂𝗹𝗻𝗲𝗿𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀 𝗾𝘂𝗲 𝘀𝗲 𝗮𝗰𝘁𝗶𝘃𝗮𝗻 𝗲𝗻 𝗰𝗹𝗼𝗻𝗲𝘀 𝗿𝗲𝗰𝘂𝗿𝘀𝗶𝘃𝗼𝘀, 𝗺𝗲𝗿𝗴𝗲𝘀 𝘆 𝗺𝗮𝗻𝗲𝗷𝗼 𝗱𝗲 𝗿𝗲𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮𝘀. Si tu pipeline, tu CI o tus agentes clonan código ajeno sin comprobar versiones, esta actualización no es opcional. Automatizar siempre se paga en la misma moneda: más superficie de ataque y menos margen para enterarte tarde.\n\n#Git #GitHub #DevSecOps #OpenSource\n\nhttps://github.blog/open-source/git/git-security-vulnerabilities-announced-7"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Dieciséis LLM compiten en TIS-100 y baten récords de la comunidad",
+      "summary": "Dieciséis LLM se han enfrentado a los 55 puzzles de TIS-100 sin ver la clasificación pública y han encontrado 133 nuevos puntos en la frontera de 18 puzzles, con tres récords de ciclos. El juego exige optimizar programas con muy pocos nodos, registros y líneas de código.",
+      "why_it_matters": "Es un banco de pruebas barato y verificable para medir optimización de código con restricciones duras.",
+      "url": "https://tis-100.wincon.dev",
+      "source": "Hacker News",
+      "social": {
+        "x": "Dieciséis LLM acaban de pulverizar récords de la comunidad en TIS-100, un juego de optimizar código con restricciones brutales. Tres récords de ciclos.\n\n#TIS100 #LLM #Zachtronics #OpenSource\nhttps://tis-100.wincon.dev",
+        "linkedin": "Un juego de 2015 sobre escribir programas con poquísimos nodos acaba de revelar dónde se le puede exigir de verdad a un LLM. Dieciséis modelos se enfrentaron a los 55 puzzles de TIS-100 sin ver la clasificación pública y encontraron 133 nuevos puntos en la frontera de 18 puzzles, con tres récords de ciclos incluidos.\n\nLa gracia no es el récord: es que el juego ofrece una métrica objetiva, barata y verificable de optimización bajo restricciones duras, justo lo que un benchmark de preguntas y respuestas no captura. 𝗦𝗶 𝗲𝘃𝗮𝗹ú𝗮𝘀 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗽𝗼𝗿 𝘀𝘂 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲 𝗿𝗮𝘇𝗼𝗻𝗮𝗿 𝘀𝗼𝗯𝗿𝗲 𝗰ó𝗱𝗶𝗴𝗼, 𝗲𝘀𝘁𝗲 𝗲𝘀 𝘂𝗻 𝗯𝗮𝗻𝗰𝗼 𝗱𝗲 𝗽𝗿𝘂𝗲𝗯𝗮𝘀 𝗺𝘂𝗰𝗵𝗼 𝗺á𝘀 𝗵𝗼𝗻𝗲𝘀𝘁𝗼 𝗾𝘂𝗲 𝗼𝘁𝗿𝗼 𝗿𝗮𝗻𝗸𝗶𝗻𝗴 𝗱𝗲 𝘁𝘂𝗿𝗻𝗼. Y de paso, cualquiera con un portátil puede replicarlo.\n\n#TIS100 #LLM #Zachtronics #OpenSource\n\nhttps://tis-100.wincon.dev"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "lanzamientos",
+      "title": "Gemini Intelligence llega a más dispositivos Android",
+      "summary": "Google extiende Gemini Intelligence a más dispositivos Android, con nuevas capacidades repartidas entre el sistema y las aplicaciones. El Pixel Drop de noviembre añade además estilos de iconos y widgets generados por IA.",
+      "why_it_matters": "Las funciones de IA llegan a más móviles sin necesidad de cambiar de terminal.",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+      "source": "Google AI",
+      "social": {
+        "x": "Hasta ahora Gemini era la excusa para cambiar de móvil. Google acaba de extenderlo a más dispositivos Android, con iconos y widgets generados por IA en el Pixel Drop de noviembre.\n\n#Gemini #Android #Google #PixelDrop\nhttps://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+        "linkedin": "Google acaba de quitarle a Gemini la etiqueta de función exclusiva de los móviles más caros.\nLa compañía extiende Gemini Intelligence a más dispositivos Android, con capacidades repartidas entre el sistema y las aplicaciones, y suma al Pixel Drop de noviembre estilos de iconos y widgets generados por IA. El movimiento confirma 𝘂𝗻𝗮 𝗜𝗔 𝗾𝘂𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘃𝗲𝗻𝗱𝗲𝗿𝘀𝗲 𝗰𝗼𝗺𝗼 𝗺𝗼𝘁𝗶𝘃𝗼 𝗱𝗲 𝗰𝗼𝗺𝗽𝗿𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗮𝗽𝗮 𝗱𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮. Para los fabricantes, eso aprieta la diferenciación por hardware; para el usuario, la mejora ya no obliga a pasar por caja.\n\n#Gemini #Android #Google #PixelDrop\n\nhttps://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Miles de apps creadas con Grok Build dejaron datos médicos y contraseñas a la vista",
+      "summary": "Una auditoría de Claroc ha encontrado más de 35.000 aplicaciones creadas con Grok Build accesibles sin login, entre ellas datos de pacientes y documentos internos de SpaceXSI. La causa es que el ajuste «cualquiera con el enlace» venía preseleccionado; SpaceXSI solo retiró sus 24 apps de empleados.",
+      "why_it_matters": "Generar una app con un agente no sirve de nada si los permisos por defecto la dejan abierta a internet.",
+      "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi",
+      "source": "Ars Technica",
+      "social": {
+        "x": "35.000 apps hechas con Grok Build están accesibles sin login, con datos médicos dentro. El ajuste «cualquiera con el enlace» venía así de fábrica.\n\n#GrokBuild #xAI #AppSec\nhttps://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi",
+        "linkedin": "35.000 apps creadas con Grok Build están abiertas a internet sin login. Ninguna la escribió un equipo de backend.\n\nUna auditoría de Claroc ha encontrado historiales médicos y documentos internos de SpaceXSI entre las aplicaciones accesibles sin autenticación. No es un fallo del agente: el ajuste «cualquiera con el enlace» venía preseleccionado y nadie lo tocó. La única retirada conocida son 24 apps de empleados.\n\n𝗚𝗲𝗻𝗲𝗿𝗮𝗿 𝗹𝗮 𝗮𝗽𝗽 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮; 𝗹𝗼𝘀 𝗽𝗲𝗿𝗺𝗶𝘀𝗼𝘀 𝗽𝗼𝗿 𝗱𝗲𝗳𝗲𝗰𝘁𝗼 𝘀í. Si tu equipo usa agentes para construir herramientas internas, revisa hoy quién puede verlas, antes de que lo haga alguien de fuera.\n\n#GrokBuild #xAI #AppSec\n\nhttps://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Helsing presenta Clarity, un sistema de IA que prepara objetivos para armas bajo supervisión humana",
+      "summary": "Helsing presenta Clarity, una plataforma que usa agentes para convertir datos de sensores en recomendaciones de objetivos para sistemas de armas, siempre con una persona en el bucle y control europeo. La empresa sostiene que cada decisión llevará un nombre humano detrás.",
+      "why_it_matters": "El debate ya no es si la IA participa en la selección de objetivos, sino cuánto tiempo tiene el humano para decir que no.",
+      "url": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name",
+      "source": "The Decoder",
+      "social": {
+        "x": "Helsing ya vende una IA que prepara objetivos para armas. La pregunta incómoda ya no es si hay un humano, sino cuánto tarda en poder decir que no.\n\n#Helsing #Defensa #SistemasAutónomos\nhttps://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name",
+        "linkedin": "El humano en el bucle ya no es una garantía: es una ventana de tiempo.\n\nHelsing presenta Clarity, una plataforma de agentes que convierte datos de sensores en recomendaciones de objetivos para sistemas de armas, siempre con supervisión humana y control europeo. La empresa promete que cada decisión llevará un nombre detrás. Pero 𝗹𝗮 𝘀𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗶ó𝗻 𝘀𝗼𝗹𝗼 𝘃𝗮𝗹𝗲 𝗹𝗼 𝗾𝘂𝗲 𝘁𝗮𝗿𝗱𝗮 𝗲𝘀𝗮 𝗽𝗲𝗿𝘀𝗼𝗻𝗮 𝗲𝗻 𝗽𝗼𝗱𝗲𝗿 𝗱𝗲𝗰𝗶𝗿 𝗾𝘂𝗲 𝗻𝗼, y ese margen se mide en segundos. Para quien trabaja en defensa, compras públicas o regulación de IA, el criterio deja de ser si hay humano en el proceso y pasa a ser cuánto tiempo real se le da.\n\n#Helsing #Defensa #SistemasAutónomos\n\nhttps://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "description": "CLI y SDK en TypeScript de OpenAI para encontrar, validar y corregir vulnerabilidades de seguridad en tu código. Se puede usar desde la terminal o integrarlo en tus propias herramientas vía npm.",
+      "language": "TypeScript",
+      "stars": 11557,
+      "social": {
+        "x": "OpenAI acaba de soltar un CLI y SDK en TypeScript que encuentra, valida y corrige vulnerabilidades en tu código. 11,5k estrellas y se instala con npm.\n\n#OpenAI #TypeScript #Seguridad #OpenSource\nhttps://github.com/openai/codex-security",
+        "linkedin": "OPENAI HA PUBLICADO SU PROPIO ESCÁNER DE VULNERABILIDADES, Y ES OPEN SOURCE.\n\nLa mayoría de herramientas de este tipo viven detrás de una suscripción por asiento y solo te enseñan el problema. Esta va un paso más allá: 𝗲𝗻𝗰𝘂𝗲𝗻𝘁𝗿𝗮, 𝘃𝗮𝗹𝗶𝗱𝗮 𝘆 𝗰𝗼𝗿𝗿𝗶𝗴𝗲 en el mismo flujo.\n\nEs un CLI y un SDK en TypeScript, así que no te obliga a pasar por su interfaz. Lo lanzas desde la terminal o lo enchufas a tus propias herramientas vía npm.\n\n→ Detecta vulnerabilidades directamente en tu código\n→ Valida los hallazgos antes de marcarlos como reales\n→ Propone y aplica la corrección\n→ Se usa como comando o se importa como SDK\n→ TypeScript de punta a punta, fácil de meter en tu CI\n\nLo interesante no es solo el motor, es el formato: seguridad integrada en el mismo sitio donde ya escribes y despliegas, sin cambiar de herramienta ni pedir presupuesto.\n\nGuárdate el post y pruébalo en un repo de pruebas antes de llevarlo a producción. Te dejo el enlace abajo.\n\n#OpenAI #TypeScript #Seguridad #OpenSource\n\nhttps://github.com/openai/codex-security"
+      }
+    },
+    {
+      "name": "shadcn/improve",
+      "url": "https://github.com/shadcn/improve",
+      "description": "Herramienta de shadcn para auditar tu código con el modelo más capaz que tengas y dejar planes escritos que después ejecuten modelos más baratos. Muy útil para repartir el trabajo entre modelos caros y económicos sin perder calidad en el análisis.",
+      "stars": 10643,
+      "social": {
+        "x": "shadcn acaba de lanzar una herramienta que audita tu código con tu modelo más caro y deja el plan escrito para que lo ejecute uno barato. 10,6k estrellas.\n\n#shadcn #OpenSource #GitHub #DevTools\nhttps://github.com/shadcn/improve",
+        "linkedin": "PAGAS EL MODELO CARO PARA PENSAR, NO PARA ESCRIBIR CÓDIGO.\n\nEs lo que propone shadcn/improve: separa el análisis de la ejecución. El modelo más capaz que tengas audita el código y deja el resultado en planes escritos. Después, esos planes los pueden ejecutar modelos más económicos sin que el diagnóstico pierda calidad.\n\nLa mayoría de equipos quema tokens caros en tareas mecánicas. Aquí el reparto es explícito y queda documentado en el repo.\n\n→ Audita tu código con el modelo más capaz disponible\n→ Convierte el análisis en planes escritos y accionables\n→ Deja que modelos baratos ejecuten esos planes\n→ Reparte el trabajo entre modelos sin perder criterio en la revisión\n→ Open source, de shadcn, con más de 10.600 estrellas\n\nLa idea que merece la pena guardar: 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗰𝗮𝗿𝗼 𝘀𝗲 𝘂𝘀𝗮 𝘂𝗻𝗮 𝘃𝗲𝘇 𝗽𝗮𝗿𝗮 𝗱𝗲𝗰𝗶𝗱𝗶𝗿, 𝗻𝗼 𝗲𝗻 𝗯𝘂𝗰𝗹𝗲 𝗽𝗮𝗿𝗮 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿.\n\nSi trabajas con varios modelos o con un equipo que comparte suscripciones, esto te ahorra dinero y discusiones. Te dejo el repo abajo.\n\n#shadcn #OpenSource #GitHub #DevTools\n\nhttps://github.com/shadcn/improve"
+      }
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Colección de skills de ingeniería pensadas para agentes de programación con IA. Sirve para que tus agentes trabajen con criterios de producción en lugar de improvisar.",
+      "language": "JavaScript",
+      "stars": 115737,
+      "social": {
+        "x": "Un agente que improvisa te destroza el repo. El de Addy Osmani le da skills de ingeniería para trabajar con criterios de producción: 115k estrellas.\n\n#AgentSkills #OpenSource #GitHub #JavaScript\nhttps://github.com/addyosmani/agent-skills",
+        "linkedin": "TU AGENTE DE IA SABE ESCRIBIR CÓDIGO. LO QUE NO SABE ES TRABAJAR COMO UN INGENIERO.\n\nLe pides un cambio y te devuelve algo que compila, pero que no pasaría una revisión de código ni de casualidad. Improvisa. Y tú acabas haciendo de revisor de un becario infinito.\n\nAddy Osmani ha empaquetado una colección de skills de ingeniería pensadas para agentes de programación, con 115.737 estrellas detrás. La idea: 𝗻𝗼 𝘀𝗲 𝘁𝗿𝗮𝘁𝗮 𝗱𝗲 𝗽𝗿𝗼𝗺𝗽𝘁𝘀 𝗺á𝘀 𝗹𝗮𝗿𝗴𝗼𝘀, 𝘀𝗶𝗻𝗼 𝗱𝗲 𝗱𝗮𝗿𝗹𝗲 𝗮𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼𝘀 𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻 𝗾𝘂𝗲 𝗮𝗽𝗹𝗶𝗾𝘂𝗲 𝗽𝗮𝘀𝗼 𝗮 𝗽𝗮𝘀𝗼.\n\n→ Skills de ingeniería escritas para que las consuma un agente, no para lucirse en un hilo.\n→ Cambian la improvisación por un método: entender el problema antes de tocar el código.\n→ Se reutilizan entre proyectos, así que el criterio no se reinventa en cada prompt.\n→ JavaScript, open source y con una tracción difícil de ignorar.\n\nEl contraste es claro: una suscripción te da un modelo, este repo te da la forma de trabajar con él. Y esa parte es la que casi nadie se molesta en configurar.\n\nGuarda el post. La próxima vez que tu agente te devuelva un parche a medias, vas a querer tener el repo a mano.\n\nTe dejo el enlace abajo.\n\n#AgentSkills #OpenSource #GitHub #JavaScript\n\nhttps://github.com/addyosmani/agent-skills"
+      }
+    },
+    {
+      "name": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "description": "Aplicación de finanzas personales, hecha en Ruby, para llevar cuentas, presupuestos y patrimonio en un solo sitio. Una alternativa open source a las típicas apps de gestión financiera.",
+      "language": "Ruby",
+      "stars": 12722,
+      "social": {
+        "x": "Las apps de finanzas te cobran cada mes por ver tus propios datos. Este repo en Ruby hace lo mismo y ya suma 12.700 estrellas. Gratis y open source.\n\n#OpenSource #Ruby #FinanzasPersonales #GitHub\nhttps://github.com/we-promise/sure",
+        "linkedin": "LAS APPS DE FINANZAS TE COBRAN POR VER TUS PROPIOS DATOS.\n\nY tiene guasa: casi todas viven de una suscripción mensual para ordenar unos números que ya son tuyos. Sure va por otro camino: es una aplicación de finanzas personales en Ruby, open source, donde cuentas, presupuestos y patrimonio conviven en un mismo sitio y los datos se quedan donde tú decidas.\n\n→ Cuentas y movimientos de varias entidades en una sola vista\n→ Presupuestos por categoría, con seguimiento real del gasto\n→ Patrimonio neto actualizado: lo que tienes menos lo que debes\n→ self-hosted, sin cuota mensual y sin regalar tu historial a un tercero\n\nCon 12.700 estrellas, el mensaje está claro: 𝘁𝘂𝘀 𝗳𝗶𝗻𝗮𝗻𝘇𝗮𝘀 𝗻𝗼 𝗱𝗲𝗯𝗲𝗿í𝗮𝗻 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲𝗹 𝗽𝗹𝗮𝗻 𝗱𝗲 𝗽𝗿𝗲𝗰𝗶𝗼𝘀 𝗱𝗲 𝗼𝘁𝗿𝗮 𝗲𝗺𝗽𝗿𝗲𝘀𝗮.\n\nGuárdate el post para cuando toque ordenar las cuentas. El repo lo tienes abajo.\n\n#OpenSource #Ruby #FinanzasPersonales #GitHub\n\nhttps://github.com/we-promise/sure"
+      }
+    },
+    {
+      "name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "El contenido fuente de la Modern Web Guidance de Chrome, con recomendaciones prácticas para construir webs modernas. Útil para consultar cómo afrontar patrones habituales de frontend con el criterio del equipo de Chrome.",
+      "language": "TypeScript",
+      "stars": 1597,
+      "social": {
+        "x": "El equipo de Chrome abre su manual interno de frontend: los patrones que usan ellos para construir la web moderna. Gratis y sin curso de por medio.\n\n#Chrome #Frontend #TypeScript #OpenSource\nhttps://github.com/GoogleChrome/modern-web-guidance-src",
+        "linkedin": "EL EQUIPO DE CHROME ACABA DE ABRIR SU MANUAL INTERNO DE FRONTEND.\n\nNo es un curso, ni un blog con opiniones sueltas: es el contenido fuente de la Modern Web Guidance, el mismo criterio con el que el equipo de Chrome recomienda afrontar los patrones habituales de la web moderna. Y está en abierto.\n\nCuando toca decidir cómo montar un formulario accesible, cómo cargar imágenes sin penalizar el LCP o qué API usar para una interacción concreta, la respuesta suele estar repartida entre posts de 2019 y respuestas de Stack Overflow. Aquí viene masticada por quien mantiene el navegador.\n\n→ Recomendaciones prácticas por patrón de frontend, no teoría suelta\n→ El criterio del equipo de Chrome, no el de un curso de pago\n→ Contenido fuente en TypeScript, listado para consultar y reutilizar\n→ Casi 1.600 estrellas en GitHub\n\n𝗟𝗮 𝗶𝗱𝗲𝗮: 𝗲𝘀 𝗹𝗮 𝗿𝗲𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗾𝘂𝗲 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮𝘀 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗶𝗻𝘃𝗲𝗻𝘁𝗮𝗿𝘁𝗲 𝘂𝗻 𝗽𝗮𝘁𝗿ó𝗻, 𝗻𝗼 𝗱𝗲𝘀𝗽𝘂é𝘀 𝗱𝗲 𝗱𝗲𝗽𝘂𝗿𝗮𝗿𝗹𝗼.\n\nGuárdalo para la próxima vez que dudes cómo enfocar una pantalla.\n\n#Chrome #Frontend #TypeScript #OpenSource\n\nhttps://github.com/GoogleChrome/modern-web-guidance-src"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Cuando la IA escribe también los tests: el contrato se muda a los datos",
+      "url": "https://martinfowler.com/articles/tests-as-data.html",
+      "source": "Martin Fowler",
+      "summary": "Matteo Vaccari sostiene que, si un agente escribe el código de producción y las pruebas, los tests dejan de darnos la garantía que esperábamos. Su propuesta es tratar al desarrollador como cliente y llevar ese contrato a los datos de prueba, que cuesta más reescribir por accidente. Útil si trabajas con agentes de código y quieres seguir fiándote de tu suite.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Por qué Cloudflare eligió QuePaxa, un algoritmo de consenso poco habitual",
+      "url": "https://blog.cloudflare.com/choosing-quepaxa",
+      "source": "Cloudflare Blog",
+      "summary": "Explica cómo funciona QuePaxa, un algoritmo de consenso que no se había desplegado antes en producción, y qué les llevó a escogerlo frente a las opciones de siempre. Sirve para entender los compromisos reales entre algoritmos de consenso cuando montas un servicio distribuido. Lectura densa, pero aprovechable durante años.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Cómo validar la salida de un LLM en un pipeline con DuckDB y dbt",
+      "url": "https://towardsdatascience.com/how-to-validate-llm-output-in-a-duckdb-and-dbt-pipeline",
+      "source": "Towards Data Science",
+      "summary": "Monta un pipeline que extrae campos concretos de ofertas de empleo con un modelo pequeño y comprueba cada respuesta con validaciones en Python y tests de dbt. La lección que se lleva el lector es tratar la salida del modelo como dato poco fiable y blindarla con controles antes de que llegue al almacén. Se aplica a cualquier extracción con LLM que acabe en una tabla.",
+      "tema": "datos"
+    },
+    {
+      "title": "Asistente, copilot o agente: en qué se diferencian y cuándo conviene cada uno",
+      "url": "https://towardsdatascience.com/ai-assistant-vs-copilot-vs-agent-and-when-to-use-each",
+      "source": "Towards Data Science",
+      "summary": "Ordena las categorías de producto con IA (asistente, copilot, agente y la orquestación entre varios) con ejemplos de dónde encaja cada una. Ayuda a decidir qué nivel de autonomía tiene sentido antes de lanzarse a un proyecto de agentes, muchos de los cuales se cancelan. Sirve tanto para producto como para ingeniería.",
+      "tema": "ia"
+    },
+    {
+      "title": "Qué ocurre de verdad cuando subes un archivo grande y compartes un enlace temporal",
+      "url": "https://www.freecodecamp.org/news/how-file-transfer-services-work",
+      "source": "freeCodeCamp",
+      "summary": "Recorre la cadena completa: subida por partes, almacenamiento, enlace firmado, caducidad y descarga por rangos. Entender esas piezas ayuda a diseñar subidas y descargas robustas en tus propias aplicaciones, sin reinventar la rueda. Buen punto de partida si nunca has montado un servicio de ficheros.",
+      "tema": "web"
+    },
+    {
+      "title": "El coste mental que paga quien más usa la IA en su trabajo",
+      "url": "https://uxdesign.cc/the-ai-mind-tax-that-afflicts-those-who-use-ai-best-3eb67ff167d0?source=rss------ux-5",
+      "source": "Medium: UX",
+      "summary": "Plantea que el trabajo se vuelve más pesado para quien integra la IA en casi todo: revisar, corregir y decidir sobre la salida del modelo consume atención y criterio. Describe ese desgaste y ayuda a poner límites razonables a estas herramientas. Interesante si tu equipo ha cambiado parte del trabajo manual por supervisión de IA.",
+      "tema": "carrera"
+    }
+  ]
+}
