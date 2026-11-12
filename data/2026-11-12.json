@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T18:18:01.021Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Gemini 4 Hydrogen: Google estrena su modelo para trabajar con agentes",
+      "summary": "Google DeepMind presenta Gemini 4 Hydrogen, el modelo que la compañía describe como su opción diaria para flujos de trabajo con agentes. Llega al mismo tiempo a la Búsqueda de Google en todo el mundo, con respuestas más visuales y orientadas a tareas.",
+      "why_it_matters": "Es el modelo con el que Google quiere que se construyan agentes, y ya está disponible en el producto más usado de la compañía.",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "Google no ha lanzado un modelo más potente. Ha lanzado el que quiere que uses para construir agentes. Y ya está dentro de la Búsqueda, para todo el mundo.\n\n#Gemini #GoogleDeepMind #Agentes\nhttps://deepmind.google/blog/introducing-gemini-4-hydrogen",
+        "linkedin": "Lo interesante de Gemini 4 Hydrogen no es que sea el modelo más capaz de Google, sino dónde lo ha colocado: dentro de la Búsqueda, para todo el mundo.\n\nDeepMind lo presenta como su opción diaria para flujos de trabajo con agentes, con respuestas más visuales y orientadas a tareas. Eso significa que 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗰𝗼𝗻 𝗲𝗹 𝗾𝘂𝗲 𝗚𝗼𝗼𝗴𝗹𝗲 𝗾𝘂𝗶𝗲𝗿𝗲 𝗾𝘂𝗲 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝘆𝗮𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝘆𝗮 𝗲𝘀 𝗲𝗹 𝗾𝘂𝗲 𝘃𝗲𝗻 𝗺𝗶𝗹𝗹𝗼𝗻𝗲𝘀 𝗱𝗲 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝘀 𝗰𝗮𝗱𝗮 𝗱í𝗮. Para quien desarrolla, la pregunta deja de ser qué modelo elegir y pasa a ser cuánto peso quiere darle a la infraestructura de un solo proveedor.\n\n#Gemini #GoogleDeepMind #Agentes\n\nhttps://deepmind.google/blog/introducing-gemini-4-hydrogen"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Gemini Decisions API: hasta 1.000 preguntas cerradas en una sola llamada",
+      "summary": "Google lanza una API basada en Gemini Decision 1 que evalúa hasta 1.000 preguntas de sí o no en una pasada, con texto, imágenes, audio y vídeo como entrada. Según la compañía, responde en 150 o 250 milisegundos y cuesta unas cinco veces menos que Gemini 3.5 Flash-Lite.",
+      "why_it_matters": "Abre la puerta a clasificación y enrutado masivos a bajo coste sin montar un pipeline propio.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "source": "Google AI",
+      "social": {
+        "x": "Google acaba de convertir Gemini en un clasificador industrial: 1.000 preguntas de sí o no en una sola llamada, en 150 ms y por una quinta parte del precio.\n\n#Gemini #GoogleAI #APIs\nhttps://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+        "linkedin": "Mil decisiones en una sola llamada y a una quinta parte del precio: así quiere Google que uses Gemini para clasificar.\n\nLa Decisions API evalúa hasta 1.000 preguntas de sí o no en una pasada, acepta texto, imágenes, audio y vídeo, y responde en 150 o 250 milisegundos. Lo relevante no es la cifra, sino lo que deja de hacer falta: 𝗲𝗹 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝗽𝗿𝗼𝗽𝗶𝗼 𝗱𝗲 𝗰𝗹𝗮𝘀𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝘆 𝗲𝗻𝗿𝘂𝘁𝗮𝗱𝗼 pierde sentido para muchos equipos. Si tienes un sistema de triaje montado a base de prompts encadenados y reglas a mano, esta es la versión barata de sustituirlo.\n\n#Gemini #GoogleAI #APIs\n\nhttps://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "ElevenLabs Scribe v3 mejora la transcripción en llamadas con ruido y voces cruzadas",
+      "summary": "ElevenLabs publica Scribe v3 y Scribe v3 Live, dos modelos de reconocimiento de voz pensados para agentes telefónicos que aprovechan el contexto de la conversación para no cortar al interlocutor. En las pruebas de Artificial Analysis superan por poco a OpenAI, Google y Microsoft en precisión, aunque son más lentos y bastante más caros.",
+      "why_it_matters": "La latencia y el precio siguen siendo el gran freno de los agentes de voz, y aquí ElevenLabs prioriza la precisión sobre la velocidad.",
+      "url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence",
+      "source": "The Decoder",
+      "social": {
+        "x": "ElevenLabs ya transcribe llamadas con ruido y voces cruzadas sin cortar al interlocutor. Eso sí: es más lento y bastante más caro que OpenAI y Google.\n\n#ElevenLabs #Scribe #AgentesDeVoz #OpenAI\nhttps://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence",
+        "linkedin": "Los agentes de voz llevan meses atascados en el mismo cuello de botella: entender bien al otro lado del teléfono.\n\nElevenLabs publica Scribe v3 y Scribe v3 Live, dos modelos que aprovechan el contexto de la conversación para no cortar al interlocutor en llamadas con ruido y voces cruzadas, y que en las pruebas de Artificial Analysis superan por poco a OpenAI, Google y Microsoft. El detalle incómodo es el de siempre: son más lentos y bastante más caros. 𝗘𝗻 𝘃𝗼𝘇, 𝗹𝗮 𝗽𝗿𝗲𝗰𝗶𝘀𝗶ó𝗻 𝘀𝗶𝗻 𝗹𝗮𝘁𝗲𝗻𝗰𝗶𝗮 𝗻𝗼 𝘀𝗶𝗿𝘃𝗲 𝗱𝗲 𝗻𝗮𝗱𝗮, así que la decisión para quien monta un agente telefónico ya no es qué modelo transcribe mejor, sino cuánto está dispuesto a pagar por cada milisegundo que pierde.\n\n#ElevenLabs #Scribe #AgentesDeVoz #OpenAI\n\nhttps://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "AWS publica un emulador local de sus APIs para probar aplicaciones sin la nube",
+      "summary": "Amazon ha liberado aws-emulator, un emulador que reproduce las APIs de AWS en local para desarrollar y testear aplicaciones sin levantar recursos reales en la nube. El proyecto está en GitHub y se usa como cualquier otra herramienta de desarrollo.",
+      "why_it_matters": "Reduce el coste y la fricción de probar arquitecturas cloud en el portátil antes de hacer deploy.",
+      "url": "https://github.com/aws/aws-emulator",
+      "source": "Hacker News",
+      "social": {
+        "x": "Probar tu arquitectura de AWS ya no requiere levantar nada en la nube. Amazon ha liberado un emulador que corre entero en tu portátil.\n\n#AWS #OpenSource #DevOps\nhttps://github.com/aws/aws-emulator",
+        "linkedin": "Probar una arquitectura de AWS en local ya no depende de un truco casero: Amazon ha publicado su propio emulador.\n\naws-emulator reproduce las APIs en tu máquina, así que puedes iterar, romper cosas y repetir sin levantar recursos reales ni mirar la factura a final de mes. El ahorro inmediato es de coste, pero el cambio de fondo es de flujo de trabajo: 𝗲𝗹 𝗰𝗶𝗰𝗹𝗼 𝗱𝗲 𝗳𝗲𝗲𝗱𝗯𝗮𝗰𝗸 𝘀𝗲 𝗺𝘂𝗲𝘃𝗲 𝗱𝗲𝗹 𝗰𝗹𝗼𝘂𝗱 𝗮𝗹 𝗽𝗼𝗿𝘁á𝘁𝗶𝗹. Para equipos con cuentas compartidas y presupuestos vigilados, eso es margen para experimentar mucho más antes de cada deploy.\n\n#AWS #OpenSource #DevOps\n\nhttps://github.com/aws/aws-emulator"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Las primeras gafas Android XR con Gemini llegan desde 395 dólares",
+      "summary": "Google, Samsung, Gentle Monster y Warby Parker ponen a la venta las primeras gafas inteligentes con Gemini, sin pantalla, desde 395 dólares según modelo y montura. Google insiste en el apartado de privacidad, con aviso luminoso y controles de captura, para diferenciarse de Meta.",
+      "why_it_matters": "Es el primer producto de consumo masivo de Android XR y marca cómo Google piensa competir con Ray-Ban Meta.",
+      "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+      "source": "Ars Technica",
+      "social": {
+        "x": "395 dólares por unas gafas con Gemini y sin pantalla. Google abre la veda de Android XR y, de paso, le declara la guerra a Ray-Ban Meta.\n\n#AndroidXR #Gemini #Google #SmartGlasses\nhttps://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+        "linkedin": "Las gafas inteligentes llevan años siendo una demo cara. Google acaba de ponerles precio de producto de consumo: 395 dólares.\nCon Samsung, Gentle Monster y Warby Parker detrás, Android XR arranca sin pantalla y con Gemini como única interfaz, más un aviso luminoso que se enciende cuando la cámara captura, un detalle con el que Google quiere marcar distancia frente a Meta. Ahí está la jugada: 𝗚𝗼𝗼𝗴𝗹𝗲 𝗻𝗼 𝗰𝗼𝗺𝗽𝗶𝘁𝗲 𝘁𝗮𝗻𝘁𝗼 𝗽𝗼𝗿 𝗲𝗹 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗰𝗼𝗺𝗼 𝗽𝗼𝗿 𝘀𝗲𝗿 𝗹𝗮 𝗽𝗹𝗮𝘁𝗮𝗳𝗼𝗿𝗺𝗮 𝗱𝗼𝗻𝗱𝗲 𝘀𝗲 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝘆𝗮𝗻 𝗹𝗮𝘀 𝗮𝗽𝗽𝘀 𝗱𝗲 𝗴𝗮𝗳𝗮𝘀. Si cuaja, cualquier equipo que desarrolle para XR tendrá por fin un estándar sobre el que empezar a trabajar.\n\n#AndroidXR #Gemini #Google #SmartGlasses\n\nhttps://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "smolmaxxing: cómo exprimir LLMs en dispositivos pequeños y antiguos",
+      "summary": "Un proyecto en GitHub recopila técnicas, configuraciones y modelos para ejecutar LLMs en el hardware más modesto posible, desde móviles viejos hasta placas de bajo consumo. La idea es llevar los modelos al límite de lo que aguanta el dispositivo.",
+      "why_it_matters": "Baja el listón de hardware necesario para correr modelos en local, algo clave para privacidad y uso sin conexión.",
+      "url": "https://github.com/hyperionaidev/smolmaxxing",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un repositorio en GitHub recopila cómo correr LLMs en un móvil viejo. El límite ya no es el modelo: es el hardware que tienes en el cajón.\n\n#LLM #GitHub #OpenSource #LocalFirst\nhttps://github.com/hyperionaidev/smolmaxxing",
+        "linkedin": "Correr un LLM en local ya no exige una GPU de 2.000 euros. Un proyecto en GitHub llamado smolmaxxing reúne técnicas, configuraciones y modelos concretos para exprimir hardware modesto: móviles viejos, placas de bajo consumo, equipos que casi nadie daría por válidos.\n\nMerece la pena mirarlo aunque tengas máquina de sobra, porque 𝗹𝗼 𝘃𝗮𝗹𝗶𝗼𝘀𝗼 𝗻𝗼 𝘀𝗼𝗻 𝗹𝗼𝘀 𝘁𝗿𝘂𝗰𝗼𝘀 𝘀𝗶𝗻𝗼 𝗲𝗹 𝗹𝗶𝘀𝘁ó𝗻: cuando el modelo cabe en hardware que ya está pagado, la privacidad y el uso sin conexión dejan de ser un privilegio de quien puede permitirse el equipo. Y plantea una pregunta incómoda para cualquier equipo que esté presupuestando servidores: cuánto de ese gasto es necesidad real y cuánto es falta de ganas de optimizar.\n\n#LLM #GitHub #OpenSource #LocalFirst\n\nhttps://github.com/hyperionaidev/smolmaxxing"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "investigacion",
+      "title": "AlphaGenome 2 analiza variantes genéticas célula a célula",
+      "summary": "Google DeepMind presenta AlphaGenome 2, un modelo que evalúa el efecto de variantes genéticas por tipo celular en lugar de hacerlo sobre tejido agregado. Entrenado con más de 107 millones de perfiles celulares, detecta casi el doble de cambios relevantes para enfermedades que su predecesor y está disponible por API para investigación no comercial.",
+      "why_it_matters": "La resolución por tipo celular es lo que separa un análisis genómico útil de una media poco informativa.",
+      "url": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2",
+      "source": "The Decoder",
+      "social": {
+        "x": "El mismo gen puede ser inocuo en una célula y peligroso en otra. AlphaGenome 2 de DeepMind ya lo mira célula a célula: casi el doble de variantes relevantes detectadas, y disponible por API.\n\n#AlphaGenome #DeepMind #Genómica #Bioinformática\nhttps://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2",
+        "linkedin": "La media de un tejido esconde justo lo que importa: qué células responden distinto.\nAlphaGenome 2 de DeepMind abandona el análisis agregado y evalúa cada variante por tipo celular, con más de 107 millones de perfiles celulares en el entrenamiento. El resultado es 𝗰𝗮𝘀𝗶 𝗲𝗹 𝗱𝗼𝗯𝗹𝗲 𝗱𝗲 𝗰𝗮𝗺𝗯𝗶𝗼𝘀 𝗿𝗲𝗹𝗲𝘃𝗮𝗻𝘁𝗲𝘀 𝗽𝗮𝗿𝗮 𝗲𝗻𝗳𝗲𝗿𝗺𝗲𝗱𝗮𝗱𝗲𝘀 𝗱𝗲𝘁𝗲𝗰𝘁𝗮𝗱𝗼𝘀 que en la versión anterior, además de una API abierta a investigación no comercial. Para quien trabaja en genómica o en descubrimiento de dianas, el cuello de botella se mueve: ya no es secuenciar, sino dar sentido a la heterogeneidad celular.\n\n#AlphaGenome #DeepMind #Genómica #Bioinformática\n\nhttps://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "investigacion",
+      "title": "AlphaProof Code verifica el núcleo criptográfico de Signal en cuatro semanas",
+      "summary": "Agentes basados en Gemini escribieron más de seis millones de líneas de prueba formal para verificar el código criptográfico de Signal, un trabajo que normalmente lleva años. Solo alrededor del 1% de las pruebas se derivó a revisión humana, y DeepMind quiere aplicar el método a infraestructuras críticas como redes eléctricas y dispositivos médicos.",
+      "why_it_matters": "La verificación formal deja de ser un lujo academicista si un agente puede completarla en semanas.",
+      "url": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years",
+      "source": "The Decoder",
+      "social": {
+        "x": "Verificar el núcleo criptográfico de Signal solía llevar años. Un agente de DeepMind lo ha cerrado en cuatro semanas, y solo el 1% pasó a revisión humana.\n\n#Signal #DeepMind #AlphaProof #VerificaciónFormal\nhttps://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years",
+        "linkedin": "Cuatro semanas para un trabajo que antes ocupaba años de especialistas. Un agente de DeepMind ha verificado el núcleo criptográfico de Signal con más de seis millones de líneas de prueba formal, y solo alrededor del 1% se derivó a revisión humana.\n\nLa verificación formal llevaba décadas en el terreno de lo academicista porque exigía miles de horas de gente muy cara. Si 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗽𝘂𝗲𝗱𝗲 𝗰𝗲𝗿𝗿𝗮𝗿 𝗲𝘀𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗲𝗻 𝘀𝗲𝗺𝗮𝗻𝗮𝘀, el cuello de botella deja de ser el coste y pasa a ser decidir qué se verifica primero. DeepMind ya apunta a redes eléctricas y dispositivos médicos, así que a quien firma software crítico le toca replantearse el calendario.\n\n#Signal #DeepMind #AlphaProof #VerificaciónFormal\n\nhttps://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Google libera TPU Sync para mover KV cache y pesos entre TPUs",
+      "summary": "Google Cloud publica como open source TPU Sync, una librería nativa en C++ que traslada bloques de KV cache y pesos del modelo entre la HBM de las TPUs, la DRAM del host, el almacenamiento compartido y la red del centro de datos.",
+      "why_it_matters": "Gestionar la memoria entre aceleradores es uno de los cuellos de botella reales al servir modelos grandes.",
+      "url": "https://www.infoq.com/news/2026/11/google-tpu-sync",
+      "source": "InfoQ",
+      "social": {
+        "x": "El cuello de botella al servir modelos grandes no es el cómputo: es mover la memoria entre aceleradores. Google acaba de liberar como open source su librería para hacerlo entre TPUs.\n\n#GoogleCloud #TPU #OpenSource #KVCache\nhttps://www.infoq.com/news/2026/11/google-tpu-sync",
+        "linkedin": "Servir un modelo grande se atasca menos en las TPUs que en el viaje de los datos hasta ellas.\n\nGoogle Cloud ha publicado TPU Sync, una librería nativa en C++ que traslada bloques de KV cache y pesos entre la HBM de las TPUs, la DRAM del host, el almacenamiento compartido y la red del centro de datos. Con ello, 𝗹𝗮 𝗴𝗲𝘀𝘁𝗶ó𝗻 𝗱𝗲 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗲𝗻𝘁𝗿𝗲 𝗮𝗰𝗲𝗹𝗲𝗿𝗮𝗱𝗼𝗿𝗲𝘀 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗰ó𝗱𝗶𝗴𝗼 𝗽𝗿𝗼𝗽𝗶𝗲𝘁𝗮𝗿𝗶𝗼 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗽𝗶𝗲𝘇𝗮 𝗾𝘂𝗲 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿𝗮 𝗽𝘂𝗲𝗱𝗲 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗿 𝗲𝗻 𝘀𝘂 𝘀𝘁𝗮𝗰𝗸. Para los equipos que despliegan inferencia a gran escala, esto recorta una capa de trabajo de infraestructura que hasta ahora había que resolver a mano o comprar hecha.\n\n#GoogleCloud #TPU #OpenSource #KVCache\n\nhttps://www.infoq.com/news/2026/11/google-tpu-sync"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "industria",
+      "title": "United Airlines prohíbe que los agentes de IA reserven vuelos",
+      "summary": "La aerolínea bloqueará el acceso de agentes autónomos a sus sistemas de reservas y gestión, alegando riesgos de ciberseguridad y posibles incumplimientos de la normativa federal. Es la última gran empresa estadounidense que cierra la puerta a los asistentes que actúan en nombre del usuario.",
+      "why_it_matters": "Marca un precedente incómodo para el comercio con agentes: quien controla el sistema puede cerrar la puerta.",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Tu agente de IA no puede reservar un vuelo en United. Y no es un fallo: es una decisión. El primer precedente serio para el comercio con agentes.\n\n#UnitedAirlines #AIAgents #AgenticCommerce\nhttps://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+        "linkedin": "United Airlines acaba de bloquear a los agentes de IA en su sistema de reservas. Y no es un fallo técnico.\n\nLa aerolínea cierra el acceso de los agentes autónomos alegando riesgos de ciberseguridad y posibles incumplimientos de la normativa federal. Es la última gran empresa estadounidense que lo hace, pero la que lo convierte en política explícita. 𝗤𝘂𝗶𝗲𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮 𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗽𝘂𝗲𝗱𝗲 𝗰𝗲𝗿𝗿𝗮𝗿 𝗹𝗮 𝗽𝘂𝗲𝗿𝘁𝗮, y con eso todo el ecosistema de agentes se queda sin suelo firme: si cada plataforma decide por su cuenta, el comercio con agentes no escala. A los equipos que construyen agentes les toca diseñar asumiendo puertas cerradas, con planes B por plataforma y trazabilidad de lo que hace el asistente en nombre del usuario.\n\n#UnitedAirlines #AIAgents #AgenticCommerce\n\nhttps://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "OpenAI documenta por qué los modelos frontera ocultan cada vez más su razonamiento",
+      "summary": "El equipo de seguridad de OpenAI analiza por qué las cadenas de razonamiento de modelos como GPT-6 Astra son cada vez menos legibles para la supervisión. Identifica cuatro decisiones de entrenamiento, entre ellas la arquitectura y el aprendizaje por refuerzo, que erosionan la transparencia a cambio de más capacidad y menor coste.",
+      "why_it_matters": "Si el razonamiento deja de ser legible, la supervisión humana pierde su principal ventana de observación.",
+      "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute",
+      "source": "The Decoder",
+      "social": {
+        "x": "Los modelos más capaces de OpenAI razonan cada vez más a oscuras. No es un fallo: hay cuatro decisiones de entrenamiento detrás.\n\n#OpenAI #GPT6 #Alignment #LLMs\nhttps://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute",
+        "linkedin": "La ventana que usábamos para auditar a los modelos se está cerrando, y no por un bug: por diseño.\n\nOpenAI ha documentado cuatro decisiones de entrenamiento, entre ellas la arquitectura y el aprendizaje por refuerzo, que hacen que las cadenas de razonamiento de modelos como GPT-6 Astra sean cada vez menos legibles. Cada una compra capacidad y abarata el coste, y a cambio 𝗹𝗮 𝘀𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗶ó𝗻 𝗵𝘂𝗺𝗮𝗻𝗮 𝗽𝗶𝗲𝗿𝗱𝗲 𝘀𝘂 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹 𝗳𝘂𝗲𝗻𝘁𝗲 𝗱𝗲 𝗲𝘃𝗶𝗱𝗲𝗻𝗰𝗶𝗮. Para quien tenga que certificar un modelo ante un cliente o un regulador, esto deja de ser un debate técnico y pasa a ser un riesgo de cumplimiento: si no puedes leer el razonamiento, ¿con qué lo auditas?\n\n#OpenAI #GPT6 #Alignment #LLMs\n\nhttps://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Los chatbots de compras citan webs minoristas falsas, según un estudio",
+      "summary": "Un análisis de las recomendaciones de compra de Gemini, ChatGPT y Perplexity concluye que los tres motores citan tiendas falsas o inexistentes, y que Perplexity es el que peor lo hace. El fallo afecta a la confianza en el uso de asistentes para decidir dónde comprar.",
+      "why_it_matters": "Añade una razón práctica para verificar a mano cualquier enlace que devuelva un asistente.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "source": "The Verge",
+      "social": {
+        "x": "Gemini, ChatGPT y Perplexity están citando tiendas que no existen cuando les preguntas dónde comprar. Y el que peor lo hace es Perplexity.\n\n#Perplexity #ChatGPT #Gemini #ComercioElectrónico\nhttps://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+        "linkedin": "Le preguntas a un asistente dónde comprar y te devuelve una tienda que no existe.\n\nUn análisis de las recomendaciones de Gemini, ChatGPT y Perplexity concluye que los tres citan minoristas falsos o inexistentes, y que 𝗣𝗲𝗿𝗽𝗹𝗲𝘅𝗶𝘁𝘆 𝗲𝘀 𝗲𝗹 𝗾𝘂𝗲 𝗽𝗲𝗼𝗿 𝘀𝗮𝗹𝗲 𝗽𝗮𝗿𝗮𝗱𝗼. La consecuencia práctica es inmediata: cualquier enlace que devuelva un asistente hay que verificarlo a mano antes de pagar. Y para quien construye producto sobre estos modelos, el aviso es que citar fuentes fiables sigue siendo el punto débil, muy por encima de la calidad del texto que generan.\n\n#Perplexity #ChatGPT #Gemini #ComercioElectrónico\n\nhttps://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "Guía práctica para hacer fine-tuning de modelos de generación 3D",
+      "summary": "Hugging Face publica una guía completa para entrenar adaptadores LoRA sobre modelos de generación 3D, con datos, configuración y evaluación paso a paso.",
+      "why_it_matters": "El 3D generativo era territorio de papers; este material lo baja a receta reproducible.",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Hacer fine-tuning a un modelo de generación 3D era territorio de papers. Hugging Face acaba de convertirlo en receta: datos, config y evaluación.\n\n#HuggingFace #LoRA #3D #OpenSource\nhttps://huggingface.co/blog/3d-lora-finetuning",
+        "linkedin": "El 3D generativo deja de ser territorio de papers: ya hay receta reproducible.\nHugging Face ha publicado una guía que cubre el fine-tuning de adaptadores LoRA sobre modelos de generación 3D, con datos, configuración y evaluación paso a paso. Lo relevante no es la técnica en sí, sino que 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝘀𝗲 𝗱𝗲𝘀𝗽𝗹𝗮𝘇𝗮 𝗱𝗲𝗹 𝗽𝗮𝗽𝗲𝗿 𝗮 𝗹𝗼𝘀 𝗱𝗮𝘁𝗼𝘀: quien tenga un dataset propio decente puede entrenar sin depender de un gran laboratorio. Para cualquier equipo que trabaje con contenido 3D, la pregunta ya no es si esto funciona, sino cuánto tardan en montar su pipeline.\n\n#HuggingFace #LoRA #3D #OpenSource\n\nhttps://huggingface.co/blog/3d-lora-finetuning"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "herramientas",
+      "title": "Amazon Bedrock estrena una API de búsqueda web para agentes",
+      "summary": "AgentCore incorpora una Web Search API que permite buscar en internet con una sola llamada firmada, sin crear gateway ni recursos adicionales, desde los SDK de AWS o la CLI. Está pensada para agentes, bucles de decisión y pipelines de datos.",
+      "why_it_matters": "Quita de en medio el trabajo de integración que hoy hace falta para que un agente consulte la web.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Darle internet a un agente en Bedrock exigía montar un gateway aparte. Ahora se resuelve con una sola llamada firmada.\n\n#AmazonBedrock #AgentCore #AWS\nhttps://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore",
+        "linkedin": "Darle acceso a internet a un agente en AWS ya no pasa por montar un gateway aparte.\n\nAgentCore estrena una Web Search API que resuelve la búsqueda con 𝘂𝗻𝗮 𝘀𝗼𝗹𝗮 𝗹𝗹𝗮𝗺𝗮𝗱𝗮 𝗳𝗶𝗿𝗺𝗮𝗱𝗮 desde los SDK de AWS o la CLI, sin recursos intermedios que provisionar. El trabajo de integración que hoy se escribe a mano, con sus permisos y su mantenimiento, se cae de la ecuación. Para quien construye agentes, bucles de decisión o pipelines de datos, la pregunta deja de ser cómo conectar la web y pasa a ser qué hacer con lo que devuelve.\n\n#AmazonBedrock #AgentCore #AWS\n\nhttps://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Jensen Huang dimite como consejero delegado de Nvidia",
+      "summary": "Huang deja el cargo de forma inmediata después de que el consejo abriera una investigación sobre sus relaciones con una empleada y con una mujer acusada de espiar para China. La hasta ahora directora financiera, Colette Kress, asume como consejera delegada interina.",
+      "why_it_matters": "Nvidia cambia de manos en plena carrera por la infraestructura de IA, y la próxima presentación de resultados será la más mirada del año.",
+      "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down",
+      "source": "Wired",
+      "social": {
+        "x": "Jensen Huang deja Nvidia con efecto inmediato. La CFO, Colette Kress, toma el mando y los resultados del próximo trimestre pasan a ser los más mirados del año.\n\n#Nvidia #JensenHuang #ColetteKress\nhttps://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down",
+        "linkedin": "Nvidia se queda sin Jensen Huang en el peor momento posible: en mitad de la carrera por la infraestructura de la IA.\n\nEl consejo abrió una investigación sobre sus relaciones con una empleada y con una mujer acusada de espiar para China, y Huang ha dimitido con efecto inmediato. Colette Kress, hasta ahora CFO, asume el cargo de forma interina.\n\nMás allá del ruido, lo que de verdad se juega Nvidia es 𝗾𝘂𝗶é𝗻 𝘀𝗲 𝘀𝗶𝗲𝗻𝘁𝗮 𝗮 𝗻𝗲𝗴𝗼𝗰𝗶𝗮𝗿 𝗰𝗼𝗻 𝗢𝗽𝗲𝗻𝗔𝗜, 𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁, 𝗚𝗼𝗼𝗴𝗹𝗲 𝘆 𝗧𝗦𝗠𝗖 a partir de mañana, y con qué margen de confianza lo hace. Cualquier proveedor que dependa de sus GPUs debería revisar ya su plan B.\n\n#Nvidia #JensenHuang #ColetteKress\n\nhttps://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Australia quiere auditar por ley los modelos frontera",
+      "summary": "El Gobierno de Anthony Albanese prepara una ley de seguridad en IA que obligaría a los desarrolladores de modelos frontera a someterse a pruebas independientes ante un nuevo regulador, con sanciones elevadas. Canberra quiere tener su normativa en marcha antes de sentarse en foros internacionales.",
+      "why_it_matters": "Es uno de los primeros intentos de convertir la evaluación de modelos en una obligación legal exigible.",
+      "url": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing",
+      "source": "The Decoder",
+      "social": {
+        "x": "Australia quiere auditar por ley los modelos frontera. Quien no pase las pruebas independientes se arriesga a sanciones elevadas. El primer intento serio de convertirlo en obligación legal.\n\n#ModelosFrontera #Australia #AIACT #OpenAI\nhttps://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing",
+        "linkedin": "Australia no quiere esperar a que los laboratorios se autorregulen. Prepara una ley que obligará a los desarrolladores de modelos frontera a someterse a 𝗽𝗿𝘂𝗲𝗯𝗮𝘀 𝗶𝗻𝗱𝗲𝗽𝗲𝗻𝗱𝗶𝗲𝗻𝘁𝗲𝘀 𝗮𝗻𝘁𝗲 𝘂𝗻 𝗿𝗲𝗴𝘂𝗹𝗮𝗱𝗼𝗿 𝗻𝘂𝗲𝘃𝗼, con sanciones elevadas para quien no las supere. Y quiere tenerla lista antes de sentarse en los foros internacionales, lo que sienta un precedente incómodo: quien no pueda demostrar que su modelo es seguro lo tendrá difícil para operar. La autorregulación acaba de perder su último argumento cómodo.\n\n#ModelosFrontera #Australia #AIACT #OpenAI\n\nhttps://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "investigacion",
+      "title": "IBM promete pasar de 1.000 qubits en 2027 con Nighthawk r3",
+      "summary": "IBM presenta el procesador Nighthawk r3, con más qubits que su antecesor y pensado como pieza de los futuros sistemas tolerantes a fallos. La compañía prevé superar los 1.000 qubits en 2027.",
+      "why_it_matters": "El calendario de IBM es la referencia para saber cuándo la computación cuántica deja de ser una promesa.",
+      "url": "https://www.theregister.com/systems/2026/11/12/quantum-leap-ibm-plans-to-scale-beyond-1000-qubits-in-2027-with-nighthawk-r3-processor/5309357",
+      "source": "The Register",
+      "social": {
+        "x": "1.000 qubits en 2027. IBM acaba de poner fecha al salto que decidirá cuándo la computación cuántica deja de ser una promesa.\n\n#IBM #QuantumComputing #Nighthawk\nhttps://www.theregister.com/systems/2026/11/12/quantum-leap-ibm-plans-to-scale-beyond-1000-qubits-in-2027-with-nighthawk-r3-processor/5309357",
+        "linkedin": "IBM ya le ha puesto fecha a los 1.000 qubits: 2027.\nEl Nighthawk r3 no es un chip más, es la pieza con la que la compañía quiere llegar a los sistemas tolerantes a fallos. Y su calendario, guste o no, es la referencia que usa medio sector para decidir cuándo mover ficha e invertir. 𝗟𝗮 𝗽𝗿𝗲𝗴𝘂𝗻𝘁𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘀𝗶 𝗹𝗮 𝗰𝘂á𝗻𝘁𝗶𝗰𝗮 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮𝗿á, 𝘀𝗶𝗻𝗼 𝗾𝘂𝗶é𝗻 𝘁𝗲𝗻𝗱𝗿á 𝗹𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗹𝗶𝘀𝘁𝗮 𝗰𝘂𝗮𝗻𝗱𝗼 𝗹𝗼 𝗵𝗮𝗴𝗮.\n\n#IBM #QuantumComputing #Nighthawk\n\nhttps://www.theregister.com/systems/2026/11/12/quantum-leap-ibm-plans-to-scale-beyond-1000-qubits-in-2027-with-nighthawk-r3-processor/5309357"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Un ciberataque a Fireworks AI expone transcripciones de clientes de Notion",
+      "summary": "El incidente, el segundo que afecta a Fireworks en dos meses, permitió a los atacantes acceder a transcripciones de chats de usuarios de Notion procesadas por el proveedor de inferencia. Notion recurre a estos servicios para funciones de IA dentro de sus productos.",
+      "why_it_matters": "Recuerda que los datos enviados a un proveedor de modelos amplían la superficie de fuga.",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Cada vez que Notion resume un texto, hay un tercero de por medio. Y ese tercero acaba de filtrar transcripciones de usuarios.\n\n#FireworksAI #Notion #Ciberseguridad #Privacidad\nhttps://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts",
+        "linkedin": "El segundo ciberataque a Fireworks AI en dos meses no expone solo a Fireworks: expone las transcripciones de los usuarios de Notion.\n\nNotion recurre a proveedores externos de inferencia para sus funciones de IA, así que cada consulta sale de su infraestructura y aterriza en la de un tercero. 𝗖𝗮𝗱𝗮 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿 𝗱𝗲 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗾𝘂𝗲 𝗲𝗻𝗰𝗵𝘂𝗳𝗮𝘀 𝗮 𝘁𝘂 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼 𝗲𝘀 𝘂𝗻𝗮 𝘀𝘂𝗽𝗲𝗿𝗳𝗶𝗰𝗶𝗲 𝗱𝗲 𝗳𝘂𝗴𝗮 𝗺á𝘀, y casi nadie la mide hasta que llega el incidente. Si tu aplicación envía datos de clientes a una API externa, toca revisar qué se manda, cuánto se retiene y qué cubre el contrato.\n\n#FireworksAI #Notion #Ciberseguridad #Privacidad\n\nhttps://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "lanzamientos",
+      "title": "Phota Labs convierte fotos cotidianas en imágenes de aspecto profesional",
+      "summary": "La startup lanza una app para iOS que actúa como asistente de foto personal: analiza la imagen y la retoca para que parezca de un fotógrafo profesional sin alterar la autenticidad del momento. La propuesta es automatizar la edición, no añadir otro editor manual.",
+      "why_it_matters": "El retoque fotográfico es un caso de consumo donde la IA ya compite por sustituir la decisión del usuario.",
+      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Tus fotos van a parecer de un profesional sin que edites nada. El giro de Phota Labs: no es un editor más fácil, es quitar el editor.\n\n#PhotaLabs #FotografíaComputacional #iOS\nhttps://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
+        "linkedin": "El siguiente paso de la IA en fotografía no es editar mejor: es que tú no edites.\n\nPhota Labs ha lanzado en iOS un asistente que analiza la imagen y la retoca con criterio de fotógrafo, sin pedirte que toques curvas ni máscaras. La diferencia con Lightroom o Snapseed es de planteamiento: allí la IA acelera una decisión que sigues tomando tú; aquí 𝗹𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝘀𝗲 𝗱𝗲𝗹𝗲𝗴𝗮 𝗲𝗻𝘁𝗲𝗿𝗮. Para quien vive de la fotografía es un debate abierto, porque el criterio es justo su oficio; para el usuario que solo quiere que la foto del cumpleaños quede bien, es exactamente lo que llevaba años pidiendo.\n\n#PhotaLabs #FotografíaComputacional #iOS\n\nhttps://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Exchange Server 2016 y 2019 entran en su etapa de vulnerabilidad permanente",
+      "summary": "Microsoft deja atrás el soporte de Exchange Server 2016 y 2019, de modo que los fallos que se descubran en adelante no recibirán parches. La recomendación es migrar a Exchange Online o a una versión soportada cuanto antes.",
+      "why_it_matters": "Miles de instalaciones on-premise se quedan sin red de seguridad frente a vulnerabilidades conocidas.",
+      "url": "https://www.theregister.com/saas/2026/11/12/microsoft-exchange-server-2016-and-2019-enter-their-permanently-vulnerable-era/5309401",
+      "source": "The Register",
+      "social": {
+        "x": "Exchange Server 2016 y 2019 se quedan sin parches. Cada fallo que se descubra desde hoy es un zero-day sin solución para miles de servidores de correo on-premise.\n\n#ExchangeServer #Microsoft #OnPremise #Ciberseguridad\nhttps://www.theregister.com/saas/2026/11/12/microsoft-exchange-server-2016-and-2019-enter-their-permanently-vulnerable-era/5309401",
+        "linkedin": "Microsoft ha apagado la luz y ha cerrado la puerta: quien siga con Exchange Server 2016 o 2019 está solo frente a los fallos que vengan.\n\nEl soporte ha terminado, así que los parches de seguridad ya no llegarán ni siquiera para vulnerabilidades críticas. 𝗠𝗶𝗹𝗲𝘀 𝗱𝗲 𝗶𝗻𝘀𝘁𝗮𝗹𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗼𝗻-𝗽𝗿𝗲𝗺𝗶𝘀𝗲 𝘀𝗲 𝗾𝘂𝗲𝗱𝗮𝗻 𝘀𝗶𝗻 𝗿𝗲𝗱 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 mientras el correo sigue siendo el servicio más expuesto de cualquier empresa, y un servidor de correo sin actualizar es una puerta abierta con el cartel de bienvenida. Migrar a Exchange Online o a una versión soportada no es un proyecto para el próximo trimestre: es la conversación que toca tener esta semana, porque cada día que se aplace se apuesta a que nadie encuentre el fallo antes.\n\n#ExchangeServer #Microsoft #OnPremise #Ciberseguridad\n\nhttps://www.theregister.com/saas/2026/11/12/microsoft-exchange-server-2016-and-2019-enter-their-permanently-vulnerable-era/5309401"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "QwenLM/qwen-code",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "description": "Agente de programación con IA open source que vive en tu terminal: entiende el repositorio, edita archivos y lanza comandos sin salir de la consola. Es la apuesta de Qwen para plantarle cara a Claude Code y compañía en el día a día.",
+      "language": "TypeScript",
+      "stars": 29688,
+      "social": {
+        "x": "Claude Code ya tiene competencia: Qwen ha abierto su agente de programación para terminal. Entiende el repo, edita archivos y lanza comandos sin salir de la consola. 29k estrellas.\n\n#QwenCode #Qwen #TypeScript #OpenSource\nhttps://github.com/QwenLM/qwen-code",
+        "linkedin": "QWEN ACABA DE ABRIR SU AGENTE DE PROGRAMACIÓN PARA LA TERMINAL.\n\nHasta ahora, quien quería un agente que leyera el repositorio, tocara archivos y ejecutara comandos tenía que pasar por suscripciones de pago. QwenLM/qwen-code hace lo mismo, en local sobre tu terminal, y es open source.\n\nLa clave no es solo el modelo: es 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝘃𝗶𝘃𝗲 𝗱𝗼𝗻𝗱𝗲 𝘆𝗮 𝘁𝗿𝗮𝗯𝗮𝗷𝗮𝘀, sin cambiar de ventana ni de contexto.\n\n→ Entiende la estructura del repositorio antes de tocar nada.\n→ Edita archivos directamente desde la consola, con el diff a la vista.\n→ Lanza comandos y encadena tareas sin salir del terminal.\n→ TypeScript de punta a punta, fácil de extender con tus propias herramientas.\n→ Instalación por CLI y a correr, sin panel web de por medio.\n\nSi ya usas Claude Code o Cursor a diario, esto es la alternativa que puedes leer, modificar y self-hostear sin pedir permiso. Casi 30k estrellas en GitHub y subiendo.\n\nGuarda el post para probarlo cuando tengas el terminal a mano: el repo va justo abajo.\n\n#QwenCode #Qwen #TypeScript #OpenSource\n\nhttps://github.com/QwenLM/qwen-code"
+      }
+    },
+    {
+      "name": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "El motor de inferencia de LLM en C/C++ de referencia, capaz de mover modelos en local desde un portátil hasta un servidor. Sigue siendo la base de buena parte del ecosistema de IA self-hosted y el sitio al que mirar cuando sale un modelo nuevo.",
+      "language": "C++",
+      "stars": 134416,
+      "social": {
+        "x": "Cuando sale un modelo nuevo, medio ecosistema espera a que este repo lo soporte. 134.416 estrellas y corre en tu portátil, en C++.\n\n#llamaCpp #LLM #OpenSource #CPlusPlus\nhttps://github.com/ggml-org/llama.cpp",
+        "linkedin": "CUANDO SALE UN MODELO NUEVO, MEDIO ECOSISTEMA ESPERA A QUE ESTE REPO LO SOPORTE.\n\nllama.cpp es el motor de inferencia de LLM en C/C++ de referencia. 134.416 estrellas y una idea muy simple: que puedas mover un modelo en tu propia máquina, desde un portátil hasta un servidor, sin ataduras.\n\nBuena parte del ecosistema de IA self-hosted se apoya en él. Y cuando aparece un modelo con un formato nuevo, este es el sitio al que todo el mundo mira.\n\n→ Escrito en C/C++, sin capas innecesarias por el medio.\n→ Inferencia en local: de un portátil a un servidor con la misma base.\n→ Pieza central de buena parte del ecosistema de IA self-hosted.\n→ El punto de referencia cuando sale un modelo nuevo y hay que ver dónde correrlo.\n\n𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀 𝗲𝗹 𝗺𝗼𝘁𝗼𝗿: da igual lo que prometa el último LLM de moda si luego no hay forma de moverlo en tu propia máquina.\n\nGuárdate el post para la próxima vez que tengas que decidir dónde correr un modelo. Te dejo el repo abajo.\n\n#llamaCpp #LLM #OpenSource #CPlusPlus\n\nhttps://github.com/ggml-org/llama.cpp"
+      }
+    },
+    {
+      "name": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "description": "Compañeros de trabajo con IA open source, cada uno con su propio ordenador: navegador, archivos y herramientas. Registra cada acción antes de ejecutarla y después, y admite cualquier agente AG-UI, lo que viene muy bien para auditar qué hace el agente.",
+      "language": "TypeScript",
+      "stars": 11418,
+      "social": {
+        "x": "Un repo open source te da compañeros de trabajo con IA, cada uno con su propio ordenador: navegador, archivos y herramientas. Y registra cada acción antes y después de ejecutarla. 11k estrellas.\n\n#OpenBot #CopilotKit #OpenSource #TypeScript\nhttps://github.com/CopilotKit/OpenBot",
+        "linkedin": "LE DAS UN ORDENADOR A UN AGENTE DE IA Y, DE REPENTE, DEJA DE SER UNA CAJA NEGRA.\n\nEse es el planteamiento de OpenBot: compañeros de trabajo con IA, cada uno con su propio entorno, con navegador, archivos y herramientas a mano. La diferencia con la mayoría de agentes que ves en demos es que aquí 𝗰𝗮𝗱𝗮 𝗮𝗰𝗰𝗶ó𝗻 𝗾𝘂𝗲𝗱𝗮 𝗿𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝗱𝗮 𝗮𝗻𝘁𝗲𝘀 𝘆 𝗱𝗲𝘀𝗽𝘂é𝘀 𝗱𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿𝘀𝗲.\n\nY eso cambia la conversación. Cuando un agente toca archivos o abre pestañas, la pregunta ya no es si funciona, sino qué ha hecho exactamente y en qué orden. En un flujo de trabajo real, esa trazabilidad es lo que decide si lo dejas suelto o no.\n\n→ Un ordenador propio para cada agente: navegador, sistema de archivos y utilidades\n→ Traza previa y posterior de cada paso, pensada para auditar qué hace el agente\n→ Compatible con cualquier agente AG-UI, sin atarte a un único framework\n→ TypeScript y open source, con más de 11.000 estrellas\n\nSi estás montando agentes que actúan de verdad y no solo que responden, esto te ahorra tener que inventarte la capa de trazabilidad por tu cuenta.\n\nGuárdate el post: tienes el repo enlazado abajo.\n\n#OpenBot #CopilotKit #OpenSource #TypeScript\n\nhttps://github.com/CopilotKit/OpenBot"
+      }
+    },
+    {
+      "name": "ashhart/TensorFold",
+      "url": "https://github.com/ashhart/TensorFold",
+      "description": "Motor de inferencia de LLM escrito en Zig con backend para Metal, CUDA y Vulkan, pensado para exprimir la GPU sin las capas habituales de Python. Merece un vistazo si te interesa el rendimiento en local y los proyectos que se salen del stack convencional.",
+      "language": "Zig",
+      "stars": 1886,
+      "social": {
+        "x": "Un motor de inferencia de LLM escrito en Zig que habla directo con Metal, CUDA y Vulkan. Sin capas de Python de por medio. 1.886 estrellas.\n\n#TensorFold #Zig #LLM #OpenSource\nhttps://github.com/ashhart/TensorFold",
+        "linkedin": "UN MOTOR DE INFERENCIA DE LLM ESCRITO EN ZIG. Y SIN UNA SOLA CAPA DE PYTHON.\n\nTensorFold se salta la pila habitual de frameworks y habla directamente con la GPU a través de Metal, CUDA y Vulkan. Menos intermediarios, menos overhead y más control sobre lo que ocurre en tu máquina cuando cargas un modelo.\n\nLa mayoría de proyectos de inferencia local arrastran un runtime de Python, dependencias y envoltorios sobre envoltorios. Aquí el objetivo es el contrario: acercar el modelo al hardware.\n\n→ Backend para Metal en Apple Silicon, CUDA en NVIDIA y Vulkan como vía multiplataforma\n→ Escrito en Zig, sin runtime de Python ni bindings de por medio\n→ Enfocado a exprimir la GPU en local, no a alquilar capacidad en la nube\n→ 1.886 estrellas en GitHub y un stack que se sale de lo convencional\n\n𝗟𝗮 𝗴𝗿𝗮𝗰𝗶𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗹𝗲𝗻𝗴𝘂𝗮𝗷𝗲, 𝗲𝘀 𝗾𝘂𝗶𝘁𝗮𝗿 𝗰𝗮𝗽𝗮𝘀 𝗲𝗻𝘁𝗿𝗲 𝘁𝘂 𝗺𝗼𝗱𝗲𝗹𝗼 𝘆 𝗹𝗮 𝗚𝗣𝗨.\n\nSi trasteas con inferencia local o te interesa cómo se están saltando el stack de siempre, este repo merece un rato de lectura. Guárdalo para la próxima vez que te toque optimizar.\n\nTe dejo el repo abajo.\n\n#TensorFold #Zig #LLM #OpenSource\n\nhttps://github.com/ashhart/TensorFold"
+      }
+    },
+    {
+      "name": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "description": "El gestor de versiones de Node.js de siempre: un script de bash que te permite saltar entre versiones de node sin dolores de cabeza. Sigue siendo una pieza básica en cualquier entorno de desarrollo con Node.",
+      "language": "Shell",
+      "stars": 95974,
+      "social": {
+        "x": "96.000 estrellas para un script de bash. Solo hace una cosa: cambiar de versión de Node sin romperte el entorno. Y lleva años siendo imprescindible.\n\n#nvm #NodeJS #OpenSource #GitHub\nhttps://github.com/nvm-sh/nvm",
+        "linkedin": "96.000 ESTRELLAS PARA UN SCRIPT DE BASH DE TRES FUNCIONES.\n\nAntes de los contenedores de dev, antes de los gestores de toolchains modernos, ya existía nvm. Y sigue instalado en la mayoría de máquinas que tocan Node a diario.\n\nEl problema que resuelve es viejo y no ha desaparecido: tienes tres proyectos, cada uno con su versión de Node, y solo puedes tener una activa en el PATH. Cambiarla a mano es la vía rápida a un error raro a las once de la noche.\n\n→ Instalación con un script de curl o con el instalador del sistema, sin dependencias raras.\n→ `nvm install`, `nvm use` y `nvm alias default`: con eso cubres el 90 % del día a día.\n→ Un archivo `.nvmrc` por repositorio y el entorno se ajusta solo al entrar.\n→ Funciona en bash y zsh, en macOS y Linux, y también en WSL.\n→ Sigue en mantenimiento activo, con más de 96.000 estrellas acumuladas.\n\nLa clave: 𝗻𝘃𝗺 𝗻𝗼 𝗴𝗲𝘀𝘁𝗶𝗼𝗻𝗮 𝗽𝗮𝗾𝘂𝗲𝘁𝗲𝘀, 𝗴𝗲𝘀𝘁𝗶𝗼𝗻𝗮 𝗾𝘂é 𝗯𝗶𝗻𝗮𝗿𝗶𝗼 𝗱𝗲 𝗻𝗼𝗱𝗲 𝗲𝘀𝘁á𝘀 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗻𝗱𝗼, y eso lo convierte en la primera capa de cualquier entorno reproducible.\n\nSi trabajas con Node, guarda este post. Te dejo el repositorio abajo.\n\n#nvm #NodeJS #OpenSource #GitHub\n\nhttps://github.com/nvm-sh/nvm"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Los tipos de acoplamiento oculto que arruinan tu arquitectura (y cómo detectarlos)",
+      "url": "https://blog.bytebytego.com/p/top-types-of-hidden-coupling-and",
+      "source": "ByteByteGo",
+      "summary": "El artículo repasa las formas de acoplamiento que no salen en el diagrama de arquitectura: base de datos compartida, contratos implícitos, conocimiento temporal o despliegues que van de la mano. Explica cómo localizarlas y qué patrones aplicar para reducir el daño antes de que un cambio en un servicio obligue a tocar cinco. Útil si diseñas o mantienes sistemas distribuidos y quieres que el diagrama se parezca a la realidad.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Ejecución duradera: cómo hacer que un agente de larga duración sobreviva a los fallos",
+      "url": "https://martinfowler.com/articles/durable-execution-agents.html",
+      "source": "Martin Fowler",
+      "summary": "Kiran Prakash explica la ejecución duradera, un modelo en el que el runtime guarda un registro del progreso del agente para poder retomarlo tras una caída, un fallo de red o una respuesta inesperada del mundo real. Detalla qué estados conviene persistir, cómo se reintentan los pasos y por qué cada uno debería ser idempotente. Sirve para quien pasa de los prototipos de agentes a flujos que duran días y hablan con sistemas externos.",
+      "tema": "ia"
+    },
+    {
+      "title": "Cómo leer un plan de ejecución en SQL con EXPLAIN, paso a paso",
+      "url": "https://medium.com/@shinderohan1904/how-sql-execution-plans-work-understanding-explain-step-by-step-f045b3b7e8c1",
+      "source": "Medium: Software Engineering",
+      "summary": "Recorre qué significa cada línea de un EXPLAIN, por qué el optimizador elige un índice u otro y cómo distinguir una consulta lenta por volumen de una lenta por diseño. Aprenderás a detectar scans completos, joins mal ordenados y estimaciones de filas que se alejan de la realidad. Es la base para optimizar consultas sin ir a ciegas en PostgreSQL o MySQL.",
+      "tema": "datos"
+    },
+    {
+      "title": "Pruebas de mutación en 50 librerías de Python: las más jóvenes dejan pasar el 41 % de los fallos",
+      "url": "https://towardsdatascience.com/i-mutation-tested-50-python-libraries-tests-in-the-young-ones-missed-41-of-planted-faults",
+      "source": "Towards Data Science",
+      "summary": "Un estudio introduce 2.312 fallos artificiales en 50 librerías de Python para comprobar si sus tests los detectan. Las librerías más jóvenes dejan escapar un 41 % de las mutaciones, y el análisis destapa cuatro problemas reales, desde una pérdida de datos en Windows hasta ejemplos del README que no funcionan tal como están escritos. Sirve para entender qué aporta el mutation testing y por qué la cobertura por sí sola dice bien poco.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Rediseño o refactor: dónde meter el dinero cuando el producto parece viejo",
+      "url": "https://medium.com/@wolfpixel/redesign-or-refactor-where-to-spend-when-the-product-feels-old-aa2c271bd9a4",
+      "source": "Medium: UX",
+      "summary": "Cuando alguien dice que el producto se ve antiguo, la respuesta por defecto suele ser un rediseño completo con design system nuevo. El artículo plantea cómo decidir entre eso y un refactor progresivo según dónde esté el problema real: deuda de interfaz, flujos confusos o simple falta de mantenimiento visual. Va bien para justificar la decisión ante negocio con argumentos y no con gustos.",
+      "tema": "diseno"
+    },
+    {
+      "title": "Contratar personas en la era del CV perfecto: preguntas a un reclutador técnico",
+      "url": "https://stackoverflow.blog/2026/11/12/how-do-you-hire-a-human-q-and-a-with-tom-harvey-stack-overflow-technical-recruiter",
+      "source": "Stack Overflow Blog",
+      "summary": "Tom Harvey, reclutador técnico de Stack Overflow, cuenta cómo cambia el cribado cuando casi todos los CV suenan impecables y las herramientas de IA los dejan relucientes. Explica qué señales mira en una entrevista, cómo distinguir experiencia real de vocabulario aprendido y qué errores cometen los equipos al definir un puesto. Útil tanto si buscas trabajo como si te toca entrevistar.",
+      "tema": "carrera"
+    }
+  ]
+}
