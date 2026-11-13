@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T17:43:41.798Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Google lanza Gemini 4 Hydrogen, su modelo para agentes",
+      "summary": "Google presenta Gemini 4 Hydrogen como su modelo de uso diario para flujos de trabajo con agentes. Sustituye a la serie Flash y la compañía lo sitúa como referencia para tareas agénticas con mejor equilibrio entre coste y capacidad. El despliegue llega de inmediato a los productos de la casa.",
+      "why_it_matters": "Marca el relevo generacional en la familia Gemini y cambia el modelo por defecto de quien construye agentes.",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "Google jubila la serie Flash. Gemini 4 Hydrogen pasa a ser el modelo por defecto de sus productos y el que quiere mandar en flujos con agentes.\n\n#Gemini #GoogleDeepMind #LLMs\nhttps://deepmind.google/blog/introducing-gemini-4-hydrogen",
+        "linkedin": "La serie Flash ya es historia: Gemini 4 Hydrogen pasa a ser el modelo por defecto de Google.\n\nEl encargo es doble. Por un lado, mover los flujos agénticos de toda la casa; por otro, convencer a quien construye encima con un discurso de coste frente a capacidad: no el más potente, sino el que aguanta en producción sin arruinar la factura. 𝗘𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗽𝗼𝗿 𝗱𝗲𝗳𝗲𝗰𝘁𝗼 𝗲𝘀 𝗹𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗮𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮 𝗾𝘂𝗲 𝗺𝗲𝗻𝗼𝘀 𝘀𝗲 𝗿𝗲𝘃𝗶𝘀𝗮 𝘆 𝗺á𝘀 𝗰𝗼𝗻𝗱𝗶𝗰𝗶𝗼𝗻𝗮, y Google acaba de mover esa pieza para todo su ecosistema. Si tienes agentes en marcha, toca volver a medir.\n\n#Gemini #GoogleDeepMind #LLMs\n\nhttps://deepmind.google/blog/introducing-gemini-4-hydrogen"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Edge0-145B, un modelo abierto de 145B para ejecutar en local",
+      "summary": "Edge0 publica Edge0-145B, un modelo open source de 145.000 millones de parámetros pensado para correr en tu propia máquina. Está orientado a programación, razonamiento y tareas de agente, sin depender de APIs en la nube ni pagar por token. La propuesta apunta a quien quiere capacidades de frontera sin salir del hardware propio.",
+      "why_it_matters": "Acerca los modelos de gran tamaño al hardware local y reduce la dependencia de proveedores cloud.",
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un modelo de 145.000 millones de parámetros que corre en tu propia máquina. Sin API, sin pagar por token y con la programación y los agentes como objetivo.\n\n#OpenSource #Edge0 #LLM\nhttps://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+        "linkedin": "145.000 millones de parámetros ya no suenan a algo que solo cabe en el datacenter de otro. Edge0 acaba de publicar Edge0-145B, un modelo open source orientado a programación, razonamiento y tareas de agente que 𝘀𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮 𝗲𝗻 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲, 𝘀𝗶𝗻 𝗔𝗣𝗜 𝗻𝗶 𝗰𝗼𝘀𝘁𝗲 𝗽𝗼𝗿 𝘁𝗼𝗸𝗲𝗻. Para los equipos que daban por hecho el peaje del cloud, la pregunta deja de ser si se puede y pasa a ser cuánto hardware hace falta. Ahí se decide si esto es un juguete para entusiastas o una alternativa de verdad para producción.\n\n#OpenSource #Edge0 #LLM\n\nhttps://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "llama.cpp llega a la versión 1.0.0",
+      "summary": "El motor de inferencia llama.cpp alcanza la versión 1.0.0, un hito para el ecosistema de IA local. La release consolida la base sobre la que se ejecutan modelos GGUF en portátiles, servidores pequeños y dispositivos variados. Es la pieza que muchos proyectos usan para servir modelos sin depender de la nube.",
+      "why_it_matters": "Su 1.0 da madurez a la infraestructura que sostiene buena parte de la IA ejecutada en local.",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "llama.cpp llega a la 1.0.0. El motor que hace correr modelos de IA en tu portátil, sin nube y sin cuentas de nadie, deja de ser un experimento de fin de semana.\n\n#llamaCpp #GGUF #OpenSource #LLM\nhttps://huggingface.co/blog/ggml-org/llama-cpp-v1",
+        "linkedin": "llama.cpp acaba de llegar a la 1.0.0, y eso significa que la IA local ya no se apoya en un proyecto en eterna beta.\nEl motor que ejecuta modelos GGUF en portátiles y servidores pequeños alcanza un hito que consolida la base de buena parte de la inferencia que se sirve sin nube. 𝗟𝗮 𝘃𝗲𝗿𝘀𝗶ó𝗻 𝟭.𝟬 𝗻𝗼 𝘁𝗿𝗮𝗲 𝘂𝗻𝗮 𝗳𝘂𝗻𝗰𝗶ó𝗻 𝗲𝘀𝗽𝗲𝗰𝘁𝗮𝗰𝘂𝗹𝗮𝗿: 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝘂𝗻𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗱𝗲 𝗲𝗻𝘁𝘂𝘀𝗶𝗮𝘀𝘁𝗮𝘀 𝗲𝗻 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝘀𝗼𝗯𝗿𝗲 𝗹𝗮 𝗾𝘂𝗲 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗽𝗹𝗮𝗻𝗶𝗳𝗶𝗰𝗮𝗿. Para cualquier equipo que esté sopesando el self-hosted por coste o por privacidad, esto rebaja el riesgo de apostar por ello.\n\n#llamaCpp #GGUF #OpenSource #LLM\n\nhttps://huggingface.co/blog/ggml-org/llama-cpp-v1"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "ChatGPT Wallet deja que los agentes compren por ti",
+      "summary": "OpenAI presenta ChatGPT Wallet, una función para que los agentes de ChatGPT Work, Codex y dots completen compras con aprobación del usuario. El sistema reutiliza las protecciones de tarjeta existentes y exige confirmación antes de pagar. De momento se despliega de forma limitada para suscriptores Pro en Estados Unidos.",
+      "why_it_matters": "Lleva a la práctica la compra delegada en agentes y abre la puerta a que la IA gestione pagos cotidianos.",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "OpenAI News",
+      "social": {
+        "x": "El primer monedero para que los agentes de IA paguen tus compras ya tiene nombre: ChatGPT Wallet. Y pide tu aprobación antes de cada pago.\n\n#OpenAI #ChatGPT #AgentesIA #Codex\nhttps://openai.com/index/introducing-chatgpt-wallet",
+        "linkedin": "Delegar una compra a una IA suena a ciencia ficción hasta que ves el detalle incómodo: alguien tiene que autorizar ese pago.\n\nOpenAI presenta ChatGPT Wallet, una función con la que los agentes de ChatGPT Work, Codex y dots pueden cerrar compras reutilizando las protecciones de tarjeta que ya existen y con confirmación explícita antes de pagar. De momento solo llega a suscriptores Pro en Estados Unidos, pero el movimiento apunta a algo más grande: 𝗾𝘂𝗲 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗴𝗲𝘀𝘁𝗶𝗼𝗻𝗲𝗻 𝗽𝗮𝗴𝗼𝘀 𝗰𝗼𝘁𝗶𝗱𝗶𝗮𝗻𝗼𝘀 𝗰𝗼𝗻 𝗲𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼 𝗰𝗼𝗺𝗼 ú𝗹𝘁𝗶𝗺𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮.\n\nPara quien construye producto, la pregunta deja de ser si la IA puede comprar y pasa a ser cuánto de tu flujo de pago tolera un humano en medio. La aprobación manual es hoy la red de seguridad; mañana será el cuello de botella o el foso defensivo, según cómo se diseñe.\n\n#OpenAI #ChatGPT #AgentesIA #Codex\n\nhttps://openai.com/index/introducing-chatgpt-wallet"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Claude for Manufacturing conecta la IA al software de fábrica",
+      "summary": "Anthropic lanza Claude for Manufacturing, un plugin que conecta su IA con Autodesk Fusion, Oracle NetSuite e Infor. Incluye 17 habilidades especializadas para redactar presupuestos, comparar proveedores o lanzar pedidos de respaldo cuando se retrasa una entrega, siempre con aprobación humana. Todavía no controla máquinas físicas.",
+      "why_it_matters": "Muestra cómo los agentes entran en software industrial real, no solo en herramientas de oficina.",
+      "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows",
+      "source": "The Decoder",
+      "social": {
+        "x": "Claude ya entra en el software de fábrica: presupuestos, proveedores y pedidos de respaldo. Y cada acción pasa por una persona.\n\n#Anthropic #Autodesk #NetSuite #Claude\nhttps://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows",
+        "linkedin": "El agente de IA sale de la herramienta de oficina y se mete en el software donde se decide qué se compra y qué se produce. Anthropic lanza Claude for Manufacturing, un plugin que conecta su modelo con Autodesk Fusion, Oracle NetSuite e Infor y añade 17 habilidades para redactar presupuestos, comparar proveedores o lanzar pedidos de respaldo cuando una entrega se retrasa.\n\nEl detalle que decide si esto se adopta o se bloquea en el comité de compras es que 𝗰𝗮𝗱𝗮 𝗮𝗰𝗰𝗶ó𝗻 𝗿𝗲𝗾𝘂𝗶𝗲𝗿𝗲 𝗮𝗽𝗿𝗼𝗯𝗮𝗰𝗶ó𝗻 𝗵𝘂𝗺𝗮𝗻𝗮, y que de momento no toca máquinas físicas. Para quien tenga un ERP industrial, la conversación ya no es si la IA puede escribir un presupuesto, sino quién firma, con qué permisos y cómo se audita lo que propone.\n\n#Anthropic #Autodesk #NetSuite #Claude\n\nhttps://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Claude Meetings se mete en tus videollamadas",
+      "summary": "Anthropic añade Claude Meetings, una función que mete a Claude en reuniones de Google Meet. El asistente genera documentos, pizarras y notas en tiempo real mientras transcurre la llamada. Arranca en beta para planes Team y Enterprise, con más plataformas previstas para después.",
+      "why_it_matters": "Compite de frente con los asistentes de reuniones y amplía el uso de Claude más allá del chat.",
+      "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls",
+      "source": "The Decoder",
+      "social": {
+        "x": "Claude ya no espera a que le escribas: ahora entra en tus llamadas de Google Meet y toma notas en tiempo real mientras hablas. De momento, en beta para planes Team y Enterprise.\n\n#Anthropic #Claude #GoogleMeet #Productividad\nhttps://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls",
+        "linkedin": "Claude ya no se queda en la pestaña del chat: ahora se mete en tus videollamadas.\n\nAnthropic lanza Claude Meetings, una función que entra en Google Meet para generar notas, documentos y pizarras mientras la reunión avanza. Arranca en beta para Team y Enterprise, con más plataformas previstas para después. El movimiento tiene sentido: 𝗲𝗹 𝘃𝗮𝗹𝗼𝗿 𝘆𝗮 𝗻𝗼 𝗲𝘀𝘁á 𝘀𝗼𝗹𝗼 𝗲𝗻 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗲𝘀𝘁𝗮𝗿 𝗽𝗿𝗲𝘀𝗲𝗻𝘁𝗲 𝗱𝗼𝗻𝗱𝗲 𝘀𝗲 𝗴𝗲𝗻𝗲𝗿𝗮 𝗲𝗹 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼, y las reuniones son el sitio donde más información se pierde cada día. A quien venda asistentes de reuniones le toca ahora explicar por qué merece la pena pagar aparte por algo que la suite del cliente puede acabar incluyendo.\n\n#Anthropic #Claude #GoogleMeet #Productividad\n\nhttps://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Gemini 4 Hydrogen llega a Google Search",
+      "summary": "Google integra Gemini 4 Hydrogen en Search a nivel global para responder consultas complejas con respuestas más visuales e intuitivas. La compañía promete mejor comprensión de preguntas enrevesadas y más enlaces relevantes junto a la respuesta generada. El cambio se aplica a todos los usuarios del buscador.",
+      "why_it_matters": "Traslada el nuevo modelo al producto con más usuarios de Google y cambia la forma de responder a las búsquedas difíciles.",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+      "source": "Google AI",
+      "social": {
+        "x": "Google mete Gemini 4 Hydrogen en Search para todos los usuarios. Las búsquedas difíciles ya no se contestan con una lista de enlaces.\n\n#Google #Gemini #Search #SEO\nhttps://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+        "linkedin": "El producto con más usuarios de Google ya no responde igual. Gemini 4 Hydrogen ha entrado en Search a nivel global: las consultas enrevesadas se resuelven con una respuesta generada, más visual, acompañada de enlaces relevantes en vez de una lista que el usuario tiene que interpretar.\n\nPara quien vive del tráfico orgánico, esto no es cosmético: 𝗲𝗹 𝗰𝗹𝗶𝗰 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗽𝗿𝗶𝗺𝗲𝗿 𝗽𝗮𝘀𝗼 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗹𝗮 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻. Si tu contenido no aporta algo que el resumen generado no pueda dar, la visita no llega. Toca revisar qué páginas siguen teniendo sentido por sí solas.\n\n#Google #Gemini #Search #SEO\n\nhttps://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "Apple abre Siri a los desarrolladores con su preview de IA",
+      "summary": "Apple publica la Siri AI Developer Preview en las betas 27.3 de iOS, iPadOS y macOS. Los desarrolladores pueden integrar sus apps con el asistente y delegar acciones en él, aunque el acceso queda restringido a builds de desarrollo y testers internos de TestFlight. Es el primer paso hacia un ecosistema de acciones de Siri abierto a terceros.",
+      "why_it_matters": "Abre a los desarrolladores el asistente del iPhone, una vía nueva para integrar servicios con IA.",
+      "url": "https://www.infoq.com/news/2026/11/apple-siri-ai-integration",
+      "source": "InfoQ",
+      "social": {
+        "x": "Siri deja de ser solo de Apple: los desarrolladores ya pueden meter sus apps dentro del asistente. Eso sí, con condiciones.\n\n#Siri #Apple #iOS #AppleIntelligence\nhttps://www.infoq.com/news/2026/11/apple-siri-ai-integration",
+        "linkedin": "El asistente más usado del móvil deja de ser un jardín cerrado. Apple ha publicado la Siri AI Developer Preview: las apps pueden integrarse con Siri y delegarle acciones, de momento solo en builds de desarrollo y con testers internos de TestFlight. 𝗟𝗮 𝗽𝘂𝗲𝗿𝘁𝗮 𝘀𝗲 𝗮𝗯𝗿𝗲 𝗷𝘂𝘀𝘁𝗼 𝗰𝘂𝗮𝗻𝗱𝗼 𝗹𝗮 𝗜𝗔 𝗱𝗲𝗹 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝗻𝗲𝗰𝗲𝘀𝗶𝘁𝗮 𝗱𝗮𝘁𝗼𝘀 𝘆 𝗮𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗾𝘂𝗲 𝗔𝗽𝗽𝗹𝗲 𝗻𝗼 𝘁𝗶𝗲𝗻𝗲. Para cualquier equipo con producto móvil, es una vía nueva de distribución que conviene mirar desde la beta, no desde el día del lanzamiento.\n\n#Siri #Apple #iOS #AppleIntelligence\n\nhttps://www.infoq.com/news/2026/11/apple-siri-ai-integration"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Google libera AQuA para diagnosticar agentes que fallan",
+      "summary": "Google publica AQuA, una implementación de referencia para diagnosticar fallos de agentes de IA en producción. Analiza sesiones reales, verifica patrones de error recurrentes y busca la causa raíz contra la versión del código desplegada. En una prueba con 32 sesiones, los fallos detectados bajaron de forma notable tras ajustar los prompts.",
+      "why_it_matters": "Da a los equipos una herramienta abierta para depurar agentes que fallan en producción, algo cada vez más habitual.",
+      "url": "https://www.infoq.com/news/2026/11/google-ambient-agent-prod",
+      "source": "InfoQ",
+      "social": {
+        "x": "Tu agente funcionaba en el notebook. En producción falla y nadie sabe por qué. Google acaba de liberar el debugger que busca la causa raíz.\n\n#Google #AQuA #OpenSource #LLM\nhttps://www.infoq.com/news/2026/11/google-ambient-agent-prod",
+        "linkedin": "El agente iba perfecto en el notebook. En producción falla y nadie sabe por qué.\n\nGoogle libera AQuA, una implementación de referencia que analiza sesiones reales, detecta patrones de error y rastrea la causa raíz contra la versión del código que hay desplegada. En su prueba con 32 sesiones, los fallos cayeron de forma notable tras ajustar los prompts. 𝗗𝗲𝗽𝘂𝗿𝗮𝗿 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗮𝗿𝘁𝗲𝘀𝗮𝗻í𝗮 𝘆 𝘀𝗲 𝗽𝗮𝗿𝗲𝗰𝗲 𝗰𝗮𝗱𝗮 𝘃𝗲𝘇 𝗺á𝘀 𝗮 𝗹𝗮 𝗼𝗯𝘀𝗲𝗿𝘃𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗾𝘂𝗲 𝘆𝗮 𝗲𝘅𝗶𝗴𝗶𝗺𝗼𝘀 𝗮𝗹 𝗿𝗲𝘀𝘁𝗼 𝗱𝗲𝗹 𝘀𝘁𝗮𝗰𝗸: quien no instrumente los suyos va a seguir iterando a ciegas y a base de tokens.\n\n#Google #AQuA #OpenSource #LLM\n\nhttps://www.infoq.com/news/2026/11/google-ambient-agent-prod"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "AgentRun, agentes open source que se mejoran solos",
+      "summary": "AgentRun es una plataforma open source que añade automejora, ejecución duradera y un plano de control sobre el harness de agentes que ya uses. La idea es que los agentes aprendan de sus ejecuciones y sobrevivan a fallos sin perder estado. Se publica en GitHub con licencia abierta.",
+      "why_it_matters": "Resuelve dos problemas prácticos de los agentes, fiabilidad y aprendizaje, sin atarte a un proveedor.",
+      "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+      "source": "Hacker News",
+      "social": {
+        "x": "Tu agente falla, pierde el estado y no aprende nada del intento. AgentRun es open source y ataca justo eso: automejora y ejecución duradera.\n\n#AgentRun #OpenSource #GitHub\nhttps://github.com/Parcha-ai/agentrun/blob/main/README.md",
+        "linkedin": "Nadie discute ya si los agentes funcionan. La pregunta es qué pasa cuando fallan a mitad de una tarea larga.\n\nAgentRun es una plataforma open source que se coloca encima del harness de agentes que ya uses y añade tres piezas: automejora a partir de las ejecuciones anteriores, ejecución duradera que sobrevive a caídas sin perder estado y un plano de control para gobernarlo todo. 𝗙𝗶𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝘆 𝗮𝗽𝗿𝗲𝗻𝗱𝗶𝘇𝗮𝗷𝗲 𝗱𝗲𝗷𝗮𝗻 𝗱𝗲 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲𝗹 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿 𝗱𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼. Para quien ya tiene agentes en producción, el cálculo cambia: esa capa pasa a ser tuya y se puede auditar.\n\n#AgentRun #OpenSource #GitHub\n\nhttps://github.com/Parcha-ai/agentrun/blob/main/README.md"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "Alibaba reeduca Qwen3.8 con una mirada más occidental",
+      "summary": "Alibaba ha reentrenado Qwen3.8, su modelo de pesos abiertos, para adoptar una cosmovisión más occidental y poder responder a temas que las autoridades chinas censuran. El cambio afecta al comportamiento del modelo en asuntos sensibles. Sigue siendo un modelo abierto que cualquiera puede descargar y ajustar.",
+      "why_it_matters": "Ilustra la presión geopolítica sobre los modelos abiertos y cómo se corrige su alineamiento.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/13/alibabas-qwen38-re-educated-with-a-more-western-worldview/5309555",
+      "source": "The Register",
+      "social": {
+        "x": "Alibaba ha reentrenado Qwen3.8 para responder a los temas que Pekín censura. Y sigue siendo un modelo abierto que cualquiera puede descargar.\n\n#Alibaba #Qwen #OpenSource\nhttps://www.theregister.com/ai-and-ml/2026/11/13/alibabas-qwen38-re-educated-with-a-more-western-worldview/5309555",
+        "linkedin": "Un modelo abierto acaba de cambiar de opinión por presión geopolítica. Y no es el primero.\n\nAlibaba ha reentrenado Qwen3.8 para que responda a asuntos que las autoridades chinas censuran, un ajuste de alineamiento que altera su comportamiento en temas sensibles sin dejar de ser 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗽𝗲𝘀𝗼𝘀 𝗮𝗯𝗶𝗲𝗿𝘁𝗼𝘀 𝗾𝘂𝗲 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿𝗮 𝗽𝘂𝗲𝗱𝗲 𝗱𝗲𝘀𝗰𝗮𝗿𝗴𝗮𝗿 𝘆 𝗮𝗳𝗶𝗻𝗮𝗿. Para los equipos que ya lo usan en producción, la lectura incómoda es esta: el comportamiento de un modelo abierto no es fijo, y conviene saber qué versión y qué alineamiento hay detrás de cada deploy antes de prometer nada a un cliente.\n\n#Alibaba #Qwen #OpenSource\n\nhttps://www.theregister.com/ai-and-ml/2026/11/13/alibabas-qwen38-re-educated-with-a-more-western-worldview/5309555"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "Muse ya llama a empresas en tu nombre, si pagas",
+      "summary": "Meta permite que su agente Muse haga llamadas salientes a empresas de Estados Unidos en nombre de los suscriptores de pago. Puede gestionar citas, reservas y esperas telefónicas, y según Meta ya supera los 10 millones de usuarios. Muchas empresas, sin embargo, cuelgan en cuanto detectan que al otro lado habla una IA.",
+      "why_it_matters": "Es uno de los primeros usos masivos de agentes de voz para tareas cotidianas, con la aceptación del otro lado aún por resolver.",
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El agente de Meta ya llama a empresas en tu nombre y te gestiona citas y reservas. El problema: muchas cuelgan al oír que al otro lado hay una IA.\n\n#Meta #Muse #AgentesDeVoz #Automatización\nhttps://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay",
+        "linkedin": "La adopción de agentes de voz no se va a decidir en el laboratorio, sino en si la persona que descuelga el teléfono les cree.\n\nMeta ya permite que Muse llame en Estados Unidos en nombre de los suscriptores de pago para gestionar citas, reservas y esperas telefónicas, y dice que supera los 10 millones de usuarios. El detalle incómodo es que 𝗺𝘂𝗰𝗵𝗮𝘀 𝗲𝗺𝗽𝗿𝗲𝘀𝗮𝘀 𝗰𝘂𝗲𝗹𝗴𝗮𝗻 𝗲𝗻 𝗰𝘂𝗮𝗻𝘁𝗼 𝗱𝗲𝘁𝗲𝗰𝘁𝗮𝗻 𝗾𝘂𝗲 𝗮𝗹 𝗼𝘁𝗿𝗼 𝗹𝗮𝗱𝗼 𝗵𝗮𝗯𝗹𝗮 𝘂𝗻𝗮 𝗜𝗔. Para quien despliega agentes de voz, el cuello de botella ya no es el modelo ni la latencia: es la confianza de quien contesta, y sin eso cada llamada quema marca en lugar de ahorrar tiempo.\n\n#Meta #Muse #AgentesDeVoz #Automatización\n\nhttps://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "Claude Duet: un agente de consumo neurótico pero útil",
+      "summary": "The Verge prueba Claude Duet, el agente de consumo de Anthropic, y lo describe como algo neurótico pero sorprendentemente útil. Está pensado para gente que no programa y compite con Muse, Instinct y propuestas similares. La conclusión es que los agentes de consumo empiezan a ser prácticos, aunque con manías.",
+      "why_it_matters": "Da una medida realista de para qué sirve hoy un agente de consumo fuera del ámbito del código.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "source": "The Verge",
+      "social": {
+        "x": "Claude Duet tiene manías de neurótico. Según The Verge, aun así es el agente de consumo más práctico que ha probado.\n\n#Anthropic #ClaudeDuet #AIAgents\nhttps://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+        "linkedin": "El primer agente de consumo que resulta útil no es el más listo: es el que tiene manías y aun así no te obliga a programar.\n\nThe Verge ha probado Claude Duet, la propuesta de Anthropic para gente que no escribe código, y lo describe como neurótico pero sorprendentemente práctico. Compite con Muse, Instinct y compañía en una categoría que hasta ahora vivía de demos y promesas. 𝗟𝗼 𝗿𝗲𝗹𝗲𝘃𝗮𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝗾𝘂𝗲 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝘀𝗲𝗮 𝗮𝘂𝘁ó𝗻𝗼𝗺𝗼, 𝘀𝗶𝗻𝗼 𝗾𝘂𝗲 𝘀𝗲𝗮 𝗽𝗿𝗲𝗱𝗲𝗰𝗶𝗯𝗹𝗲 𝗲𝗻 𝗮𝗾𝘂𝗲𝗹𝗹𝗼 𝗾𝘂𝗲 𝗳𝗮𝗹𝗹𝗮: ahí es donde empieza a ser adoptable por equipos que no son de desarrollo. Si la categoría madura por ese camino, el siguiente paso es meterla en flujos de trabajo reales y no en vídeos de lanzamiento.\n\n#Anthropic #ClaudeDuet #AIAgents\n\nhttps://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "Rust 1.100.0, el lenguaje alcanza su versión redonda",
+      "summary": "El lenguaje Rust llega a la versión 1.100.0, un número redondo que confirma su ritmo de releases cada seis semanas. La publicación mantiene la estabilidad como seña de identidad y sigue ampliando el lenguaje sin romper compatibilidad. Es la actualización que muchos proyectos adoptarán en sus próximos ciclos.",
+      "why_it_matters": "Confirma la madurez del ecosistema Rust y su cadencia predecible para quien lo usa en producción.",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0",
+      "source": "Lobsters",
+      "social": {
+        "x": "Rust llega a la 1.100.0. Lo llamativo no es el número redondo: es haber encadenado cien versiones sin romper compatibilidad.\n\n#Rust #RustLang #OpenSource\nhttps://blog.rust-lang.org/2026/11/12/Rust-1.100.0",
+        "linkedin": "Rust alcanza la 1.100.0 y lo difícil no es llegar, es haberlo hecho sin romper nada por el camino.\n\nCien releases con cadencia de seis semanas y la estabilidad como norma: 𝗹𝗮 𝗰𝗼𝗺𝗽𝗮𝘁𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗵𝗮𝗰𝗶𝗮 𝗮𝘁𝗿á𝘀 𝘀𝗲 𝗵𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝗲𝗹 𝘃𝗲𝗿𝗱𝗮𝗱𝗲𝗿𝗼 𝗳𝗼𝘀𝗼 𝗱𝗲 𝗥𝘂𝘀𝘁. Para quien lo tiene en producción, eso significa ciclos previsibles y actualizaciones que no dan miedo. El número redondo es anecdótico; la disciplina, no.\n\n#Rust #RustLang #OpenSource\n\nhttps://blog.rust-lang.org/2026/11/12/Rust-1.100.0"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "herramientas",
+      "title": "Una pasarela LLM self-hosted con Bedrock y LiteLLM",
+      "summary": "AWS publica una guía para montar una pasarela LLM self-hosted con Amazon Bedrock y LiteLLM sobre Fargate. El resultado expone los modelos de Bedrock tras una API compatible con OpenAI, con una sola clave para los desarrolladores. El equipo de plataforma obtiene control de coste por usuario, cuotas y observabilidad.",
+      "why_it_matters": "Es una receta concreta para centralizar el acceso a modelos sin perder control de gasto ni de permisos.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Tu equipo pide acceso a varios modelos y tú solo ves una factura sin dueño. AWS publica la receta: pasarela LLM self-hosted con Bedrock y LiteLLM, una API compatible con OpenAI y coste por usuario.\n\n#AWS #Bedrock #LiteLLM #LLMOps\nhttps://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm",
+        "linkedin": "El gasto en modelos se dispara cuando cada equipo se monta su propia clave.\n\nAWS publica una guía para levantar una pasarela LLM self-hosted con Bedrock y LiteLLM sobre Fargate: los modelos quedan detrás de una API compatible con OpenAI y 𝘂𝗻𝗮 𝘀𝗼𝗹𝗮 𝗰𝗹𝗮𝘃𝗲, 𝗰𝗼𝗻 𝗰𝘂𝗼𝘁𝗮𝘀 𝘆 𝗰𝗼𝘀𝘁𝗲 𝗽𝗼𝗿 𝘂𝘀𝘂𝗮𝗿𝗶𝗼. Para quien lleva plataforma, el cambio es de fondo: deja de perseguir facturas sueltas y empieza a gobernar quién consume qué y con qué límite. La receta es de AWS, pero el patrón vale para cualquier proveedor.\n\n#AWS #Bedrock #LiteLLM #LLMOps\n\nhttps://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "herramientas",
+      "title": "Estructuras de datos probabilísticas en Go",
+      "summary": "Un artículo repasa las estructuras de datos probabilísticas en Go: filtros de Bloom, count-min sketch, HyperLogLog, t-digest y top-k sketch. Explica qué garantías ofrece cada una y cuándo conviene cambiar exactitud por memoria. Incluye el paquete unsure como implementación práctica.",
+      "why_it_matters": "Permite resolver problemas de escala con mucha menos memoria, un recurso útil más allá de la IA.",
+      "url": "https://antonz.org/probabilistic-data-structures",
+      "source": "Lobsters",
+      "social": {
+        "x": "A veces la respuesta correcta no es guardar todo, sino aceptar un 1 % de error. En Go hay un paquete que reúne filtros de Bloom, HyperLogLog y t-digest.\n\n#Go #Golang #HyperLogLog #BloomFilter\nhttps://antonz.org/probabilistic-data-structures",
+        "linkedin": "Hay un momento en que el cuello de botella deja de ser la base de datos y pasa a ser la memoria.\n\nFiltros de Bloom, count-min sketch, HyperLogLog, t-digest y top-k sketch responden a preguntas muy concretas (¿está esto?, ¿cuántos elementos únicos hay?, ¿dónde cae el percentil 99?) aceptando un margen de error a cambio de una fracción del espacio. Un artículo repasa qué garantías da cada una y apunta al paquete unsure como implementación práctica en Go.\n\nLa lectura profesional: 𝗹𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗱𝗶𝘀𝗲ñ𝗼 𝗻𝗼 𝗲𝘀 𝗾𝘂é 𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗲𝗹𝗶𝗴𝗲𝘀, 𝘀𝗶𝗻𝗼 𝗾𝘂é 𝗲𝗿𝗿𝗼𝗿 𝗽𝘂𝗲𝗱𝗲𝘀 𝘁𝗼𝗹𝗲𝗿𝗮𝗿. Si tu equipo nunca ha escrito ese número en ningún sitio, probablemente esté pagando memoria de más.\n\n#Go #Golang #HyperLogLog #BloomFilter\n\nhttps://antonz.org/probabilistic-data-structures"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "La salida de Huang pone en duda el compromiso de Nvidia con el open source",
+      "summary": "La dimisión de Jensen Huang al frente de Nvidia abre dudas sobre el rumbo de la compañía en open source. Están en juego la adquisición de Hugging Face, los modelos de pesos abiertos y su postura contra las restricciones a la exportación. El sector observa si el nuevo liderazgo mantiene esa línea.",
+      "why_it_matters": "Nvidia es pieza clave del ecosistema abierto de IA y un cambio de rumbo afectaría a muchos proyectos.",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Jensen Huang dimite al frente de Nvidia. ¿Seguirá la compañía comprando Hugging Face y liberando modelos de pesos abiertos?\n\n#Nvidia #HuggingFace #OpenSource #JensenHuang\nhttps://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question",
+        "linkedin": "La salida de Jensen Huang de Nvidia no es solo un cambio de CEO: es un riesgo para todo el ecosistema abierto de IA.\n\nLa compra de Hugging Face sigue en el aire, los modelos de pesos abiertos dependen de una estrategia que él defendía y su rechazo a las restricciones a la exportación era explícito. Si el nuevo liderazgo gira hacia lo cerrado, 𝗺𝗲𝗱𝗶𝗮 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮 𝗾𝘂𝗲 𝗵𝗼𝘆 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝘆𝗲 𝘀𝗼𝗯𝗿𝗲 𝗡𝘃𝗶𝗱𝗶𝗮 𝘁𝗲𝗻𝗱𝗿á 𝗾𝘂𝗲 𝗿𝗲𝗽𝗹𝗮𝗻𝘁𝗲𝗮𝗿 𝘀𝘂 𝗵𝗼𝗷𝗮 𝗱𝗲 𝗿𝘂𝘁𝗮. El sector no mira la silla vacía: mira qué se firma en ella.\n\n#Nvidia #HuggingFace #OpenSource #JensenHuang\n\nhttps://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Mozilla cierra Solo y borrará miles de webs el 30 de noviembre",
+      "summary": "Mozilla apaga Solo, su constructor y servicio de hosting de webs con LLM, y eliminará todos los sitios y datos el 30 de noviembre. Unas 54.000 personas usaron la herramienta para crear páginas con dominio propio y ahora tendrán que descargarlas y buscar otro alojamiento. La compañía deja a los usuarios sin plan de transición.",
+      "why_it_matters": "Recuerda el riesgo de depender de un servicio gratuito de IA: conviene exportar y tener copia propia.",
+      "url": "https://www.theregister.com/software/2026/11/13/mozilla-leaves-solo-website-owners-to-go-it-alone-as-hosting-shuts-down/5309632",
+      "source": "The Register",
+      "social": {
+        "x": "Mozilla apaga Solo y borrará unas 54.000 webs el 30 de noviembre. Sin plan de transición ni migración automática: o descargas tu sitio o desaparece.\n\n#Mozilla #Solo #Hosting #VendorLockIn\nhttps://www.theregister.com/software/2026/11/13/mozilla-leaves-solo-website-owners-to-go-it-alone-as-hosting-shuts-down/5309632",
+        "linkedin": "El 30 de noviembre, unas 54.000 webs dejarán de existir por decisión de su proveedor.\n\nMozilla cierra Solo, su constructor de páginas con LLM, y no ofrece plan de transición a quienes montaron ahí su dominio propio: solo queda descargar el sitio y buscar otro alojamiento. 𝗤𝘂𝗶𝗲𝗻 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝘆𝗲 𝘀𝗼𝗯𝗿𝗲 𝘂𝗻𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗴𝗿𝗮𝘁𝘂𝗶𝘁𝗮 𝗱𝗲 𝗜𝗔 𝗻𝗼 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮 𝘀𝘂 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮, y el día que el proveedor dice basta, el coste recae entero en el usuario. Si tienes proyectos en servicios así, exporta y guarda copia propia esta semana: el aviso puede llegar sin margen.\n\n#Mozilla #Solo #Hosting #VendorLockIn\n\nhttps://www.theregister.com/software/2026/11/13/mozilla-leaves-solo-website-owners-to-go-it-alone-as-hosting-shuts-down/5309632"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "La caída de Microsoft 365 expone la dependencia de una sola nube",
+      "summary": "La caída global de Microsoft 365 tumbó Outlook, Teams y Copilot durante más de un día y dejó a hospitales, escuelas y gobiernos sin servicios esenciales. La recuperación fue gradual y la compañía no descartó del todo un ciberataque en las primeras horas. Los expertos advierten de que la próxima vez puede ser peor.",
+      "why_it_matters": "Expone la fragilidad de concentrar servicios críticos en un único proveedor cloud.",
+      "url": "https://www.wired.com/story/the-microsoft-outage-is-a-warning-for-the-world",
+      "source": "Wired",
+      "social": {
+        "x": "Hospitales, escuelas y gobiernos se quedaron sin Outlook, Teams ni Copilot durante más de un día. Bastó con que fallara una sola nube.\n\n#Microsoft365 #CloudComputing #Outlook\nhttps://www.wired.com/story/the-microsoft-outage-is-a-warning-for-the-world",
+        "linkedin": "Más de 24 horas sin Outlook, Teams ni Copilot, y con hospitales, escuelas y gobiernos esperando respuesta.\n\nLa caída global de Microsoft 365 dejó servicios esenciales parados, la recuperación fue gradual y la compañía no descartó del todo un ciberataque en las primeras horas. El problema no es solo la duración, es lo que revela: 𝗹𝗮 𝗰𝗼𝗻𝘁𝗶𝗻𝘂𝗶𝗱𝗮𝗱 𝗱𝗲 𝗻𝗲𝗴𝗼𝗰𝗶𝗼 𝗻𝗼 𝗽𝘂𝗲𝗱𝗲 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗿 𝗱𝗲 𝘂𝗻 ú𝗻𝗶𝗰𝗼 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿, por muy grande que sea. Los equipos que hace dos años descartaron un plan B por coste tienen ahora un argumento mucho más caro que cualquier migración o redundancia, y la próxima caída puede coincidir con algo peor que un correo sin enviar.\n\n#Microsoft365 #CloudComputing #Outlook\n\nhttps://www.wired.com/story/the-microsoft-outage-is-a-warning-for-the-world"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "La IPO de Anthropic, seis veces sobresuscrita",
+      "summary": "La salida a bolsa de Anthropic está seis veces sobresuscrita y va camino de convertirse en la mayor oferta pública inicial de la historia. La demanda supera con creces las acciones disponibles. El resultado medirá el apetito del mercado por las empresas de IA.",
+      "why_it_matters": "Es el termómetro más claro del optimismo inversor que rodea a la IA.",
+      "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history",
+      "source": "The Decoder",
+      "social": {
+        "x": "La salida a bolsa de Anthropic está seis veces sobresuscrita. Si se cierra así, será la mayor IPO de la historia. Y todavía no ha empezado a cotizar.\n\n#Anthropic #IPO #InteligenciaArtificial\nhttps://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history",
+        "linkedin": "Seis veces sobresuscrita. La salida a bolsa de Anthropic no mide cuánto vale la empresa, sino cuánta hambre hay por la IA.\n\nCuando la demanda multiplica por seis las acciones disponibles, el precio deja de hablar del negocio y empieza a hablar de la expectativa. Si se cierra como parece, será 𝗹𝗮 𝗺𝗮𝘆𝗼𝗿 𝗜𝗣𝗢 𝗱𝗲 𝗹𝗮 𝗵𝗶𝘀𝘁𝗼𝗿𝗶𝗮 y un termómetro incómodo: la próxima corrección en modelos fundacionales se leerá antes en el parqué que en los benchmarks. Para quien invierte o compra IA, la referencia ya no es el producto, es el mercado.\n\n#Anthropic #IPO #InteligenciaArtificial\n\nhttps://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Herramienta de revisión de código de Alibaba que combina pipelines deterministas con un agente LLM para dejar comentarios precisos a nivel de línea. Incluye reglas para cazar fallos típicos (NPE, problemas de concurrencia, XSS, inyección SQL) y es compatible con OpenAI y Anthropic.",
+      "language": "Go",
+      "stars": 50398,
+      "social": {
+        "x": "Alibaba acaba de soltar la herramienta con la que revisa su propio código: comenta línea a línea y caza NPE, inyección SQL y XSS. 50k estrellas y compatible con OpenAI y Anthropic.\n\n#OpenSource #GitHub #Go #CodeReview\nhttps://github.com/alibaba/open-code-review",
+        "linkedin": "ALIBABA ACABA DE ABRIR EL REVISOR DE CÓDIGO QUE USA POR DENTRO.\n\nLas herramientas de revisión automática de pago te cobran por asiento y, demasiadas veces, te devuelven comentarios genéricos que nadie lee. Este repo va por otro camino: primero un pipeline determinista que aplica reglas, después un agente LLM que remata con comentarios a nivel de línea. Y ya lleva más de 50.000 estrellas.\n\n→ Reglas pensadas para fallos típicos: NPE, problemas de concurrencia, XSS e inyección SQL.\n→ El pipeline determinista filtra el ruido antes de que el modelo opine, que es justo lo que suele fallar en los revisores con LLM.\n→ Compatible con OpenAI y Anthropic: enchufa el modelo que ya tengas contratado.\n→ Escrito en Go, así que integrarlo en tu CI no debería doler.\n\n𝗟𝗼 𝗾𝘂𝗲 𝗺𝗮𝗿𝗰𝗮 𝗹𝗮 𝗱𝗶𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗲𝘀 𝗲𝗹 𝗼𝗿𝗱𝗲𝗻: 𝗿𝗲𝗴𝗹𝗮𝘀 𝗽𝗿𝗶𝗺𝗲𝗿𝗼, 𝗟𝗟𝗠 𝗱𝗲𝘀𝗽𝘂é𝘀. Sin esa primera pasada, cualquier agente acaba dejando veinte comentarios de estilo que tu equipo aprende a ignorar.\n\nSi revisas pull requests a mano cada día, guarda este post para probarlo esta semana. Te dejo el repo abajo.\n\n#OpenSource #GitHub #Go #CodeReview\n\nhttps://github.com/alibaba/open-code-review"
+      }
+    },
+    {
+      "name": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Servidor MCP que da a los agentes de código acceso a Chrome DevTools: inspeccionar el DOM, leer la consola, revisar peticiones de red o hacer capturas. Es la pieza que faltaba para que un agente depure en el navegador en lugar de ir a ciegas.",
+      "language": "TypeScript",
+      "stars": 55337,
+      "social": {
+        "x": "55.000 estrellas para el servidor MCP oficial de Chrome DevTools: tu agente ya puede leer la consola, inspeccionar el DOM y mirar la red en lugar de ir a ciegas.\n\n#MCP #ChromeDevTools #TypeScript #OpenSource\nhttps://github.com/ChromeDevTools/chrome-devtools-mcp",
+        "linkedin": "TU AGENTE DE CÓDIGO YA PUEDE DEPURAR DENTRO DEL NAVEGADOR. Y LO FIRMA EL EQUIPO DE CHROME DEVTOOLS.\n\nHasta ahora los agentes escribían código a ciegas: adivinaban el fallo leyendo el fuente, sin ver nunca qué pasaba en la pestaña del navegador. Este servidor MCP les abre Chrome DevTools y les da acceso a lo que de verdad importa cuando algo se rompe en el front.\n\n𝗘𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝘂𝗽𝗼𝗻𝗲𝗿: 𝗺𝗶𝗿𝗮 𝗹𝗼 𝗾𝘂𝗲 𝗼𝗰𝘂𝗿𝗿𝗲 𝗲𝗻 𝗹𝗮 𝗽á𝗴𝗶𝗻𝗮 𝘆 𝗮𝗰𝘁ú𝗮 𝘀𝗼𝗯𝗿𝗲 𝗲𝗹𝗹𝗼.\n\n→ Inspeccionar el DOM y comprobar el estado real de los elementos.\n→ Leer la consola y capturar los errores tal y como aparecen.\n→ Revisar las peticiones de red, con sus cabeceras y respuestas.\n→ Hacer capturas para verificar el resultado de un cambio.\n→ Todo en TypeScript y con el respaldo de más de 55.000 estrellas.\n\nSi trabajas con agentes de código a diario, esto cambia el bucle de depuración: menos idas y venidas, menos conjeturas y un contexto que antes había que reconstruir a mano. Guárdate el post para la próxima vez que un bug solo se reproduzca en el navegador. Te dejo el repo abajo.\n\n#MCP #ChromeDevTools #TypeScript #OpenSource\n\nhttps://github.com/ChromeDevTools/chrome-devtools-mcp"
+      }
+    },
+    {
+      "name": "backnotprop/plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "description": "Espacio de trabajo para no perder de vista a los agentes: planificar, anotar, revisar el código que generan y devolverles todo el feedback con un clic. Viene muy bien cuando llevas varios agentes en paralelo y se te escapa qué está haciendo cada uno.",
+      "language": "TypeScript",
+      "stars": 10354,
+      "social": {
+        "x": "Varios agentes en paralelo y ya no sabes qué hace cada uno. Este repo (10.354 estrellas) te deja planificar, anotar y devolver feedback con un clic.\n\n#plannotator #TypeScript #OpenSource #GitHub\nhttps://github.com/backnotprop/plannotator",
+        "linkedin": "VARIOS AGENTES EN PARALELO Y NI IDEA DE QUÉ ESTÁ HACIENDO CADA UNO.\n\nEse es el problema que resuelve plannotator, un repo en TypeScript con 10.354 estrellas: un espacio de trabajo para seguir a tus agentes sin perder el hilo.\n\nCasi todas las herramientas ponen el foco en generar código. Aquí el foco está en la parte que nadie cubre: 𝗿𝗲𝘃𝗶𝘀𝗮𝗿 𝗹𝗼 𝗾𝘂𝗲 𝗴𝗲𝗻𝗲𝗿𝗮 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝘆 𝗱𝗲𝘃𝗼𝗹𝘃𝗲𝗿𝗹𝗲 𝗲𝗹 𝗳𝗲𝗲𝗱𝗯𝗮𝗰𝗸 𝗲𝗻 𝗲𝗹 𝗺𝗶𝘀𝗺𝗼 𝘀𝗶𝘁𝗶𝗼.\n\n→ Planificas antes de que el agente se ponga a escribir\n→ Anotas sobre el plan y sobre el código generado\n→ Revisas los cambios sin saltar entre pestañas y terminales\n→ Devuelves todo el feedback con un clic\n\nSi llevas varios agentes a la vez, la diferencia entre controlar el trabajo y apagar fuegos está en cómo revisas, no en cómo generas.\n\nGuarda el post y échale un ojo al repo, lo tienes abajo.\n\n#plannotator #TypeScript #OpenSource #GitHub\n\nhttps://github.com/backnotprop/plannotator"
+      }
+    },
+    {
+      "name": "tradermonty/claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "description": "Colección de skills de Claude Code para inversores y traders: análisis de mercado, gráficos técnicos, calendarios económicos, screeners y desarrollo de estrategias. Un buen ejemplo de cómo empaquetar el flujo de trabajo de un sector concreto en skills reutilizables.",
+      "language": "Python",
+      "stars": 4015,
+      "social": {
+        "x": "Alguien ha metido el flujo de trabajo de un trader dentro de Claude Code: screeners, calendario económico y gráficos técnicos como skills reutilizables. 4.000 estrellas.\n\n#ClaudeCode #TradingSkills #OpenSource #Python\nhttps://github.com/tradermonty/claude-trading-skills",
+        "linkedin": "UN REPO CONVIERTE CLAUDE CODE EN UN ANALISTA DE TRADING. Y NO ES UN JUGUETE.\n\nLa mayoría usa el modelo para preguntar cosas sueltas y empezar de cero cada vez. Aquí el enfoque es otro: empaquetar el flujo de trabajo completo de un inversor en skills reutilizables, esas carpetas con instrucciones y scripts que Claude Code carga cuando hacen falta.\n\nEl resultado es que el contexto de tu oficio deja de vivir en tu cabeza y pasa a estar versionado en el repo.\n\n→ Análisis de mercado y gráficos técnicos\n→ Calendario económico para no operar a ciegas\n→ Screeners para filtrar candidatos antes de mirar velas\n→ Desarrollo y validación de estrategias\n\nTodo en Python, con 4.000 estrellas y la estructura a la vista. Aunque no inviertas, merece la pena leerlo como plantilla: el patrón se copia tal cual para tu propio sector.\n\n𝗟𝗮 𝗶𝗱𝗲𝗮 𝗾𝘂𝗲 𝗶𝗺𝗽𝗼𝗿𝘁𝗮: 𝗲𝗹 𝘃𝗮𝗹𝗼𝗿 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀𝘁á 𝗲𝗻 𝗰ó𝗺𝗼 𝗲𝗺𝗽𝗮𝗾𝘂𝗲𝘁𝗮𝘀 𝗲𝗹 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 𝗱𝗲 𝘁𝘂 𝗼𝗳𝗶𝗰𝗶𝗼.\n\nSi trabajas con datos, análisis o inversión, guarda este post. Te dejo el repo abajo.\n\n#ClaudeCode #TradingSkills #OpenSource #Python\n\nhttps://github.com/tradermonty/claude-trading-skills"
+      }
+    },
+    {
+      "name": "louislam/uptime-kuma",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "description": "Monitor de servicios self-hosted con una interfaz muy cuidada: vigila webs, APIs, puertos y certificados, y te avisa por Telegram, correo o webhook en cuanto algo se cae. Sigue siendo uno de los proyectos self-hosted más redondos para montar tu propio panel de estado.",
+      "language": "JavaScript",
+      "stars": 93742,
+      "social": {
+        "x": "93.742 estrellas y ni una suscripción: Uptime Kuma vigila tus webs, APIs y certificados en tu propio servidor y te avisa por Telegram en cuanto algo se cae.\n\n#UptimeKuma #SelfHosted #OpenSource #JavaScript\nhttps://github.com/louislam/uptime-kuma",
+        "linkedin": "EL MONITOR QUE TE HABRÍA AVISADO DE LA CAÍDA DEL SÁBADO.\n\nCasi todos los equipos empiezan pagando una cuota mensual por un panel de estado. Uptime Kuma hace lo mismo, pero en tu propio servidor: vigila webs, APIs, puertos y certificados, y te avisa por Telegram, correo o webhook en cuanto algo se cae. Con 93.742 estrellas, sigue siendo uno de los proyectos self-hosted más redondos que hay.\n\n→ Interfaz muy cuidada: se entiende en el primer minuto.\n→ Monitores HTTP, TCP, ping, DNS y de caducidad de certificados.\n→ Avisos por Telegram, correo, webhook y muchas integraciones más.\n→ Páginas de estado públicas para enseñar el uptime a tus clientes.\n→ Deploy con Docker en un par de comandos.\n\n𝗟𝗮 𝗱𝗶𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗻𝗼 𝗲𝘀 𝘀𝗼𝗹𝗼 𝗲𝗹 𝗽𝗿𝗲𝗰𝗶𝗼: 𝗹𝗼𝘀 𝗱𝗮𝘁𝗼𝘀 𝘆 𝗹𝗮𝘀 𝗮𝗹𝗲𝗿𝘁𝗮𝘀 𝘀𝗲 𝗾𝘂𝗲𝗱𝗮𝗻 𝗲𝗻 𝘁𝘂 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮.\n\nGuárdate el post. El día que algo se caiga, vas a querer tenerlo a mano. Te dejo el repo abajo.\n\n#UptimeKuma #SelfHosted #OpenSource #JavaScript\n\nhttps://github.com/louislam/uptime-kuma"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "TimeProvider en .NET 8: deja de depender de DateTime.UtcNow y escribe tests deterministas",
+      "url": "https://levelup.gitconnected.com/timeprovider-in-net-8-from-datetime-utcnow-to-deterministic-tests-with-faketimeprovider-d5fb7662e706?source=rss------programming-5",
+      "source": "Medium: Programming",
+      "summary": "Explica cómo inyectar el tiempo como una dependencia más con TimeProvider y FakeTimeProvider, en lugar de llamar directamente a DateTime.UtcNow por todo el código. Quien lo lee aprende a escribir tests reproducibles para cualquier lógica con fechas, plazos o expiraciones, y a quitar de en medio los fallos intermitentes que provoca el reloj del sistema. Útil para cualquier base de código en C# con reglas de negocio temporales.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Genera con un LLM el glosario de tu dominio y mejora lo que te responde",
+      "url": "https://martinfowler.com/bliki/GeneratedGlossary.html",
+      "source": "Martin Fowler",
+      "summary": "Cuando trabajas con vocabulario propio de una organización, el modelo no lo conoce y rinde peor en las tareas de ese dominio. La técnica consiste en pedir al propio LLM que produzca un glosario de términos y significados y dárselo como contexto en las siguientes peticiones. Aprendes un patrón sencillo y reutilizable para ganar precisión sin reentrenar nada.",
+      "tema": "ia"
+    },
+    {
+      "title": "Schema drift y semantic drift: los dos fallos silenciosos de tus pipelines de datos",
+      "url": "https://www.freecodecamp.org/news/schema-drift-vs-semantic-drift-in-data-pipelines",
+      "source": "freeCodeCamp",
+      "summary": "Distingue entre un cambio de esquema, que suele romper la ejecución y se detecta pronto, y un cambio de significado: el campo conserva nombre y tipo pero ya no mide lo mismo. Aprendes por qué el segundo es más peligroso y qué comprobaciones conviene añadir para cazarlo antes de que llegue a los informes y a las decisiones.",
+      "tema": "datos"
+    },
+    {
+      "title": "Separa el dominio de usuario del de contenido: el truco que blinda tu plataforma",
+      "url": "https://levelup.gitconnected.com/the-domain-separation-trick-that-could-save-your-platform-863b194a0b94?source=rss------web_development-5",
+      "source": "Medium: Web Development",
+      "summary": "El artículo parte de ejemplos conocidos (github.com frente a github.io) para explicar por qué conviene servir el contenido generado por usuarios desde un dominio distinto. Aprendes cómo se aíslan cookies y sesiones, qué riesgos desaparecen y cómo plantear la separación sin estropear la experiencia de quien usa la plataforma.",
+      "tema": "web"
+    },
+    {
+      "title": "Cuatro preguntas antes de meter IA en tu producto",
+      "url": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams",
+      "source": "Smashing Magazine",
+      "summary": "Propone una auditoría breve para decidir si una función de IA aporta de verdad o solo traslada el trabajo al usuario, que acaba comprobando la salida. Aprendes a valorar el coste de verificación, el tiempo que se ahorra de verdad y qué señales indican que la función no compensa. Práctico para equipos de producto y diseño que discuten el roadmap.",
+      "tema": "diseno"
+    },
+    {
+      "title": "Corrección del software y seguridad de la cadena de suministro, sin humo sobre IA",
+      "url": "https://newsletter.pragmaticengineer.com/p/software-correctness",
+      "source": "The Pragmatic Engineer",
+      "summary": "Conversación larga sobre los fundamentos que siguen decidiendo si un sistema es fiable: corrección, dependencias, cadena de suministro y hábitos de ingeniería. Sirve para recuperar criterio técnico cuando casi todo se discute en términos de herramientas de IA, y para revisar qué prácticas conviene reforzar en tu equipo.",
+      "tema": "arquitectura"
+    }
+  ]
+}
