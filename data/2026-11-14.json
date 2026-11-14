@@ -1,0 +1,364 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T16:35:30.303Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Claude Code Projects estrena el trabajo con varios agentes en paralelo",
+      "summary": "Anthropic ha rediseñado los proyectos de Claude y los ofrece en beta dentro de Claude Code para repartir una misma tarea entre varios agentes que trabajan a la vez. Cada worker se ocupa de una parte del trabajo mientras el proyecto mantiene el contexto compartido.",
+      "why_it_matters": "Permite exprimir el trabajo en paralelo sin salir del flujo habitual de Claude Code.",
+      "url": "https://claude.com/resources/articles/projects-redesigned",
+      "source": "Hacker News",
+      "social": {
+        "x": "El cuello de botella ya no es el modelo: es cuántas cosas puede hacer a la vez. Claude Code ya reparte una misma tarea entre varios agentes en paralelo.\n\n#ClaudeCode #Anthropic #DevTools\nhttps://claude.com/resources/articles/projects-redesigned",
+        "linkedin": "El límite de un agente ya no es lo que sabe, sino cuántas cosas hace a la vez.\nAnthropic ha rediseñado los proyectos de Claude y los lleva a Claude Code en beta: una misma tarea se reparte entre varios workers que avanzan en paralelo mientras el proyecto mantiene el contexto compartido. 𝗘𝗹 𝗰𝗮𝗺𝗯𝗶𝗼 𝗱𝗲 𝗳𝗼𝗻𝗱𝗼 𝗲𝘀 𝗾𝘂𝗲 𝗲𝗹 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘃𝗶𝘃𝗶𝗿 𝗲𝗻 𝗹𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝗰𝗶ó𝗻 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘃𝗶𝘃𝗶𝗿 𝗲𝗻 𝗲𝗹 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼, y eso es lo que hace viable el paralelismo sin que los agentes se pisen entre ellos. Para quien ya tiene Claude Code metido en el flujo diario, la pregunta ya no es si paralelizar, sino cuánto trabajo merece la pena trocear.\n\n#ClaudeCode #Anthropic #DevTools\n\nhttps://claude.com/resources/articles/projects-redesigned"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Perplexity publica Decider v1.3 y Decider Flash v1.3 con pesos abiertos",
+      "summary": "Perplexity lanza Decider v1.3 y su versión destilada Decider Flash v1.3, dos modelos de clasificación que admiten etiquetas ordenadas o sin orden. Están en Hugging Face con licencia Apache, en OpenRouter y en la API de Decisions, y el post detalla entrenamiento, evaluación y costes.",
+      "why_it_matters": "Da a cualquiera un clasificador pequeño y barato para enrutar o etiquetar datos sin depender de un modelo enorme.",
+      "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "source": "Hacker News",
+      "social": {
+        "x": "El modelo más útil que ha publicado Perplexity esta semana no escribe texto: clasifica. Y los pesos están abiertos en Hugging Face.\n\n#Perplexity #OpenSource #HuggingFace #LLM\nhttps://www.perplexity.ai/hub/blog/perplexity-decider",
+        "linkedin": "El modelo más útil que ha publicado Perplexity no escribe texto: clasifica. Y los pesos son abiertos.\nDecider v1.3 y Decider Flash v1.3 etiquetan datos con o sin orden, bajo licencia Apache, y ya están en Hugging Face, OpenRouter y la API de Decisions. 𝗘𝗻𝗿𝘂𝘁𝗮𝗿 𝘆 𝗲𝘁𝗶𝗾𝘂𝗲𝘁𝗮𝗿 𝗲𝘀 𝗹𝗮 𝗺𝗶𝘁𝗮𝗱 𝗱𝗲𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗿𝗲𝗮𝗹 𝗱𝗲 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗱𝗲 𝗜𝗔, y hacerlo con un modelo pequeño en lugar de uno enorme cambia la factura y la latencia. Para quien monta pipelines de datos, la pregunta deja de ser qué modelo grande uso y pasa a ser cuántas tareas puedo resolver con uno pequeño.\n\n#Perplexity #OpenSource #HuggingFace #LLM\n\nhttps://www.perplexity.ai/hub/blog/perplexity-decider"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "Unsloth actualiza sus cuantizaciones dinámicas para Qwen3.8, incluido el 27B",
+      "summary": "Unsloth publica la revisión v3.1 de sus cuantizaciones dinámicas para la familia Qwen3.8 y una guía para ejecutar el modelo de 27B en local. De paso anuncia Unsloth Desktop, una app de escritorio para correr y entrenar modelos sin preparar el entorno a mano.",
+      "why_it_matters": "Baja el listón de hardware para probar un modelo de 27B en tu propia máquina.",
+      "url": "https://unsloth.ai/docs/models/qwen3.8",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un modelo de 27B corriendo en tu propio portátil. Unsloth acaba de publicar las cuantizaciones de Qwen3.8 que bajan el listón de hardware.\n\n#Unsloth #Qwen #OpenSource #LLM\nhttps://unsloth.ai/docs/models/qwen3.8",
+        "linkedin": "Correr un modelo de 27B en local ya no es un ejercicio de paciencia ni de comprar hardware a lo tonto.\n\nUnsloth publica la revisión v3.1 de sus cuantizaciones dinámicas para Qwen3.8, con guía incluida para mover el 27B en tu máquina, y anuncia Unsloth Desktop: 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗿 𝘆 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗿 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝘀𝗶𝗻 𝗽𝗿𝗲𝗽𝗮𝗿𝗮𝗿 𝗲𝗹 𝗲𝗻𝘁𝗼𝗿𝗻𝗼 𝗮 𝗺𝗮𝗻𝗼. La lectura profesional es clara: cada vez que baja la barrera de hardware, se amplía quién puede experimentar sin depender de una API. Si tu equipo descartó lo local por fricción, ahora toca volver a hacer números.\n\n#Unsloth #Qwen #OpenSource #LLM\n\nhttps://unsloth.ai/docs/models/qwen3.8"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "ChatGPT Wallet deja que los agentes Dots compren por ti",
+      "summary": "OpenAI estrena ChatGPT Wallet para suscriptores Pro en Estados Unidos: se asocia una tarjeta y los agentes Dots pueden usarla para comprar a partir de un prompt. Los datos de la tarjeta quedan detrás de tokens de pago y el agente pide confirmación antes de cada compra.",
+      "why_it_matters": "Es el primer paso real de los agentes de IA hacia pagos cotidianos, con el usuario como última barrera.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "source": "The Verge",
+      "social": {
+        "x": "OpenAI acaba de darle tarjeta a sus agentes. Asocias la tuya en ChatGPT, lanzas un prompt y Dots compra por ti. Solo Pro, solo en EE. UU. y con tu OK antes de cada pago.\n\n#OpenAI #ChatGPT #Dots\nhttps://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+        "linkedin": "Los datos de tu tarjeta ya no son solo tuyos: los agentes empiezan a gastarla.\n\nChatGPT Wallet llega a los suscriptores Pro de EE. UU. y deja que los agentes Dots compren a partir de un prompt, con los datos guardados detrás de tokens de pago y una confirmación del usuario antes de cada operación. 𝗘𝗹 𝗳𝗿𝗲𝗻𝗼 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘁é𝗰𝗻𝗶𝗰𝗼, 𝗲𝘀 𝗱𝗲 𝗰𝗼𝗻𝗳𝗶𝗮𝗻𝘇𝗮: el usuario queda como última barrera, y todo el modelo se sostiene sobre que esa barrera no acabe convertida en un clic automático. Para quien construye producto, la pregunta deja de ser si los agentes pueden pagar y pasa a ser quién responde cuando se equivoquen.\n\n#OpenAI #ChatGPT #Dots\n\nhttps://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Gemini se conecta a las cuentas bancarias para analizar gastos",
+      "summary": "Google permite enlazar cuentas bancarias con Gemini, de forma que el asistente puede revisar el gasto y responder preguntas sobre él. La función está limitada al análisis: no sirve para mover dinero ni para autorizar pagos.",
+      "why_it_matters": "Acerca los asistentes conversacionales a las finanzas personales, aunque de momento solo en modo consulta.",
+      "url": "https://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts",
+      "source": "Engadget",
+      "social": {
+        "x": "Gemini ya puede mirar dentro de tu cuenta bancaria y decirte en qué se te va el dinero. Todavía no puede moverlo, pero ya está dentro.\n\n#Gemini #Google #Fintech #OpenBanking\nhttps://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts",
+        "linkedin": "El asistente que revisa tus gastos ya no es una app de finanzas: es Gemini.\n\nGoogle permite enlazar cuentas bancarias al asistente para que analice el gasto y responda preguntas sobre él, con un límite claro: 𝘀𝗼𝗹𝗼 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮, 𝗻𝗼 𝗽𝘂𝗲𝗱𝗲 𝗺𝗼𝘃𝗲𝗿 𝗱𝗶𝗻𝗲𝗿𝗼 𝗻𝗶 𝗮𝘂𝘁𝗼𝗿𝗶𝘇𝗮𝗿 𝗽𝗮𝗴𝗼𝘀. Ese límite es precisamente lo que hace viable el movimiento: sin permiso de ejecución, el riesgo de una alucinación se queda en un dato mal leído y no en una transferencia. Para la banca, el terreno que se abre es el de la interfaz: si el asistente responde «¿cuánto gasté en restaurantes?» mejor que la app del banco, la app del banco deja de ser el sitio donde se consulta el dinero.\n\n#Gemini #Google #Fintech #OpenBanking\n\nhttps://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Runway abre Praxis-1, un modelo de vídeo reconvertido en controlador de robots",
+      "summary": "Runway publica Praxis-1 con pesos y código bajo licencia Apache 2.0: un modelo que reutiliza conocimiento aprendido de vídeo para controlar robots. Lidera la categoría World Action Model del benchmark RoboLab-120 de Nvidia, aunque todavía no planifica secuencias de acciones complejas por su cuenta.",
+      "why_it_matters": "Pone al alcance de cualquier laboratorio un modelo abierto de control robótico entrenado con vídeo.",
+      "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller",
+      "source": "The Decoder"
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Claude for Manufacturing enchufa la IA al software de fábrica",
+      "summary": "Anthropic lanza un plugin de Claude para entornos industriales que se conecta a Autodesk Fusion, Oracle NetSuite e Infor. Sus 17 skills permiten redactar presupuestos, comparar proveedores o lanzar pedidos de respaldo ante un retraso, siempre con aprobación humana y sin tocar todavía maquinaria física.",
+      "why_it_matters": "Muestra cómo un modelo generalista se integra en procesos industriales concretos en vez de quedarse en el chat.",
+      "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows",
+      "source": "The Decoder",
+      "social": {
+        "x": "Claude ya redacta presupuestos de fábrica y lanza pedidos de respaldo en tu ERP. Lo que todavía no toca: la maquinaria.\n\n#Anthropic #Claude #Autodesk #NetSuite\nhttps://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows",
+        "linkedin": "El primer sitio donde la IA va a entrar en una fábrica no es el brazo robótico: es el presupuesto.\n\nAnthropic lanza Claude for Manufacturing, un plugin con 17 skills que se conecta a Autodesk Fusion, Oracle NetSuite e Infor para redactar presupuestos, comparar proveedores o lanzar pedidos de respaldo cuando un suministro llega tarde. Todo pasa por aprobación humana y nada toca aún maquinaria física. La lectura profesional: 𝗲𝗹 𝘃𝗮𝗹𝗼𝗿 𝗶𝗻𝗺𝗲𝗱𝗶𝗮𝘁𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗽𝗮𝗽𝗲𝗹𝗲𝗼 𝗶𝗻𝗱𝘂𝘀𝘁𝗿𝗶𝗮𝗹, 𝗻𝗼 𝗲𝗻 𝗹𝗮 𝗽𝗹𝗮𝗻𝘁𝗮, y quien tenga CAD y ERP bien integrados parte con una ventaja complicada de replicar.\n\n#Anthropic #Claude #Autodesk #NetSuite\n\nhttps://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "Samsung copia la memoria de Pixel en One UI 9.5",
+      "summary": "One UI 9.5 incluiría una app de memoria parecida a Pixel Screenshots, capaz de reunir información repartida entre aplicaciones y servicios del teléfono. Samsung se suma así a Google y Apple en convertir el asistente en una capa que recuerda el contexto del usuario.",
+      "why_it_matters": "La memoria del sistema se consolida como la función de IA más pegada al uso diario del móvil.",
+      "url": "https://www.engadget.com/2316348/samsung-one-ui-9-5-feature-memory-app-from-pixel-playbook",
+      "source": "Engadget",
+      "social": {
+        "x": "El móvil quiere recordarlo todo por ti. Samsung se suma a Google y Apple con una app de memoria en One UI 9.5 que reúne lo que hoy está repartido entre apps.\n\n#Samsung #OneUI #PixelScreenshots #Android\nhttps://www.engadget.com/2316348/samsung-one-ui-9-5-feature-memory-app-from-pixel-playbook",
+        "linkedin": "El asistente deja de ser una app y pasa a ser una capa que recuerda por ti. Samsung prepara en One UI 9.5 una app de memoria al estilo de Pixel Screenshots: recoge información repartida entre aplicaciones y servicios del teléfono y la coloca en un mismo sitio.\n\nLo relevante no es la copia, sino el patrón: Google, Apple y ahora Samsung coinciden en que 𝗹𝗮 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗱𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗲𝘀 𝗹𝗮 𝗳𝘂𝗻𝗰𝗶ó𝗻 𝗱𝗲 𝗜𝗔 𝗺á𝘀 𝗽𝗲𝗴𝗮𝗱𝗮 𝗮𝗹 𝘂𝘀𝗼 𝗱𝗶𝗮𝗿𝗶𝗼, mucho más que cualquier chatbot. Y eso mueve el campo de batalla: gana quien guarde mejor el contexto del usuario, no quien tenga el mejor modelo. La pregunta incómoda para los equipos de producto es cuánta confianza van a pedir a cambio.\n\n#Samsung #OneUI #PixelScreenshots #Android\n\nhttps://www.engadget.com/2316348/samsung-one-ui-9-5-feature-memory-app-from-pixel-playbook"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Cómo servir GLM-5.3 a 607,8 tokens por segundo con dos DGX Station",
+      "summary": "Nvidia detalla el montaje para repartir GLM-5.3 entre dos DGX Station unidas por RDMA ConnectX-8 y servirlo con vLLM a 607,8 tokens por segundo. El artículo explica la configuración cuando los pesos de un modelo frontera ya no caben en una sola máquina.",
+      "why_it_matters": "Es una receta concreta para quien quiera servir modelos grandes en local sin recurrir a la nube.",
+      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
+      "source": "Hacker News",
+      "social": {
+        "x": "Dos máquinas y 607,8 tokens por segundo. Nvidia enseña a repartir GLM-5.3 entre dos DGX Station cuando el modelo ya no cabe en una sola.\n\n#vLLM #Nvidia #GLM53 #DGXStation\nhttps://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
+        "linkedin": "Llegó el momento en que un modelo frontera no cabe en una sola máquina, y la respuesta de Nvidia es unir dos.\n\nSu montaje reparte GLM-5.3 entre dos DGX Station conectadas por RDMA ConnectX-8 y lo sirve con vLLM a 607,8 tokens por segundo, con la configuración explicada paso a paso. Lo relevante no es la cifra: es que 𝘀𝗲𝗿𝘃𝗶𝗿 𝘂𝗻 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗲𝘀𝘁𝗲 𝘁𝗮𝗺𝗮ñ𝗼 𝗲𝗻 𝗹𝗼𝗰𝗮𝗹 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁𝗼 𝗱𝗲 𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗼𝗿𝗶𝗼 y pasa a ser una receta replicable. Para cualquier equipo que hoy paga inferencia en la nube por falta de alternativas, la conversación sobre el coste y la soberanía del dato cambia de base.\n\n#vLLM #Nvidia #GLM53 #DGXStation\n\nhttps://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "La IA descifra los cuadernos de Gödel y saca a la luz cientos de teoremas",
+      "summary": "Un equipo ha usado IA para desentrañar las 1.009 páginas de cuadernos que Kurt Gödel dejó escritas en buena parte con una taquigrafía en desuso. El trabajo sostiene que ahí se esconden cientos de teoremas ya demostrados que nadie había identificado.",
+      "why_it_matters": "Sugiere que la IA puede recuperar matemáticas perdidas que llevaban décadas inaccesibles para los especialistas.",
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "source": "Hacker News",
+      "social": {
+        "x": "Gödel dejó 1.009 páginas en taquigrafía que casi nadie sabía leer. Una IA acaba de encontrar ahí dentro cientos de teoremas ya demostrados.\n\n#Gödel #Matemáticas #InteligenciaArtificial\nhttps://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+        "linkedin": "Kurt Gödel dejó 1.009 páginas de cuadernos y durante décadas casi nadie ha podido leerlas.\n\nBuena parte está escrita en una taquigrafía en desuso, justo el tipo de barrera que deja material inédito pudriéndose en un archivo. Un equipo ha usado IA para descifrarlas y sostiene que ahí dentro hay 𝗰𝗶𝗲𝗻𝘁𝗼𝘀 𝗱𝗲 𝘁𝗲𝗼𝗿𝗲𝗺𝗮𝘀 𝘆𝗮 𝗱𝗲𝗺𝗼𝘀𝘁𝗿𝗮𝗱𝗼𝘀 𝗾𝘂𝗲 𝗻𝗮𝗱𝗶𝗲 𝗵𝗮𝗯í𝗮 𝗶𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗰𝗮𝗱𝗼. Lo interesante no es solo el hallazgo, sino el método: si la IA puede reconstruir matemáticas que llevaban décadas inaccesibles para los especialistas, los cuadernos de otros matemáticos dejan de ser un callejón sin salida. Para quien trabaja con corpus difíciles o documentación histórica, esto marca por dónde va a ir la cosa.\n\n#Gödel #Matemáticas #InteligenciaArtificial\n\nhttps://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "Amazon quiere indexar todos los productos que se venden en internet",
+      "summary": "Según Reuters, Amazon prepara un proyecto llamado World Product Graph para reunir datos de cualquier producto a la venta en la red, incluso de los que no comercializa, y ofrecerlos en su propia web. La idea es que el comprador, o un agente de IA, no salga de Amazon para comparar.",
+      "why_it_matters": "Define la próxima batalla del comercio: quién controla el catálogo al que consultan los agentes.",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "source": "The Verge",
+      "social": {
+        "x": "El catálogo al que consultarán los agentes de IA no lo va a controlar Google. Amazon prepara World Product Graph para indexar todo lo que se vende online, incluso lo de otras tiendas.\n\n#Amazon #WorldProductGraph #AgentesIA\nhttps://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+        "linkedin": "El catálogo al que consultarán los agentes de IA no lo va a controlar Google.\n\nAmazon prepara World Product Graph, un proyecto para reunir datos de cualquier producto a la venta en internet, incluidos los que no vende, y ofrecerlos en su propia web. La jugada es clara: si tú o tu agente de IA comparáis dentro de Amazon, la tienda se queda el tráfico y la decisión de compra. 𝗤𝘂𝗶𝗲𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗲 𝗲𝗹 𝗰𝗮𝘁á𝗹𝗼𝗴𝗼 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮 𝗹𝗮 𝗽𝗿ó𝘅𝗶𝗺𝗮 𝗰𝗮𝗽𝗮 𝗱𝗲𝗹 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗼, y eso afecta tanto a las marcas como a las tiendas que hoy dependen de Google.\n\n#Amazon #WorldProductGraph #AgentesIA\n\nhttps://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "herramientas",
+      "title": "Node.js mete debounce, throttle y lectura de PKCS#12 en el core",
+      "summary": "Node.js 26.10.0 añade util.debounce(), util.throttle() y util.markPromiseAsHandled() a la librería estándar, además de crypto.parsePKCS12() para leer bundles .p12 y .pfx. La versión experimental del Virtual File System se extiende a node:ffi y la rama 26 ya es Active LTS.",
+      "why_it_matters": "Recorta dependencias de usuario en tareas que casi todo el mundo acababa resolviendo con paquetes externos.",
+      "url": "https://www.infoq.com/news/2026/11/nodejs-debounce-throttle",
+      "source": "InfoQ",
+      "social": {
+        "x": "Node.js 26.10 deja de necesitar paquetes externos para tres cosas que todos acabábamos instalando: debounce, throttle y lectura de bundles .p12.\n\n#NodeJS #JavaScript #OpenSource\nhttps://www.infoq.com/news/2026/11/nodejs-debounce-throttle",
+        "linkedin": "Ya no hace falta instalar nada para escribir un debounce en Node.js.\n\nLa versión 26.10.0 mete util.debounce(), util.throttle() y util.markPromiseAsHandled() en la librería estándar, y añade crypto.parsePKCS12() para leer .p12 y .pfx sin dependencias externas. La rama 26 ya es Active LTS, así que esto llega al terreno de producción más pronto que tarde. 𝗖𝗮𝗱𝗮 𝘂𝘁𝗶𝗹𝗶𝗱𝗮𝗱 𝗾𝘂𝗲 𝗲𝗻𝘁𝗿𝗮 𝗲𝗻 𝗲𝗹 𝗰𝗼𝗿𝗲 𝗲𝘀 𝘂𝗻𝗮 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮 𝗺𝗲𝗻𝗼𝘀 𝗲𝗻 𝗲𝗹 á𝗿𝗯𝗼𝗹, 𝗽𝗲𝗿𝗼 𝘁𝗮𝗺𝗯𝗶é𝗻 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗱𝗶𝘀𝗲ñ𝗼 𝗾𝘂𝗲 𝘀𝗲 𝗰𝗼𝗻𝗴𝗲𝗹𝗮 𝗽𝗮𝗿𝗮 𝘀𝗶𝗲𝗺𝗽𝗿𝗲: conviene revisar si esos paquetes que arrastras siguen aportando algo o solo peso.\n\n#NodeJS #JavaScript #OpenSource\n\nhttps://www.infoq.com/news/2026/11/nodejs-debounce-throttle"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "herramientas",
+      "title": "DocumentDB 1.0 llega a disponibilidad general",
+      "summary": "DocumentDB alcanza su versión 1.0 como base de datos documental open source con licencia MIT, construida sobre PostgreSQL y compatible con el protocolo de MongoDB. La mayoría de drivers, herramientas y consultas funcionan sin cambios.",
+      "why_it_matters": "Abre una alternativa con licencia permisiva para quien quiera compatibilidad MongoDB fuera del ecosistema oficial.",
+      "url": "https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb",
+      "source": "InfoQ",
+      "social": {
+        "x": "MongoDB sin MongoDB: DocumentDB llega a la 1.0 con licencia MIT, sobre PostgreSQL y hablando el protocolo de Mongo. Tus drivers siguen funcionando.\n\n#DocumentDB #PostgreSQL #MongoDB #OpenSource\nhttps://www.infoq.com/news/2026/11/mongodb-compatible-documentdb",
+        "linkedin": "El protocolo de MongoDB ya no pertenece solo a MongoDB. DocumentDB acaba de llegar a la 1.0 con licencia MIT, construida sobre PostgreSQL y 𝗰𝗼𝗺𝗽𝗮𝘁𝗶𝗯𝗹𝗲 𝗰𝗼𝗻 𝗹𝗼𝘀 𝗱𝗿𝗶𝘃𝗲𝗿𝘀 𝘆 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 𝗱𝗲 𝗠𝗼𝗻𝗴𝗼 𝘀𝗶𝗻 𝘁𝗼𝗰𝗮𝗿 𝘂𝗻𝗮 𝗹í𝗻𝗲𝗮. Para quien descartó MongoDB por su licencia SSPL, esto abre una vía real: la compatibilidad deja de ser la excusa y la decisión pasa a depender de la madurez operativa del proyecto, no del contrato. Dicho lo cual, llegar a la 1.0 no es lo mismo que llevar cinco años en producción.\n\n#DocumentDB #PostgreSQL #MongoDB #OpenSource\n\nhttps://www.infoq.com/news/2026/11/mongodb-compatible-documentdb"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "herramientas",
+      "title": "La API de Compute Engine pasa a versiones inmutables por fecha",
+      "summary": "Google Cloud generaliza el versionado por fecha en la API de Compute Engine, con instantáneas trimestrales tipo 2026-09-01 que se eligen por cabecera o parámetro. Los cambios de valores por defecto, formato de errores o comprobaciones de IAM dejan de afectar a quien sigue llamando a /v1.",
+      "why_it_matters": "Evita que una actualización silenciosa rompa infraestructura automatizada, un problema clásico en las APIs cloud.",
+      "url": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning",
+      "source": "InfoQ",
+      "social": {
+        "x": "La próxima actualización silenciosa de tu API cloud tiene los días contados: Compute Engine pasa a versiones inmutables por fecha.\n\n#GoogleCloud #ComputeEngine #Terraform\nhttps://www.infoq.com/news/2026/11/compute-engine-api-versioning",
+        "linkedin": "Durante años, actualizar una API cloud ha sido una lotería: rezas para que la actualización silenciosa no te rompa nada en producción.\n\nGoogle Cloud generaliza el versionado por fecha en la API de Compute Engine: cada instantánea trimestral (tipo 2026-09-01) se elige por cabecera o parámetro y 𝗰𝗼𝗻𝗴𝗲𝗹𝗮 𝗹𝗼𝘀 𝘃𝗮𝗹𝗼𝗿𝗲𝘀 𝗽𝗼𝗿 𝗱𝗲𝗳𝗲𝗰𝘁𝗼, 𝗲𝗹 𝗳𝗼𝗿𝗺𝗮𝘁𝗼 𝗱𝗲 𝗲𝗿𝗿𝗼𝗿𝗲𝘀 𝘆 𝗹𝗮𝘀 𝗰𝗼𝗺𝗽𝗿𝗼𝗯𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗱𝗲 𝗜𝗔𝗠. Quien sigue llamando a /v1 no se entera de los cambios hasta que quiere.\n\nPara los equipos que mantienen Terraform, scripts y pipelines contra esa API, es la diferencia entre dormir y no dormir. El coste tiene un nombre: alguien tiene que decidir cuándo saltar de versión, y ese trabajo pasa a ser explícito en lugar de sorpresa de madrugada. Es justo el tipo de aburrimiento que una plataforma debería vender más.\n\n#GoogleCloud #ComputeEngine #Terraform\n\nhttps://www.infoq.com/news/2026/11/compute-engine-api-versioning"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "herramientas",
+      "title": "SteamOS en una máquina virtual sobre tu Mac con Apple Silicon",
+      "summary": "Una aplicación gratuita permite arrancar SteamOS en una máquina virtual sobre Macs con Apple Silicon. Con ella se pueden ejecutar juegos de PC y títulos antiguos que de otro modo no correrían en el equipo.",
+      "why_it_matters": "Da una vía sencilla para jugar en Mac sin instalar nada de forma nativa ni comprar hardware adicional.",
+      "url": "https://www.wired.com/story/get-steamos-easily-running-on-your-mac",
+      "source": "Wired",
+      "social": {
+        "x": "Tu Mac con Apple Silicon puede arrancar SteamOS esta misma tarde. Sin comprar hardware y sin instalar nada de forma nativa.\n\n#SteamOS #AppleSilicon #MacGaming #Steam\nhttps://www.wired.com/story/get-steamos-easily-running-on-your-mac",
+        "linkedin": "SteamOS deja de ser territorio exclusivo de las consolas portátiles: una app gratuita lo levanta en una máquina virtual sobre Macs con Apple Silicon.\n\nEl resultado es acceso directo a juegos de PC y a títulos antiguos que nunca llegaron a macOS, sin un segundo equipo en el escritorio. Para quien ya trabaja en un Mac, 𝗹𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗲𝗹 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝗹𝗮 𝘃𝗶𝗿𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗰𝗶ó𝗻, que se cobra su peaje en fps. Es la vía más cómoda para probar el catálogo de Steam, siempre que no esperes la experiencia de una consola dedicada.\n\n#SteamOS #AppleSilicon #MacGaming #Steam\n\nhttps://www.wired.com/story/get-steamos-easily-running-on-your-mac"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Huellas de GPU Blackwell en los mejores modelos chinos pese a los controles",
+      "summary": "Un informe forense difundido por un exingeniero de OpenAI encuentra rastros del hardware Blackwell de Nvidia en modelos de DeepSeek, Moonshot AI, MiniMax y Ant Group. Según el análisis, esos laboratorios habrían entrenado con chips afectados por los controles de exportación estadounidenses.",
+      "why_it_matters": "Pone en duda la eficacia de los controles de exportación como freno al desarrollo de modelos frontera en China.",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/13/chinese-ai-labs-are-training-models-on-nvidias-blackwell-despite-export-controls-says-ex-openai-engineer/5309891",
+      "source": "The Register",
+      "social": {
+        "x": "Los mejores modelos chinos llevan dentro la huella de chips que EE. UU. prohibió vender a China. Un análisis forense los encuentra en DeepSeek, Moonshot, MiniMax y Ant.\n\n#Nvidia #Blackwell #DeepSeek #GPU\nhttps://www.theregister.com/ai-and-ml/2026/11/13/chinese-ai-labs-are-training-models-on-nvidias-blackwell-despite-export-controls-says-ex-openai-engineer/5309891",
+        "linkedin": "Los modelos frontera chinos no se entrenaron con el hardware que todos asumíamos.\n\nUn exingeniero de OpenAI ha difundido un análisis forense que detecta rastros de GPU Blackwell de Nvidia en modelos de DeepSeek, Moonshot AI, MiniMax y Ant Group, justo el hardware golpeado por los controles de exportación estadounidenses. Si el informe se sostiene, 𝗹𝗼𝘀 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗲𝘀 𝗱𝗲 𝗲𝘅𝗽𝗼𝗿𝘁𝗮𝗰𝗶ó𝗻 𝗱𝗲𝗷𝗮𝗻 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗳𝗿𝗲𝗻𝗼 𝗿𝗲𝗮𝗹 𝗮𝗹 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗼 𝗱𝗲 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗳𝗿𝗼𝗻𝘁𝗲𝗿𝗮 y pasan a ser un trámite que se rodea con relativa facilidad. Para quien planifica infraestructura o compra cómputo, la pregunta ya no es cuánto hardware hay en China, sino por dónde está entrando.\n\n#Nvidia #Blackwell #DeepSeek #GPU\n\nhttps://www.theregister.com/ai-and-ml/2026/11/13/chinese-ai-labs-are-training-models-on-nvidias-blackwell-despite-export-controls-says-ex-openai-engineer/5309891"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "OpenAI disuelve otra vez su equipo de robótica",
+      "summary": "OpenAI reparte entre otros equipos a los investigadores de su unidad independiente de robótica, que desaparece por segunda vez. La compañía argumenta que modelos generalistas como GPT-6 Astra pueden controlar robots directamente, lo que haría innecesaria una unidad dedicada.",
+      "why_it_matters": "Si el control robótico sale de modelos generales, cambia el mapa de quién compite en robótica con IA.",
+      "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary",
+      "source": "The Decoder",
+      "social": {
+        "x": "Por segunda vez, OpenAI ha disuelto su equipo de robótica. Su argumento: GPT-6 Astra ya controla robots, así que la unidad sobra.\n\n#OpenAI #Robótica #GPT6\nhttps://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary",
+        "linkedin": "OpenAI ha disuelto su equipo de robótica por segunda vez, y esta vez el argumento es más incómodo que el de 2021: sus modelos generalistas ya controlan robots.\n\nLa compañía reparte a los investigadores entre otros equipos y sostiene que GPT-6 Astra puede manejar hardware robótico directamente, sin una unidad dedicada. 𝗦𝗶 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗿𝗼𝗯ó𝘁𝗶𝗰𝗼 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗯𝗮𝘀𝗲, 𝗹𝗮 𝘃𝗲𝗻𝘁𝗮𝗷𝗮 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗮 𝘀𝗲 𝗱𝗲𝘀𝗽𝗹𝗮𝘇𝗮 𝗱𝗲 𝗾𝘂𝗶𝗲𝗻 𝘁𝗶𝗲𝗻𝗲 𝗺𝗲𝗷𝗼𝗿 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗮 𝗾𝘂𝗶𝗲𝗻 𝘁𝗶𝗲𝗻𝗲 𝗺𝗲𝗷𝗼𝗿 𝗺𝗼𝗱𝗲𝗹𝗼. Eso deja a los fabricantes de robots en posición de integradores de la IA de otro, y a los equipos que construyen robótica en España y Europa con una decisión pendiente: apostar por una pila propia o colgarse de un modelo que no controlan.\n\n#OpenAI #Robótica #GPT6\n\nhttps://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "La FAA extiende su asesor de IA a todo el espacio aéreo de EE. UU.",
+      "summary": "La Administración Federal de Aviación amplía a todo el espacio aéreo estadounidense una herramienta de IA que aconseja sobre la congestión del tráfico. Las aerolíneas la han recibido bien, pero el sindicato de controladores aéreos no participó en su implantación.",
+      "why_it_matters": "Es uno de los primeros usos de IA a gran escala en una infraestructura crítica y llega sin consenso con los profesionales.",
+      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
+      "source": "Ars Technica",
+      "social": {
+        "x": "La FAA ya usa su asesor de IA en todo el espacio aéreo de EE. UU. Y los que gestionan el tráfico real no participaron en la decisión.\n\n#FAA #AviaciónCivil #ControlAéreo #MachineLearning\nhttps://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
+        "linkedin": "La FAA extiende un asesor de IA a todo el espacio aéreo de EE. UU. y el sindicato de controladores aéreos se enteró tarde.\n\nLas aerolíneas lo han recibido bien porque promete ordenar la congestión, pero hablamos de infraestructura crítica: cuando el sistema sugiere y el humano decide, 𝗾𝘂𝗶é𝗻 𝗮𝘀𝘂𝗺𝗲 𝗹𝗮 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗲𝗿𝗿𝗼𝗿 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗲𝘀𝘁𝗮𝗿 𝗰𝗹𝗮𝗿𝗼. Y eso se resuelve antes del despliegue, no después. Para cualquier equipo que venda IA en entornos regulados, la lección es la misma: sin los profesionales que operan el sistema dentro de la conversación, la adopción se convierte en un conflicto laboral en lugar de un proyecto técnico.\n\n#FAA #AviaciónCivil #ControlAéreo #MachineLearning\n\nhttps://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "investigacion",
+      "title": "Anthropic ya reentrena Mythos con una fracción del cómputo inicial",
+      "summary": "El exinvestigador Jacob Coxon, que pasó por OpenAI y Anthropic, asegura que la compañía puede reentrenar Mythos con una fracción de los recursos que necesitaba al principio. Se apoya en una diapositiva de la presentación de la salida a bolsa y sostiene que la mejora algorítmica se acelera, por lo que reclama una pausa en los modelos frontera.",
+      "why_it_matters": "Si la eficiencia algorítmica crece a ese ritmo, el cuello de botella deja de ser el cómputo y pasan a ser las reglas.",
+      "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon",
+      "source": "The Decoder",
+      "social": {
+        "x": "Anthropic puede reentrenar Mythos con una fracción del cómputo que necesitaba al principio. Y quien lo afirma pide justo lo contrario: una pausa.\n\n#Anthropic #Mythos #OpenAI #ModelosFrontera\nhttps://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon",
+        "linkedin": "El cuello de botella de los modelos frontera ya no es el cómputo. Es otro.\nEl exinvestigador Jacob Coxon, con paso por OpenAI y Anthropic, sostiene que Mythos se puede reentrenar con una fracción de los recursos iniciales y lo apoya en una diapositiva de la presentación de la salida a bolsa. Si la mejora algorítmica va a ese ritmo, 𝗹𝗮 𝘃𝗲𝗻𝘁𝗮𝗷𝗮 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗺𝗲𝗱𝗶𝗿𝘀𝗲 𝗲𝗻 𝗚𝗣𝗨𝘀 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝗺𝗲𝗱𝗶𝗿𝘀𝗲 𝗲𝗻 𝗾𝘂𝗶é𝗻 𝗶𝗻𝘁𝗲𝗿𝗽𝗿𝗲𝘁𝗮 𝗮𝗻𝘁𝗲𝘀 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀. De ahí su petición de pausa: no es nostalgia técnica, es avisar de que el marco regulatorio va por detrás de la curva.\n\n#Anthropic #Mythos #OpenAI #ModelosFrontera\n\nhttps://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Nvidia habría inflado la escasez de GPU financiando a sus propios clientes",
+      "summary": "Un reportaje del Wall Street Journal sostiene que Nvidia invirtió en startups de IA que después compraban sus GPU y levantaban centros de datos, lo que habría agravado artificialmente la escasez de chips y memoria. La acusación aparece después de la salida de Jensen Huang como consejero delegado.",
+      "why_it_matters": "Cuestiona que la demanda récord de GPU refleje solo el mercado y no una estrategia de la propia Nvidia.",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "source": "Hacker News",
+      "social": {
+        "x": "Nvidia invertía en startups que después compraban sus GPU. La escasez que disparó sus precios sería, en parte, obra suya.\n\n#Nvidia #GPU #WallStreetJournal\nhttps://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+        "linkedin": "La escasez de GPU podría no haber sido solo cuestión de mercado.\n\nUn reportaje del Wall Street Journal sostiene que Nvidia invirtió en startups de IA que después compraban sus propios chips y levantaban centros de datos alrededor. El resultado sería una demanda récord alimentada, en parte, por el mismo fabricante, con 𝗹𝗮 𝗲𝘀𝗰𝗮𝘀𝗲𝘇 𝗱𝗲 𝗰𝗵𝗶𝗽𝘀 𝘆 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗰𝗼𝗺𝗼 𝘁𝗲𝗹ó𝗻 𝗱𝗲 𝗳𝗼𝗻𝗱𝗼 𝗱𝗲𝗹 𝗽𝗿𝗲𝗰𝗶𝗼. Para quien está dimensionando clústeres o negociando contratos de cómputo, la pregunta deja de ser cuánto tardan las entregas y pasa a ser cuánto de ese atasco era real. Si la tesis se sostiene, toda la conversación sobre coste por token y retorno de la inversión en infraestructura necesita una revisión incómoda.\n\n#Nvidia #GPU #WallStreetJournal\n\nhttps://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "ag-ui-protocol/ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "description": "Protocolo abierto para conectar agentes de IA con aplicaciones de frontend, de modo que puedas integrar un agente en tu producto sin reinventar cada vez la capa de comunicación. Útil si estás construyendo interfaces con agentes y quieres una base común para eventos y estado.",
+      "language": "TypeScript",
+      "stars": 17243,
+      "social": {
+        "x": "Cada vez que integras un agente en tu frontend, reinventas la capa de comunicación. Este protocolo open source con 17k estrellas quiere acabar con eso.\n\n#AGUI #TypeScript #OpenSource #GitHub\nhttps://github.com/ag-ui-protocol/ag-ui",
+        "linkedin": "INTEGRAR UN AGENTE DE IA EN TU PRODUCTO NO DEBERÍA OBLIGARTE A REINVENTAR LA COMUNICACIÓN CADA VEZ.\n\nHoy, cada equipo que mete un agente en su interfaz acaba escribiendo su propia capa de eventos: cómo llegan los tokens, cómo se actualiza el estado, cómo se cancela una ejecución a medias. Es trabajo que se repite en cada producto y que no aporta nada al usuario final.\n\nAG-UI propone 𝘂𝗻𝗮 𝗰𝗮𝗽𝗮 𝗱𝗲 𝗰𝗼𝗺𝘂𝗻𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗰𝗼𝗺ú𝗻 𝗽𝗮𝗿𝗮 𝗲𝘃𝗲𝗻𝘁𝗼𝘀 𝘆 𝗲𝘀𝘁𝗮𝗱𝗼, en TypeScript y como protocolo abierto, para que el agente y tu interfaz hablen el mismo idioma desde el primer día.\n\n→ Eventos estandarizados en streaming: tokens, tool calls y cambios de estado sin parseos caseros por proyecto.\n→ Estado compartido entre agente y aplicación, para que la UI enseñe lo que el agente está haciendo de verdad.\n→ Un contrato común que te deja cambiar de stack de agentes sin rehacer el frontend.\n→ Pensado para integrarse en tu producto actual, no para montar una demo aparte que nunca llega a producción.\n\nSi estás construyendo interfaces con agentes, esto te ahorra la parte aburrida: la fontanería. Guárdate el post para tenerlo a mano en la próxima integración: te dejo el repo justo abajo.\n\n#AGUI #TypeScript #OpenSource #GitHub\n\nhttps://github.com/ag-ui-protocol/ag-ui"
+      }
+    },
+    {
+      "name": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "description": "Orquestador self-hosted para flujos de trabajo con agentes de código como Codex o Claude Code, con scripts y puertas de aprobación humana. Una opción práctica para llevar la entrega de código asistida por IA a un entorno controlado.",
+      "language": "Go",
+      "stars": 775,
+      "social": {
+        "x": "Tencent acaba de soltar el orquestador que le faltaba a tu equipo: Codex y Claude Code corriendo con puertas de aprobación humana. Self-hosted, en Go y con 775 estrellas.\n\n#LoopForge #OpenSource #Go #GitHub\nhttps://github.com/Tencent/LoopForge",
+        "linkedin": "TUS AGENTES DE CÓDIGO NO DEBERÍAN HACER DEPLOY SIN QUE NADIE MIRE.\n\nCodex, Claude Code y compañía escriben cada vez más rápido. El problema ya no es la calidad del código, es el control: quién aprueba qué, en qué entorno se ejecuta y qué pasa cuando algo se va de las manos a las tres de la mañana.\n\nLoopForge es un orquestador self-hosted de Tencent, escrito en Go, que pone orden en ese caos. En vez de dejar que el agente haga lo que quiera, define flujos con scripts y puertas de aprobación humana en los puntos que tú decidas.\n\n→ Flujos de trabajo declarativos para agentes de código, con pasos y condiciones claras\n→ Puertas de aprobación humana antes de las acciones sensibles\n→ Scripts propios para automatizar lo repetitivo sin ceder el control\n→ Self-hosted: el código y las credenciales no salen de tu infraestructura\n→ Go, con lo que eso implica para deploy y mantenimiento\n\n𝗟𝗮 𝗲𝗻𝘁𝗿𝗲𝗴𝗮 𝗮𝘀𝗶𝘀𝘁𝗶𝗱𝗮 𝗽𝗼𝗿 𝗜𝗔 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗮𝗷𝗮 𝗻𝗲𝗴𝗿𝗮 𝗰𝘂𝗮𝗻𝗱𝗼 𝗰𝗮𝗱𝗮 𝗽𝗮𝘀𝗼 𝗽𝗮𝘀𝗮 𝗽𝗼𝗿 𝘂𝗻𝗮 𝗽𝘂𝗲𝗿𝘁𝗮 𝗾𝘂𝗲 𝘁ú 𝗵𝗮𝘀 𝗱𝗲𝗳𝗶𝗻𝗶𝗱𝗼.\n\nSi tu equipo ya usa agentes para programar pero todavía no sabe cómo auditarlos, este repo es un buen punto de partida. Guárdalo para la próxima conversación sobre gobernanza de IA en ingeniería.\n\nEl enlace al repositorio lo tienes abajo.\n\n#LoopForge #OpenSource #Go #GitHub\n\nhttps://github.com/Tencent/LoopForge"
+      }
+    },
+    {
+      "name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "description": "SDK open source de ofimática con edición, cálculo, colaboración y procesamiento de archivos, pensado también para integrar agentes de IA en tu producto. Si necesitas capacidades tipo Excel dentro de una aplicación, te ahorra bastante trabajo.",
+      "language": "TypeScript",
+      "stars": 24322,
+      "social": {
+        "x": "Un SDK en TypeScript te mete Excel dentro de tu propia app: edición, fórmulas, colaboración y hasta agentes de IA. 24.322 estrellas y sin licencia que pagar.\n\n#Univer #TypeScript #OpenSource #GitHub\nhttps://github.com/dream-num/univer",
+        "linkedin": "NECESITAS FÓRMULAS TIPO EXCEL EN TU PRODUCTO. NO HACE FALTA COMPRAR UNA LICENCIA.\n\nMontar una hoja de cálculo de verdad dentro de una aplicación web suele acabar de dos maneras: en una licencia cara o en un apaño con inputs que se rompe en cuanto alguien pega 500 filas. Univer es un SDK open source de ofimática escrito en TypeScript que resuelve justo esa parte, y lo hace con 𝗹𝗮 𝗹ó𝗴𝗶𝗰𝗮 𝗱𝗲 𝗰á𝗹𝗰𝘂𝗹𝗼 𝗰𝗼𝗺𝗼 𝗽𝗶𝗲𝘇𝗮 𝗰𝗲𝗻𝘁𝗿𝗮𝗹, 𝗻𝗼 𝗰𝗼𝗺𝗼 𝗲𝘅𝘁𝗿𝗮.\n\nLo que trae:\n\n→ Edición, cálculo, colaboración y procesamiento de archivos en un mismo SDK.\n→ API en TypeScript, pensada para integrarla en tu producto y no para vivir dentro de otra herramienta.\n→ Preparado también para enchufar agentes de IA en tu aplicación.\n→ 24.322 estrellas en GitHub, sin paywall ni cuota por usuario.\n\nSi estás construyendo un SaaS y la parte de hojas de cálculo te está frenando, merece una tarde de prueba. Guarda el post: te dejo el repo abajo.\n\n#Univer #TypeScript #OpenSource #GitHub\n\nhttps://github.com/dream-num/univer"
+      }
+    },
+    {
+      "name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "Proxy para agentes de código que recorta alrededor del 65% de los tokens haciendo que el modelo responda como un cavernícola. Suena a broma, pero si mantiene la calidad, es una forma sencilla de bajar costes y latencia.",
+      "language": "Go",
+      "stars": 119888,
+      "social": {
+        "x": "Un proxy en Go recorta el 65% de los tokens haciendo que el modelo responda como un cavernícola. Suena a broma hasta que ves las 119.888 estrellas.\n\n#caveman #Go #OpenSource #GitHub\nhttps://github.com/JuliusBrussee/caveman",
+        "linkedin": "120.000 ESTRELLAS PARA UN PROXY QUE HACE HABLAR A TU MODELO COMO UN CAVERNÍCOLA.\n\nCada token de salida se paga. Y en agentes de código, donde el modelo encadena respuestas largas una detrás de otra, la factura y la latencia se disparan sin que apenas lo notes.\n\nLa idea de caveman es absurdamente simple: se coloca como proxy delante del agente y obliga al modelo a contestar en estilo telegráfico. Menos palabras, mismas instrucciones.\n\n→ Recorta alrededor del 65% de los tokens en cada respuesta.\n→ Se pone por delante del agente de código, sin tocar tu flujo de trabajo.\n→ Menos tokens significa menos coste por llamada y menos espera entre respuestas.\n→ Está escrito en Go y acumula 119.888 estrellas en GitHub.\n\nEl detalle que lo hace interesante no es la broma, es el experimento: 𝗲𝗹 𝗮𝗵𝗼𝗿𝗿𝗼 𝘀𝗼𝗹𝗼 𝗰𝘂𝗲𝗻𝘁𝗮 𝘀𝗶 𝗹𝗮 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗮𝗴𝘂𝗮𝗻𝘁𝗮. Si el modelo sigue resolviendo lo mismo con un tercio del texto, acabas de encontrar una de las optimizaciones más baratas que existen.\n\nGuarda el post para la próxima vez que mires la factura de la API.\n\n#caveman #Go #OpenSource #GitHub\n\nhttps://github.com/JuliusBrussee/caveman"
+      }
+    },
+    {
+      "name": "Likely7/Veyra-NRVideo",
+      "url": "https://github.com/Likely7/Veyra-NRVideo",
+      "description": "Reproductor y herramienta de captura para Windows que aplica superresolución con IA y generación de fotogramas para mejorar vídeo y fuentes de captura en tiempo real. El reclamo de jugar a GTA6 en PS5 a 120 FPS es puro marketing, pero el escalado por IA puede tener uso.",
+      "language": "C++",
+      "stars": 1932,
+      "social": {
+        "x": "Un repo en C++ mete superresolución por IA y generación de fotogramas en cualquier captura de Windows. 1,9k estrellas. Lo de GTA6 a 120 FPS es marketing, pero el escalado sí tiene uso.\n\n#VeyraNRVideo #CPlusPlus #OpenSource #GitHub\nhttps://github.com/Likely7/Veyra-NRVideo",
+        "linkedin": "UN REPO EN C++ APLICA SUPERRESOLUCIÓN POR IA A CUALQUIER FUENTE DE CAPTURA EN WINDOWS. Y LO HACE EN TIEMPO REAL.\n\nVeyra-NRVideo es reproductor y herramienta de captura a la vez, así que el trabajo ocurre sobre la marcha: no toca exportar el vídeo, pasarlo por otro programa y esperar.\n\nEl reclamo de jugar a GTA6 en PS5 a 120 FPS es puro marketing, y conviene decirlo claro. Lo interesante está en otra parte: 𝗲𝗹 𝗲𝘀𝗰𝗮𝗹𝗮𝗱𝗼 𝗽𝗼𝗿 𝗜𝗔 𝗲𝗻 𝘁𝗶𝗲𝗺𝗽𝗼 𝗿𝗲𝗮𝗹 𝘀í 𝘁𝗶𝗲𝗻𝗲 𝘂𝘀𝗼 𝗿𝗲𝗮𝗹 cuando grabas pantalla, trasteas con emuladores o tiras de una fuente de captura con poca resolución.\n\nLo que trae:\n→ Superresolución por IA aplicada a vídeo y a fuentes de captura\n→ Generación de fotogramas para elevar los FPS percibidos\n→ Reproductor propio en Windows, sin depender de otro software\n→ C++ de por medio y 1.932 estrellas en GitHub\n\nSi grabas pantalla o cacharreas con emuladores, guarda el post: el repo te lo dejo abajo.\n\n#VeyraNRVideo #CPlusPlus #OpenSource #GitHub\n\nhttps://github.com/Likely7/Veyra-NRVideo"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "¿Puede un agente de código verificar su propio trabajo?",
+      "url": "https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework",
+      "source": "Stack Overflow Blog",
+      "summary": "Plantea qué pasa cuando un agente de IA escribe el diseño, maqueta el frontend e implementa el proyecto entero, y luego él mismo dice que todo funciona. La idea de fondo es que la verificación no puede depender del que genera el código. Da criterios para montar ese control en un flujo de trabajo real, con revisión humana y pruebas independientes.",
+      "tema": "ia"
+    },
+    {
+      "title": "Cadenas de Markov con NumPy: matrices de transición y distribución estacionaria, paso a paso",
+      "url": "https://towardsdatascience.com/how-to-build-a-markov-chain-in-python-with-numpy",
+      "source": "Towards Data Science",
+      "summary": "Guía práctica que construye una cadena de Markov de tres estados con NumPy: matrices de transición, la ecuación de Chapman-Kolmogorov y distribución estacionaria. Al terminarla sabrás implementar y comprobar esos cálculos en Python, una base que reaparece en simulación, en modelos probabilísticos y en análisis de procesos. Todo con código que puedes ejecutar y modificar.",
+      "tema": "datos"
+    },
+    {
+      "title": "Cómo se enseña ingeniería nativa de IA cuando un agente resuelve los deberes del curso anterior",
+      "url": "https://latent.space/p/cs146s",
+      "source": "Latent Space",
+      "summary": "Cuenta cómo se rediseñó un curso de Stanford ante el hecho de que un agente de código despacha en un prompt los ejercicios del año pasado. Los alumnos pasan a trabajar sobre repositorios open source reales: entender un código ajeno y proponer un cambio. Sirve para pensar qué formación técnica sigue teniendo sentido y qué se puede esperar de un ingeniero que trabaja junto a agentes.",
+      "tema": "carrera"
+    },
+    {
+      "title": "Kubernetes para ingenieros con poco tiempo: qué resuelve y de qué se encarga",
+      "url": "https://blog.bytebytego.com/p/ep233-kubernetes-explained-for-busy",
+      "source": "ByteByteGo",
+      "summary": "Explica qué hace una plataforma de orquestación y cómo asume el despliegue y el mantenimiento de aplicaciones en contenedores repartidas por varias máquinas. Es una introducción pensada para quien no puede dedicarle una semana a la documentación oficial. Útil si entras en un proyecto que ya usa Kubernetes y necesitas entender el terreno antes de tocar nada.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Mostrar errores de formulario solo cuando el usuario ha escrito, sin rastrear campos tocados",
+      "url": "https://medium.com/codex/css-can-show-form-errors-only-after-the-user-types-most-developers-still-track-touched-state-9da1fd327523",
+      "source": "Medium: Web Development",
+      "summary": "Aborda la queja clásica de un campo obligatorio que se pone en rojo antes de que nadie haya escrito nada. La propuesta es dejar que el CSS y los estados del navegador decidan cuándo enseñar el aviso, en lugar de mantener a mano el estado de campos tocados. Una técnica sencilla que envejece mucho mejor que la librería de turno.",
+      "tema": "web"
+    },
+    {
+      "title": "El umbral de Doherty: por qué tu interfaz debería responder en menos de 400 ms",
+      "url": "https://heymeet.medium.com/doherty-threshold-why-your-app-should-respond-in-under-400-milliseconds-c47e68f1ac78",
+      "source": "Medium: UX",
+      "summary": "Explica este umbral de rendimiento percibido y por qué mantener la respuesta por debajo de 400 ms ayuda a que el usuario no salga del estado de flujo. A partir de ahí repasa trucos de UX para que una operación lenta se sienta rápida sin engañar sobre lo que está ocurriendo. Son principios que se aplican igual en una web, una app móvil o una herramienta interna.",
+      "tema": "diseno"
+    }
+  ]
+}
