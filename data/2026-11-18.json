@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T18:50:52.828Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Genie 4 ya está disponible: el modelo de mundo de Google genera entornos interactivos",
+      "summary": "Google DeepMind ha abierto Genie 4 a los suscriptores de Google AI Ultra dentro de Project Genie. El modelo de mundo genera escenarios que responden en tiempo real y la compañía lo presenta como un paso más hacia simular mundos completos a partir de una imagen o un prompt.",
+      "why_it_matters": "Los modelos de mundo dejan de ser una demo de laboratorio y pasan a ser una herramienta que se puede probar hoy con una suscripción.",
+      "url": "https://deepmind.google/blog/genie-4-is-now-available",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "Google acaba de abrir al público el modelo que genera mundos jugables. Genie 4 ya responde en tiempo real, pero solo dentro de AI Ultra.\n\n#Genie4 #GoogleDeepMind #ProjectGenie\nhttps://deepmind.google/blog/genie-4-is-now-available",
+        "linkedin": "Los modelos de mundo acaban de salir del vídeo de demo. Genie 4 está disponible para los suscriptores de Google AI Ultra dentro de Project Genie: genera escenarios que responden en tiempo real a partir de una imagen o un prompt. La lectura profesional es que 𝗹𝗮 𝗱𝗶𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗴𝗲𝗻𝗲𝗿𝗮𝗿 𝘂𝗻 𝗺𝘂𝗻𝗱𝗼, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗾𝘂𝗲 𝗮𝗹𝗴𝘂𝗶𝗲𝗻 𝗽𝘂𝗲𝗱𝗮 𝘁𝗼𝗰𝗮𝗿𝗹𝗼 𝘆 𝗿𝗼𝗺𝗽𝗲𝗿𝗹𝗼. Para estudios, prototipado de juegos y simulación, eso cambia el coste de la primera prueba.\n\n#Genie4 #GoogleDeepMind #ProjectGenie\n\nhttps://deepmind.google/blog/genie-4-is-now-available"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Microsoft lanza siete modelos MAI propios y aprieta el precio frente a OpenAI",
+      "summary": "En Ignite, Microsoft AI ha presentado siete modelos (código, seguridad, imagen, voz, razonamiento y enrutado) pensados para agentes que trabajan de forma continua en la empresa. La compañía asegura que MAI Code 2 alcanza el 98 % del rendimiento de GPT-6.1 Sol con un 40 % del coste, y empieza a sustituir modelos externos en sus propios productos.",
+      "why_it_matters": "Cambiar modelos de terceros por modelos propios abarata el coste por token y altera el mapa de proveedores para quien despliega agentes.",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026",
+      "source": "Hacker News",
+      "social": {
+        "x": "Microsoft afirma que MAI Code 2 llega al 98 % de GPT-6.1 Sol con el 40 % del coste. Y ya lo está metiendo en sus propios productos.\n\n#Microsoft #MAI #OpenAI #AgentesIA\nhttps://microsoft.ai/news/microsoft-ignite-2026",
+        "linkedin": "El 98 % del rendimiento por el 40 % del coste. Ese es el argumento con el que Microsoft justifica empezar a dejar de pagar modelos ajenos.\n\nEn Ignite han presentado siete modelos MAI (código, seguridad, imagen, voz, razonamiento y enrutado) pensados para agentes que trabajan de forma continua dentro de la empresa. 𝗘𝗹 𝗰𝗼𝘀𝘁𝗲 𝗽𝗼𝗿 𝘁𝗼𝗸𝗲𝗻 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗹𝗮 𝘃𝗮𝗿𝗶𝗮𝗯𝗹𝗲 𝗾𝘂𝗲 𝗱𝗲𝗰𝗶𝗱𝗲 𝗾𝘂é 𝗺𝗼𝗱𝗲𝗹𝗼 𝘂𝘀𝗮𝘀, y Microsoft ya está sustituyendo modelos externos en sus propios productos. Para quien despliega agentes en producción, la pregunta deja de ser cuál es el mejor modelo y pasa a ser cuál aguanta el volumen sin arruinarte.\n\n#Microsoft #MAI #OpenAI #AgentesIA\n\nhttps://microsoft.ai/news/microsoft-ignite-2026"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Tencent presenta Hy4 Flash, su modelo rápido y de bajo coste",
+      "summary": "Tencent ha publicado Hy4 Flash, una nueva variante de su familia de modelos Hy centrada en velocidad y coste por token. La compañía detalla en su web de investigación las capacidades y los datos de rendimiento del modelo.",
+      "why_it_matters": "Amplía la lista de modelos chinos competitivos en precio, una alternativa real para cargas de producción.",
+      "url": "https://hy.tencent.ai/research/hy4-flash",
+      "source": "Hacker News",
+      "social": {
+        "x": "Tencent no compite con Hy4 Flash en benchmarks. Compite en coste por token, y ahí es donde se decide qué modelo aguanta de verdad en producción.\n\n#Tencent #Hy4Flash #LLM\nhttps://hy.tencent.ai/research/hy4-flash",
+        "linkedin": "La carrera de los modelos ya no se gana en la tabla de benchmarks, sino en la factura de fin de mes.\n\nTencent ha publicado Hy4 Flash, una variante de su familia Hy centrada en velocidad y coste por token, con los datos de rendimiento detallados en su web de investigación. La lista de modelos chinos competitivos en precio no deja de crecer, y para muchos equipos 𝗲𝗹 𝗰𝗼𝘀𝘁𝗲 𝗽𝗼𝗿 𝘁𝗼𝗸𝗲𝗻 𝗽𝗲𝘀𝗮 𝗵𝗼𝘆 𝗺á𝘀 𝗾𝘂𝗲 𝗹𝗮 𝗽𝗼𝘀𝗶𝗰𝗶ó𝗻 𝗲𝗻 𝘂𝗻 𝗿𝗮𝗻𝗸𝗶𝗻𝗴 a la hora de elegir qué modelo poner en producción. La pregunta ya no es cuál es el mejor, sino cuál aguanta el tráfico real sin desmontar el presupuesto.\n\n#Tencent #Hy4Flash #LLM\n\nhttps://hy.tencent.ai/research/hy4-flash"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "Hugging Face enruta las peticiones de modelos a través de OpenRouter",
+      "summary": "Hugging Face ha empezado a enviar las peticiones de modelos de lenguaje a OpenRouter, que elige automáticamente el proveedor más barato o el más rápido. Las claves de API propias para modelos de lenguaje dejan de ser necesarias y, según OpenRouter, los errores de capacidad caen un 46 %.",
+      "why_it_matters": "Simplifica el acceso a decenas de modelos y recorta el coste sin cambiar de SDK ni de código.",
+      "url": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed",
+      "source": "The Decoder",
+      "social": {
+        "x": "Hugging Face ya no te pide la clave de API: enruta las peticiones por OpenRouter, que elige el proveedor más barato o el más rápido. Los errores de capacidad caen un 46 %.\n\n#HuggingFace #OpenRouter #LLM #OpenSource\nhttps://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed",
+        "linkedin": "El SDK no cambia. Lo que cambia es quién decide a qué proveedor va tu prompt.\n\nHugging Face ha empezado a enrutar las peticiones de modelos a través de OpenRouter, que elige automáticamente entre el proveedor más barato y el más rápido. 𝗗𝗲𝘀𝗮𝗽𝗮𝗿𝗲𝗰𝗲 𝗹𝗮 𝗴𝗲𝘀𝘁𝗶ó𝗻 𝗱𝗲 𝗰𝗹𝗮𝘃𝗲𝘀 𝗱𝗲 𝗔𝗣𝗜 𝗽𝗿𝗼𝗽𝗶𝗮𝘀 y, según OpenRouter, los errores de capacidad bajan un 46 %. Para un equipo que prototipa con varios modelos, esto elimina la fontanería de credenciales y reintentos que nadie quiere mantener. La contrapartida: el enrutado deja de estar en tus manos, y con él la visibilidad de por dónde pasa cada petición.\n\n#HuggingFace #OpenRouter #LLM #OpenSource\n\nhttps://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Cómo mover un MoE de 180.000 millones de parámetros con solo 32 GB de RAM",
+      "summary": "El blog de Hugging Face explica una técnica de streaming de expertos en Transformers que permite servir un modelo MoE de 180B con 32 GB de memoria, cargando únicamente los expertos que necesita cada token. El artículo detalla el funcionamiento, los cuellos de botella y cómo reproducir la configuración.",
+      "why_it_matters": "Baja mucho el listón de hardware para probar modelos grandes en local en lugar de alquilar GPUs.",
+      "url": "https://huggingface.co/blog/moe-expert-streaming",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Un MoE de 180.000 millones de parámetros corriendo con 32 GB de RAM. No es magia: solo carga los expertos que cada token necesita.\n\n#HuggingFace #MoE #OpenSource #LLM\nhttps://huggingface.co/blog/moe-expert-streaming",
+        "linkedin": "Un modelo de 180.000 millones de parámetros cabe en 32 GB de RAM. La clave no es comprimirlo, sino no cargarlo entero.\nHugging Face detalla en su blog una técnica de streaming de expertos: en un MoE solo se traen a memoria los expertos que cada token necesita y el resto espera en disco. 𝗘𝗹 𝗹𝗶𝘀𝘁ó𝗻 𝗱𝗲 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗽𝗮𝗿𝗮 𝗽𝗿𝗼𝗯𝗮𝗿 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗴𝗿𝗮𝗻𝗱𝗲𝘀 𝗲𝗻 𝗹𝗼𝗰𝗮𝗹 𝗯𝗮𝗷𝗮 𝗱𝗲 𝗴𝗼𝗹𝗽𝗲, y eso cambia quién puede experimentar sin pasar por alquilar GPUs. El coste se traslada al ancho de banda de disco y a la latencia, así que la pregunta interesante ya no es cuánta VRAM tienes, sino cuánto tardas en mover los pesos.\n\n#HuggingFace #MoE #OpenSource #LLM\n\nhttps://huggingface.co/blog/moe-expert-streaming"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Rumble-2-Flash: un modelo de voz abierto de 0,5B para más de 40 idiomas",
+      "summary": "Hugging Face publica Rumble-2-Flash, un modelo de reconocimiento de voz abierto de apenas 0,5B de parámetros que cubre más de 40 idiomas. Su tamaño permite ejecutarlo en equipos modestos o directamente en el dispositivo.",
+      "why_it_matters": "Un modelo de voz pequeño y abierto es la vía más práctica para transcribir sin depender de la nube.",
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Un modelo de voz de 500 millones de parámetros transcribe en más de 40 idiomas y corre en tu propio portátil. Sin pasar por la nube.\n\n#HuggingFace #OpenSource #SpeechToText #ASR\nhttps://huggingface.co/blog/rumble-2-flash",
+        "linkedin": "La transcripción deja de ser un servicio que se alquila y pasa a ser una pieza más de tu infraestructura.\n\nHugging Face publica Rumble-2-Flash: 𝟬,𝟱𝗕 𝗱𝗲 𝗽𝗮𝗿á𝗺𝗲𝘁𝗿𝗼𝘀, 𝗺á𝘀 𝗱𝗲 𝟰𝟬 𝗶𝗱𝗶𝗼𝗺𝗮𝘀 𝘆 𝗲𝗷𝗲𝗰𝘂𝗰𝗶ó𝗻 𝗲𝗻 𝗹𝗼𝗰𝗮𝗹, incluso en equipos modestos o directamente en el dispositivo. Para quien hoy paga por minuto de audio en la nube, la cuenta cambia: menos coste por hora, ningún audio saliendo de casa y ninguna latencia de terceros de por medio. El listón ya no está en la precisión bruta del modelo enorme, sino en cuánto puedes recortar sin que se note en el resultado.\n\n#HuggingFace #OpenSource #SpeechToText #ASR\n\nhttps://huggingface.co/blog/rumble-2-flash"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "Mistral pone Vibe en el escritorio",
+      "summary": "Mistral ha lanzado Vibe Desktop, la versión de escritorio de su agente de IA, que hasta ahora vivía en el navegador. Llega con retraso frente a rivales que ya controlan el sistema operativo completo, pero amplía el acceso a ficheros y aplicaciones locales.",
+      "why_it_matters": "El agente con acceso real al escritorio es donde se decide si estas herramientas sirven para trabajar o solo para conversar.",
+      "url": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems",
+      "source": "The Decoder",
+      "social": {
+        "x": "El agente de Mistral ya no vive en el navegador: Vibe Desktop llega con acceso a tus ficheros y apps locales, aunque lo hace tarde frente a sus rivales.\n\n#Mistral #VibeDesktop #Productividad\nhttps://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems",
+        "linkedin": "Mistral ha tardado, pero su agente ya funciona fuera del navegador.\nVibe Desktop abre la puerta a ficheros y aplicaciones locales, y ahí está la diferencia: un agente que solo conversa no compite con uno que ejecuta tareas sobre tu propia máquina. 𝗘𝗹 𝗲𝘀𝗰𝗿𝗶𝘁𝗼𝗿𝗶𝗼 𝗲𝘀 𝗲𝗹 𝗰𝗮𝗺𝗽𝗼 𝗱𝗲 𝗯𝗮𝘁𝗮𝗹𝗹𝗮 𝗿𝗲𝗮𝗹 𝗱𝗲 𝗹𝗼𝘀 𝗮𝗴𝗲𝗻𝘁𝗲𝘀, y Mistral llega después de rivales que ya controlan el sistema operativo completo. Para quien evalúa estas herramientas, la prueba deja de ser la demo y pasa a ser cuántas tareas reales se cierran sin supervisión.\n\n#Mistral #VibeDesktop #Productividad\n\nhttps://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Vercel publica un SDK de UI para que los agentes compongan interfaces",
+      "summary": "Vercel ha lanzado en beta UI SDK, una librería TypeScript con licencia Apache 2.0 y más de 50 comportamientos de interfaz, con adaptadores para React, Vue, Svelte, Solid y Web Components. Los agentes pueden componer componentes accesibles y operarlos a través de un puente documentado.",
+      "why_it_matters": "Da a los agentes una forma estándar de construir y manejar interfaces en vez de escupir HTML suelto.",
+      "url": "https://www.infoq.com/news/2026/11/vercel-ui-sdk",
+      "source": "InfoQ",
+      "social": {
+        "x": "Los agentes ya no escupen HTML suelto: Vercel publica un SDK para que compongan interfaces de verdad, con React, Vue, Svelte y Solid.\n\n#Vercel #TypeScript #OpenSource #DesarrolloWeb\nhttps://www.infoq.com/news/2026/11/vercel-ui-sdk",
+        "linkedin": "Hasta ahora, un agente que quería montar una interfaz solo podía soltar HTML y confiar en que aguantara.\n\nVercel ha publicado en beta UI SDK, una librería TypeScript con licencia Apache 2.0, más de 50 comportamientos de interfaz y adaptadores para React, Vue, Svelte, Solid y Web Components. La diferencia no es cosmética: 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗻𝗼 𝘀𝗼𝗹𝗼 𝗰𝗼𝗺𝗽𝗼𝗻𝗲 𝗹𝗼𝘀 𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁𝗲𝘀, 𝘁𝗮𝗺𝗯𝗶é𝗻 𝗹𝗼𝘀 𝗼𝗽𝗲𝗿𝗮 a través de un puente documentado y accesible. Si el estándar cuaja, el cuello de botella deja de estar en generar markup y se traslada a integrar esto en tu design system sin duplicar capas.\n\n#Vercel #TypeScript #OpenSource #DesarrolloWeb\n\nhttps://www.infoq.com/news/2026/11/vercel-ui-sdk"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "La IA de Google Search estrena modo incógnito con hilos temporales",
+      "summary": "Google ha añadido hilos temporales a AI Mode: las conversaciones no se guardan en el historial de búsqueda ni influyen en las recomendaciones futuras. La función replica el modo incógnito que la búsqueda clásica ofrece desde hace años.",
+      "why_it_matters": "Permite usar la búsqueda con IA para consultas sensibles sin que queden atadas a la cuenta.",
+      "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Ahora puedes preguntarle a la IA de Google lo que no le preguntarías a tu cuenta: AI Mode estrena hilos temporales que no se guardan ni condicionan lo siguiente que busques.\n\n#Google #AIMode #GoogleSearch #Privacidad\nhttps://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
+        "linkedin": "Durante años hemos asumido que buscar es dejar rastro. AI Mode acaba de abrir una excepción.\n\nGoogle ha añadido hilos temporales a su búsqueda con IA: la conversación no se guarda en el historial ni condiciona las recomendaciones futuras, igual que el modo incógnito de la búsqueda clásica. 𝗟𝗮 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗮𝗷𝘂𝘀𝘁𝗲 𝗲𝘀𝗰𝗼𝗻𝗱𝗶𝗱𝗼 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗮𝘀𝗶𝗹𝗹𝗮 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲𝗹 𝗽𝗿𝗼𝗽𝗶𝗼 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼. Para quien consulta temas de salud, dinero o competencia, cambia el cálculo: ya no hay que salir de Google para preguntar lo incómodo. Queda por ver si la función llega también a las cuentas corporativas, donde el historial compartido es la norma.\n\n#Google #AIMode #GoogleSearch #Privacidad\n\nhttps://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "La app de Gemini llega a móviles Android con menos memoria",
+      "summary": "Google ha ampliado la app de Gemini a dispositivos Android con menos RAM, con acceso a Gemini Live y a la creación de imágenes personalizadas. La aplicación ya se puede descargar en esos terminales.",
+      "why_it_matters": "Acerca la IA generativa a las gamas bajas, que son la mayoría del parque móvil.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices",
+      "source": "Google AI",
+      "social": {
+        "x": "Gemini Live y las imágenes personalizadas llegan a los Android con menos memoria. La IA generativa deja de ser cosa de gama alta.\n\n#Gemini #Android #Google\nhttps://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices",
+        "linkedin": "La IA generativa acaba de dejar de pedir un móvil caro para entrar.\n\nGoogle ha abierto la app de Gemini a terminales Android con menos RAM, con Gemini Live y creación de imágenes personalizadas incluidas. Es el segmento que mueve más volumen en casi cualquier mercado y hasta ahora se quedaba fuera de las funciones más llamativas. 𝗘𝗹 𝗰𝗼𝘀𝘁𝗲 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲, y eso cambia el cálculo para quien desarrolla apps: toca probar en gama baja antes de dar por hecho que el usuario tiene margen de sobra.\n\n#Gemini #Android #Google\n\nhttps://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "herramientas",
+      "title": "Así aísla OpenAI Codex cuando ejecuta comandos en tu equipo",
+      "summary": "OpenAI explica cómo funciona el sandbox de Codex en macOS, Linux y Windows, con límites de acceso al sistema de ficheros y a la red que controla el usuario. El artículo detalla qué se permite por defecto y cómo revisar los permisos.",
+      "why_it_matters": "Es la pieza que decide si un agente de código puede tocar tu máquina sin sorpresas.",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "source": "OpenAI News",
+      "social": {
+        "x": "Codex ejecuta comandos en tu equipo. Lo interesante no es lo que puede llegar a hacer, sino lo que OpenAI le impide tocar por defecto.\n\n#OpenAI #Codex #DevSecOps\nhttps://openai.com/index/inside-the-codex-sandbox",
+        "linkedin": "Codex ya ejecuta comandos en tu máquina. La pregunta que de verdad importa no es qué puede hacer, sino qué le deja tocar OpenAI por defecto.\n\nEl sandbox de Codex en macOS, Linux y Windows limita el acceso al sistema de ficheros y a la red, y 𝗹𝗼𝘀 𝗽𝗲𝗿𝗺𝗶𝘀𝗼𝘀 𝗹𝗼𝘀 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮 𝗲𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼, 𝗻𝗼 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲. Eso convierte la configuración del entorno en parte del trabajo: un agente con acceso ancho a tu red es una superficie de ataque que nadie audita hasta que pasa algo. Si tu equipo lo ha adoptado sin mirar los permisos por defecto, hoy es buen día para abrir esa pestaña.\n\n#OpenAI #Codex #DevSecOps\n\nhttps://openai.com/index/inside-the-codex-sandbox"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "herramientas",
+      "title": "Cerebras separa prefill y decode y logra 5 veces más tokens por megavatio",
+      "summary": "Cerebras ha puesto en producción una inferencia desagregada en la que GPUs de AMD procesan el prefill y sus sistemas wafer-scale generan la respuesta. La compañía asegura 5 veces más tokens por megavatio sin reducir la velocidad de generación.",
+      "why_it_matters": "La eficiencia energética por token pesa ya tanto como la latencia a la hora de elegir infraestructura.",
+      "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+      "source": "Hacker News",
+      "social": {
+        "x": "Cerebras manda el prefill a GPUs de AMD y saca 5 veces más tokens por megavatio. La eficiencia energética ya es el campo de batalla.\n\n#Cerebras #AMD #Inferencia #EficienciaEnergética\nhttps://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+        "linkedin": "El cuello de botella de la inferencia ya no es el chip, es la factura eléctrica.\nCerebras ha puesto en producción una inferencia desagregada: las GPUs de AMD se encargan del prefill y sus sistemas wafer-scale generan la respuesta. Lo que declaran es 𝟱 𝘃𝗲𝗰𝗲𝘀 𝗺á𝘀 𝘁𝗼𝗸𝗲𝗻𝘀 𝗽𝗼𝗿 𝗺𝗲𝗴𝗮𝘃𝗮𝘁𝗶𝗼 𝘀𝗶𝗻 𝗽𝗲𝗿𝗱𝗲𝗿 𝘃𝗲𝗹𝗼𝗰𝗶𝗱𝗮𝗱 𝗱𝗲 𝗴𝗲𝗻𝗲𝗿𝗮𝗰𝗶ó𝗻. Para quien decide infraestructura, el movimiento importa por dos motivos: la eficiencia energética por token pesa ya lo mismo que la latencia, y separar las dos fases del trabajo deja de ser un experimento para convertirse en una decisión de diseño con consecuencias directas en coste y capacidad.\n\n#Cerebras #AMD #Inferencia #EficienciaEnergética\n\nhttps://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "lanzamientos",
+      "title": "Los RTX Spark de NVIDIA llegan al mercado para IA local",
+      "summary": "Los nuevos compactos RTX Spark de ASUS, Dell y MSI ya están a la venta, con hasta 128 GB de memoria unificada y Windows on Arm. NVIDIA los presenta como un equipo dedicado a agentes locales, generación de imagen y vídeo y ajuste de modelos.",
+      "why_it_matters": "Es la primera hornada de PCs pensada explícitamente para ejecutar modelos en local sin depender de la nube.",
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now",
+      "source": "NVIDIA Blog",
+      "social": {
+        "x": "NVIDIA quiere que tu próximo PC no llame a la nube: los RTX Spark ya están a la venta con hasta 128 GB de memoria unificada y Windows on Arm.\n\n#NVIDIA #RTXSpark #WindowsOnArm #LLMs\nhttps://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now",
+        "linkedin": "NVIDIA acaba de convertir la IA local en una categoría de PC. Los RTX Spark de ASUS, Dell y MSI ya se pueden comprar con hasta 128 GB de memoria unificada y Windows on Arm, presentados para ejecutar agentes, generar imagen y vídeo y ajustar modelos sin pasar por la nube.\n\nPara quien desarrolla, el cambio no está en el hardware sino en el coste por token: 𝗹𝗮 𝗳𝗮𝗰𝘁𝘂𝗿𝗮 𝗱𝗲 𝗶𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝘀𝗲 𝗺𝘂𝗱𝗮 𝗱𝗲 𝗹𝗮 𝗔𝗣𝗜 𝗮 𝗹𝗮 𝗺á𝗾𝘂𝗶𝗻𝗮 𝗾𝘂𝗲 𝘁𝗶𝗲𝗻𝗲𝘀 𝗲𝗻 𝗹𝗮 𝗺𝗲𝘀𝗮. Para los equipos de IT abre otra puerta, la de desplegar agentes con datos que no salen de la oficina. Falta ver qué ecosistema de drivers y toolkits aterriza aquí, porque ahí se decide si esto es un PC nuevo o una categoría nueva.\n\n#NVIDIA #RTXSpark #WindowsOnArm #LLMs\n\nhttps://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "Los modelos de OpenAI optimizan el diseño de chips para AMD",
+      "summary": "OpenAI asegura que sus modelos lograron hasta un 14 % de mejora en potencia, rendimiento y área sobre la IP de GPU insignia de AMD en menos de cinco meses, lo que equivale a un año de ingeniería. AMD ya ha incorporado los cambios en un diseño enviado a producción.",
+      "why_it_matters": "Es una prueba con cifras concretas de que la IA también acelera el diseño de hardware.",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "source": "OpenAI News",
+      "social": {
+        "x": "OpenAI metió mano en el diseño de la GPU insignia de AMD y sacó un 14 % más de rendimiento en cinco meses. Un año de ingeniería, comprimido.\n\n#OpenAI #AMD #Semiconductores #Hardware\nhttps://openai.com/index/advancing-chip-design-with-our-models",
+        "linkedin": "El primer cuello de botella que la IA ha acelerado no es el software: es el propio chip.\nOpenAI asegura que sus modelos lograron hasta un 𝟭𝟰 % 𝗱𝗲 𝗺𝗲𝗷𝗼𝗿𝗮 𝗲𝗻 𝗽𝗼𝘁𝗲𝗻𝗰𝗶𝗮, 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝘆 á𝗿𝗲𝗮 sobre la IP de GPU insignia de AMD en menos de cinco meses, lo que equivale a un año de ingeniería. AMD ya ha incorporado esos cambios en un diseño enviado a producción. Para quien diseña hardware, la lectura es doble: el ciclo de iteración de un chip deja de medirse en años, y el equipo de diseño que no tenga un modelo propio optimizando sus bloques va a competir en desventaja.\n\n#OpenAI #AMD #Semiconductores #Hardware\n\nhttps://openai.com/index/advancing-chip-design-with-our-models"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Los agentes de código elevan un 30 % la producción pero atascan la revisión",
+      "summary": "Un working paper de Harvard sobre 718 empresas concluye que los agentes de código aumentaron alrededor de un 30 % la cantidad de código escrito, sin que el trabajo terminado creciera de forma medible. El tiempo para superar la revisión se alargó un 49 %.",
+      "why_it_matters": "El cuello de botella se ha desplazado a la revisión: invertir ahí rinde más que en generar más código.",
+      "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review",
+      "source": "Hacker News",
+      "social": {
+        "x": "Los agentes de código escriben un 30 % más, pero el trabajo terminado no crece. Harvard midió 718 empresas y encontró al culpable: la revisión tarda un 49 % más.\n\n#CodeReview #Harvard #DevEx #AgentesDeCódigo\nhttps://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review",
+        "linkedin": "El cuello de botella del desarrollo ya no es escribir código. Es leerlo.\n\nUn working paper de Harvard sobre 718 empresas mide lo que muchos equipos intuyen: los agentes aumentan un 30 % el código producido, el trabajo terminado no crece de forma medible y el plazo para superar la revisión se alarga un 49 %. 𝗜𝗻𝘃𝗲𝗿𝘁𝗶𝗿 𝗲𝗻 𝗿𝗲𝘃𝗶𝘀𝗶ó𝗻 𝗿𝗶𝗻𝗱𝗲 𝗺á𝘀 𝗾𝘂𝗲 𝗶𝗻𝘃𝗲𝗿𝘁𝗶𝗿 𝗲𝗻 𝗴𝗲𝗻𝗲𝗿𝗮𝗿 𝗺á𝘀 𝗰ó𝗱𝗶𝗴𝗼, y eso desplaza el esfuerzo: menos prompts, mejores PRs y revisores con contexto suficiente para decidir rápido.\n\n#CodeReview #Harvard #DevEx #AgentesDeCódigo\n\nhttps://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Los agentes de IA de KPMG preguntan mejor que su equipo de auditoría",
+      "summary": "KPMG UK desplegó más de 100 agentes de IA junto al equipo que auditaba a una empresa cotizada británica y, según su responsable de auditoría, en algunos casos hicieron preguntas mejores que las personas. El regulador contable del Reino Unido ve riesgo en que el análisis masivo de datos erosione la independencia del auditor.",
+      "why_it_matters": "Muestra hasta dónde llegan los agentes en trabajo profesional regulado y los recelos que despiertan.",
+      "url": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions",
+      "source": "The Decoder",
+      "social": {
+        "x": "En una auditoría real, los agentes de IA de KPMG hicieron mejores preguntas que el equipo humano. El regulador británico ya ha levantado la mano.\n\n#KPMG #Auditoría #BigFour #Compliance\nhttps://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions",
+        "linkedin": "Los agentes de IA de KPMG preguntaron mejor que los auditores que tenían delante.\n\nLa firma desplegó más de 100 agentes junto al equipo que auditaba a una cotizada británica y su responsable de auditoría admite que, en algunos casos, las preguntas fueron superiores a las de las personas. El detalle incómodo no es ese: es que el regulador contable británico ve riesgo en que el análisis masivo de datos erosione 𝗹𝗮 𝗶𝗻𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮 𝗱𝗲𝗹 𝗮𝘂𝗱𝗶𝘁𝗼𝗿. Cuando el volumen lo pone la máquina, la frontera entre revisar y ser revisado se difumina, y ahí el marco de control todavía no tiene respuesta. Si trabajas en audit, compliance o consultoría, la pregunta ya no es si adoptar agentes, sino quién responde cuando el agente pregunta algo que nadie esperaba.\n\n#KPMG #Auditoría #BigFour #Compliance\n\nhttps://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Waymo deja de circular por autopista tras el aviso de California",
+      "summary": "La DMV de California concluyó que los robotaxis de Waymo son un peligro inminente para la seguridad tras varios incidentes en zonas de obras, incluido un encuentro con un vehículo de la patrulla de carreteras. Waymo ha suspendido los trayectos por autopista en todo el país.",
+      "why_it_matters": "Es un caso claro de cómo la supervisión regulatoria puede frenar un despliegue comercial ya en marcha.",
+      "url": "https://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint",
+      "source": "Ars Technica",
+      "social": {
+        "x": "California ha dicho basta: Waymo suspende los trayectos por autopista en todo el país después de que la DMV concluyera que sus robotaxis son un peligro inminente.\n\n#Waymo #Robotaxi #California #ConduccionAutonoma\nhttps://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint",
+        "linkedin": "La DMV de California no ha pedido un informe: ha concluido que los robotaxis de Waymo son un peligro inminente.\nEl detonante han sido varios incidentes en zonas de obras, incluido un encuentro con un vehículo de la Patrulla de Carreteras del estado. Waymo ha suspendido los trayectos por autopista en todo el país, no solo en California, y con ello se enfría uno de los despliegues comerciales más avanzados del sector. 𝗟𝗮 𝘀𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗶ó𝗻 𝗿𝗲𝗴𝘂𝗹𝗮𝘁𝗼𝗿𝗶𝗮 𝗽𝘂𝗲𝗱𝗲 𝗳𝗿𝗲𝗻𝗮𝗿 𝘂𝗻 𝗱𝗲𝘀𝗽𝗹𝗶𝗲𝗴𝘂𝗲 𝗰𝗼𝗺𝗲𝗿𝗰𝗶𝗮𝗹 𝘆𝗮 𝗲𝗻 𝗺𝗮𝗿𝗰𝗵𝗮, así que cualquier operador de robotaxis tendrá que contar con el regulador como parte del roadmap y no como un trámite final.\n\n#Waymo #Robotaxi #California #ConduccionAutonoma\n\nhttps://arstechnica.com/cars/2026/11/waymo-suspends-freeway-driving-after-california-construction-zone-complaint"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Java4Shell: un fallo crítico permite ejecutar código en miles de aplicaciones",
+      "summary": "Oracle ha revelado una vulnerabilidad en Java, bautizada Java4Shell, que permite a un atacante lograr ejecución remota de código sin autenticación o tumbar la JVM. Afecta a numerosas aplicaciones de terceros, incluidas las de bancos y grandes empresas, y la explotación arranca con una cadena de 'A'.",
+      "why_it_matters": "Un fallo de esta gravedad en una plataforma omnipresente obliga a parchear cuanto antes todo lo que corra sobre la JVM.",
+      "url": "https://www.theregister.com/security/2026/11/18/oracle-reveals-fix-this-asap-grade-java4shell-bug-that-allows-attacks-on-many-third-party-apps/5310661",
+      "source": "The Register",
+      "social": {
+        "x": "Un fallo en Java permite ejecutar código sin autenticación en apps de bancos y grandes empresas. Se llama Java4Shell y la explotación empieza con una cadena de 'A'.\n\n#Java #Java4Shell #Oracle #Seguridad\nhttps://www.theregister.com/security/2026/11/18/oracle-reveals-fix-this-asap-grade-java4shell-bug-that-allows-attacks-on-many-third-party-apps/5310661",
+        "linkedin": "Un fallo en Java ejecuta código sin autenticación y la explotación empieza con una cadena de 'A'.\n\nJava4Shell, revelado por Oracle, no se queda en la JVM: alcanza a aplicaciones de terceros que corren sobre ella, incluidas las de bancos y grandes empresas. Lo preocupante no es solo la gravedad, sino la superficie: 𝘁𝗼𝗱𝗼 𝗹𝗼 𝗾𝘂𝗲 𝗰𝗼𝗿𝗿𝗲 𝘀𝗼𝗯𝗿𝗲 𝗹𝗮 𝗝𝗩𝗠 𝗵𝗲𝗿𝗲𝗱𝗮 𝗲𝗹 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮, y muchos equipos no tienen ni un inventario fiable de qué depende de Java. Si hoy no puedes responder qué se ejecuta sobre la JVM en tu organización, el inventario va antes que el parche.\n\n#Java #Java4Shell #Oracle #Seguridad\n\nhttps://www.theregister.com/security/2026/11/18/oracle-reveals-fix-this-asap-grade-java4shell-bug-that-allows-attacks-on-many-third-party-apps/5310661"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "lanzamientos",
+      "title": "Microsoft convierte Copilot en el nuevo sistema operativo del trabajo",
+      "summary": "En la keynote de Ignite, Microsoft ha presentado un Copilot en el que Word, Excel y PowerPoint se ejecutan dentro del propio asistente. La compañía anticipa además agentes siempre activos que trabajan de fondo sobre los documentos.",
+      "why_it_matters": "Reordena la suite de oficina alrededor del asistente y no de las aplicaciones, lo que cambia los flujos de trabajo de millones de personas.",
+      "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Word, Excel y PowerPoint dejan de ser el centro: ahora se ejecutan dentro de Copilot. Microsoft acaba de mover el suelo de la oficina.\n\n#Microsoft #Copilot #MicrosoftIgnite #Microsoft365\nhttps://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
+        "linkedin": "El orden se ha invertido: primero el asistente, después las aplicaciones.\n\nEn la keynote de Ignite, Microsoft ha presentado un Copilot en el que Word, Excel y PowerPoint se ejecutan dentro del propio asistente, y anticipa agentes siempre activos que trabajan de fondo sobre los documentos. Para millones de personas, 𝗲𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗲𝗺𝗽𝗲𝘇𝗮𝗿 𝗲𝗻 𝗹𝗮 𝗮𝗽𝗽 𝘆 𝗲𝗺𝗽𝗶𝗲𝘇𝗮 𝗲𝗻 𝗲𝗹 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲. La lectura práctica: quien diseñe bien sus flujos dentro de Copilot ganará tiempo, y quien siga abriendo archivos uno a uno competirá en desventaja.\n\n#Microsoft #Copilot #MicrosoftIgnite #Microsoft365\n\nhttps://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "investigacion",
+      "title": "Voyager 1 supera el día luz de distancia a la Tierra",
+      "summary": "La sonda de la NASA, lanzada en 1977, está ya a más de 24 horas luz de nuestro planeta, de modo que cada mensaje tarda un día en llegar. Sigue operativa con sistemas de hace casi medio siglo, incluida una grabadora de cinta de ocho pistas.",
+      "why_it_matters": "Es el objeto humano más lejano y una lección de ingeniería que dura décadas.",
+      "url": "https://arstechnica.com/space/2026/11/voyager-1-at-one-light-day-historian-revisits-golden-records-forgotten-details",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Un comando enviado hoy a Voyager 1 tarda un día entero en llegar. La sonda ya está a más de 24 horas luz y sigue viva desde 1977, con una grabadora de cinta de ocho pistas.\n\n#Voyager1 #NASA #ExploraciónEspacial\nhttps://arstechnica.com/space/2026/11/voyager-1-at-one-light-day-historian-revisits-golden-records-forgotten-details",
+        "linkedin": "Hay una nave a la que ya no puedes dar una orden en tiempo real. Voyager 1 está a más de 24 horas luz: cada mensaje tarda un día en llegar y otro en volver, y aun así sigue operativa desde 1977, con una grabadora de cinta de ocho pistas como la de un radiocasete.\n\n𝗗𝗶𝘀𝗲ñ𝗮𝗿 𝗽𝗮𝗿𝗮 𝟱𝟬 𝗮ñ𝗼𝘀 𝗻𝗼 𝗲𝗿𝗮 𝘂𝗻𝗮 𝗺𝗲𝘁á𝗳𝗼𝗿𝗮 𝗲𝗻 𝟭𝟵𝟳𝟳, 𝗲𝗿𝗮 𝘂𝗻 𝗿𝗲𝗾𝘂𝗶𝘀𝗶𝘁𝗼, y ahí está la lección incómoda: buena parte de los sistemas que desplegamos hoy no aguantaría una fracción de ese relevo sin alguien detrás sosteniéndolos. Para quien construye infraestructura, la pregunta es cuánto de lo nuestro seguirá en pie cuando ya nadie recuerde por qué se tomó esa decisión.\n\n#Voyager1 #NASA #ExploraciónEspacial\n\nhttps://arstechnica.com/space/2026/11/voyager-1-at-one-light-day-historian-revisits-golden-records-forgotten-details"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Plataforma de automatización de flujos de trabajo con capacidades de IA nativas. Combina el editor visual con código propio, más de 400 integraciones y la opción de self-hosted o en la nube.",
+      "language": "TypeScript",
+      "stars": 210961,
+      "social": {
+        "x": "Zapier te cobra por cada tarea. n8n hace lo mismo en tu propio servidor: 400+ integraciones, IA nativa y 210k estrellas en GitHub.\n\n#n8n #Automatizacion #TypeScript #OpenSource\nhttps://github.com/n8n-io/n8n",
+        "linkedin": "ZAPIER TE COBRA POR CADA TAREA. N8N SE QUEDA EN TU SERVIDOR.\n\nAutomatizar es fácil hasta que llega la factura: cada ejecución suma, cada integración sube de plan y tus flujos acaban viviendo en la infraestructura de otro. n8n plantea lo contrario, un editor visual con más de 400 integraciones que puedes levantar en tu propia máquina o dejar en la nube si no quieres gestionar nada.\n\nLo interesante no es solo el catálogo de conectores, sino que 𝗲𝗹 𝗳𝗹𝘂𝗷𝗼 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗲𝘀 𝘁𝘂𝘆𝗼 𝘆 𝘀𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮 𝗱𝗼𝗻𝗱𝗲 𝘁ú 𝗱𝗲𝗰𝗶𝗱𝗮𝘀:\n\n→ Editor visual para encadenar nodos sin escribir una línea, con más de 400 integraciones listas.\n→ Nodos de código propio cuando arrastrar y soltar no llega: metes TypeScript o JavaScript en mitad del flujo.\n→ Capacidades de IA nativas dentro de la propia automatización, sin montar un servicio aparte.\n→ Self-hosted con tu base de datos y tus backups, o versión cloud si prefieres olvidarte del mantenimiento.\n→ 210.961 estrellas en GitHub y una comunidad que ya ha publicado miles de plantillas.\n\nEl patrón se repite: primero pagas por comodidad, luego pagas por volumen. Tener la opción de self-hosted cambia la conversación antes de que empiece.\n\nGuarda este post para el día en que tu factura de automatización vuelva a subir. El repo lo tienes abajo.\n\n#n8n #Automatizacion #TypeScript #OpenSource\n\nhttps://github.com/n8n-io/n8n"
+      }
+    },
+    {
+      "name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "La especificación de plugins de Cursor junto con los oficiales. Es la referencia para entender cómo se extiende el editor y para añadir tus propias funcionalidades al flujo de trabajo con IA.",
+      "language": "TypeScript",
+      "stars": 17126,
+      "social": {
+        "x": "Cursor acaba de abrir la especificación de sus plugins: 17.000 estrellas para que le añadas tus propias funcionalidades al editor. Y los oficiales vienen incluidos.\n\n#Cursor #Plugins #TypeScript #OpenSource\nhttps://github.com/cursor/plugins",
+        "linkedin": "LA ESPECIFICACIÓN DE PLUGINS DE CURSOR YA ES PÚBLICA (Y VIENE CON LOS OFICIALES).\n\nCursor no se queda en el autocompletado: se puede extender. El equipo ha publicado la spec de sus plugins junto con los oficiales, así que ya no hay que adivinar cómo enganchar tu propia lógica al flujo de trabajo del editor.\n\n→ La referencia completa para entender cómo se extiende Cursor por dentro\n→ Plugins oficiales incluidos, que sirven como punto de partida real\n→ Todo en TypeScript, el mismo stack del resto del ecosistema\n→ 17.000 estrellas: la comunidad no ha tardado en mirarlo\n\n𝗣𝘂𝗲𝗱𝗲𝘀 𝗮ñ𝗮𝗱𝗶𝗿 𝘁𝘂𝘀 𝗽𝗿𝗼𝗽𝗶𝗮𝘀 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱𝗲𝘀 𝗮𝗹 𝗳𝗹𝘂𝗷𝗼 𝗱𝗲 𝗜𝗔 𝗱𝗲𝗹 𝗲𝗱𝗶𝘁𝗼𝗿 𝘀𝗶𝗻 𝗲𝘀𝗽𝗲𝗿𝗮𝗿 𝗮 𝗾𝘂𝗲 𝗲𝗹 𝗲𝗾𝘂𝗶𝗽𝗼 𝗹𝗮𝘀 𝗹𝗮𝗻𝗰𝗲.\n\nSi usas Cursor a diario, guarda este post: te dejo el repo justo debajo.\n\n#Cursor #Plugins #TypeScript #OpenSource\n\nhttps://github.com/cursor/plugins"
+      }
+    },
+    {
+      "name": "openvinotoolkit/openvino",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "description": "Toolkit open source para optimizar y desplegar inferencia de IA en CPU, GPU y NPU. Va muy bien para llevar modelos a producción en hardware modesto sin depender de una GPU dedicada.",
+      "language": "C++",
+      "stars": 11279,
+      "social": {
+        "x": "No necesitas una GPU dedicada para servir un modelo en producción. OpenVINO lleva la inference a la CPU y la NPU de tu portátil, y ya suma 11k estrellas.\n\n#OpenVINO #Inference #OpenSource #GitHub\nhttps://github.com/openvinotoolkit/openvino",
+        "linkedin": "TU PORTÁTIL YA TIENE UN ACELERADOR DE IA DENTRO. Y CASI NADIE LO ESTÁ USANDO.\n\nCada vez que se habla de poner un modelo en producción pasa lo mismo: se da por hecho que hace falta una GPU dedicada, cola de espera y una factura mensual que asusta. OpenVINO parte de la premisa contraria: optimizar el modelo y ejecutarlo en el hardware que ya tienes.\n\nEs un toolkit open source en C++ (mantenido por Intel) que compila y optimiza el grafo del modelo para CPU, GPU integrada y NPU. La clave es que 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗽𝗮𝗿𝗮 𝗾𝘂𝗲 𝗾𝘂𝗲𝗽𝗮 𝘆 𝘀𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗲 𝗿á𝗽𝗶𝗱𝗼 𝗲𝗻 𝘀𝗶𝗹𝗶𝗰𝗶𝗼 𝗺𝗼𝗱𝗲𝘀𝘁𝗼, sin reescribir tu código de inferencia.\n\n→ Una misma API en C++ y Python para lanzar inference en CPU, GPU y NPU.\n→ Optimizaciones de grafo propias: fusión de capas, cuantización a INT8 y pruning.\n→ Convertidor de modelos desde PyTorch, TensorFlow, TensorFlow Lite y ONNX.\n→ Runtime pensado para producción: cargas el modelo en local y no dependes de servicios externos.\n→ Linux, Windows y macOS, además de dispositivos de borde.\n\nSi tienes un endpoint que hoy depende de una GPU en la nube, este repo es la prueba de que quizá no lo necesitas. Y con 11k estrellas, el ecosistema ya lo está usando.\n\nGuarda el post y échale un ojo al repo, lo tienes justo abajo.\n\n#OpenVINO #Inference #OpenSource #GitHub\n\nhttps://github.com/openvinotoolkit/openvino"
+      }
+    },
+    {
+      "name": "astral-sh/uv",
+      "url": "https://github.com/astral-sh/uv",
+      "description": "Gestor de paquetes y de proyectos de Python escrito en Rust, mucho más rápido que pip y con entornos y dependencias resueltos desde un único binario. Si trabajas con Python a diario, te ahorra tiempo en cada instalación.",
+      "language": "Rust",
+      "stars": 92177,
+      "social": {
+        "x": "92.177 estrellas y un solo binario en Rust: uv instala paquetes de Python mucho más rápido que pip y te resuelve entornos y dependencias sin montar nada a mano.\n\n#uv #Python #Rust #OpenSource\nhttps://github.com/astral-sh/uv",
+        "linkedin": "PIP TIENE LOS DÍAS CONTADOS Y EL CULPABLE ESTÁ ESCRITO EN RUST.\n\nuv hace lo mismo que pip, pero desde un único binario: resuelve dependencias, crea entornos virtuales y gestiona proyectos de Python sin que tengas que encadenar comandos ni pelearte con versiones. Y lo hace muchísimo más rápido, que es justo lo que notas en cada instalación del día a día.\n\nLa clave está en que no es un wrapper ni un plugin: 𝗿𝗲𝗲𝘀𝗰𝗿𝗶𝗯𝗲 𝗹𝗮 𝗿𝗲𝘀𝗼𝗹𝘂𝗰𝗶ó𝗻 𝗱𝗲 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮𝘀 𝗱𝗲𝘀𝗱𝗲 𝗰𝗲𝗿𝗼 𝗲𝗻 𝗥𝘂𝘀𝘁, así que el rendimiento no depende de parches encima de la herramienta antigua.\n\n→ Sustituye a pip, pip-tools y virtualenv con un solo ejecutable\n→ Instala y resuelve dependencias mucho más rápido que pip\n→ Gestiona entornos virtuales y proyectos Python sin configuración extra\n→ Se instala como binario único, sin dependencias raras\n→ Proyecto open source de Astral, con 92.177 estrellas en GitHub\n\nSi trabajas con Python a diario, esto te ahorra tiempo en cada instalación, no solo la primera vez que lo pruebas.\n\nGuarda el post y prueba a cambiar tu próximo `pip install` por uv: te dejo el repo abajo.\n\n#uv #Python #Rust #OpenSource\n\nhttps://github.com/astral-sh/uv"
+      }
+    },
+    {
+      "name": "appwrite/appwrite",
+      "url": "https://github.com/appwrite/appwrite",
+      "description": "Backend open source y self-hosted que reúne autenticación, bases de datos, almacenamiento, funciones y mensajería en una sola plataforma. Ahora se vende también como infraestructura para agentes, así que puedes montar el backend de tu app sin coser servicios de terceros.",
+      "language": "TypeScript",
+      "stars": 58179,
+      "social": {
+        "x": "Firebase te ata a su nube y a su factura. Appwrite es open source, self-hosted y ya suma 58k estrellas: auth, base de datos, storage y funciones en un solo backend.\n\n#Appwrite #OpenSource #Backend #TypeScript\nhttps://github.com/appwrite/appwrite",
+        "linkedin": "FIREBASE TE COBRA POR ESCALAR. ESTE BACKEND OPEN SOURCE LO MONTAS TÚ.\n\nMontar el backend de una app suele acabar en un puzzle de servicios: auth por un lado, base de datos por otro, storage en un tercero y funciones colgando de una cuarta cuenta. Appwrite mete esas piezas en una sola plataforma self-hosted, con 58k estrellas en GitHub y licencia open source. Y ahora también se vende como infraestructura para agentes, así que el mismo backend te sirve para la app y para lo que venga después.\n\n→ Autenticación con sesiones, OAuth y verificación por email, lista desde el primer deploy\n→ Base de datos con permisos a nivel de documento\n→ Almacenamiento de archivos con control de acceso\n→ Funciones serverless en varios lenguajes\n→ Mensajería por email, SMS y push desde el mismo panel\n\n𝗟𝗮 𝗴𝗿𝗮𝗰𝗶𝗮 𝗲𝘀 𝗻𝗼 𝗰𝗼𝘀𝗲𝗿 𝗰𝗶𝗻𝗰𝗼 𝘀𝗲𝗿𝘃𝗶𝗰𝗶𝗼𝘀 𝗱𝗲 𝘁𝗲𝗿𝗰𝗲𝗿𝗼𝘀: un docker compose y tienes el backend entero en tu servidor, con los datos donde tú decides.\n\nSi estás montando un producto y no quieres pagar un extra por cada usuario que entra, guarda este post: el repo está abajo.\n\n#Appwrite #OpenSource #Backend #TypeScript\n\nhttps://github.com/appwrite/appwrite"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Data contracts: tratar los datos como un producto con garantías",
+      "url": "https://martinfowler.com/articles/data-contracts.html",
+      "source": "Martin Fowler",
+      "summary": "Simon Harrer y Arif Wider explican cómo llevar las prácticas del diseño de API a los conjuntos de datos: declarar qué contienen, qué garantías ofrecen y quién responde de cada cambio. El artículo detalla cómo redactar esos contratos, versionarlos y hacerlos cumplir en paisajes de datos grandes. Sirve para que equipos y agentes de IA consuman datos con reglas explícitas en lugar de suposiciones.",
+      "tema": "datos"
+    },
+    {
+      "title": "Deterministic simulation testing: probar sistemas distribuidos sin depender del azar",
+      "url": "https://martinfowler.com/articles/deterministic-simulation-testing.html",
+      "source": "Martin Fowler",
+      "summary": "Unmesh Joshi describe una técnica que sustituye relojes, red y almacenamiento reales por componentes simulados que corren en un único hilo, de modo que cada fallo se reproduce siempre igual. Permite inyectar caídas y también latencias normales, como picos de disco o de red. Quien lo lea entenderá por qué las pruebas al uso se quedan cortas en sistemas distribuidos y cómo montar este enfoque.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Inference engineering: cuándo dejar la API de un laboratorio de IA y servir el modelo por tu cuenta",
+      "url": "https://newsletter.pragmaticengineer.com/p/inference-engineering-for-software-engineers",
+      "source": "The Pragmatic Engineer",
+      "summary": "Guía práctica para ingenieros de software sobre el momento de pasar de las APIs de los grandes laboratorios a servir modelos con infraestructura propia. Cubre la elección de modelo y proveedor, el uso de caché, las GPUs dedicadas y los problemas de la KV cache, con criterios de coste y latencia. Útil si estás llevando funciones de IA a producción y necesitas decidir con datos en la mano.",
+      "tema": "ia"
+    },
+    {
+      "title": "La IA acelera la construcción, ¿puede la accesibilidad seguir el ritmo?",
+      "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up",
+      "source": "Smashing Magazine",
+      "summary": "Andrew Chung parte de investigación reciente para explicar por qué el QA no ha avanzado al mismo ritmo que la velocidad de construcción y qué distingue a los equipos que mantienen la accesibilidad bajo control. Describe cómo introducir juicio humano en flujos con IA sin frenar las entregas. Interesa a quien diseña o revisa interfaces y no quiere que la automatización deje agujeros de accesibilidad.",
+      "tema": "web"
+    },
+    {
+      "title": "Los trucos de código con los que se construyeron Doom y Quake",
+      "url": "https://stackoverflow.blog/2026/11/17/coding-tricks-that-built-doom-and-quake",
+      "source": "Stack Overflow Blog",
+      "summary": "John Romero repasa las técnicas que hicieron volar a Wolfenstein, Doom y Quake en PCs modestos: código automodificable, blitting y una arquitectura abierta a los mods. Más allá de la nostalgia, es una lección sobre resolver problemas con recursos escasos y sobre cómo una buena decisión de diseño alarga la vida de un motor durante décadas.",
+      "tema": "programacion"
+    },
+    {
+      "title": "La ley de la similitud: por qué lo que se parece se percibe como parte de lo mismo",
+      "url": "https://heymeet.medium.com/law-of-similarity-why-things-that-look-alike-feel-like-they-belong-cbddd2d04722",
+      "source": "Medium: UX",
+      "summary": "Explica cómo el parecido visual (color, forma, tamaño, posición) lleva a los usuarios a agrupar elementos y qué consecuencias tiene al diseñar interfaces. Incluye ejemplos de cuándo la similitud ayuda a entender una pantalla y de cuándo genera ambigüedad sin que nos demos cuenta. Es un recordatorio breve y práctico de una de las leyes de la Gestalt más rentables en el día a día.",
+      "tema": "diseno"
+    }
+  ]
+}
