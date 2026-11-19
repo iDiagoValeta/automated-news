@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T18:58:39.128Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Gemini 4 Neon: Google lanza su cuarto modelo en un mes",
+      "summary": "Google presenta Gemini 4 Neon, un modelo frontera pensado para desarrollo de software, trabajo de conocimiento y ciencia. Acepta texto, imágenes, vídeo, audio y PDF con una ventana de contexto de un millón de tokens, y llega apenas unas semanas después de sus hermanos Gemini 4.",
+      "why_it_matters": "Consolida una cadencia de lanzamientos inédita en Google y da a los desarrolladores otro modelo multimodal al que recurrir para cargas de agentes y código.",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-neon",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "Cuatro Gemini 4 en un mes. El último, Neon, acepta texto, vídeo, audio y PDF en un millón de tokens de contexto.\n\n#Gemini #GoogleDeepMind #Multimodal #DesarrolloDeSoftware\nhttps://deepmind.google/blog/introducing-gemini-4-neon",
+        "linkedin": "Cuatro modelos frontera en un mes no es una racha: es una cadencia que Google quiere convertir en estándar.\n\nGemini 4 Neon aterriza con una ventana de un millón de tokens, entrada de texto, imagen, vídeo, audio y PDF, y un foco claro en código, trabajo de conocimiento y ciencia. Para quien construye agentes, la lectura es que 𝗹𝗮 𝗺𝘂𝗹𝘁𝗶𝗺𝗼𝗱𝗮𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗱𝗶𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮𝗱𝗼𝗿 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗲𝗹 𝗽𝘂𝗻𝘁𝗼 𝗱𝗲 𝗽𝗮𝗿𝘁𝗶𝗱𝗮. Y cuando todos los proveedores publican a este ritmo, el cuello de botella se mueve del modelo al criterio: qué elegir para cada carga, cómo controlar el coste y con qué evaluar los resultados.\n\n#Gemini #GoogleDeepMind #Multimodal #DesarrolloDeSoftware\n\nhttps://deepmind.google/blog/introducing-gemini-4-neon"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Gemini ya puede manejar tu Mac por ti",
+      "summary": "Google lleva la función de computer use a su app de escritorio de Gemini en macOS: el agente puede organizar archivos, rellenar formularios y resolver tareas de varios pasos navegando por apps nativas y webs en segundo plano. El usuario decide a qué aplicaciones concede acceso.",
+      "why_it_matters": "La automatización del escritorio deja de ser un experimento de laboratorio y aterriza en un asistente de consumo, con permisos por aplicación como principal salvaguarda.",
+      "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+      "source": "The Verge",
+      "social": {
+        "x": "Gemini ya no solo te responde: actúa. Mueve archivos, rellena formularios y encadena tareas dentro de tu Mac, con permiso app por app.\n\n#Gemini #Google #macOS #ComputerUse\nhttps://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+        "linkedin": "El asistente de escritorio ha dejado de ser una demo. Gemini ya maneja apps nativas de tu Mac para ordenar archivos, rellenar formularios y resolver tareas de varios pasos, y Google lo lleva a su app de consumo en macOS.\n\nLo relevante no es que pueda hacerlo, sino cómo se controla: 𝗹𝗼𝘀 𝗽𝗲𝗿𝗺𝗶𝘀𝗼𝘀 𝘀𝗲 𝗰𝗼𝗻𝗰𝗲𝗱𝗲𝗻 𝗮𝗽𝗹𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗽𝗼𝗿 𝗮𝗽𝗹𝗶𝗰𝗮𝗰𝗶ó𝗻, y eso convierte al usuario en el punto de decisión. Para quien llevaba años descartando agentes por miedo al descontrol, ese modelo de permisos es la parte que conviene mirar con lupa antes de delegar la primera tarea.\n\n#Gemini #Google #macOS #ComputerUse\n\nhttps://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "herramientas",
+      "title": "La API de Gemini estrena Tool Retrieval para agentes con cientos de herramientas",
+      "summary": "Google abre en preview Tool Retrieval en la API de Gemini, un mecanismo que da a los agentes acceso a cientos de herramientas consumiendo menos tokens. En lugar de cargar todas las definiciones en el prompt, el sistema recupera solo las relevantes para cada petición.",
+      "why_it_matters": "Resuelve uno de los cuellos de botella prácticos de los agentes: el coste y la latencia de arrastrar un catálogo enorme de herramientas en cada llamada.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+      "source": "Google AI",
+      "social": {
+        "x": "Tu agente no necesita cargar 300 herramientas en el prompt. La API de Gemini empieza a recuperar solo las que importan en cada petición.\n\n#Gemini #GoogleAI #AgentesIA\nhttps://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+        "linkedin": "Un agente con cien herramientas no es más capaz: es más caro y más lento. Eso empieza a cambiar con Tool Retrieval en la API de Gemini, que en lugar de meter todas las definiciones en el prompt recupera solo las relevantes para cada petición. 𝗘𝗹 𝗰𝗼𝘀𝘁𝗲 𝘆 𝗹𝗮 𝗹𝗮𝘁𝗲𝗻𝗰𝗶𝗮 𝗱𝗲𝗷𝗮𝗻 𝗱𝗲 𝗰𝗿𝗲𝗰𝗲𝗿 𝗰𝗼𝗻 𝗲𝗹 𝗰𝗮𝘁á𝗹𝗼𝗴𝗼, y eso reabre la puerta a agentes con muchas integraciones reales. Si estás montando uno, la pregunta ya no es cuántas herramientas puede tener, sino cuántas necesita ver el modelo cada vez.\n\n#Gemini #GoogleAI #AgentesIA\n\nhttps://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Genie 4 lleva los mundos 3D interactivos de Project Genie al sonido y a la galería comunitaria",
+      "summary": "Google DeepMind actualiza Project Genie con Genie 4, su modelo de mundo más realista hasta la fecha, disponible para suscriptores de Google AI Ultra. Genera entornos 3D interactivos que se modifican en tiempo real con texto, añade sonido nativo por primera vez y estrena una galería para compartir y remezclar creaciones.",
+      "why_it_matters": "Los world models empiezan a comportarse como producto: se encadenan, se comparten y se reutilizan, no solo se demuestran.",
+      "url": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing",
+      "source": "The Decoder",
+      "social": {
+        "x": "Un mundo 3D generado con texto ya suena. Genie 4 añade audio nativo y una galería para remezclar las creaciones de otros.\n\n#GoogleDeepMind #Genie4 #WorldModels #GoogleAIUltra\nhttps://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing",
+        "linkedin": "El vídeo de demo ya no basta: Genie 4 añade sonido y una galería para remezclar mundos 3D.\n\nGoogle DeepMind actualiza Project Genie y abre el modelo a los suscriptores de Google AI Ultra: los entornos se editan en tiempo real con texto, se escuchan y se reutilizan los de otros usuarios. 𝗟𝗼𝘀 𝘄𝗼𝗿𝗹𝗱 𝗺𝗼𝗱𝗲𝗹𝘀 𝗲𝗺𝗽𝗶𝗲𝘇𝗮𝗻 𝗮 𝗰𝗼𝗺𝗽𝗼𝗿𝘁𝗮𝗿𝘀𝗲 𝗰𝗼𝗺𝗼 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼, no como demostración: se encadenan, se comparten y se vuelven a montar. Para quien prototipa experiencias interactivas, el coste de tener un entorno jugable acaba de cambiar de escala.\n\n#GoogleDeepMind #Genie4 #WorldModels #GoogleAIUltra\n\nhttps://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Foolscap, la app de escritura que lee tu libro pero no escribe por ti",
+      "summary": "Foolscap es una aplicación de escritura que usa IA para conocer el libro completo mientras lo escribes: señala conexiones, hilos abiertos y pasajes incoherentes, siempre con tus propias palabras. No genera texto y permite marcar una obra como privada para que no toque ningún modelo.",
+      "why_it_matters": "Demuestra que hay espacio para una IA de asistencia editorial que no sustituye al autor y que trata el manuscrito como material sensible.",
+      "url": "https://foolscap.works",
+      "source": "Hacker News",
+      "social": {
+        "x": "Una app lee tu libro entero mientras lo escribes y no escribe ni una palabra por ti. Foolscap va justo en la dirección contraria al resto.\n\n#Foolscap #LLM #Privacidad\nhttps://foolscap.works",
+        "linkedin": "Una app de escritura lee tu manuscrito completo y se niega a escribir una sola línea por ti.\n\nFoolscap usa IA para señalar conexiones entre capítulos, hilos abiertos y pasajes incoherentes, siempre con tus propias palabras, y permite marcar la obra como privada para que no toque ningún modelo. Frente al aluvión de generadores de texto, aquí la IA no sustituye al autor: 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮 𝗰𝗼𝗺𝗼 𝗹𝗲𝗰𝘁𝗼𝗿 𝗱𝗲 𝗰𝗼𝗻𝗳𝗶𝗮𝗻𝘇𝗮, 𝗻𝗼 𝗰𝗼𝗺𝗼 𝗲𝘀𝗰𝗿𝗶𝘁𝗼𝗿. Para quien trabaja con manuscritos ajenos (editoriales, agentes, ghostwriters) es una pista clara de por dónde va la herramienta que se puede usar de verdad sin ceder los derechos de nada.\n\n#Foolscap #LLM #Privacidad\n\nhttps://foolscap.works"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "Ingeniería inversa de binarios con agentes LLM: un flujo de trabajo real",
+      "summary": "Un ingeniero con dos décadas de experiencia en hardware y software describe cómo ha cambiado su método: ahora apunta un agente al binario que quiere analizar y utiliza un conjunto de skills dedicadas para acelerar el proceso. El artículo repasa el flujo con ejemplos y herramientas como Ghidra.",
+      "why_it_matters": "Es un caso concreto de cómo los LLM están redefiniendo una tarea clásica de seguridad que antes dependía por completo del trabajo manual.",
+      "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+      "source": "Hacker News",
+      "social": {
+        "x": "Dos décadas leyendo binarios a mano. Ahora apunta un agente al ejecutable y deja que sus skills hagan el trabajo. La ingeniería inversa ya no se aprende igual.\n\n#Ghidra #ReverseEngineering #LLM\nhttps://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+        "linkedin": "El binario no ha cambiado. Lo que ha cambiado es quién lo lee.\n\nUn ingeniero con veinte años de experiencia en hardware y software cuenta cómo ha reordenado su método: apunta un agente LLM al binario, lo acompaña de un conjunto de skills específicas y usa Ghidra como apoyo para verificar lo que el modelo propone. No es magia ni sustitución, es un cambio en dónde se coloca el esfuerzo: 𝗲𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝘆𝗮 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗱𝗲𝘀𝗲𝗻𝘀𝗮𝗺𝗯𝗹𝗮𝗿 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝗰𝗶𝗼𝗻𝗲𝘀, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗱𝗶𝗿𝗶𝗴𝗶𝗿 𝗲𝗹 𝗮𝗻á𝗹𝗶𝘀𝗶𝘀 𝘆 𝗰𝗼𝗺𝗽𝗿𝗼𝗯𝗮𝗿 𝘀𝘂𝘀 𝗿𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼𝘀. Para quien forma equipos de seguridad, la pregunta deja de ser si el LLM sirve aquí y pasa a ser qué criterio de validación exigimos antes de fiarnos de su salida.\n\n#Ghidra #ReverseEngineering #LLM\n\nhttps://www.slowchronicle.com/posts/llm-assisted-reverse-engineering"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Canva permitirá desactivar casi toda su IA generativa",
+      "summary": "Canva despliega nuevos ajustes para eliminar de la app la mayor parte de las funciones de IA generativa. La medida llega después de que muchos usuarios hayan pedido control sobre qué contenido generado aparece en sus proyectos.",
+      "why_it_matters": "Marca un contrapunto poco habitual en el sector: una gran herramienta de diseño que ofrece salida real a quien no quiere IA incrustada por defecto.",
+      "url": "https://www.engadget.com/2321318/canva-will-let-users-switch-off-most-generative-ai",
+      "source": "Engadget",
+      "social": {
+        "x": "Canva va a dejar que apagues casi toda su IA. Es la primera gran herramienta de diseño que lo permite, y eso dice mucho de lo que viene.\n\n#Canva #DiseñoGráfico #GenAI\nhttps://www.engadget.com/2321318/canva-will-let-users-switch-off-most-generative-ai",
+        "linkedin": "Canva acaba de admitir en voz alta algo que casi nadie en el sector quiere decir: hay usuarios que no quieren IA en su herramienta.\n\nCon los nuevos ajustes se podrá desactivar la mayor parte de la IA generativa directamente desde la app. No es una retirada, es una cesión de control que llega tras muchas peticiones y que 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗹𝗮 𝗜𝗔 𝗲𝗻 𝘂𝗻𝗮 𝗼𝗽𝗰𝗶ó𝗻, 𝗻𝗼 𝗲𝗻 𝗲𝗹 𝗽𝘂𝗻𝘁𝗼 𝗱𝗲 𝗽𝗮𝗿𝘁𝗶𝗱𝗮. Para los equipos de diseño y marketing que trabajan con clientes exigentes, poder demostrar que el contenido es propio deja de ser un problema.\n\n#Canva #DiseñoGráfico #GenAI\n\nhttps://www.engadget.com/2321318/canva-will-let-users-switch-off-most-generative-ai"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "Las tareas de Gemini ya son gratuitas en seis países",
+      "summary": "El asistente personal de tareas de Gemini deja de ser de pago en seis países, estrena funciones nuevas en Estados Unidos y se integra más a fondo con Google Workspace. La idea es que el asistente ejecute encargos en nombre del usuario sin salir del ecosistema de Google.",
+      "why_it_matters": "Google convierte una función de pago en una capa gratuita de automatización cotidiana, lo que presiona al resto de asistentes.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
+      "source": "Google AI",
+      "social": {
+        "x": "Google ha dejado de cobrar por su asistente de tareas en seis países. Cuando la automatización cotidiana pasa a ser gratis, el que cobra por ella tiene un problema.\n\n#Gemini #GoogleWorkspace #Google\nhttps://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
+        "linkedin": "La automatización cotidiana acaba de dejar de ser un extra de pago.\n\nGoogle libera las tareas de Gemini en seis países, estrena funciones en Estados Unidos y las mete más adentro de Workspace. El movimiento no va de regalar features: va de que el asistente ejecute encargos sin que el usuario salga de Gmail, Calendar o Docs. 𝗤𝘂𝗶𝗲𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮 𝗲𝗹 𝗱í𝗮 𝗮 𝗱í𝗮 𝗱𝗲𝗹 𝘂𝘀𝘂𝗮𝗿𝗶𝗼 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮 𝗹𝗮 𝘀𝗶𝗴𝘂𝗶𝗲𝗻𝘁𝗲 𝗰𝗮𝗽𝗮, y Google acaba de poner el precio de entrada a cero. Para cualquier equipo que paga por herramientas de automatización sueltas, toca revisar qué está comprando en realidad.\n\n#Gemini #GoogleWorkspace #Google\n\nhttps://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "Digitalizar un millón de páginas ya cuesta menos de 130 dólares",
+      "summary": "Los modelos de OCR de uso libre han rebajado el coste de digitalizar un millón de páginas por debajo de los 130 dólares, unas cinco veces menos que hace 18 meses. El abaratamiento viene tanto de modelos más precisos como de un mejor aprovechamiento del cómputo.",
+      "why_it_matters": "La digitalización masiva de archivos, libros y registros deja de ser un proyecto caro y pasa al alcance de cualquier equipo pequeño.",
+      "url": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months",
+      "source": "The Decoder",
+      "social": {
+        "x": "Digitalizar un millón de páginas cuesta ya menos de 130 dólares. Hace 18 meses, cinco veces más.\n\n#OCR #OpenSource #Digitalización\nhttps://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months",
+        "linkedin": "Un millón de páginas digitalizadas por menos de 130 dólares. Lo que hace año y medio era un proyecto de presupuesto serio hoy cabe en la tarjeta de cualquier equipo pequeño.\n\nEl mérito no está en un solo modelo, sino en la combinación de OCR open source más preciso y un uso mucho más eficiente del cómputo. 𝗟𝗮 𝗯𝗮𝗿𝗿𝗲𝗿𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗮𝗱𝗮 𝗮 𝗹𝗼𝘀 𝗮𝗿𝗰𝗵𝗶𝘃𝗼𝘀 𝗺𝗮𝘀𝗶𝘃𝗼𝘀 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗱𝗶𝗻𝗲𝗿𝗼, 𝘀𝗶𝗻𝗼 𝗹𝗮 𝘃𝗼𝗹𝘂𝗻𝘁𝗮𝗱 𝗱𝗲 𝗲𝗺𝗽𝗲𝘇𝗮𝗿. Y eso reordena prioridades: digitalizar fondos antiguos, registros o documentación interna deja de competir por presupuesto con otros proyectos y pasa a ser una tarea de fin de semana. Quien siga tratando la digitalización como un gasto grande está tomando una decisión con datos de hace dos años.\n\n#OCR #OpenSource #Digitalización\n\nhttps://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "DaisyRose-27B, un modelo abierto centrado en la eficiencia del post-entrenamiento",
+      "summary": "RadixArk publica en Hugging Face DaisyRose-27B, un modelo de 27.000 millones de parámetros cuyo principal argumento es la eficiencia del post-entrenamiento. El trabajo se presenta como un avance en la relación entre calidad final y recursos dedicados al ajuste.",
+      "why_it_matters": "La competencia entre modelos abiertos se traslada del tamaño al coste de afinarlos, que es lo que decide si una organización puede adaptarlos.",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "El argumento de DaisyRose-27B no es su tamaño, sino lo poco que cuesta afinarlo. Y ahí se decide qué organizaciones pueden permitirse un modelo propio.\n\n#OpenSource #HuggingFace #FineTuning #LLM\nhttps://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+        "linkedin": "El nuevo modelo abierto de RadixArk no compite por tamaño, sino por lo que cuesta dejarlo listo para producción.\n\nDaisyRose-27B, 27.000 millones de parámetros publicados en Hugging Face, pone el foco en la eficiencia del post-entrenamiento: 𝗹𝗮 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝗳𝗶𝗻𝗮𝗹 𝗽𝗼𝗿 𝗰𝗮𝗱𝗮 𝗿𝗲𝗰𝘂𝗿𝘀𝗼 𝗶𝗻𝘃𝗲𝗿𝘁𝗶𝗱𝗼 𝗲𝗻 𝗲𝗹 𝗮𝗷𝘂𝘀𝘁𝗲. Esa es la métrica que de verdad decide si un equipo puede adaptar un modelo a su caso o limitarse a consumirlo. La carrera abierta se está moviendo del quién entrena más grande al quién hace rentable el fine-tuning, y eso cambia las reglas para cualquier organización con recursos limitados.\n\n#OpenSource #HuggingFace #FineTuning #LLM\n\nhttps://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Shepherd, el meta-agente que vigila a otros agentes de IA",
+      "summary": "La profesora Weiyan Shi, de la Northeastern University, propone que los agentes autónomos cuenten con un supervisor, Shepherd, capaz de observar su comportamiento durante ejecuciones largas y frenar acciones no deseadas. El trabajo parte de incidentes reales, como agentes que borran bandejas de correo enteras o atacan sitios web.",
+      "why_it_matters": "La autonomía prolongada necesita mecanismos de supervisión propios, no solo mejores instrucciones en el prompt.",
+      "url": "https://spectrum.ieee.org/ai-agent-manager",
+      "source": "IEEE Spectrum AI",
+      "social": {
+        "x": "Un agente de IA borró una bandeja de correo entera. La solución que propone esta profesora no es un prompt mejor: es otro agente vigilándolo.\n\n#Shepherd #AgentesAutónomos #Northeastern\nhttps://spectrum.ieee.org/ai-agent-manager",
+        "linkedin": "Un agente de IA borró una bandeja de correo entera porque nadie lo estaba mirando en ese momento.\n\nWeiyan Shi, de la Northeastern University, propone Shepherd: un meta-agente que observa lo que hacen otros agentes durante ejecuciones largas y frena acciones no deseadas antes de que las terminen. El punto de partida son incidentes reales, no hipótesis de laboratorio. La lectura profesional es incómoda: 𝗹𝗮 𝗮𝘂𝘁𝗼𝗻𝗼𝗺í𝗮 𝘀𝗼𝘀𝘁𝗲𝗻𝗶𝗱𝗮 𝗻𝗲𝗰𝗲𝘀𝗶𝘁𝗮 𝘀𝘂𝗽𝗲𝗿𝘃𝗶𝘀𝗶ó𝗻 𝗽𝗿𝗼𝗽𝗶𝗮, 𝗻𝗼 𝗺𝗲𝗷𝗼𝗿𝗲𝘀 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗲𝗻 𝗲𝗹 𝗽𝗿𝗼𝗺𝗽𝘁. Si tu equipo ya deja agentes corriendo en producción sin nadie revisando el resultado, esto te afecta antes de lo que crees.\n\n#Shepherd #AgentesAutónomos #Northeastern\n\nhttps://spectrum.ieee.org/ai-agent-manager"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Google construye un internet espejo para entrenar a sus agentes de Chrome",
+      "summary": "Google ha creado una réplica controlada de internet que sirve de gran sandbox para entrenar y probar a los agentes de navegación de Chrome. Así el equipo puede observar cómo se comportan sin riesgo de que actúen sobre sitios y servicios reales.",
+      "why_it_matters": "Los entornos de prueba a gran escala son la infraestructura que falta para desplegar agentes que navegan por la web abierta.",
+      "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents",
+      "source": "Wired",
+      "social": {
+        "x": "Google ha construido un internet de mentira. Sus agentes de Chrome aprenden a navegar ahí antes de tocar un solo sitio real.\n\n#Google #Chrome #AIAgents #WebAgents\nhttps://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents",
+        "linkedin": "Google ha clonado internet: mismo aspecto, cero consecuencias.\n\nLa compañía ha levantado una réplica controlada de la web que funciona como un sandbox gigante para los agentes de navegación de Chrome. Ahí puede observarlos rellenar formularios, encadenar clics y equivocarse sin que nada de eso ocurra sobre servicios reales. El debate sobre agentes lleva meses centrado en el modelo, y el verdadero cuello de botella está en otro sitio: 𝗲𝗹 𝗲𝗻𝘁𝗼𝗿𝗻𝗼 𝗱𝗲 𝗽𝗿𝘂𝗲𝗯𝗮𝘀 𝗲𝘀 𝗹𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗾𝘂𝗲 𝗳𝗮𝗹𝘁𝗮𝗯𝗮 𝗽𝗮𝗿𝗮 𝗹𝗹𝗲𝘃𝗮𝗿𝗹𝗼𝘀 𝗮 𝗹𝗮 𝘄𝗲𝗯 𝗮𝗯𝗶𝗲𝗿𝘁𝗮. Quien tenga un banco de pruebas a esa escala puede iterar mucho más rápido que quien dependa de ensayo y error en producción.\n\n#Google #Chrome #AIAgents #WebAgents\n\nhttps://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "lanzamientos",
+      "title": "PostgreSQL 19 ya está disponible",
+      "summary": "El equipo de PostgreSQL anuncia la publicación de la versión 19 de la base de datos relacional open source. La nueva major release llega dentro del calendario habitual del proyecto y obligará a los equipos con despliegues en producción a planificar la actualización.",
+      "why_it_matters": "Cada versión mayor de PostgreSQL condiciona las migraciones, el soporte y las decisiones de arquitectura de miles de aplicaciones.",
+      "url": "https://www.postgresql.org/about/news/postgresql-19-released-3449",
+      "source": "Lobsters",
+      "social": {
+        "x": "PostgreSQL 19 ya está fuera. Y para quien tiene producción encima, la noticia no es el lanzamiento: es la migración que viene detrás.\n\n#PostgreSQL #OpenSource #BasesDeDatos\nhttps://www.postgresql.org/about/news/postgresql-19-released-3449",
+        "linkedin": "PostgreSQL 19 ya está publicado, y el titular es lo menos interesante del asunto.\n\nCada major release del proyecto mueve 𝗹𝗮𝘀 𝗺𝗶𝗴𝗿𝗮𝗰𝗶𝗼𝗻𝗲𝘀, 𝗲𝗹 𝘀𝗼𝗽𝗼𝗿𝘁𝗲 𝘆 𝗹𝗮𝘀 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝗲𝘀 𝗱𝗲 𝗮𝗿𝗾𝘂𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗮 de miles de aplicaciones. Esta llega dentro del calendario habitual, así que nadie puede alegar sorpresa. Para los equipos con producción encima el trabajo empieza ahora: revisar extensiones, probar en staging y decidir si se sube en el primer minor o se espera al siguiente.\n\n#PostgreSQL #OpenSource #BasesDeDatos\n\nhttps://www.postgresql.org/about/news/postgresql-19-released-3449"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "Discord reescribe sus clientes en Rust con el framework de Zed",
+      "summary": "Discord ha reescrito sus clientes de escritorio y móvil en Rust, abandonando Electron y React Native para apoyarse en el framework de renderizado acelerado por GPU de Zed. La compañía comparte que los primeros resultados apuntan a una reducción notable de memoria y de tiempo de arranque en chat, voz y streaming.",
+      "why_it_matters": "Es una de las migraciones más grandes del sector fuera de las tecnologías web y una prueba de que el rendimiento nativo vuelve a pesar.",
+      "url": "https://www.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed",
+      "source": "InfoQ",
+      "social": {
+        "x": "El chat que usas a diario acaba de dejar atrás Electron. Discord reescribe sus clientes en Rust y el tiempo de arranque se desploma.\n\n#Discord #Rust #Zed #Electron\nhttps://www.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed",
+        "linkedin": "Discord acaba de hacer lo que muchos equipos llevan años posponiendo: tirar Electron y React Native y reescribir sus clientes en Rust.\n\nLo ha hecho sobre el framework de renderizado acelerado por GPU de Zed, y los primeros datos hablan de menos memoria y arranques más rápidos en chat, voz y streaming. 𝗘𝗹 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗻𝗮𝘁𝗶𝘃𝗼 𝘃𝘂𝗲𝗹𝘃𝗲 𝗮 𝘀𝗲𝗿 𝗮𝗿𝗴𝘂𝗺𝗲𝗻𝘁𝗼 𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼, no un detalle de ingeniería. Para quien mantiene apps multiplataforma, la pregunta ya no es si Electron es cómodo, sino cuánto cuesta seguir pagando su factura en cada actualización.\n\n#Discord #Rust #Zed #Electron\n\nhttps://www.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "lanzamientos",
+      "title": "OpenRun 1.0, despliegues declarativos para herramientas internas",
+      "summary": "Tras más de tres años de desarrollo y varios clientes en producción, OpenRun alcanza su versión 1.0. La herramienta despliega aplicaciones internas en Docker o Kubernetes con configuración declarativa e incluye control de acceso por roles, alojamiento de SQLite y una consola de administración.",
+      "why_it_matters": "Amplía las opciones self-hosted para equipos que quieren evitar plataformas gestionadas como Heroku, Render o Retool.",
+      "url": "https://openrun.dev/blog/openrun-1.0",
+      "source": "Lobsters",
+      "social": {
+        "x": "Llevas años pagando a Heroku o Retool por herramientas internas que podrías tener en tu propio servidor. OpenRun acaba de llegar a 1.0.\n\n#OpenRun #SelfHosted #Kubernetes #Docker\nhttps://openrun.dev/blog/openrun-1.0",
+        "linkedin": "La mayoría de las herramientas internas no necesitan una plataforma gestionada: necesitan un sitio donde correr.\n\nOpenRun alcanza la 1.0 después de tres años de desarrollo y varios clientes en producción, con despliegue declarativo en Docker o Kubernetes, control de acceso por roles, SQLite alojado y consola de administración. Para un equipo pequeño, ahí está el cambio de cálculo: 𝗲𝗹 𝗳𝗿𝗲𝗻𝗼 𝗱𝗲𝗹 𝘀𝗲𝗹𝗳-𝗵𝗼𝘀𝘁𝗲𝗱 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗰𝗼𝗺𝗽𝗹𝗲𝗷𝗶𝗱𝗮𝗱 𝘁é𝗰𝗻𝗶𝗰𝗮, 𝘀𝗶𝗻𝗼 𝗹𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗱𝗲 𝗮𝘀𝘂𝗺𝗶𝗿𝗹𝗮. Heroku, Render o Retool siguen teniendo sentido cuando no quieres pensar en infraestructura, pero cada vez cuesta más justificar el pago por un panel de tres pantallas.\n\n#OpenRun #SelfHosted #Kubernetes #Docker\n\nhttps://openrun.dev/blog/openrun-1.0"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "El agente Muse de Meta mezcla conversaciones y expone datos de empleados",
+      "summary": "Según TechCrunch, algunos empleados de Meta han visto cómo su agente de IA Muse mostraba mensajes sobre peticiones de guardería, consejos de carrera o pedidos que nunca hicieron, además de saldos bancarios ajenos. La empresa sostiene que los datos bancarios mostrados no son reales, pero el episodio ha inquietado internamente.",
+      "why_it_matters": "Los fallos de aislamiento de datos entre usuarios son el riesgo más visible de los agentes conversacionales dentro de las empresas.",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El agente de IA de Meta le mostró a un empleado los saldos bancarios de otro compañero. La empresa dice que esos datos no son reales.\n\n#Meta #Muse #Privacidad #AgentesConversacionales\nhttps://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
+        "linkedin": "El agente de IA interno de Meta mezcló conversaciones de sus empleados y enseñó saldos bancarios a quien no eran.\n\nSegún TechCrunch, Muse mostró mensajes sobre peticiones de guardería, consejos de carrera o pedidos que nadie hizo. Meta sostiene que los datos bancarios no son reales, pero el detalle es lo de menos: 𝗲𝗹 𝗳𝗮𝗹𝗹𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗮𝗶𝘀𝗹𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗲𝗻𝘁𝗿𝗲 𝘂𝘀𝘂𝗮𝗿𝗶𝗼𝘀, y eso es justo lo que puede dinamitar la confianza en cualquier agente desplegado dentro de una empresa. Antes de escalar estos asistentes a toda la plantilla, toca preguntarse cómo se separa el contexto de cada persona.\n\n#Meta #Muse #Privacidad #AgentesConversacionales\n\nhttps://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Google exigirá verificar las apps de Android en todo el mundo desde enero de 2027",
+      "summary": "Google confirma que el requisito de verificación de desarrolladores de Android se aplicará globalmente en enero de 2027. La compañía asegura que casi todos los desarrolladores ya están dentro del programa, que también afecta a cómo se instalan aplicaciones al margen de Google Play.",
+      "why_it_matters": "Cambia las reglas de distribución de apps Android y añade una verificación de identidad obligatoria para quienes publican software.",
+      "url": "https://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Google quiere saber quién hay detrás de cada app de Android. Desde enero de 2027, la verificación será obligatoria en todo el mundo, también fuera de Play.\n\n#Android #GooglePlay #Sideloading\nhttps://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027",
+        "linkedin": "Google acaba de poner fecha al fin del Android sin identidad: en enero de 2027, verificar quién publica una app será obligatorio en todo el mundo, también fuera de Play.\nLa compañía asegura que casi todos los desarrolladores ya están dentro del programa, pero el cambio también afecta a cómo se instalan aplicaciones al margen de Google Play. 𝗟𝗮 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝘁𝗿á𝗺𝗶𝘁𝗲 𝗱𝗲 𝗹𝗮 𝘁𝗶𝗲𝗻𝗱𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗼𝗻𝗱𝗶𝗰𝗶ó𝗻 𝗽𝗮𝗿𝗮 𝗽𝘂𝗯𝗹𝗶𝗰𝗮𝗿 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗲𝗻 𝗔𝗻𝗱𝗿𝗼𝗶𝗱. Para el usuario, más control sobre lo que instala; para el desarrollador independiente, una capa más antes de distribuir.\n\n#Android #GooglePlay #Sideloading\n\nhttps://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "investigacion",
+      "title": "La IA encuentra nuevos fallos críticos en NGINX",
+      "summary": "Según The Register, herramientas de IA han localizado nuevos errores críticos en NGINX, el servidor web open source presente en unos 225 millones de sitios, dentro de una oleada de parches de seguridad. El hallazgo se suma a otros descubrimientos similares en software de uso masivo.",
+      "why_it_matters": "El ritmo de descubrimiento de vulnerabilidades se acelera con la IA, lo que obliga a los equipos de operaciones a parchear mucho más rápido.",
+      "url": "https://www.theregister.com/security/2026/11/18/ai-found-more-critical-bugs-in-another-widely-used-technology-running-225m-websites/5310887",
+      "source": "The Register",
+      "social": {
+        "x": "La IA acaba de encontrar fallos críticos en NGINX, el servidor que hay detrás de 225 millones de sitios. El problema no es el hallazgo: es que tu equipo parchea más despacio de lo que la IA descubre.\n\n#NGINX #OpenSource #Ciberseguridad #CVEs\nhttps://www.theregister.com/security/2026/11/18/ai-found-more-critical-bugs-in-another-widely-used-technology-running-225m-websites/5310887",
+        "linkedin": "El cuello de botella de la seguridad ya no es encontrar fallos, sino parchearlos a tiempo.\n\nLa IA ha localizado nuevos errores críticos en NGINX, el servidor web open source que sostiene unos 225 millones de sitios, y lo ha hecho en plena oleada de parches que no da tregua. 𝗘𝗹 𝗱𝗲𝘀𝗰𝘂𝗯𝗿𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝘀𝗲 𝗵𝗮 𝗮𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝘇𝗮𝗱𝗼; 𝗹𝗮 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮, 𝘁𝗼𝗱𝗮𝘃í𝗮 𝗻𝗼. Para quien lleva operaciones, eso significa que la ventana entre la publicación de un CVE y su explotación se mide en horas, y que la deuda de parches deja de ser una tarea de mantenimiento para convertirse en riesgo de negocio.\n\n#NGINX #OpenSource #Ciberseguridad #CVEs\n\nhttps://www.theregister.com/security/2026/11/18/ai-found-more-critical-bugs-in-another-widely-used-technology-running-225m-websites/5310887"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Los controles de chips de EE. UU. golpean por partida doble a la IA china",
+      "summary": "El endurecimiento de los controles de exportación de chips afecta ya a acuerdos concretos: Moonshot AI dejó un compromiso de 150 millones de dólares en Indonesia y TSMC y Samsung han dejado de enviar a clientes chinos. Una investigación del New York Times señala además a Alibaba por canalizar chips de Nvidia hacia investigadores militares.",
+      "why_it_matters": "El acceso al cómputo se consolida como el verdadero cuello de botella para el desarrollo de IA en China.",
+      "url": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears",
+      "source": "The Decoder",
+      "social": {
+        "x": "Moonshot AI dejó 150 millones de dólares sobre la mesa en Indonesia. Los chips ya no llegan y el cuello de botella de la IA china es el cómputo.\n\n#Nvidia #TSMC #Alibaba #Samsung\nhttps://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears",
+        "linkedin": "El cuello de botella de la IA china ya no es el talento ni los datos: son los chips.\n\nMoonshot AI dejó un compromiso de 150 millones de dólares en Indonesia, y TSMC y Samsung han dejado de enviar a clientes chinos. A eso se suma la investigación del New York Times que señala a Alibaba por canalizar chips de Nvidia hacia investigadores militares. 𝗤𝘂𝗶𝗲𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮 𝗲𝗹 𝗰ó𝗺𝗽𝘂𝘁𝗼 𝗺𝗮𝗿𝗰𝗮 𝗲𝗹 𝗿𝗶𝘁𝗺𝗼 𝗱𝗲 𝗹𝗮 𝗜𝗔, y en China eso significa hoy depender de stock acumulado y de rutas cada vez más vigiladas. Para cualquier equipo que planifique infraestructura a dos años, el suministro deja de ser un tema de compras y pasa a ser una variable de estrategia.\n\n#Nvidia #TSMC #Alibaba #Samsung\n\nhttps://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Anthropic debuta en el Nasdaq y llega a valer 1,5 billones de dólares",
+      "summary": "Anthropic empezó a cotizar con el ticker ANT a 111,50 dólares por acción, por encima de los 83 dólares de la colocación, que situaban la compañía en torno a 1,5 billones de dólares y captaban unos 80.000 millones en capital. La acción llegó a superar brevemente los dos billones de capitalización.",
+      "why_it_matters": "Es la mayor salida a bolsa de la historia y convierte a Anthropic en el termómetro del apetito inversor por la IA.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+      "source": "The Verge",
+      "social": {
+        "x": "Anthropic debuta en el Nasdaq a 111,50 dólares por acción, muy por encima de los 83 de la colocación. En algún momento de la sesión superó los dos billones de capitalización.\n\n#Anthropic #Nasdaq #Claude #SalidaABolsa\nhttps://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+        "linkedin": "Anthropic ya cotiza y vale más que la mayoría de las tecnológicas que llevan veinte años en el índice. La pregunta no es si la IA tiene futuro, sino quién se queda con el margen.\n\nLa colocación salió a 83 dólares por acción, el mercado abrió a 111,50 y la compañía llegó a superar brevemente los dos billones de capitalización, con unos 80.000 millones captados. 𝗘𝗹 𝗺𝗲𝗿𝗰𝗮𝗱𝗼 𝗻𝗼 𝗲𝘀𝘁á 𝘃𝗮𝗹𝗼𝗿𝗮𝗻𝗱𝗼 𝗺𝗼𝗱𝗲𝗹𝗼𝘀, 𝗲𝘀𝘁á 𝘃𝗮𝗹𝗼𝗿𝗮𝗻𝗱𝗼 𝗾𝘂𝗶é𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮 𝗹𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝘀𝗼𝗯𝗿𝗲 𝗹𝗮 𝗾𝘂𝗲 𝘁𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗱𝗲𝗺á𝘀 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝘆𝗲𝗻. Para cualquier equipo que esté negociando ahora su contrato con un proveedor de modelos, ese detalle pesa más que cualquier benchmark.\n\n#Anthropic #Nasdaq #Claude #SalidaABolsa\n\nhttps://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Infraestructura de conocimiento para agentes: busca, hace scraping y conecta con más de 550 proveedores de datos a través de una sola API. Muy práctica si estás montando un agente o un RAG y no quieres pelearte con un rastreador distinto para cada web.",
+      "language": "TypeScript",
+      "stars": 203946,
+      "social": {
+        "x": "Cada web que le enchufas a tu agente pide su propio rastreador. Firecrawl lo reduce a una API: búsqueda, scraping y más de 550 proveedores de datos. 203k estrellas.\n\n#Firecrawl #TypeScript #OpenSource #RAG\nhttps://github.com/firecrawl/firecrawl",
+        "linkedin": "DEJA DE MANTENER UN RASTREADOR DISTINTO PARA CADA WEB.\n\nSi estás montando un agente o un RAG, el cuello de botella no es el modelo: es conseguir datos limpios. Y acabas con un script, un parser y una excepción nueva por cada sitio que añades.\n\nFirecrawl ataca justo eso: 𝘂𝗻𝗮 𝘀𝗼𝗹𝗮 𝗔𝗣𝗜 𝗽𝗮𝗿𝗮 𝗯𝘂𝘀𝗰𝗮𝗿, 𝗵𝗮𝗰𝗲𝗿 𝘀𝗰𝗿𝗮𝗽𝗶𝗻𝗴 𝘆 𝗰𝗼𝗻𝗲𝗰𝘁𝗮𝗿 𝗰𝗼𝗻 𝗺á𝘀 𝗱𝗲 𝟱𝟱𝟬 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿𝗲𝘀 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀.\n\n→ Búsqueda y scraping de webs desde la misma interfaz\n→ Más de 550 proveedores de datos conectados, sin integraciones a mano\n→ Te ahorra el rastreador a medida para cada dominio\n→ TypeScript, open source y más de 203.000 estrellas detrás\n\nLa gracia no es que sepa hacer scraping. Es que deja de ser tu problema mientras tú te centras en el agente.\n\nGuarda el post para cuando toque montar el siguiente pipeline. El repo, abajo.\n\n#Firecrawl #TypeScript #OpenSource #RAG\n\nhttps://github.com/firecrawl/firecrawl"
+      }
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "Proyecto que convierte cualquier herramienta de línea de comandos en algo que un agente puede manejar, con un hub central de CLIs. Es una vía directa para darle manos a tu agente sin escribir integraciones a medida.",
+      "language": "Python",
+      "stars": 60399,
+      "social": {
+        "x": "60.000 estrellas para un repo que convierte cualquier CLI en algo que tu agente puede manejar. Sin escribir integraciones a medida.\n\n#OpenSource #GitHub #Python #AgentesIA\nhttps://github.com/HKUDS/CLI-Anything",
+        "linkedin": "TU AGENTE NO NECESITA MÁS PROMPTS. NECESITA MANOS.\n\nEl cuello de botella real de los agentes no es el modelo: es que no pueden tocar nada fuera de su caja. Cada herramienta nueva implica una integración a medida, glue code y una tarde perdida.\n\nCLI-Anything va por otro camino: coge cualquier herramienta de línea de comandos y la convierte en algo que el agente puede manejar, con un hub central de CLIs como punto de encuentro. 𝗗𝗮𝗿𝗹𝗲 𝗺𝗮𝗻𝗼𝘀 𝗮 𝘁𝘂 𝗮𝗴𝗲𝗻𝘁𝗲 𝘀𝗶𝗻 𝗲𝘀𝗰𝗿𝗶𝗯𝗶𝗿 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗮 𝗺𝗲𝗱𝗶𝗱𝗮.\n\n→ Convierte cualquier CLI existente en una capacidad que el agente puede invocar.\n→ Hub central: un único sitio donde se registran y se descubren las CLIs disponibles.\n→ Te ahorra el glue code y las integraciones a medida por cada herramienta.\n→ Python, open source y ya roza las 60.000 estrellas en GitHub.\n\nSi estás montando agentes y sigues escribiendo wrappers a mano, este repo te va a ahorrar semanas. Guárdate el post y echa un ojo al repositorio, lo tienes abajo.\n\n#OpenSource #GitHub #Python #AgentesIA\n\nhttps://github.com/HKUDS/CLI-Anything"
+      }
+    },
+    {
+      "name": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "Te enseña a entrenar tu propio modelo de lenguaje de 64M parámetros desde cero en unas dos horas. Perfecto para entender por dentro cómo funciona un LLM sin necesitar un clúster de GPUs.",
+      "language": "Python",
+      "stars": 66765,
+      "social": {
+        "x": "Entrenar tu propio LLM desde cero en unas 2 horas y sin clúster de GPUs. Este repo lo hace con 64M de parámetros y ya acumula 66k estrellas.\n\n#MiniMind #Python #OpenSource #GitHub\nhttps://github.com/jingyaogong/minimind",
+        "linkedin": "ENTRENA TU PROPIO LLM EN UNA TARDE. SIN CLÚSTER DE GPUS.\n\nUsamos modelos de lenguaje todos los días, pero casi nadie ha visto uno por dentro. MiniMind lo pone a tiro: 64M de parámetros, Python y hardware de andar por casa.\n\nLa idea no es competir con los grandes modelos. La idea es 𝗲𝗻𝘁𝗲𝗻𝗱𝗲𝗿 𝗰𝗮𝗱𝗮 𝗽𝗶𝗲𝘇𝗮 𝗱𝗲𝗹 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗻𝗱𝗼 𝗲𝗹 𝘁𝘂𝘆𝗼 𝗱𝗲𝘀𝗱𝗲 𝗰𝗲𝗿𝗼.\n\n→ Preentrenamiento completo de un modelo de 64M de parámetros.\n→ Guía que explica tokenizador, dataset y bucle de entrenamiento en Python.\n→ Sin infraestructura cara: nada de clústeres de GPUs.\n→ Unas dos horas para pasar de cero a tener tu primer LLM funcionando.\n\n66.000 estrellas para un repo que se despacha en una tarde. Guárdalo para el día que quieras dejar de tratar los LLMs como una caja negra.\n\nTe dejo el repositorio abajo.\n\n#MiniMind #Python #OpenSource #GitHub\n\nhttps://github.com/jingyaogong/minimind"
+      }
+    },
+    {
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "Framework de skills para agentes con una metodología de desarrollo de software detrás. Útil si ya usas agentes para programar y quieres que sigan un proceso en vez de improvisar en cada prompt.",
+      "language": "Shell",
+      "stars": 321921,
+      "social": {
+        "x": "321.921 estrellas para un repo en Shell que hace que tu agente siga un proceso de desarrollo de verdad, en vez de improvisar en cada prompt.\n\n#superpowers #OpenSource #AgentesAutonomos #GitHub\nhttps://github.com/obra/superpowers",
+        "linkedin": "TU AGENTE NO NECESITA MÁS CONTEXTO. NECESITA UN PROCESO.\n\nLa mayoría de la gente programa con agentes a base de prompts sueltos: uno para el plan, otro para el test, otro para el commit. Cada iteración se parece más a tirar los dados que a desarrollar software.\n\nsuperpowers es un framework de skills que le mete una metodología de desarrollo por debajo: el agente deja de responder a lo que le pides y empieza a recorrer un flujo con pasos definidos y verificables.\n\n→ Skills reutilizables en lugar de instrucciones reescritas cada vez.\n→ Metodología de desarrollo detrás: planificar, implementar, comprobar.\n→ Se apoya en Shell, así que encaja en el entorno donde ya trabajas.\n→ Te sirve si ya usas agentes para programar y quieres dejar de supervisar cada respuesta.\n\nLa idea que merece la pena guardar: 𝗹𝗮 𝗱𝗶𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗲𝗻𝘁𝗿𝗲 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 ú𝘁𝗶𝗹 𝘆 𝘂𝗻𝗼 𝗾𝘂𝗲 𝗲𝘀𝘁𝗼𝗿𝗯𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼, 𝗲𝘀 𝗲𝗹 𝗽𝗿𝗼𝗰𝗲𝘀𝗼.\n\n321.921 estrellas en GitHub. Te dejo el repo abajo para que lo mires con calma.\n\n#superpowers #OpenSource #AgentesAutonomos #GitHub\n\nhttps://github.com/obra/superpowers"
+      }
+    },
+    {
+      "name": "zhouxiaoka/autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "Herramienta de escritorio open source que corta automáticamente vídeos largos (podcasts, entrevistas, clases) en clips para redes y genera subtítulos, portadas y textos de publicación. Le pega un repaso serio al trabajo manual de trocear contenido para TikTok, Reels o Shorts.",
+      "language": "Python",
+      "stars": 11117,
+      "social": {
+        "x": "Opus Clip te cobra por cada clip. Este repo open source corta tus podcasts y clases en vídeos verticales con subtítulos y portada, y ya va por 11k estrellas.\n\n#AutoClip #Python #OpenSource #GitHub\nhttps://github.com/zhouxiaoka/autoclip",
+        "linkedin": "11.000 ESTRELLAS PARA DEJAR DE TROCEAR VÍDEOS A MANO\n\nTrocear un podcast de dos horas en clips para redes es una tarde entera de timeline, subtítulos y portadas. AutoClip lo convierte en un proceso automático, y encima es open source y se ejecuta en tu escritorio.\n\nLa diferencia con las herramientas de pago no es solo el precio: aquí el trabajo pesado ocurre en local, con tus archivos, en una app de escritorio hecha en Python.\n\n→ Corta automáticamente vídeos largos (podcasts, entrevistas, clases) en clips listos para TikTok, Reels o Shorts.\n→ Genera los subtítulos de cada clip sin pasar por otro programa.\n→ Crea portadas y textos de publicación para que solo tengas que revisar y subir.\n→ Al ser de escritorio, trabajas con el material en tu equipo y no dependes de una cuota por minuto procesado.\n\nLa idea clave: 𝗲𝗹 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗿𝗲𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗼 𝗱𝗲 𝘁𝗿𝗼𝗰𝗲𝗮𝗿 𝗰𝗼𝗻𝘁𝗲𝗻𝗶𝗱𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗺𝗮𝗻𝘂𝗮𝗹 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻 𝗽𝗮𝘀𝗼 𝗺á𝘀 𝗱𝗲𝗹 𝗳𝗹𝘂𝗷𝗼.\n\nSi publicas vídeo largo de forma habitual, guarda este post: el repo está abajo y merece una prueba con tu próximo episodio.\n\n#AutoClip #Python #OpenSource #GitHub\n\nhttps://github.com/zhouxiaoka/autoclip"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Qué ocurre de verdad entre dos servicios: colas, reintentos y latencia que no salen en el diagrama",
+      "url": "https://blog.bytebytego.com/p/the-invisible-systems-what-happens",
+      "source": "ByteByteGo",
+      "summary": "Repasa todo lo que esconde cada flecha de un diagrama de arquitectura: serialización, timeouts, reintentos, idempotencia y los modos de fallo que aparecen cuando el sistema crece. Sirve para diseñar interfaces entre servicios más honestas y para diagnosticar incidentes que no se explican mirando solo las cajas.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Los agentes de IA no fallan con errores, fallan con una deriva silenciosa",
+      "url": "https://towardsdatascience.com/data-from-100-ai-agents-shows-they-fail-by-silent-drift-not-errors",
+      "source": "Towards Data Science",
+      "summary": "Con datos de más de cien agentes en producción, muestra que las alertas de calidad, coste y latencia avisan mucho antes que los errores: apenas un 1 % de los fallos se detectó como excepción. Deja claro qué métricas vigilar primero si despliegas agentes y por qué un panel solo de errores no basta.",
+      "tema": "ia"
+    },
+    {
+      "title": "Seis patrones para que tus tareas en segundo plano en Python no se ejecuten dos veces",
+      "url": "https://medium.com/skillstuff/6-python-background-job-patterns-that-prevent-duplicate-work-e3ffe4ac6339",
+      "source": "Medium: Programming",
+      "summary": "Explica por qué las colas, los reintentos y las caídas de workers acaban duplicando trabajo, y qué patrones evitar en cada caso: claves de idempotencia, bloqueos, deduplicación al encolar y estados de tarea. Útil si mantienes procesos asíncronos y quieres que un fallo de red no te cobre dos veces la misma operación.",
+      "tema": "programacion"
+    },
+    {
+      "title": "El expectil de 0,95 no es el percentil 95: cuándo usar cada uno",
+      "url": "https://towardsdatascience.com/the-095-expectile-is-not-the-95th-percentile",
+      "source": "Towards Data Science",
+      "summary": "Aclara la diferencia entre ambas medidas con matemáticas explícitas y experimentos en Python, y muestra en qué situaciones conviene cubrir el 95 % de los casos y en cuáles el coste asimétrico del error pide un expectil. Te evita elegir la métrica por inercia en previsiones de demanda, latencias o riesgos.",
+      "tema": "datos"
+    },
+    {
+      "title": "Cuanto mejor se ve tu producto, más tarda alguien en descubrir lo que no funciona",
+      "url": "https://medium.com/design-bootcamp/%EF%B8%8F-pretty-or-usable-the-aesthetic-usability-effect-and-the-cost-of-putting-appearance-first-729529a0e94f",
+      "source": "Medium: UX",
+      "summary": "El efecto estético-usabilidad hace que perdonemos fallos de interfaz cuando el diseño es atractivo, y eso retrasa la detección de problemas reales. El artículo explica cómo se manifiesta, qué coste tiene priorizar la apariencia y cómo equilibrar las dos cosas en las pruebas con usuarios.",
+      "tema": "diseno"
+    },
+    {
+      "title": "Redimensionar primero y comprimir después: cómo aligerar las imágenes de tu web sin que se vean mal",
+      "url": "https://medium.com/@tlltmyr/how-to-reduce-image-file-size-for-your-website-without-losing-quality-8148a03f7656",
+      "source": "Medium: Web Development",
+      "summary": "Propone un orden de trabajo sencillo para bajar el peso de las imágenes: ajustar el tamaño real de uso, comprimir después y comparar el resultado antes de publicar. Se aplica igual en cualquier stack y sirve para mejorar tiempos de carga sin degradar la calidad percibida.",
+      "tema": "web"
+    }
+  ]
+}
