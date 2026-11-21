@@ -1,0 +1,324 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T17:29:03.711Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Inkling 2 Mini: un modelo abierto que cabe en un portátil y razona en bucles",
+      "summary": "Thinking Machines libera Inkling 2 Mini, un transformer de pesos abiertos que repite 12 de sus 24 capas tres veces por token, de modo que razona más sin generar más texto. Según la compañía, iguala a Qwen3.8 27B en el índice de inteligencia de Artificial Analysis con un coste unas seis veces menor. Se puede probar en Tinker y ya está en Hugging Face.",
+      "why_it_matters": "Es un modelo abierto que corre en local y demuestra que se puede ganar capacidad de razonamiento sin inflar el contexto ni disparar el gasto.",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini",
+      "source": "Hacker News",
+      "social": {
+        "x": "Repetir 12 de las 24 capas tres veces por token: así razona más Inkling 2 Mini, el abierto de Thinking Machines, que iguala a un 27B con 6 veces menos coste y cabe en un portátil.\n\n#ThinkingMachines #Inkling #HuggingFace #OpenSource\nhttps://thinkingmachines.ai/news/inkling-2-mini",
+        "linkedin": "El próximo salto en razonamiento no va a venir de modelos más grandes, sino de arquitecturas que se repiten a sí mismas.\n\nInkling 2 Mini, de Thinking Machines, pasa 12 de sus 24 capas tres veces por cada token: 𝗿𝗮𝘇𝗼𝗻𝗮 𝗺á𝘀 𝘀𝗶𝗻 𝗴𝗲𝗻𝗲𝗿𝗮𝗿 𝗺á𝘀 𝘁𝗲𝘅𝘁𝗼 𝗻𝗶 𝗶𝗻𝗳𝗹𝗮𝗿 𝗲𝗹 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼. Según la compañía, iguala a Qwen3.8 27B en el índice de inteligencia de Artificial Analysis con un coste unas seis veces menor, y los pesos ya están en Hugging Face. Para quien despliega en local, la pregunta deja de ser cuántos parámetros necesita y pasa a ser cuántas veces merece la pena pensar.\n\n#ThinkingMachines #Inkling #HuggingFace #OpenSource\n\nhttps://thinkingmachines.ai/news/inkling-2-mini"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "OpenComputer, una alternativa open source a Devin para delegar tareas de código",
+      "summary": "El proyecto OpenComputer, del equipo de diggerhq, publica en GitHub un agente de programación open source que se presenta como una alternativa más rápida a Devin. El agente trabaja sobre el repositorio y cubre revisión de código y automatización de tareas.",
+      "why_it_matters": "Aporta una opción self-hosted para quien quiera un agente de código sin atarse a un servicio cerrado.",
+      "url": "https://github.com/diggerhq/opencomputer",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un agente de código open source quiere quitarle el sitio a Devin. La diferencia: este lo montas tú, en tu propia infraestructura.\n\n#OpenSource #Devin #SelfHosted #GitHub\nhttps://github.com/diggerhq/opencomputer",
+        "linkedin": "El agente de código que se presenta como alternativa rápida a Devin ya es open source y se puede self-hostear.\n\nOpenComputer, del equipo de diggerhq, trabaja directamente sobre el repositorio y cubre revisión de código y automatización de tareas. La clave no es que sea más rápido, sino que 𝗽𝘂𝗲𝗱𝗲𝘀 𝗱𝗲𝘀𝗽𝗹𝗲𝗴𝗮𝗿𝗹𝗼 𝗲𝗻 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 sin atarte a un servicio cerrado ni enviar tu código a terceros.\n\nPara equipos que descartaron los agentes de código por privacidad o por coste por asiento, esto abre una vía intermedia: la comodidad de delegar tareas sin ceder el control del repositorio.\n\n#OpenSource #Devin #SelfHosted #GitHub\n\nhttps://github.com/diggerhq/opencomputer"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Gemini ya puede manejar apps de Mac en segundo plano",
+      "summary": "Google lleva la función Computer Use a Gemini en Mac: el asistente opera aplicaciones de escritorio, archivos locales y webs dentro de una ventana aislada con vista previa, mientras el usuario sigue trabajando en lo suyo.",
+      "why_it_matters": "Acerca los agentes de escritorio al uso diario sin secuestrar la máquina ni la atención.",
+      "url": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working",
+      "source": "The Decoder",
+      "social": {
+        "x": "Gemini empieza a manejar tus apps de Mac en segundo plano: abre archivos, opera webs y trabaja en una ventana aislada mientras tú sigues a lo tuyo.\n\n#Gemini #Google #Mac #ComputerUse\nhttps://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working",
+        "linkedin": "Los agentes de escritorio acaban de dejar de ser una demo.\nGoogle lleva Computer Use a Gemini en Mac: el asistente opera aplicaciones, archivos locales y webs dentro de una ventana aislada con vista previa, 𝘀𝗶𝗻 𝘀𝗲𝗰𝘂𝗲𝘀𝘁𝗿𝗮𝗿 𝗲𝗹 𝗿𝗮𝘁ó𝗻 𝗻𝗶 𝘁𝘂 𝗮𝘁𝗲𝗻𝗰𝗶ó𝗻. La diferencia frente a lo que había hasta ahora no está en la capacidad, está en la convivencia: puedes seguir trabajando mientras el agente hace lo suyo. Para cualquier equipo que estuviera evaluando estas herramientas en un Mac, el listón de «no me interrumpas» ya está puesto.\n\n#Gemini #Google #Mac #ComputerUse\n\nhttps://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "OpenAI publica plantillas de prompt para GPT-6.2 Astra y Sol",
+      "summary": "OpenAI ha compartido nuevas plantillas de prompt para corregir comportamientos habituales de GPT-6.2 Astra y Sol, como respuestas demasiado escuetas, preguntas de seguimiento innecesarias o pruebas excesivas al programar. También advierte de que editar el historial de una conversación puede descartar el razonamiento interno y empeorar la respuesta.",
+      "why_it_matters": "Son ajustes que cualquiera puede aplicar hoy mismo para sacar más partido a estos modelos.",
+      "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions",
+      "source": "The Decoder",
+      "social": {
+        "x": "Tus prompts no son el problema: OpenAI acaba de publicar plantillas para corregir los tics de GPT-6.2 Astra y Sol.\n\n#OpenAI #PromptEngineering #GPT62 #LLM\nhttps://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions",
+        "linkedin": "Los defectos que más molestan de un modelo casi nunca se arreglan cambiándolo, sino afinando cómo le hablas.\n\nOpenAI ha publicado plantillas para GPT-6.2 Astra y Sol que atacan justo eso: respuestas demasiado escuetas, preguntas de seguimiento que no vienen a cuento y ese exceso de pruebas antes de tocar código. También avisa de algo poco intuitivo: editar el historial de una conversación puede descartar el razonamiento interno y dejar la respuesta peor que antes.\n\nPara un equipo que ya tiene estos modelos en producción, esto convierte 𝗹𝗮 𝗹𝗶𝗯𝗿𝗲𝗿í𝗮 𝗱𝗲 𝗽𝗿𝗼𝗺𝗽𝘁𝘀 𝗲𝗻 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 y no en un documento suelto en Notion. Son ajustes que se aplican hoy, sin esperar a la próxima versión.\n\n#OpenAI #PromptEngineering #GPT62 #LLM\n\nhttps://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "ClawDOS: un agente de código con IA funcionando en un IBM PC XT",
+      "summary": "ClawDOS es un chat y harness de programación con IA para DOS que corre en un IBM PC XT con un 8088 a 4,77 MHz, 640 KB de RAM y tarjeta CGA. El autor lo ha montado como homenaje al primer ordenador de su familia.",
+      "why_it_matters": "Es un ejercicio extremo de optimización que muestra hasta dónde se puede recortar un agente de IA.",
+      "url": "http://ricapar.net/ClawDOS",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un agente de código con IA corriendo en un IBM PC XT: 8088 a 4,77 MHz, 640 KB de RAM y tarjeta CGA. Y funciona.\n\n#ClawDOS #DOS #IBMPC #Retrocomputing\nhttp://ricapar.net/ClawDOS",
+        "linkedin": "Un agente de código con IA cabe en 640 KB de RAM y un 8088 a 4,77 MHz.\n\nClawDOS es un chat y harness de programación para DOS que corre en un IBM PC XT con tarjeta CGA, montado por su autor como homenaje al primer ordenador de su familia. No resuelve ningún problema urgente de nadie, pero 𝗱𝗲𝗺𝘂𝗲𝘀𝘁𝗿𝗮 𝗵𝗮𝘀𝘁𝗮 𝗱ó𝗻𝗱𝗲 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗿𝗲𝗰𝗼𝗿𝘁𝗮𝗿 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗱𝗲 𝗜𝗔 𝗰𝘂𝗮𝗻𝗱𝗼 𝗻𝗼 𝘀𝗼𝗯𝗿𝗮 𝗻𝗶 𝘂𝗻 𝗯𝘆𝘁𝗲. Para quien diseña herramientas de código asistido, el ejercicio es un recordatorio incómodo: buena parte del stack que damos por imprescindible se podría adelgazar bastante más de lo que asumimos.\n\n#ClawDOS #DOS #IBMPC #Retrocomputing\n\nhttp://ricapar.net/ClawDOS"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "Amazon Textract Insights extrae datos de documentos sin entrenar modelos",
+      "summary": "AWS anuncia la disponibilidad general de Textract Insights, una función de IA generativa con la que basta describir en lenguaje natural los campos que se necesitan para recibir resultados estructurados, con puntuación de confianza y referencia a la página de cada valor.",
+      "why_it_matters": "Elimina el entrenamiento de modelos en un caso muy común como es sacar datos de documentos.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Entrenar un modelo para sacar datos de facturas acaba de quedarse sin sentido: describes los campos en lenguaje natural y AWS te los devuelve ya estructurados.\n\n#AWS #Textract #DocumentAI\nhttps://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents",
+        "linkedin": "El equipo que montaba un modelo a medida para leer facturas se ha quedado sin trabajo que hacer. Y no es una promesa de roadmap: Textract Insights ya está en disponibilidad general.\n\nLa nueva función de AWS permite describir en lenguaje natural los campos que necesitas y recibir resultados estructurados, con puntuación de confianza y la página exacta de cada valor. 𝗘𝗹 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗲𝗻 𝗹𝗮 𝗲𝘅𝘁𝗿𝗮𝗰𝗰𝗶ó𝗻 𝗱𝗲 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗼𝘀, justo en el caso más repetido de todos: facturas, contratos y formularios. Para quien integra datos a diario, el esfuerzo se desplaza del modelo a definir bien el esquema y a decidir qué nivel de confianza se acepta sin revisión humana.\n\n#AWS #Textract #DocumentAI\n\nhttps://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Cómo recortar coste y latencia de un LLM self-hosted con caché KV distribuida",
+      "summary": "AWS publica una guía sobre la skill de caché KV distribuida del Agent Toolkit, que usa Amazon ElastiCache para no recalcular el mismo contexto en cada turno. Según sus cifras, baja el coste de inferencia hasta un 40 % y el tiempo hasta el primer token hasta un 80 %, y el propio agente de código puede evaluar y montar la caché.",
+      "why_it_matters": "Conecta un problema de coste muy real del self-hosted con una herramienta que se integra en el flujo de trabajo.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Tu LLM self-hosted recalcula el mismo contexto en cada turno. AWS dice que reutilizarlo baja el coste un 40 % y el primer token llega hasta un 80 % antes.\n\n#AWS #ElastiCache #LLM #AgentToolkit\nhttps://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill",
+        "linkedin": "Tu LLM self-hosted está pagando dos veces por el mismo contexto.\n\nAWS ha publicado una guía sobre la skill de caché KV distribuida de su Agent Toolkit, que se apoya en ElastiCache para no repetir el prefill en cada turno: hasta un 40 % menos de coste de inferencia y hasta un 80 % menos de tiempo hasta el primer token, según sus cifras. Lo realmente interesante no es el ahorro, sino que 𝗲𝗹 𝗽𝗿𝗼𝗽𝗶𝗼 𝗮𝗴𝗲𝗻𝘁𝗲 𝗱𝗲 𝗰ó𝗱𝗶𝗴𝗼 𝗽𝘂𝗲𝗱𝗲 𝗲𝘃𝗮𝗹𝘂𝗮𝗿 𝘆 𝗺𝗼𝗻𝘁𝗮𝗿 𝗹𝗮 𝗰𝗮𝗰𝗵é, con lo que esto deja de ser un proyecto de infraestructura y pasa a ser una tarea más del flujo de trabajo. Si descartaste el self-hosted por coste, toca rehacer los números.\n\n#AWS #ElastiCache #LLM #AgentToolkit\n\nhttps://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "investigacion",
+      "title": "ByteDance sostiene que sobran fases de entrenamiento y lo demuestra con Axion 1.0",
+      "summary": "ByteDance y varias universidades estadounidenses presentan Axion 1.0, un agente de IA que rivaliza con los modelos comerciales de OpenAI y Anthropic tras solo tres fases de entrenamiento. Atribuyen la mejora a la curación de los datos más que a alargar el entrenamiento, y liberan modelo, datos y código.",
+      "why_it_matters": "Si se confirma, abarata mucho entrenar modelos competitivos y cuestiona las recetas que hoy dominan el sector.",
+      "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model",
+      "source": "The Decoder",
+      "social": {
+        "x": "Tres fases de entrenamiento bastan para rivalizar con OpenAI y Anthropic. ByteDance lo demuestra con Axion 1.0 y libera modelo, datos y código.\n\n#ByteDance #OpenSource #LLM #Axion\nhttps://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model",
+        "linkedin": "Tres fases de entrenamiento. Eso es todo lo que ByteDance necesitó para que su agente Axion 1.0 se mida de tú a tú con los modelos comerciales de OpenAI y Anthropic.\n\nLa diferencia no está en entrenar más horas, sino en curar mejor los datos, y lo han publicado todo: modelo, dataset y código. Si el resultado se sostiene, 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗰ó𝗺𝗽𝘂𝘁𝗼 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝗹𝗮 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗱𝗮𝘁𝗼. Para cualquier equipo que esté dimensionando su hoja de ruta a base de GPU, toca revisar los números.\n\n#ByteDance #OpenSource #LLM #Axion\n\nhttps://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "Nvidia sostiene que las ventanas de contexto gigantes son un callejón sin salida",
+      "summary": "Un equipo de investigación de Nvidia argumenta que los modelos rara vez necesitan su contexto completo, que resulta lento, caro y propenso a errores. En sus pruebas, resúmenes periódicos y búsquedas por palabras clave igualan los resultados del contexto completo a una fracción del coste, y proponen una nueva clase de modelos que trabaje con notas cortas.",
+      "why_it_matters": "Ofrece una alternativa práctica a la carrera del contexto infinito en la que está metida toda la industria.",
+      "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end",
+      "source": "The Decoder",
+      "social": {
+        "x": "Nvidia acaba de decir en voz alta lo que nadie quería admitir: el contexto infinito es un callejón sin salida. Con resúmenes cortos, los mismos resultados a una fracción del coste.\n\n#Nvidia #LLMs #ContextWindow\nhttps://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end",
+        "linkedin": "Toda la industria lleva dos años corriendo hacia el contexto infinito. Un equipo de Nvidia acaba de demostrar que 𝗲𝗹 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗿𝗮𝗿𝗮 𝘃𝗲𝘇 𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮: es más lento, más caro y más propenso a errores, y con resúmenes periódicos y búsqueda por palabras clave se obtienen los mismos resultados a una fracción del coste. Si construyes sobre ventanas gigantes, esa factura la pagas tú en cada llamada. La pregunta ya no es cuánto contexto cabe, sino cuánto hace falta de verdad.\n\n#Nvidia #LLMs #ContextWindow\n\nhttps://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "herramientas",
+      "title": "Gemini Notebook convierte una investigación en una web interactiva",
+      "summary": "La función más reciente de Gemini Notebook genera un sitio con apoyo visual y elementos interactivos a partir del material de investigación del usuario. Conviene revisar el resultado, porque el modelo puede colar errores.",
+      "why_it_matters": "Pasar de las notas a una web publicable es un salto muy útil para quien investiga y quiere compartir lo que ha encontrado.",
+      "url": "https://www.engadget.com/2321236/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site",
+      "source": "Engadget",
+      "social": {
+        "x": "Gemini Notebook ya no se queda en las notas: convierte tu investigación en una web interactiva. El salto es enorme, y también el riesgo de colar errores.\n\n#GeminiNotebook #GoogleGemini #Productividad\nhttps://www.engadget.com/2321236/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site",
+        "linkedin": "El cuaderno de notas deja de ser el final del proceso.\n\nGemini Notebook genera ahora una web interactiva con apoyo visual a partir de tu material de investigación, así que 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗮𝗿 𝘆 𝗽𝘂𝗯𝗹𝗶𝗰𝗮𝗿 𝘀𝗲 𝗳𝘂𝗻𝗱𝗲𝗻 𝗲𝗻 𝘂𝗻 𝗺𝗶𝘀𝗺𝗼 𝗽𝗮𝘀𝗼. Para quien investiga y quiere compartir hallazgos, eso ahorra horas de montaje y de maquetación. Mi lectura: la revisión sigue siendo tuya, porque el modelo puede colar errores y ahora esos errores salen con diseño propio y cara de fuente fiable.\n\n#GeminiNotebook #GoogleGemini #Productividad\n\nhttps://www.engadget.com/2321236/how-to-use-gemini-notebook-to-turn-your-research-into-an-interactive-site"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "lanzamientos",
+      "title": "Google rediseña la portada de búsqueda: fuera el botón de buscar, dentro el historial de chat con IA",
+      "summary": "Google despliega una nueva portada de búsqueda que elimina el botón de buscar y añade una barra lateral con el historial de conversaciones de IA. El objetivo es tener las herramientas de IA a un clic desde la página principal.",
+      "why_it_matters": "Cambia el gesto más repetido de la web y empuja a millones de usuarios hacia el modo conversacional.",
+      "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Google está eliminando el botón de buscar de su portada. El gesto más repetido de internet se rompe después de 25 años.\n\n#Google #Search #SEO\nhttps://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar",
+        "linkedin": "El botón de buscar desaparece de Google. Y con él, el gesto más repetido de la web.\nLa nueva portada mete el historial de conversaciones de IA en una barra lateral, a un clic del inicio: buscar deja de ser escribir para pasar a ser conversar. 𝗚𝗼𝗼𝗴𝗹𝗲 𝗲𝗺𝗽𝘂𝗷𝗮 𝗮 𝗺𝗶𝗹𝗹𝗼𝗻𝗲𝘀 𝗱𝗲 𝘂𝘀𝘂𝗮𝗿𝗶𝗼𝘀 𝗮𝗹 𝗺𝗼𝗱𝗼 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝗰𝗶𝗼𝗻𝗮𝗹 𝘀𝗶𝗻 𝗽𝗿𝗲𝗴𝘂𝗻𝘁𝗮𝗿𝗹𝗲𝘀. Para quien vive del tráfico orgánico, la pregunta ya no es cómo posicionar una página, sino cuántas consultas van a acabar dentro de un chat.\n\n#Google #Search #SEO\n\nhttps://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "METR actualiza su famoso gráfico: la IA mejora rápido en código, pero no tanto en criterio",
+      "summary": "El nuevo informe de la organización sin ánimo de lucro METR actualiza su gráfico de horizontes temporales y concluye que algunas capacidades siguen creciendo de forma exponencial. Sin embargo, los modelos son bastante peores en tareas que exigen juicio que en programación.",
+      "why_it_matters": "Es una de las referencias más citadas para medir qué pueden hacer de verdad los modelos y dónde se quedan cortos.",
+      "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update",
+      "source": "MIT Technology Review",
+      "social": {
+        "x": "El gráfico que media industria usa para medir la IA se ha actualizado: el código despega, el criterio se queda atrás. Y no al mismo ritmo.\n\n#METR #Benchmarks #ModelosDeLenguaje\nhttps://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update",
+        "linkedin": "Los modelos han aprendido a programar mucho más rápido de lo que han aprendido a juzgar.\n\nEl nuevo informe de METR, una de las referencias más citadas para saber qué puede hacer de verdad un modelo, actualiza su gráfico de horizontes temporales y el patrón se repite: 𝗲𝗹 𝗰ó𝗱𝗶𝗴𝗼 𝗮𝘃𝗮𝗻𝘇𝗮 𝗲𝗻 𝗲𝘅𝗽𝗼𝗻𝗲𝗻𝗰𝗶𝗮𝗹 𝘆 𝗲𝗹 𝗰𝗿𝗶𝘁𝗲𝗿𝗶𝗼 𝘀𝗲 𝗾𝘂𝗲𝗱𝗮 𝗮𝘁𝗿á𝘀. Para quien esté decidiendo qué delegar a un agente, la lectura es incómoda: lo que mejora es la parte fácil de medir, mientras que las tareas que exigen juicio siguen necesitando a alguien detrás. Conviene no confundir velocidad de ejecución con calidad de decisión.\n\n#METR #Benchmarks #ModelosDeLenguaje\n\nhttps://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "Anthropic dice que Claude ha probado la hipótesis de Riemann y Stanford responde con una demostración humana",
+      "summary": "El matemático Levent Alpöge afirma haber usado Claude para demostrar la hipótesis de Riemann, abierta desde hace 167 años, con una prueba formalizada en Lean de más de 250.000 páginas. Pocas horas después, investigadores de Stanford publicaron un borrador independiente hecho solo por humanos y la comunidad matemática comprueba ahora si alguna de las dos se sostiene.",
+      "why_it_matters": "Sería el primer gran problema abierto resuelto con ayuda de un modelo, y el contrapunto humano pone a prueba cuánto hay de real.",
+      "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft",
+      "source": "The Decoder",
+      "social": {
+        "x": "La hipótesis de Riemann lleva 167 años sin resolverse. Anthropic dice que Claude ha ayudado a demostrarla. Stanford ha respondido con una prueba hecha solo por humanos.\n\n#Anthropic #Claude #Lean #Matemáticas\nhttps://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft",
+        "linkedin": "167 años abierta y la primera demostración atribuida a una IA ha tardado horas en tener réplica humana.\n\nEl matemático Levent Alpöge afirma haber usado Claude para una prueba de la hipótesis de Riemann formalizada en Lean, más de 250.000 páginas. Stanford publicó pocas horas después un borrador independiente hecho solo por humanos, y la comunidad matemática comprueba ahora cuál de las dos se sostiene. Con independencia de quién gane, el episodio deja una lección para cualquiera que trabaje con modelos: 𝗹𝗮 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻, 𝗻𝗼 𝗹𝗮 𝗴𝗲𝗻𝗲𝗿𝗮𝗰𝗶ó𝗻, 𝗲𝘀 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮, porque una prueba formalizada en Lean vale exactamente lo que valga su enunciado.\n\n#Anthropic #Claude #Lean #Matemáticas\n\nhttps://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "Signal bloquea las capturas de pantalla en iOS y Android para frenar a los agentes de IA",
+      "summary": "Signal impide hacer capturas de pantalla en iOS 27 y Android para que agentes como Siri AI, Gemini Intelligence o Muse no puedan leer chats privados. La app lo califica de amenaza existencial para la privacidad, aunque admite que la protección es incompleta, por ejemplo en macOS, y pide a Apple, Google y Microsoft que actúen igual.",
+      "why_it_matters": "Es la primera respuesta contundente de una app de mensajería frente a los agentes que leen la pantalla.",
+      "url": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats",
+      "source": "The Decoder",
+      "social": {
+        "x": "Signal acaba de bloquear las capturas de pantalla en iOS y Android. No es contra ti: es contra Siri AI, Gemini y los agentes que leen lo que hay en tu pantalla.\n\n#Signal #Privacidad #Siri #Gemini\nhttps://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats",
+        "linkedin": "Tu pantalla acaba de convertirse en el campo de batalla de la privacidad.\n\nSignal bloquea las capturas de pantalla en iOS 27 y Android para que Siri AI, Gemini Intelligence o Muse no puedan leer los chats privados por encima de tu hombro. La app lo califica de amenaza existencial, admite que la protección es incompleta (macOS queda fuera) y reclama a Apple, Google y Microsoft que muevan ficha. 𝗟𝗮 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝘆𝗮 𝗻𝗼 𝘀𝗲 𝗱𝗲𝗳𝗶𝗲𝗻𝗱𝗲 𝘀𝗼𝗹𝗼 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝗹𝗮 𝗮𝗽𝗽, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗹𝗮 𝗰𝗮𝗽𝗮 𝗱𝗲𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮. Cualquier equipo que construya agentes capaces de leer pantalla tendrá que decidir muy pronto si pide permiso o se lo salta.\n\n#Signal #Privacidad #Siri #Gemini\n\nhttps://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "herramientas",
+      "title": "Meta TLX lleva a Triton el control de bajo nivel de la GPU",
+      "summary": "Meta presenta Triton Low-Level Extensions (TLX), una extensión del compilador que conecta las abstracciones de alto nivel de Triton con el control de ejecución de bajo nivel que exigen las GPU modernas. El objetivo es aprovechar capacidades del hardware que hasta ahora quedaban fuera del alcance de los kernels escritos en Triton.",
+      "why_it_matters": "Acerca el rendimiento de los kernels escritos a mano a un lenguaje que ya usa mucha gente.",
+      "url": "https://www.infoq.com/news/2026/11/meta-triton-tlx-gpu-compiler",
+      "source": "InfoQ",
+      "social": {
+        "x": "Escribir kernels en Triton siempre tuvo un techo: la GPU hacía cosas que el compilador no te dejaba tocar. Meta acaba de abrir esa puerta.\n\n#Triton #Meta #GPU #CUDA\nhttps://www.infoq.com/news/2026/11/meta-triton-tlx-gpu-compiler",
+        "linkedin": "Escribir kernels en Triton siempre tuvo un techo: la GPU hacía cosas que el compilador no te dejaba tocar.\n\nCon TLX (Triton Low-Level Extensions), Meta conecta las abstracciones de alto nivel de Triton con el control de ejecución de bajo nivel que exigen las GPU modernas. En la práctica, 𝗮𝗰𝗲𝗿𝗰𝗮𝗿𝘀𝗲 𝗮𝗹 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝘂𝗻 𝗸𝗲𝗿𝗻𝗲𝗹 𝗲𝘀𝗰𝗿𝗶𝘁𝗼 𝗮 𝗺𝗮𝗻𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝗿𝗲𝗾𝘂𝗲𝗿𝗶𝗿 𝘀𝗮𝗹𝗶𝗿 𝗱𝗲 𝗧𝗿𝗶𝘁𝗼𝗻. Para los equipos que ya tienen código en Triton, la decisión ya no es si reescribir en CUDA, sino cuánto margen queda exprimiendo lo que hay.\n\n#Triton #Meta #GPU #CUDA\n\nhttps://www.infoq.com/news/2026/11/meta-triton-tlx-gpu-compiler"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "investigacion",
+      "title": "Dos millones de canarios en la cadena de suministro de IA destapan un desastre de privacidad",
+      "summary": "Un investigador introduce prompts con secretos únicos y rastreables para comprobar si los datos se quedan donde deberían. El resultado es que la información acaba filtrándose por proveedores y componentes intermedios de la cadena de IA a un ritmo alarmante.",
+      "why_it_matters": "Demuestra con pruebas medibles que la privacidad que prometen muchos servicios de IA no aguanta una auditoría.",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Un investigador sembró dos millones de canarios con secretos rastreables en la cadena de IA. Buena parte acabó donde no debía.\n\n#Privacidad #Seguridad #LLM\nhttps://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
+        "linkedin": "La privacidad que prometen muchos servicios de IA no aguanta una auditoría con pruebas. Un investigador sembró dos millones de canarios, prompts con secretos únicos y rastreables, en toda la cadena de suministro: proveedores, componentes intermedios, integraciones. El resultado es que 𝗹𝗼𝘀 𝘀𝗲𝗰𝗿𝗲𝘁𝗼𝘀 𝘀𝗲 𝗳𝗶𝗹𝘁𝗿𝗮𝗻 𝗽𝗼𝗿 𝗲𝘀𝗹𝗮𝗯𝗼𝗻𝗲𝘀 𝗾𝘂𝗲 𝗻𝗶 𝘀𝗮𝗯í𝗮𝘀 𝗾𝘂𝗲 𝗲𝘅𝗶𝘀𝘁í𝗮𝗻. Para quien firma un contrato de tratamiento de datos con un proveedor de IA, la pregunta ya no es qué promete, sino hasta dónde llega su cadena.\n\n#Privacidad #Seguridad #LLM\n\nhttps://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "investigacion",
+      "title": "Atacantes chinos usan agentes de IA que encuentran y explotan un 0-day por su cuenta",
+      "summary": "Según el CISO de Amazon, unos atacantes desplegaron agentes de IA que localizaron y explotaron de forma autónoma un 0-day para tomar el control de un servidor universitario. Los agentes se adaptaron durante casi un día entero sin dirección humana.",
+      "why_it_matters": "Es un caso documentado de explotación autónoma y supone un cambio de escala en la amenaza.",
+      "url": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+      "source": "The Register",
+      "social": {
+        "x": "Un agente de IA encontró un 0-day y lo explotó por su cuenta. Casi 24 horas adaptándose, sin humanos al mando. Y no era un laboratorio de pruebas.\n\n#ZeroDay #Ciberseguridad #ThreatIntelligence #LLM\nhttps://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+        "linkedin": "Hasta ahora la IA en ciberseguridad servía para escribir exploits más rápido. Esto es otra cosa.\n\nSegún el CISO de Amazon, unos atacantes desplegaron agentes que 𝗹𝗼𝗰𝗮𝗹𝗶𝘇𝗮𝗿𝗼𝗻 𝘆 𝗲𝘅𝗽𝗹𝗼𝘁𝗮𝗿𝗼𝗻 𝘂𝗻 𝟬-𝗱𝗮𝘆 𝘀𝗶𝗻 𝗱𝗶𝗿𝗲𝗰𝗰𝗶ó𝗻 𝗵𝘂𝗺𝗮𝗻𝗮 durante casi un día entero, adaptándose sobre la marcha hasta tomar el control de un servidor universitario. La clave no es la velocidad, es la autonomía: el agente siguió probando cuando lo evidente falló. Para cualquier equipo defensivo, eso comprime la ventana entre el fallo y el incidente a horas, y el margen que daban los parches trimestrales se queda en nada.\n\n#ZeroDay #Ciberseguridad #ThreatIntelligence #LLM\n\nhttps://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "lanzamientos",
+      "title": "PHP 8.6 aprieta las tuercas a los comportamientos por defecto",
+      "summary": "La actualización anual de PHP 8.6 endurece varios comportamientos laxos que los atacantes aprovechaban. El cambio obliga a revisar código antiguo que dependía de conversiones y valores por defecto demasiado permisivos.",
+      "why_it_matters": "Afecta a una base enorme de sitios y conviene saber qué se rompe antes de actualizar.",
+      "url": "https://www.theregister.com/devops/2026/11/20/php-86-things-are-gonna-get-a-lot-more-strict-around-here/5311486",
+      "source": "The Register",
+      "social": {
+        "x": "PHP 8.6 cierra la puerta a los comportamientos laxos que los atacantes llevaban años aprovechando. Tu código antiguo puede ser el primero en notarlo.\n\n#PHP #PHP86 #Seguridad #DesarrolloWeb\nhttps://www.theregister.com/devops/2026/11/20/php-86-things-are-gonna-get-a-lot-more-strict-around-here/5311486",
+        "linkedin": "PHP 8.6 va a romper código que lleva una década funcionando. Y en muchos casos será lo mejor que te pase.\n\nEl endurecimiento de los valores por defecto y las conversiones implícitas cierra vías que se explotaban con demasiada facilidad, pero también deja al descubierto ese código que nadie revisa porque «funcionaba». 𝗟𝗮 𝗮𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗿𝗶𝗲𝘀𝗴𝗼: 𝗲𝗹 𝗿𝗶𝗲𝘀𝗴𝗼 𝗲𝘀 𝗻𝗼 𝘀𝗮𝗯𝗲𝗿 𝗾𝘂é 𝘀𝗲 𝗿𝗼𝗺𝗽𝗲. Afecta a una base enorme de sitios, así que antes de tocar producción toca levantar el entorno, pasar los tests y leer el changelog con calma. A quien le pille por sorpresa, el fin de semana se le hará largo.\n\n#PHP #PHP86 #Seguridad #DesarrolloWeb\n\nhttps://www.theregister.com/devops/2026/11/20/php-86-things-are-gonna-get-a-lot-more-strict-around-here/5311486"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "El consejo de Nvidia, alarmado por la falta de sinceridad de Jensen Huang antes de su dimisión",
+      "summary": "Según Wired, la salida del consejero delegado de Nvidia se precipitó por una falta de sinceridad ante el consejo, en medio de acusaciones de relaciones con una subordinada y con una presunta fuente de inteligencia china. El consejo consideró que el problema principal era la falta de transparencia, no las relaciones en sí.",
+      "why_it_matters": "La dimisión del ejecutivo que encarna el boom de la IA deja a Nvidia sin su cara visible en plena tormenta.",
+      "url": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation",
+      "source": "Wired",
+      "social": {
+        "x": "Al consejo de Nvidia no le alarmó la relación con una subordinada. Le alarmó lo que Jensen Huang no les contó a tiempo.\n\n#Nvidia #JensenHuang #Wired\nhttps://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation",
+        "linkedin": "El consejo de Nvidia no forzó la salida de Jensen Huang por una relación con una subordinada. Lo hizo por lo que no les contó.\n\nSegún Wired, la dimisión se precipitó cuando el consejo concluyó que 𝗲𝗹 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝗮 𝗻𝗼 𝗲𝗿𝗮𝗻 𝗹𝗮𝘀 𝗿𝗲𝗹𝗮𝗰𝗶𝗼𝗻𝗲𝘀, 𝘀𝗶𝗻𝗼 𝗹𝗮 𝗳𝗮𝗹𝘁𝗮 𝗱𝗲 𝘁𝗿𝗮𝗻𝘀𝗽𝗮𝗿𝗲𝗻𝗰𝗶𝗮, en un contexto en el que también se menciona una presunta fuente de inteligencia china. Para la compañía que se ha convertido en el termómetro del boom de la IA, quedarse sin su cara visible en plena tormenta es un riesgo reputacional que ningún chip compensa. Y deja una lección incómoda para cualquier equipo directivo: lo que se calla ante el consejo acaba pesando más que lo que se hace.\n\n#Nvidia #JensenHuang #Wired\n\nhttps://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "El desplome de Anthropic arrastra a la tecnología: la peor semana bursátil desde la pandemia",
+      "summary": "El Nasdaq 100 entra en mercado bajista tras su peor semana desde la crisis de la covid. Nvidia cayó un 14 % mientras la SEC revisa su contabilidad y Anthropic perdió casi todas sus ganancias un día después de su histórico estreno en bolsa, con las dudas sobre la IA, los escándalos y la subida de tipos golpeando valoraciones sobrecalentadas.",
+      "why_it_matters": "Es la primera corrección seria del mercado en torno a la IA y marca el ánimo del sector para los próximos meses.",
+      "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up",
+      "source": "The Decoder",
+      "social": {
+        "x": "El boom de la IA acaba de enseñar su primera grieta seria: Anthropic borra casi todas las ganancias de su estreno, el Nasdaq entra en mercado bajista y Nvidia cae un 14 %.\n\n#Anthropic #Nvidia #Nasdaq\nhttps://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up",
+        "linkedin": "El boom de la IA acaba de enseñar su primera grieta seria: Anthropic borró casi todas las ganancias de su estreno en bolsa en un día, el Nasdaq 100 entra en mercado bajista y Nvidia cae un 14 %.\nLa semana pasada el mercado celebraba cada anuncio de IA; ahora mira contabilidad, escándalos y tipos altos con otra cara. 𝗘𝘀𝘁𝗮 𝗲𝘀 𝗹𝗮 𝗽𝗿𝗶𝗺𝗲𝗿𝗮 𝗰𝗼𝗿𝗿𝗲𝗰𝗰𝗶ó𝗻 𝘀𝗲𝗿𝗶𝗮 𝗱𝗲𝗹 𝗺𝗲𝗿𝗰𝗮𝗱𝗼 𝗲𝗻 𝘁𝗼𝗿𝗻𝗼 𝗮 𝗹𝗮 𝗜𝗔, y probablemente marque el ánimo del sector durante meses. Para quien esté construyendo o vendiendo con IA, el relato ya no basta: toca demostrar ingresos, costes y gobernanza.\n\n#Anthropic #Nvidia #Nasdaq\n\nhttps://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "nginx/nginx",
+      "url": "https://github.com/nginx/nginx",
+      "description": "El repositorio oficial de NGINX Open Source, el servidor web y proxy inverso que también se usa como balanceador de carga. Merece la pena seguirlo si quieres ver de primera mano la evolución del código y las versiones oficiales.",
+      "language": "C",
+      "stars": 32686,
+      "social": {
+        "x": "NGINX no es un proyecto abandonado: su código oficial vive en GitHub, en C, con 32.686 estrellas. Aquí ves la evolución real, versión a versión.\n\n#NGINX #OpenSource #C #DevOps\nhttps://github.com/nginx/nginx",
+        "linkedin": "EL SERVIDOR WEB QUE SOSTIENE BUENA PARTE DE LA WEB TIENE TODO SU CÓDIGO ABIERTO EN GITHUB.\n\nNGINX no es solo un binario que instalas y olvidas: es servidor web, proxy inverso y balanceador de carga, y su repositorio oficial está en C, a la vista de cualquiera. 32.686 estrellas después, sigue siendo la referencia frente a las capas gestionadas que te cobran por cada petición.\n\n→ Servidor web y proxy inverso en el mismo binario\n→ Balanceo de carga para repartir tráfico entre backends\n→ Releases y versiones oficiales, sin forks de terceros de por medio\n→ Código en C, la mejor forma de entender cómo se cuece un servidor de alto rendimiento\n\n𝗦𝗲𝗴𝘂𝗶𝗿 𝗲𝗹 𝗿𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝗶𝗼 𝗼𝗳𝗶𝗰𝗶𝗮𝗹 𝗲𝘀 𝗹𝗮 𝗺𝗮𝗻𝗲𝗿𝗮 𝗺á𝘀 𝗱𝗶𝗿𝗲𝗰𝘁𝗮 𝗱𝗲 𝗮𝗻𝘁𝗶𝗰𝗶𝗽𝗮𝗿𝘁𝗲 𝗮 𝗹𝗼𝘀 𝗰𝗮𝗺𝗯𝗶𝗼𝘀 𝗾𝘂𝗲 𝗹𝘂𝗲𝗴𝗼 𝗮𝘁𝗲𝗿𝗿𝗶𝘇𝗮𝗻 𝗲𝗻 𝘁𝘂 𝘀𝘁𝗮𝗰𝗸.\n\nGuárdalo para tenerlo a mano la próxima vez que montes infraestructura. Te dejo el enlace abajo.\n\n#NGINX #OpenSource #C #DevOps\n\nhttps://github.com/nginx/nginx"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Cómo leer (y cuestionar) los resultados de los benchmarks públicos de IA",
+      "url": "https://eugeneyan.com/writing/public-evals",
+      "source": "Eugene Yan",
+      "summary": "Guía para interpretar los números de un eval sin tragarte el marketing: qué mide de verdad cada benchmark, qué se queda fuera y por qué un buen score no garantiza que el modelo sirva para tu caso. Tras desmontar 12 benchmarks conocidos, el autor explica qué preguntar antes de fiarse de una tabla de resultados. Útil si tienes que elegir modelo o defender la elección ante tu equipo.",
+      "tema": "ia"
+    },
+    {
+      "title": "El patrón Explorer: prototipos rápidos ahora, reconciliación con el resto del equipo después",
+      "url": "https://lethain.com/explorer-pattern",
+      "source": "Irrational Exuberance (Will Larson)",
+      "summary": "Will Larson describe un modelo en el que una persona o un equipo pequeño construye una implementación funcional minimizando la coordinación con otros equipos, y negocia los detalles cuando el prototipo ya existe. Explica qué se gana en velocidad, cuánto retrabajo hay que asumir y en qué condiciones merece la pena. Sirve para decidir cuándo tirar por la vía rápida en lugar de montar un comité de coordinación.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Cuando la caché se vuelve en tu contra: estampidas, hot keys y memoria llena",
+      "url": "https://medium.com/@shubham.patel191295/when-caches-attack-stampedes-hot-keys-and-running-out-of-memory-fbdba099c714",
+      "source": "Medium: Software Engineering",
+      "summary": "Repaso de cuatro formas en las que una caché mal pensada castiga a la base de datos: recomputación masiva al caducar una clave popular, claves calientes que saturan un nodo y memoria que se agota. Explica cómo interactúan las políticas de expiración y de evicción para decidir qué se queda en RAM. Se lee rápido y ayuda a revisar la configuración de tu caché antes de que falle en producción.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Cómo escribir una guía de migración de API que la gente pueda seguir",
+      "url": "https://www.freecodecamp.org/news/how-to-write-an-api-migration-guide",
+      "source": "freeCodeCamp",
+      "summary": "Un changelog con una sola línea no basta cuando cambias la paginación o rompes un contrato. Con un caso real, el artículo muestra cómo estructurar una guía de migración: qué cambia, cómo afecta al código existente, ejemplos de antes y después y qué hacer si algo falla. Aplicable tanto si publicas una API como si te toca consumir la versión nueva de la de otro.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Regresión censurada y truncada en Python: en qué se diferencian y cuándo usar cada una",
+      "url": "https://towardsdatascience.com/censored-vs-truncated-regression-in-python-explained",
+      "source": "Towards Data Science",
+      "summary": "Con una encuesta de salarios simulada, el artículo muestra cómo la regresión por mínimos cuadrados infravalora un efecto real cuando los datos están censurados, y cómo recuperarlo con modelos Tobit y de verosimilitud truncada construidos desde cero. Aprenderás a distinguir censura de truncamiento, dos conceptos que se confunden a menudo, y a implementar ambos modelos en Python. Útil para cualquier análisis con datos recortados por un límite.",
+      "tema": "datos"
+    },
+    {
+      "title": "La ley de Tesler: la complejidad no desaparece, solo cambia de sitio",
+      "url": "https://heymeet.medium.com/teslers-law-why-complexity-never-disappears-it-only-moves-4b6ebda2fa77",
+      "source": "Medium: UX",
+      "summary": "Todo sistema arrastra una complejidad irreducible: la decisión de diseño es quién la soporta, si la persona que lo usa o el equipo que lo construye. El artículo repasa ejemplos de producto y da criterios para elegir de forma consciente en lugar de dejar que la complejidad caiga del lado del usuario por defecto. Buen recordatorio para revisiones de diseño y para discutir alcance con negocio.",
+      "tema": "diseno"
+    }
+  ]
+}
