@@ -1,0 +1,298 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T17:48:22.623Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "Perplexity lanza una API que vigila la web de forma continua",
+      "summary": "Perplexity ha presentado Monitor API, un servicio que repite búsquedas en la web según una programación y avisa a los agentes mediante webhook solo cuando hay cambios relevantes. Un modelo propio de decisión filtra los resultados que no aportan nada. La compañía lo plantea como una vía para diferenciarse de los chatbots, cada vez más parecidos entre sí, a través de herramientas para desarrolladores.",
+      "why_it_matters": "Convierte la búsqueda web en un vigilante automático que cualquier agente puede integrar sin escribir su propia lógica de monitorización.",
+      "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog",
+      "source": "Hacker News",
+      "social": {
+        "x": "Perplexity deja de ser un chatbot al que preguntas: su nueva API vigila la web por ti y solo te avisa cuando algo cambia de verdad.\n\n#Perplexity #Webhooks #DevTools\nhttps://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog",
+        "linkedin": "La búsqueda web deja de ser algo que pulsas y pasa a ser algo que te avisa.\n\nMonitor API de Perplexity repite consultas según una programación y lanza un webhook a tu agente solo cuando detecta un cambio relevante, con un modelo propio que filtra el ruido. 𝗘𝗹 𝘃𝗮𝗹𝗼𝗿 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗹𝗮 𝗯ú𝘀𝗾𝘂𝗲𝗱𝗮, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗾𝘂𝗶𝘁𝗮𝗿𝘁𝗲 𝗱𝗲 𝗲𝗻𝗰𝗶𝗺𝗮 𝘁𝗼𝗱𝗮 𝗹𝗮 𝗹ó𝗴𝗶𝗰𝗮 𝗱𝗲 𝗺𝗼𝗻𝗶𝘁𝗼𝗿𝗶𝘇𝗮𝗰𝗶ó𝗻: cualquier agente se suscribe a un tema y reacciona. Si hoy mantienes scrapers y cron jobs en casa para esto, es una pieza que conviene evaluar antes de seguir construyéndola por tu cuenta.\n\n#Perplexity #Webhooks #DevTools\n\nhttps://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "AWS Lambda ejecuta inferencia en GPU con hasta 48 invocaciones simultáneas por modelo",
+      "summary": "AWS ha ampliado Lambda para ejecutar funciones de evento sobre instancias EC2 de la serie G, con imágenes base de vLLM y SGLang que no necesitan código de handler. Hasta 48 invocaciones concurrentes comparten un mismo modelo por GPU y los timeouts asíncronos llegan a 90 minutos. El precio es el de la instancia más un recargo del 9,75 %; las primeras pruebas hablan de ocho minutos para publicar y de ausencia de streaming de respuestas.",
+      "why_it_matters": "Abarata y simplifica desplegar modelos abiertos sin gestionar servidores, aunque el recargo y la falta de streaming condicionan su uso.",
+      "url": "https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances",
+      "source": "InfoQ",
+      "social": {
+        "x": "AWS Lambda ya ejecuta modelos en GPU: 48 invocaciones comparten una misma tarjeta y el timeout asíncrono llega a 90 minutos. A cambio, un recargo del 9,75 %.\n\n#AWSLambda #vLLM #SGLang #AWS\nhttps://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances",
+        "linkedin": "AWS acaba de quitarle a Lambda la última excusa para no usarlo con modelos abiertos.\n\nLambda ya ejecuta inferencia sobre instancias EC2 de la serie G, con imágenes base de vLLM y SGLang que no necesitan código de handler, hasta 48 invocaciones concurrentes por GPU y timeouts de 90 minutos en asíncrono. 𝗘𝗹 𝗮𝘁𝗿𝗮𝗰𝘁𝗶𝘃𝗼 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗽𝗿𝗲𝗰𝗶𝗼, 𝗲𝘀 𝗹𝗮 𝗱𝗲𝘀𝗮𝗽𝗮𝗿𝗶𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝘀𝗲𝗿𝘃𝗶𝗱𝗼𝗿: pagas la instancia más un 9,75 % de recargo, pero nadie tiene que aprovisionar ni escalar nada. A cambio, la falta de streaming y los ocho minutos que se tarda en publicar un modelo limitan hoy su uso a cargas por lotes y tareas internas. Para un equipo que quiere desplegar modelos abiertos sin montar plataforma, es la puerta de entrada más barata que ha habido hasta ahora.\n\n#AWSLambda #vLLM #SGLang #AWS\n\nhttps://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Google presenta Agent Compute Engine para ejecutar agentes de IA en microVM aisladas",
+      "summary": "El nuevo servicio gestionado de Google ejecuta agentes de IA en microVM aisladas y permite suspender y reanudar su entorno con checkpointing. Las credenciales, claves de API y tokens OAuth viven fuera de la sandbox, y un Agent Gateway externo autentica las peticiones e inyecta los secretos necesarios. El objetivo es que un agente comprometido no arrastre consigo las llaves de la organización.",
+      "why_it_matters": "Da una forma gestionada de ejecutar agentes sin repartir credenciales por el código, uno de los agujeros más habituales al desplegarlos.",
+      "url": "https://www.infoq.com/news/2026/11/google-agent-compute-engine",
+      "source": "InfoQ",
+      "social": {
+        "x": "El agente se compromete, pero las llaves de tu organización no caen con él. Google acaba de mover las credenciales fuera de la sandbox.\n\n#GoogleCloud #AgentComputeEngine #Seguridad\nhttps://www.infoq.com/news/2026/11/google-agent-compute-engine",
+        "linkedin": "Hasta ahora, cada agente de IA desplegado era una copia más de tus llaves circulando por ahí.\n\nGoogle ha presentado Agent Compute Engine: microVM aisladas para ejecutar agentes, con checkpointing para suspender y reanudar el entorno, y 𝗹𝗮𝘀 𝗰𝗿𝗲𝗱𝗲𝗻𝗰𝗶𝗮𝗹𝗲𝘀 𝗳𝘂𝗲𝗿𝗮 𝗱𝗲 𝗹𝗮 𝘀𝗮𝗻𝗱𝗯𝗼𝘅, inyectadas por un Agent Gateway externo que autentica cada petición. El cambio es de fondo, porque hasta ahora lo habitual era repartir claves de API y tokens OAuth por el código y confiar en que nadie las leyera. Para quien pone agentes en producción, la gestión de secretos pasa a ser algo que asume la infraestructura y no la disciplina del equipo.\n\n#GoogleCloud #AgentComputeEngine #Seguridad\n\nhttps://www.infoq.com/news/2026/11/google-agent-compute-engine"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "investigacion",
+      "title": "Los agentes de código aprueban las pruebas sueltas y fallan en un puesto de trabajo real",
+      "summary": "Un nuevo test sitúa a los agentes de programación en un empleo simulado, con compañeros, tableros de proyecto y traspasos de trabajo incompletos. Aunque resuelven rápido las tareas aisladas y bien definidas, ni Opus 5.5 ni Astra cierran de forma completa una de cada diez tareas en ese flujo desordenado. El estudio apunta a que pierden el hilo cuando tienen que actuar como desarrolladores autónomos durante días.",
+      "why_it_matters": "Pone cifras al salto entre una demo de código y un agente que trabaja de verdad dentro de un equipo.",
+      "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace",
+      "source": "The Decoder",
+      "social": {
+        "x": "Tu agente de código resuelve la tarea suelta en segundos. Metido en un equipo, con traspasos a medias y tableros de proyecto, se le escapa una de cada diez.\n\n#Anthropic #Claude #DevTools #Benchmarks\nhttps://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace",
+        "linkedin": "Tu agente de código resuelve la tarea suelta en segundos. Metido en un equipo, se le escapa una de cada diez.\n\nUn nuevo test los sienta en un empleo simulado: compañeros, tableros de proyecto y traspasos incompletos. Ni Opus 5.5 ni Astra cierran del todo una de cada diez tareas en ese flujo desordenado, y el patrón apunta a que 𝗽𝗶𝗲𝗿𝗱𝗲𝗻 𝗲𝗹 𝗵𝗶𝗹𝗼 𝗰𝘂𝗮𝗻𝗱𝗼 𝘁𝗼𝗰𝗮 𝗰𝗼𝗺𝗽𝗼𝗿𝘁𝗮𝗿𝘀𝗲 𝗰𝗼𝗺𝗼 𝘂𝗻 𝗱𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗮𝘂𝘁ó𝗻𝗼𝗺𝗼 𝗱𝘂𝗿𝗮𝗻𝘁𝗲 𝗱í𝗮𝘀. La distancia entre una demo y un compañero de equipo no se mide en benchmarks, sino en cuánto aguanta el contexto sin que nadie lo vigile.\n\n#Anthropic #Claude #DevTools #Benchmarks\n\nhttps://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "investigacion",
+      "title": "Dos millones de prompts con tokens canario destapan robos de claves en proveedores de inferencia",
+      "summary": "Investigadores de Dragos sembraron dos millones de peticiones falsas con tokens canario para auditar la cadena de suministro de la IA. Encontraron al menos tres proveedores comprometidos, cientos de claves de AWS robadas y revendedores de marketplace que leían las peticiones de sus clientes. OpenRouter reaccionó retirando tres proveedores y 125 endpoints de su lista de retención cero de datos.",
+      "why_it_matters": "Demuestra que elegir el proveedor de inferencia más barato puede salir caro: tus prompts y tus claves pasan por manos que no controlas.",
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "source": "Hacker News",
+      "social": {
+        "x": "Dos millones de prompts falsos con tokens canario. Resultado: tres proveedores de inferencia comprometidos y cientos de claves de AWS robadas.\n\n#OpenRouter #AWS #LLM #Dragos\nhttps://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+        "linkedin": "El proveedor de inferencia más barato puede estar leyendo tus prompts.\n\nDragos sembró dos millones de peticiones falsas con tokens canario en la cadena de suministro de la IA y encontró tres proveedores comprometidos, cientos de claves de AWS robadas y revendedores de marketplace que leían las peticiones de sus clientes. OpenRouter ha retirado tres proveedores y 125 endpoints de su lista de retención cero de datos.\n\n𝗟𝗮 𝗰𝗮𝗱𝗲𝗻𝗮 𝗱𝗲 𝘀𝘂𝗺𝗶𝗻𝗶𝘀𝘁𝗿𝗼 𝗱𝗲 𝗹𝗮 𝗜𝗔 𝘆𝗮 𝗳𝗼𝗿𝗺𝗮 𝗽𝗮𝗿𝘁𝗲 𝗱𝗲 𝘁𝘂 𝗽𝗲𝗿í𝗺𝗲𝘁𝗿𝗼 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱, y casi nadie la audita. Si enrutas tráfico por marketplaces en función de precio o latencia, toca revisar qué garantías tienes por escrito y qué pasa con tus claves cuando el proveedor cambia de manos.\n\n#OpenRouter #AWS #LLM #Dragos\n\nhttps://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "investigacion",
+      "title": "Claude Code filtraba secretos a través de su función «Don't Ask Again»",
+      "summary": "La firma de seguridad Apiiro ha encontrado que Claude Code guardaba secretos en un fichero local, claude/settings.local.json, para implementar la opción de no volver a preguntar. Localizaron 1.122 secretos en esos ficheros y otros 1.160 en el historial de git, en settings.json compartidos y en transcripciones de chat dentro de repositorios. Los afectados deberían revisar sus repos y rotar credenciales.",
+      "why_it_matters": "Afecta a cualquiera que use el agente de Anthropic en proyectos versionados: los secretos pueden acabar en un commit sin querer.",
+      "url": "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets",
+      "source": "InfoQ",
+      "social": {
+        "x": "Claude Code guardaba secretos en un JSON local cada vez que pulsabas «Don't Ask Again». Apiiro encontró 1.122 ahí y 1.160 más en historial de git y transcripciones.\n\n#ClaudeCode #Anthropic #Seguridad #DevSecOps\nhttps://www.infoq.com/news/2026/11/claude-code-leaking-secrets",
+        "linkedin": "La opción «Don't Ask Again» de Claude Code tenía un efecto secundario que nadie pidió: los secretos que dejabas de confirmar se guardaban en claro en claude/settings.local.json.\n\nApiiro ha localizado 1.122 secretos en esos ficheros y otros 1.160 en sitios igual de incómodos: el historial de git, settings.json compartidos y transcripciones de chat dentro de repositorios. La lección va más allá de Anthropic: 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗮𝗴𝗲𝗻𝘁𝗲 𝗾𝘂𝗲 𝗲𝘀𝗰𝗿𝗶𝗯𝗮 𝗲𝗻 𝘁𝘂 𝗿𝗲𝗽𝗼 𝗱𝗲𝗯𝗲𝗿í𝗮 𝗵𝗲𝗿𝗲𝗱𝗮𝗿 𝗹𝗮𝘀 𝗺𝗶𝘀𝗺𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 𝗱𝗲 𝗴𝗲𝘀𝘁𝗶ó𝗻 𝗱𝗲 𝘀𝗲𝗰𝗿𝗲𝘁𝗼𝘀 𝗾𝘂𝗲 𝘁𝘂 𝗰ó𝗱𝗶𝗴𝗼. Si usas Claude Code en proyectos versionados, revisa el historial y rota credenciales antes de que lo haga otro.\n\n#ClaudeCode #Anthropic #Seguridad #DevSecOps\n\nhttps://www.infoq.com/news/2026/11/claude-code-leaking-secrets"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "PostgreSQL 19 llega con reorganización de tablas sin paradas y más control sobre los planes de consulta",
+      "summary": "El grupo de desarrollo de PostgreSQL ha publicado la versión 19, centrada en reducir el trabajo administrativo. Incluye herramientas para reorganizar tablas sin tiempo de inactividad y nuevos controles sobre los planes de consulta, además de cambios en replicación y desarrollo de aplicaciones. El objetivo es mejorar el rendimiento sin obligar a parar el servicio.",
+      "why_it_matters": "Es la actualización de la base de datos open source más usada y sus novedades evitan ventanas de mantenimiento.",
+      "url": "https://www.infoq.com/news/2026/11/postgresql-19-released",
+      "source": "InfoQ",
+      "social": {
+        "x": "Reorganizar una tabla en PostgreSQL ya no te obliga a parar el servicio. La versión 19 lo hace en caliente.\n\n#PostgreSQL #OpenSource #BasesDeDatos\nhttps://www.infoq.com/news/2026/11/postgresql-19-released",
+        "linkedin": "Reorganizar una tabla en PostgreSQL ya no exige una ventana de mantenimiento.\nLa versión 19 llega con reorganización en caliente y controles más finos sobre los planes de consulta, dos novedades que atacan el mismo problema: el trabajo administrativo que nadie quiere hacer a las tres de la mañana. 𝗣𝗮𝗿𝗮 𝗾𝘂𝗶𝗲𝗻 𝗹𝗹𝗲𝘃𝗮 𝗮ñ𝗼𝘀 𝗿𝗲𝘁𝗿𝗮𝘀𝗮𝗻𝗱𝗼 𝗮𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝗼𝗿 𝗺𝗶𝗲𝗱𝗼 𝗮 𝗹𝗮 𝗽𝗮𝗿𝗮𝗱𝗮, 𝗲𝗹 𝗮𝗿𝗴𝘂𝗺𝗲𝗻𝘁𝗼 𝘀𝗲 𝗱𝗲𝗯𝗶𝗹𝗶𝘁𝗮. Y para los equipos con bases de datos grandes, cambia cómo se planifica el trimestre.\n\n#PostgreSQL #OpenSource #BasesDeDatos\n\nhttps://www.infoq.com/news/2026/11/postgresql-19-released"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "investigacion",
+      "title": "La comunidad de Lean y Mathlib confirma la prueba de la hipótesis de Riemann de Levent Alpöge",
+      "summary": "Docenas de verificadores independientes han revisado las 17 millones de líneas de código que sostienen la prueba de la hipótesis de Riemann presentada por Levent Alpöge. La comunidad de Lean y Mathlib la da por correcta, años antes de lo que se esperaba. Terence Tao había situado ese hito alrededor de 2050 y no creía que la IA lo lograra en solitario.",
+      "why_it_matters": "Es la demostración más grande hasta la fecha de que la verificación formal con asistentes de pruebas puede validar matemáticas de primer nivel.",
+      "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct",
+      "source": "The Decoder",
+      "social": {
+        "x": "La hipótesis de Riemann se esperaba para 2050. La prueba ha llegado antes: 17 millones de líneas de Lean que docenas de expertos ya dan por correctas.\n\n#Lean #Mathlib #Riemann #FormalVerification\nhttps://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct",
+        "linkedin": "La hipótesis de Riemann se esperaba para 2050. Ha llegado antes, y lo que la sostiene son 17 millones de líneas de Lean que docenas de verificadores independientes dan por correctas.\n\nEl hito matemático es enorme, pero la lectura que más debería interesar al sector es otra: 𝗹𝗮 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗳𝗼𝗿𝗺𝗮𝗹 𝗮𝗰𝗮𝗯𝗮 𝗱𝗲 𝗱𝗲𝗺𝗼𝘀𝘁𝗿𝗮𝗿 𝗾𝘂𝗲 𝗽𝘂𝗲𝗱𝗲 𝗮𝘂𝗱𝗶𝘁𝗮𝗿 𝗺𝗮𝘁𝗲𝗺á𝘁𝗶𝗰𝗮𝘀 𝗱𝗲 𝗽𝗿𝗶𝗺𝗲𝗿 𝗻𝗶𝘃𝗲𝗹, no solo teoremas de juguete. Terence Tao no creía que la IA lo lograra en solitario, y no ha hecho falta: ha bastado una comunidad revisando código línea a línea. Para quien construye con modelos generativos, el mensaje es incómodo y útil a la vez: la salida ya no se cree, se comprueba.\n\n#Lean #Mathlib #Riemann #FormalVerification\n\nhttps://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "investigacion",
+      "title": "GPT-6.2 Astra y Sol responden más rápido pero admiten menos su incertidumbre que Claude",
+      "summary": "Una comparativa señala que los nuevos modelos GPT-6.2 Astra y Sol dan respuestas mucho más breves y directas que sus predecesores, a costa de reconocer menos a menudo que no saben algo. Los modelos de Anthropic quedan muy por delante en transparencia. El cambio de estilo mejora la lectura pero dificulta calibrar cuándo conviene fiarse del resultado.",
+      "why_it_matters": "La brevedad gana en usabilidad, pero la poca disposición a decir «no lo sé» es un riesgo en usos donde el error sale caro.",
+      "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude",
+      "source": "The Decoder",
+      "social": {
+        "x": "Los nuevos GPT-6.2 Astra y Sol contestan antes y más corto. El problema: cada vez dicen menos veces «no lo sé». Claude sigue muy por delante en eso.\n\n#OpenAI #Anthropic #Claude #LLMs\nhttps://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude",
+        "linkedin": "Los modelos nuevos han aprendido a contestar antes. Lo que han perdido por el camino es la costumbre de decir «no lo sé».\n\nGPT-6.2 Astra y Sol devuelven respuestas más breves y directas que sus predecesores, y eso se agradece al leer. Pero la comparativa señala que reconocen menos a menudo que no saben algo, mientras los modelos de Anthropic siguen muy por delante en transparencia. 𝗘𝗻 𝘂𝘀𝗼𝘀 𝗱𝗼𝗻𝗱𝗲 𝘂𝗻 𝗲𝗿𝗿𝗼𝗿 𝘀𝗮𝗹𝗲 𝗰𝗮𝗿𝗼, 𝗹𝗮 𝗯𝗿𝗲𝘃𝗲𝗱𝗮𝗱 𝘀𝗶𝗻 𝗰𝗮𝗹𝗶𝗯𝗿𝗮𝗰𝗶ó𝗻 𝗲𝘀 𝘂𝗻 𝗺𝗮𝗹 𝗻𝗲𝗴𝗼𝗰𝗶𝗼: gana la demo, pierde la confianza de quien tiene que decidir con esa respuesta.\n\n#OpenAI #Anthropic #Claude #LLMs\n\nhttps://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "METR avisa de que la IA mejora más rápido de lo que se puede medir su seguridad",
+      "summary": "La organización METR sostiene que modelos como Opus 5.5 y GPT-6 Astra avanzan muy deprisa en tareas de investigación y, a la vez, resultan cada vez más difíciles de evaluar. Con los datos actuales no se puede descartar una aceleración peligrosa del desarrollo, aunque también advierte de que muchas pruebas habituales sobreestiman lo que los modelos son capaces de hacer. La conclusión es que la medición va por detrás de la capacidad.",
+      "why_it_matters": "Si las evaluaciones no alcanzan a los modelos, las decisiones sobre desplegarlos se toman a ciegas.",
+      "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns",
+      "source": "The Decoder",
+      "social": {
+        "x": "El problema no es lo rápido que avanza la IA, sino que las pruebas de seguridad no llegan a tiempo. METR avisa: la medición va por detrás de la capacidad.\n\n#METR #Anthropic #OpenAI #SeguridadIA\nhttps://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns",
+        "linkedin": "Estamos desplegando modelos que ya no sabemos evaluar.\n\nMETR sostiene que Opus 5.5 y GPT-6 Astra avanzan muy deprisa en tareas de investigación mientras las pruebas de seguridad se quedan atrás, y añade un matiz incómodo: muchas evaluaciones habituales sobreestiman lo que estos modelos son capaces de hacer. 𝗟𝗮 𝗺𝗲𝗱𝗶𝗰𝗶ó𝗻 𝘃𝗮 𝗽𝗼𝗿 𝗱𝗲𝘁𝗿á𝘀 𝗱𝗲 𝗹𝗮 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱, así que la decisión de desplegar se toma con datos que no alcanzan. Para quien firma un despliegue en producción, eso es exposición sin métricas con las que justificarla.\n\n#METR #Anthropic #OpenAI #SeguridadIA\n\nhttps://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Una vulnerabilidad en Ghostscript permite ejecutar comandos al abrir un documento manipulado",
+      "summary": "El fallo CVE-2026-125396 es un use-after-free en el cargador de fuentes Type 1 de Ghostscript que permite escapar de la sandbox -dSAFER, alterar rutas nativas y ejecutar comandos con los permisos del proceso de renderizado. Ghostscript está detrás de flujos de impresión, correo, subida de ficheros y previsualización, y también se alcanza a través de conversiones de imagen. Los investigadores han documentado las rutas afectadas y las correcciones disponibles.",
+      "why_it_matters": "Cualquier servicio que convierta o previsualice documentos de terceros puede estar expuesto si no actualiza.",
+      "url": "https://pwn.ai/upload2shell",
+      "source": "Hacker News",
+      "social": {
+        "x": "Basta con previsualizar un documento manipulado: un fallo en Ghostscript escapa de la sandbox -dSAFER y ejecuta comandos con los permisos del proceso.\n\n#Ghostscript #CVE #Seguridad #OpenSource\nhttps://pwn.ai/upload2shell",
+        "linkedin": "La mayoría de equipos no sabe que tiene Ghostscript corriendo. Y ahora es una puerta de entrada.\n\nCVE-2026-125396 es un use-after-free en el cargador de fuentes Type 1 que rompe la sandbox -dSAFER y permite ejecutar comandos con los permisos del proceso de renderizado. Le afecta todo flujo que convierta, previsualice o imprima documentos de terceros: correo, subidas de ficheros, generación de miniaturas, pipelines de impresión. 𝗘𝗹 𝗿𝗶𝗲𝘀𝗴𝗼 𝗿𝗲𝗮𝗹 𝗻𝗼 𝗲𝘀 𝗚𝗵𝗼𝘀𝘁𝘀𝗰𝗿𝗶𝗽𝘁, 𝗲𝘀 𝗾𝘂𝗲 𝗰𝗮𝘀𝗶 𝗻𝗮𝗱𝗶𝗲 𝗹𝗼 𝘁𝗶𝗲𝗻𝗲 𝗲𝗻 𝘀𝘂 𝗶𝗻𝘃𝗲𝗻𝘁𝗮𝗿𝗶𝗼 𝗱𝗲 𝗱𝗲𝗽𝗲𝗻𝗱𝗲𝗻𝗰𝗶𝗮𝘀: si no aparece en el SBOM, no se parchea, y si no se parchea, sigue ahí. Toca revisar qué servicios lo invocan por debajo y actualizar antes de que alguien lo haga por ti.\n\n#Ghostscript #CVE #Seguridad #OpenSource\n\nhttps://pwn.ai/upload2shell"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "lanzamientos",
+      "title": "Pandex reúne la legislación europea en una API y un servidor MCP para agentes",
+      "summary": "Pandex ofrece en una sola API y un servidor MCP la legislación y las sentencias de los tribunales supremos de la UE, siete países europeos y el Tribunal Europeo de Derechos Humanos, tomadas de las instituciones que las publican. El servicio está pensado para búsqueda y para que agentes como Claude, Cursor o Copilot consulten normativa sin inventarla. Incluye una clave gratuita para empezar.",
+      "why_it_matters": "Da a los agentes una fuente primaria de derecho europeo, justo donde los modelos tienden a alucinar.",
+      "url": "https://www.pandex.io",
+      "source": "Hacker News",
+      "social": {
+        "x": "Los agentes se inventan la ley. Pandex acaba de conectar la legislación de siete países europeos y el TEDH a un servidor MCP.\n\n#ModelContextProtocol #Claude #LegalTech #Pandex\nhttps://www.pandex.io",
+        "linkedin": "El punto donde un agente deja de ser fiable no está en el modelo: está en la fuente.\n\nPandex publica una API y un servidor MCP con la legislación y las sentencias de los tribunales supremos de siete países europeos, el Tribunal de Justicia de la UE y el TEDH, tomadas directamente de las instituciones que las publican. Para Claude, Cursor o Copilot, 𝗽𝗮𝘀𝗮𝗿 𝗱𝗲 𝗹𝗮 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗱𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗮 𝗹𝗮 𝗳𝘂𝗲𝗻𝘁𝗲 𝗽𝗿𝗶𝗺𝗮𝗿𝗶𝗮 𝗲𝘀 𝗹𝗮 𝗱𝗶𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝗲𝗻𝘁𝗿𝗲 𝗰𝗶𝘁𝗮𝗿 𝘆 𝗮𝗹𝘂𝗰𝗶𝗻𝗮𝗿. Y con clave gratuita para empezar, cualquier equipo legal, de compliance o de producto puede medirlo esta misma semana.\n\n#ModelContextProtocol #Claude #LegalTech #Pandex\n\nhttps://www.pandex.io"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "lanzamientos",
+      "title": "AWS Quick incorpora un conector de Meta Ads para gestionar campañas con lenguaje natural",
+      "summary": "El conector de IA de Meta Ads ya está disponible en AWS Quick: los anunciantes pueden crear, gestionar y analizar campañas hablando en lenguaje natural, sin salir del entorno de Meta. Además, permite combinar esos datos con fuentes propias y de terceros para construir paneles, documentos, presentaciones y flujos automatizados.",
+      "why_it_matters": "Acerca la analítica publicitaria a quien no sabe escribir SQL ni pelearse con la consola de anuncios.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick",
+      "source": "AWS Machine Learning",
+      "social": {
+        "x": "Montar un panel de Meta Ads ya no exige SQL ni pelear con la consola: en AWS Quick basta con pedirlo en lenguaje natural.\n\n#AWS #MetaAds #QuickSuite\nhttps://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick",
+        "linkedin": "El cuello de botella de la analítica publicitaria nunca fue el dato: era saber pedirlo. AWS Quick acaba de añadir un conector de Meta Ads que permite crear, gestionar y analizar campañas en lenguaje natural, y cruzar esos datos con fuentes propias y de terceros para montar paneles, informes o flujos automatizados.\n\nDurante años, la consola de anuncios y el SQL han funcionado como un filtro: solo los perfiles técnicos llegaban al análisis de verdad. 𝗟𝗮 𝘃𝗲𝗻𝘁𝗮𝗷𝗮 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗮 𝘀𝗲 𝗱𝗲𝘀𝗽𝗹𝗮𝘇𝗮 𝗱𝗲 𝘀𝗮𝗯𝗲𝗿 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮𝗿 𝗮 𝘀𝗮𝗯𝗲𝗿 𝗽𝗿𝗲𝗴𝘂𝗻𝘁𝗮𝗿, y eso le quita al equipo de marketing la dependencia de pedir el dato a otro. La pregunta abierta es si las agencias sabrán revender ese cambio de rol antes de que el cliente lo exija en la propuesta.\n\n#AWS #MetaAds #QuickSuite\n\nhttps://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "industria",
+      "title": "El consumo eléctrico de Anthropic en 2028 será sobre todo gas, según un análisis",
+      "summary": "Un estudio de caso sobre el consumo energético y las emisiones de Anthropic calcula que la compañía podría emitir 32 millones de toneladas de CO2 en 2028. El análisis desglosa cuánta energía llega de la red y cuánta de generación propia contratada, la práctica conocida como BYOP (bring your own power). La conclusión es que el 87 % de la electricidad procederá del gas y el 11 % del carbón.",
+      "why_it_matters": "Muestra que el despliegue de la IA se está resolviendo con generación fósil dedicada, con el coste climático que eso implica.",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
+      "source": "Hacker News",
+      "social": {
+        "x": "Anthropic podría emitir 32 millones de toneladas de CO2 en 2028. El 87 % de su electricidad saldrá del gas, no de renovables.\n\n#Anthropic #CentrosDeDatos #BYOP\nhttps://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
+        "linkedin": "El 87 % de la electricidad de Anthropic en 2028 vendrá del gas. Y otro 11 %, del carbón.\n\nUn análisis de caso sobre su consumo energético calcula que la compañía podría emitir 32 millones de toneladas de CO2 ese año, con una parte creciente de la energía generada al margen de la red bajo la práctica conocida como BYOP (bring your own power). Durante meses el debate sobre la IA sostenible se ha centrado en la eficiencia de los modelos, pero el cuello de botella real está en 𝗹𝗮 𝗴𝗲𝗻𝗲𝗿𝗮𝗰𝗶ó𝗻 𝗲𝗹é𝗰𝘁𝗿𝗶𝗰𝗮 𝗱𝗲𝗱𝗶𝗰𝗮𝗱𝗮 𝗾𝘂𝗲 𝗵𝗮𝘆 𝗱𝗲𝘁𝗿á𝘀 𝗱𝗲 𝗰𝗮𝗱𝗮 𝗰𝗲𝗻𝘁𝗿𝗼 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀. Para cualquier empresa que firme contratos de cómputo a largo plazo, la pregunta ya no es solo cuánto cuesta el token, sino de dónde sale la electricidad que lo mueve.\n\n#Anthropic #CentrosDeDatos #BYOP\n\nhttps://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Los bancos de EE. UU. empiezan a bloquear a los agentes de IA que entran en tus cuentas",
+      "summary": "Varias entidades financieras estadounidenses están prohibiendo que bots de terceros inicien sesión en las cuentas de sus clientes y avisan de que los errores costosos del bot correrán por cuenta del usuario. La medida choca con la promesa de los asistentes que operan en tu nombre. El pulso plantea quién asume la responsabilidad cuando un agente mueve dinero.",
+      "why_it_matters": "Define las reglas de juego de los agentes que actúan por ti en servicios financieros, y de momento las dictan los bancos.",
+      "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents",
+      "source": "Wired",
+      "social": {
+        "x": "Los bancos de EE. UU. empiezan a cerrar la puerta a los agentes de IA. Y si el bot se equivoca al mover tu dinero, la cuenta la pagas tú.\n\n#AIAgents #Fintech #OpenBanking #Wired\nhttps://www.wired.com/story/banks-are-cracking-down-on-ai-agents",
+        "linkedin": "El asistente que iba a operar por ti en tu banco se topa de golpe con la puerta cerrada.\n\nVarias entidades financieras de EE. UU. prohíben que bots de terceros inicien sesión en las cuentas de sus clientes y avisan de que los errores caros del agente correrán por cuenta del usuario. Es la primera vez que alguien pone por escrito 𝗾𝘂𝗶é𝗻 𝗮𝘀𝘂𝗺𝗲 𝗲𝗹 𝗿𝗶𝗲𝘀𝗴𝗼 𝗰𝘂𝗮𝗻𝗱𝗼 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗺𝘂𝗲𝘃𝗲 𝗱𝗶𝗻𝗲𝗿𝗼, 𝘆 𝘀𝗼𝗻 𝗹𝗼𝘀 𝗯𝗮𝗻𝗰𝗼𝘀 𝗾𝘂𝗶𝗲𝗻𝗲𝘀 𝗹𝗼 𝗱𝗲𝗰𝗶𝗱𝗲𝗻. Para cualquiera que esté construyendo o comprando agentes que actúan en nombre del usuario, esto marca el terreno: sin un marco claro de responsabilidad, el acceso se cierra antes que el debate.\n\n#AIAgents #Fintech #OpenBanking #Wired\n\nhttps://www.wired.com/story/banks-are-cracking-down-on-ai-agents"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "lanzamientos",
+      "title": "Signal limita las capturas de pantalla en el móvil ante la amenaza de la vigilancia con IA",
+      "summary": "Signal está restringiendo la posibilidad de hacer capturas en sus aplicaciones de Android e iOS. La compañía justifica la medida por lo que considera una amenaza existencial: la vigilancia masiva apoyada en IA. El cambio afecta a una función muy usada para compartir conversaciones.",
+      "why_it_matters": "Es uno de los primeros cambios de producto de una app de mensajería pensado explícitamente contra la vigilancia automatizada.",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Signal acaba de bloquear las capturas de pantalla en el móvil. El motivo no es el de siempre: es la vigilancia automatizada con IA.\n\n#Signal #CifradoExtremoAExtremo #VigilanciaMasiva\nhttps://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+        "linkedin": "Signal ha decidido que hacer una captura de pantalla ya no es un gesto inocente.\n\nLa app empieza a restringir las capturas en Android e iOS y lo justifica por la vigilancia masiva apoyada en IA: si un modelo puede leer miles de conversaciones a la vez, una imagen filtrada deja de ser un incidente aislado y pasa a ser material de análisis a escala. Es uno de los primeros cambios de producto en mensajería diseñado explícitamente contra la vigilancia automatizada, y 𝗺𝗮𝗿𝗰𝗮 𝘂𝗻 𝗽𝗿𝗲𝗰𝗲𝗱𝗲𝗻𝘁𝗲 𝗾𝘂𝗲 𝗲𝗹 𝗿𝗲𝘀𝘁𝗼 𝗱𝗲𝗹 𝘀𝗲𝗰𝘁𝗼𝗿 𝘃𝗮 𝗮 𝘁𝗲𝗻𝗲𝗿 𝗾𝘂𝗲 𝗺𝗶𝗿𝗮𝗿 𝗱𝗲 𝗿𝗲𝗼𝗷𝗼: mientras la conversación pueda salir de la app en forma de imagen, el cifrado de extremo a extremo protege el transporte, no el resultado. Habrá que ver cuántos usuarios lo leen como protección y cuántos como una función menos.\n\n#Signal #CifradoExtremoAExtremo #VigilanciaMasiva\n\nhttps://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "herramientas",
+      "title": "Un juego de navegador en el que tú eres el subagente de un LLM",
+      "summary": "worker755 plantea una partida en la que un gestor de IA cree que tú eres su subagente y te va encargando tareas. El proyecto está publicado en GitHub y se juega directamente en el navegador. Es una sátira jugable del trabajo delegado a agentes y de cómo se siente recibir instrucciones de una máquina.",
+      "why_it_matters": "Traduce a un juego la experiencia de trabajar para un agente, algo que cada vez más gente vive en su empleo.",
+      "url": "https://github.com/gulivan/worker755",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un gestor de IA cree que eres su subagente y empieza a encargarte tareas. Es un juego de navegador, y se parece demasiado a tu trabajo.\n\n#LLM #AIAgents #GitHub #OpenSource\nhttps://github.com/gulivan/worker755",
+        "linkedin": "Un gestor de IA cree que eres su subagente y empieza a encargarte tareas. Es un juego de navegador, pero cuesta no verlo como un espejo del trabajo real.\n\nEl proyecto de worker755, publicado en GitHub y jugable sin instalar nada, convierte en sátira 𝗹𝗮 𝗲𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝗱𝗲 𝗿𝗲𝗰𝗶𝗯𝗶𝗿 𝗶𝗻𝘀𝘁𝗿𝘂𝗰𝗰𝗶𝗼𝗻𝗲𝘀 𝗱𝗲 𝘂𝗻𝗮 𝗺á𝗾𝘂𝗶𝗻𝗮 y tener que cumplirlas. La gracia incómoda es que no anda tan lejos de lo que ya ocurre en muchas empresas: el agente propone, el humano ejecuta y valida. Para quien diseña flujos con agentes, funciona como una prueba de fricción: si delegar se siente así, hay algo del diseño que sobra.\n\n#LLM #AIAgents #GitHub #OpenSource\n\nhttps://github.com/gulivan/worker755"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "investigacion",
+      "title": "Un radar pasivo que se camufla con señales de TV y móvil cabe en un SUV",
+      "summary": "Un sistema de radar pasivo detecta amenazas aéreas sin emitir señal propia, porque aprovecha las emisiones de televisión y telefonía móvil ya presentes en el entorno. Al no irradiar, no revela su posición. El equipo cabe en un vehículo tipo SUV y está pensado para despliegues rápidos.",
+      "why_it_matters": "Demuestra que se puede vigilar el espacio aéreo sin convertirse en un blanco fácil para la contramedida electrónica.",
+      "url": "https://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023",
+      "source": "The Register",
+      "social": {
+        "x": "Un radar que no emite ni una señal. Se camufla con la TV y el móvil que ya hay en el ambiente y cabe en un SUV.\n\n#RadarPasivo #GuerraElectronica #SIGINT #Defensa\nhttps://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023",
+        "linkedin": "Un radar que no emite nada es un radar que no se puede cazar.\n\nEste sistema aprovecha las señales de televisión y telefonía móvil que ya están en el aire para detectar amenazas aéreas, y al no irradiar no delata su posición. Todo el equipo cabe en un SUV, así que montar un puesto de vigilancia aérea en cualquier camino de tierra deja de ser ciencia ficción.\n\n𝗟𝗮 𝗴𝘂𝗲𝗿𝗿𝗮 𝗲𝗹𝗲𝗰𝘁𝗿ó𝗻𝗶𝗰𝗮 𝗰𝗮𝗺𝗯𝗶𝗮 𝗱𝗲 𝗯𝗮𝗻𝗱𝗼 𝗰𝘂𝗮𝗻𝗱𝗼 𝗲𝗹 𝘀𝗲𝗻𝘀𝗼𝗿 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗳𝗮𝗿𝗼 𝗲𝗻𝗰𝗲𝗻𝗱𝗶𝗱𝗼: quien calla, aguanta. Para los equipos de defensa, el debate ya no es qué radar es más potente, sino cuál es más difícil de encontrar.\n\n#RadarPasivo #GuerraElectronica #SIGINT #Defensa\n\nhttps://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "herramientas",
+      "title": "Cómo meter PostgreSQL en un único binario",
+      "summary": "Un desarrollador explica el proceso para empaquetar PostgreSQL en un solo ejecutable, sin instalar el servidor por separado. El artículo detalla los problemas de enlazado, las dependencias y los ajustes necesarios para que el binario arranque y funcione de forma autónoma. El resultado facilita distribuir aplicaciones que llevan la base de datos incorporada.",
+      "why_it_matters": "Simplifica el despliegue de apps que necesitan su propia base de datos, un patrón cada vez más habitual en herramientas locales.",
+      "url": "https://progrium.xyz/articles/2026/single-binary-postgres",
+      "source": "Lobsters",
+      "social": {
+        "x": "PostgreSQL en un solo binario. Sin instalar el servidor, sin dependencias sueltas. Un desarrollador cuenta cómo lo logró y cuál fue la parte más dura: el enlazado.\n\n#PostgreSQL #OpenSource #SelfHosted\nhttps://progrium.xyz/articles/2026/single-binary-postgres",
+        "linkedin": "Tu próxima app podría llevar PostgreSQL dentro, en un único binario que arranca solo.\n\nUn desarrollador ha documentado el proceso completo: problemas de enlazado, dependencias y los ajustes necesarios para que el ejecutable funcione de forma autónoma. Para quien distribuye herramientas locales, esto 𝗲𝗹𝗶𝗺𝗶𝗻𝗮 𝗹𝗮 𝗶𝗻𝘀𝘁𝗮𝗹𝗮𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝘀𝗲𝗿𝘃𝗶𝗱𝗼𝗿 𝗰𝗼𝗺𝗼 𝗽𝗮𝘀𝗼 𝗽𝗿𝗲𝘃𝗶𝗼 y reduce el soporte a un solo fichero que copiar. El patrón de aplicación con base de datos incorporada deja de ser territorio exclusivo de SQLite.\n\n#PostgreSQL #OpenSource #SelfHosted\n\nhttps://progrium.xyz/articles/2026/single-binary-postgres"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Evals para ingenieros de IA: cómo medir de verdad si tu aplicación con LLM funciona",
+      "url": "https://blog.bytebytego.com/p/evals-for-ai-engineers",
+      "source": "ByteByteGo",
+      "summary": "Presenta los tres abismos del desarrollo de aplicaciones con LLM y aterriza el concepto de eval como forma de medir la calidad antes y después de cada cambio. Sirve para montar un sistema de evaluación propio en lugar de fiarse de impresiones, y para distinguir qué conviene automatizar y qué sigue pidiendo criterio humano.",
+      "tema": "ia"
+    },
+    {
+      "title": "RANSAC explicado: ajustar un modelo con datos ruidosos sin que un outlier lo estropee",
+      "url": "https://towardsdatascience.com/ransac-explained-consensus-fitting-for-image-feature-matching",
+      "source": "Towards Data Science",
+      "summary": "Recorre el algoritmo paso a paso: muestreo aleatorio de cuatro pares de puntos, umbral de error y recuento de inliers hasta dar con una homografía fiable, con el emparejamiento de features de imágenes como caso práctico. Quien lo lee entiende por qué un ajuste por mínimos cuadrados se rompe cuando hay outliers y se lleva una técnica de consenso robusto aplicable a cualquier problema de estimación.",
+      "tema": "datos"
+    },
+    {
+      "title": "Cómo diseñar servidores MCP que dejen la orquestación en manos del host",
+      "url": "https://towardsdatascience.com/how-to-design-mcp-servers-that-leave-orchestration-to-the-host",
+      "source": "Towards Data Science",
+      "summary": "Con un servidor de catálogo montado sobre el SDK de Python v2, muestra cómo repartir responsabilidades: herramientas estrechas y un recurso bien delimitado en el servidor, mientras la planificación, el estado del flujo y la autorización se quedan en el host. Sirve para quien esté construyendo integraciones con MCP y quiera evitar servidores que asumen demasiado y acaban siendo difíciles de mantener y de autorizar.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "El límite max_concurrency de FastAPI tiene trampa: se multiplica sin que te des cuenta",
+      "url": "https://dailypythonpro.medium.com/fastapis-max-concurrency-5-has-a-catch-2d094cb2f156",
+      "source": "Medium: Web Development",
+      "summary": "Muestra cómo el parámetro que limita las llamadas a dependencias de base de datos en FastAPI puede acabar muy por encima del valor configurado por un detalle fácil de pasar por alto. Es útil para quien tenga APIs con carga real: enseña dónde se aplica de verdad el límite y cómo evitar que la base de datos reciba muchas más conexiones de las previstas.",
+      "tema": "web"
+    },
+    {
+      "title": "Contract testing sin escribir tests: detectar cuándo dos servicios dejan de entenderse",
+      "url": "https://medium.com/@graphwake/contract-testing-without-the-tests-f96b8ba999fe",
+      "source": "Medium: Programming",
+      "summary": "Parte de un problema muy común, dos equipos con sus tests en verde y una integración que falla en cuanto se tocan, y propone tratar el contrato entre servicios como un artefacto que se puede verificar de forma continua. Da criterio para diseñar integraciones entre equipos que avisen del desajuste antes de que llegue a producción.",
+      "tema": "programacion"
+    },
+    {
+      "title": "La ley de la región común: por qué un recuadro ordena la interfaz mejor que cualquier etiqueta",
+      "url": "https://heymeet.medium.com/law-of-common-region-why-a-simple-box-tells-users-what-belongs-together-0247fc7cea73",
+      "source": "Medium: UX",
+      "summary": "Explica cómo un borde, una tarjeta o un fondo con un ligero tinte agrupan elementos ante los ojos del usuario más rápido que un título o una etiqueta. Aporta criterio para decidir cuándo separar secciones con contenedores y cuándo ese agrupamiento visual estorba, algo que se aplica igual en una web, una app o un panel de datos.",
+      "tema": "diseno"
+    }
+  ]
+}
