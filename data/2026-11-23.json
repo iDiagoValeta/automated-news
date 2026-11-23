@@ -1,0 +1,335 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T22:01:52.001Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "GLM-5.4: Z.ai estrena su primer transformer con bucles y apunta al coding generalizado",
+      "summary": "Z.ai ha publicado GLM-5.4, un modelo de 750.000 millones de parámetros que usa una arquitectura de bucles en la que 28 capas se ejecutan dos veces. La compañía asegura que así iguala a modelos de 2 y 3 billones de parámetros y lo presenta como el inicio del coding generalizado, donde el código también genera vídeo, juegos o modelos CAD. De momento solo hay resultados de referencia para una versión de prueba de 30B.",
+      "why_it_matters": "Es uno de los primeros modelos grandes en apostar por transformers con bucles, una arquitectura que promete recortar el coste de inferencia sin perder capacidad.",
+      "url": "https://z.ai/blog/glm-5.4",
+      "source": "Hacker News",
+      "social": {
+        "x": "Z.ai presume de igualar a modelos de 3 billones de parámetros con uno de 750.000 millones. El truco: 28 capas que se ejecutan dos veces.\n\n#GLM #Zai #ZhipuAI #Transformers\nhttps://z.ai/blog/glm-5.4",
+        "linkedin": "El primer transformer con bucles a gran escala ya tiene nombre: GLM-5.4.\n\nZ.ai ha construido un modelo de 750.000 millones de parámetros en el que 𝟮𝟴 𝗰𝗮𝗽𝗮𝘀 𝘀𝗲 𝗲𝗷𝗲𝗰𝘂𝘁𝗮𝗻 𝗱𝗼𝘀 𝘃𝗲𝗰𝗲𝘀, y asegura que así iguala a modelos de 2 y 3 billones. Lo presenta como el arranque del coding generalizado: código que también genera vídeo, juegos o CAD. De momento solo hay resultados de referencia de una versión de prueba de 30B, así que la promesa está por verificar. Aun así, la dirección es la interesante: si los bucles funcionan, el siguiente salto no vendrá de añadir parámetros, sino de reutilizar los que ya están.\n\n#GLM #Zai #ZhipuAI #Transformers\n\nhttps://z.ai/blog/glm-5.4"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Claude Ship: Anthropic lanza agentes que revisan, corrigen y aprueban pull requests",
+      "summary": "Anthropic presenta Claude Ship, un producto que añade a Claude la capacidad de revisar pull requests, aplicar correcciones y aprobarlas por su cuenta. Lo acompañan dos agentes nuevos, PR Steward y Claude Approvals, que se suman a la función de revisión de código disponible desde octubre.",
+      "why_it_matters": "Mete a los agentes de Anthropic en el flujo diario de revisión de código, justo donde antes hacía falta un humano.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+      "source": "The Verge",
+      "social": {
+        "x": "Anthropic le acaba de quitar el último paso manual al código: sus agentes revisan el PR, aplican las correcciones y lo aprueban sin que nadie más lo toque.\n\n#Anthropic #Claude #DevTools #PullRequests\nhttps://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+        "linkedin": "Anthropic quiere que el último humano del pipeline de código sea opcional.\n\nClaude Ship añade a Claude la capacidad de revisar pull requests, aplicar las correcciones y aprobarlas por su cuenta, con PR Steward y Claude Approvals como agentes de apoyo. No llega solo: se apoya en la revisión de código disponible desde octubre, así que esto no es una demo, es meter agentes en el flujo diario del equipo. 𝗘𝗹 𝗽𝗮𝘀𝗼 𝗾𝘂𝗲 𝗰𝗮𝗺𝗯𝗶𝗮 𝗹𝗮 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝗰𝗶ó𝗻 𝗲𝘀 𝗹𝗮 𝗮𝗽𝗿𝗼𝗯𝗮𝗰𝗶ó𝗻: la revisión asistida ahorra tiempo, pero aprobar de forma automática traslada a un modelo la responsabilidad de lo que entra en main. Si firmas releases o respondes ante una auditoría, ese es el punto donde conviene decidir reglas antes que herramientas.\n\n#Anthropic #Claude #DevTools #PullRequests\n\nhttps://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "GPT-6.2 Sol pasa a ser el modelo por defecto de ChatGPT en todo el mundo",
+      "summary": "OpenAI ha convertido GPT-6.2 Sol en el modelo por defecto de la pestaña de chat de ChatGPT, disponible ya para Plus, Pro, Business y Enterprise. Según las pruebas internas, la comprensión de imágenes sube del 47,4% al 71,7% y el modelo sigue instrucciones difíciles correctamente el 78,1% de las veces.",
+      "why_it_matters": "Es un salto medible en tareas cotidianas como búsquedas, imágenes o instrucciones complejas sin que el usuario tenga que cambiar nada.",
+      "url": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably",
+      "source": "The Decoder",
+      "social": {
+        "x": "ChatGPT ya no usa el modelo de ayer. GPT-6.2 Sol es ahora el modelo por defecto y la comprensión de imágenes sube del 47,4 % al 71,7 %.\n\n#OpenAI #ChatGPT #GPT62\nhttps://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably",
+        "linkedin": "El cambio de modelo más relevante de ChatGPT no lo has decidido tú: OpenAI ha puesto GPT-6.2 Sol como predeterminado y ya está activo en Plus, Pro, Business y Enterprise.\nLa letra pequeña es la que importa: la comprensión de imágenes pasa del 47,4 % al 71,7 % y el seguimiento de instrucciones difíciles acierta el 78,1 % de las veces. 𝗡𝗮𝗱𝗶𝗲 𝘁𝗶𝗲𝗻𝗲 𝗾𝘂𝗲 𝗺𝗶𝗴𝗿𝗮𝗿 𝗻𝗮𝗱𝗮 𝗽𝗮𝗿𝗮 𝗻𝗼𝘁𝗮𝗿 𝗹𝗮 𝗺𝗲𝗷𝗼𝗿𝗮, y ahí está el giro: la adopción deja de depender de que el usuario sepa qué modelo elegir. Para quien construye producto encima, la pregunta ya no es qué modelo escoger, sino cuánto tardan sus prompts y sus evaluaciones en reflejar el comportamiento nuevo por defecto.\n\n#OpenAI #ChatGPT #GPT62\n\nhttps://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "NariQ comprime Qwen3.8-27B a un archivo de 10 GB con calidad cercana a BF16",
+      "summary": "El equipo de Nari Labs publica en Hugging Face un GGUF de Qwen3.8-27B, un modelo multimodal de 27.000 millones de parámetros, comprimido en un único archivo de 10 GB. La cuantización busca mantener una calidad equiparable a BF16 para poder ejecutarlo en hardware modesto.",
+      "why_it_matters": "Baja el listón de hardware necesario para correr en local un modelo multimodal de 27B.",
+      "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un modelo multimodal de 27B metido en un archivo de 10 GB. Nari Labs lo ha comprimido con una calidad casi idéntica a BF16, y eso cambia qué hardware necesitas para moverlo en local.\n\n#Qwen #GGUF #NariLabs #OpenSource\nhttps://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+        "linkedin": "Un GGUF de 10 GB con calidad casi BF16: eso es lo que acaba de publicar Nari Labs con Qwen3.8-27B.\n\nCuantizar no es nuevo. Lo que cambia aquí es el punto de equilibrio: un multimodal de 27.000 millones de parámetros en un único archivo que entra en un portátil decente. 𝗘𝗹 𝗹𝗶𝘀𝘁ó𝗻 𝗱𝗲 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗽𝗮𝗿𝗮 𝗰𝗼𝗿𝗿𝗲𝗿 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗲𝗻 𝗹𝗼𝗰𝗮𝗹 𝗮𝗰𝗮𝗯𝗮 𝗱𝗲 𝗯𝗮𝗷𝗮𝗿 𝘂𝗻 𝗲𝘀𝗰𝗮𝗹ó𝗻, y eso reabre la conversación sobre cuánto trabajo real necesita pasar por la nube. Para quien monta prototipos o prueba ideas sin presupuesto de GPU, es la diferencia entre esperar turno y ponerse a ello.\n\n#Qwen #GGUF #NariLabs #OpenSource\n\nhttps://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Localcode: coding agéntico con modelos locales en el Mac y un solo comando",
+      "summary": "Localcode es un proyecto open source que monta un agente de coding sobre modelos locales en macOS con un único comando. El repositorio incluye el código y las instrucciones para lanzarlo sin depender de APIs en la nube.",
+      "why_it_matters": "Ofrece una alternativa self-hosted a los agentes de coding comerciales, sin sacar el código del equipo.",
+      "url": "https://github.com/mjwsolo/localcode",
+      "source": "Hacker News",
+      "social": {
+        "x": "Tu agente de coding ya puede vivir dentro del Mac: un comando, modelos locales y ni una llamada a la nube.\n\n#Localcode #OpenSource #macOS #LLM\nhttps://github.com/mjwsolo/localcode",
+        "linkedin": "El coding agéntico lleva un año mudándose a la nube. Localcode va justo al contrario: 𝘂𝗻 𝘀𝗼𝗹𝗼 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝘆 𝗺𝗼𝗱𝗲𝗹𝗼𝘀 𝗹𝗼𝗰𝗮𝗹𝗲𝘀 𝗲𝗻 𝗲𝗹 𝗠𝗮𝗰, sin APIs de por medio. Para cualquier equipo con código que no puede salir de la máquina, esto deja de ser un experimento y pasa a ser una alternativa de verdad frente a los agentes comerciales. La pregunta ya no es si lo self-hosted rinde, sino cuánto tarda en ser la opción por defecto.\n\n#Localcode #OpenSource #macOS #LLM\n\nhttps://github.com/mjwsolo/localcode"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "Claude Code estrena un modo experimental que orquesta llamadas con JavaScript",
+      "summary": "Anthropic ha añadido a Claude Code un modo experimental llamado Code Mode, en el que el modelo escribe JavaScript para encadenar, paralelizar y filtrar llamadas a Bash, Read y Edit. También cambia la forma en que el modo automático y los hooks revisan esas llamadas.",
+      "why_it_matters": "Permite que el agente componga sus propias herramientas y reduzca el número de idas y vueltas al modelo.",
+      "url": "https://www.infoq.com/news/2026/11/claude-code-mode",
+      "source": "InfoQ",
+      "social": {
+        "x": "Claude Code ya no llama a las herramientas de una en una. Ahora escribe JavaScript para encadenarlas y ahorrarse idas y vueltas al modelo.\n\n#ClaudeCode #Anthropic #JavaScript #Agentes\nhttps://www.infoq.com/news/2026/11/claude-code-mode",
+        "linkedin": "El agente que llama a las herramientas de una en una empieza a quedarse corto.\n\nAnthropic ha añadido a Claude Code un modo experimental, Code Mode, en el que el modelo escribe JavaScript para encadenar, paralelizar y filtrar las llamadas a Bash, Read y Edit. El efecto práctico es que 𝗲𝗹 𝗮𝗴𝗲𝗻𝘁𝗲 𝗰𝗼𝗺𝗽𝗼𝗻𝗲 𝘀𝘂𝘀 𝗽𝗿𝗼𝗽𝗶𝗮𝘀 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮𝘀 y reduce las idas y vueltas al modelo, que es justo donde se va el tiempo (y el dinero) en cualquier flujo con agentes. Si montas automatizaciones sobre Claude Code, conviene mirarlo pronto: también cambia cómo el modo automático y los hooks revisan cada llamada.\n\n#ClaudeCode #Anthropic #JavaScript #Agentes\n\nhttps://www.infoq.com/news/2026/11/claude-code-mode"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "La IA de Google Search se conecta a Drive, Wallet y Gemini para dar respuestas personalizadas",
+      "summary": "Google activa Personal Intelligence en AI Mode: si el usuario lo autoriza, las respuestas de búsqueda pueden apoyarse en datos de Google Wallet, Drive y la app de Gemini. La conexión es opcional y se gestiona desde los ajustes de la cuenta.",
+      "why_it_matters": "Es la primera vez que la búsqueda con IA de Google cruza datos personales del ecosistema, con el permiso del usuario como única barrera.",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+      "source": "Google AI",
+      "social": {
+        "x": "Google ha cruzado una línea: su buscador con IA ya responde con datos de tu Drive, tu Wallet y tu Gemini. Y tú decides si se los das.\n\n#Google #Gemini #GoogleSearch #Privacidad\nhttps://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+        "linkedin": "El buscador de Google ha dejado de ser una ventana anónima.\n\nCon Personal Intelligence en AI Mode, Google cruza por primera vez los datos de tu Drive, tu Wallet y la app de Gemini con las respuestas de búsqueda, siempre que lo autorices desde los ajustes de la cuenta. 𝗟𝗮 𝗯ú𝘀𝗾𝘂𝗲𝗱𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗼𝗻𝘀𝘂𝗹𝘁𝗮 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘂𝗻𝗮 𝗰𝗮𝗽𝗮 𝘀𝗼𝗯𝗿𝗲 𝘁𝘂 𝘃𝗶𝗱𝗮 𝗱𝗶𝗴𝗶𝘁𝗮𝗹, y eso cambia el cálculo para cualquiera que construya productos de búsqueda o asistentes: el contexto ya no lo aporta tu producto, lo aporta el ecosistema en el que vive el usuario. Que el permiso sea la única barrera es correcto sobre el papel, pero también traslada al usuario una decisión que muy poca gente va a revisar en ajustes.\n\n#Google #Gemini #GoogleSearch #Privacidad\n\nhttps://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "Nothing Ear Note: auriculares con estuche grabador y transcripción con IA",
+      "summary": "Nothing prepara unos auriculares llamados Ear Note cuyo estuche incorpora micrófonos para grabar conversaciones y transcribirlas, con una app que gestiona grabaciones, transcripciones y resúmenes generados por IA. Carl Pei los enseñó a Bloomberg y la compañía planea lanzarlos el 8 de diciembre, todavía sin precio cerrado.",
+      "why_it_matters": "Acerca a un producto de consumo masivo el formato de wearable que graba y resume reuniones.",
+      "url": "https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
+      "source": "The Verge",
+      "social": {
+        "x": "El estuche de tus auriculares ya graba la conversación y te la resume. Nothing lo lanza el 8 de diciembre.\n\n#Nothing #CarlPei #Wearables #Transcripción\nhttps://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording",
+        "linkedin": "El estuche de los auriculares acaba de convertirse en grabadora de reuniones.\n\nNothing ha enseñado a Bloomberg sus Ear Note: el estuche lleva micrófonos, graba conversaciones y una app las transcribe y resume con IA. Llegan el 8 de diciembre, todavía sin precio cerrado. Lo interesante no es el hardware, sino que 𝗲𝗹 𝘄𝗲𝗮𝗿𝗮𝗯𝗹𝗲 𝗾𝘂𝗲 𝗴𝗿𝗮𝗯𝗮 𝘆 𝗿𝗲𝘀𝘂𝗺𝗲 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗴𝗮𝗱𝗴𝗲𝘁 𝗱𝗲 𝗻𝗶𝗰𝗵𝗼 𝘆 𝘀𝗲 𝘀𝗶𝗲𝗻𝘁𝗮 𝗲𝗻 𝗹𝗮 𝗺𝗲𝘀𝗮 𝗱𝗲 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗿𝗲𝘂𝗻𝗶ó𝗻. Y con él llega la pregunta incómoda para quien lo despliegue en su equipo: cómo se avisa a la otra persona de que la conversación se está grabando.\n\n#Nothing #CarlPei #Wearables #Transcripción\n\nhttps://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "herramientas",
+      "title": "Cómo construir y mantener evaluaciones de agentes, según Hugging Face",
+      "summary": "El blog de Hugging Face publica una guía práctica para diseñar y mantener evaluaciones de agentes: qué medir, cómo montar los conjuntos de tareas y cómo evitar que las pruebas se queden obsoletas cuando cambian el modelo o las herramientas.",
+      "why_it_matters": "Sin evaluaciones fiables no hay forma de saber si un agente mejora o empeora al cambiar de versión.",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Tu agente pasa las pruebas. Eso no significa que haya mejorado. Hugging Face explica cómo montar evaluaciones que no caduquen al primer cambio de modelo.\n\n#HuggingFace #LLM #OpenSource #Agentes\nhttps://huggingface.co/blog/agentic-evals",
+        "linkedin": "Tu agente supera los tests y aun así puede haber empeorado.\n\nHugging Face publica una guía para diseñar evaluaciones de agentes que aguanten el ritmo real de cambio: qué medir, cómo montar los conjuntos de tareas y, sobre todo, cómo evitar que las pruebas queden obsoletas en cuanto se toca el modelo o una herramienta. 𝗨𝗻𝗮 𝗲𝘃𝗮𝗹𝘂𝗮𝗰𝗶ó𝗻 𝗱𝗲𝘀𝗳𝗮𝘀𝗮𝗱𝗮 𝗲𝘀 𝗽𝗲𝗼𝗿 𝗾𝘂𝗲 𝗻𝗼 𝘁𝗲𝗻𝗲𝗿 𝗻𝗶𝗻𝗴𝘂𝗻𝗮, porque da una falsa sensación de control justo cuando el equipo decide si hace deploy. Si cambias de versión cada semana, el mantenimiento del set de pruebas debería estar en el roadmap como una tarea más y no como un extra.\n\n#HuggingFace #LLM #OpenSource #Agentes\n\nhttps://huggingface.co/blog/agentic-evals"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "Google propone rediseñar las conexiones residuales de los transformers",
+      "summary": "Google Research publica una propuesta para mejorar las conexiones residuales de los transformers, uno de los componentes que más condiciona el entrenamiento de los modelos grandes. El artículo se centra en los fundamentos algorítmicos y teóricos del cambio y en las ganancias medidas.",
+      "why_it_matters": "Las conexiones residuales están en casi cualquier modelo actual, así que una mejora ahí se propaga a todo el ecosistema.",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections",
+      "source": "Google Research",
+      "social": {
+        "x": "El componente que nadie mira en un transformer puede ser el que más te está frenando al entrenar. Google Research propone rediseñar las conexiones residuales.\n\n#GoogleResearch #Transformers #DeepLearning\nhttps://research.google/blog/supercharging-transformer-residual-connections",
+        "linkedin": "Las conexiones residuales llevan años copiándose de paper en paper sin apenas cambios. Google Research acaba de proponer rediseñarlas y afirma haber medido ganancias reales en el entrenamiento de modelos grandes.\n\nNo es un detalle menor: 𝘂𝗻𝗮 𝗺𝗲𝗷𝗼𝗿𝗮 𝗲𝗻 𝗹𝗮𝘀 𝗿𝗲𝘀𝗶𝗱𝘂𝗮𝗹𝗲𝘀 𝘀𝗲 𝗽𝗿𝗼𝗽𝗮𝗴𝗮 𝗮 𝗰𝗮𝘀𝗶 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗺𝗼𝗱𝗲𝗹𝗼 𝗮𝗰𝘁𝘂𝗮𝗹, porque están en todos. Si el resultado se sostiene y se puede llevar a la práctica, el cuello de botella del entrenamiento se mueve de sitio, y eso reordena qué equipos pueden competir a cierta escala.\n\n#GoogleResearch #Transformers #DeepLearning\n\nhttps://research.google/blog/supercharging-transformer-residual-connections"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "GPT-6.2 Astra demuestra un teorema matemático con una estrategia de prueba propia",
+      "summary": "Según Vals AI, GPT-6.2 Astra produjo de forma independiente una prueba verificable en Lean del teorema del hueco de Smoktunowicz, la primera de este tipo. Como faltaban piezas clave en Mathlib, el modelo diseñó su propio enfoque, y lidera Autoform-Hard con 49 de 56 tareas resueltas.",
+      "why_it_matters": "Es un caso de IA que no se limita a rellenar pruebas existentes y crea una estrategia nueva que una máquina puede verificar.",
+      "url": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy",
+      "source": "The Decoder",
+      "social": {
+        "x": "GPT-6.2 Astra no se ha limitado a rellenar una prueba: ha inventado su propia estrategia para demostrar un teorema y Lean la ha verificado. Es la primera vez.\n\n#Lean #GPT62 #Matemáticas #ValsAI\nhttps://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy",
+        "linkedin": "Una IA acaba de demostrar un teorema con una estrategia que no estaba en ningún sitio.\n\nGPT-6.2 Astra produjo por su cuenta una prueba verificable en Lean del teorema del hueco de Smoktunowicz, y lo hizo 𝗱𝗶𝘀𝗲ñ𝗮𝗻𝗱𝗼 𝘀𝘂 𝗽𝗿𝗼𝗽𝗶𝗼 𝗲𝗻𝗳𝗼𝗾𝘂𝗲 porque faltaban piezas clave en Mathlib. Lidera además Autoform-Hard con 49 de 56 tareas resueltas. La diferencia con lo que veíamos hasta ahora no es el volumen, sino el tipo de trabajo: ya no rellena huecos de pruebas existentes, propone un camino nuevo que una máquina puede comprobar. Para quien investiga en matemáticas o construye entornos de verificación formal, el cuello de botella se mueve de generar pasos a saber qué preguntar.\n\n#Lean #GPT62 #Matemáticas #ValsAI\n\nhttps://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "RoboTrack: seguimiento de puntos para la manipulación robótica en el mundo real",
+      "summary": "Allen AI publica en el blog de Hugging Face RoboTrack, una técnica de seguimiento de puntos pensada para robots que manipulan objetos reales. El método busca mantener la referencia de las partes del objeto mientras la escena cambia.",
+      "why_it_matters": "El seguimiento fiable de puntos es una pieza que falta para que los robots manipulen objetos con precisión fuera del laboratorio.",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Un robot puede reconocer una taza. Lo difícil es no perder de vista el asa mientras se mueve. Allen AI publica RoboTrack para resolver justo eso.\n\n#RoboTrack #AllenAI #HuggingFace\nhttps://huggingface.co/blog/allenai/robotrack",
+        "linkedin": "Los robots no fallan al manipular objetos reales por falta de fuerza, sino porque pierden la referencia de lo que agarran en cuanto la escena cambia.\n\nAllen AI ha publicado RoboTrack en el blog de Hugging Face, una técnica de seguimiento de puntos que mantiene la referencia de las partes del objeto mientras este se mueve, cambia la luz o algo lo tapa a medias. Es el tipo de ladrillo poco vistoso que decide si un robot sale del laboratorio o se queda para siempre en el vídeo de demostración. 𝗘𝗹 𝘀𝗲𝗴𝘂𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗳𝗶𝗮𝗯𝗹𝗲 𝗱𝗲 𝗽𝘂𝗻𝘁𝗼𝘀 𝗲𝘀 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲 𝗹𝗮 𝗺𝗮𝗻𝗶𝗽𝘂𝗹𝗮𝗰𝗶ó𝗻 𝗳𝘂𝗲𝗿𝗮 𝗱𝗲𝗹 𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗼𝗿𝗶𝗼, y quien lo resuelva se lleva el resto del pastel.\n\n#RoboTrack #AllenAI #HuggingFace\n\nhttps://huggingface.co/blog/allenai/robotrack"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "DeepMind usa agentes y verificación formal para encontrar algoritmos cuánticos más rápidos",
+      "summary": "Google DeepMind describe cómo combina equipos de agentes con verificación formal para buscar algoritmos cuánticos más eficientes en problemas de fusión y química. La verificación permite comprobar que las mejoras encontradas son correctas.",
+      "why_it_matters": "Une dos tendencias, agentes que proponen y verificación formal que valida, en un terreno donde un error cuesta caro.",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "DeepMind ya no le pide a la IA que tenga razón: le pide que lo demuestre. Agentes que proponen algoritmos cuánticos y un verificador formal que los tumba si fallan.\n\n#DeepMind #ComputaciónCuántica #Agentes #VerificaciónFormal\nhttps://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+        "linkedin": "El cuello de botella de la IA ya no es proponer: es demostrar.\n\nDeepMind está usando equipos de agentes para buscar algoritmos cuánticos más rápidos en problemas de fusión y química, pero cada propuesta pasa por 𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗰𝗶ó𝗻 𝗳𝗼𝗿𝗺𝗮𝗹 𝗮𝗻𝘁𝗲𝘀 𝗱𝗲 𝗱𝗮𝗿𝘀𝗲 𝗽𝗼𝗿 𝗯𝘂𝗲𝗻𝗮. Esa es la combinación que importa: la IA genera a velocidad de máquina y el verificador descarta lo que no se sostiene. En un terreno donde un algoritmo mal validado cuesta meses de trabajo y recursos, ese filtro vale más que el propio modelo.\n\n#DeepMind #ComputaciónCuántica #Agentes #VerificaciónFormal\n\nhttps://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "lanzamientos",
+      "title": "Ladybird llega a su primera alpha con motor propio",
+      "summary": "El navegador Ladybird publica su primera versión alpha. El proyecto implementa desde cero el análisis de HTML, el motor CSS, el layout, JavaScript y WebAssembly, y solo recurre a componentes externos como HarfBuzz, Skia, ffmpeg y SQLite.",
+      "why_it_matters": "Es el intento más serio en años de un navegador independiente y con motor propio, lejos de Chromium y de Gecko.",
+      "url": "https://ladybird.org/posts/alpha",
+      "source": "Lobsters",
+      "social": {
+        "x": "Hacer un navegador desde cero suena a locura. Ladybird acaba de publicar su primera alpha con motor HTML, CSS, JavaScript y WebAssembly propios, sin rastro de Chromium ni de Gecko.\n\n#Ladybird #Navegadores #OpenSource #WebAssembly\nhttps://ladybird.org/posts/alpha",
+        "linkedin": "Hacer un navegador desde cero hoy es casi una provocación. Ladybird acaba de publicar su primera alpha con el análisis de HTML, el motor CSS, el layout, JavaScript y WebAssembly implementados por el propio proyecto: de fuera solo toma piezas como Skia, HarfBuzz, ffmpeg y SQLite.\n\nDurante años el debate ha sido cuánto de Chromium puede permitirse copiar un navegador nuevo. Ladybird plantea lo contrario, 𝘂𝗻 𝗺𝗼𝘁𝗼𝗿 𝗽𝗿𝗼𝗽𝗶𝗼 𝗱𝗲 𝗽𝘂𝗻𝘁𝗮 𝗮 𝗽𝘂𝗻𝘁𝗮, y eso mueve el mapa: vuelve a haber una tercera vía fuera de Chromium y Gecko, con lo que implica para el control del estándar web y para quien no quiere depender de Google. Que sea una alpha significa que todavía no es un navegador para el día a día, pero el listón que ha puesto ya es la noticia.\n\n#Ladybird #Navegadores #OpenSource #WebAssembly\n\nhttps://ladybird.org/posts/alpha"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Anthropic permite a los clientes enterprise quedarse con los prompts en sus servidores",
+      "summary": "Anthropic suaviza su política de retención para los modelos Mythos y Fable: los clientes enterprise podrán mantener prompts y respuestas en sus propios servidores en lugar de cederlos durante 30 días. La empresa justificaba esa retención por motivos de seguridad.",
+      "why_it_matters": "Elimina uno de los frenos habituales para adoptar estos modelos en empresas con datos sensibles.",
+      "url": "https://www.engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use",
+      "source": "Engadget",
+      "social": {
+        "x": "Anthropic acaba de quitar el freno que más bloqueaba a las empresas: los prompts ya pueden quedarse en tus servidores, no en los suyos.\n\n#Anthropic #EnterpriseAI #Privacidad\nhttps://www.engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use",
+        "linkedin": "Durante años, la respuesta a la pregunta «¿y mis datos?» era siempre la misma: 30 días de retención o no hay trato.\n\nAnthropic acaba de abrir la puerta a lo contrario para sus clientes enterprise: en los modelos Mythos y Fable, 𝗹𝗼𝘀 𝗽𝗿𝗼𝗺𝗽𝘁𝘀 𝘆 𝗹𝗮𝘀 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮𝘀 𝗽𝘂𝗲𝗱𝗲𝗻 𝗾𝘂𝗲𝗱𝗮𝗿𝘀𝗲 𝗲𝗻 𝘁𝘂𝘀 𝗽𝗿𝗼𝗽𝗶𝗼𝘀 𝘀𝗲𝗿𝘃𝗶𝗱𝗼𝗿𝗲𝘀. La retención que la empresa justificaba por seguridad deja de ser obligatoria, y para los equipos con datos regulados ese era el freno real, no el precio ni el rendimiento. Si tu adopción de LLM se había atascado en el departamento legal, este es el momento de reabrir la conversación.\n\n#Anthropic #EnterpriseAI #Privacidad\n\nhttps://www.engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Cómo Netflix adaptó su ciclo de desarrollo para que agentes y personas programen juntos",
+      "summary": "En QCon San Francisco, el equipo de Commerce de Netflix explicó cómo reformó su ciclo de vida de desarrollo para que los agentes de coding convivieran con los ingenieros. Escribieron 45 registros de decisiones de arquitectura para personas y agentes, añadieron un agente revisor que solo publica bloqueos verificados y sirven contexto GraphRAG por dominio con una sola herramienta MCP.",
+      "why_it_matters": "Es un caso concreto y replicable de cómo cambiar procesos, y no solo herramientas, para trabajar con agentes.",
+      "url": "https://www.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents",
+      "source": "InfoQ",
+      "social": {
+        "x": "Netflix escribió 45 registros de arquitectura pensando también en los agentes. El cuello de botella no era el modelo, era el proceso.\n\n#Netflix #MCP #GraphRAG #AgenticCoding\nhttps://www.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents",
+        "linkedin": "El problema de meter agentes en tu ciclo de desarrollo no es el agente: es que tu proceso no está escrito en ningún sitio.\n\nNetflix lo contó en QCon San Francisco: 45 registros de decisiones de arquitectura redactados para que los lean personas y agentes por igual, un revisor automático que solo levanta bloqueos ya verificados y contexto por dominio servido a través de una única herramienta MCP. 𝗟𝗮 𝗰𝗹𝗮𝘃𝗲 𝗻𝗼 𝗲𝘀 𝗹𝗮 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮, 𝗲𝘀 𝗲𝗹 𝗽𝗿𝗼𝗰𝗲𝘀𝗼: han convertido en explícito el contexto que antes vivía en la cabeza de los ingenieros. Si tu equipo no sabe documentar por qué tomó cada decisión, ningún agente lo va a arreglar.\n\n#Netflix #MCP #GraphRAG #AgenticCoding\n\nhttps://www.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Bluetooth2Shell: aceptar un emparejamiento puede dar una shell de root",
+      "summary": "El proyecto Bluetooth2Shell documenta la CVE-2026-9001, un fallo en el descubrimiento de servicios Bluetooth: tras un emparejamiento normal, el host expone un perfil de puerto serie por RFCOMM y confía en la clave de enlace sin comprobar la identidad del otro dispositivo. Un atacante que complete el handshake puede abrir el canal y escribir en un PTY que algunos stacks entregan a una shell.",
+      "why_it_matters": "Convierte un gesto cotidiano como aceptar un emparejamiento en una vía de ejecución remota de código.",
+      "url": "https://bluetooth2shell.com",
+      "source": "Lobsters",
+      "social": {
+        "x": "Aceptas un emparejamiento Bluetooth y al otro lado ya están escribiendo en tu shell. El fallo está en cómo se descubren los servicios.\n\n#Bluetooth #RFCOMM #CVE20269001\nhttps://bluetooth2shell.com",
+        "linkedin": "Un emparejamiento Bluetooth normal basta para acabar con una shell de root en el host.\n\nEl proyecto Bluetooth2Shell documenta la CVE-2026-9001: tras el emparejamiento, el host expone un perfil de puerto serie por RFCOMM y confía en la clave de enlace sin comprobar la identidad del otro dispositivo. Quien complete el handshake puede escribir en un PTY que algunos stacks entregan directamente a una shell. 𝗘𝗹 𝗲𝗺𝗽𝗮𝗿𝗲𝗷𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗻𝗼 𝗲𝘀 𝗮𝘂𝘁𝗲𝗻𝘁𝗶𝗰𝗮𝗰𝗶ó𝗻, y ahí está el error de fondo: el sector lo trata como una barrera de confianza cuando solo es un intercambio de claves. Si tu producto publica servicios por RFCOMM, conviene revisar qué hace con ese canal antes de la próxima actualización.\n\n#Bluetooth #RFCOMM #CVE20269001\n\nhttps://bluetooth2shell.com"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Apple retira de las App Stores europeas una app open source tras nueve años",
+      "summary": "El desarrollador independiente de FSNotes, una aplicación open source de notas para macOS e iOS, denuncia que Apple ha eliminado su app de las tiendas de la UE después de nueve años. La discusión en GitHub recoge su versión de los hechos y la reacción de la comunidad.",
+      "why_it_matters": "Es un caso más de la tensión entre las reglas de la App Store y el software independiente en Europa.",
+      "url": "https://github.com/glushchenko/fsnotes/discussions/2056",
+      "source": "Hacker News",
+      "social": {
+        "x": "Nueve años en la App Store y Apple la retira de las tiendas europeas. El desarrollador de FSNotes cuenta en GitHub cómo ha pasado.\n\n#Apple #OpenSource #AppStore #FSNotes\nhttps://github.com/glushchenko/fsnotes/discussions/2056",
+        "linkedin": "Nueve años en la App Store no han bastado para que FSNotes siga disponible en Europa.\n\nApple ha retirado esta app open source de notas para macOS e iOS de las tiendas de la UE, y el desarrollador ha tenido que exponer su versión de los hechos en GitHub, donde la comunidad ha respondido. Para quien vive de una app independiente, 𝗹𝗮 𝗱𝗶𝘀𝘁𝗿𝗶𝗯𝘂𝗰𝗶ó𝗻 𝗱𝗲𝗽𝗲𝗻𝗱𝗲 𝗱𝗲 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝘂𝗻𝗶𝗹𝗮𝘁𝗲𝗿𝗮𝗹 𝗾𝘂𝗲 𝗻𝗼 𝘀𝗶𝗲𝗺𝗽𝗿𝗲 𝗹𝗹𝗲𝗴𝗮 𝗲𝘅𝗽𝗹𝗶𝗰𝗮𝗱𝗮. Y con la normativa europea empujando a abrir el ecosistema, cada retirada de este tipo pesa más de lo que parece.\n\n#Apple #OpenSource #AppStore #FSNotes\n\nhttps://github.com/glushchenko/fsnotes/discussions/2056"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Amazon compra la tecnología de optimización de IA de Decart por 7.500 millones",
+      "summary": "Amazon adquiere la tecnología de optimización de IA de Decart y su equipo de investigación en una operación valorada en 7.500 millones de dólares. El movimiento llega mientras la compañía prepara la venta de sus chips Trainium.",
+      "why_it_matters": "Refuerza el stack de inferencia de AWS justo cuando quiere competir con Nvidia en hardware.",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Amazon no ha comprado un modelo: ha pagado 7.500 millones por la tecnología que hace que la IA cueste menos. Y llega justo antes de vender sus Trainium.\n\n#AWS #Trainium #Nvidia #Decart\nhttps://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips",
+        "linkedin": "Amazon no ha comprado un modelo. Ha pagado 7.500 millones de dólares por la capa que decide cuánto cuesta servir IA.\n\nDecart se ha hecho un nombre optimizando inferencia en tiempo real, y su equipo de investigación pasa a AWS justo cuando la compañía prepara la venta de sus chips Trainium. 𝗘𝗹 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝘀𝗶𝗻 𝘂𝗻𝗮 𝗰𝗮𝗽𝗮 𝗱𝗲 𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗮𝗰𝗶ó𝗻 𝗽𝗿𝗼𝗽𝗶𝗮 𝗻𝗼 𝘀𝗲 𝘃𝗲𝗻𝗱𝗲 𝘀𝗼𝗹𝗼: quien controla el coste por token controla la conversación con Nvidia. Para cualquier equipo que esté decidiendo dónde desplegar sus modelos, la batalla ya no se libra en el benchmark, se libra en la factura.\n\n#AWS #Trainium #Nvidia #Decart\n\nhttps://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips"
+      }
+    },
+    {
+      "rank": 20,
+      "category": "industria",
+      "title": "Jensen Huang vuelve como consejero delegado de Nvidia una semana después de dimitir",
+      "summary": "El consejo de Nvidia ha restituido a Jensen Huang como presidente, consejero delegado y miembro del consejo, algo más de una semana después de su dimisión por las acusaciones sobre varias relaciones personales. La vuelta ha contado con el respaldo de la Casa Blanca y Huang testificará en el Senado en diciembre.",
+      "why_it_matters": "La gobernanza de la empresa más valiosa del sector de la IA queda en entredicho justo cuando se juega el control de las exportaciones de chips.",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Jensen Huang dimitió hace algo más de una semana. Hoy vuelve a ser consejero delegado de Nvidia, con la Casa Blanca detrás y una comparecencia en el Senado en diciembre.\n\n#Nvidia #JensenHuang #Semiconductores #Gobernanza\nhttps://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair",
+        "linkedin": "Ocho días. Ese es el tiempo que Nvidia ha aguantado sin Jensen Huang al frente.\n\nEl consejo lo ha restituido como presidente, consejero delegado y miembro del consejo, con el respaldo de la Casa Blanca, y en diciembre testificará en el Senado. Que la vuelta de un CEO que dimitió por acusaciones sobre su vida personal se resuelva en algo más de una semana dice mucho de 𝗾𝘂𝗶é𝗻 𝗺𝗮𝗻𝗱𝗮 𝗱𝗲 𝘃𝗲𝗿𝗱𝗮𝗱 𝗲𝗻 𝗹𝗮 𝗲𝗺𝗽𝗿𝗲𝘀𝗮 𝗺á𝘀 𝘃𝗮𝗹𝗶𝗼𝘀𝗮 𝗱𝗲 𝗹𝗮 𝗜𝗔 justo cuando se decide el control de las exportaciones de chips. La gobernanza pasa a ser el riesgo que ningún inversor de Nvidia quería tener que evaluar.\n\n#Nvidia #JensenHuang #Semiconductores #Gobernanza\n\nhttps://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "Paquete de skills para Claude Code centrado en bug hunting y trabajo de red team, con 82 skills, 15 comandos y patrones sacados de informes ya divulgados. Merece la pena si quieres automatizar tareas de reconocimiento y auditoría con un agente, aunque está claramente orientado a profesionales de seguridad.",
+      "language": "Python",
+      "stars": 19599,
+      "social": {
+        "x": "Alguien ha convertido Claude Code en auditor de seguridad: 82 skills y 15 comandos para bug hunting y red team, con patrones de informes ya divulgados. 19,6k estrellas.\n\n#ClaudeCode #BugHunting #RedTeam #OpenSource\nhttps://github.com/elementalsouls/Claude-BugHunter",
+        "linkedin": "CLAUDE CODE PUEDE PASAR DE ESCRIBIR CÓDIGO A AUDITAR SEGURIDAD.\n\nEse es el giro de Claude-BugHunter: un paquete de skills para Claude Code centrado en bug hunting y red team. No es pedirle a un chat que «busque vulnerabilidades», es una estructura de trabajo con 82 skills y 15 comandos.\n\nLo interesante no es la cifra: es que 𝗹𝗼𝘀 𝗽𝗮𝘁𝗿𝗼𝗻𝗲𝘀 𝘀𝗮𝗹𝗲𝗻 𝗱𝗲 𝗶𝗻𝗳𝗼𝗿𝗺𝗲𝘀 𝘆𝗮 𝗱𝗶𝘃𝘂𝗹𝗴𝗮𝗱𝗼𝘀, no de teoría inventada. Eso cambia bastante la calidad de lo que devuelve el agente.\n\n→ 82 skills para tareas de reconocimiento y auditoría.\n→ 15 comandos para encadenar el flujo sin repetir contexto a mano.\n→ Enfoque bug hunting y red team, no «seguridad genérica».\n→ Escrito en Python.\n→ 19,6k estrellas.\n\nOjo: está orientado a profesionales de seguridad. Si no tienes claro el alcance del test, no lo lances contra objetivos reales.\n\nGuarda el post y échale un ojo al repo. Te lo dejo abajo.\n\n#ClaudeCode #BugHunting #RedTeam #OpenSource\n\nhttps://github.com/elementalsouls/Claude-BugHunter"
+      }
+    },
+    {
+      "name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "Biblioteca de Agent Skills para el servidor MCP de Stitch que sigue el estándar abierto de skills, así que es compatible con agentes como Claude Code, Cursor o Gemini CLI. Práctica si quieres dar a tu agente habilidades reutilizables para generar interfaces y flujos de trabajo.",
+      "language": "TypeScript",
+      "stars": 12243,
+      "social": {
+        "x": "Google Labs suelta una biblioteca de skills para agentes que funciona igual en Claude Code, Cursor y Gemini CLI. 12k estrellas y cero ataduras a un solo agente.\n\n#AgentSkills #MCP #TypeScript #OpenSource\nhttps://github.com/google-labs-code/stitch-skills",
+        "linkedin": "GOOGLE LABS ACABA DE LIBERAR LAS SKILLS CON LAS QUE SUS AGENTES DISEÑAN INTERFACES.\n\nstitch-skills es una biblioteca de Agent Skills para el servidor MCP de Stitch. Y lo interesante no es Stitch, sino que sigue el estándar abierto de skills: 𝗹𝗮 𝗺𝗶𝘀𝗺𝗮 𝘀𝗸𝗶𝗹𝗹 𝘁𝗲 𝘀𝗶𝗿𝘃𝗲 𝗲𝗻 𝗖𝗹𝗮𝘂𝗱𝗲 𝗖𝗼𝗱𝗲, 𝗖𝘂𝗿𝘀𝗼𝗿 𝗼 𝗚𝗲𝗺𝗶𝗻𝗶 𝗖𝗟𝗜 𝘀𝗶𝗻 𝘁𝗼𝗰𝗮𝗿 𝘂𝗻𝗮 𝗹í𝗻𝗲𝗮.\n\nDurante meses cada agente ha ido inventando su propio formato de instrucciones reutilizables. Esto es lo contrario: un catálogo que se enchufa a cualquiera.\n\n→ Skills reutilizables para generar interfaces y flujos de trabajo dentro de tu agente.\n→ Compatible con Claude Code, Cursor y Gemini CLI gracias al estándar abierto.\n→ TypeScript, bajo el paraguas de google-labs-code.\n→ 12k estrellas: no es un experimento de fin de semana.\n\nSi estás montando tu propio set de skills, aquí tienes un catálogo de referencia muy difícil de igualar. Guárdalo para la próxima vez que tu agente se quede corto. Te dejo el repo abajo.\n\n#AgentSkills #MCP #TypeScript #OpenSource\n\nhttps://github.com/google-labs-code/stitch-skills"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Deja de hacer polling: cómo llevar gRPC y su streaming hasta el navegador",
+      "url": "https://medium.com/@ross17k/rest-asks-grpc-streams-why-your-web-app-should-stop-polling-and-speak-grpc-too-3bd8ac4ae1a7",
+      "source": "Medium: Web Development",
+      "summary": "Explica por qué el polling encarece y retrasa las aplicaciones web y cómo llevar el streaming bidireccional de gRPC al cliente manteniendo un único contrato de protobuf. Aprenderás en qué casos merece la pena frente a REST y qué piezas hacen falta en el navegador para aprovechar un backend que ya habla gRPC.",
+      "tema": "web"
+    },
+    {
+      "title": "Qué hay detrás de un sistema de reparto a domicilio rápido: el caso de DoorDash",
+      "url": "https://blog.bytebytego.com/p/doordash-dispatch-building-a-lightning",
+      "source": "ByteByteGo",
+      "summary": "Desmonta las piezas del sistema de dispatch de DoorDash: cómo se decide qué repartidor atiende cada pedido, qué datos entran en la decisión y qué cuellos de botella aparecen cuando el volumen crece. Sirve para entender patrones de diseño aplicables a cualquier marketplace con logística en tiempo real, no solo a comida a domicilio.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Agentes neurosimbólicos: cuando un solver lógico comprueba lo que responde el LLM",
+      "url": "https://towardsdatascience.com/neurosymbolic-agents-explained-with-a-z3-example-in-python",
+      "source": "Towards Data Science",
+      "summary": "Parte del caso del chatbot de Air Canada para recorrer enfoques como Logic-LM y Agent-C, con un ejemplo de Z3 en Python. La lección práctica es que el solver resulta fiable, pero el paso de inglés a lógica sigue siendo el punto débil, así que conviene diseñar asumiendo esa desconfianza.",
+      "tema": "ia"
+    },
+    {
+      "title": "Automatiza GitHub desde la terminal con la CLI gh y tus workflows de Actions",
+      "url": "https://www.freecodecamp.org/news/how-to-use-the-github-cli-with-github-actions",
+      "source": "freeCodeCamp",
+      "summary": "Tutorial para gestionar repositorios, issues, pull requests y workflows desde la terminal con gh, e integrarlo dentro de tus propias GitHub Actions. Útil para automatizar tareas repetitivas y para que los scripts de integración hablen con la API sin montar peticiones a mano.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Antes de presumir de modelo, compáralo con una media de cuatro semanas",
+      "url": "https://towardsdatascience.com/lightgbm-vs-a-four-week-average-for-forecasting-bike-share-rentals",
+      "source": "Towards Data Science",
+      "summary": "Un experimento con datos de Capital Bikeshare que enfrenta XGBoost, Ridge, SARIMA y Prophet contra una media móvil de cuatro semanas, cuidando las horas ausentes y las fugas de datos. La conclusión vale para cualquier proyecto de forecasting: sin una baseline honesta, una métrica alta sobre tus propios datos no demuestra nada.",
+      "tema": "datos"
+    },
+    {
+      "title": "Por qué se pierden los usuarios: modelos mentales aplicados al diseño de interfaces",
+      "url": "https://heymeet.medium.com/mental-models-in-ux-why-users-get-lost-when-your-app-breaks-expectations-0b76bdbb993f",
+      "source": "Medium: UX",
+      "summary": "Explica qué es un modelo mental, cómo descubrir el que trae el usuario y por qué la interfaz falla cuando lo contradice. Se centra en el método más que en la anécdota, así que sirve para revisar flujos y decisiones de diseño mucho después de leerlo.",
+      "tema": "diseno"
+    }
+  ]
+}
