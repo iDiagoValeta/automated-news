@@ -1,0 +1,298 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-23T23:50:13.658Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "GLM-5.4: Z.ai lleva la arquitectura de bucle a su modelo estrella para programar",
+      "summary": "Z.ai presenta GLM-5.4, un modelo de 750.000 millones de parámetros con arquitectura loop transformer en la que 28 capas se ejecutan dos veces, lo que según la compañía le permite rivalizar con modelos de 2 a 3 billones de parámetros. Añade capacidades de visión y mejor rendimiento general en código, y ya está disponible para los suscriptores del plan GLM Coding.",
+      "why_it_matters": "Es la primera gran apuesta por la arquitectura de bucle fuera de OpenAI y llega directamente al trabajo diario de quien programa con modelos.",
+      "url": "https://z.ai/blog/glm-5.4",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un modelo de 750.000 millones de parámetros que pasa dos veces por 28 de sus capas. Z.ai dice que así iguala a modelos de 2 a 3 billones. Primera arquitectura de bucle fuera de OpenAI.\n\n#GLM #Zai #LLM\nhttps://z.ai/blog/glm-5.4",
+        "linkedin": "Hasta ahora el bucle era una idea de OpenAI. Z.ai lo mete en su modelo estrella para programar.\n\nGLM-5.4 tiene 750.000 millones de parámetros y ejecuta 28 de sus capas dos veces; la compañía sostiene que eso le basta para competir con modelos de 2 a 3 billones. El detalle no es el tamaño, es el truco: 𝗿𝗲𝗽𝗲𝘁𝗶𝗿 𝗰ó𝗺𝗽𝘂𝘁𝗼 𝗲𝗻 𝗽𝗿𝗼𝗳𝘂𝗻𝗱𝗶𝗱𝗮𝗱 𝗽𝘂𝗲𝗱𝗲 𝘀𝗮𝗹𝗶𝗿 𝗺á𝘀 𝗯𝗮𝗿𝗮𝘁𝗼 𝗾𝘂𝗲 𝗲𝘀𝗰𝗮𝗹𝗮𝗿 𝗽𝗮𝗿á𝗺𝗲𝘁𝗿𝗼𝘀. Si eso aguanta en el uso diario, la pregunta deja de ser cuántos parámetros tienes y pasa a ser cómo los aprovechas. Y llega directo a quien programa: ya está disponible en el plan GLM Coding.\n\n#GLM #Zai #LLM\n\nhttps://z.ai/blog/glm-5.4"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "Anthropic lanza Claude Ship para que sus agentes revisen, arreglen y aprueben pull requests",
+      "summary": "Anthropic ha presentado Claude Ship, una suite de agentes que automatiza la revisión de código, la corrección de fallos y la aprobación de cambios rutinarios. Los agentes nuevos, PR Steward y Claude Approvals, se suman a la revisión de código que Claude ya ofrecía y apuntan al paso previo al deploy.",
+      "why_it_matters": "Mueve a los agentes del terreno de escribir código al de decidir qué se puede publicar, que es el cuello de botella real cuando el código generado se acumula.",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+      "source": "TechCrunch",
+      "social": {
+        "x": "El nuevo producto de Anthropic no escribe código: decide qué código se publica. Claude Ship revisa, arregla y aprueba pull requests por ti.\n\n#Anthropic #Claude #DevTools #PullRequests\nhttps://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+        "linkedin": "El cuello de botella del código generado por IA ya no es escribirlo, es aprobarlo.\n\nAnthropic presenta Claude Ship, con dos agentes nuevos, PR Steward y Claude Approvals, que revisan, corrigen y dan el visto bueno a los cambios rutinarios justo antes del deploy. 𝗘𝗹 𝘃𝗮𝗹𝗼𝗿 𝘀𝗲 𝗱𝗲𝘀𝗽𝗹𝗮𝘇𝗮 𝗱𝗲 𝗴𝗲𝗻𝗲𝗿𝗮𝗿 𝗰ó𝗱𝗶𝗴𝗼 𝗮 𝗱𝗲𝗰𝗶𝗱𝗶𝗿 𝗾𝘂é 𝗲𝗻𝘁𝗿𝗮 𝗲𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻, y ahí es donde se atasca hoy cualquier equipo. Para quien tiene la cola de pull requests desbordada suena a alivio, pero conviene decidir desde ya cuánta autonomía le damos a un agente con permiso para aprobar.\n\n#Anthropic #Claude #DevTools #PullRequests\n\nhttps://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "GPT-6.2 Sol pasa a ser el modelo por defecto de ChatGPT",
+      "summary": "OpenAI convierte GPT-6.2 Sol en el modelo por defecto de la pestaña de chat de ChatGPT en todo el mundo. En sus pruebas internas la comprensión de imágenes sube del 47,4% al 71,7% y el seguimiento correcto de instrucciones complejas alcanza el 78,1%, con más consistencia al aplicar las políticas de seguridad.",
+      "why_it_matters": "Es el modelo que usa la mayoría de la gente sin elegirlo, así que las mejoras en imágenes, búsqueda web y preguntas del día a día se notan de inmediato.",
+      "url": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably",
+      "source": "The Decoder",
+      "social": {
+        "x": "OpenAI ha cambiado el modelo que usas en ChatGPT sin que toques nada. GPT-6.2 Sol es ahora el default mundial: su lectura de imágenes pasa del 47,4% al 71,7%.\n\n#OpenAI #ChatGPT #GPT6 #LLM\nhttps://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably",
+        "linkedin": "El modelo que la mayoría usa en ChatGPT ha cambiado sin que nadie eligiera nada. GPT-6.2 Sol es ya el default global, y sus cifras internas mueven la aguja justo donde más se nota: comprensión de imágenes del 47,4% al 71,7% y un 78,1% en seguimiento de instrucciones complejas, con más consistencia al aplicar políticas de seguridad.\n\n𝗘𝗹 𝗶𝗺𝗽𝗮𝗰𝘁𝗼 𝗿𝗲𝗮𝗹 𝗻𝗼 𝗲𝘀𝘁á 𝗲𝗻 𝗲𝗹 𝗯𝗲𝗻𝗰𝗵𝗺𝗮𝗿𝗸, 𝘀𝗶𝗻𝗼 𝗲𝗻 𝗾𝘂𝗲 𝗺𝗶𝗹𝗹𝗼𝗻𝗲𝘀 𝗱𝗲 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝘀 𝗻𝗼𝘁𝗮𝗿á𝗻 𝗹𝗮 𝗺𝗲𝗷𝗼𝗿𝗮 𝘀𝗶𝗻 𝘀𝗮𝗯𝗲𝗿 𝗽𝗼𝗿 𝗾𝘂é. Para quien construye sobre la API, la pregunta incómoda es otra: si el default sube el listón a este ritmo, ¿sigue teniendo sentido fijar versiones a mano en producción?\n\n#OpenAI #ChatGPT #GPT6 #LLM\n\nhttps://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "homie, un asistente de voz local para macOS que responde en 0,43 segundos",
+      "summary": "Su autor cuenta cómo construyó homie, un asistente de voz que vive en el notch del MacBook y se activa manteniendo pulsada la tecla fn. Todo corre en el equipo: Qwen 3.5 4B con llama.cpp sobre Metal, Kokoro-82M en el Neural Engine y el reconocedor de voz de Apple, y funciona incluso en modo avión.",
+      "why_it_matters": "Demuestra que un asistente de voz rápido y útil cabe en un portátil de 16 GB sin enviar ni un segundo de audio a la nube.",
+      "url": "https://homie-mac.vercel.app/fast",
+      "source": "Lobsters",
+      "social": {
+        "x": "Un asistente de voz que responde en 0,43 segundos sin enviar ni un byte de audio a la nube. Vive en el notch del MacBook y corre entero en un portátil de 16 GB.\n\n#macOS #Qwen #Kokoro #OpenSource\nhttps://homie-mac.vercel.app/fast",
+        "linkedin": "0,43 segundos. Eso tarda en contestar un asistente de voz que no manda tu audio a ningún servidor.\n\nhomie se activa manteniendo pulsada la tecla fn y vive en el notch del MacBook: Qwen 3.5 4B con llama.cpp sobre Metal, Kokoro-82M en el Neural Engine y el reconocedor de voz de Apple. Funciona incluso en modo avión y 𝗰𝗮𝗯𝗲 𝗲𝗻𝘁𝗲𝗿𝗼 𝗲𝗻 𝘂𝗻 𝗽𝗼𝗿𝘁á𝘁𝗶𝗹 𝗱𝗲 𝟭𝟲 𝗚𝗕. Para quien diseña producto de voz, el listón se ha movido: la latencia ya no sirve como excusa para depender de la nube, y la privacidad deja de ser un precio a pagar en rendimiento.\n\n#macOS #Qwen #Kokoro #OpenSource\n\nhttps://homie-mac.vercel.app/fast"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "Google conecta Drive, Wallet y la app de Gemini a la IA de su buscador",
+      "summary": "Google activa Personal Intelligence en AI Mode, de forma que las respuestas del buscador pueden apoyarse en datos que el usuario ya tiene en Drive y Wallet y en la app de Gemini, siempre con consentimiento explícito. La función se despliega primero en inglés y en cuentas personales.",
+      "why_it_matters": "El buscador deja de responder solo con la web y empieza a responder con tu propio contexto, que es el cambio de producto más profundo de esta generación de AI Mode.",
+      "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+      "source": "Google AI",
+      "social": {
+        "x": "El buscador deja de responder con la web y empieza a responder con lo tuyo: Google conecta Drive, Wallet y Gemini a AI Mode. Tú das el permiso.\n\n#Google #Gemini #AIMode #GoogleDrive\nhttps://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+        "linkedin": "El buscador deja de ser una ventana a la web para convertirse en una ventana a tu propia vida digital.\n\nGoogle activa Personal Intelligence en AI Mode: las respuestas pueden apoyarse en lo que ya tienes en Drive y Wallet y en la app de Gemini, siempre con consentimiento explícito, y de momento solo en inglés y en cuentas personales. El movimiento es más profundo de lo que parece, porque 𝗲𝗹 𝗳𝗼𝘀𝗼 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝘁𝗶𝘃𝗼 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 í𝗻𝗱𝗶𝗰𝗲 𝗱𝗲 𝗹𝗮 𝘄𝗲𝗯 𝘆 𝗽𝗮𝘀𝗮 𝗮 𝘀𝗲𝗿 𝘁𝘂 𝗰𝗼𝗻𝘁𝗲𝘅𝘁𝗼. Para quien construye producto, ahí se abre una capa nueva de permisos, privacidad y confianza que hay que diseñar desde el primer día; para quien guarda documentación sensible en Drive, la conversación sobre qué ve el asistente empieza hoy.\n\n#Google #Gemini #AIMode #GoogleDrive\n\nhttps://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "lanzamientos",
+      "title": "NariQ comprime un Qwen3.8 de 27B en un archivo de 10 GB con calidad cercana a BF16",
+      "summary": "El laboratorio nari-labs publica en Hugging Face una versión cuantizada de Qwen3.8-27B en formato GGUF que ocupa unos 10 GB. Según sus responsables, la pérdida de calidad frente a BF16 es mínima, incluso en una tarea multimodal como la de este modelo.",
+      "why_it_matters": "Baja el listón de hardware necesario para ejecutar en local un modelo multimodal de 27B, algo impensable hace unos meses en un equipo de consumo.",
+      "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+      "source": "Hacker News",
+      "social": {
+        "x": "Un Qwen3.8 de 27B, metido en 10 GB y con calidad casi idéntica a BF16. Ejecutar un multimodal así en tu propio equipo ya no es fantasía.\n\n#Qwen #GGUF #HuggingFace #OpenSource\nhttps://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+        "linkedin": "El hardware ha dejado de ser la excusa para no ejecutar modelos grandes en local.\n\nnari-labs publica en Hugging Face una versión GGUF de Qwen3.8-27B que ocupa unos 10 GB y, según sus responsables, pierde muy poco frente a BF16, incluso en las tareas multimodales del modelo. Lo relevante no es la cifra aislada: es que 𝘂𝗻 𝟮𝟳𝗕 𝗺𝘂𝗹𝘁𝗶𝗺𝗼𝗱𝗮𝗹 𝗰𝗮𝗯𝗲 𝗲𝗻 𝘂𝗻 𝗲𝗾𝘂𝗶𝗽𝗼 𝗱𝗲 𝗰𝗼𝗻𝘀𝘂𝗺𝗼 sin renunciar a la calidad que hace unos meses exigía una GPU de datacenter. Si tu equipo descartó el self-hosted por hardware, ese cálculo acaba de cambiar, y conviene revisar qué modelos merece la pena servir en local y cuáles siguen teniendo sentido en la nube.\n\n#Qwen #GGUF #HuggingFace #OpenSource\n\nhttps://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "lanzamientos",
+      "title": "OpenAI y Cisco publican Shirudo, un runtime open source para proteger Linux sin reiniciar",
+      "summary": "Shirudo es un runtime open source para Linux que permite a los operadores proteger sistemas en producción mientras preparan los parches, sin esperar a que llegue la actualización ni a reiniciar el servicio. El proyecto se publica con licencia abierta y documentación para equipos de infraestructura.",
+      "why_it_matters": "Ataca uno de los problemas más incómodos de la infraestructura real: parchear rápido sin tumbar el servicio que se está protegiendo.",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "source": "OpenAI News",
+      "social": {
+        "x": "OpenAI y Cisco acaban de publicar Shirudo, un runtime open source que protege Linux en producción sin reiniciar el servicio. Parchear deja de ser una carrera contra el reloj.\n\n#OpenSource #Linux #OpenAI #Cisco\nhttps://openai.com/index/introducing-shirudo",
+        "linkedin": "El parche llega semanas después. El atacante, no.\n\nShirudo, el runtime open source que OpenAI y Cisco acaban de publicar, permite blindar sistemas Linux en producción mientras se preparan las actualizaciones, sin reiniciar ni tumbar el servicio. Ataca el compromiso más incómodo de la infraestructura real: 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗳𝗿𝗲𝗻𝘁𝗲 𝗮 𝗱𝗶𝘀𝗽𝗼𝗻𝗶𝗯𝗶𝗹𝗶𝗱𝗮𝗱, sin obligarte a elegir entre una y otra. Para quien gestiona ventanas de mantenimiento con pinzas, la lectura es clara: la ventana de exposición ya no tiene por qué durar hasta el próximo reinicio.\n\n#OpenSource #Linux #OpenAI #Cisco\n\nhttps://openai.com/index/introducing-shirudo"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Claude Code estrena un modo experimental que encadena herramientas con JavaScript",
+      "summary": "El nuevo Code Mode, todavía experimental, deja que Claude Code escriba JavaScript para encadenar, paralelizar y filtrar llamadas a Bash, Read y Edit. El cambio también afecta a cómo los hooks y el modo automático revisan esas llamadas antes de ejecutarlas.",
+      "why_it_matters": "Orquestar las herramientas con código en lugar de con prompts reduce pasos y hace las ejecuciones más deterministas y auditables.",
+      "url": "https://www.infoq.com/news/2026/11/claude-code-mode",
+      "source": "InfoQ",
+      "social": {
+        "x": "Claude Code empieza a escribir JavaScript para encadenar sus propias herramientas. Orquestar con código sale más corto y más auditable que orquestar con prompts.\n\n#ClaudeCode #Anthropic #JavaScript #DevTools\nhttps://www.infoq.com/news/2026/11/claude-code-mode",
+        "linkedin": "Orquestar un agente a base de prompts funciona hasta que hay que encadenar diez llamadas seguidas.\nClaude Code prueba ahora el camino inverso: 𝗖𝗼𝗱𝗲 𝗠𝗼𝗱𝗲 𝗱𝗲𝗷𝗮 𝗾𝘂𝗲 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗲𝘀𝗰𝗿𝗶𝗯𝗮 𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁 𝗽𝗮𝗿𝗮 𝗲𝗻𝗰𝗮𝗱𝗲𝗻𝗮𝗿, 𝗽𝗮𝗿𝗮𝗹𝗲𝗹𝗶𝘇𝗮𝗿 𝘆 𝗳𝗶𝗹𝘁𝗿𝗮𝗿 𝗹𝗹𝗮𝗺𝗮𝗱𝗮𝘀 𝗮 𝗕𝗮𝘀𝗵, 𝗥𝗲𝗮𝗱 𝘆 𝗘𝗱𝗶𝘁. Menos pasos, ejecuciones más deterministas y, sobre todo, auditables: el script queda escrito y se puede revisar. El matiz que importa es que los hooks y el modo automático también se adaptan para inspeccionar ese código antes de ejecutarlo. Para quien tenga agentes en producción, esa trazabilidad pesa más que ganar unos segundos.\n\n#ClaudeCode #Anthropic #JavaScript #DevTools\n\nhttps://www.infoq.com/news/2026/11/claude-code-mode"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "Ladybird abre su primera alpha con motor de navegador propio",
+      "summary": "Ladybird publica su primera versión alpha para probar un navegador que implementa desde cero el parseo de HTML, el motor CSS, el layout, JavaScript y hasta WebAssembly. Solo mantiene piezas externas como HarfBuzz para el texto, Skia para el dibujo 2D, ffmpeg para vídeo y SQLite.",
+      "why_it_matters": "Es la primera oportunidad en años de probar un motor de navegador nuevo que no es WebKit ni Gecko, algo que no ocurría desde hace más de una década.",
+      "url": "https://ladybird.org/posts/alpha",
+      "source": "Lobsters",
+      "social": {
+        "x": "Hacía más de una década que nadie estrenaba un motor de navegador. Ladybird acaba de publicar su primera alpha: HTML, CSS, layout, JS y WebAssembly escritos desde cero.\n\n#Ladybird #Navegadores #OpenSource #WebAssembly\nhttps://ladybird.org/posts/alpha",
+        "linkedin": "Aquí no hay WebKit ni Gecko debajo: Ladybird ya tiene su primera alpha con 𝘂𝗻 𝗺𝗼𝘁𝗼𝗿 𝗱𝗲 𝗻𝗮𝘃𝗲𝗴𝗮𝗱𝗼𝗿 𝗲𝘀𝗰𝗿𝗶𝘁𝗼 𝗱𝗲𝘀𝗱𝗲 𝗰𝗲𝗿𝗼, del parseo de HTML a WebAssembly.\n\nSolo quedan piezas externas como HarfBuzz, Skia, ffmpeg y SQLite. Para quien lleva años construyendo sobre dos únicas opciones, esto abre una tercera vía, aunque de momento sea frágil y sin usuarios reales. Merece la pena probarla y medir dónde falla antes de emocionarse.\n\n#Ladybird #Navegadores #OpenSource #WebAssembly\n\nhttps://ladybird.org/posts/alpha"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "investigacion",
+      "title": "GPT-6.2 Astra demuestra un teorema con una prueba verificable en Lean que ningún otro modelo logró",
+      "summary": "El modelo de OpenAI produjo de forma autónoma una prueba verificable en Lean del teorema del hueco de Smoktunowicz, y tuvo que idear su propia estrategia porque faltaban fundamentos en Mathlib. En el benchmark Autoform-Hard lidera ahora con 49 de 56 tareas resueltas.",
+      "why_it_matters": "Muestra que un modelo puede aportar matemáticas nuevas y no solo reproducir demostraciones ya conocidas.",
+      "url": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy",
+      "source": "The Decoder",
+      "social": {
+        "x": "Un modelo de OpenAI acaba de demostrar en Lean un teorema que ningún otro logró. Y no copió el camino: tuvo que inventarse la estrategia porque faltaban piezas.\n\n#OpenAI #LeanProver #GPT6 #AutoformHard\nhttps://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy",
+        "linkedin": "La diferencia entre resolver problemas y hacer matemáticas nuevas cabe en una prueba de Lean.\n\nGPT-6.2 Astra ha producido por su cuenta una demostración verificable del teorema del hueco de Smoktunowicz, y el detalle que importa no es el teorema: es que 𝘁𝘂𝘃𝗼 𝗾𝘂𝗲 𝗶𝗱𝗲𝗮𝗿 𝘀𝘂 𝗽𝗿𝗼𝗽𝗶𝗮 𝗲𝘀𝘁𝗿𝗮𝘁𝗲𝗴𝗶𝗮 𝗽𝗼𝗿𝗾𝘂𝗲 𝗠𝗮𝘁𝗵𝗹𝗶𝗯 𝗻𝗼 𝘁𝗲𝗻í𝗮 𝗹𝗼𝘀 𝗳𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗼𝘀. Con 49 de 56 tareas resueltas en Autoform-Hard, la pregunta para los equipos de investigación deja de ser si el modelo ayuda a escribir pruebas y pasa a ser quién firma el resultado.\n\n#OpenAI #LeanProver #GPT6 #AutoformHard\n\nhttps://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "investigacion",
+      "title": "Google Research mejora las conexiones residuales de los transformers",
+      "summary": "El equipo de investigación de Google publica un trabajo sobre cómo mejorar las conexiones residuales de los transformers, el bloque que sostiene prácticamente todos los modelos de lenguaje actuales. El artículo se centra en el diseño de esa conexión y en su efecto sobre el entrenamiento.",
+      "why_it_matters": "Cualquier avance en un componente tan transversal acaba llegando, antes o después, a los modelos que se usan a diario.",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections",
+      "source": "Google Research",
+      "social": {
+        "x": "Casi todos los LLM comparten una misma pieza de arquitectura: la conexión residual. Google Research acaba de rediseñarla.\n\n#Transformers #GoogleResearch #DeepLearning #ArquitecturaDeModelos\nhttps://research.google/blog/supercharging-transformer-residual-connections",
+        "linkedin": "Hay un componente de los transformers que nadie discute y que condiciona cómo entrena cualquier modelo. Google Research acaba de publicar cómo rediseñarlo.\n\nNo es un modelo nuevo ni un benchmark: es la conexión residual, esa que conecta capas y sobre la que se sostiene prácticamente todo lo que usamos a diario. 𝗨𝗻 𝗮𝘃𝗮𝗻𝗰𝗲 𝗲𝗻 𝘂𝗻𝗮 𝗽𝗶𝗲𝘇𝗮 𝘁𝗿𝗮𝗻𝘀𝘃𝗲𝗿𝘀𝗮𝗹 𝘃𝗮𝗹𝗲 𝗺á𝘀 𝗾𝘂𝗲 𝗱𝗶𝗲𝘇 𝗹𝗮𝗻𝘇𝗮𝗺𝗶𝗲𝗻𝘁𝗼𝘀 𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗼, porque acaba filtrándose a todos los modelos que se entrenen después. Si trabajas con LLM, esto es lo que conviene leer con calma.\n\n#Transformers #GoogleResearch #DeepLearning #ArquitecturaDeModelos\n\nhttps://research.google/blog/supercharging-transformer-residual-connections"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "DeepMind usa agentes y verificación formal para encontrar algoritmos cuánticos más rápidos",
+      "summary": "DeepMind combina equipos de agentes con verificación formal para buscar mejores algoritmos cuánticos aplicados a problemas de fusión y química. La verificación automática actúa como filtro para descartar propuestas que no se sostienen.",
+      "why_it_matters": "Propone un método reutilizable, agentes que proponen y verificación formal que filtra, en lugar de confiar a ciegas en la salida del modelo.",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "source": "Google DeepMind",
+      "social": {
+        "x": "Los agentes de DeepMind proponen algoritmos cuánticos más rápidos. El filtro que decide cuáles valen no es otro modelo: es una demostración formal.\n\n#DeepMind #QuantumComputing #VerificaciónFormal\nhttps://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+        "linkedin": "El cuello de botella de la IA ya no es generar propuestas, es saber cuáles son correctas. DeepMind combina agentes que buscan algoritmos cuánticos más rápidos con verificación formal como filtro, 𝘂𝗻𝗮 𝗱𝗲𝗺𝗼𝘀𝘁𝗿𝗮𝗰𝗶ó𝗻 𝗮𝘂𝘁𝗼𝗺á𝘁𝗶𝗰𝗮 𝗾𝘂𝗲 𝗱𝗲𝘀𝗰𝗮𝗿𝘁𝗮 𝗹𝗮𝘀 𝗽𝗿𝗼𝗽𝘂𝗲𝘀𝘁𝗮𝘀 𝗾𝘂𝗲 𝗻𝗼 𝘀𝗲 𝘀𝗼𝘀𝘁𝗶𝗲𝗻𝗲𝗻, aplicado a problemas de fusión y química. Lo interesante no es el resultado concreto, sino el patrón: proponer con modelos y verificar con algo que no sea el propio modelo. Cualquier equipo que hoy acepta la salida de un agente sin comprobarla debería mirar por aquí.\n\n#DeepMind #QuantumComputing #VerificaciónFormal\n\nhttps://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "RoboTrack: seguimiento de puntos para que los robots manipulen objetos reales",
+      "summary": "El blog de Hugging Face presenta RoboTrack, una técnica de seguimiento de puntos pensada para la manipulación robótica en entornos reales, donde la oclusión y el movimiento continuo complican el seguimiento.",
+      "why_it_matters": "Saber con precisión cómo se mueve un objeto mientras se manipula es lo que permite pasar de demos controladas a robots que trabajan en un entorno cambiante.",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Un robot que pierde de vista el objeto que sujeta deja de poder manipularlo. RoboTrack, de Hugging Face, ataca justo eso: seguirlo con puntos cuando hay oclusión y movimiento.\n\n#RoboTrack #HuggingFace #Robotica #ComputerVision\nhttps://huggingface.co/blog/allenai/robotrack",
+        "linkedin": "Un robot que pierde de vista el objeto que sujeta deja de poder manipularlo.\n\nCasi todas las demos quedan bien porque el objeto se queda quieto y a la vista. En un entorno real hay oclusión, movimiento continuo y cambios de luz, y ahí el seguimiento se cae. RoboTrack, la técnica que presenta el blog de Hugging Face, 𝗺𝗮𝗻𝘁𝗶𝗲𝗻𝗲 𝗲𝗹 𝘀𝗲𝗴𝘂𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗱𝗲 𝗽𝘂𝗻𝘁𝗼𝘀 𝗱𝗲𝗹 𝗼𝗯𝗷𝗲𝘁𝗼 𝗱𝘂𝗿𝗮𝗻𝘁𝗲 𝘁𝗼𝗱𝗮 𝗹𝗮 𝗺𝗮𝗻𝗶𝗽𝘂𝗹𝗮𝗰𝗶ó𝗻, que es la señal que permite corregir la trayectoria sobre la marcha en lugar de repetir una pose memorizada. Para quien trabaja en robótica, el cuello de botella se ha movido: ya no está en el agarre, está en la percepción sostenida.\n\n#RoboTrack #HuggingFace #Robotica #ComputerVision\n\nhttps://huggingface.co/blog/allenai/robotrack"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "herramientas",
+      "title": "Cómo construir y mantener una evaluación de agentes que siga siendo útil",
+      "summary": "Guía práctica de Hugging Face sobre cómo diseñar, ejecutar y mantener evaluaciones de agentes de IA. El texto aborda el ciclo de vida completo, desde la definición de tareas hasta la revisión periódica de los conjuntos de prueba.",
+      "why_it_matters": "Sin evaluaciones fiables no hay manera de saber si un agente mejora o empeora entre versiones, y los benchmarks estáticos se agotan enseguida.",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Un benchmark estático te dice cómo iba tu agente hace tres meses. Hugging Face publica la guía para que la evaluación aguante, versión a versión.\n\n#HuggingFace #AgentesIA #LLMs #Benchmarks\nhttps://huggingface.co/blog/agentic-evals",
+        "linkedin": "Los benchmarks estáticos caducan antes que los agentes que miden.\n\nHugging Face publica una guía que recorre el ciclo completo: definir las tareas, ejecutar las evaluaciones y revisar cada cierto tiempo los conjuntos de prueba. La parte incómoda es la última, porque 𝘂𝗻𝗮 𝗲𝘃𝗮𝗹𝘂𝗮𝗰𝗶ó𝗻 𝘀𝗶𝗻 𝗺𝗮𝗻𝘁𝗲𝗻𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗲𝘀 𝘂𝗻 𝗻ú𝗺𝗲𝗿𝗼 𝗱𝗲𝗰𝗼𝗿𝗮𝘁𝗶𝘃𝗼: parece que mide algo, pero ya no distingue si el agente mejora o empeora entre versiones. Para quien ya tiene agentes en producción, esto deja de ser higiene técnica y pasa a ser infraestructura.\n\n#HuggingFace #AgentesIA #LLMs #Benchmarks\n\nhttps://huggingface.co/blog/agentic-evals"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "industria",
+      "title": "Google plantea los agentes en producción como un problema de riesgo interno a velocidad de máquina",
+      "summary": "En QCon San Francisco, Amanda Walker (Google) describió los agentes de IA desplegados en empresas como un riesgo interno que actúa a velocidad de máquina. Su charla repasa patrones de identidad, gestión de credenciales y contención para ejecutarlos con garantías.",
+      "why_it_matters": "Da un marco concreto a uno de los bloqueos reales del despliegue de agentes en empresas: darles permisos sin convertirlos en una vía de escape.",
+      "url": "https://www.infoq.com/news/2026/11/qcon-ai-agent-security",
+      "source": "InfoQ",
+      "social": {
+        "x": "Google tiene claro el bloqueo real de los agentes en producción: no es el modelo, es qué permisos le das. Y los trata como un riesgo interno que actúa a velocidad de máquina.\n\n#Google #QCon #ZeroTrust\nhttps://www.infoq.com/news/2026/11/qcon-ai-agent-security",
+        "linkedin": "El problema de los agentes en producción no es el modelo: es la credencial que llevan puesta.\n\nEn QCon San Francisco, Amanda Walker (Google) puso nombre al bloqueo que muchas empresas ya están notando: un agente con permisos es un riesgo interno que actúa a velocidad de máquina, así que la conversación se desplaza de los prompts a la identidad, la gestión de credenciales y la contención. La lectura profesional es que 𝗹𝗮 𝗶𝗱𝗲𝗻𝘁𝗶𝗱𝗮𝗱 𝗱𝗲 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝘀𝗲 𝗴𝗲𝘀𝘁𝗶𝗼𝗻𝗮 𝗰𝗼𝗺𝗼 𝗹𝗮 𝗱𝗲 𝘂𝗻 𝗲𝗺𝗽𝗹𝗲𝗮𝗱𝗼, 𝗻𝗼 𝗰𝗼𝗺𝗼 𝗹𝗮 𝗱𝗲 𝘂𝗻 𝘀𝗰𝗿𝗶𝗽𝘁: con alcance limitado, credenciales rotables y capacidad de revocarlo en segundos. Quien esté metiendo agentes en producción sin ese trabajo previo no tiene un piloto, tiene una vía de escape abierta.\n\n#Google #QCon #ZeroTrust\n\nhttps://www.infoq.com/news/2026/11/qcon-ai-agent-security"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "Anthropic permite a los clientes enterprise quedarse con sus prompts y respuestas",
+      "summary": "Anthropic suaviza su política de retención de datos para los modelos Mythos y Fable: los clientes enterprise pueden ahora mantener prompts y respuestas en sus propios servidores en lugar de que la compañía los retenga.",
+      "why_it_matters": "La política de retención es a menudo lo que decide si el equipo legal de una empresa aprueba o veta el uso del modelo.",
+      "url": "https://www.engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use",
+      "source": "Engadget",
+      "social": {
+        "x": "El equipo legal es el que veta la IA en la mayoría de empresas. Anthropic acaba de quitarles el argumento: los clientes enterprise podrán guardar prompts y respuestas en sus propios servidores.\n\n#Anthropic #Enterprise #Privacidad #LLM\nhttps://www.engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use",
+        "linkedin": "Durante años el freno a la IA en la empresa no fue el modelo, fue el departamento legal.\nAnthropic ha suavizado su política de retención para los modelos Mythos y Fable: los clientes enterprise podrán 𝗴𝘂𝗮𝗿𝗱𝗮𝗿 𝗽𝗿𝗼𝗺𝗽𝘁𝘀 𝘆 𝗿𝗲𝘀𝗽𝘂𝗲𝘀𝘁𝗮𝘀 𝗲𝗻 𝘀𝘂𝘀 𝗽𝗿𝗼𝗽𝗶𝗼𝘀 𝘀𝗲𝗿𝘃𝗶𝗱𝗼𝗿𝗲𝘀 en lugar de dejarlos en manos de la compañía. Es un cambio menos vistoso que un lanzamiento, pero mueve la aguja justo donde se decide la compra: la revisión legal. Si tu piloto llevaba meses parado en compliance, toca reabrirlo esta semana.\n\n#Anthropic #Enterprise #Privacidad #LLM\n\nhttps://www.engadget.com/2325684/anthropic-softens-its-data-retention-policy-for-mythos-and-fable-model-use"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "Jensen Huang vuelve como consejero delegado de Nvidia poco más de una semana después de dimitir",
+      "summary": "El consejo de Nvidia ha reinstaurado a Jensen Huang como presidente, consejero delegado y miembro del consejo, apenas dos semanas después de su salida entre acusaciones de varias relaciones, una de ellas con una mujer supuestamente vinculada a inteligencia china. Trump aseguró haber hablado con el consejo y que Huang no hizo nada malo, y el directivo testificará en el Senado en diciembre.",
+      "why_it_matters": "El fabricante de chips más influyente de la IA queda con un liderazgo cuestionado y varias investigaciones abiertas sobre sus vínculos comerciales con China.",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Jensen Huang dimite y vuelve a dirigir Nvidia dos semanas después. En medio: Trump, vínculos con China y una comparecencia en el Senado.\n\n#Nvidia #JensenHuang #Semiconductores #China\nhttps://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair",
+        "linkedin": "Dimitir y volver al cargo en dos semanas no es un problema personal: es un problema de gobernanza.\n\nNvidia ha reinstaurado a Jensen Huang como presidente y consejero delegado apenas dos semanas después de su salida, salpicada por acusaciones sobre varias relaciones, una de ellas con una mujer supuestamente vinculada a inteligencia china. Trump asegura haber hablado con el consejo y que no hubo nada irregular, y Huang testificará en el Senado en diciembre. Para quien planifica infraestructura de IA a varios años vista, 𝗲𝗹 𝗿𝗲𝗹𝗼𝗷 𝗱𝗲 𝗹𝗮𝘀 𝗶𝗻𝘃𝗲𝘀𝘁𝗶𝗴𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗮𝗯𝗶𝗲𝗿𝘁𝗮𝘀 𝗰𝗼𝗿𝗿𝗲 𝗺á𝘀 𝗾𝘂𝗲 𝗰𝘂𝗮𝗹𝗾𝘂𝗶𝗲𝗿 𝗵𝗼𝗷𝗮 𝗱𝗲 𝗿𝘂𝘁𝗮 𝗱𝗲 𝗰𝗵𝗶𝗽𝘀: si Washington aprieta los vínculos comerciales con China, el impacto llega a precios, plazos y disponibilidad mucho antes que a los titulares.\n\n#Nvidia #JensenHuang #Semiconductores #China\n\nhttps://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "Amazon compra la tecnología de optimización de Decart por unos 7.500 millones de dólares",
+      "summary": "Amazon adquiere el Decart Optimization Stack y ficha a los tres fundadores y al equipo de ingeniería de la startup israelí, en una operación valorada en torno a 7.500 millones según los medios. El objetivo es mantener el hardware de inferencia al máximo de rendimiento justo cuando la compañía prepara la venta de sus chips Trainium.",
+      "why_it_matters": "Confirma que el cuello de botella de la IA se mueve del silicio al software que lo exprime, y ese software se compra, no se improvisa.",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips",
+      "source": "TechCrunch",
+      "social": {
+        "x": "Amazon acaba de pagar 7.500 millones de dólares por software, no por chips. El cuello de botella de la IA ya no está donde crees.\n\n#Amazon #Trainium #Decart #Inferencia\nhttps://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips",
+        "linkedin": "Amazon acaba de pagar 7.500 millones de dólares por software de optimización, no por silicio.\nLa operación se lleva el Decart Optimization Stack y ficha a los tres fundadores y al equipo de ingeniería de la startup israelí. El momento no es casual: la compañía prepara la venta de sus chips Trainium y necesita que el hardware de inferencia rinda al máximo. 𝗘𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲 𝗹𝗮 𝗜𝗔 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝗲𝗹 𝗰𝗵𝗶𝗽, 𝗲𝘀 𝗲𝗹 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗾𝘂𝗲 𝗹𝗼 𝗲𝘅𝗽𝗿𝗶𝗺𝗲, y ese software se compra hecho, no se improvisa. Para cualquier equipo que esté montando infraestructura propia, la lectura es la misma: el rendimiento por vatio se gana en la capa de optimización.\n\n#Amazon #Trainium #Decart #Inferencia\n\nhttps://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "Skill para agentes de IA que investiga cualquier tema en Reddit, X, YouTube, HN, Polymarket y la web, y luego genera un resumen fundamentado. Resulta útil para montar agentes de investigación con fuentes reales en lugar de respuestas inventadas.",
+      "language": "Python",
+      "stars": 73423,
+      "social": {
+        "x": "73.000 estrellas para un skill que obliga a tu agente a mirar Reddit, X, YouTube y HN antes de responder. Cero respuestas inventadas.\n\n#OpenSource #Python #AIAgents #GitHub\nhttps://github.com/mvanhorn/last30days-skill",
+        "linkedin": "TU AGENTE NO NECESITA MÁS PARÁMETROS. NECESITA FUENTES.\n\nEl problema de casi todo agente de investigación es el mismo: rellena huecos con lo que suena plausible. Este skill lo ataca al revés, obligándole a pasar por Reddit, X, YouTube, Hacker News, Polymarket y la web antes de escribir una sola línea de resumen.\n\nLa clave: 𝗲𝗹 𝗿𝗲𝘀𝘂𝗺𝗲𝗻 𝘀𝗲 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝘆𝗲 𝘀𝗼𝗯𝗿𝗲 𝗹𝗼 𝗾𝘂𝗲 𝗵𝗮 𝗲𝗻𝗰𝗼𝗻𝘁𝗿𝗮𝗱𝗼 𝗲𝗻 𝗹𝗼𝘀 ú𝗹𝘁𝗶𝗺𝗼𝘀 𝟯𝟬 𝗱í𝗮𝘀, 𝗻𝗼 𝘀𝗼𝗯𝗿𝗲 𝗹𝗼 𝗾𝘂𝗲 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗿𝗲𝗰𝘂𝗲𝗿𝗱𝗮.\n\n→ Barre hilos de Reddit, posts de X, vídeos de YouTube, comentarios de HN y mercados de Polymarket\n→ Filtra por ventana temporal: lo de las últimas semanas, no lo de 2023\n→ Genera un resumen fundamentado, con las fuentes a la vista para que puedas verificarlas\n→ Es un skill en Python, así que se enchufa a tu agente sin montar infraestructura nueva\n\nSirve igual para vigilar una comunidad, preparar un informe o montar un observador de mercado con fuentes reales. Si alguna vez has tenido que reescribir a mano lo que te devolvía un agente, ya sabes por qué esto ahorra tiempo.\n\nGuarda el post para cuando te toque montar el próximo agente de investigación. El repo, abajo.\n\n#OpenSource #Python #AIAgents #GitHub\n\nhttps://github.com/mvanhorn/last30days-skill"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Salidas estructuradas en RAG: respuestas que se pueden comprobar",
+      "url": "https://medium.com/data-science-collective/structured-output-for-rag-answers-you-can-check-2ecf8ab478d0",
+      "source": "Medium: Data Science",
+      "summary": "Explica cómo obligar al modelo a rellenar un esquema tipado con el valor, las líneas de las que sale y las señales que la pipeline necesita para validarlo. Al leerlo aprendes a montar respuestas de RAG auditables en lugar de texto libre difícil de verificar, algo necesario en cualquier sistema que tenga que citar fuentes.",
+      "tema": "ia"
+    },
+    {
+      "title": "Supervisar agentes de IA a escala con una arquitectura de tres niveles",
+      "url": "https://towardsdatascience.com/how-to-oversee-ai-agents-at-scale-with-a-three-tier-architecture",
+      "source": "Towards Data Science",
+      "summary": "Propone separar la supervisión automática en tiempo de ejecución de la revisión humana: un supervisor autónomo se ocupa de los arreglos reversibles y las personas aprueban los cambios de alto impacto. Sirve para diseñar sistemas con agentes que no se descontrolen y para repartir responsabilidades entre automatización y revisión.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Cómo Cloudflare prueba DNS con herramientas internas de test",
+      "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare",
+      "source": "Cloudflare Blog",
+      "summary": "Cuenta cómo el equipo construyó un framework de pruebas extensible y lo aplicó a protocolos de red, con el DNS como caso concreto. Se aprende a diseñar herramientas de test reutilizables para sistemas donde los fallos son difíciles de reproducir, una idea que vale para casi cualquier infraestructura.",
+      "tema": "programacion"
+    },
+    {
+      "title": "No me hagas leer: cómo lee de verdad la gente en internet",
+      "url": "https://uxdesign.cc/dont-make-me-read-a6821e418bb1?source=rss------ux-5",
+      "source": "Medium: UX",
+      "summary": "Recoge hallazgos recientes sobre cómo la gente escanea, abandona y malinterpreta el texto en pantalla. Quien lo lee se lleva criterios concretos para jerarquizar contenido y decidir qué se puede quitar sin perder información, aplicable tanto a webs como a interfaces de producto.",
+      "tema": "diseno"
+    },
+    {
+      "title": "Datos sanitarios sintéticos con Synthea: tutorial práctico",
+      "url": "https://www.freecodecamp.org/news/how-to-generate-synthetic-healthcare-data-using-synthea-a-hands-on-tutorial",
+      "source": "freeCodeCamp",
+      "summary": "Tutorial paso a paso para generar historiales clínicos falsos pero realistas con Synthea, sin tocar datos de pacientes. Sirve para montar entornos de desarrollo y pruebas de aplicaciones sanitarias, y para practicar pipelines de datos en un dominio con reglas y formatos complejos.",
+      "tema": "datos"
+    },
+    {
+      "title": "El staff engineer que frenó a su equipo y por qué casi nadie lo recuerda",
+      "url": "https://medium.com/javarevisited/the-300-000-staff-engineer-who-stopped-his-team-from-building-anything-cc57bee7efca",
+      "source": "Medium: Software Engineering",
+      "summary": "Una reflexión sobre el valor del trabajo que evita construir cosas innecesarias frente al que se lleva el mérito por entregar una solución difícil. Útil para entender cómo se mide el impacto real en ingeniería y qué clase de decisiones conviene reconocer dentro de un equipo.",
+      "tema": "carrera"
+    }
+  ]
+}
