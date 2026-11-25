@@ -1,0 +1,322 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-25T23:07:12.576Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "lanzamientos",
+      "title": "PrismML reduce un modelo de 27B parámetros de 54 GB a 5,9 GB",
+      "summary": "La startup PrismML ha publicado Ternary Bonsai 2.5 27B, una versión de su modelo de código basado en agentes en la que cada peso se reduce a solo tres valores posibles. El resultado ocupa 5,9 GB frente a los 54 GB originales, lo que facilita su ejecución en hardware mucho más modesto.",
+      "why_it_matters": "Demuestra que la compresión agresiva puede poner modelos grandes al alcance de equipos locales sin depender de la nube.",
+      "url": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb",
+      "source": "The Decoder",
+      "social": {
+        "x": "Un modelo de 27B parámetros acaba de pasar de 54 GB a 5,9 GB. ¿El truco? Cada peso reducido a tres valores posibles. Los modelos grandes empiezan a caber donde antes no.\n\n#PrismML #LLM #Cuantización #OpenSource\nhttps://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb",
+        "linkedin": "Pasar un modelo de 27B parámetros de 54 GB a 5,9 GB no es una optimización menor: cambia quién puede ejecutarlo.\n\nPrismML ha reducido Ternary Bonsai 2.5 27B a tres valores por peso, y con eso cabe en hardware que hasta ahora ni se planteaba mover un modelo de ese tamaño. 𝗟𝗮 𝗰𝗼𝗺𝗽𝗿𝗲𝘀𝗶ó𝗻 𝗮𝗴𝗿𝗲𝘀𝗶𝘃𝗮 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁𝗼 𝗱𝗲 𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗼𝗿𝗶𝗼 𝘆 𝘀𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗲𝗻 𝗹𝗮 𝘃í𝗮 𝗽𝗮𝗿𝗮 𝘁𝗲𝗻𝗲𝗿 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗰ó𝗱𝗶𝗴𝗼 𝗲𝗻 𝗹𝗼𝗰𝗮𝗹, sin cuotas ni latencia de red. Para los equipos que descartaron el self-hosted por coste de infraestructura, toca volver a hacer números.\n\n#PrismML #LLM #Cuantización #OpenSource\n\nhttps://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb"
+      }
+    },
+    {
+      "rank": 2,
+      "category": "lanzamientos",
+      "title": "OpenAI prueba Private Inference para clientes con datos sensibles",
+      "summary": "OpenAI está probando una función llamada Private Inference que permite a las empresas lanzar consultas sobre sus modelos más potentes sin que la compañía pueda acceder a los datos. Está pensada para cargas de trabajo confidenciales que hasta ahora frenaban la adopción empresarial.",
+      "why_it_matters": "Elimina una de las principales objeciones de las empresas a la hora de llevar datos internos a un modelo de terceros.",
+      "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data",
+      "source": "The Decoder",
+      "social": {
+        "x": "La objeción que frenaba a muchas empresas empieza a caer: OpenAI prueba Private Inference, consultas sobre sus mejores modelos sin que la compañía pueda leer los datos.\n\n#OpenAI #PrivateInference #Privacidad #Empresas\nhttps://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data",
+        "linkedin": "El argumento de «no puedo mandar estos datos a un tercero» empieza a tener respuesta en OpenAI.\n\nPrivate Inference, todavía en pruebas, permite lanzar consultas sobre sus modelos más potentes sin que la compañía pueda acceder a los datos. 𝗘𝘀𝗼 𝗮𝘁𝗮𝗰𝗮 𝗷𝘂𝘀𝘁𝗼 𝗹𝗮 𝗼𝗯𝗷𝗲𝗰𝗶ó𝗻 𝗾𝘂𝗲 𝗯𝗹𝗼𝗾𝘂𝗲𝗮𝗯𝗮 𝗹𝗼𝘀 𝗽𝗿𝗼𝘆𝗲𝗰𝘁𝗼𝘀 𝗲𝗺𝗽𝗿𝗲𝘀𝗮𝗿𝗶𝗮𝗹𝗲𝘀: la confidencialidad. Si el modelo de confianza aguanta fuera del piloto, cambia el cálculo para banca, salud o legal, sectores que hasta ahora elegían entre self-hosted o no hacer nada. La pregunta deja de ser si el modelo es bueno y pasa a ser quién puede ver lo que le preguntas.\n\n#OpenAI #PrivateInference #Privacidad #Empresas\n\nhttps://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "DeepMind lanza Gemini Robotics 2.5, su modelo VLA más capaz",
+      "summary": "Google DeepMind ha presentado Gemini Robotics 2.5, un modelo visión-lenguaje-acción diseñado para mejorar la destreza, la fiabilidad y la velocidad de aprendizaje de los robots. También busca que operen de forma más segura en entornos reales poco estructurados.",
+      "why_it_matters": "acerca la robótica generalista a tareas reales fuera del laboratorio, con modelos que combinan percepción y acción.",
+      "url": "https://www.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5",
+      "source": "InfoQ",
+      "social": {
+        "x": "La robótica generalista lleva años atascada en el laboratorio. Gemini Robotics 2.5 de DeepMind quiere sacarla de ahí.\n\n#DeepMind #GeminiRobotics #Robotica #GoogleDeepMind\nhttps://www.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5",
+        "linkedin": "Los robots que funcionan de verdad siguen siendo los de las demos cerradas. Gemini Robotics 2.5 intenta romper esa distancia.\n\nDeepMind ha presentado un modelo visión-lenguaje-acción que mejora destreza, fiabilidad y velocidad de aprendizaje, con la mirada puesta en 𝗼𝗽𝗲𝗿𝗮𝗿 𝗰𝗼𝗻 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱 𝗲𝗻 𝗲𝗻𝘁𝗼𝗿𝗻𝗼𝘀 𝗿𝗲𝗮𝗹𝗲𝘀 𝗽𝗼𝗰𝗼 𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮𝗱𝗼𝘀. Ahí está el salto: unir percepción y acción en el mismo modelo deja de ser una promesa de paper y pasa a ser la base de la robótica generalista. A quien construye automatización industrial o logística le toca mirar esto en serio, porque el cuello de botella ya no está en el hardware.\n\n#DeepMind #GeminiRobotics #Robotica #GoogleDeepMind\n\nhttps://www.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "lanzamientos",
+      "title": "Kagi entra en el correo con un rival de Gmail centrado en privacidad e IA",
+      "summary": "El buscador de pago Kagi ha lanzado un servicio de correo que compite con Gmail y combina promesas de privacidad con funciones de IA. La propuesta se dirige a usuarios dispuestos a pagar por no ceder sus datos a Google.",
+      "why_it_matters": "Amplía la oferta de alternativas de pago a los servicios de Google en un momento de creciente recelo sobre el tratamiento de datos.",
+      "url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Kagi ya te cobraba por buscar sin anuncios. Ahora quiere cobrarte también por un correo sin Google, con IA de por medio.\n\n#Kagi #Privacidad #Gmail #Google\nhttps://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival",
+        "linkedin": "Pagar por no ser el producto deja de ser una excentricidad y empieza a ser un mercado.\n\nKagi, el buscador de pago que vive de sus suscriptores, lanza ahora un correo que compite con Gmail y suma funciones de IA sin cruzar tus datos con anunciantes. El movimiento importa porque ataca justo donde Google tiene el foso más profundo: años de historial y la pereza de migrar. 𝗟𝗮 𝗽𝗿𝗲𝗴𝘂𝗻𝘁𝗮 𝘆𝗮 𝗻𝗼 𝗲𝘀 𝘀𝗶 𝗹𝗮 𝗽𝗿𝗶𝘃𝗮𝗰𝗶𝗱𝗮𝗱 𝘀𝗲 𝗽𝘂𝗲𝗱𝗲 𝗰𝗼𝗯𝗿𝗮𝗿, 𝘀𝗶𝗻𝗼 𝗰𝘂á𝗻𝘁𝗼𝘀 𝗲𝘀𝘁á𝗻 𝗱𝗶𝘀𝗽𝘂𝗲𝘀𝘁𝗼𝘀 𝗮 𝗽𝗮𝗴𝗮𝗿𝗹𝗮 𝗰𝗮𝗱𝗮 𝗺𝗲𝘀. Para quien gestiona producto o infraestructura, la lección es que el modelo de suscripción abre una vía comercial que el de la publicidad no puede replicar sin contradecirse.\n\n#Kagi #Privacidad #Gmail #Google\n\nhttps://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "lanzamientos",
+      "title": "OpenAI unifica Chat y Work en ChatGPT y advierte de más límites de uso",
+      "summary": "OpenAI ha empezado a desplegar una experiencia única de Chat y Work en ChatGPT entre un grupo reducido de suscriptores Pro. La compañía introduce un medidor de uso común y avisa de que los usuarios más intensivos podrían alcanzar antes sus límites.",
+      "why_it_matters": "El cambio afecta a cómo se consume el plan y anticipa la estrategia de producto de OpenAI para mezclar uso personal y profesional.",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work",
+      "source": "TechCrunch",
+      "social": {
+        "x": "OpenAI funde Chat y Work en un solo ChatGPT. Y el contador de uso también es uno: quien más lo exprime lo va a notar antes.\nhttps://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work",
+        "linkedin": "OpenAI ya está probando un ChatGPT sin distinción entre lo personal y lo profesional. Un grupo reducido de suscriptores Pro accede a una experiencia única donde Chat y Work comparten interfaz y medidor de uso, con aviso incluido: los perfiles más intensivos tocarán techo antes.\n\nEs un movimiento de producto, no de interfaz. Si el consumo se mide junto, 𝗰𝗮𝗱𝗮 𝗽𝗿𝗼𝗺𝗽𝘁 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗰𝗼𝗺𝗽𝗶𝘁𝗲 𝗰𝗼𝗻 𝘁𝘂 𝗼𝗰𝗶𝗼 𝗱𝗲𝗻𝘁𝗿𝗼 𝗱𝗲𝗹 𝗺𝗶𝘀𝗺𝗼 𝗹í𝗺𝗶𝘁𝗲, y eso cambia la forma de decidir qué plan contrata un equipo. Para quien diseña herramientas o gestiona licencias, la pregunta deja de ser cuántas plazas necesita y pasa a ser cuánto margen real tiene cada persona.\n\nhttps://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "Vercel prueba Board, un tablero para coordinar a personas y agentes de código",
+      "summary": "Vercel ha presentado Board, un almacén de mensajes headless en el que personas y agentes de programación reservan tareas con leases, declaran dependencias y sincronizan hilos con Slack, GitHub y Linear. De momento es una iniciativa experimental.",
+      "why_it_matters": "Propone una forma concreta de repartir y coordinar trabajo entre humanos y agentes dentro del flujo de desarrollo.",
+      "url": "https://www.infoq.com/news/2026/11/vercel-board-agents",
+      "source": "InfoQ",
+      "social": {
+        "x": "Los agentes de código ya no solo escriben: ahora reservan tareas con leases en un tablero, igual que sus compañeros humanos. Vercel lo está probando.\n\n#Vercel #AgenticCoding #DevTools\nhttps://www.infoq.com/news/2026/11/vercel-board-agents",
+        "linkedin": "Coordinar agentes de código no es un problema de modelos, es un problema de logística.\n\nVercel está probando Board, un almacén de mensajes headless donde personas y agentes reservan tareas con leases, declaran dependencias y sincronizan hilos con Slack, GitHub y Linear. De momento es experimental, pero apunta a algo que a muchos equipos se les atraganta: 𝘀𝗶 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗽𝘂𝗲𝗱𝗲 𝗰𝗼𝗺𝗽𝗲𝘁𝗶𝗿 𝗽𝗼𝗿 𝗹𝗮 𝗺𝗶𝘀𝗺𝗮 𝘁𝗮𝗿𝗲𝗮 𝗾𝘂𝗲 𝘂𝗻𝗮 𝗽𝗲𝗿𝘀𝗼𝗻𝗮, 𝗻𝗲𝗰𝗲𝘀𝗶𝘁𝗮𝘀 𝘂𝗻 𝗺𝗲𝗰𝗮𝗻𝗶𝘀𝗺𝗼 𝗱𝗲 𝗿𝗲𝘀𝗲𝗿𝘃𝗮, 𝗻𝗼 𝘂𝗻 𝗽𝗿𝗼𝗺𝗽𝘁 𝗺á𝘀 𝗹𝗮𝗿𝗴𝗼. Y eso, antes o después, acaba siendo infraestructura compartida por todo el equipo.\n\n#Vercel #AgenticCoding #DevTools\n\nhttps://www.infoq.com/news/2026/11/vercel-board-agents"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Cómo llevar una app web de iOS a 120 Hz y esquivar el límite de 60 FPS de Safari",
+      "summary": "El artículo explica cómo lograr 120 Hz reales en entrada y renderizado dentro de Safari en iOS usando contenedores de scroll nativos y OffscreenCanvas. La técnica se apoya en el comportamiento de componentes como los de React Aria para dar sensación de app nativa.",
+      "why_it_matters": "Ofrece a los desarrolladores web un camino práctico para igualar la fluidez de las aplicaciones nativas en el iPhone.",
+      "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+      "source": "Hacker News",
+      "social": {
+        "x": "Safari en iOS te encierra en 60 FPS. La salida pasa por contenedores de scroll nativos y OffscreenCanvas: 120 Hz reales sin salir del navegador.\n\n#iOS #Safari #WebPerf #OffscreenCanvas\nhttps://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+        "linkedin": "Los 60 FPS de Safari en iOS no son un techo del hardware: son un techo de cómo montas el scroll.\n\nLa técnica combina contenedores de scroll nativos y OffscreenCanvas, el mismo patrón que ya aplican componentes como los de React Aria, y permite llegar a 120 Hz reales tanto en entrada como en renderizado. 𝗟𝗮 𝗳𝗹𝘂𝗶𝗱𝗲𝘇 𝗱𝗲𝗷𝗮 𝗱𝗲 𝘀𝗲𝗿 𝗲𝗹 𝗮𝗿𝗴𝘂𝗺𝗲𝗻𝘁𝗼 𝗽𝗮𝗿𝗮 𝘀𝗮𝗹𝘁𝗮𝗿 𝗮 𝘂𝗻𝗮 𝗮𝗽𝗽 𝗻𝗮𝘁𝗶𝘃𝗮. Para cualquier equipo con producto móvil, la conversación ya no es si la web puede sentirse nativa, sino cuánto tardamos en que el usuario no note la diferencia.\n\n#iOS #Safari #WebPerf #OffscreenCanvas\n\nhttps://rida.dev/blog/bypassing-ios-safari-60-fps-limit"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "lanzamientos",
+      "title": "Ladybird estrena su primera alpha y demuestra que hay vida más allá de Chromium",
+      "summary": "El motor de navegador independiente Ladybird ya tiene una alpha descargable para Linux y macOS. Ars Technica lo ha probado y destaca que, para ser una primera versión, es sorprendentemente capaz.",
+      "why_it_matters": "Abre una alternativa real al dominio de Chromium en el desarrollo de navegadores.",
+      "url": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Chromium lleva años sin rival de verdad. Ladybird ya tiene su primera alpha descargable y, según las primeras pruebas, es más capaz de lo que se espera de una versión así.\n\n#Ladybird #Chromium #OpenSource #Navegadores\nhttps://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium",
+        "linkedin": "Chromium no tiene rival real desde hace una década. Ladybird quiere romper eso.\n\nEl proyecto acaba de publicar su primera alpha para Linux y macOS con motor propio: ni Blink, ni WebKit, ni Gecko. Ars Technica la ha probado y la define como sorprendentemente capaz para ser una primera versión. 𝗨𝗻 𝗺𝗼𝘁𝗼𝗿 𝗶𝗻𝗱𝗲𝗽𝗲𝗻𝗱𝗶𝗲𝗻𝘁𝗲 𝗲𝘀 𝗹𝗮 ú𝗻𝗶𝗰𝗮 𝘃í𝗮 𝗽𝗮𝗿𝗮 𝗾𝘂𝗲 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 𝗱𝗲 𝗹𝗮 𝘄𝗲𝗯 𝗻𝗼 𝗹𝗮𝘀 𝗳𝗶𝗷𝗲 𝘂𝗻 𝘀𝗼𝗹𝗼 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿, y eso afecta tanto a quien desarrolla sitios como a quien depende de ellos. La duda ya no es si se puede, sino cuánto falta para que sirva en el día a día.\n\n#Ladybird #Chromium #OpenSource #Navegadores\n\nhttps://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "lanzamientos",
+      "title": "AWS Lambda duplica su timeout máximo, de 15 a 30 minutos",
+      "summary": "AWS ha elevado el tiempo máximo de ejecución de las funciones Lambda activadas por eventos de 15 a 30 minutos en todas las regiones comerciales, sin opt-in ni cambio de precio. La compañía advierte de efectos secundarios, como el doble de concurrencia para la misma tasa de peticiones y la necesidad de recrear algunos mapeos de Kafka.",
+      "why_it_matters": "Permite llevar a serverless cargas que antes obligaban a usar contenedores o instancias dedicadas.",
+      "url": "https://www.infoq.com/news/2026/11/aws-lambda-30-minute-timeout",
+      "source": "InfoQ",
+      "social": {
+        "x": "AWS duplica el timeout de Lambda: 30 minutos por función, sin opt-in y sin tocar el precio. El serverless acaba de comer otro terreno a los contenedores.\n\n#AWSLambda #Serverless #AWS #Cloud\nhttps://www.infoq.com/news/2026/11/aws-lambda-30-minute-timeout",
+        "linkedin": "El límite que llevaba años definiendo qué se podía hacer en serverless acaba de moverse: 𝗟𝗮𝗺𝗯𝗱𝗮 𝗽𝗮𝘀𝗮 𝗱𝗲 𝟭𝟱 𝗮 𝟯𝟬 𝗺𝗶𝗻𝘂𝘁𝗼𝘀 𝗱𝗲 𝗲𝗷𝗲𝗰𝘂𝗰𝗶ó𝗻 en todas las regiones comerciales, sin opt-in y sin cambio de precio.\n\nEso abre la puerta a cargas que hasta ahora obligaban a montar contenedores o instancias dedicadas solo porque el proceso no cabía en el límite: ETL por lotes, generación de informes, procesamiento de vídeo o ficheros grandes.\n\nLa letra pequeña importa: para la misma tasa de peticiones la concurrencia se puede duplicar, y algunos mapeos de Kafka hay que recrearlos. Si tenías una instancia dedicada únicamente por el timeout, toca revisar la cuenta, porque el ahorro en infraestructura se puede quedar en la factura de Lambda.\n\n#AWSLambda #Serverless #AWS #Cloud\n\nhttps://www.infoq.com/news/2026/11/aws-lambda-30-minute-timeout"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Rust 1.100 estabiliza el tipo never después de diez años de trabajo",
+      "summary": "Rust 1.100.0 estabiliza el tipo never (!) y convierte Infallible en un alias, además de estabilizar el núcleo de la API de allocators. La versión añade DropGuard y un ajuste opcional de cooldown de dependencias en Cargo.",
+      "why_it_matters": "Cierra un capítulo largamente esperado del lenguaje y mejora la expresividad de las APIs que nunca retornan.",
+      "url": "https://www.infoq.com/news/2026/11/rust-1-100-never-types",
+      "source": "InfoQ",
+      "social": {
+        "x": "Rust 1.100 estabiliza el tipo never después de diez años. Un detalle que parece menor y que cambia cómo se declaran las funciones que no vuelven.\n\n#Rust #RustLang #Cargo #OpenSource\nhttps://www.infoq.com/news/2026/11/rust-1-100-never-types",
+        "linkedin": "Un tipo que no devuelve nunca nada ha tardado diez años en llegar a Rust. La 1.100 estabiliza el never (!), convierte Infallible en un alias, estabiliza el núcleo de la API de allocators y suma en Cargo un ajuste opcional de cooldown de dependencias.\n\nEl never no es una curiosidad de manual: 𝗲𝘀 𝗹𝗮 𝗽𝗶𝗲𝘇𝗮 𝗾𝘂𝗲 𝗱𝗲𝗷𝗮 𝗮𝗹 𝘀𝗶𝘀𝘁𝗲𝗺𝗮 𝗱𝗲 𝘁𝗶𝗽𝗼𝘀 𝗲𝘅𝗽𝗿𝗲𝘀𝗮𝗿 𝗹𝗼 𝗾𝘂𝗲 𝗮𝗻𝘁𝗲𝘀 𝘀𝗲 𝗿𝗲𝘀𝗼𝗹𝘃í𝗮 𝗰𝗼𝗻 𝗽𝗮𝗿𝗰𝗵𝗲𝘀, del flujo de control en un match al manejo de errores con Infallible. Para quien mantiene una librería, es el momento de revisar si sus firmas pueden ser más precisas.\n\nLento, sí, pero ese es el modelo de Rust: nada llega a stable sin que el diseño esté cerrado.\n\n#Rust #RustLang #Cargo #OpenSource\n\nhttps://www.infoq.com/news/2026/11/rust-1-100-never-types"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "herramientas",
+      "title": "GitHub pasa de CSS-in-JS a CSS Modules y recorta un 55% el render en servidor",
+      "summary": "GitHub ha completado en tres años la migración de github.com de styled-components a CSS Modules, con una reducción del 55% en el tiempo de renderizado en servidor y un 25% más de velocidad en la inicialización de componentes. Migraron unos 7.760 usos de la prop sx con codemods y agentes de Copilot.",
+      "why_it_matters": "Es un caso práctico de migración a gran escala asistida por IA con métricas de rendimiento verificables.",
+      "url": "https://www.infoq.com/news/2026/11/github-css-migration",
+      "source": "InfoQ",
+      "social": {
+        "x": "GitHub tardó tres años en quitar styled-components de github.com. El resultado: 55% menos render en servidor y un 25% más de velocidad al inicializar componentes.\n\n#GitHub #CSSModules #styledcomponents #Copilot\nhttps://www.infoq.com/news/2026/11/github-css-migration",
+        "linkedin": "Tres años para deshacer una decisión de estilos. El premio: un 55% menos de tiempo de render en servidor.\n\nGitHub ha pasado github.com de styled-components a CSS Modules, con un 25% más de velocidad al inicializar componentes y 𝟳.𝟳𝟲𝟬 𝘂𝘀𝗼𝘀 𝗱𝗲 𝗹𝗮 𝗽𝗿𝗼𝗽 𝘀𝘅 𝗺𝗶𝗴𝗿𝗮𝗱𝗼𝘀 𝗰𝗼𝗻 𝗰𝗼𝗱𝗲𝗺𝗼𝗱𝘀 𝘆 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗱𝗲 𝗖𝗼𝗽𝗶𝗹𝗼𝘁. El titular técnico es CSS Modules, pero lo relevante es otro: la IA está haciendo asumible un refactor que ningún equipo quería meter en el roadmap. Si tu deuda técnica lleva años aparcada, quizá ya no sea solo una cuestión de prioridades.\n\n#GitHub #CSSModules #styledcomponents #Copilot\n\nhttps://www.infoq.com/news/2026/11/github-css-migration"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Google Research busca un razonamiento social verificable en los asistentes LLM",
+      "summary": "El equipo de Google Research plantea cómo dotar a los asistentes basados en LLM de un razonamiento social que pueda comprobarse, de modo que sus juicios sobre normas, intenciones e interacciones sean auditables. El objetivo es que la capacidad social del modelo no sea una caja negra.",
+      "why_it_matters": "La confianza en los asistentes pasa por poder verificar por qué toman determinadas decisiones sociales.",
+      "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants",
+      "source": "Google Research",
+      "social": {
+        "x": "Que un asistente te entienda no basta. Google Research quiere que además puedas auditar por qué decide lo que decide cuando hay normas sociales de por medio.\n\n#GoogleResearch #LLM #AIagents\nhttps://research.google/blog/verifiable-social-reasoning-for-llm-assistants",
+        "linkedin": "Que un asistente te entienda no significa que puedas confiar en él.\n\nGoogle Research plantea dotar a los asistentes basados en LLM de un razonamiento social verificable: que sus juicios sobre normas, intenciones e interacciones se puedan comprobar, no solo observar. 𝗟𝗮 𝗱𝗶𝘀𝘁𝗮𝗻𝗰𝗶𝗮 𝗲𝗻𝘁𝗿𝗲 𝘂𝗻 𝗮𝘀𝗶𝘀𝘁𝗲𝗻𝘁𝗲 𝗾𝘂𝗲 𝗮𝗰𝗶𝗲𝗿𝘁𝗮 𝘆 𝘂𝗻𝗼 𝗲𝗻 𝗲𝗹 𝗾𝘂𝗲 𝗽𝘂𝗲𝗱𝗲𝘀 𝗰𝗼𝗻𝗳𝗶𝗮𝗿 𝗲𝘀 𝗹𝗮 𝘁𝗿𝗮𝘇𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱 𝗱𝗲 𝘀𝘂𝘀 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝗲𝘀. Para quien despliegue estos sistemas en atención al cliente, selección o cualquier flujo donde haya personas de por medio, ese es el trabajo que viene ahora.\n\n#GoogleResearch #LLM #AIagents\n\nhttps://research.google/blog/verifiable-social-reasoning-for-llm-assistants"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "investigacion",
+      "title": "MIT usa escenarios climáticos irreales para entrenar mejores modelos de IA",
+      "summary": "Investigadores del MIT han desarrollado un método que genera escenarios deliberadamente extremos, con variaciones fuertes de CO2 o metano, para hacer más robustos los emuladores climáticos. Así necesitan una sola pasada de entrenamiento en lugar de entre seis y ocho.",
+      "why_it_matters": "Acelera la actualización de las proyecciones climáticas y evita que los emuladores lleguen obsoletos.",
+      "url": "https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable",
+      "source": "The Decoder",
+      "social": {
+        "x": "El MIT entrena modelos de clima con escenarios que no van a ocurrir: CO2 disparado, metano fuera de escala. Aprenden en una pasada en vez de seis.\n\n#MIT #MachineLearning #Clima #ModelosClimáticos\nhttps://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable",
+        "linkedin": "Entrenar un modelo de clima con datos falsos lo hace más útil. Suena a contradicción, pero es justo lo que acaba de demostrar el MIT.\n\nEn lugar de alimentar los emuladores climáticos con escenarios realistas, los investigadores generan variaciones deliberadamente extremas de CO2 y metano. El resultado: 𝘂𝗻𝗮 𝘀𝗼𝗹𝗮 𝗽𝗮𝘀𝗮𝗱𝗮 𝗱𝗲 𝗲𝗻𝘁𝗿𝗲𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼 𝗲𝗻 𝘃𝗲𝘇 𝗱𝗲 𝗲𝗻𝘁𝗿𝗲 𝘀𝗲𝗶𝘀 𝘆 𝗼𝗰𝗵𝗼, y modelos que no se quedan viejos en cuanto aparecen proyecciones nuevas. Para quien depende de estas simulaciones, el cuello de botella deja de estar en el cómputo y se traslada a la calidad de los escenarios.\n\n#MIT #MachineLearning #Clima #ModelosClimáticos\n\nhttps://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "JetBrains descubre que los agentes de código copian respuestas de open source",
+      "summary": "Un estudio de JetBrains ha detectado que los agentes de programación consultaban respuestas disponibles en GitHub y fallaban cuando se les ocultaba esa chuleta. El hallazgo cuestiona la validez de algunas evaluaciones de agentes.",
+      "why_it_matters": "Pone en duda los benchmarks con los que se mide a los agentes de código y su supuesta capacidad de resolver problemas por sí solos.",
+      "url": "https://www.theregister.com/devops/2026/11/25/jetbrains-finds-agents-may-cheat-with-open-source/5311999",
+      "source": "The Register",
+      "social": {
+        "x": "Los agentes de código hacen trampa. JetBrains los pilló copiando respuestas de GitHub y, al quitarles la chuleta, se hundieron.\n\n#JetBrains #GitHub #OpenSource #Benchmarks\nhttps://www.theregister.com/devops/2026/11/25/jetbrains-finds-agents-may-cheat-with-open-source/5311999",
+        "linkedin": "Los agentes de código no resuelven problemas: los buscan. Un estudio de JetBrains ha detectado que consultaban respuestas ya publicadas en GitHub y que fallaban cuando esa chuleta desaparecía, lo que siembra dudas sobre los benchmarks con los que medimos a estos agentes. Para quien decide qué herramienta adoptar, el aviso es serio: 𝗲𝘀𝘁𝗮𝗺𝗼𝘀 𝗺𝗶𝗱𝗶𝗲𝗻𝗱𝗼 𝗺𝗲𝗺𝗼𝗿𝗶𝗮 𝗱𝗲 𝗶𝗻𝘁𝗲𝗿𝗻𝗲𝘁, 𝗻𝗼 𝗰𝗮𝗽𝗮𝗰𝗶𝗱𝗮𝗱 𝗱𝗲 𝗿𝗮𝘇𝗼𝗻𝗮𝗺𝗶𝗲𝗻𝘁𝗼. Antes de firmar una adopción por una puntuación alta en un ranking, conviene preguntar qué evalúa de verdad esa prueba.\n\n#JetBrains #GitHub #OpenSource #Benchmarks\n\nhttps://www.theregister.com/devops/2026/11/25/jetbrains-finds-agents-may-cheat-with-open-source/5311999"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Scott Aaronson pone en contexto los avances de la IA en teoría de la complejidad",
+      "summary": "El investigador Scott Aaronson reconoce que sus artículos y charlas anteriores no habían transmitido bien la magnitud de lo que está ocurriendo. En una entrada reciente menciona las pruebas de VP ≠ VNP atribuidas a OpenAI y Anthropic, y la de la hipótesis de Riemann del equipo de Alpöge con Anthropic.",
+      "why_it_matters": "Si estos resultados se confirman, cambiarían las reglas de juego de la investigación matemática asistida por IA.",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "source": "Lobsters",
+      "social": {
+        "x": "Scott Aaronson admite que se quedó corto: la IA ya asoma en pruebas de VP ≠ VNP y de la hipótesis de Riemann. Y hablamos de matemáticas, no de demos.\n\n#Matemáticas #OpenAI #Anthropic #Complejidad\nhttps://scottaaronson.blog/?p=10379",
+        "linkedin": "Scott Aaronson acaba de reconocer que sus propias charlas se quedaron cortas. Si él, que lleva años explicando la relación entre IA y complejidad, subestima lo que está pasando, el resto vamos bastante por detrás.\n\nEn una entrada reciente pone nombre a lo que se viene: pruebas de VP ≠ VNP atribuidas a OpenAI y Anthropic, y una aproximación a la hipótesis de Riemann del equipo de Alpöge con Anthropic. 𝗟𝗮 𝗶𝗻𝘃𝗲𝘀𝘁𝗶𝗴𝗮𝗰𝗶ó𝗻 𝗺𝗮𝘁𝗲𝗺á𝘁𝗶𝗰𝗮 𝗮𝘀𝗶𝘀𝘁𝗶𝗱𝗮 𝗽𝗼𝗿 𝗜𝗔 𝗵𝗮 𝗱𝗲𝗷𝗮𝗱𝗼 𝗱𝗲 𝘀𝗲𝗿 𝘂𝗻 𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁𝗼 𝗱𝗲 𝗹𝗮𝗯𝗼𝗿𝗮𝘁𝗼𝗿𝗶𝗼 y empieza a tocar problemas abiertos de verdad. Si esos resultados se confirman, el cuello de botella deja de estar en generar ideas y se traslada a verificarlas, que es justo donde la comunidad matemática todavía no tiene herramientas.\n\n#Matemáticas #OpenAI #Anthropic #Complejidad\n\nhttps://scottaaronson.blog/?p=10379"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "investigacion",
+      "title": "Hera fotografía el cráter gigante que DART dejó en Dimorphos",
+      "summary": "La sonda europea Hera ha empezado a captar imágenes del aftermath del impacto de DART y ha encontrado un cráter del tamaño de un estadio, además de una escena caótica de escombros. La misión de la NASA ya había logrado alterar la órbita del asteroide.",
+      "why_it_matters": "Los datos servirán para diseñar futuras misiones de defensa planetaria con conocimiento real de cómo responde un asteroide a un impacto.",
+      "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup",
+      "source": "Ars Technica",
+      "social": {
+        "x": "Sabíamos que DART desvió un asteroide. Lo que no sabíamos es que le había dejado un cráter del tamaño de un estadio.\n\n#DART #Hera #ESA #DefensaPlanetaria\nhttps://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup",
+        "linkedin": "DART desvió un asteroide a millones de kilómetros. Ahora empezamos a ver cómo quedó la cicatriz.\n\nLa sonda europea Hera ha empezado a fotografiar Dimorphos y ha encontrado un cráter del tamaño de un estadio, rodeado de una escena de escombros bastante caótica. 𝗟𝗼𝘀 𝗱𝗮𝘁𝗼𝘀 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲𝗻 𝗹𝗮 𝗱𝗲𝗳𝗲𝗻𝘀𝗮 𝗽𝗹𝗮𝗻𝗲𝘁𝗮𝗿𝗶𝗮 𝗲𝗻 𝗶𝗻𝗴𝗲𝗻𝗶𝗲𝗿í𝗮 𝗱𝗲 𝘃𝗲𝗿𝗱𝗮𝗱: hasta ahora casi todo lo que creíamos saber de un impacto venía de simulaciones. Tener una herida real que medir cambia el diseño de cualquier misión futura que se plantee mover algo que venga hacia nosotros, y ese es un terreno en el que Europa acaba de ganar peso propio.\n\n#DART #Hera #ESA #DefensaPlanetaria\n\nhttps://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "industria",
+      "title": "La FCC autoriza a SpaceX un millón de satélites para centros de datos de IA",
+      "summary": "La FCC ha dado aprobación condicional a SpaceX para desplegar hasta un millón de satélites con chips de IA dentro de su iniciativa Starmind. La autorización exige al menos un satélite para 2033 y desestimó algunas objeciones científicas por caer fuera de su competencia.",
+      "why_it_matters": "Abre una nueva dimensión al cómputo orbital y sienta un precedente regulatorio para los centros de datos en el espacio.",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "source": "The Verge",
+      "social": {
+        "x": "La FCC acaba de autorizar a SpaceX un millón de satélites con chips de IA en órbita. El primer hito exigido no llega hasta 2033.\n\n#SpaceX #FCC #Starmind #CómputoOrbital\nhttps://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+        "linkedin": "Un millón de satélites con chips de IA en órbita. La FCC acaba de decir que sí, y el primer hito exigido no llega hasta 2033.\n\nStarmind plantea la órbita como una capa más de cómputo: sol constante para alimentar los chips, disipación pasiva del calor y ningún permiso municipal que negociar. La autorización es condicional y la agencia se quitó de encima las objeciones científicas alegando que caen fuera de su competencia, así que 𝗲𝗹 𝗽𝗿𝗲𝗰𝗲𝗱𝗲𝗻𝘁𝗲 𝗿𝗲𝗴𝘂𝗹𝗮𝘁𝗼𝗿𝗶𝗼 𝗶𝗺𝗽𝗼𝗿𝘁𝗮 𝗺á𝘀 𝗾𝘂𝗲 𝗹𝗮 𝗰𝗼𝗻𝘀𝘁𝗲𝗹𝗮𝗰𝗶ó𝗻 𝗲𝗻 𝘀í. Si el cómputo orbital se normaliza, el techo de los centros de datos en tierra deja de ser el techo.\n\n#SpaceX #FCC #Starmind #CómputoOrbital\n\nhttps://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "The New York Times restringe el último Photoshop a sus fotógrafos",
+      "summary": "El diario neoyorquino ha pedido a sus fotógrafos que no utilicen la versión más reciente de Photoshop, según recoge dpreview. La decisión está relacionada con las funciones de IA generativa y con la dificultad de garantizar la autenticidad de las imágenes.",
+      "why_it_matters": "Muestra la tensión entre la productividad que promete la IA y los estándares de credibilidad del fotoperiodismo.",
+      "url": "https://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai",
+      "source": "Hacker News",
+      "social": {
+        "x": "El New York Times ha prohibido a sus fotógrafos la última versión de Photoshop. El motivo no es el coste: es que ya no puede demostrar que una foto es real.\n\n#Photoshop #Adobe #Fotoperiodismo #NewYorkTimes\nhttps://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai",
+        "linkedin": "El New York Times acaba de vetar la versión más reciente de Photoshop en su plantilla de fotógrafos.\n\nNo es una cuestión de precio ni de formación: las funciones de IA generativa hacen imposible certificar que una imagen publicada es auténtica, y para un medio que vive de la credibilidad eso no es negociable. La lectura profesional es que 𝗲𝗹 𝗰𝗼𝗻𝘁𝗿𝗼𝗹 𝗱𝗲 𝗰𝗮𝗹𝗶𝗱𝗮𝗱 𝘀𝗲 𝗱𝗲𝘀𝗽𝗹𝗮𝘇𝗮 𝗱𝗲𝗹 𝗿𝗲𝘀𝘂𝗹𝘁𝗮𝗱𝗼 𝗳𝗶𝗻𝗮𝗹 𝗮𝗹 𝗳𝗹𝘂𝗷𝗼 𝗱𝗲 𝘁𝗿𝗮𝗯𝗮𝗷𝗼 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼, con registro de qué tocó cada herramienta y cuándo. Cualquier redacción, agencia o marca que publique fotografía va a tener que responder esa misma pregunta antes o después.\n\n#Photoshop #Adobe #Fotoperiodismo #NewYorkTimes\n\nhttps://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "Anthropic constata que el freno de la IA en la empresa no es la herramienta",
+      "summary": "Anthropic ha estudiado casi 300 despliegues de IA en 58 empresas de EE UU y concluye que uno de cada cinco no aporta valor de negocio. Los principales obstáculos son las cargas de revisión, los cuellos de botella internos y la resistencia de los empleados, más que el aprendizaje de las herramientas.",
+      "why_it_matters": "La adopción real depende de rediseñar procesos y estructuras, no solo de formar al personal en el uso de la IA.",
+      "url": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools",
+      "source": "The Decoder",
+      "social": {
+        "x": "Anthropic estudió casi 300 despliegues de IA en 58 empresas. Uno de cada cinco no aporta nada al negocio. Y el problema no es la herramienta.\n\n#Anthropic #AdopciónTecnológica #TransformaciónDigital\nhttps://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools",
+        "linkedin": "Uno de cada cinco despliegues de IA en la empresa no aporta valor de negocio. Y el freno no es la herramienta.\n\nAnthropic ha revisado casi 300 implantaciones en 58 empresas de EE UU y el patrón se repite: lo que atasca los proyectos son las cargas de revisión, los cuellos de botella internos y la resistencia de los empleados. Formar al equipo en el uso de la herramienta es la parte fácil; 𝗿𝗲𝗱𝗶𝘀𝗲ñ𝗮𝗿 𝗲𝗹 𝗽𝗿𝗼𝗰𝗲𝘀𝗼 𝗾𝘂𝗲 𝗹𝗮 𝗜𝗔 𝘃𝗮 𝗮 𝘁𝗼𝗰𝗮𝗿 𝗲𝘀 𝗹𝗼 𝗾𝘂𝗲 𝗱𝗲𝗰𝗶𝗱𝗲 𝘀𝗶 𝗲𝗹 𝗱𝗲𝘀𝗽𝗹𝗶𝗲𝗴𝘂𝗲 𝘀𝗶𝗿𝘃𝗲 𝗽𝗮𝗿𝗮 𝗮𝗹𝗴𝗼. Si tu plan de adopción empieza y acaba en un curso, todavía no tienes un plan.\n\n#Anthropic #AdopciónTecnológica #TransformaciónDigital\n\nhttps://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "La especificación de plugins del editor Cursor junto con los plugins oficiales que publica el propio equipo. Útil si quieres entender cómo se extiende el editor o montar tus propias integraciones sobre su capa de IA.",
+      "language": "TypeScript",
+      "stars": 19518,
+      "social": {
+        "x": "Cursor acaba de publicar la spec de sus plugins junto a los oficiales. 19,5k estrellas para montar tus propias integraciones sobre su capa de IA.\n\n#Cursor #TypeScript #OpenSource #GitHub\nhttps://github.com/cursor/plugins",
+        "linkedin": "CURSOR NO QUIERE QUE ADIVINES CÓMO SE EXTIENDE: HA PUBLICADO LA SPEC DE SUS PLUGINS.\n\nDurante meses, quien quería integrar su producto dentro del editor tenía que tirar de ingeniería inversa, leer el código a ciegas y rezar para que la siguiente actualización no rompiese nada. Ese muro acaba de caer: el equipo de Cursor ha abierto 𝗹𝗮 𝘀𝗽𝗲𝗰 𝗱𝗲 𝗽𝗹𝘂𝗴𝗶𝗻𝘀 y, además, los plugins oficiales que mantiene internamente.\n\nNo es un repo de ejemplo. Es la referencia que usa su propio equipo, escrita en TypeScript y publicada con 19,5k estrellas.\n\nLo que te llevas si entras:\n→ La especificación completa de cómo se engancha un plugin al editor.\n→ Los plugins oficiales, que funcionan como el mejor ejemplo posible de implementación.\n→ TypeScript de principio a fin, sin capas raras de abstracción.\n→ Un punto de partida para conectar tus propias herramientas a su capa de IA.\n\nSi construyes producto o haces integraciones, este repo te ahorra semanas de leer código ajeno a ciegas. Guárdalo para el día que te pidan \"¿se puede enchufar esto a Cursor?\".\n\nTe dejo el repo abajo.\n\n#Cursor #TypeScript #OpenSource #GitHub\n\nhttps://github.com/cursor/plugins"
+      }
+    },
+    {
+      "name": "openvinotoolkit/openvino",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "description": "Toolkit open source de Intel para optimizar modelos de IA y desplegar la inferencia en CPU, GPU y NPU. Merece la pena si buscas rendimiento en hardware variado sin atarte a una sola plataforma.",
+      "language": "C++",
+      "stars": 12645,
+      "social": {
+        "x": "Intel tiene un toolkit open source que exprime modelos de IA en CPU, GPU y NPU. Sin atarte a una sola plataforma. 12,6k estrellas.\n\n#OpenVINO #Intel #OpenSource #EdgeAI\nhttps://github.com/openvinotoolkit/openvino",
+        "linkedin": "LA MAYORÍA DE EQUIPOS NO NECESITA MÁS GPUs. NECESITA OPTIMIZAR LO QUE YA TIENE.\n\nOpenVINO es el toolkit open source de Intel para optimizar modelos de IA y desplegar la inferencia en CPU, GPU y NPU. Lleva 12,6k estrellas en GitHub y está escrito en C++.\n\nLo interesante no es solo el rendimiento: es que el mismo modelo puede correr sobre hardware variado sin que reescribas medio stack. 𝗢𝗽𝘁𝗶𝗺𝗶𝘇𝗮𝗿 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝘀𝘂𝗲𝗹𝗲 𝗱𝗮𝗿 𝗺á𝘀 𝗿𝗲𝗻𝗱𝗶𝗺𝗶𝗲𝗻𝘁𝗼 𝗾𝘂𝗲 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗵𝗮𝗿𝗱𝘄𝗮𝗿𝗲 𝗻𝘂𝗲𝘃𝗼, y ese es justo el atajo que muchas empresas no se plantean.\n\n→ Conversión y optimización de modelos: cuantización, pruning y ajustes para bajar latencia y tamaño.\n→ Un mismo runtime para CPU, GPU y NPU, sin atarte a un único fabricante.\n→ Soporte para los formatos y frameworks habituales (ONNX, PyTorch, TensorFlow).\n→ APIs en C++ y Python, con samples y documentación para pasar de la prueba al deploy.\n→ Open source y pensado también para entornos on premises y edge.\n\nSi sirves modelos en producción o estás peleando con la factura de inferencia, este repo merece una tarde. Guárdalo para cuando toque optimizar, que llega antes de lo que crees. Te dejo el enlace abajo.\n\n#OpenVINO #Intel #OpenSource #EdgeAI\n\nhttps://github.com/openvinotoolkit/openvino"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Mutation testing para código generado por IA: un test que no puede fallar no demuestra nada",
+      "url": "https://zeeshan-amjad.medium.com/mutation-testing-for-ai-generated-code-a-test-that-cannot-fail-proves-nothing-f6c3a9443b35",
+      "source": "Medium: Artificial Intelligence",
+      "summary": "El artículo explica cómo el mutation testing mide si una batería de pruebas detecta de verdad los fallos, algo clave cuando el código lo escribe un modelo. Quien lo lee aprende a introducir mutaciones controladas y a leer la tasa de supervivencia como señal de calidad, en lugar de fiarse del verde de los tests. Resulta útil para equipos que ya revisan código generado y quieren evidencias, no sensaciones.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Cómo planificar los reintentos en flujos multiagente antes de escribir código",
+      "url": "https://towardsdatascience.com/how-to-plan-retries-for-multi-agent-workflows-before-you-write-code",
+      "source": "Towards Data Science",
+      "summary": "Propone diseñar sobre el papel, con un diagrama y unas clases de datos, cuándo un agente que falla debe reintentar y cuándo la tarea pasa a una persona. La clave es marcar qué operaciones son reintentables y cuáles no, para no repetir efectos secundarios. Se aplica tanto a pipelines con LLM en producción como a cualquier orquestación de tareas con fallos parciales.",
+      "tema": "ia"
+    },
+    {
+      "title": "Cuánto Sharpe falso puede generar un bug en un backtest",
+      "url": "https://thethirdmoment.medium.com/how-much-fake-sharpe-a-backtest-bug-can-create-cf0c5813a571",
+      "source": "Medium: Data Science",
+      "summary": "El autor construye un backtester mínimo en Python y lo ejecuta sobre un mercado donde es imposible ganar, activando uno a uno los errores clásicos. Así se ve cuánto rendimiento ficticio aporta cada fallo y por qué conviene validar el motor con datos que no puedan dar beneficio. Lectura muy aprovechable si trabajas con datos financieros o si quieres una plantilla para auditar tus propias métricas.",
+      "tema": "datos"
+    },
+    {
+      "title": "Construir o comprar cuando construir se ha vuelto barato: la pregunta es quién parchea en el tercer año",
+      "url": "https://medium.com/@kevingoldsmith/build-vs-buy-when-building-just-got-cheap-04a855eeaa40",
+      "source": "Medium: Software Engineering",
+      "summary": "Con la IA generativa, escribir la primera versión de una herramienta interna cuesta poco y la decisión de build vs buy se ha desequilibrado. El texto invita a mirar más allá del coste inicial: mantenimiento, actualizaciones de seguridad y quién asume el soporte a los tres años. Sirve para justificar con criterios sólidos una decisión de arquitectura que a menudo se toma por impulso.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Deploy a S3 desde GitLab CI/CD sin claves de AWS: OIDC paso a paso",
+      "url": "https://www.freecodecamp.org/news/how-to-deploy-to-amazon-s3-using-gitlab-ci-cd-and-aws-oidc-without-aws-access-keys",
+      "source": "freeCodeCamp",
+      "summary": "Tutorial práctico para publicar un sitio estático en Amazon S3 desde GitLab con OpenID Connect, de forma que el pipeline obtenga credenciales temporales en lugar de guardar access keys en variables. Aprenderás a configurar el proveedor de identidad, el rol de IAM y las reglas de confianza, y a limitar los permisos al mínimo. Es la manera recomendada hoy de conectar CI con la nube y seguirá sirviendo dentro de un año.",
+      "tema": "web"
+    },
+    {
+      "title": "Del caos al control: el modelo de madurez que casi nadie aplica al adoptar herramientas de IA",
+      "url": "https://stackoverflow.blog/2026/11/19/chaos-then-control",
+      "source": "Stack Overflow Blog",
+      "summary": "El texto describe las fases por las que pasa una organización que introduce asistentes de código, desde la experimentación sin normas hasta el gobierno de su uso, y por qué muchas se quedan atascadas en la primera. Aporta un marco para situar a tu equipo y ver qué decisiones toca tomar para pasar a la siguiente fase. Interesa a quien lidera la adopción de herramientas o quiere anticipar los problemas antes de que aparezcan.",
+      "tema": "carrera"
+    }
+  ]
+}
