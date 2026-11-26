@@ -1,0 +1,351 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-26T23:00:01.607Z",
+  "provider": "deepseek",
+  "items": [
+    {
+      "rank": 1,
+      "category": "herramientas",
+      "title": "Un fork de llama.cpp para AMD sube la generación de 35 a 55 tokens por segundo",
+      "summary": "llama-cpp-rdna-boosts es una bifurcación de llama.cpp afinada para tarjetas gráficas AMD. Su autor reporta subidas de 35 a 55 tokens por segundo en generación y de 700 a 1300 en prefill, en plena explosión de motores de inferencia especializados.",
+      "why_it_matters": "Si tienes una Radeon, cambiar de binario puede darte más de un 50 % de velocidad sin tocar el modelo.",
+      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "source": "Hacker News"
+    },
+    {
+      "rank": 2,
+      "category": "industria",
+      "title": "Google obligará a los agentes de IA a pasar por sus servidores MCP para acceder a Workspace",
+      "summary": "Desde febrero de 2027, los términos de Google exigen que cualquier agente de IA llegue a Gmail, Drive y el resto de Workspace a través de sus propios servidores MCP. El artículo repasa qué permiten y qué no esos servidores: el de Gmail, por ejemplo, no puede enviar correo. También indica qué hay que cambiar antes de la fecha límite.",
+      "why_it_matters": "Quien tenga agentes integrados con Workspace tendrá que rehacer la integración con Google o quedarse fuera.",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp",
+      "source": "Hacker News",
+      "social": {
+        "x": "Google pone fecha a las integraciones directas con Workspace: febrero de 2027. A partir de ahí, cualquier agente que quiera Gmail o Drive pasa por su MCP. Y el MCP de Gmail no puede enviar correo.\n\n#GoogleWorkspace #MCP #ModelContextProtocol #Gmail\nhttps://techstackups.com/articles/google-workspace-ai-agents-mcp",
+        "linkedin": "Google acaba de poner fecha de caducidad a las integraciones directas con Workspace: febrero de 2027.\n\nA partir de ese día, cualquier agente que quiera tocar Gmail o Drive tendrá que pasar por los servidores MCP de Google, y lo que esos servidores permiten es más limitado de lo que parece: el de Gmail, por ejemplo, no puede enviar correo. 𝗤𝘂𝗶𝗲𝗻 𝘁𝗲𝗻𝗴𝗮 𝗮𝗴𝗲𝗻𝘁𝗲𝘀 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗱𝗼𝘀 𝗰𝗼𝗻 𝗪𝗼𝗿𝗸𝘀𝗽𝗮𝗰𝗲 𝘁𝗲𝗻𝗱𝗿á 𝗾𝘂𝗲 𝗿𝗲𝗵𝗮𝗰𝗲𝗿 𝗹𝗮 𝗶𝗻𝘁𝗲𝗴𝗿𝗮𝗰𝗶ó𝗻 𝗼 𝗾𝘂𝗲𝗱𝗮𝗿𝘀𝗲 𝗳𝘂𝗲𝗿𝗮. Para los equipos que construyen sobre APIs de terceros es un aviso incómodo: la capa de acceso la controla quien pone el servidor, no quien escribe el agente. Conviene revisar ahora de qué depende cada flujo, no en enero de 2027.\n\n#GoogleWorkspace #MCP #ModelContextProtocol #Gmail\n\nhttps://techstackups.com/articles/google-workspace-ai-agents-mcp"
+      }
+    },
+    {
+      "rank": 3,
+      "category": "lanzamientos",
+      "title": "Moat se presenta como alternativa barata a OpenRouter: 100 modelos por 5 dólares al mes",
+      "summary": "Moat ofrece acceso a más de cien modelos abiertos a precios mayoristas y sin límites de uso por una suscripción mensual de 5 dólares. La propuesta se apoya en agrupar el consumo de todos sus miembros para negociar tarifas.",
+      "why_it_matters": "Es otra señal de la presión a la baja en el precio de la inferencia, aunque el servicio aún tiene que demostrar que aguanta el ritmo.",
+      "url": "https://commandcode.ai/moat",
+      "source": "Hacker News",
+      "social": {
+        "x": "5 dólares al mes por cien modelos y sin límites de uso. Moat quiere plantar cara a OpenRouter agrupando el consumo de todos sus usuarios para negociar tarifas mayoristas.\n\n#OpenRouter #LLM #APIs #Inferencia\nhttps://commandcode.ai/moat",
+        "linkedin": "Cien modelos por 5 dólares al mes, sin límites de uso. Así se presenta Moat, la última alternativa a OpenRouter.\n\nLa idea que hay detrás es sencilla: agrupar el consumo de todos sus miembros para negociar tarifas mayoristas y trasladar ese descuento en forma de suscripción plana. Es la enésima señal de que 𝗲𝗹 𝗽𝗿𝗲𝗰𝗶𝗼 𝗱𝗲 𝗹𝗮 𝗶𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗶𝗮 𝘀𝗶𝗴𝘂𝗲 𝗰𝗮𝘆𝗲𝗻𝗱𝗼, y de que la capa de enrutado se está convirtiendo en un negocio de márgenes finos. Para quien construye producto sobre modelos abiertos, la pregunta ya no es qué API sale más barata hoy, sino cuál aguantará el ritmo cuando el tráfico crezca de verdad.\n\n#OpenRouter #LLM #APIs #Inferencia\n\nhttps://commandcode.ai/moat"
+      }
+    },
+    {
+      "rank": 4,
+      "category": "herramientas",
+      "title": "NVIDIA abre datos y recetas para afinar Nemotron 3.5 Parse con inferencia más rápida",
+      "summary": "El blog de Hugging Face detalla cómo construir sobre Nemotron 3.5 Parse, el modelo de parsing de NVIDIA, con datos abiertos, recetas de fine-tuning y técnicas para acelerar la inferencia. El material incluye los pasos para adaptarlo a documentos propios.",
+      "why_it_matters": "Baja a tierra un modelo de extracción de documentos con datos y código abiertos, sin depender de una API cerrada.",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "NVIDIA acaba de abrir los datos y las recetas para afinar su modelo de parsing de documentos. Extraer datos de tus PDFs ya no exige pasar por su API.\n\n#NVIDIA #Nemotron #HuggingFace #OpenSource\nhttps://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+        "linkedin": "El modelo de parsing de documentos de NVIDIA ya se puede adaptar a tus propios PDFs sin pasar por su API.\n\nCon Nemotron 3.5 Parse, NVIDIA libera los datos, las recetas de fine-tuning y las técnicas para acelerar la inferencia, 𝘁𝗼𝗱𝗼 𝗹𝗼 𝗻𝗲𝗰𝗲𝘀𝗮𝗿𝗶𝗼 𝗽𝗮𝗿𝗮 𝗺𝗼𝗻𝘁𝗮𝗿 𝗹𝗮 𝗲𝘅𝘁𝗿𝗮𝗰𝗰𝗶ó𝗻 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝗮𝗹 𝗲𝗻 𝘁𝘂 𝗽𝗿𝗼𝗽𝗶𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮. Para quien trabaja con documentos, la pregunta deja de ser qué API contratamos y pasa a ser cuánto nos cuesta mantener el modelo. Y ese cálculo solo tiene sentido cuando el material está abierto, que es justo lo que acaba de cambiar.\n\n#NVIDIA #Nemotron #HuggingFace #OpenSource\n\nhttps://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+      }
+    },
+    {
+      "rank": 5,
+      "category": "herramientas",
+      "title": "Guía práctica para construir, entrenar y evaluar sistemas multiagente",
+      "summary": "Hugging Face publica un recorrido por los patrones de sistemas con muchos agentes que colaboran entre sí, desde enjambres hasta bandadas con roles diferenciados. Cubre coordinación, reparto de tareas y métricas para comprobar si el conjunto supera a un solo modelo.",
+      "why_it_matters": "Los multiagente están en casi todas las arquitecturas nuevas y faltaba material práctico sobre cómo evaluarlos.",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "Casi todo el mundo ya monta sistemas multiagente. Casi nadie comprueba si superan a un solo modelo. Hugging Face publica la guía para medirlo.\n\n#HuggingFace #MultiAgent #LLM\nhttps://huggingface.co/blog/training-swarms",
+        "linkedin": "Montar un sistema multiagente es fácil. Demostrar que funciona mejor que un solo modelo, bastante menos.\n\nHugging Face ha publicado un recorrido práctico por los patrones que se repiten en producción, desde enjambres hasta bandadas con roles diferenciados: coordinación, reparto de tareas y 𝗺é𝘁𝗿𝗶𝗰𝗮𝘀 𝗽𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗿𝗼𝗯𝗮𝗿 𝘀𝗶 𝗲𝗹 𝗰𝗼𝗻𝗷𝘂𝗻𝘁𝗼 𝘀𝘂𝗽𝗲𝗿𝗮 𝗮𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 ú𝗻𝗶𝗰𝗼. Es justo la parte que casi nadie documenta, y sin esa comparación el multiagente se queda en arquitectura de escaparate. Si estás montando uno, define desde el principio cómo lo vas a evaluar.\n\n#HuggingFace #MultiAgent #LLM\n\nhttps://huggingface.co/blog/training-swarms"
+      }
+    },
+    {
+      "rank": 6,
+      "category": "herramientas",
+      "title": "Gemini llega a Android Auto con navegación conversacional",
+      "summary": "Gemini ya funciona dentro de Android Auto, así que se puede hablar con el coche para ajustar la ruta o resolver dudas durante el trayecto. El repaso enumera los casos de uso disponibles desde hoy.",
+      "why_it_matters": "El asistente del coche deja de ser un mando de voz para convertirse en un copiloto con el que conversar.",
+      "url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto",
+      "source": "Wired",
+      "social": {
+        "x": "Hasta ahora le dabas órdenes al coche. Gemini ya está dentro de Android Auto y ahora la ruta se discute, no se dicta.\n\n#Gemini #AndroidAuto #Google\nhttps://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto",
+        "linkedin": "Hasta ahora el asistente del coche era un mando de voz con mejor o peor oído. Con Gemini dentro de Android Auto, la interfaz deja de ser el botón y pasa a ser la conversación: ajustar la ruta, preguntar por un desvío o resolver una duda en marcha sin tocar la pantalla.\n\n𝗘𝗹 𝗰𝗼𝗰𝗵𝗲 𝗲𝘀 𝗲𝗹 𝗽𝗿𝗶𝗺𝗲𝗿 𝗲𝗻𝘁𝗼𝗿𝗻𝗼 𝗱𝗼𝗻𝗱𝗲 𝗹𝗮 𝗜𝗔 𝗰𝗼𝗻𝘃𝗲𝗿𝘀𝗮𝗰𝗶𝗼𝗻𝗮𝗹 𝘀𝘂𝘀𝘁𝗶𝘁𝘂𝘆𝗲 𝗱𝗲 𝘃𝗲𝗿𝗱𝗮𝗱 𝗮 𝗹𝗮 𝗨𝗜, no la complementa. Eso cambia las reglas para quien diseña apps de automoción: la voz deja de ser una función de accesibilidad y pasa a ser el canal principal. Quien siga pensando solo en pantallas de ocho pulgadas va un paso por detrás.\n\n#Gemini #AndroidAuto #Google\n\nhttps://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto"
+      }
+    },
+    {
+      "rank": 7,
+      "category": "herramientas",
+      "title": "Cómo Dell afinó sus modelos de embeddings para arreglar el RAG interno",
+      "summary": "Rachel Shalom explica en InfoQ cómo Dell ajustó modelos de embeddings open source para que el RAG de la empresa entendiera su propia jerga. El proceso incluye preparación de datos con hard negatives, entrenamiento con InfoNCE en H100, ajuste automático de hiperparámetros y evaluación en producción con LLM-as-a-judge.",
+      "why_it_matters": "Es una receta concreta para el fallo más común del RAG corporativo: que el retrieval no entienda los términos de la casa.",
+      "url": "https://www.infoq.com/presentations/fine-tune-enterprise-rag-embeddings",
+      "source": "InfoQ",
+      "social": {
+        "x": "El RAG interno de Dell no entendía la jerga de Dell. Lo arreglaron afinando un modelo de embeddings open source, no cambiando el LLM.\n\n#RAG #Embeddings #Dell #OpenSource\nhttps://www.infoq.com/presentations/fine-tune-enterprise-rag-embeddings",
+        "linkedin": "El RAG de Dell no entendía la jerga de Dell.\n\nRachel Shalom detalla en InfoQ el proceso para corregirlo: hard negatives en la preparación de datos, entrenamiento con InfoNCE sobre H100, ajuste automático de hiperparámetros y evaluación en producción con LLM-as-a-judge. La mayoría de equipos, cuando el RAG responde mal, miran primero al LLM; casi siempre el problema está antes, en el retrieval. 𝗔𝗳𝗶𝗻𝗮𝗿 𝗲𝗹 𝗺𝗼𝗱𝗲𝗹𝗼 𝗱𝗲 𝗲𝗺𝗯𝗲𝗱𝗱𝗶𝗻𝗴𝘀 𝗰𝗼𝗻 𝗲𝗹 𝘃𝗼𝗰𝗮𝗯𝘂𝗹𝗮𝗿𝗶𝗼 𝗱𝗲 𝗹𝗮 𝗰𝗮𝘀𝗮 𝗿𝗶𝗻𝗱𝗲 𝗺á𝘀 𝗾𝘂𝗲 𝗰𝗮𝗺𝗯𝗶𝗮𝗿 𝗱𝗲 𝗺𝗼𝗱𝗲𝗹𝗼 𝗴𝗿𝗮𝗻𝗱𝗲, y este caso deja una receta replicable para cualquier equipo con documentación interna muy especializada.\n\n#RAG #Embeddings #Dell #OpenSource\n\nhttps://www.infoq.com/presentations/fine-tune-enterprise-rag-embeddings"
+      }
+    },
+    {
+      "rank": 8,
+      "category": "herramientas",
+      "title": "Un panel de benchmarks compara llama.cpp en Ryzen y Radeon",
+      "summary": "El equipo de ggml publica un panel de resultados de llama.cpp sobre procesadores Ryzen y gráficas Radeon. Los datos se pueden comparar por modelo y por hardware para estimar el rendimiento antes de comprar.",
+      "why_it_matters": "Da medidas en lugar de sensaciones para decidir si compensa montar inferencia local sobre AMD.",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "source": "Hugging Face Blog",
+      "social": {
+        "x": "¿Cuántos tokens por segundo te da llama.cpp en un Ryzen con una Radeon? ggml publica las medidas, comparables por modelo y por GPU, para que no compres a ciegas.\n\n#llamaCpp #AMD #Ryzen #Radeon\nhttps://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+        "linkedin": "Elegir hardware para inferencia local se decide demasiadas veces a base de hilos de foro y sensaciones. El equipo de ggml ha publicado un panel de benchmarks de llama.cpp sobre Ryzen y Radeon, con resultados comparables por modelo y por hardware.\n\nPara quien se plantea montar inferencia local sobre AMD, esto convierte una discusión de fe en 𝘂𝗻𝗮 𝗱𝗲𝗰𝗶𝘀𝗶ó𝗻 𝗰𝗼𝗻 𝗻ú𝗺𝗲𝗿𝗼𝘀: qué GPU compensa, cuánto rinde cada modelo y dónde se queda corto el equipo. No resuelve tu caso concreto, pero es el punto de partida que llevábamos tiempo pidiendo.\n\n#llamaCpp #AMD #Ryzen #Radeon\n\nhttps://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+      }
+    },
+    {
+      "rank": 9,
+      "category": "industria",
+      "title": "Menos revisión línea a línea y más capas de control: la receta de Aviator para el code review",
+      "summary": "Ankit Jain sostiene en QCon San Francisco que la revisión línea a línea está desapareciendo: la mayoría de comentarios sirven para compartir conocimiento y más del 75 % de los PR se fusionan sin revisión humana. Propone seis capas (argumentar, capturar, codificar, probar, debatir y asumir la propiedad) y asegura que su equipo fusiona cuatro veces más PR con un 40 % menos de reverts.",
+      "why_it_matters": "Si los agentes escriben cada vez más código, el cuello de botella se mueve del review al diseño de los controles.",
+      "url": "https://www.infoq.com/news/2026/11/qcon-sf-26-kill-code-review",
+      "source": "InfoQ",
+      "social": {
+        "x": "Más del 75 % de los PR se fusionan sin que nadie los lea. En este equipo lo llaman progreso, no negligencia.\n\n#CodeReview #PullRequests #QCon\nhttps://www.infoq.com/news/2026/11/qcon-sf-26-kill-code-review",
+        "linkedin": "El 75 % de los pull requests ya se fusionan sin revisión humana. La pregunta interesante no es cómo revertirlo, sino qué pones en su lugar.\n\nAnkit Jain lo plantea en QCon San Francisco: la revisión línea a línea está perdiendo sentido porque la mayoría de comentarios no detectan fallos, sirven para compartir conocimiento. Su receta son seis capas (argumentar, capturar, codificar, probar, debatir y asumir la propiedad) y, con ellas, su equipo fusiona cuatro veces más PR con un 40 % menos de reverts. Si los agentes escriben cada vez más código, 𝗲𝗹 𝗰𝘂𝗲𝗹𝗹𝗼 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝘀𝗲 𝗺𝘂𝗲𝘃𝗲 𝗱𝗲𝗹 𝗿𝗲𝘃𝗶𝗲𝘄 𝗮𝗹 𝗱𝗶𝘀𝗲ñ𝗼 𝗱𝗲 𝗹𝗼𝘀 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗲𝘀, y eso es trabajo de ingeniería, no de vigilancia.\n\n#CodeReview #PullRequests #QCon\n\nhttps://www.infoq.com/news/2026/11/qcon-sf-26-kill-code-review"
+      }
+    },
+    {
+      "rank": 10,
+      "category": "lanzamientos",
+      "title": "Ignite 2026: Microsoft convierte Copilot en el sistema operativo del trabajo",
+      "summary": "Microsoft aprovechó Ignite 2026 para colocar Copilot en el centro y ampliar la identidad, el gobierno y el control de costes de los agentes en Azure, Foundry, Entra y Defender. El resumen incluye las máquinas Cobalt 200, Azure HorizonDB, el bucle de mejora continua de Foundry, Microsoft IQ, una pasarela de IA independiente y Windows Server 2028.",
+      "why_it_matters": "Fija el marco al que tendrán que adaptarse las empresas que despliegan agentes sobre tecnología de Microsoft.",
+      "url": "https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap",
+      "source": "InfoQ",
+      "social": {
+        "x": "Microsoft ya no vende Copilot como asistente. En Ignite 2026 lo ha colocado en el centro de Azure, Entra y Defender: pasa a ser la capa donde viven y se gobiernan los agentes.\n\n#Microsoft #Copilot #Azure #Ignite2026\nhttps://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap",
+        "linkedin": "Microsoft ya no vende Copilot como asistente. Ahora lo coloca como la capa sobre la que se despliegan y se gobiernan los agentes.\n\nEn Ignite 2026 eso se traduce en identidad en Entra, control de costes, Defender y el bucle de mejora continua de Foundry, además de una pasarela de IA independiente y las máquinas Cobalt 200. La idea clave: 𝗲𝗹 𝗺𝗮𝗿𝗰𝗼 𝗱𝗲 𝗴𝗼𝗯𝗶𝗲𝗿𝗻𝗼 𝗹𝗹𝗲𝗴𝗮 𝗮𝗻𝘁𝗲𝘀 𝗾𝘂𝗲 𝗹𝗮 𝗺𝗮𝘆𝗼𝗿í𝗮 𝗱𝗲 𝗱𝗲𝘀𝗽𝗹𝗶𝗲𝗴𝘂𝗲𝘀 𝗲𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝗰𝗶ó𝗻, así que quien construya agentes sobre tecnología de Microsoft hereda esas reglas, para bien y para mal. Menos libertad de movimiento, sí, pero también menos decisiones críticas que tomar desde cero. La pregunta para cada equipo es si ese marco encaja con su arquitectura o si conviene diversificar antes de que sea caro cambiarlo.\n\n#Microsoft #Copilot #Azure #Ignite2026\n\nhttps://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap"
+      }
+    },
+    {
+      "rank": 11,
+      "category": "industria",
+      "title": "OpenAI corrige un error de facturación y los usuarios de GPT-6.2 agotan su cuota antes",
+      "summary": "OpenAI admite que un fallo de facturación en el lanzamiento de GPT-6.2 aplicó descuentos incorrectos a la mayoría de usuarios. Al corregirlo, la misma tarea consume más cuota: se llega al límite un 40 % antes con Astra y un 25 % antes con Sol. Como compensación habrá un reset extra y Fast Mode gratis para cuentas de empresa hasta final de año, mientras la compañía prueba a fusionar los modos Chat y Work.",
+      "why_it_matters": "Es la letra pequeña que decide el coste real de trabajar a diario con los modelos punteros.",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "source": "Hacker News",
+      "social": {
+        "x": "OpenAI arregló un bug de facturación y el resultado es que tu cuota se agota un 40 % antes. El error era suyo; la factura, tuya.\n\n#OpenAI #GPT62 #Astra\nhttps://twitter.com/thsottiaux/status/2125784147889393806",
+        "linkedin": "La facturación de un modelo es una decisión de producto, no un detalle contable.\n\nOpenAI aplicó por error descuentos durante el lanzamiento de GPT-6.2 y, al corregirlos, la misma tarea consume 𝗵𝗮𝘀𝘁𝗮 𝘂𝗻 𝟰𝟬 % 𝗺á𝘀 𝗱𝗲 𝗰𝘂𝗼𝘁𝗮 𝗰𝗼𝗻 𝗔𝘀𝘁𝗿𝗮 y un 25 % más con Sol. La compensación (un reset extra y Fast Mode gratis para cuentas de empresa hasta final de año) tapa el síntoma, no el problema: mucha gente ya había calibrado su flujo de trabajo contra un precio que nunca fue real. Si el coste por tarea puede cambiar de un día para otro, la planificación de cualquier equipo se vuelve una apuesta.\n\n#OpenAI #GPT62 #Astra\n\nhttps://twitter.com/thsottiaux/status/2125784147889393806"
+      }
+    },
+    {
+      "rank": 12,
+      "category": "investigacion",
+      "title": "Aaronson: lo relevante de la demostración de Riemann es que una IA pueda producirla",
+      "summary": "Scott Aaronson, teórico de la complejidad y exinvestigador de OpenAI, sostiene que lo importante de las recientes demostraciones matemáticas de la IA no es el teorema en sí, sino la capacidad del sistema para producirlo. Avisa de consecuencias que van de la economía a la criptografía y se declara casi seguro de que los laboratorios guardan «bombas» en este terreno.",
+      "why_it_matters": "Si la IA ya produce resultados matemáticos serios, el debate se traslada del asombro a quién controla esos hallazgos.",
+      "url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it",
+      "source": "The Decoder",
+      "social": {
+        "x": "Scott Aaronson dice que el teorema de Riemann que produjo una IA es lo de menos. Lo importante es que pueda producirlo. Y cree que los laboratorios guardan «bombas».\n\n#ScottAaronson #OpenAI #Criptografía #Matemáticas\nhttps://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it",
+        "linkedin": "Scott Aaronson no se impresiona con el teorema: se impresiona con la máquina que lo ha escrito.\n\nSu lectura es que el hito matemático importa menos que la capacidad de producir resultados así de forma sistemática, y avisa de consecuencias que llegan a la criptografía y a la economía. Con un «casi seguro» de que los laboratorios ya guardan bombas en este terreno sin enseñarlas, la pregunta deja de ser qué puede demostrar un modelo y pasa a ser 𝗾𝘂𝗶é𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮 𝗹𝗼 𝗾𝘂𝗲 𝗱𝗲𝗺𝘂𝗲𝘀𝘁𝗿𝗮 𝘆 𝗰𝘂á𝗻𝗱𝗼 𝗹𝗼 𝗽𝘂𝗯𝗹𝗶𝗰𝗮. Para quien toma decisiones técnicas, esto es un problema de gobernanza antes que una noticia de asombro.\n\n#ScottAaronson #OpenAI #Criptografía #Matemáticas\n\nhttps://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it"
+      }
+    },
+    {
+      "rank": 13,
+      "category": "industria",
+      "title": "Microsoft detalla cómo grupos estatales usan el framework ARTEX para automatizar ataques",
+      "summary": "Microsoft ha publicado la arquitectura de ARTEX, un framework open source de pentesting con IA que encadena agentes para reconocimiento, robo de credenciales y explotación con muy poca intervención humana. Grupos respaldados por China y Corea del Norte, además de organizaciones criminales, ya lo usan desde su publicación en julio. La recomendación defensiva pasa por honeypots y señuelos de éxito falso.",
+      "why_it_matters": "Automatiza el ataque a un ritmo que las defensas manuales no pueden seguir.",
+      "url": "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433",
+      "source": "The Register",
+      "social": {
+        "x": "Publicaron un framework open source de pentesting con IA en julio. Hoy lo usan grupos estatales de China y Corea del Norte para automatizar ataques completos.\n\n#Microsoft #ARTEX #Pentesting #OpenSource\nhttps://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433",
+        "linkedin": "La misma herramienta que automatiza un pentest puede encadenar reconocimiento, robo de credenciales y explotación sin que nadie toque el teclado.\n\nMicrosoft ha detallado la arquitectura de ARTEX, un framework open source que orquesta agentes de IA para ejecutar ataques con una intervención humana mínima. Desde su publicación en julio ya lo usan grupos respaldados por China y Corea del Norte, además de organizaciones criminales. 𝗟𝗮 𝘃𝗲𝗹𝗼𝗰𝗶𝗱𝗮𝗱 𝗱𝗲𝗹 𝗮𝘁𝗮𝗾𝘂𝗲 𝘆𝗮 𝗻𝗼 𝗹𝗮 𝗺𝗮𝗿𝗰𝗮 𝗲𝗹 𝗱𝗲𝗳𝗲𝗻𝘀𝗼𝗿, y que la recomendación pase por honeypots y señuelos de falso éxito dice mucho: si tu detección depende de que alguien esté mirando, vas por detrás.\n\n#Microsoft #ARTEX #Pentesting #OpenSource\n\nhttps://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433"
+      }
+    },
+    {
+      "rank": 14,
+      "category": "investigacion",
+      "title": "Neuralink recibe el visto bueno de la FDA para ensayar su implante en pacientes con ELA",
+      "summary": "La FDA ha autorizado a Neuralink a poner en marcha un ensayo pivotal de su interfaz cerebro-ordenador en pacientes con esclerosis lateral amiotrófica. Es el primer estudio de este tipo aprobado para la empresa de Elon Musk.",
+      "why_it_matters": "El implante pasa de demostración a ensayo clínico con opción real de llegar al mercado.",
+      "url": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients",
+      "source": "Engadget",
+      "social": {
+        "x": "Neuralink acaba de pasar de la demo al ensayo clínico. Y los primeros en probarlo van a ser pacientes con ELA.\n\n#Neuralink #FDA #ELA #Neurotech\nhttps://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients",
+        "linkedin": "Neuralink deja de ser una demostración: la FDA le aprueba su primer ensayo pivotal, y será en pacientes con ELA.\n\nHasta ahora lo que habíamos visto eran vídeos con animales y algún voluntario con tetraplejia. Un ensayo pivotal es otra cosa: se diseña con criterios de eficacia medibles para sostener después una solicitud de aprobación. 𝗘𝘀𝗲 𝗲𝘀 𝗲𝗹 𝗰𝗮𝗺𝗯𝗶𝗼 𝗿𝗲𝗮𝗹, 𝗺á𝘀 𝗾𝘂𝗲 𝗲𝗹 𝗵𝗶𝘁𝗼 𝘁𝗲𝗰𝗻𝗼𝗹ó𝗴𝗶𝗰𝗼. Para quien trabaja en neurotech o en dispositivos médicos, el listón se mueve: ya no basta con publicar un paper espectacular, hay que demostrar que el implante funciona y aguanta años dentro de una persona. Y si sale bien, la ELA se convierte en la primera indicación con opción comercial de una interfaz cerebro-ordenador.\n\n#Neuralink #FDA #ELA #Neurotech\n\nhttps://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients"
+      }
+    },
+    {
+      "rank": 15,
+      "category": "investigacion",
+      "title": "Las nuevas manos biónicas ya permiten notar presión",
+      "summary": "Avi Davidson perdió la mano izquierda de adolescente y ahora usa una prótesis conectada a los nervios del antebrazo que le devuelve la sensación de presión. El reportaje repasa cómo es esta nueva generación de manos biónicas y qué falta para que llegue a más pacientes.",
+      "why_it_matters": "La sensación táctil es lo que convierte una prótesis en una herramienta útil para tareas finas.",
+      "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel",
+      "source": "MIT Technology Review",
+      "social": {
+        "x": "Avi Davidson perdió la mano izquierda con 15 años. Ahora su prótesis va conectada a los nervios del antebrazo y vuelve a notar presión.\n\n#Neurotecnología #PrótesisBiónicas #InterfacesNeuronales #MITTechnologyReview\nhttps://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel",
+        "linkedin": "Notar presión parece poco hasta que se convierte en la diferencia entre una prótesis útil y un objeto caro que se queda en el cajón.\n\nAvi Davidson perdió la mano izquierda de adolescente y hoy usa una prótesis conectada a los nervios del antebrazo que le devuelve la sensación de presión, según recoge MIT Technology Review. La clave no es que el hardware sea más capaz, sino que 𝗹𝗮 𝘀𝗲𝗻𝘀𝗮𝗰𝗶ó𝗻 𝘁á𝗰𝘁𝗶𝗹 𝗲𝘀 𝗹𝗼 𝗾𝘂𝗲 𝗰𝗼𝗻𝘃𝗶𝗲𝗿𝘁𝗲 𝗹𝗮 𝗽𝗿ó𝘁𝗲𝘀𝗶𝘀 𝗲𝗻 𝗵𝗲𝗿𝗿𝗮𝗺𝗶𝗲𝗻𝘁𝗮 𝗽𝗮𝗿𝗮 𝘁𝗮𝗿𝗲𝗮𝘀 𝗳𝗶𝗻𝗮𝘀, desde abrocharse un botón hasta coger un vaso sin apretarlo de más. Para los equipos que trabajan en rehabilitación e interfaces neuronales, el cuello de botella ya no está en el laboratorio: está en el coste, la cirugía y el acceso de los pacientes.\n\n#Neurotecnología #PrótesisBiónicas #InterfacesNeuronales #MITTechnologyReview\n\nhttps://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel"
+      }
+    },
+    {
+      "rank": 16,
+      "category": "industria",
+      "title": "La FCC autoriza a SpaceX hasta un millón de satélites para centros de datos de IA en órbita",
+      "summary": "La FCC ha concedido a SpaceX permiso para desplegar hasta un millón de satélites Starmind destinados a procesar cargas de IA como centros de datos en órbita. Los primeros lanzamientos están previstos para 2027 y la constelación completa para 2040.",
+      "why_it_matters": "Es la apuesta más ambiciosa por sacar la computación de IA fuera de la Tierra, aunque hoy siga saliendo más cara que el suelo.",
+      "url": "https://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center",
+      "source": "Engadget",
+      "social": {
+        "x": "La FCC acaba de autorizar a SpaceX un millón de satélites. No son para dar internet: son centros de datos de IA en órbita.\n\n#SpaceX #Starmind #FCC #DataCenters\nhttps://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center",
+        "linkedin": "Un millón de satélites. La FCC ha dado a SpaceX luz verde para desplegar una constelación entera dedicada a procesar cargas de IA en órbita.\n\nLos primeros lanzamientos de Starmind están previstos para 2027 y la constelación completa para 2040. 𝗦𝗮𝗰𝗮𝗿 𝗹𝗮 𝗰𝗼𝗺𝗽𝘂𝘁𝗮𝗰𝗶ó𝗻 𝗱𝗲 𝗹𝗮 𝗧𝗶𝗲𝗿𝗿𝗮 𝗲𝘀𝗾𝘂𝗶𝘃𝗮 𝗹𝗼𝘀 𝗰𝘂𝗲𝗹𝗹𝗼𝘀 𝗱𝗲 𝗯𝗼𝘁𝗲𝗹𝗹𝗮 𝗱𝗲 𝗲𝗻𝗲𝗿𝗴í𝗮 𝘆 𝗿𝗲𝗳𝗿𝗶𝗴𝗲𝗿𝗮𝗰𝗶ó𝗻, pero hoy sigue saliendo más caro que poner los servidores en suelo firme. La pregunta ya no es si es viable técnicamente, sino quién asume el coste de averiguarlo antes que nadie.\n\n#SpaceX #Starmind #FCC #DataCenters\n\nhttps://www.engadget.com/2329071/spacex-gets-fcc-approval-to-deploy-1-million-satellites-for-its-ai-orbital-data-center"
+      }
+    },
+    {
+      "rank": 17,
+      "category": "lanzamientos",
+      "title": "Ladybird entra en alpha con builds para macOS y Linux",
+      "summary": "El navegador independiente Ladybird ya tiene versión alpha con builds descargables para macOS y Linux. Usa un motor propio y sus responsables advierten de que no hay garantías de seguridad, aunque las primeras pruebas lo ven más estable de lo que sugiere la etiqueta.",
+      "why_it_matters": "Es el intento más serio en años de romper el duopolio de motores entre Chromium y Gecko.",
+      "url": "https://www.theregister.com/software/2026/11/26/indie-web-browser-ladybird-enters-alpha-testing/5311914",
+      "source": "The Register",
+      "social": {
+        "x": "Chromium y Gecko llevan años sin rival. Ladybird ya tiene alpha descargable, motor propio y un aviso incómodo: no garantiza seguridad.\n\n#Ladybird #Chromium #Gecko #Navegadores\nhttps://www.theregister.com/software/2026/11/26/indie-web-browser-ladybird-enters-alpha-testing/5311914",
+        "linkedin": "Durante dos décadas, casi todo navegador nuevo era Chromium con otra piel. Ladybird acaba de publicar su primera alpha con builds para macOS y Linux y un motor propio, el primer intento serio en años de romper el duopolio de motores.\n\nEl aviso es explícito: 𝗻𝗼 𝗵𝗮𝘆 𝗴𝗮𝗿𝗮𝗻𝘁í𝗮𝘀 𝗱𝗲 𝘀𝗲𝗴𝘂𝗿𝗶𝗱𝗮𝗱, así que no es un navegador para el día a día. Aun así, quienes lo han probado lo describen como más estable de lo que sugiere la etiqueta, y eso ya es noticia en un sector donde Gecko lleva años en minoría.\n\nSi desarrollas para web, merece la pena seguirle la pista: un tercer motor obliga a negociar los estándares en lugar de aceptarlos tal como los dicta quien tiene cuota.\n\n#Ladybird #Chromium #Gecko #Navegadores\n\nhttps://www.theregister.com/software/2026/11/26/indie-web-browser-ladybird-enters-alpha-testing/5311914"
+      }
+    },
+    {
+      "rank": 18,
+      "category": "industria",
+      "title": "NVIDIA frena los envíos de servidores a Malasia, Singapur, Tailandia e Indonesia",
+      "summary": "NVIDIA ha pedido a socios como Dell y Supermicro que pausen los envíos de servidores a esos cuatro países mientras revisa si cumplen los controles de exportación de EE. UU. La medida llega tras endurecerse las reglas contra el acceso chino y ya hay miles de chips B300 buscando comprador.",
+      "why_it_matters": "El veto tecnológico deja de ser un asunto bilateral y reordena las rutas del hardware de IA en Asia.",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+      "source": "TechCrunch",
+      "social": {
+        "x": "¿Y si el chip de IA más buscado del mundo no puede llegar a su destino? NVIDIA frena envíos a cuatro países de Asia y hay miles de B300 buscando comprador.\n\n#NVIDIA #B300 #ExportControls #Supermicro\nhttps://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+        "linkedin": "Suspender envíos a Malasia, Singapur, Tailandia e Indonesia no es un detalle logístico: es la primera vez que NVIDIA reconoce en voz alta que la ruta asiática del hardware de IA está pinchada.\n\nLa compañía ha pedido a Dell y Supermicro que pausen los servidores mientras revisa si cumplen los controles de exportación de EE. UU., y el efecto inmediato es que 𝗺𝗶𝗹𝗲𝘀 𝗱𝗲 𝗰𝗵𝗶𝗽𝘀 𝗕𝟯𝟬𝟬 𝘀𝗲 𝗾𝘂𝗲𝗱𝗮𝗻 𝘀𝗶𝗻 𝗱𝗲𝘀𝘁𝗶𝗻𝗼 𝗰𝗹𝗮𝗿𝗼. Hasta ahora el veto se leía como un pulso bilateral entre Washington y Pekín; cuando alcanza a cuatro países que no son parte del conflicto, el mapa se reordena para todos. Cualquier equipo que esté planificando clústeres en la región debería asumir plazos menos previsibles y empezar a preguntar por rutas alternativas antes de que se las asignen a otro.\n\n#NVIDIA #B300 #ExportControls #Supermicro\n\nhttps://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia"
+      }
+    },
+    {
+      "rank": 19,
+      "category": "industria",
+      "title": "1Password sufre una intrusión: roban código fuente y datos de clientes, pero no las bóvedas",
+      "summary": "1Password ha confirmado que un atacante entró en sus sistemas, se llevó código fuente y datos de clientes, y plantó código malicioso en servicios internos. La empresa asegura que las bóvedas y las contraseñas no se han visto comprometidas.",
+      "why_it_matters": "Recuerda que la seguridad de un gestor de contraseñas depende tanto de su cifrado como de la de sus empleados.",
+      "url": "https://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe",
+      "source": "Engadget",
+      "social": {
+        "x": "1Password admite que un atacante entró en sus sistemas y se llevó código fuente y datos de clientes. Las bóvedas, asegura, siguen intactas.\n\n#1Password #Ciberseguridad #GestoresDeContraseñas\nhttps://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe",
+        "linkedin": "1Password confirma la intrusión que cualquier gestor de contraseñas teme: código fuente y datos de clientes fuera, y código malicioso plantado en servicios internos. Las bóvedas y las contraseñas, según la empresa, no se han visto comprometidas.\n\nEl matiz tranquiliza, pero conviene leerlo con calma. Un password manager se juega la reputación en dos capas: el cifrado del producto y la higiene de su propia plantilla, y aquí ha fallado la segunda. 𝗟𝗮 𝗰𝗼𝗻𝗳𝗶𝗮𝗻𝘇𝗮 𝗲𝗻 𝘂𝗻 𝗴𝗲𝘀𝘁𝗼𝗿 𝗱𝗲 𝗰𝗼𝗻𝘁𝗿𝗮𝘀𝗲ñ𝗮𝘀 𝘆𝗮 𝗻𝗼 𝗱𝗲𝗽𝗲𝗻𝗱𝗲 𝘀𝗼𝗹𝗼 𝗱𝗲 𝘀𝘂 𝗰𝗿𝗶𝗽𝘁𝗼𝗴𝗿𝗮𝗳í𝗮, 𝘀𝗶𝗻𝗼 𝗱𝗲 𝗾𝘂𝗶é𝗻 𝗰𝗼𝗻𝘁𝗿𝗼𝗹𝗮 𝗹𝗮 𝗶𝗻𝗳𝗿𝗮𝗲𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗮 𝗽𝗼𝗿 𝗱𝗲𝘁𝗿á𝘀. Si tu equipo lo usa, toca revisar la rotación de credenciales internas y los registros de acceso esta semana.\n\n#1Password #Ciberseguridad #GestoresDeContraseñas\n\nhttps://www.engadget.com/2329013/1password-hacked-but-users-vaults-are-safe"
+      }
+    }
+  ],
+  "repos": [
+    {
+      "name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Infraestructura de datos pensada para agentes: busca, hace scraping y accede a más de 550 proveedores desde una sola API. Es una de las maneras más cómodas de dar a tu agente web limpia y lista para consumir.",
+      "language": "TypeScript",
+      "stars": 210891,
+      "social": {
+        "x": "210k estrellas para el repo que convierte cualquier web en datos limpios para tu agente: scraping, búsqueda y +550 proveedores con una sola API.\n\n#Firecrawl #TypeScript #OpenSource #WebScraping\nhttps://github.com/firecrawl/firecrawl",
+        "linkedin": "TU AGENTE NO TIENE UN PROBLEMA DE MODELO. TIENE UN PROBLEMA DE DATOS.\n\nLa mayoría de proyectos se atascan siempre en el mismo punto: la web está llena de HTML sucio, JavaScript por todas partes y páginas que cambian cada semana. Antes de razonar, el agente necesita materia prima fiable, y ahí es donde se cae la demo.\n\nFirecrawl ataca justo esa capa. 𝗨𝗻𝗮 𝘀𝗼𝗹𝗮 𝗔𝗣𝗜 𝗽𝗮𝗿𝗮 𝗯𝘂𝘀𝗰𝗮𝗿, 𝗵𝗮𝗰𝗲𝗿 𝘀𝗰𝗿𝗮𝗽𝗶𝗻𝗴 𝘆 𝗮𝗰𝗰𝗲𝗱𝗲𝗿 𝗮 𝗺á𝘀 𝗱𝗲 𝟱𝟱𝟬 𝗽𝗿𝗼𝘃𝗲𝗲𝗱𝗼𝗿𝗲𝘀 𝗱𝗲 𝗱𝗮𝘁𝗼𝘀, sin montar tu propio stack de extracción. Y es open source, con más de 210.000 estrellas en GitHub.\n\n→ Scraping de páginas con JavaScript renderizado, sin gestionar navegadores por tu cuenta\n→ Búsqueda web devolviendo resultados que el agente puede consumir directamente\n→ Salida limpia y lista para el prompt, sin parsear HTML a mano\n→ Más de 550 proveedores accesibles desde la misma interfaz\n→ TypeScript, así que el tipado y el SDK encajan sin fricción\n\nSi estás construyendo agentes, guarda este post: la diferencia entre un prototipo y un producto que aguanta en producción suele estar en la calidad de los datos, no en el modelo.\n\nTe dejo el repo abajo.\n\n#Firecrawl #TypeScript #OpenSource #WebScraping\n\nhttps://github.com/firecrawl/firecrawl"
+      }
+    },
+    {
+      "name": "zhouxiaoka/autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "Alternativa open source a OpusClip que funciona en local: metes un podcast, una entrevista o una clase larga y te devuelve vídeos verticales con subtítulos, portada y texto de publicación para TikTok, Reels o Shorts. Trae servidor MCP, así que se puede integrar en tu propio flujo con agentes.",
+      "language": "Python",
+      "stars": 16895,
+      "social": {
+        "x": "OpusClip te cobra suscripción por cada clip. Este repo lo hace en tu máquina, gratis y con servidor MCP: 16.895 estrellas.\n\n#autoclip #Python #OpenSource #GitHub\nhttps://github.com/zhouxiaoka/autoclip",
+        "linkedin": "OPUSCLIP TE COBRA UNA SUSCRIPCIÓN. ESTE REPO HACE LOS CLIPS EN TU ORDENADOR Y ES OPEN SOURCE.\n\nLe metes un podcast, una entrevista o una clase de dos horas y te devuelve vídeos verticales con subtítulos, portada y texto de publicación listos para TikTok, Reels o Shorts. La diferencia con el producto comercial no es solo el precio: 𝘁𝗼𝗱𝗼 𝗲𝗹 𝗽𝗿𝗼𝗰𝗲𝘀𝗼 𝗼𝗰𝘂𝗿𝗿𝗲 𝗲𝗻 𝘁𝘂 𝗺á𝗾𝘂𝗶𝗻𝗮, así que el material no se sube a ningún servicio de terceros.\n\n→ Corta el vídeo largo y detecta los momentos que funcionan en formato vertical.\n→ Subtítulos, portada y copy de publicación en la misma pasada.\n→ Trae servidor MCP, así que lo enchufas a tus agentes y automatizas el flujo completo.\n→ Python, self-hosted y 16.895 estrellas en GitHub.\n\nSi editas contenido de formato largo, esto te ahorra la suscripción y el trabajo manual de montar cada clip. Guarda el post: te dejo el repo abajo.\n\n#autoclip #Python #OpenSource #GitHub\n\nhttps://github.com/zhouxiaoka/autoclip"
+      }
+    },
+    {
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "Framework de skills y metodología para que tus agentes de código sigan un proceso definido en vez de improvisar en cada tarea. Merece la pena si ya trabajas con agentes tipo Claude Code o Cursor y quieres resultados más consistentes.",
+      "language": "Shell",
+      "stars": 327445,
+      "social": {
+        "x": "Claude Code y Cursor improvisan cada vez que les pides algo. Superpowers les impone un framework de skills para que sigan un proceso. 327k estrellas en GitHub.\n\n#superpowers #ClaudeCode #OpenSource #GitHub\nhttps://github.com/obra/superpowers",
+        "linkedin": "TU AGENTE DE CÓDIGO NO NECESITA MÁS CONTEXTO. NECESITA UN PROCESO.\n\nClaude Code, Cursor o el que uses responden bien a la primera y regular a la quinta. El problema casi nunca es el modelo: es que cada tarea arranca desde cero, sin método, y ahí es donde entra superpowers.\n\nLa propuesta es sencilla: en vez de reescribir el prompt cada vez, instalas 𝘂𝗻 𝗳𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸 𝗱𝗲 𝘀𝗸𝗶𝗹𝗹𝘀 𝗿𝗲𝘂𝘁𝗶𝗹𝗶𝘇𝗮𝗯𝗹𝗲𝘀 que el agente carga cuando toca. Proceso definido en lugar de improvisación.\n\n→ Skills empaquetadas por tarea, para que el agente sepa qué pasos seguir y en qué orden\n→ Metodología común, para que dos sesiones distintas no acaben dando resultados distintos\n→ Pensado para los agentes con los que ya trabajas, sin cambiar tu flujo\n→ Todo en Shell y open source, así que puedes leerlo, adaptarlo y quedártelo\n\nSi usas agentes a diario, la diferencia entre improvisar y seguir un proceso se nota en la consistencia, no en la primera respuesta.\n\nGuarda este post para la próxima vez que tu sesión vuelva a empezar de cero. Te dejo el repo abajo.\n\n#superpowers #ClaudeCode #OpenSource #GitHub\n\nhttps://github.com/obra/superpowers"
+      }
+    },
+    {
+      "name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "Convierte cualquier herramienta de línea de comandos en algo que un agente puede manejar, con un hub central de CLIs como punto de partida. Práctico para que tus agentes no dependan siempre de las mismas cuatro APIs de costumbre.",
+      "language": "Python",
+      "stars": 66321,
+      "social": {
+        "x": "Tu agente no necesita otra API de pago: este repo convierte cualquier CLI en una herramienta que puede manejar. 66k estrellas y un hub central para empezar.\n\n#CLIAnything #AgentesIA #Python #OpenSource\nhttps://github.com/HKUDS/CLI-Anything",
+        "linkedin": "TU AGENTE NO NECESITA OTRA API: NECESITA SABER USAR LA TERMINAL.\n\nLa mayoría de agentes que se montan hoy acaban enchufados a las mismas cuatro APIs de siempre. El problema no es la falta de herramientas, es que todo lo que ya funciona por línea de comandos (git, ffmpeg, docker, gh) queda fuera de su alcance.\n\nCLI-Anything resuelve justo eso: convierte cualquier herramienta de línea de comandos en algo que un agente puede manejar, y añade un hub central de CLIs como punto de partida para no empezar de cero.\n\n→ Envoltorio sobre cualquier CLI existente, sin reescribir la herramienta\n→ Hub central para descubrir y reutilizar CLIs ya adaptadas\n→ Escrito en Python, fácil de integrar en tu stack actual\n→ 66k estrellas: hay comunidad detrás, no es un experimento de una tarde\n\nLa idea que me quedo: 𝗹𝗮 𝗶𝗻𝘁𝗲𝗿𝗳𝗮𝘇 𝗺á𝘀 𝘂𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗽𝗮𝗿𝗮 𝘂𝗻 𝗮𝗴𝗲𝗻𝘁𝗲 𝗻𝗼 𝗲𝘀 𝘂𝗻𝗮 𝗔𝗣𝗜 𝗻𝘂𝗲𝘃𝗮, 𝗲𝘀 𝗹𝗮 𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝗹 𝗾𝘂𝗲 𝘆𝗮 𝘁𝗶𝗲𝗻𝗲𝘀 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮𝗻𝗱𝗼.\n\nGuarda el post para cuando tu agente se quede sin herramientas con las que trabajar.\n\n#CLIAnything #AgentesIA #Python #OpenSource\n\nhttps://github.com/HKUDS/CLI-Anything"
+      }
+    },
+    {
+      "name": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "Te lleva de cero a entrenar tu propio modelo de lenguaje de 64M parámetros en unas dos horas, con código y datos incluidos. Es la vía más directa para entender cómo se entrena un LLM sin gastarte una fortuna en GPUs.",
+      "language": "Python",
+      "stars": 71597,
+      "social": {
+        "x": "En unas dos horas puedes entrenar tu propio LLM de 64M parámetros. Código y datos incluidos, sin fundir la tarjeta gráfica. Y ya suma 71k estrellas.\n\n#minimind #LLM #OpenSource #Python\nhttps://github.com/jingyaogong/minimind",
+        "linkedin": "ENTRENA TU PROPIO LLM EN UNA TARDE, NO EN UN MÁSTER.\n\nCasi todos consumimos modelos ajenos por API. Muy pocos han visto el proceso completo: los datos, el bucle de entrenamiento y la primera pérdida que baja de verdad. minimind está pensado justo para ese hueco, y lo hace con un modelo de 64M de parámetros que puedes entrenar en unas dos horas sin gastarte una fortuna en GPUs.\n\n→ Código y datos incluidos: clonas el repo y tienes todo lo necesario para empezar, sin montar nada por tu cuenta.\n→ 64M de parámetros: el tamaño justo para que el entrenamiento termine en una sesión y puedas ver resultados reales.\n→ Python, el stack que ya conoces, sin dependencias raras ni infraestructura exótica.\n→ La vía más directa para entender qué pasa dentro de un transformer cuando lo entrenas tú.\n\nLa idea clave: 𝗻𝗼 𝗻𝗲𝗰𝗲𝘀𝗶𝘁𝗮𝘀 𝘂𝗻 𝗰𝗹𝘂𝘀𝘁𝗲𝗿 𝗽𝗮𝗿𝗮 𝗮𝗽𝗿𝗲𝗻𝗱𝗲𝗿 𝗰ó𝗺𝗼 𝘀𝗲 𝗲𝗻𝘁𝗿𝗲𝗻𝗮 𝘂𝗻 𝗟𝗟𝗠, necesitas un modelo pequeño y un repo que no te esconda nada.\n\nGuarda el post para el fin de semana que quieras dejar de usar modelos y empezar a entenderlos. Te dejo el repositorio abajo.\n\n#minimind #LLM #OpenSource #Python\n\nhttps://github.com/jingyaogong/minimind"
+      }
+    }
+  ],
+  "lecturas": [
+    {
+      "title": "Cómo 43 segundos de fallo de red se convirtieron en 24 horas de caída en GitHub",
+      "url": "https://medium.com/engineering-playbook/how-github-turned-a-43-second-network-failure-into-a-24-hour-database-recovery-bf941447f3c3",
+      "source": "Medium: Software Engineering",
+      "summary": "Análisis del incidente de 2018 en GitHub: replicación de MySQL, failover automático y por qué la alta disponibilidad puede amplificar un problema pequeño. Detalla qué decisiones de recuperación alargaron la interrupción y qué se aprendió de ellas. Útil para quien diseñe bases de datos con conmutación automática o tenga que preparar un plan de disaster recovery.",
+      "tema": "arquitectura"
+    },
+    {
+      "title": "Tareas en segundo plano en Python: reintentos, idempotencia y qué hacer cuando algo falla",
+      "url": "https://ezenwachristianchimeremeze.medium.com/designing-reliable-background-jobs-in-python-retries-idempotency-and-failure-recovery-7edde3ac176e",
+      "source": "Medium: Software Engineering",
+      "summary": "Guía para sacar del request el trabajo que no debería bloquearlo: envío de correos, procesado de ficheros, generación de informes. Cubre reintentos con backoff, idempotencia para no duplicar efectos y recuperación tras fallos parciales. Aporta patrones que se aplican a cualquier cola o worker, no solo a Python.",
+      "tema": "programacion"
+    },
+    {
+      "title": "Qué le pasa a una fila de la base de datos desde que la insertas hasta que la lees",
+      "url": "https://blog.bytebytego.com/p/the-life-of-a-database-row-what-really",
+      "source": "ByteByteGo",
+      "summary": "Recorrido por el ciclo de vida de una fila: inserción, actualización, índices, bloques en disco, WAL y recuperación. Explica dónde acaba el dato físicamente y por qué ciertas operaciones cuestan lo que cuestan. Sirve para razonar sobre rendimiento y saber qué mirar cuando una consulta va lenta.",
+      "tema": "datos"
+    },
+    {
+      "title": "Tus usuarios leen una cuarta parte: diseñar para quien solo escanea",
+      "url": "https://medium.muz.li/users-dont-read-here-s-how-i-design-for-people-who-only-scan-7f9026c3e554?source=rss------ux-5",
+      "source": "Medium: UX",
+      "summary": "Parte de un hecho incómodo: la mayoría de la gente recorre la página en diagonal y lee muy poco de lo que escribimos. Propone jerarquía visual, titulares que se entiendan solos y bloques cortos para que el contenido funcione sin lectura lineal. Sirve para revisar interfaces y textos con la mirada de quien solo pasa por encima.",
+      "tema": "diseno"
+    },
+    {
+      "title": "Los arreglos contra prompt injection necesitan tests de regresión",
+      "url": "https://stackoverflow.blog/2026/11/24/prompt-injection-fixes-need-regression-tests",
+      "source": "Stack Overflow Blog",
+      "summary": "Plantea tratar la seguridad de los prompts como cualquier otro cambio de código: con pruebas que fallen si el agujero vuelve a abrirse. Explica por qué un parche manual se rompe en cuanto cambia el modelo, el prompt o el contexto. Útil para equipos que ya tienen LLMs en producción y quieren una red de seguridad de verdad.",
+      "tema": "ia"
+    },
+    {
+      "title": "Publicar en tu web, dev.to, Hashnode y Medium sin canibalizar el SEO con canonical",
+      "url": "https://medium.com/@boogado66/cross-posting-to-dev-to-hashnode-and-medium-with-a-canonical-url-abe0bdffe8ca",
+      "source": "Medium: Web Development",
+      "summary": "Explica cómo publicar primero en el sitio propio y replicar después en otras plataformas con una etiqueta canonical que apunte al original. Detalla qué hace cada plataforma con esa URL y cómo evitar que la copia compita con la fuente. Práctico para quien mantiene un blog técnico y reparte el contenido.",
+      "tema": "web"
+    }
+  ]
+}
